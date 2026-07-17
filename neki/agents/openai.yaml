@@ -1,0 +1,6 @@
+interface:
+  display_name: "NeKI — Newsletter Knowledge Index"
+  short_description: "Find curated Apple-platform developer reading"
+  icon_small: "./assets/neki.png"
+  icon_large: "./assets/neki.png"
+  default_prompt: "Use $neki to find curated third-party Apple-platform developer reading for this task."
