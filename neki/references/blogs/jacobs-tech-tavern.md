@@ -3,46 +3,14 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://blog.jacobstechtavern.com/archive](https://blog.jacobstechtavern.com/archive)
-- Last collected: `2026-07-17T21:08:36Z`
-- Indexed entries: **152**
-
-## [The history (and future) of technology form factors](https://blog.jacobstechtavern.com/p/technology-form-factors)
-
-- Published: `2026-07-15T15:01:49.193Z`
-
-**Topics:** Concurrency
-
-**NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
-
-## [Apple Photos and Face Recognition in 512-D Hyperspace](https://blog.jacobstechtavern.com/p/apple-photos-and-face-recognition)
-
-- Published: `2026-07-07T15:03:22.051Z`
-
-**Sections:** Contents · The Sample Project · Step #1: Finding Faces with Vision
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [UIKit for scroll performance!? Real engineers use Metal.](https://blog.jacobstechtavern.com/p/real-engineers-use-metal)
-
-- Published: `2026-06-23T15:02:39.953Z`
-
-**Topics:** Performance · UIKit
-
-**NeKI brief:** Troubleshooting-oriented guidance for Performance and UIKit. Use it when investigating a concrete implementation or performance problem.
-
-## [How did Apple cut launch time by 30% in iOS 27?](https://blog.jacobstechtavern.com/p/ios-27-launch-time)
-
-- Published: `2026-06-17T15:02:36.831Z`
-
-**Sections:** Launch Theory · Reading the Launch Trace · I’m not throwing away my shot 🎯
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+- Last collected: `2026-07-22T14:10:28Z`
+- Indexed entries: **88**
 
 ## [Apple's "Snow Leopard" Year: WWDC 2026 Roundup](https://blog.jacobstechtavern.com/p/wwdc-2026-roundup)
 
 - Published: `2026-06-11T12:03:43.079Z`
 
-**NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+**NeKI brief:** Summarizes the author's WWDC 2026 takeaways across Apple-platform announcements and developer tooling. Use it as a discovery index before reading the corresponding sessions and documentation, not as an authoritative feature reference.
 
 ## [Apple Chip Architecture from 1977 to 2026](https://blog.jacobstechtavern.com/p/apple-chip-architecture)
 
@@ -50,45 +18,17 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Architecture
 
-**NeKI brief:** Third-party technical reading on Architecture. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Contents · 1977 · 1984
 
-## [My Secret Plot to Kill SwiftUI - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/my-secret-plot-to-kill-swiftui)
-
-- Published: `2026-06-01T15:02:17.028Z`
-
-**Topics:** Swift · SwiftUI
-
-**Sections:** Jacob’s Tech Tavern · My Secret Plot to Kill SwiftUI · Contents
-
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
-
-## [Reliable Data Uploading on iOS](https://blog.jacobstechtavern.com/p/reliable-data-uploading-on-ios)
-
-- Published: `2026-05-20T15:01:48.323Z`
-
-**Sections:** Contents · Level 1: Fire-and-Forget · Level 2: Retry Discipline
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Connects Apple chip evolution to mobile software constraints, explaining why CPU, GPU, neural, memory, and power architecture influence rendering, machine-learning, and performance choices beyond simple benchmark comparisons.
 
 ## [Touch to Pixels: UI Pipeline Internals on iOS](https://blog.jacobstechtavern.com/p/ui-pipeline-internals)
 
 - Published: `2026-05-13T15:03:01.053Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Handling Physical Touch · Core Animation inside your app · Compositing, Animating, and Displaying
 
-## [Jacob's Tech Tavern v3.0](https://blog.jacobstechtavern.com/p/jacobs-tech-tavern-v30)
-
-- Published: `2026-05-12T14:38:12.501Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [The 3 Levels of Swift Concurrency](https://blog.jacobstechtavern.com/p/3-levels-of-concurrency)
-
-- Published: `2026-05-06T08:31:20.112Z`
-
-**Topics:** Concurrency · Swift
-
-**NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Trace an iOS interaction from event delivery through main-thread state updates, layout, Core Animation transaction commit, render-server work, and GPU presentation. Use that pipeline to classify a hitch as input, CPU, layout, transaction, or rendering work before optimizing the wrong stage.
 
 ## [URLSession to Electrons: How Networking works on iOS](https://blog.jacobstechtavern.com/p/urlsession-to-electrons)
 
@@ -98,67 +38,31 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · Contents · What is the Internet?
 
-**NeKI brief:** Third-party technical reading on Networking. Use it as a research lead and validate conclusions against the original source.
-
-## [My agentic engineering workflow at an AI unicorn 🦄](https://blog.jacobstechtavern.com/p/ios-at-an-ai-unicorn)
-
-- Published: `2026-04-21T15:03:05.129Z`
-
-**Topics:** AI Development
-
-**NeKI brief:** Third-party technical reading on MCP. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** A layered networking deep dive that follows URLSession requests down through the Internet stack to the underlying hardware.
 
 ## [The 7 Deadly Sins of Cargo Culting](https://blog.jacobstechtavern.com/p/the-7-deadly-sins-of-cargo-culting)
 
 - Published: `2026-04-14T15:03:03.506Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**Sections:** 👑 Pride · 🤑 Greed · 🧨 Wrath
+
+**NeKI brief:** Adopt an iOS pattern only after understanding its data ownership, lifecycle, concurrency, and failure assumptions. Replace copied architectural rituals with a concrete problem statement and observable success criteria, so abstractions remain justified when the codebase or platform changes.
 
 ## [Survive the AI tech hiring winter ⛄️](https://blog.jacobstechtavern.com/p/survive-the-ai-tech-hiring-winter)
 
 - Published: `2026-04-06T15:03:00.398Z`
 
-**NeKI brief:** Third-party technical reading on AI Development. Use it as a research lead and validate conclusions against the original source.
-
-## [Oh sh*t, I have an "iOS coding" interview and don't know what to practice](https://blog.jacobstechtavern.com/p/ios-coding-interview)
-
-- Published: `2026-03-31T15:00:44.036Z`
-
-**Sections:** Categories of “iOS Coding” exercise
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [The SwiftUI Design System War: Composition vs Progressive Disclosure](https://blog.jacobstechtavern.com/p/the-design-system-war)
-
-- Published: `2026-03-17T16:02:40.665Z`
-
-**Topics:** Swift · SwiftUI
-
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** A career-focused perspective on the AI-era hiring market; use it for individual context, not technical decision-making.
 
 ## [Is SwiftUI finally as fast as UIKit in iOS 26?](https://blog.jacobstechtavern.com/p/swiftui-vs-uikit)
 
 - Published: `2026-03-09T16:01:18.122Z`
 
-**Topics:** Swift · SwiftUI · UIKit
+**Topics:** Swift · SwiftUI · Performance · UIKit · Testing
 
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Designing the most ridiculous scroll view I can imagine · A fair test · SwiftUI performance (feat. List)
 
-## [iOS System Design interviews in 2026](https://blog.jacobstechtavern.com/p/system-design-interview)
-
-- Published: `2026-03-03T16:01:49.487Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [The Most Complicated System I Ever Worked On](https://blog.jacobstechtavern.com/p/the-most-complex-system)
-
-- Published: `2026-02-17T16:01:15.332Z`
-
-**Topics:** Persistence & Synchronisation
-
-**Sections:** Jacob’s Tech Tavern · Continue reading this post for free, courtesy of Jacob Bartlett.
-
-**NeKI brief:** Third-party technical reading on Persistence & Synchronisation. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Compare SwiftUI and UIKit performance with equivalent view hierarchies, realistic data, and measured scrolling or interaction workloads. Use profiling evidence to locate layout, diffing, or rendering bottlenecks, then bridge to UIKit only where a specific capability or performance constraint requires it.
 
 ## [Agentic AI Engineering Workflows for iOS in 2026](https://blog.jacobstechtavern.com/p/agentic-ai-2026)
 
@@ -166,57 +70,27 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** AI Development
 
-**NeKI brief:** Third-party technical reading on MCP. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Contents · The State of the Art · Cargo-Culting the Creator of Claude Code
 
-## [My (deeply stressful) big tech interview grind](https://blog.jacobstechtavern.com/p/interview-grind)
-
-- Published: `2026-02-03T16:02:51.860Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [Xcode Organizer: Your Performance Cheat Sheet](https://blog.jacobstechtavern.com/p/xcode-organiser)
-
-- Published: `2026-01-20T16:01:22.837Z`
-
-**Topics:** Xcode · Performance
-
-**Sections:** The Xcode Organizer
-
-**NeKI brief:** Troubleshooting-oriented guidance for Xcode. Use it when investigating a concrete implementation or performance problem.
+**NeKI brief:** Frames agentic iOS workflows around bounded tool access, reviewable changes, and feedback loops, helping teams distinguish useful automation from uncontrolled code generation and retain ownership of architecture, testing, and release decisions.
 
 ## [How to design an SDK to handle $10bn in transactions](https://blog.jacobstechtavern.com/p/revenuecat-sdk)
 
 - Published: `2026-01-12T16:01:24.245Z`
 
-**NeKI brief:** Implementation-oriented guidance for Apple-platform development. Use it when planning or building a related feature.
+**Sections:** Contents · High-Level System Design · How to make a Purchase
 
-## [10 techniques to pass 90% of algorithmic interviews](https://blog.jacobstechtavern.com/p/rage-against-the-leetcode)
-
-- Published: `2026-01-06T16:01:38.296Z`
-
-**Sections:** Contents · The 10 Techniques
-
-**NeKI brief:** Implementation-oriented guidance for Apple-platform development. Use it when planning or building a related feature.
-
-## [🎄 I just gifted you 14 days' membership](https://blog.jacobstechtavern.com/p/i-just-gifted-you-14-days-membership)
-
-- Published: `2025-12-19T17:00:03.840Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Explains SDK design under high transaction volume through resilient networking, idempotency, caching, observability, and compatibility boundaries, showing how a client library protects product flows while backend systems absorb scale and failure.
 
 ## [Copy-on-write teaches you EVERYTHING about Swift Internals 🐮](https://blog.jacobstechtavern.com/p/copy-on-write-swift-internals)
 
 - Published: `2025-12-15T16:01:29.247Z`
 
-**Topics:** Swift
+**Topics:** Swift · Performance
 
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Journey to the centre of the 🐮 · What is 🐮? · Value and reference semantics
 
-## [Ancient Secrets of the Objective-C Runtime](https://blog.jacobstechtavern.com/p/objc-runtime-internals)
-
-- Published: `2025-12-09T16:02:35.130Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Uses copy-on-write storage to expose Swift value semantics, uniqueness checks, heap allocation, and mutation behavior, helping developers reason about when apparently cheap collection copies actually trigger expensive duplication.
 
 ## [Method Dispatch in Swift: The Complete Guide](https://blog.jacobstechtavern.com/p/swift-method-dispatch)
 
@@ -224,45 +98,35 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift
 
-**NeKI brief:** Implementation-oriented guidance for Swift. Use it when planning or building a related feature.
+**Sections:** Inlining · Static Dispatch · Dynamic Dispatch
 
-## [Inside Meta’s “iOS System Design” Interview](https://blog.jacobstechtavern.com/p/ios-system-design)
-
-- Published: `2025-11-25T16:01:46.624Z`
-
-**Sections:** Jacob’s Tech Tavern · iOS-Specific System Design · Continue reading this post for free, courtesy of Jacob Bartlett.
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Choose Swift dispatch with awareness of the call site: class inheritance, protocol requirements, protocol-extension members, generics, and final declarations do not share identical dispatch behavior. Diagnose surprising overrides by checking the static type and witness-table boundary before applying performance-oriented modifiers.
 
 ## [When To Kill A Project](https://blog.jacobstechtavern.com/p/when-to-kill-a-project)
 
 - Published: `2025-11-20T16:01:51.473Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**Topics:** Swift · Swift Package Manager
+
+**Sections:** iOS Dev Survey · Tackle Fishing · AppReviewTimes
+
+**NeKI brief:** Discusses signals and decision criteria for ending an app project when its costs, risks, or opportunity trade-offs no longer make sense. Useful as a product-engineering reflection before continuing sunk-cost work or reallocating a small team.
 
 ## [2025: The Year SwiftUI Died](https://blog.jacobstechtavern.com/p/the-year-swiftui-died)
 
 - Published: `2025-11-17T16:03:10.524Z`
 
-**Topics:** Swift · SwiftUI
+**Topics:** Swift · SwiftUI · UIKit · Architecture
 
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+**Sections:** 2019: Early adoption · 2025: The summer everything changed · Why do people use iOS?
 
-## [Swift Concurrency Training Kata - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/swift-concurrency-kata)
-
-- Published: `2025-11-11T16:00:50.356Z`
-
-**Topics:** Concurrency · Swift
-
-**Sections:** Jacob’s Tech Tavern · Swift Concurrency Training Kata · Keep reading with a 7-day free trial
-
-**NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Examines SwiftUI production pain points through a 2025 retrospective, separating framework limitations from architectural misuse and identifying when teams should stabilize state, navigation, rendering, and interoperability boundaries instead of blaming declarative UI wholesale.
 
 ## [The Great Connection Pool Meltdown](https://blog.jacobstechtavern.com/p/the-great-connection-pool-meltdown)
 
 - Published: `2025-11-06T16:02:23.569Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Analyses a production connection-pool failure and the cascading effects of saturation, retries, and recovery. Follow it for distributed-systems failure signals that can inform networking diagnostics in mobile backends.
 
 ## [Swift for Android vs. Kotlin Multiplatform](https://blog.jacobstechtavern.com/p/swift-for-android-vs-kmp)
 
@@ -272,19 +136,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** tl;dr · The bit with lots of code to keep you awake · Cross-platform module code
 
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
-
-## [How do researchers reverse-engineer private frameworks?](https://blog.jacobstechtavern.com/p/reverse-engineer-private-frameworks)
-
-- Published: `2025-10-28T16:02:55.430Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [My wife gave me 100 days to make it as an indie creator](https://blog.jacobstechtavern.com/p/my-wife-gave-me-100-days)
-
-- Published: `2025-10-21T18:19:08.609Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Evaluate Swift-for-Android and Kotlin Multiplatform by separating shared domain logic from platform-specific UI, tooling, and operational costs. Treat both as evolving portability strategies, validate their build and debugging workflows early, and avoid assuming shared code removes native platform ownership.
 
 ## [Backend-driven SwiftUI](https://blog.jacobstechtavern.com/p/backend-driven-swiftui)
 
@@ -292,21 +144,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift · SwiftUI
 
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Why would you want Backend-driven UI? · Building backend-driven UI · When Not To Use Backend-driven UI
 
-## [I'm giving away $84,000 in rewards](https://blog.jacobstechtavern.com/p/im-giving-away-84000-in-rewards)
-
-- Published: `2025-10-15T20:58:55.341Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [Total Control of Your Camera Using Pixel Buffer APIs](https://blog.jacobstechtavern.com/p/camera-apis-pixelbuffer)
-
-- Published: `2025-10-14T15:01:34.256Z`
-
-**Sections:** Jacob’s Tech Tavern · Continue reading this post for free, courtesy of Jacob Bartlett.
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Designs backend-driven SwiftUI as a schema-to-component pipeline, separating server-provided configuration from locally owned rendering and interaction rules so remote flexibility does not turn into untyped, untestable view logic.
 
 ## [Make Loading Screens Fun with the SwiftUI Game Engine](https://blog.jacobstechtavern.com/p/swiftui-game-engine)
 
@@ -314,15 +154,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift · SwiftUI
 
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+**Sections:** What is a Game Engine? · Anatomy of the SwiftUI Game Engine · Building a Game: Flappy Bird Clone
 
-## [How are Actors Implemented in Swift?](https://blog.jacobstechtavern.com/p/how-are-swift-actors-implemented)
-
-- Published: `2025-09-30T15:04:02.312Z`
-
-**Topics:** Concurrency · Swift
-
-**NeKI brief:** Implementation-oriented guidance for Swift Concurrency. Use it when planning or building a related feature.
+**NeKI brief:** Build a lightweight SwiftUI loading interaction from explicit game state, timed updates, and composable drawing rather than blocking the main interface. Keep the experience optional and accessible, and separate the animation loop from the real loading task so progress and cancellation remain truthful.
 
 ## [The Terrible Technical Architecture of my First Startup](https://blog.jacobstechtavern.com/p/my-terrible-startup-architecture)
 
@@ -330,13 +164,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Architecture
 
-**NeKI brief:** Third-party technical reading on Architecture. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Era I: Bootstrapping · Era II: Angel Round · What I Should Have Done
 
-## [Building a Launch Time Optimisation System](https://blog.jacobstechtavern.com/p/launch-optimisation)
-
-- Published: `2025-09-16T15:01:38.003Z`
-
-**NeKI brief:** Implementation-oriented guidance for Apple-platform development. Use it when planning or building a related feature.
+**NeKI brief:** Use an early product architecture retrospective to identify where client, backend, data, and deployment boundaries became expensive to change. Introduce modular seams, observability, and migration paths around demonstrated pressure points rather than importing enterprise complexity before the product needs it.
 
 ## [Automate all the things with Swift Subprocess](https://blog.jacobstechtavern.com/p/swift-subprocess)
 
@@ -344,15 +174,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift
 
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+**Sections:** A primer on scripting · Swift Scripting · swift-subprocess
 
-## [Claude Code has made me 50-100% more productive](https://blog.jacobstechtavern.com/p/claude-code-productivity)
-
-- Published: `2025-09-02T15:02:30.684Z`
-
-**Sections:** What actually is Claude Code? · The Claude Code Hype Cycle
-
-**NeKI brief:** Implementation-oriented guidance for Apple-platform development. Use it when planning or building a related feature.
+**NeKI brief:** Uses Swift Subprocess to launch commands, stream standard output and errors, pass structured input, and handle termination, providing a concurrency-aware foundation for developer automation without hand-rolled Process plumbing.
 
 ## [Bits & Side Tables: How Reference Counting Works in Swift](https://blog.jacobstechtavern.com/p/swift-reference-counting)
 
@@ -360,15 +184,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift
 
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Quick primer on the Swift Runtime · Strong References & Bit Counting · Weak References & Side Tables
 
-## [Swift Concurrency's Biggest Unintuitive Gotchas](https://blog.jacobstechtavern.com/p/swift-concurrency-gotchas)
-
-- Published: `2025-08-19T15:01:04.664Z`
-
-**Topics:** Concurrency · Swift
-
-**NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Explains Swift ARC through object metadata, inline reference counts, and side tables, clarifying how strong, weak, and unowned references affect lifetime, performance, and debugging of unexpected retained objects.
 
 ## [Advanced Keyframe Animations in SwiftUI](https://blog.jacobstechtavern.com/p/swiftui-keyframe-animations)
 
@@ -376,15 +194,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift · SwiftUI
 
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Etymology: What is a keyframe? · Under the hood of Keyframes · Practical Keyframe Animations
 
-## [Performance Analytics](https://blog.jacobstechtavern.com/p/performance-analytics)
-
-- Published: `2025-08-05T15:02:47.523Z`
-
-**Topics:** Performance
-
-**NeKI brief:** Troubleshooting-oriented guidance for Performance. Use it when investigating a concrete implementation or performance problem.
+**NeKI brief:** Uses SwiftUI keyframe animation tracks to coordinate multi-property motion over explicit timing segments, making complex transitions inspectable while preserving a clear relationship between animatable state, easing curves, and view updates.
 
 ## [My ADHD vs. the AlarmKit API - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/adhd-vs-alarmkit)
 
@@ -394,17 +206,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · My ADHD vs. the AlarmKit API · How AlarmKit works under the hood
 
-**NeKI brief:** Third-party technical reading on Testing. Use it as a research lead and validate conclusions against the original source.
-
-## [How to Learn the Swift Source Code - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/swift-source-code)
-
-- Published: `2025-07-22T15:02:11.838Z`
-
-**Topics:** Swift
-
-**Sections:** Jacob’s Tech Tavern · How to Learn the Swift Source Code · type(of:) and the Swift Standard Library
-
-**NeKI brief:** Implementation-oriented guidance for Swift. Use it when planning or building a related feature.
+**NeKI brief:** Explores the new AlarmKit API from the perspective of building a real reminder experience and understanding its underlying behavior.
 
 ## [High Performance SwiftData Apps - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/high-performance-swiftdata)
 
@@ -414,17 +216,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · High Performance SwiftData Apps · Diagnosing the Problem
 
-**NeKI brief:** Troubleshooting-oriented guidance for SwiftData. Use it when investigating a concrete implementation or performance problem.
-
-## [The 1-hour Swift Concurrency Course - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/swift-concurrency-course)
-
-- Published: `2025-07-08T15:02:36.460Z`
-
-**Topics:** Concurrency · Swift
-
-**Sections:** Jacob’s Tech Tavern · The 1-hour Swift Concurrency course · Keep reading with a 7-day free trial
-
-**NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Investigates SwiftData performance problems through measurements and diagnosis rather than assuming the model layer is free. Use it to identify query, observation, and persistence costs before changing an app's storage design.
 
 ## [Data: a swift-foundation deep-dive](https://blog.jacobstechtavern.com/p/data-deep-dive)
 
@@ -434,17 +226,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Foundation and swift-foundation · Data · Data Optimisations
 
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
-
-## [Through the Ages: Apple Concurrency APIs](https://blog.jacobstechtavern.com/p/apple-concurrency-apis)
-
-- Published: `2025-06-24T15:02:10.774Z`
-
-**Topics:** Concurrency
-
-**Sections:** Jacob’s Tech Tavern · Continue reading this post for free, courtesy of Jacob Bartlett.
-
-**NeKI brief:** Implementation-oriented guidance for Concurrency. Use it when planning or building a related feature.
+**NeKI brief:** Investigates Foundation Data as a byte-storage abstraction, covering ownership, slicing, mutation, bridging, and binary parsing so performance-sensitive code can avoid accidental copies and unsafe assumptions about contiguous memory.
 
 ## [Real-time systems with Combine and WebSockets](https://blog.jacobstechtavern.com/p/combine-vs-websockets)
 
@@ -452,33 +234,17 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Networking
 
-**NeKI brief:** Third-party technical reading on Networking. Use it as a research lead and validate conclusions against the original source.
+**Sections:** What are WebSockets? · Our App’s WebSocket Service · Connected Thermostat
 
-## [Customised client-side AI with Apple's CLIP models](https://blog.jacobstechtavern.com/p/offline-ai-clip)
-
-- Published: `2025-06-10T15:00:47.230Z`
-
-**NeKI brief:** Third-party technical reading on AI Development. Use it as a research lead and validate conclusions against the original source.
-
-## [Gifts and Growth Hacking](https://blog.jacobstechtavern.com/p/gifts-and-growth-hacking)
-
-- Published: `2025-06-03T20:00:17.574Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Model a WebSocket feed as a stream with explicit connection, decoding, error, cancellation, and reconnection behavior, then compose downstream updates through Combine. Keep transport lifetime separate from UI subscriptions so reconnect policy and backpressure do not become accidental view-state behavior.
 
 ## [I trapped your soul in a trading card (with client-side AI)](https://blog.jacobstechtavern.com/p/i-turned-you-into-a-trading-card)
 
 - Published: `2025-06-02T15:02:23.930Z`
 
-**NeKI brief:** Third-party technical reading on AI Development. Use it as a research lead and validate conclusions against the original source.
+**Sections:** The Concept · Implementing CLIP & client-side AI · Trading Card Graphics
 
-## [The Swift Apple doesn't want you to know](https://blog.jacobstechtavern.com/p/forbidden-swift)
-
-- Published: `2025-05-27T15:02:40.718Z`
-
-**Topics:** Swift
-
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Builds a client-side AI trading-card experience by combining user input, image or model generation, and local presentation, highlighting privacy, prompt handling, and capability constraints when inference occurs on device.
 
 ## [Advanced Swift Concurrency: AsyncStream - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/async-stream)
 
@@ -488,35 +254,17 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · Advanced Swift Concurrency: AsyncStream · Conclusion
 
-**NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
-
-## [Apple Tried To Kill My Startup](https://blog.jacobstechtavern.com/p/apple-tried-to-kill-my-startup)
-
-- Published: `2025-05-13T15:00:33.309Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [Impostor Syndrome and Business Acumen](https://blog.jacobstechtavern.com/p/impostor-syndrome-and-business-acumen)
-
-- Published: `2025-05-06T18:23:17.810Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Explains where AsyncStream fits in Swift Concurrency and how to use it for asynchronous event sequences.
 
 ## [SwiftUI Scroll Performance: The 120FPS Challenge](https://blog.jacobstechtavern.com/p/swiftui-scroll-performance-the-120fps)
 
 - Published: `2025-05-05T15:00:38.653Z`
 
-**Topics:** Performance · Swift · SwiftUI
+**Topics:** Performance · Architecture · Swift · SwiftUI
 
-**NeKI brief:** Troubleshooting-oriented guidance for SwiftUI. Use it when investigating a concrete implementation or performance problem.
+**Sections:** Scroll Architecture · Going Further with Performance · Last Orders
 
-## [SwiftUI Map is RIDICULOUSLY Powerful](https://blog.jacobstechtavern.com/p/swiftui-map-is-really-good-now)
-
-- Published: `2025-04-29T14:02:42.516Z`
-
-**Topics:** Swift · SwiftUI
-
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Profile SwiftUI scrolling against the frame budget, especially on high-refresh-rate devices, and reduce unnecessary state changes, layout work, and view identity churn. Use Instruments and realistic data to find hitches before replacing declarative structure with imperative optimizations.
 
 ## [Fitting the Lapse experience into 15 MegaBytes](https://blog.jacobstechtavern.com/p/get-lapse-under-15mb)
 
@@ -524,29 +272,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · Static, Dynamic, Mergeable, oh, my!
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [The Secret to Intuitively Understanding Swift Concurrency](https://blog.jacobstechtavern.com/p/the-secret-to-concurrency)
-
-- Published: `2025-04-15T15:02:36.719Z`
-
-**Topics:** Concurrency · Swift
-
-**Sections:** Jacob’s Tech Tavern · Continue reading this post for free, courtesy of Jacob Bartlett.
-
-**NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
-
-## [How I Got Exploited At My First Startup](https://blog.jacobstechtavern.com/p/the-side-hustle-from-hell)
-
-- Published: `2025-04-07T14:02:07.531Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [Tasks vs Threads](https://blog.jacobstechtavern.com/p/tasks-vs-threads)
-
-- Published: `2025-04-01T14:02:55.978Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Describes reducing an App Clip to a 15 MB footprint through resource and dependency choices. It is a concrete optimization case study for size-constrained targets; recheck current App Clip limits before applying it.
 
 ## [Handle Deep Links with Async Algorithms](https://blog.jacobstechtavern.com/p/deep-links-with-async-algorithms)
 
@@ -554,27 +280,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Concurrency · Navigation & Deep Linking
 
-**NeKI brief:** Third-party technical reading on Concurrency and Navigation & Deep Linking. Use it as a research lead and validate conclusions against the original source.
-
-## [You should be using SwiftLog](https://blog.jacobstechtavern.com/p/swiftlog)
-
-- Published: `2025-03-18T16:01:06.416Z`
-
-**Topics:** Swift
-
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Models deep links as asynchronous event streams and composes routing with Async Algorithms, making navigation ordering, cancellation, and multi-step dependencies explicit instead of scattering URL handling across view lifecycle callbacks.
 
 ## [How To Release Without Fear](https://blog.jacobstechtavern.com/p/release-without-fear)
 
 - Published: `2025-03-10T16:01:09.054Z`
 
-**NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
-
-## [Grind 2x as hard with Git Worktrees](https://blog.jacobstechtavern.com/p/git-worktrees)
-
-- Published: `2025-03-04T16:01:10.802Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Turns release confidence into an engineering system of staged rollout, observability, rollback readiness, and measurable risk, replacing one-shot deployment anxiety with feedback loops that expose regressions before broad customer impact.
 
 ## [A Tool To Automatically Detect Memory Leaks](https://blog.jacobstechtavern.com/p/automatically-detect-memory-leaks)
 
@@ -584,13 +296,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · I never learned what a memory leak is · Implementing The System
 
-**NeKI brief:** Troubleshooting-oriented guidance for Apple-platform development. Use it when investigating a concrete implementation or performance problem.
-
-## [Make your social apps pop with Link Presentation](https://blog.jacobstechtavern.com/p/linkpresentation)
-
-- Published: `2025-02-18T16:02:46.799Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Presents an automated approach to detecting memory leaks before release, linking instrumentation with repeatable checks. Use it as a starting point for a leak-detection pipeline and validate its tooling against current Xcode support.
 
 ## [Secret SwiftUI: A practical use of _VariadicView](https://blog.jacobstechtavern.com/p/secret-swiftui)
 
@@ -600,13 +306,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · Secret SwiftUI: A practical use for _VariadicView
 
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
-
-## [Jailbreak Protection on iOS](https://blog.jacobstechtavern.com/p/jailbreak-protection-on-ios)
-
-- Published: `2025-02-04T17:15:55.047Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Investigates a practical use of SwiftUI's underscored VariadicView APIs and their risks as non-public implementation details.
 
 ## [How I Stole Your ChatGPT API Keys](https://blog.jacobstechtavern.com/p/how-i-stole-your-api-keys)
 
@@ -616,27 +316,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Decompiling Your App · Monitoring Network Traffic · How can I protect my app?
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [Softcore Debugging](https://blog.jacobstechtavern.com/p/softcore-debugging)
-
-- Published: `2025-01-21T17:15:46.521Z`
-
-**NeKI brief:** Troubleshooting-oriented guidance for Apple-platform development. Use it when investigating a concrete implementation or performance problem.
+**NeKI brief:** Demonstrates how client-shipped AI API keys can be extracted and abused, motivating server-side credential custody, scoped tokens, usage controls, and threat modeling rather than treating mobile application binaries as secret storage.
 
 ## [Hardcore Debugging](https://blog.jacobstechtavern.com/p/hardcore-debugging)
 
 - Published: `2025-01-13T17:15:57.444Z`
 
-**NeKI brief:** Troubleshooting-oriented guidance for Apple-platform development. Use it when investigating a concrete implementation or performance problem.
-
-## [The Time Profiler](https://blog.jacobstechtavern.com/p/the-time-profiler)
-
-- Published: `2025-01-07T17:15:48.155Z`
-
-**Topics:** Performance
-
-**NeKI brief:** Troubleshooting-oriented guidance for Instruments. Use it when investigating a concrete implementation or performance problem.
+**NeKI brief:** Presents a systematic debugging workflow that moves from symptom reproduction through instrumentation, hypothesis testing, and minimized evidence, helping engineers isolate root causes rather than repeatedly patching visible failures.
 
 ## [The Synchronization Framework in Swift 6](https://blog.jacobstechtavern.com/p/the-synchronisation-framework)
 
@@ -644,15 +330,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift
 
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
-
-## [The Swift Compiler](https://blog.jacobstechtavern.com/p/the-swift-compiler)
-
-- Published: `2024-12-24T17:23:26.623Z`
-
-**Topics:** Swift
-
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Use Swift Synchronization primitives such as Mutex and atomics for tightly scoped synchronous shared-state access, and compare them with actors based on isolation, suspension, and contention needs. Keep critical sections small, document invariants, and avoid mixing low-level synchronization casually with async workflows.
 
 ## [The Swift Runtime: Your Silent Partner - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/the-swift-runtime-your-silent-partner)
 
@@ -662,53 +340,19 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · The Swift Runtime: Your Silent Partner
 
-**NeKI brief:** Implementation-oriented guidance for Swift. Use it when planning or building a related feature.
-
-## [Solving The SwiftUI Interview](https://blog.jacobstechtavern.com/p/solving-the-swiftui-interview)
-
-- Published: `2024-12-10T17:15:54.050Z`
-
-**Topics:** Swift · SwiftUI
-
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
-
-## [A Tech Interview That Doesn't Suck](https://blog.jacobstechtavern.com/p/a-tech-interview-that-doesnt-suck)
-
-- Published: `2024-12-02T17:15:49.914Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [My Wronggest Content](https://blog.jacobstechtavern.com/p/my-wronggest-content)
-
-- Published: `2024-11-26T17:15:56.575Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Introduces the Swift runtime and the role its implementation details play in everyday language behavior.
 
 ## [Static, Dynamic, Mergeable, oh, my!](https://blog.jacobstechtavern.com/p/static-dynamic-mergeable-oh-my)
 
 - Published: `2024-11-18T17:24:06.203Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [Advanced Swift Concurrency: Understanding Tasks](https://blog.jacobstechtavern.com/p/advanced-swift-concurrency)
-
-- Published: `2024-11-12T17:15:06.789Z`
-
-**Topics:** Concurrency · Swift
-
-**NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Choose static, dynamic, or mergeable library linkage from measurable constraints such as launch time, app size, dependency reuse, and build behavior. Inspect the actual dependency graph and binary output before reorganizing modules, because linkage labels alone do not predict product performance.
 
 ## [THE CRASH IS A LIE](https://blog.jacobstechtavern.com/p/what-is-a-crash)
 
 - Published: `2024-11-04T17:15:56.192Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [ProcessInfo & Device Physics](https://blog.jacobstechtavern.com/p/processinfo-and-device-physics)
-
-- Published: `2024-10-28T17:14:53.609Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Treat a crash as a diagnostic signal from the runtime, kernel, or app termination path rather than a single failure category. Capture symbolicated reports, distinguish memory and assertion failures from watchdog termination, and reproduce the triggering lifecycle or concurrency conditions before changing code.
 
 ## [Apple is Killing Swift - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/apple-is-killing-swift)
 
@@ -718,15 +362,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · Apple is Killing Swift · Python: Benevolent Dictator For Life
 
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
-
-## [Migrating XCTest to Swift Testing](https://blog.jacobstechtavern.com/p/migrating-xctest-to-swift)
-
-- Published: `2024-10-14T16:14:24.906Z`
-
-**Topics:** Testing · Swift
-
-**NeKI brief:** Third-party technical reading on Swift Testing. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** An opinionated examination of Swift's governance and ecosystem direction; useful for evaluating community concerns rather than technical guidance.
 
 ## [Migrating Combine to AsyncAlgorithms - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/migrating-combine-to-asyncalgorithms)
 
@@ -736,15 +372,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · Migrating Combine to AsyncAlgorithms
 
-**NeKI brief:** Third-party technical reading on Concurrency. Use it as a research lead and validate conclusions against the original source.
-
-## [Quick Hacks: How to test a Task { }](https://blog.jacobstechtavern.com/p/how-to-test-a-task)
-
-- Published: `2024-09-30T16:14:45.598Z`
-
-**Topics:** Testing
-
-**NeKI brief:** Implementation-oriented guidance for Testing. Use it when planning or building a related feature.
+**NeKI brief:** Guides a migration from Combine pipelines to AsyncAlgorithms, focusing on how asynchronous stream operations translate.
 
 ## [Why is my Task running on the main thread?](https://blog.jacobstechtavern.com/p/why-is-task-running-on-main-thread)
 
@@ -754,65 +382,43 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern
 
-**NeKI brief:** Implementation-oriented guidance for Swift Concurrency. Use it when planning or building a related feature.
-
-## [Jacob's Tech Tavern v2.0](https://blog.jacobstechtavern.com/p/jacobs-tech-tavern-v2)
-
-- Published: `2024-09-20T15:30:29.333Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [The 8-bit retro app with SwiftUI & Metal](https://blog.jacobstechtavern.com/p/8-bit-retro-app-with-metal)
-
-- Published: `2024-09-20T15:29:07.917Z`
-
-**Topics:** Swift · SwiftUI
-
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
-
-## [Swift Intermediate Language](https://blog.jacobstechtavern.com/p/swift-intermediate-language)
-
-- Published: `2024-09-16T16:14:08.291Z`
-
-**Topics:** Swift
-
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Builds an intuition for why a Swift Task may execute on the main thread and how actor isolation changes that behavior.
 
 ## [Jailbreak your Enemies with a Link: Remote Execution on iOS](https://blog.jacobstechtavern.com/p/jailbreak-enemies-with-a-link-remote-execution)
 
 - Published: `2024-09-09T16:15:21.526Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Use the historical WebKit exploit chain as a threat-modeling study: untrusted web content crosses a serious process boundary, so keep devices updated, minimize risky web surfaces, and understand why JavaScript-engine memory-safety failures can become system-level compromise paths.
 
 ## [Impress at Job Interviews by Inspecting their App Bundle](https://blog.jacobstechtavern.com/p/impress-at-job-interviews-by-decompiling)
 
 - Published: `2024-08-19T16:15:41.587Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** For authorized architecture research, inspect a shipped app bundle to identify linked frameworks, assets, symbols, and configuration choices before forming questions. Treat static bundle evidence as a hypothesis, not proof of runtime behavior, and keep analysis within the app's permitted security boundary.
 
 ## [The Meme that gave me Imposter Syndrome](https://blog.jacobstechtavern.com/p/the-meme-that-gave-me-imposter-syndrome)
 
 - Published: `2024-07-29T16:15:44.545Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Use Swift type attributes deliberately by separating compile-time type-system constraints from ordinary declaration modifiers. When an attribute affects isolation, sendability, ownership, or ABI behavior, inspect the compiler-facing contract and add a focused example instead of treating it as decorative syntax.
 
 ## [Mobile Deployment Pipelines for $0](https://blog.jacobstechtavern.com/p/0-to-deploy-free-ci-with-fastlane)
 
 - Published: `2024-07-08T16:15:20.826Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Establish a small iOS delivery pipeline that builds, tests, signs, and distributes through fastlane with credentials isolated from repository content. Make each lane reproducible locally and in CI, then keep expensive deployment steps separate from fast pull-request validation.
 
 ## [Advanced Core Image](https://blog.jacobstechtavern.com/p/advanced-core-image)
 
 - Published: `2024-06-17T16:15:52.294Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Builds advanced Core Image processing around filter graphs, custom kernels, and GPU-backed rendering, showing how image pipelines compose lazily and where color spaces, context reuse, and output conversion determine correctness and performance.
 
 ## [Core Image: The Basics](https://blog.jacobstechtavern.com/p/core-image-the-basics)
 
 - Published: `2024-05-27T16:15:04.516Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Introduces Core Image's filter and image-processing model with a practical baseline for composing effects. It is useful for choosing GPU-backed image transformations, while API availability and performance need current verification.
 
 ## [How to (consistently) get 4.8* App Ratings](https://blog.jacobstechtavern.com/p/how-to-consistently-get-48-app-ratings-3be)
 
@@ -820,7 +426,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern
 
-**NeKI brief:** Implementation-oriented guidance for Apple-platform development. Use it when planning or building a related feature.
+**NeKI brief:** Shows how to time StoreKit review requests around a user's proven wow moment, with SwiftUI and UIKit examples, rather than prompting indiscriminately. Use it to connect a review prompt to completed value while preserving a low-friction experience and measuring ratings as a product outcome.
 
 ## [How to use SwiftData outside SwiftUI](https://blog.jacobstechtavern.com/p/swiftdata-outside-swiftui)
 
@@ -828,13 +434,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift · Persistence & Synchronisation · SwiftData · SwiftUI
 
-**NeKI brief:** Implementation-oriented guidance for SwiftUI and SwiftData. Use it when planning or building a related feature.
-
-## [README.md](https://blog.jacobstechtavern.com/p/readmemd-new-readers-start-here)
-
-- Published: `2024-04-02T16:15:52.720Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Uses SwiftData outside SwiftUI by explicitly constructing and injecting ModelContainer and ModelContext dependencies, preserving persistent-model access in services, tests, and non-view workflows without relying on environment propagation.
 
 ## [Oh Sh*t, My App is Successful and I Didn’t Think About Accessibility](https://blog.jacobstechtavern.com/p/oh-sht-my-app-is-successful-and-i)
 
@@ -842,15 +442,17 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Accessibility
 
-**NeKI brief:** Third-party technical reading on Accessibility. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Uses an accessibility audit of a SwiftUI app to expose failures at larger text sizes and with screen readers, then turns those findings into concrete remediation work. Follow it when accessibility needs to become a release criterion rather than a late polish task.
 
 ## [Async Unit Testing: The Comprehensive Guide](https://blog.jacobstechtavern.com/p/async-unit-testing-in-swift-the-comprehensive)
 
 - Published: `2024-03-11T17:15:13.685Z`
 
-**Topics:** Testing · Concurrency
+**Topics:** Testing · Concurrency · Architecture · Dependency Injection · Observation & State Management
 
-**NeKI brief:** Implementation-oriented guidance for Testing, Concurrency, and Swift. Use it when planning or building a related feature.
+**Sections:** Introduction · Arc 1: Foundational concepts · Arc 2: Async unit testing
+
+**NeKI brief:** Builds asynchronous unit testing from dependency injection and controllable test doubles through async/await, unstructured tasks, and Combine interoperation. Use the staged examples to reason about deterministic setup, cancellation, and ownership of asynchronous work.
 
 ## [High Performance Swift Apps](https://blog.jacobstechtavern.com/p/high-performance-swift-apps)
 
@@ -858,13 +460,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Performance · Swift
 
-**NeKI brief:** Troubleshooting-oriented guidance for Performance and Swift. Use it when investigating a concrete implementation or performance problem.
-
-## [I Wrote a Guest Post for Emerge Tools!](https://blog.jacobstechtavern.com/p/i-wrote-a-guest-post-for-emerge-tools)
-
-- Published: `2024-02-26T17:15:15.701Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Presents a measure-first performance loop: reproduce user-visible cost on a real device, profile the bottleneck with Instruments, then change the implementation and measure again. The workflow helps avoid speculative optimisation and keeps concurrency changes tied to evidence.
 
 ## [The 2FA app that tells you when you get `314159`](https://blog.jacobstechtavern.com/p/building-a-2fa-app-that-detects-patterns)
 
@@ -874,7 +470,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** High Performance Swift Apps
 
-**NeKI brief:** Overview of recent changes in Swift Concurrency. Use it to orient a follow-up check against current primary sources.
+**NeKI brief:** Details a local 2FA-code processing pipeline that generates future six-digit values, detects numeric patterns, and schedules notifications. Follow it for the algorithm, batching, and scheduling constraints of doing substantial computation without turning a small app into a battery problem.
 
 ## [The Swift Method Dispatch Deep Dive](https://blog.jacobstechtavern.com/p/compiler-cocaine-the-swift-method)
 
@@ -882,25 +478,33 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift
 
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Explains Swift method dispatch from static and witness-table calls through dynamic dispatch and inlining, connecting compiler choices with flexibility and runtime cost. Use it to investigate a measured hot path, not to apply final or other annotations as blanket optimisation.
 
 ## [My Toddler Still Loves Planes, So I Upgraded Her Radar](https://blog.jacobstechtavern.com/p/my-toddler-still-loves-planes-so)
 
 - Published: `2024-01-22T19:37:06.281Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Describes a second Aviator release after an upstream OpenSky outage, combining API failure recovery with a feature overhaul and real-user feedback. Use it as a case study in resilient third-party integrations and shipping fixes when release cadence is constrained.
 
 ## [Mobile DevOps for Enterprise that Just Works](https://blog.jacobstechtavern.com/p/mobile-devops-for-enterprise-that)
 
 - Published: `2024-01-15T17:05:49.645Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**Topics:** Xcode
+
+**Sections:** Ease of setup · Infrastructure Management · Build Speed
+
+**NeKI brief:** Maps enterprise mobile delivery across setup, infrastructure, build speed, and permission management. Use it to frame which operational constraints a mobile CI/CD system must solve before selecting tools or automating a workflow.
 
 ## [The Case Against [unowned self]](https://blog.jacobstechtavern.com/p/the-case-against-unowned-self)
 
 - Published: `2024-01-08T17:15:28.259Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**Topics:** Performance
+
+**Sections:** Strong references · Weak references · Unowned references
+
+**NeKI brief:** Argues that unowned captures trade memory behavior for crash risk when object lifetimes diverge. Use it to review closure capture choices, retaining weak references where failure is preferable to a dangling access.
 
 ## [Modular Architecture for Apps](https://blog.jacobstechtavern.com/p/modular-architecture-for-apps)
 
@@ -908,19 +512,23 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Architecture
 
-**NeKI brief:** Third-party technical reading on Architecture. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Frames modularisation as a scaling and team-boundary decision rather than a screen-level architecture contest. The progression from a small target to separated modules makes build time, ownership, and dependency direction trade-offs explicit before a split is undertaken.
 
 ## [2 Minute Tips: The Dark Secrets of Bools](https://blog.jacobstechtavern.com/p/2-minute-tips-the-dark-secrets-of)
 
 - Published: `2023-12-25T11:00:57.228Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**Sections:** A Frozen Struct · Builtins.Int1 · ExpressibleByBooleanLiteral
+
+**NeKI brief:** Inspects Swift Bool as a frozen standard-library struct backed by Builtin.Int1, tying its ABI-stable layout to literal conversion and compiler representation. Follow for runtime intuition, while keeping implementation details separate from source-level API assumptions.
 
 ## [2 Minute Tips: iOS Springboard Paddling Pool](https://blog.jacobstechtavern.com/p/2-minute-tips-ios-springboard-paddling)
 
 - Published: `2023-12-25T11:00:53.989Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Operating Systems & The Kernel · Userland · iOS Springboard
+
+**NeKI brief:** Uses SpringBoard's privileged userland role to explain the boundary between iOS applications, syscalls, and the kernel. It is useful platform context for understanding why app metadata and home-screen behavior are unavailable to ordinary third-party code.
 
 ## [Metal in SwiftUI: How to Write Shaders](https://blog.jacobstechtavern.com/p/metal-in-swiftui-how-to-write-shaders)
 
@@ -928,7 +536,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift · SwiftUI
 
-**NeKI brief:** Implementation-oriented guidance for SwiftUI. Use it when planning or building a related feature.
+**NeKI brief:** Demonstrates integrating Metal shaders into SwiftUI rendering and explains the boundary between declarative view composition and GPU effects. Use it when evaluating custom visual work that cannot be expressed with standard modifiers.
 
 ## [Localization in Xcode 15](https://blog.jacobstechtavern.com/p/localisation-in-xcode-15)
 
@@ -936,19 +544,19 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Xcode
 
-**NeKI brief:** Implementation-oriented guidance for Xcode. Use it when planning or building a related feature.
+**Sections:** The Bad Old World™ · Creating a String Catalog · What sort of text exists in the app?
 
-## [“Yes” Actually Means “No”: The Curious Language of VCs](https://blog.jacobstechtavern.com/p/yes-actually-means-no-the-curious)
-
-- Published: `2023-12-04T17:15:32.213Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Explains localization changes in Xcode 15 and the failure mode where keys appear instead of translated strings. Follow it when auditing string catalogs and build-resource configuration during an Xcode migration.
 
 ## [My Toddler Loves Planes, So I Built Her A Radar](https://blog.jacobstechtavern.com/p/my-toddler-loves-planes-so-i-built)
 
 - Published: `2023-11-27T18:00:26.285Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**Topics:** Testing
+
+**Sections:** Inspired · A Problem Statement Emerges · A Vision Takes Shape
+
+**NeKI brief:** Builds an iOS flight-radar experience from real aircraft data, using map presentation and altitude-aware visual reasoning to make nearby flights understandable. Useful as a product case study where external data quality and spatial UI decisions interact.
 
 ## [Through the Ages: Apple Animation APIs - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/through-the-ages-apple-animation)
 
@@ -958,7 +566,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · Through the Ages: Apple Animation APIs
 
-**NeKI brief:** Implementation-oriented guidance for SwiftUI. Use it when planning or building a related feature.
+**NeKI brief:** Connects Apple's animation APIs across platform eras and uses working code to compare their programming models.
 
 ## [Unit Test the Observation Framework - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/unit-test-the-observation-framework)
 
@@ -968,21 +576,27 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · Unit Test the Observation Framework · The Observation Framework
 
-**NeKI brief:** Third-party technical reading on Testing and Observation & State Management. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Shows how to unit-test code built on the Observation framework, with attention to reliable view-model behavior.
 
 ## [COW2LLVM: The isKnownUniquelyReferenced Deep-Dive](https://blog.jacobstechtavern.com/p/cow2llvm-the-isknownuniquelyreferenced)
 
 - Published: `2023-11-06T17:20:18.179Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**Topics:** Swift · Performance
+
+**Sections:** Roadmap · What is 🐮? · Reference and value semantics
+
+**NeKI brief:** Dives into Swift copy-on-write and isKnownUniquelyReferenced, connecting value semantics to heap buffers and compiler-generated behavior. Use it for performance reasoning, not as a license to bypass safe ownership abstractions.
 
 ## [Through the Ages: Apple CPU Architecture](https://blog.jacobstechtavern.com/p/through-the-ages-apple-cpu-architecture)
 
 - Published: `2023-10-30T19:47:24.880Z`
 
-**Topics:** Architecture
+**Topics:** Architecture · Performance
 
-**NeKI brief:** Third-party technical reading on Architecture. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Timeline & Key Concepts · The King of CPU Architecture Migrations · 1984 — Motorola 68k
+
+**NeKI brief:** Traces Apple CPU architecture across generations while using each era to explain core processor concepts. It provides hardware context for performance discussions, with historical details that should not substitute for current device documentation.
 
 ## [2 Minute Tips: The Strategy Pattern](https://blog.jacobstechtavern.com/p/2-minute-tips-the-strategy-pattern)
 
@@ -990,15 +604,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Sorting Strategies · Why is this useful? · Switching Internal Implementations
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [“Disruptive” Technologies Retrospective - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/disruptive-technologies-from-2016)
-
-- Published: `2023-10-17T08:15:14.452Z`
-
-**Sections:** Jacob’s Tech Tavern · “Disruptive” Technologies Retrospective
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Implements interchangeable sorting algorithms behind a Swift protocol, making the Strategy pattern's runtime substitution and differing time/space costs visible. Use it when behavior varies by policy and the algorithm choice should remain testable and isolated.
 
 ## [Welcome to Jacob’s Tech Tavern! 🍺 - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/aviator-demo-video)
 
@@ -1008,7 +614,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · Welcome to Jacob’s Tech Tavern! 🍺
 
-**NeKI brief:** Troubleshooting-oriented guidance for MCP. Use it when investigating a concrete implementation or performance problem.
+**NeKI brief:** Introduces a newsletter focused on Swift concurrency, agentic engineering, SwiftUI, and iOS performance. Follow it as a routing point for future deep-dive articles rather than as evidence for a specific implementation decision.
 
 ## [Advanced Swift Actors: Re-entrancy & Interleaving](https://blog.jacobstechtavern.com/p/advanced-swift-actors-re-entrancy)
 
@@ -1016,43 +622,43 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Concurrency · Swift
 
-**NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Examines actor re-entrancy and interleaving, showing why an actor-isolated method can observe changed state after an await. Follow it when diagnosing ordering assumptions and designing invariants across suspension points.
 
 ## [2 Minute Tips: The Dark Secret of Optionals](https://blog.jacobstechtavern.com/p/2-minute-tips-the-dark-secret-of)
 
 - Published: `2023-10-02T08:15:02.783Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Reveals Optional as a two-case standard-library enum and traces question-mark syntax to ordinary optional operations. The implementation tour is a compact aid for reasoning about nil propagation and unwrapping, not a replacement for clear domain-level optional handling.
 
 ## [Apple Animation Through the Ages: 2019](https://blog.jacobstechtavern.com/p/apple-animation-through-the-ages-580)
 
 - Published: `2023-09-26T08:15:42.449Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Places Apple's animation stack in a historical timeline and connects the 2019 APIs to earlier programming models. Follow it for conceptual context when choosing an animation layer, then verify current framework behavior and availability in Apple documentation.
 
 ## [Apple Animation Through the Ages: 2014](https://blog.jacobstechtavern.com/p/apple-animation-through-the-ages-265)
 
 - Published: `2023-09-19T08:15:09.850Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Uses Apple's 2014 animation era to show how framework abstractions evolved across the platform. It is a historical route into animation design decisions; treat version-specific APIs as context and confirm modern equivalents before implementation.
 
 ## [Apple Animation Through the Ages: 2007](https://blog.jacobstechtavern.com/p/apple-animation-through-the-ages-e96)
 
 - Published: `2023-09-12T08:15:08.403Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Connects the 2007 iPhone-era animation model to the constraints and abstractions that shaped early UIKit development. Follow for historical perspective on why APIs look the way they do, not as current implementation guidance.
 
 ## [Apple Animation Through the Ages: 2001](https://blog.jacobstechtavern.com/p/apple-animation-through-the-ages-c54)
 
 - Published: `2023-09-05T08:15:04.496Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Traces the 2001 transition in Apple's animation tooling and relates it to the programming model later exposed on Apple platforms. The historical comparison helps explain abstraction trade-offs while requiring current API verification.
 
 ## [Apple Animation Through the Ages: 1989](https://blog.jacobstechtavern.com/p/apple-animation-through-the-ages)
 
 - Published: `2023-08-29T08:15:13.907Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Introduces the earliest Apple animation milestone in the series and links hardware-era constraints to later compositing abstractions. Use it as background for platform evolution rather than as a recipe for present-day animation code.
 
 ## [Combine, async/await, and Unit Testing](https://blog.jacobstechtavern.com/p/combine-asyncawait-and-unit-testing)
 
@@ -1060,13 +666,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Testing · Concurrency
 
-**NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Connects Combine, async/await, and unit testing when designing and verifying asynchronous application behavior.
 
 ## [Implement your Data Access Layer with Combine](https://blog.jacobstechtavern.com/p/implement-your-data-access-layer)
 
 - Published: `2023-08-15T08:15:19.237Z`
 
-**NeKI brief:** Implementation-oriented guidance for Apple-platform development. Use it when planning or building a related feature.
+**Sections:** Part V: (interlude) - Implement your Data Access Layer with Combine · The Data Access layer · Implementing our Repository with Combine
+
+**NeKI brief:** Separates what data an app needs from how a network or cache retrieves it, then composes repository operations with Combine publishers. Follow it when introducing a data-access boundary that can swap sources and remain mockable in asynchronous tests.
 
 ## [Advanced async testing: Unstructured concurrency](https://blog.jacobstechtavern.com/p/async-testing-masterclass-4-advanced)
 
@@ -1074,7 +682,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Concurrency · Testing
 
-**NeKI brief:** Third-party technical reading on Testing and Concurrency. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Explores advanced async testing with unstructured concurrency and the resulting control and cancellation concerns. Use it to reason about test lifetimes and task cleanup before adopting detached or manually managed tasks.
 
 ## [Unit Testing with async/await](https://blog.jacobstechtavern.com/p/async-testing-masterclass-3-the-basics)
 
@@ -1082,7 +690,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Testing · Concurrency
 
-**NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
+**Sections:** Setting up our first tests with callCount
+
+**NeKI brief:** Shows the fundamentals of unit testing async/await code, including awaiting work and asserting outcomes. It is a practical entry point, but concurrency isolation and framework APIs should be checked against the target Swift version.
 
 ## [SwiftUI apps at scale](https://blog.jacobstechtavern.com/p/swiftui-apps-at-scale)
 
@@ -1090,7 +700,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift · SwiftUI
 
-**NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Discusses structuring SwiftUI applications as they grow beyond isolated views, including ownership and module boundaries. Use it to compare scaling strategies against the project's navigation, state, and testing requirements.
 
 ## [Unit Testing Masterclass: Mocking like a Pro](https://blog.jacobstechtavern.com/p/async-testing-masterclass-2-mocking)
 
@@ -1100,7 +710,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Jacob’s Tech Tavern · Part II - Mocking like a Pro · What are mocks?
 
-**NeKI brief:** Third-party technical reading on Testing and Concurrency. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Covers mock design for testing asynchronous code and the trade-offs of different test doubles. Use it when deciding which dependencies deserve protocols, fakes, or recorded fixtures in Swift tests.
 
 ## [Dependency Injection Demystified](https://blog.jacobstechtavern.com/p/async-testing-masterclass-1-dependency)
 
@@ -1110,7 +720,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Sections:** Part I - Dependency Injection · What is DI? · What does this have to do with testing?
 
-**NeKI brief:** Third-party technical reading on Architecture, Dependency Injection, and Testing. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Explains dependency injection as a testability boundary for asynchronous Swift code. Follow it to separate side effects from assertions and to make async tests deterministic without relying on production services.
 
 ## [Swift Enums 🤝 Design Systems](https://blog.jacobstechtavern.com/p/enums-and-design-systems)
 
@@ -1118,25 +728,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift
 
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
-
-## [Thoughts on first-round engineering interviews](https://blog.jacobstechtavern.com/p/mac-and-cheese-interview-tips-for)
-
-- Published: `2023-05-09T18:44:37.160Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-
-## [The D.E.N.N.I.S. system: Résumé tips for Senior Devs](https://blog.jacobstechtavern.com/p/the-dennis-system-cvs-tips-for-senior)
-
-- Published: `2023-04-25T19:00:12.287Z`
-
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Uses Swift enums to model design-system variants and keep UI choices explicit. The pattern is useful for compiler-checked style APIs, provided the enum surface remains aligned with evolving product tokens.
 
 ## [The Magic of Sets](https://blog.jacobstechtavern.com/p/fun-with-sets)
 
 - Published: `2023-04-11T19:00:52.706Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Uses Swift Set operations to illustrate membership, uniqueness, and collection transformations. Follow it for a compact refresher when choosing set algebra over array scans, while checking complexity for the actual data size.
 
 ## [Access control in Swift like a boss](https://blog.jacobstechtavern.com/p/access-control-in-swift-like-a-boss)
 
@@ -1144,10 +742,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Topics:** Swift
 
-**NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Explains Swift access-control choices and the design consequences of exposing or hiding implementation details.
 
 ## [Mobile is actually pretty hard.](https://blog.jacobstechtavern.com/p/mobile-is-actually-pretty-hard)
 
 - Published: `2023-03-21T22:35:08.372Z`
 
-**NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+**NeKI brief:** Explains why mobile engineering spans device constraints, operating-system behavior, performance, distribution, and product integration, making platform expertise more than ordinary application coding.

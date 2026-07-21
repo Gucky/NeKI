@@ -63,8 +63,8 @@ catalogue.
 NeKI provides:
 
 - curated Apple-platform newsletters with selected external reading;
-- complete catalogues of directly observed developer blogs and long-form posts;
-- focused topic lookups for Swift, SwiftUI, UIKit, SwiftData, Xcode, and related work;
+- directly observed developer blogs and long-form publications;
+- complete topic lookups across all matching indexed reading for Swift, SwiftUI, UIKit, SwiftData, Xcode, and related work;
 - source context and review boundaries for third-party writing;
 - candidate domains as discovery material, not recommendations.
 

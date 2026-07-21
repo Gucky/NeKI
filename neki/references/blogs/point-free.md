@@ -3,442 +3,312 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.pointfree.co/blog](https://www.pointfree.co/blog)
-- Last collected: `2026-07-17T21:08:36Z`
-- Indexed entries: **218**
+- Last collected: `2026-07-22T13:23:35Z`
+- Indexed entries: **153**
 
 - [Xcode 27 support in the Point-Free ecosystem](https://www.pointfree.co/blog/posts/218-xcode-27-support-in-the-point-free-ecosystem) — 2026-06-26T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Xcode. Use it when planning or building a related feature.
+  **NeKI brief:** Records the compatibility work needed to keep Point-Free libraries building against early Xcode 27 betas, including fixes for Swift 6.4 regressions. It illustrates the maintenance cost of evolving toolchains and the value of open-source feedback loops.
 - [Proposing task-local test traits for Swift Testing](https://www.pointfree.co/blog/posts/217-proposing-task-local-test-traits-for-swift-testing) — 2026-06-25T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Swift Testing. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Proposes task-local test traits for Swift Testing, based on patterns developed in Point-Free libraries. The article is useful for understanding how per-test configuration could compose with structured concurrency before the proposal becomes platform API.
 - [“Trait-ifying” our libraries to reduce transitive dependencies](https://www.pointfree.co/blog/posts/216-trait-ifying-our-libraries-to-reduce-transitive-dependencies) — 2026-06-24T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Swift Package Manager. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Applies SwiftPM traits to make optional library features opt-in, using SwiftNavigation as the test case. Follow it when reducing transitive dependencies while weighing package configuration complexity against smaller builds.
 - [New macros for SwiftNavigation](https://www.pointfree.co/blog/posts/215-new-macros-for-swiftnavigation) — 2026-06-23T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Macros. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Introduces @CaseBindable and @UITransactionEntry macros for deriving enum-case bindings and custom UI transaction keys. The examples show how code generation can remove repetitive navigation glue while preserving typed state.
 - [DebugSnapshots now logs SwiftUI bindings](https://www.pointfree.co/blog/posts/214-debugsnapshots-now-logs-swiftui-bindings) — 2026-06-22T00:00:00Z
-  **NeKI brief:** Troubleshooting-oriented guidance for SwiftUI. Use it when investigating a concrete implementation or performance problem.
+  **NeKI brief:** Extends DebugSnapshots to record mutations made through SwiftUI bindings, making model evolution visible during interaction tests. It is particularly useful for diagnosing unexpected state transitions that ordinary final-screen snapshots hide.
 - [Introducing @DependencyEntry](https://www.pointfree.co/blog/posts/213-introducing-dependencyentry) — 2026-06-17T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Macros. Use it as a research lead and validate conclusions against the original source.
-- [WWDC Sale: Save 30% on Point-Free](https://www.pointfree.co/blog/posts/212-wwdc-sale-save-30-on-point-free) — 2026-06-16T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
-- [WWDC Sale: Save 30% on Point-Free](https://www.pointfree.co/blog/posts/211-wwdc-sale-save-30-on-point-free) — 2026-06-09T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
-- [WWDC Sale: Save 30% on Point-Free](https://www.pointfree.co/blog/posts/210-wwdc-sale-save-30-on-point-free) — 2026-06-05T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Presents @DependencyEntry as a macro for registering dependencies while supporting live, preview, and test values. The design shows how generated declarations can keep dependency setup concise without losing explicit override points.
 - [TaskLocal test traits](https://www.pointfree.co/blog/posts/209-tasklocal-test-traits) — 2026-06-04T00:00:00Z
-  **NeKI brief:** Troubleshooting-oriented guidance for Swift Testing and Xcode. Use it when investigating a concrete implementation or performance problem.
-- [WWDC Sale: Save 30% on Point-Free](https://www.pointfree.co/blog/posts/208-wwdc-sale-save-30-on-point-free) — 2026-06-02T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** A Swift Testing trait can install a task-local value for an entire test or suite, eliminating repetitive `withValue` wrappers. Traits compose, but the approach still depends on task inheritance and must account for Xcode test-support build quirks.
 - [DebugSnapshots: Public beta](https://www.pointfree.co/blog/posts/207-debugsnapshots-public-beta) — 2026-05-27T00:00:00Z
-  **NeKI brief:** Troubleshooting-oriented guidance for Testing and Observation & State Management. Use it when investigating a concrete implementation or performance problem.
+  **NeKI brief:** Introduces DebugSnapshots for recording and inspecting application state as debugging artifacts. Use it when a visual or state regression needs reproducible evidence that can be reviewed without reproducing the entire interactive session.
 - [Beta Preview: ComposableArchitecture 2.0](https://www.pointfree.co/blog/posts/206-beta-preview-composablearchitecture-2-0) — 2026-04-01T00:00:00Z
-  **NeKI brief:** Troubleshooting-oriented guidance for Macros. Use it when investigating a concrete implementation or performance problem.
+  **NeKI brief:** Previews Composable Architecture 2.0 changes and their implications for state, effects, and dependency management. Use it to assess an upcoming migration path before adopting beta conventions in a production feature.
 - [Beta Preview: DebugSnapshots](https://www.pointfree.co/blog/posts/205-beta-preview-debugsnapshots) — 2026-04-01T00:00:00Z
-  **NeKI brief:** Troubleshooting-oriented guidance for Macros. Use it when investigating a concrete implementation or performance problem.
+  **NeKI brief:** Introduces DebugSnapshots for recording structured debugging state alongside UI behavior. Follow it when reproducing visual or state-dependent failures requires an inspectable artifact rather than a screenshot detached from its model inputs.
 - [Introducing: Point-Free Beta Previews](https://www.pointfree.co/blog/posts/204-introducing-point-free-beta-previews) — 2026-04-01T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Testing, Architecture, and Composable Architecture. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Beta previews distribute DebugSnapshots and an early Composable Architecture 2.0 without making unfinished APIs the default release. The workflow gives adopters a controlled feedback channel while isolating compatibility and migration risk.
 - [Hard Deprecations and Soft Landings with SwiftPM Traits](https://www.pointfree.co/blog/posts/203-hard-deprecations-and-soft-landings-with-swiftpm-traits) — 2026-03-16T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift Package Manager. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** SwiftPM traits can keep a deprecated feature available as an opt-in while the default product removes its dependency, creating a soft migration before a hard break. The pattern balances source compatibility against leaner builds.
 - [Introducing: The Point-Free Way](https://www.pointfree.co/blog/posts/202-introducing-the-point-free-way) — 2026-02-06T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** The Point-Free Way packages recurring Swift application workflows, architecture patterns, and testing practices as a navigable curriculum. Its value is operational: teams can compare a complete process rather than copy an isolated code snippet.
 - [We’re going live soon!](https://www.pointfree.co/blog/posts/201-we-re-going-live-soon) — 2026-02-05T16:00:00Z
-  **NeKI brief:** Third-party analysis of Architecture and Composable Architecture. Use it to compare a community perspective before choosing an approach.
+  **NeKI brief:** The planned TCA 2.0 preview pairs a new architecture release with a live feedback loop before APIs stabilize. It is a routing lead for evaluating migration shape and testing strategy while distinguishing preview behavior from supported contracts.
 - [The “Point-Free Way”, TCA 2.0 sneak peek, a giveaway, Q&A, and more!](https://www.pointfree.co/blog/posts/200-the-point-free-way-tca-2-0-sneak-peek-a-giveaway-q-a-and-more) — 2026-02-04T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Composable Architecture and Architecture. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The TCA 2.0 sneak peek frames concurrency and domain modeling changes as a migration conversation rather than a drop-in upgrade. Its Q&A format is useful for locating compatibility concerns before adopting a major architecture revision.
 - [Point-Free turns 8!](https://www.pointfree.co/blog/posts/199-point-free-turns-8) — 2026-01-29T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
-- [End-of-year sale: 25% off Point-Free](https://www.pointfree.co/blog/posts/198-end-of-year-sale-25-off-point-free) — 2025-12-29T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [End-of-year sale: 25% off Point-Free](https://www.pointfree.co/blog/posts/197-end-of-year-sale-25-off-point-free) — 2025-12-26T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The anniversary preview links the Point-Free Way curriculum with an upcoming Composable Architecture beta, showing how education and library evolution can be staged together. Treat the roadmap as exploratory context, not a stable API promise.
 - [2025 Year-in-Review](https://www.pointfree.co/blog/posts/196-2025-year-in-review) — 2025-12-22T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Persistence & Synchronisation. Use it as a research lead and validate conclusions against the original source.
-- [LAST CHANCE: Save 30% on Point-Free](https://www.pointfree.co/blog/posts/195-last-chance-save-30-on-point-free) — 2025-12-05T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [CYBER WEEK: Save 30% on Point-Free](https://www.pointfree.co/blog/posts/194-cyber-week-save-30-on-point-free) — 2025-12-03T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [CYBER MONDAY: Save 30% on Point-Free](https://www.pointfree.co/blog/posts/193-cyber-monday-save-30-on-point-free) — 2025-12-01T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [BLACK FRIDAY: Save 30% on Point-Free](https://www.pointfree.co/blog/posts/192-black-friday-save-30-on-point-free) — 2025-11-28T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [BLACK FRIDAY: Save 30% on Point-Free](https://www.pointfree.co/blog/posts/191-black-friday-save-30-on-point-free) — 2025-11-24T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [BLACK FRIDAY: Save 30% on Point-Free](https://www.pointfree.co/blog/posts/190-black-friday-save-30-on-point-free) — 2025-11-18T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The year review records how open-source library work, release cadence, and long-lived architecture projects reinforce one another. It is useful for tracing why API stability and maintenance investment matter beyond a single feature release.
 - [Open source case study: Listening to our users](https://www.pointfree.co/blog/posts/189-open-source-case-study-listening-to-our-users) — 2025-10-21T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Shares Point-Free's open-source case study about listening to users and evolving a product in response. Useful for examining feedback loops, prioritization, and maintainers' communication choices when an Apple-platform library serves a changing community.
 - [New in SQLiteData: Custom aggregate functions](https://www.pointfree.co/blog/posts/188-new-in-sqlitedata-custom-aggregate-functions) — 2025-10-16T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Persistence & Synchronisation and Swift. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Adds custom aggregate SQL functions to SQLiteData while retaining typed query construction. Follow it when domain calculations belong in the database and you need schema-aware Swift rather than raw SQL strings.
 - [New in SQLiteData: Migration tool for CloudKit sync](https://www.pointfree.co/blog/posts/187-new-in-sqlitedata-migration-tool-for-cloudkit-sync) — 2025-10-08T00:00:00Z
-  **NeKI brief:** Overview of recent changes in CloudKit. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Introduces a SQLiteData migration tool for stores synchronized with CloudKit, focusing on coordinating schema evolution with remote data. It is useful when persistence changes must remain deployable across already-synced installations.
 - [New in SQLiteData: Column groups and inheritance](https://www.pointfree.co/blog/posts/186-new-in-sqlitedata-column-groups-and-inheritance) — 2025-10-02T00:00:00Z
-  **NeKI brief:** Overview of recent changes in SwiftData. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Explains SQLiteData column groups and model inheritance as typed schema composition, reducing repetition while preserving SQL constraints. The design is a concrete alternative to duplicating fields across related tables.
 - [What’s new in SQLiteData: Views](https://www.pointfree.co/blog/posts/185-what-s-new-in-sqlitedata-views) — 2025-09-24T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Persistence & Synchronisation. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Uses SQLite views to expose derived read models through SQLiteData's typed APIs. Follow it when joins or aggregates should be reusable query surfaces without pretending they are independently mutable tables.
 - [SQLiteData 1.0: An alternative to SwiftData with CloudKit sync and sharing](https://www.pointfree.co/blog/posts/184-sqlitedata-1-0-an-alternative-to-swiftdata-with-cloudkit-sync-and-sharing) — 2025-09-17T00:00:00Z
-  **NeKI brief:** Overview of recent changes in SwiftData and CloudKit. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** SQLiteData combines SQLite persistence with CloudKit synchronization and sharing. Use it when SwiftData lacks required deployment or SQL control, while evaluating the operational cost of its sync model.
 - [SQLiteData 0.7.0: User-defined SQL functions](https://www.pointfree.co/blog/posts/183-sharinggrdb-0-7-0-user-defined-sql-functions) — 2025-09-03T00:00:00Z
-  **NeKI brief:** Overview of recent changes in SwiftData. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** SQLiteData exposes user-defined SQL functions through Swift declarations, preserving type-checked query construction while allowing database-specific computation. The extension point trades portability for expressiveness and requires controlling registration and migration behavior.
 - [SQLiteData 0.6.0: Full-text search and more](https://www.pointfree.co/blog/posts/182-sharinggrdb-0-6-0-full-text-search-and-more) — 2025-08-21T00:00:00Z
-  **NeKI brief:** Overview of recent changes in SwiftData. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** The SQLiteData update layers SQLite full-text search onto Swift query APIs, turning tokenization and ranking into database work rather than in-memory filtering. The design improves scale but makes index configuration and match semantics part of the model.
 - [A SwiftData alternative with SQLite + CloudKit: Public beta](https://www.pointfree.co/blog/posts/181-a-swiftdata-alternative-with-sqlite-cloudkit-public-beta) — 2025-08-04T00:00:00Z
-  **NeKI brief:** Overview of recent changes in SwiftData and CloudKit. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Announces a SQLite and CloudKit synchronization alternative to SwiftData. Use it to investigate relational persistence and sync options, then verify API maturity and operational trade-offs before adoption.
 - [Perception 2.0: An updated back-port of Swift’s Observation framework](https://www.pointfree.co/blog/posts/180-perception-2-0-an-updated-back-port-of-swift-s-observation-framework) — 2025-07-30T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift and Observation & State Management. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Explains Perception 2.0 as a back-port of Swift Observation for older deployment targets. Useful when sharing modern observation patterns while an application cannot yet require iOS 17.
 - [A SwiftData alternative with SQLite + CloudKit: Private alpha](https://www.pointfree.co/blog/posts/179-a-swiftdata-alternative-with-sqlite-cloudkit-private-alpha) — 2025-06-30T00:00:00Z
-  **NeKI brief:** Overview of recent changes in SwiftData and CloudKit. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** The private alpha combines SQLite persistence with CloudKit synchronization as an alternative to SwiftData's storage model. It is useful for evaluating explicit schema and sync control, while the preview status signals API and migration risk.
 - [We’re going live soon!](https://www.pointfree.co/blog/posts/178-we-re-going-live-soon) — 2025-06-25T00:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftData and CloudKit. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The CloudKit synchronization preview positions SQLiteData as an explicit persistence layer with sync machinery added incrementally. The announcement is a routing lead for evaluating schema ownership and conflict behavior before adopting a beta.
 - [Live stream reminder: A SwiftData alternative with CloudKit synchronization](https://www.pointfree.co/blog/posts/177-live-stream-reminder-a-swiftdata-alternative-with-cloudkit-synchronization) — 2025-06-24T00:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftData and CloudKit. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The planned CloudKit synchronization work extends a SQLite-backed SwiftData alternative rather than hiding storage behind framework defaults. It is useful when comparing explicit database control with SwiftData's integrated model and sync assumptions.
 - [Type-safe, schema-safe SQL triggers in Swift](https://www.pointfree.co/blog/posts/176-type-safe-schema-safe-sql-triggers-in-swift) — 2025-06-23T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Persistence & Synchronisation and Swift. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Typed SQL triggers can be declared alongside Swift models so trigger names, tables, and expressions remain part of a checked schema surface. The approach improves migration visibility while accepting that database-side behavior is harder to debug from Swift alone.
 - [Upcoming live stream: A vision for modern persistence](https://www.pointfree.co/blog/posts/175-upcoming-live-stream-a-vision-for-modern-persistence) — 2025-06-17T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Persistence & Synchronisation. Use it when planning or building a related feature.
+  **NeKI brief:** The modern-persistence proposal favors explicit SQLite control and composable synchronization over opaque model storage. It is useful for comparing schema ownership and query observability, while the announced status means API stability is not guaranteed.
 - [Free Episode: SwiftData versus SQL Query Builder](https://www.pointfree.co/blog/posts/174-free-episode-swiftdata-versus-sql-query-builder) — 2025-06-12T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for SwiftData. Use it when planning or building a related feature.
-- [Get 30% off Point-Free to celebrate WWDC week! 🎉](https://www.pointfree.co/blog/posts/173-get-30-off-point-free-to-celebrate-wwdc-week) — 2025-06-10T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
-- [WWDC Sale: 30% of your first year of Point-Free](https://www.pointfree.co/blog/posts/172-wwdc-sale-30-of-your-first-year-of-point-free) — 2025-06-03T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Compares SwiftData with a SQL query-builder approach. Use it when choosing between declarative model persistence and explicit relational queries, migrations, and database-level control.
 - [Mitigating SwiftSyntax build times](https://www.pointfree.co/blog/posts/171-mitigating-swiftsyntax-build-times) — 2025-06-03T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Macros. Use it when planning or building a related feature.
+  **NeKI brief:** Diagnoses SwiftSyntax compile-time costs and describes mitigation strategies around target boundaries and dependency choices. The article is useful for turning macro-heavy build slowdowns into measurable package-structure changes.
 - [A fast, lightweight replacement for SwiftData](https://www.pointfree.co/blog/posts/170-a-fast-lightweight-replacement-for-swiftdata) — 2025-04-22T00:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftData. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The proposed SwiftData replacement keeps SQL as the persistence core while exposing ergonomic Swift APIs for queries and mutations. The trade-off is explicit schema and query control in exchange for more database concepts at the application boundary.
 - [New in Swift 6.1: Test Scoping Traits](https://www.pointfree.co/blog/posts/169-new-in-swift-6-1-test-scoping-traits) — 2025-04-02T00:00:00Z
-  **NeKI brief:** Third-party analysis of Xcode. Use it to compare a community perspective before choosing an approach.
+  **NeKI brief:** Explains Swift 6.1 Test Scoping Traits as a mechanism for controlling test context before and after execution. Use it when suite-level fixtures must remain isolated under concurrent Swift Testing runs.
 - [SQLiteData: A SwiftData Alternative](https://www.pointfree.co/blog/posts/168-sharinggrdb-a-swiftdata-alternative) — 2025-02-14T17:00:00Z
-  **NeKI brief:** Overview of recent changes in SwiftUI and SwiftData. Use it to orient a follow-up check against current primary sources.
-- [We’re going live soon!](https://www.pointfree.co/blog/posts/167-we-re-going-live-soon) — 2025-02-14T16:00:00Z
-  **NeKI brief:** Third-party analysis of Apple-platform development. Use it to compare a community perspective before choosing an approach.
+  **NeKI brief:** Introduces SharingGRDB as a SQLite-backed state-sharing approach for SwiftUI, combining persistence with observation. Useful when evaluating a relational alternative to SwiftData for shared, queryable application state.
 - [A new project, episodes sneak peek, a giveaway, Q&A, and more!](https://www.pointfree.co/blog/posts/166-a-new-project-episodes-sneak-peek-a-giveaway-q-a-and-more) — 2025-02-13T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [Point-Free turns 7! 🥳](https://www.pointfree.co/blog/posts/165-point-free-turns-7) — 2025-01-29T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** The announced project previews a new open-source component before release, giving adopters a chance to inspect design direction and compatibility risk. Treat the material as exploratory evidence, not a supported API contract.
 - [Sharing 2](https://www.pointfree.co/blog/posts/164-sharing-2) — 2025-01-07T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Concurrency. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Sharing 2 expands state persistence tools around a composable Swift interface, allowing local and shared state to use the same dependency-aware model. The update is useful for evaluating migration cost from ad-hoc UserDefaults wrappers.
 - [Tour of Sharing: Free for all to watch!](https://www.pointfree.co/blog/posts/163-tour-of-sharing-free-for-all-to-watch) — 2025-01-06T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [End-of-year sale: 25% off Point-Free](https://www.pointfree.co/blog/posts/162-end-of-year-sale-25-off-point-free) — 2024-12-27T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [End-of-year sale: 25% off Point-Free](https://www.pointfree.co/blog/posts/161-end-of-year-sale-25-off-point-free) — 2024-12-19T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The Sharing tour demonstrates state propagation and persistence as composable operations instead of view-specific plumbing. It is a useful workflow reference for tracing ownership and testing boundaries in a SwiftUI feature.
 - [2024 Year-in-Review](https://www.pointfree.co/blog/posts/160-2024-year-in-review) — 2024-12-17T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The year review connects library releases, open-source projects, and educational output into a maintenance strategy rather than isolated launches. It provides roadmap context while leaving individual APIs to their canonical documentation.
 - [Simple state sharing and persistence in Swift](https://www.pointfree.co/blog/posts/159-simple-state-sharing-and-persistence-in-swift) — 2024-12-02T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Persistence & Synchronisation and Swift. Use it to orient a follow-up check against current primary sources.
-- [Cyber Monday: Last Chance to Save](https://www.pointfree.co/blog/posts/157-cyber-monday-last-chance-to-save) — 2024-12-02T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Testing, Concurrency, and Swift. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** A state-sharing abstraction can combine observation with persistence while keeping storage choice behind a dependency. The design makes synchronization policy testable, but callers must still define conflict and reset semantics.
 - [Parsing and the Advent of Code](https://www.pointfree.co/blog/posts/158-parsing-and-the-advent-of-code) — 2024-12-01T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for SwiftData. Use it when planning or building a related feature.
-- [Black Friday = 30% Off Point-Free!](https://www.pointfree.co/blog/posts/156-black-friday-30-off-point-free) — 2024-11-29T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
-- [Learn advanced Swift and save 30%](https://www.pointfree.co/blog/posts/155-learn-advanced-swift-and-save-30) — 2024-11-27T00:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
-- [Black Friday Sale: 30% Off Point-Free](https://www.pointfree.co/blog/posts/154-black-friday-sale-30-off-point-free) — 2024-11-21T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [Black Friday Sale: 30% Off Point-Free](https://www.pointfree.co/blog/posts/153-black-friday-sale-30-off-point-free) — 2024-11-18T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The parsing project applies composable parser primitives to Advent of Code inputs, showing how grammar structure can replace brittle string splitting. It is useful for evaluating error propagation and parser reuse in production Swift code.
 - [Point-Free is Xcode 16 ready](https://www.pointfree.co/blog/posts/152-point-free-is-xcode-16-ready) — 2024-09-12T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Xcode. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Xcode compatibility work across Point-Free libraries demonstrates why beta SDK validation and rapid dependency releases belong in an open-source maintenance workflow. The announcement is a routing lead for checking concrete compiler and framework fixes.
 - [Cross-Platform Swift: Building a Swift app for the browser](https://www.pointfree.co/blog/posts/151-cross-platform-swift-building-a-swift-app-for-the-browser) — 2024-08-28T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Swift. Use it when planning or building a related feature.
+  **NeKI brief:** Cross-platform Swift in the browser requires choosing a runtime and adapting platform APIs while preserving shared domain code. The experiment is a useful boundary study for deciding what belongs in portable modules versus platform targets.
 - [UIKit and the Composable Architecture](https://www.pointfree.co/blog/posts/150-uikit-and-the-composable-architecture) — 2024-08-15T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Composable Architecture, Architecture, and UIKit. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Shows how UIKit view controllers can host Composable Architecture stores while keeping state and effects outside imperative view code. The integration pattern helps migrate screens incrementally without forcing an all-at-once SwiftUI rewrite.
 - [Swift Navigation: Powerful navigation tools for all Swift platforms](https://www.pointfree.co/blog/posts/149-swift-navigation-powerful-navigation-tools-for-all-swift-platforms) — 2024-08-05T00:00:00Z
-  **NeKI brief:** Overview of recent changes in SwiftUI. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Presents composable navigation tools for Swift across Apple platforms, emphasizing state-driven routes and testable destinations. Useful when navigation logic has outgrown direct view-to-view links.
 - [Swift Testing Bonanza](https://www.pointfree.co/blog/posts/148-swift-testing-bonanza) — 2024-07-24T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Swift Testing. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Surveys Swift Testing techniques used in Point-Free projects, including traits, parameterization, and dependency control. It provides concrete test-design patterns for keeping asynchronous feature tests deterministic and readable.
 - [Unobtrusive and testable issue reporting](https://www.pointfree.co/blog/posts/147-unobtrusive-and-testable-issue-reporting) — 2024-07-23T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Xcode. Use it when planning or building a related feature.
+  **NeKI brief:** Designs issue reporting as an unobtrusive, testable dependency rather than a global crash or alert path. Useful for collecting actionable diagnostics while keeping user-facing reporting separate from feature logic.
 - [A preview of our upcoming UIKitNavigation library](https://www.pointfree.co/blog/posts/145-a-preview-of-our-upcoming-uikitnavigation-library) — 2024-06-18T00:00:00Z
-  **NeKI brief:** Overview of recent changes in UIKit and Observation & State Management. Use it to orient a follow-up check against current primary sources.
-- [Last chance to get 25% off Point-Free!](https://www.pointfree.co/blog/posts/144-last-chance-to-get-25-off-point-free) — 2024-06-14T00:00:00Z
-  **NeKI brief:** Overview of recent changes in UIKit. Use it to orient a follow-up check against current primary sources.
-- [10 years of Swift, 25% off Point-Free 🎉](https://www.pointfree.co/blog/posts/143-10-years-of-swift-25-off-point-free) — 2024-06-11T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** UIKitNavigation previews a navigation layer that makes UIKit state-driven while retaining imperative controllers. The design is useful for assessing migration seams and lifecycle ownership before depending on a beta abstraction.
 - [Swift Testing support for SnapshotTesting](https://www.pointfree.co/blog/posts/146-swift-testing-support-for-snapshottesting) — 2024-06-08T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Swift Testing and Macros. Use it as a research lead and validate conclusions against the original source.
-- [10 years of Swift, 25% off Point-Free 🎉](https://www.pointfree.co/blog/posts/142-10-years-of-swift-25-off-point-free) — 2024-06-06T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Connects Swift Testing test functions with SnapshotTesting assertions, preserving snapshot diffs while adopting the newer test framework. Follow it when migrating suites without losing failure artifacts or custom traits.
 - [Composable Architecture Frequently Asked Questions](https://www.pointfree.co/blog/posts/141-composable-architecture-frequently-asked-questions) — 2024-06-04T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Architecture and Composable Architecture. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Answers recurring Composable Architecture questions about state, effects, reducers, and testing boundaries. Useful for evaluating architectural trade-offs before introducing a framework into a SwiftUI feature.
 - [This is what peak UIKit looks like](https://www.pointfree.co/blog/posts/140-this-is-what-peak-uikit-looks-like) — 2024-05-27T00:00:00Z
-  **NeKI brief:** Third-party technical reading on UIKit, Observation & State Management, and Swift. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The peak UIKit discussion treats view controllers, state, and navigation as explicit seams rather than incidental callbacks. It is useful for evaluating imperative architecture with the same ownership and testing discipline applied to SwiftUI.
 - [Sharing shared state with everyone!](https://www.pointfree.co/blog/posts/139-sharing-shared-state-with-everyone) — 2024-05-24T00:00:00Z
-  **NeKI brief:** Third-party analysis of Swift Concurrency. Use it to compare a community perspective before choosing an approach.
+  **NeKI brief:** Shared state becomes manageable when reads and writes pass through a dependency-aware abstraction instead of global singletons. The article highlights synchronization ownership and test substitution as the trade-off for convenient cross-feature access.
 - [Building an app in the Composable Architecture, from scratch](https://www.pointfree.co/blog/posts/138-building-an-app-in-the-composable-architecture-from-scratch) — 2024-05-09T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Composable Architecture, Architecture, and Testing. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Building a feature from scratch in the Composable Architecture makes state, actions, reducer logic, and effects visible in sequence. The workflow is useful for tracing where domain decisions belong before adding navigation or persistence.
 - [We’re live!](https://www.pointfree.co/blog/posts/137-we-re-live) — 2024-05-09T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Composable Architecture and Architecture. Use it to orient a follow-up check against current primary sources.
-- [4 years of the Composable Architecture](https://www.pointfree.co/blog/posts/136-4-years-of-the-composable-architecture) — 2024-05-06T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Composable Architecture and Architecture. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The live release discussion demonstrates how a library team explains architectural changes, migration risks, and feedback channels before finalizing APIs. Use it as process context alongside the concrete source and tests.
 - [Shared state in the Composable Architecture](https://www.pointfree.co/blog/posts/135-shared-state-in-the-composable-architecture) — 2024-04-29T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Composable Architecture and Architecture. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Shared state in a reducer architecture needs one owner and explicit observation paths so features do not diverge silently. The design helps coordinate mutations while making synchronization behavior testable.
 - [Sharing state in the Composable Architecture](https://www.pointfree.co/blog/posts/134-sharing-state-in-the-composable-architecture) — 2024-02-26T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Composable Architecture and Architecture. Use it to orient a follow-up check against current primary sources.
-- [We’re live!](https://www.pointfree.co/blog/posts/133-we-re-live) — 2024-02-12T16:20:00Z
-  **NeKI brief:** Overview of recent changes in Composable Architecture and Architecture. Use it to orient a follow-up check against current primary sources.
-- [Livestream re-scheduled](https://www.pointfree.co/blog/posts/132-livestream-re-scheduled) — 2024-02-08T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [Point-Free turns 6! 🥳](https://www.pointfree.co/blog/posts/131-point-free-turns-6) — 2024-01-29T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Sharing state across features is safer when dependencies define access and mutations flow through reducers, rather than passing mutable references freely. The article frames the resulting coordination and testing trade-offs.
 - [Observation comes to the Composable Architecture](https://www.pointfree.co/blog/posts/130-observation-comes-to-the-composable-architecture) — 2024-01-29T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Composable Architecture, Architecture, and Swift. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Observation integration lets Composable Architecture derive view updates from model access rather than explicit publisher plumbing. The change affects dependency and state boundaries, so migration should verify invalidation behavior and test isolation.
 - [Perception: A back-port of @Observable](https://www.pointfree.co/blog/posts/129-perception-a-back-port-of-observable) — 2024-01-09T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Observation & State Management and Swift. Use it as a research lead and validate conclusions against the original source.
-- [25% off Point-Free](https://www.pointfree.co/blog/posts/128-25-off-point-free) — 2023-12-26T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [End-of-year sale: 25% off Point-Free](https://www.pointfree.co/blog/posts/127-end-of-year-sale-25-off-point-free) — 2023-12-20T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Introduces Perception as a back-port of Swift Observation for older deployment targets. Useful when sharing observation-based SwiftUI architecture before the application can require iOS 17.
 - [2023 Year-in-review](https://www.pointfree.co/blog/posts/126-2023-year-in-review) — 2023-12-19T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The year review links releases and open-source maintenance to a sustained architecture roadmap. It is useful for locating related projects and understanding sequencing, while individual API behavior still belongs to source documentation.
 - [Observable Architecture Beta!](https://www.pointfree.co/blog/posts/125-observable-architecture-beta) — 2023-11-27T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Architecture, Composable Architecture, and Observation & State Management. Use it to orient a follow-up check against current primary sources.
-- [30% off Point-Free for Cyber Monday!](https://www.pointfree.co/blog/posts/124-30-off-point-free-for-cyber-monday) — 2023-11-27T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [30% Off Point-Free for Black Friday!](https://www.pointfree.co/blog/posts/123-30-off-point-free-for-black-friday) — 2023-11-22T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [Black Friday Sale: 30% Off Point-Free](https://www.pointfree.co/blog/posts/122-black-friday-sale-30-off-point-free) — 2023-11-20T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Introduces the beta Observable Architecture tools from Point-Free and how existing Composable Architecture code can adopt the observation model. Useful for evaluating migration trade-offs between view-driven observation, testable state, and deployment support.
 - [Macro Bonanza](https://www.pointfree.co/blog/posts/121-macro-bonanza) — 2023-11-17T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Macros. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Surveys Swift macro capabilities through concrete generation examples. Use it to compare attached and freestanding macro designs before introducing generated declarations into a production module.
 - [Macro Bonanza: Dependencies](https://www.pointfree.co/blog/posts/120-macro-bonanza-dependencies) — 2023-11-16T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Macros. Use it when planning or building a related feature.
+  **NeKI brief:** A dependency macro can synthesize environment plumbing while keeping live and test implementations interchangeable. The pattern reduces manual injection code, but generated behavior still needs inspection when compiler or macro expansion changes.
 - [Macro Bonanza: SwiftUI Navigation](https://www.pointfree.co/blog/posts/119-macro-bonanza-swiftui-navigation) — 2023-11-15T00:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftUI and Macros. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** A navigation macro can derive destination and path plumbing from domain declarations, reducing stringly-typed routing code. The trade-off is compiler-generated structure that must be version-pinned and tested at feature boundaries.
 - [Macro Bonanza: Composable Architecture](https://www.pointfree.co/blog/posts/118-macro-bonanza-composable-architecture) — 2023-11-14T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Macros. Use it when planning or building a related feature.
+  **NeKI brief:** Composable Architecture macros can synthesize repetitive reducer and observation plumbing from declared domains. The gain is less boilerplate; the trade-off is compiler-generated behavior that must be reviewed and versioned carefully.
 - [Macro Bonanza: Case Paths](https://www.pointfree.co/blog/posts/117-macro-bonanza-case-paths) — 2023-11-13T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Macros. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Case-path macros can derive enum extraction and embedding helpers from declarations, reducing hand-maintained pattern-matching glue. The approach improves consistency while macro expansion remains part of the build surface.
 - [Being a good citizen in the land of SwiftSyntax](https://www.pointfree.co/blog/posts/116-being-a-good-citizen-in-the-land-of-swiftsyntax) — 2023-10-17T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Explains how SwiftSyntax-based tools should coexist with the compiler ecosystem and its conventions. Follow it when building source transforms that need stable parsing, diagnostics, and respectful package integration.
 - [MacroTesting 0.2.0: Test more with less](https://www.pointfree.co/blog/posts/115-macrotesting-0-2-0-test-more-with-less) — 2023-10-03T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Macros. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Describes MacroTesting’s snapshot-based harness for Swift macro expansion, including failure diffs and fixture updates, so compiler-plugin behavior can be reviewed as concise source transformations.
 - [A new tool for testing macros in Swift](https://www.pointfree.co/blog/posts/114-a-new-tool-for-testing-macros-in-swift) — 2023-09-18T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Macros. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Introduces a macro-testing tool that compares expanded source against expected output. Useful for regression-testing code generation without relying only on downstream compilation failures.
 - [Inline Snapshot Testing](https://www.pointfree.co/blog/posts/113-inline-snapshot-testing) — 2023-09-13T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Testing. Use it when planning or building a related feature.
+  **NeKI brief:** Introduces inline snapshot testing, keeping expected output beside the test and updating it deliberately when behavior changes; the examples clarify reviewable diffs for serialized values and rendered output.
 - [Composable Architecture 1.0](https://www.pointfree.co/blog/posts/112-composable-architecture-1-0) — 2023-07-31T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Architecture and Composable Architecture. Use it as a research lead and validate conclusions against the original source.
-- [Streamlined team invites](https://www.pointfree.co/blog/posts/111-streamlined-team-invites) — 2023-07-28T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Introduces the 1.0 Composable Architecture model of reducers, state, actions, dependencies, and effects. Useful as a reference for explicit unidirectional data flow and testable SwiftUI features.
 - [Reliably testing async code in Swift](https://www.pointfree.co/blog/posts/110-reliably-testing-async-code-in-swift) — 2023-07-19T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Testing, Concurrency, and Swift. Use it when planning or building a related feature.
+  **NeKI brief:** Analyzes flaky asynchronous tests and presents deterministic scheduling and clock-control techniques, explaining how explicit task coordination removes sleeps and makes concurrent effects reproducible.
 - [Announcing Concurrency Extras: Useful, testable Swift concurrency.](https://www.pointfree.co/blog/posts/109-announcing-concurrency-extras-useful-testable-swift-concurrency) — 2023-07-18T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift Concurrency. Use it to orient a follow-up check against current primary sources.
-- [WWDC 2023 Sale!](https://www.pointfree.co/blog/posts/108-wwdc-2023-sale) — 2023-06-07T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
-- [WWDC 2023 Sale!](https://www.pointfree.co/blog/posts/107-wwdc-2023-sale) — 2023-06-01T00:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** ConcurrencyExtras packages testable helpers around Swift concurrency, giving code explicit control over clocks, task behavior, and isolation in tests. The library addresses determinism without pretending production scheduling can be made globally synchronous.
 - [Navigation tools come to the Composable Architecture](https://www.pointfree.co/blog/posts/106-navigation-tools-come-to-the-composable-architecture) — 2023-05-30T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Composable Architecture, Architecture, and Testing. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Navigation tools model presentation and destination state inside a feature domain, allowing tests to exercise routing decisions without a live UI. The integration trades imperative convenience for explicit state transitions.
 - [Composable navigation beta, part 2](https://www.pointfree.co/blog/posts/105-composable-navigation-beta-part-2) — 2023-04-17T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Composable Architecture and Architecture. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The navigation beta continues a state-driven model for stacks and presentations, emphasizing migration and composition across features. It is useful when evaluating how destination state affects restoration and deep links.
 - [Composable navigation beta](https://www.pointfree.co/blog/posts/104-composable-navigation-beta) — 2023-02-27T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Composable Architecture, Testing, and Architecture. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Composable navigation represents destination state in reducers, allowing deep-link and test flows to share the same transitions. The beta framing signals that migration APIs and semantics need validation before adoption.
 - [Composable Architecture 1.0 Preview](https://www.pointfree.co/blog/posts/103-composable-architecture-1-0-preview) — 2023-02-13T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Architecture and Composable Architecture. Use it as a research lead and validate conclusions against the original source.
-- [Watch our first ever livestream](https://www.pointfree.co/blog/posts/102-watch-our-first-ever-livestream) — 2023-02-06T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
-- [We’re live!](https://www.pointfree.co/blog/posts/101-we-re-live) — 2023-02-01T16:20:00Z
-  **NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
-- [Point-Free turns 5](https://www.pointfree.co/blog/posts/100-point-free-turns-5) — 2023-01-29T00:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** A 1.0 preview gives adopters a migration point for reducer, dependency, and navigation changes before final compatibility promises. It is useful release context, but concrete behavior still belongs to the versioned source.
 - [Modern SwiftUI](https://www.pointfree.co/blog/posts/99-modern-swiftui) — 2023-01-27T00:00:00Z
-  **NeKI brief:** Third-party analysis of SwiftUI. Use it to compare a community perspective before choosing an approach.
+  **NeKI brief:** Presents a modern SwiftUI architecture built around state, bindings, and composition rather than imperative view controllers. Useful as a conceptual reference when simplifying older SwiftUI code.
 - [Modern SwiftUI: Testing](https://www.pointfree.co/blog/posts/98-modern-swiftui-testing) — 2023-01-27T00:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Modern SwiftUI testing focuses on state transitions and dependency behavior before rendering assertions, keeping most tests deterministic. The workflow reserves UI-level checks for behavior that truly crosses the presentation boundary.
 - [Modern SwiftUI: Dependencies](https://www.pointfree.co/blog/posts/97-modern-swiftui-dependencies) — 2023-01-26T00:00:00Z
-  **NeKI brief:** Third-party analysis of SwiftUI. Use it to compare a community perspective before choosing an approach.
+  **NeKI brief:** Modern SwiftUI dependency design keeps feature code independent from live services and makes previews and tests deterministic. The trade-off is explicit dependency plumbing instead of convenient global access.
 - [Modern SwiftUI: State-driven navigation](https://www.pointfree.co/blog/posts/96-modern-swiftui-state-driven-navigation) — 2023-01-25T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for SwiftUI. Use it when planning or building a related feature.
+  **NeKI brief:** State-driven navigation derives destinations from domain state, so deep links and restoration use the same source of truth as user actions. The approach reduces imperative push coordination while making route modeling explicit.
 - [Modern SwiftUI: Identified arrays](https://www.pointfree.co/blog/posts/95-modern-swiftui-identified-arrays) — 2023-01-24T00:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for SwiftUI. Use it when planning or building a related feature.
+  **NeKI brief:** Identified arrays pair stable IDs with collection semantics, letting reducers update one element without losing ordering or replacing unrelated values. The abstraction makes list identity and targeted mutation explicit for SwiftUI features.
 - [Modern SwiftUI: Parent-child communication](https://www.pointfree.co/blog/posts/94-modern-swiftui-parent-child-communication) — 2023-01-23T00:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Modernizes parent-child SwiftUI communication with event-named delegate closures, then extends the pattern to ObservableObject models. Point-Free’s unimplemented closures preserve ergonomic initialization while producing loud runtime warnings or test failures when a parent forgets binding.
 - [Modern SwiftUI](https://www.pointfree.co/blog/posts/93-modern-swiftui) — 2023-01-17T00:00:00Z
-  **NeKI brief:** Third-party analysis of SwiftUI. Use it to compare a community perspective before choosing an approach.
+  **NeKI brief:** Modern SwiftUI architecture favors value-driven state and explicit dependencies, allowing views to remain projections rather than owners of side effects. The overview is useful for tracing how those boundaries affect testing and navigation.
 - [A new library to control dependencies and avoid letting them control you](https://www.pointfree.co/blog/posts/92-a-new-library-to-control-dependencies-and-avoid-letting-them-control-you) — 2023-01-09T00:00:00Z
-  **NeKI brief:** Third-party analysis of Dependency Injection and Swift. Use it to compare a community perspective before choosing an approach.
-- [Last day to save 25% off Point-Free](https://www.pointfree.co/blog/posts/91-last-day-to-save-25-off-point-free) — 2022-12-31T00:00:00Z
-  **NeKI brief:** Third-party analysis of Apple-platform development. Use it to compare a community perspective before choosing an approach.
-- [Last chance to save 25% off Point-Free](https://www.pointfree.co/blog/posts/90-last-chance-to-save-25-off-point-free) — 2022-12-28T17:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [End-of-year sale: 25% off Point-Free](https://www.pointfree.co/blog/posts/89-end-of-year-sale-25-off-point-free) — 2022-12-21T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Introduces Swift Dependencies, extracted from the Composable Architecture, to make feature dependencies explicit and replaceable. Follow it when designing testable Swift code and weighing controlled dependency injection against hidden global or live-service access.
 - [2022 Year-in-review](https://www.pointfree.co/blog/posts/88-2022-year-in-review) — 2022-12-19T06:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Recaps Swift Parsing’s 2022 evolution from builder syntax to structured error messages and bidirectional printing. Use its examples to understand how one composable parser description can diagnose malformed input and serialize typed values.
 - [swift-parsing: Swift 5.7 improvements](https://www.pointfree.co/blog/posts/87-swift-parsing-swift-5-7-improvements) — 2022-12-08T06:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift. Use it to orient a follow-up check against current primary sources.
-- [Cyber Monday Sale: 30% Off Point-Free](https://www.pointfree.co/blog/posts/86-cyber-monday-sale-30-off-point-free) — 2022-11-28T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [Black Friday Sale: 30% Off Point-Free](https://www.pointfree.co/blog/posts/85-black-friday-sale-30-off-point-free) — 2022-11-25T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Swift Parsing's 5.7 improvements refine parser composition and diagnostics while keeping grammar pieces reusable. The update is useful for comparing typed parsing against ad-hoc string processing.
 - [Better SwiftUI navigation APIs](https://www.pointfree.co/blog/posts/84-better-swiftui-navigation-apis) — 2022-11-21T06:00:00Z
-  **NeKI brief:** Troubleshooting-oriented guidance for SwiftUI. Use it when investigating a concrete implementation or performance problem.
+  **NeKI brief:** Presents improved SwiftUI navigation APIs and state-driven destination modeling. Follow it when replacing ad-hoc presentation flags with typed navigation state that can support deep links and deterministic tests.
 - [Non-exhaustive testing in the Composable Architecture](https://www.pointfree.co/blog/posts/83-non-exhaustive-testing-in-the-composable-architecture) — 2022-10-31T05:00:00Z
-  **NeKI brief:** Third-party technical reading on Testing, Composable Architecture, and Architecture. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Non-exhaustive reducer tests focus assertions on behavior relevant to a scenario while allowing unrelated state changes. The approach reduces brittle fixtures but requires teams to decide which omissions would hide a regression.
 - [Open Sourcing swift-clocks](https://www.pointfree.co/blog/posts/82-open-sourcing-swift-clocks) — 2022-10-24T05:00:00Z
-  **NeKI brief:** Third-party technical reading on Swift Concurrency. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** A controllable clock dependency lets asynchronous features test time-based behavior deterministically instead of sleeping in tests. Production code can still use the live clock through the same boundary.
 - [Announcing the Reducer Protocol](https://www.pointfree.co/blog/posts/81-announcing-the-reducer-protocol) — 2022-10-10T05:00:00Z
-  **NeKI brief:** Overview of recent changes in Composable Architecture and Architecture. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** A reducer protocol makes state transitions and effects explicit as a composable unit, clarifying how feature logic can be tested without a UI. The abstraction trades ceremony for a stable boundary around action handling.
 - [Improving Composable Architecture performance](https://www.pointfree.co/blog/posts/80-improving-composable-architecture-performance) — 2022-09-08T05:00:00Z
-  **NeKI brief:** Overview of recent changes in Composable Architecture, Architecture, and Performance. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Performance work in a reducer architecture starts by measuring state propagation and identifying unnecessary copies or view updates. The article routes to concrete optimization trade-offs without abandoning value semantics.
 - [Async Composable Architecture](https://www.pointfree.co/blog/posts/79-async-composable-architecture) — 2022-08-08T05:00:00Z
-  **NeKI brief:** Overview of recent changes in SwiftUI. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Async effects integrate structured concurrency into reducer workflows, making cancellation and task lifetime part of feature logic. The design reduces callback plumbing but requires disciplined actor and dependency boundaries.
 - [Reverse Engineering SwiftUI’s NavigationPath Codability](https://www.pointfree.co/blog/posts/78-reverse-engineering-swiftui-s-navigationpath-codability) — 2022-07-12T05:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for SwiftUI. Use it when planning or building a related feature.
+  **NeKI brief:** Reverse-engineering NavigationPath codability treats opaque navigation state as an observed encoding contract rather than a guaranteed API. The investigation is useful for deciding whether persistence should store stable route data instead of framework internals.
 - [Introducing XCTUnimplemented](https://www.pointfree.co/blog/posts/77-introducing-xctunimplemented) — 2022-06-29T05:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Swift Testing. Use it when planning or building a related feature.
-- [WWDC Sale 2022](https://www.pointfree.co/blog/posts/76-wwdc-sale-2022) — 2022-06-06T05:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** XCTUnimplemented creates test-only dependency implementations that fail on unexpected endpoint use, while explicit placeholders cover required return values. Use it to prove side effects stay absent unless a test deliberately configures them.
 - [Open Sourcing URLRouting and VaporRouting](https://www.pointfree.co/blog/posts/75-open-sourcing-urlrouting-and-vaporrouting) — 2022-05-02T05:00:00Z
-  **NeKI brief:** Third-party technical reading on Navigation & Deep Linking. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Models URL endpoints as route-enum cases, then composes parsers that both recognize requests and print URLs. Use it when sharing type-checked deep-link and server-route contracts instead of manually parsing path and query strings.
 - [Parser-printer unification](https://www.pointfree.co/blog/posts/74-parser-printer-unification) — 2022-04-11T05:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Parser-printer unification models parsing and serialization as two directions of one composable description. The design reduces duplicated schemas while requiring explicit handling for formats that are not perfectly invertible.
 - [Parser Errors](https://www.pointfree.co/blog/posts/73-parser-errors) — 2022-02-14T06:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Composable parser errors can preserve the failing input position and expected alternatives, making diagnostics actionable instead of returning a generic failure. The design balances rich context against the cost of carrying structured error data.
 - [Backtracking Parsers](https://www.pointfree.co/blog/posts/72-backtracking-parsers) — 2022-02-09T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Backtracking parsers preserve alternatives until later input disambiguates them, trading simpler grammar composition for potentially repeated work. The approach is useful when failure diagnostics and predictable limits are designed together.
 - [Introducing Parser Builders](https://www.pointfree.co/blog/posts/71-introducing-parser-builders) — 2022-01-24T06:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Swift. Use it when planning or building a related feature.
+  **NeKI brief:** Parser builders turn grammar composition into ordinary Swift expressions, making alternatives and sequencing visible in source. The abstraction improves reuse while requiring diagnostics that identify the failing parser branch.
 - [Unobtrusive runtime warnings for libraries](https://www.pointfree.co/blog/posts/70-unobtrusive-runtime-warnings-for-libraries) — 2022-01-03T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [End-of-year sale: 25% off Point-Free](https://www.pointfree.co/blog/posts/69-end-of-year-sale-25-off-point-free) — 2021-12-22T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Runtime warnings can surface library misuse without crashing production, then become test failures in controlled contexts. The pattern balances observability with resilience and gives teams a migration path from warning to enforcement.
 - [2021 Year-in-review](https://www.pointfree.co/blog/posts/68-2021-year-in-review) — 2021-12-22T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [Cyber Monday Sale: 30% Off Point-Free](https://www.pointfree.co/blog/posts/67-cyber-monday-sale-30-off-point-free) — 2021-11-28T22:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Recaps Point-Free’s 2021 SwiftUI architecture work, including rebuilding a SwiftUI application in UIKit and test-support constraints imposed by Xcode module boundaries. Use it as historical context for separating application architecture from platform-specific UI layers.
 - [Open Sourcing SwiftUI Navigation](https://www.pointfree.co/blog/posts/66-open-sourcing-swiftui-navigation) — 2021-11-16T06:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
-- [Give the Gift of Point-Free](https://www.pointfree.co/blog/posts/65-give-the-gift-of-point-free) — 2021-10-26T05:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Introduces SwiftUI Navigation tools for state-driven routing. Use it when deep links and destination state need a composable, testable alternative to ad-hoc bindings.
 - [Point Freebies: Swift Concurrency and More](https://www.pointfree.co/blog/posts/64-point-freebies-swift-concurrency-and-more) — 2021-09-15T05:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift Concurrency, SwiftUI, and Xcode. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** The concurrency collection routes to examples of task cancellation, isolation, and structured lifetime. Use it as a map to concrete implementations, verifying each technique against the current Swift concurrency model.
 - [The Composable Architecture ❤️ SwiftUI Bindings](https://www.pointfree.co/blog/posts/63-the-composable-architecture-%EF%B8%8F-swiftui-bindings) — 2021-09-06T05:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Composable Architecture bindings route UI edits through actions and reducer state instead of mutating model references directly. The integration keeps effects and validation testable while adding explicit binding case definitions.
 - [Open Sourcing: Custom Dump](https://www.pointfree.co/blog/posts/62-open-sourcing-custom-dump) — 2021-08-23T05:00:00Z
-  **NeKI brief:** Troubleshooting-oriented guidance for Testing. Use it when investigating a concrete implementation or performance problem.
+  **NeKI brief:** Introduces Custom Dump for structured value comparison and diagnostics. Use it when test failures need readable nested differences rather than opaque string descriptions.
 - [Better Performance Bonanza](https://www.pointfree.co/blog/posts/61-better-performance-bonanza) — 2021-07-14T05:00:00Z
-  **NeKI brief:** Troubleshooting-oriented guidance for Performance, Architecture, and Composable Architecture. Use it when investigating a concrete implementation or performance problem.
+  **NeKI brief:** Performance improvements are most credible when accompanied by before-and-after measurements and a clear account of changed work. The collection routes to concrete Swift optimization examples rather than generic speed advice.
 - [Open Sourcing Identified Collections](https://www.pointfree.co/blog/posts/60-open-sourcing-identified-collections) — 2021-07-12T05:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Introduces identified collections for stable element lookup and mutation. Use it when a feature stores ordered state whose elements need identity-safe updates.
 - [Announcing SwitchStore for the Composable Architecture](https://www.pointfree.co/blog/posts/59-announcing-switchstore-for-the-composable-architecture) — 2021-06-14T05:00:00Z
-  **NeKI brief:** Overview of recent changes in Composable Architecture, Architecture, and Performance. Use it to orient a follow-up check against current primary sources.
-- [WWDC Sale](https://www.pointfree.co/blog/posts/58-wwdc-sale) — 2021-06-07T05:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** SwitchStore selects a view branch from enum state while preserving the reducer as the state-transition owner. The pattern improves exhaustive UI modeling, but identity and child-store lifetime need deliberate handling.
 - [A Tour of isowords](https://www.pointfree.co/blog/posts/57-a-tour-of-isowords) — 2021-05-12T05:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** The isowords tour uses a real application to connect reducer composition, dependencies, effects, and persistence. It is a useful end-to-end architecture reference rather than an isolated pattern recipe.
 - [Better Testing Bonanza](https://www.pointfree.co/blog/posts/56-better-testing-bonanza) — 2021-03-22T05:00:00Z
-  **NeKI brief:** Third-party technical reading on Testing. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** The testing collection emphasizes deterministic dependencies, state assertions, and focused failure output for Swift features. Its value is a workflow for reducing flaky tests without weakening behavioral coverage.
 - [Open Sourcing isowords](https://www.pointfree.co/blog/posts/55-open-sourcing-isowords) — 2021-03-17T16:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Explains the open sourcing of isowords and exposes a production game's architecture. Use it as a case study for composable state, effects, and testable game feature design.
 - [Announcing: isowords](https://www.pointfree.co/blog/posts/54-announcing-isowords) — 2021-03-17T07:00:00Z
-  **NeKI brief:** Overview of recent changes in StoreKit. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** isowords demonstrates an application assembled from independently testable features, dependencies, and effects. Its open-source release is valuable for tracing architecture decisions through a nontrivial codebase.
 - [Composable Architecture Test Store Improvements](https://www.pointfree.co/blog/posts/53-composable-architecture-test-store-improvements) — 2021-03-08T16:00:00Z
-  **NeKI brief:** Third-party technical reading on Testing, Architecture, and Composable Architecture. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Test-store improvements make action sequencing and state assertions clearer while keeping effects under test control. The workflow improves failure diagnosis, but tests still need to describe meaningful user-visible transitions.
 - [Composable Forms: Say “Bye” to Boilerplate!](https://www.pointfree.co/blog/posts/52-composable-forms-say-bye-to-boilerplate) — 2021-02-01T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Composable Architecture and Architecture. Use it as a research lead and validate conclusions against the original source.
-- [End-of-year sale: 25% off Point-Free](https://www.pointfree.co/blog/posts/51-end-of-year-sale-25-off-point-free) — 2020-12-23T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Composable forms derive validation and field state from domain structure, reducing repeated UI glue. The pattern centralizes rules but requires careful modeling of partial edits and submission effects.
 - [2020 Year-in-review](https://www.pointfree.co/blog/posts/50-2020-year-in-review) — 2020-12-23T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Composable Architecture and Architecture. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Recaps 2020 Composable Architecture development: feature composition, dependency control without protocol proliferation, and the 0.1.0 library release. Use it as historical context for why dependencies and reducer architecture became explicit design boundaries.
 - [Open Sourcing Parsing](https://www.pointfree.co/blog/posts/49-open-sourcing-parsing) — 2020-12-21T06:00:00Z
-  **NeKI brief:** Troubleshooting-oriented guidance for Performance. Use it when investigating a concrete implementation or performance problem.
-- [Cyber Monday Sale: 30% Off Point-Free](https://www.pointfree.co/blog/posts/48-cyber-monday-sale-30-off-point-free) — 2020-11-29T22:54:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Open-sourcing a parsing library makes parser composition, diagnostics, and performance trade-offs inspectable by users. It is a routing lead for comparing typed grammar models against handwritten string parsing.
 - [The Composable Architecture and SwiftUI Alerts](https://www.pointfree.co/blog/posts/47-the-composable-architecture-and-swiftui-alerts) — 2020-06-30T04:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Alerts modeled as reducer state turn presentation and user responses into testable actions rather than imperative callbacks. The approach keeps dismissal, confirmation, and side effects in one transition system.
 - [Core Motion support in the Composable Architecture](https://www.pointfree.co/blog/posts/46-core-motion-support-in-the-composable-architecture) — 2020-06-22T04:00:00Z
-  **NeKI brief:** Third-party technical reading on Composable Architecture and Architecture. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Core Motion support is injected as a dependency so sensor updates can be represented as effects and substituted in tests. The boundary separates hardware lifecycle from feature state and cancellation logic.
 - [Open Sourcing CombineSchedulers](https://www.pointfree.co/blog/posts/45-open-sourcing-combineschedulers) — 2020-06-15T04:00:00Z
-  **NeKI brief:** Third-party technical reading on Testing. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Injectable Combine schedulers make timing and thread delivery explicit, allowing asynchronous pipelines to be tested without real delays. The library separates scheduling policy from publisher transformation logic.
 - [Instrumenting features built in the Composable Architecture](https://www.pointfree.co/blog/posts/44-instrumenting-features-built-in-the-composable-architecture) — 2020-05-27T05:00:00Z
-  **NeKI brief:** Troubleshooting-oriented guidance for Composable Architecture and Architecture. Use it when investigating a concrete implementation or performance problem.
+  **NeKI brief:** Feature instrumentation can be modeled as a dependency or reducer effect, making analytics events follow the same state transitions as product behavior. This keeps telemetry testable and avoids scattered logging calls.
 - [Core Location support in the Composable Architecture](https://www.pointfree.co/blog/posts/43-core-location-support-in-the-composable-architecture) — 2020-05-20T05:00:00Z
-  **NeKI brief:** Third-party technical reading on Composable Architecture and Architecture. Use it as a research lead and validate conclusions against the original source.
-- [Regional Discounts](https://www.pointfree.co/blog/posts/42-regional-discounts) — 2020-05-12T05:00:00Z
-  **NeKI brief:** Third-party analysis of Apple-platform development. Use it to compare a community perspective before choosing an approach.
+  **NeKI brief:** Core Location is exposed as a dependency so authorization, updates, and cancellation become feature effects rather than view-controller callbacks. The boundary makes sensor behavior deterministic in tests.
 - [Composable Architecture, the library](https://www.pointfree.co/blog/posts/41-composable-architecture-the-library) — 2020-05-04T05:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Architecture, Composable Architecture, and Testing. Use it when planning or building a related feature.
+  **NeKI brief:** Introduces Point-Free's Composable Architecture and its state, action, reducer, and effect model. Use it when evaluating a unidirectional architecture with testable feature boundaries.
 - [Announcing Episode Collections](https://www.pointfree.co/blog/posts/40-announcing-episode-collections) — 2020-03-11T06:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
-- [Share Point-Free with friends and save!](https://www.pointfree.co/blog/posts/39-share-point-free-with-friends-and-save) — 2020-02-21T05:00:00Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Episode collections package related architecture material into a navigable sequence, useful for finding a complete workflow rather than isolated snippets. They are discovery metadata, while source examples provide the technical evidence.
 - [Open Sourcing Case Paths](https://www.pointfree.co/blog/posts/38-open-sourcing-case-paths) — 2020-02-04T07:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [2019 Year-in-review](https://www.pointfree.co/blog/posts/37-2019-year-in-review) — 2019-12-30T06:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
-- [🎉 Holiday Sale: 30% Off Point-Free](https://www.pointfree.co/blog/posts/36-holiday-sale-30-off-point-free) — 2019-12-23T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Case paths provide extraction and embedding operations for enum cases, enabling generic navigation and composition over sum types. The library makes case-focused APIs reusable while preserving explicit failure when a case does not match.
 - [Snapshot Testing SwiftUI](https://www.pointfree.co/blog/posts/35-snapshot-testing-swiftui) — 2019-12-23T06:00:00Z
-  **NeKI brief:** Third-party technical reading on SwiftUI. Use it as a research lead and validate conclusions against the original source.
-- [Free Video: Testing SwiftUI](https://www.pointfree.co/blog/posts/34-free-video-testing-swiftui) — 2019-12-18T06:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for SwiftUI. Use it when planning or building a related feature.
-- [Cyber Monday Sale: 30% Off Point-Free](https://www.pointfree.co/blog/posts/33-cyber-monday-sale-30-off-point-free) — 2019-12-02T03:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Snapshot testing SwiftUI renders a view under controlled traits and compares pixels or images against a reference. The technique catches visual regressions, but needs deterministic data, fonts, and rendering environments.
 - [A Crash Course in Combine](https://www.pointfree.co/blog/posts/32-a-crash-course-in-combine) — 2019-11-20T06:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Apple-platform development. Use it when planning or building a related feature.
+  **NeKI brief:** Introduces Combine's publisher/subscriber model through practical pipelines and operators. Follow it when onboarding a codebase that still uses Combine and you need a conceptual route to composition, cancellation, and testing.
 - [Higher-Order Snapshot Testing](https://www.pointfree.co/blog/posts/31-higher-order-snapshot-testing) — 2019-11-07T06:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Testing. Use it when planning or building a related feature.
+  **NeKI brief:** Higher-order snapshot helpers wrap a test strategy with shared device, trait, or naming configuration. The abstraction removes repeated setup while keeping each feature's visual assertion explicit.
 - [SwiftUI and State Management Corrections](https://www.pointfree.co/blog/posts/30-swiftui-and-state-management-corrections) — 2019-07-30T06:00:00Z
-  **NeKI brief:** Third-party analysis of SwiftUI and Xcode. Use it to compare a community perspective before choosing an approach.
-- [Enterprise Teams](https://www.pointfree.co/blog/posts/29-enterprise-teams) — 2019-05-09T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Corrections to SwiftUI state guidance are valuable because ownership and identity mistakes can create stale or duplicated UI. The article routes readers to revised reasoning rather than preserving an obsolete pattern.
 - [Open Sourcing Enum Properties](https://www.pointfree.co/blog/posts/28-open-sourcing-enum-properties) — 2019-04-29T06:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Swift. Use it when planning or building a related feature.
+  **NeKI brief:** Enum properties derive predicates and associated-value accessors from case structure, making domain branching reusable. The library reduces repeated switches while preserving explicit failure for nonmatching cases.
 - [Open Sourcing Gen](https://www.pointfree.co/blog/posts/27-open-sourcing-gen) — 2019-03-18T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Gen models random-data generation as composable values, enabling property-style tests to vary inputs without hand-writing every fixture. The approach improves coverage while generators still need constraints that reflect valid domains.
 - [Announcing swift-html 0.2.0](https://www.pointfree.co/blog/posts/26-announcing-swift-html-0-2-0) — 2019-01-08T09:00:00Z
-  **NeKI brief:** Overview of recent changes in Swift and Testing. Use it to orient a follow-up check against current primary sources.
-- [2018 Year-in-Review](https://www.pointfree.co/blog/posts/25-2018-year-in-review) — 2018-12-19T09:00:01Z
-  **NeKI brief:** Implementation-oriented guidance for Apple-platform development. Use it when planning or building a related feature.
-- [Save 30% on Point-Free](https://www.pointfree.co/blog/posts/24-save-30-on-point-free) — 2018-12-19T09:00:00Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Type-safe HTML construction models elements and attributes in Swift values, catching structural mistakes before rendering. The library trades template familiarity for compiler-checked composition and reusable view functions.
 - [SnapshotTesting 1.0: Delightful Swift snapshot testing](https://www.pointfree.co/blog/posts/23-snapshottesting-1-0-delightful-swift-snapshot-testing) — 2018-12-03T09:00:00Z
-  **NeKI brief:** Third-party technical reading on Testing and Swift. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Introduces SnapshotTesting for asserting rendered views and other values against recorded representations. Follow it when visual regressions need reviewable diffs and test fixtures must capture exact UI state.
 - [Some news about contramap](https://www.pointfree.co/blog/posts/22-some-news-about-contramap) — 2018-10-29T09:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Apple-platform development. Use it when planning or building a related feature.
+  **NeKI brief:** Contramap adapts a consumer to accept a broader input by transforming it before use, a dual to mapping outputs. The article explains how this functional operation composes formatting and validation behavior.
 - [How to Control the World](https://www.pointfree.co/blog/posts/21-how-to-control-the-world) — 2018-10-09T14:00:00Z
-  **NeKI brief:** Implementation-oriented guidance for Architecture, Dependency Injection, and Testing. Use it when planning or building a related feature.
-- [Watch episodes in your favorite podcast app!](https://www.pointfree.co/blog/posts/20-watch-episodes-in-your-favorite-podcast-app) — 2018-10-08T06:29:36Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Controlling dependencies through explicit environment values makes effects replaceable in tests and previews. The functional approach avoids hidden globals, but requires deliberate propagation of the dependency context.
 - [Random Zalgo Generator](https://www.pointfree.co/blog/posts/19-random-zalgo-generator) — 2018-09-20T06:29:36Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** A random Zalgo generator applies Unicode combining marks to base characters, demonstrating how visually extreme text can remain valid scalar sequences. It is a useful reminder to test text rendering and normalization boundaries.
 - [Type-safe HTML with Kitura](https://www.pointfree.co/blog/posts/18-type-safe-html-with-kitura) — 2018-09-13T06:00:01Z
-  **NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Type-safe HTML integrated with Kitura turns server responses into compiler-checked view composition instead of string templates. The adapter keeps routing and rendering separate while preserving reusable HTML components.
 - [Type-safe HTML with Vapor](https://www.pointfree.co/blog/posts/17-type-safe-html-with-vapor) — 2018-09-13T06:00:00Z
-  **NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Type-safe HTML with Vapor expresses server views as compiler-checked Swift composition instead of string templates. The integration keeps routing and rendering boundaries explicit while reusing typed element builders.
 - [Open sourcing swift-html: A Type-Safe Alternative to Templating Languages in Swift](https://www.pointfree.co/blog/posts/16-open-sourcing-swift-html-a-type-safe-alternative-to-templating-languages-in-swift) — 2018-09-12T07:57:04Z
-  **NeKI brief:** Implementation-oriented guidance for Swift. Use it when planning or building a related feature.
+  **NeKI brief:** swift-html models markup as Swift values, allowing element structure and attributes to be checked before rendering. The library trades template syntax for composable functions and stronger refactoring support.
 - [Overture 0.3.0: Now with Zip](https://www.pointfree.co/blog/posts/15-overture-0-3-0-now-with-zip) — 2018-08-17T05:57:04Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Functional zip combines independent computations into one result while preserving each input's structure. The release illustrates how small compositional primitives can remove repetitive coordination code.
 - [Open Sourcing Validated](https://www.pointfree.co/blog/posts/14-open-sourcing-validated) — 2018-08-17T05:57:03Z
-  **NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Introduces Validated for accumulating independent validation failures instead of stopping at the first error. Follow it when forms or data imports should report all invalid fields in one pass.
 - [Solutions to Exercises: Zip Part 3](https://www.pointfree.co/blog/posts/13-solutions-to-exercises-zip-part-3) — 2018-08-16T05:57:03Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Zip exercises demonstrate how combining effects depends on the algebra of the container, not merely tuple construction. The solutions are useful for recognizing when independent operations can be composed safely.
 - [Solutions to Exercises: Zip Part 2](https://www.pointfree.co/blog/posts/12-solutions-to-exercises-zip-part-2) — 2018-08-15T05:57:03Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Zip composition combines independent structures positionally, exposing how success and failure behavior depends on the underlying effect. The exercises provide a concrete way to test that intuition.
 - [Solutions to Exercises: Zip Part 1](https://www.pointfree.co/blog/posts/11-solutions-to-exercises-zip-part-1) — 2018-08-14T05:57:03Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
-- [Announcing Student Discounts](https://www.pointfree.co/blog/posts/10-announcing-student-discounts) — 2018-08-06T05:57:03Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
-- [Celebrating 6 Months](https://www.pointfree.co/blog/posts/9-celebrating-6-months) — 2018-07-30T09:57:03Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Zip exercises make positional composition explicit, revealing how independent values and effects combine into one result. The examples help distinguish applicative composition from sequential dependency.
 - [Conditional Coding](https://www.pointfree.co/blog/posts/8-conditional-coding) — 2018-07-02T09:57:03Z
-  **NeKI brief:** Third-party technical reading on Swift. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Conditional coding composes behavior based on a predicate while keeping both branches as ordinary values. The functional pattern clarifies when conditional configuration can replace deeply nested control flow.
 - [Open Sourcing NonEmpty](https://www.pointfree.co/blog/posts/7-open-sourcing-nonempty) — 2018-06-25T09:57:03Z
-  **NeKI brief:** Implementation-oriented guidance for Swift. Use it when planning or building a related feature.
+  **NeKI brief:** NonEmpty encodes the invariant that a collection has at least one element. Use it when APIs should eliminate repeated empty-case checks through a stronger input type.
 - [Tagged Seconds and Milliseconds](https://www.pointfree.co/blog/posts/6-tagged-seconds-and-milliseconds) — 2018-06-18T14:36:46Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Tagged time units prevent seconds and milliseconds from being mixed even though both are numeric values. The small type wrapper moves a common conversion error from runtime into the compiler.
 - [Styling with Functions: Free for Everyone!](https://www.pointfree.co/blog/posts/5-styling-with-functions-free-for-everyone) — 2018-05-30T09:57:03Z
-  **NeKI brief:** Third-party technical reading on UIKit. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Styling with functions treats visual configuration as composable transformations rather than scattered modifier chains. The approach can improve reuse, while overly abstract style functions may obscure local intent.
 - [Overture: Now with Functional Setters](https://www.pointfree.co/blog/posts/4-overture-now-with-functional-setters) — 2018-05-15T09:57:03Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Functional setters transform immutable values by returning updated copies, making configuration composable without shared mutation. The pattern clarifies how value semantics can support fluent construction.
 - [Solutions to Exercises: Contravariance](https://www.pointfree.co/blog/posts/3-solutions-to-exercises-contravariance) — 2018-05-07T04:01:02Z
-  **NeKI brief:** Third-party technical reading on Apple-platform development. Use it as a research lead and validate conclusions against the original source.
+  **NeKI brief:** Contravariance adapts consumers to broader input types by precomposing a transformation. The exercise grounds an abstract variance rule in composable Swift functions and type-safe API design.
 - [Case Study: Algebraic Data Types](https://www.pointfree.co/blog/posts/2-case-study-algebraic-data-types) — 2018-04-23T04:01:02Z
-  **NeKI brief:** Implementation-oriented guidance for Swift Concurrency. Use it when planning or building a related feature.
+  **NeKI brief:** Algebraic data types model product and sum domains explicitly, making impossible states harder to represent. The case study connects those types to exhaustive logic and maintainable feature state.
 - [Announcing Point-Free Pointers!](https://www.pointfree.co/blog/posts/1-announcing-point-free-pointers) — 2018-04-23T04:01:02Z
-  **NeKI brief:** Overview of recent changes in Apple-platform development. Use it to orient a follow-up check against current primary sources.
+  **NeKI brief:** Point-Free Pointers collects focused functional-programming material around small composable ideas. It is discovery context for the linked experiments, not a technical specification itself.

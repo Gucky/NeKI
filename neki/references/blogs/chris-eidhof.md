@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://chris.eidhof.nl/archive/](https://chris.eidhof.nl/archive/)
-- Last collected: `2026-07-17T21:08:36Z`
-- Indexed entries: **247**
+- Last collected: `2026-07-22T09:04:06Z`
+- Indexed entries: **244**
 
 - [Working for the man — Chris Eidhof](https://chris.eidhof.nl/post/working-for-the-man)
   **NeKI brief:** A personal career reflection on early programming work and the path from employment toward independent development. Use it for perspective on developer career choices rather than implementation guidance.
@@ -164,8 +164,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** A personal account of coping strategies after a breakup. It is autobiographical perspective, not professional or mental-health guidance.
 - [On Berlin — Chris Eidhof](https://chris.eidhof.nl/post/on-berlin)
   **NeKI brief:** A personal appreciation of living in Berlin and the qualities the author valued in the city at the time. Use it as historical lifestyle context only.
-- [Off on a holiday — Chris Eidhof](https://chris.eidhof.nl/post/off-on-a-holiday)
-  **NeKI brief:** A short personal notice about taking a holiday in Romania, with no substantive technical topic. Keep it only as archive context rather than a research lead.
 - [30 day experiment: no more sugar — Chris Eidhof](https://chris.eidhof.nl/post/no-more-sugar)
   **NeKI brief:** A personal report on a thirty-day experiment avoiding sugar and the author's experience of the habit change. Treat it as anecdotal lifestyle perspective, not nutritional guidance.
 - [Niche and Top Lists apps — Chris Eidhof](https://chris.eidhof.nl/post/niche-and-top-lists-apps)
@@ -176,8 +174,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** A development-diary entry covering a Met build, its first product website, and early press preparation. Use it as a small indie-launch chronology rather than current implementation guidance.
 - [New build and screenshots — Chris Eidhof](https://chris.eidhof.nl/post/new-build-and-screenshots)
   **NeKI brief:** A visual progress update from the Met beta, centered on a new build and screenshots rather than a technical explanation. It is useful for following the product's iteration history, but contains limited reusable engineering detail.
-- [My presentation at the Berlin HUG — Chris Eidhof](https://chris.eidhof.nl/post/my-presentation-at-the-berlin-hug)
-  **NeKI brief:** Points to a Berlin Haskell User Group presentation about lenses and fclabels, with slides and supporting code. Use it as historical functional-programming material and follow the linked repository for the substance.
 - [My perfect co-founder — Chris Eidhof](https://chris.eidhof.nl/post/my-perfect-co-founder)
   **NeKI brief:** A personal perspective on choosing a co-founder whose strengths complement, rather than duplicate, the author's own skills. It can prompt discussion about startup-team composition, but is not a universal hiring formula.
 - [More Interface Builder — Chris Eidhof](https://chris.eidhof.nl/post/more-interface-builder)
@@ -248,8 +244,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** A personal account of recovery efforts after burnout, including changes in activity and daily life. It may offer perspective, but it is not medical advice and should not replace professional support.
 - [How a burnout changed my life — Chris Eidhof](https://chris.eidhof.nl/post/how-a-burnout-changed-my-life)
   **NeKI brief:** A personal retrospective on how burnout changed the author's work boundaries, priorities, and relationship with programming. Use it as an individual career perspective, not a universal recovery model.
-- [Hello World! — Chris Eidhof](https://chris.eidhof.nl/post/hello-world)
-  **NeKI brief:** A one-line announcement establishing the blog for future personal writing. It provides provenance for the archive but almost no standalone research value.
 - [Hard Decisions — Chris Eidhof](https://chris.eidhof.nl/post/hard-decisions)
   **NeKI brief:** A personal career reflection on weighing attractive technical-lead roles against independence and other priorities. It can help frame similar trade-offs, but the conclusion is specific to the author's circumstances.
 - [Good coffeeshops in Berlin — Chris Eidhof](https://chris.eidhof.nl/post/good-coffeeshops-in-berlin)
@@ -329,11 +323,11 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Agentic Coding — Chris Eidhof](https://chris.eidhof.nl/post/agentic-coding)
   **NeKI brief:** Reports experiments using coding agents for SwiftUI work, including productive feedback loops, surprising failures, and tasks that still require a strong mental model. Use it to shape an agent-assisted workflow without treating the observations as universal benchmarks.
 - [Advanced Swift — Chris Eidhof](https://chris.eidhof.nl/post/advanced-swift)
-  **NeKI brief:** Announces the Advanced Swift book and outlines its goal of exploring the language beyond introductory material. It is useful for locating the publication and its historical context, not as a standalone technical chapter.
+  **NeKI brief:** Introduces Advanced Swift's focus on wrapping C libraries for Swift, using cmark and libuv to illustrate pointer, buffer, and ownership conversions. Use it as historical context for Swift/C interoperability design and the memory-management boundary such wrappers must expose.
 - [Adding push notifications to an app — Chris Eidhof](https://chris.eidhof.nl/post/adding-push-notifications-to-an-app)
-  **NeKI brief:** Walks through the architecture of an early iOS app that subscribes users to message categories and delivers push updates and badge changes. Use it as historical notification-flow material and verify every API against current UserNotifications guidance.
+  **NeKI brief:** Designs push delivery around server-side notification history rather than trusting app callbacks: launch-time synchronization recovers missed notifications, while read state and badge counts are reconciled with the server. Use it to reason about reliable notification workflows across terminated-app cases.
 - [Accessing an API using CoreData's NSIncrementalStore — Chris Eidhof](https://chris.eidhof.nl/post/accessing-an-api-using-coredatas-nsincrementalstore)
-  **NeKI brief:** Experiments with backing Core Data through NSIncrementalStore to expose a remote API as a persistent store. It is useful for understanding an advanced historical integration idea, but the author presents it as exploratory and modern persistence options should be evaluated first.
+  **NeKI brief:** Builds an object-graph facade over the Bandcamp API by parsing responses, modeling entities and relationships in Core Data, then implementing an NSIncrementalStore to fetch them lazily. Use it to study decoupling controllers from API shape, while treating the experiment as historical.
 - [A month of blogging — Chris Eidhof](https://chris.eidhof.nl/post/a-month-of-blogging)
   **NeKI brief:** A personal reflection on the effects of publishing a short post every workday for a month. It is useful as a writing-habit perspective rather than technical or audience-growth guidance.
 - [2025 — Chris Eidhof](https://chris.eidhof.nl/post/2025)
@@ -499,4 +493,4 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [2013 — Chris Eidhof](https://chris.eidhof.nl/post/2013)
   **NeKI brief:** A detailed personal retrospective covering client work, conferences, the launch of objc.io, travel, and leisure. Useful for historical context on the author's transition into a broader independent iOS career.
 - [10 iPhone apps for backpackers — Chris Eidhof](https://chris.eidhof.nl/post/10-iphone-apps-for-backpackers)
-  **NeKI brief:** A historical, personal list of iPhone apps the author found useful while backpacking. Treat it as a snapshot of travel tooling from its era, not a current app recommendation.
+  **NeKI brief:** Reviews ten iPhone apps selected for backpacking situations, emphasizing practical offline and travel needs. It is a dated app-usage snapshot rather than an implementation or platform recommendation.

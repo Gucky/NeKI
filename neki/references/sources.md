@@ -5,9 +5,10 @@ which links to the original archive and the individual issues or articles.
 
 ## Newsletters
 
-Curated editions. Their indexed issue pages lead to a small selection of
-external editorial reading.
+Curated editions. Their indexed issue pages include external editorial reading
+only where anonymous full-text access was verified.
 
+- [Create with Swift Weekly](newsletters/create-with-swift-weekly.md)
 - [Fatbobman’s Swift Weekly](newsletters/fatbobman-swift-weekly.md)
 - [iOS Dev Tools](newsletters/ios-dev-tools.md)
 - [iOS Dev Weekly](newsletters/ios-dev-weekly.md)
@@ -18,12 +19,13 @@ external editorial reading.
 
 ## Blogs
 
-Complete catalogues of each publication's own articles or long-form posts.
+Anonymously readable entries from each publication's directly observed article
+or long-form catalogue.
 
 - [Antoine van der Lee articles](blogs/avanderlee-articles.md)
 - [Chris Eidhof](blogs/chris-eidhof.md)
 - [Cocoa with Love](blogs/cocoa-with-love.md)
-- [Create with Swift](blogs/create-with-swift.md)
+- [Create with Swift Articles](blogs/create-with-swift-articles.md)
 - [Dave DeLong](blogs/dave-delong.md)
 - [Donny Wals](blogs/donny-wals.md)
 - [Fatbobman](blogs/fatbobman.md)
@@ -46,3 +48,14 @@ Complete catalogues of each publication's own articles or long-form posts.
 - [SwiftUI Lab](blogs/swiftui-lab.md)
 - [Tanaschita](blogs/tanaschita.md)
 - [Use Your Loaf](blogs/use-your-loaf.md)
+
+## Create with Swift
+
+Create with Swift is one publication represented in two distinct reading forms:
+
+- [Create with Swift Weekly](newsletters/create-with-swift-weekly.md) — curated newsletter issues whose selected links are external reading leads.
+- [Create with Swift Articles](blogs/create-with-swift-articles.md) — the publication's own directly readable article texts.
+
+The two catalogues share a publisher but serve different reading paths: newsletter
+editions curate leads from the wider community, whereas Articles routes directly to
+Create with Swift's original long-form pieces.
