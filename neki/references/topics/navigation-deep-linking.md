@@ -4,103 +4,176 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Navigation stacks, routing, deep links, destinations, and restoration.
 
-- Last collected: `2026-07-22T15:04:37Z`
-- Indexed links shown: **97**
+- Last collected: `2026-07-22T21:56:49Z`
+- Indexed links shown: **107**
 
 ## Direct-source reading
 
-- [Alamofire: Routing Requests | Kodeco](https://www.kodeco.com/5830-alamofire-routing-requests) — Kodeco / Ray Wenderlich archive · article catalogue · 2026-07-17
+- [Alamofire: Routing Requests | Kodeco](https://www.kodeco.com/5830-alamofire-routing-requests) — Kodeco / Ray Wenderlich archive · article catalogue
+  **Published:** `2026-07-17`
   **NeKI brief:** Alamofire request routing centralizes endpoint configuration and removes repeated networking setup. The example is useful for weighing a router’s consistency against hidden coupling, particularly when authentication, retries and request-specific headers diverge.
-- [ReSwift Tutorial: Memory Game App | Kodeco](https://www.kodeco.com/516-reswift-tutorial-memory-game-app) — Kodeco / Ray Wenderlich archive · article catalogue · 2026-07-17
+- [ReSwift Tutorial: Memory Game App | Kodeco](https://www.kodeco.com/516-reswift-tutorial-memory-game-app) — Kodeco / Ray Wenderlich archive · article catalogue
+  **Published:** `2026-07-17`
   **NeKI brief:** Implements unidirectional state flow with actions, reducers, subscriptions, routing, and asynchronous work in ReSwift. Useful as a concrete comparison point when evaluating whether centralized immutable state and explicit transitions justify the framework's ceremony.
-- [Server-Side Swift with Vapor | Kodeco](https://www.kodeco.com/21451628-server-side-swift-with-vapor) — Kodeco / Ray Wenderlich archive · article catalogue · 2026-07-17
+- [Server-Side Swift with Vapor | Kodeco](https://www.kodeco.com/21451628-server-side-swift-with-vapor) — Kodeco / Ray Wenderlich archive · article catalogue
+  **Published:** `2026-07-17`
   **NeKI brief:** Introduces server-side Swift with Vapor and the framework’s application model. Follow it for historical orientation around routing, middleware, and deployment before comparing those concepts with current Vapor releases.
-- [Advanced iOS Design Patterns | Kodeco](https://www.kodeco.com/1941458-advanced-ios-design-patterns) — Kodeco / Ray Wenderlich archive · article catalogue · 2026-07-17
+- [Advanced iOS Design Patterns | Kodeco](https://www.kodeco.com/1941458-advanced-ios-design-patterns) — Kodeco / Ray Wenderlich archive · article catalogue
+  **Published:** `2026-07-17`
   **NeKI brief:** Advanced iOS patterns such as mediator, composite and coordinator are compared through concrete use cases. Follow it to evaluate whether a pattern reduces dependency coupling or merely relocates complexity into another layer.
-- [Coordinator Tutorial for iOS: Getting Started | Kodeco](https://www.kodeco.com/158-coordinator-tutorial-for-ios-getting-started) — Kodeco / Ray Wenderlich archive · article catalogue · 2026-07-17
+- [Coordinator Tutorial for iOS: Getting Started | Kodeco](https://www.kodeco.com/158-coordinator-tutorial-for-ios-getting-started) — Kodeco / Ray Wenderlich archive · article catalogue
+  **Published:** `2026-07-17`
   **NeKI brief:** The Coordinator tutorial moves navigation decisions out of view controllers and discusses the resulting ownership trade-offs. It is useful for untangling flow logic, provided the coordinator graph remains explicit rather than becoming a second hidden dependency container.
-- [Getting Started With Server-Side Swift and Amazon Smoke | Kodeco](https://www.kodeco.com/11488641-getting-started-with-server-side-swift-and-amazon-smoke) — Kodeco / Ray Wenderlich archive · article catalogue · 2026-07-17
+- [Getting Started With Server-Side Swift and Amazon Smoke | Kodeco](https://www.kodeco.com/11488641-getting-started-with-server-side-swift-and-amazon-smoke) — Kodeco / Ray Wenderlich archive · article catalogue
+  **Published:** `2026-07-17`
   **NeKI brief:** Amazon Smoke builds a server-side Swift REST API with typed routing and request handling. It is useful for comparing framework ergonomics with Vapor while keeping deployment and middleware responsibilities visible.
-- [Kitura Tutorial: Getting Started With Server-Side Swift | Kodeco](https://www.kodeco.com/1079484-kitura-tutorial-getting-started-with-server-side-swift) — Kodeco / Ray Wenderlich archive · article catalogue · 2026-07-17
+- [Kitura Tutorial: Getting Started With Server-Side Swift | Kodeco](https://www.kodeco.com/1079484-kitura-tutorial-getting-started-with-server-side-swift) — Kodeco / Ray Wenderlich archive · article catalogue
+  **Published:** `2026-07-17`
   **NeKI brief:** Sets up a Kitura REST API with CouchDB, Codable routes, persistence, and request testing. Useful for tracing the pieces of a server-side Swift CRUD service from model definition through datastore integration and externally observable endpoints.
-- [Routing With MapKit and Core Location | Kodeco](https://www.kodeco.com/10028489-routing-with-mapkit-and-core-location) — Kodeco / Ray Wenderlich archive · article catalogue · 2026-07-17
+- [Routing With MapKit and Core Location | Kodeco](https://www.kodeco.com/10028489-routing-with-mapkit-and-core-location) — Kodeco / Ray Wenderlich archive · article catalogue
+  **Published:** `2026-07-17`
   **NeKI brief:** Combines location authorization, geocoding, MKLocalSearchCompleter, route requests, map overlays, and turn-by-turn steps. Useful for designing a search-to-directions flow while keeping address completion, permission state, and route rendering as separate concerns.
-- [SwiftUI Liquid Glass sheets with NavigationStack and Form](https://nilcoalescing.com/blog/LiquidGlassSheetsWithNavigationStackAndForm) — Nil Coalescing · article catalogue · 2026-04-01
+- [SwiftUI Liquid Glass sheets with NavigationStack and Form](https://nilcoalescing.com/blog/LiquidGlassSheetsWithNavigationStackAndForm) — Nil Coalescing · article catalogue
+  **Published:** `2026-04-01`
   **NeKI brief:** Explains composing Liquid Glass sheets with NavigationStack and Form, including presentation structure and styling boundaries. Follow it when migrating modal editing flows to iOS 26 while keeping navigation titles, controls, and form content legible.
-- [Universal Links implementation on iOS - SwiftLee](https://www.avanderlee.com/swiftui/universal-links-ios) — Antoine van der Lee articles · article catalogue · 2025-05-12T07:18:42+00:00
+- [Universal Links implementation on iOS - SwiftLee](https://www.avanderlee.com/swiftui/universal-links-ios) — Antoine van der Lee articles · article catalogue
+  **Published:** `2025-05-12T07:18:42+00:00`
   **NeKI brief:** Details Universal Links setup across associated domains, application routing, and fallback behavior when a link cannot open the app. The checklist is useful for diagnosing why valid HTTPS links remain in Safari.
-- [Overview of the new SwiftUI navigation APIs](https://nilcoalescing.com/blog/SwiftUINavigation2022) — Nil Coalescing · article catalogue · 2025-03-26
+- [Overview of the new SwiftUI navigation APIs](https://nilcoalescing.com/blog/SwiftUINavigation2022) — Nil Coalescing · article catalogue
+  **Published:** `2025-03-26`
   **NeKI brief:** Overviews the 2022 SwiftUI navigation APIs. Use it when migrating from NavigationView to typed destinations, path-based stacks, and split-view-aware routing.
-- [Handle Deep Links with Async Algorithms](https://blog.jacobstechtavern.com/p/deep-links-with-async-algorithms) — Jacob’s Tech Tavern · newsletter edition · 2025-03-24T16:02:06.309Z
+- [Handle Deep Links with Async Algorithms](https://blog.jacobstechtavern.com/p/deep-links-with-async-algorithms) — Jacob’s Tech Tavern · newsletter edition
+  **Published:** `2025-03-24T16:02:06.309Z`
   **NeKI brief:** Models deep links as asynchronous event streams and composes routing with Async Algorithms, making navigation ordering, cancellation, and multi-step dependencies explicit instead of scattering URL handling across view lifecycle callbacks.
-- [RocketSim 13.0: Builds Apps Faster - SwiftLee](https://www.avanderlee.com/xcode/rocketsim-simulator-tool) — Antoine van der Lee articles · article catalogue · 2025-01-20T13:39:25+00:00
+- [RocketSim 13.0: Builds Apps Faster - SwiftLee](https://www.avanderlee.com/xcode/rocketsim-simulator-tool) — Antoine van der Lee articles · article catalogue
+  **Published:** `2025-01-20T13:39:25+00:00`
   **NeKI brief:** Catalogues RocketSim features such as quick builds, touch recordings, device frames, and simulator controls. The link is useful for deciding which repetitive Simulator tasks can be moved into a faster development utility.
-- [Traps and Countermeasures for Abnormal onAppear Calls in SwiftUI](https://fatbobman.com/en/posts/traps-and-countermeasures-for-abnormal-onappear-calls-in-swiftui) — Fatbobman · article catalogue · 2024-12-18T00:12:00.000Z
+- [Traps and Countermeasures for Abnormal onAppear Calls in SwiftUI](https://fatbobman.com/en/posts/traps-and-countermeasures-for-abnormal-onappear-calls-in-swiftui) — Fatbobman · article catalogue
+  **Published:** `2024-12-18T00:12:00.000Z`
   **NeKI brief:** NavigationStack and TabView can trigger onAppear more often than a screen's visible lifetime suggests, causing duplicate loads or state mutations. The article identifies the triggering structure and offers containment strategies for lifecycle-sensitive work.
-- [Using the zoom navigation transition in SwiftUI](https://www.createwithswift.com/using-the-zoom-navigation-transition-in-swiftui) — Create with Swift · article catalogue · 2024-09-26T13:00:14.000Z
+- [Using the zoom navigation transition in SwiftUI](https://www.createwithswift.com/using-the-zoom-navigation-transition-in-swiftui) — Create with Swift · article catalogue
+  **Published:** `2024-09-26T13:00:14.000Z`
   **NeKI brief:** Implements the zoom navigation transition to connect source and destination content across a SwiftUI navigation path. Useful for spatial continuity when presenting detail views from thumbnails.
-- [NSManagedObjectID and PersistentIdentifier - Mastering Data Identifiers in Core Data and SwiftData](https://fatbobman.com/en/posts/nsmanagedobjectid-and-persistentidentifier) — Fatbobman · article catalogue · 2024-09-25T14:00:00.000Z
+- [NSManagedObjectID and PersistentIdentifier - Mastering Data Identifiers in Core Data and SwiftData](https://fatbobman.com/en/posts/nsmanagedobjectid-and-persistentidentifier) — Fatbobman · article catalogue
+  **Published:** `2024-09-25T14:00:00.000Z`
   **NeKI brief:** Core Data's NSManagedObjectID and SwiftData's PersistentIdentifier encode object identity differently across stores and contexts. Comparing their lifecycle and URI-style use helps diagnose stale references and choose safe handoff values between persistence layers.
-- [Deep linking for local notifications in SwiftUI | Swift with Majid](https://swiftwithmajid.com/2024/04/09/deep-linking-for-local-notifications-in-swiftui) — Swift with Majid · article catalogue · 2024-04-09T00:00:00+00:00
+- [Deep linking for local notifications in SwiftUI | Swift with Majid](https://swiftwithmajid.com/2024/04/09/deep-linking-for-local-notifications-in-swiftui) — Swift with Majid · article catalogue
+  **Published:** `2024-04-09T00:00:00+00:00`
   **NeKI brief:** Connects local-notification payloads to SwiftUI navigation so a tap can open a specific feature or screen. The workflow separates notification delivery from route interpretation, which keeps deep links testable and avoids hard-coded presentation in handlers.
-- [In-Depth Guide to iCloud Documents - Fundamental Setup and File Operations](https://fatbobman.com/en/posts/in-depth-guide-to-icloud-documents) — Fatbobman · article catalogue · 2023-12-07T00:11:00.000Z
+- [In-Depth Guide to iCloud Documents - Fundamental Setup and File Operations](https://fatbobman.com/en/posts/in-depth-guide-to-icloud-documents) — Fatbobman · article catalogue
+  **Published:** `2023-12-07T00:11:00.000Z`
   **NeKI brief:** The iCloud Documents guide traces container setup, file coordination, and ubiquitous-document operations from first principles. It helps diagnose synchronization races by separating local URL handling from cloud availability and metadata.
-- [Adding custom gestures to an AR application with SwiftUI](https://www.createwithswift.com/adding-custom-gestures-to-an-ar-application-with-swiftui) — Create with Swift · article catalogue · 2023-11-10T14:59:20.000Z
+- [Adding custom gestures to an AR application with SwiftUI](https://www.createwithswift.com/adding-custom-gestures-to-an-ar-application-with-swiftui) — Create with Swift · article catalogue
+  **Published:** `2023-11-10T14:59:20.000Z`
   **NeKI brief:** Adds custom gestures to an AR experience by bridging SwiftUI and UIKit through a coordinator and attaching recognizers to ARView. Useful when RealityKit interaction needs gesture-recognizer capabilities that are not expressed directly by the surrounding SwiftUI hierarchy.
-- [How to launch a macOS SwiftUI app from a Safari extension](https://www.polpiella.dev/how-to-launch-an-app-from-a-safari-extension) — Pol Piella · article catalogue · 2023-05-10T00:00:00.000Z
+- [How to launch a macOS SwiftUI app from a Safari extension](https://www.polpiella.dev/how-to-launch-an-app-from-a-safari-extension) — Pol Piella · article catalogue
+  **Published:** `2023-05-10T00:00:00.000Z`
   **NeKI brief:** A Safari extension communicates with a macOS SwiftUI app to trigger native actions. The guide is useful for defining extension-to-app boundaries, including user activation and secure message validation.
-- [Deeplink URL handling in SwiftUI - SwiftLee](https://www.avanderlee.com/swiftui/deeplink-url-handling) — Antoine van der Lee articles · article catalogue · 2023-04-18T07:00:00+00:00
+- [Deeplink URL handling in SwiftUI - SwiftLee](https://www.avanderlee.com/swiftui/deeplink-url-handling) — Antoine van der Lee articles · article catalogue
+  **Published:** `2023-04-18T07:00:00+00:00`
   **NeKI brief:** Implements SwiftUI deep links by parsing incoming URLs, mapping routes into navigation state, and handling links while the app is active or launching. It highlights where scene and view lifecycle timing affects reliable routing.
-- [How to pop view from Navigation stack in iOS 16 | Sarunw](https://sarunw.com/posts/how-to-pop-view-from-navigation-stack-in-swiftui) — Sarunw · article catalogue · 2023-04-04
+- [Configure Different Launch screens based on URL Scheme | Sarunw](https://sarunw.com/posts/launch-screen-url-scheme) — Sarunw · article catalogue
+  **Published:** `2023-04-12`
+  **NeKI brief:** Configures multiple iOS 14 launch-screen definitions and selects one through URL-scheme metadata. This supports branded entry points while preserving the launch screen's static-only constraint and keeping scheme selection in configuration.
+- [How to pop view from Navigation stack in iOS 16 | Sarunw](https://sarunw.com/posts/how-to-pop-view-from-navigation-stack-in-swiftui) — Sarunw · article catalogue
+  **Published:** `2023-04-04`
   **NeKI brief:** Uses the iOS 16 dismiss/navigation APIs to pop a NavigationStack destination rather than mutating an index manually. The system-owned route action keeps the view decoupled from stack representation and supports adaptive navigation.
-- [How to Pop to the Root view in SwiftUI | Sarunw](https://sarunw.com/posts/how-to-pop-to-root-view-in-swiftui) — Sarunw · article catalogue · 2023-01-28
+- [How to Pop to the Root view in SwiftUI | Sarunw](https://sarunw.com/posts/how-to-pop-to-root-view-in-swiftui) — Sarunw · article catalogue
+  **Published:** `2023-01-28`
   **NeKI brief:** Uses NavigationPath mutation to pop SwiftUI navigation to root, replacing imperative controller traversal with explicit route-state ownership and predictable restoration.
-- [Better SwiftUI navigation APIs](https://www.pointfree.co/blog/posts/84-better-swiftui-navigation-apis) — Point-Free · article catalogue · 2022-11-21T06:00:00Z
+- [Better SwiftUI navigation APIs](https://www.pointfree.co/blog/posts/84-better-swiftui-navigation-apis) — Point-Free · article catalogue
+  **Published:** `2022-11-21T06:00:00Z`
   **NeKI brief:** Presents improved SwiftUI navigation APIs and state-driven destination modeling. Follow it when replacing ad-hoc presentation flags with typed navigation state that can support deep links and deterministic tests.
-- [Adaptive Programmatic Navigation in SwiftUI](https://fatbobman.com/en/posts/adaptive-navigation-scheme) — Fatbobman · article catalogue · 2022-11-15T00:20:00.000Z
+- [Adaptive Programmatic Navigation in SwiftUI](https://fatbobman.com/en/posts/adaptive-navigation-scheme) — Fatbobman · article catalogue
+  **Published:** `2022-11-15T00:20:00.000Z`
   **NeKI brief:** Adaptive programmatic navigation coordinates selection state with different navigation containers and size classes. The design is useful for preventing push, split-view, and restoration paths from drifting into separate sources of truth.
-- [Mastering NavigationStack in SwiftUI. NavigationPath. | Swift with Majid](https://swiftwithmajid.com/2022/10/05/mastering-navigationstack-in-swiftui-navigationpath) — Swift with Majid · article catalogue · 2022-10-05T00:00:00+00:00
+- [Mastering NavigationStack in SwiftUI. NavigationPath. | Swift with Majid](https://swiftwithmajid.com/2022/10/05/mastering-navigationstack-in-swiftui-navigationpath) — Swift with Majid · article catalogue
+  **Published:** `2022-10-05T00:00:00+00:00`
   **NeKI brief:** Uses NavigationPath to represent heterogeneous navigation destinations as data. A codable path enables restoration and deep links, but every destination type needs a stable mapping and migration strategy.
-- [Mastering NavigationStack in SwiftUI. Deep Linking. | Swift with Majid](https://swiftwithmajid.com/2022/06/21/mastering-navigationstack-in-swiftui-deep-linking) — Swift with Majid · article catalogue · 2022-06-21T00:00:00+00:00
+- [Mastering NavigationStack in SwiftUI. Deep Linking. | Swift with Majid](https://swiftwithmajid.com/2022/06/21/mastering-navigationstack-in-swiftui-deep-linking) — Swift with Majid · article catalogue
+  **Published:** `2022-06-21T00:00:00+00:00`
   **NeKI brief:** Maps deep-link URLs into NavigationPath mutations so external routes enter the same navigation model as in-app taps. Validation and destination availability must happen before appending path elements.
-- [Mastering NavigationStack in SwiftUI. Navigator Pattern. | Swift with Majid](https://swiftwithmajid.com/2022/06/15/mastering-navigationstack-in-swiftui-navigator-pattern) — Swift with Majid · article catalogue · 2022-06-15T00:00:00+00:00
+- [Mastering NavigationStack in SwiftUI. Navigator Pattern. | Swift with Majid](https://swiftwithmajid.com/2022/06/15/mastering-navigationstack-in-swiftui-navigator-pattern) — Swift with Majid · article catalogue
+  **Published:** `2022-06-15T00:00:00+00:00`
   **NeKI brief:** Encapsulates NavigationStack route mutations in a navigator object, separating destination policy from view composition. The abstraction helps deep links and tests, but route state should remain observable and single-owned.
-- [Deep Dive into Modern SwiftUI Navigation - NavigationStack and NavigationSplitView](https://fatbobman.com/en/posts/new_navigator_of_swiftui_4) — Fatbobman · article catalogue · 2022-06-14T00:12:00.000Z
+- [Deep Dive into Modern SwiftUI Navigation - NavigationStack and NavigationSplitView](https://fatbobman.com/en/posts/new_navigator_of_swiftui_4) — Fatbobman · article catalogue
+  **Published:** `2022-06-14T00:12:00.000Z`
   **NeKI brief:** NavigationStack and NavigationSplitView model destinations as data, enabling deep links and restoration across adaptive layouts. The article helps separate route state from presentation mechanics when supporting phone and split-view navigation.
-- [Open Sourcing URLRouting and VaporRouting](https://www.pointfree.co/blog/posts/75-open-sourcing-urlrouting-and-vaporrouting) — Point-Free · article catalogue · 2022-05-02T05:00:00Z
+- [Open Sourcing URLRouting and VaporRouting](https://www.pointfree.co/blog/posts/75-open-sourcing-urlrouting-and-vaporrouting) — Point-Free · article catalogue
+  **Published:** `2022-05-02T05:00:00Z`
   **NeKI brief:** Models URL endpoints as route-enum cases, then composes parsers that both recognize requests and print URLs. Use it when sharing type-checked deep-link and server-route contracts instead of manually parsing path and query strings.
-- [Creating a Custom App Launch Experience in SwiftUI with Deep Linking](https://www.createwithswift.com/creating-a-custom-app-launch-experience-in-swiftui-with-deep-linking) — Create with Swift · article catalogue · 2022-03-30T15:02:00.000Z
+- [Creating a Custom App Launch Experience in SwiftUI with Deep Linking](https://www.createwithswift.com/creating-a-custom-app-launch-experience-in-swiftui-with-deep-linking) — Create with Swift · article catalogue
+  **Published:** `2022-03-30T15:02:00.000Z`
   **NeKI brief:** Builds a custom SwiftUI launch flow that responds to deep links. Useful for separating initial routing, asynchronous preparation, and destination selection so a link can enter the app reliably without turning the root view into an unstructured sequence of flags.
-- [Mastering Core Data Stack](https://fatbobman.com/en/posts/masteringofcoredatastack) — Fatbobman · article catalogue · 2021-11-02T00:10:00.000Z
+- [How to make a transparent navigation bar in iOS | Sarunw](https://sarunw.com/posts/how-to-make-transparent-navigation-bar-in-ios) — Sarunw · article catalogue
+  **Published:** `2022-03-03`
+  **NeKI brief:** Make a navigation bar transparent either through shared appearance configuration or by styling one navigation-bar instance. Choose the scope deliberately: global customization creates consistency, while per-controller styling prevents an immersive screen from changing unrelated flows.
+- [Mastering Core Data Stack](https://fatbobman.com/en/posts/masteringofcoredatastack) — Fatbobman · article catalogue
+  **Published:** `2021-11-02T00:10:00.000Z`
   **NeKI brief:** A Core Data stack coordinates model, persistent store coordinator, and contexts with explicit ownership and startup sequencing. The article helps diagnose initialization races and choose boundaries for background context work.
-- [Navigation in Swift | Swift by Sundell](https://www.swiftbysundell.com/articles/navigation-in-swift) — Swift by Sundell · article catalogue · 2021-10-30
+- [Navigation in Swift | Swift by Sundell](https://www.swiftbysundell.com/articles/navigation-in-swift) — Swift by Sundell · article catalogue
+  **Published:** `2021-10-30`
   **NeKI brief:** Models navigation as state and transitions rather than scattering controller pushes through feature code. A clear routing boundary improves deep linking, testing, and restoration behavior.
-- [SheetKit - SwiftUI Modal View Extension Library](https://fatbobman.com/en/posts/sheetkit) — Fatbobman · article catalogue · 2021-09-16T11:50:00.000Z
+- [SheetKit - SwiftUI Modal View Extension Library](https://fatbobman.com/en/posts/sheetkit) — Fatbobman · article catalogue
+  **Published:** `2021-09-16T11:50:00.000Z`
   **NeKI brief:** A sheet-management abstraction coordinates modal identity, presentation, and dismissal without scattering boolean flags. The pattern helps prevent competing sheets and keep modal routing testable in SwiftUI.
-- [Handling deeplinks in a SwiftUI app – Donny Wals](https://www.donnywals.com/handling-deeplinks-in-a-swiftui-app) — Donny Wals · article catalogue · 2020-07-06T07:00:49+00:00
+- [A new way to manage the back button title in iOS 14 with backButtonDisplayMode | Sarunw](https://sarunw.com/posts/new-way-to-manage-back-button-title-in-ios14) — Sarunw · article catalogue
+  **Published:** `2020-07-27`
+  **NeKI brief:** Explains UINavigationItem.backButtonDisplayMode and the title sources it controls, including default, generic, and minimal behavior. It helps change a pushed screen's back label through the navigation item rather than replacing the system back button.
+- [Handling deeplinks in a SwiftUI app – Donny Wals](https://www.donnywals.com/handling-deeplinks-in-a-swiftui-app) — Donny Wals · article catalogue
+  **Published:** `2020-07-06T07:00:49+00:00`
   **NeKI brief:** onOpenURL routes incoming links into SwiftUI state, separating URL parsing from navigation decisions and allowing unsupported routes to fail safely.
-- [Handling deeplinks in your app – Donny Wals](https://www.donnywals.com/handling-deeplinks-in-your-app) — Donny Wals · article catalogue · 2019-12-11T08:00:21+00:00
+- [What is backIndicatorTransitionMaskImage | Sarunw](https://sarunw.com/posts/what-is-backindicatortransitionmaskimage) — Sarunw · article catalogue
+  **Published:** `2020-06-04`
+  **NeKI brief:** Explains UIKit's backIndicatorTransitionMaskImage and its role in navigation-bar back indicator transitions. Use it when customizing the back glyph without breaking transition rendering.
+- [How to change a back button image | Sarunw](https://sarunw.com/posts/how-to-change-back-button-image) — Sarunw · article catalogue
+  **Published:** `2020-05-31`
+  **NeKI brief:** Shows changing a UINavigationBar back-button image. Use it when branding navigation while preserving hit targets, tint behavior, and standard back navigation semantics.
+- [How to remove text from a navigation bar back button | Sarunw](https://sarunw.com/posts/how-to-remove-text-from-uinavigationbar-back-button) — Sarunw · article catalogue
+  **Published:** `2020-04-08`
+  **NeKI brief:** Control a pushed navigation bar's back-label through the previous controller's navigation item, using an empty backButtonTitle when the chevron should remain without text. Keep the system back behavior intact instead of replacing it with a custom gesture or button.
+- [Handling deeplinks in your app – Donny Wals](https://www.donnywals.com/handling-deeplinks-in-your-app) — Donny Wals · article catalogue
+  **Published:** `2019-12-11T08:00:21+00:00`
   **NeKI brief:** Deep-link handling parses an incoming URL into navigation intent, keeping unsupported routes safe and separating routing from the launch lifecycle.
-- [Message-ID and Mail.app Deep Linking on iOS and macOS - NSHipster](https://nshipster.com/message-id) — NSHipster · article catalogue · 2019-11-04T00:00:00-08:00
+- [Message-ID and Mail.app Deep Linking on iOS and macOS - NSHipster](https://nshipster.com/message-id) — NSHipster · article catalogue
+  **Published:** `2019-11-04T00:00:00-08:00`
   **NeKI brief:** Mail message identifiers provide a deep-link target across iOS and macOS, but privacy changes can hide the address needed to construct one. The article traces the handoff and the onboarding trade-off between direct linking and user permission.
-- [Device Identifiers and Fingerprinting on iOS - NSHipster](https://nshipster.com/device-identifiers) — NSHipster · article catalogue · 2019-10-31T00:00:00-07:00
+- [Device Identifiers and Fingerprinting on iOS - NSHipster](https://nshipster.com/device-identifiers) — NSHipster · article catalogue
+  **Published:** `2019-10-31T00:00:00-07:00`
   **NeKI brief:** iOS identifier choices differ in scope, reset behavior, and user consent, so a stable value is never a neutral analytics shortcut. The article compares device and vendor identifiers with fingerprinting risks and App Store policy constraints.
-- [Navigation with Flow Controllers | Swift with Majid](https://swiftwithmajid.com/2019/02/20/navigation-with-flow-controllers) — Swift with Majid · article catalogue · 2019-02-20T00:00:00+00:00
+- [UINavigationBar changes in iOS13, Part2: UISearchController | Sarunw](https://sarunw.com/posts/uinavigationbar-changes-in-ios13-part2) — Sarunw · article catalogue
+  **Published:** `2019-10-23`
+  **NeKI brief:** Continues iOS 13 navigation-bar migration with appearance customization details and compatibility considerations. Use it when reconciling legacy bar properties with UINavigationBarAppearance across deployment targets.
+- [Navigation with Flow Controllers | Swift with Majid](https://swiftwithmajid.com/2019/02/20/navigation-with-flow-controllers) — Swift with Majid · article catalogue
+  **Published:** `2019-02-20T00:00:00+00:00`
   **NeKI brief:** Flow controllers centralize navigation decisions outside individual screens. The pattern is useful for multi-step journeys, provided flow ownership and dismissal routes remain explicit rather than becoming a second global router.
-- [Advanced coordinators in iOS – Hacking with Swift](https://www.hackingwithswift.com/articles/175/advanced-coordinator-pattern-tutorial-ios) — Hacking with Swift articles · article catalogue · 2019-02-07T12:49:24+00:00
+- [Advanced coordinators in iOS – Hacking with Swift](https://www.hackingwithswift.com/articles/175/advanced-coordinator-pattern-tutorial-ios) — Hacking with Swift articles · article catalogue
+  **Published:** `2019-02-07T12:49:24+00:00`
   **NeKI brief:** Uses coordinators to move navigation and child-flow ownership out of view controllers. Follow it when UIKit screens accumulate routing responsibilities and a testable flow boundary is more useful than additional delegate methods.
-- [Introduction to Coordinator | Sarunw](https://sarunw.com/posts/introduction-to-coordinator) — Sarunw · article catalogue · 2019-01-09
+- [Introduction to Coordinator | Sarunw](https://sarunw.com/posts/introduction-to-coordinator) — Sarunw · article catalogue
+  **Published:** `2019-01-09`
   **NeKI brief:** Uses a shopping-flow example to move navigation decisions out of individual view controllers into a coordinator. This makes screen transitions, child-flow ownership, and dependency assembly explicit instead of distributing routing knowledge throughout the UI layer.
-- [Using closures with the coordinator pattern – Hacking with Swift](https://www.hackingwithswift.com/articles/132/using-closures-with-the-coordinator-pattern) — Hacking with Swift articles · article catalogue · 2018-11-21T12:13:58+00:00
+- [Using closures with the coordinator pattern – Hacking with Swift](https://www.hackingwithswift.com/articles/132/using-closures-with-the-coordinator-pattern) — Hacking with Swift articles · article catalogue
+  **Published:** `2018-11-21T12:13:58+00:00`
   **NeKI brief:** Closures let coordinators return navigation results without coupling child view controllers to parents, reducing massive controllers while making callback ownership and retain cycles explicit.
-- [Article updates, 2018 edition | Cocoa with Love](https://www.cocoawithlove.com/blog/updating-for-2018.html) — Cocoa with Love · article catalogue · 2018-10-09
+- [Article updates, 2018 edition | Cocoa with Love](https://www.cocoawithlove.com/blog/updating-for-2018.html) — Cocoa with Love · article catalogue
+  **Published:** `2018-10-09`
   **NeKI brief:** The 2018 update log shows how a large article corpus is kept coherent across Xcode, Swift, and OS releases, with build-system regressions becoming part of maintenance cost.
-- [A Better MVC, Part 5: An Evolution | Dave DeLong](https://davedelong.com/blog/2018/04/24/a-better-mvc-part-5-an-evolution) — Dave DeLong · article catalogue · 2018-04-24T00:00:00+00:00
+- [A Better MVC, Part 5: An Evolution | Dave DeLong](https://davedelong.com/blog/2018/04/24/a-better-mvc-part-5-an-evolution) — Dave DeLong · article catalogue
+  **Published:** `2018-04-24T00:00:00+00:00`
   **NeKI brief:** Evolves an MVC architecture after earlier encapsulation work. Use it when reviewing how feature boundaries and collaborations can change incrementally without a wholesale rewrite.
-- [Moving Core Data Files](https://useyourloaf.com/blog/moving-core-data-files) — Use Your Loaf · article catalogue · 2017-05-15T09:40:13+01:00
+- [View-state driven applications | Cocoa with Love](https://www.cocoawithlove.com/blog/view-state-driven-applications.html) — Cocoa with Love · article catalogue
+  **Published:** `2017-11-08`
+  **NeKI brief:** Explores driving application behavior from explicit view state rather than scattered callbacks. Use it when designing predictable state transitions that can be rendered, tested, and restored independently of UIKit lifecycle events.
+- [Moving Core Data Files](https://useyourloaf.com/blog/moving-core-data-files) — Use Your Loaf · article catalogue
+  **Published:** `2017-05-15T09:40:13+01:00`
   **NeKI brief:** Moves Core Data store files safely, accounting for SQLite sidecar files and persistent-store coordination. Treat the store as a set of related artifacts and close contexts before relocating it.
-- [Testing actions over time | Cocoa with Love](https://www.cocoawithlove.com/blog/testing-actions-over-time.html) — Cocoa with Love · article catalogue · 2016-10-25
+- [Testing actions over time | Cocoa with Love](https://www.cocoawithlove.com/blog/testing-actions-over-time.html) — Cocoa with Love · article catalogue
+  **Published:** `2016-10-25`
   **NeKI brief:** A debug context coordinator replaces wall-clock scheduling with simulated time, making ordering and execution-context assertions deterministic at the cost of testing through a scheduler abstraction.
+- [Adding shadow effects to UITableView using CAGradientLayer | Cocoa with Love](https://www.cocoawithlove.com/2009/08/adding-shadow-effects-to-uitableview.html) — Cocoa with Love · article catalogue
+  **Published:** `2009-08-21`
+  **NeKI brief:** UITableView shadow effects require layering and clipping choices that preserve scrolling performance and cell reuse. The technique is useful for legacy UIKit styling where visual effects can accidentally trigger offscreen rendering.
 - [Learn to debug iOS features that require app start from external actions in Xcode](https://tanaschita.com/xcode-debugging-app-restart) — Tanaschita · article catalogue
   **NeKI brief:** Uses Xcode's wait-for-executable scheme option to attach the debugger when deep links, universal links, quick actions, or other external events launch the app.
 - [Testing remote iOS push notifications in a simulator with simctl](https://tanaschita.com/testing-remote-push-notifications-in-ios-simulator) — Tanaschita · article catalogue
@@ -124,85 +197,129 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
-- [SwiftUI View Lifecycle: When onAppear Actually Fires](https://www.swiftyplace.com/blog/swiftui-view-lifecycle-onappear) — Those Who Swift · Issue 260 · 2026-04-01 — Article · Topics: Swift · SwiftUI
+- [Foundation Models Is Now a Hybrid Platform — and Picking the Tier Is the New Design Decision](https://www.wesleymatlock.com/foundation-models-hybrid-platform) — Those Who Swift · Issue 276 — Article · Topics: AI Development · Foundation & Data Formats · Navigation & Deep Linking
+  **Published:** `2026-07-22T20:01:13.378Z`
+  **NeKI brief:** Frames model-tier selection as a feature-level architectural decision, with session creation and graceful fallback kept behind a focused boundary. Useful when designing a Foundation Models feature that may choose on-device, cloud, or frontier capability paths.
+- [SwiftUI View Lifecycle: When onAppear Actually Fires](https://www.swiftyplace.com/blog/swiftui-view-lifecycle-onappear) — Those Who Swift · Issue 260 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-04-01`
   **NeKI brief:** Investigates surprising onAppear behavior across SwiftUI view hierarchies and lifecycle changes. Useful for placing side effects safely, distinguishing view construction from appearance, and preventing duplicate loads or missed refreshes.
-- [SwiftUI Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill/releases/tag/2.3.0) — SwiftLee Weekly · Issue 315 · 2026-03-17T15:01:49.000Z — Source repository · Topics: Swift · SwiftUI · Navigation & Deep Linking
+- [SwiftUI Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill/releases/tag/2.3.0) — SwiftLee Weekly · Issue 315 — Source repository · Topics: Developer Community & Business · Swift · SwiftUI
+  **Published:** `2026-03-17T15:01:49.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for SwiftUI Agent Skill. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
-- [Swift Concurrency Agent Skill](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill/releases/tag/2.0.0) — SwiftLee Weekly · Issue 315 · 2026-03-17T15:01:49.000Z — Source repository · Topics: Concurrency · Swift · Navigation & Deep Linking
+- [Swift Concurrency Agent Skill](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill/releases/tag/2.0.0) — SwiftLee Weekly · Issue 315 — Source repository · Topics: Concurrency · Developer Community & Business · Swift
+  **Published:** `2026-03-17T15:01:49.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Swift Concurrency Agent Skill. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
-- [Advanced NavigationStack Patterns in SwiftUI](https://buczel.com/blog/swift-navigation-stack-patterns) — SwiftLee Weekly · Issue 311 · 2026-02-17T15:07:33.000Z — Article · Topics: Swift · SwiftUI
+- [Advanced NavigationStack Patterns in SwiftUI](https://buczel.com/blog/swift-navigation-stack-patterns) — SwiftLee Weekly · Issue 311 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-02-17T15:07:33.000Z`
   **NeKI brief:** Presents advanced NavigationStack patterns for typed routes, destinations, and path state. Useful for structuring nested flows and deep links when direct NavigationLink composition no longer provides sufficient control or testability.
-- [Advanced NavigationStack Patterns in SwiftUI](https://buczel.com/blog/welcome) — SwiftUI Weekly · SwiftUI Weekly - Issue #228 · 2026-02-09T10:51:28.125Z — Article · Topics: Swift · SwiftUI
+- [Advanced NavigationStack Patterns in SwiftUI](https://buczel.com/blog/welcome) — SwiftUI Weekly · SwiftUI Weekly - Issue #228 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-02-09T10:51:28.125Z`
   **NeKI brief:** Introduces NavigationStack patterns and navigation architecture for SwiftUI applications. Useful as a starting point for reviewing route ownership, destination registration, and path-driven deep-link handling in a multi-screen feature.
-- [From broken to testable SwiftUI navigation: The decoupled approach of MVVM with coordinators](https://matteomanferdini.com/mvvm-coordinator-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #226 · 2025-12-22T12:33:43.144Z — Article · Topics: Swift · SwiftUI · Navigation & Deep Linking
+- [From broken to testable SwiftUI navigation: The decoupled approach of MVVM with coordinators](https://matteomanferdini.com/mvvm-coordinator-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #226 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+  **Published:** `2025-12-22T12:33:43.144Z`
   **NeKI brief:** Builds a decoupled SwiftUI navigation approach combining MVVM and coordinators, with route orchestration outside view bodies. Useful for testing navigation decisions and containing flow complexity as features expand.
-- [SwiftUI Navigation Pain](https://elegantchaos.com/2025/12/12/navigation-pain.html) — Those Who Swift · Issue 245 · 2025-12-17 — Article · Topics: Swift · SwiftUI · Navigation & Deep Linking
+- [SwiftUI Navigation Pain](https://elegantchaos.com/2025/12/12/navigation-pain.html) — Those Who Swift · Issue 245 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+  **Published:** `2025-12-17`
   **NeKI brief:** Examines SwiftUI Navigation Pain, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
-- [Navigator](https://github.com/hmlongco/Navigator) — iOS Dev Tools · iOS Dev Tools: SwiftGitX, AsyncLifetime, Navigator · 2025-10-09T16:31:37.747Z — Source repository · Topics: Swift · SwiftUI
+- [Navigator](https://github.com/hmlongco/Navigator) — iOS Dev Tools · iOS Dev Tools: SwiftGitX, AsyncLifetime, Navigator — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-10-09T16:31:37.747Z`
   **NeKI brief:** Navigator provides a SwiftUI navigation abstraction centered on route-driven presentation. Use it to compare centralized routing decisions with native NavigationStack state when complex flows need testable deep-link handling.
-- [SwiftUI: Eliminating Navigation Registration](https://medium.com/the-swift-cooperative/swiftui-eliminating-navigation-registration-7339691c2887) — Those Who Swift · Issue 234 · 2025-10-01 — Article · Topics: Swift · SwiftUI · Navigation & Deep Linking
+- [SwiftUI: Eliminating Navigation Registration](https://medium.com/the-swift-cooperative/swiftui-eliminating-navigation-registration-7339691c2887) — Those Who Swift · Issue 234 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+  **Published:** `2025-10-01`
   **NeKI brief:** Examines SwiftUI: Eliminating Navigation Registration, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
-- [this tool](https://docs.rocketsim.app/features/hzQMSrSga7BGWvxdNVdwYs/deeplinks-universal-links/mYuk1cx8REK8mbbt4rhvWz) — SwiftLee Weekly · Issue 291 · 2025-09-30T13:58:29.000Z — Article · Topics: Navigation & Deep Linking · Testing
+- [this tool](https://docs.rocketsim.app/features/hzQMSrSga7BGWvxdNVdwYs/deeplinks-universal-links/mYuk1cx8REK8mbbt4rhvWz) — SwiftLee Weekly · Issue 291 — Article · Topics: Navigation & Deep Linking · Testing
+  **Published:** `2025-09-30T13:58:29.000Z`
   **NeKI brief:** Explains this tool, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
-- [NavigationStack Deep Linking in Large SwiftUI Apps](https://medium.com/@wesleymatlock/%EF%B8%8F-navigationstack-deep-linking-in-large-swiftui-apps-439a1ce77337) — Those Who Swift · Issue 227 · 2025-08-13 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+- [NavigationStack Deep Linking in Large SwiftUI Apps](https://medium.com/@wesleymatlock/%EF%B8%8F-navigationstack-deep-linking-in-large-swiftui-apps-439a1ce77337) — Those Who Swift · Issue 227 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+  **Published:** `2025-08-13`
   **NeKI brief:** Examines NavigationStack Deep Linking in Large SwiftUI Apps, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
-- [Refactoring my SwiftUI Navigation Layer to follow the Coordinator Pattern](https://www.tiagohenriques.dev/blog/swiftui-refactor-navigation-layer-using-coordinator-pattern) — SwiftLee Weekly · Issue 263 · 2025-03-18T15:01:58.000Z — Article · Topics: Swift · SwiftUI · Concurrency
+- [Refactoring my SwiftUI Navigation Layer to follow the Coordinator Pattern](https://www.tiagohenriques.dev/blog/swiftui-refactor-navigation-layer-using-coordinator-pattern) — SwiftLee Weekly · Issue 263 — Article · Topics: Concurrency · Swift · SwiftUI
+  **Published:** `2025-03-18T15:01:58.000Z`
   **NeKI brief:** Refactors a SwiftUI navigation layer toward the Coordinator pattern, separating route orchestration from views. Useful for deep-link handling and feature composition when NavigationStack state is spreading across screens.
-- [ImplementedSE-0451Raw identifiers](https://github.com/apple/swift-evolution/blob/main/proposals/0451-escaped-identifiers.md) — SwiftLee Weekly · Issue 263 · 2025-03-18T15:01:58.000Z — Source repository · Topics: Swift · Concurrency · Navigation & Deep Linking
+- [ImplementedSE-0451Raw identifiers](https://github.com/apple/swift-evolution/blob/main/proposals/0451-escaped-identifiers.md) — SwiftLee Weekly · Issue 263 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-03-18T15:01:58.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0451Raw identifiers. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
-- [AcceptedSE-0462Task Priority Escalation APIs](https://github.com/apple/swift-evolution/blob/main/proposals/0462-task-priority-escalation-apis.md) — SwiftLee Weekly · Issue 263 · 2025-03-18T15:01:58.000Z — Source repository · Topics: Swift · Concurrency · Navigation & Deep Linking
+- [AcceptedSE-0462Task Priority Escalation APIs](https://github.com/apple/swift-evolution/blob/main/proposals/0462-task-priority-escalation-apis.md) — SwiftLee Weekly · Issue 263 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-03-18T15:01:58.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0462Task Priority Escalation APIs. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
-- [AcceptedSE-0463Import Objective-C completion handler parameters as `@Sendable`](https://github.com/apple/swift-evolution/blob/main/proposals/0463-sendable-completion-handlers.md) — SwiftLee Weekly · Issue 263 · 2025-03-18T15:01:58.000Z — Source repository · Topics: Swift · Concurrency · Navigation & Deep Linking
+- [AcceptedSE-0463Import Objective-C completion handler parameters as `@Sendable`](https://github.com/apple/swift-evolution/blob/main/proposals/0463-sendable-completion-handlers.md) — SwiftLee Weekly · Issue 263 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-03-18T15:01:58.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0463Import Objective-C completion handler parameters as `@Sendable`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
-- [Active ReviewSE-0468`Hashable` conformance for `Async(Throwing)Stream.Continuation`](https://github.com/apple/swift-evolution/blob/main/proposals/0468-async-stream-continuation-hashable-conformance.md) — SwiftLee Weekly · Issue 263 · 2025-03-18T15:01:58.000Z — Source repository · Topics: Swift · Concurrency · Navigation & Deep Linking
+- [Active ReviewSE-0468`Hashable` conformance for `Async(Throwing)Stream.Continuation`](https://github.com/apple/swift-evolution/blob/main/proposals/0468-async-stream-continuation-hashable-conformance.md) — SwiftLee Weekly · Issue 263 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-03-18T15:01:58.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0468`Hashable` conformance for `Async(Throwing)Stream.Continuation`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
-- [Learn to debug iOS features that require app start from external actions in Xcode](https://tanaschita.com/xcode-debugging-app-restart?ref=createwithswift.com) — Create with Swift · Issue 46 · 2025-01-31T16:30:58.000Z — Article · Topics: Xcode · Navigation & Deep Linking · Swift
+- [Learn to debug iOS features that require app start from external actions in Xcode](https://tanaschita.com/xcode-debugging-app-restart?ref=createwithswift.com) — Create with Swift · Issue 46 — Article · Topics: Developer Tools · Navigation & Deep Linking · Xcode
+  **Published:** `2025-01-31T16:30:58.000Z`
   **NeKI brief:** Uses Xcode's wait-for-executable scheme option to attach the debugger when deep links, universal links, quick actions, or other external events launch the app.
-- [SwiftUI Navigation using the Router Pattern](https://tiagohenriques.vercel.app/blog/swiftui-navigation-router-pattern) — SwiftLee Weekly · Issue 254 · 2025-01-14T14:03:25.000Z — Article · Topics: Swift · SwiftUI · Navigation & Deep Linking
+- [SwiftUI Navigation using the Router Pattern](https://tiagohenriques.vercel.app/blog/swiftui-navigation-router-pattern) — SwiftLee Weekly · Issue 254 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+  **Published:** `2025-01-14T14:03:25.000Z`
   **NeKI brief:** Implements a router pattern for SwiftUI navigation with centralized route decisions. Useful for making deep links, modal presentation, and navigation tests deterministic while keeping views focused on rendering.
-- [My Favorite SwiftUI Updates in iOS 18](https://www.youtube.com/watch?v=aCbh9LmIZTI) — SwiftUI Weekly · SwiftUI Weekly - Issue #192 - by Majid Jabrayilov · 2024-07-02T09:09:59.000Z — Video · Topics: Swift · SwiftUI
+- [My Favorite SwiftUI Updates in iOS 18](https://www.youtube.com/watch?v=aCbh9LmIZTI) — SwiftUI Weekly · SwiftUI Weekly - Issue #192 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2024-07-02T09:09:59.000Z`
   **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
-- [handling deeplinks on iOS 14](https://www.donnywals.com/handling-deeplinks-in-ios-14-with-onopenurl) — SwiftUI Weekly · SwiftUI Weekly - Issue #188 - by Majid Jabrayilov · 2024-05-27T10:42:14.070Z — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+- [handling deeplinks on iOS 14](https://www.donnywals.com/handling-deeplinks-in-ios-14-with-onopenurl) — SwiftUI Weekly · SwiftUI Weekly - Issue #188 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+  **Published:** `2024-05-27T10:42:14.070Z`
   **NeKI brief:** Handles deep links in SwiftUI using onOpenURL on iOS 14. Useful for routing incoming URLs into navigation state while supporting early SwiftUI deployments.
-- [Deep linking for local notifications in SwiftUI](https://swiftwithmajid.com/2024/04/09/deep-linking-for-local-notifications-in-swiftui?ref=createwithswift.com) — Create with Swift · Issue 8 · 2024-04-12T15:00:48.000Z — Article · Topics: Swift · Navigation & Deep Linking · SwiftUI
+- [Deep linking for local notifications in SwiftUI](https://swiftwithmajid.com/2024/04/09/deep-linking-for-local-notifications-in-swiftui?ref=createwithswift.com) — Create with Swift · Issue 8 — Article · Topics: App Services & Extensions · Navigation & Deep Linking · Swift
+  **Published:** `2024-04-12T15:00:48.000Z`
   **NeKI brief:** Connects local-notification payloads to SwiftUI navigation so a tap can open a specific feature or screen. The workflow separates notification delivery from route interpretation, which keeps deep links testable and avoids hard-coded presentation in handlers.
-- [How to implement a UIViewController delegate when working with SwiftUI](https://tanaschita.com/20230508-coordinators-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #142 · 2023-05-15T09:13:45.627Z — Article · Topics: Swift · SwiftUI · Navigation & Deep Linking
+- [How to implement a UIViewController delegate when working with SwiftUI](https://tanaschita.com/20230508-coordinators-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #142 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+  **Published:** `2023-05-15T09:13:45.627Z`
   **NeKI brief:** Demonstrates UIViewControllerRepresentable.Coordinator forwarding UIKit delegate callbacks into SwiftUI state. Useful when wrapping delegate-driven controllers such as scanners or pickers while keeping the bridge's lifecycle and data flow explicit.
-- [SwiftUI Multiplatform Navigation Example](https://github.com/tunds/SwiftUI-Navigation-Multiplatform-Example) — SwiftUI Weekly · SwiftUI Weekly - Issue #140 - by Majid Jabrayilov · 2023-04-25T07:37:25.660Z — Source repository · Topics: Swift · SwiftUI · Navigation & Deep Linking
+- [SwiftUI Multiplatform Navigation Example](https://github.com/tunds/SwiftUI-Navigation-Multiplatform-Example) — SwiftUI Weekly · SwiftUI Weekly - Issue #140 — Source repository · Topics: Developer Community & Business · Swift · SwiftUI
+  **Published:** `2023-04-25T07:37:25.660Z`
   **NeKI brief:** Provides a working SwiftUI navigation project across Apple platforms, showing route composition and platform adaptations. Useful as a concrete reference when designing a shared navigation model that still respects platform-specific presentation behavior.
-- [course](https://youtube.com/playlist?list=PLvUWi5tdh92wWS3F-AVsCJHkhBlrkBp6f) — SwiftUI Weekly · SwiftUI Weekly - Issue #140 - by Majid Jabrayilov · 2023-04-25T07:37:25.660Z — Video · Topics: Navigation & Deep Linking · Swift · SwiftUI
+- [course](https://youtube.com/playlist?list=PLvUWi5tdh92wWS3F-AVsCJHkhBlrkBp6f) — SwiftUI Weekly · SwiftUI Weekly - Issue #140 — Video · Topics: Developer Community & Business · Navigation & Deep Linking · Swift
+  **Published:** `2023-04-25T07:37:25.660Z`
   **NeKI brief:** Provides a SwiftUI learning course playlist covering navigation and related interface patterns. Use it as a structured route through implementations, checking each example against current APIs before adopting its presentation or state-management techniques.
-- [Mastering NavigationStack in SwiftUI. Navigator Pattern.](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3N3aWZ0d2l0aG1hamlkLmNvbS8yMDIyLzA2LzE1L21hc3RlcmluZy1uYXZpZ2F0aW9uc3RhY2staW4tc3dpZnR1aS1uYXZpZ2F0b3ItcGF0dGVybi8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiJlOGMyZGIwMC05Y2NjLTRkOWItYmI5Ni1kMWU2MDU3NjFhOTciLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiY2E4YjI1ODQtMmEzYy00OWQ1LThlNzktNTM1NjdlNDI1OTY2IiwiaWF0IjoxNjc0MDYyNTU4Ljg3MywiaXNzIjoib3JjaGlkIn0.-tZb7r5BXvSxhCgyx7-7lMYTg9-uqRno78zJ8Lvvbjs) — SwiftUI Weekly · SwiftUI Weekly - Issue #107 - by Majid Jabrayilov · 2022-06-21T10:41:22.000Z — Article · Topics: Swift · SwiftUI
+- [Mastering NavigationStack in SwiftUI. Navigator Pattern.](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3N3aWZ0d2l0aG1hamlkLmNvbS8yMDIyLzA2LzE1L21hc3RlcmluZy1uYXZpZ2F0aW9uc3RhY2staW4tc3dpZnR1aS1uYXZpZ2F0b3ItcGF0dGVybi8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiJlOGMyZGIwMC05Y2NjLTRkOWItYmI5Ni1kMWU2MDU3NjFhOTciLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiY2E4YjI1ODQtMmEzYy00OWQ1LThlNzktNTM1NjdlNDI1OTY2IiwiaWF0IjoxNjc0MDYyNTU4Ljg3MywiaXNzIjoib3JjaGlkIn0.-tZb7r5BXvSxhCgyx7-7lMYTg9-uqRno78zJ8Lvvbjs) — SwiftUI Weekly · SwiftUI Weekly - Issue #107 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2022-06-21T10:41:22.000Z`
   **NeKI brief:** Explains a navigator pattern around NavigationStack, turning destinations and routing decisions into explicit state. Useful for testing deep links, centralizing navigation mutations, and keeping feature views independent of presentation mechanics.
-- [Using UIKit Components in SwiftUI (Coordinators)](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9V29KdHJsREJseVkiLCJwb3N0X2lkIjoiZjhkYzQzOWQtNjdhOS00N2IwLWI0NzEtOTE2YzY0MWZlN2FjIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6IjNmMDQyMTgxLWQ3NWUtNGE0ZC1hNmE5LWJjM2UwYjBlYTBkZiIsImlhdCI6MTY3NDA2MjY3OC44OTUsImlzcyI6Im9yY2hpZCJ9.61EuLk6HarMsg30D45ewI7xYWDhIoZOmzg6CjyKYvDE) — SwiftUI Weekly · SwiftUI Weekly - Issue #48 · 2021-03-01T13:49:29.000Z — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+- [Using UIKit Components in SwiftUI (Coordinators)](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9V29KdHJsREJseVkiLCJwb3N0X2lkIjoiZjhkYzQzOWQtNjdhOS00N2IwLWI0NzEtOTE2YzY0MWZlN2FjIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6IjNmMDQyMTgxLWQ3NWUtNGE0ZC1hNmE5LWJjM2UwYjBlYTBkZiIsImlhdCI6MTY3NDA2MjY3OC44OTUsImlzcyI6Im9yY2hpZCJ9.61EuLk6HarMsg30D45ewI7xYWDhIoZOmzg6CjyKYvDE) — SwiftUI Weekly · SwiftUI Weekly - Issue #48 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+  **Published:** `2021-03-01T13:49:29.000Z`
   **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
-- [MVP and Coordinators in SwiftUI](https://lascorbe.com/posts/2020-04-27-MVPCoordinators-SwiftUI-part1) — iOS Dev Weekly · Issue 454 · 1st May 2020 — Article · Topics: Swift · SwiftUI · Architecture
+- [MVP and Coordinators in SwiftUI](https://lascorbe.com/posts/2020-04-27-MVPCoordinators-SwiftUI-part1) — iOS Dev Weekly · Issue 454 — Article · Topics: Architecture · Swift · SwiftUI
+  **Published:** `1st May 2020`
   **NeKI brief:** Examines MVP and Coordinators in SwiftUI, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
-- [2](https://lascorbe.com/posts/2020-04-28-MVPCoordinators-SwiftUI-part2) — iOS Dev Weekly · Issue 454 · 1st May 2020 — Article · Topics: Architecture · Swift · SwiftUI
+- [2](https://lascorbe.com/posts/2020-04-28-MVPCoordinators-SwiftUI-part2) — iOS Dev Weekly · Issue 454 — Article · Topics: Architecture · Objective-C & Cocoa · Swift
+  **Published:** `1st May 2020`
   **NeKI brief:** Continues the MVP-and-coordinators SwiftUI series with navigation composition and dependency flow. Compare the coordinator boundaries with your app's state model, then verify historical SDK assumptions before production use.
-- [3](https://lascorbe.com/posts/2020-04-29-MVPCoordinators-SwiftUI-part3) — iOS Dev Weekly · Issue 454 · 1st May 2020 — Article · Topics: Architecture · Swift · SwiftUI
+- [3](https://lascorbe.com/posts/2020-04-29-MVPCoordinators-SwiftUI-part3) — iOS Dev Weekly · Issue 454 — Article · Topics: Architecture · Objective-C & Cocoa · Swift
+  **Published:** `1st May 2020`
   **NeKI brief:** Concludes the MVP-and-coordinators SwiftUI series, showing how screen routing and presentation responsibilities fit together. Use it to assess testability and state ownership, then verify historical SDK assumptions before production use.
-- [Using Type Erasure to Build a Dependency Injecting Routing Framework](https://swiftrocks.com/using-type-erasure-to-build-a-dependency-injector-in-swift.html) — iOS Dev Weekly · Issue 437 · 3rd January 2020 — Article · Topics: Dependency Injection · Swift · Architecture
+- [Using Type Erasure to Build a Dependency Injecting Routing Framework](https://swiftrocks.com/using-type-erasure-to-build-a-dependency-injector-in-swift.html) — iOS Dev Weekly · Issue 437 — Article · Topics: Architecture · Dependency Injection · Swift
+  **Published:** `3rd January 2020`
   **NeKI brief:** Examines Using Type Erasure to Build a Dependency Injecting Routing Framework, offering practical guidance on Swift engineering practice. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
-- [Deep Linking at Scale on iOS](https://albertodebortoli.com/2019/04/16/deep-linking-at-scale-on-ios) — iOS Dev Weekly · Issue 400 · 19th April 2019 — Article · Topics: Navigation & Deep Linking
+- [Deep Linking at Scale on iOS](https://albertodebortoli.com/2019/04/16/deep-linking-at-scale-on-ios) — iOS Dev Weekly · Issue 400 — Article · Topics: Navigation & Deep Linking
+  **Published:** `19th April 2019`
   **NeKI brief:** Details a scalable deep-link routing approach for mapping URLs into navigation state while handling authentication and unknown destinations. Follow it when auditing route ownership across scenes and coordinators.
-- [NavigationEngine](https://github.com/justeat/NavigationEngineDemo) — iOS Dev Weekly · Issue 400 · 19th April 2019 — Source repository · Topics: Navigation & Deep Linking
+- [NavigationEngine](https://github.com/justeat/NavigationEngineDemo) — iOS Dev Weekly · Issue 400 — Source repository · Topics: Developer Tools · Navigation & Deep Linking
+  **Published:** `19th April 2019`
   **NeKI brief:** Examines NavigationEngine, focusing on getting ios deep linking right is hard and a good solution usually needs to be baked in to the core of your app. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
-- [Coordinator: the missing pattern in UIKit](http://aplus.rs/2018/coordinator-missing-pattern-uikit) — iOS Dev Weekly · Issue 385 · 4th January 2019 — Article · Topics: Navigation & Deep Linking · UIKit
+- [Coordinator: the missing pattern in UIKit](http://aplus.rs/2018/coordinator-missing-pattern-uikit) — iOS Dev Weekly · Issue 385 — Article · Topics: Navigation & Deep Linking · UIKit
+  **Published:** `4th January 2019`
   **NeKI brief:** Covers Coordinator: the missing pattern in UIKit, focusing on Apple UI composition and interaction design. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
-- [library](https://github.com/radianttap/Coordinator) — iOS Dev Weekly · Issue 385 · 4th January 2019 — Source repository · Topics: Navigation & Deep Linking · UIKit
+- [library](https://github.com/radianttap/Coordinator) — iOS Dev Weekly · Issue 385 — Source repository · Topics: Developer Tools · Navigation & Deep Linking · UIKit
+  **Published:** `4th January 2019`
   **NeKI brief:** Examines library, focusing on aleksandar vacić with a great post (and library) on how he has tried to integrated the coordinator pattern with uikit. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
-- [Navigation in Swift](https://www.swiftbysundell.com/posts/navigation-in-swift) — iOS Dev Weekly · Issue 340 · 23rd February 2018 — Article · Topics: Swift · Navigation & Deep Linking · SwiftUI
+- [Navigation in Swift](https://www.swiftbysundell.com/posts/navigation-in-swift) — iOS Dev Weekly · Issue 340 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
+  **Published:** `23rd February 2018`
   **NeKI brief:** Explores Navigation in Swift in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
-- [Root Controller Navigation](https://medium.com/@stasost/ios-root-controller-navigation-3625eedbbff) — iOS Dev Weekly · Issue 331 · 15th December 2017 — Article · Topics: Navigation & Deep Linking
+- [Root Controller Navigation](https://medium.com/@stasost/ios-root-controller-navigation-3625eedbbff) — iOS Dev Weekly · Issue 331 — Article · Topics: Navigation & Deep Linking
+  **Published:** `15th December 2017`
   **NeKI brief:** Examines Root Controller Navigation, focusing on app deeplinks allow users to open a certain part of your app from a link – but once the app launches, how do you make the…. Use it as a focused research reference for related Apple-platform work, and verify.
-- [Introducing Kitura 2.0](https://developer.ibm.com/swift/2017/10/30/kitura-20) — iOS Dev Weekly · Issue 327 · 17th November 2017 — Article · Topics: Navigation & Deep Linking · Swift
+- [Introducing Kitura 2.0](https://developer.ibm.com/swift/2017/10/30/kitura-20) — iOS Dev Weekly · Issue 327 — Article · Topics: Foundation & Data Formats · Navigation & Deep Linking · Swift
+  **Published:** `17th November 2017`
   **NeKI brief:** Explores Introducing Kitura 2.0 in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
-- [URL Pattern Matching](http://johnpatrickmorgan.github.io/2016/05/11/URLPatternMatching) — iOS Dev Weekly · Issue 252 · 27th May 2016 — Article · Topics: Navigation & Deep Linking
+- [URL Pattern Matching](http://johnpatrickmorgan.github.io/2016/05/11/URLPatternMatching) — iOS Dev Weekly · Issue 252 — Article · Topics: Developer Tools · Navigation & Deep Linking
+  **Published:** `27th May 2016`
   **NeKI brief:** Explores URL Pattern Matching in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
-- [Flickr’s experience with iOS 9](http://code.flickr.net/2015/11/18/flickrs-experience-with-ios-9) — iOS Dev Weekly · Issue 227 · 4th December 2015 — Article · Topics: App Intents & System Surfaces · Navigation & Deep Linking
+- [Flickr’s experience with iOS 9](http://code.flickr.net/2015/11/18/flickrs-experience-with-ios-9) — iOS Dev Weekly · Issue 227 — Article · Topics: App Intents & System Surfaces · Navigation & Deep Linking · Objective-C & Cocoa
+  **Published:** `4th December 2015`
   **NeKI brief:** Explains Flickr’s experience with iOS 9 with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
-- [WAAppRouting](https://github.com/Wasappli/WAAppRouting) — iOS Dev Weekly · Issue 212 · 21st August 2015 — Source repository · Topics: Navigation & Deep Linking
+- [WAAppRouting](https://github.com/Wasappli/WAAppRouting) — iOS Dev Weekly · Issue 212 — Source repository · Topics: Developer Tools · Navigation & Deep Linking
+  **Published:** `21st August 2015`
   **NeKI brief:** Provides the WAAppRouting source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
-- [APIClient](https://github.com/klaaspieter/APIClient) — iOS Dev Weekly · Issue 124 · 13th December 2013 — Source repository · Topics: Dependency Injection · Navigation & Deep Linking · Networking
+- [APIClient](https://github.com/klaaspieter/APIClient) — iOS Dev Weekly · Issue 124 — Source repository · Topics: Dependency Injection · Developer Tools · Navigation & Deep Linking
+  **Published:** `13th December 2013`
   **NeKI brief:** Provides the APIClient source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.

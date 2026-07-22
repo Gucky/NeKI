@@ -3,12 +3,14 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://blog.jacobstechtavern.com/archive](https://blog.jacobstechtavern.com/archive)
-- Last collected: `2026-07-22T14:10:28Z`
+- Last collected: `2026-07-22T21:49:38Z`
 - Indexed entries: **88**
 
 ## [Apple's "Snow Leopard" Year: WWDC 2026 Roundup](https://blog.jacobstechtavern.com/p/wwdc-2026-roundup)
 
 - Published: `2026-06-11T12:03:43.079Z`
+
+**Topics:** Apple Platform Ecosystem
 
 **NeKI brief:** Summarizes the author's WWDC 2026 takeaways across Apple-platform announcements and developer tooling. Use it as a discovery index before reading the corresponding sessions and documentation, not as an authoritative feature reference.
 
@@ -25,6 +27,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 ## [Touch to Pixels: UI Pipeline Internals on iOS](https://blog.jacobstechtavern.com/p/ui-pipeline-internals)
 
 - Published: `2026-05-13T15:03:01.053Z`
+
+**Topics:** UIKit
 
 **Sections:** Handling Physical Touch · Core Animation inside your app · Compositing, Animating, and Displaying
 
@@ -44,6 +48,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2026-04-14T15:03:03.506Z`
 
+**Topics:** Code Quality
+
 **Sections:** 👑 Pride · 🤑 Greed · 🧨 Wrath
 
 **NeKI brief:** Adopt an iOS pattern only after understanding its data ownership, lifecycle, concurrency, and failure assumptions. Replace copied architectural rituals with a concrete problem statement and observable success criteria, so abstractions remain justified when the codebase or platform changes.
@@ -52,13 +58,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2026-04-06T15:03:00.398Z`
 
+**Topics:** Developer Career & Practice
+
 **NeKI brief:** A career-focused perspective on the AI-era hiring market; use it for individual context, not technical decision-making.
 
 ## [Is SwiftUI finally as fast as UIKit in iOS 26?](https://blog.jacobstechtavern.com/p/swiftui-vs-uikit)
 
 - Published: `2026-03-09T16:01:18.122Z`
 
-**Topics:** Swift · SwiftUI · Performance · UIKit · Testing
+**Topics:** Performance · Swift · SwiftUI · Testing · UIKit
 
 **Sections:** Designing the most ridiculous scroll view I can imagine · A fair test · SwiftUI performance (feat. List)
 
@@ -78,6 +86,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2026-01-12T16:01:24.245Z`
 
+**Topics:** App Distribution & Store Operations
+
 **Sections:** Contents · High-Level System Design · How to make a Purchase
 
 **NeKI brief:** Explains SDK design under high transaction volume through resilient networking, idempotency, caching, observability, and compatibility boundaries, showing how a client library protects product flows while backend systems absorb scale and failure.
@@ -86,7 +96,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2025-12-15T16:01:29.247Z`
 
-**Topics:** Swift · Performance
+**Topics:** Performance · Swift
 
 **Sections:** Journey to the centre of the 🐮 · What is 🐮? · Value and reference semantics
 
@@ -116,7 +126,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2025-11-17T16:03:10.524Z`
 
-**Topics:** Swift · SwiftUI · UIKit · Architecture
+**Topics:** Architecture · Swift · SwiftUI · UIKit
 
 **Sections:** 2019: Early adoption · 2025: The summer everything changed · Why do people use iOS?
 
@@ -125,6 +135,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 ## [The Great Connection Pool Meltdown](https://blog.jacobstechtavern.com/p/the-great-connection-pool-meltdown)
 
 - Published: `2025-11-06T16:02:23.569Z`
+
+**Topics:** Networking
 
 **NeKI brief:** Analyses a production connection-pool failure and the cascading effects of saturation, retries, and recovery. Follow it for distributed-systems failure signals that can inform networking diagnostics in mobile backends.
 
@@ -198,7 +210,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Uses SwiftUI keyframe animation tracks to coordinate multi-property motion over explicit timing segments, making complex transitions inspectable while preserving a clear relationship between animatable state, easing curves, and view updates.
 
-## [My ADHD vs. the AlarmKit API - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/adhd-vs-alarmkit)
+## [My ADHD vs. the AlarmKit API](https://blog.jacobstechtavern.com/p/adhd-vs-alarmkit)
 
 - Published: `2025-07-28T21:00:20.731Z`
 
@@ -208,11 +220,11 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Explores the new AlarmKit API from the perspective of building a real reminder experience and understanding its underlying behavior.
 
-## [High Performance SwiftData Apps - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/high-performance-swiftdata)
+## [High Performance SwiftData Apps](https://blog.jacobstechtavern.com/p/high-performance-swiftdata)
 
 - Published: `2025-07-14T15:02:48.303Z`
 
-**Topics:** Swift · Persistence & Synchronisation · SwiftData · Performance · SwiftUI
+**Topics:** Performance · Persistence & Synchronisation · Swift · SwiftData · SwiftUI
 
 **Sections:** Jacob’s Tech Tavern · High Performance SwiftData Apps · Diagnosing the Problem
 
@@ -242,11 +254,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2025-06-02T15:02:23.930Z`
 
+**Topics:** AI Development
+
 **Sections:** The Concept · Implementing CLIP & client-side AI · Trading Card Graphics
 
 **NeKI brief:** Builds a client-side AI trading-card experience by combining user input, image or model generation, and local presentation, highlighting privacy, prompt handling, and capability constraints when inference occurs on device.
 
-## [Advanced Swift Concurrency: AsyncStream - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/async-stream)
+## [Advanced Swift Concurrency: AsyncStream](https://blog.jacobstechtavern.com/p/async-stream)
 
 - Published: `2025-05-19T15:01:49.012Z`
 
@@ -260,7 +274,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2025-05-05T15:00:38.653Z`
 
-**Topics:** Performance · Architecture · Swift · SwiftUI
+**Topics:** Architecture · Performance · Swift · SwiftUI
 
 **Sections:** Scroll Architecture · Going Further with Performance · Last Orders
 
@@ -269,6 +283,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 ## [Fitting the Lapse experience into 15 MegaBytes](https://blog.jacobstechtavern.com/p/get-lapse-under-15mb)
 
 - Published: `2025-04-21T14:02:35.921Z`
+
+**Topics:** App Services & Extensions
 
 **Sections:** Jacob’s Tech Tavern · Static, Dynamic, Mergeable, oh, my!
 
@@ -286,6 +302,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2025-03-10T16:01:09.054Z`
 
+**Topics:** CI/CD & Automation
+
 **NeKI brief:** Turns release confidence into an engineering system of staged rollout, observability, rollback readiness, and measurable risk, replacing one-shot deployment anxiety with feedback loops that expose regressions before broad customer impact.
 
 ## [A Tool To Automatically Detect Memory Leaks](https://blog.jacobstechtavern.com/p/automatically-detect-memory-leaks)
@@ -298,7 +316,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Presents an automated approach to detecting memory leaks before release, linking instrumentation with repeatable checks. Use it as a starting point for a leak-detection pipeline and validate its tooling against current Xcode support.
 
-## [Secret SwiftUI: A practical use of _VariadicView](https://blog.jacobstechtavern.com/p/secret-swiftui)
+## [Secret SwiftUI: A practical use for _VariadicView](https://blog.jacobstechtavern.com/p/secret-swiftui)
 
 - Published: `2025-02-10T16:01:10.502Z`
 
@@ -322,6 +340,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2025-01-13T17:15:57.444Z`
 
+**Topics:** Developer Tools
+
 **NeKI brief:** Presents a systematic debugging workflow that moves from symptom reproduction through instrumentation, hypothesis testing, and minimized evidence, helping engineers isolate root causes rather than repeatedly patching visible failures.
 
 ## [The Synchronization Framework in Swift 6](https://blog.jacobstechtavern.com/p/the-synchronisation-framework)
@@ -332,7 +352,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Use Swift Synchronization primitives such as Mutex and atomics for tightly scoped synchronous shared-state access, and compare them with actors based on isolation, suspension, and contention needs. Keep critical sections small, document invariants, and avoid mixing low-level synchronization casually with async workflows.
 
-## [The Swift Runtime: Your Silent Partner - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/the-swift-runtime-your-silent-partner)
+## [The Swift Runtime: Your Silent Partner](https://blog.jacobstechtavern.com/p/the-swift-runtime-your-silent-partner)
 
 - Published: `2024-12-16T17:15:51.319Z`
 
@@ -346,15 +366,19 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2024-11-18T17:24:06.203Z`
 
+**Topics:** Architecture
+
 **NeKI brief:** Choose static, dynamic, or mergeable library linkage from measurable constraints such as launch time, app size, dependency reuse, and build behavior. Inspect the actual dependency graph and binary output before reorganizing modules, because linkage labels alone do not predict product performance.
 
 ## [THE CRASH IS A LIE](https://blog.jacobstechtavern.com/p/what-is-a-crash)
 
 - Published: `2024-11-04T17:15:56.192Z`
 
+**Topics:** Developer Tools
+
 **NeKI brief:** Treat a crash as a diagnostic signal from the runtime, kernel, or app termination path rather than a single failure category. Capture symbolicated reports, distinguish memory and assertion failures from watchdog termination, and reproduce the triggering lifecycle or concurrency conditions before changing code.
 
-## [Apple is Killing Swift - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/apple-is-killing-swift)
+## [Apple is Killing Swift](https://blog.jacobstechtavern.com/p/apple-is-killing-swift)
 
 - Published: `2024-10-21T16:15:15.245Z`
 
@@ -364,7 +388,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** An opinionated examination of Swift's governance and ecosystem direction; useful for evaluating community concerns rather than technical guidance.
 
-## [Migrating Combine to AsyncAlgorithms - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/migrating-combine-to-asyncalgorithms)
+## [Migrating Combine to AsyncAlgorithms](https://blog.jacobstechtavern.com/p/migrating-combine-to-asyncalgorithms)
 
 - Published: `2024-10-07T16:15:57.105Z`
 
@@ -388,11 +412,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2024-09-09T16:15:21.526Z`
 
+**Topics:** Security & Privacy
+
 **NeKI brief:** Use the historical WebKit exploit chain as a threat-modeling study: untrusted web content crosses a serious process boundary, so keep devices updated, minimize risky web surfaces, and understand why JavaScript-engine memory-safety failures can become system-level compromise paths.
 
 ## [Impress at Job Interviews by Inspecting their App Bundle](https://blog.jacobstechtavern.com/p/impress-at-job-interviews-by-decompiling)
 
 - Published: `2024-08-19T16:15:41.587Z`
+
+**Topics:** Developer Career & Practice
 
 **NeKI brief:** For authorized architecture research, inspect a shipped app bundle to identify linked frameworks, assets, symbols, and configuration choices before forming questions. Treat static bundle evidence as a hypothesis, not proof of runtime behavior, and keep analysis within the app's permitted security boundary.
 
@@ -400,11 +428,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2024-07-29T16:15:44.545Z`
 
+**Topics:** Personal Essays
+
 **NeKI brief:** Use Swift type attributes deliberately by separating compile-time type-system constraints from ordinary declaration modifiers. When an attribute affects isolation, sendability, ownership, or ABI behavior, inspect the compiler-facing contract and add a focused example instead of treating it as decorative syntax.
 
 ## [Mobile Deployment Pipelines for $0](https://blog.jacobstechtavern.com/p/0-to-deploy-free-ci-with-fastlane)
 
 - Published: `2024-07-08T16:15:20.826Z`
+
+**Topics:** CI/CD & Automation
 
 **NeKI brief:** Establish a small iOS delivery pipeline that builds, tests, signs, and distributes through fastlane with credentials isolated from repository content. Make each lane reproducible locally and in CI, then keep expensive deployment steps separate from fast pull-request validation.
 
@@ -412,17 +444,23 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2024-06-17T16:15:52.294Z`
 
+**Topics:** Graphics, Media & Games
+
 **NeKI brief:** Builds advanced Core Image processing around filter graphs, custom kernels, and GPU-backed rendering, showing how image pipelines compose lazily and where color spaces, context reuse, and output conversion determine correctness and performance.
 
 ## [Core Image: The Basics](https://blog.jacobstechtavern.com/p/core-image-the-basics)
 
 - Published: `2024-05-27T16:15:04.516Z`
 
+**Topics:** Graphics, Media & Games
+
 **NeKI brief:** Introduces Core Image's filter and image-processing model with a practical baseline for composing effects. It is useful for choosing GPU-backed image transformations, while API availability and performance need current verification.
 
 ## [How to (consistently) get 4.8* App Ratings](https://blog.jacobstechtavern.com/p/how-to-consistently-get-48-app-ratings-3be)
 
 - Published: `2024-05-06T16:15:23.738Z`
+
+**Topics:** App Distribution & Store Operations
 
 **Sections:** Jacob’s Tech Tavern
 
@@ -432,7 +470,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2024-04-15T16:15:46.653Z`
 
-**Topics:** Swift · Persistence & Synchronisation · SwiftData · SwiftUI
+**Topics:** Persistence & Synchronisation · Swift · SwiftData · SwiftUI
 
 **NeKI brief:** Uses SwiftData outside SwiftUI by explicitly constructing and injecting ModelContainer and ModelContext dependencies, preserving persistent-model access in services, tests, and non-view workflows without relying on environment propagation.
 
@@ -448,7 +486,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2024-03-11T17:15:13.685Z`
 
-**Topics:** Testing · Concurrency · Architecture · Dependency Injection · Observation & State Management
+**Topics:** Architecture · Concurrency · Dependency Injection · Observation & State Management · Swift · Testing
 
 **Sections:** Introduction · Arc 1: Foundational concepts · Arc 2: Async unit testing
 
@@ -484,6 +522,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2024-01-22T19:37:06.281Z`
 
+**Topics:** Personal Essays
+
 **NeKI brief:** Describes a second Aviator release after an upstream OpenSky outage, combining API failure recovery with a feature overhaul and real-user feedback. Use it as a case study in resilient third-party integrations and shipping fixes when release cadence is constrained.
 
 ## [Mobile DevOps for Enterprise that Just Works](https://blog.jacobstechtavern.com/p/mobile-devops-for-enterprise-that)
@@ -518,6 +558,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2023-12-25T11:00:57.228Z`
 
+**Topics:** Swift
+
 **Sections:** A Frozen Struct · Builtins.Int1 · ExpressibleByBooleanLiteral
 
 **NeKI brief:** Inspects Swift Bool as a frozen standard-library struct backed by Builtin.Int1, tying its ABI-stable layout to literal conversion and compiler representation. Follow for runtime intuition, while keeping implementation details separate from source-level API assumptions.
@@ -525,6 +567,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 ## [2 Minute Tips: iOS Springboard Paddling Pool](https://blog.jacobstechtavern.com/p/2-minute-tips-ios-springboard-paddling)
 
 - Published: `2023-12-25T11:00:53.989Z`
+
+**Topics:** Apple Platform Ecosystem
 
 **Sections:** Operating Systems & The Kernel · Userland · iOS Springboard
 
@@ -558,7 +602,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Builds an iOS flight-radar experience from real aircraft data, using map presentation and altitude-aware visual reasoning to make nearby flights understandable. Useful as a product case study where external data quality and spatial UI decisions interact.
 
-## [Through the Ages: Apple Animation APIs - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/through-the-ages-apple-animation)
+## [Through the Ages: Apple Animation APIs](https://blog.jacobstechtavern.com/p/through-the-ages-apple-animation)
 
 - Published: `2023-11-21T20:52:07.633Z`
 
@@ -568,11 +612,11 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Connects Apple's animation APIs across platform eras and uses working code to compare their programming models.
 
-## [Unit Test the Observation Framework - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/unit-test-the-observation-framework)
+## [Unit Test the Observation Framework](https://blog.jacobstechtavern.com/p/unit-test-the-observation-framework)
 
 - Published: `2023-11-13T17:00:43.653Z`
 
-**Topics:** Testing · Observation & State Management
+**Topics:** Observation & State Management · Testing
 
 **Sections:** Jacob’s Tech Tavern · Unit Test the Observation Framework · The Observation Framework
 
@@ -582,7 +626,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2023-11-06T17:20:18.179Z`
 
-**Topics:** Swift · Performance
+**Topics:** Performance · Swift
 
 **Sections:** Roadmap · What is 🐮? · Reference and value semantics
 
@@ -602,11 +646,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2023-10-24T08:15:16.128Z`
 
+**Topics:** Architecture
+
 **Sections:** Sorting Strategies · Why is this useful? · Switching Internal Implementations
 
 **NeKI brief:** Implements interchangeable sorting algorithms behind a Swift protocol, making the Strategy pattern's runtime substitution and differing time/space costs visible. Use it when behavior varies by policy and the algorithm choice should remain testable and isolated.
 
-## [Welcome to Jacob’s Tech Tavern! 🍺 - by Jacob Bartlett](https://blog.jacobstechtavern.com/p/aviator-demo-video)
+## [Welcome to Jacob’s Tech Tavern! 🍺](https://blog.jacobstechtavern.com/p/aviator-demo-video)
 
 - Published: `2023-10-14T14:29:06.846Z`
 
@@ -628,11 +674,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2023-10-02T08:15:02.783Z`
 
+**Topics:** Swift
+
 **NeKI brief:** Reveals Optional as a two-case standard-library enum and traces question-mark syntax to ordinary optional operations. The implementation tour is a compact aid for reasoning about nil propagation and unwrapping, not a replacement for clear domain-level optional handling.
 
 ## [Apple Animation Through the Ages: 2019](https://blog.jacobstechtavern.com/p/apple-animation-through-the-ages-580)
 
 - Published: `2023-09-26T08:15:42.449Z`
+
+**Topics:** Graphics, Media & Games
 
 **NeKI brief:** Places Apple's animation stack in a historical timeline and connects the 2019 APIs to earlier programming models. Follow it for conceptual context when choosing an animation layer, then verify current framework behavior and availability in Apple documentation.
 
@@ -640,11 +690,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2023-09-19T08:15:09.850Z`
 
+**Topics:** Graphics, Media & Games
+
 **NeKI brief:** Uses Apple's 2014 animation era to show how framework abstractions evolved across the platform. It is a historical route into animation design decisions; treat version-specific APIs as context and confirm modern equivalents before implementation.
 
 ## [Apple Animation Through the Ages: 2007](https://blog.jacobstechtavern.com/p/apple-animation-through-the-ages-e96)
 
 - Published: `2023-09-12T08:15:08.403Z`
+
+**Topics:** Graphics, Media & Games
 
 **NeKI brief:** Connects the 2007 iPhone-era animation model to the constraints and abstractions that shaped early UIKit development. Follow for historical perspective on why APIs look the way they do, not as current implementation guidance.
 
@@ -652,11 +706,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2023-09-05T08:15:04.496Z`
 
+**Topics:** Graphics, Media & Games
+
 **NeKI brief:** Traces the 2001 transition in Apple's animation tooling and relates it to the programming model later exposed on Apple platforms. The historical comparison helps explain abstraction trade-offs while requiring current API verification.
 
 ## [Apple Animation Through the Ages: 1989](https://blog.jacobstechtavern.com/p/apple-animation-through-the-ages)
 
 - Published: `2023-08-29T08:15:13.907Z`
+
+**Topics:** Graphics, Media & Games
 
 **NeKI brief:** Introduces the earliest Apple animation milestone in the series and links hardware-era constraints to later compositing abstractions. Use it as background for platform evolution rather than as a recipe for present-day animation code.
 
@@ -664,13 +722,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2023-08-22T08:15:10.291Z`
 
-**Topics:** Testing · Concurrency
+**Topics:** Concurrency · Testing
 
 **NeKI brief:** Connects Combine, async/await, and unit testing when designing and verifying asynchronous application behavior.
 
 ## [Implement your Data Access Layer with Combine](https://blog.jacobstechtavern.com/p/implement-your-data-access-layer)
 
 - Published: `2023-08-15T08:15:19.237Z`
+
+**Topics:** Combine & Reactive Programming · Persistence & Synchronisation
 
 **Sections:** Part V: (interlude) - Implement your Data Access Layer with Combine · The Data Access layer · Implementing our Repository with Combine
 
@@ -688,7 +748,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2023-07-18T08:15:53.603Z`
 
-**Topics:** Testing · Concurrency
+**Topics:** Concurrency · Testing
 
 **Sections:** Setting up our first tests with callCount
 
@@ -706,7 +766,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2023-06-20T18:00:52.462Z`
 
-**Topics:** Testing
+**Topics:** Concurrency · Testing
 
 **Sections:** Jacob’s Tech Tavern · Part II - Mocking like a Pro · What are mocks?
 
@@ -716,7 +776,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2023-06-06T18:01:07.294Z`
 
-**Topics:** Architecture · Dependency Injection · Testing
+**Topics:** Architecture · Concurrency · Dependency Injection · Testing
 
 **Sections:** Part I - Dependency Injection · What is DI? · What does this have to do with testing?
 
@@ -734,6 +794,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 - Published: `2023-04-11T19:00:52.706Z`
 
+**Topics:** Swift
+
 **NeKI brief:** Uses Swift Set operations to illustrate membership, uniqueness, and collection transformations. Follow it for a compact refresher when choosing set algebra over array scans, while checking complexity for the actual data size.
 
 ## [Access control in Swift like a boss](https://blog.jacobstechtavern.com/p/access-control-in-swift-like-a-boss)
@@ -747,5 +809,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 ## [Mobile is actually pretty hard.](https://blog.jacobstechtavern.com/p/mobile-is-actually-pretty-hard)
 
 - Published: `2023-03-21T22:35:08.372Z`
+
+**Topics:** Developer Career & Practice
 
 **NeKI brief:** Explains why mobile engineering spans device constraints, operating-system behavior, performance, distribution, and product integration, making platform expertise more than ordinary application coding.

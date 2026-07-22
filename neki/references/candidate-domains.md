@@ -2,7 +2,7 @@
 
 Frequently linked domains from the selected newsletters. Frequency is only a discovery signal; do not treat this list as a recommendation or quality rating.
 
-- Last collected: `2026-07-22T15:09:35Z`
+- Last collected: `2026-07-22T21:21:03Z`
 
 - `0xced.blogspot.co.at` — 1 collected links
 - `2025.nsspain.com` — 1 collected links
@@ -150,6 +150,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `cctop.app` — 1 collected links
 - `changelog.cloudsmith.com` — 1 collected links
 - `channel9.msdn.com` — 1 collected links
+- `chatforest.com` — 1 collected links
 - `chris-mash.medium.com` — 1 collected links
 - `chris.eidhof.nl` — 22 collected links
 - `christianselig.com` — 3 collected links
@@ -247,7 +248,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `fabernovel.github.io` — 1 collected links
 - `fabiensanglard.net` — 1 collected links
 - `fabric.io` — 1 collected links
-- `fatbobman.com` — 53 collected links
+- `fatbobman.com` — 54 collected links
 - `fatbobman.medium.com` — 1 collected links
 - `featherless.design` — 1 collected links
 - `felginep.github.io` — 3 collected links
@@ -367,7 +368,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `link.springer.com` — 1 collected links
 - `lists.swift.org` — 3 collected links
 - `littlebitesofcocoa.com` — 4 collected links
-- `livsycode.com` — 35 collected links
+- `livsycode.com` — 37 collected links
 - `llvm.org` — 1 collected links
 - `lmnt.me` — 1 collected links
 - `lostmoa.com` — 2 collected links
@@ -424,6 +425,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `mozilla.github.io` — 1 collected links
 - `mutatingfunc.github.io` — 1 collected links
 - `nalexn.github.io` — 2 collected links
+- `nathanfennel.com` — 1 collected links
 - `nemecek.be` — 3 collected links
 - `nerdyak.tech` — 4 collected links
 - `netguru.co` — 2 collected links
@@ -796,11 +798,12 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.stphndxn.com` — 1 collected links
 - `www.sunsetlakesoftware.com` — 1 collected links
 - `www.swift.org` — 47 collected links
+- `www.swiftbyrahul.com` — 1 collected links
 - `www.swiftbysundell.com` — 63 collected links
 - `www.swiftcommunitypodcast.org` — 1 collected links
 - `www.swiftdevjournal.com` — 1 collected links
 - `www.swiftdifferently.com` — 4 collected links
-- `www.swiftjectivec.com` — 35 collected links
+- `www.swiftjectivec.com` — 36 collected links
 - `www.swiftuifieldguide.com` — 2 collected links
 - `www.swiftwithvincent.com` — 14 collected links
 - `www.swiftyplace.com` — 6 collected links
@@ -827,7 +830,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.waldo.com` — 3 collected links
 - `www.waynewbishop.com` — 1 collected links
 - `www.webdesignerdepot.com` — 1 collected links
-- `www.wesleymatlock.com` — 1 collected links
+- `www.wesleymatlock.com` — 2 collected links
 - `www.whitehouse.gov` — 1 collected links
 - `www.windowsazure.com` — 2 collected links
 - `www.xgrid.co` — 1 collected links
