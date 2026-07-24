@@ -3,8 +3,34 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevweekly.com/issues/](https://iosdevweekly.com/issues/)
-- Last collected: `2026-07-22T21:49:38Z`
-- Indexed entries: **755**
+- Last collected: `2026-07-24T20:14:23Z`
+- Indexed entries: **756**
+
+## [Issue 760](https://iosdevweekly.com/issues/760)
+
+- Published: `24th July 2026`
+
+**Topics:** AI Development · App Distribution & Store Operations · Performance · SwiftData · SwiftUI · Testing
+
+**Sections:** Comment · News
+
+**NeKI brief:** Collects current reading on Claude Code's simulator integration, one-way SwiftData backend synchronisation, SwiftUI compositing, UIKit bar minimisation, AI response style, and TestFlight search. Use the issue as a routing overview rather than normative platform guidance.
+
+**Selected links:**
+- [Test iOS apps in the simulator with Claude Code Desktop [Beta]](https://code.claude.com/docs/en/desktop-ios-simulator) — Article · Topics: AI Development · Developer Tools · Testing · Xcode
+  **NeKI brief:** Documents Claude Code Desktop's session-specific iOS Simulator pane, including requirements, manual device control, permissions, captures, policy switches, and troubleshooting. Use it to evaluate the current beta workflow and its device-isolation boundaries.
+- [Syncing SwiftData with a custom backend using HistoryObserver](https://azamsharp.com/2026/07/16/syncing-swiftdata-with-a-custom-backend-using-historyobserver.html) — Article · Topics: Networking · Persistence & Synchronisation · SwiftData
+  **NeKI brief:** Builds a one-way synchronisation pipeline from SwiftData HistoryObserver transactions to a REST backend. Persisting the last processed transaction token avoids duplicate uploads; server-to-client changes remain a separate responsibility.
+- [swiftCon](https://www.nextappcon.com/swiftcon) — Article · Topics: Developer Community & Business · Swift
+  **NeKI brief:** SwiftCon's call for speakers seeks production-focused Swift and iOS talks, including SwiftUI, architecture, performance, and testing. Follow the event page to assess the community's current themes or submit a concrete engineering case study.
+- [Geometry, compositing and drawing groups in SwiftUI](https://nilcoalescing.com/blog/GeometryCompositingAndDrawingGroupsInSwiftUI) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Separates geometryGroup, compositingGroup, and drawingGroup by the stage of rendering or animation they affect. The comparison helps diagnose visual artifacts and choose a modifier based on actual compositing needs rather than similar names.
+- [iOS 27: UIBarMinimization](https://antongubarenko.substack.com/p/ios-27-uibarminimization) — Article · Topics: SwiftUI · UIKit
+  **NeKI brief:** Separates UIKit navigation-bar minimisation into trigger, restoration, and safe-area decisions, then compares the corresponding SwiftUI toolbar behaviour. The examples are useful for replacing custom scroll-offset handling while the iOS 27 API remains beta.
+- [Make AI talk without human social patterns](https://swiftrocks.com/a-system-prompt-to-get-ai-to-stop-pretending-to-be-human) — Article · Topics: AI Development · Developer Tools
+  **NeKI brief:** Offers a concrete system prompt that removes conversational filler and asks a model to describe its computational role directly. The author reports subjective improvement but no evaluations, making it a prompt experiment rather than validated guidance.
+- [Apple just improved TestFlight for users with a lot of beta apps](https://9to5mac.com/2026/07/21/apple-just-improved-testflight-for-users-with-a-lot-of-beta-apps) — Article · Topics: App Distribution & Store Operations
+  **NeKI brief:** Records TestFlight 4.3's new app search on iPhone and Mac and an apparent expansion of previously tested apps. Useful as release context for beta-heavy workflows, not as an implementation or API reference.
 
 ## [Issue 759](https://iosdevweekly.com/issues/759)
 

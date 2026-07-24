@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Git, command-line work, debugging, automation, and practical developer workflows.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **1011**
+- Last collected: `2026-07-24T20:14:23Z`
+- Indexed links shown: **1013**
 
 ## Direct-source reading
 
@@ -51,6 +51,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Test iOS apps in the simulator with Claude Code Desktop [Beta]](https://code.claude.com/docs/en/desktop-ios-simulator) — iOS Dev Weekly · Issue 760 — Article · Topics: AI Development · Developer Tools · Testing · Xcode
+  **Published:** `24th July 2026`
+  **NeKI brief:** Documents Claude Code Desktop's session-specific iOS Simulator pane, including requirements, manual device control, permissions, captures, policy switches, and troubleshooting. Use it to evaluate the current beta workflow and its device-isolation boundaries.
+- [Make AI talk without human social patterns](https://swiftrocks.com/a-system-prompt-to-get-ai-to-stop-pretending-to-be-human) — iOS Dev Weekly · Issue 760 — Article · Topics: AI Development · Developer Tools
+  **Published:** `24th July 2026`
+  **NeKI brief:** Offers a concrete system prompt that removes conversational filler and asks a model to describe its computational role directly. The author reports subjective improvement but no evaluations, making it a prompt experiment rather than validated guidance.
 - [ImplementedSE-0525Safe loading API for `RawSpan`](https://github.com/apple/swift-evolution/blob/main/proposals/0525-rawspan-safe-loading-api.md) — SwiftLee Weekly · Issue 323 — Source repository · Topics: Architecture · Developer Tools · Swift
   **Published:** `2026-07-21T14:05:55.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0525Safe loading API for `RawSpan`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.

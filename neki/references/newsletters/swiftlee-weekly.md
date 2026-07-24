@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://newsletter.avanderlee.com/posts](https://newsletter.avanderlee.com/posts)
-- Last collected: `2026-07-22T21:49:38Z`
+- Last collected: `2026-07-24T20:14:23Z`
 - Indexed entries: **93**
 
 ## [Issue 323 · 2026-07-21](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-323-1)
@@ -19,6 +19,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0525Safe loading API for `RawSpan`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
 - [Building adaptive non-modal panels in SwiftUI](https://nilcoalescing.com/blog/BuildingAdaptiveNonModalPanelsInSwiftUI) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Builds a custom SwiftUI panel that changes from a bottom sheet to an edge-aligned panel using measured scene geometry, custom Layout, preferences, and detents. The drag implementation preserves scrolling by combining gestures deliberately.
+- [Syncing SwiftData With A Custom Backend Using HistoryObserver](https://azamsharp.com/2026/07/16/syncing-swiftdata-with-a-custom-backend-using-historyobserver.html) — Article · Topics: Networking · Persistence & Synchronisation · SwiftData
+  **NeKI brief:** Builds a one-way synchronisation pipeline from SwiftData HistoryObserver transactions to a REST backend. Persisting the last processed transaction token avoids duplicate uploads; server-to-client changes remain a separate responsibility.
 - [Copywriting with Agents and…Apple Designers?](https://www.swiftjectivec.com/copywriting-with-agents-and-apple-designers) — Article · Topics: Swift
   **NeKI brief:** Uses agents to sharpen copy while retaining human design judgment, a useful workflow for treating generated language as a draft that still needs product voice and platform-specific review.
 - [Geometry, compositing and drawing groups in SwiftUI](https://nilcoalescing.com/blog/GeometryCompositingAndDrawingGroupsInSwiftUI) — Article · Topics: Swift · SwiftUI

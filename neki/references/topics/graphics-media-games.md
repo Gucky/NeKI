@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Rendering, GPU work, image/audio/video processing, computer vision, and game-development techniques.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **361**
+- Last collected: `2026-07-24T20:14:23Z`
+- Indexed links shown: **362**
 
 ## Direct-source reading
 
+- [Blend modes in SwiftUI](https://nilcoalescing.com/blog/BlendModesInSwiftUI) — Nil Coalescing · article catalogue
+  **Published:** `2026-07-24`
+  **NeKI brief:** Catalogues all 21 SwiftUI blend modes with focused visual examples and explains their colour or alpha calculations. The closing compositingGroup examples clarify how to constrain which sibling views participate in a blend operation.
 - [Moving from OpenGL to Metal | Kodeco](https://www.kodeco.com/9211-moving-from-opengl-to-metal) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** The migration walkthrough maps an OpenGL renderer onto Metal's command queues, buffers, and shaders, highlighting the explicit resource and pipeline setup required by Apple's lower-level API.

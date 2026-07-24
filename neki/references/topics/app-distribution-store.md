@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Store delivery, TestFlight, StoreKit commerce, signing, review, releases, and monetisation workflows.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **127**
+- Last collected: `2026-07-24T20:14:23Z`
+- Indexed links shown: **128**
 
 ## Direct-source reading
 
@@ -113,6 +113,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Apple just improved TestFlight for users with a lot of beta apps](https://9to5mac.com/2026/07/21/apple-just-improved-testflight-for-users-with-a-lot-of-beta-apps) — iOS Dev Weekly · Issue 760 — Article · Topics: App Distribution & Store Operations
+  **Published:** `24th July 2026`
+  **NeKI brief:** Records TestFlight 4.3's new app search on iPhone and Mac and an apparent expansion of previously tested apps. Useful as release context for beta-heavy workflows, not as an implementation or API reference.
 - [getting nowhere with Apple](https://lapcatsoftware.com/articles/2026/7/6.html) — Fatbobman’s Swift Weekly · Issue 145 — Article · Topics: App Distribution & Store Operations · Cross-Platform & Web
   **Published:** `2026-07-20T12:01:22.890Z`
   **NeKI brief:** Diagnoses an App Store Connect login loop by comparing request cookies and finding a missing `dc` session cookie. Follow it for a focused example of browser-level debugging when server behavior contradicts apparent authentication state.

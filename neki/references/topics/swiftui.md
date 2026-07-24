@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** SwiftUI views, layout, rendering, animation, interaction, and platform adaptation.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **2823**
+- Last collected: `2026-07-24T20:14:23Z`
+- Indexed links shown: **2826**
 
 ## Direct-source reading
 
+- [Blend modes in SwiftUI](https://nilcoalescing.com/blog/BlendModesInSwiftUI) — Nil Coalescing · article catalogue
+  **Published:** `2026-07-24`
+  **NeKI brief:** Catalogues all 21 SwiftUI blend modes with focused visual examples and explains their colour or alpha calculations. The closing compositingGroup examples clarify how to constrain which sibling views participate in a blend operation.
 - [Building adaptive non-modal panels in SwiftUI](https://nilcoalescing.com/blog/BuildingAdaptiveNonModalPanelsInSwiftUI) — Nil Coalescing · article catalogue
   **Published:** `2026-07-20`
   **NeKI brief:** Builds a custom SwiftUI panel that changes from a bottom sheet to an edge-aligned panel using measured scene geometry, custom Layout, preferences, and detents. The drag implementation preserves scrolling by combining gestures deliberately.
@@ -5489,6 +5492,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Building adaptive non-modal panels in SwiftUI](https://nilcoalescing.com/blog/BuildingAdaptiveNonModalPanelsInSwiftUI?ref=createwithswift.com) — Create with Swift · Issue 117 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-07-24T15:00:34.000Z`
+  **NeKI brief:** Builds a custom SwiftUI panel that changes from a bottom sheet to an edge-aligned panel using measured scene geometry, custom Layout, preferences, and detents. The drag implementation preserves scrolling by combining gestures deliberately.
+- [iOS 27: UIBarMinimization](https://antongubarenko.substack.com/p/ios-27-uibarminimization) — iOS Dev Weekly · Issue 760 — Article · Topics: SwiftUI · UIKit
+  **Published:** `24th July 2026`
+  **NeKI brief:** Separates UIKit navigation-bar minimisation into trigger, restoration, and safe-area decisions, then compares the corresponding SwiftUI toolbar behaviour. The examples are useful for replacing custom scroll-offset handling while the iOS 27 API remains beta.
 - [SwiftUI Animation Techniques: The iOS 27 Update](https://nathanfennel.com/blog/swiftui-animation-techniques-2026) — Those Who Swift · Issue 276 — Article · Topics: Swift · SwiftUI
   **Published:** `2026-07-22T20:01:13.378Z`
   **NeKI brief:** Surveys current SwiftUI motion techniques including layer shaders, timeline-driven sequencing, reorderable lists, and spring tuning. Use it to choose between built-in interactions and a custom animation system, then confirm beta API names and availability.

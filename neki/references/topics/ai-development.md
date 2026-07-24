@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple Intelligence, Foundation Models, ML, generative-AI workflows, and developer tooling.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **247**
+- Last collected: `2026-07-24T20:14:23Z`
+- Indexed links shown: **251**
 
 ## Direct-source reading
 
@@ -244,6 +244,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Foundation Models Utilities](https://livsycode.com/swift/foundation-models-utilities?ref=createwithswift.com) — Create with Swift · Issue 117 — Article · Topics: AI Development · Swift · Swift Package Manager
+  **Published:** `2026-07-24T15:00:34.000Z`
+  **NeKI brief:** Surveys Apple's experimental Foundation Models Utilities package: hosted Chat Completions models, transcript dropping, rolling windows, summarisation, and runtime-loaded skills. It also makes the context-loss and platform-version trade-offs explicit before these patterns stabilise.
+- [Building a custom DynamicProfileModifier in Foundation Models](https://artemnovichkov.com/blog/building-a-custom-dynamic-profile-modifier-in-foundation-models?ref=createwithswift.com) — Create with Swift · Issue 117 — Article · Topics: AI Development · Performance · Swift
+  **Published:** `2026-07-24T15:00:34.000Z`
+  **NeKI brief:** Builds a DynamicProfileModifier that switches to the on-device model, lowers temperature, caps output, and trims visible history. The article also explains modifier precedence, beta requirements, incomplete-output risk, and safe handling of commercial provider credentials.
+- [Test iOS apps in the simulator with Claude Code Desktop [Beta]](https://code.claude.com/docs/en/desktop-ios-simulator) — iOS Dev Weekly · Issue 760 — Article · Topics: AI Development · Developer Tools · Testing · Xcode
+  **Published:** `24th July 2026`
+  **NeKI brief:** Documents Claude Code Desktop's session-specific iOS Simulator pane, including requirements, manual device control, permissions, captures, policy switches, and troubleshooting. Use it to evaluate the current beta workflow and its device-isolation boundaries.
+- [Make AI talk without human social patterns](https://swiftrocks.com/a-system-prompt-to-get-ai-to-stop-pretending-to-be-human) — iOS Dev Weekly · Issue 760 — Article · Topics: AI Development · Developer Tools
+  **Published:** `24th July 2026`
+  **NeKI brief:** Offers a concrete system prompt that removes conversational filler and asks a model to describe its computational role directly. The author reports subjective improvement but no evaluations, making it a prompt experiment rather than validated guidance.
 - [Foundation Models Is Now a Hybrid Platform — and Picking the Tier Is the New Design Decision](https://www.wesleymatlock.com/foundation-models-hybrid-platform) — Those Who Swift · Issue 276 — Article · Topics: AI Development · Foundation & Data Formats · Navigation & Deep Linking
   **Published:** `2026-07-22T20:01:13.378Z`
   **NeKI brief:** Frames model-tier selection as a feature-level architectural decision, with session creation and graceful fallback kept behind a focused boundary. Useful when designing a Foundation Models feature that may choose on-device, cloud, or frontier capability paths.

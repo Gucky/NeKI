@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Developer conferences, publications, courses, podcasts, membership, sponsorship, and community business news.
 
-- Last collected: `2026-07-22T21:56:49Z`
+- Last collected: `2026-07-24T20:12:41Z`
 - Indexed links shown: **213**
 
 ## Direct-source reading
@@ -123,8 +123,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
-- [SwiftCon Returns to Berlin This October](https://www.nextappcon.com/swiftcon) — Those Who Swift · Issue 276 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
-  **Published:** `2026-07-22T20:01:13.378Z`
+- [swiftCon](https://www.nextappcon.com/swiftcon) — iOS Dev Weekly · Issue 760 — Article · Topics: Developer Community & Business · Swift
+  **Published:** `24th July 2026`
   **NeKI brief:** SwiftCon's call for speakers seeks production-focused Swift and iOS talks, including SwiftUI, architecture, performance, and testing. Follow the event page to assess the community's current themes or submit a concrete engineering case study.
 - [W.W.D.C. 2026: The Pregame Quiz](https://www.swiftjectivec.com/wwdc-2026-the-pregame-quiz) — Those Who Swift · Issue 268 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Graphics, Media & Games
   **Published:** `2026-05-27`

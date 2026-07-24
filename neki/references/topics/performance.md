@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Profiling, Instruments, rendering cost, launch time, memory, and runtime efficiency.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **386**
+- Last collected: `2026-07-24T20:14:23Z`
+- Indexed links shown: **387**
 
 ## Direct-source reading
 
@@ -644,6 +644,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Building a custom DynamicProfileModifier in Foundation Models](https://artemnovichkov.com/blog/building-a-custom-dynamic-profile-modifier-in-foundation-models?ref=createwithswift.com) — Create with Swift · Issue 117 — Article · Topics: AI Development · Performance · Swift
+  **Published:** `2026-07-24T15:00:34.000Z`
+  **NeKI brief:** Builds a DynamicProfileModifier that switches to the on-device model, lowers temperature, caps output, and trims visible history. The article also explains modifier precedence, beta requirements, incomplete-output risk, and safe handling of commercial provider credentials.
 - [The Anatomy of a Reusable SwiftUI View](https://alexanderweiss.dev/blog/2026-07-12-the-anatomy-of-a-reusable-swiftui-view) — SwiftUI Weekly · SwiftUI Weekly - Issue #238 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2026-07-13T20:46:02.053Z`
   **NeKI brief:** Examines how SwiftUI view responsibilities, inputs, and composition boundaries affect reuse. Useful when extracting components that remain readable, previewable, and stable under changing state.

@@ -2,7 +2,7 @@
 
 Frequently linked domains from the selected newsletters. Frequency is only a discovery signal; do not treat this list as a recommendation or quality rating.
 
-- Last collected: `2026-07-22T21:21:03Z`
+- Last collected: `2026-07-24T20:12:41Z`
 
 - `0xced.blogspot.co.at` — 1 collected links
 - `2025.nsspain.com` — 1 collected links
@@ -12,7 +12,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `512pixels.net` — 6 collected links
 - `5sw.de` — 1 collected links
 - `8thlight.com` — 1 collected links
-- `9to5mac.com` — 15 collected links
+- `9to5mac.com` — 16 collected links
 - `academy.rudrank.com` — 1 collected links
 - `accessibilityupto11.com` — 1 collected links
 - `adamwulf.me` — 3 collected links
@@ -39,7 +39,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `amzn.to` — 1 collected links
 - `andreaslydemann.com` — 1 collected links
 - `andrew.ooo` — 1 collected links
-- `antongubarenko.substack.com` — 21 collected links
+- `antongubarenko.substack.com` — 22 collected links
 - `antran.app` — 1 collected links
 - `anvaka.github.io` — 1 collected links
 - `apify.com` — 1 collected links
@@ -52,7 +52,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `appventure.me` — 1 collected links
 - `arstechnica.com` — 1 collected links
 - `artandscienceofcoding.com` — 1 collected links
-- `artemnovichkov.com` — 5 collected links
+- `artemnovichkov.com` — 6 collected links
 - `artsy.github.io` — 5 collected links
 - `arturgruchala.com` — 5 collected links
 - `arxiv.org` — 1 collected links
@@ -64,7 +64,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `attila.tumblr.com` — 1 collected links
 - `augmentedcode.io` — 9 collected links
 - `aws.amazon.com` — 2 collected links
-- `azamsharp.com` — 16 collected links
+- `azamsharp.com` — 17 collected links
 - `azure.microsoft.com` — 1 collected links
 - `bandarra.me` — 1 collected links
 - `basememara.com` — 1 collected links
@@ -171,6 +171,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `cocoamanifest.net` — 1 collected links
 - `cocoawithlove.com` — 1 collected links
 - `codakuma.com` — 2 collected links
+- `code.claude.com` — 1 collected links
 - `code.flickr.net` — 1 collected links
 - `code.visualstudio.com` — 1 collected links
 - `codeberg.org` — 1 collected links
@@ -368,7 +369,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `link.springer.com` — 1 collected links
 - `lists.swift.org` — 3 collected links
 - `littlebitesofcocoa.com` — 4 collected links
-- `livsycode.com` — 37 collected links
+- `livsycode.com` — 38 collected links
 - `llvm.org` — 1 collected links
 - `lmnt.me` — 1 collected links
 - `lostmoa.com` — 2 collected links
@@ -436,7 +437,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `nfarina.com` — 1 collected links
 - `nicemohawk.com` — 1 collected links
 - `nickharris.wordpress.com` — 1 collected links
-- `nilcoalescing.com` — 123 collected links
+- `nilcoalescing.com` — 124 collected links
 - `nilsou.com` — 1 collected links
 - `noahgilmore.com` — 3 collected links
 - `nomothetis.svbtle.com` — 1 collected links
@@ -579,7 +580,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `swiftlang.github.io` — 1 collected links
 - `swiftology.io` — 4 collected links
 - `swiftonserver.com` — 3 collected links
-- `swiftrocks.com` — 8 collected links
+- `swiftrocks.com` — 9 collected links
 - `swiftsenpai.com` — 5 collected links
 - `swifttoolkit.dev` — 4 collected links
 - `swiftui-garden.com` — 2 collected links

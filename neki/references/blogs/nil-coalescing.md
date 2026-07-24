@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/)
-- Last collected: `2026-07-22T21:58:56Z`
-- Indexed entries: **209**
+- Last collected: `2026-07-24T20:14:23Z`
+- Indexed entries: **210**
 
+- [Blend modes in SwiftUI](https://nilcoalescing.com/blog/BlendModesInSwiftUI)
+  **Published:** `2026-07-24`
+  **Topics:** Graphics, Media & Games · Swift · SwiftUI
+  **NeKI brief:** Catalogues all 21 SwiftUI blend modes with focused visual examples and explains their colour or alpha calculations. The closing compositingGroup examples clarify how to constrain which sibling views participate in a blend operation.
 - [Building adaptive non-modal panels in SwiftUI](https://nilcoalescing.com/blog/BuildingAdaptiveNonModalPanelsInSwiftUI)
   **Published:** `2026-07-20`
   **Topics:** Swift · SwiftUI

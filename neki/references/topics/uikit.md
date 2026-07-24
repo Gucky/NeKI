@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** UIKit view controllers, controls, lifecycle, and interoperability with SwiftUI.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **678**
+- Last collected: `2026-07-24T20:14:23Z`
+- Indexed links shown: **679**
 
 ## Direct-source reading
 
@@ -1645,6 +1645,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [iOS 27: UIBarMinimization](https://antongubarenko.substack.com/p/ios-27-uibarminimization) — iOS Dev Weekly · Issue 760 — Article · Topics: SwiftUI · UIKit
+  **Published:** `24th July 2026`
+  **NeKI brief:** Separates UIKit navigation-bar minimisation into trigger, restoration, and safe-area decisions, then compares the corresponding SwiftUI toolbar behaviour. The examples are useful for replacing custom scroll-offset handling while the iOS 27 API remains beta.
 - [Dynamic Color Init](https://antongubarenko.substack.com/p/dynamic-color-init) — iOS Dev Weekly · Issue 757 — Article · Topics: Swift · SwiftUI · UIKit
   **Published:** `3rd July 2026`
   **NeKI brief:** Shows how a shared dynamic-color initializer can keep UIKit and SwiftUI design-system colors aligned across light and dark appearances. Follow it when bridging color tokens between frameworks without duplicating trait-resolution logic.

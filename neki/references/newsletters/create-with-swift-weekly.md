@@ -3,8 +3,26 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.createwithswift.com/](https://www.createwithswift.com/)
-- Last collected: `2026-07-22T21:49:38Z`
-- Indexed entries: **69**
+- Last collected: `2026-07-24T20:14:23Z`
+- Indexed entries: **70**
+
+## [Issue 117](https://www.createwithswift.com/weekly-newsletter-issue-117)
+
+- Published: `2026-07-24T15:00:34.000Z`
+
+**Topics:** AI Development · App Distribution & Store Operations · Performance · Swift · SwiftUI
+
+**Sections:** The Community · AppScout · Small Choices, Big Impact: The Environmental Cost of Mobile Design Decisions
+
+**NeKI brief:** Curates implementations for Foundation Models utilities, a dynamic-profile economy mode, and an adaptive non-modal SwiftUI panel. The edition is useful for comparing model-session controls and rotation-aware presentation patterns before checking beta API availability.
+
+**Selected links:**
+- [Building a custom DynamicProfileModifier in Foundation Models](https://artemnovichkov.com/blog/building-a-custom-dynamic-profile-modifier-in-foundation-models?ref=createwithswift.com) — Article · Topics: AI Development · Performance · Swift
+  **NeKI brief:** Builds a DynamicProfileModifier that switches to the on-device model, lowers temperature, caps output, and trims visible history. The article also explains modifier precedence, beta requirements, incomplete-output risk, and safe handling of commercial provider credentials.
+- [Building adaptive non-modal panels in SwiftUI](https://nilcoalescing.com/blog/BuildingAdaptiveNonModalPanelsInSwiftUI?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Builds a custom SwiftUI panel that changes from a bottom sheet to an edge-aligned panel using measured scene geometry, custom Layout, preferences, and detents. The drag implementation preserves scrolling by combining gestures deliberately.
+- [Foundation Models Utilities](https://livsycode.com/swift/foundation-models-utilities?ref=createwithswift.com) — Article · Topics: AI Development · Swift · Swift Package Manager
+  **NeKI brief:** Surveys Apple's experimental Foundation Models Utilities package: hosted Chat Completions models, transcript dropping, rolling windows, summarisation, and runtime-loaded skills. It also makes the context-loss and platform-version trade-offs explicit before these patterns stabilise.
 
 ## [Issue 116](https://www.createwithswift.com/weekly-newsletter-issue-116)
 
