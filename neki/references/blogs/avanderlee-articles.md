@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.avanderlee.com/](https://www.avanderlee.com/)
-- Last collected: `2026-07-22T21:58:56Z`
-- Indexed entries: **365**
+- Last collected: `2026-07-28T20:15:53Z`
+- Indexed entries: **366**
 
+- [How to free up Xcode disk space safely with an AI Agent - SwiftLee](https://www.avanderlee.com/ai-development/how-to-free-up-xcode-disk-space-safely-with-an-ai-agent)
+  **Published:** `2026-07-27T08:34:16+00:00`
+  **Topics:** AI Development · Developer Tools · Xcode
+  **NeKI brief:** Presents an audit-first Xcode cleanup skill that inventories Derived Data, simulators, runtimes, archives, and caches with stable evidence before itemised approval. It preserves distributed archives, revalidates candidates, and separates recoverable trash moves from irreversible simulator operations.
 - [How to Test iOS Apps in Different Time Zones on a Physical iPhone - SwiftLee](https://www.avanderlee.com/xcode/ios-time-zone-testing-physical-iphone)
   **Published:** `2026-07-20T12:27:42+00:00`
   **Topics:** Concurrency · Swift · Testing · Xcode

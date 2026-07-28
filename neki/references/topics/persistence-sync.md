@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Local storage, CloudKit, databases, caching, keychain use, and synchronisation.
 
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed links shown: **567**
+- Last collected: `2026-07-28T20:15:53Z`
+- Indexed links shown: **568**
 
 ## Direct-source reading
 
+- [New in SQLiteData: Sectioned queries](https://www.pointfree.co/blog/posts/219-new-in-sqlitedata-sectioned-queries) — Point-Free · article catalogue
+  **Published:** `2026-07-27T00:00:00Z`
+  **NeKI brief:** Explains SQLiteData 1.8's @FetchAll(sectionBy:) grouping, which stays in SQLite and supports arbitrary SQL expressions, joins, ordering, dynamic reloads, and older OS versions. FetchKeyRequest covers typed or more complex section shapes.
 - [CloudKit JS Tutorial for iOS | Kodeco](https://www.kodeco.com/997-cloudkit-js-tutorial-for-ios) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** A hands-on bridge between an iOS CloudKit container and a browser client, showing where CloudKit JS fits when the same records must be exposed on the web.

@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** SwiftData models, queries, migrations, CloudKit integration, and data modelling.
 
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed links shown: **121**
+- Last collected: `2026-07-28T20:15:53Z`
+- Indexed links shown: **122**
 
 ## Direct-source reading
 
+- [New in SQLiteData: Sectioned queries](https://www.pointfree.co/blog/posts/219-new-in-sqlitedata-sectioned-queries) — Point-Free · article catalogue
+  **Published:** `2026-07-27T00:00:00Z`
+  **NeKI brief:** Explains SQLiteData 1.8's @FetchAll(sectionBy:) grouping, which stays in SQLite and supports arbitrary SQL expressions, joins, ordering, dynamic reloads, and older OS versions. FetchKeyRequest covers typed or more complex section shapes.
 - [Getting Started with SwiftData in iOS 26 | Kodeco](https://www.kodeco.com/49976785-getting-started-with-swiftdata-in-ios-26) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** The iOS 26 SwiftData starter introduces model types, containers and SwiftUI queries as one persistence flow. Follow it to assess how observation and schema choices shape a modern app, while checking migration and background-context needs beyond the sample.

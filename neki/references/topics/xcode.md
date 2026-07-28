@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Xcode, builds, signing, debugging, tooling, CI, and developer workflows.
 
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed links shown: **1168**
+- Last collected: `2026-07-28T20:17:52Z`
+- Indexed links shown: **1170**
 
 ## Direct-source reading
 
+- [How to free up Xcode disk space safely with an AI Agent - SwiftLee](https://www.avanderlee.com/ai-development/how-to-free-up-xcode-disk-space-safely-with-an-ai-agent) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-07-27T08:34:16+00:00`
+  **NeKI brief:** Presents an audit-first Xcode cleanup skill that inventories Derived Data, simulators, runtimes, archives, and caches with stable evidence before itemised approval. It preserves distributed archives, revalidates candidates, and separates recoverable trash moves from irreversible simulator operations.
 - [How to Test iOS Apps in Different Time Zones on a Physical iPhone - SwiftLee](https://www.avanderlee.com/xcode/ios-time-zone-testing-physical-iphone) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-07-20T12:27:42+00:00`
   **NeKI brief:** Compares ways to validate time-sensitive app behavior on a physical iPhone, including automatic time-zone handling and simulated location changes.
@@ -1886,6 +1889,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** LLDB v, p and po commands inspect different representations of runtime values. Follow it to choose the right diagnostic view and avoid mistaking debugger expression behavior for application code.
 - [Changing runtime state with LLDB while debugging iOS apps](https://tanaschita.com/lldb-changing-variables-while-debugging) — Tanaschita · article catalogue
   **NeKI brief:** LLDB expr can mutate variables and automate breakpoint actions during a paused run. The technique is useful for testing branches quickly, but changes are diagnostic only and must be reproduced in source or tests.
+- [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning) — Tanaschita · article catalogue
+  **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.
 - [Beginners guide to supporting VoiceOver in SwiftUI for better accessibility](https://tanaschita.com/ios-accessibility-voiceover-swiftui-guide) — Tanaschita · article catalogue
   **NeKI brief:** Introduces SwiftUI accessibility modifiers alongside Xcode's Accessibility Inspector. Follow it for a beginner-friendly route from inspecting the element tree to correcting labels, traits, and grouping in a real screen.
 - [Supporting sufficient contrast accessibility with Xcode's Color Contrast Calculator](https://tanaschita.com/ios-accessibility-contrast) — Tanaschita · article catalogue

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Store delivery, TestFlight, StoreKit commerce, signing, review, releases, and monetisation workflows.
 
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed links shown: **128**
+- Last collected: `2026-07-28T20:17:52Z`
+- Indexed links shown: **129**
 
 ## Direct-source reading
 
@@ -90,6 +90,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The App Launch Sequence on iOS – Ole Begemann](https://oleb.net/blog/2011/06/app-launch-sequence-ios) — Ole Begemann · article catalogue
   **Published:** `2011-06-27T21:10:00Z`
   **NeKI brief:** Traces iOS application launch callbacks and nib loading order so startup work is placed after required dependencies exist and before UI assumptions cause lifecycle bugs.
+- [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning) — Tanaschita · article catalogue
+  **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.
 - [How to implemet a free trial period for StoreKit 2 subscriptions in iOS](https://tanaschita.com/20231113-subscriptions-introductory-offers) — Tanaschita · article catalogue
   **NeKI brief:** StoreKit 2 introductory offers apply eligibility and offer configuration to subscription purchases. The guide is useful for separating App Store product metadata from local UI, while treating eligibility as server-verified state.
 - [Get started with StoreKit 2 for iOS](https://tanaschita.com/20231002-storekit-2-overview) — Tanaschita · article catalogue

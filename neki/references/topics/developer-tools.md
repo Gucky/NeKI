@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Git, command-line work, debugging, automation, and practical developer workflows.
 
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed links shown: **1013**
+- Last collected: `2026-07-28T20:15:53Z`
+- Indexed links shown: **1014**
 
 ## Direct-source reading
 
+- [How to free up Xcode disk space safely with an AI Agent - SwiftLee](https://www.avanderlee.com/ai-development/how-to-free-up-xcode-disk-space-safely-with-an-ai-agent) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-07-27T08:34:16+00:00`
+  **NeKI brief:** Presents an audit-first Xcode cleanup skill that inventories Derived Data, simulators, runtimes, archives, and caches with stable evidence before itemised approval. It preserves distributed archives, revalidates candidates, and separates recoverable trash moves from irreversible simulator operations.
 - [Use 'git mv' to record filename case changes in Git – Ole Begemann](https://oleb.net/2025/git-mv-case-change) — Ole Begemann · article catalogue
   **Published:** `2025-12-16T17:11:22Z`
   **NeKI brief:** Demonstrates that case-only filename changes on case-insensitive filesystems need an explicit git mv so Git records the rename. The two-stage workaround is a compact diagnostic for apparently ignored path changes.

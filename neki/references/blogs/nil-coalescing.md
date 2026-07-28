@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/)
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed entries: **210**
+- Last collected: `2026-07-28T20:15:53Z`
+- Indexed entries: **211**
 
+- [Keeping canvas interactions responsive with frame reprojection](https://nilcoalescing.com/blog/KeepingCanvasInteractionsResponsiveWithFrameReprojection)
+  **Published:** `2026-07-28`
+  **Topics:** Graphics, Media & Games · Performance
+  **NeKI brief:** Shows how Exsto keeps large Metal canvases responsive by reprojecting the last rendered frame while a newer offscreen frame is queued, then synchronising transform and texture updates with CAMetalLayer, CATransaction, overdraw, and gesture-time MSAA reduction.
 - [Blend modes in SwiftUI](https://nilcoalescing.com/blog/BlendModesInSwiftUI)
   **Published:** `2026-07-24`
   **Topics:** Graphics, Media & Games · Swift · SwiftUI

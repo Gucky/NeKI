@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Rendering, GPU work, image/audio/video processing, computer vision, and game-development techniques.
 
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed links shown: **362**
+- Last collected: `2026-07-28T20:15:53Z`
+- Indexed links shown: **363**
 
 ## Direct-source reading
 
+- [Keeping canvas interactions responsive with frame reprojection](https://nilcoalescing.com/blog/KeepingCanvasInteractionsResponsiveWithFrameReprojection) — Nil Coalescing · article catalogue
+  **Published:** `2026-07-28`
+  **NeKI brief:** Shows how Exsto keeps large Metal canvases responsive by reprojecting the last rendered frame while a newer offscreen frame is queued, then synchronising transform and texture updates with CAMetalLayer, CATransaction, overdraw, and gesture-time MSAA reduction.
 - [Blend modes in SwiftUI](https://nilcoalescing.com/blog/BlendModesInSwiftUI) — Nil Coalescing · article catalogue
   **Published:** `2026-07-24`
   **NeKI brief:** Catalogues all 21 SwiftUI blend modes with focused visual examples and explains their colour or alpha calculations. The closing compositingGroup examples clarify how to constrain which sibling views participate in a blend operation.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Unit, UI, Swift Testing, XCTest, test design, and test automation.
 
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed links shown: **931**
+- Last collected: `2026-07-28T20:15:53Z`
+- Indexed links shown: **930**
 
 ## Direct-source reading
 
@@ -1628,8 +1628,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Presents a concise XCTest technique for unwrapping optionals with useful failure output. Use it to keep test setup readable while preserving clear diagnostics when required fixtures are missing.
 - [Quick guide on fastlane for iOS development](https://tanaschita.com/20230213-fastlane-ios-developer-guide) — Tanaschita · article catalogue
   **NeKI brief:** Fastlane organizes testing, signing and App Store delivery into repeatable lanes. The guide is useful for making release steps explicit, with credentials and environment-specific configuration kept out of source control.
-- [Developer guide on iOS code signing & provisioning](https://tanaschita.com/20221212-code-signing-and-provisioning-for-ios) — Tanaschita · article catalogue
-  **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability and installation concerns.
 - [Quick guide on Proxyman for iOS development](https://tanaschita.com/20220704-quick-guide-on-proxyman) — Tanaschita · article catalogue
   **NeKI brief:** Introduces Proxyman for inspecting iOS network traffic. Use it when HTTPS requests, payloads, and response failures need external debugging evidence.
 - [Accessibility: App Design with Everyone in Mind](https://martiancraft.com/blog/2023/10/accessibility-designed-for-everyone) — MartianCraft · article catalogue

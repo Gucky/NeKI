@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://tanaschita.com/](https://tanaschita.com/)
-- Last collected: `2026-07-22T21:49:38Z`
+- Last collected: `2026-07-28T20:17:52Z`
 - Indexed entries: **185**
 
 - [Understanding Xcode targets, schemes and build configurations](https://tanaschita.com/xcode-targets-schemes)
@@ -375,6 +375,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Working with files and directories in iOS](https://tanaschita.com/ios-file-system-overview)
   **Topics:** Swift
   **NeKI brief:** Maps iOS file-system locations and the responsibilities of app documents, caches, and temporary storage. Use it when choosing a persistence location whose backup, eviction, and user-visibility behavior matches the data.
+- [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning)
+  **Topics:** App Distribution & Store Operations · Security & Privacy · Xcode
+  **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.
 - [Implementing Passkeys in iOS with AuthenticationServices](https://tanaschita.com/ios-authentication-passkeys)
   **Topics:** Security & Privacy
   **NeKI brief:** Implements passkey authentication with AuthenticationServices, covering request configuration, credential results, and account flow integration. Useful when replacing password login while keeping registration and sign-in state explicit.
@@ -531,9 +534,6 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Authorizing App Store Connect API requests](https://tanaschita.com/20221226-authorizing-app-store-connect-api-requests)
   **Topics:** App Distribution & Store Operations
   **NeKI brief:** App Store Connect API authorization combines an API key with a signed JWT. Follow it to understand issuer, audience and expiration claims, while keeping the private key in a protected automation environment.
-- [Developer guide on iOS code signing & provisioning](https://tanaschita.com/20221212-code-signing-and-provisioning-for-ios)
-  **Topics:** Performance · Testing
-  **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability and installation concerns.
 - [Developer guide on the App Store Connect API](https://tanaschita.com/20221128-app-store-connect-api-quide)
   **Topics:** Networking
   **NeKI brief:** The App Store Connect API automates metadata and release operations through authenticated requests. Follow it to identify which manual portal tasks can become repeatable jobs, while respecting rate limits and role permissions.

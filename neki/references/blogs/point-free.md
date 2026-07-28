@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.pointfree.co/blog](https://www.pointfree.co/blog)
-- Last collected: `2026-07-22T21:58:56Z`
-- Indexed entries: **153**
+- Last collected: `2026-07-28T20:15:53Z`
+- Indexed entries: **154**
 
+- [New in SQLiteData: Sectioned queries](https://www.pointfree.co/blog/posts/219-new-in-sqlitedata-sectioned-queries)
+  **Published:** `2026-07-27T00:00:00Z`
+  **Topics:** Persistence & Synchronisation · SwiftData
+  **NeKI brief:** Explains SQLiteData 1.8's @FetchAll(sectionBy:) grouping, which stays in SQLite and supports arbitrary SQL expressions, joins, ordering, dynamic reloads, and older OS versions. FetchKeyRequest covers typed or more complex section shapes.
 - [Xcode 27 support in the Point-Free ecosystem](https://www.pointfree.co/blog/posts/218-xcode-27-support-in-the-point-free-ecosystem)
   **Published:** `2026-06-26T00:00:00Z`
   **Topics:** Xcode

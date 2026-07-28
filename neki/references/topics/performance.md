@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Profiling, Instruments, rendering cost, launch time, memory, and runtime efficiency.
 
-- Last collected: `2026-07-24T20:14:23Z`
+- Last collected: `2026-07-28T20:15:53Z`
 - Indexed links shown: **387**
 
 ## Direct-source reading
 
+- [Keeping canvas interactions responsive with frame reprojection](https://nilcoalescing.com/blog/KeepingCanvasInteractionsResponsiveWithFrameReprojection) — Nil Coalescing · article catalogue
+  **Published:** `2026-07-28`
+  **NeKI brief:** Shows how Exsto keeps large Metal canvases responsive by reprojecting the last rendered frame while a newer offscreen frame is queued, then synchronising transform and texture updates with CAMetalLayer, CATransaction, overdraw, and gesture-time MSAA reduction.
 - [Combine: Getting Started | Kodeco](https://www.kodeco.com/7864801-combine-getting-started) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Combine’s Publisher and Subscriber model is introduced through event streams and composition. Follow it to understand cancellation and backpressure boundaries before migrating callback-heavy code, rather than treating operators as interchangeable syntax for async work.
@@ -619,8 +622,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Combine debounce delays search requests until input settles, reducing server load and result churn. Follow it to coordinate cancellation and latest-query wins semantics rather than allowing stale responses to replace newer results.
 - [Introduction to Combine for iOS developers with RxSwift experience](https://tanaschita.com/combine-for-rxswift-devs) — Tanaschita · article catalogue
   **NeKI brief:** This RxSwift-to-Combine comparison maps concepts such as publishers, operators and cancellables across frameworks. Follow it during migration to identify semantic differences instead of performing a mechanical name replacement.
-- [Developer guide on iOS code signing & provisioning](https://tanaschita.com/20221212-code-signing-and-provisioning-for-ios) — Tanaschita · article catalogue
-  **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability and installation concerns.
 - [WWDC26 Recap: Siri Grows Up, Apple Intelligence Goes Everywhere, and Agents Move into Xcode](https://martiancraft.com/blog/2026/06/wwdc-26-recap-siri-grows-up-apple-intelligence-goes-everywhere-and-agents-move-Into-xcode) — MartianCraft · article catalogue
   **NeKI brief:** Summarizes WWDC26 changes across Siri, Apple Intelligence, and agentic Xcode workflows, connecting platform announcements to practical development consequences. Use it as a map of topics to verify in the corresponding Apple sessions and documentation.
 - [Nailing Accessibility in Your iOS Apps: Going Beyond Compliance](https://martiancraft.com/blog/2025/06/nailing-accessibility) — MartianCraft · article catalogue

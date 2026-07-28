@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple Intelligence, Foundation Models, ML, generative-AI workflows, and developer tooling.
 
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed links shown: **251**
+- Last collected: `2026-07-28T20:15:53Z`
+- Indexed links shown: **252**
 
 ## Direct-source reading
 
+- [How to free up Xcode disk space safely with an AI Agent - SwiftLee](https://www.avanderlee.com/ai-development/how-to-free-up-xcode-disk-space-safely-with-an-ai-agent) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-07-27T08:34:16+00:00`
+  **NeKI brief:** Presents an audit-first Xcode cleanup skill that inventories Derived Data, simulators, runtimes, archives, and caches with stable evidence before itemised approval. It preserves distributed archives, revalidates candidates, and separates recoverable trash moves from irreversible simulator operations.
 - [Core ML and Vision Tutorial: On-device training on iOS | Kodeco](https://www.kodeco.com/7960296-core-ml-and-vision-tutorial-on-device-training-on-ios) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Combines Core ML model integration with Vision image handling and on-device fine-tuning. Use it to trace the boundary between a bundled model, camera or image preprocessing, and personalization performed locally on an iOS device.

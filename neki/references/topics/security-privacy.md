@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Privacy, credentials, secure configuration, encryption, sandboxing, and application security.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **70**
+- Last collected: `2026-07-28T20:17:52Z`
+- Indexed links shown: **71**
 
 ## Direct-source reading
 
@@ -56,6 +56,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Inspects signing and sandbox state at runtime for diagnostic builds, helping distinguish entitlement configuration failures from ordinary application logic errors.
 - [Understanding privacy manifests in iOS](https://tanaschita.com/ios-privacy-manifests) — Tanaschita · article catalogue
   **NeKI brief:** Explains iOS privacy manifests, including required-reason APIs, declarations, and how app and third-party SDK manifests combine. Use it when auditing App Store compliance and documenting data-access reasons without confusing privacy manifests with permission prompts.
+- [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning) — Tanaschita · article catalogue
+  **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.
 - [Implementing Passkeys in iOS with AuthenticationServices](https://tanaschita.com/ios-authentication-passkeys) — Tanaschita · article catalogue
   **NeKI brief:** Implements passkey authentication with AuthenticationServices, covering request configuration, credential results, and account flow integration. Useful when replacing password login while keeping registration and sign-in state explicit.
 - [Fetching API Keys from Property List Files](https://peterfriese.dev/blog/2020/reading-api-keys-from-plist-files) — Peter Friese articles · article catalogue
