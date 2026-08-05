@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Core Data models, fetching, migration, concurrency, and persistence behaviour.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **274**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **276**
 
 ## Direct-source reading
 
@@ -664,6 +664,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [What I Learned Writing My Own CloudKit Syncing Library](https://ryanashcraft.com/what-i-learned-writing-my-own-cloudkit-sync-library) — iOS Dev Weekly · Issue 605 — Article · Topics: Core Data · Persistence & Synchronisation
   **Published:** `14th April 2023`
   **NeKI brief:** Shares lessons from building an open-source CloudKit synchronization library, including the practical complexity hidden behind sync-enabled apps. Follow it when comparing a custom sync layer with direct CloudKit use and identifying the design decisions the abstraction must own.
+- [CoreDataErrors.h as a gist on GitHub](https://gist.github.com/hishma/7cb505f94230ac7d7ed53d52a1e6dab6?ref=ioscodereview.com) — iOS Code Review · Issue 45 — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
+  **Published:** `2023-03-16T13:58:41.000Z`
+  **NeKI brief:** Provides the source and change history for CoreDataErrors.h as a gist on GitHub, relevant to Core Data and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [How to more gracefully handle non-optional Core Data properties in Swift · Jesse Squires](https://www.jessesquires.com/blog/2022/01/26/core-data-optionals?ref=ioscodereview.com) — iOS Code Review · Issue 27 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
+  **Published:** `2022-07-14T11:10:44.000Z`
+  **NeKI brief:** Explores follow up post from Jesse Squires, focusing on the article discusses heard you like optionals, so i put an optional in your optional. Follow it to assess the approach, its trade-offs, and where it fits in a current Swift or Apple-platform project.
 - [Clash of the Optionals](https://atomicbird.com/blog/clash-of-the-optionals) — iOS Dev Weekly · Issue 543 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `28th January 2022`
   **NeKI brief:** Explores Clash of the Optionals, focusing on the article discusses heard you like optionals, so i put an optional in your optional. Follow it to assess the approach, its trade-offs, and where it fits in a current Swift or Apple-platform project.
@@ -684,7 +690,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines Core Store, focusing on core data works well with new technologies like swiftui and combine, but does it feel at home with them? it does not. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Build Complete Apple Watch Tasks App Clone in WatchOS, SwiftUI with CoreData](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9OVFxdzU5NXFkY0UiLCJwb3N0X2lkIjoiZjhkYzQzOWQtNjdhOS00N2IwLWI0NzEtOTE2YzY0MWZlN2FjIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6IjNmMDQyMTgxLWQ3NWUtNGE0ZC1hNmE5LWJjM2UwYjBlYTBkZiIsImlhdCI6MTY3NDA2MjY3OC44OTUsImlzcyI6Im9yY2hpZCJ9.WcabseSQh2BOGdp0_x6eltLYiVZeTSCbK1h_Kcxqhs4) — SwiftUI Weekly · SwiftUI Weekly - Issue #48 — Tutorial · Topics: Core Data · Swift · SwiftUI
   **Published:** `2021-03-01T13:49:29.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds a watchOS task app clone using SwiftUI and Core Data. Follow it for compact-device navigation, persistence modeling, and the differences between watch extension UI constraints and iPhone screens.
 - [Profiling SwiftUI app using Instruments](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3N3aWZ0d2l0aG1hamlkLmNvbS8yMDIxLzAxLzIwL3Byb2ZpbGluZy1zd2lmdHVpLWFwcC11c2luZy1pbnN0cnVtZW50cy8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiJmNDMyNzc3Ny02M2Q2LTQ1MDQtOWVkMC1lYTgwYzM4ZmVlZDUiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiMjVjODkyZTUtYTM5OC00YWVmLWFkMWEtMzYzZTkzNWE1OGJhIiwiaWF0IjoxNjc0MDYyNjc5LjQ1OSwiaXNzIjoib3JjaGlkIn0.yFE0lXxlheNBniRXd2cVmx609ueoWFP89URqNlmr9lo) — SwiftUI Weekly · SwiftUI Weekly - Issue #43 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2021-01-26T13:13:48.000Z`
   **NeKI brief:** Uses Instruments to profile SwiftUI performance. Use it when a view-update or rendering problem needs measured call stacks and allocation evidence instead of intuition about declarative UI cost.
@@ -768,7 +774,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains ICACloud iCloud Simplified with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
 - [Apportable](http://www.youtube.com/watch?v=dSkhtd6L8RM) — iOS Dev Weekly · Issue 117 — Video · Topics: App Services & Extensions · Core Data · Cross-Platform & Web
   **Published:** `25th October 2013`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates compiling an Objective-C iOS game for Android with Apportable and SpriteBuilder, including platform-framework mapping. Treat it as historical cross-platform tooling context rather than a current deployment recommendation.
 - [Ensembles](http://mentalfaculty.tumblr.com/post/62909673342/introducing-ensembles-core-data-sync-the-way-it-should) — iOS Dev Weekly · Issue 114 — Article · Topics: Core Data · Persistence & Synchronisation
   **Published:** `4th October 2013`
   **NeKI brief:** Explains Ensembles with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.

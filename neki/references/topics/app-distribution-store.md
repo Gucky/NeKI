@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Store delivery, TestFlight, StoreKit commerce, signing, review, releases, and monetisation workflows.
 
-- Last collected: `2026-07-28T20:17:52Z`
-- Indexed links shown: **129**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **187**
 
 ## Direct-source reading
 
@@ -60,9 +60,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [QuickLook Previews for iOS: Getting Started | Kodeco](https://www.kodeco.com/10447506-quicklook-previews-for-ios-getting-started) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Uses QLPreviewController and QLPreviewItem to preview files, provide thumbnails, customize zoom transitions, and enable PDF editing. Useful for adopting a system document viewer when building and maintaining a bespoke preview screen would add little product value.
+- [Appbot: World-class Review & Ratings Monitoring - iOS Dev Tools](https://iosdev.tools/blog/appbot) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-02-27T10:31:33+00:00`
+  **NeKI brief:** Profiles Appbot as world-class Review & Ratings Monitoring. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [AppScreens: Fast, Localized App Store Screenshots - iOS Dev Tools](https://iosdev.tools/blog/appscreens) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-02-15T20:00:00+00:00`
+  **NeKI brief:** Profiles AppScreens as fast, Localized App Store Screenshots. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [How to design an SDK to handle $10bn in transactions](https://blog.jacobstechtavern.com/p/revenuecat-sdk) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2026-01-12T16:01:24.245Z`
   **NeKI brief:** Explains SDK design under high transaction volume through resilient networking, idempotency, caching, observability, and compatibility boundaries, showing how a client library protects product flows while backend systems absorb scale and failure.
+- [Paddle: Unify Your SaaS Billing Stack - iOS Dev Tools](https://iosdev.tools/blog/paddle) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-11-04T05:30:35+00:00`
+  **NeKI brief:** Profiles Paddle as unify Your SaaS Billing Stack. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [Picasso: Professional App Store Screenshots in Minutes - iOS Dev Tools](https://iosdev.tools/blog/picasso) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-11-04T03:05:00+00:00`
+  **NeKI brief:** Profiles Picasso as professional App Store Screenshots in Minutes. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [Iconed: Beautiful Icons With Zero Hassle - iOS Dev Tools](https://iosdev.tools/blog/iconed) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-07-18T14:56:42+00:00`
+  **NeKI brief:** Profiles Iconed as beautiful Icons With Zero Hassle. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [How to change your app's business model from paid to freemium using StoreKit](https://www.polpiella.dev/paid-app-to-freemium) — Pol Piella · article catalogue
   **Published:** `2024-12-06T00:00:00.000Z`
   **NeKI brief:** Shows changing an app's business model from paid upfront to freemium using StoreKit's AppTransaction API. Follow it when planning migration logic and entitlement checks, then verify transaction semantics, customer communication, and App Store policy requirements.
@@ -115,6 +130,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
+  **Published:** `2026-08-01T15:00:04.000Z`
+  **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.
+- [❓ New Age Rating Declaration Questions in App Store Connect](https://helm-app.com/changelog/helm-ios-feedback) — iOS CI Newsletter · Issue 91 — Article · Topics: App Distribution & Store Operations
+  **Published:** `2026-07-28T00:00:00.000Z`
+  **NeKI brief:** Examines New Age Rating Declaration Questions in App Store Connect in the context of App Distribution & Store Operations. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Apple just improved TestFlight for users with a lot of beta apps](https://9to5mac.com/2026/07/21/apple-just-improved-testflight-for-users-with-a-lot-of-beta-apps) — iOS Dev Weekly · Issue 760 — Article · Topics: App Distribution & Store Operations
   **Published:** `24th July 2026`
   **NeKI brief:** Records TestFlight 4.3's new app search on iPhone and Mac and an apparent expansion of previously tested apps. Useful as release context for beta-heavy workflows, not as an implementation or API reference.
@@ -124,6 +145,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [An Indie Playbook for the WWDC26 App Store Changes](https://3nsofts.com/guides/app-store/app-store-wwdc26-monetization-indie-playbook) — iOS Dev Weekly · Issue 759 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
   **Published:** `17th July 2026`
   **NeKI brief:** Examines WWDC26 App Store changes through an indie developer lens, connecting policy updates to pricing, subscriptions, and release planning. Useful for product decisions, but verify current Apple commerce rules before implementation.
+- [☁️ How to set a custom build number for your builds in Xcode Cloud](https://antongubarenko.substack.com/p/swift-bits-xcode-cloud-build-number) — iOS CI Newsletter · Issue 90 — Article · Topics: Swift · Testing · Xcode
+  **Published:** `2026-07-06T00:00:00.000Z`
+  **NeKI brief:** Walks through how to set a custom build number for your builds in Xcode Cloud, with practical context for Swift and Testing. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [iOS 27 SDK: 3 Major Requirements That Might Break Your App](https://blog.makwanbk.com/ios-27-sdk-3-major-requirements-that-migh-break-your-app?ref=createwithswift.com) — Create with Swift · Issue 114 — Article · Topics: App Distribution & Store Operations · Liquid Glass · Swift
   **Published:** `2026-07-04T15:00:32.000Z`
   **NeKI brief:** Summarizes three iOS 27 SDK requirements that may surface during an upgrade. Use it as a migration checklist for build and runtime audits, then verify each requirement against Apple's release documentation.
@@ -133,6 +157,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [OpenUsage](https://github.com/robinebers/openusage) — iOS Dev Tools · iOS Dev Tools: Apple App Store Scraper, SideScreen, SiteKit — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
   **Published:** `2026-07-02T19:03:32.109Z`
   **NeKI brief:** OpenUsage presents subscription and usage information in an open-source desktop utility, helping users see where recurring services are being consumed. Useful as a reference for local usage aggregation and transparent cost awareness.
+- [Helm 2.3: WWDC & Helm CLI](https://helm-app.com/changelog/helm-2-3-helm-cli) — SwiftLee Weekly · Issue 329 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `2026-06-23T14:07:47.000Z`
+  **NeKI brief:** Examines Automate your App Store Connect workflows with Helm’s new CLI! in the context of App Distribution & Store Operations and Apple Platform Ecosystem. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [❓ WWDC26: App Store Connect Group Lab](https://www.youtube.com/watch?v=QPWPgSjg9Kc) — iOS CI Newsletter · Issue 89 — Video · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `2026-06-17T00:00:00.000Z`
+  **NeKI brief:** Records WWDC26: App Store Connect Group Lab as a visual walkthrough relevant to App Distribution & Store Operations and Apple Platform Ecosystem. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [W.W.D.C. 2026: The Pregame Quiz](https://www.swiftjectivec.com/wwdc-2026-the-pregame-quiz) — Those Who Swift · Issue 268 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Graphics, Media & Games
   **Published:** `2026-05-27`
   **NeKI brief:** Presents W.W.D.C. 2026: The Pregame Quiz, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -145,6 +175,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [CLI](https://www.rocketsim.app/docs/features/agentic-development/rocketsim-cli) — SwiftLee Weekly · Issue 322 — Article · Topics: AI Development · Testing
   **Published:** `2026-05-05T14:09:40.000Z`
   **NeKI brief:** Explains CLI, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [MacRumors](https://www.macrumors.com/2026/03/26/apple-swift-student-challenge-winners-2026?ref=ioscodereview.com) — iOS Code Review · Issue 76 — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games · Swift
+  **Published:** `2026-03-30T18:21:46.000Z`
+  **NeKI brief:** Examines MacRumors in the context of App Distribution & Store Operations and Graphics, Media & Games. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [ASC CLI](https://github.com/rudrankriyam/App-Store-Connect-CLI) — Fatbobman’s Swift Weekly · Issue 127 — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
   **Published:** `2026-03-16T12:04:00.245Z`
   **NeKI brief:** App-Store-Connect-CLI automates App Store Connect tasks from the command line, including subscription-related setup. Use it to replace repetitive portal configuration with reviewable scripts, while treating credentials and destructive commands carefully.
@@ -162,31 +195,58 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** This technical resource covers a searchable index of WWDC material. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [my YouTube series on this app](https://youtube.com/playlist?list=PLg4qABgFp_nRYMtGFdXz8sUeXb2IDxdPL&si=Imqah2BEAj-b-WAM) — SwiftLee Weekly · Issue 306 — Video · Topics: App Distribution & Store Operations · Graphics, Media & Games · Testing
   **Published:** `2026-01-13T15:06:45.000Z`
-  **NeKI brief:** Provides a SwiftUI learning course playlist covering navigation and related interface patterns. Use it as a structured route through implementations, checking each example against current APIs before adopting its presentation or state-management techniques.
+  **NeKI brief:** Documents building and launching an open-source app toward $10K monthly recurring revenue, including releases, App Store review, crashes, growth, pricing, and technical decisions. Useful for connecting product milestones with implementation trade-offs.
+- [🪝 How the new App Store Connect webhooks can power your automations](https://en.zhgchg.li/posts/zrealm-dev/app-store-connect-api-webhook-automate-ci-cd-workflows-seamlessly-7c0974856393) — iOS CI Newsletter · Issue 84 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `2025-12-31T00:00:00.000Z`
+  **NeKI brief:** Examines How the new App Store Connect webhooks can power your automations in the context of App Distribution & Store Operations and Apple Platform Ecosystem. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [demo projects](https://github.com/zhangqifan/Insights) — Fatbobman’s Swift Weekly · Issue 111 — Source repository · Topics: App Distribution & Store Operations · Architecture · Liquid Glass
   **Published:** `2025-11-17T12:02:46.781Z`
   **NeKI brief:** Insights contains demo projects for applying Liquid Glass design to a production health app. Use it to inspect concrete adaptations of translucent materials, hierarchy, and interaction rather than treating WWDC design guidance as abstract theory.
+- [🤩 Improvements to review submissions in App Store Connect](https://9to5mac.com/2025/10/29/apple-adds-new-app-store-submission-and-marketing-features-will-phase-out-promo-codes-in-2026) — iOS CI Newsletter · Issue 79 — Tutorial · Topics: App Distribution & Store Operations · Developer Community & Business
+  **Published:** `2025-11-02T00:00:00.000Z`
+  **NeKI brief:** Examines Improvements to review submissions in App Store Connect in the context of App Distribution & Store Operations and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Ship better paywalls faster with RevenueCat’s native, customizable Paywall Builder](https://www.revenuecat.com/docs/tools/paywalls-v2) — iOS Dev Weekly · Issue 726 — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games
   **Published:** `12th September 2025`
   **NeKI brief:** Documents RevenueCat Paywalls 2 tooling for configuring and presenting subscription paywalls. Use it to inspect templates, purchase flows, and customization boundaries before integrating monetization into an app.
 - [Mercato](https://github.com/tikhop/Mercato) — iOS Dev Tools · iOS Dev Tools: ch.at, Mercato, Dependencies — Source repository · Topics: App Distribution & Store Operations · Developer Career & Practice · Developer Tools
   **Published:** `2025-08-14T19:53:26.103Z`
   **NeKI brief:** Mercato wraps StoreKit 2 for subscriptions and in-app purchases across Apple platforms, aiming to reduce repetitive transaction plumbing. Useful for comparing a focused purchase abstraction with direct StoreKit state and entitlement management.
+- [🏷️ Uploading your app to TestFlight using GitHub Actions](https://nowham.dev/posts/github_actions_testflight) — iOS CI Newsletter · Issue 72 — Article · Topics: App Distribution & Store Operations · Developer Tools · Testing
+  **Published:** `2025-07-14T00:00:00.000Z`
+  **NeKI brief:** Examines Uploading your app to TestFlight using GitHub Actions in the context of App Distribution & Store Operations and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🧪 How to run Unit Tests on CI/CD](https://nowham.dev/posts/github_actions_unit_tests) — iOS CI Newsletter · Issue 71 — Article · Topics: CI/CD & Automation · Developer Tools · Testing
+  **Published:** `2025-06-30T00:00:00.000Z`
+  **NeKI brief:** Walks through how to run Unit Tests on CI/CD, with practical context for CI/CD & Automation and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [read all about it inside the documentation](https://docs.rocketsim.app/features/hzQMSrSga7BGWvxdNVdwYs/simulator-camera-support/58tQ5jvevLNSnyUEA7VgAv) — SwiftLee Weekly · Issue 277 — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games
   **Published:** `2025-06-24T14:09:23.000Z`
   **NeKI brief:** Presents RocketSim's documentation, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [App Review-safe Swift implementation](https://github.com/sebjvidal/_UIContextMenuAccessoryView-Demo) — Fatbobman’s Swift Weekly · Issue 84 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
   **Published:** `2025-05-19T12:00:44.196Z`
   **NeKI brief:** Demonstrates an App Review-safe Swift approach to context-menu accessory UI inspired by Messages. Use it to understand the public-API boundary and avoid shipping private UIKit techniques that merely reproduce system visuals.
+- [🍎 Can your AI Assistant help you with App Store Connect issues?](https://github.com/JoshuaRileyDev/app-store-connect-mcp-server) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Can your AI Assistant help you with App Store Connect issues?, relevant to AI Development and App Distribution & Store Operations. Inspect its implementation, open issues, and release state before adopting the approach.
 - [easy-frame](https://github.com/alschmut/EasyFrameCommand) — iOS Dev Tools · iOS Dev Tools: easy-frame, Sweetpad, StoreKitHelper — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
   **Published:** `2025-04-11T07:56:27.598Z`
   **NeKI brief:** EasyFrameCommand is a Swift CLI that creates framed App Store screenshots from custom SwiftUI layouts. Useful for repeatable marketing-image generation that keeps device framing in source-controlled code instead of manual editing.
 - [StoreKitHelper](https://github.com/jaywcjlove/StoreKitHelper) — iOS Dev Tools · iOS Dev Tools: easy-frame, Sweetpad, StoreKitHelper — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
   **Published:** `2025-04-11T07:56:27.598Z`
   **NeKI brief:** StoreKitHelper wraps StoreKit 2 for SwiftUI in a lightweight package, reducing repeated purchase and entitlement plumbing. Useful for comparing a small declarative helper with direct StoreKit transaction observation and product loading.
+- [🚀 How to automate App Store screenshot generation for macOS apps](https://www.jessesquires.com/blog/2025/03/24/automate-perfect-mac-screenshots) — iOS CI Newsletter · Issue 65 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Community & Business
+  **Published:** `2025-04-06T00:00:00.000Z`
+  **NeKI brief:** Walks through how to automate App Store screenshot generation for macOS apps, with practical context for App Distribution & Store Operations and CI/CD & Automation. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [ReviewKit](https://github.com/FlineDev/ReviewKit) — iOS Dev Tools · iOS Dev Tools: Dock, Clippets, ReviewKit — Source repository · Topics: App Distribution & Store Operations · Developer Tools
   **Published:** `2025-03-20T17:08:58.928Z`
   **NeKI brief:** ReviewKit records positive user events and requests an App Store review only when configurable satisfaction criteria are met; events expire after a default window. It is a concrete pattern for making review prompts contextual instead of firing on arbitrary launches.
+- [appstoreconnect-swift-sdk](https://github.com/AvdLee/appstoreconnect-swift-sdk) — iOS CI Newsletter · Issue 62 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `2025-02-23T00:00:00.000Z`
+  **NeKI brief:** Examines this project, focusing on the app store connect api is available and documented! straight away, antoine van der lee jumped into action and started…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Check for new ASC API versions automatically:](https://github.com/AvdLee/appstoreconnect-swift-sdk/blob/master/.github/workflows/sync_asc_api.yml) — iOS CI Newsletter · Issue 62 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
+  **Published:** `2025-02-23T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Check for new ASC API versions automatically, relevant to App Distribution & Store Operations and CI/CD & Automation. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Test on all available platforms:](https://github.com/AvdLee/appstoreconnect-swift-sdk/blob/master/.github/workflows/ci.yml) — iOS CI Newsletter · Issue 62 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
+  **Published:** `2025-02-23T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Test on all available platforms, relevant to App Distribution & Store Operations and CI/CD & Automation. Inspect its implementation, open issues, and release state before adopting the approach.
 - [iOS-uploader](https://github.com/simonnilsson/ios-uploader) — iOS Dev Tools · iOS Dev Tools: Swift Bundler, Swift for Visual Studio Code, iOS-uploader — Source repository · Topics: App Distribution & Store Operations · Cross-Platform & Web · Developer Tools
   **Published:** `2025-01-16T21:51:40.196Z`
   **NeKI brief:** A cross-platform command-line uploader for App Store Connect that accepts familiar altool-style arguments and can upload multiple apps concurrently. Its prebuilt binaries and npm installation make it relevant when CI must publish from Windows, Linux, or macOS.
@@ -199,36 +259,93 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How to change your app's business model from paid to freemium using StoreKit](https://www.polpiella.dev/paid-app-to-freemium?ref=createwithswift.com) — Create with Swift · Issue 40 — Article · Topics: App Distribution & Store Operations · Swift
   **Published:** `2024-12-13T16:30:39.000Z`
   **NeKI brief:** Shows changing an app's business model from paid upfront to freemium using StoreKit's AppTransaction API. Follow it when planning migration logic and entitlement checks, then verify transaction semantics, customer communication, and App Store policy requirements.
+- [Bagbutik](https://github.com/MortenGregersen/Bagbutik) — iOS Dev Tools · iOS Dev Tools: Wormholy, Bagbutik, Kintsugi — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `2024-12-12T14:42:27.564Z`
+  **NeKI brief:** Provides the source and change history for Bagbutik, relevant to App Distribution & Store Operations and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
 - [AcceptedSE-0451Raw identifiers](https://github.com/apple/swift-evolution/blob/main/proposals/0451-escaped-identifiers.md) — SwiftLee Weekly · Issue 249 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2024-12-10T13:47:59.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0451Raw identifiers. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [🚀 How to generate authentication tokens for the App Store Connect API using Swift](https://bootstragram.com/blog/jwt-tokens-app-store-connect-api-swift) — iOS CI Newsletter · Issue 56 — Article · Topics: App Distribution & Store Operations · Swift
+  **Published:** `2024-12-02T00:00:00.000Z`
+  **NeKI brief:** Walks through how to generate authentication tokens for the App Store Connect API using Swift, with practical context for App Distribution & Store Operations and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [fastlane match](https://docs.fastlane.tools/actions/match) — iOS CI Newsletter · Issue 55 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation
+  **Published:** `2024-11-17T00:00:00.000Z`
+  **NeKI brief:** Examines fastlane match in the context of App Distribution & Store Operations and CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [App development on iPad](https://mutatingfunc.github.io/blog/2024-10-12-app-development-on-ipad) — iOS Dev Weekly · Issue 684 — Article · Topics: Developer Tools · Testing
   **Published:** `25th October 2024`
   **NeKI brief:** Presents app development on ipad for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [🚀 A new version of the App Store Connect API is live!](https://github.com/AvdLee/appstoreconnect-swift-sdk/releases/tag/3.5.0) — iOS CI Newsletter · Issue 52 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `2024-10-06T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for A new version of the App Store Connect API is live!, relevant to App Distribution & Store Operations and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
 - [the tragic story](https://www.youtube.com/watch?v=_ueiYhLwwBc) — iOS Dev Weekly · Issue 676 — Video · Topics: AI Development · App Distribution & Store Operations
   **Published:** `30th August 2024`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Investigates an exposed OpenAI API key that generated a $2,500 bill, covering discovery, architecture, mitigation, and user impact. Useful as a security case study for moving secrets behind a validating server-side proxy.
+- [☁️ How to set up Xcode Cloud on your project](https://darrylbayliss.net/getting-setup-with-xcode-cloud) — iOS CI Newsletter · Issue 49 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation · Xcode
+  **Published:** `2024-08-25T00:00:00.000Z`
+  **NeKI brief:** Walks through how to set up Xcode Cloud on your project, with practical context for App Distribution & Store Operations and CI/CD & Automation. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [🏃 Why you need CI/CD as an Indie Dev](https://www.rudrank.com/exploring-indie-life-reducing-friction-by-ci-cd) — iOS CI Newsletter · Issue 47 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation
+  **Published:** `2024-07-28T00:00:00.000Z`
+  **NeKI brief:** Examines Why you need CI/CD as an Indie Dev in the context of App Distribution & Store Operations and CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [📖 A guide to the App Store Connect API](https://www.runway.team/blog/a-hitchhikers-guide-to-the-app-store-connect-api) — iOS CI Newsletter · Issue 45 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation
+  **Published:** `2024-07-01T00:00:00.000Z`
+  **NeKI brief:** Examines A guide to the App Store Connect API in the context of App Distribution & Store Operations and CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Helm](https://helm-app.com/) — iOS Dev Tools · iOS Dev Tools: Helm, AudioKit, Lottie — Article · Topics: App Distribution & Store Operations
   **Published:** `2024-06-20T13:30:58.118Z`
   **NeKI brief:** Discusses Helm in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
+- [💨 Automating manual tasks when creating a version on App Store Connect](https://www.runway.team/blog/apply-promotional-text-and-whats-new-notes-to-new-versions-in-swift-using-the-app-store-connect-api) — iOS CI Newsletter · Issue 44 — Article · Topics: App Distribution & Store Operations · Swift
+  **Published:** `2024-06-16T00:00:00.000Z`
+  **NeKI brief:** Examines Automating manual tasks when creating a version on App Store Connect in the context of App Distribution & Store Operations and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [老司机技术](https://github.com/SwiftOldDriver/iOS-Weekly) — Fatbobman’s Swift Weekly · Issue 35 — Source repository · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Tools
   **Published:** `2024-06-11T12:03:15.731Z`
   **NeKI brief:** Indexes Chinese iOS development reading and project links in a repository-friendly format. Use it as a discovery route for community material, then verify each linked source independently before relying on it.
+- [scheduled GitHub actions workflow that checks if a new version of the App Store Connect API’s Open API spec is available](https://github.com/MortenGregersen/Bagbutik/blob/10.3.0/.github/workflows/check-for-new-spec.yml) — iOS CI Newsletter · Issue 43 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `2024-06-02T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for scheduled GitHub actions workflow that checks if a new version of the App Store Connect API’s Open API spec is…, relevant to App Distribution & Store Operations and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [🚨 Upcoming App Store Connect upload requirements](https://pol.link/xcode-15-requirements) — iOS CI Newsletter · Issue 40 — Article · Topics: App Distribution & Store Operations · Xcode
+  **Published:** `2024-04-21T00:00:00.000Z`
+  **NeKI brief:** Examines Upcoming App Store Connect upload requirements in the context of App Distribution & Store Operations and Xcode. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Get started with StoreKit 2 for iOS](https://tanaschita.com/20231002-storekit-2-overview?ref=createwithswift.com) — Create with Swift · Issue 9 — Article · Topics: App Distribution & Store Operations · Swift
   **Published:** `2024-04-19T15:00:58.000Z`
   **NeKI brief:** StoreKit 2 product loading and purchases are introduced through async APIs and verified transactions. Follow it to separate entitlement state from paywall UI and to keep verification on the trusted path.
+- [App Store Subscriptions and Family Sharing](https://furbo.org/2024/03/29/app-store-subscriptions-and-family-sharing) — iOS Dev Weekly · Issue 655 — Article · Topics: App Distribution & Store Operations
+  **Published:** `5th April 2024`
+  **NeKI brief:** Examines Handling family shared in-app subscriptions in the context of App Distribution & Store Operations. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Handling family shared in-app subscriptions](https://furbo.org/2024/03/29/app-store-subscriptions-and-family-sharing?ref=ioscodereview.com) — iOS Code Review · Issue 67 — Article · Topics: App Distribution & Store Operations
+  **Published:** `2024-04-03T12:22:37.000Z`
+  **NeKI brief:** Examines Handling family shared in-app subscriptions in the context of App Distribution & Store Operations. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [RevenueCat](https://www.revenuecat.com/) — iOS Dev Tools · iOS Dev tools: Play, PullRequest, Sonar — Article · Topics: App Distribution & Store Operations
   **Published:** `2024-03-14T16:08:26.033Z`
   **NeKI brief:** RevenueCat presents a subscription platform for mobile apps, covering purchase infrastructure, entitlement management, and revenue analytics. Use it as a product and integration overview when evaluating recurring monetization, then verify SDK behavior and App Store policy requirements in current documentation.
 - [RevenueCat's SDK](https://www.revenuecat.com/docs) — iOS Dev Tools · iOS Dev tools: Play, PullRequest, Sonar — Article · Topics: App Distribution & Store Operations
   **Published:** `2024-03-14T16:08:26.033Z`
   **NeKI brief:** RevenueCat's SDK documentation describes configuring products, purchases, entitlements, and customer subscription state in an app. Follow it when prototyping StoreKit-backed subscriptions, while checking platform versions, receipt behavior, and current App Store rules before shipping.
+- [appstoreconnect-swift-sdk](http://github.com/AvdLee/appstoreconnect-swift-sdk) — iOS CI Newsletter · Issue 37 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `2024-03-10T00:00:00.000Z`
+  **NeKI brief:** Examines this project, focusing on the app store connect api is available and documented! straight away, antoine van der lee jumped into action and started…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [I updated this week to include all new changes](https://github.com/AvdLee/appstoreconnect-swift-sdk/pull/262) — iOS CI Newsletter · Issue 37 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `2024-03-10T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for I updated this week to include all new changes, relevant to App Distribution & Store Operations and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [🤩 An unofficial App Store Connect status page](https://www.runway.team/is-app-store-connect-down) — iOS CI Newsletter · Issue 36 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `2024-02-25T00:00:00.000Z`
+  **NeKI brief:** Examines An unofficial App Store Connect status page in the context of App Distribution & Store Operations and Apple Platform Ecosystem. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [📝 Platform-specific release notes with Xcode Cloud](https://www.finnvoorhees.com/words/platform-specific-release-notes-with-xcode-cloud) — iOS CI Newsletter · Issue 33 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Xcode
+  **Published:** `2024-01-14T00:00:00.000Z`
+  **NeKI brief:** Summarises Platform-specific release notes with Xcode Cloud for App Distribution & Store Operations and Apple Platform Ecosystem. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [Add paywalls in one line of code](https://www.revenuecat.com/docs/paywalls) — iOS Dev Weekly · Issue 640 — Article · Topics: App Distribution & Store Operations · Testing
   **Published:** `15th December 2023`
   **NeKI brief:** RevenueCat documentation for configuring and presenting in-app paywalls through its SDK and dashboard tooling. Use it when evaluating a subscription implementation, validating entitlement flow choices, or integrating RevenueCat's paywall APIs into an Apple-platform app.
 - [How to ask the user to leave an App Store review](https://www.youtube.com/watch?v=RUWGjeDCkN8) — SwiftUI Weekly · SwiftUI Weekly - Issue #170 — Video · Topics: App Distribution & Store Operations · Graphics, Media & Games · Objective-C & Cocoa
   **Published:** `2023-12-11T13:23:19.560Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Shows how to request App Store ratings from an app and frame the timing around user experience. Useful for integrating review prompts deliberately while keeping eligibility, frequency, and platform presentation behavior under app control.
+- [Get started for free 🚀](https://keyboardkit.com/pro?ref=ioscodereview.com) — iOS Code Review · Issue 60 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Hardware & Devices
+  **Published:** `2023-11-23T12:38:53.000Z`
+  **NeKI brief:** Examines Get started for free 🚀 in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [EmojiKit](https://kankoda.com/emojikit?ref=ioscodereview.com) — iOS Code Review · Issue 60 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice
+  **Published:** `2023-11-23T12:38:53.000Z`
+  **NeKI brief:** Examines EmojiKit in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [LicenseKit](https://kankoda.com/licensekit?ref=ioscodereview.com) — iOS Code Review · Issue 60 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice
+  **Published:** `2023-11-23T12:38:53.000Z`
+  **NeKI brief:** Examines LicenseKit in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [PEP 730 – Adding iOS as a supported platform](https://peps.python.org/pep-0730) — Fatbobman’s Swift Weekly · Issue 6 — Article · Topics: App Distribution & Store Operations · Architecture · Objective-C & Cocoa
   **Published:** `2023-11-13T22:20:44.462Z`
   **NeKI brief:** PEP 730 proposes adding iOS as a supported Python platform and outlines packaging and runtime considerations. Follow it when evaluating Python components in an iOS toolchain, distinguishing language support from native framework and App Store constraints.
@@ -241,12 +358,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [On Launching your Indie App: Part 1](https://www.swiftjectivec.com/on-launching-your-indie-app) — Fatbobman’s Swift Weekly · Issue 3 — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games · Swift
   **Published:** `2023-10-23T22:30:20.902Z`
   **NeKI brief:** Reflects on launching an independent app, including product scope, marketing, and release realities. Use it as practitioner context when planning an indie product beyond implementation alone.
+- [✅ Get ASC app status updates on Slack](https://www.roger.ml/p/launching-statused) — iOS CI Newsletter · Issue 24 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation
+  **Published:** `2023-09-10T00:00:00.000Z`
+  **NeKI brief:** Examines Get ASC app status updates on Slack in the context of App Distribution & Store Operations and CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🧰 SDKs and Xcode’s version management](https://alexanderweiss.dev/blog/2023-07-04-appstore-connect-manage-app-version-and-build-number) — iOS CI Newsletter · Issue 20 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Xcode
+  **Published:** `2023-07-16T00:00:00.000Z`
+  **NeKI brief:** Examines Beware of Xcode's automatic version management in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [highlight this PR](https://github.com/fastlane/fastlane/pull/20956) — iOS CI Newsletter · Issue 20 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
+  **Published:** `2023-07-16T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for highlight this PR, relevant to App Distribution & Store Operations and CI/CD & Automation. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Beware of Xcode's automatic version management](https://alexanderweiss.dev/blog/2023-07-04-appstore-connect-manage-app-version-and-build-number?ref=ioscodereview.com) — iOS Code Review · Issue 52 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Xcode
+  **Published:** `2023-07-06T18:35:01.000Z`
+  **NeKI brief:** Examines Beware of Xcode's automatic version management in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [📱 Comparing build distribution services](https://www.runway.team/blog/comparing-the-top-pre-production-and-beta-app-distribution-tools) — iOS CI Newsletter · Issue 18 — Article · Topics: Testing
+  **Published:** `2023-06-18T00:00:00.000Z`
+  **NeKI brief:** Examines Comparing build distribution services in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [available for free on the WWDCNotes site](https://www.wwdcnotes.com/notes/wwdc23/10117) — iOS CI Newsletter · Issue 17 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `2023-06-11T00:00:00.000Z`
+  **NeKI brief:** Summarises available for free on the WWDCNotes site for App Distribution & Store Operations and Apple Platform Ecosystem. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [Glassfy](https://eu1.hubs.ly/H01-5vC0) — SwiftUI Weekly · SwiftUI Weekly - Issue #144 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Swift
   **Published:** `2023-05-29T23:10:25.571Z`
   **NeKI brief:** Links to Glassfy's service for managing in-app purchases, paywalls, and backend subscription work. Useful as a product integration lead when comparing hosted monetization infrastructure, SDK coverage, and vendor dependency against StoreKit-first designs.
 - [Live App Store & TestFlight review times from Runway](https://www.runway.team/appreviewtimes) — iOS Dev Weekly · Issue 604 — Article · Topics: App Distribution & Store Operations · Testing
   **Published:** `7th April 2023`
   **NeKI brief:** Explores Live App Store & TestFlight review times from Runway, focusing on get a pulse check on current average review times, beta. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [version 1.3.0](https://github.com/RobotsAndPencils/xcodes/releases/tag/1.3.0) — iOS CI Newsletter · Issue 11 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Xcode
+  **Published:** `2023-03-12T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for version 1.3.0, relevant to App Distribution & Store Operations and CI/CD & Automation. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Wonderous: Build Wonders with Flutter](https://flutter.gskinner.com/wonderous) — iOS Dev Weekly · Issue 598 — Article · Topics: Accessibility · App Distribution & Store Operations · Cross-Platform & Web
   **Published:** `24th February 2023`
   **NeKI brief:** Explores Wonderous: Build Wonders with Flutter, focusing on wonderous is an open-source ios app built with flutter. it. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -256,18 +394,57 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [30,000 lines of SwiftUI in production later: We love it but you know there was going to be a “but”](https://blog.timing.is/swiftui-production-experience-problems-solutions-performance-tips) — SwiftUI Weekly · SwiftUI Weekly - Issue #129 — Article · Topics: App Distribution & Store Operations · Swift · SwiftUI
   **Published:** `2023-01-30T11:20:24.661Z`
   **NeKI brief:** Reports production SwiftUI performance problems and the remedies used to diagnose them. Useful as a field-tested checklist for investigating rendering cost, navigation behavior, and architectural friction beyond small sample projects.
+- [Code signing and XCFrameworks](https://mtldoc.com/swift/2022/12/23/xcframework-code-signing) — iOS CI Newsletter · Issue 6 — Article · Topics: App Distribution & Store Operations · Swift · Systems Programming
+  **Published:** `2023-01-01T00:00:00.000Z`
+  **NeKI brief:** Examines Code signing and XCFrameworks in the context of App Distribution & Store Operations and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Code signing and provisioning explained](https://tanaschita.com/20221212-code-signing-and-provisioning-for-ios) — iOS CI Newsletter · Issue 5 — Article · Topics: App Distribution & Store Operations
+  **Published:** `2022-12-18T00:00:00.000Z`
+  **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability and installation concerns.
 - [launch blog post](https://trycombine.com/posts/datatile-for-simulator-public-beta-on-testflight-now) — iOS Dev Weekly · Issue 587 — Article · Topics: App Distribution & Store Operations · Combine & Reactive Programming · Developer Tools
   **Published:** `2nd December 2022`
   **NeKI brief:** Explores launch blog post, focusing on the article discusses don’t know about you, but i still. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Fixing code signing issues on Xcode 14](https://blog.codemagic.io/code-signing-issues-in-xcode-14-and-how-to-fix-them) — iOS CI Newsletter · Issue 3 — Article · Topics: App Distribution & Store Operations · Xcode
+  **Published:** `2022-11-20T00:00:00.000Z`
+  **NeKI brief:** Examines Fixing code signing issues on Xcode 14 in the context of App Distribution & Store Operations and Xcode. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Making App Store Connect better](https://lapcatsoftware.com/articles/crappstoreconnect2.html) — iOS CI Newsletter · Issue 3 — Article · Topics: App Distribution & Store Operations · Cross-Platform & Web
+  **Published:** `2022-11-20T00:00:00.000Z`
+  **NeKI brief:** Examines Making App Store Connect better in the context of App Distribution & Store Operations and Cross-Platform & Web. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [a pretty neat browser extension](https://github.com/lapcat/AppStoreConnect) — iOS CI Newsletter · Issue 3 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `2022-11-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for a pretty neat browser extension, relevant to App Distribution & Store Operations and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [How to regenerate Xcode managed provisioning profiles](https://lapcatsoftware.com/articles/provisioning.html) — iOS CI Newsletter · Issue 2 — Article · Topics: App Distribution & Store Operations · Performance · Xcode
+  **Published:** `2022-11-06T00:00:00.000Z`
+  **NeKI brief:** Walks through how to regenerate Xcode managed provisioning profiles, with practical context for App Distribution & Store Operations and Performance. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [Update fastlane on your CI! 🚀](https://github.com/fastlane/fastlane/releases/tag/2.210.0) — iOS CI Newsletter · Issue 1 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
+  **Published:** `2022-10-23T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Update fastlane on your CI! 🚀, relevant to App Distribution & Store Operations and CI/CD & Automation. Inspect its implementation, open issues, and release state before adopting the approach.
+- [deliver](https://docs.fastlane.tools/actions/deliver) — iOS CI Newsletter · Issue 1 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
+  **Published:** `2022-10-23T00:00:00.000Z`
+  **NeKI brief:** Examines deliver in the context of App Distribution & Store Operations and CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [pilot](http://docs.fastlane.tools/actions/pilot) — iOS CI Newsletter · Issue 1 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
+  **Published:** `2022-10-23T00:00:00.000Z`
+  **NeKI brief:** Examines pilot in the context of App Distribution & Store Operations and CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [iTMSTransporter command line tool](https://github.com/fastlane/fastlane/issues/20371) — iOS CI Newsletter · Issue 1 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
+  **Published:** `2022-10-23T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for iTMSTransporter command line tool, relevant to App Distribution & Store Operations and CI/CD & Automation. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Requesting App Store reviews in SwiftUI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL25pbGNvYWxlc2NpbmcuY29tL2Jsb2cvUmVxdWVzdGluZ0FwcFN0b3JlUmV2aWV3c0luU3dpZnRVSS8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiJlOGMyZGIwMC05Y2NjLTRkOWItYmI5Ni1kMWU2MDU3NjFhOTciLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiY2E4YjI1ODQtMmEzYy00OWQ1LThlNzktNTM1NjdlNDI1OTY2IiwiaWF0IjoxNjc0MDYyNTU4Ljg3MywiaXNzIjoib3JjaGlkIn0.gpPrkF9rQIPK1vqfb0AZ1jFSBMP_sLOCzneScAJ-voM) — SwiftUI Weekly · SwiftUI Weekly - Issue #107 — Article · Topics: App Distribution & Store Operations · Swift · SwiftUI
   **Published:** `2022-06-21T10:41:22.000Z`
   **NeKI brief:** Shows how to trigger App Store review requests from SwiftUI while respecting the system-controlled presentation. Useful for choosing a meaningful in-app moment and avoiding repeated or disruptive prompts.
+- [fastlane](https://docs.fastlane.tools/getting-started/ios/screenshots) — iOS Dev Weekly · Issue 562 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation
+  **Published:** `10th June 2022`
+  **NeKI brief:** Examines a tool like fastlane in the context of CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [GitHub - russell-archer/StoreHelper](https://github.com/russell-archer/StoreHelper?ref=ioscodereview.com) — iOS Code Review · Issue 14 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
+  **Published:** `2022-01-13T12:22:06.000Z`
+  **NeKI brief:** Provides the source and change history for GitHub - russell-archer/StoreHelper, relevant to Developer Tools and Objective-C & Cocoa. Inspect its implementation, open issues, and release state before adopting the approach.
+- [GitHub - russell-archer/IAPDemo](https://github.com/russell-archer/IAPDemo?ref=ioscodereview.com) — iOS Code Review · Issue 14 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
+  **Published:** `2022-01-13T12:22:06.000Z`
+  **NeKI brief:** Provides the source and change history for GitHub - russell-archer/IAPDemo, relevant to Developer Tools and Objective-C & Cocoa. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Xcodes](https://github.com/RobotsAndPencils/XcodesApp) — iOS Dev Weekly · Issue 538 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Xcode
   **Published:** `17th December 2021`
   **NeKI brief:** Explores Xcodes.app, focusing on the last time i mentioned xcodes, i was still using xcinfo. that changed recently with some fantastic improvements to xcodes.app. especially in. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Getting Started with Combine](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD9mZWF0dXJlPXlvdXR1LmJlJnV0bV9jYW1wYWlnbj0lMjBTd2lmdFVJJTIwV2Vla2x5JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1SZXZ1ZSUyMG5ld3NsZXR0ZXImdj1YMm0wZjJOb0IxMCIsInBvc3RfaWQiOiI3NzBkNzMwYy05ZmNkLTRlOTItYWVjNi01YTJjOGM5YjcwZjgiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiYjIzMDBmZWMtNDg2NC00YTRjLWIzM2UtN2JiZDlmNTcwMjUwIiwiaWF0IjoxNjc0MDYyNjc4LjI0MiwiaXNzIjoib3JjaGlkIn0.yG7_Fvr4s6AVhNrkvo-hVvyg2Qj5YZhIkX4eTkhsyG4) — SwiftUI Weekly · SwiftUI Weekly - Issue #56 — Tutorial · Topics: App Distribution & Store Operations · Combine & Reactive Programming · Graphics, Media & Games
   **Published:** `2021-04-26T20:19:20.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Introduces Combine publishers, subscribers, and operators through practical examples. Follow it when maintaining pre-concurrency SwiftUI code or bridging publisher pipelines into newer async/await boundaries.
 - [Creating a licensing system for paid apps in Swift](https://swiftrocks.com/creating-a-license-system-for-paid-apps-in-swift) — iOS Dev Weekly · Issue 502 — Article · Topics: App Distribution & Store Operations · Swift
   **Published:** `9th April 2021`
   **NeKI brief:** Explores Creating a licensing system for paid apps in Swift, focusing on unlike with ios, you have a choice of how you’d. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -289,9 +466,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [exist](https://culturedcode.com/things) — iOS Dev Weekly · Issue 380 — Article · Topics: App Distribution & Store Operations
   **Published:** `30th November 2018`
   **NeKI brief:** Things is a polished task-management app for Mac, iPhone, and iPad, organized around planning, projects, and daily actions. Use it as a product reference when evaluating information hierarchy, cross-device workflows, and the interaction quality expected from native productivity software.
-- [this project](https://github.com/AvdLee/appstoreconnect-swift-sdk) — iOS Dev Weekly · Issue 377 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
-  **Published:** `9th November 2018`
-  **NeKI brief:** Examines this project, focusing on the app store connect api is available and documented! straight away, antoine van der lee jumped into action and started…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [not only the App Store](https://512pixels.net/2018/07/mobilemes-legacy) — iOS Dev Weekly · Issue 360 — Article · Topics: App Distribution & Store Operations
   **Published:** `13th July 2018`
   **NeKI brief:** A retrospective marking MobileMe's legacy alongside the App Store's tenth anniversary. It provides historical perspective on Apple's cloud-service evolution.
@@ -351,7 +525,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains Customizing the Navigation and Status Bar in iOS 7 with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS.
 - [Apportable](http://www.youtube.com/watch?v=dSkhtd6L8RM) — iOS Dev Weekly · Issue 117 — Video · Topics: App Services & Extensions · Core Data · Cross-Platform & Web
   **Published:** `25th October 2013`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates compiling an Objective-C iOS game for Android with Apportable and SpriteBuilder, including platform-framework mapping. Treat it as historical cross-platform tooling context rather than a current deployment recommendation.
 - [Code Signing and Mavericks](http://furbo.org/2013/10/17/code-signing-and-mavericks) — iOS Dev Weekly · Issue 116 — Article · Topics: App Distribution & Store Operations
   **Published:** `18th October 2013`
   **NeKI brief:** Explains Code Signing and Mavericks with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.

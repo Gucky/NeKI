@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Dependency injection, test seams, service composition, and dependency management.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **162**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **173**
 
 ## Direct-source reading
 
@@ -303,12 +303,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [tswift: A Lightweight Swift Runtime Built with Rust](https://l.fatbobman.com/w0146-06) — Fatbobman’s Swift Weekly · Issue 146 — Article · Topics: Dependency Injection · Objective-C & Cocoa · Swift
+  **Published:** `2026-07-27T12:04:26.788Z`
+  **NeKI brief:** The tswift repository experiments with a lightweight Swift environment for the browser backed by Rust. Use it to inspect which language and runtime pieces are required for portable execution, without assuming parity with Apple’s production toolchain.
 - [MockingKit](https://github.com/danielsaidi/MockingKit) — iOS Dev Tools · iOS Dev Tools: TourKit, MockingKit, MemoryMap — Source repository · Topics: Dependency Injection · Developer Tools · Swift
   **Published:** `2026-07-09T16:30:20.398Z`
   **NeKI brief:** MockingKit generates or supplies mock implementations for Swift protocols and classes, reducing hand-written test doubles. Useful for isolating collaborators while comparing generated convenience against explicit, behavior-focused test seams.
 - [Production SwiftUI: Scalable Networking Architecture With Async/Await And Generics](https://www.youtube.com/watch?v=M5ZUGBeugP4) — Those Who Swift · Issue 266 — Video · Topics: Architecture · Concurrency · Networking
   **Published:** `2026-05-13`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds a protocol-driven SwiftUI networking stack with a Sendable API client, typed errors, endpoints, services, dependency injection, and preview mocks. The architectural discussion clarifies boundaries between view models, services, and concurrency isolation.
 - [Modularizing Swift Apps with Swift Package Manager](https://kylebrowning.com/posts/modularizing-swift-apps-with-spm) — Those Who Swift · Issue 256 — Article · Topics: Architecture · Swift · Swift Package Manager
   **Published:** `2026-03-06`
   **NeKI brief:** Presents a concrete implementation of Modularizing Swift Apps with SPM. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
@@ -330,6 +333,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Cultivated Task Cancellation](https://macguru.dev/cultivated-task-cancellation) — iOS Dev Weekly · Issue 733 — Article · Topics: Dependency Injection · Testing
   **Published:** `31st October 2025`
   **NeKI brief:** Explains Cultivated Task Cancellation, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [⚖️ Is your project ready to scale?](https://tuist.dev/blog/2025/09/22/scale) — iOS CI Newsletter · Issue 76 — Article · Topics: Dependency Injection · Swift · Testing
+  **Published:** `2025-10-01T00:00:00.000Z`
+  **NeKI brief:** Examines Is your project ready to scale? in the context of Dependency Injection and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Create Interactive Snippet Shortcut Using App Intents](https://www.swiftjectivec.com/create-interactive-snippet-shortcut-in-appintents) — Those Who Swift · Issue 233 — Article · Topics: App Intents & System Surfaces · Architecture · Dependency Injection
   **Published:** `2025-09-24`
   **NeKI brief:** Examines Create Interactive Snippet Shortcut Using App Intents, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -357,15 +363,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Debugging An Undebuggable App](https://bryce.co/undebuggable) — SwiftLee Weekly · Issue 256 — Article · Topics: Dependency Injection · Developer Tools
   **Published:** `2025-01-28T15:11:34.000Z`
   **NeKI brief:** Explains Debugging An Undebuggable App, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [📦 The Tuist Swift Package Manager Registry](https://tuist.dev/blog/2025/01/22/announcing-tuist-registry) — iOS CI Newsletter · Issue 60 — Article · Topics: Apple Platform Ecosystem · Swift · Swift Package Manager
+  **Published:** `2025-01-28T00:00:00.000Z`
+  **NeKI brief:** Examines The Tuist Swift Package Manager Registry in the context of Apple Platform Ecosystem and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Being Sendable with SwiftData](https://brightdigit.com/tutorials/swiftdata-sendable?issue=057) — Fatbobman’s Swift Weekly · Issue 57 — Tutorial · Topics: Concurrency · Swift · SwiftData
   **Published:** `2024-11-11T12:03:02.180Z`
   **NeKI brief:** Explains Sendable boundaries around SwiftData models and persistence access. Use it when concurrency checking exposes non-Sendable model crossings and you need to decide where actors or value projections belong.
 - [Carthage](https://github.com/Carthage/Carthage) — iOS Dev Tools · iOS Dev Tools: FeaturesKit, SwipeActions, Carthage — Source repository · Topics: Dependency Injection · Developer Tools · Objective-C & Cocoa
   **Published:** `2024-10-24T17:09:28.334Z`
   **NeKI brief:** Carthage resolves and builds Cocoa dependencies as frameworks without modifying the Xcode project file. Use it when comparing decentralized binary/framework integration with Swift Package Manager, especially for older projects with explicit dependency wiring.
+- [📦 How to edit Swift Packages from the command line](https://www.andrea-scuderi.com/blog/edit-swift-package-from-command-line) — iOS CI Newsletter · Issue 52 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2024-10-06T00:00:00.000Z`
+  **NeKI brief:** Walks through how to edit Swift Packages from the command line, with practical context for Developer Tools and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Extending SwiftPM Metadata](https://alejandromp.com/development/blog/swift-package-manager-dependency-owners) — iOS Dev Weekly · Issue 677 — Article · Topics: Dependency Injection · Swift
   **Published:** `6th September 2024`
   **NeKI brief:** Presents extending swiftpm metadata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [📦 Define ownership of Swift Package Manager dependencies](https://alejandromp.com/blog/swift-package-manager-dependency-owners) — iOS CI Newsletter · Issue 49 — Article · Topics: Dependency Injection · Swift · Swift Package Manager
+  **Published:** `2024-08-25T00:00:00.000Z`
+  **NeKI brief:** Examines Define ownership of Swift Package Manager dependencies in the context of Dependency Injection and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Swinject](https://github.com/Swinject/Swinject) — iOS Dev Tools · iOS Dev Tools: AppLayoutsUI, Swinject, Pieces Copilot+ — Source repository · Topics: Architecture · Dependency Injection · Developer Tools
   **Published:** `2024-07-11T14:52:09.603Z`
   **NeKI brief:** Swinject resolves object graphs through registered factories and supports scopes such as transient or container lifetime. Use it to compare explicit dependency composition with container-based injection, especially around runtime resolution failures and test overrides.
@@ -384,12 +399,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Questions about the data to create LLMs for embeddings](https://rhonabwy.com/2023/11/15/questions-about-the-data-to-create-llms-for-embeddings) — Fatbobman’s Swift Weekly · Issue 7 — Article · Topics: AI Development · Architecture · Swift
   **Published:** `2023-11-20T22:20:48.455Z`
   **NeKI brief:** Raises practical questions about collecting and preparing data for embedding-oriented language models. Follow it when designing retrieval datasets and evaluating provenance, chunking, quality, and privacy rather than treating embeddings as a drop-in search feature.
+- [🎉 GitHub’s CodeQL and Dependabot now support Swift](https://blog.eidinger.info/github-embraces-swift-and-provides-code-analysis-security-alerts-and-dependency-updates-for-swift-projects) — iOS CI Newsletter · Issue 22 — Article · Topics: Developer Tools · Security & Privacy · Swift
+  **Published:** `2023-08-13T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub’s CodeQL and Dependabot now support Swift in the context of Developer Tools and Security & Privacy. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [📦 This GitHub Action helps you keep SPM dependencies up to date!](https://github.com/MarcoEidinger/swift-package-dependencies-check) — iOS CI Newsletter · Issue 19 — Source repository · Topics: Dependency Injection · Developer Tools · Objective-C & Cocoa
+  **Published:** `2023-07-02T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for This GitHub Action helps you keep SPM dependencies up to date!, relevant to Dependency Injection and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [on Youtube](https://www.youtube.com/playlist?list=PLbKJc0NMPDrB29Ir8q8ABVOyJJZzkUwEN&ref=ioscodereview.com) — iOS Code Review · Issue 51 — Video · Topics: Dependency Injection
+  **Published:** `2023-06-22T13:14:57.000Z`
+  **NeKI brief:** Records on Youtube as a visual walkthrough relevant to Dependency Injection. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [Featuring XcodeGen, Factory, & Swinject](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? — Source repository · Topics: Concurrency · Swift · Xcode
   **Published:** `2023-06-01T12:01:55.488Z`
   **NeKI brief:** XcodeGen generates Xcode projects from a declarative YAML or JSON specification. Use it to make targets, build settings, schemes, and dependencies reviewable text, avoiding fragile manual edits to project.pbxproj files.
 - [On the new Point-Free swift-dependencies library](https://alejandromp.com/blog/on-the-new-pointfree-swift-dependencies) — iOS Dev Weekly · Issue 592 — Article · Topics: Dependency Injection · Swift
   **Published:** `13th January 2023`
   **NeKI brief:** Explores On the new Point-Free swift-dependencies library, focusing on why am i linking to alejandro martinez’s articles on the. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [The Hidden Costs of Your Dependencies | Jason Zurita](https://jasonzurita.com/the-hidden-cost-of-dependencies?ref=ioscodereview.com) — iOS Code Review · Issue 22 — Article · Topics: Dependency Injection
+  **Published:** `2022-05-05T10:51:40.000Z`
+  **NeKI brief:** Examines The Hidden Costs of Your Dependencies | Jason Zurita in the context of Dependency Injection. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [overview](https://quickbirdstudios.com/blog/swift-dependency-injection-service-locators?ref=ioscodereview.com) — iOS Code Review · Issue 8 — Article · Topics: Architecture · Dependency Injection · Swift
+  **Published:** `2021-09-30T11:10:38.000Z`
+  **NeKI brief:** Examines overview in the context of Architecture and Dependency Injection. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Dependency Injection in Swift using latest Swift features - SwiftLee](https://www.avanderlee.com/swift/dependency-injection?ref=ioscodereview.com) — iOS Code Review · Issue 8 — Article · Topics: Dependency Injection · Swift · Testing
+  **Published:** `2021-09-30T11:10:38.000Z`
+  **NeKI brief:** Builds dependency injection with protocols and initializer defaults, then substitutes test doubles. The design separates construction from behavior while preserving convenient production call sites.
 - [How does the SwiftUI Environment work and can it be used outside SwiftUI for Dependency Injection?](https://blog.human-friendly.com/how-does-the-swiftui-environment-work-and-can-it-be-used-outside-swiftui-for-dependency-injection) — iOS Dev Weekly · Issue 497 — Tutorial · Topics: Architecture · Swift · SwiftUI
   **Published:** `5th March 2021`
   **NeKI brief:** Examines How does the SwiftUI Environment work and can it be used outside SwiftUI for Dependency Injection?, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.

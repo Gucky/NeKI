@@ -4,11 +4,35 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple hardware, peripherals, device setup, and physical-computing context.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **27**
+- Last collected: `2026-08-05T09:01:09Z`
+- Indexed links shown: **39**
 
 ## Direct-source reading
 
+- [Dev Workspaces: Omar Elsayed - iOS Dev Tools](https://iosdev.tools/blog/dev-workspaces-omar-elsayed) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-03-31T08:15:09+00:00`
+  **NeKI brief:** Surveys Omar Elsayed’s development workspace, including daily hardware, software, and working habits. Use it to compare practical setup choices without treating one developer’s configuration as prescriptive.
+- [Dev Workspaces: Walid Sassi - iOS Dev Tools](https://iosdev.tools/blog/dev-workspaces-walid-sassi) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-03-12T13:00:00+00:00`
+  **NeKI brief:** Surveys Walid Sassi’s development workspace, including daily hardware, software, and working habits. Use it to compare practical setup choices without treating one developer’s configuration as prescriptive.
+- [Dev Workspaces: Tjeerd In 't Veen - iOS Dev Tools](https://iosdev.tools/blog/dev-workspaces-tjeerd-in-t-veen) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-03-04T13:00:00+00:00`
+  **NeKI brief:** Surveys Tjeerd In 't Veen’s development workspace, including daily hardware, software, and working habits. Use it to compare practical setup choices without treating one developer’s configuration as prescriptive.
+- [Dev Workspaces: Vlad Khambir - iOS Dev Tools](https://iosdev.tools/blog/dev-workspaces-vlad-khambir-2) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-02-25T10:00:00+00:00`
+  **NeKI brief:** Surveys Vlad Khambir’s development workspace, including daily hardware, software, and working habits. Use it to compare practical setup choices without treating one developer’s configuration as prescriptive.
+- [Dev Workspaces: Artem Novichkov - iOS Dev Tools](https://iosdev.tools/blog/dev-workspaces-artem-novichkov) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-02-16T12:35:27+00:00`
+  **NeKI brief:** Surveys Artem Novichkov’s development workspace, including daily hardware, software, and working habits. Use it to compare practical setup choices without treating one developer’s configuration as prescriptive.
+- [Welcome to "Dev Workspaces"! - Natalia Panferova - iOS Dev Tools](https://iosdev.tools/blog/dev-workspaces-natalia-panferova) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-02-05T07:06:39+00:00`
+  **NeKI brief:** Presents Welcome to "Dev Workspaces"! - Natalia Panferova as an Apple-platform development resource. Use the profile to understand its concrete role, then check the linked project for current capabilities and maintenance status.
+- [Usage: Keep an Eye on the Activity of Your Devices - iOS Dev Tools](https://iosdev.tools/blog/usage) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-02-13T14:20:09+00:00`
+  **NeKI brief:** Profiles Usage as keep an Eye on the Activity of Your Devices. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [DisplayBuddy: Control Monitor Brightness Directly From Your Device - iOS Dev Tools](https://iosdev.tools/blog/displaybuddy) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2024-04-09T19:23:12+00:00`
+  **NeKI brief:** Profiles DisplayBuddy as control Monitor Brightness Directly From Your Device. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Keyboard shortcuts for Export Unmodified Original in Photos for Mac – Ole Begemann](https://oleb.net/2023/photos-keyboard-shortcuts) — Ole Begemann · article catalogue
   **Published:** `2023-03-21T21:42:04Z`
   **NeKI brief:** A shell script can assign a keyboard shortcut to Photos' Export Unmodified Original command, turning a buried menu action into a repeatable workflow. The approach demonstrates targeted macOS automation while keeping the app's own export semantics intact.
@@ -40,6 +64,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Creating tiny utility apps with SwiftUI Previews](https://danielsaidi.com/blog/2025/01/04/creating-tiny-utility-apps-with-swiftui-previews-copy) — Those Who Swift · Issue 196 — Article · Topics: Hardware & Devices · Swift · SwiftUI
   **Published:** `2025-01-09`
   **NeKI brief:** Examines Creating tiny utility apps with SwiftUI Previews, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [https://keyboardkit.com/pro](https://keyboardkit.com/pro?ref=ioscodereview.com) — iOS Code Review · Issue 73 — Article · Topics: Code Quality · Hardware & Devices
+  **Published:** `2024-11-20T11:14:23.000Z`
+  **NeKI brief:** Examines Get started for free 🚀 in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Swift Over Coffee](https://podcasts.apple.com/gb/podcast/swift-over-coffee/id1435076502?i=1000676386646&ref=ioscodereview.com) — iOS Code Review · Issue 73 — Podcast · Topics: Developer Community & Business · Hardware & Devices · Swift
+  **Published:** `2024-11-20T11:14:23.000Z`
+  **NeKI brief:** Examines Swift Over Coffee in the context of Developer Community & Business and Hardware & Devices. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Swift Package Index source code](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server) — iOS Dev Weekly · Issue 687 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `15th November 2024`
   **NeKI brief:** Examines open-source, focusing on georgios recommends the point-free swift-snapshot-testing which we also use to test the rendered html output from the…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -55,6 +85,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Quick Search with SwiftUI Searchable](https://danielsaidi.com/blog/2023/12/20/quick-search-with-swiftui-searchable) — SwiftUI Weekly · SwiftUI Weekly - Issue #171 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
   **Published:** `2023-12-25T11:04:56.488Z`
   **NeKI brief:** Shows a compact searchable SwiftUI flow with query state and filtering. Follow it when adding search to a list and deciding where debouncing, predicate construction, or empty-query behavior belongs.
+- [Self-editing | Technical Writing | Google for DevelopersGoogle for Developers](https://developers.google.com/tech-writing/two/editing?ref=ioscodereview.com) — iOS Code Review · Issue 60 — Article · Topics: Hardware & Devices
+  **Published:** `2023-11-23T12:38:53.000Z`
+  **NeKI brief:** Examines Self-editing | Technical Writing | Google for DevelopersGoogle for Developers in the context of Hardware & Devices. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [an amazing article on using keyboard shortcuts to smartly open the correct version of Xcode](https://christianselig.com/2023/08/smartly-open-xcode) — iOS CI Newsletter · Issue 22 — Article · Topics: Hardware & Devices · Xcode
+  **Published:** `2023-08-13T00:00:00.000Z`
+  **NeKI brief:** Examines an amazing article on using keyboard shortcuts to smartly open the correct version of Xcode in the context of Hardware & Devices and Xcode. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [keyboard-driven operation of his Details Pro iPad app](https://detailspro.app/blog/no-code-all-keys-designing-swiftui-faster-with-your-keyboard) — iOS Dev Weekly · Issue 610 — Article · Topics: Hardware & Devices · Swift · SwiftUI
   **Published:** `19th May 2023`
   **NeKI brief:** Explores keyboard-driven operation of his Details Pro iPad app, focusing on i’d also like to highlight a few recent real-world subjective. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.

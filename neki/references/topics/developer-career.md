@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Career development, workplace practice, communication, learning, leadership, and sustainable engineering habits.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **151**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **164**
 
 ## Direct-source reading
 
+- [Introducing... The Tech Tavern Roadmap 🗺️](https://blog.jacobstechtavern.com/p/introducing-the-tech-tavern-roadmap) — Jacob’s Tech Tavern · newsletter edition
+  **Published:** `2026-08-04T15:03:11.764Z`
+  **NeKI brief:** Organises more than three years of iOS writing into experience-based learning paths for foundations, senior-level practice and internals. Follow the roadmap when choosing a coherent progression through the publication instead of searching its archive article by article.
 - [Survive the AI tech hiring winter ⛄️](https://blog.jacobstechtavern.com/p/survive-the-ai-tech-hiring-winter) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2026-04-06T15:03:00.398Z`
   **NeKI brief:** A career-focused perspective on the AI-era hiring market; use it for individual context, not technical decision-making.
@@ -278,6 +281,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [We Need to Talk About Observation](https://jaredsinclair.com/2025/09/10/observation.html) — Those Who Swift · Issue 232 — Article · Topics: Cross-Platform & Web · Developer Career & Practice · Observation & State Management
   **Published:** `2025-09-17`
   **NeKI brief:** Explains We Need to Talk About Observation, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [🐙 Automatically triage and moderate GitHub issues](https://github.blog/changelog/2025-09-05-github-actions-ai-labeler-and-moderator-with-the-github-models-inference-api) — iOS CI Newsletter · Issue 74 — Article · Topics: AI Development · Developer Career & Practice · Developer Tools
+  **Published:** `2025-09-10T00:00:00.000Z`
+  **NeKI brief:** Examines Automatically triage and moderate GitHub issues in the context of AI Development and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Mercato](https://github.com/tikhop/Mercato) — iOS Dev Tools · iOS Dev Tools: ch.at, Mercato, Dependencies — Source repository · Topics: App Distribution & Store Operations · Developer Career & Practice · Developer Tools
   **Published:** `2025-08-14T19:53:26.103Z`
   **NeKI brief:** Mercato wraps StoreKit 2 for subscriptions and in-app purchases across Apple platforms, aiming to reduce repetitive transaction plumbing. Useful for comparing a focused purchase abstraction with direct StoreKit state and entitlement management.
@@ -308,36 +314,66 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Managing mobile releases: What’s at stake in 2025?](https://www.runway.team/webinar/why-mobile-releases-need-to-be-managed) — iOS Dev Weekly · Issue 692 — Article · Topics: Developer Career & Practice
   **Published:** `20th December 2024`
   **NeKI brief:** Presents why mobile releases need to be managed for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [📦 Bitrise Release Management is now CI agnostic!](https://bitrise.io/blog/post/bitrise-release-management-introduces-ci-agnostic-distribution-tool-for-testing-and-releasing-to-stores) — iOS CI Newsletter · Issue 55 — Article · Topics: CI/CD & Automation · Developer Career & Practice · Testing
+  **Published:** `2024-11-17T00:00:00.000Z`
+  **NeKI brief:** Summarises Bitrise Release Management is now CI agnostic! for CI/CD & Automation and Developer Career & Practice. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [Nuke](https://github.com/kean/Nuke) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen — Source repository · Topics: Developer Career & Practice · Developer Tools
   **Published:** `2024-08-15T18:31:01.455Z`
   **NeKI brief:** Nuke provides image loading, caching, processing, and prefetching for Apple platforms, with UIKit and SwiftUI integrations. Use it when remote-image behavior needs explicit cache policy, progressive rendering, or processing pipelines beyond a minimal loader.
 - [XcodeGen](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen — Source repository · Topics: Developer Career & Practice · Developer Tools · Xcode
   **Published:** `2024-08-15T18:31:01.455Z`
   **NeKI brief:** XcodeGen generates Xcode projects from a declarative YAML or JSON specification. Use it to make targets, build settings, schemes, and dependencies reviewable text, avoiding fragile manual edits to project.pbxproj files.
+- [🧪 How to build and run tests for an iOS app using GitHub Actions](https://brightinventions.pl/blog/ios-build-run-tests-github-actions) — iOS CI Newsletter · Issue 47 — Article · Topics: CI/CD & Automation · Developer Tools · Testing
+  **Published:** `2024-07-28T00:00:00.000Z`
+  **NeKI brief:** Walks through how to build and run tests for an iOS app using GitHub Actions, with practical context for CI/CD & Automation and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [A Summary Of How To Pass Data To SwiftUI Environment](https://serialcoder.dev/text-tutorials/swiftui/a-summary-of-how-to-pass-data-to-swiftui-environment) — SwiftUI Weekly · SwiftUI Weekly - Issue #193 — Tutorial · Topics: Developer Career & Practice · Swift · SwiftUI
   **Published:** `2024-07-08T08:54:13.719Z`
   **NeKI brief:** Summarizes passing dependencies through SwiftUI environment values and custom keys. Useful for comparing environment injection with explicit data flow in reusable views.
+- [This story of a CocoaPods security problem](https://www.evasec.io/blog/eva-discovered-supply-chain-vulnerabities-in-cocoapods) — iOS Dev Weekly · Issue 668 — Article · Topics: Developer Career & Practice · Objective-C & Cocoa · Security & Privacy
+  **Published:** `5th July 2024`
+  **NeKI brief:** Examines Vulnerabilities found in CocoaPods in the context of Concurrency and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Using iOS 18’s new TabView with a sidebar](https://www.donnywals.com/using-ios-18s-new-tabview-with-a-sidebar?ref=createwithswift.com) — Create with Swift · Issue 17 — Article · Topics: Swift
   **Published:** `2024-06-14T15:15:32.000Z`
   **NeKI brief:** Explains the iOS 18 TabView sidebar presentation and its navigation behavior. Useful for adapting tab navigation across compact and regular size classes without maintaining separate navigation models.
 - [The Composable Architecture (TCA)](https://github.com/pointfreeco/swift-composable-architecture) — Fatbobman’s Swift Weekly · Issue 30 — Source repository · Topics: Architecture · Composable Architecture · Objective-C & Cocoa
   **Published:** `2024-05-06T12:01:46.954Z`
   **NeKI brief:** The Composable Architecture structures feature state, actions, reducers, dependencies, and tests around explicit unidirectional flow. Use the repository and migration material to evaluate operational trade-offs before adopting or upgrading TCA in a production app.
+- [⬆️ How to upload dSYMs files to Sentry with Xcode Cloud](https://sowenjub.me/writes/how-to-upload-dsyms-files-to-sentry-with-xcode-cloud) — iOS CI Newsletter · Issue 34 — Article · Topics: Developer Career & Practice · Xcode
+  **Published:** `2024-01-28T00:00:00.000Z`
+  **NeKI brief:** Walks through how to upload dSYMs files to Sentry with Xcode Cloud, with practical context for Developer Career & Practice and Xcode. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Can Swift Keep Its Compile-Safe Thread Management Promise?](https://lucasvandongen.dev/swift_actors_and_protocol_extensions.php) — iOS Dev Weekly · Issue 642 — Article · Topics: Concurrency · Developer Career & Practice · Swift
   **Published:** `5th January 2024`
   **NeKI brief:** Presents can swift keep its compile-safe thread management promise? for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Get started for free 🚀](https://keyboardkit.com/pro?ref=ioscodereview.com) — iOS Code Review · Issue 60 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Hardware & Devices
+  **Published:** `2023-11-23T12:38:53.000Z`
+  **NeKI brief:** Examines Get started for free 🚀 in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [EmojiKit](https://kankoda.com/emojikit?ref=ioscodereview.com) — iOS Code Review · Issue 60 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice
+  **Published:** `2023-11-23T12:38:53.000Z`
+  **NeKI brief:** Examines EmojiKit in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [LicenseKit](https://kankoda.com/licensekit?ref=ioscodereview.com) — iOS Code Review · Issue 60 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice
+  **Published:** `2023-11-23T12:38:53.000Z`
+  **NeKI brief:** Examines LicenseKit in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Inferno – SwiftUI + Metal](https://www.youtube.com/watch?v=EgzWwgRpUuw) — iOS Dev Weekly · Issue 636 — Video · Topics: Developer Career & Practice · Graphics, Media & Games · Swift
   **Published:** `17th November 2023`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds Metal shaders for SwiftUI effects including recoloring, animated gradients, waves, loupe distortion, and custom transitions. The examples show how fragment shaders receive view-relative data and drive GPU-rendered visual changes.
 - [iOS Developer at Outcoder](https://outco.zohorecruit.com/jobs/Careers/746246000003207787/iOS-Developer-Entry-Level) — iOS Dev Tools · 🔨 MotionScape, XCTestParametrizedMacro, Swiftly — Article · Topics: Developer Career & Practice
   **Published:** `2023-11-16T15:47:07.018Z`
   **NeKI brief:** This Zoho Recruit listing advertises an entry-level iOS Developer role. Use it as a hiring lead, verifying employer, location, compensation, technology expectations, application status, and recruitment legitimacy through official channels.
 - [FileKit](https://github.com/nvzqz/FileKit) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
   **Published:** `2023-10-12T15:37:25.698Z`
   **NeKI brief:** FileKit wraps Foundation file-system operations in expressive Swift types for paths, directories, and files. Use it for concise tooling or macOS utility code, while checking its maintenance and platform assumptions before making it a core dependency.
+- [🔐 How to pass environment variables to Xcode from the CI](https://testableapple.com/xctest-credentials-management) — iOS CI Newsletter · Issue 21 — Article · Topics: Developer Career & Practice · Testing · Xcode
+  **Published:** `2023-07-31T00:00:00.000Z`
+  **NeKI brief:** Walks through how to pass environment variables to Xcode from the CI, with practical context for Developer Career & Practice and Testing. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [🧰 SDKs and Xcode’s version management](https://alexanderweiss.dev/blog/2023-07-04-appstore-connect-manage-app-version-and-build-number) — iOS CI Newsletter · Issue 20 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Xcode
+  **Published:** `2023-07-16T00:00:00.000Z`
+  **NeKI brief:** Examines Beware of Xcode's automatic version management in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [SwiftUI Data Flow in 2023](https://troz.net/post/2023/swiftui-data-flow-2023) — iOS Dev Weekly · Issue 617 — Article · Topics: Developer Career & Practice · Swift · SwiftUI
   **Published:** `7th July 2023`
   **NeKI brief:** Presents a concrete implementation of SwiftUI Data Flow 2023. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
+- [Beware of Xcode's automatic version management](https://alexanderweiss.dev/blog/2023-07-04-appstore-connect-manage-app-version-and-build-number?ref=ioscodereview.com) — iOS Code Review · Issue 52 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Xcode
+  **Published:** `2023-07-06T18:35:01.000Z`
+  **NeKI brief:** Examines Beware of Xcode's automatic version management in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Glassfy](https://eu1.hubs.ly/H01-5vC0) — SwiftUI Weekly · SwiftUI Weekly - Issue #144 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Swift
   **Published:** `2023-05-29T23:10:25.571Z`
   **NeKI brief:** Links to Glassfy's service for managing in-app purchases, paywalls, and backend subscription work. Useful as a product integration lead when comparing hosted monetization infrastructure, SDK coverage, and vendor dependency against StoreKit-first designs.
@@ -347,6 +383,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Get Started](https://github.com/SwiftedMind/Queryable) — iOS Dev Weekly · Issue 607 — Source repository · Topics: Developer Career & Practice · Developer Tools · Observation & State Management
   **Published:** `28th April 2023`
   **NeKI brief:** Explores Get Started, focusing on the article discusses like the idea behind this new package from dennis müller. it tidies up the state management around presenting alerts,. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Memory management when using async/await in Swift | Swift by Sundell](https://swiftbysundell.com/articles/memory-management-when-using-async-await?ref=ioscodereview.com) — iOS Code Review · Issue 16 — Article · Topics: Concurrency · Developer Career & Practice · Swift
+  **Published:** `2022-02-10T11:16:37.000Z`
+  **NeKI brief:** Examines Memory management when using async/await in Swift | Swift by Sundell in the context of Concurrency and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Yes, it’s the full thing. I’m sorry](https://github.com/felixrieseberg/macintosh.js) — iOS Dev Weekly · Issue 467 — Source repository · Topics: Developer Career & Practice · Developer Tools
   **Published:** `31st July 2020`
   **NeKI brief:** Examines Yes, it’s the full thing. I’m sorry, focusing on how do you record videos of your apple watch apps? you have the watch on your wrist, tap the screen with your other hand,…. Use it as a focused research reference for related Apple-platform work.

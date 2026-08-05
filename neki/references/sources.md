@@ -10,6 +10,8 @@ only where anonymous full-text access was verified.
 
 - [Create with Swift Weekly](newsletters/create-with-swift-weekly.md)
 - [Fatbobman’s Swift Weekly](newsletters/fatbobman-swift-weekly.md)
+- [iOS CI Newsletter](newsletters/ios-ci-newsletter.md)
+- [iOS Code Review](newsletters/ios-code-review.md)
 - [iOS Dev Tools](newsletters/ios-dev-tools.md)
 - [iOS Dev Weekly](newsletters/ios-dev-weekly.md)
 - [Not only Swift](newsletters/not-only-swift.md)
@@ -30,6 +32,7 @@ or long-form catalogue.
 - [Donny Wals](blogs/donny-wals.md)
 - [Fatbobman](blogs/fatbobman.md)
 - [Hacking with Swift articles](blogs/hacking-with-swift-articles.md)
+- [iOS Dev Tools Blog](blogs/ios-dev-tools-blog.md)
 - [Jacob’s Tech Tavern](blogs/jacobs-tech-tavern.md)
 - [Kodeco / Ray Wenderlich archive](blogs/kodeco-raywenderlich.md)
 - [MartianCraft](blogs/martiancraft.md)
@@ -48,6 +51,13 @@ or long-form catalogue.
 - [SwiftUI Lab](blogs/swiftui-lab.md)
 - [Tanaschita](blogs/tanaschita.md)
 - [Use Your Loaf](blogs/use-your-loaf.md)
+
+## iOS Dev Tools
+
+iOS Dev Tools is represented in two distinct reading forms:
+
+- [iOS Dev Tools newsletter](newsletters/ios-dev-tools.md) — curated editions with links to tools, services, repositories, documentation, and community material.
+- [iOS Dev Tools Blog](blogs/ios-dev-tools-blog.md) — the publication's own anonymously readable tool and developer-workspace articles.
 
 ## Create with Swift
 

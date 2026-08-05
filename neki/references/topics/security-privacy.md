@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Privacy, credentials, secure configuration, encryption, sandboxing, and application security.
 
-- Last collected: `2026-07-28T20:17:52Z`
-- Indexed links shown: **71**
+- Last collected: `2026-08-05T08:59:22Z`
+- Indexed links shown: **84**
 
 ## Direct-source reading
 
@@ -36,6 +36,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SMS User Authentication With Vapor and AWS | Kodeco](https://www.kodeco.com/13508424-sms-user-authentication-with-vapor-and-aws) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Implements phone-number authentication by connecting Vapor to AWS SNS for verification messages. Use it to trace the security boundary between one-time-code delivery, server-side identity state, and the abuse controls an actual service still needs.
+- [SM3: ShangMi 3 Cryptographic Hash Function - iOS Dev Tools](https://iosdev.tools/blog/sm3) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-03-09T12:25:00+00:00`
+  **NeKI brief:** Profiles SM3 as shangMi 3 Cryptographic Hash Function. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Jailbreak your Enemies with a Link: Remote Execution on iOS](https://blog.jacobstechtavern.com/p/jailbreak-enemies-with-a-link-remote-execution) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2024-09-09T16:15:21.526Z`
   **NeKI brief:** Use the historical WebKit exploit chain as a threat-modeling study: untrusted web content crosses a serious process boundary, so keep devices updated, minimize risky web surfaces, and understand why JavaScript-engine memory-safety failures can become system-level compromise paths.
@@ -71,6 +74,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
+  **Published:** `2026-08-01T15:00:04.000Z`
+  **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.
 - [Stop configuring MCPs in every AI app](https://www.mcp-beast.ai/mac-app-ios-developers) — SwiftLee Weekly · Issue 328 — Article · Topics: AI Development · Developer Tools · Persistence & Synchronisation
   **Published:** `2026-06-16T14:06:32.000Z`
   **NeKI brief:** Explores centralizing MCP configuration so multiple AI clients can share one setup. Use it when reducing repeated tool registration across development environments, while reviewing credential handling and client-specific capability differences.
@@ -107,9 +113,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [ch.at](https://github.com/Deep-ai-inc/ch.at) — iOS Dev Tools · iOS Dev Tools: ch.at, Mercato, Dependencies — Source repository · Topics: AI Development · Developer Tools · Security & Privacy
   **Published:** `2025-08-14T19:53:26.103Z`
   **NeKI brief:** ch.at is an open-source chat application project from Deep AI Inc. Use the repository to inspect conversational UI, networking, and model-integration patterns, while treating its architecture as an example rather than a production security baseline.
+- [How Secure Is Your Mobile CI/CD Pipeline?](https://appcircle.io/blog/mobile-ci-cd-security-top-5-best-practices) — iOS CI Newsletter · Issue 68 — Article · Topics: CI/CD & Automation · Security & Privacy
+  **Published:** `2025-05-18T00:00:00.000Z`
+  **NeKI brief:** Examines How Secure Is Your Mobile CI/CD Pipeline? in the context of CI/CD & Automation and Security & Privacy. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🔐 CodeQL now supports Swift 6.1](https://github.blog/changelog/2025-05-14-codeql-support-for-swift-6-1-in-version-2-21-2) — iOS CI Newsletter · Issue 68 — Article · Topics: Developer Tools · Security & Privacy · Swift
+  **Published:** `2025-05-18T00:00:00.000Z`
+  **NeKI brief:** Examines CodeQL now supports Swift 6.1 in the context of Developer Tools and Security & Privacy. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [GitHub’s Code Scanning feature](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql) — iOS CI Newsletter · Issue 68 — Source repository · Topics: Developer Tools · Security & Privacy · Swift
+  **Published:** `2025-05-18T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for GitHub’s Code Scanning feature, relevant to Developer Tools and Security & Privacy. Inspect its implementation, open issues, and release state before adopting the approach.
+- [2.21.2 of CodeQL](https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.21.2) — iOS CI Newsletter · Issue 68 — Source repository · Topics: Developer Tools · Security & Privacy · Swift
+  **Published:** `2025-05-18T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for 2.21.2 of CodeQL, relevant to Developer Tools and Security & Privacy. Inspect its implementation, open issues, and release state before adopting the approach.
 - [SC-081v3 proposal](https://groups.google.com/a/groups.cabforum.org/g/servercert-wg/c/9768xgUUfhQ?pli=1) — Fatbobman’s Swift Weekly · Issue 80 — Article · Topics: Security & Privacy
   **Published:** `2025-04-21T12:00:29.052Z`
-  **NeKI brief:** Provides contextual background on SC-081v3 提案, useful for understanding the surrounding product, policy, or ecosystem issue before drawing technical or business conclusions.
+  **NeKI brief:** Provides contextual background on SC-081v3 proposal, useful for understanding the surrounding product, policy, or ecosystem issue before drawing technical or business conclusions.
 - [How to inspect .ipa files and secure your iOS app from common mistakes](https://www.artemnovichkov.com/blog/how-to-inspect-ipa-files) — SwiftLee Weekly · Issue 267 — Article · Topics: Security & Privacy
   **Published:** `2025-04-15T13:04:41.000Z`
   **NeKI brief:** Shows how to inspect an IPA archive for packaging details and common security mistakes. Use it during release audits to examine embedded assets, metadata, and bundled resources before distribution.
@@ -137,12 +155,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Introducing A Market-Changing Approach to Mobile App Protection by Guardsquare](https://www.vpdae.com/redirect/ztha18scf5rsdagb808fpwgf2se) — iOS Dev Tools · iOS Dev Tools: Hummingbird, Apollo iOS, MBProgressHUD — Article · Topics: Security & Privacy
   **Published:** `2024-10-03T14:43:23.083Z`
   **NeKI brief:** This VPDAE redirect points to an externally hosted resource associated with the newsletter. Resolve and verify the destination before use, checking publisher identity, technical scope, licensing, and privacy rather than treating the redirect itself as documentation.
+- [📦 Define ownership of Swift Package Manager dependencies](https://alejandromp.com/blog/swift-package-manager-dependency-owners) — iOS CI Newsletter · Issue 49 — Article · Topics: Dependency Injection · Swift · Swift Package Manager
+  **Published:** `2024-08-25T00:00:00.000Z`
+  **NeKI brief:** Examines Define ownership of Swift Package Manager dependencies in the context of Dependency Injection and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [turn this feature on and get alerts when you accidentally leak secrets in your repo](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/introduction/about-secret-scanning) — iOS CI Newsletter · Issue 49 — Source repository · Topics: Developer Tools · Security & Privacy · Testing
+  **Published:** `2024-08-25T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for turn this feature on and get alerts when you accidentally leak secrets in your repo, relevant to Developer Tools and Security & Privacy. Inspect its implementation, open issues, and release state before adopting the approach.
+- [😱 Vulnerabilities found in CocoaPods](https://www.evasec.io/blog/eva-discovered-supply-chain-vulnerabities-in-cocoapods) — iOS CI Newsletter · Issue 46 — Article · Topics: Concurrency · Objective-C & Cocoa · Security & Privacy
+  **Published:** `2024-07-14T00:00:00.000Z`
+  **NeKI brief:** Examines Vulnerabilities found in CocoaPods in the context of Concurrency and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Solve Missing API declaration using required reason (ITMS-91053)](https://www.avanderlee.com/xcode/missing-api-declaration-required-reason-itms-91053?issue=030) — Fatbobman’s Swift Weekly · Issue 30 — Article · Topics: Security & Privacy · Xcode
   **Published:** `2024-05-06T12:01:46.954Z`
-  **NeKI brief:** Explains ITMS-91053 required-reason API failures and maps affected APIs to the privacy manifest declarations App Store validation expects. Useful for diagnosing archive rejection without guessing at unrelated project settings.
+  **NeKI brief:** Explains how to diagnose Apple's required-reason API declaration warning during App Store submission. Follow it when auditing privacy manifests and release errors, checking the current required-reason categories and SDK guidance.
 - [How to add a privacy manifest file to your app for required reason API usage?](https://www.donnywals.com/how-to-add-a-privacy-manifest-file-to-your-app-for-required-reason-api-usage?issue=030) — Fatbobman’s Swift Weekly · Issue 30 — Tutorial · Topics: Graphics, Media & Games · Security & Privacy
   **Published:** `2024-05-06T12:01:46.954Z`
-  **NeKI brief:** A privacy manifest declares required-reason API use for review tooling, so entries must match actual calls and remain maintained as dependencies change.
+  **NeKI brief:** Uses How to add a privacy manifest file to your app for required reason API usage? as a practical reference for Apple-platform development, surfacing implementation constraints and workflow trade-offs worth checking before applying the idea in production code.
 - [The Curious Case of Apple's Third-Party SDK List for Privacy Manifests](https://www.jessesquires.com/blog/2024/04/29/sdk-privacy-manifests?issue=030) — Fatbobman’s Swift Weekly · Issue 30 — Tutorial · Topics: Graphics, Media & Games · Security & Privacy
   **Published:** `2024-05-06T12:01:46.954Z`
   **NeKI brief:** Uses The Curious Case of Apple's Third-Party SDK List for Privacy Manifests as a practical reference for Apple-platform development, surfacing implementation constraints and workflow trade-offs worth checking before applying the idea in production code.
@@ -155,12 +182,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Live Panel Discussion: Mobile App Security Testing for Developers](https://vpdae.com/redirect/tthks72z1qmeaja4jkwn3ij5z0k) — iOS Dev Tools · 🔨 MotionScape, XCTestParametrizedMacro, Swiftly — Article · Topics: Security & Privacy · Testing
   **Published:** `2023-11-16T15:47:07.018Z`
   **NeKI brief:** This VPDAE redirect is an attribution link to an external resource. Resolve it before use, verify the destination and publisher, and assess licensing, privacy, and technical relevance rather than treating the redirect as authoritative content.
+- [🔐 1Password + CI/CD](https://blog.1password.com/1password-service-accounts) — iOS CI Newsletter · Issue 27 — Article · Topics: CI/CD & Automation · Security & Privacy
+  **Published:** `2023-10-22T00:00:00.000Z`
+  **NeKI brief:** Examines 1Password + CI/CD in the context of CI/CD & Automation and Security & Privacy. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🎉 GitHub’s CodeQL and Dependabot now support Swift](https://blog.eidinger.info/github-embraces-swift-and-provides-code-analysis-security-alerts-and-dependency-updates-for-swift-projects) — iOS CI Newsletter · Issue 22 — Article · Topics: Developer Tools · Security & Privacy · Swift
+  **Published:** `2023-08-13T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub’s CodeQL and Dependabot now support Swift in the context of Developer Tools and Security & Privacy. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [RNCrypto](https://github.com/RNCryptor/RNCryptor) — iOS Dev Tools · 🔨 Introducing Mapbox, Alamofire, RNCrypto — Source repository · Topics: Developer Tools · Security & Privacy
   **Published:** `2023-08-03T12:40:06.374Z`
   **NeKI brief:** RNCryptor defines a cross-language encrypted-data format using AES-256-CBC, PBKDF2-derived keys, random salt and IV, plus HMAC. Use it when interoperable encrypted payloads are required, while handling keys separately from ciphertext storage.
 - [A Layered Approach to Mobile App Security](https://www.guardsquare.com/defense-in-depth-layered-approach-to-mobile-app-security) — iOS Dev Weekly · Issue 612 — Article · Topics: Architecture · Objective-C & Cocoa · Security & Privacy
   **Published:** `2nd June 2023`
   **NeKI brief:** Explores A Layered Approach to Mobile App Security, focusing on developers are being called on to reevaluate their mobile application. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [🔒 Try GitHub’s new code-scanning support for Swift now!](https://forums.swift.org/t/beta-testers-wanted-get-a-sneak-peek-at-github-s-code-scanning-support-for-swift/64632) — iOS CI Newsletter · Issue 15 — Article · Topics: Developer Tools · Security & Privacy · Swift
+  **Published:** `2023-05-07T00:00:00.000Z`
+  **NeKI brief:** Examines Try GitHub’s new code-scanning support for Swift now! in the context of Developer Tools and Security & Privacy. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [❗️ GitHub updated their RSA SSH host key](https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key) — iOS CI Newsletter · Issue 12 — Article · Topics: Developer Tools · Security & Privacy
+  **Published:** `2023-03-26T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub updated their RSA SSH host key in the context of Developer Tools and Security & Privacy. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [SwiftUI views versus modifiers](https://swiftbysundell.com/articles/swiftui-views-versus-modifiers) — iOS Dev Weekly · Issue 599 — Article · Topics: Security & Privacy · Swift · SwiftUI
   **Published:** `3rd March 2023`
   **NeKI brief:** Explores the distinction between SwiftUI views and modifiers and how that division affects API design and composition. Useful when extracting reusable UI pieces, because it frames whether behaviour should wrap content as a view or transform it as a modifier.

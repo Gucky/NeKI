@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Functional abstractions, compositional design, algebraic data types, and function-oriented Swift techniques.
 
-- Last collected: `2026-07-22T21:56:49Z`
+- Last collected: `2026-08-05T08:59:22Z`
 - Indexed links shown: **17**
 
 ## Direct-source reading
@@ -50,7 +50,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 - [type-driven design](https://swiftology.io/collections/type-driven-design) — Fatbobman’s Swift Weekly · Issue 118 — Article · Topics: Functional Programming · Swift
   **Published:** `2026-01-12T12:03:07.042Z`
-  **NeKI brief:** This Swiftology collection gathers type-driven design material for modeling domain rules with compiler-checked types. Use it to explore stronger invariants and API boundaries, balancing abstraction costs against the application's actual complexity.
+  **NeKI brief:** Uses type-driven design to encode domain invariants in Swift, offering patterns for making invalid states harder to represent while weighing stronger modeling against API complexity and migration cost.
 - [Free video: Natural Swift](https://gumroad.com/l/natural-swift) — iOS Dev Weekly · Issue 286 — Article · Topics: Functional Programming · Graphics, Media & Games · Swift
   **Published:** `3rd February 2017`
   **NeKI brief:** Examines Free video: Natural Swift, focusing on what makes “swifty” swift? paul hudson from hacking with swift has produced a free video that teaches you how to use…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.

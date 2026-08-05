@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** macOS app lifecycle, menu-bar apps, Cocoa, and AppKit integration.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **187**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **226**
 
 ## Direct-source reading
 
+- [Tracking value sources to prevent recursive SwiftUI updates](https://nilcoalescing.com/blog/TrackingValueSourcesToPreventRecursiveSwiftUIUpdates) — Nil Coalescing · article catalogue
+  **Published:** `2026-08-04`
+  **NeKI brief:** Tags binding writes with a custom SwiftUI transaction value so wrapped text views can recognise their own updates. This avoids repeated large-string comparisons, redundant layout and cursor jumps in UITextView or NSTextView representables.
 - [How to Use NSTouchBar on macOS | Kodeco](https://www.kodeco.com/883-how-to-use-nstouchbar-on-macos) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Implements NSTouchBar controls for a macOS application. Useful for identifying how contextual commands are exposed, refreshed, and kept consistent with the main AppKit interface.
@@ -57,12 +60,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Drag and Drop Tutorial for macOS | Kodeco](https://www.kodeco.com/1016-drag-and-drop-tutorial-for-macos) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** This macOS walkthrough connects drag sources and drop destinations, showing how an app can accept files or model data through AppKit's drag-and-drop contract.
+- [Launchpad: A Modern macOS Launchpad With Enhanced Functionality - iOS Dev Tools](https://iosdev.tools/blog/launchpad) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-02-11T13:12:24+00:00`
+  **NeKI brief:** Profiles Launchpad as a Modern macOS Launchpad With Enhanced Functionality. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [Bezel: Mirror Any iPhone on Your Mac - iOS Dev Tools](https://iosdev.tools/blog/bezel) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-07-18T14:41:19+00:00`
+  **NeKI brief:** Profiles Bezel as mirror Any iPhone on Your Mac. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [QuickLook: Quickly Preview App Packages - iOS Dev Tools](https://iosdev.tools/blog/quicklook) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-07-16T14:16:03+00:00`
+  **NeKI brief:** Profiles QuickLook as quickly Preview App Packages. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Add launch at login setting to a macOS app](https://nilcoalescing.com/blog/LaunchAtLoginSetting) — Nil Coalescing · article catalogue
   **Published:** `2025-03-21`
   **NeKI brief:** Demonstrates registering a macOS app as a login item with SMAppService. Use it to implement an explicit launch-at-login setting while keeping user control and system preferences aligned.
+- [Usage: Keep an Eye on the Activity of Your Devices - iOS Dev Tools](https://iosdev.tools/blog/usage) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-02-13T14:20:09+00:00`
+  **NeKI brief:** Profiles Usage as keep an Eye on the Activity of Your Devices. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [How to keep your macOS app's menu bar item running after quitting the app](https://www.polpiella.dev/keep-menu-bar-running-after-quitting-app) — Pol Piella · article catalogue
   **Published:** `2024-12-31T00:00:00.000Z`
   **NeKI brief:** Explains keeping a macOS menu-bar utility available after closing ordinary windows. Use it when separating an app's activation policy, status item, and termination behavior.
+- [Maccy: Fast and Lightweight Clipboard Manager for macOS - iOS Dev Tools](https://iosdev.tools/blog/maccy) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2024-07-25T09:31:06+00:00`
+  **NeKI brief:** Profiles Maccy as fast and Lightweight Clipboard Manager for macOS. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [DisplayBuddy: Control Monitor Brightness Directly From Your Device - iOS Dev Tools](https://iosdev.tools/blog/displaybuddy) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2024-04-09T19:23:12+00:00`
+  **NeKI brief:** Profiles DisplayBuddy as control Monitor Brightness Directly From Your Device. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [Type: Take Notes Without Interrupting Your Flow - iOS Dev Tools](https://iosdev.tools/blog/type) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2024-02-20T17:58:22+00:00`
+  **NeKI brief:** Profiles Type as take Notes Without Interrupting Your Flow. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [ScanTexter: Scan Text on Screen and Translate It at Once - iOS Dev Tools](https://iosdev.tools/blog/scantexter) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2024-02-03T21:43:46+00:00`
+  **NeKI brief:** Profiles ScanTexter as scan Text on Screen and Translate It at Once. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [A menu bar only macOS app using AppKit](https://www.polpiella.dev/a-menu-bar-only-macos-app-using-appkit) — Pol Piella · article catalogue
   **Published:** `2022-10-26T00:00:00.000Z`
   **NeKI brief:** A menu-bar-only macOS app manages an NSStatusItem without a conventional main window. Use explicit lifecycle and activation choices, ensuring settings, quit behavior and accessibility remain discoverable to users.
@@ -77,12 +104,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Working with Xcode on CI](https://l.fatbobman.com/w0146-02) — Fatbobman’s Swift Weekly · Issue 146 — Article · Topics: Objective-C & Cocoa · Xcode
+  **Published:** `2026-07-27T12:04:26.788Z`
+  **NeKI brief:** Explains provisioning Xcode on macOS CI, selecting versions with DEVELOPER_DIR, running first-launch setup, and installing simulator or Metal components. It also documents authentication and stale-toolchain trade-offs that prevent a completely hands-off installer.
 - [Swift Scribe](https://github.com/FluidInference/swift-scribe) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Swift Scribe combines local microphone transcription with on-device summarization on current Apple OS releases, without external dependencies. Useful for evaluating a privacy-preserving speech pipeline and its deployment-version constraints.
 - [cmux](https://github.com/manaflow-ai/cmux) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: AI Development · Developer Tools · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** cmux is a Ghostty-based macOS terminal organized around vertical tabs, notifications, and programmable agent workflows. Useful for evaluating a terminal layout that keeps multiple coding-agent sessions visible and actionable.
+- [first iOS 27 public beta](https://appleinsider.com/articles/26/07/13/first-ios-27-macos-27-public-betas-are-out-but-you-should-still-be-careful?ref=ioscodereview.com) — iOS Code Review · Issue 82 — Article · Topics: macOS & AppKit · Swift · SwiftUI
+  **Published:** `2026-07-14T19:04:53.000Z`
+  **NeKI brief:** Examines first iOS 27 public beta in the context of macOS & AppKit and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [The Platform for Agentic macOS Development](https://go.macstadium.com/build-faster-with-orka) — iOS Dev Weekly · Issue 758 — Article · Topics: AI Development · CI/CD & Automation · Testing
   **Published:** `10th July 2026`
   **NeKI brief:** MacStadium's Orka overview describes API- and CLI-driven Apple-silicon virtual machines for CI, testing, and agent workflows. Use it to evaluate elastic macOS capacity against cost, isolation, Kubernetes integration, and reproducible build requirements.
@@ -95,6 +128,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Lidless](https://github.com/nghialuong/Lidless) — iOS Dev Tools · iOS Dev Tools: TourKit, MockingKit, MemoryMap — Source repository · Topics: Developer Tools · macOS & AppKit · Personal Essays
   **Published:** `2026-07-09T16:30:20.398Z`
   **NeKI brief:** Lidless keeps a Mac running with its lid closed, targeting unattended coding-agent workflows from the menu bar. Useful for evaluating laptop clamshell automation while considering thermal, power, and security trade-offs.
+- [👀 How Warp runs their CI/CD pipelines](https://namespace.so/customers/warp) — iOS CI Newsletter · Issue 90 — Article · Topics: CI/CD & Automation
+  **Published:** `2026-07-06T00:00:00.000Z`
+  **NeKI brief:** Examines How Warp runs their CI/CD pipelines in the context of CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [OpenUsage](https://github.com/robinebers/openusage) — iOS Dev Tools · iOS Dev Tools: Apple App Store Scraper, SideScreen, SiteKit — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
   **Published:** `2026-07-02T19:03:32.109Z`
   **NeKI brief:** OpenUsage presents subscription and usage information in an open-source desktop utility, helping users see where recurring services are being consumed. Useful as a reference for local usage aggregation and transparent cost awareness.
@@ -134,6 +170,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How To Recognize Text In Images With Vision In Swift](https://onmyway133.com/posts/how-to-recognize-text-in-images-with-vision-in-swift) — Those Who Swift · Issue 267 — Article · Topics: Concurrency · Swift
   **Published:** `2026-05-21`
   **NeKI brief:** Shows text recognition in images with Apple's Vision framework. Use it when prototyping OCR, considering request configuration, region or language hints, result confidence, and asynchronous image processing before integrating recognized text into user-visible features.
+- [⚠️ GitHub Actions macos-latest image is changing](https://github.blog/changelog/2026-05-14-github-actions-upcoming-image-migrations) — iOS CI Newsletter · Issue 88 — Article · Topics: Developer Tools · macOS & AppKit · Testing
+  **Published:** `2026-05-18T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub Actions macos-latest image is changing in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Northstar](https://www.gonorthstar.io/) — iOS Dev Tools · iOS Dev Tools: SwiftSafeUI, Northstar, Ezscreenshots — Article · Topics: App Distribution & Store Operations
   **Published:** `2026-05-14T16:15:24.123Z`
   **NeKI brief:** Northstar combines App Store keyword opportunity scores, competitor metadata and review tracking, App Store Connect synchronization, and an MCP server for LLM-assisted optimization. It is useful when researching an auditable alternative to ad-hoc ASO spreadsheets.
@@ -194,6 +233,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [imessage-kit](https://github.com/photon-hq/imessage-kit) — Fatbobman’s Swift Weekly · Issue 112 — Source repository · Topics: Developer Tools
   **Published:** `2025-11-24T12:01:09.147Z`
   **NeKI brief:** iMessageKit explores message-style interfaces on Apple platforms despite iMessage itself lacking a public automation API. Use it as a UI and data-model reference, not as evidence that third-party apps can access system conversations.
+- [🎥 [WEBINAR RECORDING] Automate your app’s releases with AWS](https://streamyard.com/watch/WfUTdS8snB6i) — iOS CI Newsletter · Issue 81 — Article · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `2025-11-24T00:00:00.000Z`
+  **NeKI brief:** Summarises FREE WEBINAR] Automate your app’s releases with AWS for Developer Tools. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [The best mobile app monitoring product just keeps getting better](https://sentry.io/for/swift) — iOS Dev Weekly · Issue 733 — Article · Topics: Swift
   **Published:** `31st October 2025`
   **NeKI brief:** Presents The best mobile app monitoring product just keeps getting better, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -206,15 +248,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Vercel Deployment Menu Bar](https://github.com/andrewk17/vercel-deployment-menu-bar) — iOS Dev Tools · iOS Dev Tools: Netrofit, MacPacker, GradientEditor — Source repository · Topics: Developer Tools · macOS & AppKit
   **Published:** `2025-10-30T18:15:32.319Z`
   **NeKI brief:** Vercel Deployment Menu Bar watches deployment states such as building, ready, and error from a macOS status item. Useful for a small event-driven release monitor that keeps CI feedback visible outside the browser.
+- [Saving money with self-hosted CI runners](https://jeffverkoeyen.com/blog/2025/10/17/SelfHostingMacMinis) — iOS Dev Weekly · Issue 732 — Article · Topics: Developer Tools
+  **Published:** `24th October 2025`
+  **NeKI brief:** Examines How this app saved $4000+ every month with self-hosted CI/CD Runners in the context of CI/CD & Automation and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [SwiftUI Concentric Rectangle & Concentric Corners in iOS 26](https://www.youtube.com/watch?v=VFnidjiH750) — Those Who Swift · Issue 236 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2025-10-15`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Explores SwiftUI's ConcentricRectangle and concentric-corner clipping APIs through per-corner radii, container-aware shapes, sheets, popovers, and tiled images. Useful for understanding how nested geometry can preserve visually consistent corners.
 - [Darling](https://github.com/darlinghq/darling) — iOS Dev Tools · iOS Dev Tools: React-native-enriched, Darling, Aidoku — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `2025-10-02T19:15:22.078Z`
   **NeKI brief:** Darling provides a macOS runtime environment on Linux, including DPREFIX-style environments, package and DMG handling, and support for compiling with Apple's toolchain and SDKs. It is useful for understanding the practical limits of cross-platform macOS compatibility.
 - [9TO5Mac’s report](https://9to5mac.com/2025/09/22/macos-tahoe-26-1-beta-1-mcp-integration) — Fatbobman’s Swift Weekly · Issue 104 — Article · Topics: AI Development · macOS & AppKit
   **Published:** `2025-09-29T12:00:38.726Z`
   **NeKI brief:** Reports beta evidence of MCP-related integration in macOS Tahoe. Use it only as an early signal for system-level agent support, then validate actual APIs, availability, and permissions against Apple's released documentation.
+- [👋 macOS 13 GitHub-hosted images are closing down](https://github.blog/changelog/2025-09-05-github-actions-ai-labeler-and-moderator-with-the-github-models-inference-api) — iOS CI Newsletter · Issue 75 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2025-09-21T00:00:00.000Z`
+  **NeKI brief:** Examines Automatically triage and moderate GitHub issues in the context of AI Development and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Layout Guidelines](https://marioaguzman.github.io/design/layoutguidelines) — iOS Dev Weekly · Issue 727 — Article · Topics: Developer Tools
   **Published:** `19th September 2025`
   **NeKI brief:** Presents layout guidelines for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -242,6 +290,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Chris Jones](https://cmsj.net/author/chris-jones.html) — Fatbobman’s Swift Weekly · Issue 94 — Article · Topics: Concurrency · Cross-Platform & Web · Swift
   **Published:** `2025-07-21T12:02:54.857Z`
   **NeKI brief:** Provides contextual background on Chris Jones, useful for understanding the surrounding product, policy, or ecosystem issue before drawing technical or business conclusions.
+- [⚠️ Important updates to GitHub-hosted macOS runners](https://github.blog/changelog/2025-07-11-upcoming-changes-to-macos-hosted-runners-macos-latest-migration-and-xcode-support-policy-updates) — iOS CI Newsletter · Issue 72 — Article · Topics: Developer Tools · macOS & AppKit · Testing
+  **Published:** `2025-07-14T00:00:00.000Z`
+  **NeKI brief:** Examines Important updates to GitHub-hosted macOS runners in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Meet the Inspector View in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/meet-the-inspector-view-in-swiftui) — Those Who Swift · Issue 221 — Tutorial · Topics: Swift · SwiftUI
   **Published:** `2025-07-02`
   **NeKI brief:** Examines Meet the Inspector View in SwiftUI, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -275,6 +326,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [UBI](https://github.com/houseabsolute/ubi) — Fatbobman’s Swift Weekly · Issue 79 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-04-14T12:01:43.772Z`
   **NeKI brief:** ubi installs precompiled command-line tool binaries from GitHub releases rather than building them locally. Use it when developer-tool setup must be fast and repeatable across machines, while checking release provenance and platform artifacts.
+- [the Vapor team built an action that uses Swiftly under the hood and that installs any version of Swift you want as part of your GitHub Actions workflows](https://github.com/vapor/swiftly-action) — iOS CI Newsletter · Issue 65 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-04-06T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for the Vapor team built an action that uses Swiftly under the hood and that installs any version of Swift you…, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
+- [🚀 How to automate App Store screenshot generation for macOS apps](https://www.jessesquires.com/blog/2025/03/24/automate-perfect-mac-screenshots) — iOS CI Newsletter · Issue 65 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Community & Business
+  **Published:** `2025-04-06T00:00:00.000Z`
+  **NeKI brief:** Walks through how to automate App Store screenshot generation for macOS apps, with practical context for App Distribution & Store Operations and CI/CD & Automation. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Introducing swiftly 1.0](https://www.swift.org/blog/introducing-swiftly_10) — Those Who Swift · Issue 208 — Article · Topics: Developer Career & Practice · Foundation & Data Formats · Swift
   **Published:** `2025-04-02`
   **NeKI brief:** This technical resource covers Swiftly 1.0 as a Swift toolchain manager. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
@@ -287,9 +344,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [MaClicker](https://github.com/WorldOfBasti/MaClicker) — iOS Dev Tools · iOS Dev Tools: Swift GraphQL Codegen, HandySwiftUI, Surge — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-03-13T19:20:57.517Z`
   **NeKI brief:** MaClicker is a small macOS auto-clicker implemented as a focused utility. Useful for examining global input automation and the permission boundary such tools require, rather than treating simulated clicks as ordinary app events.
+- [📺 Turning your Swift command-line apps into beautiful macOS apps](https://www.swiftyplace.com/blog/building-macos-utiltiy-apps) — iOS CI Newsletter · Issue 63 — Article · Topics: CI/CD & Automation · macOS & AppKit · Swift
+  **Published:** `2025-03-09T00:00:00.000Z`
+  **NeKI brief:** Examines Turning your Swift command-line apps into beautiful macOS apps in the context of CI/CD & Automation and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Peek](https://prateekkeshari.gumroad.com/l/peek) — iOS Dev Tools · iOS Dev Tools: Statused, Compot, FreemiumKit — Article · Topics: AI Development · macOS & AppKit
   **Published:** `2025-03-06T18:01:47.698Z`
   **NeKI brief:** Peek is a paid developer resource or utility distributed through Gumroad. Use the page to inspect its stated workflow and scope, verifying ownership, licensing, updates, and whether it solves a concrete development problem before purchase.
+- [appstoreconnect-swift-sdk](https://github.com/AvdLee/appstoreconnect-swift-sdk) — iOS CI Newsletter · Issue 62 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `2025-02-23T00:00:00.000Z`
+  **NeKI brief:** Examines this project, focusing on the app store connect api is available and documented! straight away, antoine van der lee jumped into action and started…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [🖥️ Bitrise makes M4 Pro runners available](https://bitrise.io/blog/post/introducing-m4-pro-mac-mini-on-bitrise-more-power-speed-efficiency-for-your-ci-cd) — iOS CI Newsletter · Issue 62 — Article
+  **Published:** `2025-02-23T00:00:00.000Z`
+  **NeKI brief:** Examines Bitrise makes M4 Pro runners available in the context of Apple-platform engineering. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🍎 Running Xcode in unsupported macOS versions](https://marcelvoss.com/2025/tricking-xcode-into-running-on-an-unsupported-macos) — iOS CI Newsletter · Issue 61 — Article · Topics: Apple Platform Ecosystem · Personal Essays · Xcode
+  **Published:** `2025-02-09T00:00:00.000Z`
+  **NeKI brief:** Examines Running Xcode in unsupported macOS versions in the context of Apple Platform Ecosystem and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Swift Build](https://github.com/swiftlang/swift-build) — Fatbobman’s Swift Weekly · Issue 69 — Source repository · Topics: Swift · Swift Package Manager · Xcode
   **Published:** `2025-02-03T12:01:11.391Z`
   **NeKI brief:** Swift Build is the open-sourced build engine behind Xcode and SwiftPM convergence work. Follow it when assessing build-graph architecture, toolchain behavior, and future migration implications for projects that currently rely on opaque Xcode builds.
@@ -332,6 +401,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Orka Desktop](https://www.macstadium.com/orka-desktop) — iOS Dev Weekly · Issue 685 — Article · Topics: Personal Essays · Testing
   **Published:** `1st November 2024`
   **NeKI brief:** Presents orka desktop for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [🔌 Beware of this argument when using xcodebuild and plugins](https://elegantchaos.com/2024/10/11/xcodebuild-platforms-and-plugins.html) — iOS CI Newsletter · Issue 53 — Article · Topics: Cross-Platform & Web · Xcode
+  **Published:** `2024-10-20T00:00:00.000Z`
+  **NeKI brief:** Examines Beware of this argument when using xcodebuild and plugins in the context of Cross-Platform & Web and Xcode. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Cross-Platform macOS/Windows Application Developed Using Swift 6](https://forums.swift.org/t/example-of-a-cross-platform-macos-windows-application-developed-using-swift-6/74591) — iOS Dev Weekly · Issue 679 — Article · Topics: AI Development · Cross-Platform & Web · Swift
   **Published:** `20th September 2024`
   **NeKI brief:** Presents cross-platform macos/windows application developed using swift 6 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -341,30 +413,51 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Github contribution graph with Swift Charts](https://www.artemnovichkov.com/blog/github-contribution-graph-swift-charts) — SwiftUI Weekly · SwiftUI Weekly - Issue #199 — Article · Topics: Developer Tools · Swift
   **Published:** `2024-09-09T19:49:43.177Z`
   **NeKI brief:** Creates a GitHub-style contribution graph with Swift Charts using calendar-shaped data. Useful for practicing custom mark layouts, color scales, and date-based visualization.
+- [Codemagic CI/CD for mobile teams](https://codemagic.io/start) — iOS CI Newsletter · Issue 50 — Article · Topics: CI/CD & Automation · Testing · Xcode
+  **Published:** `2024-09-08T00:00:00.000Z`
+  **NeKI brief:** Examines Codemagic CI/CD for mobile teams in the context of CI/CD & Automation and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) — iOS Dev Tools · iOS Dev Tools: R.swift, Alamofire, SwiftFormat — Source repository · Topics: Developer Tools · Product Design · Swift
   **Published:** `2024-09-05T15:57:02.879Z`
   **NeKI brief:** SwiftFormat offers configurable source-formatting rules and a mature command-line workflow. Follow it when comparing formatter policy, rule customization, and repository integration against Apple's swift-format rather than treating formatting as purely cosmetic.
+- [🚨 FlyCI Runners to be discontinued on September 30th](https://flyci.net/blog/flyci-discontinue-macos-runners) — iOS CI Newsletter · Issue 49 — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2024-08-25T00:00:00.000Z`
+  **NeKI brief:** Examines FlyCI Runners to be discontinued on September 30th in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [CI Wingman feature](https://flyci.net/docs) — iOS CI Newsletter · Issue 49 — Article · Topics: Developer Tools
+  **Published:** `2024-08-25T00:00:00.000Z`
+  **NeKI brief:** Examines Automatically fix your failing CI/CD builds in the context of CI/CD & Automation and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [SwiftUI for Mac 2024](https://troz.net/post/2024/swiftui-mac-2024) — iOS Dev Weekly · Issue 675 — Article · Topics: Swift · SwiftUI · Xcode
   **Published:** `23rd August 2024`
   **NeKI brief:** Reviews SwiftUI for macOS in 2024, including windowing, menus, and platform-specific controls. Useful for auditing which shared views need deliberate Mac adaptations.
 - [MeshGradients in iOS 18](https://www.youtube.com/watch?v=s_eQZ8rRV8Y) — SwiftUI Weekly · SwiftUI Weekly - Issue #197 — Video · Topics: Graphics, Media & Games
   **Published:** `2024-08-19T10:45:25.615Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates mesh gradients introduced for iOS 18 visual effects. Useful for evaluating animated, multicolor backgrounds without manually composing many gradient layers.
+- [🧰 Releasing Swift Binaries with GitHub Actions](https://swifttoolkit.dev/posts/releasing-with-gh-actions) — iOS CI Newsletter · Issue 48 — Article · Topics: Developer Tools · Product Design · Swift
+  **Published:** `2024-08-11T00:00:00.000Z`
+  **NeKI brief:** Examines Releasing Swift Binaries with GitHub Actions in the context of Developer Tools and Product Design. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [ControlRoom](https://github.com/twostraws/ControlRoom) — iOS Dev Tools · iOS Dev Tools: ControlRoom, SwiftDeps, Starscream — Source repository · Topics: Developer Tools · Xcode
   **Published:** `2024-07-25T15:18:00.048Z`
   **NeKI brief:** ControlRoom is a macOS front end for simctl that manages iOS, tvOS, and watchOS Simulator state. Use it for device launch, screenshots, deep links, permissions, or location testing without repeatedly assembling command-line invocations.
 - [SwiftUI can be a bit... eager](https://www.attributedstrings.com/swiftui-can-be-a-bit-eager) — SwiftUI Weekly · SwiftUI Weekly - Issue #193 — Article · Topics: Foundation & Data Formats · Swift · SwiftUI
   **Published:** `2024-07-08T08:54:13.719Z`
   **NeKI brief:** Investigates cases where SwiftUI evaluates views or work eagerly. Useful for diagnosing unexpected initialization, expensive computations, and lifecycle assumptions in declarative hierarchies.
+- [⚠️ GitHub-hosted macOS runners are changing their selected Xcode version](https://github.com/actions/runner-images/blob/main/images/macos/macos-14-arm64-Readme.md) — iOS CI Newsletter · Issue 45 — Source repository · Topics: Developer Tools · macOS & AppKit · Xcode
+  **Published:** `2024-07-01T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for GitHub-hosted macOS runners are changing their selected Xcode version, relevant to Developer Tools and macOS & AppKit. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Helm](https://helm-app.com/) — iOS Dev Tools · iOS Dev Tools: Helm, AudioKit, Lottie — Article · Topics: App Distribution & Store Operations
   **Published:** `2024-06-20T13:30:58.118Z`
   **NeKI brief:** Discusses Helm in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
 - [AudioKit](https://github.com/AudioKit/AudioKit) — iOS Dev Tools · iOS Dev Tools: Helm, AudioKit, Lottie — Source repository · Topics: Developer Tools
   **Published:** `2024-06-20T13:30:58.118Z`
   **NeKI brief:** Provides the public source repository for AudioKit. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
+- [🚨 CircleCI is deprecating their Intel macOS runners](https://discuss.circleci.com/t/macos-intel-support-deprecation-in-january-2024/48718) — iOS CI Newsletter · Issue 44 — Article · Topics: macOS & AppKit
+  **Published:** `2024-06-16T00:00:00.000Z`
+  **NeKI brief:** Examines CircleCI is deprecating their Intel macOS runners in the context of macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Meet AppLayouts, an All-in-One Toolkit to Supercharge Your iOS and macOS App](https://www.applayouts.com/) — iOS Dev Tools · iOS Dev Tools: AppScreen Studio, StringSwitch, getuniversal.link — Article
   **Published:** `2024-06-06T16:11:51.001Z`
   **NeKI brief:** Provides a catalogue of reusable app layout patterns and interface examples. Use it to compare navigation, content hierarchy, and responsive composition ideas before designing a SwiftUI or UIKit screen.
+- [📹 Block’s macOS runner migration from in-house to AWS](https://www.youtube.com/watch?v=i-pQwwCZyxs) — iOS CI Newsletter · Issue 43 — Video
+  **Published:** `2024-06-02T00:00:00.000Z`
+  **NeKI brief:** Records Block’s macOS runner migration from in-house to AWS as a visual walkthrough relevant to Apple-platform engineering. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [macOS style Settings windows](https://paulpeelen.com/SettingsView) — iOS Dev Weekly · Issue 660 — Article · Topics: Swift · SwiftUI · Testing
   **Published:** `10th May 2024`
   **NeKI brief:** Presents macos style settings windows for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -386,6 +479,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [In Search of a Smooth Scroll](https://byla.lt/posts/in-search-of-smooth-scroll) — SwiftUI Weekly · SwiftUI Weekly - Issue #181 — Article · Topics: Objective-C & Cocoa
   **Published:** `2024-04-09T05:33:14.059Z`
   **NeKI brief:** Examines SwiftUI rendering and scrolling costs behind In Search of a Smooth Scroll. Use it to identify identity, layout, and update-frequency risks before measuring regressions with Instruments on representative devices.
+- [🆕 GitHub-hosted macOS Sonoma runners are now available!](https://github.blog/changelog/2024-01-30-github-actions-macos-14-sonoma-is-now-available) — iOS CI Newsletter · Issue 35 — Article · Topics: Developer Tools · macOS & AppKit · Personal Essays
+  **Published:** `2024-02-11T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub-hosted macOS Sonoma runners are now available! in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Apple’s use of AppKit, Catalyst, Swift and SwiftUI in macOS Sonoma](https://blog.timac.org/2023/1128-state-of-appkit-catalyst-swift-swiftui-mac) — Fatbobman’s Swift Weekly · Issue 9 — Article · Topics: macOS & AppKit · Swift · SwiftUI
   **Published:** `2023-12-03T22:00:35.768Z`
   **NeKI brief:** Surveys AppKit, Catalyst, Swift, and SwiftUI capabilities on macOS, highlighting interoperability boundaries. Useful for choosing a platform strategy when an app spans native macOS and shared UI code.
@@ -395,6 +491,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The complete guide to Swift development in Neovim](https://wojciechkulik.pl/ios/the-complete-guide-to-ios-macos-development-in-neovim) — iOS Dev Weekly · Issue 636 — Article · Topics: macOS & AppKit · Swift · Xcode
   **Published:** `17th November 2023`
   **NeKI brief:** Presents the complete guide to swift development in neovim for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [🎉 M1 GitHub-hosted runners publicly available!](https://github.blog/changelog/2023-10-02-github-actions-apple-silicon-m1-macos-runners-are-now-available-in-public-beta) — iOS CI Newsletter · Issue 26 — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2023-10-08T00:00:00.000Z`
+  **NeKI brief:** Examines M1 GitHub-hosted runners publicly available! in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Sensei](https://cindori.com/sensei) — iOS Dev Tools · Introducing Codeshare, Sensei, ProfileMe — Article · Topics: Performance
   **Published:** `2023-09-28T13:10:04.363Z`
   **NeKI brief:** Sensei provides a customizable macOS material-blur view that goes beyond NSVisualEffectView's public configuration surface. Use it when a desktop UI needs controlled materials, while isolating the visual dependency from core application logic.
@@ -428,9 +527,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Apple Platforms Developer @ Cascable AB](https://cascable.se/jobs) — iOS Dev Weekly · Issue 609 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `12th May 2023`
   **NeKI brief:** Explores Apple Platforms Developer @ Cascable AB, focusing on apple platforms developer @ cascable ab – cascable is a. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [🆕 GitHub Actions: macOS 13 available!](https://github.blog/changelog/2023-04-24-github-actions-macos-13-is-now-available) — iOS CI Newsletter · Issue 15 — Article · Topics: Developer Tools · macOS & AppKit · Personal Essays
+  **Published:** `2023-05-07T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub Actions: macOS 13 available! in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [💻 Tartelet: An app to manage self-hosted ephemeral GitHub runners](https://shape.dk/news-and-knowledge/tartelet) — iOS CI Newsletter · Issue 13 — Article · Topics: Developer Tools
+  **Published:** `2023-04-09T00:00:00.000Z`
+  **NeKI brief:** Examines Tartelet: An app to manage self-hosted ephemeral GitHub runners in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Tartelet](https://github.com/shapehq/tartelet/wiki/Installing-Tartelet) — iOS CI Newsletter · Issue 13 — Source repository · Topics: Developer Tools
+  **Published:** `2023-04-09T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Tartelet, relevant to Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [⚡️ M1 macOS runners now available on CircleCI](https://circleci.com/blog/m1-mac-resource-class) — iOS CI Newsletter · Issue 12 — Article · Topics: Developer Tools
+  **Published:** `2023-03-26T00:00:00.000Z`
+  **NeKI brief:** Examines M1 macOS runners now available on CircleCI in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [⚡️ 12-core GitHub-hosted macOS runners](https://github.blog/2023-03-01-github-actions-introducing-faster-github-hosted-x64-macos-runners) — iOS CI Newsletter · Issue 11 — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2023-03-12T00:00:00.000Z`
+  **NeKI brief:** Examines 12-core GitHub-hosted macOS runners in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [what](https://github.com/uliwitness/AppKitForClassic) — iOS Dev Weekly · Issue 590 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `30th December 2022`
   **NeKI brief:** Explores what, focusing on are you looking for work? there are many exciting opportunities to work with all kinds of companies over on ios dev jobs.. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [GitHub issue about the availability of macOS 13 GitHub-hosted runners](https://github.com/actions/runner-images/issues/6426) — iOS CI Newsletter · Issue 5 — Source repository · Topics: Developer Tools
+  **Published:** `2022-12-18T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for GitHub issue about the availability of macOS 13 GitHub-hosted runners, relevant to Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Apple’s use of AppKit, Mac Catalyst and SwiftUI in macOS](https://blog.timac.org/2022/0818-state-of-appkit-catalyst-swiftui-mac) — iOS Dev Weekly · Issue 572 — Article · Topics: macOS & AppKit · Swift · SwiftUI
   **Published:** `19th August 2022`
   **NeKI brief:** Explores Apple’s use of AppKit, Mac Catalyst and SwiftUI in macOS, focusing on alexandre colucci has been writing posts analysing apple’s use of. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.

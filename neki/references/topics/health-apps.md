@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Health-focused app development projects and personal health-data software.
 
-- Last collected: `2026-07-22T21:56:49Z`
+- Last collected: `2026-08-05T08:13:03Z`
 - Indexed links shown: **7**
 
 ## Direct-source reading

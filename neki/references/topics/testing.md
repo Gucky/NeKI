@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Unit, UI, Swift Testing, XCTest, test design, and test automation.
 
-- Last collected: `2026-07-28T20:15:53Z`
-- Indexed links shown: **930**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **1042**
 
 ## Direct-source reading
 
@@ -288,6 +288,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Is SwiftUI finally as fast as UIKit in iOS 26?](https://blog.jacobstechtavern.com/p/swiftui-vs-uikit) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2026-03-09T16:01:18.122Z`
   **NeKI brief:** Compare SwiftUI and UIKit performance with equivalent view hierarchies, realistic data, and measured scrolling or interaction workloads. Use profiling evidence to locate layout, diffing, or rendering bottlenecks, then bridge to UIKit only where a specific capability or performance constraint requires it.
+- [RequestSpec: Make Your Networking Code More Maintainable, Organized, and Testable - iOS Dev Tools](https://iosdev.tools/blog/requestspec) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-03-06T12:42:00+00:00`
+  **NeKI brief:** Profiles RequestSpec as make Your Networking Code More Maintainable, Organized, and Testable. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [VoiceOver Navigator & 120 FPS Recordings for Xcode's Simulator](https://www.avanderlee.com/xcode/voiceover-navigator-120-fps-recordings-for-xcode-simulator) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-02-24T11:11:21+00:00`
   **NeKI brief:** Shows simulator VoiceOver navigation and 120-FPS recording workflows for inspecting accessibility and animation details. The combination provides more diagnostic fidelity than screenshots when reporting focus order or motion regressions.
@@ -324,6 +327,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Implementing Non-Consumable In-App Purchases with StoreKit 2](https://www.createwithswift.com/implementing-non-consumable-in-app-purchases-with-storekit-2) — Create with Swift · article catalogue
   **Published:** `2025-12-04T14:00:58.000Z`
   **NeKI brief:** Implements a StoreKit 2 non-consumable purchase flow and uses verified transactions to unlock a durable feature. Follow it when modelling one-time entitlements, with current guidance covering restore and transaction listener lifecycle.
+- [Mocking Star: One Stop Solution for UI‑Test Networking - iOS Dev Tools](https://iosdev.tools/blog/mocking-star) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-11-05T10:45:00+00:00`
+  **NeKI brief:** Profiles Mocking Star as one Stop Solution for UI‑Test Networking. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Simulator Camera: Test your app without a physical device](https://www.avanderlee.com/xcode/simulator-camera-test-your-app-without-a-physical-device) — Antoine van der Lee articles · article catalogue
   **Published:** `2025-11-03T18:46:15+00:00`
   **NeKI brief:** Shows how to feed camera input through Xcode’s simulator so capture flows can be tested without hardware. It highlights the simulator’s coverage boundary and the cases that still require a physical camera for validation.
@@ -333,6 +339,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [My ADHD vs. the AlarmKit API](https://blog.jacobstechtavern.com/p/adhd-vs-alarmkit) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2025-07-28T21:00:20.731Z`
   **NeKI brief:** Explores the new AlarmKit API from the perspective of building a real reminder experience and understanding its underlying behavior.
+- [App Store Screenshot Tester: Optimize Your App Store Presence Before You Ship - iOS Dev Tools](https://iosdev.tools/blog/appstorescreenshottester) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-07-18T14:32:07+00:00`
+  **NeKI brief:** Profiles App Store Screenshot Tester as optimize Your App Store Presence Before You Ship. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Safely Renaming Your Xcode Project](https://www.createwithswift.com/safely-renaming-your-xcode-project) — Create with Swift · article catalogue
   **Published:** `2025-07-10T13:00:14.000Z`
   **NeKI brief:** Renames an Xcode project by updating references, settings, and identifiers systematically, reducing broken targets, schemes, and bundle mismatches.
@@ -387,6 +396,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Testing SceneStorage state persistence in Xcode](https://nilcoalescing.com/blog/TestingSceneStorageStatePersistenceInXcode) — Nil Coalescing · article catalogue
   **Published:** `2025-02-19`
   **NeKI brief:** Describes a repeatable simulator sequence for testing SceneStorage restoration: background the app, terminate or relaunch it, and verify state after scene recreation. The workflow avoids false positives from merely navigating away within one process.
+- [Screenshotbot: Scale up Your Screenshot Tests Without the Friction - iOS Dev Tools](https://iosdev.tools/blog/screenshotbot) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-02-13T14:16:45+00:00`
+  **NeKI brief:** Profiles Screenshotbot as scale up Your Screenshot Tests Without the Friction. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Parameterized tests in Swift: Reducing boilerplate code](https://www.avanderlee.com/swift-testing/parameterized-tests-reducing-boilerplate-code) — Antoine van der Lee articles · article catalogue
   **Published:** `2025-02-04T08:48:32+00:00`
   **NeKI brief:** Shows how Swift Testing parameterization turns repeated assertions into one @Test with arguments, including custom types and combinations, so edge cases can be expanded without duplicating test functions.
@@ -1661,6 +1673,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — SwiftLee Weekly · Issue 335 — Article · Topics: Swift · SwiftData · Testing
+  **Published:** `2026-08-04T14:04:01.000Z`
+  **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
+- [AcceptedSE-0526withDeadline](https://github.com/apple/swift-evolution/blob/main/proposals/0526-deadline.md) — SwiftLee Weekly · Issue 335 — Source repository · Topics: Developer Tools · Swift · SwiftData
+  **Published:** `2026-08-04T14:04:01.000Z`
+  **NeKI brief:** Proposal SE-0526 adds withDeadline for time-bounded asynchronous work. Read it to distinguish deadline expiry from ordinary cancellation and failure, and verify accepted semantics and toolchain availability before designing a public timeout API around it.
+- [Active ReviewSE-0539Enable Macros to Grant `self` Access for Property Initializers](https://github.com/apple/swift-evolution/blob/main/proposals/0539-self-access-for-property-initializers.md) — SwiftLee Weekly · Issue 335 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
+  **Published:** `2026-08-04T14:04:01.000Z`
+  **NeKI brief:** Proposal SE-0539 explores allowing attached macros to grant controlled self access during property initialization. Follow it when macro-generated storage needs enclosing-instance context, while checking review status and initialization-safety constraints before relying on the feature.
+- [Memo Property: Reusing More Stateful Business Logic for SwiftUI Views](https://l.fatbobman.com/w0147-04) — Fatbobman’s Swift Weekly · Issue 147 — Article · Topics: Swift · SwiftUI · Testing
+  **Published:** `2026-08-03T12:02:34.944Z`
+  **NeKI brief:** MemoProperty explores packaging reusable, stateful business logic for SwiftUI views without forcing each view to recreate ownership machinery. Inspect it when repeated observable workflows need a small composable boundary rather than another full view model.
+- [TaskProperty](https://github.com/vanvoorden/TaskProperty) — Fatbobman’s Swift Weekly · Issue 147 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-03T12:02:34.944Z`
+  **NeKI brief:** TaskProperty is a focused experiment for attaching asynchronous, stateful work to SwiftUI views. Use the source to examine task lifetime, cancellation, and reusable ownership semantics before adopting the pattern in production UI code.
+- [SwiftUI @ContentBuilder - Faster Type Checking in Xcode 27](https://l.fatbobman.com/w0146-05) — Fatbobman’s Swift Weekly · Issue 146 — Article · Topics: Swift · SwiftUI · Xcode
+  **Published:** `2026-07-27T12:04:26.788Z`
+  **NeKI brief:** Explains Xcode 27’s SwiftUI ContentBuilder unification and how it reduces result-builder type-checking work while retaining older deployment targets. Follow it when large view expressions compile slowly or custom builders duplicate SwiftUI’s behavior.
 - [Test iOS apps in the simulator with Claude Code Desktop [Beta]](https://code.claude.com/docs/en/desktop-ios-simulator) — iOS Dev Weekly · Issue 760 — Article · Topics: AI Development · Developer Tools · Testing · Xcode
   **Published:** `24th July 2026`
   **NeKI brief:** Documents Claude Code Desktop's session-specific iOS Simulator pane, including requirements, manual device control, permissions, captures, policy switches, and troubleshooting. Use it to evaluate the current beta workflow and its device-isolation boundaries.
@@ -1673,6 +1703,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift Algorithms & Data Structures](https://waynewbishop.github.io/swift-algorithms) — Fatbobman’s Swift Weekly · Issue 143 — Article · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-07-06T12:03:13.020Z`
   **NeKI brief:** Collects Swift algorithms and data-structure examples in runnable form, making it useful for comparing standard-library techniques, complexity trade-offs, and interview-style implementations before introducing custom utilities.
+- [☁️ How to set a custom build number for your builds in Xcode Cloud](https://antongubarenko.substack.com/p/swift-bits-xcode-cloud-build-number) — iOS CI Newsletter · Issue 90 — Article · Topics: Swift · Testing · Xcode
+  **Published:** `2026-07-06T00:00:00.000Z`
+  **NeKI brief:** Walks through how to set a custom build number for your builds in Xcode Cloud, with practical context for Swift and Testing. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [🧐 What you need to know about Git LFS](https://www.scottberrevoets.com/2026/07/01/how-github-handles-git-lfs) — iOS CI Newsletter · Issue 90 — Article · Topics: Developer Tools · Testing
+  **Published:** `2026-07-06T00:00:00.000Z`
+  **NeKI brief:** Examines What you need to know about Git LFS in the context of Developer Tools and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [A Community Agent Skill for Swift Testing](https://github.com/twostraws/Swift-Testing-Agent-Skill?ref=ioscodereview.com) — iOS Code Review · Issue 81 — Source repository · Topics: Developer Community & Business · Swift · Testing
+  **Published:** `2026-06-30T16:31:22.000Z`
+  **NeKI brief:** Provides the source and change history for A Community Agent Skill for Swift Testing, relevant to Developer Community & Business and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Testing Foundation Models: Code That Won’t Give The Same Answer Twice](https://www.wesleymatlock.com/testing-on-device-ai-swift-testing) — Those Who Swift · Issue 271 — Article · Topics: AI Development · Foundation & Data Formats · Testing
   **Published:** `2026-06-18`
   **NeKI brief:** Discusses testing nondeterministic Foundation Models output with Swift Testing. Use it when designing assertions for on-device AI, focusing on stable structure, bounded behavior, and controlled inputs instead of brittle exact-text comparisons.
@@ -1682,6 +1721,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Release 4.0.0 · AvdLee/SwiftUI-Agent-Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill/releases/tag/4.0.0) — SwiftLee Weekly · Issue 328 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-06-16T14:06:32.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Release 4.0.0 · AvdLee/SwiftUI-Agent-Skill. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [WWDC 2026 - What's New in Swift](https://dev.to/arshtechpro/wwdc-2026-whats-new-in-swift-3nb2?ref=ioscodereview.com) — iOS Code Review · Issue 80 — Article · Topics: Apple Platform Ecosystem · Swift · Testing
+  **Published:** `2026-06-15T17:08:20.000Z`
+  **NeKI brief:** Summarises WWDC 2026 - What's New in Swift for Apple Platform Ecosystem and Swift. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
+- [MacRumors + 2](https://www.macrumors.com/2026/05/18/apple-design-award-finalists-2026?ref=ioscodereview.com) — iOS Code Review · Issue 79 — Article · Topics: Architecture · Composable Architecture · Testing
+  **Published:** `2026-06-01T16:27:14.000Z`
+  **NeKI brief:** Examines MacRumors + 2 in the context of Architecture and Composable Architecture. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Xcsift](https://github.com/ldomaradzki/xcsift) — Fatbobman’s Swift Weekly · Issue 138 — Source repository · Topics: AI Development · Developer Tools · Testing
   **Published:** `2026-06-01T12:04:47.860Z`
   **NeKI brief:** xcsift condenses xcodebuild output so coding agents receive actionable build and test diagnostics instead of full verbose logs. Use it when agent context windows are consumed by compiler noise rather than failures requiring repair.
@@ -1691,12 +1736,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using Xcode MCP With Claude Code](https://danielsaidi.com/blog/2026/04/30/using-xcode-mcp-with-claude-code) — Those Who Swift · Issue 267 — Article · Topics: AI Development · Swift · Xcode
   **Published:** `2026-05-21`
   **NeKI brief:** Describes connecting Claude Code to Xcode through Model Context Protocol. Follow it when evaluating agent-assisted build and debugging workflows, paying attention to permissions, simulator boundaries, generated changes, and human review checkpoints.
+- [⚠️ GitHub Actions macos-latest image is changing](https://github.blog/changelog/2026-05-14-github-actions-upcoming-image-migrations) — iOS CI Newsletter · Issue 88 — Article · Topics: Developer Tools · macOS & AppKit · Testing
+  **Published:** `2026-05-18T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub Actions macos-latest image is changing in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Checking accessibility with SwiftUI Previews](https://mobilea11y.com/blog/swiftui-preview-testing?ref=ioscodereview.com) — iOS Code Review · Issue 78 — Article · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `2026-05-16T17:59:28.000Z`
+  **NeKI brief:** Uses SwiftUI previews as an accessibility testing surface, checking labels, traits, and contrast across representative states. Useful for finding VoiceOver regressions early without waiting for a full UI-test suite.
 - [SwiftSafeUI](https://github.com/BaherTamer/SwiftSafeUI) — iOS Dev Tools · iOS Dev Tools: SwiftSafeUI, Northstar, Ezscreenshots — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
   **Published:** `2026-05-14T16:15:24.123Z`
   **NeKI brief:** SwiftSafeUI wraps deprecated SwiftUI APIs behind compatibility-aware modifiers, views, and environment values. The repository demonstrates how to centralize availability branching so newer OS APIs are selected automatically while older deployment targets keep working.
 - [AI-Powered Xcode Simulator Automation (token-efficient)](https://www.youtube.com/watch?v=mD6vpokRpsU) — SwiftLee Weekly · Issue 323 — Video · Topics: AI Development · Testing · Xcode
   **Published:** `2026-05-12T14:05:49.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates RocketSim's command-line and agent skill controlling an iOS Simulator through a compact accessibility-tree representation. Useful for evaluating repeatable agent-driven navigation, inspection, and simulator automation against conventional screenshot-heavy workflows.
 - [ios-build-verify](https://github.com/vermont42/ios-build-verify) — iOS Dev Weekly · Issue 750 — Source repository · Topics: Accessibility · Developer Tools · Testing
   **Published:** `8th May 2026`
   **NeKI brief:** Provides a command-line verifier for iOS build artifacts and project settings. Use it in CI to catch invalid configurations early, while reviewing its checks against your signing, SDK, and reproducibility requirements.
@@ -1715,6 +1766,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift 6.3 Released](https://www.swift.org/blog/swift-6.3-released) — SwiftLee Weekly · Issue 317 — Article · Topics: Swift · Testing
   **Published:** `2026-03-31T14:07:14.000Z`
   **NeKI brief:** Announces Swift 6.3 and summarizes the language, package, and tooling changes in that release. Use it to identify migration candidates, then consult the release notes and proposal links for exact compiler behavior and availability.
+- [Swift 6.3 ReleasedSwift is designed to be the language you reach for at every layer of the software stack. Whether you’re building embedded firmware, internet-scale services, or full-featured mobile apps, Swift delivers strong safety guarantees, performance control when you need it, and expressive language features and APIs.Swift.orgApple Inc.](https://www.swift.org/blog/swift-6.3-released?ref=ioscodereview.com) — iOS Code Review · Issue 76 — Article · Topics: Graphics, Media & Games · Swift · Testing
+  **Published:** `2026-03-30T18:21:46.000Z`
+  **NeKI brief:** Announces Swift 6.3 and summarizes the language, package, and tooling changes in that release. Use it to identify migration candidates, then consult the release notes and proposal links for exact compiler behavior and availability.
+- [YouTube playlist](https://www.youtube.com/watch?v=jAgydnnjj0Y&list=PLeb93j_rsErO182fdoJ4m1p_suKAOcBnM&ref=ioscodereview.com) — iOS Code Review · Issue 75 — Video · Topics: Swift · Testing
+  **Published:** `2026-03-17T06:28:33.000Z`
+  **NeKI brief:** Records YouTube playlist as a visual walkthrough relevant to Swift and Testing. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [Swift Build](https://docs.swift.org/swiftpm/documentation/packagemanagerdocs/swiftbuildpreview) — iOS Dev Weekly · Issue 746 — Article · Topics: Swift · Swift Package Manager · Testing
   **Published:** `13th March 2026`
   **NeKI brief:** Presents swift build for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -1768,7 +1825,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines MVVM and Reducer Pattern in Swift, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [my YouTube series on this app](https://youtube.com/playlist?list=PLg4qABgFp_nRYMtGFdXz8sUeXb2IDxdPL&si=Imqah2BEAj-b-WAM) — SwiftLee Weekly · Issue 306 — Video · Topics: App Distribution & Store Operations · Graphics, Media & Games · Testing
   **Published:** `2026-01-13T15:06:45.000Z`
-  **NeKI brief:** Provides a SwiftUI learning course playlist covering navigation and related interface patterns. Use it as a structured route through implementations, checking each example against current APIs before adopting its presentation or state-management techniques.
+  **NeKI brief:** Documents building and launching an open-source app toward $10K monthly recurring revenue, including releases, App Store review, crashes, growth, pricing, and technical decisions. Useful for connecting product milestones with implementation trade-offs.
 - [Swift Package Manager Mirrors for Local Development](https://kunat.dev/notes/spm-package-mirroring) — iOS Dev Weekly · Issue 738 — Article · Topics: Swift · Swift Package Manager · Testing
   **Published:** `9th January 2026`
   **NeKI brief:** Presents Swift Package Manager Mirrors for Local Development, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -1781,9 +1838,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Explicit Dependency Injection Best Practices](https://livsycode.com/best-practices/explicit-dependency-injection) — Those Who Swift · Issue 247 — Article · Topics: Architecture · Dependency Injection · Swift
   **Published:** `2026-01-01`
   **NeKI brief:** Explains explicit dependency injection in Swift and why construction-time wiring improves testability. Use it when removing hidden singletons, defining feature boundaries, and keeping production composition separate from previews and test fixtures.
+- [check out our latest post on the Helm blog](https://helm-app.com/changelog/helm-2025-past-present-future) — iOS CI Newsletter · Issue 84 — Article · Topics: Testing
+  **Published:** `2025-12-31T00:00:00.000Z`
+  **NeKI brief:** Examines check out our latest post on the Helm blog in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [From broken to testable SwiftUI navigation: The decoupled approach of MVVM with coordinators](https://matteomanferdini.com/mvvm-coordinator-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #226 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
   **Published:** `2025-12-22T12:33:43.144Z`
   **NeKI brief:** Builds a decoupled SwiftUI navigation approach combining MVVM and coordinators, with route orchestration outside view bodies. Useful for testing navigation decisions and containing flow complexity as features expand.
+- [🎩 Install mobile apps from CI artifacts](https://shopify.engineering/shopify-tophat-mobile-developer-testing) — iOS CI Newsletter · Issue 83 — Article · Topics: Testing
+  **Published:** `2025-12-16T00:00:00.000Z`
+  **NeKI brief:** Examines Install mobile apps from CI artifacts in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🧪 Automated Accessibility testing with UI Tests](https://github.com/Steady5063/iOS-Automated-Accessibility-Example-Lib) — iOS CI Newsletter · Issue 83 — Source repository · Topics: Accessibility · Developer Tools · Testing
+  **Published:** `2025-12-16T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Automated Accessibility testing with UI Tests, relevant to Accessibility and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [🎥 [FREE WEBINAR] Running iOS Automated Tests on Real Devices](https://streamyard.com/watch/6UKiHuAgBQb7) — iOS CI Newsletter · Issue 83 — Article · Topics: CI/CD & Automation · Personal Essays · Testing
+  **Published:** `2025-12-16T00:00:00.000Z`
+  **NeKI brief:** Examines FREE WEBINAR] Running iOS Automated Tests on Real Devices in the context of CI/CD & Automation and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Full iOS coverage. Fast](https://www.qawolf.com/solutions/ios-testing) — SwiftLee Weekly · Issue 301 — Article · Topics: Testing
   **Published:** `2025-12-09T15:08:23.000Z`
   **NeKI brief:** Explains Full iOS coverage. Fast, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -1808,6 +1877,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Building a Custom Markdown Formatter in Swift: The Journey and Why Unit Tests Matter](https://medium.com/@majidboudaoud/building-a-custom-markdown-formatter-in-swift-the-journey-and-why-unit-tests-matter-d47a80a4847f) — Those Who Swift · Issue 239 — Article · Topics: Swift · Testing
   **Published:** `2025-11-05`
   **NeKI brief:** Examines Building a Custom Markdown Formatter in Swift: The Journey and Why Unit Tests Matter, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [🎥 Speed up your CI/CD pipelines with Selective Testing](https://www.youtube.com/watch?v=U1fJQRbq-TY) — iOS CI Newsletter · Issue 79 — Video · Topics: CI/CD & Automation · Swift · Testing
+  **Published:** `2025-11-02T00:00:00.000Z`
+  **NeKI brief:** Records Speed up your CI/CD pipelines with Selective Testing as a visual walkthrough relevant to CI/CD & Automation and Swift. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [was originally called a “Community Workgroup”](https://forums.swift.org/t/swift-on-android-working-group/77780) — iOS Dev Weekly · Issue 733 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
   **Published:** `31st October 2025`
   **NeKI brief:** Tracks the Swift on Android working group's scope and coordination. Use it to distinguish language/runtime portability from UIKit availability when assessing a shared Swift codebase for Android targets.
@@ -1820,18 +1892,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Now you can test Xcode apps and Swift packages in Zed](https://luxmentis.org/blog/test-xcode-apps-in-zed) — iOS Dev Weekly · Issue 731 — Article · Topics: Swift · Testing · Xcode
   **Published:** `17th October 2025`
   **NeKI brief:** Presents now you can test xcode apps and swift packages in zed for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Run your entire CI/CD pipeline in AWS](https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-m4-and-m4-pro-mac-instances) — iOS CI Newsletter · Issue 78 — Article · Topics: CI/CD & Automation · Performance · Testing
+  **Published:** `2025-10-13T00:00:00.000Z`
+  **NeKI brief:** Examines Run your entire CI/CD pipeline in AWS in the context of CI/CD & Automation and Performance. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🧪 How to test Swift CLIs using GitHub Actions](https://www.ioscoffeebreak.com/issue/issue59) — iOS CI Newsletter · Issue 78 — Article · Topics: Developer Tools · Swift · Testing
+  **Published:** `2025-10-13T00:00:00.000Z`
+  **NeKI brief:** Walks through how to test Swift CLIs using GitHub Actions, with practical context for Developer Tools and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Adopting Liquid Glass: Experiences and Pitfalls](https://juniperphoton.substack.com/p/adopting-liquid-glass-experiences) — Those Who Swift · Issue 235 — Article · Topics: Liquid Glass · Testing
   **Published:** `2025-10-08`
   **NeKI brief:** Examines Adopting Liquid Glass: Experiences and Pitfalls, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [iOS 26: Foundation Model Framework - Code-Along Q&A](https://antongubarenko.substack.com/p/ios-26-foundation-model-framework-f6d) — Those Who Swift · Issue 235 — Article · Topics: AI Development · Foundation & Data Formats · Testing
   **Published:** `2025-10-08`
   **NeKI brief:** Examines iOS 26: Foundation Model Framework - Code-Along Q&A, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [Use your SwiftUI Previews as Snapshot Tests!](https://screenshotbot.io/blog/swiftui-previews-and-prefire-free-snapshot-tests) — iOS CI Newsletter · Issue 77 — Article · Topics: Swift · SwiftUI · Testing
+  **Published:** `2025-10-06T00:00:00.000Z`
+  **NeKI brief:** Examines Use your SwiftUI Previews as Snapshot Tests! in the context of Swift and SwiftUI. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Building SyntaxKit](https://brightdigit.com/tutorials/syntaxkit-swift-code-generation) — iOS Dev Weekly · Issue 729 — Tutorial · Topics: Developer Tools · Macros & Metaprogramming · Swift
   **Published:** `3rd October 2025`
   **NeKI brief:** Presents building syntaxkit for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Leo Dion](https://c.im/@leogdion) — iOS Dev Weekly · Issue 729 — Article · Topics: Macros & Metaprogramming · Testing
   **Published:** `3rd October 2025`
   **NeKI brief:** Presents leo dion for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Run your entire CI/CD pipeline in AWS](https://aws.amazon.com/ec2/instance-types/mac) — iOS CI Newsletter · Issue 76 — Article · Topics: CI/CD & Automation · Performance · Testing
+  **Published:** `2025-10-01T00:00:00.000Z`
+  **NeKI brief:** Examines Run your entire CI/CD pipeline in AWS in the context of CI/CD & Automation and Performance. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [⚖️ Is your project ready to scale?](https://tuist.dev/blog/2025/09/22/scale) — iOS CI Newsletter · Issue 76 — Article · Topics: Dependency Injection · Swift · Testing
+  **Published:** `2025-10-01T00:00:00.000Z`
+  **NeKI brief:** Examines Is your project ready to scale? in the context of Dependency Injection and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [AsyncSequence for Real-Time APIs](https://medium.com/@wesleymatlock/asyncsequence-for-real-time-apis-from-legacy-polling-to-swift-6-elegance-c2b8139c21e0) — Those Who Swift · Issue 234 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `2025-10-01`
   **NeKI brief:** Examines AsyncSequence for Real-Time APIs, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -1870,7 +1957,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** This Swift Discovery article discusses independent app development and the tools or practices surrounding it. Use it for practitioner perspective and idea generation, not as authoritative guidance on current Apple APIs or store policy.
 - [Make Foundation Models Deterministic: Greedy Decoding in Swift](https://www.youtube.com/watch?v=Q6x3VeGlqwg) — Those Who Swift · Issue 228 — Video · Topics: AI Development · Foundation & Data Formats · Swift
   **Published:** `2025-08-20`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Configures Apple's Foundation Models GenerationOptions for greedy decoding so identical inputs produce more repeatable output. Useful for debugging and tests that need reduced sampling variance while recognizing model behavior is not universally deterministic.
 - [Dependencies](https://github.com/pointfreeco/swift-dependencies) — iOS Dev Tools · iOS Dev Tools: ch.at, Mercato, Dependencies — Source repository · Topics: Dependency Injection · Developer Tools · Swift
   **Published:** `2025-08-14T19:53:26.103Z`
   **NeKI brief:** Swift Dependencies models dependency values in a SwiftUI-inspired environment, allowing production implementations to be replaced in tests and previews. Useful for making side effects explicit without threading every service through initializer parameters.
@@ -1895,6 +1982,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Giving Claude Code Eyes to See Your SwiftUI Views](https://twocentstudios.com/2025/07/13/giving-claude-code-eyes-to-see-your-swiftui-views) — Those Who Swift · Issue 224 — Article · Topics: Swift · SwiftUI · Testing
   **Published:** `2025-07-24`
   **NeKI brief:** Presents Giving Claude Code Eyes to See Your SwiftUI Views, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [⚠️ Important updates to GitHub-hosted macOS runners](https://github.blog/changelog/2025-07-11-upcoming-changes-to-macos-hosted-runners-macos-latest-migration-and-xcode-support-policy-updates) — iOS CI Newsletter · Issue 72 — Article · Topics: Developer Tools · macOS & AppKit · Testing
+  **Published:** `2025-07-14T00:00:00.000Z`
+  **NeKI brief:** Examines Important updates to GitHub-hosted macOS runners in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🏷️ Uploading your app to TestFlight using GitHub Actions](https://nowham.dev/posts/github_actions_testflight) — iOS CI Newsletter · Issue 72 — Article · Topics: App Distribution & Store Operations · Developer Tools · Testing
+  **Published:** `2025-07-14T00:00:00.000Z`
+  **NeKI brief:** Examines Uploading your app to TestFlight using GitHub Actions in the context of App Distribution & Store Operations and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🧪 How to run Unit Tests on CI/CD](https://nowham.dev/posts/github_actions_unit_tests) — iOS CI Newsletter · Issue 71 — Article · Topics: CI/CD & Automation · Developer Tools · Testing
+  **Published:** `2025-06-30T00:00:00.000Z`
+  **NeKI brief:** Walks through how to run Unit Tests on CI/CD, with practical context for CI/CD & Automation and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [AI sceptic in LLM adventure land](https://aplus.rs/2025/ai-sceptic-in-llm-adventure-land) — iOS Dev Weekly · Issue 716 — Article · Topics: AI Development · Testing
   **Published:** `27th June 2025`
   **NeKI brief:** Presents ai sceptic in llm adventure land for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -1921,7 +2017,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Discusses Dependency Injection for Modular iOS Apps in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
 - [Getting Started with Unit Testing for iOS Development in Swift](https://www.youtube.com/watch?v=CsuUwdoVwyw) — Those Who Swift · Issue 215 — Video · Topics: Swift · Testing
   **Published:** `2025-05-21`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Introduces unit testing in an Xcode 16 sample app, then strengthens the tests with edge cases, clearer naming, and less brittle assertions. Useful for seeing how an initial test evolves toward maintainable behavioral coverage.
 - [Testing Remote Push Notifications with iOS Simulators](https://www.tiagohenriques.dev/blog/testing-push-notifications-ios-simulators) — SwiftLee Weekly · Issue 272 — Article · Topics: App Services & Extensions · Testing · Xcode
   **Published:** `2025-05-20T14:12:58.000Z`
   **NeKI brief:** Explains Testing Remote Push Notifications with iOS Simulators, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -1949,6 +2045,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Test Scoping Traits](https://github.com/swiftlang/swift-evolution/blob/main/proposals/testing/0007-test-scoping-traits.md) — Fatbobman’s Swift Weekly · Issue 82 — Source repository · Topics: Concurrency · Swift · Testing
   **Published:** `2025-05-05T12:02:30.935Z`
   **NeKI brief:** Proposes Swift Testing scoping traits that use TaskLocal context to establish isolated setup and teardown behavior. Follow it when async tests need predictable per-test environment control without global mutable configuration.
+- [💨 Speed up your CI/CD pipelines by running Unit Tests in parallel](https://nowham.dev/posts/parallelize_unit_tests) — iOS CI Newsletter · Issue 67 — Article · Topics: CI/CD & Automation · Personal Essays · Testing
+  **Published:** `2025-05-04T00:00:00.000Z`
+  **NeKI brief:** Examines Speed up your CI/CD pipelines by running Unit Tests in parallel in the context of CI/CD & Automation and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Enforce Your Architecture in Swift with Harmonize](https://itnext.io/goodbye-code-reviews-hello-harmonize-0a49e2872b5a) — iOS Dev Weekly · Issue 710 — Article · Topics: Architecture · Objective-C & Cocoa · Swift
   **Published:** `2nd May 2025`
   **NeKI brief:** Presents enforce your architecture in swift with harmonize for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -1957,19 +2056,31 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Presents Applying to, prepping for, and speaking at Deep Dish Swift, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [How to profile a SwiftUI app's performance?](https://www.youtube.com/watch?v=Dyh-ymg-qAo) — Those Who Swift · Issue 212 — Video · Topics: Performance · Swift · SwiftUI
   **Published:** `2025-04-30`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Profiles a SwiftUI app with Instruments to locate unexpected body reevaluations and slow code. The walkthrough covers collecting a representative trace, interpreting redraw behavior, and distinguishing measured bottlenecks from assumptions.
 - [latest post](https://snopia.net/en/blog/recipe-sticker-effect-swiftui) — iOS Dev Weekly · Issue 709 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `25th April 2025`
   **NeKI brief:** Presents latest post for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Swift Testing Challenge: Can You Refactor This?](https://www.mobiledevdiary.com/posts/swift-testing-challange-can-you-refactor-this) — Those Who Swift · Issue 211 — Article · Topics: Concurrency · Swift · Testing
   **Published:** `2025-04-24`
   **NeKI brief:** Examines Swift Testing Challenge: Can You Refactor This?, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [Workflow that runs unit tests on all available platforms on every push to main and every push to a Pull Request targetting the main branch](https://github.com/polpielladev/reading-time/blob/main/.github/workflows/main.yml) — iOS CI Newsletter · Issue 65 — Source repository · Topics: CI/CD & Automation · Developer Tools · Swift
+  **Published:** `2025-04-06T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Workflow that runs unit tests on all available platforms on every push to main and every push to a Pull…, relevant to CI/CD & Automation and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [📦 Swiftly 1.0: Apple’s own Swift toolchain manager](https://www.swift.org/blog/introducing-swiftly_10) — iOS CI Newsletter · Issue 65 — Article · Topics: Swift · Testing · Xcode
+  **Published:** `2025-04-06T00:00:00.000Z`
+  **NeKI brief:** This technical resource covers Swiftly 1.0 as a Swift toolchain manager. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [✂️ How Duolingo reduced 70% of their manual regression tests using AI](https://blog.duolingo.com/reduced-regression-testing) — iOS CI Newsletter · Issue 65 — Article · Topics: AI Development · Testing
+  **Published:** `2025-04-06T00:00:00.000Z`
+  **NeKI brief:** Examines How Duolingo reduced 70% of their manual regression tests using AI in the context of AI Development and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Modern URL construction in Swift](https://www.swiftbysundell.com/articles/modern-url-construction-in-swift?ref=createwithswift.com) — Create with Swift · Issue 55 — Article · Topics: Foundation & Data Formats · Swift
   **Published:** `2025-04-04T15:49:40.000Z`
   **NeKI brief:** Builds URLs with modern Foundation components rather than string concatenation. Use it when paths, query items, and percent encoding must remain correct under optional or user-provided values.
 - [Swiftdata Architecture Patterns And PracticesBlog about iOS development and musings on technologyAzamSharpMohammad Azam](https://azamsharp.com/2025/03/28/swiftdata-architecture-patterns-and-practices.html?ref=createwithswift.com) — Create with Swift · Issue 55 — Article · Topics: Architecture · Objective-C & Cocoa · Swift
   **Published:** `2025-04-04T15:49:40.000Z`
   **NeKI brief:** Explains Swiftdata Architecture Patterns And Practices, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [Discover the Top 10 Best Practices in App Distribution](https://appcircle.io/blog/10-best-practices-in-app-distribution-for-testing) — SwiftLee Weekly · Issue 265 — Article · Topics: CI/CD & Automation · Testing
+  **Published:** `2025-04-01T14:13:42.000Z`
+  **NeKI brief:** Examines Discover the Top 10 Best Practices in App Distribution in the context of CI/CD & Automation and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Deploying a Swift Server App](https://swifttoolkit.dev/posts/deploy-fly-railway) — iOS Dev Weekly · Issue 705 — Article · Topics: Swift · Testing
   **Published:** `28th March 2025`
   **NeKI brief:** Presents deploying a swift server app for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -1991,6 +2102,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Snapshot Testing](https://github.com/pointfreeco/swift-snapshot-testing) — Fatbobman’s Swift Weekly · Issue 72 — Source repository · Topics: Swift · SwiftUI · Testing
   **Published:** `2025-02-24T12:03:49.550Z`
   **NeKI brief:** SnapshotTesting can launch UI tests with a specified content-size category, making large accessibility sizes reproducible in image assertions. Follow it to catch Dynamic Type layout regressions that ordinary interaction tests may miss.
+- [Test on all available platforms:](https://github.com/AvdLee/appstoreconnect-swift-sdk/blob/master/.github/workflows/ci.yml) — iOS CI Newsletter · Issue 62 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
+  **Published:** `2025-02-23T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Test on all available platforms, relevant to App Distribution & Store Operations and CI/CD & Automation. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Leverage](https://www.massicotte.org/leverage) — iOS Dev Weekly · Issue 700 — Article · Topics: Testing
   **Published:** `21st February 2025`
   **NeKI brief:** Argues for withholding beta feedback and participation as leverage in response to Apple's platform decisions. This is an opinion and community-policy perspective, useful for understanding developer sentiment rather than implementation guidance.
@@ -2000,6 +2114,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [VS Code extension for Swift update](https://www.swift.org/blog/vscode-swift-2) — Those Who Swift · Issue 201 — Article · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-02-12`
   **NeKI brief:** Introduces updates to the VS Code extension for Swift. Follow it when comparing editor workflows, language-server capabilities, and debugging support outside Xcode, while checking the extension and toolchain versions required by a project.
+- [🍎 Running Xcode in unsupported macOS versions](https://marcelvoss.com/2025/tricking-xcode-into-running-on-an-unsupported-macos) — iOS CI Newsletter · Issue 61 — Article · Topics: Apple Platform Ecosystem · Personal Essays · Xcode
+  **Published:** `2025-02-09T00:00:00.000Z`
+  **NeKI brief:** Examines Running Xcode in unsupported macOS versions in the context of Apple Platform Ecosystem and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Swift Everywhere: Bringing Swift Packages to Android](https://skip.tools/blog/android-native-swift-packages) — iOS Dev Weekly · Issue 697 — Article · Topics: Cross-Platform & Web · Swift · Testing
   **Published:** `31st January 2025`
   **NeKI brief:** Presents swift everywhere: bringing swift packages to android for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -2021,12 +2138,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The latest research results announced by Professor Chen Gang's team in China](https://www.stdaily.com/web/gdxw/2024-11/29/content_266525.html) — Fatbobman’s Swift Weekly · Issue 63 — Article · Topics: Cross-Platform & Web · Objective-C & Cocoa · Testing
   **Published:** `2024-12-23T12:01:34.355Z`
   **NeKI brief:** Provides contextual background on The latest research results announced by Professor Chen Gang's team in China, useful for understanding the surrounding product, policy, or ecosystem issue before drawing technical or business conclusions.
+- [📸 An insight into OpenAI’s snapshot testing](https://www.emergetools.com/blog/posts/openai-on-mobile-development-previews-and-snapshot-testing) — iOS CI Newsletter · Issue 57 — Article · Topics: AI Development · Testing
+  **Published:** `2024-12-17T00:00:00.000Z`
+  **NeKI brief:** Examines An insight into OpenAI’s snapshot testing in the context of AI Development and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Enhance Xcode Previews with Unit Test Coverage](https://www.emergetools.com/blog/posts/unit-test-xcode-previews) — iOS Dev Weekly · Issue 690 — Article · Topics: Testing · Xcode
   **Published:** `6th December 2024`
   **NeKI brief:** Presents enhance xcode previews with unit test coverage for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Swift Testing: Parameters](https://swiftwithmajid.com/2024/11/12/introducing-swift-testing-parameterized-tests?ref=ioscodereview.com) — iOS Code Review · Issue 74 — Article · Topics: Swift · Testing
+  **Published:** `2024-12-04T11:30:50.000Z`
+  **NeKI brief:** Shows parameterized Swift Testing cases that reuse one test body across input matrices. Useful for expanding edge-case coverage without duplicating assertion and setup code.
+- [Swift Testing: Traits & Tags](https://swiftwithmajid.com/2024/11/05/introducing-swift-testing-traits?ref=ioscodereview.com) — iOS Code Review · Issue 74 — Article · Topics: Swift · Testing
+  **Published:** `2024-12-04T11:30:50.000Z`
+  **NeKI brief:** Uses Swift Testing traits to tag, condition, and customize tests. Useful for expressing platform requirements and execution policy close to the test rather than in external schemes.
+- [Swift Testing: Suites](https://swiftwithmajid.com/2024/10/29/introducing-swift-testing-lifecycle?ref=ioscodereview.com) — iOS Code Review · Issue 74 — Article · Topics: Macros & Metaprogramming · Swift · Testing
+  **Published:** `2024-12-04T11:30:50.000Z`
+  **NeKI brief:** Explains Swift Testing lifecycle hooks and how setup or teardown scopes differ from XCTest methods. Useful for isolating shared fixtures without leaking state between parallel tests.
+- [SwiftLee](https://www.avanderlee.com/swift-testing/require-macro?ref=ioscodereview.com) — iOS Code Review · Issue 74 — Article · Topics: Macros & Metaprogramming · Swift · Testing
+  **Published:** `2024-12-04T11:30:50.000Z`
+  **NeKI brief:** Explains #require as Swift Testing’s throwing precondition for setup and optional unwrapping, contrasting its fail-fast behavior with #expect and showing how failure messages retain useful source context.
+- [Danny Walls](https://www.donnywals.com/testing-requirements-with-require-in-swift-testing?ref=ioscodereview.com) — iOS Code Review · Issue 74 — Article · Topics: Macros & Metaprogramming · Swift · Testing
+  **Published:** `2024-12-04T11:30:50.000Z`
+  **NeKI brief:** #require turns prerequisite failures into thrown test exits, separating invalid setup from behavioral assertions; use it sparingly so ordinary expectation failures still report together.
+- [Xcode 16: Try Swift Testing](https://swiftwithmajid.com/2024/10/22/introducing-swift-testing-basics?ref=ioscodereview.com) — iOS Code Review · Issue 73 — Article · Topics: Swift · Testing · Xcode
+  **Published:** `2024-11-20T11:14:23.000Z`
+  **NeKI brief:** Introduces Swift Testing's test declarations, expectations, and setup model. Useful as a migration starting point when replacing XCTest boilerplate while keeping behavioral assertions readable.
 - [Active ReviewSE-0453Vector, a fixed-size array](https://github.com/apple/swift-evolution/blob/main/proposals/0453-vector.md) — SwiftLee Weekly · Issue 246 — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `2024-11-19T12:58:52.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0453InlineArray, a fixed-size array. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [📦 Bitrise Release Management is now CI agnostic!](https://bitrise.io/blog/post/bitrise-release-management-introduces-ci-agnostic-distribution-tool-for-testing-and-releasing-to-stores) — iOS CI Newsletter · Issue 55 — Article · Topics: CI/CD & Automation · Developer Career & Practice · Testing
+  **Published:** `2024-11-17T00:00:00.000Z`
+  **NeKI brief:** Summarises Bitrise Release Management is now CI agnostic! for CI/CD & Automation and Developer Career & Practice. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [Swift Package Index source code](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server) — iOS Dev Weekly · Issue 687 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `15th November 2024`
   **NeKI brief:** Examines open-source, focusing on georgios recommends the point-free swift-snapshot-testing which we also use to test the rendered html output from the…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2042,6 +2183,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Type-Driven Design with Swift](https://swiftology.io/collections/type-driven-design?issue=056) — Fatbobman’s Swift Weekly · Issue 56 — Article · Topics: Developer Community & Business · Swift · Testing
   **Published:** `2024-11-04T12:02:30.932Z`
   **NeKI brief:** This Swiftology collection gathers type-driven design material for modeling domain rules with compiler-checked types. Use it to explore stronger invariants and API boundaries, balancing abstraction costs against the application's actual complexity.
+- [🚨 Important update to Bitrise’s App Secrets API](https://bitrise.io/blog/post/important-updates-changes-to-app-secrets-api) — iOS CI Newsletter · Issue 54 — Article · Topics: Testing
+  **Published:** `2024-11-03T00:00:00.000Z`
+  **NeKI brief:** Examines Important update to Bitrise’s App Secrets API in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Introducing Swift Testing. Basics.](https://swiftwithmajid.com/2024/10/22/introducing-swift-testing-basics?ref=createwithswift.com) — Create with Swift · Issue 34 — Article · Topics: Macros & Metaprogramming · Swift · Testing
   **Published:** `2024-11-01T19:30:40.000Z`
   **NeKI brief:** Introduces Swift Testing's test declarations, expectations, and setup model. Useful as a migration starting point when replacing XCTest boilerplate while keeping behavioral assertions readable.
@@ -2066,15 +2210,48 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Quick](https://github.com/Quick/Quick) — iOS Dev Tools · iOS Dev Tools: Jazzy, Concentric Onboarding, Quick — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `2024-10-10T16:40:59.907Z`
   **NeKI brief:** Quick adds a behavior-driven testing DSL for Swift and Objective-C, organizing examples with describe/context blocks and readable expectations. Its companion Nimble matcher style is useful when comparing specification-oriented tests with XCTest assertions.
+- [🧪 Converting Fastlane lanes to shell scripts](https://danielsaidi.com/blog/2024/10/03/replacing-fastlane-with-shell-scripts) — iOS CI Newsletter · Issue 52 — Article · Topics: CI/CD & Automation · Developer Tools · Testing
+  **Published:** `2024-10-06T00:00:00.000Z`
+  **NeKI brief:** Examines Converting Fastlane lanes to shell scripts in the context of CI/CD & Automation and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [📱 Install older simulator runtimes on CI/CD](https://testableapple.com/install-ios-simulator-runtimes) — iOS CI Newsletter · Issue 51 — Article · Topics: CI/CD & Automation · Objective-C & Cocoa · Testing
+  **Published:** `2024-09-23T00:00:00.000Z`
+  **NeKI brief:** Examines Install older simulator runtimes on CI/CD in the context of CI/CD & Automation and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [XcodeSelectiveTesting](https://github.com/mikeger/XcodeSelectiveTesting) — iOS Dev Tools · iOS Dev Tools: UItesting.tools, XcodeSelectiveTesting, Suborbital — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `2024-09-19T13:14:54.513Z`
+  **NeKI brief:** Provides the source and change history for XcodeSelectiveTesting, relevant to Architecture and Testing. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Codemagic CI/CD for mobile teams](https://codemagic.io/start) — iOS CI Newsletter · Issue 50 — Article · Topics: CI/CD & Automation · Testing · Xcode
+  **Published:** `2024-09-08T00:00:00.000Z`
+  **NeKI brief:** Examines Codemagic CI/CD for mobile teams in the context of CI/CD & Automation and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [📦 How to test your Swift executables](https://swifttoolkit.dev/posts/testing-commands-mockable) — iOS CI Newsletter · Issue 50 — Article · Topics: Developer Tools · Swift · Testing
+  **Published:** `2024-09-08T00:00:00.000Z`
+  **NeKI brief:** Walks through how to test your Swift executables, with practical context for Developer Tools and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [The Case of the Crimson Test Suite](https://editorscut.gumroad.com/l/testing) — iOS Dev Weekly · Issue 677 — Article · Topics: Swift · Testing
   **Published:** `6th September 2024`
   **NeKI brief:** Presents the case of the crimson test suite for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [📦 Define ownership of Swift Package Manager dependencies](https://alejandromp.com/blog/swift-package-manager-dependency-owners) — iOS CI Newsletter · Issue 49 — Article · Topics: Dependency Injection · Swift · Swift Package Manager
+  **Published:** `2024-08-25T00:00:00.000Z`
+  **NeKI brief:** Examines Define ownership of Swift Package Manager dependencies in the context of Dependency Injection and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [turn this feature on and get alerts when you accidentally leak secrets in your repo](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/introduction/about-secret-scanning) — iOS CI Newsletter · Issue 49 — Source repository · Topics: Developer Tools · Security & Privacy · Testing
+  **Published:** `2024-08-25T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for turn this feature on and get alerts when you accidentally leak secrets in your repo, relevant to Developer Tools and Security & Privacy. Inspect its implementation, open issues, and release state before adopting the approach.
 - [PragmaConf](https://pragmaconference.com/) — iOS Dev Tools · iOS Dev Tools: FreemiumKit, PR Focus, Swift Testing — Article · Topics: Developer Community & Business · Swift · Testing
   **Published:** `2024-08-22T19:06:22.711Z`
   **NeKI brief:** Provides the Pragmaconference event hub for talks and community sessions about Apple development. Use it to discover practitioner perspectives and verify session details before relying on a conference presentation.
 - [Non-Sendable types are cool too you know](https://www.massicotte.org/non-sendable) — iOS Dev Weekly · Issue 672 — Article · Topics: Concurrency · Testing
   **Published:** `2nd August 2024`
   **NeKI brief:** Presents non-sendable types are cool too you know for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [🤯 Automatically migrate suites from XCTest to Swift Testing](https://github.com/giginet/swift-testing-revolutionary) — iOS CI Newsletter · Issue 47 — Source repository · Topics: Apple Platform Ecosystem · Swift · Testing
+  **Published:** `2024-07-28T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Automatically migrate suites from XCTest to Swift Testing, relevant to Apple Platform Ecosystem and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
+- [swift-testing](https://github.com/apple/swift-testing) — iOS CI Newsletter · Issue 47 — Source repository · Topics: Apple Platform Ecosystem · Swift · Testing
+  **Published:** `2024-07-28T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for new macro-based open-source proof of concept Swift package, relevant to Macros & Metaprogramming and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Line](https://line.me/en) — iOS CI Newsletter · Issue 47 — Article · Topics: CI/CD & Automation · Swift · Testing
+  **Published:** `2024-07-28T00:00:00.000Z`
+  **NeKI brief:** Examines Line in the context of CI/CD & Automation and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🧪 How to build and run tests for an iOS app using GitHub Actions](https://brightinventions.pl/blog/ios-build-run-tests-github-actions) — iOS CI Newsletter · Issue 47 — Article · Topics: CI/CD & Automation · Developer Tools · Testing
+  **Published:** `2024-07-28T00:00:00.000Z`
+  **NeKI brief:** Walks through how to build and run tests for an iOS app using GitHub Actions, with practical context for CI/CD & Automation and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Xcode 16’s Entry macro](https://www.donnywals.com/adding-values-to-the-swiftui-environment-with-xcode-16s-entry-macro) — iOS Dev Weekly · Issue 670 — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
   **Published:** `19th July 2024`
   **NeKI brief:** Presents xcode 16’s entry macro for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -2084,12 +2261,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Make SF Symbols Wiggle](https://www.rudrank.com/exploring-swiftui-make-sf-symbols-wiggle) — iOS Dev Weekly · Issue 670 — Article · Topics: Swift · SwiftUI · Testing
   **Published:** `19th July 2024`
   **NeKI brief:** Presents make sf symbols wiggle for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [🧪 Detecting flaky tests using Tuist](https://tuist.io/blog/2024/07/10/detecting-flaky-tests) — iOS CI Newsletter · Issue 46 — Article · Topics: Testing
+  **Published:** `2024-07-14T00:00:00.000Z`
+  **NeKI brief:** Examines Detecting flaky tests using Tuist in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [😥 Release tooling and knowledge is way too distributed](https://www.runway.team/blog/your-mobile-teams-knowledge-and-release-tooling-is-way-too-distributed) — iOS CI Newsletter · Issue 46 — Article · Topics: Testing
+  **Published:** `2024-07-14T00:00:00.000Z`
+  **NeKI brief:** Summarises Release tooling and knowledge is way too distributed for Testing. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [Mastering the Swift Testing Framework](https://fatbobman.com/en/posts/mastering-the-swift-testing-framework?ref=createwithswift.com) — Create with Swift · Issue 20 — Article · Topics: Apple Platform Ecosystem · Swift · Testing
   **Published:** `2024-07-05T15:00:56.000Z`
   **NeKI brief:** Swift Testing replaces XCTest's class-and-method conventions with traits, parameterized cases, and expression-based expectations. The walkthrough is valuable for mapping setup, discovery, and failure reporting onto a modern Swift-native test suite.
 - [Plotting a Path to a Package Ecosystem without Data Race Errors](https://www.swift.org/blog/ready-for-swift-6) — iOS Dev Weekly · Issue 668 — Article · Topics: Swift · Swift Package Manager · Testing
   **Published:** `5th July 2024`
   **NeKI brief:** Presents plotting a path to a package ecosystem without data race errors for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [🧐 How GitHub reduced testing time for iOS apps with new runner features](https://github.blog/2024-06-03-how-github-reduced-testing-time-for-ios-apps-with-new-runner-features) — iOS CI Newsletter · Issue 44 — Article · Topics: CI/CD & Automation · Developer Tools · Testing
+  **Published:** `2024-06-16T00:00:00.000Z`
+  **NeKI brief:** Examines How GitHub reduced testing time for iOS apps with new runner features in the context of CI/CD & Automation and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Getting started with Swift Testing](https://www.polpiella.dev/swift-testing?ref=createwithswift.com) — Create with Swift · Issue 17 — Article · Topics: Swift · Testing
   **Published:** `2024-06-14T15:15:32.000Z`
   **NeKI brief:** Introduces Swift Testing in the Swift 6 toolchain, then maps representative XCTest cases to the macro-based test and expectation APIs.
@@ -2099,6 +2285,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [recently accepted](https://github.com/swiftlang/swift-evolution/pull/2466) — iOS Dev Weekly · Issue 665 — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `14th June 2024`
   **NeKI brief:** Presents recently accepted for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [💨 Save CI resources by running tests before committing](https://antran.app/2024/ios_selective_testing) — iOS CI Newsletter · Issue 43 — Article · Topics: Architecture · Personal Essays · Testing
+  **Published:** `2024-06-02T00:00:00.000Z`
+  **NeKI brief:** Examines Save CI resources by running tests before committing in the context of Architecture and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Jogo](https://www.avanderlee.com/swift/chatgpt-code-generation-prompts?ref=createwithswift.com) — Create with Swift · Issue 15 — Article · Topics: AI Development · Swift
   **Published:** `2024-05-31T15:00:03.000Z`
   **NeKI brief:** Presents five prompt patterns for generating Swift code, then stresses supplying context, constraints, and tests so output can be reviewed. Useful as a practical checklist for making AI-assisted coding reproducible rather than speculative.
@@ -2120,6 +2309,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Craftsmanship & Consideration](https://www.david-smith.org/blog/2024/05/15/craftsmanship-and-consideration?issue=031) — Fatbobman’s Swift Weekly · Issue 32 — Article · Topics: Testing
   **Published:** `2024-05-20T12:02:52.341Z`
   **NeKI brief:** David Smith reflects on software craftsmanship and consideration for users and teammates. Use it as engineering-practice perspective that complements, but does not replace, concrete accessibility, quality, or review standards.
+- [15th of March, the Swift language team created the release branch for Swift 6](https://forums.swift.org/t/swift-6-0-release-process/70220) — iOS CI Newsletter · Issue 42 — Article · Topics: Objective-C & Cocoa · Swift · Swift Package Manager
+  **Published:** `2024-05-19T00:00:00.000Z`
+  **NeKI brief:** The Swift 6 release-process discussion records how toolchains, proposals, and release milestones are coordinated. Use it to understand version timing and migration planning rather than treating a release label as a complete compatibility guarantee.
+- [making snapshots from this branch regularly available for download](https://www.swift.org/download) — iOS CI Newsletter · Issue 42 — Article · Topics: Objective-C & Cocoa · Swift · Swift Package Manager
+  **Published:** `2024-05-19T00:00:00.000Z`
+  **NeKI brief:** Examines making snapshots from this branch regularly available for download in the context of Objective-C & Cocoa and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Migrating from CocoaPods to Tuist at Playtomic](https://dev.to/playtomic/migrating-from-cocoapods-to-tuist-at-playtomic-26ed?issue=031) — Fatbobman’s Swift Weekly · Issue 31 — Article · Topics: Architecture · Composable Architecture · Objective-C & Cocoa
   **Published:** `2024-05-13T12:02:47.849Z`
   **NeKI brief:** Describes a production migration from CocoaPods to Tuist, including project-generation and dependency-management implications. Follow it when planning a build-system transition and identifying CI or target-configuration risks.
@@ -2143,7 +2338,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Presents boost your ios workflow with orka toolkit for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Improve Test Clarity (TDD with SwiftUI)](https://www.youtube.com/watch?v=AF8cCxrJr8M) — SwiftUI Weekly · SwiftUI Weekly - Issue #183 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2024-04-22T17:42:59.039Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Refactors a SwiftUI microtest so its assertions expose intent while setup and interaction details remain hidden. Useful for test-driven development discussions about readable tests before expanding a suite.
 - [Veertu](https://veertu.com/) — iOS Dev Tools · iOS Dev tools: Chime, Parse Platform, Veertu — Article · Topics: CI/CD & Automation · Testing
   **Published:** `2024-04-18T13:45:11.063Z`
   **NeKI brief:** Veertu provides ephemeral macOS virtual machines intended for iOS continuous-integration testing without dedicated physical hardware. Use it when comparing reproducible macOS build capacity, accounting for licensing, performance, provisioning, and simulator constraints.
@@ -2153,21 +2348,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Quick and Painless Persistency on iOS](https://www.swiftjectivec.com/stupid-and-quick-persistency-on-ios-with-swift) — iOS Dev Weekly · Issue 655 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `5th April 2024`
   **NeKI brief:** Presents quick and painless persistency on ios for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [new Benchmarks Swift Package](https://github.com/ordo-one/package-benchmark) — iOS CI Newsletter · Issue 38 — Source repository · Topics: Performance · Swift · Swift Package Manager
+  **Published:** `2024-03-24T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for new Benchmarks Swift Package, relevant to Performance and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Optionals in Swift explained: 5 things you should know](https://www.avanderlee.com/swift/optionals-in-swift-explained-5-things-you-should-know?ref=createwithswift.com) — Create with Swift · Issue 5 — Article · Topics: Architecture · Swift · Testing
   **Published:** `2024-03-22T16:00:01.000Z`
   **NeKI brief:** Walks through optional binding, map/flatMap, nil coalescing, and optional chaining with contrasting examples. Useful for choosing explicit failure handling instead of piling force unwraps into production code.
 - [Complementing Unit Tests with Performance Checks](https://www.swift.org/blog/benchmarks) — iOS Dev Weekly · Issue 653 — Article · Topics: Performance · Swift · Testing
   **Published:** `22nd March 2024`
   **NeKI brief:** Presents complementing unit tests with performance checks for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Unit Test the Observation FrameworkMake your iOS 17 view models rock-solidJacob’s Tech TavernJacob Bartlett](https://jacobbartlett.substack.com/p/unit-test-the-observation-framework) — iOS Code Review · Issue 66 — Article · Topics: Combine & Reactive Programming · Observation & State Management · Testing
+  **Published:** `2024-03-18T13:34:21.000Z`
+  **NeKI brief:** Examines Unit Test the Observation FrameworkMake your iOS 17 view models rock-solidJacob’s Tech TavernJacob Bartlett in the context of Combine & Reactive Programming and Observation & State Management. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Concurrency Recipes](https://github.com/mattmassicotte/ConcurrencyRecipes) — iOS Dev Weekly · Issue 652 — Source repository · Topics: Concurrency · Developer Tools · Testing
   **Published:** `15th March 2024`
   **NeKI brief:** Collects practical Swift concurrency examples covering isolation, tasks, actors, and Sendable boundaries. Use the repository as a pattern library, adapting each recipe to current Swift 6 diagnostics and your app’s ownership model.
+- [released Swift 5.10](https://www.swift.org/blog/swift-5.10-released?ref=createwithswift.com) — Create with Swift · Issue 3 — Article · Topics: Swift · Testing · Xcode
+  **Published:** `2024-03-08T16:00:49.000Z`
+  **NeKI brief:** Summarises What's new in Swift 5.10 for Swift. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
+- [Automating SwiftUI Accessibility Audits in Xcode 15](https://holyswift.app/xcode-15-new-feature-streamlined-accessibility-audits) — SwiftUI Weekly · SwiftUI Weekly - Issue #176 — Article · Topics: Accessibility · Swift · Xcode
+  **Published:** `2024-02-12T08:54:16.360Z`
+  **NeKI brief:** Examines Finding SwiftUI accessibility issues automatically in the context of Accessibility and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Naming unit tests](https://qualitycoding.org/unit-test-naming?ref=ioscodereview.com) — iOS Code Review · Issue 62 — Article · Topics: Testing
+  **Published:** `2024-01-18T12:04:53.000Z`
+  **NeKI brief:** Examines Naming unit tests in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [📝 Platform-specific release notes with Xcode Cloud](https://www.finnvoorhees.com/words/platform-specific-release-notes-with-xcode-cloud) — iOS CI Newsletter · Issue 33 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Xcode
+  **Published:** `2024-01-14T00:00:00.000Z`
+  **NeKI brief:** Summarises Platform-specific release notes with Xcode Cloud for App Distribution & Store Operations and Apple Platform Ecosystem. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [Flora Damiano](https://www.behance.net/FloraDamiano) — iOS Dev Weekly · Issue 643 — Article · Topics: Apple Platform Ecosystem · Testing
   **Published:** `12th January 2024`
   **NeKI brief:** Flora Damiano's portfolio showcases visual and interaction design work. Use it as a design reference when discussing visual language, illustration, and product presentation rather than as an engineering source.
 - [threading torture test](https://github.com/LucasVanDongen/ThreadTortureTests) — iOS Dev Weekly · Issue 642 — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `5th January 2024`
   **NeKI brief:** Presents threading torture test for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [🥉 A new approach to testing in Swift](https://forums.swift.org/t/a-new-approach-to-testing-in-swift/67425) — iOS CI Newsletter · Issue 32 — Article · Topics: Macros & Metaprogramming · Swift · Testing
+  **Published:** `2023-12-31T00:00:00.000Z`
+  **NeKI brief:** Examines A new macro-based approach to testing in Swift in the context of Macros & Metaprogramming and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Online tool](https://app.quicktype.io/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi — Article · Topics: Testing
   **Published:** `2023-12-28T14:58:37.485Z`
   **NeKI brief:** Quicktype's web application provides quick model-generation experiments, while its CLI supports generation inside projects. Use it for a fast first pass over JSON payloads, then reproduce and review the result through a pinned local workflow.
@@ -2180,12 +2396,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Testing network calls using URLProtocol](https://arturgruchala.com/testing-network-calls-using) — Fatbobman’s Swift Weekly · Issue 11 — Article · Topics: Cross-Platform & Web · Swift · Testing
   **Published:** `2023-12-18T22:00:30.856Z`
   **NeKI brief:** Uses URLProtocol interception to test network calls without a live server. Follow it when isolating request construction, response decoding, and error handling in deterministic XCTest cases.
+- [latest issue of iOS Dev Weekly](https://iosdevweekly.com/issues/640) — iOS CI Newsletter · Issue 31 — Article · Topics: Testing
+  **Published:** `2023-12-17T00:00:00.000Z`
+  **NeKI brief:** Examines latest issue of iOS Dev Weekly in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Add paywalls in one line of code](https://www.revenuecat.com/docs/paywalls) — iOS Dev Weekly · Issue 640 — Article · Topics: App Distribution & Store Operations · Testing
   **Published:** `15th December 2023`
   **NeKI brief:** RevenueCat documentation for configuring and presenting in-app paywalls through its SDK and dashboard tooling. Use it when evaluating a subscription implementation, validating entitlement flow choices, or integrating RevenueCat's paywall APIs into an Apple-platform app.
+- [Automating Memory Leak Detection with CI Integration for iOSA solution to automate memory leak detection in iOS DevelopmentLevel Up CodingTuan Hoang (Eric)](https://levelup.gitconnected.com/automating-memory-leak-detection-with-ci-integration-for-ios-380f08a55f0b?ref=ioscodereview.com) — iOS Code Review · Issue 61 — Article · Topics: Developer Tools · Testing
+  **Published:** `2023-12-07T13:38:43.000Z`
+  **NeKI brief:** Examines Automating Memory Leak Detection with CI Integration for iOSA solution to automate memory leak detection in… in the context of Developer Tools and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [✨ How and why to use Bazel to build your iOS projects](https://blog.codemagic.io/bazel-how-i-learned-to-stop-worrying-and-love-building-systems) — iOS CI Newsletter · Issue 30 — Article · Topics: Testing
+  **Published:** `2023-12-03T00:00:00.000Z`
+  **NeKI brief:** Examines How and why to use Bazel to build your iOS projects in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Living with flaky tests (temporarily)](https://holyswift.app/unit-test-expected-failures-in-swift?ref=ioscodereview.com) — iOS Code Review · Issue 60 — Article · Topics: Swift · Testing
+  **Published:** `2023-11-23T12:38:53.000Z`
+  **NeKI brief:** Examines Living with flaky tests (temporarily) in the context of Swift and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Inferno – SwiftUI + Metal](https://www.youtube.com/watch?v=EgzWwgRpUuw) — iOS Dev Weekly · Issue 636 — Video · Topics: Developer Career & Practice · Graphics, Media & Games · Swift
   **Published:** `17th November 2023`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds Metal shaders for SwiftUI effects including recoloring, animated gradients, waves, loupe distortion, and custom transitions. The examples show how fragment shaders receive view-relative data and drive GPU-rendered visual changes.
 - [Live Panel Discussion: Mobile App Security Testing for Developers](https://vpdae.com/redirect/tthks72z1qmeaja4jkwn3ij5z0k) — iOS Dev Tools · 🔨 MotionScape, XCTestParametrizedMacro, Swiftly — Article · Topics: Security & Privacy · Testing
   **Published:** `2023-11-16T15:47:07.018Z`
   **NeKI brief:** This VPDAE redirect is an attribution link to an external resource. Resolve it before use, verify the destination and publisher, and assess licensing, privacy, and technical relevance rather than treating the redirect as authoritative content.
@@ -2195,9 +2423,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Missing Xcode run test buttons](https://paul-samuels.com/blog/2023/10/24/missing-xcode-run-test-buttons) — iOS Dev Weekly · Issue 635 — Article · Topics: Testing · Xcode
   **Published:** `10th November 2023`
   **NeKI brief:** Troubleshoots missing Xcode Run and Test controls by tracing scheme and project configuration, a focused diagnostic checklist for broken local test workflows.
+- [Swift Algorithms - split an array into chunks, and more](https://www.swift.org/blog/swift-algorithms?ref=ioscodereview.com) — iOS Code Review · Issue 59 — Article · Topics: Performance · Swift · Testing
+  **Published:** `2023-11-09T13:26:49.000Z`
+  **NeKI brief:** Examines Swift Algorithms - split an array into chunks, and more in the context of Performance and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Breadcrumbs](https://github.com/icanzilb/Breadcrumbs) — iOS Dev Weekly · Issue 633 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `27th October 2023`
   **NeKI brief:** Presents breadcrumbs for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Writing better unit tests](https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d?ref=ioscodereview.com) — iOS Code Review · Issue 58 — Article · Topics: Testing
+  **Published:** `2023-10-26T11:38:39.000Z`
+  **NeKI brief:** Examines Writing better unit tests in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Senior iOS Developer at Xgrid](https://www.xgrid.co/open-positions?jobId=WrsuE00eyuJ8) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit — Article · Topics: Testing
   **Published:** `2023-10-12T15:37:25.698Z`
   **NeKI brief:** This Xgrid careers link advertises a specific open position. Use it as a hiring lead, verifying the role, location, contract, technology expectations, and current availability directly through Xgrid’s official recruitment process.
@@ -2207,6 +2441,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How to use the new inspector SwiftUI view modifier](https://dimillian.medium.com/how-to-use-the-new-inspector-swiftui-view-modifier-9cefb8353beb) — SwiftUI Weekly · SwiftUI Weekly - Issue #161 — Article · Topics: Swift · SwiftUI · Testing
   **Published:** `2023-09-25T21:58:53.226Z`
   **NeKI brief:** Shows the SwiftUI inspector modifier for presenting supplemental controls alongside a view. Useful when adding platform-appropriate inspector panels while reasoning about visibility, content, and state-driven presentation.
+- [actions/checkout](https://github.com/actions/checkout) — iOS CI Newsletter · Issue 25 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `2023-09-24T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for @actions/checkout (v2), relevant to Developer Tools and Testing. Inspect its implementation, open issues, and release state before adopting the approach.
+- [actions/upload-artifact](https://github.com/actions/upload-artifact) — iOS CI Newsletter · Issue 25 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `2023-09-24T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for @actions/upload-artifact (v2), relevant to Developer Tools and Testing. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Swift Typo Detector](https://www.manu.show/2023-08-30-swift-typo-detector) — iOS Dev Weekly · Issue 625 — Article · Topics: Swift · Testing
   **Published:** `1st September 2023`
   **NeKI brief:** Introduces a tool that collects spelling mistakes across a Swift codebase rather than relying only on Xcode’s inline checker. Useful for adding a lightweight documentation-and-comments quality pass to CI or a pre-release maintenance workflow.
@@ -2219,24 +2459,54 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Xcode Search Scopes](https://xcode.tips/search-scopes) — iOS Dev Weekly · Issue 621 — Article · Topics: Objective-C & Cocoa · Swift · Xcode
   **Published:** `4th August 2023`
   **NeKI brief:** Explores Xcode Search Scopes, focusing on i’m a fan of the xcode feature in this latest. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [🔐 How to pass environment variables to Xcode from the CI](https://testableapple.com/xctest-credentials-management) — iOS CI Newsletter · Issue 21 — Article · Topics: Developer Career & Practice · Testing · Xcode
+  **Published:** `2023-07-31T00:00:00.000Z`
+  **NeKI brief:** Walks through how to pass environment variables to Xcode from the CI, with practical context for Developer Career & Practice and Testing. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [Qonto](https://qonto.com/en) — iOS CI Newsletter · Issue 21 — Article · Topics: CI/CD & Automation · Testing
+  **Published:** `2023-07-31T00:00:00.000Z`
+  **NeKI brief:** Examines Qonto in the context of CI/CD & Automation and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Why you should use OSLog in 2023](https://samwize.com/2023/07/25/why-you-should-use-oslog-in-2023) — iOS Dev Weekly · Issue 620 — Article · Topics: Testing
   **Published:** `28th July 2023`
   **NeKI brief:** Explores Why you should use OSLog in 2023, focusing on it’s taken a while to get here, but junda ong. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [🔨 Modifying Xcode project files programmatically](https://testableapple.com/managing-xcode-project-files-programmatically) — iOS CI Newsletter · Issue 19 — Article · Topics: Testing · Xcode
+  **Published:** `2023-07-02T00:00:00.000Z`
+  **NeKI brief:** Examines Modifying Xcode project files programmatically in the context of Testing and Xcode. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Trailing label TextField](https://www.magnuskahr.dk/posts/2023/05/swiftui-trailing-label-textfield) — iOS Dev Weekly · Issue 616 — Article · Topics: Swift · SwiftUI · Testing
   **Published:** `30th June 2023`
   **NeKI brief:** Shows SwiftUI layout techniques that keep a unit suffix or domain label visually attached to an editable TextField. Useful when designing structured input without turning the label into placeholder text or losing alignment as the value changes.
 - [Nuke - Efficient Image Handling for Swift](https://github.com/tuist/tuist) — iOS Dev Tools · 🔨 It's Clipboard Magic (and Other Stuff) — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `2023-06-29T13:51:11.661Z`
   **NeKI brief:** Tuist declares Xcode projects, targets, dependencies, and automation in Swift manifests, then generates workspace artifacts. Use it to centralize large-project configuration and speed team onboarding, with generated files treated as derived output.
+- [On skipping tests](https://www.wwdcnotes.com/notes/wwdc20/10164?ref=ioscodereview.com) — iOS Code Review · Issue 51 — Article · Topics: Apple Platform Ecosystem · Testing · Xcode
+  **Published:** `2023-06-22T13:14:57.000Z`
+  **NeKI brief:** Examines On skipping tests in the context of Apple Platform Ecosystem and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [📱 Comparing build distribution services](https://www.runway.team/blog/comparing-the-top-pre-production-and-beta-app-distribution-tools) — iOS CI Newsletter · Issue 18 — Article · Topics: Testing
+  **Published:** `2023-06-18T00:00:00.000Z`
+  **NeKI brief:** Examines Comparing build distribution services in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [A better way to distribute mobile builds](https://www.runway.team/features/build-distro) — iOS Dev Weekly · Issue 613 — Article · Topics: Testing
   **Published:** `9th June 2023`
   **NeKI brief:** Runway Build Distribution automates mobile build delivery to testers and stakeholders. Use it to evaluate release-pipeline handoffs, signing boundaries, auditability, and whether distribution automation fits existing CI controls.
+- [If you want a fast and easy way of updating the version for these built-in actions on all your workflows, make sure you check out this article](https://blog.eidinger.info/why-and-how-to-adopt-actionscheckoutv3-in-your-github-action-workflow) — iOS CI Newsletter · Issue 16 — Article · Topics: Developer Tools · Testing
+  **Published:** `2023-05-21T00:00:00.000Z`
+  **NeKI brief:** Examines actions/checkout GitHub action updated! in the context of Developer Tools and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Scriptless test automation for mobile](https://www.waldo.com/blog/how-scripts-test-your-app) — iOS Dev Weekly · Issue 610 — Article · Topics: Testing
   **Published:** `19th May 2023`
   **NeKI brief:** Explores Scriptless test automation for mobile, focusing on scripted test automation can be a pain to implement, especially. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [🆕 GitHub Actions: macOS 13 available!](https://github.blog/changelog/2023-04-24-github-actions-macos-13-is-now-available) — iOS CI Newsletter · Issue 15 — Article · Topics: Developer Tools · macOS & AppKit · Personal Essays
+  **Published:** `2023-05-07T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub Actions: macOS 13 available! in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🔒 Try GitHub’s new code-scanning support for Swift now!](https://forums.swift.org/t/beta-testers-wanted-get-a-sneak-peek-at-github-s-code-scanning-support-for-swift/64632) — iOS CI Newsletter · Issue 15 — Article · Topics: Developer Tools · Security & Privacy · Swift
+  **Published:** `2023-05-07T00:00:00.000Z`
+  **NeKI brief:** Examines Try GitHub’s new code-scanning support for Swift now! in the context of Developer Tools and Security & Privacy. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Implementing reachability](https://www.avanderlee.com/swift/optimizing-network-reachability?ref=ioscodereview.com) — iOS Code Review · Issue 47 — Article · Topics: Networking · Swift
+  **Published:** `2023-04-28T10:30:39.000Z`
+  **NeKI brief:** Uses NWPathMonitor to observe connectivity without treating reachability as proof that a request will succeed. Useful for gating retries or UI hints while keeping the server response authoritative.
 - [Speedrun Design](https://www.david-smith.org/blog/2023/04/24/design-notes-35) — iOS Dev Weekly · Issue 607 — Article · Topics: Swift · Testing
   **Published:** `28th April 2023`
   **NeKI brief:** Builds a SwiftUI heart-rate-zone view as a compact design exercise, exposing the visual decisions behind a data-driven display. It is useful for studying how a constrained, real-world metric can become a readable custom SwiftUI component.
+- [🏉 A behind-the-scenes look into Rugby’s latest update](https://swiftyfinch.github.io/en/2023-04-22-rugby-remastered) — iOS CI Newsletter · Issue 14 — Article · Topics: Developer Tools · Objective-C & Cocoa · Testing
+  **Published:** `2023-04-23T00:00:00.000Z`
+  **NeKI brief:** Examines A behind-the-scenes look into Rugby’s latest update in the context of Developer Tools and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Preparing my app for Swift 6](https://www.fline.dev/preparing-for-swift-6) — iOS Dev Weekly · Issue 606 — Article · Topics: Swift · Testing
   **Published:** `21st April 2023`
   **NeKI brief:** Describes enabling Swift 6 language mode in Xcode projects and SwiftPM modules before a full migration is forced. Useful for planning incremental adoption, discovering strict-concurrency diagnostics early, and isolating migration work by module.
@@ -2246,6 +2516,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [announced their support for the Swift Package Index](https://www.swift.org/blog/swift-package-index-developer-spotlight) — iOS Dev Weekly · Issue 602 — Article · Topics: App Intents & System Surfaces · Swift · Swift Package Manager
   **Published:** `24th March 2023`
   **NeKI brief:** Explores this blog post, focusing on you may have already seen the latest post on the. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [bliki: GivenWhenThena bliki entry for GivenWhenThenmartinfowler.comMartin Fowler](https://martinfowler.com/bliki/GivenWhenThen.html?ref=ioscodereview.com) — iOS Code Review · Issue 44 — Article · Topics: Cross-Platform & Web · Testing
+  **Published:** `2023-03-02T12:48:03.000Z`
+  **NeKI brief:** Examines bliki: GivenWhenThena bliki entry for GivenWhenThenmartinfowler.comMartin Fowler in the context of Cross-Platform & Web and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [The making of Ice Cubes](https://dimillian.medium.com/the-making-of-ice-cubes-an-open-source-swiftui-mastodon-client-45ebea5cf6b6) — iOS Dev Weekly · Issue 598 — Article · Topics: Swift · SwiftUI · Testing
   **Published:** `24th February 2023`
   **NeKI brief:** Presents a concrete implementation of The making of Ice Cubes, an open source, SwiftUI Mastodon client. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
@@ -2255,6 +2528,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [KeepSafe has saved +1000 hours](https://www.waldo.com/customer-stories/keepsafe) — iOS Dev Weekly · Issue 597 — Article · Topics: Developer Tools · Testing
   **Published:** `17th February 2023`
   **NeKI brief:** Explores KeepSafe has saved +1000 hours, focusing on stop spending time reproducing issues discovered during testing, and start. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Two ways to mock in tests](https://mdb1.github.io/2023-02-13-enhancing-testability-with-protocols?ref=ioscodereview.com) — iOS Code Review · Issue 43 — Article · Topics: Developer Tools · Testing
+  **Published:** `2023-02-14T12:18:23.000Z`
+  **NeKI brief:** Examines Two ways to mock in tests in the context of Developer Tools and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [GitHub merge queues are now on public beta](https://github.blog/changelog/2023-02-08-pull-request-merge-queue-public-beta) — iOS CI Newsletter · Issue 9 — Article · Topics: Developer Tools · Testing
+  **Published:** `2023-02-12T00:00:00.000Z`
+  **NeKI brief:** Examines Pull request merge queue (public beta) | GitHub ChangelogPull request merge queue (public beta)The GitHub Blog in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Beautifying your CI’s test results](https://testableapple.com/beautifying-xctest-results) — iOS CI Newsletter · Issue 9 — Article · Topics: Testing
+  **Published:** `2023-02-12T00:00:00.000Z`
+  **NeKI brief:** Examines Beautifying your CI’s test results in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [xcpretty](https://github.com/xcpretty/xcpretty) — iOS CI Newsletter · Issue 9 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `2023-02-12T00:00:00.000Z`
+  **NeKI brief:** xcpretty reformats xcodebuild output into readable build, test, and failure summaries and can emit CI-friendly reports. Use it when raw compiler logs obscure the actionable failure, while retaining the original log as diagnostic evidence.
+- [xcmonkey](https://github.com/alteral/xcmonkey) — iOS CI Newsletter · Issue 8 — Source repository · Topics: CI/CD & Automation · Developer Tools · Testing
+  **Published:** `2023-01-29T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for xcmonkey, relevant to Developer Tools and Testing. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Stress testing iOS apps](https://testableapple.com/note-36) — iOS CI Newsletter · Issue 7 — Article · Topics: Testing
+  **Published:** `2023-01-15T00:00:00.000Z`
+  **NeKI brief:** Examines Stress testing iOS apps in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Running audio/video UI tests on CI](https://www.kubilayerdogan.net/xctest-fixing-audio-video-ui-tests-on-your-ci-cd) — iOS CI Newsletter · Issue 7 — Article · Topics: Graphics, Media & Games · Personal Essays · Testing
+  **Published:** `2023-01-15T00:00:00.000Z`
+  **NeKI brief:** Examines Running audio/video UI tests on CI in the context of Graphics, Media & Games and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Testing Swift command-line tools](https://blog.eidinger.info/test-your-command-line-tool-in-xcode) — iOS CI Newsletter · Issue 7 — Article · Topics: Objective-C & Cocoa · Swift · Testing
+  **Published:** `2023-01-15T00:00:00.000Z`
+  **NeKI brief:** Examines Testing Swift command-line tools in the context of Objective-C & Cocoa and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Better XCTest failure messages](https://qualitycoding.org/unit-test-optionals-swift?ref=ioscodereview.com) — iOS Code Review · Issue 40 — Article · Topics: Swift · Testing
+  **Published:** `2023-01-05T13:13:42.000Z`
+  **NeKI brief:** Examines Better XCTest failure messages in the context of Swift and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Repeato 🤝 Bitrise](https://blog.bitrise.io/post/the-repeato-bitrise-verified-step-codeless-ui-testing-for-mobile-apps) — iOS CI Newsletter · Issue 4 — Article · Topics: Testing
+  **Published:** `2022-12-04T00:00:00.000Z`
+  **NeKI brief:** Examines Repeato 🤝 Bitrise in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [launch blog post](https://trycombine.com/posts/datatile-for-simulator-public-beta-on-testflight-now) — iOS Dev Weekly · Issue 587 — Article · Topics: App Distribution & Store Operations · Combine & Reactive Programming · Developer Tools
   **Published:** `2nd December 2022`
   **NeKI brief:** Explores launch blog post, focusing on the article discusses don’t know about you, but i still. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -2276,6 +2579,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How to Make Custom Test Assertions in Swift](https://qualitycoding.org/swift-test-assertions) — iOS Dev Weekly · Issue 573 — Article · Topics: Swift · Testing
   **Published:** `26th August 2022`
   **NeKI brief:** Explores How to Make Custom Test Assertions in Swift, focusing on xctest has a good set of assertions that are enough. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Difference](https://github.com/krzysztofzablocki/Difference?ref=ioscodereview.com) — iOS Code Review · Issue 30 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `2022-08-25T11:13:00.000Z`
+  **NeKI brief:** Provides the source and change history for the Difference library, relevant to Developer Tools and Foundation & Data Formats. Inspect its implementation, open issues, and release state before adopting the approach.
+- [How to test custom Codable initializer | Danijela's blog](https://danijelavrzan.com/posts/2022/07/how-to-test-custom-codable?ref=ioscodereview.com) — iOS Code Review · Issue 28 — Article · Topics: Foundation & Data Formats · Testing
+  **Published:** `2022-07-28T11:12:02.000Z`
+  **NeKI brief:** Walks through how to test custom Codable initializer | Danijela's blog, with practical context for Foundation & Data Formats and Testing. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Scalable Apple silicon M1 in the cloud, for your iOS CI/CD by Bitrise](https://www.bitrise.io/why/technologies/virtualized-m1-environment) — iOS Dev Weekly · Issue 565 — Article · Topics: CI/CD & Automation · Testing
   **Published:** `1st July 2022`
   **NeKI brief:** Explores Scalable Apple silicon M1 in the cloud, for your iOS CI/CD by Bitrise, focusing on accelerate your transition to apple silicon through our fully virtualized,. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -2285,6 +2594,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift Snippets](https://github.com/apple/swift-evolution/blob/main/proposals/0356-swift-snippets.md) — iOS Dev Weekly · Issue 560 — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `27th May 2022`
   **NeKI brief:** Explores integration with DocC, focusing on the article discusses don’t link to swift evolution proposals often,. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Unit testing: The pragmatic guide on where to start | Marina Gornostaeva](https://hybridcattt.com/blog/start-testing-pragmatic-guide?ref=ioscodereview.com) — iOS Code Review · Issue 23 — Article · Topics: Testing
+  **Published:** `2022-05-19T11:03:01.000Z`
+  **NeKI brief:** Examines Unit testing: The pragmatic guide on where to start | Marina Gornostaeva in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Run iOS builds on M1, Intel or both with Orka](https://www.macstadium.com/orka) — iOS Dev Weekly · Issue 553 — Article · Topics: Combine & Reactive Programming · Testing
   **Published:** `8th April 2022`
   **NeKI brief:** Explores Accelerate Your iOS DevOps with Granular VM Control in Orka, focusing on orka 2.0 is now available and includes support for macos. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -2309,6 +2621,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Ready to move your iOS builds to M1?](https://www.macstadium.com/transitioning-from-intel-to-apple-silicon) — iOS Dev Weekly · Issue 544 — Article · Topics: Testing
   **Published:** `4th February 2022`
   **NeKI brief:** Explores Transitioning from Intel to Apple Silicon, focusing on not sure how your mac builds or tests will be. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [How to solve a data race](https://www.avanderlee.com/swift/thread-sanitizer-data-races?ref=ioscodereview.com) — iOS Code Review · Issue 15 — Article · Topics: Concurrency · Swift
+  **Published:** `2022-01-27T11:57:44.000Z`
+  **NeKI brief:** Shows how Thread Sanitizer instruments Swift tests and apps to detect conflicting memory accesses, then interprets reports. It is a practical diagnostic for races that rarely reproduce.
+- [the official Unicode documentation](http://unicode.org/reports/tr35/tr35-31/tr35-dates.html?ref=ioscodereview.com) — iOS Code Review · Issue 14 — Article · Topics: Cross-Platform & Web · Foundation & Data Formats · Testing
+  **Published:** `2022-01-13T12:22:06.000Z`
+  **NeKI brief:** Examines the official Unicode documentation in the context of Cross-Platform & Web and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [GitHub - russell-archer/StoreHelper](https://github.com/russell-archer/StoreHelper?ref=ioscodereview.com) — iOS Code Review · Issue 14 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
+  **Published:** `2022-01-13T12:22:06.000Z`
+  **NeKI brief:** Provides the source and change history for GitHub - russell-archer/StoreHelper, relevant to Developer Tools and Objective-C & Cocoa. Inspect its implementation, open issues, and release state before adopting the approach.
+- [GitHub - russell-archer/IAPDemo](https://github.com/russell-archer/IAPDemo?ref=ioscodereview.com) — iOS Code Review · Issue 14 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
+  **Published:** `2022-01-13T12:22:06.000Z`
+  **NeKI brief:** Provides the source and change history for GitHub - russell-archer/IAPDemo, relevant to Developer Tools and Objective-C & Cocoa. Inspect its implementation, open issues, and release state before adopting the approach.
 - [The world’s first virtualized M1 CI/CD environment on Bitrise](https://www.bitrise.io/m1-preregister) — iOS Dev Weekly · Issue 538 — Article · Topics: CI/CD & Automation · Performance · Testing
   **Published:** `17th December 2021`
   **NeKI brief:** Explores The world’s first virtualized M1 CI/CD environment on Bitrise, focusing on optimized for speed, stability, and extensibility. the performance of apple. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -2324,12 +2648,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [3](https://peterfriese.dev/swiftui-listview-part3) — iOS Dev Weekly · Issue 533 — Article · Topics: Swift · SwiftUI · Testing
   **Published:** `12th November 2021`
   **NeKI brief:** Explores 3, focusing on i’ve been following along with peter friese’s ongoing set of articles on swiftui list views (1, 2, 3, 4, and 5) and. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Michael Tsai - Blog - Dangerous NSLog() Calls in Swift](https://mjtsai.com/blog/2021/11/02/dangerous-nslog-calls-in-swift?ref=ioscodereview.com) — iOS Code Review · Issue 11 — Article · Topics: Swift · Testing
+  **Published:** `2021-11-11T13:07:22.000Z`
+  **NeKI brief:** Examines Michael Tsai - Blog - Dangerous NSLog() Calls in Swift in the context of Swift and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [run a benchmark](https://github.com/SwiftPackageIndex/spi-benchmark) — iOS Dev Weekly · Issue 532 — Source repository · Topics: Swift · Swift Package Manager · Testing
   **Published:** `5th November 2021`
   **NeKI brief:** Explores SPI benchmark tool, focusing on what began as an experiment to test how fast our. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Debugging on iOS 15 with Xcode 12](https://hybridcattt.com/blog/debugging-on-latest-ios-with-older-xcode) — iOS Dev Weekly · Issue 530 — Article · Topics: Developer Tools · Testing · Xcode
   **Published:** `22nd October 2021`
   **NeKI brief:** Explores Debugging on iOS 15 with Xcode 12, focusing on this time of year is always awkward with versions of. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [(Improving Your) XCTAssert* Failure Messages | Bas’ Blog](https://www.basbroek.nl/xctassert-asterisk?ref=ioscodereview.com) — iOS Code Review · Issue 9 — Article · Topics: Testing
+  **Published:** `2021-10-14T13:09:40.000Z`
+  **NeKI brief:** Examines Improving Your) XCTAssert* Failure Messages | Bas’ Blog in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Swift 5.5 has serious stack corruption bugs! - Compiler - Swift Forums](https://forums.swift.org/t/swift-5-5-has-serious-stack-corruption-bugs/52344?ref=ioscodereview.com) — iOS Code Review · Issue 8 — Article · Topics: Concurrency · Swift · Testing
+  **Published:** `2021-09-30T11:10:38.000Z`
+  **NeKI brief:** Explores Stack Corruption Problems in Swift 5.5, focusing on it’s hard to say how widespread or severe the issues. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Dependency Injection in Swift using latest Swift features - SwiftLee](https://www.avanderlee.com/swift/dependency-injection?ref=ioscodereview.com) — iOS Code Review · Issue 8 — Article · Topics: Dependency Injection · Swift · Testing
+  **Published:** `2021-09-30T11:10:38.000Z`
+  **NeKI brief:** Builds dependency injection with protocols and initializer defaults, then substitutes test doubles. The design separates construction from behavior while preserving convenient production call sites.
 - [How to write unit tests for SwiftUI apps](https://mokacoding.com/blog/how-to-test-swiftui-apps) — iOS Dev Weekly · Issue 521 — Article · Topics: Swift · SwiftUI · Testing
   **Published:** `20th August 2021`
   **NeKI brief:** Explores How to write unit tests for SwiftUI apps, focusing on the article discusses wrote about one way to test swiftui. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -2344,7 +2680,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explores What’s New in Unit Testing with Xcode 12.5?, focusing on the two things that stuck out for me in this. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Build an iOS News App with SwiftUI 3 & NewsAPI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9TFJuYkZqcTBiVE0iLCJwb3N0X2lkIjoiMzZjZjViY2ItZjA1Ny00MzdhLTlmNzYtYzA0NDU3NGFkMmI3IiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6ImVjMmY1MWE2LWUxY2MtNDFhYy04YTE4LWRkMTdkMTExOGY2MCIsImlhdCI6MTY3NDA2MjY3Ny4wNjEsImlzcyI6Im9yY2hpZCJ9.r7-p50YbFCYfvRxSccrB_jpoMBivOTJRcLwl-txmetU) — SwiftUI Weekly · SwiftUI Weekly - Issue #66 — Tutorial · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `2021-07-06T10:24:10.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Walks through a SwiftUI 3 news app backed by NewsAPI. Use it as an end-to-end reference for networking, decoding, list presentation, and loading or error states in a small app.
 - [Why Should You Care about Manual Testing?](https://pspdfkit.com/blog/2021/pragmatic-manual-testing) — iOS Dev Weekly · Issue 510 — Article · Topics: Testing
   **Published:** `4th June 2021`
   **NeKI brief:** Explores Why Should You Care about Manual Testing?, focusing on oh my gosh, yes!. Follow it to assess the approach, its trade-offs, and where it fits in a current Swift or Apple-platform project.
@@ -2389,7 +2725,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines StoreKit Testing in Xcode, focusing on the building, debugging, and testing of storekit code is always stressful. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Swift Techniques for Testing](https://www.youtube.com/watch?v=Or6xjaCUCd4) — iOS Dev Weekly · Issue 459 — Video · Topics: Graphics, Media & Games · Swift · Testing
   **Published:** `5th June 2020`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Examines Swift Techniques for Testing, focusing on the author’s note that liked the testing techniques in this video from kaya thomas. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [You know StoreKit, but you don’t want to do StoreKit](https://docs.revenuecat.com/docs) — iOS Dev Weekly · Issue 458 — Article · Topics: App Distribution & Store Operations · Testing
   **Published:** `29th May 2020`
   **NeKI brief:** Examines You know StoreKit, but you don't want to do StoreKit, offering practical guidance on Swift engineering practice. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
@@ -2509,7 +2845,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines Money, focusing on described as a precise, type-safe representation of a monetary amount in a given currency, this library is extracted from…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Want to automatically build, test, and release your apps? Try App Center](https://www.youtube.com/watch?v=RDluKlJneZA) — iOS Dev Weekly · Issue 353 — Video · Topics: Developer Tools · Testing
   **Published:** `25th May 2018`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Examines Want to automatically build, test, and release your apps? Try App Center, focusing on from the creators of hockeyapp: ship better apps faster by connecting your app’s github repo and automating the rest!…. Use it as a focused research reference for related Apple-platform work.
 - [Visual Studio IntelliCode](https://blogs.msdn.microsoft.com/visualstudio/2018/05/07/introducing-visual-studio-intellicode) — iOS Dev Weekly · Issue 352 — Article · Topics: Testing
   **Published:** `18th May 2018`
   **NeKI brief:** Explores Visual Studio IntelliCode in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
@@ -2762,4 +3098,4 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Moltbook is the most interesting place on the internet right now](https://simonwillison.net/2026/Jan/30/moltbook) — Not only Swift · Issue 92 — Article · Topics: Personal Essays · Testing
   **NeKI brief:** This article covers the emergence and implications of the Moltbook agent network. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Play](https://youtube.com/watch?v=UXG7U6iFxxM) — Not only Swift · Issue 85 — Video · Topics: Liquid Glass · Product Design · Testing
-  **NeKI brief:** Links to a public video about Play. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Works through supporting iOS 26 Liquid Glass while retaining earlier deployment targets, using availability checks and a custom SwiftUI backport after a library approach fails on iOS 18. Useful for concrete compatibility trade-offs.

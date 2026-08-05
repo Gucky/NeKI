@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** String Catalogs, pluralization, translation resources, and localizable app content.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **14**
+- Last collected: `2026-08-05T08:59:22Z`
+- Indexed links shown: **16**
 
 ## Direct-source reading
 
+- [ScanTexter: Scan Text on Screen and Translate It at Once - iOS Dev Tools](https://iosdev.tools/blog/scantexter) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2024-02-03T21:43:46+00:00`
+  **NeKI brief:** Profiles ScanTexter as scan Text on Screen and Translate It at Once. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Migrating to String Catalogs in iOS](https://tanaschita.com/ios-string-catalogs-migration) — Tanaschita · article catalogue
   **NeKI brief:** Migrating to String Catalogs converts legacy localization resources into .xcstrings while preserving keys and variants. Follow it to plan the file transition separately from product copy changes and avoid silent fallback strings.
 - [How to localize plurals with Localizable.stringsdict files in iOS](https://tanaschita.com/ios-plurals-localization-strictdict) — Tanaschita · article catalogue
@@ -37,12 +40,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI Navigation using the Router Pattern](https://tiagohenriques.vercel.app/blog/swiftui-navigation-router-pattern) — SwiftUI Weekly · SwiftUI Weekly - Issue #206 — Article · Topics: Foundation & Data Formats · Swift · SwiftUI
   **Published:** `2025-01-13T09:29:54.892Z`
   **NeKI brief:** Implements a router pattern for SwiftUI navigation with centralized route decisions. Useful for making deep links, modal presentation, and navigation tests deterministic while keeping views focused on rendering.
+- [🧵 Automatically translate your string catalogues](https://github.com/hidden-spectrum/swift-translate) — iOS CI Newsletter · Issue 49 — Source repository · Topics: Developer Tools · Localization · Product Design
+  **Published:** `2024-08-25T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Automatically translate your string catalogues, relevant to Developer Tools and Localization. Inspect its implementation, open issues, and release state before adopting the approach.
 - [How to localize plurals with Localizable.stringsdict files in iOS](https://tanaschita.com/ios-plurals-localization-strictdict?ref=createwithswift.com) — Create with Swift · Issue 12 — Article · Topics: Localization · Swift
   **Published:** `2024-05-10T15:00:28.000Z`
   **NeKI brief:** Localizable.stringsdict handles plural variants through locale-aware rules. Follow it when maintaining older localization resources, avoiding concatenated fragments that fail in languages with different grammatical categories.
 - [App Localizations](https://www.youtube.com/watch?v=kbgNL7VrQPo) — SwiftUI Weekly · SwiftUI Weekly - Issue #170 — Video · Topics: Graphics, Media & Games · Localization · Swift
   **Published:** `2023-12-11T13:23:19.560Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates localizing a SwiftUI app with Xcode 15 String Catalogs, including the workflow for translating strings across languages. Useful when replacing scattered localization files with catalog-driven review and export in a modern project.
 - [Introducing ReMafoX](https://www.fline.dev/introducing-remafox-easy-app-localization) — iOS Dev Weekly · Issue 580 — Article · Topics: Localization · Xcode
   **Published:** `14th October 2022`
   **NeKI brief:** Explores Introducing ReMafoX, focusing on this new localisation tool from cihat gündüz looks great. as with any tool that tries to integrate with xcode, setup is a. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.

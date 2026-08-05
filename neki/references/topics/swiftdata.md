@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** SwiftData models, queries, migrations, CloudKit integration, and data modelling.
 
-- Last collected: `2026-07-28T20:15:53Z`
-- Indexed links shown: **122**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **128**
 
 ## Direct-source reading
 
@@ -212,12 +212,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Avoiding Duplicate Data When SwiftData Syncs Across Devices](https://thorsten-stark.de/posts/2026-08-06-Avoiding-Duplicate-Data-With-SwiftData-iCloud-Sync-Part-2) — SwiftLee Weekly · Issue 335 — Article · Topics: Swift · SwiftData
+  **Published:** `2026-08-04T14:04:01.000Z`
+  **NeKI brief:** Explains why independently seeded SwiftData defaults duplicate when CloudKit later merges device stores, and uses stable identifiers to make seeding idempotent. The pattern is useful for distinguishing local bootstrap state from synchronised identity.
+- [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — SwiftLee Weekly · Issue 335 — Article · Topics: Swift · SwiftData · Testing
+  **Published:** `2026-08-04T14:04:01.000Z`
+  **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
+- [AcceptedSE-0526withDeadline](https://github.com/apple/swift-evolution/blob/main/proposals/0526-deadline.md) — SwiftLee Weekly · Issue 335 — Source repository · Topics: Developer Tools · Swift · SwiftData
+  **Published:** `2026-08-04T14:04:01.000Z`
+  **NeKI brief:** Proposal SE-0526 adds withDeadline for time-bounded asynchronous work. Read it to distinguish deadline expiry from ordinary cancellation and failure, and verify accepted semantics and toolchain availability before designing a public timeout API around it.
+- [Active ReviewSE-0539Enable Macros to Grant `self` Access for Property Initializers](https://github.com/apple/swift-evolution/blob/main/proposals/0539-self-access-for-property-initializers.md) — SwiftLee Weekly · Issue 335 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
+  **Published:** `2026-08-04T14:04:01.000Z`
+  **NeKI brief:** Proposal SE-0539 explores allowing attached macros to grant controlled self access during property initialization. Follow it when macro-generated storage needs enclosing-instance context, while checking review status and initialization-safety constraints before relying on the feature.
 - [Syncing SwiftData with a custom backend using HistoryObserver](https://azamsharp.com/2026/07/16/syncing-swiftdata-with-a-custom-backend-using-historyobserver.html) — iOS Dev Weekly · Issue 760 — Article · Topics: Networking · Persistence & Synchronisation · SwiftData
   **Published:** `24th July 2026`
   **NeKI brief:** Builds a one-way synchronisation pipeline from SwiftData HistoryObserver transactions to a REST backend. Persisting the last processed transaction token avoids duplicate uploads; server-to-client changes remain a separate responsibility.
+- [Keeping SwiftData behind a boundary](https://tanaschita.com/swiftdata-persistence-boundaries?ref=ioscodereview.com) — iOS Code Review · Issue 82 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
+  **Published:** `2026-07-14T19:04:53.000Z`
+  **NeKI brief:** Keeps SwiftData behind a persistence boundary instead of exposing models directly to SwiftUI, improving testability and reducing UI coupling to storage details.
 - [Reordering SwiftData In List And Grid](https://www.youtube.com/watch?v=m5VdG-EKnmk) — Those Who Swift · Issue 274 — Video · Topics: Swift · SwiftData
   **Published:** `2026-07-08`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Implements List movement and LazyVGrid drag-and-drop, first in memory and then with SwiftData sort-order persistence. A custom DropDelegate updates visual order during dragging and saves only when the operation completes.
 - [What’s New In SwiftData For iOS 27](https://azamsharp.com/2026/06/12/whats-new-in-swiftdata.html) — Those Who Swift · Issue 271 — Article · Topics: Cross-Platform & Web · Swift · SwiftData
   **Published:** `2026-06-18`
   **NeKI brief:** Summarizes SwiftData changes for iOS 27. Use it to identify migration and feature candidates for a persistence layer, then verify model, query, and availability details against current Apple documentation.
@@ -226,7 +241,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Walks through implementing a custom SwiftData store and the integration points needed to replace default persistence; useful when evaluating storage backends and their lifecycle trade-offs.
 - [Decoupling SwiftData in SwiftUI: Is It Worth It?](https://www.youtube.com/watch?v=2so9ifq5hYY) — Those Who Swift · Issue 268 — Video · Topics: Swift · SwiftData · SwiftUI
   **Published:** `2026-05-27`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Implements protocol-backed SwiftData and SQLite stores, then examines the cost of losing SwiftData's automatic UI integration. Useful for deciding when persistence abstraction improves testability and when it merely adds architectural overhead.
 - [Apple Doesn’t Show SwiftData iCloud Sync Status — So Let’s Build One](https://azamsharp.com/2026/03/16/swiftdata-icloud-sync-status.html) — Those Who Swift · Issue 258 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2026-03-18`
   **NeKI brief:** Examines Apple Doesn’t Show SwiftData iCloud Sync Status — So Let’s Build One, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -235,7 +250,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Presents measuring core data and swiftdata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Sharing SwiftData Content Between Users](https://www.youtube.com/watch?v=t9FRldfZ8vc) — Those Who Swift · Issue 254 — Video · Topics: Swift · SwiftData · SwiftUI
   **Published:** `2026-02-18`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Exports selected SwiftData relationships as a custom file through UIActivityViewController, then imports them with onOpenURL and security-scoped access. The merge logic reconnects related models while preventing duplicates.
 - [How SwiftData Represents AttributedString in Core Data Storage](https://medium.com/@djalex566/how-swiftdata-represents-attributedstring-in-core-data-storage-69036a4f166a) — SwiftLee Weekly · Issue 299 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2025-11-25T15:16:48.000Z`
   **NeKI brief:** Explains How SwiftData Represents AttributedString in Core Data Storage, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -334,7 +349,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Shows how to trigger haptic feedback from SwiftUI interactions by bridging to the appropriate UIKit feedback generators. Follow it when adding tactile confirmation while keeping feedback timing, accessibility, and device capability checks explicit.
 - [App Localizations](https://www.youtube.com/watch?v=kbgNL7VrQPo) — SwiftUI Weekly · SwiftUI Weekly - Issue #170 — Video · Topics: Graphics, Media & Games · Localization · Swift
   **Published:** `2023-12-11T13:23:19.560Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates localizing a SwiftUI app with Xcode 15 String Catalogs, including the workflow for translating strings across languages. Useful when replacing scattered localization files with catalog-driven review and export in a modern project.
+- [The Ultimate Swift Data GuideThe Ultimate Guide to Building SwiftData ApplicationsAzamSharpMohammad Azam](https://azamsharp.com/2023/07/04/the-ultimate-swift-data-guide.html?ref=ioscodereview.com) — iOS Code Review · Issue 61 — Article · Topics: Cross-Platform & Web · Swift · SwiftData
+  **Published:** `2023-12-07T13:38:43.000Z`
+  **NeKI brief:** Provides a broad SwiftData walkthrough covering model declaration, persistence, and cloud-sync-oriented concepts introduced at WWDC 2023. Useful for mapping Core Data requirements to SwiftData before committing to a migration or new model layer.
 - [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode) — Fatbobman’s Swift Weekly · Issue 5 — Article · Topics: Foundation & Data Formats · Swift · SwiftData
   **Published:** `2023-11-06T22:30:15.675Z`
   **NeKI brief:** Explains Unicode fundamentals and common misconceptions that still cause text-processing bugs. Use it when reviewing Swift string handling, normalization, grapheme boundaries, and serialization across user-visible content and external systems.
@@ -364,10 +382,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explores SwiftData Suprises, focusing on understanding new frameworks is always important, but understanding new data storage frameworks is especially important!. Follow it to assess the approach, its trade-offs, and where it fits in a current Swift or Apple-platform project.
 - [Build an app using SwiftData](https://www.youtube.com/playlist?list=PLvUWi5tdh92wZ5_iDMcBpenwTgFNan9T7) — iOS Dev Weekly · Issue 617 — Video · Topics: Apple Platform Ecosystem · Swift · SwiftData
   **Published:** `7th July 2023`
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Explores Build an app using SwiftData, focusing on it’s a measure of how many new things were announced. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Relationships In SwiftData](https://www.youtube.com/watch?v=_QMalUGTM4E&feature=youtu.be) — SwiftUI Weekly · SwiftUI Weekly - Issue #148 — Video · Topics: Graphics, Media & Games · Swift · SwiftData
   **Published:** `2023-06-28T11:49:47.378Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates adding relationships between SwiftData models in a SwiftUI to-do app. Useful for understanding relationship declaration, editing, and fetch behavior before modeling linked domain objects.
 - [Here is what SwiftData will be…](https://drewmccormack.medium.com/here-is-what-swiftdata-will-be-and-what-it-could-have-been-65b79cd11c6a) — iOS Dev Weekly · Issue 509 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `28th May 2021`
   **NeKI brief:** Explores Here is what SwiftData will be…, focusing on that’s a bold title from drew mccormack! a new swiftui. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.

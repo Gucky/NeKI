@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.swiftbysundell.com/archive/](https://www.swiftbysundell.com/archive/)
-- Last collected: `2026-07-22T21:58:56Z`
-- Indexed entries: **481**
+- Last collected: `2026-08-04T16:05:07Z`
+- Indexed entries: **482**
 
+- [Swift protocols and the main actor | Swift by Sundell](https://www.swiftbysundell.com/articles/swift-protocols-and-the-main-actor)
+  **Published:** `2026-07-31`
+  **Topics:** Concurrency · Swift
+  **NeKI brief:** Compares isolating an entire protocol with isolating individual requirements. The examples expose how conformance placement can affect a type's actor isolation and why requirement-level annotations give custom actors a more flexible boundary.
 - [Building a design system at Genius Scan | Swift by Sundell](https://www.swiftbysundell.com/articles/building-a-design-system-at-genius-scan)
   **Published:** `2025-09-01`
   **Topics:** Swift · SwiftUI · UIKit

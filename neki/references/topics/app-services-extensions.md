@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** System-integrated app capabilities including extensions, notifications, widgets, App Clips, background execution, and shared activities.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **44**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **45**
 
 ## Direct-source reading
 
@@ -77,6 +77,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Updating your apps with silent push notifications](https://www.donnywals.com/updating-your-apps-with-silent-push-notifications?ref=createwithswift.com) — Create with Swift · Issue 37 — Article · Topics: App Services & Extensions · Swift · Testing
   **Published:** `2024-11-22T16:00:12.000Z`
   **NeKI brief:** Silent pushes can request background refresh without user interruption, but delivery is best-effort and needs a fallback for stale app data.
+- [Secrets to Success With @MainActor](https://www.hackingwithswift.com/quick-start/concurrency/how-to-use-mainactor-to-run-code-on-the-main-queue?ref=ioscodereview.com) — iOS Code Review · Issue 73 — Article · Topics: App Services & Extensions · Concurrency · Observation & State Management
+  **Published:** `2024-11-20T11:14:23.000Z`
+  **NeKI brief:** Examines this article by Paul Hudson in the context of Concurrency and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [MBProgressHUD](https://github.com/jdg/MBProgressHUD) — iOS Dev Tools · iOS Dev Tools: Hummingbird, Apollo iOS, MBProgressHUD — Source repository · Topics: App Services & Extensions · Developer Tools
   **Published:** `2024-10-03T14:43:23.083Z`
   **NeKI brief:** MBProgressHUD presents an overlay progress indicator over UIKit content while background work runs. Use it for legacy UIKit flows that need an explicit blocking-progress affordance, while ensuring cancellation and accessibility remain available.
@@ -127,7 +130,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains Parse iOS SDK with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
 - [Apportable](http://www.youtube.com/watch?v=dSkhtd6L8RM) — iOS Dev Weekly · Issue 117 — Video · Topics: App Services & Extensions · Core Data · Cross-Platform & Web
   **Published:** `25th October 2013`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates compiling an Objective-C iOS game for Android with Apportable and SpriteBuilder, including platform-framework mapping. Treat it as historical cross-platform tooling context rather than a current deployment recommendation.
 - [Learn the ropes of Mobile Services with Brent Simmons](http://www.windowsazure.com/en-us/develop/mobile/ios?WT.mc_id=azuregb_us_display_mirluna_2) — iOS Dev Weekly · Issue 88 — Article · Topics: App Services & Extensions · Product Design
   **Published:** `5th April 2013`
   **NeKI brief:** Explains Learn the ropes of Mobile Services with Brent Simmons with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS.

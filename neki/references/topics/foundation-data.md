@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Foundation APIs, dates, text, Unicode, serialization, and data formats.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **116**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **135**
 
 ## Direct-source reading
 
+- [Type-safe JSON and JSONB in StructuredQueries](https://www.pointfree.co/blog/posts/220-type-safe-json-and-jsonb-in-structuredqueries) — Point-Free · article catalogue
+  **Published:** `2026-08-03T00:00:00Z`
+  **NeKI brief:** Introduces StructuredQueries 0.35 support for SQLite JSON and JSONB columns, key-path-based extraction and mutation, and json_each collection queries. The examples show where binary storage improves efficiency while preserving compile-time schema checks.
 - [Pattern matching on error codes – Ole Begemann](https://oleb.net/2023/catch-error-code) — Ole Begemann · article catalogue
   **Published:** `2023-02-27T19:32:22Z`
   **NeKI brief:** Foundation overloads `~=` so a `catch` clause can pattern-match an error's code without downcasting every case manually. The technique keeps recovery branches declarative while requiring care when domains expose overlapping or unstable codes.
@@ -80,6 +83,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Bridging Gemini Video with Foundation Models and CustomSegment](https://rudrank.com/exploring-foundation-models-bridging-gemini-video-with-customsegment) — Those Who Swift · Issue 277 — Article · Topics: AI Development · Foundation & Data Formats · Graphics, Media & Games
+  **Published:** `2026-07-29T20:01:55.196Z`
+  **NeKI brief:** Bridges unsupported video input through a custom Transcript segment and LanguageModelExecutor that delegates analysis to Gemini. The layered verification is useful when extending Foundation Models-style sessions beyond the on-device model’s native modalities.
 - [Foundation Models Is Now a Hybrid Platform — and Picking the Tier Is the New Design Decision](https://www.wesleymatlock.com/foundation-models-hybrid-platform) — Those Who Swift · Issue 276 — Article · Topics: AI Development · Foundation & Data Formats · Navigation & Deep Linking
   **Published:** `2026-07-22T20:01:13.378Z`
   **NeKI brief:** Frames model-tier selection as a feature-level architectural decision, with session creation and graceful fallback kept behind a focused boundary. Useful when designing a Foundation Models feature that may choose on-device, cloud, or frontier capability paths.
@@ -101,15 +107,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using Claude With Apple Foundation Models](https://artemnovichkov.com/blog/using-claude-with-apple-foundation-models) — Those Who Swift · Issue 271 — Article · Topics: AI Development · Foundation & Data Formats
   **Published:** `2026-06-18`
   **NeKI brief:** Explores combining Claude with Apple Foundation Models in an Apple-platform workflow. Use it when comparing cloud-model assistance with on-device generation, especially around handoff boundaries, privacy, and feature availability.
+- [Foundation Models can now swap providers](https://www.techtimes.com/articles/318039/20260609/wwdc-2026-developer-tools-foundation-models-now-swaps-ai-providers-without-code-changes.htm?ref=ioscodereview.com) — iOS Code Review · Issue 80 — Article · Topics: AI Development · Foundation & Data Formats · Xcode
+  **Published:** `2026-06-15T17:08:20.000Z`
+  **NeKI brief:** Examines Foundation Models can now swap providers in the context of AI Development and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Whats new in SwiftUI in iOS 27](https://onmyway133.com/posts/whats-new-in-swiftui-in-ios-27) — iOS Dev Weekly · Issue 754 — Article · Topics: Foundation & Data Formats · Swift · SwiftUI
   **Published:** `12th June 2026`
   **NeKI brief:** Presents whats new in swiftui in ios 27 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [MacRumors + 2](https://www.macrumors.com/2026/05/18/apple-design-award-finalists-2026?ref=ioscodereview.com) — iOS Code Review · Issue 79 — Article · Topics: Architecture · Composable Architecture · Testing
+  **Published:** `2026-06-01T16:27:14.000Z`
+  **NeKI brief:** Examines MacRumors + 2 in the context of Architecture and Composable Architecture. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Swift Student Challenge winners](https://9to5mac.com/2026/05/07/apple-highlights-four-swift-student-challenge-apps-ahead-of-wwdc-2026?ref=ioscodereview.com) — iOS Code Review · Issue 78 — Article · Topics: AI Development · Apple Platform Ecosystem · Swift
+  **Published:** `2026-05-16T17:59:28.000Z`
+  **NeKI brief:** Examines Swift Student Challenge winners in the context of AI Development and Apple Platform Ecosystem. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Modern Swift Library Architecture](https://coenttb.com/en/blog/4-1-the-swift-package) — Fatbobman’s Swift Weekly · Issue 132 — Article · Topics: Architecture · Foundation & Data Formats · Swift
   **Published:** `2026-04-20T12:03:00.641Z`
   **NeKI brief:** Describes a layered Swift package ecosystem spanning primitives, standards, and foundations. Use it to study package-boundary design and dependency layering when a growing library family needs more than one monolithic module.
+- [InfoWorld](https://www.infoworld.com/article/4157422/swift-for-visual-studio-code-comes-to-open-vsx-registry.html?ref=ioscodereview.com) — iOS Code Review · Issue 77 — Article · Topics: Cross-Platform & Web · Foundation & Data Formats · Swift
+  **Published:** `2026-04-15T16:20:56.000Z`
+  **NeKI brief:** Examines InfoWorld in the context of Cross-Platform & Web and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Top 10 Developer Tools Apple Introduced At WWDC25](https://fline.dev/blog/top-10-developer-tools-apple-introduced-at-wwdc25) — Those Who Swift · Issue 260 — Article · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
   **Published:** `2026-04-01`
   **NeKI brief:** Examines Top 10 Developer Tools Apple Introduced At WWDC25, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [Embedded Swift Improvements Coming in Swift 6.3Embedded Swift is a subset of Swift that’s designed for low resource usage, making it capable of running on constrained environments like microcontrollers. Using a special compilation mode, Embedded Swift produces significantly smaller binaries than regular Swift. While a subset of the full language, the vast majority of the Swift language works exactly the same in Embedded Swift. Additional information is described in the Embedded Swift vision document.Swift.orgApple Inc.](https://www.swift.org/blog/embedded-swift-improvements-coming-in-swift-6.3?ref=ioscodereview.com) — iOS Code Review · Issue 76 — Article · Topics: Combine & Reactive Programming · Foundation & Data Formats · Swift
+  **Published:** `2026-03-30T18:21:46.000Z`
+  **NeKI brief:** Examines Embedded Swift Improvements Coming in Swift 6.3Embedded Swift is a subset of Swift that’s designed for low… in the context of Combine & Reactive Programming and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Conduit](https://github.com/christopherkarani/Conduit) — Fatbobman’s Swift Weekly · Issue 129 — Source repository · Topics: AI Development · Developer Career & Practice · Developer Tools
   **Published:** `2026-03-30T12:03:55.935Z`
   **NeKI brief:** Conduit is a unified SDK for working with multiple LLM providers. Use it when an application needs provider substitution behind one interface, while keeping model-specific capabilities and cost differences visible to callers.
@@ -148,22 +169,22 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** SWON uses Swift macros to generate JSON initializers for value types without Codable or Foundation, backed by cJSON and targeting Apple, Linux, Windows, and embedded environments. It is useful when minimizing runtime and framework dependencies in data parsing.
 - [Rich Text Editing in SwiftUI Mastering Attributed Strings in iOS 26](https://www.youtube.com/watch?v=-hKpuysa6PM) — Those Who Swift · Issue 242 — Video · Topics: Swift · SwiftUI
   **Published:** `2025-11-26`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds a Notes-style SwiftUI rich-text editor with iOS 26 AttributedString transformations, formatting controls, alignment, color, and reusable toolbar components. The walkthrough also shows how selection state drives formatting-button feedback.
 - [How SwiftData Represents AttributedString in Core Data Storage](https://medium.com/@djalex566/how-swiftdata-represents-attributedstring-in-core-data-storage-69036a4f166a) — SwiftLee Weekly · Issue 299 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2025-11-25T15:16:48.000Z`
   **NeKI brief:** Explains How SwiftData Represents AttributedString in Core Data Storage, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [Using SwiftUI Foundation Models Transcripts to build a Chatbot](https://www.youtube.com/watch?v=cyOqYbWpQzU) — Those Who Swift · Issue 240 — Video · Topics: AI Development · Foundation & Data Formats · Swift
   **Published:** `2025-11-12`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds an on-device travel chatbot from a Foundation Models LanguageModelSession transcript, rendering user and model messages with thinking, scrolling, availability, guardrail, and error states. Useful for connecting session history to SwiftUI presentation.
 - [AnyLanguageModel](https://github.com/mattt/AnyLanguageModel) — iOS Dev Tools · iOS Dev Tools: Clash X, AnyLanguageModel, HealthKit Data Generator — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
   **Published:** `2025-11-06T22:32:54.905Z`
   **NeKI brief:** AnyLanguageModel mirrors Apple's Foundation Models API while allowing alternative language-model providers, presenting a compatible abstraction for application code. Useful for testing provider substitution and keeping model integration behind a stable Swift interface.
 - [Guided Generation with Foundation Models in Swift](https://www.youtube.com/watch?v=kBwwztRY1FQ) — Those Who Swift · Issue 239 — Video · Topics: AI Development · Foundation & Data Formats · Swift
   **Published:** `2025-11-05`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Uses Foundation Models @Generable and @Guide macros for structured workout and title responses, including partial streaming and guardrail errors. Useful for comparing schema-guided output with parsing unconstrained model text.
 - [Optimize your app's speed and efficiency](https://www.youtube.com/watch?v=yXAQTIKR8fk) — SwiftLee Weekly · Issue 296 — Video · Topics: AI Development · Foundation & Data Formats · Performance
   **Published:** `2025-11-04T08:02:52.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Summarizes a Meet with Apple performance session spanning power use, Foundation Models response latency, SwiftUI responsiveness, and Snap's diagnostic tools. Useful as a map of optimization areas before consulting the corresponding primary guidance.
 - [Tunable, physics-driven motion primitives for SwiftUI](https://github.com/roberthein/kinetics) — SwiftUI Weekly · SwiftUI Weekly - Issue #223 — Source repository · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2025-10-20T15:15:23.773Z`
   **NeKI brief:** Provides tunable, physics-driven motion primitives for SwiftUI, including configurable springs and dynamics. Useful for experimenting with reusable interactive animations while inspecting API ergonomics, cancellation, and performance in real screens.
@@ -181,10 +202,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Presents exploring ai for ios development for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Swift progres: UIKit iOS 26, FoundationModels API and SPM traits](https://www.youtube.com/watch?v=Ew101hvrWJk) — Those Who Swift · Issue 230 — Video · Topics: AI Development · Foundation & Data Formats · UIKit
   **Published:** `2025-09-03`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Surveys Swift ecosystem changes around SwiftPM package traits, Foundation Models, UIKit in iOS 26, and proposed stat types for Swift System. Use the linked proposals and documentation to verify each evolving feature.
 - [Make Foundation Models Deterministic: Greedy Decoding in Swift](https://www.youtube.com/watch?v=Q6x3VeGlqwg) — Those Who Swift · Issue 228 — Video · Topics: AI Development · Foundation & Data Formats · Swift
   **Published:** `2025-08-20`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Configures Apple's Foundation Models GenerationOptions for greedy decoding so identical inputs produce more repeatable output. Useful for debugging and tests that need reduced sampling variance while recognizing model behavior is not universally deterministic.
 - [SwiftAgent](https://forums.swift.org/t/swiftagent-a-swift-native-agent-sdk-inspired-by-foundationmodels-and-using-its-tools/81634) — iOS Dev Weekly · Issue 722 — Article · Topics: AI Development · Foundation & Data Formats · Swift
   **Published:** `15th August 2025`
   **NeKI brief:** Presents swiftagent for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -250,28 +271,52 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Shows mapping Codable models into CSV rows, including the column-order and value-conversion decisions serialization requires. Follow it when exporting Swift domain data for reports or interoperability rather than JSON APIs.
 - [Dispatching to the Main thread with MainActor in Swift](https://www.donnywals.com/dispatching-to-the-main-thread-with-mainactor-in-swift?issue=029) — Fatbobman’s Swift Weekly · Issue 29 — Article · Topics: Concurrency · Foundation & Data Formats · Swift
   **Published:** `2024-04-29T12:02:14.611Z`
-  **NeKI brief:** MainActor isolation expresses UI-thread ownership in the type system, replacing ad hoc dispatch calls while making asynchronous hops and actor boundaries explicit.
+  **NeKI brief:** Compares dispatching work to the main actor with older main-queue patterns in Swift concurrency. Use it to clarify isolation boundaries and diagnostics, then adapt the examples to the project's strict-concurrency settings.
 - [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode) — Fatbobman’s Swift Weekly · Issue 5 — Article · Topics: Foundation & Data Formats · Swift · SwiftData
   **Published:** `2023-11-06T22:30:15.675Z`
   **NeKI brief:** Explains Unicode fundamentals and common misconceptions that still cause text-processing bugs. Use it when reviewing Swift string handling, normalization, grapheme boundaries, and serialization across user-visible content and external systems.
 - [2023 年每个软件开发者都必须知道的关于 Unicode 的最基本的知识（仍然不准找借口！）](https://blog.xinshijiededa.men/unicode) — Fatbobman’s Swift Weekly · Issue 5 — Article · Topics: Foundation & Data Formats · Swift · SwiftData
   **Published:** `2023-11-06T22:30:15.675Z`
   **NeKI brief:** Provides a Chinese-language treatment of Unicode basics and the pitfalls of assuming characters map directly to bytes or code points. Follow it as complementary reading when internationalized Swift text behavior needs careful validation.
+- [🎉 Fastlane officially moves to the Mobile Native Foundation](https://github.com/MobileNativeFoundation/discussions/discussions/194) — iOS CI Newsletter · Issue 28 — Source repository · Topics: CI/CD & Automation · Developer Tools · Foundation & Data Formats
+  **Published:** `2023-11-05T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Fastlane might be moving to Mobile Native Foundation!, relevant to CI/CD & Automation and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Interoperability: Swift’s Super Power](https://speakinginswift.substack.com/p/interoperability-swifts-super-power) — Fatbobman’s Swift Weekly · Issue 2 — Article · Topics: Foundation & Data Formats · Swift · Xcode
   **Published:** `2023-10-16T22:30:04.937Z`
   **NeKI brief:** A Speaking in Swift essay explores interoperability as one of Swift's defining strengths. Follow it for community perspective on bridging and adoption, then verify compiler, ABI, and framework specifics independently.
+- [MarkCodable reports](https://trycombine.com/posts/using-markcodable-to-generate-reports) — iOS CI Newsletter · Issue 5 — Article · Topics: Combine & Reactive Programming · Developer Tools · Foundation & Data Formats
+  **Published:** `2022-12-18T00:00:00.000Z`
+  **NeKI brief:** Examines MarkCodable reports in the context of Combine & Reactive Programming and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [MarkCodable](https://github.com/MarkCodable/MarkCodable) — iOS CI Newsletter · Issue 5 — Source repository · Topics: Developer Tools · Foundation & Data Formats
+  **Published:** `2022-12-18T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for MarkCodable, relevant to Developer Tools and Foundation & Data Formats. Inspect its implementation, open issues, and release state before adopting the approach.
 - [The Future of Foundation](https://www.swift.org/blog/future-of-foundation) — iOS Dev Weekly · Issue 589 — Article · Topics: Foundation & Data Formats · Swift
   **Published:** `16th December 2022`
   **NeKI brief:** Explores The Future of Foundation, focusing on the last thing i was expecting as we wind down. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [The SwiftUI Layout Protocol - Part 2](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3N3aWZ0dWktbGFiLmNvbS9sYXlvdXQtcHJvdG9jb2wtcGFydC0yLz91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyIiwicG9zdF9pZCI6ImYyZTA5NDQxLWI0OWQtNDY2Ni1iZGY0LWNhMDE1ZWNmYTdiMSIsInB1YmxpY2F0aW9uX2lkIjoiNzk0OGVhNjUtY2I2ZS00Y2Q1LTk3MmMtMzFmOGM2ZDZjZGE0IiwidmlzaXRfdG9rZW4iOiJlYzNhYzhhNC01YThhLTQzZGUtYmY3OC1jMGViNTNmMWZlZjUiLCJpYXQiOjE2NzQwNjI1NTguMDk2LCJpc3MiOiJvcmNoaWQifQ._glPwaca1iVFJwupEeTdogDJhpWE9AaEf-Mko6Z_onA) — SwiftUI Weekly · SwiftUI Weekly - Issue #114 — Article · Topics: Foundation & Data Formats · Swift · SwiftUI
   **Published:** `2022-09-13T16:37:55.000Z`
   **NeKI brief:** Continues custom SwiftUI Layout implementation techniques. Use it when caching, placement, and subview proposals need deliberate control for performance.
+- [the Difference library](https://github.com/krzysztofzablocki/Difference?ref=ioscodereview.com) — iOS Code Review · Issue 28 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Testing
+  **Published:** `2022-07-28T11:12:02.000Z`
+  **NeKI brief:** Provides the source and change history for the Difference library, relevant to Developer Tools and Foundation & Data Formats. Inspect its implementation, open issues, and release state before adopting the approach.
+- [How to test custom Codable initializer | Danijela's blog](https://danijelavrzan.com/posts/2022/07/how-to-test-custom-codable?ref=ioscodereview.com) — iOS Code Review · Issue 28 — Article · Topics: Foundation & Data Formats · Testing
+  **Published:** `2022-07-28T11:12:02.000Z`
+  **NeKI brief:** Walks through how to test custom Codable initializer | Danijela's blog, with practical context for Foundation & Data Formats and Testing. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [on the Swift Forums](https://forums.swift.org/t/deepcodable-encode-and-decode-deeply-nested-data-into-flat-swift-objects/59136) — iOS Dev Weekly · Issue 568 — Article · Topics: Foundation & Data Formats · Swift
   **Published:** `22nd July 2022`
   **NeKI brief:** Explores on the Swift Forums, focusing on he wrote more about it on the swift forums if you want more context. Follow it to assess the approach, its trade-offs, and where it fits in a current Swift or Apple-platform project.
 - [MVC for SwiftUI with Boutique](https://build.ms/2022/06/22/model-view-controller-store) — iOS Dev Weekly · Issue 564 — Article · Topics: Foundation & Data Formats · Swift · SwiftUI
   **Published:** `24th June 2022`
   **NeKI brief:** Explores MVC for SwiftUI with Boutique, focusing on this is a really long blog post from joe fabisevich,. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [CodableFirebase](https://github.com/alickbass/CodableFirebase?ref=ioscodereview.com) — iOS Code Review · Issue 21 — Source repository · Topics: Developer Tools · Foundation & Data Formats
+  **Published:** `2022-04-21T11:21:14.000Z`
+  **NeKI brief:** Provides the source and change history for CodableFirebase, relevant to Developer Tools and Foundation & Data Formats. Inspect its implementation, open issues, and release state before adopting the approach.
+- [comprehensive guide](https://peterfriese.dev/posts/firestore-codable-the-comprehensive-guide?ref=ioscodereview.com) — iOS Code Review · Issue 21 — Article · Topics: Foundation & Data Formats
+  **Published:** `2022-04-21T11:21:14.000Z`
+  **NeKI brief:** Examines comprehensive guide in the context of Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [the official Unicode documentation](http://unicode.org/reports/tr35/tr35-31/tr35-dates.html?ref=ioscodereview.com) — iOS Code Review · Issue 14 — Article · Topics: Cross-Platform & Web · Foundation & Data Formats · Testing
+  **Published:** `2022-01-13T12:22:06.000Z`
+  **NeKI brief:** Examines the official Unicode documentation in the context of Cross-Platform & Web and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Displaying mathematical fractions](https://coderexmachina.medium.com/displaying-mathematical-fractions-in-swiftui-6a4dd625d842) — iOS Dev Weekly · Issue 533 — Tutorial · Topics: Developer Community & Business · Foundation & Data Formats · Swift
   **Published:** `12th November 2021`
   **NeKI brief:** Explores displaying mathematical fractions that lack a matching Unicode glyph in SwiftUI. A focused typography and layout reference for educational, scientific, or recipe interfaces where a plain slash is not visually adequate.
@@ -329,6 +374,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Slash](https://github.com/chrisdevereux/Slash) — iOS Dev Weekly · Issue 73 — Source repository · Topics: Developer Tools · Product Design
   **Published:** `21st December 2012`
   **NeKI brief:** Provides the Slash source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Play](https://youtube.com/watch?v=qx5QWrKhxM8) — Not only Swift · Issue 98 — Video · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
+  **NeKI brief:** Demonstrates a Firebase bridge that makes Gemini models available through Apple’s Foundation Models-style API. Use it to compare a cloud-model fallback with on-device sessions while keeping authentication, privacy, latency, and API compatibility explicit.
+- [Claude](https://github.com/anthropics/ClaudeForFoundationModels) — Not only Swift · Issue 98 — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
+  **NeKI brief:** Provides an adapter that exposes Claude through APIs shaped like Apple’s Foundation Models framework. Use the source to compare provider substitution and compatibility boundaries while accounting separately for cloud authentication, data transfer, latency, and cost.
+- [Google](https://firebase.blog/posts/2026/06/apple-foundation-models-gemini) — Not only Swift · Issue 98 — Article · Topics: AI Development · Foundation & Data Formats
+  **NeKI brief:** Shows how Firebase can route Gemini through an interface compatible with Apple’s Foundation Models framework. It is useful for designing a cloud fallback, provided privacy, authentication, offline behavior, and model-capability differences remain explicit.
+- [Foundation Models framework utilities](https://github.com/apple/foundation-models-utilities) — Not only Swift · Issue 98 — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
+  **NeKI brief:** Apple’s experimental utilities repository collects emerging patterns for Foundation Models applications. Use it to inspect concrete helpers and examples, while treating the package as exploratory material whose APIs and production guarantees may still change.
 - [Perspective-Server: OpenAI-compatible API for Apple Foundation Models](https://github.com/Techopolis/Perspective-Server) — Not only Swift · Issue 95 — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
   **NeKI brief:** This source repository covers exposing Apple Foundation Models through an OpenAI-compatible local API. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Firebase AI Logic](https://firebase.google.com/products/firebase-ai-logic) — Not only Swift · Issue 87 — Article · Topics: AI Development · Foundation & Data Formats

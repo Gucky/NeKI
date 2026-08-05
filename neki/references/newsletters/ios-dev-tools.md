@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevtools.substack.com/archive](https://iosdevtools.substack.com/archive)
-- Last collected: `2026-07-22T21:49:38Z`
+- Last collected: `2026-08-05T08:59:22Z`
 - Indexed entries: **162**
 
 ## [iOS Dev Tools: MistKit, Swift Scribe, cmux](https://iosdevtools.substack.com/p/ios-dev-tools-mistkit-swift-scribe)
@@ -1176,7 +1176,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Swift GraphQL Codegen](https://github.com/pm-dev/swift-graphql-codegen) — Source repository · Topics: Developer Tools · Networking · Swift
   **NeKI brief:** Swift GraphQL Codegen generates Swift types and operations from a GraphQL schema, emphasizing correctness and flexible output. Useful for keeping API models synchronized with schema changes without hand-maintaining request and response structs.
 - [HandySwiftUI](https://github.com/FlineDev/HandySwiftUI) — Source repository · Topics: Developer Tools · Swift · SwiftUI
-  **NeKI brief:** This source repository covers SwiftUI utilities that fill gaps in the framework. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+  **NeKI brief:** HandySwiftUI collects reusable features not yet present in SwiftUI, providing pragmatic modifiers and components. Useful for surveying gaps that teams repeatedly fill locally, while checking each helper against current SDK APIs.
 - [MaClicker](https://github.com/WorldOfBasti/MaClicker) — Source repository · Topics: Developer Tools · Swift
   **NeKI brief:** MaClicker is a small macOS auto-clicker implemented as a focused utility. Useful for examining global input automation and the permission boundary such tools require, rather than treating simulated clicks as ordinary app events.
 - [Swift Heroes](https://swiftheroes.com/2025) — Article · Topics: Swift
@@ -1401,6 +1401,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Creatopy · Wormholy · Bagbutik
 
 **Selected links:**
+- [Bagbutik](https://github.com/MortenGregersen/Bagbutik) — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **NeKI brief:** Provides the source and change history for Bagbutik, relevant to App Distribution & Store Operations and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Kintsugi](https://github.com/Lightricks/Kintsugi) — Source repository · Topics: Developer Tools · Xcode
   **NeKI brief:** Kintsugi helps resolve project.pbxproj merge conflicts by extracting each side’s changes and reapplying them through project-file editing. Use it when Xcode project conflicts are too structured for a normal text merge, then open and build the result.
 - [Wormholy](https://github.com/pmusolino/Wormholy) — Source repository · Topics: Developer Tools
@@ -1569,6 +1571,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** UItesting.tools · XcodeSelectiveTesting · Suborbital
 
 **Selected links:**
+- [XcodeSelectiveTesting](https://github.com/mikeger/XcodeSelectiveTesting) — Source repository · Topics: Developer Tools · Testing · Xcode
+  **NeKI brief:** Provides the source and change history for XcodeSelectiveTesting, relevant to Architecture and Testing. Inspect its implementation, open issues, and release state before adopting the approach.
 - [PragmaConf](https://pragmaconference.com/) — Article · Topics: Developer Community & Business
   **NeKI brief:** Provides the Pragmaconference event hub for talks and community sessions about Apple development. Use it to discover practitioner perspectives and verify session details before relying on a conference presentation.
 
@@ -2063,6 +2067,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Let’s VisionOS 2024](https://letsvisionos24.swiftgg.team/en) — Article · Topics: Developer Community & Business · Objective-C & Cocoa · Spatial Computing
   **NeKI brief:** Let’s VisionOS 2024 is a Beijing event focused on visionOS and Apple-platform development. Use it to find historical conference material and community perspectives, not as current API documentation or a direct implementation tutorial.
+- [Runway](https://www.runway.team/rollbacks) — Article
+  **NeKI brief:** Examines Introducing Rollbacks by Runway in the context of Apple-platform engineering. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 
 ## [iOS Dev tools: UIViewKit, xScope, Iconic](https://iosdevtools.substack.com/p/ios-dev-tools-uiviewkit-xscope-iconic)
 
@@ -2176,6 +2182,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Wins adds animated window previews and shortcuts to macOS; Bushel provisions virtual macOS machines for testing and rollback; Warp is a modern terminal for command workflows. Use this issue to compare desktop ergonomics, isolated CI capacity, and shell tooling.
 
+**Selected links:**
+- [Bitrise](https://bitrise.io/learn/modas-health-check) — Article
+  **NeKI brief:** Examines Take the 6-question Health Check in the context of Code Quality and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+
 ## [🔨 Moropo, Codelime, Type](https://iosdevtools.substack.com/p/moropo-codelime-type)
 
 - Published: `2023-12-14T15:41:09.149Z`
@@ -2185,6 +2195,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Moropo · Codelime · Type
 
 **NeKI brief:** Moropo offers browser-authored declarative iOS UI tests on cloud simulators, Codelime stores Swift snippets locally with iCloud sync, and Type timestamps plain-text work notes. Use the issue to assess remote QA, offline knowledge capture, and reproducible debugging records.
+
+**Selected links:**
+- [Bitrise](https://bitrise.io/learn/modas-health-check) — Article
+  **NeKI brief:** Examines Take the 6-question Health Check in the context of Code Quality and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 
 ## [🔨 Codye, DisplayBuddy, Backup Status](https://iosdevtools.substack.com/p/codye-displaybuddy-backup-status)
 
@@ -2213,6 +2227,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Juno · Shipmunk · Daily
 
 **NeKI brief:** Juno organizes indie-app projects, links, checklists, and deep links across Apple devices; Shipmunk tracks regional App Store keywords; Daily prompts lightweight time entries and syncs them. Use the issue for shipping workflow, ASO measurement, and evidence-based time tracking.
+
+**Selected links:**
+- [Bitrise](https://bitrise.io/learn/modas-health-check) — Article
+  **NeKI brief:** Examines Take the 6-question Health Check in the context of Code Quality and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 
 ## [🔨 Raycast, Build Distro, SVGView](https://iosdevtools.substack.com/p/raycast-build-distro-svgview)
 
@@ -2263,6 +2281,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** ASO · ToDoBar · EffectsLibrary
 
 **NeKI brief:** 2Stable ASO covers keyword, category, review, and ranking research; ToDoBar keeps deadline tasks and CSV productivity history in the menu bar; EffectsLibrary wraps SpriteKit and Core Animation in SwiftUI effects. Use the issue to compare growth, workflow, and engagement tooling.
+
+**Selected links:**
+- [Bitrise](https://bitrise.io/learn/modas-health-check) — Article
+  **NeKI brief:** Examines Take the 6-question Health Check in the context of Code Quality and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 
 ## [🔨 RocketSim, SwiftMessages, Dash](https://iosdevtools.substack.com/p/rocketsim-swiftmessages-dash)
 
@@ -2497,6 +2519,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Introspect for SwiftUI - Unleashing the Power of UIKit and AppKit in SwiftUI · Copilot for Xcode - Integrated AI Code Assistance · SwiftUI Navigation - Navigating Swiftly through SwiftUI
 
 **Selected links:**
+- [Copilot for Xcode - Integrated AI Code Assistance](https://github.com/pointfreeco/swiftui-navigation) — Source repository · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Provides the source and change history for GitHub - pointfreeco/swiftui-navigation: Tools for making SwiftUI navigation simpler, more ergonomic and more…, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Introspect](https://github.com/siteline/SwiftUI-Introspect) — Source repository · Topics: Swift · SwiftUI · UIKit
   **NeKI brief:** SwiftUI Introspect exposes the UIKit or AppKit backing view behind selected SwiftUI controls through version-scoped introspection. Use it for narrowly targeted platform customization when SwiftUI lacks an API, while minimizing reliance on implementation details.
 - [Introspect for SwiftUI - Unleashing the Power of UIKit and AppKit in SwiftUI](https://github.com/intitni/CopilotForXcode) — Source repository · Topics: Swift · SwiftUI · UIKit

@@ -3,8 +3,100 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://peterfriese.dev/newsletter/](https://peterfriese.dev/newsletter/)
-- Last collected: `2026-07-22T21:49:38Z`
-- Indexed entries: **22**
+- Last collected: `2026-08-05T10:03:08Z`
+- Indexed entries: **24**
+
+## [Issue 99](https://peterfriese.dev/newsletter/issues/99)
+
+
+**Topics:** AI Development · App Intents & System Surfaces · Developer Community & Business · Macros & Metaprogramming · Swift · SwiftUI
+
+**Sections:** Not only Swift · Swift · What's New at WWDC 2026
+
+**NeKI brief:** Explores Swift-to-WebAssembly tooling, Xcode 27's macro-based State, Foundation Models lifecycle hooks and AI-generated function bodies. Follow it to compare compiler extensions and agentic APIs with their testing and maintainability trade-offs.
+
+**Selected links:**
+- [Making a SwiftUI sheet automatically size to fit its content](https://go.peterfriese.dev/swiftui-making-a-sheet-automatically-size?s=web&t=ext) — Article · Topics: Concurrency · Swift · SwiftUI
+  **NeKI brief:** Builds a SwiftUI sheet whose detent follows measured content instead of a fixed fraction of the screen. Use it when content-driven sizing matters, testing measurement loops, dynamic type, rotation, and interactive dismissal.
+- [AgenticSwift — AI Macros for Swift](https://go.peterfriese.dev/ai-agenticswift-macros?s=web&t=ext) — Article · Topics: AI Development · Macros & Metaprogramming · Swift
+  **NeKI brief:** AgenticSwift experiments with a macro that asks a model to generate Swift implementation code. Inspect it to understand compile-time generation mechanics and the reproducibility, review, security, and build-dependency risks of placing an AI call in macro expansion.
+- [Siri & App Intents](https://go.peterfriese.dev/wwdc-2026-siri-app?s=newsletter&t=ext) — Article · Topics: App Intents & System Surfaces · Apple Platform Ecosystem
+  **NeKI brief:** Deep-links to the Siri and App Intents portion of a transcript-derived WWDC 2026 change index. Use it to inventory system-surface announcements before verifying schemas, availability, and behavior in primary Apple material.
+- [System APIs](https://go.peterfriese.dev/wwdc-2026-system-apis?s=newsletter&t=ext) — Article · Topics: App Intents & System Surfaces · Apple Platform Ecosystem
+  **NeKI brief:** Deep-links to the system-API portion of a transcript-derived WWDC 2026 change index. It helps narrow a large announcement set, but each capability still needs confirmation against its framework documentation and target SDK.
+- [How MiniSwift Works](https://go.peterfriese.dev/swift-how-miniswift-works?s=web&t=ext) — Article · Topics: App Intents & System Surfaces · Swift
+  **NeKI brief:** Traces MiniSwift from Swift source through parsing, semantic analysis, WebAssembly generation, linking, and browser execution. It is useful for understanding how a compact Swift-compatible toolchain can run without Xcode or Apple’s compiler binaries.
+- [SwiftUI: @State is a macro](https://go.peterfriese.dev/swiftui-state-macro?s=web&t=ext) — Tutorial · Topics: Macros & Metaprogramming · Swift · SwiftUI
+  **NeKI brief:** Explains Xcode 27’s implementation of SwiftUI State as a macro, including initialization fixes, AttributeGraph nodes, DynamicProperty injection, and invalidation. Use it to understand changed internals without assuming implementation details are a stable public contract.
+- [SwiftUI Property Wrappers](https://go.peterfriese.dev/swiftui-property-wrappers?s=newsletter&t=ext) — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
+  **NeKI brief:** Compares State, Binding, StateObject, and ObservedObject by ownership and data flow. The quick reference is useful for reviewing older SwiftUI code, while newer Observation APIs and target-platform availability should be considered separately.
+- [this prompt](https://go.peterfriese.dev/agenticswift-macro-prompt?s=newsletter&t=ext) — Article · Topics: AI Development · Macros & Metaprogramming · Swift
+  **NeKI brief:** Links directly to AgenticSwift’s macro implementation and embedded generation prompt. Use the source to audit what context is sent, how output becomes syntax, and where validation or deterministic fallbacks would be required.
+- [interactive playgrounds](https://go.peterfriese.dev/miniswift-embeddable-playgroun?s=newsletter&t=ext) — Tutorial · Topics: Swift
+  **NeKI brief:** Shows how to embed a zero-setup SwiftUI playground in courses, documentation, blog posts, or workshops. Use it to make examples executable in place while treating compatibility with production Swift and Apple frameworks as a separate validation step.
+- [MAD-SLIP](https://go.peterfriese.dev/slip-programming-language-on?s=newsletter&t=ext) — Article · Topics: Objective-C & Cocoa
+  **NeKI brief:** Provides background on SLIP, the list-processing system embedded into languages such as MAD and used by ELIZA. Read it to understand the data structures available to the original program rather than judging it through modern language assumptions.
+- [Finding Eliza team](https://go.peterfriese.dev/finding-eliza-team?s=newsletter&t=ext) — Article · Topics: Objective-C & Cocoa
+  **NeKI brief:** Introduces the ELIZA Archaeology Project team that recovered and studied the original materials. It provides provenance for the linked source, reconstructions, and critical readings rather than another independent technical implementation.
+- [copy on the Internet Archive](https://go.peterfriese.dev/eliza-1966-source-code?s=newsletter&t=ext) — Article · Topics: Objective-C & Cocoa
+  **NeKI brief:** Routes to an Internet Archive scan of Joseph Weizenbaum’s original MAD-SLIP ELIZA source. Use it as primary historical evidence when checking claims about the interpreter, while expecting archival notation and tooling rather than directly runnable modern code.
+- [From code breaking to code making](https://go.peterfriese.dev/from-code-breaking-to?s=newsletter&t=ext) — Article · Topics: AI Development
+  **NeKI brief:** Traces a historical line from Bletchley Park code breaking to contemporary generative systems. Use the talk as computing-history framing for agentic development, not as current evidence about Apple APIs or model capabilities.
+- [presented](https://go.peterfriese.dev/keynote-presentation-at-tnmoc?s=newsletter&t=ext) — Article · Topics: AI Development
+  **NeKI brief:** Connects historical code breaking with modern code generation in a Bletchley Park keynote. It provides computing-history context for the issue’s ELIZA material rather than current Apple API guidance.
+- [What's New at WWDC 2026](https://go.peterfriese.dev/swift-whats-new-at-wwdc-2026?s=web&t=ext) — Article · Topics: Apple Platform Ecosystem · Swift
+  **NeKI brief:** Aggregates WWDC 2026 changes from session transcripts and groups them by framework and capability. It is a broad discovery map for finding relevant announcements, with final API decisions still requiring the linked Apple sessions and documentation.
+- [MiniSwift Studio](https://go.peterfriese.dev/miniswift-studio?s=newsletter&t=ext) — Article · Topics: Swift · Systems Programming
+  **NeKI brief:** Provides a browser-based Swift environment with live SwiftUI previews, breakpoints, console output, and a SwiftData inspector. Follow it when evaluating zero-install teaching or prototyping workflows and their differences from the real Xcode toolchain.
+- [MiniKotlin](https://go.peterfriese.dev/minikotlin?s=newsletter&t=ext) — Tutorial · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Introduces a from-scratch Kotlin-to-WebAssembly compiler written in C and compiled to WebAssembly itself. The project is useful comparative reading for browser-hosted language tooling, multi-file compilation, and entirely client-side execution.
+- [IDE](https://go.peterfriese.dev/minikotlin-studio?s=newsletter&t=ext) — Tutorial · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Offers a small multi-file Kotlin IDE that compiles to WebAssembly and runs inside the browser. Use it as a concrete companion to MiniSwift when comparing editor, compiler, and runtime boundaries in portable teaching tools.
+- [DOCTOR](https://go.peterfriese.dev/eliza-doctor-script?s=newsletter&t=ext) — Article
+  **NeKI brief:** Explains ELIZA’s DOCTOR script as keyword, decomposition, and reassembly rules, with a searchable view of the original script. It shows how much apparent conversation behavior lived in data rather than the interpreter itself.
+- [ELIZA itself](https://go.peterfriese.dev/try-eliza-online?s=newsletter&t=ext) — Tutorial · Topics: Developer Community & Business
+  **NeKI brief:** Runs a browser reconstruction of the 1966 ELIZA interpreter with the genuine DOCTOR script. The interactive comparison helps reveal how rule ordering and user interpretation produce conversational effects from a small symbolic system.
+- [The first chatbot · ELIZA (1966)](https://go.peterfriese.dev/history-the-first-chatbot-eliza-1966?s=web&t=ext) — Article
+  **NeKI brief:** Presents a critical code-study of ELIZA using recovered 1966 source rather than later reimplementations. It is useful historical context for separating the program’s simple transformation rules from the intelligence users projected onto its conversation.
+- [interpreter](https://go.peterfriese.dev/eliza-interpreter-code?s=newsletter&t=ext) — Article
+  **NeKI brief:** Walks through the recovered ELIZA interpreter’s MAD-SLIP source and central processing loop. Follow it when comparing the original implementation with modern descriptions that often collapse the interpreter and its DOCTOR script into one system.
+
+## [Issue 98](https://peterfriese.dev/newsletter/issues/98)
+
+
+**Topics:** AI Development · Apple Platform Ecosystem · Developer Community & Business · Foundation & Data Formats · Swift · SwiftUI
+
+**Sections:** Not only Swift · SwiftUI · The hidden cost of unstable SwiftUI environment defaults
+
+**NeKI brief:** Connects SwiftUI environment stability, reusable-view API design and Apple's view-composition guidance with agent-skill design. Foundation Models utilities and Firebase integration broaden the issue from UI architecture to interchangeable local and hosted models.
+
+**Selected links:**
+- [includes skills for Swift and SwiftUI in Xcode](https://dev.to/arshtechpro/wwdc-2026-xcode-27-ships-with-apples-own-agent-skills-what-they-are-and-how-to-use-them-3g2) — Article · Topics: Swift · SwiftUI · Xcode
+  **NeKI brief:** Surveys the agent skills bundled with Xcode 27 and how they guide Swift, SwiftUI, testing, and Apple-framework work. Treat it as community orientation, then verify the installed skill contents and supported workflow in the actual Xcode release.
+- [Claude](https://github.com/anthropics/ClaudeForFoundationModels) — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
+  **NeKI brief:** Provides an adapter that exposes Claude through APIs shaped like Apple’s Foundation Models framework. Use the source to compare provider substitution and compatibility boundaries while accounting separately for cloud authentication, data transfer, latency, and cost.
+- [Foundation Models framework utilities](https://github.com/apple/foundation-models-utilities) — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
+  **NeKI brief:** Apple’s experimental utilities repository collects emerging patterns for Foundation Models applications. Use it to inspect concrete helpers and examples, while treating the package as exploratory material whose APIs and production guarantees may still change.
+- [Emre’s article about this](https://go.peterfriese.dev/splitting-large-swiftui-views?s=newsletter&t=ext) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Argues for extracting real SwiftUI subviews instead of hiding fragments in computed properties, and explains where ViewBuilder remains appropriate. The checklist helps preserve identity, dependencies, and local reasoning while decomposing an oversized view.
+- [backbones of SwiftUI](https://speakerdeck.com/peterfriese/why-every-swiftui-developer-should-care-about-the-environment-ioskonf25) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains SwiftUI Environment as a dependency and contextual-value channel rather than mere convenience storage. Use the talk to reason about propagation, custom keys, testability, and the hidden coupling created by overusing ambient values.
+- [Google](https://firebase.blog/posts/2026/06/apple-foundation-models-gemini) — Article · Topics: AI Development · Foundation & Data Formats
+  **NeKI brief:** Shows how Firebase can route Gemini through an interface compatible with Apple’s Foundation Models framework. It is useful for designing a cloud fallback, provided privacy, authentication, offline behavior, and model-capability differences remain explicit.
+- [typeset](https://github.com/peterfriese/swift-book) — Source repository · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **NeKI brief:** Provides Peter Friese’s Swift book materials and examples as a public reference for learning and teaching core Swift concepts. Use it for structured study, not as version-specific API authority.
+- [Paul Hudson’s Swift and SwiftUI skills](https://github.com/twostraws/swiftui-agent-skill) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Provides a reusable SwiftUI-focused agent skill with guidance for generating and reviewing views. Useful as a concrete prompt and workflow artifact when evaluating AI-assisted UI composition, accessibility, and maintainability in a project.
+- [Firebase skills](https://github.com/firebase/agent-skills) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Firebase’s agent-skills repository packages task-specific guidance for working with Firebase services. Use it to inspect how official workflows, constraints, and progressive context can be exposed to coding agents while keeping project configuration and credentials outside prompts.
+- [Stratos](https://github.com/peterfriese/Stratos) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Stratos demonstrates agent skills for API design using progressive disclosure, loading deeper guidance only when a task needs it. The repository is useful when structuring reusable architecture advice without flooding every agent turn with the entire rule set.
+- [several of my talks](https://speakerdeck.com/peterfriese/building-reusable-swiftui-components-98b3272c-3056-44ad-879c-2780c1f89e2d?slide=57) — Article · Topics: Concurrency · Swift · SwiftUI
+  **NeKI brief:** Presents techniques for separating SwiftUI rendering from business logic and shaping reusable components with explicit inputs. The deck is useful when a large view mixes ownership, actions, and presentation in ways that make previews and tests brittle.
+- [decision framework](https://emredegirmenci.substack.com/i/204279449/practical-checklist-what-i-use-in-code-reviews-now) — Article · Topics: Concurrency · Swift · SwiftUI
+  **NeKI brief:** Provides a code-review checklist for deciding whether SwiftUI extraction should become a subview, a builder, or remain local. Use the deep link as the actionable companion to the article’s broader decomposition argument.
+- [Play](https://youtube.com/watch?v=qx5QWrKhxM8) — Video · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
+  **NeKI brief:** Demonstrates a Firebase bridge that makes Gemini models available through Apple’s Foundation Models-style API. Use it to compare a cloud-model fallback with on-device sessions while keeping authentication, privacy, latency, and API compatibility explicit.
 
 ## [Issue 97](https://peterfriese.dev/newsletter/issues/97)
 
@@ -15,7 +107,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Play](https://youtube.com/watch?v=Y_Ov-ddMb24) — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
-  **NeKI brief:** Links to a public video about Play. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Presents Natalia Panferova's five SwiftUI mental-model principles and associated anti-patterns, connecting structural choices to predictable updates, performance, and maintainability. Useful as architectural guidance for reasoning about complex view hierarchies.
 - [The SwiftUI Way](https://books.nilcoalescing.com/the-swiftui-way) — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **NeKI brief:** The SwiftUI Way targets experienced developers with production patterns and anti-patterns informed by SwiftUI framework experience. Use it when evaluating a complex view architecture rather than looking up an isolated control API.
 - [describes the Firebase API Council](https://www.davidpoll.com/2026/02/code-review-is-not-about-catching-bugs) — Article
@@ -30,9 +122,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [I let an AI agent build a Swift SDK (Pickle Rick & Gemini CLI)](https://www.youtube.com/live/MT2faGlRHNM?si=elwrkRdpUewJR4lQ) — Video · Topics: AI Development · Swift
-  **NeKI brief:** Describes I let an AI agent build a Swift SDK (Pickle Rick & Gemini CLI), focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
+  **NeKI brief:** Follows an autonomous coding agent reimplementing Mozilla Readability as a Swift package from a product specification and iterative loops. The experiment exposes project-generation failures, tool changes, and the need for simulator-level verification.
 - [Play](https://youtube.com/watch?v=MT2faGlRHNM) — Video · Topics: AI Development · Swift
-  **NeKI brief:** Links to a public video about Play. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Follows an autonomous coding agent reimplementing Mozilla Readability as a Swift package from a product specification and iterative loops. The experiment exposes project-generation failures, tool changes, and the need for simulator-level verification.
 - [Pickle Rick Extension](https://github.com/galz10/pickle-rick-extension) — Source repository · Topics: Developer Tools · Swift
   **NeKI brief:** Provides the public source repository for Pickle Rick Extension. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
 - [Greenlight: Pre-submission compliance scanner for the Apple App Store](https://github.com/RevylAI/greenlight) — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
@@ -96,7 +188,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Play](https://youtube.com/watch?v=bCz3Pc041ME) — Video · Topics: AI Development · Swift · SwiftUI
-  **NeKI brief:** Links to a public video about Play. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Coordinates multiple Antigravity agents through Git worktrees while refactoring a SwiftUI tagging interface and adding batched Firestore deletion. The session exposes planning, parallel review, merge, and compatibility decisions in a real codebase.
 - [Xcode’s responses weren’t compatible with the MCP protocol](https://github.com/google-gemini/gemini-cli/issues/18371) — Source repository · Topics: AI Development · Developer Tools · Xcode
   **NeKI brief:** Describes Xcode’s responses weren’t compatible with the MCP protocol, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
 - [fix on our end](https://github.com/google-gemini/gemini-cli/pull/18376) — Source repository · Topics: AI Development · Developer Tools · Xcode
@@ -116,7 +208,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering) — Article
   **NeKI brief:** This technical resource covers harness engineering and using Codex in agent-first teams. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Multi-agent coding with Antigravity](https://www.youtube.com/watch?v=bCz3Pc041ME) — Video · Topics: Combine & Reactive Programming
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Coordinates multiple Antigravity agents through Git worktrees while refactoring a SwiftUI tagging interface and adding batched Firestore deletion. The session exposes planning, parallel review, merge, and compatibility decisions in a real codebase.
 - [MicroGPT](https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95) — Source repository · Topics: Developer Tools
   **NeKI brief:** This source repository covers a minimal GPT implementation for understanding language-model mechanics. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 
@@ -135,11 +227,11 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [agent-device](https://github.com/callstackincubator/agent-device) — Source repository · Topics: AI Development · Developer Tools · Xcode
   **NeKI brief:** This source repository covers controlling iOS and Android devices from AI agents. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [catch the replay](https://www.youtube.com/watch?v=bCz3Pc041ME) — Video · Topics: AI Development · Swift
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Coordinates multiple Antigravity agents through Git worktrees while refactoring a SwiftUI tagging interface and adding batched Firestore deletion. The session exposes planning, parallel review, merge, and compatibility decisions in a real codebase.
 - [Exploring AI Driven Coding: Using Xcode 26.3 MCP Tools in Cursor, Claude Code and Codex](https://rudrank.com/exploring-xcode-using-mcp-tools-cursor-external-clients) — Article · Topics: AI Development · Xcode
   **NeKI brief:** Describes Exploring AI Driven Coding: Using Xcode 26.3 MCP Tools in Cursor, Claude Code and Codex, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
 - [Play](https://youtube.com/watch?v=bCz3Pc041ME) — Video · Topics: Developer Tools
-  **NeKI brief:** Links to a public video about Play. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Coordinates multiple Antigravity agents through Git worktrees while refactoring a SwiftUI tagging interface and adding batched Firestore deletion. The session exposes planning, parallel review, merge, and compatibility decisions in a real codebase.
 - [SwiftRecordKit](https://nonstrict.eu/recordkit) — Article · Topics: Swift
   **NeKI brief:** This article covers the SwiftRecordKit package. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Swift Concurrency from Zero to Hero](https://swiftology.io/articles/swift-concurrency-zero-to-hero) — Article · Topics: Concurrency · Swift
@@ -148,6 +240,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** This article covers designing stable, expressive error APIs for Swift SDKs. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Desktopia Pro X Smart Control](https://www.sgade.de/blog/2023-07-13-desktopia-prox-smartcontrol) — Article · Topics: Swift
   **NeKI brief:** This article covers Desktopia Pro X Smart Control in a macOS context. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [Dev Workspaces - Natalia Panferova](https://iosdev.tools/blog/dev-workspaces-natalia-panferova) — Article
+  **NeKI brief:** Presents Welcome to "Dev Workspaces"! - Natalia Panferova as an Apple-platform development resource. Use the profile to understand its concrete role, then check the linked project for current capabilities and maintenance status.
 
 ## [Issue 92](https://peterfriese.dev/newsletter/issues/92)
 
@@ -195,7 +289,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [A SwiftUI agent skill for better code reviews](https://github.com/AvdLee/SwiftUI-Agent-Skill) — Source repository · Topics: Code Quality · Swift · SwiftUI
   **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
 - [Function calling: The missing piece for agentic apps](https://www.youtube.com/watch?v=d69KP1iFg5E) — Video · Topics: AI Development · Swift · SwiftUI
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Implements Firebase AI Logic function calling in an iOS meal-planning app so the model can set and inspect timers. The five-step workflow covers declarations, tool requests, results, reliability settings, and safety boundaries.
 - [Prompting Apple's foundation models: A survival guide](https://livsycode.com/best-practices/foundation-models-prompting-guide) — Article · Topics: AI Development · Foundation & Data Formats
   **NeKI brief:** Provides practical prompting guidance for Apple's Foundation Models. Use it when shaping instructions, output constraints, and context boundaries for on-device generation, then validate behavior across models, locales, and failure cases.
 - [Trees: Effortless Git worktrees in your menu bar](https://github.com/afterxleep/trees) — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
@@ -210,13 +304,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [last week’s livestream](https://www.youtube.com/watch?v=Z-KB7gOnE_E) — Video · Topics: AI Development · Developer Tools · Swift
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Live-codes a Firestore tagging model and SwiftUI feature with Gemini CLI and Antigravity, including a flawed generated schema, permission failures, and human-guided debugging. Useful for observing both acceleration and supervision costs in agentic development.
 - [Intercepting SwiftUI Sheet Dismissal](https://livsycode.com/swiftui/intercepting-swiftui-sheet-dismissal) — Article · Topics: AI Development · Swift · SwiftUI
   **NeKI brief:** Shows how to intercept SwiftUI sheet dismissal before allowing a modal flow to close. Follow it for unsaved-edit confirmation and validation, keeping dismissal state, cancellation, and accessibility actions consistent across interactive and programmatic paths.
 - [AI-powered Swift dev: building a tagging system with Gemini & Firebase](https://youtube.com/live/O-XbrEy9DRc) — Video · Topics: AI Development · Swift
-  **NeKI brief:** Presents a concrete implementation of AI-powered Swift dev: building a tagging system with Gemini & Firebase. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
+  **NeKI brief:** Follows an off-script crash investigation using Git worktrees, Antigravity, and Flow Deck before moving tag logic into a Firebase Cloud Function and diagnosing duplicate records. Useful as a realistic agent-assisted debugging session.
 - [today - January 19th](https://www.youtube.com/live/O-XbrEy9DRc) — Video · Topics: AI Development · Swift
-  **NeKI brief:** Records a live session on building an AI-powered Swift tagging system with Gemini and Firebase. Use it to study end-to-end integration choices, then verify SDK and privacy requirements before production use.
+  **NeKI brief:** Follows an off-script crash investigation using Git worktrees, Antigravity, and Flow Deck before moving tag logic into a Firebase Cloud Function and diagnosing duplicate records. Useful as a realistic agent-assisted debugging session.
 - [Local MCP Development with Gemini CLI and Swift](https://dev.to/gde/local-mcp-development-with-gemini-cli-and-swift-1058) — Article · Topics: AI Development · Swift
   **NeKI brief:** This article covers local MCP development using Gemini CLI and Swift. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [WWDC Index](https://nonstrict.eu/wwdcindex) — Article · Topics: AI Development · Apple Platform Ecosystem
@@ -239,7 +333,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Why you should stop stashing and use worktrees](https://www.marcohaber.dev/blog/git-worktrees) — Article · Topics: Developer Tools · Objective-C & Cocoa · Xcode
   **NeKI brief:** Discusses Why you should stop stashing and use worktrees in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
 - [Building a Second Brain App](https://www.youtube.com/playlist?list=PLsnLd2esiGRTmfGZcZMnEy6hkBHXBH_en) — Video · Topics: AI Development · Swift
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Follows a SwiftUI second-brain app built with Firestore sync, Gemini summaries and questions, Genkit integration, and Siri access. The playlist shows those services evolving together inside a real project.
 - [I created a PDF version of the Swift book](https://github.com/peterfriese/swift-book) — Source repository · Topics: Developer Tools · Swift
   **NeKI brief:** Provides Peter Friese’s Swift book materials and examples as a public reference for learning and teaching core Swift concepts. Use it for structured study, not as version-specific API authority.
 - [Finally understand Swift concurrency](https://fuckingapproachableswiftconcurrency.com/en) — Article · Topics: Concurrency · Developer Tools · Swift
@@ -261,7 +355,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [swift-algorithms](https://github.com/apple/swift-algorithms) — Source repository · Topics: Developer Tools · Swift
   **NeKI brief:** Swift Algorithms packages focused sequence and collection operations that complement the standard library. Follow it when a transformation is common enough to reuse but specific enough not to justify an app-local implementation.
 - [Designing a smart tagging system from scratch](https://www.youtube.com/watch?v=Z-KB7gOnE_E) — Video
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Live-codes a Firestore tagging model and SwiftUI feature with Gemini CLI and Antigravity, including a flawed generated schema, permission failures, and human-guided debugging. Useful for observing both acceleration and supervision costs in agentic development.
 
 ## [Issue 88](https://peterfriese.dev/newsletter/issues/88)
 
@@ -274,7 +368,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Comparing Combine's subjects with AsyncStream in Swift](https://tanaschita.com/swift-combine-subjects-vs-asyncstream) — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **NeKI brief:** Compares Combine subjects with `AsyncStream`, contrasting multicasting and operator ecosystems with Swift Concurrency's cancellation-aware async iteration. Follow it when migrating event pipelines and deciding whether a stream needs replay, multiple consumers, or structured concurrency.
 - [Implementing chat with Firebase AI Logic on iOS](https://www.youtube.com/watch?v=AZ_JYSYUmg4) — Video · Topics: AI Development · Xcode
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds a SwiftUI chat with Firebase AI Logic, using its Chat API for conversation history, system instructions, multimodal messages, and streamed responses. Useful for separating model context management from the interface's incremental updates.
 - [bjesus/pipet: Swiss-army tool for scraping and extracting data from online assets, made for hackers](https://github.com/bjesus/pipet) — Source repository · Topics: AI Development · Developer Tools
   **NeKI brief:** This source repository covers a command-line scraper for extracting online assets. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [SwiftUI Redraw System In Depth](https://medium.com/@matgnt/swiftui-redraw-system-in-depth-attributes-recomputation-diffing-and-observation-66b469fdcada) — Article · Topics: Performance · Swift · SwiftUI
@@ -291,15 +385,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Beyond Chatbots: Building Smart iOS Apps with Firebase AI Logic & Swift](https://www.youtube.com/watch?v=sfWYh-oxk8k) — Video · Topics: AI Development · App Intents & System Surfaces · Swift
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Live-codes Firebase AI Logic features in Swift, including JSON-schema structured output and Imagen-based image generation. The session also discusses API security, quota management, pricing choices, and forthcoming schema-annotation tooling.
 - [sneak preview of the new macros they’re working on](https://www.youtube.com/live/sfWYh-oxk8k?si=NLmSS8NcHtEUadXe&t=4877) — Video · Topics: AI Development · Macros & Metaprogramming · Swift
-  **NeKI brief:** Links to a public video about sneak preview of the new macros they’re working on. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Live-codes Firebase AI Logic features in Swift, including JSON-schema structured output and Imagen-based image generation. The session also discusses API security, quota management, pricing choices, and forthcoming schema-annotation tooling.
 - [Building AI features using Foundation Models](https://swiftwithmajid.com/2025/08/19/building-ai-features-using-foundation-models) — Article · Topics: AI Development · Foundation & Data Formats · Swift
   **NeKI brief:** Builds application features with Apple's Foundation Models framework, covering model sessions and generated responses. Useful for evaluating on-device intelligence while keeping availability and privacy boundaries explicit.
 - [Build with AI @ Bletchley Park 2025](https://www.tnmoc.org/events/2025/7/12/build-with-ai-bletchley-park-2025) — Article · Topics: AI Development · Developer Community & Business · Personal Essays
   **NeKI brief:** Discusses Build with AI @ Bletchley Park 2025 in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
 - [creating a slide deck for me](https://www.youtube.com/watch?v=ax6t6mvawXE&t=3469s) — Video · Topics: AI Development · Swift
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Live-builds a Swift MCP server that controls Keynote, registers it with Claude Desktop, and generates a conference slide deck from a title and abstract. Useful for seeing desktop automation progress from tool definition to real artifact.
 - [AI_dev](https://aideveu2025.sched.com/event/25TtL/beyond-prompts-building-intelligent-applications-with-genkit-and-the-model-context-protocol-peter-friese-google) — Article · Topics: AI Development · Swift
   **NeKI brief:** Lists a conference session on building intelligent applications with Genkit and the Model Context Protocol. Use it for architectural context around tool calling and orchestration, then validate implementation details in primary SDK documentation.
 - [Firebase AI Logic](https://firebase.google.com/products/firebase-ai-logic) — Article · Topics: AI Development · Foundation & Data Formats
@@ -332,9 +426,11 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [@EnvironmentObject](https://www.hackingwithswift.com/quick-start/swiftui/how-to-use-environmentobject-to-share-data-between-views) — Article · Topics: Observation & State Management · Swift · SwiftUI
   **NeKI brief:** Discusses @EnvironmentObject in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
 - [livestreams on my channel](https://www.youtube.com/playlist?list=PLsnLd2esiGRTmfGZcZMnEy6hkBHXBH_en) — Video · Topics: Swift · SwiftUI
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Follows a SwiftUI second-brain app built with Firestore sync, Gemini summaries and questions, Genkit integration, and Siri access. The playlist shows those services evolving together inside a real project.
 - [this branch on the repository](https://github.com/firebase/quickstart-ios/tree/peterfriese/firebase-ai-quickstart-refresh/firebaseai) — Source repository · Topics: AI Development · Developer Tools
   **NeKI brief:** This source repository covers Firebase AI examples for an iOS quickstart branch. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [Why every SwiftUI developer should care about the Environment](https://speakerdeck.com/peterfriese/why-every-swiftui-developer-should-care-about-the-environment-ioskonf25) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains SwiftUI Environment as a dependency and contextual-value channel rather than mere convenience storage. Use the talk to reason about propagation, custom keys, testability, and the hidden coupling created by overusing ambient values.
 - [Getting view size in SwiftUI without GeometryReader](https://nemecek.be/blog/208/getting-view-size-in-swiftui-without-geometryreader) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Shows modern ways to obtain a SwiftUI view's size without GeometryReader. Useful for reducing layout coupling when a component needs measurements for adaptive presentation.
 - [Passing actions through the SwiftUI Environment](https://www.magnuskahr.dk/posts/2021/10/passing-actions-through-the-environment-in-swiftui) — Article · Topics: Swift · SwiftUI
@@ -351,7 +447,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Play](https://youtube.com/watch?v=UXG7U6iFxxM) — Video · Topics: Liquid Glass · Product Design · Testing
-  **NeKI brief:** Links to a public video about Play. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Works through supporting iOS 26 Liquid Glass while retaining earlier deployment targets, using availability checks and a custom SwiftUI backport after a library approach fails on iOS 18. Useful for concrete compatibility trade-offs.
 - [this repository](https://github.com/FirebaseExtended/firebase-video-samples/tree/main/firebase-ai-friendly-meals/apple) — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
   **NeKI brief:** Contains the Apple client sample for Firebase AI Friendly Meals, showing practical integration boundaries around Firebase services and SwiftUI. Inspect it for a runnable reference, then check current SDK setup and security guidance.
 - [Glassifying custom SwiftUI views](https://swiftwithmajid.com/2025/07/16/glassifying-custom-swiftui-views) — Tutorial · Topics: AI Development · Swift · SwiftUI
@@ -363,7 +459,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Rules for Rules: Writing Docs for LLMs](https://mbleigh.dev/posts/rules-for-rules) — Article · Topics: AI Development · Liquid Glass
   **NeKI brief:** This article covers writing effective rules and instructions for LLMs. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Second Brain app](https://www.youtube.com/playlist?list=PLsnLd2esiGRTmfGZcZMnEy6hkBHXBH_en) — Video · Topics: Graphics, Media & Games · Liquid Glass · Swift
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Follows a SwiftUI second-brain app built with Firestore sync, Gemini summaries and questions, Genkit integration, and Siri access. The playlist shows those services evolving together inside a real project.
 - [tabs](https://swiftwithmajid.com/2025/06/24/glassifying-tabs-in-swiftui) — Article · Topics: Liquid Glass · Swift · SwiftUI
   **NeKI brief:** Explores Liquid Glass tab interactions and the SwiftUI APIs introduced for the new tab design. Follow it when migrating tab navigation and checking how selection, customization, and platform styling affect existing layouts.
 - [toolbars](https://swiftwithmajid.com/2025/07/01/glassifying-toolbars-in-swiftui) — Article · Topics: Liquid Glass · Swift · SwiftUI
@@ -388,7 +484,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Play](https://youtube.com/watch?v=7jHo4DuFJ8U) — Video · Topics: Liquid Glass · Swift · SwiftUI
-  **NeKI brief:** Links to a public video about Play. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Updates a SwiftUI chat interface for iOS 26 Liquid Glass while discussing backward compatibility, Foundation Models, network inspection with Proxyman, and Gemini through Firebase AI Logic. Useful for comparing integration strategies in one evolving app.
 - [AGDebugKit](https://github.com/OpenSwiftUIProject/AGDebugKit) — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **NeKI brief:** This source repository covers AGDebugKit and diagnostics for OpenSwiftUI-based development. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [an entire chapter just about toolbars](https://youtu.be/3MugGCtm26A?t=469s) — Video · Topics: Apple Platform Ecosystem · Swift · SwiftUI
@@ -456,7 +552,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [SwiftUI View Identity](https://www.youtube.com/watch?v=Hnxqc5b2pok) — Video · Topics: Swift · SwiftUI · UIKit
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Distinguishes a SwiftUI view's transient value from its structural identity, showing how hierarchy changes affect state preservation and initializer behavior. Useful for diagnosing unexpected resets and designing stable state ownership.
 - [Implementing Firebase AI Logic in Your iOS App with Swift](https://swiftylion.com/articles/firebase-ai-logic) — Article · Topics: AI Development · Swift · SwiftUI
   **NeKI brief:** Presents a concrete implementation of Implementing Firebase AI Logic in Your iOS App with Swift. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
 - [Firebase AI Logic](https://firebase.google.com/products/firebase-ai-logic) — Article · Topics: AI Development · Swift
@@ -490,6 +586,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Discusses Dependency Injection for Modular iOS Apps in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
 - [Using Model Context Protocol in iOS apps](https://www.artemnovichkov.com/blog/using-model-context-protocol-in-ios-apps) — Article · Topics: AI Development · Architecture · Dependency Injection
   **NeKI brief:** Explores using Model Context Protocol from an iOS app. Follow it when assessing tool or resource integrations, keeping transport, trust, privacy, and user-consent boundaries explicit before exposing app data to external agents.
+- [Why every SwiftUI developer should care about the Environment](https://speakerdeck.com/peterfriese/why-every-swiftui-developer-should-care-about-the-environment-ioskonf25) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains SwiftUI Environment as a dependency and contextual-value channel rather than mere convenience storage. Use the talk to reason about propagation, custom keys, testability, and the hidden coupling created by overusing ambient values.
 - [Making Swift Error Messages Human-Friendly](https://www.fline.dev/making-swift-error-messages-human-friendly-together) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Presents a concrete implementation of Making Swift Error Messages Human-Friendly. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
 
@@ -515,6 +613,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** This source repository covers best practices for using type-safe SF Symbols in SwiftUI. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [SwipeActions](https://github.com/aheze/SwipeActions) — Source repository · Topics: Developer Tools
   **NeKI brief:** SwipeActions adds configurable trailing and leading swipe gestures to arbitrary SwiftUI views rather than only list rows. Use it when a custom collection or card interface needs contextual actions with controlled gesture and animation behavior.
+- [behind-the-scenes](https://www.youtube.com/watch?v=4MtostISJTY) — Video · Topics: Swift
+  **NeKI brief:** Records a live RocketSim session with Antoine van der Lee demonstrating simulator workflows, product features, and practical tips while answering audience questions. Useful for evaluating the tool through an unscripted end-to-end walkthrough.
 
 ## [Issue 79](https://peterfriese.dev/newsletter/issues/79)
 
@@ -543,7 +643,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Distribute your Swift CLIs for macOS](https://swifttoolkit.dev/posts/distribute-swift-clis) — Article · Topics: Developer Community & Business · Swift
   **NeKI brief:** This article covers distributing Swift command-line tools for macOS. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [weekly live streams](https://www.youtube.com/playlist?list=PLsnLd2esiGRTmfGZcZMnEy6hkBHXBH_en) — Video
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Follows a SwiftUI second-brain app built with Firestore sync, Gemini summaries and questions, Genkit integration, and Siri access. The playlist shows those services evolving together inside a real project.
+- [livestream with Antoine van der Lee, creator of RocketSim](https://www.youtube.com/watch?v=4MtostISJTY) — Video · Topics: Swift
+  **NeKI brief:** Records a live RocketSim session with Antoine van der Lee demonstrating simulator workflows, product features, and practical tips while answering audience questions. Useful for evaluating the tool through an unscripted end-to-end walkthrough.
 
 ## [Issue 78](https://peterfriese.dev/newsletter/issues/78)
 
@@ -595,9 +697,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Build Powerful iOS Chat with Stream's Swift SDK](https://getstream.io/chat/sdk/ios) — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **NeKI brief:** Documents Stream’s iOS chat SDK for adding messaging experiences. Use it to assess ready-made conversation UI, client integration, and customization boundaries before building chat infrastructure yourself.
 - [Livestream: Building a Second Brain app - Swift Packages 📦](https://www.youtube.com/watch?v=ACad_6YSMgw) — Video · Topics: Swift · Swift Package Manager
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Refactors a growing SwiftUI second-brain application from one Xcode project into multiple Swift packages. The live session is useful for observing practical module boundaries, package configuration, and maintainability trade-offs.
 - [Livestream: Firebase After Hours - Authentication Deep Dive](https://www.youtube.com/watch?v=PXSsngfc7iE) — Video · Topics: Swift · SwiftUI
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** A Firebase After Hours session on authentication methods, token-handling practices, Android credential management, and simplified sign-in flows. It provides live demonstrations and mobile-security context, though much of the implementation focus is Android.
 - [Task.sleep vs yield: Understanding the Differences](https://www.avanderlee.com/concurrency/task-sleep-vs-yield-differences) — Article · Topics: Concurrency · Performance · Swift
   **NeKI brief:** Compares Task.sleep, which suspends for a duration and is cancellation-aware, with Task.yield, which merely gives other work a scheduling opportunity. The timing examples clarify which primitive fits throttling, polling, or cooperative responsiveness.
 - [Resolver](https://github.com/hmlongco/Resolver) — Source repository · Topics: Architecture · Swift · SwiftUI
@@ -607,7 +709,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Navigator: Advanced Navigation Support for SwiftUI.](https://github.com/hmlongco/Navigator) — Source repository · Topics: Architecture · Swift · SwiftUI
   **NeKI brief:** Navigator provides a SwiftUI navigation abstraction centered on route-driven presentation. Use it to compare centralized routing decisions with native NavigationStack state when complex flows need testable deep-link handling.
 - [HandySwiftUI: Features That Didn't Make It Into SwiftUI](https://github.com/FlineDev/HandySwiftUI) — Source repository · Topics: Developer Tools · Swift · SwiftUI
-  **NeKI brief:** This source repository covers SwiftUI utilities that fill gaps in the framework. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+  **NeKI brief:** HandySwiftUI collects reusable features not yet present in SwiftUI, providing pragmatic modifiers and components. Useful for surveying gaps that teams repeatedly fill locally, while checking each helper against current SDK APIs.
 - [range of production apps](https://github.com/FlineDev/HandySwiftUI?tab=readme-ov-file) — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **NeKI brief:** This source repository covers SwiftUI utilities that fill gaps in the framework. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Here's how I use LLMs to help me write code](https://simonwillison.net/2025/Mar/11/using-llms-for-code) — Article · Topics: AI Development

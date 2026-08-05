@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** MapKit, Core Location, geographic data, geocoding, and location-aware apps.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **37**
+- Last collected: `2026-08-05T08:56:37Z`
+- Indexed links shown: **39**
 
 ## Direct-source reading
 
@@ -65,6 +65,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [ImplementedSE-0524Add `withTemporaryAllocation` using `Output(Raw)Span`](https://github.com/apple/swift-evolution/blob/main/proposals/0524-span-temporary-allocation.md) — SwiftLee Weekly · Issue 322 — Source repository · Topics: Developer Tools · Maps & Location · Swift
   **Published:** `2026-05-05T14:09:40.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0524Add `withTemporaryAllocation` using `Output(Raw)Span`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Returned For RevisionSE-0526withDeadline](https://github.com/apple/swift-evolution/blob/main/proposals/0526-deadline.md) — SwiftLee Weekly · Issue 322 — Source repository · Topics: Developer Tools · Maps & Location · Swift
+  **Published:** `2026-05-05T14:09:40.000Z`
+  **NeKI brief:** Proposal SE-0526 adds withDeadline for time-bounded asynchronous work. Read it to distinguish deadline expiry from ordinary cancellation and failure, and verify accepted semantics and toolchain availability before designing a public timeout API around it.
 - [Active ReviewSE-0530Async Result Support](https://github.com/apple/swift-evolution/blob/main/proposals/0530-async-result-support.md) — SwiftLee Weekly · Issue 322 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-05-05T14:09:40.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0530Async Result Support. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -95,6 +98,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Link to GitHub.](https://github.com/mapbox/mapbox-maps-ios) — iOS Dev Tools · 🔨 Introducing Mapbox, Alamofire, RNCrypto — Source repository · Topics: Developer Tools · Maps & Location
   **Published:** `2023-08-03T12:40:06.374Z`
   **NeKI brief:** Mapbox Maps SDK for iOS provides vector maps, annotations, styling, navigation-oriented capabilities, and offline regions. Use it when Apple MapKit’s data or customization is insufficient, accounting for tokens, licensing, and offline package management.
+- [👀 Uploading link maps to Emerge](https://www.roger.ml/p/emerge-linkmaps) — iOS CI Newsletter · Issue 18 — Article · Topics: Maps & Location · Performance
+  **Published:** `2023-06-18T00:00:00.000Z`
+  **NeKI brief:** Examines Uploading link maps to Emerge in the context of Maps & Location and Performance. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [new system font](http://9to5mac.com/2015/05/20/apple-plans-to-refresh-ios-9-os-x-10-11-using-new-apple-watch-font) — iOS Dev Weekly · Issue 199 — Article · Topics: Maps & Location
   **Published:** `22nd May 2015`
   **NeKI brief:** Pre-WWDC reporting on the possible adoption of the Apple Watch system font in iOS 9 and OS X 10.11. Treat it as historical speculation about Apple's visual-platform direction.

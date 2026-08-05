@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Rendering, GPU work, image/audio/video processing, computer vision, and game-development techniques.
 
-- Last collected: `2026-07-28T20:15:53Z`
-- Indexed links shown: **363**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **386**
 
 ## Direct-source reading
 
@@ -255,6 +255,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [What’s New In SpriteKit on iOS 10: A Look At Tile Maps | Kodeco](https://www.kodeco.com/1079-what-s-new-in-spritekit-on-ios-10-a-look-at-tile-maps) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Explains SpriteKit tile maps introduced around iOS 10 for building game environments. Follow it when replacing hand-placed nodes with grid-based terrain, keeping map data and rendering concerns separate.
+- [Col.or: Discover a Universe of Colors Right in Your Pocket - iOS Dev Tools](https://iosdev.tools/blog/col-or) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-02-09T10:35:00+00:00`
+  **NeKI brief:** Profiles Col.or as discover a Universe of Colors Right in Your Pocket. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Manim - NSHipster](https://nshipster.com/manim) — NSHipster · article catalogue
   **Published:** `2025-10-01T00:00:00-07:00`
   **NeKI brief:** Introduces Manim as a tool for generating mathematical animations from code. Useful for developers creating explanatory visualizations, while keeping its Python-oriented workflow separate from app runtime code.
@@ -270,6 +273,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Core Image: The Basics](https://blog.jacobstechtavern.com/p/core-image-the-basics) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2024-05-27T16:15:04.516Z`
   **NeKI brief:** Introduces Core Image's filter and image-processing model with a practical baseline for composing effects. It is useful for choosing GPU-backed image transformations, while API availability and performance need current verification.
+- [ScanTexter: Scan Text on Screen and Translate It at Once - iOS Dev Tools](https://iosdev.tools/blog/scantexter) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2024-02-03T21:43:46+00:00`
+  **NeKI brief:** Profiles ScanTexter as scan Text on Screen and Translate It at Once. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Apple Animation Through the Ages: 2019](https://blog.jacobstechtavern.com/p/apple-animation-through-the-ages-580) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2023-09-26T08:15:42.449Z`
   **NeKI brief:** Places Apple's animation stack in a historical timeline and connects the 2019 APIs to earlier programming models. Follow it for conceptual context when choosing an animation layer, then verify current framework behavior and availability in Apple documentation.
@@ -425,6 +431,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [The Map, Drawn Twice](https://l.fatbobman.com/w0147-01) — Fatbobman’s Swift Weekly · Issue 147 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2026-08-03T12:02:34.944Z`
+  **NeKI brief:** Maps responsibilities across Core Graphics, Core Text, Core Image, Core Animation, and SwiftUI by rendering the same scenes through Apple APIs and a clean-room engine. The paired output makes framework boundaries and hidden behavior easier to compare.
+- [Bridging Gemini Video with Foundation Models and CustomSegment](https://rudrank.com/exploring-foundation-models-bridging-gemini-video-with-customsegment) — Those Who Swift · Issue 277 — Article · Topics: AI Development · Foundation & Data Formats · Graphics, Media & Games
+  **Published:** `2026-07-29T20:01:55.196Z`
+  **NeKI brief:** Bridges unsupported video input through a custom Transcript segment and LanguageModelExecutor that delegates analysis to Gemini. The layered verification is useful when extending Foundation Models-style sessions beyond the on-device model’s native modalities.
 - [Rendering SwiftUI Previews with Xcode's MCP Server](https://cuteios.dev/2026/07/14/previews-and-mcp) — Those Who Swift · Issue 276 — Article · Topics: AI Development · Graphics, Media & Games · Xcode
   **Published:** `2026-07-22T20:01:13.378Z`
   **NeKI brief:** Builds a SwiftUI preview gallery by combining Xcode’s MCP server, project context, and generated preview metadata. The article maps the moving parts and current limitations, making it useful when evaluating agent-assisted preview tooling.
@@ -467,12 +479,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [W.W.D.C. 2026: The Pregame Quiz](https://www.swiftjectivec.com/wwdc-2026-the-pregame-quiz) — SwiftLee Weekly · Issue 326 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Swift
   **Published:** `2026-06-02T14:07:19.000Z`
   **NeKI brief:** Presents W.W.D.C. 2026: The Pregame Quiz, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [AppleInsider](https://appleinsider.com/articles/26/05/18/apple-design-awards-2026-finalists-include-cyberpunk-2077-civilization-vii?ref=ioscodereview.com) — iOS Code Review · Issue 79 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `2026-06-01T16:27:14.000Z`
+  **NeKI brief:** Examines AppleInsider in the context of Apple Platform Ecosystem and Graphics, Media & Games. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [TUAW](https://www.tuaw.com/2026/05/19/apple-design-awards-2026-finalists-revealed?ref=ioscodereview.com) — iOS Code Review · Issue 79 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `2026-06-01T16:27:14.000Z`
+  **NeKI brief:** Examines TUAW in the context of Apple Platform Ecosystem and Graphics, Media & Games. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [How to Think About Performance in iOS](https://livsycode.com/best-practices/how-to-think-about-performance-in-ios?ref=createwithswift.com) — Create with Swift · Issue 107 — Article · Topics: Architecture · Graphics, Media & Games · Performance
   **Published:** `2026-05-15T16:00:08.000Z`
   **NeKI brief:** Frames iOS performance as a measurement and prioritization problem rather than a collection of tricks. Follow it when planning investigations, connecting user-visible symptoms to traces, and choosing fixes that improve the actual bottleneck.
 - [KadrUI](https://github.com/SteliyanH/kadr-ui) — Fatbobman’s Swift Weekly · Issue 134 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
   **Published:** `2026-05-04T12:03:54.604Z`
   **NeKI brief:** KadrUI supplies SwiftUI editing components such as multi-track timelines, inspectors, overlays, and keyframe editing. Use it when a video or motion-editing product needs a structured editor surface rather than isolated custom controls.
+- [Swift](https://www.swift.org/blog/expanding-swift-ide-support?ref=ioscodereview.com) — iOS Code Review · Issue 77 — Article · Topics: AI Development · Graphics, Media & Games · Swift
+  **Published:** `2026-04-15T16:20:56.000Z`
+  **NeKI brief:** Examines Swift in the context of AI Development and Graphics, Media & Games. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Harold Serrano](https://www.haroldserrano.com/blog?ref=ioscodereview.com) — iOS Code Review · Issue 77 — Article · Topics: Graphics, Media & Games · Swift
+  **Published:** `2026-04-15T16:20:56.000Z`
+  **NeKI brief:** Examines Harold Serrano in the context of Graphics, Media & Games and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Swift 6.3 ReleasedSwift is designed to be the language you reach for at every layer of the software stack. Whether you’re building embedded firmware, internet-scale services, or full-featured mobile apps, Swift delivers strong safety guarantees, performance control when you need it, and expressive language features and APIs.Swift.orgApple Inc.](https://www.swift.org/blog/swift-6.3-released?ref=ioscodereview.com) — iOS Code Review · Issue 76 — Article · Topics: Graphics, Media & Games · Swift · Testing
+  **Published:** `2026-03-30T18:21:46.000Z`
+  **NeKI brief:** Announces Swift 6.3 and summarizes the language, package, and tooling changes in that release. Use it to identify migration candidates, then consult the release notes and proposal links for exact compiler behavior and availability.
+- [MacRumors](https://www.macrumors.com/2026/03/26/apple-swift-student-challenge-winners-2026?ref=ioscodereview.com) — iOS Code Review · Issue 76 — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games · Swift
+  **Published:** `2026-03-30T18:21:46.000Z`
+  **NeKI brief:** Examines MacRumors in the context of App Distribution & Store Operations and Graphics, Media & Games. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Conduit](https://github.com/christopherkarani/Conduit) — Fatbobman’s Swift Weekly · Issue 129 — Source repository · Topics: AI Development · Developer Career & Practice · Developer Tools
   **Published:** `2026-03-30T12:03:55.935Z`
   **NeKI brief:** Conduit is a unified SDK for working with multiple LLM providers. Use it when an application needs provider substitution behind one interface, while keeping model-specific capabilities and cost differences visible to callers.
@@ -484,7 +514,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines SwiftUI Live Broadcasting With AWS IVS, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [Build A Searchable, Sortable SwiftUI List With An Index Scrubber](https://www.youtube.com/watch?v=sUZ6agowSew) — Those Who Swift · Issue 258 — Video · Topics: Objective-C & Cocoa · Swift · SwiftUI
   **Published:** `2026-03-18`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Turns a large SwiftUI list into a searchable, dynamically sortable browser, then adds a Contacts-style section index and draggable scrubber. Useful for coordinating section identifiers with programmatic scrolling and live drag feedback.
 - [Learning to develop more accessible iOS games](https://accessibilityupto11.com/post/2026-02-22-01) — SwiftLee Weekly · Issue 315 — Article · Topics: Accessibility · Graphics, Media & Games
   **Published:** `2026-03-17T15:01:49.000Z`
   **NeKI brief:** Presents Learning to develop more accessible iOS games, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -493,10 +523,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Discusses Save Time on Every Build and Test Run in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
 - [CLAUDE.md for iOS Developers](https://www.youtube.com/watch?v=0UaqjKb3QHM&t=108s) — Those Who Swift · Issue 257 — Video · Topics: AI Development · Architecture · Graphics, Media & Games
   **Published:** `2026-03-11`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds a project-root CLAUDE.md for Swift, SwiftUI, and Xcode agents, covering architecture, build, test, and style instructions plus nested or shared configurations. Useful for comparing repository guidance loaded automatically by coding agents.
 - [Building a Reusable Network Manager in Swift](https://www.youtube.com/watch?v=zEzIxdA8zLQ) — Those Who Swift · Issue 256 — Video · Topics: Concurrency · Networking · Swift
   **Published:** `2026-03-06`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Refactors view-specific URLSession code into a generic async NetworkManager with HTTP validation, typed failures, dictionary and array decoding, and caller-configured date strategies. Useful for keeping decoding flexibility outside the shared transport layer.
 - [Morphing Sheets Out of Buttons in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/morphing-sheets-out-of-buttons-in-swiftui) — iOS Dev Weekly · Issue 743 — Tutorial · Topics: AI Development · Swift · SwiftUI
   **Published:** `13th February 2026`
   **NeKI brief:** Demonstrates morphing a SwiftUI button into sheet content using matched visual state and presentation transitions. Useful for building expressive modal affordances while keeping trigger state, accessibility, and dismissal behavior explicit.
@@ -508,10 +538,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** This technical resource covers a searchable index of WWDC material. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Agent Skills explained: Replacing AGENTS.md with reusable AI knowledge](https://www.youtube.com/watch?v=khekVi1PK3o) — SwiftLee Weekly · Issue 306 — Video · Topics: AI Development · Graphics, Media & Games · Swift
   **Published:** `2026-01-13T15:06:45.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Explains how coding-agent skills differ from repository instructions, how they are discovered, installed, and updated, then applies a Swift concurrency skill to a real app refactor. Useful for assessing reusable agent workflows.
 - [my YouTube series on this app](https://youtube.com/playlist?list=PLg4qABgFp_nRYMtGFdXz8sUeXb2IDxdPL&si=Imqah2BEAj-b-WAM) — SwiftLee Weekly · Issue 306 — Video · Topics: App Distribution & Store Operations · Graphics, Media & Games · Testing
   **Published:** `2026-01-13T15:06:45.000Z`
-  **NeKI brief:** Provides a SwiftUI learning course playlist covering navigation and related interface patterns. Use it as a structured route through implementations, checking each example against current APIs before adopting its presentation or state-management techniques.
+  **NeKI brief:** Documents building and launching an open-source app toward $10K monthly recurring revenue, including releases, App Store review, crashes, growth, pricing, and technical decisions. Useful for connecting product milestones with implementation trade-offs.
 - [MarkdownView](https://github.com/LiYanan2004/MarkdownView) — Fatbobman’s Swift Weekly · Issue 114 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2025-12-08T12:00:58.751Z`
   **NeKI brief:** MarkdownView renders richer Markdown in SwiftUI, including mixed text and image layouts, selectable content, and interaction hooks. Use it when AttributedString's built-in Markdown support is too limited for a document-reading surface.
@@ -520,31 +550,31 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** RichText supplies interactive, styled rich-text components for SwiftUI beyond ordinary Text rendering. Use it when links, mixed media, selection, or fine-grained text actions need an explicit view-layer solution.
 - [Approachable Concurrency in Swift 6.2: A Clear Guide](https://youtu.be/y_Qc8cT-O_g?si=W2ExWkL4BbMjT8cH) — SwiftLee Weekly · Issue 298 — Video · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `2025-11-18T19:03:17.000Z`
-  **NeKI brief:** Presents Approachable Concurrency in Swift 6.2: A Clear Guide as a practical video walkthrough or discussion. Use it when visual demonstration, live tooling, or spoken context helps evaluate the technique, then verify APIs and version-specific claims independently.
+  **NeKI brief:** Explains Swift 6.2 approachable concurrency through default actor isolation, nonisolated async behavior, isolated conformances, and upcoming features, then applies the migration concepts to RocketSim. Useful for planning incremental concurrency adoption.
 - [Using SwiftUI Foundation Models Transcripts to build a Chatbot](https://www.youtube.com/watch?v=cyOqYbWpQzU) — Those Who Swift · Issue 240 — Video · Topics: AI Development · Foundation & Data Formats · Swift
   **Published:** `2025-11-12`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds an on-device travel chatbot from a Foundation Models LanguageModelSession transcript, rendering user and model messages with thinking, scrolling, availability, guardrail, and error states. Useful for connecting session history to SwiftUI presentation.
 - [Optimize your app's speed and efficiency](https://www.youtube.com/watch?v=yXAQTIKR8fk) — SwiftUI Weekly · SwiftUI Weekly - Issue #224 — Video · Topics: AI Development · Foundation & Data Formats · Graphics, Media & Games
   **Published:** `2025-11-03T11:19:35.224Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Summarizes a Meet with Apple performance session spanning power use, Foundation Models response latency, SwiftUI responsiveness, and Snap's diagnostic tools. Useful as a map of optimization areas before consulting the corresponding primary guidance.
 - [Build performance analysis for speeding up Xcode builds](https://youtu.be/9L1p0McuThM) — SwiftLee Weekly · Issue 295 — Video · Topics: Graphics, Media & Games · Performance · Xcode
   **Published:** `2025-10-28T15:02:32.000Z`
-  **NeKI brief:** Presents Build performance analysis for speeding up Xcode builds as a practical video walkthrough or discussion. Use it when visual demonstration, live tooling, or spoken context helps evaluate the technique, then verify APIs and version-specific claims independently.
+  **NeKI brief:** Shows how to investigate Xcode build performance using the Build Navigator, timing summaries, compiler flags, script phases, and clean-versus-incremental comparisons. It also covers slow SwiftUI expressions and tracking improvements across a team.
 - [video that demonstrates it](https://youtu.be/jYhRXZwO0cc) — iOS Dev Weekly · Issue 732 — Video · Topics: Graphics, Media & Games · Liquid Glass
   **Published:** `24th October 2025`
-  **NeKI brief:** Presents video that demonstrates it for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Examines the iOS 26.1 beta Liquid Glass Tinted setting, comparing its increased opacity, contrast, and readability with the default appearance in light and dark modes. Treat the demonstrated behavior as prerelease SDK context.
 - [Crafting Interactive Tiles in SwiftUI](https://uvolchyk.me/blog/crafting-interactive-tiles-in-swiftui) — Those Who Swift · Issue 237 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2025-10-22`
   **NeKI brief:** Examines Crafting Interactive Tiles in SwiftUI, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [SwiftUI Architecture: Structure Views for Reusability and Clarity](https://youtu.be/W05mPR71zaQ) — SwiftLee Weekly · Issue 294 — Video · Topics: Architecture · Objective-C & Cocoa · Swift
   **Published:** `2025-10-21T14:13:02.000Z`
-  **NeKI brief:** Presents SwiftUI Architecture: Structure Views for Reusability and Clarity as a practical video walkthrough or discussion. Use it when visual demonstration, live tooling, or spoken context helps evaluate the technique, then verify APIs and version-specific claims independently.
+  **NeKI brief:** Refactors a large SwiftUI view into reusable components, modifiers, extensions, and a small UI library. It explains why computed view properties alone do not provide the isolation or reuse of genuine component boundaries.
 - [Transforming Glass Views with the glassEffectID in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/transforming-glass-views-with-the-glasseffectid-modifier-in-swiftui) — SwiftLee Weekly · Issue 294 — Tutorial · Topics: Combine & Reactive Programming · Swift · SwiftUI
   **Published:** `2025-10-21T14:13:02.000Z`
   **NeKI brief:** Presents Transforming Glass Views with the glassEffectID in SwiftUI, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [SwiftUI Concentric Rectangle & Concentric Corners in iOS 26](https://www.youtube.com/watch?v=VFnidjiH750) — Those Who Swift · Issue 236 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2025-10-15`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Explores SwiftUI's ConcentricRectangle and concentric-corner clipping APIs through per-corner radii, container-aware shapes, sheets, popovers, and tiled images. Useful for understanding how nested geometry can preserve visually consistent corners.
 - [Ship better paywalls faster with RevenueCat’s native, customizable Paywall Builder](https://www.revenuecat.com/docs/tools/paywalls-v2) — iOS Dev Weekly · Issue 726 — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games
   **Published:** `12th September 2025`
   **NeKI brief:** Documents RevenueCat Paywalls 2 tooling for configuring and presenting subscription paywalls. Use it to inspect templates, purchase flows, and customization boundaries before integrating monetization into an app.
@@ -586,7 +616,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Presents W.W.D.C. 2025: The Pregame Quiz, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [How to profile a SwiftUI app's performance?](https://www.youtube.com/watch?v=Dyh-ymg-qAo) — Those Who Swift · Issue 212 — Video · Topics: Performance · Swift · SwiftUI
   **Published:** `2025-04-30`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Profiles a SwiftUI app with Instruments to locate unexpected body reevaluations and slow code. The walkthrough covers collecting a representative trace, interpreting redraw behavior, and distinguishing measured bottlenecks from assumptions.
 - [A flowing WebGL gradient, deconstructed](https://alexharri.com/blog/webgl-gradients) — iOS Dev Weekly · Issue 709 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Swift
   **Published:** `25th April 2025`
   **NeKI brief:** Deconstructs a flowing gradient built with a WebGL shader, noise functions, and mathematical transforms. The rendering ideas transfer well to Metal or custom graphics work when a polished animated background needs an explainable, tunable implementation.
@@ -598,7 +628,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Summarizes the Swift 6.1 release and its ecosystem changes. Use it as a starting point for compiler or package upgrades, verifying source compatibility, concurrency diagnostics, and platform support against the toolchain you actually ship.
 - [Tracking Down Memory Leaks with Instruments](https://www.youtube.com/watch?v=j8y-LtRV4hM) — Those Who Swift · Issue 207 — Video · Topics: Graphics, Media & Games · Performance · Xcode
   **Published:** `2025-03-28`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Reproduces an older-iPad crash, enables Malloc Stack Logging, and uses Instruments' Leaks template to trace per-stroke Metal texture allocation. Reusing the texture resolves the memory growth and provides a concrete profiling workflow.
 - [next edition](https://swiftheroes.com/2025) — iOS Dev Weekly · Issue 704 — Article · Topics: Graphics, Media & Games · Swift
   **Published:** `21st March 2025`
   **NeKI brief:** Swift Heroes 2025 is a conference resource for Swift developers. Use its talks and programme to discover community approaches to language, frameworks, architecture, and tooling.
@@ -616,10 +646,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Collects Swift DevRoom talks from FOSDEM 2025 in one searchable programme and video index. Use the recordings to compare implementation techniques and ecosystem direction, then follow the referenced repositories or proposals when a talk informs production design.
 - [SwiftUI Image Playground](https://www.youtube.com/watch?v=fjtWpQGs5lU) — Those Who Swift · Issue 200 — Video · Topics: AI Development · Swift · SwiftUI
   **Published:** `2025-02-05`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Integrates Image Playground into SwiftUI so users can generate images from concepts or an existing source image. The walkthrough covers availability requirements, presentation, generated-image handling, and fallback-aware application structure.
 - [What was that doing in my database](https://eieio.games/essays/the-secret-in-one-million-checkboxes) — iOS Dev Weekly · Issue 692 — Article · Topics: Graphics, Media & Games · Persistence & Synchronisation
   **Published:** `20th December 2024`
   **NeKI brief:** Presents what was that doing in my database for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [ChatGPT + XCodeVideo’s delen met vrienden, familie en de rest van de wereldYouTube](https://youtube.com/playlist?list=PLvHc56e5L-7xgZsgvF2yL7P13lmTwNcoh&ref=ioscodereview.com) — iOS Code Review · Issue 74 — Video · Topics: Graphics, Media & Games · Xcode
+  **Published:** `2024-12-04T11:30:50.000Z`
+  **NeKI brief:** Records ChatGPT + XCodeVideo’s delen met vrienden, familie en de rest van de wereldYouTube as a visual walkthrough relevant to Graphics, Media & Games and Xcode. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [SwiftUI Zoom Navigation Transitions: Add a Touch of Magic to Your App](https://www.stphndxn.com/swiftui-zoom-navigation-transitions-add-a-touch-of-magic-to-your-app) — SwiftUI Weekly · SwiftUI Weekly - Issue #204 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2024-12-03T07:24:48.832Z`
   **NeKI brief:** Demonstrates zoom navigation transitions between SwiftUI source and destination views. Useful for preserving visual continuity when tapping thumbnails into detail screens.
@@ -628,10 +661,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Presents swiftui experiments for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [MockData, PreviewModifiers and PreviewTraits in SwiftUI](https://www.youtube.com/watch?v=Yw7H4Ujpwtg) — SwiftUI Weekly · SwiftUI Weekly - Issue #201 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2024-10-21T14:26:23.455Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Shows mock data, PreviewModifiers, and PreviewTraits for SwiftUI previews. Useful for repeatable preview environments that exercise realistic states without production dependencies.
 - [MeshGradients in iOS 18](https://www.youtube.com/watch?v=s_eQZ8rRV8Y) — SwiftUI Weekly · SwiftUI Weekly - Issue #197 — Video · Topics: Graphics, Media & Games
   **Published:** `2024-08-19T10:45:25.615Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates mesh gradients introduced for iOS 18 visual effects. Useful for evaluating animated, multicolor backgrounds without manually composing many gradient layers.
 - [Olympic Logo in SwiftUI](https://medium.com/@alessandromanilii/olympic-logo-in-swiftui-dee37cbd53f1) — SwiftUI Weekly · SwiftUI Weekly - Issue #195 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2024-08-05T15:18:59.956Z`
   **NeKI brief:** Builds the Olympic logo with SwiftUI shapes and composition. Useful as a concrete exercise in layering, geometry, and reusable vector-style drawing.
@@ -646,25 +679,25 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Walks through integrating Stream's chat SDK into an iOS app, including message UI and networking. Useful as an implementation reference when evaluating managed real-time messaging.
 - [Zoom Transitions in SwiftUI](https://www.youtube.com/watch?v=malwmE5fDHw) — SwiftUI Weekly · SwiftUI Weekly - Issue #194 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2024-07-15T12:03:07.308Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates zoom transitions in SwiftUI navigation. Useful for understanding source identity, destination matching, and when spatial transitions improve orientation in detail flows.
 - [Laying out views with ContainerRelativeFrame in SwiftUI](https://www.youtube.com/watch?v=DudvesMYAAY) — SwiftUI Weekly · SwiftUI Weekly - Issue #193 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2024-07-08T08:54:13.719Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates ContainerRelativeFrame layouts in SwiftUI. Useful for sizing content relative to scroll containers and creating adaptive, platform-aware compositions.
 - [My Favorite SwiftUI Updates in iOS 18](https://www.youtube.com/watch?v=aCbh9LmIZTI) — SwiftUI Weekly · SwiftUI Weekly - Issue #192 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2024-07-02T09:09:59.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Reviews notable SwiftUI updates arriving with iOS 18. Useful as a visual overview before drilling into individual API documentation and deployment constraints.
 - [Using TextRenderer to create highlighted text](https://alexanderweiss.dev/blog/2024-06-24-using-textrenderer-to-create-highlighted-text) — iOS Dev Weekly · Issue 667 — Article · Topics: Graphics, Media & Games
   **Published:** `28th June 2024`
   **NeKI brief:** Uses TextRenderer to draw highlighted text in SwiftUI. Useful for search results, annotation, or syntax emphasis where attributed-string styling alone is insufficient.
 - [Did you know that Xcode Previews also work with UIKit?](https://www.youtube.com/watch?v=sC0WnigbmJw) — SwiftUI Weekly · SwiftUI Weekly - Issue #187 — Video · Topics: Graphics, Media & Games · UIKit · Xcode
   **Published:** `2024-05-20T22:04:41.287Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Shows UIKit views working inside Xcode Previews. Useful for previewing hybrid screens and validating representable or legacy UIKit components alongside SwiftUI.
 - [Flighty in SwiftUI](https://www.youtube.com/watch?v=81FwPLo-1eE) — SwiftUI Weekly · SwiftUI Weekly - Issue #185 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2024-05-06T13:22:31.904Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Presents a Flighty app implementation in SwiftUI. Useful for seeing a production-style interface assembled from navigation, lists, and custom visual components.
 - [How to add a privacy manifest file to your app for required reason API usage?](https://www.donnywals.com/how-to-add-a-privacy-manifest-file-to-your-app-for-required-reason-api-usage?issue=030) — Fatbobman’s Swift Weekly · Issue 30 — Tutorial · Topics: Graphics, Media & Games · Security & Privacy
   **Published:** `2024-05-06T12:01:46.954Z`
-  **NeKI brief:** A privacy manifest declares required-reason API use for review tooling, so entries must match actual calls and remain maintained as dependencies change.
+  **NeKI brief:** Uses How to add a privacy manifest file to your app for required reason API usage? as a practical reference for Apple-platform development, surfacing implementation constraints and workflow trade-offs worth checking before applying the idea in production code.
 - [The Curious Case of Apple's Third-Party SDK List for Privacy Manifests](https://www.jessesquires.com/blog/2024/04/29/sdk-privacy-manifests?issue=030) — Fatbobman’s Swift Weekly · Issue 30 — Tutorial · Topics: Graphics, Media & Games · Security & Privacy
   **Published:** `2024-05-06T12:01:46.954Z`
   **NeKI brief:** Uses The Curious Case of Apple's Third-Party SDK List for Privacy Manifests as a practical reference for Apple-platform development, surfacing implementation constraints and workflow trade-offs worth checking before applying the idea in production code.
@@ -673,22 +706,31 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** The Swift Server Workgroup coordinates ecosystem efforts for server-side Swift. Use it to discover supported libraries and governance context, not as an implementation reference.
 - [Improve Test Clarity (TDD with SwiftUI)](https://www.youtube.com/watch?v=AF8cCxrJr8M) — SwiftUI Weekly · SwiftUI Weekly - Issue #183 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2024-04-22T17:42:59.039Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Refactors a SwiftUI microtest so its assertions expose intent while setup and interaction details remain hidden. Useful for test-driven development discussions about readable tests before expanding a suite.
+- [📹 Automatically generating release notes using Xcode Cloud](https://www.youtube.com/watch?v=ZBoBCCV5VQ8%3Futm_campaign%3DiOS+CI+Newsletter%26utm_medium%3Dweb%26utm_source%3DiOS+CI+Newsletter+Issue+40%26utm_content%3Dapr_21_24) — iOS CI Newsletter · Issue 40 — Video · Topics: Developer Community & Business · Graphics, Media & Games · Xcode
+  **Published:** `2024-04-21T00:00:00.000Z`
+  **NeKI brief:** Records Automatically generating release notes using Xcode Cloud as a visual walkthrough relevant to Developer Community & Business and Graphics, Media & Games. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
+- [Apple DeveloperHello and welcome to the official Apple Developer YouTube channel.YouTube](https://www.youtube.com/@AppleDeveloper/playlists?ref=ioscodereview.com) — iOS Code Review · Issue 67 — Video · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `2024-04-03T12:22:37.000Z`
+  **NeKI brief:** Records Apple DeveloperHello and welcome to the official Apple Developer YouTube channel.YouTube as a visual walkthrough relevant to Apple Platform Ecosystem and Graphics, Media & Games. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
+- [📝 Platform-specific release notes with Xcode Cloud](https://www.finnvoorhees.com/words/platform-specific-release-notes-with-xcode-cloud) — iOS CI Newsletter · Issue 33 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Xcode
+  **Published:** `2024-01-14T00:00:00.000Z`
+  **NeKI brief:** Summarises Platform-specific release notes with Xcode Cloud for App Distribution & Store Operations and Apple Platform Ecosystem. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [How to Play Spatial Video On iOS 17.2](https://xreality.zone/zh/posts/how-to-play-spatial-video-on-ios-17-2) — Fatbobman’s Swift Weekly · Issue 12 — Tutorial · Topics: Developer Community & Business · Graphics, Media & Games · Swift
   **Published:** `2023-12-25T22:00:09.856Z`
   **NeKI brief:** Demonstrates playing spatial video on iOS 17.2 and discusses the media and device prerequisites involved. Use it to investigate immersive-video playback paths while verifying format support and availability against current Apple APIs.
 - [App Localizations](https://www.youtube.com/watch?v=kbgNL7VrQPo) — SwiftUI Weekly · SwiftUI Weekly - Issue #170 — Video · Topics: Graphics, Media & Games · Localization · Swift
   **Published:** `2023-12-11T13:23:19.560Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates localizing a SwiftUI app with Xcode 15 String Catalogs, including the workflow for translating strings across languages. Useful when replacing scattered localization files with catalog-driven review and export in a modern project.
 - [How to ask the user to leave an App Store review](https://www.youtube.com/watch?v=RUWGjeDCkN8) — SwiftUI Weekly · SwiftUI Weekly - Issue #170 — Video · Topics: App Distribution & Store Operations · Graphics, Media & Games · Objective-C & Cocoa
   **Published:** `2023-12-11T13:23:19.560Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Shows how to request App Store ratings from an app and frame the timing around user experience. Useful for integrating review prompts deliberately while keeping eligibility, frequency, and platform presentation behavior under app control.
 - [Inferno](https://github.com/twostraws/Inferno) — Fatbobman’s Swift Weekly · Issue 7 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
   **Published:** `2023-11-20T22:20:48.455Z`
   **NeKI brief:** Inferno is a SwiftUI-focused learning and example repository from Paul Hudson. Useful as a code-reading route for modern view composition, provided examples are checked against the target SDK.
 - [creating custom shaders](https://www.youtube.com/watch?v=EgzWwgRpUuw) — Fatbobman’s Swift Weekly · Issue 7 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-11-20T22:20:48.455Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds Metal shaders for SwiftUI effects including recoloring, animated gradients, waves, loupe distortion, and custom transitions. The examples show how fragment shaders receive view-relative data and drive GPU-rendered visual changes.
 - [Shader course](https://www.hackingwithswift.com/plus/advanced-swiftui/how-to-create-metal-shaders-for-swiftui-part-1) — Fatbobman’s Swift Weekly · Issue 7 — Tutorial · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-11-20T22:20:48.455Z`
   **NeKI brief:** Introduces a course workflow for creating Metal shaders used by SwiftUI, from shader functions to view integration. Use it to structure GPU-effect experiments while keeping parameter flow, performance, and fallback behavior testable.
@@ -697,7 +739,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Presents stream for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Building Complex Scroll Animations With New iOS 17 API's](https://www.youtube.com/watch?v=ytRim2TSdyY) — SwiftUI Weekly · SwiftUI Weekly - Issue #167 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-11-06T09:00:48.537Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds complex scroll animations with the new iOS 17 SwiftUI scrolling APIs. Useful for studying how scroll position, geometry, and phase changes can drive coordinated effects without relying on fragile offset preferences.
 - [A Comprehensive Guide to App Accessibility](https://getstream.io/blog/app-accessibility-guide) — Fatbobman’s Swift Weekly · Issue 4 — Article · Topics: Accessibility · Graphics, Media & Games · Performance
   **Published:** `2023-10-30T15:20:20.330Z`
   **NeKI brief:** Presents an app accessibility guide spanning semantic labeling, contrast, and assistive-technology interaction. Use it as a broad review checklist before drilling into platform-specific VoiceOver or Dynamic Type fixes.
@@ -707,36 +749,45 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Running Stable Diffusion with Core ML on iOS smoothly](https://zenn.dev/shu223/articles/coreml-stable-diffusion) — Fatbobman’s Swift Weekly · Issue 3 — Article · Topics: Graphics, Media & Games · Personal Essays
   **Published:** `2023-10-23T22:30:20.902Z`
   **NeKI brief:** Describes running Stable Diffusion with Core ML on iOS and the optimization constraints involved in local inference. Use it to investigate model conversion, memory pressure, and device performance before adopting generative image features.
+- [📹 [NSSpain] Why CI/CD won’t save your mobile team](https://vimeo.com/865678854) — iOS CI Newsletter · Issue 27 — Video · Topics: CI/CD & Automation · Graphics, Media & Games
+  **Published:** `2023-10-22T00:00:00.000Z`
+  **NeKI brief:** Records NSSpain] Why CI/CD won’t save your mobile team as a visual walkthrough relevant to CI/CD & Automation and Graphics, Media & Games. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
+- [Videos from NSSpain 2023](https://vimeo.com/showcase/10672108) — iOS Dev Weekly · Issue 631 — Video · Topics: Developer Community & Business · Graphics, Media & Games
+  **Published:** `13th October 2023`
+  **NeKI brief:** Records all other talk recordings from NSSpain 2023 on Vimeo as a visual walkthrough relevant to Apple-platform engineering. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
+- [Take the 6-question Health Check](https://bitrise.io/learn/modas-health-check) — iOS Code Review · Issue 57 — Article · Topics: Code Quality · Developer Community & Business · Graphics, Media & Games
+  **Published:** `2023-10-12T11:48:38.000Z`
+  **NeKI brief:** Examines Take the 6-question Health Check in the context of Code Quality and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [iPhone 15 Pro / Apple Vision Pro 上的空间视频，到底是什么？](https://xreality.zone/zh/posts/what-is-spatial-video-on-iphone-15-pro-and-apple-vision-pro) — Fatbobman’s Swift Weekly · Issue 1 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-10-09T14:00:25.178Z`
   **NeKI brief:** Introduces spatial video captured on iPhone 15 Pro and viewed on Apple Vision Pro, covering the format's stereoscopic intent. Use it to orient media-pipeline decisions while validating capture, playback, and conversion support in current frameworks.
 - [Daniel Steinberg - SwiftUI to destroy the Publishing Industry](https://www.youtube.com/watch?v=rhqASksgJu0) — SwiftUI Weekly · SwiftUI Weekly - Issue #163 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-10-09T12:59:37.492Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Discusses the shift from ObservableObject and @Published toward the @Observable macro, using SwiftUI refresh behavior as the concrete case. Useful for understanding observation changes before choosing a migration strategy for existing view models.
 - [Chris Eidhof - A Day in the Life of a SwiftUI View](https://www.youtube.com/watch?v=MRY3UCUVv98) — SwiftUI Weekly · SwiftUI Weekly - Issue #163 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-10-09T12:59:37.492Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Walks through how a SwiftUI view is rendered, laid out, and updated over its lifetime. Useful as a conceptual debugging aid when body recomputation, identity, or layout behavior seems surprising.
 - [Applying metal shader to text in SwiftUI](https://augmentedcode.io/2023/08/07/applying-metal-shader-to-text-in-swiftui) — iOS Dev Weekly · Issue 622 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `11th August 2023`
   **NeKI brief:** Applies a simple Metal shader to SwiftUI text using the shader-related view modifiers introduced with WWDC 2023. A compact first example for learning how ShaderLibrary effects connect SwiftUI views to custom Metal code.
 - [Swift Macros](https://www.youtube.com/playlist?list=PLlc_rDuPW0Y2Z2T1Dv-je_fG1ZQyIhehi) — iOS Dev Weekly · Issue 620 — Video · Topics: Graphics, Media & Games · Macros & Metaprogramming · Swift
   **Published:** `28th July 2023`
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Explores Swift Macros, focusing on if you have 20 minutes free, you could do worse things with it than to join daniel steinberg as he brings his. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [SwiftUI AlignmentGuides](https://www.youtube.com/watch?v=fdSGlCgz1fQ) — SwiftUI Weekly · SwiftUI Weekly - Issue #151 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-07-17T21:13:35.306Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates SwiftUI alignment guides for positioning views according to custom alignment rules. Useful when stack defaults cannot express a design and geometry-reader measurements would add unnecessary layout coupling.
 - [React Native Vision Camera - Capture the World Differently](https://github.com/daltoniam/Starscream) — iOS Dev Tools · 🔨 Real-time Rendering & Stunning Imagery — Source repository · Topics: Cross-Platform & Web · Developer Tools · Graphics, Media & Games
   **Published:** `2023-07-13T13:51:39.780Z`
   **NeKI brief:** Starscream is a Swift WebSocket client implementing RFC 6455 with TLS, compression, and non-blocking callbacks. Use it when an app needs persistent bidirectional messaging and you must model connection lifecycle, reconnects, and message framing.
 - [Build an app using SwiftData](https://www.youtube.com/playlist?list=PLvUWi5tdh92wZ5_iDMcBpenwTgFNan9T7) — iOS Dev Weekly · Issue 617 — Video · Topics: Apple Platform Ecosystem · Swift · SwiftData
   **Published:** `7th July 2023`
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Explores Build an app using SwiftData, focusing on it’s a measure of how many new things were announced. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Relationships In SwiftData](https://www.youtube.com/watch?v=_QMalUGTM4E&feature=youtu.be) — SwiftUI Weekly · SwiftUI Weekly - Issue #148 — Video · Topics: Graphics, Media & Games · Swift · SwiftData
   **Published:** `2023-06-28T11:49:47.378Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates adding relationships between SwiftData models in a SwiftUI to-do app. Useful for understanding relationship declaration, editing, and fetch behavior before modeling linked domain objects.
 - [SwiftUI Data Flow in iOS 17 - Observation](https://www.youtube.com/watch?v=EK7SthdWV2w) — SwiftUI Weekly · SwiftUI Weekly - Issue #148 — Video · Topics: Graphics, Media & Games · Macros & Metaprogramming · Observation & State Management
   **Published:** `2023-06-28T11:49:47.378Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Introduces iOS 17 Observation and the @Observable macro as a replacement for older SwiftUI object wrappers. Useful for comparing data-flow ownership and update behavior when migrating an existing model layer.
 - [Swift-Macros: A curated list of awesome Swift Macros](https://github.com/krzysztofzablocki/Swift-Macros) — iOS Dev Weekly · Issue 614 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
   **Published:** `16th June 2023`
   **NeKI brief:** Explores Swift-Macros: A curated list of awesome Swift Macros, focusing on the article discusses want to write something more detailed about. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -745,7 +796,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explores Display Text Like a Pro in SwiftUI, focusing on this video from vincent pradeilles and natalia panferova is excellent.. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [SwiftUI Showcase View - Highlight App New Features](https://www.youtube.com/watch?v=I9v-zqrE8gI) — SwiftUI Weekly · SwiftUI Weekly - Issue #142 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-05-15T09:13:45.627Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds a reusable SwiftUI showcase flow for presenting newly added app features through paged, visually emphasized content and explicit dismissal state. Useful when release highlights need an in-app presentation rather than static notes.
 - [Apple Platforms Developer @ Cascable AB](https://cascable.se/jobs) — iOS Dev Weekly · Issue 607 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Swift
   **Published:** `28th April 2023`
   **NeKI brief:** Explores Apple Platforms Developer @ Cascable AB, focusing on apple platforms developer @ cascable ab – cascable is a. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -754,22 +805,34 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Builds a SwiftUI heart-rate-zone view as a compact design exercise, exposing the visual decisions behind a data-driven display. It is useful for studying how a constrained, real-world metric can become a readable custom SwiftUI component.
 - [Can ChatGPT write better SwiftUI code than you?](https://www.youtube.com/watch?v=dxxCPdcMcFw) — SwiftUI Weekly · SwiftUI Weekly - Issue #136 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-03-27T21:57:02.938Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Explores Can ChatGPT write better SwiftUI code than you?, focusing on there are a great many blog posts and youtube videos. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [The difference between List and LazyVStack](https://dimillian.medium.com/swiftui-the-difference-between-list-and-lazyvstack-3d5eeaccb156) — iOS Dev Weekly · Issue 599 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `3rd March 2023`
   **NeKI brief:** Compares List with LazyVStack through the rendering, scrolling, and interaction behaviour that makes them different despite similar output. Follow it before replacing one with the other in a performance-sensitive screen or a layout needing list-specific capabilities.
 - [Arc Coding Chronicles](https://www.youtube.com/watch?v=94asyypYj5c) — SwiftUI Weekly · SwiftUI Weekly - Issue #132 — Video · Topics: Graphics, Media & Games · Objective-C & Cocoa · Swift
   **Published:** `2023-02-21T07:37:59.536Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Reconstructs Arc Browser's SwiftUI loading indicator and shares the supporting code, showing how a small branded animation was designed and implemented. Useful as a focused animation study rather than a general loading-state pattern.
+- [Running audio/video UI tests on CI](https://www.kubilayerdogan.net/xctest-fixing-audio-video-ui-tests-on-your-ci-cd) — iOS CI Newsletter · Issue 7 — Article · Topics: Graphics, Media & Games · Personal Essays · Testing
+  **Published:** `2023-01-15T00:00:00.000Z`
+  **NeKI brief:** Examines Running audio/video UI tests on CI in the context of Graphics, Media & Games and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Composition in TCA: Scope, Combine and Pullback operators](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9WmYycEZFYTN1ZXciLCJwb3N0X2lkIjoiNTAxNjg3MDctMTllNi00OWVjLWEzMGUtZDM0NTg5OGM5Mzk5IiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6ImJkOTY3MzY1LTVhYTAtNGIzOS05NWY0LTJhMGViNjgwNTJhMyIsImlhdCI6MTY3NDA2MjU1Ni45LCJpc3MiOiJvcmNoaWQifQ.oCLiQ-6M7I0rhyM9-07MqJd2m-21FbRxpLCYhEXIV-0) — SwiftUI Weekly · SwiftUI Weekly - Issue #121 — Article · Topics: Architecture · Combine & Reactive Programming · Composable Architecture
   **Published:** `2022-11-21T12:42:39.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Explains Composable Architecture composition through Scope, Combine, and Pullback operators. Follow the concrete reducer composition to understand how child state and actions are routed while preserving testable feature boundaries in a SwiftUI application.
+- [Codelime](https://onmyway133.com/codelime?ref=ioscodereview.com) — iOS Code Review · Issue 37 — Article · Topics: Graphics, Media & Games · Xcode
+  **Published:** `2022-11-18T11:51:59.000Z`
+  **NeKI brief:** Examines Codelime in the context of Concurrency and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Collecting project’s metrics](https://vimeo.com/showcase/9831667/video/751286701) — iOS CI Newsletter · Issue 1 — Video · Topics: Graphics, Media & Games
+  **Published:** `2022-10-23T00:00:00.000Z`
+  **NeKI brief:** Records Collecting project’s metrics as a visual walkthrough relevant to Graphics, Media & Games. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [Women Who Code Mobile Summit 2022](https://www.youtube.com/playlist?list=PLVcEZG2JPVhf_iA733UhMxPS0H8iCoouj) — iOS Dev Weekly · Issue 580 — Video · Topics: Cross-Platform & Web · Graphics, Media & Games · Swift
   **Published:** `14th October 2022`
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Explores Women Who Code Mobile Summit 2022, focusing on the article discusses missed this when women who code first. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Swift 5.7 Released](https://www.swift.org/blog/swift-5.7-released) — iOS Dev Weekly · Issue 576 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Swift
+  **Published:** `16th September 2022`
+  **NeKI brief:** Summarises the full list of evolution proposals released in 5.7 for Swift. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [Extracting Views Into Components in SwiftUI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9Rkk0WXJtR2VncWciLCJwb3N0X2lkIjoiZmM1Y2I3MDEtMzdkNy00YTFjLWI1ZmUtMGY3NjAzYzcxNDVmIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6ImNhNWVmMDA2LWIzZWMtNDcyZi1iNDgxLTIyMzdlYjE4NmZjNyIsImlhdCI6MTY3NDA2MjU1Ny45ODUsImlzcyI6Im9yY2hpZCJ9.gTL9x1122ggPRSt8rIVlwZE8wGlOmIW2f0Z_J-RWaso) — SwiftUI Weekly · SwiftUI Weekly - Issue #111 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2022-08-01T20:26:06.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Shows extracting SwiftUI view components from a larger screen. Follow the refactoring steps to separate layout responsibilities and identify stable inputs, while checking that component boundaries do not obscure state ownership or accessibility behavior.
 - [Mastering NavigationStack in SwiftUI. Navigator Pattern.](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3N3aWZ0d2l0aG1hamlkLmNvbS8yMDIyLzA2LzE1L21hc3RlcmluZy1uYXZpZ2F0aW9uc3RhY2staW4tc3dpZnR1aS1uYXZpZ2F0b3ItcGF0dGVybi8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiJlOGMyZGIwMC05Y2NjLTRkOWItYmI5Ni1kMWU2MDU3NjFhOTciLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiY2E4YjI1ODQtMmEzYy00OWQ1LThlNzktNTM1NjdlNDI1OTY2IiwiaWF0IjoxNjc0MDYyNTU4Ljg3MywiaXNzIjoib3JjaGlkIn0.-tZb7r5BXvSxhCgyx7-7lMYTg9-uqRno78zJ8Lvvbjs) — SwiftUI Weekly · SwiftUI Weekly - Issue #107 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2022-06-21T10:41:22.000Z`
   **NeKI brief:** Explains a navigator pattern around NavigationStack, turning destinations and routing decisions into explicit state. Useful for testing deep links, centralizing navigation mutations, and keeping feature views independent of presentation mechanics.
@@ -797,6 +860,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Keeping WWDC videos and sample code current](https://dimsumthinking.com/Blog/2021/08/30-KeepingCurrent.html) — iOS Dev Weekly · Issue 523 — Article · Topics: Apple Platform Ecosystem · Concurrency · Cross-Platform & Web
   **Published:** `3rd September 2021`
   **NeKI brief:** Explores Keeping WWDC videos and sample code current, focusing on here’s another advantage of not having on-stage presentations at wwdc.. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Watch full video on Youtube (6 min)](https://www.youtube.com/watch?v=YeGVrZJj-Mg&ref=ioscodereview.com) — iOS Code Review · Issue 4 — Video · Topics: Graphics, Media & Games
+  **Published:** `2021-08-05T14:19:35.000Z`
+  **NeKI brief:** Records Watch full video on Youtube (6 min) as a visual walkthrough relevant to Graphics, Media & Games. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [Testing your mobile app internally isn’t enough to ensure its quality](https://instabug.com/product/app-performance-monitoring) — iOS Dev Weekly · Issue 517 — Article · Topics: Graphics, Media & Games · Performance · Testing
   **Published:** `23rd July 2021`
   **NeKI brief:** Explores Testing your mobile app internally isn’t enough to ensure its quality, focusing on whether it’s a crash, slow screen transitions, slow network calls. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -808,16 +874,16 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explores this YouTube channel, focusing on the article discusses lost about two hours yesterday to this. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Getting Started with Combine](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD9mZWF0dXJlPXlvdXR1LmJlJnV0bV9jYW1wYWlnbj0lMjBTd2lmdFVJJTIwV2Vla2x5JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1SZXZ1ZSUyMG5ld3NsZXR0ZXImdj1YMm0wZjJOb0IxMCIsInBvc3RfaWQiOiI3NzBkNzMwYy05ZmNkLTRlOTItYWVjNi01YTJjOGM5YjcwZjgiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiYjIzMDBmZWMtNDg2NC00YTRjLWIzM2UtN2JiZDlmNTcwMjUwIiwiaWF0IjoxNjc0MDYyNjc4LjI0MiwiaXNzIjoib3JjaGlkIn0.yG7_Fvr4s6AVhNrkvo-hVvyg2Qj5YZhIkX4eTkhsyG4) — SwiftUI Weekly · SwiftUI Weekly - Issue #56 — Tutorial · Topics: App Distribution & Store Operations · Combine & Reactive Programming · Graphics, Media & Games
   **Published:** `2021-04-26T20:19:20.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Introduces Combine publishers, subscribers, and operators through practical examples. Follow it when maintaining pre-concurrency SwiftUI code or bridging publisher pipelines into newer async/await boundaries.
 - [in video form](https://vimeo.com/536908653) — iOS Dev Weekly · Issue 504 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `23rd April 2021`
   **NeKI brief:** Explores in video form, focusing on i’m not sure i know anyone who cares quite as. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Build Complete Apple Watch Tasks App Clone in WatchOS, SwiftUI with CoreData](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9OVFxdzU5NXFkY0UiLCJwb3N0X2lkIjoiZjhkYzQzOWQtNjdhOS00N2IwLWI0NzEtOTE2YzY0MWZlN2FjIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6IjNmMDQyMTgxLWQ3NWUtNGE0ZC1hNmE5LWJjM2UwYjBlYTBkZiIsImlhdCI6MTY3NDA2MjY3OC44OTUsImlzcyI6Im9yY2hpZCJ9.WcabseSQh2BOGdp0_x6eltLYiVZeTSCbK1h_Kcxqhs4) — SwiftUI Weekly · SwiftUI Weekly - Issue #48 — Tutorial · Topics: Core Data · Swift · SwiftUI
   **Published:** `2021-03-01T13:49:29.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds a watchOS task app clone using SwiftUI and Core Data. Follow it for compact-device navigation, persistence modeling, and the differences between watch extension UI constraints and iPhone screens.
 - [Using UIKit Components in SwiftUI (Coordinators)](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9V29KdHJsREJseVkiLCJwb3N0X2lkIjoiZjhkYzQzOWQtNjdhOS00N2IwLWI0NzEtOTE2YzY0MWZlN2FjIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6IjNmMDQyMTgxLWQ3NWUtNGE0ZC1hNmE5LWJjM2UwYjBlYTBkZiIsImlhdCI6MTY3NDA2MjY3OC44OTUsImlzcyI6Im9yY2hpZCJ9.61EuLk6HarMsg30D45ewI7xYWDhIoZOmzg6CjyKYvDE) — SwiftUI Weekly · SwiftUI Weekly - Issue #48 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
   **Published:** `2021-03-01T13:49:29.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates using UIKit components from SwiftUI through representable wrappers and coordinators. Use it when incrementally migrating screens while preserving delegate-driven controls and imperative lifecycle behavior.
 - [AutomaticSettings](https://github.com/krzysztofzablocki/AutomaticSettings) — iOS Dev Weekly · Issue 489 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Graphics, Media & Games
   **Published:** `8th January 2021`
   **NeKI brief:** Examines AutomaticSettings, focusing on this new library from krzysztof zabłocki is interesting. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -841,13 +907,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines SwiftUI Grids, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
 - [Building a view debugger using SceneKit](https://www.youtube.com/watch?v=S6YN2Bsde_Q) — iOS Dev Weekly · Issue 459 — Video · Topics: Developer Tools · Graphics, Media & Games · Objective-C & Cocoa
   **Published:** `5th June 2020`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Examines Building a view debugger using SceneKit, focusing on at first glance, you might think the title of this talk from indragie karunaratne is a mistake… scenekit!? to build a…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details.
 - [Swift Techniques for Testing](https://www.youtube.com/watch?v=Or6xjaCUCd4) — iOS Dev Weekly · Issue 459 — Video · Topics: Graphics, Media & Games · Swift · Testing
   **Published:** `5th June 2020`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Examines Swift Techniques for Testing, focusing on the author’s note that liked the testing techniques in this video from kaya thomas. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Integrating SwiftUI & UIKit](https://www.youtube.com/watch?v=ssz02HMEoR0) — iOS Dev Weekly · Issue 459 — Video · Topics: Swift · SwiftUI · UIKit
   **Published:** `5th June 2020`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Examines Integrating SwiftUI & UIKit, focusing on what happens when you hit the edge of what swiftui is capable of? uikit saves the day! or, what happens when you’ve got…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details.
 - [this walkthrough video](https://www.pointfree.co/episodes/ep100-a-tour-of-the-composable-architecture-part-1) — iOS Dev Weekly · Issue 455 — Article · Topics: Architecture · Objective-C & Cocoa · Testing
   **Published:** `8th May 2020`
   **NeKI brief:** A free tour of the newly open-sourced Composable Architecture that builds an application while introducing its state-management model. Useful for assessing the framework from a concrete implementation rather than only its API surface or architectural claims.
@@ -862,7 +928,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Covers SwiftUI by Example, focusing on Apple UI composition and interaction design. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
 - [new set of 14 videos](https://www.youtube.com/playlist?list=PLuoeXyslFTubw4NtepDCis5tTqK37zT3Q) — iOS Dev Weekly · Issue 422 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `20th September 2019`
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Examines new set of 14 videos, focusing on the author’s discussion of linked to this before, but since paul hudson has been through it and updated every bit of it for the xcode 11 gm seed,…. Use it as a focused research reference for related Apple-platform work, and.
 - [Learn how to create custom UIs and animations in SwiftUI](https://designcode.io/swiftui?promo=learnswiftui) — iOS Dev Weekly · Issue 417 — Tutorial · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `16th August 2019`
   **NeKI brief:** Examines Learn how to create custom UIs and animations in SwiftUI, focusing on 6-hour video course teaching design, coding custom user interfaces and animated interactions for ios 13. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
@@ -877,7 +943,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Covers Videos from ServerSide.swift, focusing on Swift and Apple-platform engineering practice. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
 - [Xcode in 20 Seconds](https://www.youtube.com/playlist?list=PLuoeXyslFTuYQ9Hoh42Bw8sPYMlTOV0V7) — iOS Dev Weekly · Issue 389 — Video · Topics: Graphics, Media & Games · Xcode
   **Published:** `1st February 2019`
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Examines Xcode in 20 Seconds, focusing on paul hudson has been posting a new xcode tip every day throughout january. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Designing a Modern Swift Network Stack](http://mikezornek.com/posts/2019/1/designing-a-modern-swift-network-stack-video-and-slides) — iOS Dev Weekly · Issue 387 — Article · Topics: Graphics, Media & Games · Networking · Swift
   **Published:** `18th January 2019`
   **NeKI brief:** Examines Designing a Modern Swift Network Stack, offering practical guidance on networking and asynchronous reliability. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
@@ -964,7 +1030,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains UIDynamics UIKit or OpenGL 3 Types of iOS Animations for Star Wars with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is.
 - [videos](https://www.youtube.com/watch?v=-IPMNWqA638) — iOS Dev Weekly · Issue 168 — Video · Topics: Concurrency · Graphics, Media & Games
   **Published:** `17th October 2014`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Explains the engineering behind Facebook Paper's AsyncDisplayKit, particularly asynchronous UI rendering used to keep interaction and animation smooth. Valuable historical context for Texture-style architectures and off-main-thread display work.
 - [Using Vector Images in Xcode 6](http://martiancraft.com/blog/2014/09/vector-images-xcode6) — iOS Dev Weekly · Issue 164 — Article · Topics: Graphics, Media & Games · Xcode
   **Published:** `19th September 2014`
   **NeKI brief:** Use vector PDFs in Xcode asset handling to reduce manually exported device-size variants. Verify which asset types and OS versions preserve vector fidelity, since vector source input does not mean every runtime use remains resolution independent.
@@ -982,7 +1048,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains Mobile Designers who Code with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
 - [Building Paper](https://www.youtube.com/watch?v=OiY1cheLpmI&feature=youtu.be) — iOS Dev Weekly · Issue 143 — Video · Topics: Graphics, Media & Games · Performance
   **Published:** `25th April 2014`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Collects Facebook Paper engineering sessions on contextual tutorials, maintainable UI code, spring animation, advanced gestures, and asynchronous interfaces. Useful historical context for the techniques used to keep a highly interactive app responsive.
 - [BRFlabbyTable](https://github.com/brocoo/BRFlabbyTable) — iOS Dev Weekly · Issue 140 — Source repository · Topics: Developer Tools · Graphics, Media & Games
   **Published:** `4th April 2014`
   **NeKI brief:** Provides the BRFlabbyTable source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -994,13 +1060,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains iOS Courses on Code School with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
 - [Unity Survival Game Tutorial](http://www.youtube.com/playlist?list=PLPV2KyIb3jR7F_B4p8X3YwHPaExh0R9Kk) — iOS Dev Weekly · Issue 121 — Video · Topics: Graphics, Media & Games
   **Published:** `22nd November 2013`
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** A long-form Unity survival-game course split into focused installments, progressing from project setup toward gameplay systems. It is useful as historical cross-platform game-development training, not as guidance for native Apple UI frameworks.
 - [MoarFonts](http://pitaya.ch/moarfonts) — iOS Dev Weekly · Issue 119 — Article · Topics: Graphics, Media & Games · Xcode
   **Published:** `8th November 2013`
   **NeKI brief:** Explains MoarFonts with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
 - [Apportable](http://www.youtube.com/watch?v=dSkhtd6L8RM) — iOS Dev Weekly · Issue 117 — Video · Topics: App Services & Extensions · Core Data · Cross-Platform & Web
   **Published:** `25th October 2013`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates compiling an Objective-C iOS game for Android with Apportable and SpriteBuilder, including platform-framework mapping. Treat it as historical cross-platform tooling context rather than a current deployment recommendation.
 - [WWDC Sample Code Downloader](https://github.com/jfahrenkrug/WWDC-Downloader) — iOS Dev Weekly · Issue 100 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games
   **Published:** `28th June 2013`
   **NeKI brief:** Provides the WWDC Sample Code Downloader source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -1064,8 +1130,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Creating an iTunes store style “jump” animation](http://stackoverflow.com/questions/6915702/creating-itunes-store-style-jump-animation) — iOS Dev Weekly · Issue 11 — Article · Topics: Graphics, Media & Games
   **Published:** `14th October 2011`
   **NeKI brief:** Explains Creating an iTunes store style jump animation with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly.
+- [Play](https://youtube.com/watch?v=qx5QWrKhxM8) — Not only Swift · Issue 98 — Video · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
+  **NeKI brief:** Demonstrates a Firebase bridge that makes Gemini models available through Apple’s Foundation Models-style API. Use it to compare a cloud-model fallback with on-device sessions while keeping authentication, privacy, latency, and API compatibility explicit.
 - [Play](https://youtube.com/watch?v=Y_Ov-ddMb24) — Not only Swift · Issue 97 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
-  **NeKI brief:** Links to a public video about Play. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Presents Natalia Panferova's five SwiftUI mental-model principles and associated anti-patterns, connecting structural choices to predictable updates, performance, and maintainability. Useful as architectural guidance for reasoning about complex view hierarchies.
 - [The SwiftUI Way](https://books.nilcoalescing.com/the-swiftui-way) — Not only Swift · Issue 97 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **NeKI brief:** The SwiftUI Way targets experienced developers with production patterns and anti-patterns informed by SwiftUI framework experience. Use it when evaluating a complex view architecture rather than looking up an isolated control API.
 - [VecturaKit](https://github.com/rryam/VecturaKit) — Not only Swift · Issue 94 — Source repository · Topics: AI Development · Developer Tools · Graphics, Media & Games
@@ -1075,7 +1143,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [swift-markdown-ui](https://github.com/gonzalezreal/swift-markdown-ui) — Not only Swift · Issue 89 — Source repository · Topics: Graphics, Media & Games · Swift · SwiftUI
   **NeKI brief:** This source repository covers the maintenance status and migration path from Swift Markdown UI. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Second Brain app](https://www.youtube.com/playlist?list=PLsnLd2esiGRTmfGZcZMnEy6hkBHXBH_en) — Not only Swift · Issue 85 — Video · Topics: Graphics, Media & Games · Liquid Glass · Swift
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Follows a SwiftUI second-brain app built with Firestore sync, Gemini summaries and questions, Genkit integration, and Siri access. The playlist shows those services evolving together inside a real project.
 - [this repository](https://github.com/FirebaseExtended/firebase-video-samples/tree/main/firebase-ai-friendly-meals/apple) — Not only Swift · Issue 85 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
   **NeKI brief:** Contains the Apple client sample for Firebase AI Friendly Meals, showing practical integration boundaries around Firebase services and SwiftUI. Inspect it for a runnable reference, then check current SDK setup and security guidance.
 - [Foundation Models Playgrounds: Comprehensive Examples for Apple's AI Framework](https://github.com/IvanCampos/Foundation-Models-Playgrounds) — Not only Swift · Issue 85 — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats

@@ -3,8 +3,16 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://blog.jacobstechtavern.com/archive](https://blog.jacobstechtavern.com/archive)
-- Last collected: `2026-07-22T21:49:38Z`
-- Indexed entries: **88**
+- Last collected: `2026-08-04T16:05:07Z`
+- Indexed entries: **89**
+
+## [Introducing... The Tech Tavern Roadmap 🗺️](https://blog.jacobstechtavern.com/p/introducing-the-tech-tavern-roadmap)
+
+- Published: `2026-08-04T15:03:11.764Z`
+
+**Topics:** Developer Career & Practice
+
+**NeKI brief:** Organises more than three years of iOS writing into experience-based learning paths for foundations, senior-level practice and internals. Follow the roadmap when choosing a coherent progression through the publication instead of searching its archive article by article.
 
 ## [Apple's "Snow Leopard" Year: WWDC 2026 Roundup](https://blog.jacobstechtavern.com/p/wwdc-2026-roundup)
 

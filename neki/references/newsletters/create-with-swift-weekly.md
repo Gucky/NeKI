@@ -3,8 +3,28 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.createwithswift.com/](https://www.createwithswift.com/)
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed entries: **70**
+- Last collected: `2026-08-05T08:56:37Z`
+- Indexed entries: **71**
+
+## [Issue 118](https://www.createwithswift.com/weekly-newsletter-issue-118)
+
+- Published: `2026-08-01T15:00:04.000Z`
+
+**Topics:** App Distribution & Store Operations · Developer Community & Business · Graphics, Media & Games · Swift · SwiftUI · UIKit
+
+**Sections:** The Community · Toplify · Small Choices, Big Impact: The Environmental Cost of Mobile Design Decisions
+
+**NeKI brief:** Curates UIKit Liquid Glass compatibility, iOS signing and provisioning, Xcode 27 ContentBuilder type-checking and UIBarMinimization. Use the issue to compare platform-migration concerns spanning runtime UI behaviour, distribution and compiler performance.
+
+**Selected links:**
+- [Liquid Glass: A Field Guide to UIKit Compatibility Pitfalls](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls?ref=createwithswift.com) — Article · Topics: Liquid Glass · Swift · UIKit
+  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
+- [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning?ref=createwithswift.com) — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
+  **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.
+- [SwiftUI @ContentBuilder - Faster Type Checking in Xcode 27](https://www.sagarunagar.com/blog/swiftui-contentbuilder-xcode-27?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI · Xcode
+  **NeKI brief:** Explains Xcode 27’s SwiftUI ContentBuilder unification and how it reduces result-builder type-checking work while retaining older deployment targets. It is useful when large view expressions compile slowly or custom builders duplicate SwiftUI’s behavior.
+- [iOS 27: UIBarMinimizationControl navigation bar during scroll in UIKitAnton’s SubstackAnton’s Substack](https://antongubarenko.substack.com/p/ios-27-uibarminimization) — Article · Topics: SwiftUI · UIKit
+  **NeKI brief:** Separates UIKit navigation-bar minimisation into trigger, restoration, and safe-area decisions, then compares the corresponding SwiftUI toolbar behaviour. The examples are useful for replacing custom scroll-offset handling while the iOS 27 API remains beta.
 
 ## [Issue 117](https://www.createwithswift.com/weekly-newsletter-issue-117)
 
@@ -1117,6 +1137,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Uses Logger for structured Swift logging, separating privacy and subsystem decisions from ad-hoc print output so diagnostics remain filterable in production.
 - [Building a searchable map with SwiftUI and MapKit](https://www.polpiella.dev/mapkit-and-swiftui-searchable-map?ref=createwithswift.com) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
   **NeKI brief:** Builds a searchable map component with MapKit and SwiftUI's iOS 17 APIs, connecting query results to map annotations. Useful for prototyping location search while evaluating state flow, selection, and map camera updates.
+- [Apple Developer](https://www.youtube.com/@AppleDeveloper/playlists?ref=createwithswift.com) — Video · Topics: AI Development · Swift
+  **NeKI brief:** Records Apple DeveloperHello and welcome to the official Apple Developer YouTube channel.YouTube as a visual walkthrough relevant to Apple Platform Ecosystem and Graphics, Media & Games. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 
 ## [Issue 5](https://www.createwithswift.com/weekly-newsletter-issue-5)
 
@@ -1157,6 +1179,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Published this week · From the community · Mercury Weather
 
 **NeKI brief:** Uses the iOS 17.4 release as a routing point for new system capabilities, including podcast transcription and platform changes, before teams decide which release features affect their apps.
+
+**Selected links:**
+- [released Swift 5.10](https://www.swift.org/blog/swift-5.10-released?ref=createwithswift.com) — Article · Topics: Swift · Testing · Xcode
+  **NeKI brief:** Summarises What's new in Swift 5.10 for Swift. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 
 ## [Issue 2](https://www.createwithswift.com/weekly-newsletter-issue-2)
 

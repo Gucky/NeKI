@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Maintainability, API design, correctness, code review, and engineering quality.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **22**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **35**
 
 ## Direct-source reading
 
@@ -30,6 +30,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [AI Broke Code Review. Here’s How to Rebuild It.](https://swiftandmemes.com/ai-broke-code-review-heres-how-to-rebuild-it) — iOS Dev Weekly · Issue 761 — Article · Topics: AI Development · Code Quality · Developer Community & Business
+  **Published:** `31st July 2026`
+  **NeKI brief:** Proposes a layered review pipeline for AI-generated changes, combining deterministic checks, focused automated reviewers, architectural scrutiny, and human judgment. The structure is useful when increased code volume overwhelms a traditional single-pass pull-request review.
+- [📈 New Pull Request Metrics in the GitHub API](https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api) — iOS CI Newsletter · Issue 91 — Article · Topics: AI Development · Code Quality · Developer Tools
+  **Published:** `2026-07-28T00:00:00.000Z`
+  **NeKI brief:** Examines New Pull Request Metrics in the GitHub API in the context of AI Development and Code Quality. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Understanding Inout Parameters In Swift - How They Work And When To Use Them](https://www.sagarunagar.com/blog/swift-inout-parameters) — Those Who Swift · Issue 264 — Article · Topics: Code Quality · Performance · Swift
   **Published:** `2026-04-29`
   **NeKI brief:** Explains Swift inout parameters, including exclusivity and mutation semantics. Follow it when reviewing APIs that borrow mutable storage, especially where escaping closures, overlapping accesses, or value-copy expectations can make a seemingly simple call unsafe.
@@ -51,12 +57,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift Testing Challenge: Can You Refactor This?](https://www.mobiledevdiary.com/posts/swift-testing-challange-can-you-refactor-this) — Those Who Swift · Issue 211 — Article · Topics: Concurrency · Swift · Testing
   **Published:** `2025-04-24`
   **NeKI brief:** Examines Swift Testing Challenge: Can You Refactor This?, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [Level Up Your iOS Code Reviews: Best Practices for High-Quality Pull Requests](https://appcircle.io/blog/ios-code-review-practices-for-efficient-pull-requests) — iOS CI Newsletter · Issue 66 — Article · Topics: Code Quality
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Examines Level Up Your iOS Code Reviews: Best Practices for High-Quality Pull Requests in the context of Code Quality. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🐙 GitHub Copilot code review now has Swift support](https://github.blog/changelog/2025-04-04-copilot-code-review-now-generally-available) — iOS CI Newsletter · Issue 65 — Article · Topics: AI Development · Code Quality · Developer Tools
+  **Published:** `2025-04-06T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub Copilot code review now has Swift support in the context of AI Development and Code Quality. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Here’s how to build the perfect mobile release train](https://www.runway.team/blog/how-to-build-the-perfect-mobile-release-train) — iOS Code Review · Issue 74 — Article · Topics: Code Quality
+  **Published:** `2024-12-04T11:30:50.000Z`
+  **NeKI brief:** Walks through how to build the perfect release train, with practical context for Apple-platform engineering. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [https://keyboardkit.com/pro](https://keyboardkit.com/pro?ref=ioscodereview.com) — iOS Code Review · Issue 73 — Article · Topics: Code Quality · Hardware & Devices
+  **Published:** `2024-11-20T11:14:23.000Z`
+  **NeKI brief:** Examines Get started for free 🚀 in the context of App Distribution & Store Operations and Developer Career & Practice. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [✅ The benefits of automating code style checks](https://otavio.cc/swiftlint) — iOS CI Newsletter · Issue 50 — Article · Topics: Code Quality · Swift
+  **Published:** `2024-09-08T00:00:00.000Z`
+  **NeKI brief:** Examines The benefits of automating code style checks in the context of Code Quality and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Issues with ScenePhase and using AppDelegate adaptors](https://www.jessesquires.com/blog/2024/06/29/swiftui-scene-phase) — iOS Dev Weekly · Issue 671 — Article · Topics: Code Quality · Swift · SwiftUI
   **Published:** `26th July 2024`
   **NeKI brief:** Explains SwiftUI scenePhase transitions and how applications respond to active, inactive, and background states. Useful for pausing work, refreshing data, and handling lifecycle changes at the scene boundary.
 - [@_spi or How to develop better APIs in Swift](https://varanios.com/articles/spi-or-how-to-develop-better-apis-in-swift) — iOS Dev Weekly · Issue 662 — Article · Topics: Code Quality · Swift · Swift Package Manager
   **Published:** `24th May 2024`
   **NeKI brief:** Explains Swift’s @_spi boundary for exposing experimental or specialist API to selected clients without making it generally public. Useful for library authors weighing staged API development against the maintenance risk of relying on an underscored language feature.
+- [Take the 6-question Health Check](https://bitrise.io/learn/modas-health-check) — iOS Code Review · Issue 59 — Article · Topics: Code Quality
+  **Published:** `2023-11-09T13:26:49.000Z`
+  **NeKI brief:** Examines Take the 6-question Health Check in the context of Code Quality and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Premature Optimization: Universally Misunderstood](https://milen.me/writings/premature-optimization-universally-misunderstood?ref=ioscodereview.com) — iOS Code Review · Issue 54 — Article · Topics: Architecture · Code Quality · Objective-C & Cocoa
+  **Published:** `2023-08-31T14:20:05.000Z`
+  **NeKI brief:** Examines Premature Optimization: Universally Misunderstood in the context of Architecture and Code Quality. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Download free report](https://yo.bitrise.io/mobile-devops-assessment-report-2023-download.html) — iOS Code Review · Issue 50 — Article · Topics: Apple Platform Ecosystem · Code Quality · Cross-Platform & Web
+  **Published:** `2023-06-09T10:49:04.000Z`
+  **NeKI brief:** Examines Download free report in the context of Code Quality and Cross-Platform & Web. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid?ref=ioscodereview.com) — iOS Code Review · Issue 19 — Article · Topics: Code Quality
+  **Published:** `2022-03-24T11:50:04.000Z`
+  **NeKI brief:** Examines The Code Review Pyramid in the context of Code Quality. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Swift API design guidelines](https://swift.org/documentation/api-design-guidelines?ref=ioscodereview.com) — iOS Code Review · Issue 17 — Article · Topics: Code Quality · Swift
+  **Published:** `2022-02-24T11:04:06.000Z`
+  **NeKI brief:** Examines API guidelines, focusing on ash furrow with a great article on the flexibility swift has around naming. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Become an iOS Developer with Udacity](https://www.udacity.com/course/ios-developer-nanodegree--nd003?coupon=iosdevweekly) — iOS Dev Weekly · Issue 350 — Tutorial · Topics: App Distribution & Store Operations · Code Quality · Developer Career & Practice
   **Published:** `4th May 2018`
   **NeKI brief:** Examines Become an iOS Developer with Udacity, focusing on enroll in udacity’s ios developer nanodegree program today. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -69,9 +105,11 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Build Doom3 on MacOSX with Xcode 4](http://fabiensanglard.net/doom3_macosx/index.php) — iOS Dev Weekly · Issue 18 — Article · Topics: Code Quality · macOS & AppKit · Xcode
   **Published:** `2nd December 2011`
   **NeKI brief:** Explains Build Doom3 on MacOSX with Xcode 4 with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly.
+- [includes skills for Swift and SwiftUI in Xcode](https://dev.to/arshtechpro/wwdc-2026-xcode-27-ships-with-apples-own-agent-skills-what-they-are-and-how-to-use-them-3g2) — Not only Swift · Issue 98 — Article · Topics: Swift · SwiftUI · Xcode
+  **NeKI brief:** Surveys the agent skills bundled with Xcode 27 and how they guide Swift, SwiftUI, testing, and Apple-framework work. Treat it as community orientation, then verify the installed skill contents and supported workflow in the actual Xcode release.
 - [Writing good agents.md files](https://www.philschmid.de/writing-good-agents) — Not only Swift · Issue 95 — Article · Topics: Architecture · Code Quality · Objective-C & Cocoa
   **NeKI brief:** This article covers writing effective AGENTS.md instruction files. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [A SwiftUI agent skill for better code reviews](https://github.com/AvdLee/SwiftUI-Agent-Skill) — Not only Swift · Issue 91 — Source repository · Topics: Code Quality · Swift · SwiftUI
   **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
 - [Function calling: The missing piece for agentic apps](https://www.youtube.com/watch?v=d69KP1iFg5E) — Not only Swift · Issue 91 — Video · Topics: AI Development · Swift · SwiftUI
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Implements Firebase AI Logic function calling in an iOS meal-planning app so the model can set and inspect timers. The five-step workflow covers declarations, tool requests, results, reliability settings, and safety boundaries.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Cross-platform, Android, Flutter, web, and interoperability work adjacent to Apple-platform development.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **264**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **300**
 
 ## Direct-source reading
 
@@ -111,12 +111,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — SwiftLee Weekly · Issue 335 — Article · Topics: Swift · SwiftData · Testing
+  **Published:** `2026-08-04T14:04:01.000Z`
+  **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
 - [SwiftCon Returns to Berlin This October](https://www.nextappcon.com/swiftcon) — Those Who Swift · Issue 276 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
   **Published:** `2026-07-22T20:01:13.378Z`
   **NeKI brief:** SwiftCon's call for speakers seeks production-focused Swift and iOS talks, including SwiftUI, architecture, performance, and testing. Follow the event page to assess the community's current themes or submit a concrete engineering case study.
 - [getting nowhere with Apple](https://lapcatsoftware.com/articles/2026/7/6.html) — Fatbobman’s Swift Weekly · Issue 145 — Article · Topics: App Distribution & Store Operations · Cross-Platform & Web
   **Published:** `2026-07-20T12:01:22.890Z`
   **NeKI brief:** Diagnoses an App Store Connect login loop by comparing request cookies and finding a missing `dc` session cookie. Follow it for a focused example of browser-level debugging when server behavior contradicts apparent authentication state.
+- [MCP for Safari](https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers) — iOS Dev Weekly · Issue 758 — Article · Topics: Cross-Platform & Web
+  **Published:** `10th July 2026`
+  **NeKI brief:** Examines Safari now has an MCP! in the context of AI Development and CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [ZMarkupParser](https://github.com/ZhgChgLi/ZMarkupParser) — iOS Dev Tools · iOS Dev Tools: Footprint, ZMarkupParser, Lettera — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `2026-06-18T16:02:35.381Z`
   **NeKI brief:** A pure-Swift HTML-to-NSAttributedString parser that repairs malformed markup, supports custom tags and styles, and can render, strip, or select content. Its thread-safe implementation and performance report make it a concrete alternative to Foundation HTML parsing.
@@ -129,9 +135,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Hot Reloading a Bazel-Based iOS App with InjectionNext](https://adincebic.com/2026/05/17/hot-reloading-a-bazelbased-ios.html) — iOS Dev Weekly · Issue 751 — Article · Topics: Cross-Platform & Web · Systems Programming · Testing
   **Published:** `22nd May 2026`
   **NeKI brief:** Presents hot reloading a bazel-based ios app with injectionnext for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [🔧 Get started with Bazel persistent workers](https://adincebic.com/2026/05/10/a-practical-introduction-to-bazel.html) — iOS CI Newsletter · Issue 88 — Article · Topics: Cross-Platform & Web · Performance
+  **Published:** `2026-05-18T00:00:00.000Z`
+  **NeKI brief:** Examines Get started with Bazel persistent workers in the context of Cross-Platform & Web and Performance. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Install Swift 6.3.1 — Swift.org](https://www.swift.org/install?ref=ioscodereview.com) — iOS Code Review · Issue 78 — Article · Topics: Cross-Platform & Web · Objective-C & Cocoa · Swift
+  **Published:** `2026-05-16T17:59:28.000Z`
+  **NeKI brief:** Examines Install Swift 6.3.1 — Swift.org in the context of Cross-Platform & Web and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Swift.orgSwift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.Swift.orgApple Inc.](https://www.swift.org/install/windows?ref=ioscodereview.com) — iOS Code Review · Issue 78 — Article · Topics: Cross-Platform & Web · Objective-C & Cocoa · Swift
+  **Published:** `2026-05-16T17:59:28.000Z`
+  **NeKI brief:** Examines Swift.orgSwift is a general-purpose programming language built using a modern approach to safety, performance… in the context of Cross-Platform & Web and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [WatchLink](https://github.com/tareksabry1337/WatchLink) — Fatbobman’s Swift Weekly · Issue 135 — Source repository · Topics: Cross-Platform & Web · Developer Tools
   **Published:** `2026-05-11T12:02:41.178Z`
   **NeKI brief:** WatchLink explores Watch connectivity over ordinary network protocols, allowing the peer to be an iPhone, Android device, or other IP endpoint. Use it when a watch feature should not depend on a proprietary phone-pairing transport.
+- [InfoWorld](https://www.infoworld.com/article/4157422/swift-for-visual-studio-code-comes-to-open-vsx-registry.html?ref=ioscodereview.com) — iOS Code Review · Issue 77 — Article · Topics: Cross-Platform & Web · Foundation & Data Formats · Swift
+  **Published:** `2026-04-15T16:20:56.000Z`
+  **NeKI brief:** Examines InfoWorld in the context of Cross-Platform & Web and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [@samwize](https://samwize.com/2026/03/30/xcode-simulator-paste-broken-workaround?ref=ioscodereview.com) — iOS Code Review · Issue 77 — Article · Topics: AI Development · Cross-Platform & Web · Xcode
+  **Published:** `2026-04-15T16:20:56.000Z`
+  **NeKI brief:** Examines @samwize in the context of AI Development and Cross-Platform & Web. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [official setup guides for editors built on top of it](https://www.swift.org/documentation/articles/getting-started-with-cursor-swift.html) — iOS Dev Weekly · Issue 747 — Article · Topics: Cross-Platform & Web · Swift
   **Published:** `10th April 2026`
   **NeKI brief:** Presents official setup guides for editors built on top of it for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -141,9 +162,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Wasm](https://www.swift.org/blog/swift-6.2-released) — iOS Dev Weekly · Issue 747 — Article · Topics: Cross-Platform & Web · Swift
   **Published:** `10th April 2026`
   **NeKI brief:** Swift 6.2's release announcement provides the authoritative overview of language and toolchain changes. Use it to plan adoption boundaries and match compiler behavior to the released version.
+- [Swift on embedded hardware](https://www.swift.org/blog/embedded-swift-improvements-coming-in-swift-6.3) — iOS Dev Weekly · Issue 747 — Article · Topics: Cross-Platform & Web · Swift
+  **Published:** `10th April 2026`
+  **NeKI brief:** Examines Embedded Swift Improvements Coming in Swift 6.3Embedded Swift is a subset of Swift that’s designed for low… in the context of Combine & Reactive Programming and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Expanding Animations in SwiftUI Lists](https://nerdyak.tech/development/2026/03/16/expand-animation-in-SwiftUI-List.html) — SwiftUI Weekly · SwiftUI Weekly - Issue #231 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `2026-04-06T15:12:39.552Z`
   **NeKI brief:** Diagnoses janky expand and collapse animations inside SwiftUI List and documents the identity and transaction choices that improve them. Useful when animating variable-height rows without breaking list diffing or scroll performance.
+- [CI/CD Build Speed Benchmark: Codemagic Vs GitHub Actions Vs Bitrise](https://blog.codemagic.io/build-speed-benchmark-comparison) — Those Who Swift · Issue 260 — Article · Topics: CI/CD & Automation · Cross-Platform & Web · Developer Tools
+  **Published:** `2026-04-01`
+  **NeKI brief:** Examines How fast can each CI/CD service build your app? in the context of CI/CD & Automation and Concurrency. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Swift.orgSwift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.Swift.orgApple Inc.](https://www.swift.org/documentation/articles/swift-sdk-for-android-getting-started.html?ref=ioscodereview.com) — iOS Code Review · Issue 76 — Article · Topics: Cross-Platform & Web · Performance · Swift
+  **Published:** `2026-03-30T18:21:46.000Z`
+  **NeKI brief:** Presents getting started guide for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Swift 6.3 Released](https://www.swift.org/blog/swift-6.3-released) — Those Who Swift · Issue 259 — Article · Topics: Cross-Platform & Web · Swift
   **Published:** `2026-03-26`
   **NeKI brief:** Announces Swift 6.3 and summarizes the language, package, and tooling changes in that release. Use it to identify migration candidates, then consult the release notes and proposal links for exact compiler behavior and availability.
@@ -170,7 +200,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines SwiftUI Navigation Pain, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) — Fatbobman’s Swift Weekly · Issue 109 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Swift
   **Published:** `2025-11-03T12:02:55.598Z`
-  **NeKI brief:** Provides the Swift language extension for Visual Studio Code. Follow it when setting up language-server completion, diagnostics, and package workflows outside Xcode, while validating debugger and SDK limitations separately.
+  **NeKI brief:** The Dev Containers extension adds reproducible container-backed development environments to Visual Studio Code. Use it when comparing local toolchain isolation and onboarding workflows, while separating container setup from Swift package or Xcode build behavior.
 - [The Swift Android Setup I Always Wanted](https://dev.to/swiftstream/the-swift-android-setup-i-always-wanted-285d) — Fatbobman’s Swift Weekly · Issue 109 — Article · Topics: Cross-Platform & Web · Swift
   **Published:** `2025-11-03T12:02:55.598Z`
   **NeKI brief:** Describes a Swift-on-Android setup combining Swift Stream IDE, swift-android-sdk, and JNIKit to build native libraries. Use it when evaluating Android targets that retain Swift source but require NDK and Java interop boundaries.
@@ -201,6 +231,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [React-native-enriched](https://github.com/software-mansion-labs/react-native-enriched) — iOS Dev Tools · iOS Dev Tools: React-native-enriched, Darling, Aidoku — Source repository · Topics: Cross-Platform & Web · Developer Tools
   **Published:** `2025-10-02T19:15:22.078Z`
   **NeKI brief:** react-native-enriched exposes a native rich-text editor to React Native with synchronous styling, HTML parsing, and live style detection. Its New Architecture constraint and native text-input design are useful when evaluating editor performance and platform integration boundaries.
+- [💪 ReleaseTools: A lightweight alternative to Fastlane written entirely in Swift](https://elegantchaos.com/2025/09/26/release-tools.html) — iOS CI Newsletter · Issue 76 — Article · Topics: CI/CD & Automation · Cross-Platform & Web · Swift
+  **Published:** `2025-10-01T00:00:00.000Z`
+  **NeKI brief:** Summarises ReleaseTools: A lightweight alternative to Fastlane written entirely in Swift for CI/CD & Automation and Cross-Platform & Web. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [We Need to Talk About Observation](https://jaredsinclair.com/2025/09/10/observation.html) — Those Who Swift · Issue 232 — Article · Topics: Cross-Platform & Web · Developer Career & Practice · Observation & State Management
   **Published:** `2025-09-17`
   **NeKI brief:** Explains We Need to Talk About Observation, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -213,6 +246,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Subprocess](https://github.com/swiftlang/swift-subprocess) — iOS Dev Tools · iOS Dev Tools: Subprocess, ReerJSON, Haptic Video Sync — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `2025-09-11T20:39:49.146Z`
   **NeKI brief:** swift-subprocess modernizes launching and interacting with child processes through Swift concurrency. Use it for scripts and tools that need structured stdin, stdout, cancellation, and exit-status handling beyond Foundation's older Process API.
+- [🤖 How to generate GitHub Actions workflows automatically](https://elegantchaos.com/2025/08/28/action-builder.html) — iOS CI Newsletter · Issue 74 — Article · Topics: Cross-Platform & Web · Developer Tools · Swift
+  **Published:** `2025-09-10T00:00:00.000Z`
+  **NeKI brief:** Walks through how to generate GitHub Actions workflows automatically, with practical context for Cross-Platform & Web and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [ch.at](https://github.com/Deep-ai-inc/ch.at) — iOS Dev Tools · iOS Dev Tools: ch.at, Mercato, Dependencies — Source repository · Topics: AI Development · Developer Tools · Security & Privacy
   **Published:** `2025-08-14T19:53:26.103Z`
   **NeKI brief:** ch.at is an open-source chat application project from Deep AI Inc. Use the repository to inspect conversational UI, networking, and model-integration patterns, while treating its architecture as an example rather than a production security baseline.
@@ -228,11 +264,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using WebKit to Load Web Content in SwiftUI](https://www.artemnovichkov.com/blog/using-webkit-to-load-web-content-in-swiftui) — Those Who Swift · Issue 222 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2025-07-10`
   **NeKI brief:** Integrates WebKit content loading with SwiftUI through UIViewRepresentable and a coordinator. Useful for controlled web content, navigation state, and lifecycle handling in hybrid screens.
+- [An Open‑Source SDK for Finding Dead Code](https://blog.sentry.io/an-open-source-sdk-for-finding-dead-code) — Those Who Swift · Issue 222 — Article · Topics: Cross-Platform & Web
+  **Published:** `2025-07-10`
+  **NeKI brief:** Examines How Duolingo deleted 1% of their code using this Open Source tool in the context of Apple-platform engineering. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Discussion on Flutter’s Support for Liquid Glass](https://github.com/flutter/flutter/issues/170310) — Fatbobman’s Swift Weekly · Issue 88 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Liquid Glass
   **Published:** `2025-06-12T02:52:10.753Z`
   **NeKI brief:** This Flutter issue discusses support for Apple's Liquid Glass redesign and related platform integration concerns. Follow the thread for cross-platform implementation constraints and status, not as a guarantee of shipped Flutter behavior.
-- [Xtool: Cross-platform Xcode replacement](https://forums.swift.org/t/xtool-cross-platform-xcode-replacement-build-ios-apps-on-linux-and-more/79803) — iOS Dev Weekly · Issue 712 — Article · Topics: Cross-Platform & Web · Product Design · Xcode
-  **Published:** `16th May 2025`
+- [🧪 Xtool: A cross-platform Xcode replacement](https://forums.swift.org/t/xtool-cross-platform-xcode-replacement-build-ios-apps-on-linux-and-more/79803) — iOS CI Newsletter · Issue 68 — Article · Topics: Cross-Platform & Web · Swift · Xcode
+  **Published:** `2025-05-18T00:00:00.000Z`
   **NeKI brief:** Presents xtool: cross-platform xcode replacement for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Regular Expressions in Swift](https://www.iro.umontreal.ca/~lapalme/RegexInSwift/index.html) — iOS Dev Weekly · Issue 711 — Article · Topics: Cross-Platform & Web · Swift
   **Published:** `9th May 2025`
@@ -246,6 +285,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Returned For RevisionSE-0472Starting tasks synchronously from caller context](https://github.com/apple/swift-evolution/blob/main/proposals/0472-task-start-synchronously-on-caller-context.md) — SwiftLee Weekly · Issue 268 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `2025-04-22T13:40:18.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0472Starting tasks synchronously from caller context. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Static Linux SDKs](https://www.swift.org/documentation/articles/static-linux-getting-started.html) — iOS CI Newsletter · Issue 65 — Article · Topics: Cross-Platform & Web · Product Design · Swift
+  **Published:** `2025-04-06T00:00:00.000Z`
+  **NeKI brief:** Examines Static Linux SDKs in the context of Cross-Platform & Web and Product Design. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Swiftdata Architecture Patterns And PracticesBlog about iOS development and musings on technologyAzamSharpMohammad Azam](https://azamsharp.com/2025/03/28/swiftdata-architecture-patterns-and-practices.html?ref=createwithswift.com) — Create with Swift · Issue 55 — Article · Topics: Architecture · Objective-C & Cocoa · Swift
   **Published:** `2025-04-04T15:49:40.000Z`
   **NeKI brief:** Explains Swiftdata Architecture Patterns And Practices, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -285,6 +327,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The latest research results announced by Professor Chen Gang's team in China](https://www.stdaily.com/web/gdxw/2024-11/29/content_266525.html) — Fatbobman’s Swift Weekly · Issue 63 — Article · Topics: Cross-Platform & Web · Objective-C & Cocoa · Testing
   **Published:** `2024-12-23T12:01:34.355Z`
   **NeKI brief:** Provides contextual background on The latest research results announced by Professor Chen Gang's team in China, useful for understanding the surrounding product, policy, or ecosystem issue before drawing technical or business conclusions.
+- [How I reduce the iOS TPBank app size by half](https://ericsspace.com/articles/how-to-reduce-tpbank-appsize-by-half) — SwiftLee Weekly · Issue 248 — Article · Topics: Cross-Platform & Web
+  **Published:** `2024-12-03T14:26:41.000Z`
+  **NeKI brief:** Examines A practical example on how to cut your app’s size in half in the context of Cross-Platform & Web. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Deep Dive into Environment in SwiftUI](https://azamsharp.com/2024/11/18/deep-dive-into-environment-in-swiftui.html?ref=createwithswift.com) — Create with Swift · Issue 37 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `2024-11-22T16:00:12.000Z`
   **NeKI brief:** Explains SwiftUI environment propagation, custom keys, and dependency lookup. Useful for deciding which shared services belong in environment values versus explicit initializer parameters.
@@ -300,12 +345,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Modular Navigation in SwiftUI: A Comprehensive Guide](https://ericsspace.com/articles/modular-navigation-in-swiftui-a-comprehensive-guide) — SwiftUI Weekly · SwiftUI Weekly - Issue #201 — Article · Topics: Architecture · Swift · SwiftUI
   **Published:** `2024-10-21T14:26:23.455Z`
   **NeKI brief:** Presents a modular navigation architecture for SwiftUI with separated route and feature concerns. Useful when deep links and navigation flows outgrow a single view's path handling.
+- [📦 Are Android apps smaller than iOS apps?](https://www.emergetools.com/blog/posts/are-android-apps-really-that-much-smaller-than-ios) — iOS CI Newsletter · Issue 53 — Article · Topics: Cross-Platform & Web
+  **Published:** `2024-10-20T00:00:00.000Z`
+  **NeKI brief:** Examines Are Android apps smaller than iOS apps? in the context of Cross-Platform & Web. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🔌 Beware of this argument when using xcodebuild and plugins](https://elegantchaos.com/2024/10/11/xcodebuild-platforms-and-plugins.html) — iOS CI Newsletter · Issue 53 — Article · Topics: Cross-Platform & Web · Xcode
+  **Published:** `2024-10-20T00:00:00.000Z`
+  **NeKI brief:** Examines Beware of this argument when using xcodebuild and plugins in the context of Cross-Platform & Web and Xcode. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Introduction to Communication Patterns in SwiftUI](https://azamsharp.com/2024/09/22/introduction-to-communication-patterns-in-swiftui.html) — SwiftUI Weekly · SwiftUI Weekly - Issue #200 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `2024-09-30T17:14:55.385Z`
   **NeKI brief:** Compares communication patterns between SwiftUI views, including bindings, callbacks, and shared state. Useful for choosing data-flow direction while keeping feature interfaces testable.
 - [Introduction to Communication Patterns in SwiftUI](https://azamsharp.com/2024/09/22/introduction-to-communication-patterns-in-swiftui.html?ref=createwithswift.com) — Create with Swift · Issue 29 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `2024-09-27T15:10:02.000Z`
   **NeKI brief:** Compares communication patterns between SwiftUI views, including bindings, callbacks, and shared state. Useful for choosing data-flow direction while keeping feature interfaces testable.
+- [Building Large Scale Apps SwiftuiBuilding Large-Scale Apps with SwiftUI: A Guide to Modular ArchitectureAzamSharpMohammad Azam](https://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html?ref=ioscodereview.com) — iOS Code Review · Issue 71 — Article · Topics: Architecture · Swift · SwiftUI
+  **Published:** `2024-09-24T10:08:19.000Z`
+  **NeKI brief:** Explores Building Large Scale Apps with SwiftUI, focusing on i’m not going to try to summarise this post from. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Cross-Platform macOS/Windows Application Developed Using Swift 6](https://forums.swift.org/t/example-of-a-cross-platform-macos-windows-application-developed-using-swift-6/74591) — iOS Dev Weekly · Issue 679 — Article · Topics: AI Development · Cross-Platform & Web · Swift
   **Published:** `20th September 2024`
   **NeKI brief:** Presents cross-platform macos/windows application developed using swift 6 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -339,6 +393,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AsyncStream in the real world](https://damian.fyi/swift/2023/12/03/asyncstream-in-the-real-world-wrapping-an-apple-photos-callback.html) — iOS Dev Weekly · Issue 639 — Article · Topics: Concurrency · Cross-Platform & Web · Swift
   **Published:** `8th December 2023`
   **NeKI brief:** Presents asyncstream in the real world for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [The Ultimate Swift Data GuideThe Ultimate Guide to Building SwiftData ApplicationsAzamSharpMohammad Azam](https://azamsharp.com/2023/07/04/the-ultimate-swift-data-guide.html?ref=ioscodereview.com) — iOS Code Review · Issue 61 — Article · Topics: Cross-Platform & Web · Swift · SwiftData
+  **Published:** `2023-12-07T13:38:43.000Z`
+  **NeKI brief:** Provides a broad SwiftData walkthrough covering model declaration, persistence, and cloud-sync-oriented concepts introduced at WWDC 2023. Useful for mapping Core Data requirements to SwiftData before committing to a migration or new model layer.
 - [Know your tools](https://khorbushko.github.io/article/2023/11/26/Know-your-tools.html) — Fatbobman’s Swift Weekly · Issue 9 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2023-12-03T22:00:35.768Z`
   **NeKI brief:** Surveys the everyday tools and diagnostics that support Swift development and debugging. Use it as a checklist for improving feedback loops around builds, source inspection, runtime logs, and repeatable project maintenance.
@@ -366,12 +423,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [React Native Vision Camera - Capture the World Differently](https://github.com/daltoniam/Starscream) — iOS Dev Tools · 🔨 Real-time Rendering & Stunning Imagery — Source repository · Topics: Cross-Platform & Web · Developer Tools · Graphics, Media & Games
   **Published:** `2023-07-13T13:51:39.780Z`
   **NeKI brief:** Starscream is a Swift WebSocket client implementing RFC 6455 with TLS, compression, and non-blocking callbacks. Use it when an app needs persistent bidirectional messaging and you must model connection lifecycle, reconnects, and message framing.
+- [Download free report](https://yo.bitrise.io/mobile-devops-assessment-report-2023-download.html) — iOS Code Review · Issue 50 — Article · Topics: Apple Platform Ecosystem · Code Quality · Cross-Platform & Web
+  **Published:** `2023-06-09T10:49:04.000Z`
+  **NeKI brief:** Examines Download free report in the context of Code Quality and Cross-Platform & Web. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🤯 Running GitHub Actions workflows locally](https://grantisom.com/2023/05/15/using-act-to.html) — iOS CI Newsletter · Issue 16 — Article · Topics: Cross-Platform & Web · Developer Tools · Personal Essays
+  **Published:** `2023-05-21T00:00:00.000Z`
+  **NeKI brief:** Examines Running GitHub Actions workflows locally in the context of Cross-Platform & Web and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [this amazing article](https://bogo.wtf/arm64-to-sim.html) — iOS CI Newsletter · Issue 16 — Article · Topics: Cross-Platform & Web · Objective-C & Cocoa
+  **Published:** `2023-05-21T00:00:00.000Z`
+  **NeKI brief:** Examines this amazing article in the context of Cross-Platform & Web and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [📱 Edit GitHub Actions workflows from your phone](https://github.blog/changelog/2023-05-11-edit-workflow-files-on-github-mobile) — iOS CI Newsletter · Issue 16 — Article · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `2023-05-21T00:00:00.000Z`
+  **NeKI brief:** Examines Edit GitHub Actions workflows from your phone in the context of Cross-Platform & Web and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🤯 Using the -why_load linker flag to reduce app size](https://asifmohd.github.io/ios/2023/03/30/reducing-ios-app-size-using-linker.html) — iOS CI Newsletter · Issue 13 — Article · Topics: Cross-Platform & Web · Developer Tools · Systems Programming
+  **Published:** `2023-04-09T00:00:00.000Z`
+  **NeKI brief:** Examines Using the -why_load linker flag to reduce app size in the context of Cross-Platform & Web and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Improving multiplatform SwiftUI code](https://www.jessesquires.com/blog/2023/03/23/improve-multiplatform-swiftui-code) — iOS Dev Weekly · Issue 602 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `24th March 2023`
   **NeKI brief:** Explores Improving multiplatform SwiftUI code, focusing on the article discusses liked the simple solution that jesse squires. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Building Large Scale Apps with SwiftUI](http://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html) — iOS Dev Weekly · Issue 601 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `17th March 2023`
   **NeKI brief:** Explores Building Large Scale Apps with SwiftUI, focusing on i’m not going to try to summarise this post from. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Building Large-Scale Apps with SwiftUI: A Guide to Modular Architecture](https://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html) — SwiftUI Weekly · SwiftUI Weekly - Issue #134 — Article · Topics: Architecture · Swift · SwiftUI
+  **Published:** `2023-03-06T15:27:12.172Z`
+  **NeKI brief:** Explores Building Large Scale Apps with SwiftUI, focusing on i’m not going to try to summarise this post from. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [bliki: GivenWhenThena bliki entry for GivenWhenThenmartinfowler.comMartin Fowler](https://martinfowler.com/bliki/GivenWhenThen.html?ref=ioscodereview.com) — iOS Code Review · Issue 44 — Article · Topics: Cross-Platform & Web · Testing
+  **Published:** `2023-03-02T12:48:03.000Z`
+  **NeKI brief:** Examines bliki: GivenWhenThena bliki entry for GivenWhenThenmartinfowler.comMartin Fowler in the context of Cross-Platform & Web and Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Quickstart CI/CD by Runway](https://www.runway.team/blog/introducing-quickstart-ci-cd-by-runway) — iOS CI Newsletter · Issue 10 — Article · Topics: CI/CD & Automation · Cross-Platform & Web
+  **Published:** `2023-02-26T00:00:00.000Z`
+  **NeKI brief:** Examines Quickstart CI/CD by Runway in the context of CI/CD & Automation and Cross-Platform & Web. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Wonderous: Build Wonders with Flutter](https://flutter.gskinner.com/wonderous) — iOS Dev Weekly · Issue 598 — Article · Topics: Accessibility · App Distribution & Store Operations · Cross-Platform & Web
   **Published:** `24th February 2023`
   **NeKI brief:** Explores Wonderous: Build Wonders with Flutter, focusing on wonderous is an open-source ios app built with flutter. it. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -387,9 +468,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Soto and Swift Build Plugin experiments](https://soto.codes/2022/12/build-plugin-experiments.html) — iOS Dev Weekly · Issue 588 — Article · Topics: Cross-Platform & Web · Swift · Swift Package Manager
   **Published:** `9th December 2022`
   **NeKI brief:** Explores Soto and Swift Build Plugin experiments, focusing on code generation during a swift package build process is a. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Making App Store Connect better](https://lapcatsoftware.com/articles/crappstoreconnect2.html) — iOS CI Newsletter · Issue 3 — Article · Topics: App Distribution & Store Operations · Cross-Platform & Web
+  **Published:** `2022-11-20T00:00:00.000Z`
+  **NeKI brief:** Examines Making App Store Connect better in the context of App Distribution & Store Operations and Cross-Platform & Web. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [How to regenerate Xcode managed provisioning profiles](https://lapcatsoftware.com/articles/provisioning.html) — iOS CI Newsletter · Issue 2 — Article · Topics: App Distribution & Store Operations · Performance · Xcode
+  **Published:** `2022-11-06T00:00:00.000Z`
+  **NeKI brief:** Walks through how to regenerate Xcode managed provisioning profiles, with practical context for App Distribution & Store Operations and Performance. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Women Who Code Mobile Summit 2022](https://www.youtube.com/playlist?list=PLVcEZG2JPVhf_iA733UhMxPS0H8iCoouj) — iOS Dev Weekly · Issue 580 — Video · Topics: Cross-Platform & Web · Graphics, Media & Games · Swift
   **Published:** `14th October 2022`
-  **NeKI brief:** Uses State, Binding, ObservableObject, StateObject, and EnvironmentObject in practical SwiftUI data-flow examples. Follow it to compare ownership and propagation choices when a view hierarchy has multiple sources of mutable state.
+  **NeKI brief:** Explores Women Who Code Mobile Summit 2022, focusing on the article discusses missed this when women who code first. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Initialization — The Swift Programming Language (Swift 5.7)](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html?ref=ioscodereview.com) — iOS Code Review · Issue 33 — Article · Topics: Cross-Platform & Web · Swift
+  **Published:** `2022-10-06T11:12:57.000Z`
+  **NeKI brief:** Examines Initialization — The Swift Programming Language (Swift 5.7) in the context of Cross-Platform & Web and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Callable structs](https://docs.swift.org/swift-book/ReferenceManual/Declarations.html?ref=ioscodereview.com) — iOS Code Review · Issue 31 — Article · Topics: Cross-Platform & Web · Swift
+  **Published:** `2022-09-08T10:50:25.000Z`
+  **NeKI brief:** Examines Callable structs in the context of Cross-Platform & Web and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Sharing cross-platform code in SwiftUI apps](https://www.jessesquires.com/blog/2022/08/19/sharing-code-in-swiftui-apps) — iOS Dev Weekly · Issue 574 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `2nd September 2022`
   **NeKI brief:** Explores Sharing cross-platform code in SwiftUI apps, focusing on there’s no doubt that swiftui makes cross-platform¹ development easier, but. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -399,18 +492,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Multiline TextField in SwiftUI](https://otbivnoe.ru/2022/07/10/Finally-Multiline-TextField-in-SwiftUI.html) — iOS Dev Weekly · Issue 567 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `15th July 2022`
   **NeKI brief:** Explores Multiline TextField in SwiftUI, focusing on the article discusses have seen so many different implementations of. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [#unavailable](https://docs.swift.org/swift-book/ReferenceManual/Attributes.html?ref=ioscodereview.com) — iOS Code Review · Issue 25 — Article · Topics: Cross-Platform & Web · Swift · Xcode
+  **Published:** `2022-06-16T10:30:01.000Z`
+  **NeKI brief:** Examines #unavailable in the context of Cross-Platform & Web and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [vscode-swift](https://github.com/swift-server/vscode-swift) — iOS Dev Weekly · Issue 559 — Source repository · Topics: Developer Tools · Swift
   **Published:** `20th May 2022`
   **NeKI brief:** Explores vscode-swift, focusing on if you had told me five years ago that in 2022, writing swift in a javascript-based text editor from microsoft called visual. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Injection](http://johnholdsworth.com/injection.html) — iOS Dev Weekly · Issue 553 — Article · Topics: Cross-Platform & Web · Testing
   **Published:** `8th April 2022`
   **NeKI brief:** Explores Injection II, the App in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [the official Swift documentation](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html?ref=ioscodereview.com) — iOS Code Review · Issue 20 — Article · Topics: Cross-Platform & Web · Swift
+  **Published:** `2022-04-07T10:47:31.000Z`
+  **NeKI brief:** Examines the official Swift documentation in the context of Cross-Platform & Web and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [An Approach for Migrating From Objective-C to Swift](https://www.steveonstuff.com/2022/01/13/migrating-from-objc-to-swift.html?ref=ioscodereview.com) — iOS Code Review · Issue 15 — Article · Topics: Cross-Platform & Web · Objective-C & Cocoa · Swift
+  **Published:** `2022-01-27T11:57:44.000Z`
+  **NeKI brief:** Explores An Approach for Migrating From Objective-C to Swift, focusing on moving a codebase of any reasonable size from objective-c to. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [An Approach for Migrating From Objective-C to Swift](https://www.steveonstuff.com/2022/01/13/migrating-from-objc-to-swift.html) — iOS Dev Weekly · Issue 541 — Article · Topics: Cross-Platform & Web · Objective-C & Cocoa · Swift
   **Published:** `14th January 2022`
   **NeKI brief:** Explores An Approach for Migrating From Objective-C to Swift, focusing on moving a codebase of any reasonable size from objective-c to. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [the official Unicode documentation](http://unicode.org/reports/tr35/tr35-31/tr35-dates.html?ref=ioscodereview.com) — iOS Code Review · Issue 14 — Article · Topics: Cross-Platform & Web · Foundation & Data Formats · Testing
+  **Published:** `2022-01-13T12:22:06.000Z`
+  **NeKI brief:** Examines the official Unicode documentation in the context of Cross-Platform & Web and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Logarithmic Volume Control](https://dcordero.me/posts/logarithmic_volume_control.html) — iOS Dev Weekly · Issue 530 — Article · Topics: Cross-Platform & Web
   **Published:** `22nd October 2021`
   **NeKI brief:** Explores Logarithmic Volume Control, focusing on if you had asked me whether i’d ever link to. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [the official language reference on patterns in Swift](https://docs.swift.org/swift-book/ReferenceManual/Patterns.html?ref=ioscodereview.com) — iOS Code Review · Issue 8 — Article · Topics: Cross-Platform & Web · Swift
+  **Published:** `2021-09-30T11:10:38.000Z`
+  **NeKI brief:** Examines the official language reference on patterns in Swift in the context of Cross-Platform & Web and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Keeping WWDC videos and sample code current](https://dimsumthinking.com/Blog/2021/08/30-KeepingCurrent.html) — iOS Dev Weekly · Issue 523 — Article · Topics: Apple Platform Ecosystem · Concurrency · Cross-Platform & Web
   **Published:** `3rd September 2021`
   **NeKI brief:** Explores Keeping WWDC videos and sample code current, focusing on here’s another advantage of not having on-stage presentations at wwdc.. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -641,7 +749,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains The Build Process with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
 - [Apportable](http://www.youtube.com/watch?v=dSkhtd6L8RM) — iOS Dev Weekly · Issue 117 — Video · Topics: App Services & Extensions · Core Data · Cross-Platform & Web
   **Published:** `25th October 2013`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates compiling an Objective-C iOS game for Android with Apportable and SpriteBuilder, including platform-framework mapping. Treat it as historical cross-platform tooling context rather than a current deployment recommendation.
 - [Friday Q&A: Why Registers Are Fast and RAM Is Slow](http://www.mikeash.com/pyblog/friday-qa-2013-10-11-why-registers-are-fast-and-ram-is-slow.html) — iOS Dev Weekly · Issue 116 — Article · Topics: Cross-Platform & Web
   **Published:** `18th October 2013`
   **NeKI brief:** Registers, caches, and RAM have radically different latency and bandwidth characteristics, so data locality shapes performance more than isolated instruction counts. This helps interpret profiling results.

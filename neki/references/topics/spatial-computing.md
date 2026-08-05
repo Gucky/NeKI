@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** visionOS, Apple Vision Pro, AR, VR, and spatial interaction.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **52**
+- Last collected: `2026-08-05T08:56:37Z`
+- Indexed links shown: **55**
 
 ## Direct-source reading
 
@@ -70,6 +70,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [The coolest use for the Vision Pro](https://christianselig.com/2026/07/vision-pro-house) — iOS Dev Weekly · Issue 761 — Article · Topics: Spatial Computing
+  **Published:** `31st July 2026`
+  **NeKI brief:** Shows a practical Vision Pro workflow for previewing a future house at life scale from architectural models. It is useful spatial-computing context for understanding where immersive inspection reveals proportion and placement problems that flat renders hide.
+- [Prospector](https://github.com/christianselig/Prospector) — iOS Dev Weekly · Issue 761 — Source repository · Topics: Developer Tools · Spatial Computing
+  **Published:** `31st July 2026`
+  **NeKI brief:** Prospector is an open-source visionOS app for placing large models, such as house plans, into real-world space. Inspect the repository when prototyping scale-accurate previews, model import, placement, and immersive navigation.
 - [Swift](https://antongubarenko.substack.com/p/wwdc26-swift-group-lab-q-and-a) — Fatbobman’s Swift Weekly · Issue 140 — Article · Topics: AI Development · Swift · SwiftUI
   **Published:** `2026-06-15T12:03:17.597Z`
   **NeKI brief:** Summarizes SwiftUI Group Lab questions from WWDC26, capturing practical API clarifications and design guidance that are easy to miss in session videos. Useful as a focused follow-up for current SwiftUI adoption decisions.
@@ -94,6 +100,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Camera and Photo](https://antongubarenko.substack.com/p/wwdc26-camera-and-photo-technologies) — Fatbobman’s Swift Weekly · Issue 140 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2026-06-15T12:03:17.597Z`
   **NeKI brief:** A WWDC26 camera and photo technology Q&A collecting implementation questions from developers. Use it as a topical guide to capture, processing, and media APIs, then validate specifics against Apple frameworks.
+- [MacRumors](https://www.macrumors.com/2026/03/26/apple-swift-student-challenge-winners-2026?ref=ioscodereview.com) — iOS Code Review · Issue 76 — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games · Swift
+  **Published:** `2026-03-30T18:21:46.000Z`
+  **NeKI brief:** Examines MacRumors in the context of App Distribution & Store Operations and Graphics, Media & Games. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [FreeTypeFramework](https://github.com/EvgenijLutz/FreeTypeFramework) — iOS Dev Tools · iOS Dev Tools: FreeTypeFramework, IGListKit, Horoscope — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-07-31T18:12:59.226Z`
   **NeKI brief:** FreeTypeFramework packages the FreeType font engine for Apple-platform projects, making font parsing and rasterization available through a reusable framework. The repository is a useful starting point when system font APIs do not cover a custom rendering pipeline.

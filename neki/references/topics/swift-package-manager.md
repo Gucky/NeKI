@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift packages, manifests, plugins, dependency resolution, and package distribution.
 
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed links shown: **225**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **262**
 
 ## Direct-source reading
 
@@ -42,9 +42,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [“Trait-ifying” our libraries to reduce transitive dependencies](https://www.pointfree.co/blog/posts/216-trait-ifying-our-libraries-to-reduce-transitive-dependencies) — Point-Free · article catalogue
   **Published:** `2026-06-24T00:00:00Z`
   **NeKI brief:** Applies SwiftPM traits to make optional library features opt-in, using SwiftNavigation as the test case. Follow it when reducing transitive dependencies while weighing package configuration complexity against smaller builds.
+- [HealthKit Data Generator: Swift Package for Generating Realistic HealthKit Data - iOS Dev Tools](https://iosdev.tools/blog/healthkit-data-generator) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-03-16T12:10:00+00:00`
+  **NeKI brief:** Profiles HealthKit Data Generator as swift Package for Generating Realistic HealthKit Data. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Hard Deprecations and Soft Landings with SwiftPM Traits](https://www.pointfree.co/blog/posts/203-hard-deprecations-and-soft-landings-with-swiftpm-traits) — Point-Free · article catalogue
   **Published:** `2026-03-16T00:00:00Z`
   **NeKI brief:** SwiftPM traits can keep a deprecated feature available as an opt-in while the default product removes its dependency, creating a soft migration before a hard break. The pattern balances source compatibility against leaner builds.
+- [GradientEditor: An Open-Source Swift Package for Editing Gradients - iOS Dev Tools](https://iosdev.tools/blog/gradienteditor) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-02-23T13:00:00+00:00`
+  **NeKI brief:** Profiles GradientEditor as an Open-Source Swift Package for Editing Gradients. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [When To Kill A Project](https://blog.jacobstechtavern.com/p/when-to-kill-a-project) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2025-11-20T16:01:51.473Z`
   **NeKI brief:** Discusses signals and decision criteria for ending an app project when its costs, risks, or opportunity trade-offs no longer make sense. Useful as a product-engineering reflection before continuing sunk-cost work or reallocating a small team.
@@ -60,6 +66,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Approachable Concurrency in Swift Packages](https://useyourloaf.com/blog/approachable-concurrency-in-swift-packages) — Use Your Loaf · article catalogue
   **Published:** `2025-07-21T10:14:20+01:00`
   **NeKI brief:** Applies approachable concurrency settings to Swift packages and explains how target configuration changes diagnostics. Useful for aligning library and application migration plans.
+- [SyntaxKit: More Friendly SwiftSyntax API - iOS Dev Tools](https://iosdev.tools/blog/syntaxkit) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-07-18T15:20:05+00:00`
+  **NeKI brief:** Profiles SyntaxKit as more Friendly SwiftSyntax API. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [OAuthKit: OAuth 2.0, the Swift Way - iOS Dev Tools](https://iosdev.tools/blog/oauthkit) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-07-18T15:08:19+00:00`
+  **NeKI brief:** Profiles OAuthKit as oAuth 2.0, the Swift Way. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [MoPromoteKit: Modern and Beautiful Way to Promote Your Apps - iOS Dev Tools](https://iosdev.tools/blog/mopromotekit) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-07-18T15:01:54+00:00`
+  **NeKI brief:** Profiles MoPromoteKit as modern and Beautiful Way to Promote Your Apps. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [ChessKit: Swift, Strong, and Smart Chess Logic - iOS Dev Tools](https://iosdev.tools/blog/chesskit) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-07-18T14:44:38+00:00`
+  **NeKI brief:** Profiles ChessKit as swift, Strong, and Smart Chess Logic. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [What is Approachable Concurrency in Xcode 26? – Donny Wals](https://www.donnywals.com/what-is-approachable-concurrency-in-xcode-26) — Donny Wals · article catalogue
   **Published:** `2025-07-09T11:00:33+00:00`
   **NeKI brief:** Explains Xcode 26's approachable concurrency settings and how default actor isolation changes migration ergonomics. Useful when staging strict concurrency adoption without immediately annotating every legacy declaration.
@@ -346,6 +364,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Versioned Package.swift Files](https://www.massicotte.org/blog/package-swift) — iOS Dev Weekly · Issue 738 — Article · Topics: Swift · Swift Package Manager
   **Published:** `9th January 2026`
   **NeKI brief:** Presents Versioned Package.swift Files, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [🤖 How to use the Subprocess Swift Package to run commands from Swift](https://swiftdevjournal.com/posts/subprocess) — iOS CI Newsletter · Issue 84 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-12-31T00:00:00.000Z`
+  **NeKI brief:** Walks through how to use the Subprocess Swift Package to run commands from Swift, with practical context for Developer Tools and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [Improving Swift Package Scripts with GitHub Actions workflows](https://danielsaidi.com/blog/2025/11/26/improving-swift-package-scripts-with-github-action-workflows) — SwiftLee Weekly · Issue 300 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-12-02T15:13:04.000Z`
+  **NeKI brief:** Examines A list of ready-to-use GitHub Actions workflows for Swift Packages in the context of Developer Tools and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [AnyLanguageModel](https://github.com/mattt/AnyLanguageModel) — iOS Dev Tools · iOS Dev Tools: Clash X, AnyLanguageModel, HealthKit Data Generator — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
   **Published:** `2025-11-06T22:32:54.905Z`
   **NeKI brief:** AnyLanguageModel mirrors Apple's Foundation Models API while allowing alternative language-model providers, presenting a compatible abstraction for application code. Useful for testing provider substitution and keeping model integration behind a stable Swift interface.
@@ -382,6 +406,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [detailed introduction](https://brightdigit.com/tutorials/swift-build) — Fatbobman’s Swift Weekly · Issue 102 — Tutorial · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-09-15T12:03:30.479Z`
   **NeKI brief:** Explains using the swift-build GitHub Action to run Swift Package Manager builds and tests on macOS and Linux. Use it as a compact cross-platform CI starting point before adding caching, matrices, or release artifacts.
+- [🤖 How to generate GitHub Actions workflows automatically](https://elegantchaos.com/2025/08/28/action-builder.html) — iOS CI Newsletter · Issue 74 — Article · Topics: Cross-Platform & Web · Developer Tools · Swift
+  **Published:** `2025-09-10T00:00:00.000Z`
+  **NeKI brief:** Walks through how to generate GitHub Actions workflows automatically, with practical context for Cross-Platform & Web and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Mercato](https://github.com/tikhop/Mercato) — iOS Dev Tools · iOS Dev Tools: ch.at, Mercato, Dependencies — Source repository · Topics: App Distribution & Store Operations · Developer Career & Practice · Developer Tools
   **Published:** `2025-08-14T19:53:26.103Z`
   **NeKI brief:** Mercato wraps StoreKit 2 for subscriptions and in-app purchases across Apple platforms, aiming to reduce repetitive transaction plumbing. Useful for comparing a focused purchase abstraction with direct StoreKit state and entitlement management.
@@ -394,15 +421,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [FreeTypeFramework](https://github.com/EvgenijLutz/FreeTypeFramework) — iOS Dev Tools · iOS Dev Tools: FreeTypeFramework, IGListKit, Horoscope — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-07-31T18:12:59.226Z`
   **NeKI brief:** FreeTypeFramework packages the FreeType font engine for Apple-platform projects, making font parsing and rasterization available through a reusable framework. The repository is a useful starting point when system font APIs do not cover a custom rendering pipeline.
+- [📦 How to set up a Swift Package registry](https://albertodebortoli.com/2025/06/06/how-to-setup-a-swift-package-registry-in-artifactory) — iOS CI Newsletter · Issue 71 — Article · Topics: Concurrency · Swift · Swift Package Manager
+  **Published:** `2025-06-30T00:00:00.000Z`
+  **NeKI brief:** Walks through how to set up a Swift Package registry, with practical context for Concurrency and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Create a Swift Package from Your SwiftUI Project](https://www.youtube.com/watch?v=_KYc2wJVIDE) — Those Who Swift · Issue 220 — Video · Topics: Swift · Swift Package Manager · SwiftUI
   **Published:** `2025-06-25`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Converts an SF Symbol picker from a SwiftUI project into a reusable multiplatform Swift package. The walkthrough covers access control, platform differences, GitHub publication, version tags, and consuming package updates.
 - [WebView Is Finally Coming to SwiftUI](https://danielsaidi.com/blog/2025/06/10/webview-is-finally-coming-to-swiftui) — Those Who Swift · Issue 219 — Article · Topics: Swift · Swift Package Manager · SwiftUI
   **Published:** `2025-06-19`
   **NeKI brief:** Discusses the emerging native SwiftUI web-view direction and its implications for replacing representable wrappers. Useful for migration planning, while verifying availability and behavior against the target SDK.
 - [OAuthKit](https://github.com/codefiesta/OAuthKit) — iOS Dev Tools · iOS Dev Tools: AI Git Narrator, OAuthKit, FlipKit — Source repository · Topics: Architecture · Combine & Reactive Programming · Swift
   **Published:** `2025-06-12T19:41:45.540Z`
   **NeKI brief:** OAuthKit provides an observable Swift framework for OAuth 2.0 authorization flows, centralizing state and callback handling. Useful for comparing a reusable authentication boundary with endpoint-specific browser-session code.
+- [🧪 Xtool: A cross-platform Xcode replacement](https://forums.swift.org/t/xtool-cross-platform-xcode-replacement-build-ios-apps-on-linux-and-more/79803) — iOS CI Newsletter · Issue 68 — Article · Topics: Cross-Platform & Web · Swift · Xcode
+  **Published:** `2025-05-18T00:00:00.000Z`
+  **NeKI brief:** Presents xtool: cross-platform xcode replacement for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Adding Dependencies to Binary Swift Packages](https://danielsaidi.com/blog/2025/05/02/adding-dependencies-to-binary-swift-packages) — Those Who Swift · Issue 213 — Article · Topics: Dependency Injection · Swift · Swift Package Manager
   **Published:** `2025-05-07`
   **NeKI brief:** Presents Adding dependencies to binary Swift packages, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -427,6 +460,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift 6.1 Released](https://www.swift.org/blog/swift-6.1-released) — iOS Dev Weekly · Issue 706 — Article · Topics: Concurrency · Objective-C & Cocoa · Swift
   **Published:** `4th April 2025`
   **NeKI brief:** Summarizes the Swift 6.1 release and its ecosystem changes. Use it as a starting point for compiler or package upgrades, verifying source compatibility, concurrency diagnostics, and platform support against the toolchain you actually ship.
+- [📦 FREE Webinar: CI/CD for Swift Packages](https://streamyard.com/watch/62AzM2xGJ2hB) — iOS CI Newsletter · Issue 64 — Article · Topics: CI/CD & Automation · Swift · Swift Package Manager
+  **Published:** `2025-03-23T00:00:00.000Z`
+  **NeKI brief:** Examines FREE Webinar: CI/CD for Swift Packages in the context of CI/CD & Automation and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Simple Modularization Setup for a New App](https://www.manu.show/2025-02-27-simple-modularization-setup) — Those Who Swift · Issue 204 — Article · Topics: Architecture · Swift · Swift Package Manager
   **Published:** `2025-03-05`
   **NeKI brief:** Examines Simple Modularization Setup for a New App, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -451,6 +487,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift Everywhere: Bringing Swift Packages to Android](https://skip.tools/blog/android-native-swift-packages) — iOS Dev Weekly · Issue 697 — Article · Topics: Cross-Platform & Web · Swift · Testing
   **Published:** `31st January 2025`
   **NeKI brief:** Presents swift everywhere: bringing swift packages to android for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [📦 The Tuist Swift Package Manager Registry](https://tuist.dev/blog/2025/01/22/announcing-tuist-registry) — iOS CI Newsletter · Issue 60 — Article · Topics: Apple Platform Ecosystem · Swift · Swift Package Manager
+  **Published:** `2025-01-28T00:00:00.000Z`
+  **NeKI brief:** Examines The Tuist Swift Package Manager Registry in the context of Apple Platform Ecosystem and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Package Registry](https://github.com/swiftlang/swift-package-manager/blob/main/Documentation/PackageRegistry/PackageRegistryUsage.md) — iOS CI Newsletter · Issue 60 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-01-28T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Package Registry, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [SE-0292](https://forums.swift.org/t/se-0292-package-registry-service/42623) — Fatbobman’s Swift Weekly · Issue 68 — Article · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `2025-01-27T01:05:46.208Z`
   **NeKI brief:** SE-0292 defines a package-registry protocol and service model for SwiftPM dependencies. Follow it when designing package distribution, authentication, and version-resolution infrastructure beyond Git URL fetching.
@@ -469,21 +511,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Active ReviewSE-0455SwiftPM @testable build setting](https://github.com/apple/swift-evolution/blob/main/proposals/0455-swiftpm-testable-build-setting.md) — SwiftLee Weekly · Issue 254 — Source repository · Topics: Objective-C & Cocoa · Swift · Testing
   **Published:** `2025-01-14T14:03:25.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0455SwiftPM @testable build setting. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [⛓️‍💥 Automatically check if a new version of your Swift Package introduces breaking changes](https://www.adyen.com/knowledge-hub/swift-api-diff) — iOS CI Newsletter · Issue 59 — Article · Topics: Swift · Swift Package Manager
+  **Published:** `2025-01-13T00:00:00.000Z`
+  **NeKI brief:** Presents preventing accidental api breaks for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Xcode Library customization with SPM plugin](https://www.artemnovichkov.com/blog/xcode-library-customization-with-spm-plugin?ref=createwithswift.com) — Create with Swift · Issue 41 — Article · Topics: Swift · Swift Package Manager · Xcode
   **Published:** `2024-12-20T16:00:23.000Z`
   **NeKI brief:** Presents Xcode Library customization with SPM plugin, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [appstoreconnect-swift-sdk](https://github.com/AvdLee/appstoreconnect-swift-sdk) — iOS CI Newsletter · Issue 56 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `2024-12-02T00:00:00.000Z`
+  **NeKI brief:** Examines this project, focusing on the app store connect api is available and documented! straight away, antoine van der lee jumped into action and started…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [⏭️ Bumping a Swift Package’s version using Fastlane](https://nowham.dev/posts/fastlane-version-bump) — iOS CI Newsletter · Issue 55 — Article · Topics: CI/CD & Automation · Swift · Swift Package Manager
+  **Published:** `2024-11-17T00:00:00.000Z`
+  **NeKI brief:** Examines Bumping a Swift Package’s version using Fastlane in the context of CI/CD & Automation and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Xcode stops fetching Swift packages](https://danielsaidi.com/blog/2024/11/04/xcode-stops-fetching-swift-packages) — iOS Dev Weekly · Issue 686 — Article · Topics: Swift · Swift Package Manager · Xcode
   **Published:** `8th November 2024`
   **NeKI brief:** Presents xcode stops fetching swift packages for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Test Linux compatibility for Swift packages](https://www.fline.dev/test-your-swift-packages-linux-compatibility-on-mac) — iOS Dev Weekly · Issue 684 — Article · Topics: Product Design · Swift · Testing
   **Published:** `25th October 2024`
   **NeKI brief:** Presents test linux compatibility for swift packages for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [📦 How to edit Swift Packages from the command line](https://www.andrea-scuderi.com/blog/edit-swift-package-from-command-line) — iOS CI Newsletter · Issue 52 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2024-10-06T00:00:00.000Z`
+  **NeKI brief:** Walks through how to edit Swift Packages from the command line, with practical context for Developer Tools and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [The Future of Vapor](https://blog.vapor.codes/posts/the-future-of-vapor) — iOS Dev Weekly · Issue 677 — Article · Topics: Swift · Swift Package Manager
   **Published:** `6th September 2024`
   **NeKI brief:** Presents the future of vapor for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Extending SwiftPM Metadata](https://alejandromp.com/development/blog/swift-package-manager-dependency-owners) — iOS Dev Weekly · Issue 677 — Article · Topics: Dependency Injection · Swift
   **Published:** `6th September 2024`
   **NeKI brief:** Presents extending swiftpm metadata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [📦 Define ownership of Swift Package Manager dependencies](https://alejandromp.com/blog/swift-package-manager-dependency-owners) — iOS CI Newsletter · Issue 49 — Article · Topics: Dependency Injection · Swift · Swift Package Manager
+  **Published:** `2024-08-25T00:00:00.000Z`
+  **NeKI brief:** Examines Define ownership of Swift Package Manager dependencies in the context of Dependency Injection and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Plotting a Path to a Package Ecosystem without Data Race Errors](https://www.swift.org/blog/ready-for-swift-6) — iOS Dev Weekly · Issue 668 — Article · Topics: Swift · Swift Package Manager · Testing
   **Published:** `5th July 2024`
   **NeKI brief:** Presents plotting a path to a package ecosystem without data race errors for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -493,15 +550,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [@_spi or How to develop better APIs in Swift](https://varanios.com/articles/spi-or-how-to-develop-better-apis-in-swift) — iOS Dev Weekly · Issue 662 — Article · Topics: Code Quality · Swift · Swift Package Manager
   **Published:** `24th May 2024`
   **NeKI brief:** Explains Swift’s @_spi boundary for exposing experimental or specialist API to selected clients without making it generally public. Useful for library authors weighing staged API development against the maintenance risk of relying on an underscored language feature.
+- [Swift Package Indexing](https://podcasts.apple.com/us/podcast/43-now-im-worried-our-metrics-arent-correct-with/id1654567329?i=1000653584114) — iOS CI Newsletter · Issue 42 — Podcast · Topics: Developer Community & Business · Swift · Swift Package Manager
+  **Published:** `2024-05-19T00:00:00.000Z`
+  **NeKI brief:** Examines Swift Package Indexing in the context of Developer Community & Business and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [15th of March, the Swift language team created the release branch for Swift 6](https://forums.swift.org/t/swift-6-0-release-process/70220) — iOS CI Newsletter · Issue 42 — Article · Topics: Objective-C & Cocoa · Swift · Swift Package Manager
+  **Published:** `2024-05-19T00:00:00.000Z`
+  **NeKI brief:** The Swift 6 release-process discussion records how toolchains, proposals, and release milestones are coordinated. Use it to understand version timing and migration planning rather than treating a release label as a complete compatibility guarantee.
+- [making snapshots from this branch regularly available for download](https://www.swift.org/download) — iOS CI Newsletter · Issue 42 — Article · Topics: Objective-C & Cocoa · Swift · Swift Package Manager
+  **Published:** `2024-05-19T00:00:00.000Z`
+  **NeKI brief:** Examines making snapshots from this branch regularly available for download in the context of Objective-C & Cocoa and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🐌 Why does fetching SPM packages take so long?](https://ahmdyasser.medium.com/why-fetching-packages-using-swift-package-manger-takes-too-much-time-138982a0fba5) — iOS CI Newsletter · Issue 42 — Article · Topics: Swift · Swift Package Manager
+  **Published:** `2024-05-19T00:00:00.000Z`
+  **NeKI brief:** Examines Why does fetching SPM packages take so long? in the context of Swift and Swift Package Manager. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [How to use custom fonts and images in a Swift Package](https://dev.jeremygale.com/swiftui-how-to-use-custom-fonts-and-images-in-a-swift-package) — SwiftUI Weekly · SwiftUI Weekly - Issue #186 — Article · Topics: Swift · Swift Package Manager · SwiftUI
   **Published:** `2024-05-15T12:55:37.453Z`
   **NeKI brief:** Explains bundling custom fonts and images in a Swift package for SwiftUI. Useful for reusable modules that must load resources through their package bundle reliably.
+- [new Benchmarks Swift Package](https://github.com/ordo-one/package-benchmark) — iOS CI Newsletter · Issue 38 — Source repository · Topics: Performance · Swift · Swift Package Manager
+  **Published:** `2024-03-24T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for new Benchmarks Swift Package, relevant to Performance and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [The Swift Package Index lives on the island of Swiftoria](https://anvaka.github.io/map-of-github) — iOS Dev Weekly · Issue 641 — Article · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `29th December 2023`
   **NeKI brief:** Presents the swift package index lives on the island of swiftoria for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [the Swift Package Index received support from Apple](https://www.swift.org/blog/swift-package-index-developer-spotlight) — iOS Dev Weekly · Issue 640 — Article · Topics: App Intents & System Surfaces · Swift · Swift Package Manager
   **Published:** `15th December 2023`
   **NeKI brief:** Explores this blog post, focusing on you may have already seen the latest post on the. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [new macro-based open-source proof of concept Swift package](https://github.com/apple/swift-testing) — iOS CI Newsletter · Issue 29 — Source repository · Topics: Macros & Metaprogramming · Swift · Testing
+  **Published:** `2023-11-19T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for new macro-based open-source proof of concept Swift package, relevant to Macros & Metaprogramming and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [On-Crash Backtraces in Swift](https://www.swift.org/blog/swift-5.9-backtraces) — iOS Dev Weekly · Issue 635 — Podcast · Topics: Developer Community & Business · Product Design · Swift
   **Published:** `10th November 2023`
   **NeKI brief:** Presents on-crash backtraces in swift for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -511,6 +586,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Breadcrumbs](https://github.com/icanzilb/Breadcrumbs) — iOS Dev Weekly · Issue 633 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `27th October 2023`
   **NeKI brief:** Presents breadcrumbs for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [📦 Swift Package template](https://github.com/mattmassicotte/PackageTemplate) — iOS CI Newsletter · Issue 25 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2023-09-24T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Swift Package template, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [ExampleKit](https://forums.swift.org/t/in-app-libraries-for-swift-playgrounds-on-ipad/67241) — iOS Dev Weekly · Issue 627 — Article · Topics: Swift · Swift Package Manager · Xcode
   **Published:** `15th September 2023`
   **NeKI brief:** Presents examplekit for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -523,6 +601,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Xcode Search Scopes](https://xcode.tips/search-scopes) — iOS Dev Weekly · Issue 621 — Article · Topics: Objective-C & Cocoa · Swift · Xcode
   **Published:** `4th August 2023`
   **NeKI brief:** Explores Xcode Search Scopes, focusing on i’m a fan of the xcode feature in this latest. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [🧰 How to create a binary framework from a Swift Package](https://blog.eidinger.info/why-is-it-so-damn-difficult-to-create-a-binary-framework-for-your-swift-package) — iOS CI Newsletter · Issue 21 — Article · Topics: Objective-C & Cocoa · Swift · Swift Package Manager
+  **Published:** `2023-07-31T00:00:00.000Z`
+  **NeKI brief:** Walks through how to create a binary framework from a Swift Package, with practical context for Objective-C & Cocoa and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [☁️ Xcode Cloud: Using swift packages that require authentication](https://blog.eidinger.info/using-swift-packages-with-authentication-in-xcode-cloud) — iOS CI Newsletter · Issue 20 — Article · Topics: Swift · Swift Package Manager · Xcode
+  **Published:** `2023-07-16T00:00:00.000Z`
+  **NeKI brief:** Examines Xcode Cloud: Using swift packages that require authentication in the context of Swift and Swift Package Manager. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [an article last year](https://blog.eidinger.info/xcode-133-supports-spm-binary-dependency-in-private-github-release) — iOS CI Newsletter · Issue 20 — Article · Topics: Developer Tools · Objective-C & Cocoa · Xcode
+  **Published:** `2023-07-16T00:00:00.000Z`
+  **NeKI brief:** Examines an article last year in the context of Developer Tools and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Apple’s Argument Parser](https://github.com/apple/swift-argument-parser) — iOS CI Newsletter · Issue 19 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2023-07-02T00:00:00.000Z`
+  **NeKI brief:** swift-argument-parser declares command-line options, arguments, subcommands, validation, and help in typed Swift definitions. Use it when a developer tool needs discoverable CLI behavior without manually parsing argv or maintaining usage text separately.
+- [📦 This GitHub Action helps you keep SPM dependencies up to date!](https://github.com/MarcoEidinger/swift-package-dependencies-check) — iOS CI Newsletter · Issue 19 — Source repository · Topics: Dependency Injection · Developer Tools · Objective-C & Cocoa
+  **Published:** `2023-07-02T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for This GitHub Action helps you keep SPM dependencies up to date!, relevant to Dependency Injection and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
 - [GitHub Dependency Graph, Dependabot Alerts, and Advisory Database now support Swift advisories](https://github.blog/changelog/2023-06-19-dependency-graph-dependabot-alerts-and-advisory-database-now-support-swift-advisories) — iOS Dev Weekly · Issue 615 — Article · Topics: Developer Tools · Persistence & Synchronisation · Swift
   **Published:** `23rd June 2023`
   **NeKI brief:** Explores GitHub Dependency Graph, Dependabot Alerts, and Advisory Database now support Swift advisories, focusing on if you have worked with other languages, you’ve likely come. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -532,12 +625,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift 5.8 Released](https://www.swift.org/blog/swift-5.8-released) — iOS Dev Weekly · Issue 603 — Article · Topics: Apple Platform Ecosystem · Swift · Swift Package Manager
   **Published:** `31st March 2023`
   **NeKI brief:** Presents a concrete implementation of Swift 5.8 Released!. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
+- [Xcode Header Template for Swift PackagesIf you use Swift Package, there are 2 pesky problems whenever you create a new file.@samwize](https://samwize.com/2023/02/28/xcode-header-template-for-swift-packages?ref=ioscodereview.com) — iOS Code Review · Issue 44 — Article · Topics: Swift · Swift Package Manager · Xcode
+  **Published:** `2023-03-02T12:48:03.000Z`
+  **NeKI brief:** Examines Xcode Header Template for Swift PackagesIf you use Swift Package, there are 2 pesky problems whenever you… in the context of Swift and Swift Package Manager. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Swift package resolution and data usage](https://christiantietze.de/posts/2023/01/xcode-requires-data-connection-for-swift-package-resolution) — iOS CI Newsletter · Issue 8 — Article · Topics: Swift · Swift Package Manager · Xcode
+  **Published:** `2023-01-29T00:00:00.000Z`
+  **NeKI brief:** Examines Swift package resolution and data usage in the context of Swift and Swift Package Manager. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Soto and Swift Build Plugin experiments](https://soto.codes/2022/12/build-plugin-experiments.html) — iOS Dev Weekly · Issue 588 — Article · Topics: Cross-Platform & Web · Swift · Swift Package Manager
   **Published:** `9th December 2022`
   **NeKI brief:** Explores Soto and Swift Build Plugin experiments, focusing on code generation during a swift package build process is a. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Setting up a build tool plugin for a Swift package](https://augmentedcode.io/2022/11/28/setting-up-a-build-tool-plugin-for-a-swift-package) — iOS Dev Weekly · Issue 588 — Article · Topics: Swift · Swift Package Manager
   **Published:** `9th December 2022`
   **NeKI brief:** Explores Setting up a build tool plugin for a Swift package, focusing on talking of build plugins, toomas vahter has written up how he approached building one. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Binary Targets in Swift Package Manager](https://www.avanderlee.com/optimization/binary-targets-swift-package-manager) — iOS CI Newsletter · Issue 3 — Article · Topics: Performance · Swift · Swift Package Manager
+  **Published:** `2022-11-20T00:00:00.000Z`
+  **NeKI brief:** Examines Binary Targets in Swift Package Manager in the context of Performance and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [swift-danger](https://github.com/danger/swift) — iOS CI Newsletter · Issue 3 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2022-11-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for swift-danger, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
+- [how pre-building it as a binary can certainly help improve performance](https://github.com/danger/swift/issues/476) — iOS CI Newsletter · Issue 3 — Source repository · Topics: Performance · Swift · Swift Package Manager
+  **Published:** `2022-11-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for how pre-building it as a binary can certainly help improve performance, relevant to Performance and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Swift Snippets](https://forums.swift.org/t/swift-snippets/51947/1) — iOS Dev Weekly · Issue 585 — Article · Topics: Objective-C & Cocoa · Swift · Swift Package Manager
   **Published:** `18th November 2022`
   **NeKI brief:** Explores Swift Snippets, focusing on like marco eidinger, i was also reminded of the swift snippets feature in swift package manager as i read the post on. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -555,7 +663,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explores Autocompletion for SPM Commands, focusing on here’s a helpful post from marco eidinger on how to. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [SwiftUI: Packaging Views](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9UnVGQ05FZjRQN0UiLCJwb3N0X2lkIjoiZmM1Y2I3MDEtMzdkNy00YTFjLWI1ZmUtMGY3NjAzYzcxNDVmIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6ImNhNWVmMDA2LWIzZWMtNDcyZi1iNDgxLTIyMzdlYjE4NmZjNyIsImlhdCI6MTY3NDA2MjU1Ny45ODUsImlzcyI6Im9yY2hpZCJ9.AFv-2mqF3eMA1R73dQIGybln7ZQiPjXYo6Lnf1zbyHE) — SwiftUI Weekly · SwiftUI Weekly - Issue #111 — Article · Topics: Swift · Swift Package Manager · SwiftUI
   **Published:** `2022-08-01T20:26:06.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates packaging SwiftUI views into a reusable Swift Package. Use the project structure and target boundaries to decide what views, resources, and platform availability contracts should be exported from a shared UI module.
 - [Swift Package Plugins and Xcode 14](https://blog.eidinger.info/xcode-integration-of-swift-package-plugins-in-xcode-14) — iOS Dev Weekly · Issue 563 — Tutorial · Topics: Swift · Swift Package Manager · Xcode
   **Published:** `17th June 2022`
   **NeKI brief:** Explores Swift Package Plugins and Xcode 14, focusing on the article discusses wasn’t expecting apple to turn around and. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -597,7 +705,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explores SwiftUI Tools with SwiftPM, focusing on can you write a swiftui app without an xcode project? helge heß has a go. Follow it to assess the approach, its trade-offs, and where it fits in a current Swift or Apple-platform project.
 - [Setup SwiftUI App with Firebase SPM](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD9mZWF0dXJlPXlvdXR1LmJlJnV0bV9jYW1wYWlnbj0lMjBTd2lmdFVJJTIwV2Vla2x5JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1SZXZ1ZSUyMG5ld3NsZXR0ZXImdj1sLWlOMGtZX2JtZyIsInBvc3RfaWQiOiI5ODU0MmZlMy05ZTlmLTRmZjgtOTljMC00NDg3NTczYmQ2NDIiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiZTBkMTY3OTItMWZmNS00YTIxLTk4NGMtNGU5NDE4YjlhMzllIiwiaWF0IjoxNjc0MDYyNjc3LjAxLCJpc3MiOiJvcmNoaWQifQ.WIHfKf395U66uMHaK5JZw1hIXIbu9ISyoHi28IKOEX4) — SwiftUI Weekly · SwiftUI Weekly - Issue #63 — Tutorial · Topics: Swift · Swift Package Manager · SwiftUI
   **Published:** `2021-06-14T22:35:11.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Shows wiring a SwiftUI app to Firebase through Swift Package Manager. Follow it for the package integration and initialization boundaries, then verify current Firebase setup requirements before shipping.
 - [SwiftPM Library](https://daveverwer.com/blog/launching-the-swiftpm-library) — iOS Dev Weekly · Issue 503 — Article · Topics: Objective-C & Cocoa · Swift · Swift Package Manager
   **Published:** `16th April 2021`
   **NeKI brief:** Explores SwiftPM Library, focusing on the original idea for building a package search engine popped into my head around two years before the launch of the index. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -615,7 +723,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Covers Distributing closed-source frameworks with SPM, focusing on Swift tooling and build integration. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
 - [Build a news app in SwiftUI 2.0 (Combine, API, MVVM & Swift Package Manager)](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9TTJwc1gtSndIZEUiLCJwb3N0X2lkIjoiZmI3YTliMDItOWZiMi00MWJkLTlhNGUtMzRjY2JjMzIzZjQxIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6IjA4NWFhZTc4LWY0ZGQtNDk1NS04MDA2LTQyZmIwYzcxMmNhNCIsImlhdCI6MTY3NDA2MjY3OC40MTksImlzcyI6Im9yY2hpZCJ9.9_MYRo5QPnk2BAP2P8aD_71Ckd92WPNekkK-uesvp78) — SwiftUI Weekly · SwiftUI Weekly - Issue #47 — Tutorial · Topics: Swift · Swift Package Manager · SwiftUI
   **Published:** `2021-02-23T19:43:19.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds a SwiftUI 2 news app using Combine, an API, MVVM, and Swift Package Manager. Use it to inspect boundaries among networking, view models, dependency packaging, and list presentation.
 - [Community Survey Results](https://iosdevsurvey.com/2019) — iOS Dev Weekly · Issue 487 — Article · Topics: Developer Community & Business · Swift · Swift Package Manager
   **Published:** `18th December 2020`
   **NeKI brief:** Examines Community Survey Results, offering practical guidance on Swift engineering practice. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
@@ -670,6 +778,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) — iOS Dev Weekly · Issue 386 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `11th January 2019`
   **NeKI brief:** SwiftFormat offers configurable source-formatting rules and a mature command-line workflow. Follow it when comparing formatter policy, rule customization, and repository integration against Apple's swift-format rather than treating formatting as purely cosmetic.
+- [Danger](https://github.com/danger/danger) — iOS Dev Weekly · Issue 386 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `11th January 2019`
+  **NeKI brief:** Provides the source and change history for Danger, relevant to CI/CD & Automation and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Sourcery](https://github.com/krzysztofzablocki/Sourcery) — iOS Dev Weekly · Issue 386 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `11th January 2019`
   **NeKI brief:** Sourcery parses Swift source with templates to generate repetitive implementations such as mocks, equality, or Codable support. Use it when generated boilerplate has stable conventions and the templates can be reviewed as part of source control.
@@ -679,4 +790,4 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [best practices document document](https://github.com/Sedlacek-Solutions/SFSymbolKit/blob/main/BEST_PRACTICES.md) — Not only Swift · Issue 80 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **NeKI brief:** This source repository covers best practices for using type-safe SF Symbols in SwiftUI. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Livestream: Building a Second Brain app - Swift Packages 📦](https://www.youtube.com/watch?v=ACad_6YSMgw) — Not only Swift · Issue 77 — Video · Topics: Swift · Swift Package Manager
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Refactors a growing SwiftUI second-brain application from one Xcode project into multiple Swift packages. The live session is useful for observing practical module boundaries, package configuration, and maintainability trade-offs.

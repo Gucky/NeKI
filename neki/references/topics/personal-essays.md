@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Personal and reflective writing from developer authors that does not make a technical claim.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **105**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **129**
 
 ## Direct-source reading
 
@@ -86,51 +86,78 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Building adaptive non-modal panels in SwiftUI](https://l.fatbobman.com/w0146-04) — Fatbobman’s Swift Weekly · Issue 146 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2026-07-27T12:04:26.788Z`
+  **NeKI brief:** Builds a detent-based, non-modal SwiftUI panel that moves from the bottom edge in portrait to a side edge in wider layouts. It covers geometry-driven detents, dragging, and keeping the underlying content interactive.
 - [SwiftCon Returns to Berlin This October](https://www.nextappcon.com/swiftcon) — Those Who Swift · Issue 276 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
   **Published:** `2026-07-22T20:01:13.378Z`
   **NeKI brief:** SwiftCon's call for speakers seeks production-focused Swift and iOS talks, including SwiftUI, architecture, performance, and testing. Follow the event page to assess the community's current themes or submit a concrete engineering case study.
 - [Lidless](https://github.com/nghialuong/Lidless) — iOS Dev Tools · iOS Dev Tools: TourKit, MockingKit, MemoryMap — Source repository · Topics: Developer Tools · macOS & AppKit · Personal Essays
   **Published:** `2026-07-09T16:30:20.398Z`
   **NeKI brief:** Lidless keeps a Mac running with its lid closed, targeting unattended coding-agent workflows from the menu bar. Useful for evaluating laptop clamshell automation while considering thermal, power, and security trade-offs.
+- [From Size Class to Available Space: Is horizontalSizeClass Still Reliable?](https://fatbobman.com/en/posts/from-size-class-to-available-space) — iOS Dev Weekly · Issue 755 — Article · Topics: Personal Essays
+  **Published:** `19th June 2026`
+  **NeKI brief:** Explains why horizontalSizeClass is no longer a dependable width proxy once iPhone apps become freely resizable, and shifts layout decisions toward measured available space. The examples cover both SwiftUI and UIKit adaptation.
 - [Simtime](https://github.com/MobAI-App/simtime) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: AI Development · Developer Tools · Personal Essays
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Simtime changes the wall clock perceived by an already-running iOS Simulator app, supporting freeze, jump, scale, and reset without rebuilding. Useful for deterministic testing of time-dependent UI, caches, and scheduled work.
 - [Checking Accessibility With SwiftUI Previews](https://mobilea11y.com/blog/swiftui-preview-testing) — Those Who Swift · Issue 262 — Article · Topics: Accessibility · Swift · SwiftUI
   **Published:** `2026-04-15`
   **NeKI brief:** Uses SwiftUI previews as an accessibility testing surface, checking labels, traits, and contrast across representative states. Useful for finding VoiceOver regressions early without waiting for a full UI-test suite.
+- [Embedded Swift Improvements Coming in Swift 6.3Embedded Swift is a subset of Swift that’s designed for low resource usage, making it capable of running on constrained environments like microcontrollers. Using a special compilation mode, Embedded Swift produces significantly smaller binaries than regular Swift. While a subset of the full language, the vast majority of the Swift language works exactly the same in Embedded Swift. Additional information is described in the Embedded Swift vision document.Swift.orgApple Inc.](https://www.swift.org/blog/embedded-swift-improvements-coming-in-swift-6.3?ref=ioscodereview.com) — iOS Code Review · Issue 76 — Article · Topics: Combine & Reactive Programming · Foundation & Data Formats · Swift
+  **Published:** `2026-03-30T18:21:46.000Z`
+  **NeKI brief:** Examines Embedded Swift Improvements Coming in Swift 6.3Embedded Swift is a subset of Swift that’s designed for low… in the context of Combine & Reactive Programming and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [in-depth reverse engineering work](https://github.com/wh1te4ever/super-tart-vphone-writeup) — Fatbobman’s Swift Weekly · Issue 125 — Source repository · Topics: Developer Community & Business · Developer Tools · Personal Essays
   **Published:** `2026-03-02T12:02:09.017Z`
   **NeKI brief:** Documents reverse engineering around vphone-related components in Apple platform firmware. Use it as technical research context for virtual-phone experiments, not as production guidance or an endorsement of unsupported platform modification.
 - [How I use Codex GPT 5.2 with Xcode (My complete workflow)](https://www.youtube.com/watch?v=o4iKnSYlhBQ) — SwiftLee Weekly · Issue 303 — Video · Topics: AI Development · Personal Essays · Xcode
   **Published:** `2025-12-23T15:06:56.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Shows a Codex-and-Xcode workflow built around Makefile commands, xcbeautify, simulator-control tools, accessibility inspection, and Instruments. Useful for understanding how an agent can build, observe, interact with, and profile an iOS app.
+- [🎥 [FREE WEBINAR] Running iOS Automated Tests on Real Devices](https://streamyard.com/watch/6UKiHuAgBQb7) — iOS CI Newsletter · Issue 83 — Article · Topics: CI/CD & Automation · Personal Essays · Testing
+  **Published:** `2025-12-16T00:00:00.000Z`
+  **NeKI brief:** Examines FREE WEBINAR] Running iOS Automated Tests on Real Devices in the context of CI/CD & Automation and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Embedded Swift Improvements Coming in Swift 6.3](https://www.swift.org/blog/embedded-swift-improvements-coming-in-swift-6.3) — iOS Dev Weekly · Issue 736 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Swift
+  **Published:** `21st November 2025`
+  **NeKI brief:** Examines Embedded Swift Improvements Coming in Swift 6.3Embedded Swift is a subset of Swift that’s designed for low… in the context of Combine & Reactive Programming and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Introducing Temporal Swift SDK: Building Durable Workflows](https://www.swift.org/blog/swift-temporal-sdk) — Those Who Swift · Issue 240 — Article · Topics: Concurrency · Macros & Metaprogramming · Swift
   **Published:** `2025-11-12`
   **NeKI brief:** Introduces a Temporal SDK for Swift and explains how Swift code can define durable workflows. Follow it when assessing workflow orchestration, persistence, retries, and deployment boundaries for server-side or long-running Swift services.
 - [Using SwiftUI Foundation Models Transcripts to build a Chatbot](https://www.youtube.com/watch?v=cyOqYbWpQzU) — Those Who Swift · Issue 240 — Video · Topics: AI Development · Foundation & Data Formats · Swift
   **Published:** `2025-11-12`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds an on-device travel chatbot from a Foundation Models LanguageModelSession transcript, rendering user and model messages with thinking, scrolling, availability, guardrail, and error states. Useful for connecting session history to SwiftUI presentation.
 - [Faster iOS app releases with automated QA](https://www.qawolf.com/solutions/ios-testing) — iOS Dev Weekly · Issue 727 — Article · Topics: Personal Essays · Testing
   **Published:** `19th September 2025`
   **NeKI brief:** Explains Full iOS coverage. Fast, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [ImplementedSE-0472Starting tasks synchronously from caller context](https://github.com/apple/swift-evolution/blob/main/proposals/0472-task-start-synchronously-on-caller-context.md) — SwiftLee Weekly · Issue 278 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
   **Published:** `2025-07-01T14:14:53.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0472Starting tasks synchronously from caller context. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [💨 Speed up your CI/CD pipelines by running Unit Tests in parallel](https://nowham.dev/posts/parallelize_unit_tests) — iOS CI Newsletter · Issue 67 — Article · Topics: CI/CD & Automation · Personal Essays · Testing
+  **Published:** `2025-05-04T00:00:00.000Z`
+  **NeKI brief:** Examines Speed up your CI/CD pipelines by running Unit Tests in parallel in the context of CI/CD & Automation and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Why Your SwiftUI App Is Slower Than You Think](https://medium.com/@wesleymatlock/why-your-swiftui-app-is-slower-than-you-think-c3e9bb46174b) — SwiftUI Weekly · SwiftUI Weekly - Issue #214 — Article · Topics: Personal Essays · Swift · SwiftUI
   **Published:** `2025-04-28T13:32:59.660Z`
   **NeKI brief:** Examines SwiftUI rendering and scrolling costs behind Why Your SwiftUI App Is Slower Than You Think. Use it to identify identity, layout, and update-frequency risks before measuring regressions with Instruments on representative devices.
 - [AdventureX 2025 Now Open for Global Applications](https://adventure-x.org/en) — Fatbobman’s Swift Weekly · Issue 79 — Article · Topics: Personal Essays
   **Published:** `2025-04-14T12:01:43.772Z`
   **NeKI brief:** Provides contextual background on AdventureX 2025 Now Open for Global Applications, useful for understanding the surrounding product, policy, or ecosystem issue before drawing technical or business conclusions.
+- [📦 FREE Webinar: CI/CD for Swift Packages](https://streamyard.com/watch/62AzM2xGJ2hB) — iOS CI Newsletter · Issue 64 — Article · Topics: CI/CD & Automation · Swift · Swift Package Manager
+  **Published:** `2025-03-23T00:00:00.000Z`
+  **NeKI brief:** Examines FREE Webinar: CI/CD for Swift Packages in the context of CI/CD & Automation and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Master Mobile Monitoring SwiftUI Apps](https://www.datadoghq.com/resources/mobile-monitoring-best-practices-b) — SwiftLee Weekly · Issue 259 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2025-02-18T15:10:59.000Z`
   **NeKI brief:** Presents Master Mobile Monitoring SwiftUI Apps, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [Mint](https://github.com/yonaskolb/Mint) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Mint installs and runs Swift Package Manager command-line tools at project-pinned versions. Use it to make generators, linters, and other developer executables reproducible without committing their binaries or relying on globally installed versions.
+- [🍎 Running Xcode in unsupported macOS versions](https://marcelvoss.com/2025/tricking-xcode-into-running-on-an-unsupported-macos) — iOS CI Newsletter · Issue 61 — Article · Topics: Apple Platform Ecosystem · Personal Essays · Xcode
+  **Published:** `2025-02-09T00:00:00.000Z`
+  **NeKI brief:** Examines Running Xcode in unsupported macOS versions in the context of Apple Platform Ecosystem and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Being Sendable with SwiftData](https://brightdigit.com/tutorials/swiftdata-sendable?issue=057) — Fatbobman’s Swift Weekly · Issue 57 — Tutorial · Topics: Concurrency · Swift · SwiftData
   **Published:** `2024-11-11T12:03:02.180Z`
   **NeKI brief:** Explains Sendable boundaries around SwiftData models and persistence access. Use it when concurrency checking exposes non-Sendable model crossings and you need to decide where actors or value projections belong.
+- [🐢 Why is xcodebuild so slow?](https://dimillian.medium.com/why-is-xcodebuild-slower-than-the-xcode-gui-38f3d7b0c0bc) — iOS CI Newsletter · Issue 54 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2024-11-03T00:00:00.000Z`
+  **NeKI brief:** Examines Why is xcodebuild so slow? in the context of AI Development and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Orka Desktop](https://www.macstadium.com/orka-desktop) — iOS Dev Weekly · Issue 685 — Article · Topics: Personal Essays · Testing
   **Published:** `1st November 2024`
   **NeKI brief:** Presents orka desktop for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -140,6 +167,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Jeff Verkoeyen](https://featherless.design/@jeff) — iOS Dev Weekly · Issue 681 — Article · Topics: Personal Essays · Swift · SwiftUI
   **Published:** `4th October 2024`
   **NeKI brief:** Presents jeff verkoeyen for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [XcodeSelectiveTesting](https://github.com/mikeger/XcodeSelectiveTesting) — iOS Dev Tools · iOS Dev Tools: UItesting.tools, XcodeSelectiveTesting, Suborbital — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `2024-09-19T13:14:54.513Z`
+  **NeKI brief:** Provides the source and change history for XcodeSelectiveTesting, relevant to Architecture and Testing. Inspect its implementation, open issues, and release state before adopting the approach.
+- [🚀 GitHub-hosted Linux and Windows ARM64 runners are now available](https://github.blog/changelog/2024-09-03-github-actions-arm64-linux-and-windows-runners-are-now-generally-available) — iOS CI Newsletter · Issue 50 — Article · Topics: Architecture · Developer Tools · Product Design
+  **Published:** `2024-09-08T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub-hosted Linux and Windows ARM64 runners are now available in the context of Architecture and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [💨 Save CI resources by running tests before committing](https://antran.app/2024/ios_selective_testing) — iOS CI Newsletter · Issue 43 — Article · Topics: Architecture · Personal Essays · Testing
+  **Published:** `2024-06-02T00:00:00.000Z`
+  **NeKI brief:** Examines Save CI resources by running tests before committing in the context of Architecture and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Configurable button with different states in SwiftUI](https://www.danijelavrzan.com/posts/2024/05/configurable-button-swiftui) — iOS Dev Weekly · Issue 659 — Article · Topics: Personal Essays · Swift · SwiftUI
   **Published:** `3rd May 2024`
   **NeKI brief:** Presents configurable button with different states in swiftui for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -149,9 +185,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [the documentation](https://www.swift.org/documentation/concurrency) — iOS Dev Weekly · Issue 652 — Article · Topics: Concurrency · Personal Essays · Swift
   **Published:** `15th March 2024`
   **NeKI brief:** Presents the documentation for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [🆕 GitHub-hosted macOS Sonoma runners are now available!](https://github.blog/changelog/2024-01-30-github-actions-macos-14-sonoma-is-now-available) — iOS CI Newsletter · Issue 35 — Article · Topics: Developer Tools · macOS & AppKit · Personal Essays
+  **Published:** `2024-02-11T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub-hosted macOS Sonoma runners are now available! in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Swift Website Workgroup](https://www.swift.org/website-workgroup) — iOS Dev Weekly · Issue 634 — Article · Topics: Personal Essays · Swift
   **Published:** `3rd November 2023`
   **NeKI brief:** Presents swwg for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [installation page](https://www.swift.org/install) — iOS Dev Weekly · Issue 634 — Article · Topics: Personal Essays · Swift
+  **Published:** `3rd November 2023`
+  **NeKI brief:** Examines Install Swift 6.3.1 — Swift.org in the context of Cross-Platform & Web and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [creating a command line tool](https://www.swift.org/getting-started/cli-swiftpm) — iOS Dev Weekly · Issue 634 — Article · Topics: Developer Tools · Personal Essays · Swift
   **Published:** `3rd November 2023`
   **NeKI brief:** Uses SwiftPM’s executable-package workflow to build a command-line tool, providing a concrete starting point for scripts and developer utilities written in Swift.
@@ -161,6 +203,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Mastering Xcode Previews: Show, Edit, and Preview SwiftUI Code](https://www.swiftyplace.com/blog/xcode-previews-with-swiftui-and-uikit) — SwiftUI Weekly · SwiftUI Weekly - Issue #164 — Article · Topics: Swift · SwiftUI · Xcode
   **Published:** `2023-10-16T11:29:03.902Z`
   **NeKI brief:** Demonstrates Xcode Previews for SwiftUI views and UIKit components, including preview setup and editing workflow. Useful for shortening visual feedback loops when screens combine representables, legacy views, and new SwiftUI code.
+- [Not Only Swift](https://not-only-swift.peterfriese.dev/issues/43?ref=ioscodereview.com) — iOS Code Review · Issue 57 — Article · Topics: Personal Essays · Swift
+  **Published:** `2023-10-12T11:48:38.000Z`
+  **NeKI brief:** Examines Not Only Swift in the context of Personal Essays and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Swift Transformers: Run On-Device LLMs on Apple Devices](https://huggingface.co/blog/swift-coreml-llm) — iOS Dev Weekly · Issue 622 — Article · Topics: AI Development · Personal Essays · Swift
   **Published:** `11th August 2023`
   **NeKI brief:** Explores Swift Transformers: Run On-Device LLMs on Apple Devices, focusing on there are a few different methods to get an llm. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -170,15 +215,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [chat app](https://github.com/huggingface/swift-chat) — iOS Dev Weekly · Issue 622 — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `11th August 2023`
   **NeKI brief:** Provides a macOS demonstration app for swift-transformers, showing how the project can host local language-model interactions. It is a concrete repository to inspect when evaluating a Swift-native prototype for on-device or desktop model experimentation.
+- [Smart Open Xcode](https://christianselig.com/2023/08/smartly-open-xcode) — iOS Dev Weekly · Issue 621 — Article · Topics: Personal Essays · Xcode
+  **Published:** `4th August 2023`
+  **NeKI brief:** Examines an amazing article on using keyboard shortcuts to smartly open the correct version of Xcode in the context of Hardware & Devices and Xcode. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [✍️ Fastlane 2.213.0: Run Xcode 14.3 with Rosetta](https://github.com/fastlane/fastlane/releases/tag/2.213.0) — iOS CI Newsletter · Issue 18 — Source repository · Topics: CI/CD & Automation · Developer Tools · Xcode
+  **Published:** `2023-06-18T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Fastlane 2.213.0: Run Xcode 14.3 with Rosetta, relevant to CI/CD & Automation and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [🤯 Running GitHub Actions workflows locally](https://grantisom.com/2023/05/15/using-act-to.html) — iOS CI Newsletter · Issue 16 — Article · Topics: Cross-Platform & Web · Developer Tools · Personal Essays
+  **Published:** `2023-05-21T00:00:00.000Z`
+  **NeKI brief:** Examines Running GitHub Actions workflows locally in the context of Cross-Platform & Web and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Act](https://github.com/nektos/act) — iOS CI Newsletter · Issue 16 — Source repository · Topics: Developer Tools · Personal Essays
+  **Published:** `2023-05-21T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Act, relevant to Developer Tools and Personal Essays. Inspect its implementation, open issues, and release state before adopting the approach.
+- [🏛️ Getting your app ready for Apple silicon](https://bitrise.io/blog/post/transitioning-your-mobile-apps-from-intel-to-apple-silicon) — iOS CI Newsletter · Issue 16 — Article · Topics: Personal Essays · Xcode
+  **Published:** `2023-05-21T00:00:00.000Z`
+  **NeKI brief:** Examines Getting your app ready for Apple silicon in the context of Personal Essays and Xcode. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🆕 GitHub Actions: macOS 13 available!](https://github.blog/changelog/2023-04-24-github-actions-macos-13-is-now-available) — iOS CI Newsletter · Issue 15 — Article · Topics: Developer Tools · macOS & AppKit · Personal Essays
+  **Published:** `2023-05-07T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub Actions: macOS 13 available! in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Speedrun Design: Heart Rate Zone View in SwiftUI](https://www.david-smith.org/blog/2023/04/24/design-notes-35) — SwiftUI Weekly · SwiftUI Weekly - Issue #140 — Article · Topics: Graphics, Media & Games · Personal Essays · Swift
   **Published:** `2023-04-25T07:37:25.660Z`
   **NeKI brief:** Builds a SwiftUI heart-rate-zone view as a compact design exercise, exposing the visual decisions behind a data-driven display. It is useful for studying how a constrained, real-world metric can become a readable custom SwiftUI component.
+- [Save money when using GitHub Actions for iOS CI/CD](https://blog.eidinger.info/save-money-when-using-github-actions-for-ios-cicd) — iOS Dev Weekly · Issue 594 — Article · Topics: CI/CD & Automation · Developer Tools · Objective-C & Cocoa
+  **Published:** `27th January 2023`
+  **NeKI brief:** Examines Saving money when using GitHub Actions in the context of Developer Tools and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Running audio/video UI tests on CI](https://www.kubilayerdogan.net/xctest-fixing-audio-video-ui-tests-on-your-ci-cd) — iOS CI Newsletter · Issue 7 — Article · Topics: Graphics, Media & Games · Personal Essays · Testing
+  **Published:** `2023-01-15T00:00:00.000Z`
+  **NeKI brief:** Examines Running audio/video UI tests on CI in the context of Graphics, Media & Games and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Running Code Only Once in SwiftUI](https://www.swiftjectivec.com/swiftui-run-code-only-once-versus-onappear-or-task) — iOS Dev Weekly · Issue 583 — Article · Topics: Personal Essays · Swift · SwiftUI
   **Published:** `4th November 2022`
   **NeKI brief:** Explores Running Code Only Once in SwiftUI, focusing on wouldn’t it be great if swiftui had a view modifier. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Guides in Interface Builder](https://xcode.tips/ib-guides) — iOS Dev Weekly · Issue 561 — Article · Topics: Personal Essays · Xcode
   **Published:** `3rd June 2022`
   **NeKI brief:** Explores Guides in Interface Builder, focusing on if you’ve travelled to cupertino, i hope you have a. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [SwiftUI performance tips](https://martinmitrevski.com/2022/04/14/swiftui-performance-tips) — iOS Dev Weekly · Issue 554 — Article · Topics: Performance · Swift · SwiftUI
+  **Published:** `15th April 2022`
+  **NeKI brief:** Examines SwiftUI performance tips – martinmitrevski in the context of Performance and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [how he got this up and running through a Siri shortcut](https://www.swiftjectivec.com/introducing-the-daily-ios) — iOS Dev Weekly · Issue 499 — Article · Topics: App Intents & System Surfaces · Personal Essays · Swift
   **Published:** `19th March 2021`
   **NeKI brief:** Introduces a daily iOS-development news format and the kinds of links it curates. Treat it as a discovery lead for primary sources rather than technical implementation guidance.

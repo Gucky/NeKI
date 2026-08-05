@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** VoiceOver, Dynamic Type, interaction accessibility, and inclusive interface design.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **187**
+- Last collected: `2026-08-05T08:59:22Z`
+- Indexed links shown: **196**
 
 ## Direct-source reading
 
@@ -414,6 +414,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Checking accessibility with SwiftUI Previews](https://mobilea11y.com/blog/swiftui-preview-testing?ref=ioscodereview.com) — iOS Code Review · Issue 78 — Article · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `2026-05-16T17:59:28.000Z`
+  **NeKI brief:** Uses SwiftUI previews as an accessibility testing surface, checking labels, traits, and contrast across representative states. Useful for finding VoiceOver regressions early without waiting for a full UI-test suite.
 - [ios-build-verify](https://github.com/vermont42/ios-build-verify) — iOS Dev Weekly · Issue 750 — Source repository · Topics: Accessibility · Developer Tools · Testing
   **Published:** `8th May 2026`
   **NeKI brief:** Provides a command-line verifier for iOS build artifacts and project settings. Use it in CI to catch invalid configurations early, while reviewing its checks against your signing, SDK, and reproducibility requirements.
@@ -435,6 +438,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [ColorsKit](https://github.com/ckdash-git/ColorsKit) — iOS Dev Tools · iOS Dev Tools: Swift-Parsing, ColorsKit, SwiftUI Indie Stack — Source repository · Topics: Accessibility · Developer Tools · Swift
   **Published:** `2025-12-25T17:35:11.361Z`
   **NeKI brief:** Provides SwiftUI and UIKit color utilities for hex parsing, palette generation, contrast checks, and color-vision-deficiency simulation. Follow it when validating a token system or prototyping accessibility-aware colors before integrating production design assets.
+- [🧪 Automated Accessibility testing with UI Tests](https://github.com/Steady5063/iOS-Automated-Accessibility-Example-Lib) — iOS CI Newsletter · Issue 83 — Source repository · Topics: Accessibility · Developer Tools · Testing
+  **Published:** `2025-12-16T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Automated Accessibility testing with UI Tests, relevant to Accessibility and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
 - [A Guide to the SwiftUI @Environment](https://www.devfright.com/a-guide-to-the-swiftui-environment) — Those Who Swift · Issue 210 — Article · Topics: Accessibility · Swift · SwiftUI
   **Published:** `2025-04-16`
   **NeKI brief:** Provides a practical tour of SwiftUI environment lookup and propagation. Useful for deciding which dependencies should be injected implicitly, how overrides work in previews, and where explicit parameters improve clarity.
@@ -459,6 +465,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [新的辅助功能](https://www.apple.com.cn/newsroom/2024/05/apple-announces-new-accessibility-features-including-eye-tracking) — Fatbobman’s Swift Weekly · Issue 32 — Article · Topics: Accessibility
   **Published:** `2024-05-20T12:02:52.341Z`
   **NeKI brief:** Uses 新的辅助功能 as a practical reference for Apple-platform development, surfacing implementation constraints and workflow trade-offs worth checking before applying the idea in production code.
+- [Accessibility Representation modifier](https://www.createwithswift.com/making-a-view-accessible-using-the-accessibility-representation-modifier?ref=ioscodereview.com) — iOS Code Review · Issue 66 — Article · Topics: Accessibility · Swift
+  **Published:** `2024-03-18T13:34:21.000Z`
+  **NeKI brief:** Uses accessibilityRepresentation to replace a complex SwiftUI view's exposed semantics with a simpler representative hierarchy. This is useful when visual composition is elaborate but assistive users need one coherent control.
+- [Automating SwiftUI Accessibility Audits in Xcode 15](https://holyswift.app/xcode-15-new-feature-streamlined-accessibility-audits) — SwiftUI Weekly · SwiftUI Weekly - Issue #176 — Article · Topics: Accessibility · Swift · Xcode
+  **Published:** `2024-02-12T08:54:16.360Z`
+  **NeKI brief:** Examines Finding SwiftUI accessibility issues automatically in the context of Accessibility and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Exploring visionOS Accessibility Gestures](https://www.rudrank.com/exploring-visionos-accessibility-voiceover-gestures) — iOS Dev Weekly · Issue 643 — Article · Topics: Accessibility · Spatial Computing
   **Published:** `12th January 2024`
   **NeKI brief:** Presents exploring visionos accessibility gestures for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -471,15 +483,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using Core Bluetooth to estimate distance](https://buildersbox.corp-sansan.com/entry/2023/08/04/120104) — Fatbobman’s Swift Weekly · Issue 4 — Article · Topics: Accessibility
   **Published:** `2023-10-30T15:20:20.330Z`
   **NeKI brief:** Explores estimating distance with Core Bluetooth signal data, including the limitations of treating RSSI as a precise measurement. Follow it when prototyping proximity features and communicating uncertainty in the UI.
+- [brilliant article](https://smart-interface-design-patterns.com/articles/accessibility-strong-case?ref=ioscodereview.com) — iOS Code Review · Issue 56 — Article · Topics: Accessibility
+  **Published:** `2023-09-28T11:24:10.000Z`
+  **NeKI brief:** Examines brilliant article in the context of Accessibility. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Wonderous: Build Wonders with Flutter](https://flutter.gskinner.com/wonderous) — iOS Dev Weekly · Issue 598 — Article · Topics: Accessibility · App Distribution & Store Operations · Cross-Platform & Web
   **Published:** `24th February 2023`
   **NeKI brief:** Explores Wonderous: Build Wonders with Flutter, focusing on wonderous is an open-source ios app built with flutter. it. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Flutter](https://flutter.dev/multi-platform/mobile) — iOS Dev Weekly · Issue 598 — Article · Topics: Accessibility · App Distribution & Store Operations · Cross-Platform & Web
   **Published:** `24th February 2023`
   **NeKI brief:** Explores Flutter, focusing on wonderous is an open-source ios app built with flutter. it features award-winning ux design and best practices for performance and accessibility. see. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Accessibility of images in SwiftUI](https://nilcoalescing.com/blog/ImageAccessibilityLabelsFromLocalizableStringsFiles?ref=ioscodereview.com) — iOS Code Review · Issue 40 — Article · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `2023-01-05T13:13:42.000Z`
+  **NeKI brief:** Explains SwiftUI's localized image-label lookup, where a matching localization key can supply an accessibility label without repeating modifier text. It also highlights the naming dependency to verify when localization changes.
+- [Accessibility in SwiftUI explained for UIKit developers - SwiftLee](https://www.avanderlee.com/swiftui/accessibility-uikit-developers?ref=ioscodereview.com) — iOS Code Review · Issue 34 — Article · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `2022-10-20T11:05:16.000Z`
+  **NeKI brief:** Maps UIKit accessibility concepts to SwiftUI modifiers for labels, traits, grouping, and adjustable controls. Useful for porting accessibility behavior deliberately instead of assuming visual SwiftUI structure is automatically semantic.
 - [launch blog post](https://www.getstark.co/blog/introducing-the-new-stark-for-mac-app) — iOS Dev Weekly · Issue 578 — Article · Topics: Accessibility
   **Published:** `30th September 2022`
   **NeKI brief:** Explores launch blog post, focusing on this new mac app looks like a great way to. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Building an Accessible Custom Tab Bar | Bas’ Blog](https://www.basbroek.nl/custom-tab-bar-accessibility?ref=ioscodereview.com) — iOS Code Review · Issue 26 — Article · Topics: Accessibility
+  **Published:** `2022-06-30T10:52:20.000Z`
+  **NeKI brief:** Explores Building an Accessible Custom Tab Bar, focusing on the very best way to ensure that the tab bar. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [AttributedString Attribute Scopes](https://nilcoalescing.com/blog/AttributedStringAttributeScopes?ref=ioscodereview.com) — iOS Code Review · Issue 24 — Article · Topics: Swift · SwiftUI · UIKit
+  **Published:** `2022-06-02T10:41:20.000Z`
+  **NeKI brief:** AttributedString attribute scopes constrain which custom and Foundation attributes are available through typed lookup. The article helps design safe rich-text transformations without stringly-typed keys or accidental scope collisions.
 - [Building an Accessible Custom Tab Bar](https://www.basbroek.nl/custom-tab-bar-accessibility) — iOS Dev Weekly · Issue 555 — Article · Topics: Accessibility
   **Published:** `22nd April 2022`
   **NeKI brief:** Explores Building an Accessible Custom Tab Bar, focusing on the very best way to ensure that the tab bar. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -542,7 +569,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explores UIFontMetrics 📐 in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
 - [Swift Playgrounds Demo with a Twist](https://youtube.com/watch?v=no12EfZUSQo) — iOS Dev Weekly · Issue 271 — Video · Topics: Accessibility · Swift
   **Published:** `7th October 2016`
-  **NeKI brief:** Links to a public video about Play. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Examines Swift Playgrounds Demo with a Twist, focusing on amazing. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [How to break (and fix) the accessibility of a table view](https://gist.github.com/d-ronnqvist/3584ccf3379f9c318e4f) — iOS Dev Weekly · Issue 155 — Source repository · Topics: Accessibility · Developer Tools · Testing
   **Published:** `18th July 2014`
   **NeKI brief:** Provides the How to break and fix the accessibility of a table view source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current.

@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** The Composable Architecture, reducers, effects, state, and dependency patterns.
 
-- Last collected: `2026-07-22T21:56:49Z`
+- Last collected: `2026-08-05T09:59:47Z`
 - Indexed links shown: **48**
 
 ## Direct-source reading
@@ -146,12 +146,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Describes a production migration from CocoaPods to Tuist, including project-generation and dependency-management implications. Follow it when planning a build-system transition and identifying CI or target-configuration risks.
 - [The Composable Architecture: My 3 Year Experience](https://rodschmidt.com/posts/composable-architecture-experience) — SwiftUI Weekly · SwiftUI Weekly - Issue #185 — Article · Topics: Architecture · Composable Architecture · Objective-C & Cocoa
   **Published:** `2024-05-06T13:22:31.904Z`
-  **NeKI brief:** A three-year TCA retrospective surfaces production trade-offs that API introductions omit, including architectural discipline and maintenance cost. Use it to evaluate long-lived team fit rather than reading it as a generic framework endorsement.
+  **NeKI brief:** Reflects on three years using TCA at team scale, emphasizing its learning curve, release churn, migration cost, reducer growth, and platform impedance. Useful when weighing TCA's testing and composition benefits against organizational complexity.
 - [The Composable Architecture: My 3 Year Experience](https://rodschmidt.com/posts/composable-architecture-experience?issue=030) — Fatbobman’s Swift Weekly · Issue 30 — Article · Topics: Architecture · Composable Architecture · Objective-C & Cocoa
   **Published:** `2024-05-06T12:01:46.954Z`
   **NeKI brief:** A three-year TCA retrospective surfaces production trade-offs that API introductions omit, including architectural discipline and maintenance cost. Use it to evaluate long-lived team fit rather than reading it as a generic framework endorsement.
 - [Composition in TCA: Scope, Combine and Pullback operators](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9WmYycEZFYTN1ZXciLCJwb3N0X2lkIjoiNTAxNjg3MDctMTllNi00OWVjLWEzMGUtZDM0NTg5OGM5Mzk5IiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6ImJkOTY3MzY1LTVhYTAtNGIzOS05NWY0LTJhMGViNjgwNTJhMyIsImlhdCI6MTY3NDA2MjU1Ni45LCJpc3MiOiJvcmNoaWQifQ.oCLiQ-6M7I0rhyM9-07MqJd2m-21FbRxpLCYhEXIV-0) — SwiftUI Weekly · SwiftUI Weekly - Issue #121 — Article · Topics: Architecture · Combine & Reactive Programming · Composable Architecture
   **Published:** `2022-11-21T12:42:39.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Explains Composable Architecture composition through Scope, Combine, and Pullback operators. Follow the concrete reducer composition to understand how child state and actions are routed while preserving testable feature boundaries in a SwiftUI application.
 - [SwiftUI-Agent-Skill: Expert reviews for your codebase](https://github.com/twostraws/SwiftUI-Agent-Skill) — Not only Swift · Issue 95 — Source repository · Topics: Composable Architecture · Swift · SwiftUI
   **NeKI brief:** Provides a reusable SwiftUI-focused agent skill with guidance for generating and reviewing views. Useful as a concrete prompt and workflow artifact when evaluating AI-assisted UI composition, accessibility, and maintainability in a project.

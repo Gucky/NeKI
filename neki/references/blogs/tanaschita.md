@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://tanaschita.com/](https://tanaschita.com/)
-- Last collected: `2026-07-28T20:17:52Z`
-- Indexed entries: **185**
+- Last collected: `2026-08-05T08:05:51Z`
+- Indexed entries: **186**
 
 - [Understanding Xcode targets, schemes and build configurations](https://tanaschita.com/xcode-targets-schemes)
   **Topics:** Xcode
@@ -204,6 +204,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Storing Swift structs in UserDefaults](https://tanaschita.com/swift-user-defaults-storing-structs)
   **Topics:** Persistence & Synchronisation · Swift
   **NeKI brief:** Shows encoding Swift structs before storing them in UserDefaults, keeping typed preferences behind a small persistence boundary. Useful for lightweight settings while avoiding UserDefaults as a substitute for relational data.
+- [Building a reusable API client with URLSession in Swift](https://tanaschita.com/swift-urlsession)
+  **Topics:** Concurrency · Networking · Swift
+  **NeKI brief:** Builds a small async URLSession API client that centralises request construction, status-code validation and JSON decoding. Configuration injection and cancellation handling show how to keep feature endpoints concise without hiding transport failures.
 - [Understanding Substring and String indices in Swift](https://tanaschita.com/swift-strings-indices-and-substrings)
   **Topics:** Swift
   **NeKI brief:** Explains Swift String indices and Substring lifetimes, preventing invalid integer-offset assumptions when handling Unicode text or slicing without unnecessary copies.

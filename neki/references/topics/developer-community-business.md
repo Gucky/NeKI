@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Developer conferences, publications, courses, podcasts, membership, sponsorship, and community business news.
 
-- Last collected: `2026-07-24T20:12:41Z`
-- Indexed links shown: **213**
+- Last collected: `2026-08-05T10:03:08Z`
+- Indexed links shown: **249**
 
 ## Direct-source reading
 
@@ -45,6 +45,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Point-Free turns 8!](https://www.pointfree.co/blog/posts/199-point-free-turns-8) — Point-Free · article catalogue
   **Published:** `2026-01-29T00:00:00Z`
   **NeKI brief:** The anniversary preview links the Point-Free Way curriculum with an upcoming Composable Architecture beta, showing how education and library evolution can be staged together. Treat the roadmap as exploratory context, not a stable API promise.
+- [Paddle: Unify Your SaaS Billing Stack - iOS Dev Tools](https://iosdev.tools/blog/paddle) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-11-04T05:30:35+00:00`
+  **NeKI brief:** Profiles Paddle as unify Your SaaS Billing Stack. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [A new project, episodes sneak peek, a giveaway, Q&A, and more!](https://www.pointfree.co/blog/posts/166-a-new-project-episodes-sneak-peek-a-giveaway-q-a-and-more) — Point-Free · article catalogue
   **Published:** `2025-02-13T00:00:00Z`
   **NeKI brief:** The announced project previews a new open-source component before release, giving adopters a chance to inspect design direction and compatibility risk. Treat the material as exploratory evidence, not a supported API contract.
@@ -123,9 +126,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
-- [swiftCon](https://www.nextappcon.com/swiftcon) — iOS Dev Weekly · Issue 760 — Article · Topics: Developer Community & Business · Swift
-  **Published:** `24th July 2026`
+- [Swift on Windows: A Year of Refinement](https://l.fatbobman.com/w0147-08) — Fatbobman’s Swift Weekly · Issue 147 — Article · Topics: Developer Community & Business · Swift
+  **Published:** `2026-08-03T12:02:34.944Z`
+  **NeKI brief:** Reviews a year of production Swift-on-Windows refinements, including runtime builds, dependency-chain work, and deployment friction. It is useful for assessing Swift portability from operational evidence rather than assuming Linux or Apple-platform workflows transfer unchanged.
+- [swiftCon](https://www.nextappcon.com/swiftcon) — iOS Dev Weekly · Issue 761 — Article · Topics: Developer Community & Business · Swift
+  **Published:** `31st July 2026`
   **NeKI brief:** SwiftCon's call for speakers seeks production-focused Swift and iOS talks, including SwiftUI, architecture, performance, and testing. Follow the event page to assess the community's current themes or submit a concrete engineering case study.
+- [AI Broke Code Review. Here’s How to Rebuild It.](https://swiftandmemes.com/ai-broke-code-review-heres-how-to-rebuild-it) — iOS Dev Weekly · Issue 761 — Article · Topics: AI Development · Code Quality · Developer Community & Business
+  **Published:** `31st July 2026`
+  **NeKI brief:** Proposes a layered review pipeline for AI-generated changes, combining deterministic checks, focused automated reviewers, architectural scrutiny, and human judgment. The structure is useful when increased code volume overwhelms a traditional single-pass pull-request review.
+- [A Community Agent Skill for Swift Testing](https://github.com/twostraws/Swift-Testing-Agent-Skill?ref=ioscodereview.com) — iOS Code Review · Issue 81 — Source repository · Topics: Developer Community & Business · Swift · Testing
+  **Published:** `2026-06-30T16:31:22.000Z`
+  **NeKI brief:** Provides the source and change history for A Community Agent Skill for Swift Testing, relevant to Developer Community & Business and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [W.W.D.C. 2026: The Pregame Quiz](https://www.swiftjectivec.com/wwdc-2026-the-pregame-quiz) — Those Who Swift · Issue 268 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Graphics, Media & Games
   **Published:** `2026-05-27`
   **NeKI brief:** Presents W.W.D.C. 2026: The Pregame Quiz, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -186,6 +198,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [From Swift to Mojo and high-performance AI Engineering with Chris Lattner](https://newsletter.pragmaticengineer.com/p/from-swift-to-mojo-and-high-performance) — SwiftLee Weekly · Issue 297 — Podcast · Topics: AI Development · Performance · Swift
   **Published:** `2025-11-11T15:06:31.000Z`
   **NeKI brief:** Presents From Swift to Mojo and high-performance AI Engineering with Chris Lattner, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [🤩 Improvements to review submissions in App Store Connect](https://9to5mac.com/2025/10/29/apple-adds-new-app-store-submission-and-marketing-features-will-phase-out-promo-codes-in-2026) — iOS CI Newsletter · Issue 79 — Tutorial · Topics: App Distribution & Store Operations · Developer Community & Business
+  **Published:** `2025-11-02T00:00:00.000Z`
+  **NeKI brief:** Examines Improvements to review submissions in App Store Connect in the context of App Distribution & Store Operations and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [was originally called a “Community Workgroup”](https://forums.swift.org/t/swift-on-android-working-group/77780) — iOS Dev Weekly · Issue 733 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
   **Published:** `31st October 2025`
   **NeKI brief:** Tracks the Swift on Android working group's scope and coordination. Use it to distinguish language/runtime portability from UIKit availability when assessing a shared Swift codebase for Android targets.
@@ -201,6 +216,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [worthy of a blog post on Swift.org](https://www.swift.org/blog/swift-profile-recorder) — iOS Dev Weekly · Issue 730 — Article · Topics: Developer Community & Business · Performance · Swift
   **Published:** `10th October 2025`
   **NeKI brief:** Introduces Swift Profile Recorder for capturing runtime profiling data from Swift applications. Useful for collecting reproducible performance evidence in environments where full Instruments sessions are impractical.
+- [💪 ReleaseTools: A lightweight alternative to Fastlane written entirely in Swift](https://elegantchaos.com/2025/09/26/release-tools.html) — iOS CI Newsletter · Issue 76 — Article · Topics: CI/CD & Automation · Cross-Platform & Web · Swift
+  **Published:** `2025-10-01T00:00:00.000Z`
+  **NeKI brief:** Summarises ReleaseTools: A lightweight alternative to Fastlane written entirely in Swift for CI/CD & Automation and Cross-Platform & Web. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [Swift Server Workgroup](https://www.swift.org/sswg) — iOS Dev Weekly · Issue 728 — Article · Topics: Developer Community & Business · Swift
   **Published:** `26th September 2025`
   **NeKI brief:** The Swift Server Workgroup coordinates ecosystem efforts for server-side Swift. Use it to discover supported libraries and governance context, not as an implementation reference.
@@ -249,15 +267,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [swiftlang/swift-subprocess: Subprocess is a cross-platform package for spawning processes in Swift.](https://github.com/swiftlang/swift-subprocess) — SwiftLee Weekly · Issue 268 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `2025-04-22T13:40:18.000Z`
   **NeKI brief:** swift-subprocess modernizes launching and interacting with child processes through Swift concurrency. Use it for scripts and tools that need structured stdin, stdout, cancellation, and exit-status handling beyond Foundation's older Process API.
+- [ready-to-use MCP Servers](https://github.com/modelcontextprotocol/servers) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for ready-to-use MCP Servers, relevant to AI Development and Developer Community & Business. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Linear](https://github.com/jerhadf/linear-mcp-server) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Linear, relevant to AI Development and Developer Community & Business. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Filesystem](https://github.com/modelcontextprotocol/servers/blob/main/src/filesystem) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Filesystem, relevant to AI Development and Developer Community & Business. Inspect its implementation, open issues, and release state before adopting the approach.
+- [GitHub](https://github.com/modelcontextprotocol/servers/blob/main/src/github) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for GitHub, relevant to AI Development and Developer Community & Business. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Slack](https://github.com/modelcontextprotocol/servers/blob/main/src/slack) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Slack, relevant to AI Development and Developer Community & Business. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Swift 6.1 ReleasedSwift 6.1 is now available!Swift.orgApple Inc.](https://www.swift.org/blog/swift-6.1-released?ref=createwithswift.com) — Create with Swift · Issue 56 — Article · Topics: Developer Community & Business · Graphics, Media & Games · Swift
   **Published:** `2025-04-11T15:33:31.000Z`
   **NeKI brief:** Summarizes the Swift 6.1 release and its ecosystem changes. Use it as a starting point for compiler or package upgrades, verifying source compatibility, concurrency diagnostics, and platform support against the toolchain you actually ship.
 - [Building a Business on Swift on the Server, Vapor & Open Source - Tim Condon](https://share.transistor.fm/s/941efac7) — SwiftLee Weekly · Issue 266 — Tutorial · Topics: Concurrency · Developer Community & Business · Swift
   **Published:** `2025-04-08T14:10:02.000Z`
   **NeKI brief:** Discusses building a business around server-side Swift, Vapor, and open source in an interview format. Use it for ecosystem and product context rather than as API documentation or implementation guidance.
+- [🚀 How to automate App Store screenshot generation for macOS apps](https://www.jessesquires.com/blog/2025/03/24/automate-perfect-mac-screenshots) — iOS CI Newsletter · Issue 65 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Community & Business
+  **Published:** `2025-04-06T00:00:00.000Z`
+  **NeKI brief:** Walks through how to automate App Store screenshot generation for macOS apps, with practical context for App Distribution & Store Operations and CI/CD & Automation. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Introducing swiftly 1.0](https://www.swift.org/blog/introducing-swiftly_10) — iOS Dev Weekly · Issue 706 — Article · Topics: Developer Community & Business · Product Design · Swift
   **Published:** `4th April 2025`
   **NeKI brief:** This technical resource covers Swiftly 1.0 as a Swift toolchain manager. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [🚀 An introduction to fastlane for iOS developers](https://nowham.dev/posts/into_to_fastlane) — iOS CI Newsletter · Issue 63 — Article · Topics: CI/CD & Automation · Developer Community & Business
+  **Published:** `2025-03-09T00:00:00.000Z`
+  **NeKI brief:** Examines An introduction to fastlane for iOS developers in the context of CI/CD & Automation and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [What’s new in Swift 6.1?](https://www.massicotte.org/concurrency-6_1) — iOS Dev Weekly · Issue 701 — Tutorial · Topics: Concurrency · Developer Community & Business · Swift
   **Published:** `28th February 2025`
   **NeKI brief:** Explains New Concurrency Stuff with 6.1, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -267,6 +306,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [blog post](https://www.massicotte.org/leverage) — Fatbobman’s Swift Weekly · Issue 72 — Article · Topics: Developer Community & Business · Swift
   **Published:** `2025-02-24T12:03:49.550Z`
   **NeKI brief:** Argues for withholding beta feedback and participation as leverage in response to Apple's platform decisions. This is an opinion and community-policy perspective, useful for understanding developer sentiment rather than implementation guidance.
+- [🧪 Exploring built-in fastlane actions](https://nowham.dev/posts/useful_built_ins) — iOS CI Newsletter · Issue 62 — Article · Topics: CI/CD & Automation · Developer Community & Business
+  **Published:** `2025-02-23T00:00:00.000Z`
+  **NeKI brief:** Examines Exploring built-in fastlane actions in the context of CI/CD & Automation and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [ViewList](https://github.com/OpenSwiftUIProject/OpenSwiftUI/tree/main/Sources/OpenSwiftUICore/View/Input) — Fatbobman’s Swift Weekly · Issue 71 — Source repository · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `2025-02-17T23:25:21.639Z`
   **NeKI brief:** Points directly into OpenSwiftUI's input-related view sources rather than its repository root. Use it to inspect how an open implementation models input plumbing when debugging or comparing SwiftUI behavior.
@@ -279,12 +321,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iPhone Apps 101 - SwiftUI App Development Course](https://paulsolt.teachable.com/p/iphoneapps101?affcode=1123_hyqyixcy) — SwiftLee Weekly · Issue 254 — Tutorial · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `2025-01-14T14:03:25.000Z`
   **NeKI brief:** Introduces iPhone Apps 101 - SwiftUI App Development Course as a developer resource or service relevant to Swift and Apple-platform work. Use it to assess the stated workflow or offering, checking scope, pricing, access requirements, and technical fit before relying on it.
+- [🚀 How to make the fastlane developer experience nicer](https://nowham.dev/posts/nicer-fastlane) — iOS CI Newsletter · Issue 57 — Article · Topics: CI/CD & Automation · Developer Community & Business
+  **Published:** `2024-12-17T00:00:00.000Z`
+  **NeKI brief:** Walks through how to make the fastlane developer experience nicer, with practical context for CI/CD & Automation and Developer Community & Business. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [💬 GitHub incidents will now have associated dicussions](https://github.blog/changelog/2024-12-11-incidents-will-now-post-in-community-discussions) — iOS CI Newsletter · Issue 57 — Article · Topics: Developer Community & Business · Developer Tools
+  **Published:** `2024-12-17T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub incidents will now have associated dicussions in the context of Developer Community & Business and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [focus areas](https://forums.swift.org/t/swift-language-focus-areas-heading-into-2025/76611) — Fatbobman’s Swift Weekly · Issue 62 — Article · Topics: Concurrency · Developer Community & Business · Swift
   **Published:** `2024-12-16T12:01:20.048Z`
   **NeKI brief:** Records Swift language focus areas heading into 2025, including concurrency adoption concerns. Follow it for roadmap context when prioritizing migration work and interpreting which language friction the core team considers material.
 - [Syntax Highlighting SwiftUI Code with Swift Syntax](https://sahandnayebaziz.org/blog/syntax-highlighting-swiftui-with-swift-syntax) — iOS Dev Weekly · Issue 688 — Article · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `22nd November 2024`
   **NeKI brief:** Presents syntax highlighting swiftui code with swift syntax for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Swift Over Coffee](https://podcasts.apple.com/gb/podcast/swift-over-coffee/id1435076502?i=1000676386646&ref=ioscodereview.com) — iOS Code Review · Issue 73 — Podcast · Topics: Developer Community & Business · Hardware & Devices · Swift
+  **Published:** `2024-11-20T11:14:23.000Z`
+  **NeKI brief:** Examines Swift Over Coffee in the context of Developer Community & Business and Hardware & Devices. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Visual Studio Code Swift plugin](https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang) — iOS Dev Weekly · Issue 686 — Tutorial · Topics: AI Development · Developer Community & Business · Swift
   **Published:** `8th November 2024`
   **NeKI brief:** Provides the Swift language extension for Visual Studio Code. Follow it when setting up language-server completion, diagnostics, and package workflows outside Xcode, while validating debugger and SDK limitations separately.
@@ -297,12 +348,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [From Side Project to Going Indie](https://courses.avanderlee.com/p/from-side-project-to-going-indie?issue=052) — Fatbobman’s Swift Weekly · Issue 52 — Tutorial · Topics: Developer Community & Business · Swift · Xcode
   **Published:** `2024-10-07T12:03:25.369Z`
   **NeKI brief:** Provides contextual background on From Side Project to Going Indie, useful for understanding the surrounding product, policy, or ecosystem issue before drawing technical or business conclusions.
+- [🎨 Styling terminal output in Swift executables](https://swifttoolkit.dev/posts/terminal-colors) — iOS CI Newsletter · Issue 51 — Article · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2024-09-23T00:00:00.000Z`
+  **NeKI brief:** Examines Styling terminal output in Swift executables in the context of Developer Community & Business and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [I have spoken about in the past](https://www.youtube.com/watch?v=LBYFHS8jFKk) — iOS CI Newsletter · Issue 51 — Video · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2024-09-23T00:00:00.000Z`
+  **NeKI brief:** Presents Pol Piella's SwiftLeeds talk on building command-line applications with Swift, using a MusicKit-powered MusiCLI example, Swift Argument Parser, and a SwiftUI view launched from the terminal. Useful for practical server-side and CLI context.
+- [☁️ How to set up Xcode Cloud on your project](https://darrylbayliss.net/getting-setup-with-xcode-cloud) — iOS CI Newsletter · Issue 49 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation · Xcode
+  **Published:** `2024-08-25T00:00:00.000Z`
+  **NeKI brief:** Walks through how to set up Xcode Cloud on your project, with practical context for App Distribution & Store Operations and CI/CD & Automation. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [SwiftConf](https://swiftconf.com/) — iOS Dev Tools · iOS Dev Tools: ControlRoom, SwiftDeps, Starscream — Article · Topics: Developer Community & Business · Swift
   **Published:** `2024-07-25T15:18:00.048Z`
   **NeKI brief:** SwiftConf is a conference resource featuring talks on Swift, Apple frameworks, architecture, and engineering practice. Use its programme to find community perspectives and verify technical claims independently.
 - [Christopher Lawley](https://bento.me/chrislawley) — Fatbobman’s Swift Weekly · Issue 41 — Article · Topics: AI Development · Apple Platform Ecosystem · Developer Community & Business
   **Published:** `2024-07-22T12:01:42.375Z`
   **NeKI brief:** Chris Lawley's profile aggregates his developer and creative work, including Apple-platform projects and educational material. Use it as an author or product discovery page, not as a substitute for the linked technical sources.
+- [Swift Package Indexing](https://podcasts.apple.com/us/podcast/43-now-im-worried-our-metrics-arent-correct-with/id1654567329?i=1000653584114) — iOS CI Newsletter · Issue 42 — Podcast · Topics: Developer Community & Business · Swift · Swift Package Manager
+  **Published:** `2024-05-19T00:00:00.000Z`
+  **NeKI brief:** Examines Swift Package Indexing in the context of Developer Community & Business and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Women Who Code CONNECT](http://womenwhocode.com/connect) — iOS Dev Tools · [May 2nd] iOS Dev Tools: ShipThatApp, Kingfisher, SwiftLint — Article · Topics: Developer Community & Business
   **Published:** `2024-05-02T15:20:25.175Z`
   **NeKI brief:** Women Who Code Connect is a community and networking resource for women in technology. Use it to discover peer groups, events, and professional support, not as a technical source or substitute for local community safeguarding.
@@ -312,6 +375,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How to use SwiftData outside SwiftUI](https://jacobbartlett.substack.com/p/swiftdata-outside-swiftui) — iOS Dev Weekly · Issue 658 — Tutorial · Topics: Swift · SwiftData · SwiftUI
   **Published:** `26th April 2024`
   **NeKI brief:** Presents how to use swiftdata outside swiftui for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [📹 Automatically generating release notes using Xcode Cloud](https://www.youtube.com/watch?v=ZBoBCCV5VQ8%3Futm_campaign%3DiOS+CI+Newsletter%26utm_medium%3Dweb%26utm_source%3DiOS+CI+Newsletter+Issue+40%26utm_content%3Dapr_21_24) — iOS CI Newsletter · Issue 40 — Video · Topics: Developer Community & Business · Graphics, Media & Games · Xcode
+  **Published:** `2024-04-21T00:00:00.000Z`
+  **NeKI brief:** Records Automatically generating release notes using Xcode Cloud as a visual walkthrough relevant to Developer Community & Business and Graphics, Media & Games. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [XReality Zone](https://xreality.zone/en) — Fatbobman’s Swift Weekly · Issue 25 — Article · Topics: Developer Community & Business · Swift
   **Published:** `2024-04-01T22:00:13.872Z`
   **NeKI brief:** Provides contextual background on XReality Zone, useful for understanding the surrounding product, policy, or ecosystem issue before drawing technical or business conclusions.
@@ -330,18 +396,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How to Play Spatial Video On iOS 17.2](https://xreality.zone/zh/posts/how-to-play-spatial-video-on-ios-17-2) — Fatbobman’s Swift Weekly · Issue 12 — Tutorial · Topics: Developer Community & Business · Graphics, Media & Games · Swift
   **Published:** `2023-12-25T22:00:09.856Z`
   **NeKI brief:** Demonstrates playing spatial video on iOS 17.2 and discusses the media and device prerequisites involved. Use it to investigate immersive-video playback paths while verifying format support and availability against current Apple APIs.
+- [📹 Free Xcode Cloud course on Youtube](https://www.youtube.com/playlist?list=PLVauIwpFOVbCi4ZRVH38PmmMdsg1RmODD%3Futm_campaign%3DiOS+CI+Newsletter%26utm_medium%3Dweb%26utm_source%3DiOS+CI+Newsletter+Issue+30%26utm_content%3Ddec_03_23) — iOS CI Newsletter · Issue 30 — Video · Topics: Developer Community & Business · Xcode
+  **Published:** `2023-12-03T00:00:00.000Z`
+  **NeKI brief:** Records Free Xcode Cloud course on Youtube as a visual walkthrough relevant to Developer Community & Business and Xcode. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [Shader course](https://www.hackingwithswift.com/plus/advanced-swiftui/how-to-create-metal-shaders-for-swiftui-part-1) — Fatbobman’s Swift Weekly · Issue 7 — Tutorial · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-11-20T22:20:48.455Z`
   **NeKI brief:** Introduces a course workflow for creating Metal shaders used by SwiftUI, from shader functions to view integration. Use it to structure GPU-effect experiments while keeping parameter flow, performance, and fallback behavior testable.
 - [On-Crash Backtraces in Swift](https://www.swift.org/blog/swift-5.9-backtraces) — iOS Dev Weekly · Issue 635 — Podcast · Topics: Developer Community & Business · Product Design · Swift
   **Published:** `10th November 2023`
   **NeKI brief:** Presents on-crash backtraces in swift for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [📹 [NSLondon] Serverless in Swift Like a Breeze](https://www.youtube.com/watch?v=D4qSv_fhQIo&t=4s) — iOS CI Newsletter · Issue 28 — Video · Topics: Developer Community & Business · Swift
+  **Published:** `2023-11-05T00:00:00.000Z`
+  **NeKI brief:** Records NSLondon] Serverless in Swift Like a Breeze as a visual walkthrough relevant to Developer Community & Business and Swift. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
+- [Breeze](https://github.com/swift-sprinter/Breeze) — iOS CI Newsletter · Issue 28 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2023-11-05T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Breeze, relevant to Developer Community & Business and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Videos from NSSpain 2023](https://vimeo.com/showcase/10672108) — iOS Dev Weekly · Issue 631 — Video · Topics: Developer Community & Business · Graphics, Media & Games
+  **Published:** `13th October 2023`
+  **NeKI brief:** Records all other talk recordings from NSSpain 2023 on Vimeo as a visual walkthrough relevant to Apple-platform engineering. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
+- [Take the 6-question Health Check](https://bitrise.io/learn/modas-health-check) — iOS Code Review · Issue 57 — Article · Topics: Code Quality · Developer Community & Business · Graphics, Media & Games
+  **Published:** `2023-10-12T11:48:38.000Z`
+  **NeKI brief:** Examines Take the 6-question Health Check in the context of Code Quality and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [How async/await works internally in Swift](https://swiftrocks.com/how-async-await-works-internally-in-swift) — Fatbobman’s Swift Weekly · Issue 1 — Tutorial · Topics: Concurrency · Developer Community & Business · Swift
   **Published:** `2023-10-09T14:00:25.178Z`
   **NeKI brief:** Explains how Swift async/await is implemented internally through continuations, tasks, and runtime scheduling. Follow it to build a mental model for suspension and overhead, while keeping implementation details distinct from supported concurrency APIs.
 - [Interoperability: Swift’s Super Power](https://browsercompany.substack.com/cp/137231709) — iOS Dev Weekly · Issue 629 — Article · Topics: Developer Community & Business · Swift
   **Published:** `29th September 2023`
   **NeKI brief:** Presents interoperability: swift’s super power for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [🧪 A new macro-based approach to testing in Swift](https://forums.swift.org/t/a-new-approach-to-testing-in-swift/67425) — iOS CI Newsletter · Issue 25 — Article · Topics: Macros & Metaprogramming · Swift · Testing
+  **Published:** `2023-09-24T00:00:00.000Z`
+  **NeKI brief:** Examines A new macro-based approach to testing in Swift in the context of Macros & Metaprogramming and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Create an Interactive Widget Using App Intents](https://www.swiftjectivec.com/snip-create-a-basic-interactive-widget-using-app-intent-button) — iOS Dev Weekly · Issue 617 — Article · Topics: App Intents & System Surfaces · Developer Community & Business · Swift
   **Published:** `7th July 2023`
   **NeKI brief:** Discusses Create an Interactive Widget Using App Intents in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
@@ -357,6 +441,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [course](https://youtube.com/playlist?list=PLvUWi5tdh92wWS3F-AVsCJHkhBlrkBp6f) — SwiftUI Weekly · SwiftUI Weekly - Issue #140 — Video · Topics: Developer Community & Business · Navigation & Deep Linking · Swift
   **Published:** `2023-04-25T07:37:25.660Z`
   **NeKI brief:** Provides a SwiftUI learning course playlist covering navigation and related interface patterns. Use it as a structured route through implementations, checking each example against current APIs before adopting its presentation or state-management techniques.
+- [📑 Linting your documentation on CI](https://getstream.io/blog/linting-documentation-with-vale) — iOS CI Newsletter · Issue 14 — Article · Topics: Developer Community & Business
+  **Published:** `2023-04-23T00:00:00.000Z`
+  **NeKI brief:** Examines Linting your documentation on CI in the context of Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Container Pattern in SwiftUI](https://azamsharp.com/2023/01/24/introduction-to-container-pattern.html) — SwiftUI Weekly · SwiftUI Weekly - Issue #129 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `2023-01-30T11:20:24.661Z`
   **NeKI brief:** Introduces the SwiftUI container pattern for separating screen composition from data-loading and coordination responsibilities. Useful when extracting feature-level dependencies without turning view bodies into implicit service locators.
@@ -375,6 +462,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift Package Plugins and Xcode 14](https://blog.eidinger.info/xcode-integration-of-swift-package-plugins-in-xcode-14) — iOS Dev Weekly · Issue 563 — Tutorial · Topics: Swift · Swift Package Manager · Xcode
   **Published:** `17th June 2022`
   **NeKI brief:** Explores Swift Package Plugins and Xcode 14, focusing on the article discusses wasn’t expecting apple to turn around and. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [AppForce1 podcast](https://www.buzzsprout.com/1414396/10721946?ref=ioscodereview.com) — iOS Code Review · Issue 25 — Podcast · Topics: Developer Community & Business
+  **Published:** `2022-06-16T10:30:01.000Z`
+  **NeKI brief:** Examines AppForce1 podcast in the context of Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [TabView](https://swiftontap.com/tabview?ref=ioscodereview.com) — iOS Code Review · Issue 17 — Article · Topics: Developer Community & Business · Swift · SwiftUI
+  **Published:** `2022-02-24T11:04:06.000Z`
+  **NeKI brief:** Examines TabView in the context of Developer Community & Business and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) — iOS Dev Weekly · Issue 545 — Tutorial · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `11th February 2022`
   **NeKI brief:** Provides a sequence of SwiftUI exercises that build from view composition into state, navigation, and platform integration. Use it as structured onboarding or a gap-finding checklist, not as a current API reference.
@@ -398,7 +491,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explores the full list of posts here, focusing on these regrets from jordan rose are fascinating. it’s easy to. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Build an iOS News App with SwiftUI 3 & NewsAPI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9TFJuYkZqcTBiVE0iLCJwb3N0X2lkIjoiMzZjZjViY2ItZjA1Ny00MzdhLTlmNzYtYzA0NDU3NGFkMmI3IiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6ImVjMmY1MWE2LWUxY2MtNDFhYy04YTE4LWRkMTdkMTExOGY2MCIsImlhdCI6MTY3NDA2MjY3Ny4wNjEsImlzcyI6Im9yY2hpZCJ9.r7-p50YbFCYfvRxSccrB_jpoMBivOTJRcLwl-txmetU) — SwiftUI Weekly · SwiftUI Weekly - Issue #66 — Tutorial · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `2021-07-06T10:24:10.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Walks through a SwiftUI 3 news app backed by NewsAPI. Use it as an end-to-end reference for networking, decoding, list presentation, and loading or error states in a small app.
 - [This post from Marco Arment](https://marco.org/2021/06/03/developer-relations) — iOS Dev Weekly · Issue 510 — Article · Topics: Developer Community & Business · Objective-C & Cocoa · Swift
   **Published:** `4th June 2021`
   **NeKI brief:** Explores This post from Marco Arment, focusing on looking around twitter and the web this week, i see. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -452,7 +545,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Reports Apple's decision to allow AltConf to stream the WWDC keynote after earlier event friction. It is a historical note on the growth of ticket-independent developer-conference participation.
 - [Build an app with SwiftUI](https://designcode.io/swiftui) — iOS Dev Weekly · Issue 410 — Tutorial · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `28th June 2019`
-  **NeKI brief:** Examines Learn how to create custom UIs and animations in SwiftUI, focusing on 6-hour video course teaching design, coding custom user interfaces and animated interactions for ios 13. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
+  **NeKI brief:** Covers Build an app with SwiftUI, focusing on Apple UI composition and interaction design. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
 - [Design+Code YouTube channel](https://www.youtube.com/channel/UCTIhfOopxukTIRkbXJ3kN-g) — iOS Dev Weekly · Issue 410 — Video · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `28th June 2019`
   **NeKI brief:** Examines Design+Code YouTube channel, focusing on i’ve been keeping a close eye on the design+code youtube channel over the last couple of weeks while meng to has been…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
@@ -621,6 +714,16 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [UIDevice+UniqueIdentifier](https://github.com/gekitz/UIDevice-with-UniqueIdentifier-for-iOS-5) — iOS Dev Weekly · Issue 4 — Source repository · Topics: Developer Community & Business · Developer Tools
   **Published:** `26th August 2011`
   **NeKI brief:** Provides the UIDevice+UniqueIdentifier source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [MiniKotlin](https://go.peterfriese.dev/minikotlin?s=newsletter&t=ext) — Not only Swift · Issue 99 — Tutorial · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Introduces a from-scratch Kotlin-to-WebAssembly compiler written in C and compiled to WebAssembly itself. The project is useful comparative reading for browser-hosted language tooling, multi-file compilation, and entirely client-side execution.
+- [IDE](https://go.peterfriese.dev/minikotlin-studio?s=newsletter&t=ext) — Not only Swift · Issue 99 — Tutorial · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Offers a small multi-file Kotlin IDE that compiles to WebAssembly and runs inside the browser. Use it as a concrete companion to MiniSwift when comparing editor, compiler, and runtime boundaries in portable teaching tools.
+- [SwiftUI: @State is a macro](https://go.peterfriese.dev/swiftui-state-macro?s=web&t=ext) — Not only Swift · Issue 99 — Tutorial · Topics: Macros & Metaprogramming · Swift · SwiftUI
+  **NeKI brief:** Explains Xcode 27’s implementation of SwiftUI State as a macro, including initialization fixes, AttributeGraph nodes, DynamicProperty injection, and invalidation. Use it to understand changed internals without assuming implementation details are a stable public contract.
+- [ELIZA itself](https://go.peterfriese.dev/try-eliza-online?s=newsletter&t=ext) — Not only Swift · Issue 99 — Tutorial · Topics: Developer Community & Business
+  **NeKI brief:** Runs a browser reconstruction of the 1966 ELIZA interpreter with the genuine DOCTOR script. The interactive comparison helps reveal how rule ordering and user interpretation produce conversational effects from a small symbolic system.
+- [typeset](https://github.com/peterfriese/swift-book) — Not only Swift · Issue 98 — Source repository · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **NeKI brief:** Provides Peter Friese’s Swift book materials and examples as a public reference for learning and teaching core Swift concepts. Use it for structured study, not as version-specific API authority.
 - [Build with AI @ Bletchley Park 2025](https://www.tnmoc.org/events/2025/7/12/build-with-ai-bletchley-park-2025) — Not only Swift · Issue 87 — Article · Topics: AI Development · Developer Community & Business · Personal Essays
   **NeKI brief:** Discusses Build with AI @ Bletchley Park 2025 in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
 - [this repository](https://github.com/FirebaseExtended/firebase-video-samples/tree/main/firebase-ai-friendly-meals/apple) — Not only Swift · Issue 85 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools

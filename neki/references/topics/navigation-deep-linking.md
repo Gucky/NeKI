@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Navigation stacks, routing, deep links, destinations, and restoration.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **107**
+- Last collected: `2026-08-05T08:59:22Z`
+- Indexed links shown: **110**
 
 ## Direct-source reading
 
@@ -36,6 +36,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI Liquid Glass sheets with NavigationStack and Form](https://nilcoalescing.com/blog/LiquidGlassSheetsWithNavigationStackAndForm) — Nil Coalescing · article catalogue
   **Published:** `2026-04-01`
   **NeKI brief:** Explains composing Liquid Glass sheets with NavigationStack and Form, including presentation structure and styling boundaries. Follow it when migrating modal editing flows to iOS 26 while keeping navigation titles, controls, and form content legible.
+- [Navigator: Advanced Navigation Support for SwiftUI - iOS Dev Tools](https://iosdev.tools/blog/navigator) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-02-13T12:37:25+00:00`
+  **NeKI brief:** Profiles Navigator as advanced Navigation Support for SwiftUI. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [AppRouter: Navigate SwiftUI With Confidence - iOS Dev Tools](https://iosdev.tools/blog/approuter) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-07-18T14:36:32+00:00`
+  **NeKI brief:** Profiles AppRouter as navigate SwiftUI With Confidence. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Universal Links implementation on iOS - SwiftLee](https://www.avanderlee.com/swiftui/universal-links-ios) — Antoine van der Lee articles · article catalogue
   **Published:** `2025-05-12T07:18:42+00:00`
   **NeKI brief:** Details Universal Links setup across associated domains, application routing, and fallback behavior when a link cannot open the app. The checklist is useful for diagnosing why valid HTTPS links remain in Safari.
@@ -256,7 +262,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Implements a router pattern for SwiftUI navigation with centralized route decisions. Useful for making deep links, modal presentation, and navigation tests deterministic while keeping views focused on rendering.
 - [My Favorite SwiftUI Updates in iOS 18](https://www.youtube.com/watch?v=aCbh9LmIZTI) — SwiftUI Weekly · SwiftUI Weekly - Issue #192 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2024-07-02T09:09:59.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Reviews notable SwiftUI updates arriving with iOS 18. Useful as a visual overview before drilling into individual API documentation and deployment constraints.
 - [handling deeplinks on iOS 14](https://www.donnywals.com/handling-deeplinks-in-ios-14-with-onopenurl) — SwiftUI Weekly · SwiftUI Weekly - Issue #188 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
   **Published:** `2024-05-27T10:42:14.070Z`
   **NeKI brief:** Handles deep links in SwiftUI using onOpenURL on iOS 14. Useful for routing incoming URLs into navigation state while supporting early SwiftUI deployments.
@@ -275,9 +281,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Mastering NavigationStack in SwiftUI. Navigator Pattern.](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3N3aWZ0d2l0aG1hamlkLmNvbS8yMDIyLzA2LzE1L21hc3RlcmluZy1uYXZpZ2F0aW9uc3RhY2staW4tc3dpZnR1aS1uYXZpZ2F0b3ItcGF0dGVybi8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiJlOGMyZGIwMC05Y2NjLTRkOWItYmI5Ni1kMWU2MDU3NjFhOTciLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiY2E4YjI1ODQtMmEzYy00OWQ1LThlNzktNTM1NjdlNDI1OTY2IiwiaWF0IjoxNjc0MDYyNTU4Ljg3MywiaXNzIjoib3JjaGlkIn0.-tZb7r5BXvSxhCgyx7-7lMYTg9-uqRno78zJ8Lvvbjs) — SwiftUI Weekly · SwiftUI Weekly - Issue #107 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2022-06-21T10:41:22.000Z`
   **NeKI brief:** Explains a navigator pattern around NavigationStack, turning destinations and routing decisions into explicit state. Useful for testing deep links, centralizing navigation mutations, and keeping feature views independent of presentation mechanics.
+- [A new way to manage the back button title in iOS 14 with backButtonDisplayMode | Sarunw](https://sarunw.com/posts/new-way-to-manage-back-button-title-in-ios14?ref=ioscodereview.com) — iOS Code Review · Issue 5 — Article
+  **Published:** `2021-08-19T12:22:37.000Z`
+  **NeKI brief:** Explains UINavigationItem.backButtonDisplayMode and the title sources it controls, including default, generic, and minimal behavior. It helps change a pushed screen's back label through the navigation item rather than replacing the system back button.
 - [Using UIKit Components in SwiftUI (Coordinators)](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9V29KdHJsREJseVkiLCJwb3N0X2lkIjoiZjhkYzQzOWQtNjdhOS00N2IwLWI0NzEtOTE2YzY0MWZlN2FjIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6IjNmMDQyMTgxLWQ3NWUtNGE0ZC1hNmE5LWJjM2UwYjBlYTBkZiIsImlhdCI6MTY3NDA2MjY3OC44OTUsImlzcyI6Im9yY2hpZCJ9.61EuLk6HarMsg30D45ewI7xYWDhIoZOmzg6CjyKYvDE) — SwiftUI Weekly · SwiftUI Weekly - Issue #48 — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
   **Published:** `2021-03-01T13:49:29.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Demonstrates using UIKit components from SwiftUI through representable wrappers and coordinators. Use it when incrementally migrating screens while preserving delegate-driven controls and imperative lifecycle behavior.
 - [MVP and Coordinators in SwiftUI](https://lascorbe.com/posts/2020-04-27-MVPCoordinators-SwiftUI-part1) — iOS Dev Weekly · Issue 454 — Article · Topics: Architecture · Swift · SwiftUI
   **Published:** `1st May 2020`
   **NeKI brief:** Examines MVP and Coordinators in SwiftUI, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.

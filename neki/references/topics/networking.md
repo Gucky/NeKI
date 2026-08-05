@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** URLSession, HTTP, GraphQL, WebSockets, API clients, and network reliability.
 
-- Last collected: `2026-07-24T20:14:23Z`
-- Indexed links shown: **239**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **248**
 
 ## Direct-source reading
 
@@ -96,6 +96,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Network Requests Optimization using Xcode's Simulator & Agents - SwiftLee](https://www.avanderlee.com/ai-development/network-requests-optimization-using-xcodes-simulator-agents) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-04-14T09:06:47+00:00`
   **NeKI brief:** Combines simulator observation with agent-assisted profiling to inspect slow network requests, identify repeated work, and verify improvements. It provides a concrete loop for measuring request behavior rather than trusting perceived UI responsiveness.
+- [Clash X: A Network Configuration and Management Tool - iOS Dev Tools](https://iosdev.tools/blog/clash-x) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-03-20T11:12:00+00:00`
+  **NeKI brief:** Profiles Clash X as a Network Configuration and Management Tool. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [RequestSpec: Make Your Networking Code More Maintainable, Organized, and Testable - iOS Dev Tools](https://iosdev.tools/blog/requestspec) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2026-03-06T12:42:00+00:00`
+  **NeKI brief:** Profiles RequestSpec as make Your Networking Code More Maintainable, Organized, and Testable. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [VoiceOver Navigator & 120 FPS Recordings for Xcode's Simulator](https://www.avanderlee.com/xcode/voiceover-navigator-120-fps-recordings-for-xcode-simulator) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-02-24T11:11:21+00:00`
   **NeKI brief:** Shows simulator VoiceOver navigation and 120-FPS recording workflows for inspecting accessibility and animation details. The combination provides more diagnostic fidelity than screenshots when reporting focus order or motion regressions.
@@ -105,6 +111,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The Great Connection Pool Meltdown](https://blog.jacobstechtavern.com/p/the-great-connection-pool-meltdown) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2025-11-06T16:02:23.569Z`
   **NeKI brief:** Analyses a production connection-pool failure and the cascading effects of saturation, retries, and recovery. Follow it for distributed-systems failure signals that can inform networking diagnostics in mobile backends.
+- [Mocking Star: One Stop Solution for UI‑Test Networking - iOS Dev Tools](https://iosdev.tools/blog/mocking-star) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-11-05T10:45:00+00:00`
+  **NeKI brief:** Profiles Mocking Star as one Stop Solution for UI‑Test Networking. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Real-time systems with Combine and WebSockets](https://blog.jacobstechtavern.com/p/combine-vs-websockets) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2025-06-16T14:02:50.719Z`
   **NeKI brief:** Model a WebSocket feed as a stream with explicit connection, decoding, error, cancellation, and reconnection behavior, then compose downstream updates through Combine. Keep transport lifetime separate from UI subscriptions so reconnect policy and backpressure do not become accidental view-state behavior.
@@ -483,6 +492,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** An event-driven HTTP server can assign connection I/O and parsing to queues, but must retain per-client state, apply backpressure, and serialize each connection’s protocol transitions.
 - [Manipulating networking requests and responses with Charles](https://tanaschita.com/tools-charles-proxy-manipulating-network-requests-and-responses) — Tanaschita · article catalogue
   **NeKI brief:** Uses Charles Breakpoints to intercept a matched request or response, edit its payload, and release the modified data to the app. This creates deterministic tests for malformed, missing, or unexpected server values without changing the production endpoint.
+- [Building a reusable API client with URLSession in Swift](https://tanaschita.com/swift-urlsession) — Tanaschita · article catalogue
+  **NeKI brief:** Builds a small async URLSession API client that centralises request construction, status-code validation and JSON decoding. Configuration injection and cancellation handling show how to keep feature endpoints concise without hiding transport failures.
 - [GraphQL essentials for iOS development](https://tanaschita.com/graphql-essentials-for-ios) — Tanaschita · article catalogue
   **NeKI brief:** GraphQL essentials frames schema, queries and selected fields from an iOS client perspective. The key trade-off is flexible payload shape versus client and server schema coordination, especially as queries become feature-specific.
 - [Getting started with Apollo iOS for GraphQL in Swift](https://tanaschita.com/graphql-apollo-for-ios) — Tanaschita · article catalogue
@@ -511,6 +522,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Syncing SwiftData with a custom backend using HistoryObserver](https://azamsharp.com/2026/07/16/syncing-swiftdata-with-a-custom-backend-using-historyobserver.html) — iOS Dev Weekly · Issue 760 — Article · Topics: Networking · Persistence & Synchronisation · SwiftData
   **Published:** `24th July 2026`
   **NeKI brief:** Builds a one-way synchronisation pipeline from SwiftData HistoryObserver transactions to a REST backend. Persisting the last processed transaction token avoids duplicate uploads; server-to-client changes remain a separate responsibility.
+- [URLRequest](https://nilcoalescing.com/blog/AsyncImageImprovementsInSwiftUIOnIOS27?ref=ioscodereview.com) — iOS Code Review · Issue 82 — Article · Topics: Concurrency · Swift · SwiftUI
+  **Published:** `2026-07-14T19:04:53.000Z`
+  **NeKI brief:** Covers iOS 27 AsyncImage improvements for loading behavior and presentation. Useful when replacing custom image loaders, while checking cache, cancellation, and failure semantics against the deployment target.
 - [AsyncImage improvements in iOS 27](https://nilcoalescing.com/blog/AsyncImageImprovementsInSwiftUIOnIOS27?ref=createwithswift.com) — Create with Swift · Issue 113 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2026-06-27T18:12:28.000Z`
   **NeKI brief:** Covers iOS 27 AsyncImage improvements for loading behavior and presentation. Useful when replacing custom image loaders, while checking cache, cancellation, and failure semantics against the deployment target.
@@ -531,13 +545,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Frames iOS performance as a measurement and prioritization problem rather than a collection of tricks. Follow it when planning investigations, connecting user-visible symptoms to traces, and choosing fixes that improve the actual bottleneck.
 - [Production SwiftUI: Scalable Networking Architecture With Async/Await And Generics](https://www.youtube.com/watch?v=M5ZUGBeugP4) — Those Who Swift · Issue 266 — Video · Topics: Architecture · Concurrency · Networking
   **Published:** `2026-05-13`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds a protocol-driven SwiftUI networking stack with a Sendable API client, typed errors, endpoints, services, dependency injection, and preview mocks. The architectural discussion clarifies boundaries between view models, services, and concurrency isolation.
 - [participate here](https://forums.swift.org/t/prospective-vision-networking) — Fatbobman’s Swift Weekly · Issue 128 — Article · Topics: Developer Community & Business · Networking · Swift
   **Published:** `2026-03-23T12:02:22.360Z`
   **NeKI brief:** The Swift networking vision discussion collects community feedback on simplifying overlapping APIs across URLSession, Network.framework, SwiftNIO, and HTTP clients. Follow it when a networking abstraction decision depends on the ecosystem's future direction.
 - [Building a Reusable Network Manager in Swift](https://www.youtube.com/watch?v=zEzIxdA8zLQ) — Those Who Swift · Issue 256 — Video · Topics: Concurrency · Networking · Swift
   **Published:** `2026-03-06`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Refactors view-specific URLSession code into a generic async NetworkManager with HTTP validation, typed failures, dictionary and array decoding, and caller-configured date strategies. Useful for keeping decoding flexibility outside the shared transport layer.
 - [Mobile Engineers, You’re All Full-Stack](https://newsletter.mobileengineer.io/p/mobile-engineers-youre-all-full-stack?r=g891u&triedRedirect=true) — Those Who Swift · Issue 248 — Article · Topics: Code Quality · Networking · Persistence & Synchronisation
   **Published:** `2026-01-08`
   **NeKI brief:** Examines Mobile Engineers, You’re All Full-Stack, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -550,6 +564,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iPhone Apps 101 - SwiftUI App Development Course](https://paulsolt.teachable.com/p/iphoneapps101?affcode=1123_hyqyixcy) — SwiftLee Weekly · Issue 254 — Tutorial · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `2025-01-14T14:03:25.000Z`
   **NeKI brief:** Introduces iPhone Apps 101 - SwiftUI App Development Course as a developer resource or service relevant to Swift and Apple-platform work. Use it to assess the stated workflow or offering, checking scope, pricing, access requirements, and technical fit before relying on it.
+- [appstoreconnect-swift-sdk](https://github.com/AvdLee/appstoreconnect-swift-sdk) — iOS CI Newsletter · Issue 56 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `2024-12-02T00:00:00.000Z`
+  **NeKI brief:** Examines this project, focusing on the app store connect api is available and documented! straight away, antoine van der lee jumped into action and started…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [How to Use URLSession with Async/Await for Network Requests in Swift](https://www.avanderlee.com/concurrency/urlsession-async-await-network-requests-in-swift?ref=createwithswift.com) — Create with Swift · Issue 35 — Article · Topics: Concurrency · Networking · Swift
   **Published:** `2024-11-08T16:05:59.000Z`
   **NeKI brief:** Builds URLSession requests with async/await, HTTP validation, decoding, and typed error handling without third-party networking frameworks. The sequence provides a concrete baseline for deciding where retries and cancellation belong.
@@ -580,6 +597,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Introducing Swift HTTP Types](https://www.swift.org/blog/introducing-swift-http-types) — iOS Dev Weekly · Issue 618 — Article · Topics: Networking · Swift
   **Published:** `14th July 2023`
   **NeKI brief:** Explores Introducing Swift HTTP Types, focusing on what an excellent idea this is. i hope this becomes the last ever swift implementation of these core networking types!. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Implementing reachability](https://www.avanderlee.com/swift/optimizing-network-reachability?ref=ioscodereview.com) — iOS Code Review · Issue 47 — Article · Topics: Networking · Swift
+  **Published:** `2023-04-28T10:30:39.000Z`
+  **NeKI brief:** Uses NWPathMonitor to observe connectivity without treating reachability as proof that a request will succeed. Useful for gating retries or UI hints while keeping the server response authoritative.
+- [URLRequest cache policies](https://tanaschita.com/20221031-managing-cache-when-working-with-urlsession-in-ios?ref=ioscodereview.com) — iOS Code Review · Issue 37 — Article · Topics: Networking
+  **Published:** `2022-11-18T11:51:59.000Z`
+  **NeKI brief:** URLRequest cache policies control reuse, validation and network freshness. The comparison is useful for choosing per-request behavior rather than applying a global cache assumption to every endpoint.
+- [Decode an array with a corrupted element | Sarunw](https://sarunw.com/posts/decode-array-with-corrupted-element?ref=ioscodereview.com) — iOS Code Review · Issue 19 — Article · Topics: Foundation & Data Formats
+  **Published:** `2022-03-24T11:50:04.000Z`
+  **NeKI brief:** Codable normally fails an entire array when one element violates its schema, which is the right default for controlled APIs. For legacy or third-party data, decode elements through a lossy optional wrapper, discard failures deliberately, and log the data-quality trade-off.
 - [Download Progress With Awaited Network Tasks](https://khanlou.com/2021/10/download-progress-with-awaited-network-tasks) — iOS Dev Weekly · Issue 529 — Article · Topics: Concurrency · Networking
   **Published:** `15th October 2021`
   **NeKI brief:** Explores Download Progress With Awaited Network Tasks, focusing on so, if you no longer need to deal with urlsessiondatatask. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -597,7 +623,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines URLSession's Delegate Queue Should Be the Main Queue, offering practical guidance on networking and asynchronous reliability. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
 - [GraphQL Interfaces, Unions, and Fragments In SwiftUI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9SE5rc2lxTXVQMUkiLCJwb3N0X2lkIjoiMjRiMzQ3YmQtZTA2NS00ZGJmLThjMTAtMzJhZjQ4ZTM1MTZmIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6Ijk4ZDliYTZjLWE2NjAtNDdiOC1iZjg1LTQwZmU4ODY2OGViOCIsImlhdCI6MTY3NDA2MjczNi43OTMsImlzcyI6Im9yY2hpZCJ9.teolY23pM5QygzOT8FIwGcxuhQfPjdSLMQLZxLbATNo) — SwiftUI Weekly · SwiftUI Weekly - Issue #29 — Article · Topics: Swift · SwiftUI
   **Published:** `2020-09-28T20:44:06.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Introduces GraphQL interfaces, unions, and fragments in a SwiftUI client context. Use it to reason about decoding polymorphic API results before mapping them into stable view models.
 - [full details here](https://forums.swift.org/t/alamofire-5-one-year-in-the-making-now-in-beta/18865) — iOS Dev Weekly · Issue 444 — Article · Topics: Networking · Swift
   **Published:** `21st February 2020`
   **NeKI brief:** Examines Alamofire 5: One Year in the Making, Now in Beta!, focusing on it struck me as i read this announcement of a major new version of alamofire how it feels like we’re way less dependent…. Use it as a focused research reference for related.

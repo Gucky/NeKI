@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple Intelligence, Foundation Models, ML, generative-AI workflows, and developer tooling.
 
-- Last collected: `2026-07-28T20:15:53Z`
-- Indexed links shown: **252**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **288**
 
 ## Direct-source reading
 
@@ -78,6 +78,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Exploring the Foundation Models framework](https://www.createwithswift.com/exploring-the-foundation-models-framework) — Create with Swift · article catalogue
   **Published:** `2025-08-07T13:00:24.000Z`
   **NeKI brief:** Introduces Apple's Foundation Models framework and its on-device language-model capabilities. Useful for mapping model sessions, availability, and structured generation before integrating AI into an app.
+- [AI Git Narrator: Explain Your Code’s Journey With AI Narration - iOS Dev Tools](https://iosdev.tools/blog/aigitnarrator) — iOS Dev Tools Blog · article catalogue
+  **Published:** `2025-07-18T14:26:38+00:00`
+  **NeKI brief:** Profiles AI Git Narrator as explain Your Code’s Journey With AI Narration. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
 - [Dancing with AI - My Month with Claude Code](https://fatbobman.com/en/posts/dancing-with-ai-my-month-with-claude-code) — Fatbobman · article catalogue
   **Published:** `2025-07-02T14:12:00.000Z`
   **NeKI brief:** Reflects on a month using Claude Code while emphasizing active programming judgment and the risk of becoming a spectator. Use it to evaluate where agent speed supports learning versus where it erodes technical understanding.
@@ -247,6 +250,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [AI Broke Code Review. Here’s How to Rebuild It.](https://swiftandmemes.com/ai-broke-code-review-heres-how-to-rebuild-it) — iOS Dev Weekly · Issue 761 — Article · Topics: AI Development · Code Quality · Developer Community & Business
+  **Published:** `31st July 2026`
+  **NeKI brief:** Proposes a layered review pipeline for AI-generated changes, combining deterministic checks, focused automated reviewers, architectural scrutiny, and human judgment. The structure is useful when increased code volume overwhelms a traditional single-pass pull-request review.
+- [Bridging Gemini Video with Foundation Models and CustomSegment](https://rudrank.com/exploring-foundation-models-bridging-gemini-video-with-customsegment) — Those Who Swift · Issue 277 — Article · Topics: AI Development · Foundation & Data Formats · Graphics, Media & Games
+  **Published:** `2026-07-29T20:01:55.196Z`
+  **NeKI brief:** Bridges unsupported video input through a custom Transcript segment and LanguageModelExecutor that delegates analysis to Gemini. The layered verification is useful when extending Foundation Models-style sessions beyond the on-device model’s native modalities.
+- [📈 New Pull Request Metrics in the GitHub API](https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api) — iOS CI Newsletter · Issue 91 — Article · Topics: AI Development · Code Quality · Developer Tools
+  **Published:** `2026-07-28T00:00:00.000Z`
+  **NeKI brief:** Examines New Pull Request Metrics in the GitHub API in the context of AI Development and Code Quality. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Foundation Models Utilities](https://livsycode.com/swift/foundation-models-utilities?ref=createwithswift.com) — Create with Swift · Issue 117 — Article · Topics: AI Development · Swift · Swift Package Manager
   **Published:** `2026-07-24T15:00:34.000Z`
   **NeKI brief:** Surveys Apple's experimental Foundation Models Utilities package: hosted Chat Completions models, transcript dropping, rolling windows, summarisation, and runtime-loaded skills. It also makes the context-loss and platform-version trade-offs explicit before these patterns stabilise.
@@ -280,9 +292,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI Performance](https://livsycode.com/swiftui/the-swiftui-performance-skill) — iOS Dev Weekly · Issue 758 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `10th July 2026`
   **NeKI brief:** Introduces an agent skill for investigating SwiftUI performance through view lifecycle, rendering behavior, and measurement-oriented workflows. Follow it when giving coding agents repeatable performance diagnostics, while validating conclusions with Instruments and real app traces.
+- [Introducing the Safari MCP server for web developers](https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers) — SwiftLee Weekly · Issue 331 — Article · Topics: AI Development · Cross-Platform & Web
+  **Published:** `2026-07-07T14:05:55.000Z`
+  **NeKI brief:** Examines Safari now has an MCP! in the context of AI Development and CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Swift Algorithms & Data Structures](https://waynewbishop.github.io/swift-algorithms) — Fatbobman’s Swift Weekly · Issue 143 — Article · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-07-06T12:03:13.020Z`
   **NeKI brief:** Collects Swift algorithms and data-structure examples in runnable form, making it useful for comparing standard-library techniques, complexity trade-offs, and interview-style implementations before introducing custom utilities.
+- [A Community Agent Skill for Swift Testing](https://github.com/twostraws/Swift-Testing-Agent-Skill?ref=ioscodereview.com) — iOS Code Review · Issue 81 — Source repository · Topics: Developer Community & Business · Swift · Testing
+  **Published:** `2026-06-30T16:31:22.000Z`
+  **NeKI brief:** Provides the source and change history for A Community Agent Skill for Swift Testing, relevant to Developer Community & Business and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Testing Foundation Models: Code That Won’t Give The Same Answer Twice](https://www.wesleymatlock.com/testing-on-device-ai-swift-testing) — Those Who Swift · Issue 271 — Article · Topics: AI Development · Foundation & Data Formats · Testing
   **Published:** `2026-06-18`
   **NeKI brief:** Discusses testing nondeterministic Foundation Models output with Swift Testing. Use it when designing assertions for on-device AI, focusing on stable structure, bounded behavior, and controlled inputs instead of brittle exact-text comparisons.
@@ -292,6 +310,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Stop configuring MCPs in every AI app](https://www.mcp-beast.ai/mac-app-ios-developers) — SwiftLee Weekly · Issue 328 — Article · Topics: AI Development · Developer Tools · Persistence & Synchronisation
   **Published:** `2026-06-16T14:06:32.000Z`
   **NeKI brief:** Explores centralizing MCP configuration so multiple AI clients can share one setup. Use it when reducing repeated tool registration across development environments, while reviewing credential handling and client-specific capability differences.
+- [Foundation Models can now swap providers](https://www.techtimes.com/articles/318039/20260609/wwdc-2026-developer-tools-foundation-models-now-swaps-ai-providers-without-code-changes.htm?ref=ioscodereview.com) — iOS Code Review · Issue 80 — Article · Topics: AI Development · Foundation & Data Formats · Xcode
+  **Published:** `2026-06-15T17:08:20.000Z`
+  **NeKI brief:** Examines Foundation Models can now swap providers in the context of AI Development and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Vibedock](https://vibedock.dev/) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Article · Topics: AI Development · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Vibedock is a developer-oriented product for organizing AI-assisted coding workflows. Use it as a discovery lead when comparing agent workspaces, and verify supported providers, project isolation, and data-handling policies before relying on it.
@@ -304,6 +325,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using Xcode MCP With Claude Code](https://danielsaidi.com/blog/2026/04/30/using-xcode-mcp-with-claude-code) — Those Who Swift · Issue 267 — Article · Topics: AI Development · Swift · Xcode
   **Published:** `2026-05-21`
   **NeKI brief:** Describes connecting Claude Code to Xcode through Model Context Protocol. Follow it when evaluating agent-assisted build and debugging workflows, paying attention to permissions, simulator boundaries, generated changes, and human review checkpoints.
+- [Swift Student Challenge winners](https://9to5mac.com/2026/05/07/apple-highlights-four-swift-student-challenge-apps-ahead-of-wwdc-2026?ref=ioscodereview.com) — iOS Code Review · Issue 78 — Article · Topics: AI Development · Apple Platform Ecosystem · Swift
+  **Published:** `2026-05-16T17:59:28.000Z`
+  **NeKI brief:** Examines Swift Student Challenge winners in the context of AI Development and Apple Platform Ecosystem. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Chris Eidhof](https://m.objc.io/@chris) — Fatbobman’s Swift Weekly · Issue 135 — Tutorial · Topics: AI Development · Swift · SwiftUI
   **Published:** `2026-05-11T12:02:41.178Z`
   **NeKI brief:** Presents chris eidhof for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -375,16 +399,16 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Homebrew 5.0 documents the package manager's new parallel download behavior and release changes. Use it when diagnosing changed brew-upgrade behavior or evaluating how local developer-tool installations may become faster and more concurrent.
 - [Using SwiftUI Foundation Models Transcripts to build a Chatbot](https://www.youtube.com/watch?v=cyOqYbWpQzU) — Those Who Swift · Issue 240 — Video · Topics: AI Development · Foundation & Data Formats · Swift
   **Published:** `2025-11-12`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Builds an on-device travel chatbot from a Foundation Models LanguageModelSession transcript, rendering user and model messages with thinking, scrolling, availability, guardrail, and error states. Useful for connecting session history to SwiftUI presentation.
 - [AnyLanguageModel](https://github.com/mattt/AnyLanguageModel) — iOS Dev Tools · iOS Dev Tools: Clash X, AnyLanguageModel, HealthKit Data Generator — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
   **Published:** `2025-11-06T22:32:54.905Z`
   **NeKI brief:** AnyLanguageModel mirrors Apple's Foundation Models API while allowing alternative language-model providers, presenting a compatible abstraction for application code. Useful for testing provider substitution and keeping model integration behind a stable Swift interface.
 - [Guided Generation with Foundation Models in Swift](https://www.youtube.com/watch?v=kBwwztRY1FQ) — Those Who Swift · Issue 239 — Video · Topics: AI Development · Foundation & Data Formats · Swift
   **Published:** `2025-11-05`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Uses Foundation Models @Generable and @Guide macros for structured workout and title responses, including partial streaming and guardrail errors. Useful for comparing schema-guided output with parsing unconstrained model text.
 - [Optimize your app's speed and efficiency](https://www.youtube.com/watch?v=yXAQTIKR8fk) — SwiftLee Weekly · Issue 296 — Video · Topics: AI Development · Foundation & Data Formats · Performance
   **Published:** `2025-11-04T08:02:52.000Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Summarizes a Meet with Apple performance session spanning power use, Foundation Models response latency, SwiftUI responsiveness, and Snap's diagnostic tools. Useful as a map of optimization areas before consulting the corresponding primary guidance.
 - [Foundation Models profiling with Xcode Instruments](https://artemnovichkov.com/blog/foundation-models-profiling-with-xcode-instruments) — iOS Dev Weekly · Issue 731 — Article · Topics: Foundation & Data Formats · Performance · Xcode
   **Published:** `17th October 2025`
   **NeKI brief:** Examines Foundation Models Profiling with Xcode Instruments, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -397,6 +421,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [TranscriptDebugMenu](https://github.com/artemnovichkov/TranscriptDebugMenu) — Fatbobman’s Swift Weekly · Issue 105 — Source repository · Topics: AI Development · Foundation & Data Formats · Performance
   **Published:** `2025-10-06T12:03:37.161Z`
   **NeKI brief:** TranscriptDebugMenu is a debug surface for inspecting Foundation Models conversations and related app state. Use it alongside Xcode Instruments when testing session prewarming, tool calls, and model-output performance in development builds.
+- [🐙 Use GitHub Copilot directly from the Terminal](https://github.blog/changelog/2025-09-25-github-copilot-cli-is-now-in-public-preview) — iOS CI Newsletter · Issue 77 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2025-10-06T00:00:00.000Z`
+  **NeKI brief:** Examines Use GitHub Copilot directly from the Terminal in the context of AI Development and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Anthropic’s very popular Claude Code](https://www.claude.com/product/claude-code) — iOS CI Newsletter · Issue 77 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2025-10-06T00:00:00.000Z`
+  **NeKI brief:** Examines Anthropic’s very popular Claude Code in the context of AI Development and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Stop Wasting Context on Build Output](https://ldomaradzki.com/blog/stop-wasting-context-build-output) — iOS Dev Weekly · Issue 729 — Article · Topics: AI Development
+  **Published:** `3rd October 2025`
+  **NeKI brief:** Examines Start formatting your CI/CD output with AI in mind in the context of AI Development and CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [All about Swift Package Manager Traits](https://theswiftdev.com/2025/all-about-swift-package-manager-traits) — iOS Dev Weekly · Issue 729 — Article · Topics: AI Development · Swift · Swift Package Manager
   **Published:** `3rd October 2025`
   **NeKI brief:** Presents All about Swift Package Manager Traits, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -411,13 +444,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** This article covers a visual, comprehensive introduction to large language models. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [ChatGPT in Xcode 26: is it as good as Cursor or Claude Code?](https://www.youtube.com/watch?v=BCUjW0TkaUY) — Those Who Swift · Issue 229 — Video · Topics: AI Development · Xcode
   **Published:** `2025-08-27`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Compares Xcode 26's integrated ChatGPT workflow with Cursor and Claude Code from an iOS developer's perspective. Use it to identify editor-integration trade-offs and limitations rather than as a definitive tool ranking.
 - [How to Work with SwiftData in the Background in Swift 6](https://www.natashatherobot.com/p/swiftdata-background-swift-6) — Those Who Swift · Issue 228 — Article · Topics: AI Development · Swift · SwiftData
   **Published:** `2025-08-20`
   **NeKI brief:** Explains How to Work with SwiftData in the Background in Swift 6, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [Make Foundation Models Deterministic: Greedy Decoding in Swift](https://www.youtube.com/watch?v=Q6x3VeGlqwg) — Those Who Swift · Issue 228 — Video · Topics: AI Development · Foundation & Data Formats · Swift
   **Published:** `2025-08-20`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Configures Apple's Foundation Models GenerationOptions for greedy decoding so identical inputs produce more repeatable output. Useful for debugging and tests that need reduced sampling variance while recognizing model behavior is not universally deterministic.
 - [SwiftAgent](https://forums.swift.org/t/swiftagent-a-swift-native-agent-sdk-inspired-by-foundationmodels-and-using-its-tools/81634) — iOS Dev Weekly · Issue 722 — Article · Topics: AI Development · Foundation & Data Formats · Swift
   **Published:** `15th August 2025`
   **NeKI brief:** Presents swiftagent for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -469,12 +502,39 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Creating MCP Servers in Swift](https://www.artemnovichkov.com/blog/creating-mcp-servers-in-swift) — SwiftLee Weekly · Issue 268 — Article · Topics: AI Development · Swift
   **Published:** `2025-04-22T13:40:18.000Z`
   **NeKI brief:** Presents Creating MCP Servers in Swift, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [the Model Context Protocol, a new standard for providing context to LLMs](https://www.anthropic.com/news/model-context-protocol) — iOS CI Newsletter · Issue 66 — Article · Topics: AI Development
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Discusses Model Context Protocol in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
+- [ready-to-use MCP Servers](https://github.com/modelcontextprotocol/servers) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for ready-to-use MCP Servers, relevant to AI Development and Developer Community & Business. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Linear](https://github.com/jerhadf/linear-mcp-server) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Linear, relevant to AI Development and Developer Community & Business. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Filesystem](https://github.com/modelcontextprotocol/servers/blob/main/src/filesystem) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Filesystem, relevant to AI Development and Developer Community & Business. Inspect its implementation, open issues, and release state before adopting the approach.
+- [GitHub](https://github.com/modelcontextprotocol/servers/blob/main/src/github) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for GitHub, relevant to AI Development and Developer Community & Business. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Slack](https://github.com/modelcontextprotocol/servers/blob/main/src/slack) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Slack, relevant to AI Development and Developer Community & Business. Inspect its implementation, open issues, and release state before adopting the approach.
+- [🤖 Interacting with GitHub Actions from an AI Assistant](https://github.com/ko1ynnky/github-actions-mcp-server) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Interacting with GitHub Actions from an AI Assistant, relevant to AI Development and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [🤖 Interacting with Bitrise from an AI Assistant](https://bitrise.io/blog/post/chat-with-your-builds-ci-and-more-introducing-the-bitrise-mcp-server) — iOS CI Newsletter · Issue 66 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Examines Interacting with Bitrise from an AI Assistant in the context of AI Development and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [🍎 Can your AI Assistant help you with App Store Connect issues?](https://github.com/JoshuaRileyDev/app-store-connect-mcp-server) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
+  **Published:** `2025-04-20T00:00:00.000Z`
+  **NeKI brief:** Provides the source and change history for Can your AI Assistant help you with App Store Connect issues?, relevant to AI Development and App Distribution & Store Operations. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Creating MCP Servers in SwiftLearn how to create a Model Context Protocol server in SwiftArtem Novichkov](https://www.artemnovichkov.com/blog/creating-mcp-servers-in-swift?ref=createwithswift.com) — Create with Swift · Issue 57 — Article · Topics: AI Development · Swift
   **Published:** `2025-04-18T15:00:48.000Z`
   **NeKI brief:** Presents Creating MCP Servers in Swift, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
-- [Model Context Protocol (MCP)](https://www.anthropic.com/news/model-context-protocol) — iOS Dev Weekly · Issue 708 — Article · Topics: AI Development · Swift · Swift Package Manager
-  **Published:** `18th April 2025`
-  **NeKI brief:** Discusses Model Context Protocol in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
+- [🐙 GitHub Copilot code review now has Swift support](https://github.blog/changelog/2025-04-04-copilot-code-review-now-generally-available) — iOS CI Newsletter · Issue 65 — Article · Topics: AI Development · Code Quality · Developer Tools
+  **Published:** `2025-04-06T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub Copilot code review now has Swift support in the context of AI Development and Code Quality. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [mcp-swift-sdk](https://github.com/loopwork-ai/mcp-swift-sdk) — Fatbobman’s Swift Weekly · Issue 76 — Source repository · Topics: AI Development · Apple Platform Ecosystem · Swift
   **Published:** `2025-03-24T12:01:29.089Z`
   **NeKI brief:** mcp-swift-sdk implements Model Context Protocol server and client concepts in Swift. Use it when exposing Apple-platform data or app capabilities to an agent through typed tools rather than maintaining a bespoke JSON protocol.
@@ -490,6 +550,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Peek](https://prateekkeshari.gumroad.com/l/peek) — iOS Dev Tools · iOS Dev Tools: Statused, Compot, FreemiumKit — Article · Topics: AI Development · macOS & AppKit
   **Published:** `2025-03-06T18:01:47.698Z`
   **NeKI brief:** Peek is a paid developer resource or utility distributed through Gumroad. Use the page to inspect its stated workflow and scope, verifying ownership, licensing, updates, and whether it solves a concrete development problem before purchase.
+- [👨‍✈️ GitHub Copilot for Xcode is now generally available](https://github.blog/changelog/2025-02-14-code-completion-in-github-copilot-for-xcode-is-now-generally-available) — iOS CI Newsletter · Issue 62 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2025-02-23T00:00:00.000Z`
+  **NeKI brief:** Examines GitHub Copilot for Xcode is now generally available in the context of AI Development and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [AcceptedSE-0453InlineArray, a fixed-size array](https://github.com/apple/swift-evolution/blob/main/proposals/0453-vector.md) — SwiftLee Weekly · Issue 259 — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2025-02-18T15:10:59.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0453InlineArray, a fixed-size array. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -501,7 +564,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** MLX-Outil provides utilities around Apple's MLX machine-learning ecosystem for Swift or Apple-platform experiments. Follow it when evaluating local model tooling, checking supported models, performance, and API stability before production adoption.
 - [SwiftUI Image Playground](https://www.youtube.com/watch?v=fjtWpQGs5lU) — Those Who Swift · Issue 200 — Video · Topics: AI Development · Swift · SwiftUI
   **Published:** `2025-02-05`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Integrates Image Playground into SwiftUI so users can generate images from concepts or an existing source image. The walkthrough covers availability requirements, presentation, generated-image handling, and fallback-aware application structure.
+- [👨‍✈️ Give Copilot context about your repository](https://github.blog/changelog/2025-01-21-custom-repository-instructions-are-now-available-for-copilot-on-github-com-public-preview) — iOS CI Newsletter · Issue 60 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2025-01-28T00:00:00.000Z`
+  **NeKI brief:** Examines Give Copilot context about your repository in the context of AI Development and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Active ReviewSE-0456Add `Span`-providing Properties to Standard Library Types](https://github.com/apple/swift-evolution/blob/main/proposals/0456-stdlib-span-properties.md) — SwiftLee Weekly · Issue 255 — Source repository · Topics: AI Development · App Intents & System Surfaces · Swift
   **Published:** `2025-01-21T15:04:24.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0456Add `Span`-providing Properties to Standard Library Types. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -517,12 +583,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Translating an iOS/Mac app with AI and humans](https://adamwulf.me/2024/12/translating-an-ios-mac-app-with-ai-and-humans) — iOS Dev Weekly · Issue 694 — Article · Topics: AI Development
   **Published:** `10th January 2025`
   **NeKI brief:** Presents translating an ios/mac app with ai and humans for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Build High-Performance Chat Experiences Without the Hassle 🛠️](https://getstream.io/tutorials/ios-chat) — iOS CI Newsletter · Issue 58 — Tutorial · Topics: AI Development · Performance
+  **Published:** `2024-12-29T00:00:00.000Z`
+  **NeKI brief:** Walks through integrating Stream's chat SDK into an iOS app, including message UI and networking. Useful as an implementation reference when evaluating managed real-time messaging.
 - [Exploring MLX Swift: Adding On-Device Inference to your App](https://www.rudrank.com/exploring-mlx-swift-adding-on-device-inference-to-your-app) — SwiftLee Weekly · Issue 250 — Article · Topics: AI Development · Swift
   **Published:** `2024-12-17T10:30:53.000Z`
   **NeKI brief:** Presents Exploring MLX Swift: Adding On-Device Inference to your App, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [ChatGPT + XCodeVideo’s delen met vrienden, familie en de rest van de wereldYouTube](https://youtube.com/playlist?list=PLvHc56e5L-7xgZsgvF2yL7P13lmTwNcoh&ref=ioscodereview.com) — iOS Code Review · Issue 74 — Video · Topics: Graphics, Media & Games · Xcode
+  **Published:** `2024-12-04T11:30:50.000Z`
+  **NeKI brief:** Records ChatGPT + XCodeVideo’s delen met vrienden, familie en de rest van de wereldYouTube as a visual walkthrough relevant to Graphics, Media & Games and Xcode. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [Should we use Apple Intelligence for Text and Inputs in SwiftUI using writingToolsBehavior](https://medium.com/@jpmtech/should-we-use-apple-intelligence-for-text-and-inputs-in-swiftui-using-writingtoolsbehavior-49d662ce5ede) — SwiftLee Weekly · Issue 247 — Article · Topics: AI Development · Swift · SwiftUI
   **Published:** `2024-11-26T15:01:34.000Z`
   **NeKI brief:** Evaluates writingToolsBehavior for Apple Intelligence text assistance in SwiftUI inputs. Use it when deciding whether system writing tools fit an editor, checking availability, privacy expectations, and user-control requirements.
+- [Exploring Apple Intelligence: Writing ToolsUnderstand Writing Tools, powered by Apple Intelligence.Create with SwiftAntonella Giugliano](https://www.createwithswift.com/exploring-apple-intelligence-writing-tools?ref=ioscodereview.com) — iOS Code Review · Issue 73 — Article · Topics: AI Development · Swift · UIKit
+  **Published:** `2024-11-20T11:14:23.000Z`
+  **NeKI brief:** Covers Writing Tools across SwiftUI and UIKit, including intelligent animation and ecosystem integration. Use it to compare framework-specific adoption paths and identify where text-editing controls can inherit system writing assistance.
 - [Copilot is now available in Xcode (and it’s good!)](https://www.swiftwithvincent.com/blog/copilot-is-available-in-xcode) — SwiftLee Weekly · Issue 246 — Article · Topics: AI Development · Swift · Xcode
   **Published:** `2024-11-19T12:58:52.000Z`
   **NeKI brief:** Presents Copilot is now available in Xcode (and it’s good!), focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -541,15 +616,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Testing the Untestable](https://allenpike.com/2024/testing-automated-evals) — iOS Dev Weekly · Issue 686 — Article · Topics: AI Development · Testing
   **Published:** `8th November 2024`
   **NeKI brief:** Presents four phases for automated evaluation of LLM-powered features, moving beyond a convincing demo toward repeatable quality checks. Follow it when defining fixtures, evaluation criteria, and release confidence for output whose correctness is probabilistic rather than binary.
+- [GitHub Copilot for XcodeMicrosoft released an Xcode extension in a surprising turn of eventMediumThomas Ricouard](https://dimillian.medium.com/github-copilot-for-xcode-62931a645173?ref=ioscodereview.com) — iOS Code Review · Issue 72 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2024-11-06T11:00:17.000Z`
+  **NeKI brief:** Presents GitHub Copilot for Xcode, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [GitHub Copilot for Xcode](https://dimillian.medium.com/github-copilot-for-xcode-62931a645173) — SwiftLee Weekly · Issue 244 — Article · Topics: AI Development · Developer Tools · Xcode
   **Published:** `2024-11-05T21:06:10.000Z`
   **NeKI brief:** Presents GitHub Copilot for Xcode, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [the full event recap with a list of all announced features on GitHub’s website](https://github.blog/news-insights/product-news/universe-2024-previews-releases) — iOS CI Newsletter · Issue 54 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2024-11-03T00:00:00.000Z`
+  **NeKI brief:** Summarises the full event recap with a list of all announced features on GitHub’s website for AI Development and Developer Tools. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [Word??](https://github.blog/changelog/2024-10-29-github-copilot-code-completion-in-xcode-is-now-available-in-public-preview?ref=createwithswift.com) — Create with Swift · Issue 34 — Article · Topics: AI Development · Developer Tools · Swift
   **Published:** `2024-11-01T19:30:40.000Z`
   **NeKI brief:** Records GitHub Copilot code completion becoming available in Xcode public preview, including the integration’s scope at that point. Useful historical release context when evaluating Xcode-native AI completion capabilities against current tooling and team policy.
-- [Build High-Performance Chat Experiences Without the Hassle 🛠️](https://getstream.io/tutorials/ios-chat) — iOS Dev Weekly · Issue 680 — Tutorial · Topics: AI Development · Performance
-  **Published:** `30th September 2024`
-  **NeKI brief:** Walks through integrating Stream's chat SDK into an iOS app, including message UI and networking. Useful as an implementation reference when evaluating managed real-time messaging.
 - [Cross-Platform macOS/Windows Application Developed Using Swift 6](https://forums.swift.org/t/example-of-a-cross-platform-macos-windows-application-developed-using-swift-6/74591) — iOS Dev Weekly · Issue 679 — Article · Topics: AI Development · Cross-Platform & Web · Swift
   **Published:** `20th September 2024`
   **NeKI brief:** Presents cross-platform macos/windows application developed using swift 6 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -598,6 +676,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [chat app](https://github.com/huggingface/swift-chat) — iOS Dev Weekly · Issue 622 — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `11th August 2023`
   **NeKI brief:** Provides a macOS demonstration app for swift-transformers, showing how the project can host local language-model interactions. It is a concrete repository to inspect when evaluating a Swift-native prototype for on-device or desktop model experimentation.
+- [Copilot for Xcode - Integrated AI Code Assistance](https://github.com/pointfreeco/swiftui-navigation) — iOS Dev Tools · 🔨 Swift Power Unleashed & More AI — Source repository · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2023-06-08T13:48:24.016Z`
+  **NeKI brief:** Provides the source and change history for GitHub - pointfreeco/swiftui-navigation: Tools for making SwiftUI navigation simpler, more ergonomic and more…, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Apple Intelligence](https://bitsplitting.org/2023/05/25/apple-intelligence) — iOS Dev Weekly · Issue 611 — Article · Topics: AI Development · Xcode
   **Published:** `26th May 2023`
   **NeKI brief:** Explores Apple Intelligence, focusing on if, and it’s a huge if, apple announces anything related to ai in xcode, this is how they’ll do it. i’d also. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -609,7 +690,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explores Copilot for Xcode Works Okay, focusing on talking of copilot, christian tietze tried it, too. Follow it to assess the approach, its trade-offs, and where it fits in a current Swift or Apple-platform project.
 - [Can ChatGPT write better SwiftUI code than you?](https://www.youtube.com/watch?v=dxxCPdcMcFw) — SwiftUI Weekly · SwiftUI Weekly - Issue #136 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-03-27T21:57:02.938Z`
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Explores Can ChatGPT write better SwiftUI code than you?, focusing on there are a great many blog posts and youtube videos. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Using ChatGPT to Help Write SwiftUI Code](https://crunchybagel.com/using-chatgpt-to-help-write-swiftui-code-in-streaks) — iOS Dev Weekly · Issue 596 — Article · Topics: AI Development · Swift · SwiftUI
   **Published:** `10th February 2023`
   **NeKI brief:** Explores Using ChatGPT to Help Write SwiftUI Code, focusing on there have been so many blog posts on using chatgpt. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -619,6 +700,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How to use GitHub Copilot with Swift](https://antran.app/2021/github_copilot_swift) — iOS Dev Weekly · Issue 532 — Article · Topics: AI Development · Developer Tools · Swift
   **Published:** `5th November 2021`
   **NeKI brief:** Explores How to use GitHub Copilot with Swift, focusing on i’ve not thought much about github copilot since i wrote. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [playground with four improvement iterations](https://github.com/hybridcattt/remix-copilot-swift-playground/blob/main/RemixCopilot.playground/Contents.swift?ref=ioscodereview.com) — iOS Code Review · Issue 4 — Source repository · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2021-08-05T14:19:35.000Z`
+  **NeKI brief:** Provides the source and change history for playground with four improvement iterations, relevant to AI Development and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Spokestack - AutoML tools that put custom voice into software](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy5zcG9rZXN0YWNrLmlvLz91dG1fY2FtcGFpZ249bWFrZXJfbGF1bmNoX1BBSUQmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPXN3aWZ0dWlfd2Vla2x5IiwicG9zdF9pZCI6Ijk4NTQyZmUzLTllOWYtNGZmOC05OWMwLTQ0ODc1NzNiZDY0MiIsInB1YmxpY2F0aW9uX2lkIjoiNzk0OGVhNjUtY2I2ZS00Y2Q1LTk3MmMtMzFmOGM2ZDZjZGE0IiwidmlzaXRfdG9rZW4iOiJlMGQxNjc5Mi0xZmY1LTRhMjEtOTg0Yy00ZTk0MThiOWEzOWUiLCJpYXQiOjE2NzQwNjI2NzcuMDEsImlzcyI6Im9yY2hpZCJ9.atUK69hH2ROd-1KMu7E8qDPRvdFtWbAB5xcDUbJ8hiU) — SwiftUI Weekly · SwiftUI Weekly - Issue #63 — Article · Topics: AI Development · App Intents & System Surfaces · Cross-Platform & Web
   **Published:** `2021-06-14T22:35:11.000Z`
   **NeKI brief:** Presents Spokestack tools for adding custom voice interfaces and models to software. Use it as a discovery lead when evaluating speech-triggered features, model training workflow, and service dependencies.
@@ -634,6 +718,22 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Machine Learning for everyone](http://machinethink.net/blog/ios-11-machine-learning-for-everyone) — iOS Dev Weekly · Issue 305 — Article · Topics: AI Development · Graphics, Media & Games
   **Published:** `16th June 2017`
   **NeKI brief:** Explores Machine Learning for everyone in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [AgenticSwift — AI Macros for Swift](https://go.peterfriese.dev/ai-agenticswift-macros?s=web&t=ext) — Not only Swift · Issue 99 — Article · Topics: AI Development · Macros & Metaprogramming · Swift
+  **NeKI brief:** AgenticSwift experiments with a macro that asks a model to generate Swift implementation code. Inspect it to understand compile-time generation mechanics and the reproducibility, review, security, and build-dependency risks of placing an AI call in macro expansion.
+- [this prompt](https://go.peterfriese.dev/agenticswift-macro-prompt?s=newsletter&t=ext) — Not only Swift · Issue 99 — Article · Topics: AI Development · Macros & Metaprogramming · Swift
+  **NeKI brief:** Links directly to AgenticSwift’s macro implementation and embedded generation prompt. Use the source to audit what context is sent, how output becomes syntax, and where validation or deterministic fallbacks would be required.
+- [From code breaking to code making](https://go.peterfriese.dev/from-code-breaking-to?s=newsletter&t=ext) — Not only Swift · Issue 99 — Article · Topics: AI Development
+  **NeKI brief:** Traces a historical line from Bletchley Park code breaking to contemporary generative systems. Use the talk as computing-history framing for agentic development, not as current evidence about Apple APIs or model capabilities.
+- [presented](https://go.peterfriese.dev/keynote-presentation-at-tnmoc?s=newsletter&t=ext) — Not only Swift · Issue 99 — Article · Topics: AI Development
+  **NeKI brief:** Connects historical code breaking with modern code generation in a Bletchley Park keynote. It provides computing-history context for the issue’s ELIZA material rather than current Apple API guidance.
+- [Play](https://youtube.com/watch?v=qx5QWrKhxM8) — Not only Swift · Issue 98 — Video · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
+  **NeKI brief:** Demonstrates a Firebase bridge that makes Gemini models available through Apple’s Foundation Models-style API. Use it to compare a cloud-model fallback with on-device sessions while keeping authentication, privacy, latency, and API compatibility explicit.
+- [Claude](https://github.com/anthropics/ClaudeForFoundationModels) — Not only Swift · Issue 98 — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
+  **NeKI brief:** Provides an adapter that exposes Claude through APIs shaped like Apple’s Foundation Models framework. Use the source to compare provider substitution and compatibility boundaries while accounting separately for cloud authentication, data transfer, latency, and cost.
+- [Google](https://firebase.blog/posts/2026/06/apple-foundation-models-gemini) — Not only Swift · Issue 98 — Article · Topics: AI Development · Foundation & Data Formats
+  **NeKI brief:** Shows how Firebase can route Gemini through an interface compatible with Apple’s Foundation Models framework. It is useful for designing a cloud fallback, provided privacy, authentication, offline behavior, and model-capability differences remain explicit.
+- [Foundation Models framework utilities](https://github.com/apple/foundation-models-utilities) — Not only Swift · Issue 98 — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
+  **NeKI brief:** Apple’s experimental utilities repository collects emerging patterns for Foundation Models applications. Use it to inspect concrete helpers and examples, while treating the package as exploratory material whose APIs and production guarantees may still change.
 - [How Generative and Agentic AI shift concern from technical debt to cognitive debt](http://margaretstorey.com/blog/2026/02/09/cognitive-debt) — Not only Swift · Issue 96 — Article · Topics: AI Development · Testing
   **NeKI brief:** This article covers how generative and agentic AI can shift technical debt into cognitive debt. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [MCP is dead. Long live the CLI](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html) — Not only Swift · Issue 95 — Article · Topics: AI Development · Cross-Platform & Web · Developer Tools
@@ -641,7 +741,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Perspective-Server: OpenAI-compatible API for Apple Foundation Models](https://github.com/Techopolis/Perspective-Server) — Not only Swift · Issue 95 — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
   **NeKI brief:** This source repository covers exposing Apple Foundation Models through an OpenAI-compatible local API. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Play](https://youtube.com/watch?v=bCz3Pc041ME) — Not only Swift · Issue 94 — Video · Topics: AI Development · Swift · SwiftUI
-  **NeKI brief:** Links to a public video about Play. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Coordinates multiple Antigravity agents through Git worktrees while refactoring a SwiftUI tagging interface and adding batched Firestore deletion. The session exposes planning, parallel review, merge, and compatibility decisions in a real codebase.
 - [Xcode’s responses weren’t compatible with the MCP protocol](https://github.com/google-gemini/gemini-cli/issues/18371) — Not only Swift · Issue 94 — Source repository · Topics: AI Development · Developer Tools · Xcode
   **NeKI brief:** Describes Xcode’s responses weren’t compatible with the MCP protocol, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
 - [fix on our end](https://github.com/google-gemini/gemini-cli/pull/18376) — Not only Swift · Issue 94 — Source repository · Topics: AI Development · Developer Tools · Xcode
@@ -651,7 +751,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Apple Docs MCP](https://github.com/kimsungwhee/apple-docs-mcp) — Not only Swift · Issue 94 — Source repository · Topics: AI Development · Developer Tools · Swift
   **NeKI brief:** This source repository covers an MCP server for searching Apple developer documentation. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [catch the replay](https://www.youtube.com/watch?v=bCz3Pc041ME) — Not only Swift · Issue 93 — Video · Topics: AI Development · Swift
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Coordinates multiple Antigravity agents through Git worktrees while refactoring a SwiftUI tagging interface and adding batched Firestore deletion. The session exposes planning, parallel review, merge, and compatibility decisions in a real codebase.
 - [agent-device](https://github.com/callstackincubator/agent-device) — Not only Swift · Issue 93 — Source repository · Topics: AI Development · Developer Tools · Xcode
   **NeKI brief:** This source repository covers controlling iOS and Android devices from AI agents. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [MCP CLI + Skill](https://github.com/philschmid/mcp-cli) — Not only Swift · Issue 92 — Source repository · Topics: AI Development · Developer Tools · Product Design
@@ -661,7 +761,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The Humbling Math of Health AI: Why ChatGPT Can’t Grade Your Heart Yet](https://be-curious-not-judgmental.com/2026/01/26/the-humbling-math-of-health-ai-why-chatgpt-cant-grade-your-heart-yet) — Not only Swift · Issue 92 — Article · Topics: AI Development · Developer Tools
   **NeKI brief:** This article covers why health-AI answers require statistical humility and evidence. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Function calling: The missing piece for agentic apps](https://www.youtube.com/watch?v=d69KP1iFg5E) — Not only Swift · Issue 91 — Video · Topics: AI Development · Swift · SwiftUI
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Implements Firebase AI Logic function calling in an iOS meal-planning app so the model can set and inspect timers. The five-step workflow covers declarations, tool requests, results, reliability settings, and safety boundaries.
 - [Local MCP Development with Gemini CLI and Swift](https://dev.to/gde/local-mcp-development-with-gemini-cli-and-swift-1058) — Not only Swift · Issue 90 — Article · Topics: AI Development · Swift
   **NeKI brief:** This article covers local MCP development using Gemini CLI and Swift. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Intercepting SwiftUI Sheet Dismissal](https://livsycode.com/swiftui/intercepting-swiftui-sheet-dismissal) — Not only Swift · Issue 90 — Article · Topics: AI Development · Swift · SwiftUI
@@ -671,11 +771,11 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [bjesus/pipet: Swiss-army tool for scraping and extracting data from online assets, made for hackers](https://github.com/bjesus/pipet) — Not only Swift · Issue 88 — Source repository · Topics: AI Development · Developer Tools
   **NeKI brief:** This source repository covers a command-line scraper for extracting online assets. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [creating a slide deck for me](https://www.youtube.com/watch?v=ax6t6mvawXE&t=3469s) — Not only Swift · Issue 87 — Video · Topics: AI Development · Swift
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Live-builds a Swift MCP server that controls Keynote, registers it with Claude Desktop, and generates a conference slide deck from a title and abstract. Useful for seeing desktop automation progress from tool definition to real artifact.
 - [AI_dev](https://aideveu2025.sched.com/event/25TtL/beyond-prompts-building-intelligent-applications-with-genkit-and-the-model-context-protocol-peter-friese-google) — Not only Swift · Issue 87 — Article · Topics: AI Development · Swift
   **NeKI brief:** Lists a conference session on building intelligent applications with Genkit and the Model Context Protocol. Use it for architectural context around tool calling and orchestration, then validate implementation details in primary SDK documentation.
 - [sneak preview of the new macros they’re working on](https://www.youtube.com/live/sfWYh-oxk8k?si=NLmSS8NcHtEUadXe&t=4877) — Not only Swift · Issue 87 — Video · Topics: AI Development · Macros & Metaprogramming · Swift
-  **NeKI brief:** Links to a public video about sneak preview of the new macros they’re working on. Use the talk for practitioner context and demonstrations, then verify platform behavior, API availability, and recommended production practices in current primary documentation.
+  **NeKI brief:** Live-codes Firebase AI Logic features in Swift, including JSON-schema structured output and Imagen-based image generation. The session also discusses API security, quota management, pricing choices, and forthcoming schema-annotation tooling.
 - [How to build with Nano Banana: Complete Developer Tutorial](https://dev.to/googleai/how-to-build-with-nano-banana-complete-developer-tutorial-646) — Not only Swift · Issue 87 — Tutorial · Topics: AI Development
   **NeKI brief:** This article covers building with Nano Banana through a developer tutorial. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [facade pattern](https://en.wikipedia.org/wiki/Facade_pattern) — Not only Swift · Issue 87 — Article · Topics: AI Development · Foundation & Data Formats

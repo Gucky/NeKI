@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.avanderlee.com/](https://www.avanderlee.com/)
-- Last collected: `2026-07-28T20:15:53Z`
+- Last collected: `2026-08-05T08:05:51Z`
 - Indexed entries: **366**
 
 - [How to free up Xcode disk space safely with an AI Agent - SwiftLee](https://www.avanderlee.com/ai-development/how-to-free-up-xcode-disk-space-safely-with-an-ai-agent)

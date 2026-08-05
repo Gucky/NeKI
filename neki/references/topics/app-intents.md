@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Intents, App Shortcuts, Siri, Spotlight, widgets, controls, and related system surfaces.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **109**
+- Last collected: `2026-08-05T09:59:47Z`
+- Indexed links shown: **113**
 
 ## Direct-source reading
 
@@ -248,6 +248,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Creating Shortcuts with App Intents](https://www.kodeco.com/40950083-creating-shortcuts-with-app-intents) — Fatbobman’s Swift Weekly · Issue 5 — Article · Topics: App Distribution & Store Operations · App Intents & System Surfaces · Combine & Reactive Programming
   **Published:** `2023-11-06T22:30:15.675Z`
   **NeKI brief:** Explains creating Shortcuts actions with App Intents and connecting typed app operations to system automation. Use it when exposing discoverable actions while checking entity modeling, parameter resolution, availability, and privacy boundaries.
+- [🖥️ How to use EC2 Macs for Apple app CI/CD](https://bitrise.io/blog/post/summit-speaker-spotlight-series-aws) — iOS CI Newsletter · Issue 25 — Article · Topics: App Intents & System Surfaces · CI/CD & Automation
+  **Published:** `2023-09-24T00:00:00.000Z`
+  **NeKI brief:** Walks through how to use EC2 Macs for Apple app CI/CD, with practical context for App Intents & System Surfaces and CI/CD & Automation. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Create an Interactive Widget Using App Intents](https://www.swiftjectivec.com/snip-create-a-basic-interactive-widget-using-app-intent-button) — iOS Dev Weekly · Issue 617 — Article · Topics: App Intents & System Surfaces · Developer Community & Business · Swift
   **Published:** `7th July 2023`
   **NeKI brief:** Discusses Create an Interactive Widget Using App Intents in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
@@ -323,7 +326,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [“Tea. Earl Grey. Hot.” What Would a Siri API Look Like?](http://blog.teaapp.com/post/24212825807/tea-earl-grey-hot-what-would-a-siri-api-look-like) — iOS Dev Weekly · Issue 45 — Article · Topics: App Intents & System Surfaces
   **Published:** `8th June 2012`
   **NeKI brief:** Explains Tea. Earl Grey. Hot. What Would a Siri API Look Like with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a.
+- [Siri & App Intents](https://go.peterfriese.dev/wwdc-2026-siri-app?s=newsletter&t=ext) — Not only Swift · Issue 99 — Article · Topics: App Intents & System Surfaces · Apple Platform Ecosystem
+  **NeKI brief:** Deep-links to the Siri and App Intents portion of a transcript-derived WWDC 2026 change index. Use it to inventory system-surface announcements before verifying schemas, availability, and behavior in primary Apple material.
+- [System APIs](https://go.peterfriese.dev/wwdc-2026-system-apis?s=newsletter&t=ext) — Not only Swift · Issue 99 — Article · Topics: App Intents & System Surfaces · Apple Platform Ecosystem
+  **NeKI brief:** Deep-links to the system-API portion of a transcript-derived WWDC 2026 change index. It helps narrow a large announcement set, but each capability still needs confirmation against its framework documentation and target SDK.
+- [How MiniSwift Works](https://go.peterfriese.dev/swift-how-miniswift-works?s=web&t=ext) — Not only Swift · Issue 99 — Article · Topics: App Intents & System Surfaces · Swift
+  **NeKI brief:** Traces MiniSwift from Swift source through parsing, semantic analysis, WebAssembly generation, linking, and browser execution. It is useful for understanding how a compact Swift-compatible toolchain can run without Xcode or Apple’s compiler binaries.
 - [Beyond Chatbots: Building Smart iOS Apps with Firebase AI Logic & Swift](https://www.youtube.com/watch?v=sfWYh-oxk8k) — Not only Swift · Issue 87 — Video · Topics: AI Development · App Intents & System Surfaces · Swift
-  **NeKI brief:** Builds a SwiftUI showcase view that highlights new app features for users. Useful for designing first-run or release-note presentations with reusable paging, emphasis, and dismissal behavior.
+  **NeKI brief:** Live-codes Firebase AI Logic features in Swift, including JSON-schema structured output and Imagen-based image generation. The session also discusses API security, quota management, pricing choices, and forthcoming schema-annotation tooling.
 - [AI mania](https://daringfireball.net/2025/03/apple_is_delaying_the_more_personalized_siri_apple_intelligence_features) — Not only Swift · Issue 76 — Article · Topics: AI Development · App Intents & System Surfaces · Swift
   **NeKI brief:** This article covers the delayed personalized Siri Apple Intelligence features. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.

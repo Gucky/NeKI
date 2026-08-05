@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** C/C++, assembly, linking, allocators, memory layout, and systems tooling relevant to Apple platforms.
 
-- Last collected: `2026-07-22T21:56:49Z`
-- Indexed links shown: **35**
+- Last collected: `2026-08-05T08:56:37Z`
+- Indexed links shown: **40**
 
 ## Direct-source reading
 
@@ -46,6 +46,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [tswift: A Lightweight Swift Runtime Built with Rust](https://l.fatbobman.com/w0146-06) — Fatbobman’s Swift Weekly · Issue 146 — Article · Topics: Dependency Injection · Objective-C & Cocoa · Swift
+  **Published:** `2026-07-27T12:04:26.788Z`
+  **NeKI brief:** The tswift repository experiments with a lightweight Swift environment for the browser backed by Rust. Use it to inspect which language and runtime pieces are required for portable execution, without assuming parity with Apple’s production toolchain.
 - [must be buildable using only a C++ host toolchain](https://forums.swift.org/t/dropping-the-requirement-for-c-only-bootstrapping/87739/3) — Fatbobman’s Swift Weekly · Issue 142 — Article · Topics: Swift · Systems Programming
   **Published:** `2026-06-29T12:03:26.222Z`
   **NeKI brief:** Provides the announcement and context for retiring C++-only bootstrapping of the Swift compiler. Use it when tracking the staged migration of parser, AST, type-checker, and mandatory optimization infrastructure.
@@ -73,6 +76,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Maintaining Seamless Compatibility with Apple and LLVM Compiler Technology](https://www.guardsquare.com/blog/maintaining-seamless-compatibility-with-apple-llvm-compiler-technology) — Fatbobman’s Swift Weekly · Issue 6 — Article · Topics: Performance · Systems Programming
   **Published:** `2023-11-13T22:20:44.462Z`
   **NeKI brief:** Discusses maintaining compatibility with Apple's LLVM-based compiler technology across toolchain changes. Follow it when assessing compiler-sensitive build or protection tooling and planning validation across Xcode, SDK, and optimization updates.
+- [Read the blog post to see what's new.](https://www.swift.org/blog/swift-5.9-released?ref=ioscodereview.com) — iOS Code Review · Issue 55 — Article · Topics: Macros & Metaprogramming · Swift · Systems Programming
+  **Published:** `2023-09-19T13:32:36.000Z`
+  **NeKI brief:** Summarises Read the blog post to see what's new for Macros & Metaprogramming and Swift. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
+- [🤯 Using the -why_load linker flag to reduce app size](https://asifmohd.github.io/ios/2023/03/30/reducing-ios-app-size-using-linker.html) — iOS CI Newsletter · Issue 13 — Article · Topics: Cross-Platform & Web · Developer Tools · Systems Programming
+  **Published:** `2023-04-09T00:00:00.000Z`
+  **NeKI brief:** Examines Using the -why_load linker flag to reduce app size in the context of Cross-Platform & Web and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Code signing and XCFrameworks](https://mtldoc.com/swift/2022/12/23/xcframework-code-signing) — iOS CI Newsletter · Issue 6 — Article · Topics: App Distribution & Store Operations · Swift · Systems Programming
+  **Published:** `2023-01-01T00:00:00.000Z`
+  **NeKI brief:** Examines Code signing and XCFrameworks in the context of App Distribution & Store Operations and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [The state of Swift for WebAssembly in 2020 (and earlier)](https://desiatov.com/swift-webassembly-2020) — iOS Dev Weekly · Issue 474 — Article · Topics: Swift · Systems Programming
   **Published:** `18th September 2020`
   **NeKI brief:** Covers The state of Swift for WebAssembly in 2020 (and earlier), focusing on Swift and Apple-platform engineering practice. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
@@ -103,5 +115,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [LLVM 3.0 Release Notes](http://llvm.org/releases/3.0/docs/ReleaseNotes.html) — iOS Dev Weekly · Issue 19 — Article · Topics: Cross-Platform & Web · Systems Programming · Xcode
   **Published:** `9th December 2011`
   **NeKI brief:** Explains LLVM 3.0 Release Notes with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [MiniSwift Studio](https://go.peterfriese.dev/miniswift-studio?s=newsletter&t=ext) — Not only Swift · Issue 99 — Article · Topics: Swift · Systems Programming
+  **NeKI brief:** Provides a browser-based Swift environment with live SwiftUI previews, breakpoints, console output, and a SwiftData inspector. Follow it when evaluating zero-install teaching or prototyping workflows and their differences from the real Xcode toolchain.
 - [Google Workspace CLI: One tool for everything](https://github.com/googleworkspace/cli) — Not only Swift · Issue 95 — Source repository · Topics: Developer Tools · Swift · Systems Programming
   **NeKI brief:** This source repository covers a unified Google Workspace command-line interface with agent skills. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.

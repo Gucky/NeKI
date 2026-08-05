@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/)
-- Last collected: `2026-07-28T20:15:53Z`
-- Indexed entries: **211**
+- Last collected: `2026-08-04T16:05:07Z`
+- Indexed entries: **212**
 
+- [Tracking value sources to prevent recursive SwiftUI updates](https://nilcoalescing.com/blog/TrackingValueSourcesToPreventRecursiveSwiftUIUpdates)
+  **Published:** `2026-08-04`
+  **Topics:** macOS & AppKit · Observation & State Management · Performance · SwiftUI · UIKit
+  **NeKI brief:** Tags binding writes with a custom SwiftUI transaction value so wrapped text views can recognise their own updates. This avoids repeated large-string comparisons, redundant layout and cursor jumps in UITextView or NSTextView representables.
 - [Keeping canvas interactions responsive with frame reprojection](https://nilcoalescing.com/blog/KeepingCanvasInteractionsResponsiveWithFrameReprojection)
   **Published:** `2026-07-28`
   **Topics:** Graphics, Media & Games · Performance
