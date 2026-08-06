@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple Intelligence, Foundation Models, ML, generative-AI workflows, and developer tooling.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **288**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed links shown: **294**
 
 ## Direct-source reading
 
@@ -250,6 +250,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [getting-started walkthrough](https://www.kodeco.com/53631607-getting-started-with-apple-s-foundation-models?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Swift · SwiftUI
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Builds a minimal SwiftUI chat around SystemLanguageModel and LanguageModelSession, including availability checks, failure-state testing, prompting, and response display. Useful as an on-device Foundation Models starting point before adding structured generation or tools.
+- [Apple Just Opened the Foundation Models Framework to Any LLM Provider](https://dev.to/arshtechpro/wwdc-2026-apple-just-opened-the-foundation-models-framework-to-any-llm-provider-5ejn?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Architecture · Security & Privacy
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Explains iOS 27’s provider protocol for running on-device, Private Cloud Compute, local, or third-party models behind LanguageModelSession. It frames provider choice around privacy, latency, capability, offline behavior, and cost instead of duplicated feature logic.
+- [Core AI](https://lushbinary.com/blog/apple-foundation-models-framework-swift-guide?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Architecture · Security & Privacy · Swift
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Surveys the iOS 27 Foundation Models expansion: provider routing across on-device, Private Cloud Compute, Claude, and Gemini; image input; tool calling; and Dynamic Profiles. Use it as orientation, then verify beta API names in Apple documentation.
+- [how he used AI to make MessagePack decoding about 20% faster](https://pfandrade.me/blog/message-packable?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Foundation & Data Formats · Performance · Swift
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Describes using Codex to integrate Swift Binary Parsing into a MessagePack decoder, then independently validating nearly 20% faster decoding and more than 60% fewer allocations. It is a human-in-the-loop optimization workflow grounded in Instruments and reproducible benchmarks.
+- [The iOS Testing Strategy Agent Skill](https://livsycode.com/best-practices/the-ios-testing-strategy-agent-skill) — Those Who Swift · Issue 278 — Article · Topics: AI Development · Code Quality · Testing
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Presents an agent skill that starts test design from behavior, risk, and observable outcomes rather than one test file per type. It chooses boundaries and doubles by determinism, execution time, maintenance cost, and the confidence each layer adds.
+- [A Sol's Work: Shipping with GPT-5.6 Sol](https://rudrank.com/a-sols-work-shipping-with-gpt-5-6-sol) — Those Who Swift · Issue 278 — Article · Topics: AI Development · Developer Tools · Personal Essays
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Describes a walk-away test for long-running coding agents: survive changing branches, review feedback, CI failures, and retries, then report verified reality. Production examples show increased autonomy while preserving explicit human review before shipping.
 - [AI Broke Code Review. Here’s How to Rebuild It.](https://swiftandmemes.com/ai-broke-code-review-heres-how-to-rebuild-it) — iOS Dev Weekly · Issue 761 — Article · Topics: AI Development · Code Quality · Developer Community & Business
   **Published:** `31st July 2026`
   **NeKI brief:** Proposes a layered review pipeline for AI-generated changes, combining deterministic checks, focused automated reviewers, architectural scrutiny, and human judgment. The structure is useful when increased code volume overwhelms a traditional single-pass pull-request review.

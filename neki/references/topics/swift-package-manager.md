@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift packages, manifests, plugins, dependency resolution, and package distribution.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **262**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed links shown: **263**
 
 ## Direct-source reading
 
@@ -304,6 +304,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Introducing ListKit: An Open-Source Library for SwiftUI Lists](https://danielsaidi.com/blog/2026/06/08/introducing-listkit) — Those Who Swift · Issue 278 — Article · Topics: Architecture · Swift Package Manager · SwiftUI
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Introduces ListKit as a focused extraction from SwiftUIKit, with reusable SwiftUI list utilities, adaptive action groups, shelf layouts, and list-specific modifiers. The smaller package illustrates trading a broad convenience monolith for narrower dependencies.
 - [Foundation Models Utilities](https://livsycode.com/swift/foundation-models-utilities?ref=createwithswift.com) — Create with Swift · Issue 117 — Article · Topics: AI Development · Swift · Swift Package Manager
   **Published:** `2026-07-24T15:00:34.000Z`
   **NeKI brief:** Surveys Apple's experimental Foundation Models Utilities package: hosted Chat Completions models, transcript dropping, rolling windows, summarisation, and runtime-loaded skills. It also makes the context-loss and platform-version trade-offs explicit before these patterns stabilise.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Privacy, credentials, secure configuration, encryption, sandboxing, and application security.
 
-- Last collected: `2026-08-05T08:59:22Z`
-- Indexed links shown: **84**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed links shown: **87**
 
 ## Direct-source reading
 
@@ -74,6 +74,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Apple Just Opened the Foundation Models Framework to Any LLM Provider](https://dev.to/arshtechpro/wwdc-2026-apple-just-opened-the-foundation-models-framework-to-any-llm-provider-5ejn?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Architecture · Security & Privacy
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Explains iOS 27’s provider protocol for running on-device, Private Cloud Compute, local, or third-party models behind LanguageModelSession. It frames provider choice around privacy, latency, capability, offline behavior, and cost instead of duplicated feature logic.
+- [Core AI](https://lushbinary.com/blog/apple-foundation-models-framework-swift-guide?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Architecture · Security & Privacy · Swift
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Surveys the iOS 27 Foundation Models expansion: provider routing across on-device, Private Cloud Compute, Claude, and Gemini; image input; tool calling; and Dynamic Profiles. Use it as orientation, then verify beta API names in Apple documentation.
+- [Michael Tsai](https://mjtsai.com/blog/2026/07/24/golden-gate-application-support-protection?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: macOS & AppKit · Security & Privacy
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Reports macOS 27 extending com.apple.macl protection to selected non-sandboxed Application Support folders through an allowlist in sandboxd, apparently updateable via XProtect. Treat it as an investigation lead for TCC-adjacent access asymmetry, not documented API behavior.
 - [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
   **Published:** `2026-08-01T15:00:04.000Z`
   **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Xcode, builds, signing, debugging, tooling, CI, and developer workflows.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **1273**
+- Last collected: `2026-08-06T08:20:32Z`
+- Indexed links shown: **1274**
 
 ## Direct-source reading
 
@@ -1977,6 +1977,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Liquid Glass is not optional anymore](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Liquid Glass · UIKit · Xcode
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
 - [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
   **Published:** `2026-08-01T15:00:04.000Z`
   **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.

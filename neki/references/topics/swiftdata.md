@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** SwiftData models, queries, migrations, CloudKit integration, and data modelling.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **128**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed links shown: **129**
 
 ## Direct-source reading
 
@@ -212,6 +212,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Shipping a SwiftData App with iCloud Sync](https://thorsten-stark.de/posts/2026-08-13-Shipping-A-SwiftData-App-With-iCloud-Sync-Part-3) — Those Who Swift · Issue 278 — Article · Topics: Persistence & Synchronisation · SwiftData
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Covers SwiftData and CloudKit release behavior that local testing can miss: initial-sync empty states, widget timelines that do not react automatically to remote changes, limited conflict control, and production-schema constraints. It emphasizes device validation and designing cheap conflicts.
 - [Avoiding Duplicate Data When SwiftData Syncs Across Devices](https://thorsten-stark.de/posts/2026-08-06-Avoiding-Duplicate-Data-With-SwiftData-iCloud-Sync-Part-2) — SwiftLee Weekly · Issue 335 — Article · Topics: Swift · SwiftData
   **Published:** `2026-08-04T14:04:01.000Z`
   **NeKI brief:** Explains why independently seeded SwiftData defaults duplicate when CloudKit later merges device stores, and uses stable identifiers to make seeding idempotent. The pattern is useful for distinguishing local bootstrap state from synchronised identity.

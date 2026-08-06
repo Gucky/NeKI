@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** UIKit view controllers, controls, lifecycle, and interoperability with SwiftUI.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **696**
+- Last collected: `2026-08-06T08:20:32Z`
+- Indexed links shown: **698**
 
 ## Direct-source reading
 
@@ -1660,12 +1660,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Liquid Glass is not optional anymore](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Liquid Glass · UIKit · Xcode
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
+- [iOS 27's UIBarMinimization](https://antongubarenko.substack.com/p/ios-27-uibarminimization) — iOS Code Review · Issue 83 — Article · Topics: SwiftUI · UIKit
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Separates UIKit navigation-bar minimisation into trigger, restoration, and safe-area decisions, then compares the corresponding SwiftUI toolbar behaviour. The examples are useful for replacing custom scroll-offset handling while the iOS 27 API remains beta.
+- [Liquid Glass: A Field Guide to UIKit Compatibility Pitfalls](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls) — Those Who Swift · Issue 278 — Article · Topics: Liquid Glass · UIKit
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
 - [Liquid Glass: A Field Guide to UIKit Compatibility Pitfalls](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: Liquid Glass · Swift · UIKit
   **Published:** `2026-08-01T15:00:04.000Z`
   **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
-- [iOS 27: UIBarMinimizationControl navigation bar during scroll in UIKitAnton’s SubstackAnton’s Substack](https://antongubarenko.substack.com/p/ios-27-uibarminimization) — Create with Swift · Issue 118 — Article · Topics: SwiftUI · UIKit
-  **Published:** `2026-08-01T15:00:04.000Z`
-  **NeKI brief:** Separates UIKit navigation-bar minimisation into trigger, restoration, and safe-area decisions, then compares the corresponding SwiftUI toolbar behaviour. The examples are useful for replacing custom scroll-offset handling while the iOS 27 API remains beta.
 - [Dynamic Color Init](https://antongubarenko.substack.com/p/dynamic-color-init) — iOS Dev Weekly · Issue 757 — Article · Topics: Swift · SwiftUI · UIKit
   **Published:** `3rd July 2026`
   **NeKI brief:** Shows how a shared dynamic-color initializer can keep UIKit and SwiftUI design-system colors aligned across light and dark appearances. Follow it when bridging color tokens between frameworks without duplicating trait-resolution logic.

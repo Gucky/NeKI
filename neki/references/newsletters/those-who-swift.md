@@ -3,8 +3,44 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://thosewhoswift.substack.com/archive](https://thosewhoswift.substack.com/archive)
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed entries: **83**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed entries: **84**
+
+## [Issue 278](https://thosewhoswift.substack.com/p/those-who-swift-issue-278)
+
+- Published: `2026-08-05T20:00:46.292Z`
+
+**Topics:** Concurrency · Liquid Glass · Persistence & Synchronisation · Swift · SwiftUI · Testing
+
+**Sections:** Those Who Swift · Those Who Swift - Issue 278 · Weekly note ✏️
+
+**NeKI brief:** Curates current Swift reading across Liquid Glass, concurrency, SwiftUI list and image performance, SwiftData and CloudKit, and agent-assisted development. Use the issue as a cross-source snapshot; each link retains its own access and technical context.
+
+**Selected links:**
+- [The iOS Testing Strategy Agent Skill](https://livsycode.com/best-practices/the-ios-testing-strategy-agent-skill) — Article · Topics: AI Development · Code Quality · Testing
+  **NeKI brief:** Presents an agent skill that starts test design from behavior, risk, and observable outcomes rather than one test file per type. It chooses boundaries and doubles by determinism, execution time, maintenance cost, and the confidence each layer adds.
+- [SwiftUI Image Caching Explained: Faster Lists and Better Performance](https://www.youtube.com/watch?v=zfEt6PLICr8) — Video · Topics: Networking · Performance · SwiftUI
+  **NeKI brief:** Compares AsyncImage’s system-managed HTTP caching with an explicit image-cache layer for SwiftUI list performance. Follow the walkthrough when deciding whether server headers and URLCache are sufficient or the app needs controllable memory and disk behavior.
+- [Liquid Glass: A Field Guide to UIKit Compatibility Pitfalls](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls) — Article · Topics: Liquid Glass · UIKit
+  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
+- [Changing the Shape of Glass Buttons in SwiftUI](https://livsycode.com/swiftui/changing-the-shape-of-glass-buttons-in-swiftui) — Article · Topics: Liquid Glass · SwiftUI
+  **NeKI brief:** Uses buttonBorderShape to change a system Liquid Glass button from its default capsule to a circle or rounded rectangle. It explains why participating in the button style preserves system effects better than clipping the rendered result afterward.
+- [Demystifying Thread Hopping with Swift 6.2 Approachable Concurrency](https://www.nsvasilev.com/posts/approachable_concurrency) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Explains Swift 6.2 thread hopping under Approachable Concurrency, especially the effect of nonisolated-nonsending defaults on executor inheritance. Use it to reason about isolation and scheduling without treating a particular thread as the concurrency contract.
+- [AsyncImage Finally Gets Caching in SwiftUI](https://www.sagarunagar.com/blog/asyncimage-caching-wwdc-2026) — Article · Topics: Networking · Performance · SwiftUI
+  **NeKI brief:** Explains AsyncImage’s Xcode 27 HTTP caching, including automatic URLCache behavior driven by server headers plus URLRequest and custom URLSession control. Useful for reducing repeat downloads while keeping cache policy explicit for image-heavy scrolling interfaces.
+- [Swift Protocols and the Main Actor](https://www.swiftbysundell.com/articles/swift-protocols-and-the-main-actor) — Article · Topics: Concurrency · Foundation & Data Formats · Swift
+  **NeKI brief:** Compares isolating an entire protocol with isolating individual requirements. The examples expose how conformance placement can affect a type's actor isolation and why requirement-level annotations give custom actors a more flexible boundary.
+- [Introducing ListKit: An Open-Source Library for SwiftUI Lists](https://danielsaidi.com/blog/2026/06/08/introducing-listkit) — Article · Topics: Architecture · Swift Package Manager · SwiftUI
+  **NeKI brief:** Introduces ListKit as a focused extraction from SwiftUIKit, with reusable SwiftUI list utilities, adaptive action groups, shelf layouts, and list-specific modifiers. The smaller package illustrates trading a broad convenience monolith for narrower dependencies.
+- [New in SQLiteData: Sectioned Queries](https://www.pointfree.co/blog/posts/219-new-in-sqlitedata-sectioned-queries) — Article · Topics: Persistence & Synchronisation · Swift · SwiftUI
+  **NeKI brief:** Explains SQLiteData 1.8's @FetchAll(sectionBy:) grouping, which stays in SQLite and supports arbitrary SQL expressions, joins, ordering, dynamic reloads, and older OS versions. FetchKeyRequest covers typed or more complex section shapes.
+- [Keeping Canvas Interactions Responsive with Frame Reprojection](https://nilcoalescing.com/blog/KeepingCanvasInteractionsResponsiveWithFrameReprojection) — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **NeKI brief:** Shows how Exsto keeps large Metal canvases responsive by reprojecting the last rendered frame while a newer offscreen frame is queued, then synchronising transform and texture updates with CAMetalLayer, CATransaction, overdraw, and gesture-time MSAA reduction.
+- [A Sol's Work: Shipping with GPT-5.6 Sol](https://rudrank.com/a-sols-work-shipping-with-gpt-5-6-sol) — Article · Topics: AI Development · Developer Tools · Personal Essays
+  **NeKI brief:** Describes a walk-away test for long-running coding agents: survive changing branches, review feedback, CI failures, and retries, then report verified reality. Production examples show increased autonomy while preserving explicit human review before shipping.
+- [Shipping a SwiftData App with iCloud Sync](https://thorsten-stark.de/posts/2026-08-13-Shipping-A-SwiftData-App-With-iCloud-Sync-Part-3) — Article · Topics: Persistence & Synchronisation · SwiftData
+  **NeKI brief:** Covers SwiftData and CloudKit release behavior that local testing can miss: initial-sync empty states, widget timelines that do not react automatically to remote changes, limited conflict control, and production-schema constraints. It emphasizes device validation and designing cheap conflicts.
 
 ## [Issue 277](https://thosewhoswift.substack.com/p/those-who-swift-issue-277)
 

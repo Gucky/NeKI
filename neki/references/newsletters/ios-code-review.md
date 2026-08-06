@@ -3,8 +3,40 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://ioscodereview.com/](https://ioscodereview.com/)
-- Last collected: `2026-08-05T09:01:09Z`
-- Indexed entries: **82**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed entries: **83**
+
+## [Issue 83](https://ioscodereview.com/issues/issue-83-liquid-glass-goes-mandatory-foundation-models-opens-up-and-non-modal-panels-in-swiftui)
+
+- Published: `2026-08-06T06:44:37.000Z`
+
+**Topics:** AI Development · Foundation & Data Formats · macOS & AppKit · Swift · SwiftUI · UIKit
+
+**Sections:** Liquid Glass is not optional anymore · Foundation Models opens up to any model · Non-modal panels in SwiftUI
+
+**NeKI brief:** Surveys iOS 27’s required Liquid Glass adaptation, pluggable Foundation Models providers, and adaptive non-modal SwiftUI panels, then routes to focused reading on model integration, privacy, performance, and UIKit behavior.
+
+**Selected links:**
+- [Liquid Glass is not optional anymore](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls?ref=ioscodereview.com) — Article · Topics: Liquid Glass · UIKit · Xcode
+  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
+- [getting-started walkthrough](https://www.kodeco.com/53631607-getting-started-with-apple-s-foundation-models?ref=ioscodereview.com) — Article · Topics: AI Development · Swift · SwiftUI
+  **NeKI brief:** Builds a minimal SwiftUI chat around SystemLanguageModel and LanguageModelSession, including availability checks, failure-state testing, prompting, and response display. Useful as an on-device Foundation Models starting point before adding structured generation or tools.
+- [Core AI](https://lushbinary.com/blog/apple-foundation-models-framework-swift-guide?ref=ioscodereview.com) — Article · Topics: AI Development · Architecture · Security & Privacy · Swift
+  **NeKI brief:** Surveys the iOS 27 Foundation Models expansion: provider routing across on-device, Private Cloud Compute, Claude, and Gemini; image input; tool calling; and Dynamic Profiles. Use it as orientation, then verify beta API names in Apple documentation.
+- [how he used AI to make MessagePack decoding about 20% faster](https://pfandrade.me/blog/message-packable?ref=ioscodereview.com) — Article · Topics: AI Development · Foundation & Data Formats · Performance · Swift
+  **NeKI brief:** Describes using Codex to integrate Swift Binary Parsing into a MessagePack decoder, then independently validating nearly 20% faster decoding and more than 60% fewer allocations. It is a human-in-the-loop optimization workflow grounded in Instruments and reproducible benchmarks.
+- [Apple Just Opened the Foundation Models Framework to Any LLM Provider](https://dev.to/arshtechpro/wwdc-2026-apple-just-opened-the-foundation-models-framework-to-any-llm-provider-5ejn?ref=ioscodereview.com) — Article · Topics: AI Development · Architecture · Security & Privacy
+  **NeKI brief:** Explains iOS 27’s provider protocol for running on-device, Private Cloud Compute, local, or third-party models behind LanguageModelSession. It frames provider choice around privacy, latency, capability, offline behavior, and cost instead of duplicated feature logic.
+- [SwiftUI blend modes](https://nilcoalescing.com/blog/BlendModesInSwiftUI?ref=ioscodereview.com) — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **NeKI brief:** Catalogues all 21 SwiftUI blend modes with focused visual examples and explains their colour or alpha calculations. The closing compositingGroup examples clarify how to constrain which sibling views participate in a blend operation.
+- [keeping a Metal canvas responsive with frame reprojection](https://nilcoalescing.com/blog/KeepingCanvasInteractionsResponsiveWithFrameReprojection?ref=ioscodereview.com) — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **NeKI brief:** Shows how Exsto keeps large Metal canvases responsive by reprojecting the last rendered frame while a newer offscreen frame is queued, then synchronising transform and texture updates with CAMetalLayer, CATransaction, overdraw, and gesture-time MSAA reduction.
+- [Non-modal panels in SwiftUI](https://nilcoalescing.com/blog/BuildingAdaptiveNonModalPanelsInSwiftUI?ref=ioscodereview.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Builds a custom SwiftUI panel that changes from a bottom sheet to an edge-aligned panel using measured scene geometry, custom Layout, preferences, and detents. The drag implementation preserves scrolling by combining gestures deliberately.
+- [Michael Tsai](https://mjtsai.com/blog/2026/07/24/golden-gate-application-support-protection?ref=ioscodereview.com) — Article · Topics: macOS & AppKit · Security & Privacy
+  **NeKI brief:** Reports macOS 27 extending com.apple.macl protection to selected non-sandboxed Application Support folders through an allowlist in sandboxd, apparently updateable via XProtect. Treat it as an investigation lead for TCC-adjacent access asymmetry, not documented API behavior.
+- [iOS 27's UIBarMinimization](https://antongubarenko.substack.com/p/ios-27-uibarminimization) — Article · Topics: SwiftUI · UIKit
+  **NeKI brief:** Separates UIKit navigation-bar minimisation into trigger, restoration, and safe-area decisions, then compares the corresponding SwiftUI toolbar behaviour. The examples are useful for replacing custom scroll-offset handling while the iOS 27 API remains beta.
 
 ## [Issue 82](https://ioscodereview.com/issues/issue-82-why-your-views-re-run-deadlines-in-review-swiftdata-behind-a-wall)
 

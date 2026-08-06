@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Application boundaries, modularity, state ownership, dependency direction, and design trade-offs.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **332**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed links shown: **335**
 
 ## Direct-source reading
 
@@ -615,6 +615,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Apple Just Opened the Foundation Models Framework to Any LLM Provider](https://dev.to/arshtechpro/wwdc-2026-apple-just-opened-the-foundation-models-framework-to-any-llm-provider-5ejn?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Architecture · Security & Privacy
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Explains iOS 27’s provider protocol for running on-device, Private Cloud Compute, local, or third-party models behind LanguageModelSession. It frames provider choice around privacy, latency, capability, offline behavior, and cost instead of duplicated feature logic.
+- [Core AI](https://lushbinary.com/blog/apple-foundation-models-framework-swift-guide?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Architecture · Security & Privacy · Swift
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Surveys the iOS 27 Foundation Models expansion: provider routing across on-device, Private Cloud Compute, Claude, and Gemini; image input; tool calling; and Dynamic Profiles. Use it as orientation, then verify beta API names in Apple documentation.
+- [Introducing ListKit: An Open-Source Library for SwiftUI Lists](https://danielsaidi.com/blog/2026/06/08/introducing-listkit) — Those Who Swift · Issue 278 — Article · Topics: Architecture · Swift Package Manager · SwiftUI
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Introduces ListKit as a focused extraction from SwiftUIKit, with reusable SwiftUI list utilities, adaptive action groups, shelf layouts, and list-specific modifiers. The smaller package illustrates trading a broad convenience monolith for narrower dependencies.
 - [Revisiting the JET iOS Modular Architecture in 2026](https://albertodebortoli.com/2026/07/15/revisiting-the-jet-ios-modular-architecture-in-2026) — iOS Dev Weekly · Issue 761 — Article · Topics: Architecture · Objective-C & Cocoa
   **Published:** `31st July 2026`
   **NeKI brief:** Revisits Just Eat’s 2019 modular iOS model, retaining useful domain boundaries while refining module vocabulary and cross-domain dependencies for current Swift tooling. Use it to test whether an inherited architecture still matches team and build constraints.

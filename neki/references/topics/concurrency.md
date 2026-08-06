@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift concurrency, async/await, actors, Sendable, tasks, cancellation, and diagnostics.
 
-- Last collected: `2026-08-05T09:59:47Z`
+- Last collected: `2026-08-06T08:26:12Z`
 - Indexed links shown: **1119**
 
 ## Direct-source reading
@@ -2248,8 +2248,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
-- [Demystifying Thread Hopping with Swift 6.2 Approachable Concurrency](https://www.nsvasilev.com/posts/approachable_concurrency) — SwiftLee Weekly · Issue 335 — Article · Topics: Concurrency · Swift
-  **Published:** `2026-08-04T14:04:01.000Z`
+- [Demystifying Thread Hopping with Swift 6.2 Approachable Concurrency](https://www.nsvasilev.com/posts/approachable_concurrency) — Those Who Swift · Issue 278 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-08-05T20:00:46.292Z`
   **NeKI brief:** Explains Swift 6.2 thread hopping under Approachable Concurrency, especially the effect of nonisolated-nonsending defaults on executor inheritance. Use it to reason about isolation and scheduling without treating a particular thread as the concurrency contract.
 - [Bluetooth without the delegate dance](https://l.fatbobman.com/w0146-01) — Fatbobman’s Swift Weekly · Issue 146 — Article · Topics: Concurrency · Swift
   **Published:** `2026-07-27T12:04:26.788Z`

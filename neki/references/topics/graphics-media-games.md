@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Rendering, GPU work, image/audio/video processing, computer vision, and game-development techniques.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **386**
+- Last collected: `2026-08-06T08:20:32Z`
+- Indexed links shown: **388**
 
 ## Direct-source reading
 
@@ -431,6 +431,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [SwiftUI blend modes](https://nilcoalescing.com/blog/BlendModesInSwiftUI?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Catalogues all 21 SwiftUI blend modes with focused visual examples and explains their colour or alpha calculations. The closing compositingGroup examples clarify how to constrain which sibling views participate in a blend operation.
+- [keeping a Metal canvas responsive with frame reprojection](https://nilcoalescing.com/blog/KeepingCanvasInteractionsResponsiveWithFrameReprojection?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Shows how Exsto keeps large Metal canvases responsive by reprojecting the last rendered frame while a newer offscreen frame is queued, then synchronising transform and texture updates with CAMetalLayer, CATransaction, overdraw, and gesture-time MSAA reduction.
 - [The Map, Drawn Twice](https://l.fatbobman.com/w0147-01) — Fatbobman’s Swift Weekly · Issue 147 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2026-08-03T12:02:34.944Z`
   **NeKI brief:** Maps responsibilities across Core Graphics, Core Text, Core Image, Core Animation, and SwiftUI by rendering the same scenes through Apple APIs and a clean-room engine. The paired output makes framework boundaries and hidden behavior easier to compare.

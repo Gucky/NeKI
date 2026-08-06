@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** macOS app lifecycle, menu-bar apps, Cocoa, and AppKit integration.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **226**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed links shown: **227**
 
 ## Direct-source reading
 
@@ -104,6 +104,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Michael Tsai](https://mjtsai.com/blog/2026/07/24/golden-gate-application-support-protection?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: macOS & AppKit · Security & Privacy
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Reports macOS 27 extending com.apple.macl protection to selected non-sandboxed Application Support folders through an allowlist in sandboxd, apparently updateable via XProtect. Treat it as an investigation lead for TCC-adjacent access asymmetry, not documented API behavior.
 - [Working with Xcode on CI](https://l.fatbobman.com/w0146-02) — Fatbobman’s Swift Weekly · Issue 146 — Article · Topics: Objective-C & Cocoa · Xcode
   **Published:** `2026-07-27T12:04:26.788Z`
   **NeKI brief:** Explains provisioning Xcode on macOS CI, selecting versions with DEVELOPER_DIR, running first-launch setup, and installing simulator or Metal components. It also documents authentication and stale-toolchain trade-offs that prevent a completely hands-off installer.

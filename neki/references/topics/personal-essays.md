@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Personal and reflective writing from developer authors that does not make a technical claim.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **129**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed links shown: **130**
 
 ## Direct-source reading
 
@@ -86,6 +86,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [A Sol's Work: Shipping with GPT-5.6 Sol](https://rudrank.com/a-sols-work-shipping-with-gpt-5-6-sol) — Those Who Swift · Issue 278 — Article · Topics: AI Development · Developer Tools · Personal Essays
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Describes a walk-away test for long-running coding agents: survive changing branches, review feedback, CI failures, and retries, then report verified reality. Production examples show increased autonomy while preserving explicit human review before shipping.
 - [Building adaptive non-modal panels in SwiftUI](https://l.fatbobman.com/w0146-04) — Fatbobman’s Swift Weekly · Issue 146 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2026-07-27T12:04:26.788Z`
   **NeKI brief:** Builds a detent-based, non-modal SwiftUI panel that moves from the bottom edge in portrait to a side edge in wider layouts. It covers geometry-driven detents, dragging, and keeping the underlying content interactive.

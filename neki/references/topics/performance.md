@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Profiling, Instruments, rendering cost, launch time, memory, and runtime efficiency.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **425**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed links shown: **429**
 
 ## Direct-source reading
 
@@ -660,6 +660,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [how he used AI to make MessagePack decoding about 20% faster](https://pfandrade.me/blog/message-packable?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Foundation & Data Formats · Performance · Swift
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Describes using Codex to integrate Swift Binary Parsing into a MessagePack decoder, then independently validating nearly 20% faster decoding and more than 60% fewer allocations. It is a human-in-the-loop optimization workflow grounded in Instruments and reproducible benchmarks.
+- [keeping a Metal canvas responsive with frame reprojection](https://nilcoalescing.com/blog/KeepingCanvasInteractionsResponsiveWithFrameReprojection?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Shows how Exsto keeps large Metal canvases responsive by reprojecting the last rendered frame while a newer offscreen frame is queued, then synchronising transform and texture updates with CAMetalLayer, CATransaction, overdraw, and gesture-time MSAA reduction.
+- [AsyncImage Finally Gets Caching in SwiftUI](https://www.sagarunagar.com/blog/asyncimage-caching-wwdc-2026) — Those Who Swift · Issue 278 — Article · Topics: Networking · Performance · SwiftUI
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Explains AsyncImage’s Xcode 27 HTTP caching, including automatic URLCache behavior driven by server headers plus URLRequest and custom URLSession control. Useful for reducing repeat downloads while keeping cache policy explicit for image-heavy scrolling interfaces.
+- [SwiftUI Image Caching Explained: Faster Lists and Better Performance](https://www.youtube.com/watch?v=zfEt6PLICr8) — Those Who Swift · Issue 278 — Video · Topics: Networking · Performance · SwiftUI
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Compares AsyncImage’s system-managed HTTP caching with an explicit image-cache layer for SwiftUI list performance. Follow the walkthrough when deciding whether server headers and URLCache are sufficient or the app needs controllable memory and disk behavior.
 - [SwiftUI @ContentBuilder - Faster Type Checking in Xcode 27](https://www.sagarunagar.com/blog/swiftui-contentbuilder-xcode-27?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: Swift · SwiftUI · Xcode
   **Published:** `2026-08-01T15:00:04.000Z`
   **NeKI brief:** Explains Xcode 27’s SwiftUI ContentBuilder unification and how it reduces result-builder type-checking work while retaining older deployment targets. It is useful when large view expressions compile slowly or custom builders duplicate SwiftUI’s behavior.

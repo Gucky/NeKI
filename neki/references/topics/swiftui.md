@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** SwiftUI views, layout, rendering, animation, interaction, and platform adaptation.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **2923**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed links shown: **2931**
 
 ## Direct-source reading
 
+- [Alignment guides in SwiftUI](https://nilcoalescing.com/blog/AlignmentGuidesInSwiftUI) — Nil Coalescing · article catalogue
+  **Published:** `2026-08-06`
+  **NeKI brief:** Explains how SwiftUI alignment guides report coordinates, how alignmentGuide(_:computeValue:) overrides built-in guides, and how a custom AlignmentID aligns views across nested containers. The examples clarify that guides participate in layout rather than repositioning views afterward.
 - [Tracking value sources to prevent recursive SwiftUI updates](https://nilcoalescing.com/blog/TrackingValueSourcesToPreventRecursiveSwiftUIUpdates) — Nil Coalescing · article catalogue
   **Published:** `2026-08-04`
   **NeKI brief:** Tags binding writes with a custom SwiftUI transaction value so wrapped text views can recognise their own updates. This avoids repeated large-string comparisons, redundant layout and cursor jumps in UITextView or NSTextView representables.
@@ -5516,6 +5519,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [getting-started walkthrough](https://www.kodeco.com/53631607-getting-started-with-apple-s-foundation-models?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Swift · SwiftUI
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Builds a minimal SwiftUI chat around SystemLanguageModel and LanguageModelSession, including availability checks, failure-state testing, prompting, and response display. Useful as an on-device Foundation Models starting point before adding structured generation or tools.
+- [Non-modal panels in SwiftUI](https://nilcoalescing.com/blog/BuildingAdaptiveNonModalPanelsInSwiftUI?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Builds a custom SwiftUI panel that changes from a bottom sheet to an edge-aligned panel using measured scene geometry, custom Layout, preferences, and detents. The drag implementation preserves scrolling by combining gestures deliberately.
+- [iOS 27's UIBarMinimization](https://antongubarenko.substack.com/p/ios-27-uibarminimization) — iOS Code Review · Issue 83 — Article · Topics: SwiftUI · UIKit
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Separates UIKit navigation-bar minimisation into trigger, restoration, and safe-area decisions, then compares the corresponding SwiftUI toolbar behaviour. The examples are useful for replacing custom scroll-offset handling while the iOS 27 API remains beta.
+- [SwiftUI blend modes](https://nilcoalescing.com/blog/BlendModesInSwiftUI?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2026-08-06T06:44:37.000Z`
+  **NeKI brief:** Catalogues all 21 SwiftUI blend modes with focused visual examples and explains their colour or alpha calculations. The closing compositingGroup examples clarify how to constrain which sibling views participate in a blend operation.
+- [Changing the Shape of Glass Buttons in SwiftUI](https://livsycode.com/swiftui/changing-the-shape-of-glass-buttons-in-swiftui) — Those Who Swift · Issue 278 — Article · Topics: Liquid Glass · SwiftUI
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Uses buttonBorderShape to change a system Liquid Glass button from its default capsule to a circle or rounded rectangle. It explains why participating in the button style preserves system effects better than clipping the rendered result afterward.
+- [AsyncImage Finally Gets Caching in SwiftUI](https://www.sagarunagar.com/blog/asyncimage-caching-wwdc-2026) — Those Who Swift · Issue 278 — Article · Topics: Networking · Performance · SwiftUI
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Explains AsyncImage’s Xcode 27 HTTP caching, including automatic URLCache behavior driven by server headers plus URLRequest and custom URLSession control. Useful for reducing repeat downloads while keeping cache policy explicit for image-heavy scrolling interfaces.
+- [Introducing ListKit: An Open-Source Library for SwiftUI Lists](https://danielsaidi.com/blog/2026/06/08/introducing-listkit) — Those Who Swift · Issue 278 — Article · Topics: Architecture · Swift Package Manager · SwiftUI
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Introduces ListKit as a focused extraction from SwiftUIKit, with reusable SwiftUI list utilities, adaptive action groups, shelf layouts, and list-specific modifiers. The smaller package illustrates trading a broad convenience monolith for narrower dependencies.
+- [SwiftUI Image Caching Explained: Faster Lists and Better Performance](https://www.youtube.com/watch?v=zfEt6PLICr8) — Those Who Swift · Issue 278 — Video · Topics: Networking · Performance · SwiftUI
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Compares AsyncImage’s system-managed HTTP caching with an explicit image-cache layer for SwiftUI list performance. Follow the walkthrough when deciding whether server headers and URLCache are sufficient or the app needs controllable memory and disk behavior.
 - [The Map, Drawn Twice](https://l.fatbobman.com/w0147-01) — Fatbobman’s Swift Weekly · Issue 147 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2026-08-03T12:02:34.944Z`
   **NeKI brief:** Maps responsibilities across Core Graphics, Core Text, Core Image, Core Animation, and SwiftUI by rendering the same scenes through Apple APIs and a clean-room engine. The paired output makes framework boundaries and hidden behavior easier to compare.
@@ -5534,9 +5561,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI @ContentBuilder - Faster Type Checking in Xcode 27](https://www.sagarunagar.com/blog/swiftui-contentbuilder-xcode-27?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: Swift · SwiftUI · Xcode
   **Published:** `2026-08-01T15:00:04.000Z`
   **NeKI brief:** Explains Xcode 27’s SwiftUI ContentBuilder unification and how it reduces result-builder type-checking work while retaining older deployment targets. It is useful when large view expressions compile slowly or custom builders duplicate SwiftUI’s behavior.
-- [iOS 27: UIBarMinimizationControl navigation bar during scroll in UIKitAnton’s SubstackAnton’s Substack](https://antongubarenko.substack.com/p/ios-27-uibarminimization) — Create with Swift · Issue 118 — Article · Topics: SwiftUI · UIKit
-  **Published:** `2026-08-01T15:00:04.000Z`
-  **NeKI brief:** Separates UIKit navigation-bar minimisation into trigger, restoration, and safe-area decisions, then compares the corresponding SwiftUI toolbar behaviour. The examples are useful for replacing custom scroll-offset handling while the iOS 27 API remains beta.
 - [Making a SwiftUI Sheet Automatically Size to Fit Its Content](https://danielsaidi.com/blog/2026/05/22/making-a-swiftui-sheet-automatically-size-to-fit-its-content) — Those Who Swift · Issue 277 — Article · Topics: Swift · SwiftUI
   **Published:** `2026-07-29T20:01:55.196Z`
   **NeKI brief:** Builds a SwiftUI sheet that measures its content and chooses an appropriate presentation height. Useful for compact forms and detail panels that should avoid excessive empty space while handling dynamic type and updates.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** URLSession, HTTP, GraphQL, WebSockets, API clients, and network reliability.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **248**
+- Last collected: `2026-08-06T08:26:12Z`
+- Indexed links shown: **250**
 
 ## Direct-source reading
 
@@ -519,6 +519,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [AsyncImage Finally Gets Caching in SwiftUI](https://www.sagarunagar.com/blog/asyncimage-caching-wwdc-2026) — Those Who Swift · Issue 278 — Article · Topics: Networking · Performance · SwiftUI
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Explains AsyncImage’s Xcode 27 HTTP caching, including automatic URLCache behavior driven by server headers plus URLRequest and custom URLSession control. Useful for reducing repeat downloads while keeping cache policy explicit for image-heavy scrolling interfaces.
+- [SwiftUI Image Caching Explained: Faster Lists and Better Performance](https://www.youtube.com/watch?v=zfEt6PLICr8) — Those Who Swift · Issue 278 — Video · Topics: Networking · Performance · SwiftUI
+  **Published:** `2026-08-05T20:00:46.292Z`
+  **NeKI brief:** Compares AsyncImage’s system-managed HTTP caching with an explicit image-cache layer for SwiftUI list performance. Follow the walkthrough when deciding whether server headers and URLCache are sufficient or the app needs controllable memory and disk behavior.
 - [Syncing SwiftData with a custom backend using HistoryObserver](https://azamsharp.com/2026/07/16/syncing-swiftdata-with-a-custom-backend-using-historyobserver.html) — iOS Dev Weekly · Issue 760 — Article · Topics: Networking · Persistence & Synchronisation · SwiftData
   **Published:** `24th July 2026`
   **NeKI brief:** Builds a one-way synchronisation pipeline from SwiftData HistoryObserver transactions to a REST backend. Persisting the last processed transaction token avoids duplicate uploads; server-to-client changes remain a separate responsibility.

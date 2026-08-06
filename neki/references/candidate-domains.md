@@ -2,7 +2,7 @@
 
 Frequently linked domains from the selected newsletters. Frequency is only a discovery signal; do not treat this list as a recommendation or quality rating.
 
-- Last collected: `2026-08-05T09:01:09Z`
+- Last collected: `2026-08-06T08:20:32Z`
 
 - `0xced.blogspot.co.at` — 1 collected links
 - `2025.nsspain.com` — 1 collected links
@@ -219,7 +219,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `cuteios.dev` — 2 collected links
 - `damian.fyi` — 1 collected links
 - `danicat.dev` — 1 collected links
-- `danielsaidi.com` — 28 collected links
+- `danielsaidi.com` — 29 collected links
 - `danieltull.co.uk` — 1 collected links
 - `danijelavrzan.com` — 1 collected links
 - `daringfireball.net` — 3 collected links
@@ -240,7 +240,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `detailspro.app` — 1 collected links
 - `dev.hubspot.com` — 1 collected links
 - `dev.jeremygale.com` — 3 collected links
-- `dev.to` — 12 collected links
+- `dev.to` — 13 collected links
 - `developer.android.com` — 2 collected links
 - `developer.ibm.com` — 1 collected links
 - `developer.paddle.com` — 1 collected links
@@ -288,7 +288,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `fabernovel.github.io` — 1 collected links
 - `fabiensanglard.net` — 1 collected links
 - `fabric.io` — 1 collected links
-- `fatbobman.com` — 58 collected links
+- `fatbobman.com` — 60 collected links
 - `fatbobman.medium.com` — 1 collected links
 - `fbernutz.github.io` — 1 collected links
 - `featherless.design` — 1 collected links
@@ -426,11 +426,12 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `link.springer.com` — 1 collected links
 - `lists.swift.org` — 3 collected links
 - `littlebitesofcocoa.com` — 4 collected links
-- `livsycode.com` — 38 collected links
+- `livsycode.com` — 40 collected links
 - `llvm.org` — 1 collected links
 - `lmnt.me` — 1 collected links
 - `lostmoa.com` — 2 collected links
 - `lucasvandongen.dev` — 3 collected links
+- `lushbinary.com` — 1 collected links
 - `luxmentis.org` — 3 collected links
 - `m.objc.io` — 2 collected links
 - `macguru.dev` — 3 collected links
@@ -472,7 +473,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `mikeash.com` — 3 collected links
 - `mikezornek.com` — 1 collected links
 - `milen.me` — 2 collected links
-- `mjtsai.com` — 10 collected links
+- `mjtsai.com` — 11 collected links
 - `mneorr.github.io` — 1 collected links
 - `mobile.tutsplus.com` — 1 collected links
 - `mobilea11y.com` — 3 collected links
@@ -498,7 +499,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `nfarina.com` — 1 collected links
 - `nicemohawk.com` — 1 collected links
 - `nickharris.wordpress.com` — 1 collected links
-- `nilcoalescing.com` — 131 collected links
+- `nilcoalescing.com` — 135 collected links
 - `nilsou.com` — 1 collected links
 - `noahgilmore.com` — 3 collected links
 - `nomothetis.svbtle.com` — 1 collected links
@@ -545,7 +546,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `peterfriese.github.io` — 1 collected links
 - `peterringset.dev` — 2 collected links
 - `pewpewthespells.com` — 2 collected links
-- `pfandrade.me` — 3 collected links
+- `pfandrade.me` — 4 collected links
 - `pitaya.ch` — 1 collected links
 - `plausible.coop` — 1 collected links
 - `podcasts.apple.com` — 2 collected links
@@ -587,7 +588,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `roomservices.pro` — 1 collected links
 - `roundwallsoftware.com` — 1 collected links
 - `rudrank.blog` — 2 collected links
-- `rudrank.com` — 2 collected links
+- `rudrank.com` — 3 collected links
 - `russbishop.net` — 2 collected links
 - `ryanashcraft.com` — 4 collected links
 - `ryanipete.com` — 1 collected links
@@ -688,7 +689,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `theswiftpost.co` — 1 collected links
 - `thisdevbrain.com` — 1 collected links
 - `thisiskyle.me` — 1 collected links
-- `thorsten-stark.de` — 1 collected links
+- `thorsten-stark.de` — 2 collected links
 - `thosewhoswift.substack.com` — 1 collected links
 - `tiagohenriques.vercel.app` — 2 collected links
 - `timekl.com` — 1 collected links
@@ -831,7 +832,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.jetbrains.com` — 3 collected links
 - `www.joshholtz.com` — 1 collected links
 - `www.judo.app` — 1 collected links
-- `www.kodeco.com` — 4 collected links
+- `www.kodeco.com` — 5 collected links
 - `www.kubilayerdogan.net` — 1 collected links
 - `www.leanix.net` — 1 collected links
 - `www.learn-cocos2d.com` — 4 collected links
@@ -874,7 +875,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.philschmid.de` — 1 collected links
 - `www.pietrorea.com` — 1 collected links
 - `www.pocketgamer.biz` — 1 collected links
-- `www.pointfree.co` — 38 collected links
+- `www.pointfree.co` — 39 collected links
 - `www.polidea.com` — 1 collected links
 - `www.polpiella.dev` — 83 collected links
 - `www.prolificinteractive.com` — 1 collected links
@@ -892,7 +893,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.rudrank.com` — 8 collected links
 - `www.runway.team` — 15 collected links
 - `www.russbishop.net` — 6 collected links
-- `www.sagarunagar.com` — 16 collected links
+- `www.sagarunagar.com` — 17 collected links
 - `www.scottberrevoets.com` — 3 collected links
 - `www.screencastsonline.com` — 1 collected links
 - `www.sealiesoftware.com` — 1 collected links
@@ -947,7 +948,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.wwdcnotes.com` — 3 collected links
 - `www.xgrid.co` — 1 collected links
 - `www.xs-labs.com` — 1 collected links
-- `www.youtube.com` — 109 collected links
+- `www.youtube.com` — 110 collected links
 - `www.zendesk.com` — 1 collected links
 - `xavierlowmiller.github.io` — 1 collected links
 - `xcode.tips` — 4 collected links

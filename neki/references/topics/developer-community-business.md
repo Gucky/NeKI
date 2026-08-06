@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Developer conferences, publications, courses, podcasts, membership, sponsorship, and community business news.
 
-- Last collected: `2026-08-05T10:03:08Z`
+- Last collected: `2026-08-06T08:26:12Z`
 - Indexed links shown: **249**
 
 ## Direct-source reading

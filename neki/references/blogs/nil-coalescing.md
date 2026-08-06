@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/)
-- Last collected: `2026-08-04T16:05:07Z`
-- Indexed entries: **212**
+- Last collected: `2026-08-06T08:20:32Z`
+- Indexed entries: **213**
 
+- [Alignment guides in SwiftUI](https://nilcoalescing.com/blog/AlignmentGuidesInSwiftUI)
+  **Published:** `2026-08-06`
+  **Topics:** SwiftUI
+  **NeKI brief:** Explains how SwiftUI alignment guides report coordinates, how alignmentGuide(_:computeValue:) overrides built-in guides, and how a custom AlignmentID aligns views across nested containers. The examples clarify that guides participate in layout rather than repositioning views afterward.
 - [Tracking value sources to prevent recursive SwiftUI updates](https://nilcoalescing.com/blog/TrackingValueSourcesToPreventRecursiveSwiftUIUpdates)
   **Published:** `2026-08-04`
   **Topics:** macOS & AppKit · Observation & State Management · Performance · SwiftUI · UIKit
