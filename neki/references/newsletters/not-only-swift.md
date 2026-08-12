@@ -3,8 +3,29 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://peterfriese.dev/newsletter/](https://peterfriese.dev/newsletter/)
-- Last collected: `2026-08-05T10:03:08Z`
-- Indexed entries: **24**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed entries: **25**
+
+## [Issue 100](https://peterfriese.dev/newsletter/issues/100)
+
+
+**Topics:** AI Development · Concurrency · Developer Community & Business · Swift · SwiftUI · Xcode
+
+**Sections:** Not only Swift · Stop babysitting Xcode. Ship Apple apps faster. · Swift
+
+**NeKI brief:** Marks the newsletter's hundredth issue with reading on Sendable closures, adaptive SwiftUI toolbars, AI-assisted engineering judgment and a guarded agentic iOS delivery pipeline.
+
+**Selected links:**
+- [Sendable and @Sendable closures explained with code examples](https://go.peterfriese.dev/swift-sendable-protocol-closures?s=web&t=ext) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Explains how Sendable conformance and @Sendable closures let the compiler check values crossing actors, tasks and other isolation domains, including implicit value-type conformance and unsafe escape hatches.
+- [Swift, AI, and the future of software development](https://go.peterfriese.dev/ai-swift-ai-and-the-future-of-software-development?s=web&t=ext) — Article · Topics: AI Development · Swift
+  **NeKI brief:** Reflects on how LLM-assisted development trades repetitive coding for architecture work while risking skill atrophy, dopamine-driven prompting and unrealistic claims about current AI capabilities.
+- [Adaptive SwiftUI toolbars in iOS 27](https://go.peterfriese.dev/swiftui-adaptive-swiftui-toolbars-in-ios-27?s=web&t=ext) — Article · Topics: Concurrency · Swift · SwiftUI
+  **NeKI brief:** Explains iOS 27 toolbar visibility priorities, explicit overflow placement, trailing-edge pinning and navigation-bar minimization so important actions survive compact layouts.
+- [Using AI while exercising your critical thinking](https://go.peterfriese.dev/ai-using-ai-while-exercising-your-critical-thinking?s=web&t=ext) — Article · Topics: AI Development
+  **NeKI brief:** Argues that developers must verify AI claims and retain engineering judgment, framing uncritical relay of model output as cognitive surrender rather than productive delegation.
+- [Setting up a delivery pipeline for your agentic iOS projects](https://go.peterfriese.dev/tools-setting-up-a-delivery-pipeline-for-your-agentic-ios-projects?s=web&t=ext) — Article · Topics: AI Development
+  **NeKI brief:** Describes an agentic iOS delivery pipeline built around repository instructions, planning, automated review, CI builds and tests, and rapid TestFlight feedback while retaining human code review.
 
 ## [Issue 99](https://peterfriese.dev/newsletter/issues/99)
 

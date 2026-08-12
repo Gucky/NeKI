@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Developer conferences, publications, courses, podcasts, membership, sponsorship, and community business news.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **249**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **251**
 
 ## Direct-source reading
 
+- [GitHub account no longer required](https://www.pointfree.co/blog/posts/221-github-account-no-longer-required) — Point-Free · article catalogue
+  **Published:** `2026-08-12T00:00:00Z`
+  **NeKI brief:** Announces email one-time-code sign-in for Point-Free, making GitHub connection optional and documenting the resulting account migration and access workflow.
 - [Updated Course: Intermediate Realm on iOS | Kodeco](https://www.kodeco.com/575-updated-course-intermediate-realm-on-ios) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Updates an intermediate Realm course around model access and persistence workflows. Follow it when maintaining Realm-backed apps and evaluating how object lifetimes, queries, and migrations constrain application architecture.
@@ -126,12 +129,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [What's New in Swift: July 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-july-2026) — Those Who Swift · Issue 279 — Article · Topics: Developer Community & Business · Swift
+  **Published:** `2026-08-12T20:30:39.583Z`
+  **NeKI brief:** Summarizes July activity across Swift releases, evolution, tooling and community workgroups, providing a routing overview rather than a single API tutorial.
+- [swiftCon](https://www.nextappcon.com/swiftcon) — iOS Dev Weekly · Issue 762 — Article · Topics: Developer Community & Business · Swift
+  **Published:** `7th August 2026`
+  **NeKI brief:** SwiftCon's call for speakers seeks production-focused Swift and iOS talks, including SwiftUI, architecture, performance, and testing. Follow the event page to assess the community's current themes or submit a concrete engineering case study.
 - [Swift on Windows: A Year of Refinement](https://l.fatbobman.com/w0147-08) — Fatbobman’s Swift Weekly · Issue 147 — Article · Topics: Developer Community & Business · Swift
   **Published:** `2026-08-03T12:02:34.944Z`
   **NeKI brief:** Reviews a year of production Swift-on-Windows refinements, including runtime builds, dependency-chain work, and deployment friction. It is useful for assessing Swift portability from operational evidence rather than assuming Linux or Apple-platform workflows transfer unchanged.
-- [swiftCon](https://www.nextappcon.com/swiftcon) — iOS Dev Weekly · Issue 761 — Article · Topics: Developer Community & Business · Swift
-  **Published:** `31st July 2026`
-  **NeKI brief:** SwiftCon's call for speakers seeks production-focused Swift and iOS talks, including SwiftUI, architecture, performance, and testing. Follow the event page to assess the community's current themes or submit a concrete engineering case study.
 - [AI Broke Code Review. Here’s How to Rebuild It.](https://swiftandmemes.com/ai-broke-code-review-heres-how-to-rebuild-it) — iOS Dev Weekly · Issue 761 — Article · Topics: AI Development · Code Quality · Developer Community & Business
   **Published:** `31st July 2026`
   **NeKI brief:** Proposes a layered review pipeline for AI-generated changes, combining deterministic checks, focused automated reviewers, architectural scrutiny, and human judgment. The structure is useful when increased code volume overwhelms a traditional single-pass pull-request review.

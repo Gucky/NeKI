@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.swiftjectivec.com/allposts](https://www.swiftjectivec.com/allposts)
-- Last collected: `2026-07-22T21:58:56Z`
-- Indexed entries: **199**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed entries: **200**
 
+- [The Skills Conundrum | Swiftjective-C](https://swiftjectivec.com/The-Skills-Conundrum)
+  **Published:** `2026-08-10T00:00:00-05:00`
+  **Topics:** AI Development · Developer Tools
+  **NeKI brief:** Describes a Git-repository workflow for synchronizing personal and third-party agent skills across harnesses and multiple Macs through dedicated push, pull and npx-update skills.
 - [Copywriting with Agents and…Apple Designers? | Swiftjective-C](https://swiftjectivec.com/Copywriting-with-Agents-and-Apple-Designers)
   **Published:** `2026-07-17T00:00:00-05:00`
   **Topics:** Swift

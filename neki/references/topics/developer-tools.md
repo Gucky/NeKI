@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Git, command-line work, debugging, automation, and practical developer workflows.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **1249**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **1262**
 
 ## Direct-source reading
 
+- [The Skills Conundrum | Swiftjective-C](https://swiftjectivec.com/The-Skills-Conundrum) — Swiftjective-C · article catalogue
+  **Published:** `2026-08-10T00:00:00-05:00`
+  **NeKI brief:** Describes a Git-repository workflow for synchronizing personal and third-party agent skills across harnesses and multiple Macs through dedicated push, pull and npx-update skills.
 - [How to free up Xcode disk space safely with an AI Agent - SwiftLee](https://www.avanderlee.com/ai-development/how-to-free-up-xcode-disk-space-safely-with-an-ai-agent) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-07-27T08:34:16+00:00`
   **NeKI brief:** Presents an audit-first Xcode cleanup skill that inventories Derived Data, simulators, runtimes, archives, and caches with stable evidence before itemised approval. It preserves distributed archives, revalidates candidates, and separates recoverable trash moves from irreversible simulator operations.
@@ -96,6 +99,45 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [How to Use Git Worktree — and How AI Agents Use It](https://mfaani.com/posts/ai/how-to-use-git-worktree-and-how-its-used-by-ai-agents) — Those Who Swift · Issue 279 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-08-12T20:30:39.583Z`
+  **NeKI brief:** Explains creating sibling Git worktrees, the one-worktree-per-branch constraint and why isolated checkouts let several coding agents work concurrently without sharing an index.
+- [Concentric Buttons with OS 27's SwiftUI APIs](https://alexanderweiss.dev/blog/2026-08-09-concentric-button-os-27-swiftui-apis) — SwiftLee Weekly · Issue 336 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Builds a custom SwiftUI button border from GeometryProxy.concentricCornerRadii, including container-shape requirements, nil fallback behavior and the limitation that ButtonBorderShape remains closed.
+- [AcceptedSE-0516`Iterable`](https://github.com/apple/swift-evolution/blob/main/proposals/0516-borrowing-sequence.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0516`Iterable`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [AcceptedSE-0535Add CLI for editing global mirrors configuration](https://github.com/apple/swift-evolution/blob/main/proposals/0535-global-mirrors-configuration-cli.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Adds a --global option to SwiftPM's mirror configuration commands so user-wide mirrors can be viewed and edited outside a package directory without changing existing local behavior.
+- [Active ReviewSE-0541Flexible Swift/C Interoperability for Packages](https://github.com/apple/swift-evolution/blob/main/proposals/0541-flexible-swift-c-interoperability-for-packages.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Proposes mixed Swift and C-family sources in SwiftPM targets, bridging-header manifest support and sounder generated-header consumption for package interoperability.
+- [Active ReviewSE-0543InlineArray: Hashable](https://github.com/apple/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Proposes conditional Equatable and Hashable conformances for InlineArray when its elements qualify, using elementwise equality and hashing every element with linear complexity.
+- [My Swift Concurrency Agent Skill should already work](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill/releases/tag/2.2.0) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Updates the Swift concurrency skill with approachable-concurrency settings, Xcode defaults and SendableMetatype guidance while adopting the Agent Plugins 1.0 portable package format.
+- [Concentric Buttons with OS 27’s SwiftUI APIs](https://l.fatbobman.com/w0148-04) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Builds a custom SwiftUI button border from GeometryProxy.concentricCornerRadii, including container-shape requirements, nil fallback behavior and the limitation that ButtonBorderShape remains closed.
+- [Gitwyn: A Git Client Designed Around the Xcode Workflow](https://l.fatbobman.com/w0148-06) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Developer Tools · Xcode
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Introduces Gitwyn, a native macOS companion that overlays Xcode with hunk staging, commit graphs, conflict resolution, branch operations and named stashes.
+- [ConsentBus](https://github.com/divyaravitech/ConsentBus) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Implements serialized consent propagation across SDK adapters with signed receipts and a hash-chained audit ledger; most bundled vendor adapters are currently documented stubs rather than live integrations.
+- [FoundationModelsKit](https://github.com/divyaravitech/FoundationModelsKit) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Provides protocol-based model routing, actor-isolated conversation compaction, evaluation hooks and regional availability for mixing on-device, private-cloud and third-party model implementations.
+- [Ironsmith](https://ironsmith.app/) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Article · Topics: AI Development · Developer Tools · Security & Privacy
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Offers an open-source macOS menu-bar workflow that turns prompts into sandboxed native SwiftUI utilities, using local models or configured cloud providers and packaging each result as a runnable app.
+- [Keyty](https://github.com/keytyapp/keyty) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Source repository · Topics: Developer Tools · Hardware & Devices
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Open-source macOS overlay for visualizing keyboard shortcuts, typed input, clicks and pointer activity during demos, with configurable presentation styles and local-only input processing.
 - [A Sol's Work: Shipping with GPT-5.6 Sol](https://rudrank.com/a-sols-work-shipping-with-gpt-5-6-sol) — Those Who Swift · Issue 278 — Article · Topics: AI Development · Developer Tools · Personal Essays
   **Published:** `2026-08-05T20:00:46.292Z`
   **NeKI brief:** Describes a walk-away test for long-running coding agents: survive changing branches, review feedback, CI failures, and retries, then report verified reality. Production examples show increased autonomy while preserving explicit human review before shipping.
@@ -243,9 +285,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [EnableMacosAI](https://github.com/SkyBlue997/enableMacosAI) — Fatbobman’s Swift Weekly · Issue 140 — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
   **Published:** `2026-06-15T12:03:17.597Z`
   **NeKI brief:** EnableMacosAI documents a workaround for making Apple Intelligence features available in unsupported macOS environments. Treat it as experimental configuration research, not a supported deployment approach or substitute for official eligibility requirements.
-- [Active ReviewSE-0516`Iterable`](https://github.com/apple/swift-evolution/blob/main/proposals/0516-borrowing-sequence.md) — SwiftLee Weekly · Issue 327 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
-  **Published:** `2026-06-09T21:59:45.000Z`
-  **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0516`Iterable`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
 - [A Vision for Networking in Swift](https://github.com/swiftlang/swift-evolution/blob/main/visions/networking.md) — Fatbobman’s Swift Weekly · Issue 139 — Source repository · Topics: Apple Platform Ecosystem · Networking · Swift
   **Published:** `2026-06-09T12:03:24.234Z`
   **NeKI brief:** Swift's networking vision analyzes overlapping responsibilities among URLSession, Network.framework, SwiftNIO, and related clients. Follow it when designing an abstraction that should align with the language ecosystem's planned consolidation.

@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple Intelligence, Foundation Models, ML, generative-AI workflows, and developer tooling.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **294**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **297**
 
 ## Direct-source reading
 
+- [The Skills Conundrum | Swiftjective-C](https://swiftjectivec.com/The-Skills-Conundrum) — Swiftjective-C · article catalogue
+  **Published:** `2026-08-10T00:00:00-05:00`
+  **NeKI brief:** Describes a Git-repository workflow for synchronizing personal and third-party agent skills across harnesses and multiple Macs through dedicated push, pull and npx-update skills.
 - [How to free up Xcode disk space safely with an AI Agent - SwiftLee](https://www.avanderlee.com/ai-development/how-to-free-up-xcode-disk-space-safely-with-an-ai-agent) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-07-27T08:34:16+00:00`
   **NeKI brief:** Presents an audit-first Xcode cleanup skill that inventories Derived Data, simulators, runtimes, archives, and caches with stable evidence before itemised approval. It preserves distributed archives, revalidates candidates, and separates recoverable trash moves from irreversible simulator operations.
@@ -250,6 +253,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [FoundationModelsKit](https://github.com/divyaravitech/FoundationModelsKit) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Provides protocol-based model routing, actor-isolated conversation compaction, evaluation hooks and regional availability for mixing on-device, private-cloud and third-party model implementations.
 - [getting-started walkthrough](https://www.kodeco.com/53631607-getting-started-with-apple-s-foundation-models?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Swift · SwiftUI
   **Published:** `2026-08-06T06:44:37.000Z`
   **NeKI brief:** Builds a minimal SwiftUI chat around SystemLanguageModel and LanguageModelSession, including availability checks, failure-state testing, prompting, and response display. Useful as an on-device Foundation Models starting point before adding structured generation or tools.
@@ -736,6 +742,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Machine Learning for everyone](http://machinethink.net/blog/ios-11-machine-learning-for-everyone) — iOS Dev Weekly · Issue 305 — Article · Topics: AI Development · Graphics, Media & Games
   **Published:** `16th June 2017`
   **NeKI brief:** Explores Machine Learning for everyone in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [Setting up a delivery pipeline for your agentic iOS projects](https://go.peterfriese.dev/tools-setting-up-a-delivery-pipeline-for-your-agentic-ios-projects?s=web&t=ext) — Not only Swift · Issue 100 — Article · Topics: AI Development
+  **NeKI brief:** Describes an agentic iOS delivery pipeline built around repository instructions, planning, automated review, CI builds and tests, and rapid TestFlight feedback while retaining human code review.
 - [AgenticSwift — AI Macros for Swift](https://go.peterfriese.dev/ai-agenticswift-macros?s=web&t=ext) — Not only Swift · Issue 99 — Article · Topics: AI Development · Macros & Metaprogramming · Swift
   **NeKI brief:** AgenticSwift experiments with a macro that asks a model to generate Swift implementation code. Inspect it to understand compile-time generation mechanics and the reproducibility, review, security, and build-dependency risks of placing an AI call in macro expansion.
 - [this prompt](https://go.peterfriese.dev/agenticswift-macro-prompt?s=newsletter&t=ext) — Not only Swift · Issue 99 — Article · Topics: AI Development · Macros & Metaprogramming · Swift

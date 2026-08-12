@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** SwiftUI views, layout, rendering, animation, interaction, and platform adaptation.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **2931**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **2945**
 
 ## Direct-source reading
 
+- [Adaptive SwiftUI toolbars in iOS 27](https://nilcoalescing.com/blog/AdaptiveSwiftUIToolbarsInIOS27) — Nil Coalescing · article catalogue
+  **Published:** `2026-08-09`
+  **NeKI brief:** Explains iOS 27 toolbar visibility priorities, explicit overflow placement, trailing-edge pinning and navigation-bar minimization so important actions survive compact layouts.
 - [Alignment guides in SwiftUI](https://nilcoalescing.com/blog/AlignmentGuidesInSwiftUI) — Nil Coalescing · article catalogue
   **Published:** `2026-08-06`
   **NeKI brief:** Explains how SwiftUI alignment guides report coordinates, how alignmentGuide(_:computeValue:) overrides built-in guides, and how a custom AlignmentID aligns views across nested containers. The examples clarify that guides participate in layout rather than repositioning views afterward.
@@ -5244,6 +5247,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Distinguishes SwiftUI glass button styles from the lower-level glassEffect modifier, making component-level styling decisions clearer in Liquid Glass interfaces.
 - [When SwiftUI automatically applies the glass look and when it doesn’t](https://tanaschita.com/swiftui-glass-auto-apply) — Tanaschita · article catalogue
   **NeKI brief:** Explains when SwiftUI automatically applies Liquid Glass and when explicit modifiers are required. Useful for diagnosing inconsistent material appearance across containers and platform contexts.
+- [Managing focus in SwiftUI with FocusState](https://tanaschita.com/swiftui-focus-state) — Tanaschita · article catalogue
+  **NeKI brief:** Shows how FocusState drives programmatic focus, switches among several fields, dismisses the keyboard and passes a focus binding into child views.
 - [Understanding the @FetchRequest property wrapper in SwiftUI](https://tanaschita.com/swiftui-fetchrequest-property-wrapper) — Tanaschita · article catalogue
   **NeKI brief:** Explains @FetchRequest as a SwiftUI-driven Core Data query, clarifying predicate, sort, and managed-object context boundaries that affect view updates.
 - [Understanding the @Environment property wrapper in SwiftUI](https://tanaschita.com/swiftui-environment-property-wrapper) — Tanaschita · article catalogue
@@ -5519,6 +5524,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [SwiftUI Document APIs in the 2027 Releases: Everything You Need to Know](https://sagarunagar.com/blog/swiftui-document-apis-2027-whats-new) — Those Who Swift · Issue 279 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-08-12T20:30:39.583Z`
+  **NeKI brief:** Surveys new SwiftUI document creation, reading, writing and snapshot APIs, emphasizing asynchronous disk work, responsive large-file handling and direct document URL access.
+- [Using SwiftUI's ContentBuilder with Non-View Types](https://artemnovichkov.com/blog/using-swiftui-contentbuilder-with-non-view-types) — Those Who Swift · Issue 279 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-08-12T20:30:39.583Z`
+  **NeKI brief:** Uses Xcode 27's ContentBuilder to assemble a type-safe deep-link routing DSL from non-View values, with an approach for preserving similar syntax on earlier deployment targets.
+- [Concentric Buttons with OS 27's SwiftUI APIs](https://alexanderweiss.dev/blog/2026-08-09-concentric-button-os-27-swiftui-apis) — Those Who Swift · Issue 279 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-08-12T20:30:39.583Z`
+  **NeKI brief:** Builds a custom SwiftUI button border from GeometryProxy.concentricCornerRadii, including container-shape requirements, nil fallback behavior and the limitation that ButtonBorderShape remains closed.
+- [Scalable Custom Fonts in SwiftUI](https://jacobzivandesign.com/technology/custom-dynamic-fonts-in-swift-ui) — SwiftUI Weekly · SwiftUI Weekly - Issue #239 — Article · Topics: Swift · SwiftUI · Testing
+  **Published:** `2026-08-12T12:58:42.119Z`
+  **NeKI brief:** Builds scalable custom-font styles around Dynamic Type text styles and UIFontMetrics so branded typography follows accessibility sizes instead of fixed device-specific points.
+- [Controlling Orphans in SwiftUI Text using an undocumented method](https://fatbobman.com/en/posts/controlling-orphans-in-swiftui-text) — SwiftLee Weekly · Issue 336 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Investigates SwiftUI Text's automatic orphan avoidance and an undocumented avoidsOrphans control, while warning that relying on the hidden API carries compatibility and review risk.
+- [AcceptedSE-0516`Iterable`](https://github.com/apple/swift-evolution/blob/main/proposals/0516-borrowing-sequence.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0516`Iterable`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [AcceptedSE-0535Add CLI for editing global mirrors configuration](https://github.com/apple/swift-evolution/blob/main/proposals/0535-global-mirrors-configuration-cli.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Adds a --global option to SwiftPM's mirror configuration commands so user-wide mirrors can be viewed and edited outside a package directory without changing existing local behavior.
+- [Active ReviewSE-0541Flexible Swift/C Interoperability for Packages](https://github.com/apple/swift-evolution/blob/main/proposals/0541-flexible-swift-c-interoperability-for-packages.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Proposes mixed Swift and C-family sources in SwiftPM targets, bridging-header manifest support and sounder generated-header consumption for package interoperability.
+- [Active ReviewSE-0543InlineArray: Hashable](https://github.com/apple/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Proposes conditional Equatable and Hashable conformances for InlineArray when its elements qualify, using elementwise equality and hashing every element with linear complexity.
+- [My Swift Concurrency Agent Skill should already work](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill/releases/tag/2.2.0) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Updates the Swift concurrency skill with approachable-concurrency settings, Xcode defaults and SendableMetatype guidance while adopting the Agent Plugins 1.0 portable package format.
+- [Preview Multiple SwiftUI View States with #Preview(arguments:)](https://l.fatbobman.com/w0148-03) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Uses Xcode 27's #Preview(arguments:) macro to model several named business states as selectable Canvas variants while keeping environment configuration separate from view-state data.
+- [Concentric Buttons with OS 27’s SwiftUI APIs](https://l.fatbobman.com/w0148-04) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Builds a custom SwiftUI button border from GeometryProxy.concentricCornerRadii, including container-shape requirements, nil fallback behavior and the limitation that ButtonBorderShape remains closed.
 - [getting-started walkthrough](https://www.kodeco.com/53631607-getting-started-with-apple-s-foundation-models?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Swift · SwiftUI
   **Published:** `2026-08-06T06:44:37.000Z`
   **NeKI brief:** Builds a minimal SwiftUI chat around SystemLanguageModel and LanguageModelSession, including availability checks, failure-state testing, prompting, and response display. Useful as an on-device Foundation Models starting point before adding structured generation or tools.
@@ -5768,9 +5809,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI Localization Guide — Change Language Without Restarting The App](https://www.sagarunagar.com/blog/swiftui-app-language-switching-without-restart) — Those Who Swift · Issue 270 — Article · Topics: Localization · Swift · SwiftUI
   **Published:** `2026-06-10`
   **NeKI brief:** Shows how a SwiftUI app can switch its language without restarting. Use it when evaluating runtime locale changes, while checking environment propagation, persistence, pluralization, and state refresh behavior across the app's navigation tree.
-- [Active ReviewSE-0516`Iterable`](https://github.com/apple/swift-evolution/blob/main/proposals/0516-borrowing-sequence.md) — SwiftLee Weekly · Issue 327 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
-  **Published:** `2026-06-09T21:59:45.000Z`
-  **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0516`Iterable`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
 - [Task Names in Swift ConcurrencyName Swift tasks for clearer debugging and profilingArtem Novichkov](https://artemnovichkov.com/blog/task-names-in-swift-concurrency?ref=createwithswift.com) — Create with Swift · Issue 110 — Article · Topics: Concurrency · Performance · Swift
   **Published:** `2026-06-06T14:00:23.000Z`
   **NeKI brief:** Explains naming tasks in Swift concurrency and how names aid debugging and observability. Follow it when tracing asynchronous work, while keeping names descriptive and avoiding assumptions that labels change scheduling, isolation, or cancellation semantics.
@@ -8486,6 +8524,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Typist: Small Swift UIKit keyboard manager for iOS apps](https://github.com/totocaster/Typist) — iOS Dev Weekly · Issue 271 — Source repository · Topics: Developer Tools · Hardware & Devices · Swift
   **Published:** `7th October 2016`
   **NeKI brief:** Examines Typist: Small Swift UIKit keyboard manager for iOS apps, focusing on this library from toto tvalavadze is kinda interesting. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Adaptive SwiftUI toolbars in iOS 27](https://go.peterfriese.dev/swiftui-adaptive-swiftui-toolbars-in-ios-27?s=web&t=ext) — Not only Swift · Issue 100 — Article · Topics: Concurrency · Swift · SwiftUI
+  **NeKI brief:** Explains iOS 27 toolbar visibility priorities, explicit overflow placement, trailing-edge pinning and navigation-bar minimization so important actions survive compact layouts.
 - [SwiftUI: @State is a macro](https://go.peterfriese.dev/swiftui-state-macro?s=web&t=ext) — Not only Swift · Issue 99 — Tutorial · Topics: Macros & Metaprogramming · Swift · SwiftUI
   **NeKI brief:** Explains Xcode 27’s implementation of SwiftUI State as a macro, including initialization fixes, AttributeGraph nodes, DynamicProperty injection, and invalidation. Use it to understand changed internals without assuming implementation details are a stable public contract.
 - [SwiftUI Property Wrappers](https://go.peterfriese.dev/swiftui-property-wrappers?s=newsletter&t=ext) — Not only Swift · Issue 99 — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI

@@ -3,8 +3,28 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.swiftwithmajid.com/archive](https://weekly.swiftwithmajid.com/archive)
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed entries: **212**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed entries: **213**
+
+## [SwiftUI Weekly - Issue #239](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-239)
+
+- Published: `2026-08-12T12:58:42.119Z`
+
+**Topics:** Developer Tools · Hardware & Devices · macOS & AppKit · Objective-C & Cocoa · Swift · SwiftUI
+
+**NeKI brief:** Routes to reading on custom fonts, concentric buttons, FocusState and drawing-group geometry, with an adaptive-panel article carried from the prior issue.
+
+**Selected links:**
+- [Building adaptive non-modal panels in SwiftUI](https://nilcoalescing.com/blog/BuildingAdaptiveNonModalPanelsInSwiftUI) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Builds a custom SwiftUI panel that changes from a bottom sheet to an edge-aligned panel using measured scene geometry, custom Layout, preferences, and detents. The drag implementation preserves scrolling by combining gestures deliberately.
+- [Concentric Buttons with OS 27's SwiftUI APIs](https://alexanderweiss.dev/blog/2026-08-09-concentric-button-os-27-swiftui-apis) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Builds a custom SwiftUI button border from GeometryProxy.concentricCornerRadii, including container-shape requirements, nil fallback behavior and the limitation that ButtonBorderShape remains closed.
+- [Scalable Custom Fonts in SwiftUI](https://jacobzivandesign.com/technology/custom-dynamic-fonts-in-swift-ui) — Article · Topics: Swift · SwiftUI · Testing
+  **NeKI brief:** Builds scalable custom-font styles around Dynamic Type text styles and UIFontMetrics so branded typography follows accessibility sizes instead of fixed device-specific points.
+- [Managing focus in SwiftUI with FocusState](https://tanaschita.com/swiftui-focus-state) — Article · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Shows how FocusState drives programmatic focus, switches among several fields, dismisses the keyboard and passes a focus binding into child views.
+- [Geometry, compositing and drawing groups in SwiftUI](https://nilcoalescing.com/blog/GeometryCompositingAndDrawingGroupsInSwiftUI) — Article · Topics: Hardware & Devices · Swift · SwiftUI
+  **NeKI brief:** Separates geometryGroup, compositingGroup, and drawingGroup by the stage of rendering or animation they affect. The comparison helps diagnose visual artifacts and choose a modifier based on actual compositing needs rather than similar names.
 
 ## [SwiftUI Weekly - Issue #238](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-238)
 

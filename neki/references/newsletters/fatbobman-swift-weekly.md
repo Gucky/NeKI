@@ -3,8 +3,34 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.fatbobman.com/archive](https://weekly.fatbobman.com/archive)
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed entries: **147**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed entries: **148**
+
+## [Issue 148](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-148)
+
+- Published: `2026-08-10T12:01:23.212Z`
+
+**Topics:** AI Development · Concurrency · Developer Tools · Swift · SwiftUI · Xcode
+
+**Sections:** Apple Intelligence Has Passed Chinese Government Review and Is Coming to China · 📢 Sponsor Fatbobman’s Swift Weekly · Original
+
+**NeKI brief:** Surveys protocol isolation, multi-state SwiftUI previews, concentric button shapes, AI-assisted development, Xcode-oriented Git tooling, versioned DocC publishing and Swift Subprocess 1.0.
+
+**Selected links:**
+- [Concentric Buttons with OS 27’s SwiftUI APIs](https://l.fatbobman.com/w0148-04) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **NeKI brief:** Builds a custom SwiftUI button border from GeometryProxy.concentricCornerRadii, including container-shape requirements, nil fallback behavior and the limitation that ButtonBorderShape remains closed.
+- [VersionedDocC: Bringing Version Management to Swift-DocC](https://l.fatbobman.com/w0148-07) — Article · Topics: Apple Platform Ecosystem · Developer Career & Practice · Swift
+  **NeKI brief:** Presents VersionedDocC's orchestration of immutable release documentation, stable versioned URLs, symbol-graph API comparisons and reusable publishing workflows around the standard Swift and DocC tools.
+- [Swift, AI, and the future of software development](https://l.fatbobman.com/w0148-05) — Article · Topics: AI Development · Swift
+  **NeKI brief:** Reflects on how LLM-assisted development trades repetitive coding for architecture work while risking skill atrophy, dopamine-driven prompting and unrealistic claims about current AI capabilities.
+- [Gitwyn: A Git Client Designed Around the Xcode Workflow](https://l.fatbobman.com/w0148-06) — Article · Topics: Developer Tools · Xcode
+  **NeKI brief:** Introduces Gitwyn, a native macOS companion that overlays Xcode with hunk staging, commit graphs, conflict resolution, branch operations and named stashes.
+- [Swift Subprocess 1.0](https://l.fatbobman.com/w0148-08) — Article · Topics: Concurrency · Cross-Platform & Web · Swift
+  **NeKI brief:** Documents the cross-platform swift-subprocess package for launching processes with Swift Concurrency, including streamed I/O, process configuration and an optional Foundation integration trait.
+- [An Even Closer Look at Protocols and Global Actors](https://l.fatbobman.com/w0148-01) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Compares whole-protocol, per-requirement and conformance-level global-actor isolation, showing how each choice changes protocol usability and where nonisolated conformances preserve flexibility.
+- [Preview Multiple SwiftUI View States with #Preview(arguments:)](https://l.fatbobman.com/w0148-03) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Uses Xcode 27's #Preview(arguments:) macro to model several named business states as selectable Canvas variants while keeping environment configuration separate from view-state data.
 
 ## [Issue 147](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-147)
 

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** macOS app lifecycle, menu-bar apps, Cocoa, and AppKit integration.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **227**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **228**
 
 ## Direct-source reading
 
@@ -104,6 +104,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Ironsmith](https://ironsmith.app/) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Article · Topics: AI Development · Developer Tools · Security & Privacy
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Offers an open-source macOS menu-bar workflow that turns prompts into sandboxed native SwiftUI utilities, using local models or configured cloud providers and packaging each result as a runnable app.
 - [Michael Tsai](https://mjtsai.com/blog/2026/07/24/golden-gate-application-support-protection?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: macOS & AppKit · Security & Privacy
   **Published:** `2026-08-06T06:44:37.000Z`
   **NeKI brief:** Reports macOS 27 extending com.apple.macl protection to selected non-sandboxed Application Support folders through an allowlist in sandboxd, apparently updateable via XProtect. Treat it as an investigation lead for TCC-adjacent access asymmetry, not documented API behavior.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift concurrency, async/await, actors, Sendable, tasks, cancellation, and diagnostics.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **1119**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **1128**
 
 ## Direct-source reading
 
@@ -2248,6 +2248,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Bluetooth Without the Delegate Dance](https://kylebrowning.com/posts/bluetooth-without-the-delegate-dance) — Those Who Swift · Issue 279 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-08-12T20:30:39.583Z`
+  **NeKI brief:** Compares raw CoreBluetooth delegates, an older wrapper and a Swift 6.2 actor design, then introduces BLESwift and its macOS command-line companion for async device workflows.
+- [An Even Closer Look at Protocols and Global Actors](https://www.massicotte.org/blog/protocols-and-global-actors) — Those Who Swift · Issue 279 — Article · Topics: Concurrency
+  **Published:** `2026-08-12T20:30:39.583Z`
+  **NeKI brief:** Compares whole-protocol, per-requirement and conformance-level global-actor isolation, showing how each choice changes protocol usability and where nonisolated conformances preserve flexibility.
+- [Swift 6.2 Concurrency in Practice: Default to MainActor, Escape on Purpose](https://blakecrosley.com/blog/swift-6-2-concurrency-in-practice) — Those Who Swift · Issue 279 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-08-12T20:30:39.583Z`
+  **NeKI brief:** Explains approachable-concurrency defaults: module-wide MainActor isolation, caller-actor execution for nonisolated async functions and explicit @concurrent escape points for CPU-heavy work.
+- [My Swift Concurrency Agent Skill should already work](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill/releases/tag/2.2.0) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2026-08-11T14:07:13.000Z`
+  **NeKI brief:** Updates the Swift concurrency skill with approachable-concurrency settings, Xcode defaults and SendableMetatype guidance while adopting the Agent Plugins 1.0 portable package format.
+- [An Even Closer Look at Protocols and Global Actors](https://l.fatbobman.com/w0148-01) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Compares whole-protocol, per-requirement and conformance-level global-actor isolation, showing how each choice changes protocol usability and where nonisolated conformances preserve flexibility.
+- [Swift Subprocess 1.0](https://l.fatbobman.com/w0148-08) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Concurrency · Cross-Platform & Web · Swift
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Documents the cross-platform swift-subprocess package for launching processes with Swift Concurrency, including streamed I/O, process configuration and an optional Foundation integration trait.
+- [Building Testable SwiftData Applications](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — iOS Dev Weekly · Issue 762 — Article · Topics: Swift · SwiftData · Testing
+  **Published:** `7th August 2026`
+  **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
 - [Demystifying Thread Hopping with Swift 6.2 Approachable Concurrency](https://www.nsvasilev.com/posts/approachable_concurrency) — Those Who Swift · Issue 278 — Article · Topics: Concurrency · Swift
   **Published:** `2026-08-05T20:00:46.292Z`
   **NeKI brief:** Explains Swift 6.2 thread hopping under Approachable Concurrency, especially the effect of nonisolated-nonsending defaults on executor inheritance. Use it to reason about isolation and scheduling without treating a particular thread as the concurrency contract.
@@ -3274,6 +3295,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [UIKit Artwork Extractor](https://github.com/0xced/UIKit-Artwork-Extractor) — iOS Dev Weekly · Issue 35 — Source repository · Topics: Concurrency · Developer Tools · UIKit
   **Published:** `30th March 2012`
   **NeKI brief:** Provides the UIKit Artwork Extractor source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Sendable and @Sendable closures explained with code examples](https://go.peterfriese.dev/swift-sendable-protocol-closures?s=web&t=ext) — Not only Swift · Issue 100 — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Explains how Sendable conformance and @Sendable closures let the compiler check values crossing actors, tasks and other isolation domains, including implicit value-type conformance and unsafe escape hatches.
+- [Adaptive SwiftUI toolbars in iOS 27](https://go.peterfriese.dev/swiftui-adaptive-swiftui-toolbars-in-ios-27?s=web&t=ext) — Not only Swift · Issue 100 — Article · Topics: Concurrency · Swift · SwiftUI
+  **NeKI brief:** Explains iOS 27 toolbar visibility priorities, explicit overflow placement, trailing-edge pinning and navigation-bar minimization so important actions survive compact layouts.
 - [Making a SwiftUI sheet automatically size to fit its content](https://go.peterfriese.dev/swiftui-making-a-sheet-automatically-size?s=web&t=ext) — Not only Swift · Issue 99 — Article · Topics: Concurrency · Swift · SwiftUI
   **NeKI brief:** Builds a SwiftUI sheet whose detent follows measured content instead of a fixed fraction of the screen. Use it when content-driven sizing matters, testing measurement loops, dynamic type, rotation, and interactive dismissal.
 - [several of my talks](https://speakerdeck.com/peterfriese/building-reusable-swiftui-components-98b3272c-3056-44ad-879c-2780c1f89e2d?slide=57) — Not only Swift · Issue 98 — Article · Topics: Concurrency · Swift · SwiftUI

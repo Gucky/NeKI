@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Local storage, CloudKit, databases, caching, keychain use, and synchronisation.
 
-- Last collected: `2026-08-06T08:26:12Z`
+- Last collected: `2026-08-12T21:02:47Z`
 - Indexed links shown: **584**
 
 ## Direct-source reading
@@ -1185,15 +1185,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — Those Who Swift · Issue 279 — Article · Topics: Swift · SwiftData · Testing
+  **Published:** `2026-08-12T20:30:39.583Z`
+  **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
 - [Shipping a SwiftData App with iCloud Sync](https://thorsten-stark.de/posts/2026-08-13-Shipping-A-SwiftData-App-With-iCloud-Sync-Part-3) — Those Who Swift · Issue 278 — Article · Topics: Persistence & Synchronisation · SwiftData
   **Published:** `2026-08-05T20:00:46.292Z`
   **NeKI brief:** Covers SwiftData and CloudKit release behavior that local testing can miss: initial-sync empty states, widget timelines that do not react automatically to remote changes, limited conflict control, and production-schema constraints. It emphasizes device validation and designing cheap conflicts.
 - [Avoiding Duplicate Data When SwiftData Syncs Across Devices](https://thorsten-stark.de/posts/2026-08-06-Avoiding-Duplicate-Data-With-SwiftData-iCloud-Sync-Part-2) — SwiftLee Weekly · Issue 335 — Article · Topics: Swift · SwiftData
   **Published:** `2026-08-04T14:04:01.000Z`
   **NeKI brief:** Explains why independently seeded SwiftData defaults duplicate when CloudKit later merges device stores, and uses stable identifiers to make seeding idempotent. The pattern is useful for distinguishing local bootstrap state from synchronised identity.
-- [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — SwiftLee Weekly · Issue 335 — Article · Topics: Swift · SwiftData · Testing
-  **Published:** `2026-08-04T14:04:01.000Z`
-  **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
 - [AcceptedSE-0526withDeadline](https://github.com/apple/swift-evolution/blob/main/proposals/0526-deadline.md) — SwiftLee Weekly · Issue 335 — Source repository · Topics: Developer Tools · Swift · SwiftData
   **Published:** `2026-08-04T14:04:01.000Z`
   **NeKI brief:** Proposal SE-0526 adds withDeadline for time-bounded asynchronous work. Read it to distinguish deadline expiry from ordinary cancellation and failure, and verify accepted semantics and toolchain availability before designing a public timeout API around it.

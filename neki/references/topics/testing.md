@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Unit, UI, Swift Testing, XCTest, test design, and test automation.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **1043**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **1044**
 
 ## Direct-source reading
 
@@ -1673,12 +1673,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — Those Who Swift · Issue 279 — Article · Topics: Swift · SwiftData · Testing
+  **Published:** `2026-08-12T20:30:39.583Z`
+  **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
+- [Scalable Custom Fonts in SwiftUI](https://jacobzivandesign.com/technology/custom-dynamic-fonts-in-swift-ui) — SwiftUI Weekly · SwiftUI Weekly - Issue #239 — Article · Topics: Swift · SwiftUI · Testing
+  **Published:** `2026-08-12T12:58:42.119Z`
+  **NeKI brief:** Builds scalable custom-font styles around Dynamic Type text styles and UIFontMetrics so branded typography follows accessibility sizes instead of fixed device-specific points.
 - [The iOS Testing Strategy Agent Skill](https://livsycode.com/best-practices/the-ios-testing-strategy-agent-skill) — Those Who Swift · Issue 278 — Article · Topics: AI Development · Code Quality · Testing
   **Published:** `2026-08-05T20:00:46.292Z`
   **NeKI brief:** Presents an agent skill that starts test design from behavior, risk, and observable outcomes rather than one test file per type. It chooses boundaries and doubles by determinism, execution time, maintenance cost, and the confidence each layer adds.
-- [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — SwiftLee Weekly · Issue 335 — Article · Topics: Swift · SwiftData · Testing
-  **Published:** `2026-08-04T14:04:01.000Z`
-  **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
 - [AcceptedSE-0526withDeadline](https://github.com/apple/swift-evolution/blob/main/proposals/0526-deadline.md) — SwiftLee Weekly · Issue 335 — Source repository · Topics: Developer Tools · Swift · SwiftData
   **Published:** `2026-08-04T14:04:01.000Z`
   **NeKI brief:** Proposal SE-0526 adds withDeadline for time-bounded asynchronous work. Read it to distinguish deadline expiry from ordinary cancellation and failure, and verify accepted semantics and toolchain availability before designing a public timeout API around it.

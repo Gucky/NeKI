@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://tanaschita.com/](https://tanaschita.com/)
-- Last collected: `2026-08-05T08:05:51Z`
-- Indexed entries: **186**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed entries: **187**
 
 - [Understanding Xcode targets, schemes and build configurations](https://tanaschita.com/xcode-targets-schemes)
   **Topics:** Xcode
@@ -141,6 +141,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [When SwiftUI automatically applies the glass look and when it doesn’t](https://tanaschita.com/swiftui-glass-auto-apply)
   **Topics:** Swift · SwiftUI
   **NeKI brief:** Explains when SwiftUI automatically applies Liquid Glass and when explicit modifiers are required. Useful for diagnosing inconsistent material appearance across containers and platform contexts.
+- [Managing focus in SwiftUI with FocusState](https://tanaschita.com/swiftui-focus-state)
+  **Topics:** SwiftUI
+  **NeKI brief:** Shows how FocusState drives programmatic focus, switches among several fields, dismisses the keyboard and passes a focus binding into child views.
 - [Understanding the @FetchRequest property wrapper in SwiftUI](https://tanaschita.com/swiftui-fetchrequest-property-wrapper)
   **Topics:** Core Data · Persistence & Synchronisation · Swift · SwiftUI
   **NeKI brief:** Explains @FetchRequest as a SwiftUI-driven Core Data query, clarifying predicate, sort, and managed-object context boundaries that affect view updates.

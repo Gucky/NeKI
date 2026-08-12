@@ -3,8 +3,48 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://thosewhoswift.substack.com/archive](https://thosewhoswift.substack.com/archive)
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed entries: **84**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed entries: **85**
+
+## [Issue 279](https://thosewhoswift.substack.com/p/those-who-swift-issue-279)
+
+- Published: `2026-08-12T20:30:39.583Z`
+
+**Topics:** Concurrency · Developer Tools · Persistence & Synchronisation · Swift · SwiftUI · Testing
+
+**Sections:** Those Who Swift · Those Who Swift - Issue 279 · Weekly note ✏️
+
+**NeKI brief:** Curates Swift concurrency isolation, testable SwiftData, new SwiftUI APIs, agent worktrees and runtime SF Symbols previewing, with a monthly Swift-project digest.
+
+**Selected links:**
+- [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — Article · Topics: Swift · SwiftData · Testing
+  **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
+- [Bluetooth Without the Delegate Dance](https://kylebrowning.com/posts/bluetooth-without-the-delegate-dance) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Compares raw CoreBluetooth delegates, an older wrapper and a Swift 6.2 actor design, then introduces BLESwift and its macOS command-line companion for async device workflows.
+- [SwiftUI Document APIs in the 2027 Releases: Everything You Need to Know](https://sagarunagar.com/blog/swiftui-document-apis-2027-whats-new) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Surveys new SwiftUI document creation, reading, writing and snapshot APIs, emphasizing asynchronous disk work, responsive large-file handling and direct document URL access.
+- [Using SwiftUI's ContentBuilder with Non-View Types](https://artemnovichkov.com/blog/using-swiftui-contentbuilder-with-non-view-types) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Uses Xcode 27's ContentBuilder to assemble a type-safe deep-link routing DSL from non-View values, with an approach for preserving similar syntax on earlier deployment targets.
+- [Concentric Buttons with OS 27's SwiftUI APIs](https://alexanderweiss.dev/blog/2026-08-09-concentric-button-os-27-swiftui-apis) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Builds a custom SwiftUI button border from GeometryProxy.concentricCornerRadii, including container-shape requirements, nil fallback behavior and the limitation that ButtonBorderShape remains closed.
+- [Adaptive SwiftUI Toolbars in iOS 27](https://nilcoalescing.com/blog/AdaptiveSwiftUIToolbarsInIOS27) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains iOS 27 toolbar visibility priorities, explicit overflow placement, trailing-edge pinning and navigation-bar minimization so important actions survive compact layouts.
+- [How to Use Git Worktree — and How AI Agents Use It](https://mfaani.com/posts/ai/how-to-use-git-worktree-and-how-its-used-by-ai-agents) — Article · Topics: AI Development · Developer Tools
+  **NeKI brief:** Explains creating sibling Git worktrees, the one-worktree-per-branch constraint and why isolated checkouts let several coding agents work concurrently without sharing an index.
+- [Managing Focus in SwiftUI with FocusState](https://tanaschita.com/swiftui-focus-state) — Article · Topics: Developer Career & Practice · Swift · SwiftUI
+  **NeKI brief:** Shows how FocusState drives programmatic focus, switches among several fields, dismisses the keyboard and passes a focus binding into child views.
+- [Swift 6.2 Concurrency in Practice: Default to MainActor, Escape on Purpose](https://blakecrosley.com/blog/swift-6-2-concurrency-in-practice) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Explains approachable-concurrency defaults: module-wide MainActor isolation, caller-actor execution for nonisolated async functions and explicit @concurrent escape points for CPU-heavy work.
+- [What's New in Swift: July 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-july-2026) — Article · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Summarizes July activity across Swift releases, evolution, tooling and community workgroups, providing a routing overview rather than a single API tutorial.
+- [Using AI Without Losing Your Critical Thinking](https://swiftrocks.com/using-ai-without-losing-critical-thinking) — Article · Topics: AI Development · Swift
+  **NeKI brief:** Argues that developers must verify AI claims and retain engineering judgment, framing uncritical relay of model output as cognitive surrender rather than productive delegation.
+- [iOS 27: Working with the Media Intelligence Framework](https://antongubarenko.substack.com/p/ios-27-media-intelligence-framework) — Article
+  **NeKI brief:** Introduces iOS 27’s Media Intelligence framework for analysing video and grouping detected faces, including the need for a physical device. Use it as an implementation lead while confirming supported media, privacy behavior, and final SDK availability.
+- [An Even Closer Look at Protocols and Global Actors](https://www.massicotte.org/blog/protocols-and-global-actors) — Article · Topics: Concurrency
+  **NeKI brief:** Compares whole-protocol, per-requirement and conformance-level global-actor isolation, showing how each choice changes protocol usability and where nonisolated conformances preserve flexibility.
+- [Previewing SF Symbols with Apple's Own Renderer](https://www.amyworrall.com/blog/previewing-sf-symbols-with-apples-own-renderer) — Article
+  **NeKI brief:** Previews edited custom SF Symbols with Apple's renderer by patching a template asset catalog at runtime, loading the generated Assets.car through a temporary bundle.
 
 ## [Issue 278](https://thosewhoswift.substack.com/p/those-who-swift-issue-278)
 

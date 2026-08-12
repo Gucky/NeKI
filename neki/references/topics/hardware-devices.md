@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple hardware, peripherals, device setup, and physical-computing context.
 
-- Last collected: `2026-08-05T09:01:09Z`
-- Indexed links shown: **39**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **40**
 
 ## Direct-source reading
 
@@ -49,6 +49,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Keyty](https://github.com/keytyapp/keyty) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Source repository · Topics: Developer Tools · Hardware & Devices
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Open-source macOS overlay for visualizing keyboard shortcuts, typed input, clicks and pointer activity during demos, with configurable presentation styles and local-only input processing.
 - [Atoll](https://github.com/Ebullioscopic/Atoll) — iOS Dev Tools · iOS Dev Tools: Apple App Store Scraper, SideScreen, SiteKit — Source repository · Topics: Developer Tools
   **Published:** `2026-07-02T19:03:32.109Z`
   **NeKI brief:** Atoll recreates a Dynamic-Island-style surface for macOS, exposing transient status and interaction affordances around the display cutout area. Useful for experimenting with unobtrusive desktop status UI and window positioning.

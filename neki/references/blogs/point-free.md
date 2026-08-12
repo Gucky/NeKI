@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.pointfree.co/blog](https://www.pointfree.co/blog)
-- Last collected: `2026-08-04T16:05:07Z`
-- Indexed entries: **155**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed entries: **156**
 
+- [GitHub account no longer required](https://www.pointfree.co/blog/posts/221-github-account-no-longer-required)
+  **Published:** `2026-08-12T00:00:00Z`
+  **Topics:** Developer Community & Business
+  **NeKI brief:** Announces email one-time-code sign-in for Point-Free, making GitHub connection optional and documenting the resulting account migration and access workflow.
 - [Type-safe JSON and JSONB in StructuredQueries](https://www.pointfree.co/blog/posts/220-type-safe-json-and-jsonb-in-structuredqueries)
   **Published:** `2026-08-03T00:00:00Z`
   **Topics:** Foundation & Data Formats · Persistence & Synchronisation

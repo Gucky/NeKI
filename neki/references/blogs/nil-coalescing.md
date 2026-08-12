@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/)
-- Last collected: `2026-08-06T08:20:32Z`
-- Indexed entries: **213**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed entries: **214**
 
+- [Adaptive SwiftUI toolbars in iOS 27](https://nilcoalescing.com/blog/AdaptiveSwiftUIToolbarsInIOS27)
+  **Published:** `2026-08-09`
+  **Topics:** SwiftUI
+  **NeKI brief:** Explains iOS 27 toolbar visibility priorities, explicit overflow placement, trailing-edge pinning and navigation-bar minimization so important actions survive compact layouts.
 - [Alignment guides in SwiftUI](https://nilcoalescing.com/blog/AlignmentGuidesInSwiftUI)
   **Published:** `2026-08-06`
   **Topics:** SwiftUI

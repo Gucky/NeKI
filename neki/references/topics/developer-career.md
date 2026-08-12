@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Career development, workplace practice, communication, learning, leadership, and sustainable engineering habits.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **164**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **166**
 
 ## Direct-source reading
 
@@ -236,6 +236,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [VersionedDocC: Bringing Version Management to Swift-DocC](https://l.fatbobman.com/w0148-07) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Apple Platform Ecosystem · Developer Career & Practice · Swift
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Presents VersionedDocC's orchestration of immutable release documentation, stable versioned URLs, symbol-graph API comparisons and reusable publishing workflows around the standard Swift and DocC tools.
+- [MacTools](https://mactools.ggbond.app/) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Article · Topics: Combine & Reactive Programming · Developer Career & Practice
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Combines display, battery, fan, cleanup, activity and Xcode-derived-data controls in an open-source native macOS menu-bar toolkit with bilingual documentation.
 - [Footprint](https://github.com/naftaly/Footprint) — iOS Dev Tools · iOS Dev Tools: Footprint, ZMarkupParser, Lettera — Source repository · Topics: Apple Platform Ecosystem · Developer Career & Practice · Developer Tools
   **Published:** `2026-06-18T16:02:35.381Z`
   **NeKI brief:** Footprint exposes app and system memory pressure as normal, warning, urgent, critical, and terminal states, with a 500-ms heartbeat and AsyncStream updates. SwiftUI modifiers let an app adapt before memory warnings arrive too late.

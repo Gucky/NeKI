@@ -3,8 +3,46 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevtools.substack.com/archive](https://iosdevtools.substack.com/archive)
-- Last collected: `2026-08-05T08:59:22Z`
-- Indexed entries: **162**
+- Last collected: `2026-08-12T21:04:05Z`
+- Indexed entries: **163**
+
+## [iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island](https://iosdevtools.substack.com/p/ios-dev-tools-consentbus-foundationmodelskit)
+
+- Published: `2026-08-06T16:00:49.980Z`
+
+**Topics:** Developer Tools · Foundation & Data Formats · macOS & AppKit · Security & Privacy · Swift · Swift Package Manager
+
+**Sections:** ConsentBus · FoundationModelsKit · Agent Island
+
+**NeKI brief:** Catalogues new Swift privacy and Foundation Models packages, macOS utilities for agent and presentation workflows, and upcoming Apple-platform developer conferences.
+
+**Selected links:**
+- [Ironsmith](https://ironsmith.app/) — Article · Topics: AI Development · Developer Tools · Security & Privacy
+  **NeKI brief:** Offers an open-source macOS menu-bar workflow that turns prompts into sandboxed native SwiftUI utilities, using local models or configured cloud providers and packaging each result as a runnable app.
+- [Keyty](https://github.com/keytyapp/keyty) — Source repository · Topics: Developer Tools · Hardware & Devices
+  **NeKI brief:** Open-source macOS overlay for visualizing keyboard shortcuts, typed input, clicks and pointer activity during demos, with configurable presentation styles and local-only input processing.
+- [ConsentBus](https://github.com/divyaravitech/ConsentBus) — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **NeKI brief:** Implements serialized consent propagation across SDK adapters with signed receipts and a hash-chained audit ledger; most bundled vendor adapters are currently documented stubs rather than live integrations.
+- [FoundationModelsKit](https://github.com/divyaravitech/FoundationModelsKit) — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
+  **NeKI brief:** Provides protocol-based model routing, actor-isolated conversation compaction, evaluation hooks and regional availability for mixing on-device, private-cloud and third-party model implementations.
+- [MacTools](https://mactools.ggbond.app/) — Article · Topics: Combine & Reactive Programming · Developer Career & Practice
+  **NeKI brief:** Combines display, battery, fan, cleanup, activity and Xcode-derived-data controls in an open-source native macOS menu-bar toolkit with bilingual documentation.
+- [UseReserve](https://usereserve.app/) — Article
+  **NeKI brief:** Shows remaining Codex and Claude usage limits in a lightweight macOS menu-bar app, with read-only local access, stale-reading indicators and no storage of credentials or message content.
+- [code.talks](https://codetalks.com/) — Article
+  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Those Who Swift](https://thosewhoswift.substack.com/) — Article · Topics: Swift
+  **NeKI brief:** Those Who Swift is a newsletter covering Swift and Apple-platform development. Use it for curated community perspectives and links, then follow cited primary documentation or source repositories before applying technical recommendations.
+- [Keepresso](https://keepresso.com/) — Article · Topics: AI Development
+  **NeKI brief:** Keeps macOS awake through timed sessions, process and network triggers, closed-display operation and automation leases, including an MCP interface for long-running agent jobs.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
+- [NSSpain](https://2025.nsspain.com/) — Article
+  **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
+- [Next.app devcon](https://www.nextappcon.com/) — Article
+  **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: MistKit, Swift Scribe, cmux](https://iosdevtools.substack.com/p/ios-dev-tools-mistkit-swift-scribe)
 
@@ -27,10 +65,14 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** cmux is a Ghostty-based macOS terminal organized around vertical tabs, notifications, and programmable agent workflows. Useful for evaluating a terminal layout that keeps multiple coding-agent sessions visible and actionable.
 - [code.talks](https://codetalks.com/) — Article · Topics: Product Design
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Product Design · Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [NSSpain](https://2025.nsspain.com/) — Article · Topics: Product Design
   **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
 - [Next.app devcon](https://www.nextappcon.com/) — Article · Topics: Product Design
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article · Topics: Product Design
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: TourKit, MockingKit, MemoryMap](https://iosdevtools.substack.com/p/ios-dev-tools-tourkit-mockingkit)
 
@@ -55,10 +97,14 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** QuotaWarmer monitors Claude Code and Codex CLI quota windows from a macOS menu bar app and sends scheduled warmups. Useful for examining automation around rate-limit windows, with clear policy and account-usage implications.
 - [code.talks](https://codetalks.com/) — Article
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [NSSpain](https://2025.nsspain.com/) — Article
   **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: Apple App Store Scraper, SideScreen, SiteKit](https://iosdevtools.substack.com/p/ios-dev-tools-apple-app-store-scraper)
 
@@ -83,10 +129,14 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Atoll](https://github.com/Ebullioscopic/Atoll) — Source repository · Topics: Developer Tools
   **NeKI brief:** Atoll recreates a Dynamic-Island-style surface for macOS, exposing transient status and interaction affordances around the display cutout area. Useful for experimenting with unobtrusive desktop status UI and window positioning.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [NSSpain](https://2025.nsspain.com/) — Article
   **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: Reef, CodeIsland, Lucide Swift](https://iosdevtools.substack.com/p/ios-dev-tools-reef-codeisland-lucide)
 
@@ -103,6 +153,10 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
 - [Next.app devcon](https://www.nextappcon.com/) — Article · Topics: Swift
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article · Topics: Swift
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 
 ## [iOS Dev Tools: Footprint, ZMarkupParser, Lettera](https://iosdevtools.substack.com/p/ios-dev-tools-footprint-zmarkupparser)
 
@@ -123,10 +177,14 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Headroom is a macOS utility that surfaces available system memory and related pressure information. Use it while investigating resource-heavy development workflows, treating its readings as an operational aid rather than a replacement for Instruments.
 - [code.talks](https://codetalks.com/) — Article
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [NSSpain](https://2025.nsspain.com/) — Article
   **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: Promptberry, SolidLikeARock, MLX Swift LM](https://iosdevtools.substack.com/p/ios-dev-tools-promptberry-solidlikearock)
 
@@ -145,6 +203,10 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
 - [Next.app devcon](https://www.nextappcon.com/) — Article · Topics: Swift
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article · Topics: Swift
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 
 ## [iOS Dev Tools: Simtime, Sparkle 2, SwiftINI](https://iosdevtools.substack.com/p/ios-dev-tools-simtime-sparkle-2-swiftini)
 
@@ -179,6 +241,10 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
 - [Next.app devcon](https://www.nextappcon.com/) — Article · Topics: Swift
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article · Topics: Swift
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 
 ## [iOS Dev Tools: GQLSwift, ScreenPlace, BuildWatch](https://iosdevtools.substack.com/p/ios-dev-tools-gqlswift-screenplace)
 
@@ -189,10 +255,14 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** GQLSwift · ScreenPlace · BuildWatch
 
 **Selected links:**
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [NSSpain](https://2025.nsspain.com/) — Article
   **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 - [code.talks](https://codetalks.com/) — Article
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 
@@ -207,10 +277,14 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [code.talks](https://codetalks.com/) — Article
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [NSSpain](https://2025.nsspain.com/) — Article
   **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: SwiftSafeUI, Northstar, Ezscreenshots](https://iosdevtools.substack.com/p/ios-dev-tools-swiftsafeui-northstar)
 
@@ -233,8 +307,12 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Northstar combines App Store keyword opportunity scores, competitor metadata and review tracking, App Store Connect synchronization, and an MCP server for LLM-assisted optimization. It is useful when researching an auditable alternative to ad-hoc ASO spreadsheets.
 - [Dropshit](https://github.com/iamsumanp/Dropshit) — Source repository · Topics: Developer Tools
   **NeKI brief:** Dropshit accepts files and folders dropped anywhere on the macOS screen, providing a lightweight drag-and-drop utility. Useful for exploring global drop targets and desktop-level workflow shortcuts outside a document app.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: AscBuddy, TourKit, Hokusai](https://iosdevtools.substack.com/p/ios-dev-tools-ascbuddy-tourkit-hokusai)
 
@@ -251,10 +329,14 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** TourKit implements Apple-style onboarding tours for Mac and iPhone apps, providing guided highlights over application UI. Useful when a product needs contextual feature discovery instead of a sequence of static introduction screens.
 - [code.talks](https://codetalks.com/) — Article
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [NSSpain](https://2025.nsspain.com/) — Article
   **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: KIF, AeroSpace, FineTune](https://iosdevtools.substack.com/p/ios-dev-tools-kif-aerospace-finetune)
 
@@ -267,8 +349,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [code.talks](https://codetalks.com/) — Article
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: Yotei, Pica, Revyl](https://iosdevtools.substack.com/p/ios-dev-tools-yotei-pica-revyl)
 
@@ -281,8 +367,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [code.talks](https://codetalks.com/) — Article
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: SwiftZilla, Room Service, Pica](https://iosdevtools.substack.com/p/ios-dev-tools-swiftzilla-room-service)
 
@@ -305,8 +395,12 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [AppLayouts](https://www.applayouts.com/) — Article · Topics: Developer Community & Business
   **NeKI brief:** Provides a catalogue of reusable app layout patterns and interface examples. Use it to compare navigation, content hierarchy, and responsive composition ideas before designing a SwiftUI or UIKit screen.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: Audio-mcp, Remodex, Pippin](https://iosdevtools.substack.com/p/ios-dev-tools-audio-mcp-remodex-pippin)
 
@@ -317,8 +411,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Audio-mcp · Remodex · Pippin
 
 **Selected links:**
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 - [code.talks](https://codetalks.com/) — Article
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 
@@ -335,8 +433,12 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Codemagic CLI tools collect utilities for iOS and Android build automation, code signing, and deployment. Useful for inspecting reusable CI primitives before writing bespoke scripts around archives, provisioning, or store uploads.
 - [code.talks](https://codetalks.com/) — Article
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: Dispatched, Codex-history, Axe](https://iosdevtools.substack.com/p/ios-dev-tools-dispatched-codex-history)
 
@@ -349,8 +451,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [code.talks](https://codetalks.com/) — Article
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: web2wave, CoreDataBrowser, DataStoreKit](https://iosdevtools.substack.com/p/ios-dev-tools-web2wave-coredatabrowser)
 
@@ -363,8 +469,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [code.talks](https://codetalks.com/) — Article
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [Next.app devcon](https://www.nextappcon.com/) — Article
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: Skills, Speech Swift, Workflow Audit Skill, Orcv](https://iosdevtools.substack.com/p/ios-dev-tools-skills-speech-swift)
 

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Combine publishers, subscribers, operators, and reactive-programming techniques.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **104**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **105**
 
 ## Direct-source reading
 
@@ -61,6 +61,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [MacTools](https://mactools.ggbond.app/) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Article · Topics: Combine & Reactive Programming · Developer Career & Practice
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Combines display, battery, fan, cleanup, activity and Xcode-derived-data controls in an open-source native macOS menu-bar toolkit with bilingual documentation.
 - [One Model Object, Multiple Editing Flows: The Missing Layer Between Model and UI](https://l.fatbobman.com/w0147-05) — Fatbobman’s Swift Weekly · Issue 147 — Article · Topics: Combine & Reactive Programming · Swift · SwiftUI
   **Published:** `2026-08-03T12:02:34.944Z`
   **NeKI brief:** Proposes a shared reactive projection layer when one model object participates in several independent editing flows. The approach aims to avoid duplicated view models while preserving per-flow validation, drafts, and commit behavior.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift packages, manifests, plugins, dependency resolution, and package distribution.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **263**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **264**
 
 ## Direct-source reading
 
@@ -304,6 +304,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [ConsentBus](https://github.com/divyaravitech/ConsentBus) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Implements serialized consent propagation across SDK adapters with signed receipts and a hash-chained audit ledger; most bundled vendor adapters are currently documented stubs rather than live integrations.
 - [Introducing ListKit: An Open-Source Library for SwiftUI Lists](https://danielsaidi.com/blog/2026/06/08/introducing-listkit) — Those Who Swift · Issue 278 — Article · Topics: Architecture · Swift Package Manager · SwiftUI
   **Published:** `2026-08-05T20:00:46.292Z`
   **NeKI brief:** Introduces ListKit as a focused extraction from SwiftUIKit, with reusable SwiftUI list utilities, adaptive action groups, shelf layouts, and list-specific modifiers. The smaller package illustrates trading a broad convenience monolith for narrower dependencies.

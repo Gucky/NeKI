@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App product, visual design, UX, branding, and design-to-code process.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **191**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **193**
 
 ## Direct-source reading
 
@@ -203,9 +203,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Next.app devcon](https://www.nextappcon.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Product Design
+  **Published:** `2026-07-16T16:45:11.086Z`
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 - [code.talks](https://codetalks.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Swiftsonic](https://swiftsonicconf.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Product Design · Swift
+  **Published:** `2026-07-16T16:45:11.086Z`
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
 - [3 Key Strategies to Make SwiftUI Views More Reusable](https://matteomanferdini.com/swiftui-reusable-views) — SwiftLee Weekly · Issue 323 — Article · Topics: Product Design · Swift · SwiftUI
   **Published:** `2026-05-12T14:05:49.000Z`
   **NeKI brief:** Presents three concrete strategies for making SwiftUI views reusable, from extracting components to controlling dependencies and state. Useful when reducing duplication without hiding feature-specific behavior behind overly generic abstractions.

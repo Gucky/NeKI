@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Xcode, builds, signing, debugging, tooling, CI, and developer workflows.
 
-- Last collected: `2026-08-06T08:20:32Z`
-- Indexed links shown: **1274**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **1277**
 
 ## Direct-source reading
 
@@ -1977,6 +1977,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Gitwyn: A Git Client Designed Around the Xcode Workflow](https://l.fatbobman.com/w0148-06) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Developer Tools · Xcode
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Introduces Gitwyn, a native macOS companion that overlays Xcode with hunk staging, commit graphs, conflict resolution, branch operations and named stashes.
+- [VersionedDocC: Bringing Version Management to Swift-DocC](https://l.fatbobman.com/w0148-07) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Apple Platform Ecosystem · Developer Career & Practice · Swift
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Presents VersionedDocC's orchestration of immutable release documentation, stable versioned URLs, symbol-graph API comparisons and reusable publishing workflows around the standard Swift and DocC tools.
+- [Ironsmith](https://ironsmith.app/) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Article · Topics: AI Development · Developer Tools · Security & Privacy
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Offers an open-source macOS menu-bar workflow that turns prompts into sandboxed native SwiftUI utilities, using local models or configured cloud providers and packaging each result as a runnable app.
 - [Liquid Glass is not optional anymore](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Liquid Glass · UIKit · Xcode
   **Published:** `2026-08-06T06:44:37.000Z`
   **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.

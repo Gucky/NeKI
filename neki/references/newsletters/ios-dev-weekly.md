@@ -3,8 +3,30 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevweekly.com/issues/](https://iosdevweekly.com/issues/)
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed entries: **757**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed entries: **758**
+
+## [Issue 762](https://iosdevweekly.com/issues/762)
+
+- Published: `7th August 2026`
+
+**Topics:** Developer Community & Business · Persistence & Synchronisation · Swift · SwiftData · SwiftUI · Testing
+
+**Sections:** Comment · News
+
+**NeKI brief:** Covers typed throws, StructuredQueries JSON support, testable SwiftData design and non-View ContentBuilder routing, alongside current Apple-industry news and community events.
+
+**Selected links:**
+- [Type-safe JSON and JSONB in StructuredQueries](https://www.pointfree.co/blog/posts/220-type-safe-json-and-jsonb-in-structuredqueries) — Article · Topics: Cross-Platform & Web · Persistence & Synchronisation · Swift
+  **NeKI brief:** Introduces StructuredQueries 0.35 support for SQLite JSON and JSONB columns, key-path-based extraction and mutation, and json_each collection queries. The examples show where binary storage improves efficiency while preserving compile-time schema checks.
+- [Building Testable SwiftData Applications](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — Article · Topics: Swift · SwiftData · Testing
+  **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
+- [swiftCon](https://www.nextappcon.com/swiftcon) — Article · Topics: Developer Community & Business · Swift
+  **NeKI brief:** SwiftCon's call for speakers seeks production-focused Swift and iOS talks, including SwiftUI, architecture, performance, and testing. Follow the event page to assess the community's current themes or submit a concrete engineering case study.
+- [Using SwiftUI's ContentBuilder with non-View types](https://artemnovichkov.com/blog/using-swiftui-contentbuilder-with-non-view-types) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Uses Xcode 27's ContentBuilder to assemble a type-safe deep-link routing DSL from non-View values, with an approach for preserving similar syntax on earlier deployment targets.
+- [Typed throws](https://theswiftdev.com/type-safe-and-user-friendly-error-handling-in-swift-6) — Article · Topics: Swift
+  **NeKI brief:** Explains Swift 6 typed throws through concrete error enums and generic propagation, then separates developer-facing failure detail from localized messages suitable for users.
 
 ## [Issue 761](https://iosdevweekly.com/issues/761)
 

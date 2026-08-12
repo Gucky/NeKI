@@ -3,8 +3,40 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://newsletter.avanderlee.com/posts](https://newsletter.avanderlee.com/posts)
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed entries: **95**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed entries: **96**
+
+## [Issue 336](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-336)
+
+- Published: `2026-08-11T14:07:13.000Z`
+
+**Topics:** Concurrency · Developer Community & Business · Swift · SwiftUI · Testing · Xcode
+
+**Sections:** SwiftLee Weekly by Antoine van der Lee · Sendable and @Sendable closures explained with code examples · What are you shipping this month?
+
+**NeKI brief:** Collects critical AI-use guidance, new SwiftUI shape and toolbar techniques, Swift Evolution changes and the emerging portable Agent Plugins format.
+
+**Selected links:**
+- [Concentric Buttons with OS 27's SwiftUI APIs](https://alexanderweiss.dev/blog/2026-08-09-concentric-button-os-27-swiftui-apis) — Article · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Builds a custom SwiftUI button border from GeometryProxy.concentricCornerRadii, including container-shape requirements, nil fallback behavior and the limitation that ButtonBorderShape remains closed.
+- [Adaptive SwiftUI toolbars in iOS 27](https://nilcoalescing.com/blog/AdaptiveSwiftUIToolbarsInIOS27) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains iOS 27 toolbar visibility priorities, explicit overflow placement, trailing-edge pinning and navigation-bar minimization so important actions survive compact layouts.
+- [AcceptedSE-0516`Iterable`](https://github.com/apple/swift-evolution/blob/main/proposals/0516-borrowing-sequence.md) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0516`Iterable`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [AcceptedSE-0535Add CLI for editing global mirrors configuration](https://github.com/apple/swift-evolution/blob/main/proposals/0535-global-mirrors-configuration-cli.md) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Adds a --global option to SwiftPM's mirror configuration commands so user-wide mirrors can be viewed and edited outside a package directory without changing existing local behavior.
+- [Active ReviewSE-0541Flexible Swift/C Interoperability for Packages](https://github.com/apple/swift-evolution/blob/main/proposals/0541-flexible-swift-c-interoperability-for-packages.md) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Proposes mixed Swift and C-family sources in SwiftPM targets, bridging-header manifest support and sounder generated-header consumption for package interoperability.
+- [Active ReviewSE-0543InlineArray: Hashable](https://github.com/apple/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Proposes conditional Equatable and Hashable conformances for InlineArray when its elements qualify, using elementwise equality and hashing every element with linear complexity.
+- [My Swift Concurrency Agent Skill should already work](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill/releases/tag/2.2.0) — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **NeKI brief:** Updates the Swift concurrency skill with approachable-concurrency settings, Xcode defaults and SendableMetatype guidance while adopting the Agent Plugins 1.0 portable package format.
+- [Using AI while exercising your critical thinking](https://swiftrocks.com/using-ai-without-losing-critical-thinking) — Article · Topics: AI Development · Swift
+  **NeKI brief:** Argues that developers must verify AI claims and retain engineering judgment, framing uncritical relay of model output as cognitive surrender rather than productive delegation.
+- [Controlling Orphans in SwiftUI Text using an undocumented method](https://fatbobman.com/en/posts/controlling-orphans-in-swiftui-text) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Investigates SwiftUI Text's automatic orphan avoidance and an undocumented avoidsOrphans control, while warning that relying on the hidden API carries compatibility and review risk.
+- [a new open standard for Agent Plugins](https://www.youtube.com/watch?v=UaeWJK_vv-Y) — Video
+  **NeKI brief:** Introduces the portable Agent Plugins standard for bundling reusable agent capabilities so skills and related tooling can move between compatible coding harnesses.
 
 ## [Issue 335](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-335)
 

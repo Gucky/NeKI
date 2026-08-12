@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** WWDC and platform announcements, Apple ecosystem context, compatibility history, and release-overview reading.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **434**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **436**
 
 ## Direct-source reading
 
@@ -739,6 +739,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Concentric Buttons with OS 27’s SwiftUI APIs](https://l.fatbobman.com/w0148-04) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Builds a custom SwiftUI button border from GeometryProxy.concentricCornerRadii, including container-shape requirements, nil fallback behavior and the limitation that ButtonBorderShape remains closed.
+- [VersionedDocC: Bringing Version Management to Swift-DocC](https://l.fatbobman.com/w0148-07) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Apple Platform Ecosystem · Developer Career & Practice · Swift
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Presents VersionedDocC's orchestration of immutable release documentation, stable versioned URLs, symbol-graph API comparisons and reusable publishing workflows around the standard Swift and DocC tools.
 - [WWDC26: Reordering Items in SwiftUI Lists and Grids](https://serialcoder.dev/text-tutorials/swiftui/wwdc26-reordering-items-in-swiftui-lists-and-grids) — Those Who Swift · Issue 277 — Tutorial · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2026-07-29T20:01:55.196Z`
   **NeKI brief:** Demonstrates iOS 27 reordering for SwiftUI lists and grids through reorderContainer and the model mutation it drives. Use it to compare the new shared mechanism with older List-only movement and custom drag implementations.

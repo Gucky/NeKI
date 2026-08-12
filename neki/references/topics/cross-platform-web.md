@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Cross-platform, Android, Flutter, web, and interoperability work adjacent to Apple-platform development.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **300**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **301**
 
 ## Direct-source reading
 
@@ -111,9 +111,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
-- [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — SwiftLee Weekly · Issue 335 — Article · Topics: Swift · SwiftData · Testing
-  **Published:** `2026-08-04T14:04:01.000Z`
+- [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — Those Who Swift · Issue 279 — Article · Topics: Swift · SwiftData · Testing
+  **Published:** `2026-08-12T20:30:39.583Z`
   **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
+- [Swift Subprocess 1.0](https://l.fatbobman.com/w0148-08) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Concurrency · Cross-Platform & Web · Swift
+  **Published:** `2026-08-10T12:01:23.212Z`
+  **NeKI brief:** Documents the cross-platform swift-subprocess package for launching processes with Swift Concurrency, including streamed I/O, process configuration and an optional Foundation integration trait.
 - [SwiftCon Returns to Berlin This October](https://www.nextappcon.com/swiftcon) — Those Who Swift · Issue 276 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
   **Published:** `2026-07-22T20:01:13.378Z`
   **NeKI brief:** SwiftCon's call for speakers seeks production-focused Swift and iOS talks, including SwiftUI, architecture, performance, and testing. Follow the event page to assess the community's current themes or submit a concrete engineering case study.

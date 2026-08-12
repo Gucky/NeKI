@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Foundation APIs, dates, text, Unicode, serialization, and data formats.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **136**
+- Last collected: `2026-08-12T21:02:47Z`
+- Indexed links shown: **137**
 
 ## Direct-source reading
 
@@ -83,6 +83,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [FoundationModelsKit](https://github.com/divyaravitech/FoundationModelsKit) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
+  **Published:** `2026-08-06T16:00:49.980Z`
+  **NeKI brief:** Provides protocol-based model routing, actor-isolated conversation compaction, evaluation hooks and regional availability for mixing on-device, private-cloud and third-party model implementations.
 - [how he used AI to make MessagePack decoding about 20% faster](https://pfandrade.me/blog/message-packable?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Foundation & Data Formats · Performance · Swift
   **Published:** `2026-08-06T06:44:37.000Z`
   **NeKI brief:** Describes using Codex to integrate Swift Binary Parsing into a MessagePack decoder, then independently validating nearly 20% faster decoding and more than 60% fewer allocations. It is a human-in-the-loop optimization workflow grounded in Instruments and reproducible benchmarks.
