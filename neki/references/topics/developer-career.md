@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Career development, workplace practice, communication, learning, leadership, and sustainable engineering habits.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **166**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **167**
 
 ## Direct-source reading
 
@@ -236,6 +236,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [StoreSync](https://apps.apple.com/us/app/storesync-metadata-manager/id6775701704?mt=12) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Persistence & Synchronisation
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Manages App Store Connect metadata, localizations, diffs, keyword tracking, and competitor research from a native macOS client. API keys stay in Keychain while requests go directly to Apple, clarifying its privacy and workflow model.
 - [VersionedDocC: Bringing Version Management to Swift-DocC](https://l.fatbobman.com/w0148-07) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Apple Platform Ecosystem · Developer Career & Practice · Swift
   **Published:** `2026-08-10T12:01:23.212Z`
   **NeKI brief:** Presents VersionedDocC's orchestration of immutable release documentation, stable versioned URLs, symbol-graph API comparisons and reusable publishing workflows around the standard Swift and DocC tools.

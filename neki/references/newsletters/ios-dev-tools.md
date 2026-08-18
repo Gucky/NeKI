@@ -3,8 +3,48 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevtools.substack.com/archive](https://iosdevtools.substack.com/archive)
-- Last collected: `2026-08-12T21:04:05Z`
-- Indexed entries: **163**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed entries: **164**
+
+## [iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor](https://iosdevtools.substack.com/p/ios-dev-tools-simple-simulator-manager)
+
+- Published: `2026-08-13T16:30:38.104Z`
+
+**Topics:** App Distribution & Store Operations · Apple Platform Ecosystem · macOS & AppKit · Persistence & Synchronisation · Swift · Testing
+
+**Sections:** Simple Simulator Manager · StoreSync · JsonXmlEditor
+
+**NeKI brief:** Catalogues three featured macOS tools for simulator-container access, App Store metadata work, and JSON/XML inspection, followed by smaller utilities and conference links. The issue is useful as a tool-discovery snapshot rather than API guidance.
+
+**Selected links:**
+- [StoreSync](https://apps.apple.com/us/app/storesync-metadata-manager/id6775701704?mt=12) — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Persistence & Synchronisation
+  **NeKI brief:** Manages App Store Connect metadata, localizations, diffs, keyword tracking, and competitor research from a native macOS client. API keys stay in Keychain while requests go directly to Apple, clarifying its privacy and workflow model.
+- [NoMac](https://nomac.app/) — Article · Topics: AI Development · App Distribution & Store Operations · Testing
+  **NeKI brief:** Offers an agent-oriented cloud pipeline that creates signed iOS builds, installs them on a phone, sends them to TestFlight, and submits to the App Store. Its model avoids local Xcode and certificate handling.
+- [JsonXmlEditor](https://thelittlebakery.org/json-xml-editor) — Article · Topics: Developer Tools · Security & Privacy
+  **NeKI brief:** Combines native JSON and XML formatting, validation, comparison, conversion, a REST client, and DTO generation in an offline macOS workspace. Its low-overhead design is a focused alternative to browser and Electron utilities.
+- [Simple Simulator Manager](https://github.com/Heckscheibe/SimpleSimulatorManager) — Source repository · Topics: Developer Tools · macOS & AppKit
+  **NeKI brief:** Provides a macOS menu-bar route to simulator app containers, bundles, Documents, UserDefaults, and App Groups, plus cleanup of unavailable runtimes. It removes repeated CoreSimulator UUID hunting from inspection and disk-maintenance workflows.
+- [Breva](https://apps.apple.com/us/app/breva-breathing-focus/id6787697531) — Article
+  **NeKI brief:** Combines visual, audio, and adjustable haptic pacing for short breathing sessions on Apple devices. Screen-awake and hold-to-unlock behavior show how the app protects an active guided session from interruption.
+- [code.talks](https://codetalks.com/) — Article
+  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [MailTwin](https://www.mailtwin.ai/) — Article · Topics: AI Development
+  **NeKI brief:** Profiles writing style separately per Apple Mail account and sends prompts directly from the Mac to a chosen provider, including on-device options. Its permission, BYOK, audit-log, and provider-failover details help assess privacy and operational trade-offs.
+- [Pocket Screen](https://labs.toybird.com/apps/pocket-screen) — Article · Topics: Graphics, Media & Games
+  **NeKI brief:** Turns one or two macOS windows into compact always-on-top reference views, with a shortcut to replace the selected view and controls for freezing or click-through behavior. It supports document, browser, chat, and dashboard workflows.
+- [Bird Chimes](https://apps.apple.com/us/app/bird-chimes-break-reminder/id6767737245?mt=12) — Article · Topics: macOS & AppKit
+  **NeKI brief:** Provides configurable macOS hourly cues using bird sounds, with Focus-mode silencing, quiet hours, and menu-bar controls. Its accessibility framing is useful when evaluating ambient time awareness without visual or spoken-clock interruptions.
+- [Swiftsonic](https://swiftsonicconf.com/) — Article · Topics: Swift
+  **NeKI brief:** Routes to Swiftsonic's November 2026 Nashville conference, with Swift, SwiftUI, architecture, tooling and performance talks plus hands-on community sessions.
+- [Juicy](https://getjuicy.app/) — Article
+  **NeKI brief:** Adds configurable macOS battery alerts at arbitrary levels alongside health, temperature, and application-usage monitoring. Its menu-bar presentation and one-time purchase model help compare focused native utilities with Apple's fixed low-battery warning.
+- [NSSpain](https://2025.nsspain.com/) — Article
+  **NeKI brief:** NSSpain's 2025 event site, repeatedly listed as an iOS, Swift, and AI conference and later as a source of recordings. Use it for schedule, speakers, and available session material.
+- [Next.app devcon](https://www.nextappcon.com/) — Article
+  **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+- [DevFest Hamburg](https://hamburg.devfest.de/) — Article
+  **NeKI brief:** Routes to the 16–17 October 2026 DevFest Hamburg programme for community sessions, workshops and showcases spanning mobile, web and cloud development.
 
 ## [iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island](https://iosdevtools.substack.com/p/ios-dev-tools-consentbus-foundationmodelskit)
 
@@ -863,6 +903,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Introduces CodeRabbit’s AI-assisted code review tooling for iOS development. Use it to assess IDE review workflows, automated findings, and the boundary between generated suggestions and human approval.
 - [App Featured by Journalists](https://open.substack.com/pub/swiftdiscovery/p/indie-app-devs-3) — Article · Topics: Swift
   **NeKI brief:** This Swift Discovery article discusses independent app development and the tools or practices surrounding it. Use it for practitioner perspective and idea generation, not as authoritative guidance on current Apple APIs or store policy.
+- [Simulator Manager](https://github.com/Heckscheibe/SimpleSimulatorManager) — Source repository · Topics: Developer Tools
+  **NeKI brief:** Provides a macOS menu-bar route to simulator app containers, bundles, Documents, UserDefaults, and App Groups, plus cleanup of unavailable runtimes. It removes repeated CoreSimulator UUID hunting from inspection and disk-maintenance workflows.
 
 ## [iOS Dev Tools: Subprocess, ReerJSON, Haptic Video Sync](https://iosdevtools.substack.com/p/ios-dev-tools-subprocess-reerjson)
 

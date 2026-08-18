@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Git, command-line work, debugging, automation, and practical developer workflows.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **1262**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **1266**
 
 ## Direct-source reading
 
@@ -36,6 +36,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Dev Workspaces: Artem Novichkov - iOS Dev Tools](https://iosdev.tools/blog/dev-workspaces-artem-novichkov) — iOS Dev Tools Blog · article catalogue
   **Published:** `2026-02-16T12:35:27+00:00`
   **NeKI brief:** Surveys Artem Novichkov’s development workspace, including daily hardware, software, and working habits. Use it to compare practical setup choices without treating one developer’s configuration as prescriptive.
+- [Xcode 26.3 + Claude Agent - Model Swapping,MCP, Skills, and Adaptive Configuration](https://fatbobman.com/en/posts/xcode-263-claude) — Fatbobman · article catalogue
+  **Published:** `2026-02-06T02:30:00.000Z`
+  **NeKI brief:** Experiments with Claude inside Xcode 26.3 through model substitution, injected MCP tools, shared skill symlinks, environment setup, and adaptive CLAUDE.md guidance. The article distinguishes supported integration from brittle configuration techniques.
 - [Welcome to "Dev Workspaces"! - Natalia Panferova - iOS Dev Tools](https://iosdev.tools/blog/dev-workspaces-natalia-panferova) — iOS Dev Tools Blog · article catalogue
   **Published:** `2026-02-05T07:06:39+00:00`
   **NeKI brief:** Presents Welcome to "Dev Workspaces"! - Natalia Panferova as an Apple-platform development resource. Use the profile to understand its concrete role, then check the linked project for current capabilities and maintenance status.
@@ -99,6 +102,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Fastlane alternative - Codemagic CLI tools](https://github.com/codemagic-ci-cd/cli-tools) — SwiftLee Weekly · Issue 337 — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Codemagic CLI tools collect utilities for iOS and Android build automation, code signing, and deployment. Useful for inspecting reusable CI primitives before writing bespoke scripts around archives, provisioning, or store uploads.
+- [AcceptedSE-0537Section Placement Control for Functions](https://github.com/apple/swift-evolution/blob/main/proposals/0537-function-sections.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Extends Swift's section placement attribute from stored data to functions, initializers, deinitializers, closures, and accessors, while adding a default-section override. The motivation is precise linker placement for firmware entry points and embedded startup code.
+- [Active ReviewSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Performance · Swift
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
+- [WebKit IP and DNS leaks affecting proxies and Private Relay](https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak) — iOS Dev Weekly · Issue 763 — Article · Topics: Developer Tools
+  **Published:** `14th August 2026`
+  **NeKI brief:** Demonstrates three WebKit paths—DNS prefetching, WebAuthn related-origin requests, and WebTransport—that can bypass configured proxies and expose a device's network. It distinguishes affected proxy and Private Relay setups from system-level VPN tunnels.
+- [Simple Simulator Manager](https://github.com/Heckscheibe/SimpleSimulatorManager) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Provides a macOS menu-bar route to simulator app containers, bundles, Documents, UserDefaults, and App Groups, plus cleanup of unavailable runtimes. It removes repeated CoreSimulator UUID hunting from inspection and disk-maintenance workflows.
+- [JsonXmlEditor](https://thelittlebakery.org/json-xml-editor) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: Developer Tools · Security & Privacy
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Combines native JSON and XML formatting, validation, comparison, conversion, a REST client, and DTO generation in an offline macOS workspace. Its low-overhead design is a focused alternative to browser and Electron utilities.
 - [How to Use Git Worktree — and How AI Agents Use It](https://mfaani.com/posts/ai/how-to-use-git-worktree-and-how-its-used-by-ai-agents) — Those Who Swift · Issue 279 — Article · Topics: AI Development · Developer Tools
   **Published:** `2026-08-12T20:30:39.583Z`
   **NeKI brief:** Explains creating sibling Git worktrees, the one-worktree-per-branch constraint and why isolated checkouts let several coding agents work concurrently without sharing an index.
@@ -189,12 +210,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [open sourced](https://github.com/apple/swift-nio-quic?ref=ioscodereview.com) — iOS Code Review · Issue 82 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-07-14T19:04:53.000Z`
   **NeKI brief:** Provides the source and change history for open sourced, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
-- [debugging notes on two SwiftUI animation bugs](https://fatbobman.com/en/posts/debugging-notes-on-two-swiftui-animation-bugs?ref=ioscodereview.com) — iOS Code Review · Issue 82 — Article · Topics: Developer Tools · Swift · SwiftUI
-  **Published:** `2026-07-14T19:04:53.000Z`
-  **NeKI brief:** Uses two concrete SwiftUI animation failures to show how declarative animation can obscure causality. Follow it when a transition or state-driven animation misbehaves and you need diagnostic observations that reveal the framework behaviour rather than only a workaround.
-- [Fastlane alternative - Codemagic CLI tools](https://github.com/codemagic-ci-cd/cli-tools) — SwiftLee Weekly · Issue 322 — Source repository · Topics: CI/CD & Automation · Developer Tools
-  **Published:** `2026-07-14T14:06:22.000Z`
-  **NeKI brief:** Codemagic CLI tools collect utilities for iOS and Android build automation, code signing, and deployment. Useful for inspecting reusable CI primitives before writing bespoke scripts around archives, provisioning, or store uploads.
 - [TourKit](https://github.com/rampatra/TourKit) — iOS Dev Tools · iOS Dev Tools: TourKit, MockingKit, MemoryMap — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-07-09T16:30:20.398Z`
   **NeKI brief:** TourKit implements Apple-style onboarding tours for Mac and iPhone apps, providing guided highlights over application UI. Useful when a product needs contextual feature discovery instead of a sequence of static introduction screens.
@@ -213,9 +228,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Lidless](https://github.com/nghialuong/Lidless) — iOS Dev Tools · iOS Dev Tools: TourKit, MockingKit, MemoryMap — Source repository · Topics: Developer Tools · macOS & AppKit · Personal Essays
   **Published:** `2026-07-09T16:30:20.398Z`
   **NeKI brief:** Lidless keeps a Mac running with its lid closed, targeting unattended coding-agent workflows from the menu bar. Useful for evaluating laptop clamshell automation while considering thermal, power, and security trade-offs.
-- [Debugging Notes on Two SwiftUI Animation Bugs](https://fatbobman.com/en/posts/debugging-notes-on-two-swiftui-animation-bugs) — SwiftLee Weekly · Issue 331 — Article · Topics: Developer Tools · Swift · SwiftUI
-  **Published:** `2026-07-07T14:05:55.000Z`
-  **NeKI brief:** Uses two concrete SwiftUI animation failures to show how declarative animation can obscure causality. Follow it when a transition or state-driven animation misbehaves and you need diagnostic observations that reveal the framework behaviour rather than only a workaround.
 - [AcceptedSE-0513API to get the path to the current executable](https://github.com/apple/swift-evolution/blob/main/proposals/0513-commandline-executablepath.md) — SwiftLee Weekly · Issue 331 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-07-07T14:05:55.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0513API to get the path to the current executable. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Local storage, CloudKit, databases, caching, keychain use, and synchronisation.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **584**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **586**
 
 ## Direct-source reading
 
@@ -291,6 +291,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Teach your AI to write Swift the Hacking with Swift way – Hacking with Swift](https://www.hackingwithswift.com/articles/284/teach-your-ai-to-write-swift-the-hacking-with-swift-way) — Hacking with Swift articles · article catalogue
   **Published:** `2026-04-01T12:13:39+00:00`
   **NeKI brief:** Presents an AGENTS.md that encodes opinions about SwiftUI, Core Data, and particles for coding agents. Follow it as a concrete example of turning project conventions into reviewable guidance rather than relying on generic prompts.
+- [CDE - An Attempt to Make Core Data Feel More Like Modern Swift](https://fatbobman.com/en/posts/cde-an-attempt-to-make-core-data-feel-more-like-modern-swift) — Fatbobman · article catalogue
+  **Published:** `2026-03-18T14:00:00.000Z`
+  **NeKI brief:** Explores a typed modernization layer for Core Data covering model declarations, paths, concurrency, testing, and tooling. The project is useful for judging how far wrappers can improve expressiveness without replacing the persistence engine.
 - [Access application files on iOS simulator](https://nilcoalescing.com/blog/AccessApplicationFilesOniOSSimulator) — Nil Coalescing · article catalogue
   **Published:** `2026-03-04`
   **NeKI brief:** Simulator application data can be located and inspected through the platform's container layout, which is invaluable for checking persistence and exported files. The workflow distinguishes app containers from shared and system data.
@@ -300,9 +303,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [A Deep Dive into SwiftData migrations – Donny Wals](https://www.donnywals.com/a-deep-dive-into-swiftdata-migrations) — Donny Wals · article catalogue
   **Published:** `2026-01-19T12:23:36+00:00`
   **NeKI brief:** Walks through SwiftData migration planning with the uncomfortable case of real users upgrading persisted data. Use it to identify schema-change hazards, staged model versions, and validation work needed before shipping a store update.
+- [Surviving tvOS - An Engineering Log of an Atypical Media Player](https://fatbobman.com/en/posts/surviving-tvos) — Fatbobman · article catalogue
+  **Published:** `2026-01-14T14:12:00.000Z`
+  **NeKI brief:** Documents a media player's tvOS-specific focus behavior, storage limits, SwiftUI workarounds, AVPlayer tuning, and synchronization strategy. It is useful for identifying platform constraints that an enlarged-iPad mental model misses.
 - [2025 Year-in-Review](https://www.pointfree.co/blog/posts/196-2025-year-in-review) — Point-Free · article catalogue
   **Published:** `2025-12-22T00:00:00Z`
   **NeKI brief:** The year review records how open-source library work, release cadence, and long-lived architecture projects reinforce one another. It is useful for tracing why API stability and maintenance investment matter beyond a single feature release.
+- [My Eight Years with CloudKit - From Open Source IceCream to Commercial Apps](https://fatbobman.com/en/posts/my-eight-years-with-cloudkit) — Fatbobman · article catalogue
+  **Published:** `2025-12-17T14:12:00.000Z`
+  **NeKI brief:** Examines Eight Years with CloudKit, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [From YaoYao to Tooboo - watchOS Development Pitfalls and Practical Tips](https://fatbobman.com/en/posts/watchos-development-pitfalls-and-practical-tips) — Fatbobman · article catalogue
+  **Published:** `2025-12-10T14:12:00.000Z`
+  **NeKI brief:** Collects production lessons from two watch apps on phone-watch synchronization, mutual launching, abnormal restart recovery, leaks, and battery use. It highlights lifecycle and resource constraints that are difficult to expose in simple watchOS samples.
 - [Deep Dive into iMessage - Behind the Making of an Agent](https://fatbobman.com/en/posts/deep-dive-into-imessage) — Fatbobman · article catalogue
   **Published:** `2025-11-19T14:12:00.000Z`
   **NeKI brief:** Investigates iMessage storage through SQLite and Core Data timestamps, then uses imessage-kit to build an automation agent. The article is a concrete reference for understanding macOS message data boundaries and automation risks.
@@ -1185,6 +1197,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Simple Simulator Manager](https://github.com/Heckscheibe/SimpleSimulatorManager) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Provides a macOS menu-bar route to simulator app containers, bundles, Documents, UserDefaults, and App Groups, plus cleanup of unavailable runtimes. It removes repeated CoreSimulator UUID hunting from inspection and disk-maintenance workflows.
+- [StoreSync](https://apps.apple.com/us/app/storesync-metadata-manager/id6775701704?mt=12) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Persistence & Synchronisation
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Manages App Store Connect metadata, localizations, diffs, keyword tracking, and competitor research from a native macOS client. API keys stay in Keychain while requests go directly to Apple, clarifying its privacy and workflow model.
 - [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — Those Who Swift · Issue 279 — Article · Topics: Swift · SwiftData · Testing
   **Published:** `2026-08-12T20:30:39.583Z`
   **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
@@ -1221,12 +1239,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Stop configuring MCPs in every AI app](https://www.mcp-beast.ai/mac-app-ios-developers) — SwiftLee Weekly · Issue 328 — Article · Topics: AI Development · Developer Tools · Persistence & Synchronisation
   **Published:** `2026-06-16T14:06:32.000Z`
   **NeKI brief:** Explores centralizing MCP configuration so multiple AI clients can share one setup. Use it when reducing repeated tool registration across development environments, while reviewing credential handling and client-specific capability differences.
-- [Core Data + Observation: From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model?ref=createwithswift.com) — Create with Swift · Issue 110 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
-  **Published:** `2026-06-06T14:00:23.000Z`
-  **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
-- [Core Data + Observation: From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model) — iOS Dev Weekly · Issue 753 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
-  **Published:** `5th June 2026`
-  **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
 - [Fatbobman](https://fatbobman.com/en/about) — iOS Dev Weekly · Issue 753 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `5th June 2026`
   **NeKI brief:** Presents fatbobman for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -1245,9 +1257,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Apple Doesn’t Show SwiftData iCloud Sync Status — So Let’s Build One](https://azamsharp.com/2026/03/16/swiftdata-icloud-sync-status.html) — Those Who Swift · Issue 258 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2026-03-18`
   **NeKI brief:** Examines Apple Doesn’t Show SwiftData iCloud Sync Status — So Let’s Build One, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
-- [Why Does Passing NSManagedObjectContext Across Isolation Domains No Longer Error in Swift 6.2?](https://fatbobman.com/en/posts/sendable-nsmanagedobjectcontext) — SwiftLee Weekly · Issue 314 — Article · Topics: Concurrency · Core Data · Swift
-  **Published:** `2026-03-10T15:03:18.000Z`
-  **NeKI brief:** Explains why NSManagedObjectContext crossing isolation domains no longer errors in Swift 6.2. Use it to review Core Data concurrency assumptions and verify the behavior against the active compiler and SDK.
 - [Measuring Core Data and SwiftData](https://yaacoub.github.io/articles/swift-tip/measuring-core-data-and-swiftdata) — iOS Dev Weekly · Issue 744 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `27th February 2026`
   **NeKI brief:** Presents measuring core data and swiftdata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -1266,9 +1275,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Mobile Engineers, You’re All Full-Stack](https://newsletter.mobileengineer.io/p/mobile-engineers-youre-all-full-stack?r=g891u&triedRedirect=true) — Those Who Swift · Issue 248 — Article · Topics: Code Quality · Networking · Persistence & Synchronisation
   **Published:** `2026-01-08`
   **NeKI brief:** Examines Mobile Engineers, You’re All Full-Stack, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
-- [Eight Years with CloudKit](https://fatbobman.com/en/posts/my-eight-years-with-cloudkit) — Those Who Swift · Issue 245 — Article · Topics: Performance · Persistence & Synchronisation
-  **Published:** `2025-12-17`
-  **NeKI brief:** Examines Eight Years with CloudKit, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [swift-openapi-generator](https://github.com/apple/swift-openapi-generator) — Fatbobman’s Swift Weekly · Issue 115 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-12-15T12:01:14.054Z`
   **NeKI brief:** Generates type-safe Swift client and server interfaces from OpenAPI descriptions, separating schema-driven transport code from application logic. Use it when a REST contract should drive refactors and reduce manual endpoint decoding.

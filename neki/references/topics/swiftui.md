@@ -4,14 +4,26 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** SwiftUI views, layout, rendering, animation, interaction, and platform adaptation.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **2945**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **2957**
 
 ## Direct-source reading
 
+- [Responding to geometry changes in SwiftUI](https://nilcoalescing.com/blog/RespondingToGeometryChangesInSwiftUI) — Nil Coalescing · article catalogue
+  **Published:** `2026-08-17`
+  **NeKI brief:** Uses onGeometryChange to derive only the layout metric an interface needs, then updates state when that Equatable value changes. This limits feedback and invalidation while adapting SwiftUI content to available space.
+- [Creating multi-step animations with PhaseAnimator in SwiftUI](https://nilcoalescing.com/blog/PhaseAnimationsInSwiftUI) — Nil Coalescing · article catalogue
+  **Published:** `2026-08-13`
+  **NeKI brief:** Builds ordered SwiftUI animation sequences with PhaseAnimator, using phase values and per-phase transitions for repeating motion and event-triggered runs. The examples clarify when phase-based state is simpler than coordinating several independent animations.
+- [ContentBuilder Explained - The Secret Behind SwiftUI's Type-Checking Speedup](https://fatbobman.com/en/posts/contentbuilder-explained) — Fatbobman · article catalogue
+  **Published:** `2026-08-12T14:00:00.000Z`
+  **NeKI brief:** Dissects ContentBuilder as a separation between content construction and protocol-specific validation, then benchmarks the resulting type-checking gains. It also explains where the pattern helps shared SwiftUI APIs and where it is not a cure-all.
 - [Adaptive SwiftUI toolbars in iOS 27](https://nilcoalescing.com/blog/AdaptiveSwiftUIToolbarsInIOS27) — Nil Coalescing · article catalogue
   **Published:** `2026-08-09`
   **NeKI brief:** Explains iOS 27 toolbar visibility priorities, explicit overflow placement, trailing-edge pinning and navigation-bar minimization so important actions survive compact layouts.
+- [Controlling Orphans in SwiftUI Text - Uncovering the Undocumented avoidsOrphans](https://fatbobman.com/en/posts/controlling-orphans-in-swiftui-text) — Fatbobman · article catalogue
+  **Published:** `2026-08-06T14:00:00.000Z`
+  **NeKI brief:** Investigates SwiftUI Text's automatic orphan avoidance and an undocumented avoidsOrphans control, while warning that relying on the hidden API carries compatibility and review risk.
 - [Alignment guides in SwiftUI](https://nilcoalescing.com/blog/AlignmentGuidesInSwiftUI) — Nil Coalescing · article catalogue
   **Published:** `2026-08-06`
   **NeKI brief:** Explains how SwiftUI alignment guides report coordinates, how alignmentGuide(_:computeValue:) overrides built-in guides, and how a custom AlignmentID aligns views across nested containers. The examples clarify that guides participate in layout rather than repositioning views afterward.
@@ -417,6 +429,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The hidden cost of unstable SwiftUI environment defaults](https://nilcoalescing.com/blog/UnstableDefaultEnvironmentValuesInSwiftUI) — Nil Coalescing · article catalogue
   **Published:** `2026-07-10`
   **NeKI brief:** Diagnoses update churn caused by reference-typed default environment values and explains why stable defaults matter. Useful when environment injection unexpectedly invalidates views or changes identity.
+- [Debugging Notes on Two SwiftUI Animation Bugs](https://fatbobman.com/en/posts/debugging-notes-on-two-swiftui-animation-bugs) — Fatbobman · article catalogue
+  **Published:** `2026-07-01T14:00:00.000Z`
+  **NeKI brief:** Uses two concrete SwiftUI animation failures to show how declarative animation can obscure causality. Follow it when a transition or state-driven animation misbehaves and you need diagnostic observations that reveal the framework behaviour rather than only a workaround.
 - [Taking control of toolbar items in SwiftUI | Swift with Majid](https://swiftwithmajid.com/2026/06/23/taking-control-of-toolbar-items-in-swiftui) — Swift with Majid · article catalogue
   **Published:** `2026-06-23T00:00:00+00:00`
   **NeKI brief:** Explores newer SwiftUI toolbar controls for styling the UI control layer separately from content, an important distinction in the current design language. Follow it when toolbar placement and appearance must remain predictable across platforms.
@@ -429,6 +444,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [New SwiftUI APIs for reordering and drag and drop on iOS 27](https://nilcoalescing.com/blog/NewSwiftUIAPIsForReorderingAndDragAndDropOniOS27) — Nil Coalescing · article catalogue
   **Published:** `2026-06-18`
   **NeKI brief:** Explores iOS 27 reorder and drag-container APIs for SwiftUI collections. Useful for implementing movable content with explicit drop configuration instead of manually translating gesture coordinates.
+- [From Size Class to Available Space - Is horizontalSizeClass Still Reliable?](https://fatbobman.com/en/posts/from-size-class-to-available-space) — Fatbobman · article catalogue
+  **Published:** `2026-06-17T14:00:00.000Z`
+  **NeKI brief:** Explains why horizontalSizeClass is no longer a dependable width proxy once iPhone apps become freely resizable, and shifts layout decisions toward measured available space. The examples cover both SwiftUI and UIKit adaptation.
 - [SwiftUI Best Practices, straight from Apple's Xcode 27 Agent Skill - SwiftLee](https://www.avanderlee.com/ai-development/swiftui-best-practices-xcode-27-agent-skill) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-06-16T08:23:05+00:00`
   **NeKI brief:** Turns Apple’s Xcode 27 SwiftUI guidance into an agent skill covering state flow, view composition, accessibility, and previews. The link is useful for making code-generation prompts enforce framework conventions instead of merely producing compilable views.
@@ -546,6 +564,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI animation timing](https://nilcoalescing.com/blog/AnimationTimingInSwiftUI) — Nil Coalescing · article catalogue
   **Published:** `2026-06-04`
   **NeKI brief:** Breaks down SwiftUI animation timing and how duration, delay, and timing curves shape transitions. Use it when a visual effect feels out of sync and the fix requires separating state change from animation parameters.
+- [Core Data + Observation - From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model) — Fatbobman · article catalogue
+  **Published:** `2026-06-03T14:00:00.000Z`
+  **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
+- [Taming Row Height and Spacing Jumps in SwiftUI List with a Custom Layout](https://fatbobman.com/en/posts/taming-row-height-and-spacing-jumps) — Fatbobman · article catalogue
+  **Published:** `2026-05-27T14:00:00.000Z`
+  **NeKI brief:** Addresses List row-height animation jumps by separating displayed state from source data and combining Animatable, custom Layout, and layout values. Useful when a dynamic SwiftUI row disappears before its size transition can interpolate smoothly.
 - [Refreshing and animating views using TimelineView in SwiftUI](https://nilcoalescing.com/blog/TimelineViewInSwiftUI) — Nil Coalescing · article catalogue
   **Published:** `2026-05-25`
   **NeKI brief:** Uses TimelineView to refresh SwiftUI content on a schedule without manually managing a timer. Follow it for clocks, elapsed-time displays, and periodic UI updates where lifecycle and cadence should remain declarative.
@@ -642,6 +666,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Taking First Steps into Metal Shaders](https://www.createwithswift.com/taking-first-steps-into-metal-shaders) — Create with Swift · article catalogue
   **Published:** `2026-02-12T15:00:55.000Z`
   **NeKI brief:** Introduces Metal shader integration from a SwiftUI perspective, including the boundary between view modifiers and GPU functions. Follow it when prototyping shader effects and evaluating parameter flow, availability, and fallback behavior.
+- [From Pixel Capture to Metadata - Reimagining Screen Recording Architecture on macOS](https://fatbobman.com/en/posts/screensage-from-pixel-to-meta) — Fatbobman · article catalogue
+  **Published:** `2026-02-04T14:12:00.000Z`
+  **NeKI brief:** Uses a macOS recorder to connect ScreenCaptureKit and Metal capture, bitrate control, crash recovery, multi-window behavior, and SwiftUI timeline performance. The engineering log helps separate recording architecture from product-facing metadata workflows.
 - [Beyond the Human: Designing with Non-Human Personas in Mobile Apps](https://www.createwithswift.com/beyond-the-human-designing-with-non-human-personas-in-mobile-apps) — Create with Swift · article catalogue
   **Published:** `2026-02-03T14:00:56.000Z`
   **NeKI brief:** Non-human personas broaden product requirements beyond the immediate user, making accessibility, environment, and long-term effects explicit design inputs. The approach is a decision framework rather than a UI recipe.
@@ -669,6 +696,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Crafting document-based apps in SwiftUI](https://www.createwithswift.com/crafting-document-based-apps-in-swiftui) — Create with Swift · article catalogue
   **Published:** `2026-01-16T14:00:39.000Z`
   **NeKI brief:** Builds a document-based SwiftUI app around file-backed document types and scene integration. Use it when routing document lifecycle, autosave, import/export, and editing state through Apple's document architecture.
+- [Surviving tvOS - An Engineering Log of an Atypical Media Player](https://fatbobman.com/en/posts/surviving-tvos) — Fatbobman · article catalogue
+  **Published:** `2026-01-14T14:12:00.000Z`
+  **NeKI brief:** Documents a media player's tvOS-specific focus behavior, storage limits, SwiftUI workarounds, AVPlayer tuning, and synchronization strategy. It is useful for identifying platform constraints that an enlarged-iPad mental model misses.
 - [Creating reminder lists with EventKit from your app](https://www.createwithswift.com/creating-reminder-lists-with-eventkit-from-your-app) — Create with Swift · article catalogue
   **Published:** `2026-01-13T14:00:05.000Z`
   **NeKI brief:** Builds reminder lists with EventKit by creating the store objects and requesting the appropriate authorization before saving. Use it to keep permission handling, event-store writes, and user-visible failure states explicit.
@@ -678,6 +708,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Understanding Spring Animations in SwiftUI](https://www.createwithswift.com/understanding-spring-animations-in-swiftui) — Create with Swift · article catalogue
   **Published:** `2026-01-08T14:00:22.000Z`
   **NeKI brief:** Explains SwiftUI spring animation parameters and the relationship between motion response and damping. Use it when tuning a transition by observed behavior instead of repeatedly guessing numeric values.
+- [Solving SwiftUI Pain Points and Performance Bottlenecks - Zipic Development Technical Retrospective](https://fatbobman.com/en/posts/zipic-3-technical-details) — Fatbobman · article catalogue
+  **Published:** `2025-12-22T14:10:00.000Z`
+  **NeKI brief:** Explains Zipic's SwiftUI adaptation, Core Graphics and PDF compression work, Raycast integration, and performance fixes. The retrospective connects low-level image processing with native macOS interaction and component constraints.
 - [Contact Management: Working with the Contact Picker View Controller](https://www.createwithswift.com/contact-management-working-with-the-contact-picker-view-controller) — Create with Swift · article catalogue
   **Published:** `2025-12-19T14:00:07.000Z`
   **NeKI brief:** Integrates the system contact picker into SwiftUI, keeping user selection inside Apple's privacy-aware UI instead of requesting broad contact access for simple selection.
@@ -5213,6 +5246,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Surveys SwiftUI toolbar placement, roles, and item composition across platforms. Useful for avoiding platform-specific placement surprises and keeping actions discoverable in navigation bars.
 - [Understanding structural identity in SwiftUI](https://tanaschita.com/swiftui-structural-identity) — Tanaschita · article catalogue
   **NeKI brief:** Explains how SwiftUI uses view type and hierarchy position as structural identity to decide what persists and redraws. Follow it when conditional branches unexpectedly reset state or trigger more updates than expected.
+- [Adding swipe actions to any SwiftUI scroll view](https://tanaschita.com/swiftui-scrollview-swipe-actions) — Tanaschita · article catalogue
+  **NeKI brief:** Demonstrates swipeActionsContainer for adding contextual swipe controls to content inside ScrollView rather than List. The example clarifies container placement and the interaction boundary of the newer SwiftUI modifier.
 - [How to use SceneDelegate in SwiftUI](https://tanaschita.com/swiftui-scenedelegate) — Tanaschita · article catalogue
   **NeKI brief:** Bridges scene lifecycle behavior into SwiftUI through a scene delegate integration. Useful when an application still needs UIKit lifecycle hooks for notifications, deep links, or window coordination.
 - [How to create a custom reusable toolbar in SwiftUI](https://tanaschita.com/swiftui-reusable-toolbar) — Tanaschita · article catalogue
@@ -5524,6 +5559,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Unit Testing Navigation Logic In Swiftui](https://azamsharp.com/2026/08/13/unit-testing-navigation-logic-in-swiftui.html) — SwiftLee Weekly · Issue 337 — Article · Topics: Swift · SwiftUI · Testing
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Moves business-dependent destinations into explicit router state so registration roles and conditions can be tested without driving NavigationStack UI. The example separates navigation decisions from view presentation and asserts the resulting route directly.
+- [AcceptedSE-0537Section Placement Control for Functions](https://github.com/apple/swift-evolution/blob/main/proposals/0537-function-sections.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Extends Swift's section placement attribute from stored data to functions, initializers, deinitializers, closures, and accessors, while adding a default-section override. The motivation is precise linker placement for firmware entry points and embedded startup code.
+- [Active ReviewSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Performance · Swift
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
+- [GlyphKit: Precise Glyph Layout in SwiftUI with Vector Outlines](https://l.fatbobman.com/w0149-07) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `2026-08-17T12:03:38.576Z`
+  **NeKI brief:** Renders font glyph outlines into SwiftUI with tight-path or baseline-aligned sizing for point-precise fixed cells. The repository documents sizing modes, requirements, and integration for interfaces where ordinary Text metrics introduce unwanted space.
 - [SwiftUI Document APIs in the 2027 Releases: Everything You Need to Know](https://sagarunagar.com/blog/swiftui-document-apis-2027-whats-new) — Those Who Swift · Issue 279 — Article · Topics: Swift · SwiftUI
   **Published:** `2026-08-12T20:30:39.583Z`
   **NeKI brief:** Surveys new SwiftUI document creation, reading, writing and snapshot APIs, emphasizing asynchronous disk work, responsive large-file handling and direct document URL access.
@@ -5536,9 +5583,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Scalable Custom Fonts in SwiftUI](https://jacobzivandesign.com/technology/custom-dynamic-fonts-in-swift-ui) — SwiftUI Weekly · SwiftUI Weekly - Issue #239 — Article · Topics: Swift · SwiftUI · Testing
   **Published:** `2026-08-12T12:58:42.119Z`
   **NeKI brief:** Builds scalable custom-font styles around Dynamic Type text styles and UIFontMetrics so branded typography follows accessibility sizes instead of fixed device-specific points.
-- [Controlling Orphans in SwiftUI Text using an undocumented method](https://fatbobman.com/en/posts/controlling-orphans-in-swiftui-text) — SwiftLee Weekly · Issue 336 — Article · Topics: Swift · SwiftUI
-  **Published:** `2026-08-11T14:07:13.000Z`
-  **NeKI brief:** Investigates SwiftUI Text's automatic orphan avoidance and an undocumented avoidsOrphans control, while warning that relying on the hidden API carries compatibility and review risk.
 - [AcceptedSE-0516`Iterable`](https://github.com/apple/swift-evolution/blob/main/proposals/0516-borrowing-sequence.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-08-11T14:07:13.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0516`Iterable`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -5626,9 +5670,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI Animation Techniques: The iOS 27 Update](https://nathanfennel.com/blog/swiftui-animation-techniques-2026) — Those Who Swift · Issue 276 — Article · Topics: Swift · SwiftUI
   **Published:** `2026-07-22T20:01:13.378Z`
   **NeKI brief:** Surveys current SwiftUI motion techniques including layer shaders, timeline-driven sequencing, reorderable lists, and spring tuning. Use it to choose between built-in interactions and a custom animation system, then confirm beta API names and availability.
-- [Taming Row Height and Spacing Jumps in SwiftUI List](https://fatbobman.com/en/posts/taming-row-height-and-spacing-jumps) — Those Who Swift · Issue 276 — Article · Topics: Swift · SwiftUI
-  **Published:** `2026-07-22T20:01:13.378Z`
-  **NeKI brief:** Addresses List row-height animation jumps by separating displayed state from source data and combining Animatable, custom Layout, and layout values. Useful when a dynamic SwiftUI row disappears before its size transition can interpolate smoothly.
 - [Rendering SwiftUI Previews with Xcode's MCP Server](https://cuteios.dev/2026/07/14/previews-and-mcp) — Those Who Swift · Issue 276 — Article · Topics: AI Development · Graphics, Media & Games · Xcode
   **Published:** `2026-07-22T20:01:13.378Z`
   **NeKI brief:** Builds a SwiftUI preview gallery by combining Xcode’s MCP server, project context, and generated preview metadata. The article maps the moving parts and current limitations, making it useful when evaluating agent-assisted preview tooling.
@@ -5686,9 +5727,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [ConcentricRectangle And ContainerRelativeShape](https://swiftui-garden.com/Reference/ConcentricRectangle-and-ContainerRelativeShape) — Those Who Swift · Issue 274 — Article · Topics: Swift · SwiftUI
   **Published:** `2026-07-08`
   **NeKI brief:** Provides a focused SwiftUI reference for ConcentricRectangle and ContainerRelativeShape. Use it when creating shapes that follow container geometry or platform corner conventions, and compare the examples with the deployment targets your layout must support.
-- [Debugging Notes on Two SwiftUI Animation Bugs](https://fatbobman.com/en/posts/debugging-notes-on-two-swiftui-animation-bugs) — SwiftLee Weekly · Issue 331 — Article · Topics: Developer Tools · Swift · SwiftUI
-  **Published:** `2026-07-07T14:05:55.000Z`
-  **NeKI brief:** Uses two concrete SwiftUI animation failures to show how declarative animation can obscure causality. Follow it when a transition or state-driven animation misbehaves and you need diagnostic observations that reveal the framework behaviour rather than only a workaround.
 - [Rotating Liquid Glass in SwiftUI without breaking the shape](https://livsycode.com/swiftui/liquid-glass-rotating) — SwiftLee Weekly · Issue 331 — Article · Topics: Liquid Glass · Swift · SwiftUI
   **Published:** `2026-07-07T14:05:55.000Z`
   **NeKI brief:** Demonstrates rotating Liquid Glass content while preserving the effect's shape and visual continuity. Use it when animated controls or cards distort during transforms and you need a compositing-aware SwiftUI implementation.
@@ -5821,9 +5859,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftTUI](https://snopia.net/en/blog/introducing-swifttui) — iOS Dev Weekly · Issue 753 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `5th June 2026`
   **NeKI brief:** Presents swifttui for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
-- [Core Data + Observation: From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model) — iOS Dev Weekly · Issue 753 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
-  **Published:** `5th June 2026`
-  **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
 - [Enter Sandman Mode: Three Months Inside Xcode 26.3’s Agentic Coding](https://medium.com/@wesleymatlock/enter-sandman-mode-three-months-inside-xcode-26-3s-agentic-coding-cbe67ce46df9) — Those Who Swift · Issue 269 — Article · Topics: AI Development · Concurrency · Xcode
   **Published:** `2026-06-04`
   **NeKI brief:** Examines Enter Sandman Mode: Three Months Inside Xcode 26.3’s Agentic Coding, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.

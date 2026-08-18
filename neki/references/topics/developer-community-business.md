@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Developer conferences, publications, courses, podcasts, membership, sponsorship, and community business news.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **251**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **252**
 
 ## Direct-source reading
 
+- [Announcing: Episode Search](https://www.pointfree.co/blog/posts/222-announcing-episode-search) — Point-Free · article catalogue
+  **Published:** `2026-08-18T00:00:00Z`
+  **NeKI brief:** Introduces full-text search across Point-Free episode dialogue and code so a remembered concept or snippet can locate the relevant lesson. It is useful as a navigation improvement across a large long-form technical archive.
 - [GitHub account no longer required](https://www.pointfree.co/blog/posts/221-github-account-no-longer-required) — Point-Free · article catalogue
   **Published:** `2026-08-12T00:00:00Z`
   **NeKI brief:** Announces email one-time-code sign-in for Point-Free, making GitHub connection optional and documenting the resulting account migration and access workflow.

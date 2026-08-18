@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift concurrency, async/await, actors, Sendable, tasks, cancellation, and diagnostics.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **1128**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **1132**
 
 ## Direct-source reading
 
@@ -195,12 +195,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The "One More Prompt" risk of agentic coding](https://www.avanderlee.com/ai-development/the-one-more-prompt-risk-of-agentic-coding) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-03-23T10:48:10+00:00`
   **NeKI brief:** Examines how repeated follow-up prompts can expand an agentic coding task beyond its original scope, increasing churn and regressions. The discussion offers a useful boundary-setting heuristic for deciding when to stop prompting and review the diff.
+- [CDE - An Attempt to Make Core Data Feel More Like Modern Swift](https://fatbobman.com/en/posts/cde-an-attempt-to-make-core-data-feel-more-like-modern-swift) — Fatbobman · article catalogue
+  **Published:** `2026-03-18T14:00:00.000Z`
+  **NeKI brief:** Explores a typed modernization layer for Core Data covering model declarations, paths, concurrency, testing, and tooling. The project is useful for judging how far wrappers can improve expressiveness without replacing the persistence engine.
 - [Agentic Development: Multi-Project Challenges - SwiftLee](https://www.avanderlee.com/ai-development/agentic-development-multi-project-challenges) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-03-16T13:11:45+00:00`
   **NeKI brief:** Describes the coordination problems agents encounter across multiple repositories, such as context switching, inconsistent conventions, and shared tooling. The proposed workflow helps structure project boundaries before delegating changes that span codebases.
+- [Why I'm Still Thinking About Core Data in 2026](https://fatbobman.com/en/posts/why-i-am-still-thinking-about-core-data-in-2026) — Fatbobman · article catalogue
+  **Published:** `2026-03-11T14:00:00.000Z`
+  **NeKI brief:** Frames Core Data's continuing value against its growing mismatch with Swift concurrency, type safety, and modern model expression. It is a useful requirements analysis for modernization efforts that must preserve existing stores.
 - [A 9-Step Framework for Choosing the Right Agent Skill - SwiftLee](https://www.avanderlee.com/ai-development/a-9-step-framework-for-choosing-the-right-agent-skill) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-03-09T08:55:45+00:00`
   **NeKI brief:** Provides a nine-step selection process that matches an agent skill to task scope, evidence needs, and tool permissions. It is useful for avoiding broad, overlapping instructions when a narrowly routed skill would be safer.
+- [Why Does Passing NSManagedObjectContext Across Isolation Domains No Longer Error in Swift 6.2? The Real Change Isn't in the Compiler](https://fatbobman.com/en/posts/sendable-nsmanagedobjectcontext) — Fatbobman · article catalogue
+  **Published:** `2026-03-04T14:00:00.000Z`
+  **NeKI brief:** Explains why NSManagedObjectContext crossing isolation domains no longer errors in Swift 6.2. Use it to review Core Data concurrency assumptions and verify the behavior against the active compiler and SDK.
 - [Using an MCP to perform product optimizations - SwiftLee](https://www.avanderlee.com/ai-development/using-an-mcp-to-perform-product-optimizations) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-03-02T13:56:03+00:00`
   **NeKI brief:** Illustrates using an MCP server to connect product data with an optimization workflow, from querying evidence to evaluating an intervention. The article helps distinguish tool integration that improves decisions from automation that merely adds another interface.
@@ -219,6 +228,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AI App Development: What I Learned in One Month - SwiftLee](https://www.avanderlee.com/ai-development/ai-app-development-what-i-learned-in-one-month) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-01-25T23:55:00+00:00`
   **NeKI brief:** Reflects on building and shipping an app with AI over a month, separating rapid scaffolding from decisions still requiring human product and engineering judgment. It offers practical signals for evaluating where agent speed creates later maintenance cost.
+- [isolated(any) and #isolation - Letting Swift Closures Automatically Inherit Isolation](https://fatbobman.com/en/posts/letting-swift-closures-automatically-inherit-isolation) — Fatbobman · article catalogue
+  **Published:** `2026-01-21T14:00:00.000Z`
+  **NeKI brief:** Explains how isolated(any) and #isolation let closure-taking APIs preserve the caller's actor context when ordinary inference loses it. The worked solution reduces redundant MainActor annotations while retaining compile-time isolation checks.
 - [11 Things I learned after using AI Agents full-time](https://www.avanderlee.com/ai-development/11-things-i-learned-after-using-ai-agents-full-time) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-01-19T11:07:39+00:00`
   **NeKI brief:** Catalogues full-time AI-agent usage lessons around context management, verification, and task decomposition. The observations are useful for designing guardrails that preserve review quality when generation becomes the default implementation path.
@@ -2248,6 +2260,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [iOS 26: Data Detector](https://l.fatbobman.com/w0149-02) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-08-17T12:03:38.576Z`
+  **NeKI brief:** Shows how the Swift-native DataDetector replaces NSTextCheckingResult-style branching with typed matches for links, contacts, calendar events, addresses, and other semantic objects. The examples make the migration from NSDataDetector concrete.
 - [Bluetooth Without the Delegate Dance](https://kylebrowning.com/posts/bluetooth-without-the-delegate-dance) — Those Who Swift · Issue 279 — Article · Topics: Concurrency · Swift
   **Published:** `2026-08-12T20:30:39.583Z`
   **NeKI brief:** Compares raw CoreBluetooth delegates, an older wrapper and a Swift 6.2 actor design, then introduces BLESwift and its macOS command-line companion for async device workflows.
@@ -2401,9 +2416,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Should you opt-in to Swift 6.2’s Main Actor isolation? – Donny WalsSwift 6.2 comes with some interesting Concurrency improvements. One of the most notable changes is that there’s now a compiler flag that will, by default, isolate all your (implicitly nonisolated)…Donny Walsdonnywals](https://www.donnywals.com/should-you-opt-in-to-swift-6-2s-main-actor-isolation?ref=ioscodereview.com) — iOS Code Review · Issue 75 — Article · Topics: Concurrency · Swift · Xcode
   **Published:** `2026-03-17T06:28:33.000Z`
   **NeKI brief:** Weighs opting into Swift 6.2 default MainActor isolation, including migration benefits and accidental UI-executor work. Useful for choosing a project-wide concurrency baseline deliberately.
-- [Why Does Passing NSManagedObjectContext Across Isolation Domains No Longer Error in Swift 6.2?](https://fatbobman.com/en/posts/sendable-nsmanagedobjectcontext) — SwiftLee Weekly · Issue 314 — Article · Topics: Concurrency · Core Data · Swift
-  **Published:** `2026-03-10T15:03:18.000Z`
-  **NeKI brief:** Explains why NSManagedObjectContext crossing isolation domains no longer errors in Swift 6.2. Use it to review Core Data concurrency assumptions and verify the behavior against the active compiler and SDK.
 - [Active ReviewSE-0518`~Sendable` for explicitly marking non-`Sendable` types](https://github.com/apple/swift-evolution/blob/main/proposals/0518-tilde-sendable.md) — SwiftLee Weekly · Issue 314 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-03-10T15:03:18.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0518`~Sendable` for explicitly marking non-`Sendable` types. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Unit, UI, Swift Testing, XCTest, test design, and test automation.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **1044**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **1048**
 
 ## Direct-source reading
 
@@ -282,6 +282,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Introducing: Point-Free Beta Previews](https://www.pointfree.co/blog/posts/204-introducing-point-free-beta-previews) — Point-Free · article catalogue
   **Published:** `2026-04-01T00:00:00Z`
   **NeKI brief:** Beta previews distribute DebugSnapshots and an early Composable Architecture 2.0 without making unfinished APIs the default release. The workflow gives adopters a controlled feedback channel while isolating compatibility and migration risk.
+- [CDE - An Attempt to Make Core Data Feel More Like Modern Swift](https://fatbobman.com/en/posts/cde-an-attempt-to-make-core-data-feel-more-like-modern-swift) — Fatbobman · article catalogue
+  **Published:** `2026-03-18T14:00:00.000Z`
+  **NeKI brief:** Explores a typed modernization layer for Core Data covering model declarations, paths, concurrency, testing, and tooling. The project is useful for judging how far wrappers can improve expressiveness without replacing the persistence engine.
 - [Agent skills in Xcode: How to install and use them today – Hacking with Swift](https://www.hackingwithswift.com/articles/283/how-to-install-and-use-ai-agent-skills-in-xcode) — Hacking with Swift articles · article catalogue
   **Published:** `2026-03-11T16:30:08+00:00`
   **NeKI brief:** Shows how to install and invoke agent skills from Xcode, covering the practical workflow for Swift and Swift Testing guidance. Use it when evaluating how editor-integrated assistants should receive specialized project context.
@@ -1673,6 +1676,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Unit Testing Navigation Logic In Swiftui](https://azamsharp.com/2026/08/13/unit-testing-navigation-logic-in-swiftui.html) — SwiftLee Weekly · Issue 337 — Article · Topics: Swift · SwiftUI · Testing
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Moves business-dependent destinations into explicit router state so registration roles and conditions can be tested without driving NavigationStack UI. The example separates navigation decisions from view presentation and asserts the resulting route directly.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — SwiftLee Weekly · Issue 337 — Article · Topics: AI Development · Testing · Xcode
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [From XCUITest to Promo Video](https://l.fatbobman.com/w0149-04) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games · Testing
+  **Published:** `2026-08-17T12:03:38.576Z`
+  **NeKI brief:** Treats screenshots and promo videos as reproducible build artifacts: launch into exact SwiftUI state, drive capture with XCUITest, compose with Remotion, and bind inputs through manifests and hashes. It exposes where automation paid off.
+- [NoMac](https://nomac.app/) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: AI Development · App Distribution & Store Operations · Testing
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Offers an agent-oriented cloud pipeline that creates signed iOS builds, installs them on a phone, sends them to TestFlight, and submits to the App Store. Its model avoids local Xcode and certificate handling.
 - [Building Testable SwiftData Apps](https://azamsharp.com/2026/08/02/building-testable-swiftdata-apps.html) — Those Who Swift · Issue 279 — Article · Topics: Swift · SwiftData · Testing
   **Published:** `2026-08-12T20:30:39.583Z`
   **NeKI brief:** Structures SwiftData code so model containers and observations can be exercised outside a SwiftUI view hierarchy. Use it to test persistence behavior and query-driven updates without coupling every assertion to UI rendering.
@@ -1790,9 +1805,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [What AI Coding Costs You](https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai) — Those Who Swift · Issue 257 — Article · Topics: AI Development · Testing
   **Published:** `2026-03-11`
   **NeKI brief:** Discusses What AI coding costs you in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
-- [Why Does Passing NSManagedObjectContext Across Isolation Domains No Longer Error in Swift 6.2?](https://fatbobman.com/en/posts/sendable-nsmanagedobjectcontext) — SwiftLee Weekly · Issue 314 — Article · Topics: Concurrency · Core Data · Swift
-  **Published:** `2026-03-10T15:03:18.000Z`
-  **NeKI brief:** Explains why NSManagedObjectContext crossing isolation domains no longer errors in Swift 6.2. Use it to review Core Data concurrency assumptions and verify the behavior against the active compiler and SDK.
 - [FOSDEM](https://swiftlang.github.io/event-fosdem) — Fatbobman’s Swift Weekly · Issue 126 — Article · Topics: Developer Community & Business · Developer Tools · Swift
   **Published:** `2026-03-09T12:02:58.691Z`
   **NeKI brief:** Collects Swift DevRoom talks from FOSDEM 2025 in one searchable programme and video index. Use the recordings to compare implementation techniques and ecosystem direction, then follow the referenced repositories or proposals when a talk informs production design.

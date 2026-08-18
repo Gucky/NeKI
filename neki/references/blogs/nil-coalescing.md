@@ -3,9 +3,17 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/)
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed entries: **214**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed entries: **216**
 
+- [Responding to geometry changes in SwiftUI](https://nilcoalescing.com/blog/RespondingToGeometryChangesInSwiftUI)
+  **Published:** `2026-08-17`
+  **Topics:** Observation & State Management · SwiftUI
+  **NeKI brief:** Uses onGeometryChange to derive only the layout metric an interface needs, then updates state when that Equatable value changes. This limits feedback and invalidation while adapting SwiftUI content to available space.
+- [Creating multi-step animations with PhaseAnimator in SwiftUI](https://nilcoalescing.com/blog/PhaseAnimationsInSwiftUI)
+  **Published:** `2026-08-13`
+  **Topics:** SwiftUI
+  **NeKI brief:** Builds ordered SwiftUI animation sequences with PhaseAnimator, using phase values and per-phase transitions for repeating motion and event-triggered runs. The examples clarify when phase-based state is simpler than coordinating several independent animations.
 - [Adaptive SwiftUI toolbars in iOS 27](https://nilcoalescing.com/blog/AdaptiveSwiftUIToolbarsInIOS27)
   **Published:** `2026-08-09`
   **Topics:** SwiftUI

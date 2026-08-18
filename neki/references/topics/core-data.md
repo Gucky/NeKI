@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Core Data models, fetching, migration, concurrency, and persistence behaviour.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **276**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **278**
 
 ## Direct-source reading
 
@@ -123,9 +123,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Beginning Core Data | Kodeco](https://www.kodeco.com/10794954-beginning-core-data) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** The Core Data series covers entity modeling, relationships, saving, and fetching, providing a concrete baseline for evaluating persistence-layer choices.
+- [Core Data + Observation - From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model) — Fatbobman · article catalogue
+  **Published:** `2026-06-03T14:00:00.000Z`
+  **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
 - [Teach your AI to write Swift the Hacking with Swift way – Hacking with Swift](https://www.hackingwithswift.com/articles/284/teach-your-ai-to-write-swift-the-hacking-with-swift-way) — Hacking with Swift articles · article catalogue
   **Published:** `2026-04-01T12:13:39+00:00`
   **NeKI brief:** Presents an AGENTS.md that encodes opinions about SwiftUI, Core Data, and particles for coding agents. Follow it as a concrete example of turning project conventions into reviewable guidance rather than relying on generic prompts.
+- [CDE - An Attempt to Make Core Data Feel More Like Modern Swift](https://fatbobman.com/en/posts/cde-an-attempt-to-make-core-data-feel-more-like-modern-swift) — Fatbobman · article catalogue
+  **Published:** `2026-03-18T14:00:00.000Z`
+  **NeKI brief:** Explores a typed modernization layer for Core Data covering model declarations, paths, concurrency, testing, and tooling. The project is useful for judging how far wrappers can improve expressiveness without replacing the persistence engine.
+- [Why I'm Still Thinking About Core Data in 2026](https://fatbobman.com/en/posts/why-i-am-still-thinking-about-core-data-in-2026) — Fatbobman · article catalogue
+  **Published:** `2026-03-11T14:00:00.000Z`
+  **NeKI brief:** Frames Core Data's continuing value against its growing mismatch with Swift concurrency, type safety, and modern model expression. It is a useful requirements analysis for modernization efforts that must preserve existing stores.
+- [Why Does Passing NSManagedObjectContext Across Isolation Domains No Longer Error in Swift 6.2? The Real Change Isn't in the Compiler](https://fatbobman.com/en/posts/sendable-nsmanagedobjectcontext) — Fatbobman · article catalogue
+  **Published:** `2026-03-04T14:00:00.000Z`
+  **NeKI brief:** Explains why NSManagedObjectContext crossing isolation domains no longer errors in Swift 6.2. Use it to review Core Data concurrency assumptions and verify the behavior against the active compiler and SDK.
 - [Access application files on iOS simulator](https://nilcoalescing.com/blog/AccessApplicationFilesOniOSSimulator) — Nil Coalescing · article catalogue
   **Published:** `2026-03-04`
   **NeKI brief:** Simulator application data can be located and inspected through the platform's container layout, which is invaluable for checking persistence and exported files. The workflow distinguishes app containers from shared and system data.
@@ -586,9 +598,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Core Data + Observation: From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model?ref=createwithswift.com) — Create with Swift · Issue 110 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-06-06T14:00:23.000Z`
   **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
-- [Core Data + Observation: From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model) — iOS Dev Weekly · Issue 753 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
-  **Published:** `5th June 2026`
-  **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
 - [Fatbobman](https://fatbobman.com/en/about) — iOS Dev Weekly · Issue 753 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `5th June 2026`
   **NeKI brief:** Presents fatbobman for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -601,9 +610,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Apple Doesn’t Show SwiftData iCloud Sync Status — So Let’s Build One](https://azamsharp.com/2026/03/16/swiftdata-icloud-sync-status.html) — Those Who Swift · Issue 258 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2026-03-18`
   **NeKI brief:** Examines Apple Doesn’t Show SwiftData iCloud Sync Status — So Let’s Build One, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
-- [Why Does Passing NSManagedObjectContext Across Isolation Domains No Longer Error in Swift 6.2?](https://fatbobman.com/en/posts/sendable-nsmanagedobjectcontext) — SwiftLee Weekly · Issue 314 — Article · Topics: Concurrency · Core Data · Swift
-  **Published:** `2026-03-10T15:03:18.000Z`
-  **NeKI brief:** Explains why NSManagedObjectContext crossing isolation domains no longer errors in Swift 6.2. Use it to review Core Data concurrency assumptions and verify the behavior against the active compiler and SDK.
 - [Measuring Core Data and SwiftData](https://yaacoub.github.io/articles/swift-tip/measuring-core-data-and-swiftdata) — iOS Dev Weekly · Issue 744 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `27th February 2026`
   **NeKI brief:** Presents measuring core data and swiftdata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.

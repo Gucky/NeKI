@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Profiling, Instruments, rendering cost, launch time, memory, and runtime efficiency.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **429**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **437**
 
 ## Direct-source reading
 
+- [ContentBuilder Explained - The Secret Behind SwiftUI's Type-Checking Speedup](https://fatbobman.com/en/posts/contentbuilder-explained) — Fatbobman · article catalogue
+  **Published:** `2026-08-12T14:00:00.000Z`
+  **NeKI brief:** Dissects ContentBuilder as a separation between content construction and protocol-specific validation, then benchmarks the resulting type-checking gains. It also explains where the pattern helps shared SwiftUI APIs and where it is not a cure-all.
 - [Tracking value sources to prevent recursive SwiftUI updates](https://nilcoalescing.com/blog/TrackingValueSourcesToPreventRecursiveSwiftUIUpdates) — Nil Coalescing · article catalogue
   **Published:** `2026-08-04`
   **NeKI brief:** Tags binding writes with a custom SwiftUI transaction value so wrapped text views can recognise their own updates. This avoids repeated large-string comparisons, redundant layout and cursor jumps in UITextView or NSTextView representables.
@@ -84,6 +87,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Designing a custom lazy list in SwiftUI with better performance](https://nilcoalescing.com/blog/CustomLazyListInSwiftUI) — Nil Coalescing · article catalogue
   **Published:** `2026-06-10`
   **NeKI brief:** Constructs a custom lazy list to control virtualization and layout beyond List's built-in behavior. Useful when custom scrolling visuals or cell composition require more control than standard list styles provide.
+- [Core Data + Observation - From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model) — Fatbobman · article catalogue
+  **Published:** `2026-06-03T14:00:00.000Z`
+  **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
+- [Taming Row Height and Spacing Jumps in SwiftUI List with a Custom Layout](https://fatbobman.com/en/posts/taming-row-height-and-spacing-jumps) — Fatbobman · article catalogue
+  **Published:** `2026-05-27T14:00:00.000Z`
+  **NeKI brief:** Addresses List row-height animation jumps by separating displayed state from source data and combining Animatable, custom Layout, and layout values. Useful when a dynamic SwiftUI row disappears before its size transition can interpolate smoothly.
 - [Using Xcode Instruments to optimize Swift Concurrency Code - SwiftLee](https://www.avanderlee.com/concurrency/using-xcode-instruments-to-optimize-swift-concurrency-code) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-05-26T07:36:44+00:00`
   **NeKI brief:** Uses Instruments’ concurrency and time-based views to correlate task execution with latency, then validates a change with a second recording. The workflow is a practical guard against optimizing async code from source inspection alone.
@@ -99,12 +108,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Is SwiftUI finally as fast as UIKit in iOS 26?](https://blog.jacobstechtavern.com/p/swiftui-vs-uikit) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2026-03-09T16:01:18.122Z`
   **NeKI brief:** Compare SwiftUI and UIKit performance with equivalent view hierarchies, realistic data, and measured scrolling or interaction workloads. Use profiling evidence to locate layout, diffing, or rendering bottlenecks, then bridge to UIKit only where a specific capability or performance constraint requires it.
+- [From Pixel Capture to Metadata - Reimagining Screen Recording Architecture on macOS](https://fatbobman.com/en/posts/screensage-from-pixel-to-meta) — Fatbobman · article catalogue
+  **Published:** `2026-02-04T14:12:00.000Z`
+  **NeKI brief:** Uses a macOS recorder to connect ScreenCaptureKit and Metal capture, bitrate control, crash recovery, multi-window behavior, and SwiftUI timeline performance. The engineering log helps separate recording architecture from product-facing metadata workflows.
 - [How Mobile Apps Can Finally Use Affiliate Marketing Without Breaking In-App Purchases - iOS Dev Tools](https://iosdev.tools/blog/insertaffiliate) — iOS Dev Tools Blog · article catalogue
   **Published:** `2026-02-03T20:37:08+00:00`
   **NeKI brief:** Presents How Mobile Apps Can Finally Use Affiliate Marketing Without Breaking In-App Purchases as an Apple-platform development resource. Use the profile to understand its concrete role, then check the linked project for current capabilities and maintenance status.
+- [Solving SwiftUI Pain Points and Performance Bottlenecks - Zipic Development Technical Retrospective](https://fatbobman.com/en/posts/zipic-3-technical-details) — Fatbobman · article catalogue
+  **Published:** `2025-12-22T14:10:00.000Z`
+  **NeKI brief:** Explains Zipic's SwiftUI adaptation, Core Graphics and PDF compression work, Raycast integration, and performance fixes. The retrospective connects low-level image processing with native macOS interaction and component constraints.
 - [Copy-on-write teaches you EVERYTHING about Swift Internals 🐮](https://blog.jacobstechtavern.com/p/copy-on-write-swift-internals) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2025-12-15T16:01:29.247Z`
   **NeKI brief:** Uses copy-on-write storage to expose Swift value semantics, uniqueness checks, heap allocation, and mutation behavior, helping developers reason about when apparently cheap collection copies actually trigger expensive duplication.
+- [From YaoYao to Tooboo - watchOS Development Pitfalls and Practical Tips](https://fatbobman.com/en/posts/watchos-development-pitfalls-and-practical-tips) — Fatbobman · article catalogue
+  **Published:** `2025-12-10T14:12:00.000Z`
+  **NeKI brief:** Collects production lessons from two watch apps on phone-watch synchronization, mutual launching, abnormal restart recovery, leaks, and battery use. It highlights lifecycle and resource constraints that are difficult to expose in simple watchOS samples.
 - [Monitoring app performance with MetricKit | Swift with Majid](https://swiftwithmajid.com/2025/12/09/monitoring-app-performance-with-metrickit) — Swift with Majid · article catalogue
   **Published:** `2025-12-09T00:00:00+00:00`
   **NeKI brief:** Uses MetricKit diagnostics to move beyond the aggregate metrics in Xcode Organizer and build more detailed monitoring for crashes, hangs, launches, memory, energy, and terminations.
@@ -660,6 +678,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Active ReviewSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Performance · Swift
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
+- [Using Top Functions Mode in Instruments to Quickly Find the Slowest Code](https://swiftdevjournal.com/posts/top-functions) — iOS Dev Weekly · Issue 763 — Article · Topics: Objective-C & Cocoa · Performance · Swift
+  **Published:** `14th August 2026`
+  **NeKI brief:** Shows how Instruments' Top Functions mode reorders Time Profiler or CPU Profiler samples by self weight, then relates the result to the flame graph. It offers a faster first pass for locating genuinely expensive functions.
 - [how he used AI to make MessagePack decoding about 20% faster](https://pfandrade.me/blog/message-packable?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Foundation & Data Formats · Performance · Swift
   **Published:** `2026-08-06T06:44:37.000Z`
   **NeKI brief:** Describes using Codex to integrate Swift Binary Parsing into a MessagePack decoder, then independently validating nearly 20% faster decoding and more than 60% fewer allocations. It is a human-in-the-loop optimization workflow grounded in Instruments and reproducible benchmarks.
@@ -723,6 +747,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Task Names in Swift ConcurrencyName Swift tasks for clearer debugging and profilingArtem Novichkov](https://artemnovichkov.com/blog/task-names-in-swift-concurrency?ref=createwithswift.com) — Create with Swift · Issue 110 — Article · Topics: Concurrency · Performance · Swift
   **Published:** `2026-06-06T14:00:23.000Z`
   **NeKI brief:** Explains naming tasks in Swift concurrency and how names aid debugging and observability. Follow it when tracing asynchronous work, while keeping names descriptive and avoiding assumptions that labels change scheduling, isolation, or cancellation semantics.
+- [Core Data + Observation: From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model?ref=createwithswift.com) — Create with Swift · Issue 110 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
+  **Published:** `2026-06-06T14:00:23.000Z`
+  **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
 - [Task Names In Swift Concurrency](https://artemnovichkov.com/blog/task-names-in-swift-concurrency) — Those Who Swift · Issue 269 — Article · Topics: Concurrency · Performance · Swift
   **Published:** `2026-06-04`
   **NeKI brief:** Explains naming tasks in Swift concurrency and how names aid debugging and observability. Follow it when tracing asynchronous work, while keeping names descriptive and avoiding assumptions that labels change scheduling, isolation, or cancellation semantics.
@@ -813,9 +840,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Exploring the Swift SDK for Android](https://www.swift.org/blog/exploring-the-swift-sdk-for-android) — Those Who Swift · Issue 246 — Article · Topics: Cross-Platform & Web · Objective-C & Cocoa · Swift
   **Published:** `2025-12-24`
   **NeKI brief:** Explores the Swift SDK for Android and its implications for cross-platform Swift development. Use it to understand the emerging toolchain and interoperability story, then verify supported packages, APIs, and production readiness before committing to it.
-- [Eight Years with CloudKit](https://fatbobman.com/en/posts/my-eight-years-with-cloudkit) — Those Who Swift · Issue 245 — Article · Topics: Performance · Persistence & Synchronisation
-  **Published:** `2025-12-17`
-  **NeKI brief:** Examines Eight Years with CloudKit, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [Teaching AI to Read Xcode Builds](https://tuist.dev/blog/2025/11/27/teaching-ai-to-read-xcode-builds) — Those Who Swift · Issue 243 — Article · Topics: AI Development · Dependency Injection · Xcode
   **Published:** `2025-12-10`
   **NeKI brief:** Presents Teaching AI to Read Xcode Builds, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.

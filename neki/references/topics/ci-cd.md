@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Continuous integration, delivery pipelines, build automation, and release operations.
 
-- Last collected: `2026-08-05T09:01:09Z`
+- Last collected: `2026-08-18T15:49:52Z`
 - Indexed links shown: **185**
 
 ## Direct-source reading
@@ -44,15 +44,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Fastlane alternative - Codemagic CLI tools](https://github.com/codemagic-ci-cd/cli-tools) — SwiftLee Weekly · Issue 337 — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Codemagic CLI tools collect utilities for iOS and Android build automation, code signing, and deployment. Useful for inspecting reusable CI primitives before writing bespoke scripts around archives, provisioning, or store uploads.
 - [🚨 Bitrise is retiring its Xcode 26 edge stacks](https://bitrise.io/blog/post/xcode-26-edge-stack-removal) — iOS CI Newsletter · Issue 91 — Article · Topics: CI/CD & Automation · Xcode
   **Published:** `2026-07-28T00:00:00.000Z`
   **NeKI brief:** Examines Bitrise is retiring its Xcode 26 edge stacks in the context of CI/CD & Automation and Xcode. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Squeeze every last bit of value out of GitHub Actions](https://l.fatbobman.com/w0146-03) — Fatbobman’s Swift Weekly · Issue 146 — Article · Topics: Developer Tools
   **Published:** `2026-07-27T12:04:26.788Z`
   **NeKI brief:** Audits GitHub Actions spending by removing flaky reruns, choosing cheaper runners for non-Apple work, retiring obsolete jobs, and tightening caches. The useful lesson is to measure effective validation per minute instead of merely shortening every job.
-- [Fastlane alternative - Codemagic CLI tools](https://github.com/codemagic-ci-cd/cli-tools) — SwiftLee Weekly · Issue 322 — Source repository · Topics: CI/CD & Automation · Developer Tools
-  **Published:** `2026-07-14T14:06:22.000Z`
-  **NeKI brief:** Codemagic CLI tools collect utilities for iOS and Android build automation, code signing, and deployment. Useful for inspecting reusable CI primitives before writing bespoke scripts around archives, provisioning, or store uploads.
 - [The Platform for Agentic macOS Development](https://go.macstadium.com/build-faster-with-orka) — iOS Dev Weekly · Issue 758 — Article · Topics: AI Development · CI/CD & Automation · Testing
   **Published:** `10th July 2026`
   **NeKI brief:** MacStadium's Orka overview describes API- and CLI-driven Apple-silicon virtual machines for CI, testing, and agent workflows. Use it to evaluate elastic macOS capacity against cost, isolation, Kubernetes integration, and reproducible build requirements.

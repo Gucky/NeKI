@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Liquid Glass design, hierarchy, scrolling, and component adaptation on current Apple platforms.
 
-- Last collected: `2026-08-06T08:26:12Z`
+- Last collected: `2026-08-18T15:49:52Z`
 - Indexed links shown: **69**
 
 ## Direct-source reading
 
+- [Liquid Glass - A Field Guide to UIKit Compatibility Pitfalls](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls) — Fatbobman · article catalogue
+  **Published:** `2026-07-29T14:00:00.000Z`
+  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
 - [An Introduction to Liquid Glass for iOS 26 | Kodeco](https://www.kodeco.com/49905345-an-introduction-to-liquid-glass-for-ios-26) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** This Liquid Glass overview compares SwiftUI and UIKit adoption while highlighting update risks for existing interfaces. It is useful for separating visual material changes from interaction and hierarchy constraints that still require deliberate redesign.
@@ -96,9 +99,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 - [Liquid Glass is not optional anymore](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Liquid Glass · UIKit · Xcode
   **Published:** `2026-08-06T06:44:37.000Z`
-  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
-- [Liquid Glass: A Field Guide to UIKit Compatibility Pitfalls](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls) — Those Who Swift · Issue 278 — Article · Topics: Liquid Glass · UIKit
-  **Published:** `2026-08-05T20:00:46.292Z`
   **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
 - [Changing the Shape of Glass Buttons in SwiftUI](https://livsycode.com/swiftui/changing-the-shape-of-glass-buttons-in-swiftui) — Those Who Swift · Issue 278 — Article · Topics: Liquid Glass · SwiftUI
   **Published:** `2026-08-05T20:00:46.292Z`

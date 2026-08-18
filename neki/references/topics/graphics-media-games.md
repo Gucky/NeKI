@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Rendering, GPU work, image/audio/video processing, computer vision, and game-development techniques.
 
-- Last collected: `2026-08-06T08:20:32Z`
-- Indexed links shown: **388**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **393**
 
 ## Direct-source reading
 
@@ -258,6 +258,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Col.or: Discover a Universe of Colors Right in Your Pocket - iOS Dev Tools](https://iosdev.tools/blog/col-or) — iOS Dev Tools Blog · article catalogue
   **Published:** `2026-02-09T10:35:00+00:00`
   **NeKI brief:** Profiles Col.or as discover a Universe of Colors Right in Your Pocket. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [From Pixel Capture to Metadata - Reimagining Screen Recording Architecture on macOS](https://fatbobman.com/en/posts/screensage-from-pixel-to-meta) — Fatbobman · article catalogue
+  **Published:** `2026-02-04T14:12:00.000Z`
+  **NeKI brief:** Uses a macOS recorder to connect ScreenCaptureKit and Metal capture, bitrate control, crash recovery, multi-window behavior, and SwiftUI timeline performance. The engineering log helps separate recording architecture from product-facing metadata workflows.
+- [Surviving tvOS - An Engineering Log of an Atypical Media Player](https://fatbobman.com/en/posts/surviving-tvos) — Fatbobman · article catalogue
+  **Published:** `2026-01-14T14:12:00.000Z`
+  **NeKI brief:** Documents a media player's tvOS-specific focus behavior, storage limits, SwiftUI workarounds, AVPlayer tuning, and synchronization strategy. It is useful for identifying platform constraints that an enlarged-iPad mental model misses.
+- [Solving SwiftUI Pain Points and Performance Bottlenecks - Zipic Development Technical Retrospective](https://fatbobman.com/en/posts/zipic-3-technical-details) — Fatbobman · article catalogue
+  **Published:** `2025-12-22T14:10:00.000Z`
+  **NeKI brief:** Explains Zipic's SwiftUI adaptation, Core Graphics and PDF compression work, Raycast integration, and performance fixes. The retrospective connects low-level image processing with native macOS interaction and component constraints.
 - [Manim - NSHipster](https://nshipster.com/manim) — NSHipster · article catalogue
   **Published:** `2025-10-01T00:00:00-07:00`
   **NeKI brief:** Introduces Manim as a tool for generating mathematical animations from code. Useful for developers creating explanatory visualizations, while keeping its Python-oriented workflow separate from app runtime code.
@@ -431,6 +440,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [From XCUITest to Promo Video](https://l.fatbobman.com/w0149-04) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games · Testing
+  **Published:** `2026-08-17T12:03:38.576Z`
+  **NeKI brief:** Treats screenshots and promo videos as reproducible build artifacts: launch into exact SwiftUI state, drive capture with XCUITest, compose with Remotion, and bind inputs through manifests and hashes. It exposes where automation paid off.
+- [Pocket Screen](https://labs.toybird.com/apps/pocket-screen) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: Graphics, Media & Games
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Turns one or two macOS windows into compact always-on-top reference views, with a shortcut to replace the selected view and controls for freezing or click-through behavior. It supports document, browser, chat, and dashboard workflows.
 - [SwiftUI blend modes](https://nilcoalescing.com/blog/BlendModesInSwiftUI?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2026-08-06T06:44:37.000Z`
   **NeKI brief:** Catalogues all 21 SwiftUI blend modes with focused visual examples and explains their colour or alpha calculations. The closing compositingGroup examples clarify how to constrain which sibling views participate in a blend operation.

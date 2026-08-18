@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Observation, bindings, view state, data flow, and state-management trade-offs.
 
-- Last collected: `2026-08-05T08:59:22Z`
-- Indexed links shown: **214**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **216**
 
 ## Direct-source reading
 
+- [Responding to geometry changes in SwiftUI](https://nilcoalescing.com/blog/RespondingToGeometryChangesInSwiftUI) — Nil Coalescing · article catalogue
+  **Published:** `2026-08-17`
+  **NeKI brief:** Uses onGeometryChange to derive only the layout metric an interface needs, then updates state when that Equatable value changes. This limits feedback and invalidation while adapting SwiftUI content to available space.
 - [Tracking value sources to prevent recursive SwiftUI updates](https://nilcoalescing.com/blog/TrackingValueSourcesToPreventRecursiveSwiftUIUpdates) — Nil Coalescing · article catalogue
   **Published:** `2026-08-04`
   **NeKI brief:** Tags binding writes with a custom SwiftUI transaction value so wrapped text views can recognise their own updates. This avoids repeated large-string comparisons, redundant layout and cursor jumps in UITextView or NSTextView representables.
@@ -66,6 +69,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [DebugSnapshots now logs SwiftUI bindings](https://www.pointfree.co/blog/posts/214-debugsnapshots-now-logs-swiftui-bindings) — Point-Free · article catalogue
   **Published:** `2026-06-22T00:00:00Z`
   **NeKI brief:** Extends DebugSnapshots to record mutations made through SwiftUI bindings, making model evolution visible during interaction tests. It is particularly useful for diagnosing unexpected state transitions that ordinary final-screen snapshots hide.
+- [Core Data + Observation - From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model) — Fatbobman · article catalogue
+  **Published:** `2026-06-03T14:00:00.000Z`
+  **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
 - [DebugSnapshots: Public beta](https://www.pointfree.co/blog/posts/207-debugsnapshots-public-beta) — Point-Free · article catalogue
   **Published:** `2026-05-27T00:00:00Z`
   **NeKI brief:** Introduces DebugSnapshots for recording and inspecting application state as debugging artifacts. Use it when a visual or state regression needs reproducible evidence that can be reviewed without reproducing the entire interactive session.

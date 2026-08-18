@@ -3,8 +3,34 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.fatbobman.com/archive](https://weekly.fatbobman.com/archive)
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed entries: **148**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed entries: **149**
+
+## [Issue 149](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-149)
+
+- Published: `2026-08-17T12:03:38.576Z`
+
+**Topics:** AI Development · App Distribution & Store Operations · Graphics, Media & Games · Swift · SwiftUI · Xcode
+
+**Sections:** Who Is the Slower App Review Process Actually Stopping? · 📢 Sponsor Fatbobman’s Swift Weekly · Original
+
+**NeKI brief:** Connects App Review fraud pressure with current reading on ContentBuilder, headless Xcode MCP, monotonic clocks, reproducible promo assets, AI-era engineering judgment, and precise SwiftUI glyph layout. One linked engineering article is access-restricted.
+
+**Selected links:**
+- [From XCUITest to Promo Video](https://l.fatbobman.com/w0149-04) — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games · Testing
+  **NeKI brief:** Treats screenshots and promo videos as reproducible build artifacts: launch into exact SwiftUI state, drive capture with XCUITest, compose with Remotion, and bind inputs through manifests and hashes. It exposes where automation paid off.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://l.fatbobman.com/w0149-01) — Article · Topics: AI Development · Xcode
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [iOS 26: Data Detector](https://l.fatbobman.com/w0149-02) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Shows how the Swift-native DataDetector replaces NSTextCheckingResult-style branching with typed matches for links, contacts, calendar events, addresses, and other semantic objects. The examples make the migration from NSDataDetector concrete.
+- [GlyphKit: Precise Glyph Layout in SwiftUI with Vector Outlines](https://l.fatbobman.com/w0149-07) — Article · Topics: Accessibility · Swift · SwiftUI
+  **NeKI brief:** Renders font glyph outlines into SwiftUI with tight-path or baseline-aligned sizing for point-precise fixed cells. The repository documents sizing modes, requirements, and integration for interfaces where ordinary Text metrics introduce unwanted space.
+- [Why Soft Skills Matter More Than Technical Skills in the Age of AI](https://l.fatbobman.com/w0149-06) — Article · Topics: AI Development
+  **NeKI brief:** Argues that domain understanding, communication, critical thinking, collaboration, and responsibility become more differentiating as AI lowers the cost of producing code. It is useful for evaluating the human review and product-judgment layer around generated implementations.
+- [urgent question](https://mjtsai.com/blog/2026/08/14/tabcontrol-scam-and-the-app-review-queue) — Article · Topics: App Distribution & Store Operations
+  **NeKI brief:** Documents a Mac App Store extension whose imagery, ratings, reviews, and behavior show multiple fraud signals, then connects the example to review-queue pressure. It provides concrete evidence for judging whether per-submission review catches repeat abuse.
+- [Measuring Elapsed Time in Swift with ContinuousClock](https://l.fatbobman.com/w0149-03) — Article · Topics: Swift
+  **NeKI brief:** Contrasts wall-clock Date measurements with ContinuousClock and SuspendingClock, then builds Duration-based helpers for errors, deadlines, and human formatting. It explains when suspension should or should not count toward elapsed time.
 
 ## [Issue 148](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-148)
 

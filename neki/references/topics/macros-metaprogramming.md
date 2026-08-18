@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Macros, compiler plugins, generated code, and metaprogramming techniques.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **155**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **156**
 
 ## Direct-source reading
 
@@ -39,6 +39,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SWON: Swift Macros for Foundation-Free JSON Processing - iOS Dev Tools](https://iosdev.tools/blog/swon) — iOS Dev Tools Blog · article catalogue
   **Published:** `2026-02-20T13:06:27+00:00`
   **NeKI brief:** Profiles SWON as swift Macros for Foundation-Free JSON Processing. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [isolated(any) and #isolation - Letting Swift Closures Automatically Inherit Isolation](https://fatbobman.com/en/posts/letting-swift-closures-automatically-inherit-isolation) — Fatbobman · article catalogue
+  **Published:** `2026-01-21T14:00:00.000Z`
+  **NeKI brief:** Explains how isolated(any) and #isolation let closure-taking APIs preserve the caller's actor context when ordinary inference loses it. The worked solution reduces redundant MainActor annotations while retaining compile-time isolation checks.
 - [Understanding Live Activities: visual micro-storytelling](https://www.createwithswift.com/understanding-live-activities-visual-micro-storytelling) — Create with Swift · article catalogue
   **Published:** `2025-09-12T13:00:50.000Z`
   **NeKI brief:** Explains Live Activities as a visual storytelling surface driven by timely state updates. Useful for designing concise lock-screen and Dynamic Island experiences without treating them as miniature full screens.

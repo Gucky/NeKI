@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Store delivery, TestFlight, StoreKit commerce, signing, review, releases, and monetisation workflows.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **187**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **192**
 
 ## Direct-source reading
 
@@ -69,6 +69,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How to design an SDK to handle $10bn in transactions](https://blog.jacobstechtavern.com/p/revenuecat-sdk) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2026-01-12T16:01:24.245Z`
   **NeKI brief:** Explains SDK design under high transaction volume through resilient networking, idempotency, caching, observability, and compatibility boundaries, showing how a client library protects product flows while backend systems absorb scale and failure.
+- [Escaping the Mac App Store - Building a Distribution and Sales System for Indie Apps from Scratch](https://fatbobman.com/en/posts/zipic-2-selling-and-distribution) — Fatbobman · article catalogue
+  **Published:** `2025-12-22T14:11:00.000Z`
+  **NeKI brief:** Builds an independent macOS distribution stack around DMG packaging, Sparkle updates, licensing, payments, and key delivery. The walkthrough exposes operational trade-offs hidden by the Mac App Store's integrated sales model.
 - [Paddle: Unify Your SaaS Billing Stack - iOS Dev Tools](https://iosdev.tools/blog/paddle) — iOS Dev Tools Blog · article catalogue
   **Published:** `2025-11-04T05:30:35+00:00`
   **NeKI brief:** Profiles Paddle as unify Your SaaS Billing Stack. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
@@ -130,6 +133,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [urgent question](https://mjtsai.com/blog/2026/08/14/tabcontrol-scam-and-the-app-review-queue) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: App Distribution & Store Operations
+  **Published:** `2026-08-17T12:03:38.576Z`
+  **NeKI brief:** Documents a Mac App Store extension whose imagery, ratings, reviews, and behavior show multiple fraud signals, then connects the example to review-queue pressure. It provides concrete evidence for judging whether per-submission review catches repeat abuse.
+- [From XCUITest to Promo Video](https://l.fatbobman.com/w0149-04) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games · Testing
+  **Published:** `2026-08-17T12:03:38.576Z`
+  **NeKI brief:** Treats screenshots and promo videos as reproducible build artifacts: launch into exact SwiftUI state, drive capture with XCUITest, compose with Remotion, and bind inputs through manifests and hashes. It exposes where automation paid off.
+- [StoreSync](https://apps.apple.com/us/app/storesync-metadata-manager/id6775701704?mt=12) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Persistence & Synchronisation
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Manages App Store Connect metadata, localizations, diffs, keyword tracking, and competitor research from a native macOS client. API keys stay in Keychain while requests go directly to Apple, clarifying its privacy and workflow model.
+- [NoMac](https://nomac.app/) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: AI Development · App Distribution & Store Operations · Testing
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Offers an agent-oriented cloud pipeline that creates signed iOS builds, installs them on a phone, sends them to TestFlight, and submits to the App Store. Its model avoids local Xcode and certificate handling.
 - [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
   **Published:** `2026-08-01T15:00:04.000Z`
   **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.

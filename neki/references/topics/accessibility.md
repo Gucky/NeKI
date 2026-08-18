@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** VoiceOver, Dynamic Type, interaction accessibility, and inclusive interface design.
 
-- Last collected: `2026-08-05T08:59:22Z`
-- Indexed links shown: **196**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **198**
 
 ## Direct-source reading
 
@@ -414,6 +414,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [GlyphKit: Precise Glyph Layout in SwiftUI with Vector Outlines](https://l.fatbobman.com/w0149-07) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `2026-08-17T12:03:38.576Z`
+  **NeKI brief:** Renders font glyph outlines into SwiftUI with tight-path or baseline-aligned sizing for point-precise fixed cells. The repository documents sizing modes, requirements, and integration for interfaces where ordinary Text metrics introduce unwanted space.
+- [Recording VoiceOver on iOS and macOS](https://www.basbroek.nl/recording-voiceover) — iOS Dev Weekly · Issue 763 — Article · Topics: Accessibility
+  **Published:** `14th August 2026`
+  **NeKI brief:** Explains why iOS screen recording captures VoiceOver directly and how macOS needs virtual audio routing, illustrated with Loopback. The workflow produces clean accessibility demonstrations without recording speakers or room noise.
 - [Checking accessibility with SwiftUI Previews](https://mobilea11y.com/blog/swiftui-preview-testing?ref=ioscodereview.com) — iOS Code Review · Issue 78 — Article · Topics: Accessibility · Swift · SwiftUI
   **Published:** `2026-05-16T17:59:28.000Z`
   **NeKI brief:** Uses SwiftUI previews as an accessibility testing surface, checking labels, traits, and contrast across representative states. Useful for finding VoiceOver regressions early without waiting for a full UI-test suite.

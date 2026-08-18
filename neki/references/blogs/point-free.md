@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.pointfree.co/blog](https://www.pointfree.co/blog)
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed entries: **156**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed entries: **157**
 
+- [Announcing: Episode Search](https://www.pointfree.co/blog/posts/222-announcing-episode-search)
+  **Published:** `2026-08-18T00:00:00Z`
+  **Topics:** Developer Community & Business
+  **NeKI brief:** Introduces full-text search across Point-Free episode dialogue and code so a remembered concept or snippet can locate the relevant lesson. It is useful as a navigation improvement across a large long-form technical archive.
 - [GitHub account no longer required](https://www.pointfree.co/blog/posts/221-github-account-no-longer-required)
   **Published:** `2026-08-12T00:00:00Z`
   **Topics:** Developer Community & Business

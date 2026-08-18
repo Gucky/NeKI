@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Privacy, credentials, secure configuration, encryption, sandboxing, and application security.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **88**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **90**
 
 ## Direct-source reading
 
@@ -74,6 +74,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [StoreSync](https://apps.apple.com/us/app/storesync-metadata-manager/id6775701704?mt=12) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Persistence & Synchronisation
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Manages App Store Connect metadata, localizations, diffs, keyword tracking, and competitor research from a native macOS client. API keys stay in Keychain while requests go directly to Apple, clarifying its privacy and workflow model.
+- [JsonXmlEditor](https://thelittlebakery.org/json-xml-editor) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: Developer Tools · Security & Privacy
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Combines native JSON and XML formatting, validation, comparison, conversion, a REST client, and DTO generation in an offline macOS workspace. Its low-overhead design is a focused alternative to browser and Electron utilities.
 - [Ironsmith](https://ironsmith.app/) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Article · Topics: AI Development · Developer Tools · Security & Privacy
   **Published:** `2026-08-06T16:00:49.980Z`
   **NeKI brief:** Offers an open-source macOS menu-bar workflow that turns prompts into sandboxed native SwiftUI utilities, using local models or configured cloud providers and packaging each result as a runnable app.

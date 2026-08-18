@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://tanaschita.com/](https://tanaschita.com/)
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed entries: **187**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed entries: **188**
 
 - [Understanding Xcode targets, schemes and build configurations](https://tanaschita.com/xcode-targets-schemes)
   **Topics:** Xcode
@@ -90,6 +90,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Understanding structural identity in SwiftUI](https://tanaschita.com/swiftui-structural-identity)
   **Topics:** Swift · SwiftUI
   **NeKI brief:** Explains how SwiftUI uses view type and hierarchy position as structural identity to decide what persists and redraws. Follow it when conditional branches unexpectedly reset state or trigger more updates than expected.
+- [Adding swipe actions to any SwiftUI scroll view](https://tanaschita.com/swiftui-scrollview-swipe-actions)
+  **Topics:** SwiftUI
+  **NeKI brief:** Demonstrates swipeActionsContainer for adding contextual swipe controls to content inside ScrollView rather than List. The example clarifies container placement and the interaction boundary of the newer SwiftUI modifier.
 - [How to use SceneDelegate in SwiftUI](https://tanaschita.com/swiftui-scenedelegate)
   **Topics:** Observation & State Management · Swift · SwiftUI · UIKit
   **NeKI brief:** Bridges scene lifecycle behavior into SwiftUI through a scene delegate integration. Useful when an application still needs UIKit lifecycle hooks for notifications, deep links, or window coordination.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple hardware, peripherals, device setup, and physical-computing context.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **40**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **42**
 
 ## Direct-source reading
 
@@ -27,6 +27,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Welcome to "Dev Workspaces"! - Natalia Panferova - iOS Dev Tools](https://iosdev.tools/blog/dev-workspaces-natalia-panferova) — iOS Dev Tools Blog · article catalogue
   **Published:** `2026-02-05T07:06:39+00:00`
   **NeKI brief:** Presents Welcome to "Dev Workspaces"! - Natalia Panferova as an Apple-platform development resource. Use the profile to understand its concrete role, then check the linked project for current capabilities and maintenance status.
+- [Surviving tvOS - An Engineering Log of an Atypical Media Player](https://fatbobman.com/en/posts/surviving-tvos) — Fatbobman · article catalogue
+  **Published:** `2026-01-14T14:12:00.000Z`
+  **NeKI brief:** Documents a media player's tvOS-specific focus behavior, storage limits, SwiftUI workarounds, AVPlayer tuning, and synchronization strategy. It is useful for identifying platform constraints that an enlarged-iPad mental model misses.
+- [From YaoYao to Tooboo - watchOS Development Pitfalls and Practical Tips](https://fatbobman.com/en/posts/watchos-development-pitfalls-and-practical-tips) — Fatbobman · article catalogue
+  **Published:** `2025-12-10T14:12:00.000Z`
+  **NeKI brief:** Collects production lessons from two watch apps on phone-watch synchronization, mutual launching, abnormal restart recovery, leaks, and battery use. It highlights lifecycle and resource constraints that are difficult to expose in simple watchOS samples.
 - [Usage: Keep an Eye on the Activity of Your Devices - iOS Dev Tools](https://iosdev.tools/blog/usage) — iOS Dev Tools Blog · article catalogue
   **Published:** `2025-02-13T14:20:09+00:00`
   **NeKI brief:** Profiles Usage as keep an Eye on the Activity of Your Devices. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App product, visual design, UX, branding, and design-to-code process.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **193**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **194**
 
 ## Direct-source reading
 
@@ -15,6 +15,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Col.or: Discover a Universe of Colors Right in Your Pocket - iOS Dev Tools](https://iosdev.tools/blog/col-or) — iOS Dev Tools Blog · article catalogue
   **Published:** `2026-02-09T10:35:00+00:00`
   **NeKI brief:** Profiles Col.or as discover a Universe of Colors Right in Your Pocket. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [The Indie Developer's Trial - Zipic's Productization Journey from 0 to 1](https://fatbobman.com/en/posts/zipic-1-from-0-to-1) — Fatbobman · article catalogue
+  **Published:** `2025-12-22T14:12:00.000Z`
+  **NeKI brief:** Reviews how a small image-compression need became a commercial macOS product, focusing on pain-point selection, feature trade-offs, iteration, and product positioning. It is useful for examining decisions before implementation and distribution dominate the work.
 - [Picasso: Professional App Store Screenshots in Minutes - iOS Dev Tools](https://iosdev.tools/blog/picasso) — iOS Dev Tools Blog · article catalogue
   **Published:** `2025-11-04T03:05:00+00:00`
   **NeKI brief:** Profiles Picasso as professional App Store Screenshots in Minutes. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.

@@ -3,8 +3,18 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://thosewhoswift.substack.com/archive](https://thosewhoswift.substack.com/archive)
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed entries: **85**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed entries: **86**
+
+## [Devs for Devs: From XCUITest to Promo Video](https://thosewhoswift.substack.com/p/devs-for-devs-from-xcuitest-to-promo)
+
+- Published: `2026-08-16T19:30:07.593Z`
+
+**Topics:** Cross-Platform & Web · Graphics, Media & Games · Security & Privacy · Swift · SwiftUI · Testing
+
+**Sections:** Those Who Swift · Treating Marketing Assets Like Build Artifacts · Start with an Exact SwiftUI State
+
+**NeKI brief:** Treats App Store screenshots and promo videos as reproducible build output: launch exact SwiftUI state, operate capture through XCUITest, compose in Remotion, and verify inputs with manifests and hashes.
 
 ## [Issue 279](https://thosewhoswift.substack.com/p/those-who-swift-issue-279)
 
@@ -573,6 +583,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Builds a project-root CLAUDE.md for Swift, SwiftUI, and Xcode agents, covering architecture, build, test, and style instructions plus nested or shared configurations. Useful for comparing repository guidance loaded automatically by coding agents.
 - [What AI Coding Costs You](https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai) — Article · Topics: AI Development · Testing
   **NeKI brief:** Discusses What AI coding costs you in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
+- [Why I'm Still Thinking About Core Data In 2026](https://fatbobman.com/en/posts/why-i-am-still-thinking-about-core-data-in-2026) — Article · Topics: Concurrency · Core Data · Persistence & Synchronisation
+  **NeKI brief:** Frames Core Data's continuing value against its growing mismatch with Swift concurrency, type safety, and modern model expression. It is a useful requirements analysis for modernization efforts that must preserve existing stores.
 - [Speed Hacks for iOS Builds](https://bitrise.io/whitepapers/level-up-your-ios-game-tips-for-speeding-up-your-continuous-integration) — Article · Topics: Graphics, Media & Games
   **NeKI brief:** Discusses Save Time on Every Build and Test Run in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
 
@@ -657,6 +669,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Examines Agentic Coding in Xcode 26.3 with Claude Code and Codex, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [Agentic Coding in Xcode](https://swiftwithmajid.com/2026/02/10/agentic-coding-in-xcode) — Article · Topics: AI Development · Swift · Xcode
   **NeKI brief:** Details configuring Xcode 26.3’s agentic coding support and practical habits for delegating Apple-platform work. Follow it when establishing project context, reviewing generated diffs, and keeping Xcode’s agent actions inside an auditable workflow.
+- [Xcode 26.3 + Claude Agent: Model Swapping, MCP, Skills, and Adaptive Configuration](https://fatbobman.com/en/posts/xcode-263-claude) — Article · Topics: AI Development · Xcode
+  **NeKI brief:** Experiments with Claude inside Xcode 26.3 through model substitution, injected MCP tools, shared skill symlinks, environment setup, and adaptive CLAUDE.md guidance. The article distinguishes supported integration from brittle configuration techniques.
 - [Morphing Sheets Out of Buttons in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/morphing-sheets-out-of-buttons-in-swiftui) — Tutorial · Topics: Swift · SwiftUI
   **NeKI brief:** Demonstrates morphing a SwiftUI button into sheet content using matched visual state and presentation transitions. Useful for building expressive modal affordances while keeping trigger state, accessibility, and dismissal behavior explicit.
 - [Adding an Open Recent Menu in a macOS App](https://swiftdevjournal.com/posts/open-recent-menu) — Article · Topics: Swift
@@ -733,6 +747,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Provides practical prompting guidance for Apple's Foundation Models. Use it when shaping instructions, output constraints, and context boundaries for on-device generation, then validate behavior across models, locales, and failure cases.
 - [Crafting Document-Based Apps in SwiftUI](https://www.createwithswift.com/crafting-document-based-apps-in-swiftui) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Builds a document-based SwiftUI app around file-backed document types and scene integration. Use it when routing document lifecycle, autosave, import/export, and editing state through Apple's document architecture.
+- [Surviving tvOS Development](https://fatbobman.com/en/posts/surviving-tvos) — Article · Topics: Performance
+  **NeKI brief:** Documents a media player's tvOS-specific focus behavior, storage limits, SwiftUI workarounds, AVPlayer tuning, and synchronization strategy. It is useful for identifying platform constraints that an enlarged-iPad mental model misses.
 - [Emptiness in SwiftUI](https://captainswiftui.substack.com/p/emptiness-in-swiftui) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Reflects on empty states in SwiftUI and the design meaning of showing no content. Useful for turning absence into deliberate loading, unavailable, or recovery UI rather than leaving screens visually ambiguous.
 
@@ -745,6 +761,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Those Who Swift · Those Who Swift - Issue 249 · Weekly note ✏️
 
 **Selected links:**
+- [Running Swift on Microcontrollers](https://fatbobman.com/en/posts/running-swift-on-mcu) — Article · Topics: Graphics, Media & Games · Personal Essays · Swift
+  **NeKI brief:** Traces seven years of bringing Swift to microcontrollers through MadMachine, including toolchain evolution and the case for memory-safe embedded code. It supplies historical constraints and practical evidence beyond Apple's newer official MCU support.
 - [Swift Programming Guide](https://github.com/peterfriese/swift-book) — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **NeKI brief:** Provides Peter Friese’s Swift book materials and examples as a public reference for learning and teaching core Swift concepts. Use it for structured study, not as version-specific API authority.
 - [MVVM and Reducer Pattern in Swift](https://www.fractal-dev.com/blog/mvvm-and-reducer-pattern?lang=en) — Article · Topics: Objective-C & Cocoa · Swift · Testing
@@ -867,6 +885,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Lists recurring defects in AI-written Swift and suggests concrete replacements, including unsafe assumptions around state, concurrency, and framework behavior. Follow it as a review checklist before accepting generated code into an app.
 - [Monitoring App Performance with MetricKit](https://swiftwithmajid.com/2025/12/09/monitoring-app-performance-with-metrickit) — Article · Topics: Performance · Swift
   **NeKI brief:** Uses MetricKit diagnostics to move beyond the aggregate metrics in Xcode Organizer and build more detailed monitoring for crashes, hangs, launches, memory, energy, and terminations.
+- [watchOS Development Pitfalls and Practical Tips](https://fatbobman.com/en/posts/watchos-development-pitfalls-and-practical-tips) — Article · Topics: App Services & Extensions · Performance
+  **NeKI brief:** Collects production lessons from two watch apps on phone-watch synchronization, mutual launching, abnormal restart recovery, leaks, and battery use. It highlights lifecycle and resource constraints that are difficult to expose in simple watchOS samples.
 - [SwiftUI Book — Big Mountain Studio](https://www.bigmountainstudio.com/free-swiftui-book) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Examines SwiftUI View Picture Book (FREE), emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [Designing With People: Creating Applications for Reality](https://www.createwithswift.com/designing-with-people-creating-applications-for-reality) — Article · Topics: Swift

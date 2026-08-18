@@ -3,9 +3,89 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://fatbobman.com/en/posts/](https://fatbobman.com/en/posts/)
-- Last collected: `2026-07-22T21:58:56Z`
-- Indexed entries: **213**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed entries: **233**
 
+- [ContentBuilder Explained - The Secret Behind SwiftUI's Type-Checking Speedup](https://fatbobman.com/en/posts/contentbuilder-explained)
+  **Published:** `2026-08-12T14:00:00.000Z`
+  **Topics:** Performance · SwiftUI
+  **NeKI brief:** Dissects ContentBuilder as a separation between content construction and protocol-specific validation, then benchmarks the resulting type-checking gains. It also explains where the pattern helps shared SwiftUI APIs and where it is not a cure-all.
+- [Controlling Orphans in SwiftUI Text - Uncovering the Undocumented avoidsOrphans](https://fatbobman.com/en/posts/controlling-orphans-in-swiftui-text)
+  **Published:** `2026-08-06T14:00:00.000Z`
+  **Topics:** SwiftUI
+  **NeKI brief:** Investigates SwiftUI Text's automatic orphan avoidance and an undocumented avoidsOrphans control, while warning that relying on the hidden API carries compatibility and review risk.
+- [Liquid Glass - A Field Guide to UIKit Compatibility Pitfalls](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls)
+  **Published:** `2026-07-29T14:00:00.000Z`
+  **Topics:** Liquid Glass · UIKit
+  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
+- [Debugging Notes on Two SwiftUI Animation Bugs](https://fatbobman.com/en/posts/debugging-notes-on-two-swiftui-animation-bugs)
+  **Published:** `2026-07-01T14:00:00.000Z`
+  **Topics:** Code Quality · SwiftUI
+  **NeKI brief:** Uses two concrete SwiftUI animation failures to show how declarative animation can obscure causality. Follow it when a transition or state-driven animation misbehaves and you need diagnostic observations that reveal the framework behaviour rather than only a workaround.
+- [From Size Class to Available Space - Is horizontalSizeClass Still Reliable?](https://fatbobman.com/en/posts/from-size-class-to-available-space)
+  **Published:** `2026-06-17T14:00:00.000Z`
+  **Topics:** SwiftUI · UIKit
+  **NeKI brief:** Explains why horizontalSizeClass is no longer a dependable width proxy once iPhone apps become freely resizable, and shifts layout decisions toward measured available space. The examples cover both SwiftUI and UIKit adaptation.
+- [Core Data + Observation - From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model)
+  **Published:** `2026-06-03T14:00:00.000Z`
+  **Topics:** Core Data · Observation & State Management · Performance · SwiftUI
+  **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
+- [Taming Row Height and Spacing Jumps in SwiftUI List with a Custom Layout](https://fatbobman.com/en/posts/taming-row-height-and-spacing-jumps)
+  **Published:** `2026-05-27T14:00:00.000Z`
+  **Topics:** Performance · SwiftUI
+  **NeKI brief:** Addresses List row-height animation jumps by separating displayed state from source data and combining Animatable, custom Layout, and layout values. Useful when a dynamic SwiftUI row disappears before its size transition can interpolate smoothly.
+- [CDE - An Attempt to Make Core Data Feel More Like Modern Swift](https://fatbobman.com/en/posts/cde-an-attempt-to-make-core-data-feel-more-like-modern-swift)
+  **Published:** `2026-03-18T14:00:00.000Z`
+  **Topics:** Concurrency · Core Data · Persistence & Synchronisation · Testing
+  **NeKI brief:** Explores a typed modernization layer for Core Data covering model declarations, paths, concurrency, testing, and tooling. The project is useful for judging how far wrappers can improve expressiveness without replacing the persistence engine.
+- [Why I'm Still Thinking About Core Data in 2026](https://fatbobman.com/en/posts/why-i-am-still-thinking-about-core-data-in-2026)
+  **Published:** `2026-03-11T14:00:00.000Z`
+  **Topics:** Architecture · Concurrency · Core Data
+  **NeKI brief:** Frames Core Data's continuing value against its growing mismatch with Swift concurrency, type safety, and modern model expression. It is a useful requirements analysis for modernization efforts that must preserve existing stores.
+- [Why Does Passing NSManagedObjectContext Across Isolation Domains No Longer Error in Swift 6.2? The Real Change Isn't in the Compiler](https://fatbobman.com/en/posts/sendable-nsmanagedobjectcontext)
+  **Published:** `2026-03-04T14:00:00.000Z`
+  **Topics:** Concurrency · Core Data · Objective-C & Cocoa · Swift
+  **NeKI brief:** Explains why NSManagedObjectContext crossing isolation domains no longer errors in Swift 6.2. Use it to review Core Data concurrency assumptions and verify the behavior against the active compiler and SDK.
+- [Xcode 26.3 + Claude Agent - Model Swapping,MCP, Skills, and Adaptive Configuration](https://fatbobman.com/en/posts/xcode-263-claude)
+  **Published:** `2026-02-06T02:30:00.000Z`
+  **Topics:** AI Development · Developer Tools · Xcode
+  **NeKI brief:** Experiments with Claude inside Xcode 26.3 through model substitution, injected MCP tools, shared skill symlinks, environment setup, and adaptive CLAUDE.md guidance. The article distinguishes supported integration from brittle configuration techniques.
+- [From Pixel Capture to Metadata - Reimagining Screen Recording Architecture on macOS](https://fatbobman.com/en/posts/screensage-from-pixel-to-meta)
+  **Published:** `2026-02-04T14:12:00.000Z`
+  **Topics:** Graphics, Media & Games · macOS & AppKit · Performance · SwiftUI
+  **NeKI brief:** Uses a macOS recorder to connect ScreenCaptureKit and Metal capture, bitrate control, crash recovery, multi-window behavior, and SwiftUI timeline performance. The engineering log helps separate recording architecture from product-facing metadata workflows.
+- [isolated(any) and #isolation - Letting Swift Closures Automatically Inherit Isolation](https://fatbobman.com/en/posts/letting-swift-closures-automatically-inherit-isolation)
+  **Published:** `2026-01-21T14:00:00.000Z`
+  **Topics:** Concurrency · Macros & Metaprogramming · Swift
+  **NeKI brief:** Explains how isolated(any) and #isolation let closure-taking APIs preserve the caller's actor context when ordinary inference loses it. The worked solution reduces redundant MainActor annotations while retaining compile-time isolation checks.
+- [Surviving tvOS - An Engineering Log of an Atypical Media Player](https://fatbobman.com/en/posts/surviving-tvos)
+  **Published:** `2026-01-14T14:12:00.000Z`
+  **Topics:** Graphics, Media & Games · Hardware & Devices · Persistence & Synchronisation · SwiftUI
+  **NeKI brief:** Documents a media player's tvOS-specific focus behavior, storage limits, SwiftUI workarounds, AVPlayer tuning, and synchronization strategy. It is useful for identifying platform constraints that an enlarged-iPad mental model misses.
+- [Farewell to Portable Assembly - I've Been Running Swift on MCUs for Seven Years](https://fatbobman.com/en/posts/running-swift-on-mcu)
+  **Published:** `2026-01-07T14:12:00.000Z`
+  **Topics:** Swift · Systems Programming
+  **NeKI brief:** Traces seven years of bringing Swift to microcontrollers through MadMachine, including toolchain evolution and the case for memory-safe embedded code. It supplies historical constraints and practical evidence beyond Apple's newer official MCU support.
+- [The Indie Developer's Trial - Zipic's Productization Journey from 0 to 1](https://fatbobman.com/en/posts/zipic-1-from-0-to-1)
+  **Published:** `2025-12-22T14:12:00.000Z`
+  **Topics:** Product Design
+  **NeKI brief:** Reviews how a small image-compression need became a commercial macOS product, focusing on pain-point selection, feature trade-offs, iteration, and product positioning. It is useful for examining decisions before implementation and distribution dominate the work.
+- [Escaping the Mac App Store - Building a Distribution and Sales System for Indie Apps from Scratch](https://fatbobman.com/en/posts/zipic-2-selling-and-distribution)
+  **Published:** `2025-12-22T14:11:00.000Z`
+  **Topics:** App Distribution & Store Operations · macOS & AppKit
+  **NeKI brief:** Builds an independent macOS distribution stack around DMG packaging, Sparkle updates, licensing, payments, and key delivery. The walkthrough exposes operational trade-offs hidden by the Mac App Store's integrated sales model.
+- [Solving SwiftUI Pain Points and Performance Bottlenecks - Zipic Development Technical Retrospective](https://fatbobman.com/en/posts/zipic-3-technical-details)
+  **Published:** `2025-12-22T14:10:00.000Z`
+  **Topics:** Graphics, Media & Games · macOS & AppKit · Performance · SwiftUI
+  **NeKI brief:** Explains Zipic's SwiftUI adaptation, Core Graphics and PDF compression work, Raycast integration, and performance fixes. The retrospective connects low-level image processing with native macOS interaction and component constraints.
+- [My Eight Years with CloudKit - From Open Source IceCream to Commercial Apps](https://fatbobman.com/en/posts/my-eight-years-with-cloudkit)
+  **Published:** `2025-12-17T14:12:00.000Z`
+  **Topics:** Persistence & Synchronisation
+  **NeKI brief:** Examines Eight Years with CloudKit, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [From YaoYao to Tooboo - watchOS Development Pitfalls and Practical Tips](https://fatbobman.com/en/posts/watchos-development-pitfalls-and-practical-tips)
+  **Published:** `2025-12-10T14:12:00.000Z`
+  **Topics:** Hardware & Devices · Performance · Persistence & Synchronisation
+  **NeKI brief:** Collects production lessons from two watch apps on phone-watch synchronization, mutual launching, abnormal restart recovery, leaks, and battery use. It highlights lifecycle and resource constraints that are difficult to expose in simple watchOS samples.
 - [A Deep Dive into SwiftUI Rich Text Layout - Beyond AttributedString — Inside MarkdownView and RichText](https://fatbobman.com/en/posts/a-deep-dive-into-swiftui-rich-text-layout)
   **Published:** `2025-12-03T14:12:00.000Z`
   **Topics:** Swift · SwiftUI

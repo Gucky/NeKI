@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** URLSession, HTTP, GraphQL, WebSockets, API clients, and network reliability.
 
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed links shown: **250**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **252**
 
 ## Direct-source reading
 
@@ -506,6 +506,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** URLSession async APIs turn HTTP responses into structured suspension and typed decoding. The guide is useful for cancellation and error propagation, especially where a view task should not outlive its request context.
 - [Quick guide on Proxyman for iOS development](https://tanaschita.com/20220704-quick-guide-on-proxyman) — Tanaschita · article catalogue
   **NeKI brief:** Introduces Proxyman for inspecting iOS network traffic. Use it when HTTPS requests, payloads, and response failures need external debugging evidence.
+- [Apple Foundation Models: Hybrid AI with Dynamic Profiles](https://peterfriese.dev/blog/2026/hybrid-ai-apple-foundation-models-gemini) — Peter Friese articles · article catalogue
+  **NeKI brief:** Uses Foundation Models dynamic profiles to choose between an on-device model and Gemini through Firebase AI Logic. The design makes privacy, capability, availability, and network trade-offs explicit at the request-routing boundary.
 - [Networking with Combine and SwiftUI](https://peterfriese.dev/blog/2022/swiftui-combine-networking-gettingstarted) — Peter Friese articles · article catalogue
   **NeKI brief:** Connects a Combine URL-loading pipeline to SwiftUI state, covering publisher composition and delivery before rendering remote results. It is historical Combine guidance that helps maintain older code while planning an async/await migration.
 - [Error Handling with Combine and SwiftUI](https://peterfriese.dev/blog/2022/swiftui-combine-networking-errorhandling) — Peter Friese articles · article catalogue
@@ -519,6 +521,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [How to stream SSE with URLSession in Swift](https://onmyway133.com/posts/how-to-stream-sse-with-urlsession-in-swift) — iOS Dev Weekly · Issue 763 — Article · Topics: Networking · Swift
+  **Published:** `14th August 2026`
+  **NeKI brief:** Builds a Server-Sent Events client from URLSession.bytes, first parsing data lines and then handling multi-field events through AsyncStream. The progression is useful for lightweight LLM token streaming without a separate dependency.
 - [AsyncImage Finally Gets Caching in SwiftUI](https://www.sagarunagar.com/blog/asyncimage-caching-wwdc-2026) — Those Who Swift · Issue 278 — Article · Topics: Networking · Performance · SwiftUI
   **Published:** `2026-08-05T20:00:46.292Z`
   **NeKI brief:** Explains AsyncImage’s Xcode 27 HTTP caching, including automatic URLCache behavior driven by server headers plus URLRequest and custom URLSession control. Useful for reducing repeat downloads while keeping cache policy explicit for image-heavy scrolling interfaces.

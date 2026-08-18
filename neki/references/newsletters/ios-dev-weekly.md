@@ -3,8 +3,36 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevweekly.com/issues/](https://iosdevweekly.com/issues/)
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed entries: **758**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed entries: **759**
+
+## [Issue 763](https://iosdevweekly.com/issues/763)
+
+- Published: `14th August 2026`
+
+**Topics:** Accessibility · App Distribution & Store Operations · Developer Tools · Performance · Swift · SwiftUI
+
+**Sections:** Comment · News
+
+**NeKI brief:** Routes to reports on WebKit proxy leaks, Swift SSE parsing, Media Intelligence, VoiceOver capture, and Instruments Top Functions mode. The issue combines current platform risk, implementation, accessibility, and profiling leads.
+
+**Selected links:**
+- [Using Top Functions Mode in Instruments to Quickly Find the Slowest Code](https://swiftdevjournal.com/posts/top-functions) — Article · Topics: Objective-C & Cocoa · Performance · Swift
+  **NeKI brief:** Shows how Instruments' Top Functions mode reorders Time Profiler or CPU Profiler samples by self weight, then relates the result to the flame graph. It offers a faster first pass for locating genuinely expensive functions.
+- [Controlling Orphans in SwiftUI Text](https://fatbobman.com/en/posts/controlling-orphans-in-swiftui-text) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Investigates SwiftUI Text's automatic orphan avoidance and an undocumented avoidsOrphans control, while warning that relying on the hidden API carries compatibility and review risk.
+- [How to stream SSE with URLSession in Swift](https://onmyway133.com/posts/how-to-stream-sse-with-urlsession-in-swift) — Article · Topics: Networking · Swift
+  **NeKI brief:** Builds a Server-Sent Events client from URLSession.bytes, first parsing data lines and then handling multi-field events through AsyncStream. The progression is useful for lightweight LLM token streaming without a separate dependency.
+- [iOS 27: Media Intelligence Framework](https://antongubarenko.substack.com/p/ios-27-media-intelligence-framework) — Article
+  **NeKI brief:** Introduces iOS 27’s Media Intelligence framework for analysing video and grouping detected faces, including the need for a physical device. Use it as an implementation lead while confirming supported media, privacy behavior, and final SDK availability.
+- [swiftCon](https://www.nextappcon.com/swiftcon) — Article · Topics: Swift
+  **NeKI brief:** SwiftCon's call for speakers seeks production-focused Swift and iOS talks, including SwiftUI, architecture, performance, and testing. Follow the event page to assess the community's current themes or submit a concrete engineering case study.
+- [full programme](https://www.nextappcon.com/agenda) — Article · Topics: Swift
+  **NeKI brief:** Publishes the full three-day next.app programme with per-stage times, speakers, and topic filters, including dedicated Swift/iOS tracks. It is useful for evaluating session coverage rather than relying on the conference landing page alone.
+- [WebKit IP and DNS leaks affecting proxies and Private Relay](https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak) — Article · Topics: Developer Tools
+  **NeKI brief:** Demonstrates three WebKit paths—DNS prefetching, WebAuthn related-origin requests, and WebTransport—that can bypass configured proxies and expose a device's network. It distinguishes affected proxy and Private Relay setups from system-level VPN tunnels.
+- [Recording VoiceOver on iOS and macOS](https://www.basbroek.nl/recording-voiceover) — Article · Topics: Accessibility
+  **NeKI brief:** Explains why iOS screen recording captures VoiceOver directly and how macOS needs virtual audio routing, illustrated with Loopback. The workflow produces clean accessibility demonstrations without recording speakers or room noise.
 
 ## [Issue 762](https://iosdevweekly.com/issues/762)
 

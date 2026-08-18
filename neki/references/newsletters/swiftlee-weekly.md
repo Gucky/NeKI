@@ -3,14 +3,42 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://newsletter.avanderlee.com/posts](https://newsletter.avanderlee.com/posts)
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed entries: **96**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed entries: **97**
+
+## [Issue 337](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-337)
+
+- Published: `2026-08-18T14:06:21.000Z`
+
+**Topics:** AI Development · CI/CD & Automation · Swift · SwiftUI · Testing · Xcode
+
+**Sections:** SwiftLee Weekly by Antoine van der Lee · Swift Testing explained with code examples · Fastlane alternative - Codemagic CLI tools
+
+**NeKI brief:** Combines Swift Testing, Codemagic tooling, DataDetector, testable SwiftUI navigation, headless Xcode MCP, PhaseAnimator, and ContentBuilder. The issue is a compact route to current testing, automation, framework, and compiler-performance reading.
+
+**Selected links:**
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — Article · Topics: AI Development · Testing · Xcode
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [AcceptedSE-0537Section Placement Control for Functions](https://github.com/apple/swift-evolution/blob/main/proposals/0537-function-sections.md) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Extends Swift's section placement attribute from stored data to functions, initializers, deinitializers, closures, and accessors, while adding a default-section override. The motivation is precise linker placement for firmware entry points and embedded startup code.
+- [Active ReviewSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — Source repository · Topics: Developer Tools · Performance · Swift
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
+- [Fastlane alternative - Codemagic CLI tools](https://github.com/codemagic-ci-cd/cli-tools) — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **NeKI brief:** Codemagic CLI tools collect utilities for iOS and Android build automation, code signing, and deployment. Useful for inspecting reusable CI primitives before writing bespoke scripts around archives, provisioning, or store uploads.
+- [ContentBuilder Explained - The Secret Behind SwiftUI's Type-Checking Speedup](https://fatbobman.com/en/posts/contentbuilder-explained) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Dissects ContentBuilder as a separation between content construction and protocol-specific validation, then benchmarks the resulting type-checking gains. It also explains where the pattern helps shared SwiftUI APIs and where it is not a cure-all.
+- [Unit Testing Navigation Logic In Swiftui](https://azamsharp.com/2026/08/13/unit-testing-navigation-logic-in-swiftui.html) — Article · Topics: Swift · SwiftUI · Testing
+  **NeKI brief:** Moves business-dependent destinations into explicit router state so registration roles and conditions can be tested without driving NavigationStack UI. The example separates navigation decisions from view presentation and asserts the resulting route directly.
+- [Creating multi-step animations with PhaseAnimator in SwiftUI](https://nilcoalescing.com/blog/PhaseAnimationsInSwiftUI) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Builds ordered SwiftUI animation sequences with PhaseAnimator, using phase values and per-phase transitions for repeating motion and event-triggered runs. The examples clarify when phase-based state is simpler than coordinating several independent animations.
+- [iOS 26: DataDetector](https://antongubarenko.substack.com/p/ios-26-data-detector) — Article
+  **NeKI brief:** Shows how the Swift-native DataDetector replaces NSTextCheckingResult-style branching with typed matches for links, contacts, calendar events, addresses, and other semantic objects. The examples make the migration from NSDataDetector concrete.
 
 ## [Issue 336](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-336)
 
 - Published: `2026-08-11T14:07:13.000Z`
 
-**Topics:** Concurrency · Developer Community & Business · Swift · SwiftUI · Testing · Xcode
+**Topics:** Concurrency · Performance · Swift · SwiftUI · Testing · Xcode
 
 **Sections:** SwiftLee Weekly by Antoine van der Lee · Sendable and @Sendable closures explained with code examples · What are you shipping this month?
 
@@ -103,6 +131,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Revisits Just Eat’s 2019 modular iOS model, retaining useful domain boundaries while refining module vocabulary and cross-domain dependencies for current Swift tooling. Use it to test whether an inherited architecture still matches team and build constraints.
 - [Syncing SwiftData With A Custom Backend Using HistoryObserver](https://azamsharp.com/2026/07/16/syncing-swiftdata-with-a-custom-backend-using-historyobserver.html) — Article · Topics: Networking · Persistence & Synchronisation · SwiftData
   **NeKI brief:** Builds a one-way synchronisation pipeline from SwiftData HistoryObserver transactions to a REST backend. Persisting the last processed transaction token avoids duplicate uploads; server-to-client changes remain a separate responsibility.
+- [Active ReviewSE-0537Section Placement Control for Functions](https://github.com/apple/swift-evolution/blob/main/proposals/0537-function-sections.md) — Source repository · Topics: Architecture · Developer Tools · Swift
+  **NeKI brief:** Extends Swift's section placement attribute from stored data to functions, initializers, deinitializers, closures, and accessors, while adding a default-section override. The motivation is precise linker placement for firmware entry points and embedded startup code.
 - [Copywriting with Agents and…Apple Designers?](https://www.swiftjectivec.com/copywriting-with-agents-and-apple-designers) — Article · Topics: Swift
   **NeKI brief:** Uses agents to sharpen copy while retaining human design judgment, a useful workflow for treating generated language as a draft that still needs product voice and platform-specific review.
 - [Geometry, compositing and drawing groups in SwiftUI](https://nilcoalescing.com/blog/GeometryCompositingAndDrawingGroupsInSwiftUI) — Article · Topics: Swift · SwiftUI
@@ -623,6 +653,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0511SwiftPM Add Target Plugin Command. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
 - [Exploring AI Driven Coding: Using Xcode 26.3 MCP Tools in Cursor, Claude Code and Codex](https://rudrank.com/exploring-xcode-using-mcp-tools-cursor-external-clients) — Article · Topics: AI Development · Xcode
   **NeKI brief:** Describes Exploring AI Driven Coding: Using Xcode 26.3 MCP Tools in Cursor, Claude Code and Codex, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
+- [From Pixel Capture to Metadata - Reimagining Screen Recording Architecture on macOS](https://fatbobman.com/en/posts/screensage-from-pixel-to-meta) — Article · Topics: Architecture · Objective-C & Cocoa
+  **NeKI brief:** Uses a macOS recorder to connect ScreenCaptureKit and Metal capture, bitrate control, crash recovery, multi-window behavior, and SwiftUI timeline performance. The engineering log helps separate recording architecture from product-facing metadata workflows.
 
 ## [Issue 309](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-309)
 

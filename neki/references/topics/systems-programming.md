@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** C/C++, assembly, linking, allocators, memory layout, and systems tooling relevant to Apple platforms.
 
-- Last collected: `2026-08-05T08:56:37Z`
-- Indexed links shown: **40**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **41**
 
 ## Direct-source reading
 
@@ -21,6 +21,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Introduction to C++ for iOS Developers: Part 2 | Kodeco](https://www.kodeco.com/2483-introduction-to-c-for-ios-developers-part-2) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Covers virtual dispatch, constructors, destructors, templates, STL containers, shared pointers, and Objective-C++. Useful for evaluating interoperability risks when a Swift or Objective-C app adopts C++ code with its own polymorphism and lifetime rules.
+- [Farewell to Portable Assembly - I've Been Running Swift on MCUs for Seven Years](https://fatbobman.com/en/posts/running-swift-on-mcu) — Fatbobman · article catalogue
+  **Published:** `2026-01-07T14:12:00.000Z`
+  **NeKI brief:** Traces seven years of bringing Swift to microcontrollers through MadMachine, including toolchain evolution and the case for memory-safe embedded code. It supplies historical constraints and practical evidence beyond Apple's newer official MCU support.
 - [mikeash.com: Hacking C++ From C](https://www.mikeash.com/pyblog/hacking-c-from-c.html) — Mike Ash · article catalogue
   **NeKI brief:** Calling C++ from C requires an ABI and linkage boundary, commonly handled with extern C wrappers around mangled C++ symbols. The article is a concrete guide to separating language interoperability from ordinary header inclusion.
 - [mikeash.com: Friday Q&A 2014-05-23: A Heartbleed-Inspired Paranoid Memory Allocator](https://www.mikeash.com/pyblog/friday-qa-2014-05-23-a-heartbleed-inspired-paranoid-memory-allocator.html) — Mike Ash · article catalogue

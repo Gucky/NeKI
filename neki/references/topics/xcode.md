@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Xcode, builds, signing, debugging, tooling, CI, and developer workflows.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **1277**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **1280**
 
 ## Direct-source reading
 
@@ -366,6 +366,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Agentic coding in Xcode | Swift with Majid](https://swiftwithmajid.com/2026/02/10/agentic-coding-in-xcode) — Swift with Majid · article catalogue
   **Published:** `2026-02-10T00:00:00+00:00`
   **NeKI brief:** Details configuring Xcode 26.3’s agentic coding support and practical habits for delegating Apple-platform work. Follow it when establishing project context, reviewing generated diffs, and keeping Xcode’s agent actions inside an auditable workflow.
+- [Xcode 26.3 + Claude Agent - Model Swapping,MCP, Skills, and Adaptive Configuration](https://fatbobman.com/en/posts/xcode-263-claude) — Fatbobman · article catalogue
+  **Published:** `2026-02-06T02:30:00.000Z`
+  **NeKI brief:** Experiments with Claude inside Xcode 26.3 through model substitution, injected MCP tools, shared skill symlinks, environment setup, and adaptive CLAUDE.md guidance. The article distinguishes supported integration from brittle configuration techniques.
 - [Agentic Coding in Xcode 26.3 with Claude Code and Codex | Swiftjective-C](https://swiftjectivec.com/Agentic-Coding-Codex-Claude-Code-in-Xcode) — Swiftjective-C · article catalogue
   **Published:** `2026-02-04T00:00:00-06:00`
   **NeKI brief:** Introduces Xcode 26.3’s built-in agent support through Claude Code and Codex. Use it for a tool-oriented comparison of in-editor conversations, command execution, and the review boundaries needed when agents modify an existing project.
@@ -1977,6 +1980,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — SwiftLee Weekly · Issue 337 — Article · Topics: AI Development · Testing · Xcode
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://l.fatbobman.com/w0149-01) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-08-17T12:03:38.576Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [Using Top Functions Mode in Instruments to Quickly Find the Slowest Code](https://swiftdevjournal.com/posts/top-functions) — iOS Dev Weekly · Issue 763 — Article · Topics: Objective-C & Cocoa · Performance · Swift
+  **Published:** `14th August 2026`
+  **NeKI brief:** Shows how Instruments' Top Functions mode reorders Time Profiler or CPU Profiler samples by self weight, then relates the result to the flame graph. It offers a faster first pass for locating genuinely expensive functions.
 - [Gitwyn: A Git Client Designed Around the Xcode Workflow](https://l.fatbobman.com/w0148-06) — Fatbobman’s Swift Weekly · Issue 148 — Article · Topics: Developer Tools · Xcode
   **Published:** `2026-08-10T12:01:23.212Z`
   **NeKI brief:** Introduces Gitwyn, a native macOS companion that overlays Xcode with hunk staging, commit graphs, conflict resolution, branch operations and named stashes.
@@ -1986,9 +1998,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Ironsmith](https://ironsmith.app/) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Article · Topics: AI Development · Developer Tools · Security & Privacy
   **Published:** `2026-08-06T16:00:49.980Z`
   **NeKI brief:** Offers an open-source macOS menu-bar workflow that turns prompts into sandboxed native SwiftUI utilities, using local models or configured cloud providers and packaging each result as a runnable app.
-- [Liquid Glass is not optional anymore](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Liquid Glass · UIKit · Xcode
-  **Published:** `2026-08-06T06:44:37.000Z`
-  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
 - [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
   **Published:** `2026-08-01T15:00:04.000Z`
   **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.

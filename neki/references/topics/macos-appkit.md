@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** macOS app lifecycle, menu-bar apps, Cocoa, and AppKit integration.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **228**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **236**
 
 ## Direct-source reading
 
@@ -63,6 +63,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Launchpad: A Modern macOS Launchpad With Enhanced Functionality - iOS Dev Tools](https://iosdev.tools/blog/launchpad) — iOS Dev Tools Blog · article catalogue
   **Published:** `2026-02-11T13:12:24+00:00`
   **NeKI brief:** Profiles Launchpad as a Modern macOS Launchpad With Enhanced Functionality. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
+- [From Pixel Capture to Metadata - Reimagining Screen Recording Architecture on macOS](https://fatbobman.com/en/posts/screensage-from-pixel-to-meta) — Fatbobman · article catalogue
+  **Published:** `2026-02-04T14:12:00.000Z`
+  **NeKI brief:** Uses a macOS recorder to connect ScreenCaptureKit and Metal capture, bitrate control, crash recovery, multi-window behavior, and SwiftUI timeline performance. The engineering log helps separate recording architecture from product-facing metadata workflows.
+- [Escaping the Mac App Store - Building a Distribution and Sales System for Indie Apps from Scratch](https://fatbobman.com/en/posts/zipic-2-selling-and-distribution) — Fatbobman · article catalogue
+  **Published:** `2025-12-22T14:11:00.000Z`
+  **NeKI brief:** Builds an independent macOS distribution stack around DMG packaging, Sparkle updates, licensing, payments, and key delivery. The walkthrough exposes operational trade-offs hidden by the Mac App Store's integrated sales model.
+- [Solving SwiftUI Pain Points and Performance Bottlenecks - Zipic Development Technical Retrospective](https://fatbobman.com/en/posts/zipic-3-technical-details) — Fatbobman · article catalogue
+  **Published:** `2025-12-22T14:10:00.000Z`
+  **NeKI brief:** Explains Zipic's SwiftUI adaptation, Core Graphics and PDF compression work, Raycast integration, and performance fixes. The retrospective connects low-level image processing with native macOS interaction and component constraints.
 - [Bezel: Mirror Any iPhone on Your Mac - iOS Dev Tools](https://iosdev.tools/blog/bezel) — iOS Dev Tools Blog · article catalogue
   **Published:** `2025-07-18T14:41:19+00:00`
   **NeKI brief:** Profiles Bezel as mirror Any iPhone on Your Mac. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
@@ -104,6 +113,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Recording VoiceOver on iOS and macOS](https://www.basbroek.nl/recording-voiceover) — iOS Dev Weekly · Issue 763 — Article · Topics: Accessibility
+  **Published:** `14th August 2026`
+  **NeKI brief:** Explains why iOS screen recording captures VoiceOver directly and how macOS needs virtual audio routing, illustrated with Loopback. The workflow produces clean accessibility demonstrations without recording speakers or room noise.
+- [Simple Simulator Manager](https://github.com/Heckscheibe/SimpleSimulatorManager) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Provides a macOS menu-bar route to simulator app containers, bundles, Documents, UserDefaults, and App Groups, plus cleanup of unavailable runtimes. It removes repeated CoreSimulator UUID hunting from inspection and disk-maintenance workflows.
+- [StoreSync](https://apps.apple.com/us/app/storesync-metadata-manager/id6775701704?mt=12) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Persistence & Synchronisation
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Manages App Store Connect metadata, localizations, diffs, keyword tracking, and competitor research from a native macOS client. API keys stay in Keychain while requests go directly to Apple, clarifying its privacy and workflow model.
+- [JsonXmlEditor](https://thelittlebakery.org/json-xml-editor) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: Developer Tools · Security & Privacy
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Combines native JSON and XML formatting, validation, comparison, conversion, a REST client, and DTO generation in an offline macOS workspace. Its low-overhead design is a focused alternative to browser and Electron utilities.
+- [Bird Chimes](https://apps.apple.com/us/app/bird-chimes-break-reminder/id6767737245?mt=12) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: macOS & AppKit
+  **Published:** `2026-08-13T16:30:38.104Z`
+  **NeKI brief:** Provides configurable macOS hourly cues using bird sounds, with Focus-mode silencing, quiet hours, and menu-bar controls. Its accessibility framing is useful when evaluating ambient time awareness without visual or spoken-clock interruptions.
 - [Ironsmith](https://ironsmith.app/) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Article · Topics: AI Development · Developer Tools · Security & Privacy
   **Published:** `2026-08-06T16:00:49.980Z`
   **NeKI brief:** Offers an open-source macOS menu-bar workflow that turns prompts into sandboxed native SwiftUI utilities, using local models or configured cloud providers and packaging each result as a runnable app.

@@ -4,14 +4,17 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** UIKit view controllers, controls, lifecycle, and interoperability with SwiftUI.
 
-- Last collected: `2026-08-06T08:20:32Z`
-- Indexed links shown: **698**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **699**
 
 ## Direct-source reading
 
 - [Tracking value sources to prevent recursive SwiftUI updates](https://nilcoalescing.com/blog/TrackingValueSourcesToPreventRecursiveSwiftUIUpdates) — Nil Coalescing · article catalogue
   **Published:** `2026-08-04`
   **NeKI brief:** Tags binding writes with a custom SwiftUI transaction value so wrapped text views can recognise their own updates. This avoids repeated large-string comparisons, redundant layout and cursor jumps in UITextView or NSTextView representables.
+- [Liquid Glass - A Field Guide to UIKit Compatibility Pitfalls](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls) — Fatbobman · article catalogue
+  **Published:** `2026-07-29T14:00:00.000Z`
+  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
 - [Using Framer to Prototype iOS Animations | Kodeco](https://www.kodeco.com/955-using-framer-to-prototype-ios-animations) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** The workflow uses Framer as a fast visual sandbox for interaction and motion, letting designers and iOS developers tune animation timing before translating the result into production code.
@@ -255,6 +258,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Automatic property observation in UIKit with @Observable](https://nilcoalescing.com/blog/AutomaticPropertyObservationInUIKitWithObservable) — Nil Coalescing · article catalogue
   **Published:** `2026-07-13`
   **NeKI brief:** Shows applying @Observable-style automatic property tracking outside SwiftUI, including UIKit. Use it when an imperative UI needs targeted change observation without manually maintaining a broad notification mechanism.
+- [From Size Class to Available Space - Is horizontalSizeClass Still Reliable?](https://fatbobman.com/en/posts/from-size-class-to-available-space) — Fatbobman · article catalogue
+  **Published:** `2026-06-17T14:00:00.000Z`
+  **NeKI brief:** Explains why horizontalSizeClass is no longer a dependable width proxy once iPhone apps become freely resizable, and shifts layout decisions toward measured available space. The examples cover both SwiftUI and UIKit adaptation.
 - [iOS 27: Notable UIKit Additions | Swiftjective-C](https://swiftjectivec.com/iOS-27-Notable-UIKit-Additions) — Swiftjective-C · article catalogue
   **Published:** `2026-06-08T00:00:00-05:00`
   **NeKI brief:** Surveys notable UIKit additions in iOS 27 with an app-builder perspective, useful for identifying modernization opportunities before committing to broad UI rewrites.
@@ -1666,9 +1672,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iOS 27's UIBarMinimization](https://antongubarenko.substack.com/p/ios-27-uibarminimization) — iOS Code Review · Issue 83 — Article · Topics: SwiftUI · UIKit
   **Published:** `2026-08-06T06:44:37.000Z`
   **NeKI brief:** Separates UIKit navigation-bar minimisation into trigger, restoration, and safe-area decisions, then compares the corresponding SwiftUI toolbar behaviour. The examples are useful for replacing custom scroll-offset handling while the iOS 27 API remains beta.
-- [Liquid Glass: A Field Guide to UIKit Compatibility Pitfalls](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls) — Those Who Swift · Issue 278 — Article · Topics: Liquid Glass · UIKit
-  **Published:** `2026-08-05T20:00:46.292Z`
-  **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
 - [Liquid Glass: A Field Guide to UIKit Compatibility Pitfalls](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: Liquid Glass · Swift · UIKit
   **Published:** `2026-08-01T15:00:04.000Z`
   **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.

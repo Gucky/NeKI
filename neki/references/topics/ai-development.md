@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple Intelligence, Foundation Models, ML, generative-AI workflows, and developer tooling.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **297**
+- Last collected: `2026-08-18T15:49:52Z`
+- Indexed links shown: **301**
 
 ## Direct-source reading
 
@@ -63,6 +63,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Agentic AI Engineering Workflows for iOS in 2026](https://blog.jacobstechtavern.com/p/agentic-ai-2026) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2026-02-09T16:02:05.965Z`
   **NeKI brief:** Frames agentic iOS workflows around bounded tool access, reviewable changes, and feedback loops, helping teams distinguish useful automation from uncontrolled code generation and retain ownership of architecture, testing, and release decisions.
+- [Xcode 26.3 + Claude Agent - Model Swapping,MCP, Skills, and Adaptive Configuration](https://fatbobman.com/en/posts/xcode-263-claude) — Fatbobman · article catalogue
+  **Published:** `2026-02-06T02:30:00.000Z`
+  **NeKI brief:** Experiments with Claude inside Xcode 26.3 through model substitution, injected MCP tools, shared skill symlinks, environment setup, and adaptive CLAUDE.md guidance. The article distinguishes supported integration from brittle configuration techniques.
 - [Agentic Coding in Xcode 26.3 with Claude Code and Codex | Swiftjective-C](https://swiftjectivec.com/Agentic-Coding-Codex-Claude-Code-in-Xcode) — Swiftjective-C · article catalogue
   **Published:** `2026-02-04T00:00:00-06:00`
   **NeKI brief:** Introduces Xcode 26.3’s built-in agent support through Claude Code and Codex. Use it for a tool-oriented comparison of in-editor conversations, command execution, and the review boundaries needed when agents modify an existing project.
@@ -204,6 +207,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Shows training a Create ML model and integrating its output into an iOS app. Follow it when routing dataset preparation, model export, and on-device inference responsibilities across the development workflow.
 - [Developer guide on machine learning for iOS with Core ML](https://tanaschita.com/20230313-machine-learning-ios-core-ml) — Tanaschita · article catalogue
   **NeKI brief:** Provides an introductory path from basic machine-learning concepts to loading and using Core ML models in iOS. Follow it when onboarding to the model-consumption boundary, but treat current API and deployment details as version-sensitive.
+- [Apple Foundation Models: Hybrid AI with Dynamic Profiles](https://peterfriese.dev/blog/2026/hybrid-ai-apple-foundation-models-gemini) — Peter Friese articles · article catalogue
+  **NeKI brief:** Uses Foundation Models dynamic profiles to choose between an on-device model and Gemini through Firebase AI Logic. The design makes privacy, capability, availability, and network trade-offs explicit at the request-routing boundary.
 - [Agentic Coding in Xcode with Gemini CLI](https://peterfriese.dev/blog/2026/agentic-coding-xcode-geminicli) — Peter Friese articles · article catalogue
   **NeKI brief:** Connects Gemini CLI to Xcode 26.3 through Apple's MCP bridge and walks through an emoji physics example. The setup highlights version and response-format requirements that matter when using agents other than Xcode's built-in integrations.
 - [Extracting structured data from PDFs using Gemini 2.0 and Genkit](https://peterfriese.dev/blog/2025/gemini-genkit-pdf-structured-data) — Peter Friese articles · article catalogue
@@ -253,6 +258,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — SwiftLee Weekly · Issue 337 — Article · Topics: AI Development · Testing · Xcode
+  **Published:** `2026-08-18T14:06:21.000Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://l.fatbobman.com/w0149-01) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-08-17T12:03:38.576Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
 - [FoundationModelsKit](https://github.com/divyaravitech/FoundationModelsKit) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
   **Published:** `2026-08-06T16:00:49.980Z`
   **NeKI brief:** Provides protocol-based model routing, actor-isolated conversation compaction, evaluation hooks and regional availability for mixing on-device, private-cloud and third-party model implementations.
