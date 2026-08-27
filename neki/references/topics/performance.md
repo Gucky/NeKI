@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Profiling, Instruments, rendering cost, launch time, memory, and runtime efficiency.
 
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed links shown: **437**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **508**
 
 ## Direct-source reading
 
@@ -503,7 +503,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** A sorted-array type maintains ordering at insertion cost, enabling binary search and predictable traversal later. The implementation makes invariants explicit and shows when a specialized value type is preferable to sorting ad hoc arrays.
 - [Xcode Visual Memory Debugger](https://useyourloaf.com/blog/xcode-visual-memory-debugger) — Use Your Loaf · article catalogue
   **Published:** `2016-07-25T21:18:40+01:00`
-  **NeKI brief:** Uses Xcode's visual memory debugger to inspect object graphs and identify unexpected retention. The graph suggests relationships, but retain-cycle conclusions still need verification against ownership code.
+  **NeKI brief:** Presents Xcode Visual Memory Debugger, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Exponential time complexity in the Swift type checker | Cocoa with Love](https://www.cocoawithlove.com/blog/2016/07/12/type-checker-issues.html) — Cocoa with Love · article catalogue
   **Published:** `2016-07-12`
   **NeKI brief:** Analyzes Swift type-checker blowups behind 'expression too complex' diagnostics and suggests restructuring expressions to reduce inference work. Follow it when compile-time performance points to constraint-solving shape rather than runtime algorithm cost.
@@ -666,24 +666,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Xcode 9's Manual Provisioning Changes](https://martiancraft.com/blog/2017/07/manual-provisioning) — MartianCraft · article catalogue
   **NeKI brief:** Xcode 9 manual signing requires an explicit team, profile, and certificate selection, yet Xcode may still request missing certificates. Treat manual provisioning as a controlled configuration workflow and verify portal assets whenever signing behavior looks automatic.
 - [Demystifying iOS Provisioning Part 2: Creating and assigning certificates and profiles](https://martiancraft.com/blog/2017/07/demystifying-provisioning-part2) — MartianCraft · article catalogue
-  **NeKI brief:** Create App IDs, development or distribution certificates, registered devices, and profiles in dependency order, then assign the result to Xcode schemes. Diagnosing signing failures becomes tractable once each generated credential is tied to its intended build path.
+  **NeKI brief:** In part two of his two-part series, Cory Bohon covers in detail the process of creating and assigning certificates and signing an app. If you’re new to iOS development or want a recap of the basics, also check out part one! 😃
 - [Exploration Day — Solutions for Blind and Visually Impaired](https://martiancraft.com/blog/2017/06/exploration-day-two) — MartianCraft · article catalogue
   **NeKI brief:** Reviews mobile concepts for blind and visually impaired users, including tactile navigation and facial-expression feedback. Follow it for examples of accessibility ideas that change the interaction channel instead of merely annotating visual controls.
 - [Demystifying iOS Provisioning Part 1: Profiles, Certificates, and Xcode (oh my!)](https://martiancraft.com/blog/2017/05/demystifying-ios-provisioning-part1) — MartianCraft · article catalogue
-  **NeKI brief:** Provisioning links an app identifier, certificate, and profile so Apple can authorize a specific signed build on its permitted targets. Understanding those separate credentials clarifies when Xcode-managed signing is helpful and when teams need explicit control.
+  **NeKI brief:** Examines In part two of his two-part series, Cory Bohon covers in detail the process of creating and assigning certificates and signing an app. If you’re new to iOS development or want a recap of the basics, also check out part o Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Going Without the Flow - Exploring Collection View Layouts](https://martiancraft.com/blog/2017/05/collection-view-layouts) — MartianCraft · article catalogue
-  **NeKI brief:** A custom UICollectionViewLayout calculates attributes rather than forcing every design through flow layout. Decoration views, floating elements, and self-sizing cells each require deliberate invalidation and sizing rules to prevent layout code from becoming brittle.
+  **NeKI brief:** Examines Master the art of building complex UICollectionView layouts with expert insights and practical examples. Explore the intricacies of custom layouts, decoration views, and self-sizin. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [My Core Data Stack](https://martiancraft.com/blog/2015/03/core-data-stack) — MartianCraft · article catalogue
   **NeKI brief:** A production-oriented Core Data stack walkthrough covering setup, contexts, and persistence boundaries. Use it to compare lifecycle and concurrency choices before adopting a shared storage layer.
 
 ## Newsletter and related leads
 
+- [iOS 27: StateReporter](https://antongubarenko.substack.com/p/ios-27-statereporter) — Those Who Swift · Issue 281 — Article · Topics: Performance
+  **Published:** `2026-08-26T20:38:31.643Z`
+  **NeKI brief:** Introduces iOS 27 StateReporting for attaching concise application-state transitions and metadata to MetricKit diagnostics, helping connect hangs or hitches to the user activity that preceded them.
+- [The State macro in Xcode 27](https://blakecrosley.com/blog/state-macro-xcode-27) — iOS Dev Weekly · Issue 764 — Article · Topics: Macros & Metaprogramming · Performance · Xcode
+  **Published:** `21st August 2026`
+  **NeKI brief:** Audits Xcode 27’s macro-backed `@State` migration, separating source-compatibility build failures from unchanged initialization semantics. It gives concrete search patterns and fixes for declaration-plus-initializer assignments, private memberwise initializers, generic inference, and macro-composition edge cases.
+- [Using Top Functions Mode in Instruments to Quickly Find the Slowest Code](https://swiftdevjournal.com/posts/top-functions?ref=ioscodereview.com) — iOS Code Review · Issue 84 — Article · Topics: Performance · Swift
+  **Published:** `2026-08-20T05:35:08.000Z`
+  **NeKI brief:** Shows how Instruments' Top Functions mode reorders Time Profiler or CPU Profiler samples by self weight, then relates the result to the flame graph. It offers a faster first pass for locating genuinely expensive functions.
+- [Using Top Functions Mode in Instruments to Quickly Find the Slowest Code](https://swiftdevjournal.com/posts/top-functions) — Those Who Swift · Issue 280 — Article · Topics: Performance · Swift · Xcode
+  **Published:** `2026-08-19T20:31:22.272Z`
+  **NeKI brief:** Shows how Instruments' Top Functions mode reorders Time Profiler or CPU Profiler samples by self weight, then relates the result to the flame graph. It offers a faster first pass for locating genuinely expensive functions.
 - [Active ReviewSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Performance · Swift
   **Published:** `2026-08-18T14:06:21.000Z`
   **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
-- [Using Top Functions Mode in Instruments to Quickly Find the Slowest Code](https://swiftdevjournal.com/posts/top-functions) — iOS Dev Weekly · Issue 763 — Article · Topics: Objective-C & Cocoa · Performance · Swift
-  **Published:** `14th August 2026`
-  **NeKI brief:** Shows how Instruments' Top Functions mode reorders Time Profiler or CPU Profiler samples by self weight, then relates the result to the flame graph. It offers a faster first pass for locating genuinely expensive functions.
 - [how he used AI to make MessagePack decoding about 20% faster](https://pfandrade.me/blog/message-packable?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Foundation & Data Formats · Performance · Swift
   **Published:** `2026-08-06T06:44:37.000Z`
   **NeKI brief:** Describes using Codex to integrate Swift Binary Parsing into a MessagePack decoder, then independently validating nearly 20% faster decoding and more than 60% fewer allocations. It is a human-in-the-loop optimization workflow grounded in Instruments and reproducible benchmarks.
@@ -698,7 +707,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Compares AsyncImage’s system-managed HTTP caching with an explicit image-cache layer for SwiftUI list performance. Follow the walkthrough when deciding whether server headers and URLCache are sufficient or the app needs controllable memory and disk behavior.
 - [SwiftUI @ContentBuilder - Faster Type Checking in Xcode 27](https://www.sagarunagar.com/blog/swiftui-contentbuilder-xcode-27?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: Swift · SwiftUI · Xcode
   **Published:** `2026-08-01T15:00:04.000Z`
-  **NeKI brief:** Explains Xcode 27’s SwiftUI ContentBuilder unification and how it reduces result-builder type-checking work while retaining older deployment targets. It is useful when large view expressions compile slowly or custom builders duplicate SwiftUI’s behavior.
+  **NeKI brief:** Sagar explores SwiftUI’s ContentBuilder, showing how its unified builder model reduces type-checking overhead, improves compiler performance for complex view hierarchies, and simplifies building reusable SwiftUI APIs.
 - [Building a custom DynamicProfileModifier in Foundation Models](https://artemnovichkov.com/blog/building-a-custom-dynamic-profile-modifier-in-foundation-models?ref=createwithswift.com) — Create with Swift · Issue 117 — Article · Topics: AI Development · Performance · Swift
   **Published:** `2026-07-24T15:00:34.000Z`
   **NeKI brief:** Builds a DynamicProfileModifier that switches to the on-device model, lowers temperature, caps output, and trims visible history. The article also explains modifier precedence, beta requirements, incomplete-output risk, and safe handling of commercial provider credentials.
@@ -708,9 +717,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI Performance](https://livsycode.com/swiftui/the-swiftui-performance-skill) — iOS Dev Weekly · Issue 758 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `10th July 2026`
   **NeKI brief:** Introduces an agent skill for investigating SwiftUI performance through view lifecycle, rendering behavior, and measurement-oriented workflows. Follow it when giving coding agents repeatable performance diagnostics, while validating conclusions with Instruments and real app traces.
-- [You asked…we delivered! Submit your swiftCon talk by July 5th!](https://www.nextappcon.com/swiftcon) — iOS Dev Weekly · Issue 757 — Tutorial · Topics: Architecture · Objective-C & Cocoa · Swift
-  **Published:** `3rd July 2026`
-  **NeKI brief:** SwiftCon's call for speakers seeks production-focused Swift and iOS talks, including SwiftUI, architecture, performance, and testing. Follow the event page to assess the community's current themes or submit a concrete engineering case study.
+- [Modern iOS Performance Myths: Episode 1](https://www.youtube.com/watch?v=F7cvw2_m_b4) — Those Who Swift · Issue 274 — Video · Topics: Performance · Swift
+  **Published:** `2026-07-08`
+  **NeKI brief:** Reviews Modern iOS Performance Myths: Episode 1. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [SwiftUI: Observable macro under the hood](https://www.nsvasilev.com/posts/swiftui-observable-macro) — SwiftUI Weekly · SwiftUI Weekly - Issue #236 — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
   **Published:** `2026-06-22T10:29:00.171Z`
   **NeKI brief:** Peels back SwiftUI’s Observable macro expansion, showing the generated observation machinery behind an @Observable model. Useful when diagnosing tracking behavior, deciding which properties need observation, or explaining macro-generated code to a team.
@@ -746,13 +755,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Presents whats new in swiftui in ios 27 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Task Names in Swift ConcurrencyName Swift tasks for clearer debugging and profilingArtem Novichkov](https://artemnovichkov.com/blog/task-names-in-swift-concurrency?ref=createwithswift.com) — Create with Swift · Issue 110 — Article · Topics: Concurrency · Performance · Swift
   **Published:** `2026-06-06T14:00:23.000Z`
-  **NeKI brief:** Explains naming tasks in Swift concurrency and how names aid debugging and observability. Follow it when tracing asynchronous work, while keeping names descriptive and avoiding assumptions that labels change scheduling, isolation, or cancellation semantics.
+  **NeKI brief:** Artem explains Swift Concurrency task names, showing how to label Task, Task.detached, task groups, and SwiftUI .task calls so they’re easier to identify in LLDB, Instruments, and logs.
 - [Core Data + Observation: From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model?ref=createwithswift.com) — Create with Swift · Issue 110 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-06-06T14:00:23.000Z`
   **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
 - [Task Names In Swift Concurrency](https://artemnovichkov.com/blog/task-names-in-swift-concurrency) — Those Who Swift · Issue 269 — Article · Topics: Concurrency · Performance · Swift
   **Published:** `2026-06-04`
-  **NeKI brief:** Explains naming tasks in Swift concurrency and how names aid debugging and observability. Follow it when tracing asynchronous work, while keeping names descriptive and avoiding assumptions that labels change scheduling, isolation, or cancellation semantics.
+  **NeKI brief:** Artem explains Swift Concurrency task names, showing how to label Task, Task.detached, task groups, and SwiftUI .task calls so they’re easier to identify in LLDB, Instruments, and logs.
 - [Using Xcode Instruments to optimize Swift Concurrency CodeExplore how Xcode Instruments can help you analyze, debug, and optimize your code for better app performance.SwiftLeeAntoine van der Lee](https://www.avanderlee.com/concurrency/using-xcode-instruments-to-optimize-swift-concurrency-code?ref=ioscodereview.com) — iOS Code Review · Issue 79 — Article · Topics: Concurrency · Performance · Swift
   **Published:** `2026-06-01T16:27:14.000Z`
   **NeKI brief:** Uses Instruments’ concurrency and time-based views to correlate task execution with latency, then validates a change with a second recording. The workflow is a practical guard against optimizing async code from source inspection alone.
@@ -770,28 +779,43 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines Swift Student Challenge winners in the context of AI Development and Apple Platform Ecosystem. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [How to Think About Performance in iOS](https://livsycode.com/best-practices/how-to-think-about-performance-in-ios?ref=createwithswift.com) — Create with Swift · Issue 107 — Article · Topics: Architecture · Graphics, Media & Games · Performance
   **Published:** `2026-05-15T16:00:08.000Z`
-  **NeKI brief:** Frames iOS performance as a measurement and prioritization problem rather than a collection of tricks. Follow it when planning investigations, connecting user-visible symptoms to traces, and choosing fixes that improve the actual bottleneck.
+  **NeKI brief:** Artem walks through iOS performance as a layered system covering metrics, architecture, UI rendering, networking, caching, memory, and CPU behavior.
 - [Accelerate Framework In Swift - Complete Guide To High-Performance Computing](https://www.sagarunagar.com/blog/accelerate-framework-swift-guide) — Those Who Swift · Issue 266 — Article · Topics: Performance · Swift
   **Published:** `2026-05-13`
   **NeKI brief:** Introduces Apple's Accelerate framework through Swift examples for vector and numerical workloads. Use it when evaluating CPU-intensive computations, comparing optimized primitives with simpler code, and checking memory layout, precision, and platform availability.
 - [How To Think About Performance In iOS](https://livsycode.com/best-practices/how-to-think-about-performance-in-ios) — Those Who Swift · Issue 266 — Article · Topics: Architecture · Networking · Performance
   **Published:** `2026-05-13`
-  **NeKI brief:** Frames iOS performance as a measurement and prioritization problem rather than a collection of tricks. Follow it when planning investigations, connecting user-visible symptoms to traces, and choosing fixes that improve the actual bottleneck.
+  **NeKI brief:** Artem walks through iOS performance as a layered system covering metrics, architecture, UI rendering, networking, caching, memory, and CPU behavior.
+- [Hokusai](https://github.com/ivantokar/hokusai) — iOS Dev Tools · iOS Dev Tools: AscBuddy, TourKit, Hokusai — Source repository · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-05-07T16:16:37.368Z`
+  **NeKI brief:** Hokusai is a Swift or Apple-platform developer library. Follow its README and source to inspect the concrete API and workflow it provides, then verify platform, dependency, and maintenance assumptions.
 - [Swift Concurrency: One await, Two Actors: A Runtime Trace](https://adjoe.io/company/engineer-blog/swift-concurrency-await-runtime-trace-executor-hops) — Those Who Swift · Issue 265 — Article · Topics: Concurrency · Objective-C & Cocoa · Swift
   **Published:** `2026-05-06`
   **NeKI brief:** Traces how an await can move execution between actors and executors at runtime. Follow it when diagnosing latency or unexpected scheduling, using Instruments or logs to validate hops instead of inferring behavior from source order alone.
+- [reached quickly](https://www.reddit.com/r/claude/comments/1soumaq/opus_47_30_in_just_5_minutes) — Those Who Swift · Issue 264 — Article · Topics: Performance
+  **Published:** `2026-04-29`
+  **NeKI brief:** Reviews reached quickly. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [Understanding Inout Parameters In Swift - How They Work And When To Use Them](https://www.sagarunagar.com/blog/swift-inout-parameters) — Those Who Swift · Issue 264 — Article · Topics: Code Quality · Performance · Swift
   **Published:** `2026-04-29`
   **NeKI brief:** Explains Swift inout parameters, including exclusivity and mutation semantics. Follow it when reviewing APIs that borrow mutable storage, especially where escaping closures, overlapping accesses, or value-copy expectations can make a seemingly simple call unsafe.
 - [Recording & Analyzing SwiftUI Instruments Traces](https://github.com/AvdLee/SwiftUI-Agent-Skill) — SwiftLee Weekly · Issue 321 — Source repository · Topics: Performance · Swift · SwiftUI
   **Published:** `2026-04-28T14:07:22.000Z`
   **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
+- [Yotei](https://github.com/claustrofob/Yotei) — iOS Dev Tools · iOS Dev Tools: Yotei, Pica, Revyl — Source repository · Topics: Architecture · Developer Tools · Swift
+  **Published:** `2026-04-23T16:32:50.159Z`
+  **NeKI brief:** Yotei is a GitHub project for Apple-platform development. Follow its README and source for the concrete problem, API surface, and integration examples, while verifying current build and platform assumptions.
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) — Those Who Swift · Issue 263 — Article · Topics: Performance · Personal Essays
+  **Published:** `2026-04-22`
+  **NeKI brief:** Reviews Introducing Claude Opus 4.7. Useful as a focused reference for evaluating the described workflow or technology, while validating current platform behavior and project-specific constraints against primary documentation.
 - [Swift 6.3 ReleasedSwift is designed to be the language you reach for at every layer of the software stack. Whether you’re building embedded firmware, internet-scale services, or full-featured mobile apps, Swift delivers strong safety guarantees, performance control when you need it, and expressive language features and APIs.Swift.orgApple Inc.](https://www.swift.org/blog/swift-6.3-released?ref=ioscodereview.com) — iOS Code Review · Issue 76 — Article · Topics: Graphics, Media & Games · Swift · Testing
   **Published:** `2026-03-30T18:21:46.000Z`
   **NeKI brief:** Announces Swift 6.3 and summarizes the language, package, and tooling changes in that release. Use it to identify migration candidates, then consult the release notes and proposal links for exact compiler behavior and availability.
 - [Swift.orgSwift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.Swift.orgApple Inc.](https://www.swift.org/documentation/articles/swift-sdk-for-android-getting-started.html?ref=ioscodereview.com) — iOS Code Review · Issue 76 — Article · Topics: Cross-Platform & Web · Performance · Swift
   **Published:** `2026-03-30T18:21:46.000Z`
   **NeKI brief:** Presents getting started guide for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [iOS App Launch Process: From Tap To First Frame](https://livsycode.com/uikit/ios-app-launch-process-from-tap-to-first-frame) — Those Who Swift · Issue 259 — Article · Topics: Performance · UIKit
+  **Published:** `2026-03-26`
+  **NeKI brief:** Traces iOS app launch from tap to first frame. Useful for locating startup work across process, scene, and rendering phases instead of treating launch time as one opaque metric.
 - [iOS auth eating your time?](https://go.clerk.com/sxkDCu7) — SwiftLee Weekly · Issue 316 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2026-03-24T15:03:10.000Z`
   **NeKI brief:** Presents iOS auth eating your time?, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -806,7 +830,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Provides a reusable SwiftUI-focused agent skill with guidance for generating and reviewing views. Useful as a concrete prompt and workflow artifact when evaluating AI-assisted UI composition, accessibility, and maintainability in a project.
 - [NSCache in Swift](https://livsycode.com/best-practices/nscache-in-swift-a-practical-guide) — Those Who Swift · Issue 256 — Article · Topics: Performance · Swift
   **Published:** `2026-03-06`
-  **NeKI brief:** Explains NSCache usage in Swift, including eviction-oriented caching behavior. Use it when adding an in-memory cache, choosing keys and cost limits, and ensuring correctness does not depend on cached values surviving memory pressure.
+  **NeKI brief:** Artem practical guide to using NSCache in Swift, explaining how it works, when it’s preferable to dictionaries for in-memory caching, and how to use it safely to improve performance.
 - [ListKit](https://github.com/Iron-Ham/Lists) — Fatbobman’s Swift Weekly · Issue 125 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Performance
   **Published:** `2026-03-02T12:02:09.017Z`
   **NeKI brief:** Lists investigates UIKit diffable-data-source stalls caused by snapshot internals, then offers an alternative list approach. Use it when frequent updates cause measurable collection-view hitches and profiling points to diffing overhead.
@@ -815,7 +839,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines Static vs Dynamic Dispatch in Swift, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [Tracking Token Usage in Foundation Models](https://artemnovichkov.com/blog/tracking-token-usage-in-foundation-models) — Those Who Swift · Issue 254 — Article · Topics: AI Development · Foundation & Data Formats · Performance
   **Published:** `2026-02-18`
-  **NeKI brief:** Presents Tracking token usage in Foundation Models, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Artem explains how to measure the tokens Foundation Models consume for instructions, prompts, tools, and full session transcripts, helping you understand context limits and optimize prompt design.
+- [Copy-on-Write in Swift Explained](https://www.sagarunagar.com/blog/copy-on-write-swift) — Those Who Swift · Issue 254 — Article · Topics: Performance · Swift
+  **Published:** `2026-02-18`
+  **NeKI brief:** Explains copy-on-write in Swift. Useful for reasoning about value semantics, storage sharing, and when mutations trigger allocation or copying.
 - [SwiftUI Foundations: Build Great Apps Q&A](https://antongubarenko.substack.com/p/swiftui-foundations-build-great-apps) — Those Who Swift · Issue 254 — Article · Topics: Foundation & Data Formats · Swift · SwiftUI
   **Published:** `2026-02-18`
   **NeKI brief:** Examines SwiftUI Foundations: Build Great Apps Q&A, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -825,12 +852,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Tiered Caching in Swift](https://kylebrowning.com/posts/tiered-caching-in-swift) — Those Who Swift · Issue 252 — Article · Topics: Performance · Swift
   **Published:** `2026-02-04`
   **NeKI brief:** Presents a tiered caching approach in Swift across faster and slower storage layers. Use it when designing cache lookup and invalidation policy, keeping source-of-truth ownership, freshness, serialization, and memory pressure behavior explicit.
+- [Objectively Better, Observably Trickier](https://open.substack.com/pub/captainswiftui/p/objectively-better-observably-trickier) — Those Who Swift · Issue 252 — Article · Topics: Performance · Swift · SwiftUI
+  **Published:** `2026-02-04`
+  **NeKI brief:** Discusses observable state in SwiftUI. Useful for reviewing observation ownership and the trade-offs between improved ergonomics and harder-to-see behavior.
 - [The Secret to Buttery Smooth SwiftUI](https://www.swiftdifferently.com/blog/swiftui/swiftui-performance-article) — Those Who Swift · Issue 252 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2026-02-04`
   **NeKI brief:** Explores practical causes of sluggish SwiftUI rendering and techniques for reducing unnecessary work. Useful as a performance checklist before profiling view identity, expensive body computations, and state-driven update frequency with Instruments.
 - [HealthKit Data Generator](https://github.com/aminbenarieb/healthkit-data-generator) — iOS Dev Tools · iOS Dev Tools: MachScope, SwiftFindRefs, HealthKit Data Generator — Source repository · Topics: AI Development · Developer Tools · Testing
   **Published:** `2026-01-22T20:01:38.499Z`
   **NeKI brief:** HealthKit Data Generator creates configurable, realistic HealthKit samples for iOS development and tests, including natural-language-assisted profiles. Useful for exercising charts and analytics without manually producing device health records.
+- [InlineArray in Swift - Memory Efficient Fixed-Size Arrays](https://www.sagarunagar.com/blog/inlinearray-in-swift) — SwiftLee Weekly · Issue 306 — Article · Topics: Performance · Swift
+  **Published:** `2026-01-13T15:06:45.000Z`
+  **NeKI brief:** Explains InlineArray in Swift - Memory Efficient Fixed-Size Arrays, focusing on the underlying Swift or Apple-platform mechanism and the implementation trade-offs relevant to production code.
 - [Swift-Parsing](https://github.com/pointfreeco/swift-parsing) — iOS Dev Tools · iOS Dev Tools: Swift-Parsing, ColorsKit, SwiftUI Indie Stack — Source repository · Topics: Developer Tools · Performance · Swift
   **Published:** `2025-12-25T17:35:11.361Z`
   **NeKI brief:** Swift Parsing composes small parsers into typed, reusable grammars with attention to performance and error reporting. Useful when decoding structured text or protocols where ad-hoc splitting obscures grammar and failure locations.
@@ -840,18 +873,39 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Exploring the Swift SDK for Android](https://www.swift.org/blog/exploring-the-swift-sdk-for-android) — Those Who Swift · Issue 246 — Article · Topics: Cross-Platform & Web · Objective-C & Cocoa · Swift
   **Published:** `2025-12-24`
   **NeKI brief:** Explores the Swift SDK for Android and its implications for cross-platform Swift development. Use it to understand the emerging toolchain and interoperability story, then verify supported packages, APIs, and production readiness before committing to it.
+- [SwiftUI Group Still(?) Considered Harmful](https://twocentstudios.com/2025/12/12/swiftui-group-still-considered-harmful) — Those Who Swift · Issue 245 — Article · Topics: Code Quality · Swift · SwiftUI
+  **Published:** `2025-12-17`
+  **NeKI brief:** Explains SwiftUI Group Still(?) Considered Harmful, connecting the underlying Apple-platform mechanism to implementation choices and practical trade-offs that Swift developers can evaluate.
+- [Swift Protocols as Existential Types vs. Generic Constraints](https://www.youtube.com/watch?v=-e8Ey6oTI24&t=320s) — Those Who Swift · Issue 245 — Video · Topics: Graphics, Media & Games · Objective-C & Cocoa · Swift
+  **Published:** `2025-12-17`
+  **NeKI brief:** Reviews Swift Protocols as Existential Types vs. Generic Constraints. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [What Settings Should You Use for Swift Concurrency?](https://www.massicotte.org/blog/what-settings) — Those Who Swift · Issue 244 — Article · Topics: Concurrency · Performance · Swift
+  **Published:** `2025-12-11`
+  **NeKI brief:** Asks which settings to use for Swift concurrency. Useful for auditing compiler and language-mode choices during migration and matching diagnostics to the project’s intended safety level.
 - [Teaching AI to Read Xcode Builds](https://tuist.dev/blog/2025/11/27/teaching-ai-to-read-xcode-builds) — Those Who Swift · Issue 243 — Article · Topics: AI Development · Dependency Injection · Xcode
   **Published:** `2025-12-10`
   **NeKI brief:** Presents Teaching AI to Read Xcode Builds, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [Swift SDK for Android, Shipathon Winners & SwiftUI Scroll Performance](https://www.youtube.com/watch?v=YCRvVfDGQuY) — Those Who Swift · Issue 243 — Video · Topics: Cross-Platform & Web · Performance · Swift
+  **Published:** `2025-12-10`
+  **NeKI brief:** Reviews Swift SDK for Android, Shipathon Winners & SwiftUI Scroll Performance. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [Building Better SwiftUI Modifiers with onGeometryChange](https://dimillian.medium.com/beyond-geometryreader-building-better-swiftui-modifiers-with-ongeometrychange-ac976e5c9107) — Those Who Swift · Issue 242 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2025-11-26`
   **NeKI brief:** Examines Building Better SwiftUI Modifiers with onGeometryChange, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [LlamaBarn](https://github.com/ggml-org/LlamaBarn) — iOS Dev Tools · iOS Dev Tools: PostgresNIO, SwiftDisc, SM3 — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
+  **Published:** `2025-11-13T17:02:43.035Z`
+  **NeKI brief:** LlamaBarn is an Apple-platform project related to running or managing Llama models. Follow its source for concrete local-inference workflows, while verifying model formats, hardware requirements, and current API boundaries.
 - [From Swift to Mojo and high-performance AI Engineering with Chris Lattner](https://newsletter.pragmaticengineer.com/p/from-swift-to-mojo-and-high-performance) — SwiftLee Weekly · Issue 297 — Podcast · Topics: AI Development · Performance · Swift
   **Published:** `2025-11-11T15:06:31.000Z`
   **NeKI brief:** Presents From Swift to Mojo and high-performance AI Engineering with Chris Lattner, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [Mark Szymczyk](https://mastodon.world/@swiftdevjournal) — Fatbobman’s Swift Weekly · Issue 110 — Article · Topics: Performance · Swift · SwiftUI
+  **Published:** `2025-11-10T12:03:38.111Z`
+  **NeKI brief:** Mark shows how to use instrument to profile your app, spot views with high update frequency and investigate the roots of unnecessary re-renders.
 - [Find the SwiftUI Views that Update the Most Using Instruments](https://swiftdevjournal.com/posts/swiftui-frequent-view-updates) — iOS Dev Weekly · Issue 734 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `7th November 2025`
-  **NeKI brief:** Presents find the swiftui views that update the most using instruments for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Mark shows how to use instrument to profile your app, spot views with high update frequency and investigate the roots of unnecessary re-renders.
+- [Optimize Your App’s Speed & Efficiency: Q&A](https://antongubarenko.substack.com/p/optimize-your-apps-speed-and-efficiency) — Those Who Swift · Issue 239 — Article · Topics: Developer Career & Practice · Graphics, Media & Games · Performance
+  **Published:** `2025-11-05`
+  **NeKI brief:** Answers practical questions about improving app speed and efficiency. Useful for turning broad performance concerns into measurable work across launch, rendering, networking, and resource usage.
 - [Optimize your app's speed and efficiency](https://www.youtube.com/watch?v=yXAQTIKR8fk) — SwiftLee Weekly · Issue 296 — Video · Topics: AI Development · Foundation & Data Formats · Performance
   **Published:** `2025-11-04T08:02:52.000Z`
   **NeKI brief:** Summarizes a Meet with Apple performance session spanning power use, Foundation Models response latency, SwiftUI responsiveness, and Snap's diagnostic tools. Useful as a map of optimization areas before consulting the corresponding primary guidance.
@@ -863,13 +917,22 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Presents build, run, debug, and test your swift apps in zed for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Foundation Models profiling with Xcode Instruments](https://artemnovichkov.com/blog/foundation-models-profiling-with-xcode-instruments) — iOS Dev Weekly · Issue 731 — Article · Topics: Foundation & Data Formats · Performance · Xcode
   **Published:** `17th October 2025`
-  **NeKI brief:** Examines Foundation Models Profiling with Xcode Instruments, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+  **NeKI brief:** Artem shows how to profile and optimize Foundation Models performance using Xcode Instruments, tracking response time, token usage and tool calls to help developers improve performance on real devices.
+- [Friends 🤝](https://substack.com/profile/13130783-david-grigoryan) — Those Who Swift · Issue 236 — Article · Topics: Performance · Swift
+  **Published:** `2025-10-15`
+  **NeKI brief:** Reviews Friends 🤝. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [Swift Profile Recorder: A Performance Profiler Requiring No System Privileges](https://l.fatbobman.com/w0106-06) — Fatbobman’s Swift Weekly · Issue 106 — Article · Topics: Performance · Swift
+  **Published:** `2025-10-13T12:03:32.126Z`
+  **NeKI brief:** Provides Apple’s Swift Profile Recorder package for recording profiling data from Swift programs. Follow it when instrumenting performance investigations and comparing programmatic trace capture with interactive Instruments sessions.
 - [Introducing Swift Profile Recorder: Identifying Performance Bottlenecks in Production](https://www.swift.org/blog/swift-profile-recorder) — Fatbobman’s Swift Weekly · Issue 106 — Article · Topics: Cross-Platform & Web · Performance · Swift
   **Published:** `2025-10-13T12:03:32.126Z`
   **NeKI brief:** Introduces Swift Profile Recorder for capturing runtime profiling data from Swift applications. Useful for collecting reproducible performance evidence in environments where full Instruments sessions are impractical.
 - [Run your entire CI/CD pipeline in AWS](https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-m4-and-m4-pro-mac-instances) — iOS CI Newsletter · Issue 78 — Article · Topics: CI/CD & Automation · Performance · Testing
   **Published:** `2025-10-13T00:00:00.000Z`
   **NeKI brief:** Examines Run your entire CI/CD pipeline in AWS in the context of CI/CD & Automation and Performance. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Foundation Models Profiling with Xcode Instruments](https://l.fatbobman.com/w0105-05) — Fatbobman’s Swift Weekly · Issue 105 — Article · Topics: AI Development · Foundation & Data Formats · Performance
+  **Published:** `2025-10-06T12:03:37.161Z`
+  **NeKI brief:** Shows how to profile and optimize Foundation Models performance with Xcode Instruments. Follow it when measuring model latency, resource use, and bottlenecks instead of tuning an on-device AI feature from subjective responsiveness alone.
 - [TranscriptDebugMenu](https://github.com/artemnovichkov/TranscriptDebugMenu) — Fatbobman’s Swift Weekly · Issue 105 — Source repository · Topics: AI Development · Foundation & Data Formats · Performance
   **Published:** `2025-10-06T12:03:37.161Z`
   **NeKI brief:** TranscriptDebugMenu is a debug surface for inspecting Foundation Models conversations and related app state. Use it alongside Xcode Instruments when testing session prewarming, tool calls, and model-output performance in development builds.
@@ -888,6 +951,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [QuickRecorder](https://github.com/lihaoyun6/QuickRecorder) — iOS Dev Tools · iOS Dev Tools: IQListKit, Radar, HapticPlayer — Source repository · Topics: Developer Tools · Performance
   **Published:** `2025-09-04T15:31:16.101Z`
   **NeKI brief:** QuickRecorder is a lightweight macOS recorder built around ScreenCaptureKit, covering screen capture and related recording controls. Useful for examining a native capture workflow when producing reproducible demos or test evidence.
+- [SBSObservation: A Swift Observation Framework Compatible with iOS 12](https://l.fatbobman.com/w0100-08) — Fatbobman’s Swift Weekly · Issue 100 — Article · Topics: Observation & State Management · Performance · Swift
+  **Published:** `2025-09-01T12:03:36.183Z`
+  **NeKI brief:** Provides a small Swift-macro observation framework for UIKit applications that manages observation lifetimes automatically. Follow it when comparing macro-based observation with manual notification cleanup in projects supporting older iOS versions.
+- [Inspect & Optimize Image Decoding Timing in iOS](https://juniperphoton.substack.com/p/inspect-and-optimize-image-decoding) — Those Who Swift · Issue 228 — Article · Topics: Graphics, Media & Games · Performance
+  **Published:** `2025-08-20`
+  **NeKI brief:** Measures image-decoding timing in iOS. Useful for locating decoding work on the critical path and deciding whether image format, sizing, caching, or scheduling changes will improve responsiveness.
 - [Valkey](https://github.com/valkey-io/valkey) — Fatbobman’s Swift Weekly · Issue 97 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-08-11T12:04:06.619Z`
   **NeKI brief:** Valkey is a BSD-licensed, Redis-compatible high-performance key-value store forked from Redis 7.2.4. Use it when server-side caching or queues need Redis protocol compatibility without the later Redis licensing model.
@@ -897,15 +966,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [What Is a Mobile Platform Engineer](https://mobilesystemdesign.substack.com/p/what-is-a-mobile-platform-engineer) — Those Who Swift · Issue 225 — Article · Topics: Architecture · CI/CD & Automation · Performance
   **Published:** `2025-08-07`
   **NeKI brief:** Examines What Is a Mobile Platform Engineer, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [gpt-oss by OpenAI](https://github.com/openai/gpt-oss) — Those Who Swift · Issue 226 — Source repository · Topics: AI Development · Developer Tools · Performance
+  **Published:** `2025-08-06`
+  **NeKI brief:** Publishes OpenAI’s open-weight GPT models and related artifacts. Useful for inspecting model distribution and runtime integration details while keeping deployment, hardware, and licensing assumptions explicit.
 - [memory monitoring tool](https://github.com/egzonpllana/MemoryProfiler) — Fatbobman’s Swift Weekly · Issue 96 — Source repository · Topics: Developer Tools · Performance
   **Published:** `2025-08-04T12:03:39.737Z`
   **NeKI brief:** MemoryProfiler helps surface abnormal memory growth during iOS navigation and interaction. Use it to reproduce a suspected leak or retained graph before escalating to Instruments, rather than relying only on one-time memory snapshots.
-- [SwiftUI for Mac 2025](https://troz.net/post/2025/swiftui-mac-2025) — iOS Dev Weekly · Issue 720 — Article · Topics: Concurrency · Swift · SwiftUI
-  **Published:** `1st August 2025`
-  **NeKI brief:** Presents SwiftUI for Mac 2025, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [Horoscope](https://github.com/artemnovichkov/horoscope) — iOS Dev Tools · iOS Dev Tools: FreeTypeFramework, IGListKit, Horoscope — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
   **Published:** `2025-07-31T18:12:59.226Z`
   **NeKI brief:** Horoscope generates developer-oriented output with Apple's Foundation Models, making it a compact example of on-device model integration. Useful for inspecting prompt-to-result plumbing and the availability assumptions of current Apple AI APIs.
+- [Grok 4 & Grok 4 Heavy Launch](https://x.ai/news/grok-4) — Those Who Swift · Issue 223 — Article · Topics: AI Development · Performance
+  **Published:** `2025-07-16`
+  **NeKI brief:** Announces Grok 4 and Grok 4 Heavy. Useful for model-release context and capability comparison, with production suitability requiring independent evaluation.
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) — iOS Dev Tools · iOS Dev Tools: FluidAudio, PlayCover, FlashSpace — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Performance
+  **Published:** `2025-07-10T20:12:55.159Z`
+  **NeKI brief:** FluidAudio provides Swift audio and speech-processing components. Follow its source for concrete local inference or signal-processing workflows, while checking model requirements, performance characteristics, and supported Apple platforms.
 - [Understanding and Improving SwiftUI Performance](https://medium.com/airbnb-engineering/understanding-and-improving-swiftui-performance-37b77ac61896) — SwiftLee Weekly · Issue 278 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2025-07-01T14:14:53.000Z`
   **NeKI brief:** Explains Understanding and Improving SwiftUI Performance, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -921,6 +996,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift at Apple: Migrating the Password Monitoring Service from Java](https://www.swift.org/blog/swift-at-apple-migrating-the-password-monitoring-service-from-java) — Those Who Swift · Issue 217 — Article · Topics: Performance · Security & Privacy · Swift
   **Published:** `2025-06-18`
   **NeKI brief:** Describes Apple's migration of a password-monitoring service from Java to Swift, including server-side concurrency and operational considerations. Useful as a production case study for Swift beyond client applications.
+- [MMKV](https://github.com/Tencent/MMKV) — iOS Dev Tools · iOS Dev Tools: WinWinLinks, MMKV, Harmonize — Source repository · Topics: Cross-Platform & Web · Developer Tools · Performance
+  **Published:** `2025-05-08T14:22:48.081Z`
+  **NeKI brief:** MMKV provides fast key-value persistence backed by memory-mapped files. Follow its source for concrete serialization, synchronization, and storage behavior, then evaluate durability and cross-platform trade-offs before using it for application state.
 - [How to profile a SwiftUI app's performance?](https://www.youtube.com/watch?v=Dyh-ymg-qAo) — Those Who Swift · Issue 212 — Video · Topics: Performance · Swift · SwiftUI
   **Published:** `2025-04-30`
   **NeKI brief:** Profiles a SwiftUI app with Instruments to locate unexpected body reevaluations and slow code. The walkthrough covers collecting a representative trace, interpreting redraw behavior, and distinguishing measured bottlenecks from assumptions.
@@ -930,6 +1008,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using Instruments to profile a SwiftUI app](https://www.donnywals.com/using-instruments-to-profile-a-swiftui-app?ref=createwithswift.com) — Create with Swift · Issue 57 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2025-04-18T15:00:48.000Z`
   **NeKI brief:** Profiles a SwiftUI app with Instruments to connect view updates and runtime cost to measured workloads. Useful for replacing assumptions about rendering performance with trace evidence.
+- [or else](https://blog.gitbutler.com/why-is-git-autocorrect-too-fast-for-formula-one-drivers) — iOS Dev Weekly · Issue 705 — Tutorial · Topics: Developer Tools · Performance
+  **Published:** `28th March 2025`
+  **NeKI brief:** I know I say this every time I link to information about Instruments, but it’s an underused app because it can be seen as hard to get to grips with. So I was delighted to see Apple publish this new 90-minute tutorial. From the content of the two currently…
 - [Tracking Down Memory Leaks with Instruments](https://www.youtube.com/watch?v=j8y-LtRV4hM) — Those Who Swift · Issue 207 — Video · Topics: Graphics, Media & Games · Performance · Xcode
   **Published:** `2025-03-28`
   **NeKI brief:** Reproduces an older-iPad crash, enables Malloc Stack Logging, and uses Instruments' Leaks template to trace per-stroke Metal texture allocation. Reusing the texture resolves the memory growth and provides a concrete profiling workflow.
@@ -959,19 +1040,31 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Provides the public source repository for ZIP Foundation. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
 - [The Next Chapter in Swift Build Technologies](https://www.swift.org/blog/the-next-chapter-in-swift-build-technologies) — Those Who Swift · Issue 200 — Article · Topics: Performance · Swift
   **Published:** `2025-02-05`
-  **NeKI brief:** Discusses the direction of Swift build technologies and tooling. Use it for ecosystem context when planning build-system work, but keep implementation decisions grounded in the current Swift Package Manager and Xcode documentation.
+  **NeKI brief:** This commitment led Apple to open-sourcing Swift Build, a build engine that offers a comprehensive set of build rules for constructing Swift projects.
 - [Build High-Performance Chat Experiences Without the Hassle 🛠️](https://getstream.io/tutorials/ios-chat) — iOS CI Newsletter · Issue 58 — Tutorial · Topics: AI Development · Performance
   **Published:** `2024-12-29T00:00:00.000Z`
   **NeKI brief:** Walks through integrating Stream's chat SDK into an iOS app, including message UI and networking. Useful as an implementation reference when evaluating managed real-time messaging.
+- [Our Releases](https://imaginaryinstitute.gumroad.com/l/speculative-spatial-design-canvas?layout=profile&ref=createwithswift.com) — Create with Swift · Issue 42 — Article · Topics: Performance · Swift
+  **Published:** `2024-12-27T16:00:38.000Z`
+  **NeKI brief:** Our team of creatives has also released 5 projects this year that we’re incredibly proud of. Some to guide, some to explore and some just for fun. If you missed any of them, they’re available for download:
+- [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) — iOS Dev Tools · iOS Dev Tools: Compose Multiplatform, CoreStore, SourceKitten — Source repository · Topics: Cross-Platform & Web · Developer Tools · Performance
+  **Published:** `2024-12-05T17:49:51.669Z`
+  **NeKI brief:** Compose Multiplatform shares UI code across Apple and other supported platforms. Follow its repository for concrete composition, rendering, and platform-bridge patterns, while verifying current iOS support and interoperability trade-offs.
 - [Swift Package Index source code](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server) — iOS Dev Weekly · Issue 687 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `15th November 2024`
   **NeKI brief:** Examines open-source, focusing on georgios recommends the point-free swift-snapshot-testing which we also use to test the rendered html output from the…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Gravatar iOS SDK](https://github.com/Automattic/Gravatar-SDK-iOS) — iOS Dev Tools · iOS Dev Tools: Gravatar iOS SDK, GRDB, NetShears — Source repository · Topics: Developer Tools · Performance
+  **Published:** `2024-11-14T14:46:00.891Z`
+  **NeKI brief:** Gravatar iOS SDK provides Apple-platform integration for resolving and displaying Gravatar identities. Follow its repository for concrete networking, caching, and image-rendering choices, and verify its current package compatibility.
 - [📈 GitHub Actions metrics now available](https://github.blog/changelog/2024-10-31-actions-performance-metrics-in-public-preview) — iOS CI Newsletter · Issue 54 — Article · Topics: Developer Tools · Performance
   **Published:** `2024-11-03T00:00:00.000Z`
   **NeKI brief:** Examines GitHub Actions metrics now available in the context of Developer Tools and Performance. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Swift-CowBox](https://github.com/Swift-CowBox/Swift-CowBox) — Fatbobman’s Swift Weekly · Issue 54 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
   **Published:** `2024-10-21T12:03:34.069Z`
   **NeKI brief:** Swift-CowBox uses macros and copy-on-write wrappers to provide value-like behavior for reference-backed storage. Follow it when performance-sensitive models need controlled mutation semantics without duplicating large buffers.
+- [Suborbital](https://suborbital.io/) — iOS Dev Tools · iOS Dev Tools: UItesting.tools, XcodeSelectiveTesting, Suborbital — Article · Topics: Performance
+  **Published:** `2024-09-19T13:14:54.513Z`
+  **NeKI brief:** Suborbital provides developer tooling or infrastructure for deploying software. Follow its documentation for concrete build and deployment workflows, while checking supported runtimes and operational boundaries.
 - [💨 How a single Xcode setting can speed up your builds](https://pfandrade.me/blog/swift-build-times-and-module-verification) — iOS CI Newsletter · Issue 50 — Article · Topics: Performance · Swift · Xcode
   **Published:** `2024-09-08T00:00:00.000Z`
   **NeKI brief:** Presents swift build times and module verification for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -981,9 +1074,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Harnessing Mobile-Led Growth: The Case for Mobile App Performance](https://www.instabug.com/blog/harnessing-mobile-led-growth-the-case-for-mobile-app-performance) — iOS Dev Weekly · Issue 674 — Article · Topics: Performance · Product Design
   **Published:** `16th August 2024`
   **NeKI brief:** Presents harnessing mobile-led growth: the case for mobile app performance for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [latest update 2.0](https://touchlab.co/xcode-kotlin-2-0) — iOS Dev Tools · iOS Dev Tools: AnimationPlanner, Xcode-Kotlin, React-native-vision-camera — Article · Topics: Performance · Testing · Xcode
+  **Published:** `2024-08-01T16:50:45.265Z`
+  **NeKI brief:** Touchlab’s Xcode-Kotlin update describes integration changes for Kotlin development in Xcode. Follow it for concrete build and editor workflow details, while verifying toolchain compatibility independently.
+- [Software Engineer, iOS @ amo](https://amo.co/jobs?ashby_jid=eea9ddcc-19e8-4faa-ab03-f0d7b544c2e9) — iOS Dev Weekly · Issue 671 — Article · Topics: Architecture · Performance
+  **Published:** `26th July 2024`
+  **NeKI brief:** Examines Jobs. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [List or LazyVStack: Choosing the Right Lazy Container in SwiftUI](https://fatbobman.com/en/posts/list-or-lazyvstack?ref=createwithswift.com) — Create with Swift · Issue 22 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2024-07-19T16:00:03.000Z`
   **NeKI brief:** List and LazyVStack both defer row creation, but differ in recycling, platform behavior, system affordances, and measurement costs. The comparison gives a practical choice matrix instead of assuming one lazy container is universally faster.
+- [Usage](https://usage.pro/) — iOS Dev Tools · iOS Dev Tools: SemanticDiff, Usage, Astro — Article · Topics: Performance
+  **Published:** `2024-07-18T14:40:09.750Z`
+  **NeKI brief:** Usage is a macOS usage-monitoring utility. Follow it for concrete resource, application, or activity tracking behavior, while checking data collection, polling cost, and privacy boundaries.
 - [List or LazyVStack: Choosing the Right Lazy Container in SwiftUI](https://itnext.io/list-or-lazyvstack-choosing-the-right-lazy-container-in-swiftui-27f5b8272dae) — SwiftUI Weekly · SwiftUI Weekly - Issue #194 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2024-07-15T12:03:07.308Z`
   **NeKI brief:** Compares List and LazyVStack across styling, virtualization, and behavior. Useful for selecting a scrolling container based on interaction requirements rather than default convenience.
@@ -996,6 +1098,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [GeometryReader: Blessing or Curse?](https://fatbobman.com/en/posts/geometryreader-blessing-or-curse?ref=createwithswift.com) — Create with Swift · Issue 19 — Article · Topics: Swift · SwiftUI
   **Published:** `2024-06-29T15:00:59.000Z`
   **NeKI brief:** GeometryReader expands to its proposal and reports container coordinates, which can create feedback loops or surprising flexible layouts. This analysis is a practical diagnostic for deciding when preference keys or custom Layout are safer.
+- [The Fallacy of “Full-Stack” Observability Tools](https://www.instabug.com/blog/the-fallacy-of-full-stack-observability-tools) — iOS Dev Weekly · Issue 665 — Article · Topics: Performance
+  **Published:** `14th June 2024`
+  **NeKI brief:** Discover why mobile teams cannot achieve full-stack observability with a single, all-in-one solution and what they actually need to achieve true observability over their mobile apps and reliably deliver optimal performance. Learn more in this blog post.
 - [Debugging Animations](https://talk.objc.io/episodes/S01E405-debugging-animations?issue=031) — Fatbobman’s Swift Weekly · Issue 32 — Article · Topics: Developer Tools · Performance · Swift
   **Published:** `2024-05-20T12:02:52.341Z`
   **NeKI brief:** This objc.io episode demonstrates debugging SwiftUI animations through focused experiments and visual inspection. Follow it when diagnosing transaction or interpolation surprises, adapting the techniques to current SDK behavior.
@@ -1005,6 +1110,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Boost performance with the Accelerate framework](https://getstream.io/blog/accelerate-framework) — iOS Dev Weekly · Issue 661 — Article · Topics: Concurrency · Performance
   **Published:** `17th May 2024`
   **NeKI brief:** Presents boost performance with the accelerate framework for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [AppDab](https://appdab.app/) — iOS Dev Tools · iOS Dev Tools: AppDab, MessageKit, Stats — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
+  **Published:** `2024-05-16T13:45:55.601Z`
+  **NeKI brief:** AppDab is a native App Store Connect client for shipping beta builds, updating screenshots, and submitting apps for review. Its page is a concrete lead for automating recurring distribution tasks outside the web dashboard.
 - [How to avoid using AnyView in SwiftUI](https://tanaschita.com/swiftui-how-to-avoid-using-anyview?ref=createwithswift.com) — Create with Swift · Issue 7 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2024-04-05T15:00:37.000Z`
   **NeKI brief:** Shows alternatives to AnyView through generics, builders, and conditional composition. Useful for preserving static view types and avoiding type erasure where it would obscure layout or performance.
@@ -1014,10 +1122,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Complementing Unit Tests with Performance Checks](https://www.swift.org/blog/benchmarks) — iOS Dev Weekly · Issue 653 — Article · Topics: Performance · Swift · Testing
   **Published:** `22nd March 2024`
   **NeKI brief:** Presents complementing unit tests with performance checks for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Adopt a User-Centric Process and Elevate Your App](https://www.instabug.com/blog/winter-2024-product-updates) — iOS Dev Weekly · Issue 649 — Article · Topics: Performance
+  **Published:** `23rd February 2024`
+  **NeKI brief:** Examines Winter 2024 Updates: Adopt a User-Centric Process to Elevate Your App | Luciq. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [to read the full release notes](https://github.com/actions/upload-artifact/blob/main/README.md) — iOS CI Newsletter · Issue 31 — Source repository · Topics: Developer Tools · Performance
   **Published:** `2023-12-17T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for to read the full release notes, relevant to Developer Tools and Performance. Inspect its implementation, open issues, and release state before adopting the approach.
-- [Mobile Developer at Match Profiler](https://www.buscojobs.pt/mobile-developer-m-f-remote-ID-16716072) — iOS Dev Tools · 🔨 Codye, DisplayBuddy, Backup Status — Article · Topics: Performance
+- [Mobile Developer at Match Profiler](https://www.buscojobs.pt/mobile-developer-m-f-remote-ID-16716072) — iOS Dev Tools · 🔨 Codye, DisplayBuddy, Backup Status - iOS Dev Tools — Article · Topics: Performance
   **Published:** `2023-12-07T16:16:37.261Z`
   **NeKI brief:** This Buscojobs listing advertises a remote mobile-developer role. Use it as a time-sensitive hiring lead, verifying employer identity, location, contract terms, technology expectations, and application status directly with the recruiting organization.
 - [Alternative to Spacer](https://david.y4ng.fr/the-alternative-to-swiftui-spacer?ref=ioscodereview.com) — iOS Code Review · Issue 60 — Article · Topics: Performance · Swift · SwiftUI
@@ -1047,6 +1158,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Sensei](https://cindori.com/sensei) — iOS Dev Tools · Introducing Codeshare, Sensei, ProfileMe — Article · Topics: Performance
   **Published:** `2023-09-28T13:10:04.363Z`
   **NeKI brief:** Sensei provides a customizable macOS material-blur view that goes beyond NSVisualEffectView's public configuration surface. Use it when a desktop UI needs controlled materials, while isolating the visual dependency from core application logic.
+- [ProfileMe](https://www.profileme.dev/) — iOS Dev Tools · Introducing Codeshare, Sensei, ProfileMe — Article · Topics: Developer Tools · Performance
+  **Published:** `2023-09-28T13:10:04.363Z`
+  **NeKI brief:** ProfileMe provides a profile or developer-presence page workflow. Follow it for concrete identity and portfolio presentation behavior, while distinguishing promotional context from technical resources.
 - [⚡️ ETTrace: Faster performance debugging](https://swiftrocks.com/faster-performance-debugging-with-ettrace) — iOS CI Newsletter · Issue 24 — Article · Topics: Developer Tools · Performance · Swift
   **Published:** `2023-09-10T00:00:00.000Z`
   **NeKI brief:** Examines ETTrace: Faster performance debugging in the context of Developer Tools and Performance. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -1077,6 +1191,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [30,000 lines of SwiftUI in production later: We love it but you know there was going to be a “but”](https://blog.timing.is/swiftui-production-experience-problems-solutions-performance-tips) — SwiftUI Weekly · SwiftUI Weekly - Issue #129 — Article · Topics: App Distribution & Store Operations · Swift · SwiftUI
   **Published:** `2023-01-30T11:20:24.661Z`
   **NeKI brief:** Reports production SwiftUI performance problems and the remedies used to diagnose them. Useful as a field-tested checklist for investigating rendering cost, navigation behavior, and architectural friction beyond small sample projects.
+- [Balance Stability, Performance, and Feature Development with Instabug](https://www.instabug.com/product/app-performance-monitoring) — iOS Dev Weekly · Issue 587 — Article · Topics: Concurrency · Performance
+  **Published:** `2nd December 2022`
+  **NeKI brief:** Discusses Balance Stability, Performance, and Feature Development with Instabug, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
 - [‎Empower Apps: Behind the Scenes of SwiftUI.](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3BvZGNhc3RzLmFwcGxlLmNvbS91cy9wb2RjYXN0L2lkMTQzNzQzNTM5Mj9pPTEwMDA1ODUzMzUxNDcmdXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiI1MDE2ODcwNy0xOWU2LTQ5ZWMtYTMwZS1kMzQ1ODk4YzkzOTkiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiYmQ5NjczNjUtNWFhMC00YjM5LTk1ZjQtMmEwZWI2ODA1MmEzIiwiaWF0IjoxNjc0MDYyNTU2LjksImlzcyI6Im9yY2hpZCJ9.mFD5gTgP8ji8ehZv_6noqd5XdLWSwtu0pJF0pBQfYas) — SwiftUI Weekly · SwiftUI Weekly - Issue #121 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2022-11-21T12:42:39.000Z`
   **NeKI brief:** Features an Empower Apps episode about the engineering decisions behind a SwiftUI application. Use the production discussion to question architecture, performance, and platform trade-offs rather than treating a showcased implementation as a drop-in recipe.
@@ -1125,30 +1242,54 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Better performance with canvas in SwiftUI](https://swdevnotes.com/swift/2022/better-performance-with-canvas-in-swiftui) — iOS Dev Weekly · Issue 548 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `4th March 2022`
   **NeKI brief:** Explores Better performance with canvas in SwiftUI, focusing on the article discusses enjoyed this article from eric callanan on. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Profiling binary size on iOS using Bloaty](https://asifmohd.github.io/ios/2022/02/03/bloaty-ios-introduction.html) — iOS Dev Weekly · Issue 545 — Article · Topics: Cross-Platform & Web · Developer Tools · Performance
+  **Published:** `11th February 2022`
+  **NeKI brief:** Examines I’ve been using this tool called Bloaty McBloatface1 to attribute the contribution of each swift module or file to our app’s binary. And it has worked out really well for me, the C. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Structural identity in SwiftUI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3N3aWZ0d2l0aG1hamlkLmNvbS8yMDIxLzEyLzA5L3N0cnVjdHVyYWwtaWRlbnRpdHktaW4tc3dpZnR1aS8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiI0NjgyOTBiZS05YzgzLTRkMjEtOGQyMi0wYjZlZDE0MmMyN2IiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiODVjN2Q2MTItZDI1My00M2RjLTliMmYtYTJhMzgzOTM4MmM0IiwiaWF0IjoxNjc0MDYyNjE3LjUzMSwiaXNzIjoib3JjaGlkIn0.sP5fjVe1QaDdit-zNS1fkeM8DS8nqZXsf8qKsv-h1x8) — SwiftUI Weekly · SwiftUI Weekly - Issue #87 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2021-12-20T16:53:23.000Z`
   **NeKI brief:** Explains structural identity and how conditional view composition affects state lifetime and reuse. Useful for diagnosing disappearing state, unexpected transitions, and performance issues caused by changing view structure.
 - [The world’s first virtualized M1 CI/CD environment on Bitrise](https://www.bitrise.io/m1-preregister) — iOS Dev Weekly · Issue 538 — Article · Topics: CI/CD & Automation · Performance · Testing
   **Published:** `17th December 2021`
   **NeKI brief:** Explores The world’s first virtualized M1 CI/CD environment on Bitrise, focusing on optimized for speed, stability, and extensibility. the performance of apple. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Monitoring HTTP Traffic with Instruments](https://www.raywenderlich.com/27390649-monitoring-http-traffic-with-instruments) — iOS Dev Weekly · Issue 537 — Article · Topics: Developer Tools · Performance · Security & Privacy
+  **Published:** `10th December 2021`
+  **NeKI brief:** The tutorial explains how to monitor an iOS application's HTTP traffic with Instruments and use the resulting data during network debugging.
+- [Stream Releases v4.0 of its iOS Chat SDK](https://getstream.io/blog/chat-ios-sdk-v4) — iOS Dev Weekly · Issue 533 — Article · Topics: Performance · Testing
+  **Published:** `12th November 2021`
+  **NeKI brief:** Explains Stream Releases v4.0 of its iOS Chat SDK, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [Swift.org - API Design Guidelines](https://swift.org/documentation/api-design-guidelines?ref=ioscodereview.com) — iOS Code Review · Issue 7 — Article · Topics: Code Quality · Performance · Swift
   **Published:** `2021-09-16T10:10:03.000Z`
   **NeKI brief:** Examines API guidelines, focusing on ash furrow with a great article on the flexibility swift has around naming. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Testing your mobile app internally isn’t enough to ensure its quality](https://instabug.com/product/app-performance-monitoring) — iOS Dev Weekly · Issue 517 — Article · Topics: Graphics, Media & Games · Performance · Testing
   **Published:** `23rd July 2021`
   **NeKI brief:** Explores Testing your mobile app internally isn’t enough to ensure its quality, focusing on whether it’s a crash, slow screen transitions, slow network calls. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Find Your Next iOS Dev Job Through Hired](https://hired.com/join) — iOS Dev Weekly · Issue 497 — Article · Topics: Developer Career & Practice · Performance
+  **Published:** `5th March 2021`
+  **NeKI brief:** Hired brings job offers to you, so you can stop wasting your time applying. Apply to 6,000+ companies at once on the platform. 🤖
 - [Profiling SwiftUI app using Instruments](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3N3aWZ0d2l0aG1hamlkLmNvbS8yMDIxLzAxLzIwL3Byb2ZpbGluZy1zd2lmdHVpLWFwcC11c2luZy1pbnN0cnVtZW50cy8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiJmNDMyNzc3Ny02M2Q2LTQ1MDQtOWVkMC1lYTgwYzM4ZmVlZDUiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiMjVjODkyZTUtYTM5OC00YWVmLWFkMWEtMzYzZTkzNWE1OGJhIiwiaWF0IjoxNjc0MDYyNjc5LjQ1OSwiaXNzIjoib3JjaGlkIn0.yFE0lXxlheNBniRXd2cVmx609ueoWFP89URqNlmr9lo) — SwiftUI Weekly · SwiftUI Weekly - Issue #43 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2021-01-26T13:13:48.000Z`
   **NeKI brief:** Uses Instruments to profile SwiftUI performance. Use it when a view-update or rendering problem needs measured call stacks and allocation evidence instead of intuition about declarative UI cost.
+- [Find Your Next iOS Dev Job Through Vettery](https://www.vettery.com/tech) — iOS Dev Weekly · Issue 489 — Article · Topics: Developer Career & Practice · Performance
+  **Published:** `8th January 2021`
+  **NeKI brief:** This historical technology-jobs URL now redirects to the recruiting company’s corporate story page. It is useful only for explaining the link’s current destination; it should not be treated as technical reading or a live job listing.
 - [Getting Started with Instruments](https://www.raywenderlich.com/16126261-instruments-tutorial-with-swift-getting-started) — iOS Dev Weekly · Issue 489 — Tutorial · Topics: Performance · Swift
   **Published:** `8th January 2021`
   **NeKI brief:** Covers Getting Started with Instruments, focusing on testing, diagnostics, and feedback quality. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
+- [Junda Ong wrote about three new Apple tech talks on Instruments](https://samwize.com/2020/12/24/improve-ui-performance-render-hitch) — iOS Dev Weekly · Issue 489 — Tutorial · Topics: Performance
+  **Published:** `8th January 2021`
+  **NeKI brief:** Explains how to improve UI performance by investigating render hitches and the frame-time work behind visible stutter. Useful for connecting Instruments measurements with concrete SwiftUI or UIKit rendering decisions.
+- [Diversity in Swift](https://swift.org/blog/diversity-in-swift) — iOS Dev Weekly · Issue 487 — Article · Topics: Developer Career & Practice · Performance · Swift
+  **Published:** `18th December 2020`
+  **NeKI brief:** Examines 6 years ago, Swift was announced. In the years since, a thriving community has emerged around a shared passion for building and using the Swift programming language. This community. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Motion](https://github.com/b3ll/Motion) — iOS Dev Weekly · Issue 487 — Source repository · Topics: Developer Tools · Performance
   **Published:** `18th December 2020`
   **NeKI brief:** Examines Motion, focusing on performance-focused animation library from adam bell? that has to be worth checking out. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Decomposed](https://github.com/b3ll/Decomposed) — iOS Dev Weekly · Issue 487 — Source repository · Topics: Developer Tools · Performance
   **Published:** `18th December 2020`
   **NeKI brief:** Examines Decomposed, focusing on performance-focused animation library from adam bell? that has to be worth checking out. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [in terms of performance](https://www.macrumors.com/2020/11/11/m1-macbook-air-first-benchmark) — iOS Dev Weekly · Issue 482 — Article · Topics: Hardware & Devices · Performance
+  **Published:** `13th November 2020`
+  **NeKI brief:** Examines Apple introduced the first MacBook Air, MacBook Pro, and Mac mini with M1 Apple Silicon chips yesterday, and as of today, the first benchmark of the new chip appears to be showing. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Benchmarking Your App with MetricKit](https://www.andyibanez.com/posts/benchmarking-app-metrickit) — iOS Dev Weekly · Issue 477 — Article · Topics: Performance
   **Published:** `9th October 2020`
   **NeKI brief:** Covers Benchmarking Your App with MetricKit, focusing on testing, diagnostics, and feedback quality. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
@@ -1170,6 +1311,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [more information here](http://trycombine.com/posts/announcing-timelane-combine) — iOS Dev Weekly · Issue 445 — Article · Topics: Combine & Reactive Programming · Concurrency · Performance
   **Published:** `28th February 2020`
   **NeKI brief:** Examines more information here, offering practical guidance on Swift engineering practice. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [iOS Performance Tips](https://www.fadel.io/blog/posts/ios-performance-tips-you-probably-didnt-know) — iOS Dev Weekly · Issue 444 — Article · Topics: Performance
+  **Published:** `21st February 2020`
+  **NeKI brief:** Explains iOS Performance Tips, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [Exploring SwiftUI Apple Watch Performance](https://david-smith.org/blog/2020/01/07/exploring-swiftui-apple-watch-performance) — iOS Dev Weekly · Issue 438 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `10th January 2020`
   **NeKI brief:** Examines Exploring SwiftUI Apple Watch Performance, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
@@ -1179,6 +1323,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Caching in Swift](https://www.swiftbysundell.com/posts/caching-in-swift) — iOS Dev Weekly · Issue 419 — Article · Topics: Foundation & Data Formats · Performance · Swift
   **Published:** `30th August 2019`
   **NeKI brief:** Examines Caching in Swift, offering practical guidance on networking and asynchronous reliability. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [ZippyJSON](https://github.com/michaeleisel/ZippyJSON) — iOS Dev Weekly · Issue 419 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Performance
+  **Published:** `30th August 2019`
+  **NeKI brief:** NSJSONSerialization is probably fast enough for 99% of cases, and I’d recommend using it whenever possible. However, if you’re often parsing a lot of JSON then the performance wins in this library from Michael Eisel might be what you need.
 - [Combine vs. RxSwift: Should you switch to Combine?](https://quickbirdstudios.com/blog/combine-vs-rxswift) — iOS Dev Weekly · Issue 416 — Article · Topics: Combine & Reactive Programming · Swift · Testing
   **Published:** `9th August 2019`
   **NeKI brief:** Covers Combine vs. RxSwift: Should you switch to Combine?, focusing on Swift and Apple-platform engineering practice. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
@@ -1188,9 +1335,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [this test](https://gist.github.com/mattgallagher/eaa5d3242d83360a52c45c9706479e34) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
   **Published:** `28th June 2019`
   **NeKI brief:** Examines this test, focusing on when i saw this tweet i did wonder whether we were going to find that the true cost of a great api was runtime…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [Why more developers use Kumulos for Mobile App Analytics](http://go.thoughtleaders.io/1034520190621) — iOS Dev Weekly · Issue 409 — Article · Topics: Performance
+  **Published:** `21st June 2019`
+  **NeKI brief:** Examines Discover Optimove's Positionless Marketing Platform—an AI decisioning engine empowering marketers to execute personalized campaigns independently & at scale. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Using Instruments to profile your SwiftUI code](https://www.hackingwithswift.com/quick-start/swiftui/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts) — iOS Dev Weekly · Issue 408 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `14th June 2019`
   **NeKI brief:** Presents a concrete implementation of profile your SwiftUI code is via Instruments. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
+- [TORoundedButton](https://github.com/TimOliver/TORoundedButton) — iOS Dev Weekly · Issue 402 — Source repository · Topics: Developer Tools · Performance
+  **Published:** `3rd May 2019`
+  **NeKI brief:** Examines A high-performance button control with rounded corners for iOS. - TimOliver/TORoundedButton. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Solving duplicated / repeating cells in Table view](https://fluffy.es/solve-duplicated-cells) — iOS Dev Weekly · Issue 385 — Article · Topics: Performance
+  **Published:** `4th January 2019`
+  **NeKI brief:** Examines You followed a tutorial to create a simple table view, you managed to create a custom cell with some labels and images, it seems to go well. But as soon as you scroll it, you notic. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Continuous Delivery for your profile picture](https://krausefx.com/blog/continuous-delivery-for-your-profile-picture) — iOS Dev Weekly · Issue 385 — Article · Topics: CI/CD & Automation · Performance
+  **Published:** `4th January 2019`
+  **NeKI brief:** The article describes an automated continuous-delivery workflow for generating and deploying a profile picture.
+- [Measuring Your App’s Memory Usage with Instruments](https://swiftdevjournal.com/measuring-your-apps-memory-usage-with-instruments) — iOS Dev Weekly · Issue 382 — Article · Topics: Performance · Swift
+  **Published:** `14th December 2018`
+  **NeKI brief:** Examines Measuring Your App’s Memory Usage with Instruments · Swift Dev Journal. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Measuring iOS scroll performance is tough](http://thisiskyle.me/posts/measuring-ios-scroll-performance-is-tough-use-this-to-make-it-simple-and-automated.html) — iOS Dev Weekly · Issue 380 — Article · Topics: Cross-Platform & Web · Performance · Testing
   **Published:** `30th November 2018`
   **NeKI brief:** Examines Measuring iOS scroll performance is tough, offering practical guidance on Swift engineering practice. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
@@ -1200,12 +1362,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [CSProgress](https://github.com/CharlesJS/CSProgress) — iOS Dev Weekly · Issue 372 — Source repository · Topics: Developer Tools · Performance · Personal Essays
   **Published:** `5th October 2018`
   **NeKI brief:** Examines CSProgress, focusing on it’s ironic that using nsprogress to report on your long running task might actually make it slower. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Reverse Engineering Instruments’ File Format](http://jamie-wong.com/post/reverse-engineering-instruments-file-format) — iOS Dev Weekly · Issue 358 — Article · Topics: Performance
+  **Published:** `29th June 2018`
+  **NeKI brief:** Reverse-engineers the Instruments file format to understand how profiling data is structured. Follow it for concrete binary-format and diagnostics investigation techniques, not as a supported public API contract.
 - [Xcode’s Secret Performance Tests](http://indiestack.com/2018/02/xcodes-secret-performance-tests) — iOS Dev Weekly · Issue 341 — Article · Topics: Performance · Testing · Xcode
   **Published:** `2nd March 2018`
   **NeKI brief:** Explores Xcode’s Secret Performance Tests in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [ProvisionQL](https://github.com/ealeksandrov/ProvisionQL) — iOS Dev Weekly · Issue 340 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Performance
+  **Published:** `23rd February 2018`
+  **NeKI brief:** Examines Quick Look plugin for mobile apps and provisioning profiles - ealeksandrov/ProvisionQL. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Lifetime Tracker](https://github.com/krzysztofzablocki/LifetimeTracker) — iOS Dev Weekly · Issue 320 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Performance
+  **Published:** `29th September 2017`
+  **NeKI brief:** Examines Find retain cycles / memory leaks sooner. Contribute to krzysztofzablocki/LifetimeTracker development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Container like Devops for iOS development environment](https://veertu.com/getting-started-anka-trials) — iOS Dev Weekly · Issue 318 — Article · Topics: Performance · Testing
   **Published:** `15th September 2017`
   **NeKI brief:** Explores Container like Devops for iOS development environment in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [Creating and Assigning Certificates and Profiles](http://martiancraft.com/blog/2017/07/demystifying-provisioning-part2) — iOS Dev Weekly · Issue 312 — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
+  **Published:** `4th August 2017`
+  **NeKI brief:** In part two of his two-part series, Cory Bohon covers in detail the process of creating and assigning certificates and signing an app. If you’re new to iOS development or want a recap of the basics, also check out part one! 😃
 - [Manual Provisioning](http://martiancraft.com/blog/2017/07/manual-provisioning) — iOS Dev Weekly · Issue 310 — Article · Topics: App Distribution & Store Operations · Performance · Xcode
   **Published:** `21st July 2017`
   **NeKI brief:** Xcode 9 manual signing requires an explicit team, profile, and certificate selection, yet Xcode may still request missing certificates. Treat manual provisioning as a controlled configuration workflow and verify portal assets whenever signing behavior looks automatic.
@@ -1242,12 +1416,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [has been fixed](https://github.com/apple/swift/commit/2cdd7d64e1e2add7bcfd5452d36e7f5fc6c86a03) — iOS Dev Weekly · Issue 249 — Source repository · Topics: Developer Tools · Performance · Swift
   **Published:** `6th May 2016`
   **NeKI brief:** Provides the has been fixed source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Xcode plugin](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode) — iOS Dev Weekly · Issue 249 — Source repository · Topics: Developer Tools · Performance · Xcode
+  **Published:** `6th May 2016`
+  **NeKI brief:** In the article I’m linking to here, Robert Gummesson has found some other performance hiccups (and workarounds) and also has a useful Xcode plugin for easily measuring compiler performance. If you’re experiencing slow build times on your project it might be…
 - [Masterclass: Code signing & Provisioning profiles](http://aplus.rs/2016/masterclass-code-signing) — iOS Dev Weekly · Issue 246 — Article · Topics: App Distribution & Store Operations · Performance
   **Published:** `15th April 2016`
   **NeKI brief:** Explains Masterclass Code signing Provisioning profiles with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [Dynamic Library Loading Performance in iOS 9.3](https://github.com/stepanhruda/dyld-image-loading-performance) — iOS Dev Weekly · Issue 243 — Source repository · Topics: Developer Tools · Performance
+  **Published:** `25th March 2016`
+  **NeKI brief:** Examines This repository originally started life as a sample project showing how slow dynamic libraries were to load. Seems like iOS 9.3 fixes the issue and now it’s a joyous thank you message to the team for fixing it. 🎉 Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Profiling your Swift compilation times](http://irace.me/swift-profiling) — iOS Dev Weekly · Issue 234 — Article · Topics: Performance · Swift
   **Published:** `22nd January 2016`
   **NeKI brief:** Explains Profiling your Swift compilation times with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [Shoot the Heap](http://www.russbishop.net/shoot-the-heap) — iOS Dev Weekly · Issue 223 — Article · Topics: Performance
+  **Published:** `6th November 2015`
+  **NeKI brief:** Uses heap behavior and memory debugging as the subject of a practical engineering discussion. Useful for sharpening mental models around allocation and failure diagnosis, with exact runtime behavior checked against current tools.
 - [SwiftGo](https://github.com/Zewo/SwiftGo) — iOS Dev Weekly · Issue 219 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `9th October 2015`
   **NeKI brief:** Provides the SwiftGo source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -1257,30 +1440,54 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Fighting Log Entropy](http://spin.atomicobject.com/2015/07/02/fight-logging-entropy) — iOS Dev Weekly · Issue 206 — Article · Topics: Developer Tools · Performance
   **Published:** `10th July 2015`
   **NeKI brief:** Explains Fighting Log Entropy with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [How To Use The 3 Instruments You Should Be Using](http://www.xmcgraw.com/how-to-use-the-3-instruments-you-should-be-using) — iOS Dev Weekly · Issue 183 — Article · Topics: Performance
+  **Published:** `30th January 2015`
+  **NeKI brief:** You are measuring your app’s performance using Instruments right? If you aren’t, or for anyone new to iOS development, David McGraw has a nice intro that covers three of the Instruments you should be using to measure performance and find problems in your apps.
 - [Native navigation, web content](https://signalvnoise.com/posts/3743) — iOS Dev Weekly · Issue 175 — Article · Topics: Performance
   **Published:** `5th December 2014`
   **NeKI brief:** Explains Native navigation web content with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [Form](http://www.relativewave.com/form) — iOS Dev Weekly · Issue 162 — Article · Topics: Apple Platform Ecosystem · Performance
+  **Published:** `5th September 2014`
+  **NeKI brief:** The former Relative Wave Form URL now redirects to Material Design guidance. Useful as redirect history; the current destination should be assessed as design documentation, not the original tool page.
 - [Apples to apples](http://www.jessesquires.com/apples-to-apples-part-two) — iOS Dev Weekly · Issue 160 — Article · Topics: Performance · Swift · Testing
   **Published:** `22nd August 2014`
   **NeKI brief:** Explains Apples to apples with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
 - [Building Paper](https://www.youtube.com/watch?v=OiY1cheLpmI&feature=youtu.be) — iOS Dev Weekly · Issue 143 — Video · Topics: Graphics, Media & Games · Performance
   **Published:** `25th April 2014`
   **NeKI brief:** Collects Facebook Paper engineering sessions on contextual tutorials, maintainable UI code, spring animation, advanced gestures, and asynchronous interfaces. Useful historical context for the techniques used to keep a highly interactive app responsive.
+- [System-Wide Custom Fonts on iOS](http://daringfireball.net/linked/2014/03/31/anyfont) — iOS Dev Weekly · Issue 140 — Article · Topics: Performance
+  **Published:** `4th April 2014`
+  **NeKI brief:** Clever use of the enterprise profiles feature of iOS to allow any compatible font to be installed onto your iOS devices. This is a good reason to start enumerating fonts in your apps instead of offering a predefined list. iWork picks up these fonts already…
 - [UIColor-Pantone](https://github.com/CaptainRedmuff/UIColor-Pantone) — iOS Dev Weekly · Issue 118 — Source repository · Topics: Developer Tools · Performance
   **Published:** `1st November 2013`
   **NeKI brief:** Provides the UIColor-Pantone source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [NucliOS iOS Controls - Tools for Native iOS Applications](http://www.infragistics.com/nuclios-download) — iOS Dev Weekly · Issue 115 — Article · Topics: Performance
+  **Published:** `11th October 2013`
+  **NeKI brief:** Introducing your solution for a world gone BYOD (Bring Your Own Device): NucliOS. Our newest toolset delivers the core controls you need to create high performance, highly visual, totally native iPad and iPhone applications. Built with performance and style…
 - [ARC vs. MRC Performance](http://mjtsai.com/blog/2013/09/10/arc-vs-mrc-performance) — iOS Dev Weekly · Issue 111 — Article · Topics: Objective-C & Cocoa · Performance
   **Published:** `13th September 2013`
   **NeKI brief:** Explains ARC vs. MRC Performance with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [Why mobile web apps are slow](http://sealedabstract.com/rants/why-mobile-web-apps-are-slow) — iOS Dev Weekly · Issue 102 — Article · Topics: Cross-Platform & Web · Objective-C & Cocoa · Performance
+  **Published:** `12th July 2013`
+  **NeKI brief:** The article analyzes performance problems in mobile web applications and explains the technical reasons users experience them as slow.
 - [25 iOS App Performance Tips & Tricks](http://www.raywenderlich.com/31166/25-ios-app-performance-tips-tricks) — iOS Dev Weekly · Issue 88 — Article · Topics: Objective-C & Cocoa · Performance
   **Published:** `5th April 2013`
   **NeKI brief:** Explains 25 iOS App Performance Tips Tricks with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
 - [Hookshot](https://github.com/Cue/hookshot) — iOS Dev Weekly · Issue 78 — Source repository · Topics: Developer Tools · Performance
   **Published:** `25th January 2013`
   **NeKI brief:** Provides the Hookshot source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [My Sales & Experience in the Education App Market - 2012 Report](http://blog.lescapadou.com/2012/12/my-sales-experience-in-education-app.html) — iOS Dev Weekly · Issue 73 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Performance
+  **Published:** `21st December 2012`
+  **NeKI brief:** Examines This detailed report from L’Escapadou on their performance over the past year selling educational apps on iOS. There are some good nuggets of information in there we can all use as well and it’s always nice to hear about Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Coda and Sandboxing](http://www.panic.com/blog/2012/12/coda-and-sandboxing) — iOS Dev Weekly · Issue 72 — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
   **Published:** `14th December 2012`
   **NeKI brief:** Explains Coda and Sandboxing with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [iOS Controls by Infragisitcs](http://www.infragistics.com/products/ios?cm_campid=C86080A3-4E3E-E211-8268-000C295BAB59) — iOS Dev Weekly · Issue 71 — Article · Topics: Performance
+  **Published:** `7th December 2012`
+  **NeKI brief:** Introducing your solution for a world gone BYOD (Bring Your Own Device): NucliOS. Our newest toolset delivers the core controls you need to create high performance, highly visual, totally native iPad and iPhone applications. Built with performance and style…
+- [UI Screen Shooter](https://github.com/jonathanpenn/ui-screen-shooter) — iOS Dev Weekly · Issue 71 — Source repository · Topics: Developer Tools · Localization · Performance
+  **Published:** `7th December 2012`
+  **NeKI brief:** Jonathan Penn with a interesting use of Instruments and UIAutomation. Write a script to navigate through your app and take screenshots at the appropriate places. Then run the script for all resolutions and localisations. This will be a huge timesaver if you…
 - [Flags: very useful when debugging with Instruments](http://invasivecode.tumblr.com/post/18677362251/flags-very-useful-when-debugging-with) — iOS Dev Weekly · Issue 70 — Article · Topics: Developer Tools · Performance
   **Published:** `30th November 2012`
   **NeKI brief:** Explains Flags very useful when debugging with Instruments with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly.
@@ -1293,9 +1500,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The Three Keys to iPhone App Performance](http://inessential.com/2012/04/26/the_three_keys_to_iphone_app_performance) — iOS Dev Weekly · Issue 39 — Article · Topics: Performance
   **Published:** `27th April 2012`
   **NeKI brief:** Explains The Three Keys to iPhone App Performance with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly.
+- [Apple Foundation Models: Hybrid AI with Dynamic Profiles](https://go.peterfriese.dev/what-i-am-working-on-hybrid-ai-apple-foundation-models-gemini?s=web&t=ext) — Not only Swift · Issue 101 — Article · Topics: AI Development · Foundation & Data Formats · Performance
+  **NeKI brief:** Demonstrates a LanguageModelSession.DynamicProfile router that measures prompt token requirements before choosing the on-device system model or Firebase Gemini. It includes a fallback path and illustrates keeping one session API while varying provider, context capacity, and inference cost.
+- [SwiftUI's ContentBuilder explained](https://go.peterfriese.dev/swiftui-contentbuilder-explained?s=web&t=ext) — Not only Swift · Issue 101 — Article · Topics: AI Development · Swift · SwiftUI
+  **NeKI brief:** Explains how SwiftUI’s ContentBuilder separates result construction from validation through conditional-conformance structure, reducing type-checking work. Benchmarks connect this compiler design to practical builder performance, making it useful when diagnosing complex conditional SwiftUI content.
 - [SwiftUI Redraw System In Depth](https://medium.com/@matgnt/swiftui-redraw-system-in-depth-attributes-recomputation-diffing-and-observation-66b469fdcada) — Not only Swift · Issue 88 — Article · Topics: Performance · Swift · SwiftUI
   **NeKI brief:** Presents a concrete implementation of SwiftUI Redraw System In Depth. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
 - [An Apple Intelligence-style glow effect in SwiftUI](https://livsycode.com/swiftui/an-apple-intelligence-style-glow-effect-in-swiftui) — Not only Swift · Issue 88 — Article · Topics: AI Development · Swift · SwiftUI
-  **NeKI brief:** Creates an Apple Intelligence-style glow effect in SwiftUI. Use it as a rendering experiment for animated gradients and masks, while considering GPU cost, reduced-motion preferences, contrast, and a non-animated fallback.
+  **NeKI brief:** Artem demonstrates how to create an “Apple Intelligence” style glow effect in SwiftUI by applying visual effects (like blurs and overlays) to achieve a glowing UI appearance.
 - [Open Symbols: SF Symbols from Popular Icon Sets](https://github.com/buzap/open-symbols) — Not only Swift · Issue 76 — Source repository · Topics: Developer Tools · Performance · Swift
   **NeKI brief:** Provides the public source repository for Open Symbols: SF Symbols from Popular Icon Sets. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.

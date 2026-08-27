@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Functional abstractions, compositional design, algebraic data types, and function-oriented Swift techniques.
 
-- Last collected: `2026-08-05T08:59:22Z`
-- Indexed links shown: **17**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **23**
 
 ## Direct-source reading
 
@@ -51,6 +51,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [type-driven design](https://swiftology.io/collections/type-driven-design) — Fatbobman’s Swift Weekly · Issue 118 — Article · Topics: Functional Programming · Swift
   **Published:** `2026-01-12T12:03:07.042Z`
   **NeKI brief:** Uses type-driven design to encode domain invariants in Swift, offering patterns for making invalid states harder to represent while weighing stronger modeling against API complexity and migration cost.
+- [Swifty Compiler](https://apps.apple.com/us/app/swifty-compiler/id1544749600) — iOS Dev Tools · iOS Dev tools: SwiftUI, Swifty Compiler, Periphery — Article · Topics: Functional Programming · Swift
+  **Published:** `2024-02-29T15:07:10.919Z`
+  **NeKI brief:** Swifty Compiler lets users write and run Swift code for algorithm tests, prototypes, and experiments on the go. Follow it for a concrete lightweight playground workflow outside a full Xcode project.
+- [A Combine Kickstart](https://editorscut.com/Blog/2021/02/04-Combine.html) — iOS Dev Weekly · Issue 493 — Article · Topics: Combine & Reactive Programming · Cross-Platform & Web · Functional Programming
+  **Published:** `5th February 2021`
+  **NeKI brief:** The page covers “A Combine Kickstart” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Simplifying Collection View Delegates with Functional Programming](http://danieltull.co.uk/blog/2018/04/13/simplifying-uicollectionviewflowlayout-delegate-method-usage-with-functional-programming) — iOS Dev Weekly · Issue 348 — Article · Topics: Functional Programming · Objective-C & Cocoa · Swift
+  **Published:** `20th April 2018`
+  **NeKI brief:** Explains Simplifying Collection View Delegates with Functional Programming, focusing on the concrete UIKit or iOS implementation technique and the trade-offs relevant to production apps.
+- [Learning From Our Elders](https://vimeo.com/204897590) — iOS Dev Weekly · Issue 289 — Video · Topics: Functional Programming · Graphics, Media & Games · Swift
+  **Published:** `24th February 2017`
+  **NeKI brief:** The Vimeo page provides the publicly readable video titled Learning From Our Elders and its associated description.
 - [Free video: Natural Swift](https://gumroad.com/l/natural-swift) — iOS Dev Weekly · Issue 286 — Article · Topics: Functional Programming · Graphics, Media & Games · Swift
   **Published:** `3rd February 2017`
   **NeKI brief:** Examines Free video: Natural Swift, focusing on what makes “swifty” swift? paul hudson from hacking with swift has produced a free video that teaches you how to use…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
@@ -60,6 +72,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Functional Programming in Swift](http://www.objc.io/books) — iOS Dev Weekly · Issue 171 — Article · Topics: Functional Programming · Swift
   **Published:** `7th November 2014`
   **NeKI brief:** Explains Functional Programming in Swift with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [Moya](https://github.com/AshFurrow/Moya) — iOS Dev Weekly · Issue 160 — Source repository · Topics: Developer Tools · Functional Programming · Objective-C & Cocoa
+  **Published:** `22nd August 2014`
+  **NeKI brief:** Examines Network abstraction layer written in Swift. Contribute to Moya/Moya development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [AlamoFire](https://github.com/Alamofire/Alamofire) — iOS Dev Weekly · Issue 160 — Source repository · Topics: Developer Tools · Functional Programming · Objective-C & Cocoa
   **Published:** `22nd August 2014`
   **NeKI brief:** Alamofire layers request construction, response validation, serialization, upload, and retry facilities over URLSession. Use it when those shared networking policies justify a dependency; otherwise compare its abstractions with direct URLSession code.
+- [swiftz](https://github.com/maxpow4h/swiftz) — iOS Dev Weekly · Issue 160 — Source repository · Topics: Developer Tools · Functional Programming · Swift
+  **Published:** `22nd August 2014`
+  **NeKI brief:** Examines What do you get if you cross AlamoFire, ReactiveCocoa and functional programming concepts (using swiftz)? Ash Furrow is experimenting. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.

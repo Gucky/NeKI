@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Intents, App Shortcuts, Siri, Spotlight, widgets, controls, and related system surfaces.
 
-- Last collected: `2026-08-05T09:59:47Z`
-- Indexed links shown: **113**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **132**
 
 ## Direct-source reading
 
@@ -194,7 +194,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using the Apple TV Siri Remote with Xcode tvOS Simulator](https://martiancraft.com/blog/2016/04/tv-remote) — MartianCraft · article catalogue
   **NeKI brief:** Connect a Siri Remote to the tvOS Simulator to exercise focus and remote input while debugging without a tethered device. Simulator interaction should still be checked against hardware, but it shortens the feedback loop for navigation behavior.
 - [What is the Apple Watch good for?](https://martiancraft.com/blog/2016/04/apple-watch-good) — MartianCraft · article catalogue
-  **NeKI brief:** Design wearable interactions around immediate notifications, compact current information, or one fast action. Surface the primary task on launch and defer navigation-heavy workflows to the phone, where screen space and latency make them less frustrating.
+  **NeKI brief:** Richard Turton takes his turn at defining what makes a good watch app. There’s been a few of these posts now and there’s definitely a consensus in the conclusions and yet still my watch remains virtually unused for anything other than the core functionality…
 - [The Force Quit Fallacy](https://martiancraft.com/blog/2016/02/force-quit-2) — MartianCraft · article catalogue
   **NeKI brief:** iOS normally suspends backgrounded apps without executing code, so removing them from the switcher rarely improves battery life and makes relaunch costlier. Force-quit only to recover a misbehaving app; let the system reclaim suspended processes.
 
@@ -202,31 +202,40 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 - [iOS 27, Your App, and Siri](https://www.swiftjectivec.com/siri-ai-for-ios027) — SwiftLee Weekly · Issue 329 — Article · Topics: AI Development · App Intents & System Surfaces · Swift
   **Published:** `2026-06-23T14:07:47.000Z`
-  **NeKI brief:** Discusses how iOS 27's Siri and AI changes affect app integration through App Intents and system surfaces. Use it to identify intent-driven opportunities, then validate availability and interaction rules in Apple's documentation.
+  **NeKI brief:** Jordan explains how iOS 27’s new Siri intelligence can work with your app’s data, covering AppEntity, app schemas, and APIs that help Siri understand and act on what’s currently on screen.
 - [iOS 27, Your App, and SiriHow do we think about Siri AI with iOS 27? Here’s how to make the most of new APIs.Jordan MorganJordan Morgan](https://www.swiftjectivec.com/siri-ai-for-ios027?ref=createwithswift.com) — Create with Swift · Issue 112 — Article · Topics: AI Development · App Intents & System Surfaces · Swift
   **Published:** `2026-06-20T15:00:55.000Z`
-  **NeKI brief:** Discusses how iOS 27's Siri and AI changes affect app integration through App Intents and system surfaces. Use it to identify intent-driven opportunities, then validate availability and interaction rules in Apple's documentation.
+  **NeKI brief:** Jordan explains how iOS 27’s new Siri intelligence can work with your app’s data, covering AppEntity, app schemas, and APIs that help Siri understand and act on what’s currently on screen.
 - [A Reusable Spotlight Onboarding Component In SwiftUI](https://livsycode.com/swiftui/a-reusable-spotlight-onboarding-component-in-swiftui) — Those Who Swift · Issue 263 — Article · Topics: App Intents & System Surfaces · Swift · SwiftUI
   **Published:** `2026-04-22`
-  **NeKI brief:** Builds a reusable SwiftUI spotlight onboarding component that highlights interface elements. Use it when designing guided discovery, keeping target geometry, overlay interaction, accessibility, and dismissal state separate from feature content.
+  **NeKI brief:** Artem shares how to build a reusable SwiftUI spotlight onboarding component that highlights views with a rounded cutout, positions an overlay card, and supports multi-step flows using anchors and PreferenceKey.
 - [SwiftMCP](https://github.com/Cocoanetics/SwiftMCP.git) — Fatbobman’s Swift Weekly · Issue 131 — Source repository · Topics: AI Development · App Intents & System Surfaces · Swift
   **Published:** `2026-04-13T12:03:12.522Z`
   **NeKI brief:** SwiftMCP uses Swift macros to build MCP servers and map App Intents into agent-callable tools. Use it when exposing existing app capabilities to agents while retaining a typed, auditable declaration of each operation.
-- [recent news around Gemini integration focuses solely on Siri](https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple) — Those Who Swift · Issue 250 — Article · Topics: AI Development · App Intents & System Surfaces · Xcode
-  **Published:** `2026-01-21`
-  **NeKI brief:** Examines recent news around Gemini integration focuses solely on Siri, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [a major shift in AI leadership](https://www.theguardian.com/technology/2025/dec/01/apple-ai-chief-john-giannandrea-steps-down) — Those Who Swift · Issue 252 — Article · Topics: AI Development · App Intents & System Surfaces · Apple Platform Ecosystem
+  **Published:** `2026-02-04`
+  **NeKI brief:** Reviews a major shift in AI leadership. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [Apple Chooses Google Gemini for Siri AI](https://www.theverge.com/ai-artificial-intelligence/860989/apple-google-gemini-siri-ai-deal-what-it-means) — Those Who Swift · Issue 249 — Article · Topics: AI Development · App Intents & System Surfaces
+  **Published:** `2026-01-14`
+  **NeKI brief:** Reviews Apple Chooses Google Gemini for Siri AI. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [Make your app visible with alternative app names](https://wesleydegroot.nl/blog/inalternativeappnames) — iOS Dev Weekly · Issue 737 — Article · Topics: App Intents & System Surfaces
+  **Published:** `19th December 2025`
+  **NeKI brief:** Examines With INAlternativeAppNames, you can provide alternative names for your app so that the user can find your app more easily. Example you have a agenda app. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Create Interactive Snippet Shortcut Using App Intents](https://www.swiftjectivec.com/create-interactive-snippet-shortcut-in-appintents) — Those Who Swift · Issue 233 — Article · Topics: App Intents & System Surfaces · Architecture · Dependency Injection
   **Published:** `2025-09-24`
-  **NeKI brief:** Examines Create Interactive Snippet Shortcut Using App Intents, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+  **NeKI brief:** Jordan shows how to build an interactive SwiftUI snippet powered by App Intents to create a responsive counter view with buttons, manage state with dependencies, and see how App Intents can add dynamic shortcuts to your app.
 - [Open Intent in iOS 26](https://www.swiftjectivec.com/open-intent-additions-ios26-in-appintents) — SwiftLee Weekly · Issue 286 — Article · Topics: App Intents & System Surfaces · Swift
   **Published:** `2025-08-26T14:12:25.000Z`
   **NeKI brief:** Presents Open Intent in iOS 26, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [Confirmation and Result Interactive Snippets](https://www.swiftjectivec.com/app-intents-interactive-snippets-confirm-vs-result) — SwiftLee Weekly · Issue 280 — Article · Topics: App Intents & System Surfaces · Swift
   **Published:** `2025-07-15T14:13:29.000Z`
-  **NeKI brief:** Presents Confirmation and Result Interactive Snippets, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Jordan explains how App Intents use confirmation and result snippets to handle user interactions, highlighting when to request user approval before running an action versus simply displaying the final outcome.
 - [this post](https://superwall.com/blog/app-intents-interactive-snippets-in-ios-26) — SwiftLee Weekly · Issue 280 — Article · Topics: App Intents & System Surfaces · Swift
   **Published:** `2025-07-15T14:13:29.000Z`
   **NeKI brief:** Presents this post, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [Making Widgets Interactive using App Intents](https://tiagohenriques.vercel.app/blog/interactive-widgets-using-app-intents) — iOS Dev Weekly · Issue 698 — Article · Topics: App Intents & System Surfaces
+  **Published:** `7th February 2025`
+  **NeKI brief:** Intents are one of those technologies that started with limited uses that grew to be fundamental over time. Here’s Tiago Henriques explaining how to use them to give your app’s widget interactivity.
 - [Active ReviewSE-0456Add `Span`-providing Properties to Standard Library Types](https://github.com/apple/swift-evolution/blob/main/proposals/0456-stdlib-span-properties.md) — SwiftLee Weekly · Issue 255 — Source repository · Topics: AI Development · App Intents & System Surfaces · Swift
   **Published:** `2025-01-21T15:04:24.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0456Add `Span`-providing Properties to Standard Library Types. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -242,12 +251,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Jesse Squires](https://www.jessesquires.com/blog/2024/06/29/swiftui-scene-phase) — Fatbobman’s Swift Weekly · Issue 38 — Article · Topics: App Intents & System Surfaces · Swift · SwiftUI
   **Published:** `2024-07-01T12:02:31.531Z`
   **NeKI brief:** Explains SwiftUI scenePhase transitions and how applications respond to active, inactive, and background states. Useful for pausing work, refreshing data, and handling lifecycle changes at the scene boundary.
+- [the competition took a huge step forward earlier this week](https://www.youtube.com/live/DQacCB9tDaw) — iOS Dev Weekly · Issue 661 — Video · Topics: AI Development · App Intents & System Surfaces
+  **Published:** `17th May 2024`
+  **NeKI brief:** Examines OpenAI Spring Update – streamed live on Monday, May 13, 2024. Introducing GPT-4o, updates to ChatGPT, and more. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [the Swift Package Index received support from Apple](https://www.swift.org/blog/swift-package-index-developer-spotlight) — iOS Dev Weekly · Issue 640 — Article · Topics: App Intents & System Surfaces · Swift · Swift Package Manager
   **Published:** `15th December 2023`
   **NeKI brief:** Explores this blog post, focusing on you may have already seen the latest post on the. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Creating Shortcuts with App Intents](https://www.kodeco.com/40950083-creating-shortcuts-with-app-intents) — Fatbobman’s Swift Weekly · Issue 5 — Article · Topics: App Distribution & Store Operations · App Intents & System Surfaces · Combine & Reactive Programming
   **Published:** `2023-11-06T22:30:15.675Z`
   **NeKI brief:** Explains creating Shortcuts actions with App Intents and connecting typed app operations to system automation. Use it when exposing discoverable actions while checking entity modeling, parameter resolution, availability, and privacy boundaries.
+- [Creating your first app shortcut](https://lickability.com/blog/creating-your-first-app-shortcut) — iOS Dev Weekly · Issue 634 — Article · Topics: App Intents & System Surfaces
+  **Published:** `3rd November 2023`
+  **NeKI brief:** The page covers “Creating your first app shortcut” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [🖥️ How to use EC2 Macs for Apple app CI/CD](https://bitrise.io/blog/post/summit-speaker-spotlight-series-aws) — iOS CI Newsletter · Issue 25 — Article · Topics: App Intents & System Surfaces · CI/CD & Automation
   **Published:** `2023-09-24T00:00:00.000Z`
   **NeKI brief:** Walks through how to use EC2 Macs for Apple app CI/CD, with practical context for App Intents & System Surfaces and CI/CD & Automation. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
@@ -257,6 +272,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [LocationSimulator](https://github.com/Schlaubischlump/LocationSimulator) — iOS Dev Tools · 🔨 Audio Alchemy & Virtual Ventures! — Source repository · Topics: App Intents & System Surfaces · Developer Tools · Testing
   **Published:** `2023-07-06T14:06:48.701Z`
   **NeKI brief:** LocationSimulator is a macOS utility for injecting simulated locations into iOS apps and Simulator targets. Use it to exercise geofencing, map, and route states without a physical device or repeated manual coordinate changes.
+- [use ChatGPT](https://www.digitaltrends.com/mobile/how-to-replace-siri-with-chatgpt-iphone) — iOS Dev Weekly · Issue 601 — Article · Topics: AI Development · App Intents & System Surfaces · Developer Tools
+  **Published:** `17th March 2023`
+  **NeKI brief:** Presents use ChatGPT, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Create a Basic Shortcut using App Intents](https://www.swiftjectivec.com/snip-create-a-basic-app-intent) — iOS Dev Weekly · Issue 587 — Article · Topics: App Intents & System Surfaces · Swift
   **Published:** `2nd December 2022`
   **NeKI brief:** Explores Create a Basic Shortcut using App Intents, focusing on shortcuts are great, but if you ever wished to be. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -272,9 +290,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [first WidgetKit article](https://tanaschita.com/20220905-building-widgets-for-ios-applications-with-widgetkit-and-swiftui) — iOS Dev Weekly · Issue 575 — Article · Topics: App Intents & System Surfaces · App Services & Extensions · Swift
   **Published:** `9th September 2022`
   **NeKI brief:** Introduces building iOS widgets with WidgetKit and SwiftUI, from the widget extension through the lightweight information it presents outside the app. A practical starting point for deciding what app state belongs in a glanceable widget experience.
+- [efficiently keeping widgets updated](https://codakuma.com/widgetkit-improvements) — iOS Dev Weekly · Issue 575 — Article · Topics: App Intents & System Surfaces · App Services & Extensions
+  **Published:** `9th September 2022`
+  **NeKI brief:** Explains practical WidgetKit reliability improvements, including using timelines and choosing when to reload widget data. Useful for designing widgets whose displayed state stays current without treating every update as an unrestricted refresh.
 - [bots that can mimic human conversation](https://www.theguardian.com/technology/2022/jun/12/google-engineer-ai-bot-sentient-blake-lemoine) — iOS Dev Weekly · Issue 568 — Article · Topics: AI Development · App Intents & System Surfaces
   **Published:** `22nd July 2022`
   **NeKI brief:** Explores bots that can mimic human conversation, focusing on ai is all around us already. every time you get. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [open-source](https://github.com/WWDCNotes/Content) — iOS Dev Weekly · Issue 562 — Source repository · Topics: App Intents & System Surfaces · Apple Platform Ecosystem · Developer Tools
+  **Published:** `10th June 2022`
+  **NeKI brief:** Examines WWDCNotes.com content. Contribute to WWDCNotes/Content development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Create compile time reminders in Xcode](https://recoursive.com/2021/09/14/create_compile_time_reminders) — iOS Dev Weekly · Issue 525 — Article · Topics: App Intents & System Surfaces · Swift · Xcode
   **Published:** `17th September 2021`
   **NeKI brief:** Explores Create compile time reminders in Xcode, focusing on this is a useful technique from robin kunde. think about. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -290,6 +314,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [how he got this up and running through a Siri shortcut](https://www.swiftjectivec.com/introducing-the-daily-ios) — iOS Dev Weekly · Issue 499 — Article · Topics: App Intents & System Surfaces · Personal Essays · Swift
   **Published:** `19th March 2021`
   **NeKI brief:** Introduces a daily iOS-development news format and the kinds of links it curates. Treat it as a discovery lead for primary sources rather than technical implementation guidance.
+- [no idea](https://github.com/fastlane/fastlane/graphs/contributors) — iOS Dev Weekly · Issue 484 — Source repository · Topics: App Distribution & Store Operations · App Intents & System Surfaces · CI/CD & Automation
+  **Published:** `27th November 2020`
+  **NeKI brief:** Presents no idea, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [A Guide to All 120+ Settings URLs Supported by iOS](https://www.macstories.net/ios/a-comprehensive-guide-to-all-120-settings-urls-supported-by-ios-and-ipados-13-1) — iOS Dev Weekly · Issue 424 — Article · Topics: App Intents & System Surfaces
+  **Published:** `4th October 2019`
+  **NeKI brief:** Examines A few weeks ago, I came across a post on Reddit claiming that Apple had restored the ability to launch specific sections of the Settings app via Shortcuts in iOS and iPadOS 13.1. I. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [A first look at Xcode 11’s Swift Package Manager integration](https://wwdcbysundell.com/2019/xcode-swiftpm-first-look) — iOS Dev Weekly · Issue 407 — Article · Topics: Swift · Swift Package Manager · Xcode
   **Published:** `7th June 2019`
   **NeKI brief:** Examines A first look at Xcode 11's Swift Package Manager integration, offering practical guidance on Swift Package Manager integration. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
@@ -299,9 +329,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Why Shortcuts Matter for Accessibility](https://www.macstories.net/stories/why-shortcuts-matter-for-accessibility) — iOS Dev Weekly · Issue 375 — Article · Topics: Accessibility · App Intents & System Surfaces
   **Published:** `26th October 2018`
   **NeKI brief:** Explores Why Shortcuts Matter for Accessibility in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [Shortcuts: A New Vision for Siri and iOS Automation](https://www.macstories.net/stories/shortcuts-a-new-vision-for-siri-and-ios-automation) — iOS Dev Weekly · Issue 356 — Article · Topics: App Intents & System Surfaces · Developer Community & Business
+  **Published:** `15th June 2018`
+  **NeKI brief:** Examines In my Future of Workflow article from last year (published soon after the news of Apple's acquisition), I outlined some of the probable outcomes for the app. The more optimist. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Custom Intents with SiriKit on iOS 12](https://bendodson.com/weblog/2018/06/05/custom-intents-with-sirikit-ios-12) — iOS Dev Weekly · Issue 355 — Article · Topics: App Intents & System Surfaces
+  **Published:** `8th June 2018`
+  **NeKI brief:** The page covers “Custom Intents with SiriKit on iOS 12” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Edit Breakpoints in Xcode](https://medium.com/@iostechset/edit-breakpoints-in-xcode-a20b4e453598) — iOS Dev Weekly · Issue 338 — Article · Topics: App Intents & System Surfaces · Developer Tools · Xcode
   **Published:** `9th February 2018`
   **NeKI brief:** Examines Edit Breakpoints in Xcode, focusing on breakpoints are extremely powerful, but how many of us use them just to freeze the app and use the debugger? this article…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [Call the Next Witness: Siri](http://www.bbc.co.uk/news/technology-42663297) — iOS Dev Weekly · Issue 336 — Article · Topics: App Intents & System Surfaces
+  **Published:** `26th January 2018`
+  **NeKI brief:** Call the Next Witness: Siri. This link is retained as a technical reading lead for Apple-platform development.
+- [full walkthrough](https://www.behance.net/gallery/55458295/iOS-Notification-Redesign-Concept) — iOS Dev Weekly · Issue 329 — Article · Topics: App Intents & System Surfaces
+  **Published:** `1st December 2017`
+  **NeKI brief:** Although this concept was done back in August, I recommend checking out the full walkthrough. As for whether Apple should steal this iOS notification design, I say “give this man a job.” My favorite part is the “Siri Notification Catch Up” concept feature…
+- [Deep Learning for Siri’s Voice](https://machinelearning.apple.com/2017/08/06/siri-voices.html) — iOS Dev Weekly · Issue 315 — Article · Topics: AI Development · App Intents & System Surfaces · Cross-Platform & Web
+  **Published:** `25th August 2017`
+  **NeKI brief:** Examines Siri is a personal assistant that communicates using speech synthesis. Starting in iOS 10 and continuing with new features in iOS 11, we…. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [what text is displayed on the screen](https://machinelearning.apple.com/2017/08/02/inverse-text-normal.html) — iOS Dev Weekly · Issue 315 — Article · Topics: App Intents & System Surfaces · Cross-Platform & Web
+  **Published:** `25th August 2017`
+  **NeKI brief:** I also really enjoyed another of their articles posted this week on how Siri turns what it says into what text is displayed on the screen. What a fascinating team that must be to work on.
 - [iOS 10 Day by Day](http://www.shinobicontrols.com/blog/ios-10-day-by-day-index) — iOS Dev Weekly · Issue 273 — Article · Topics: App Intents & System Surfaces · Apple Platform Ecosystem
   **Published:** `21st October 2016`
   **NeKI brief:** Explores iOS 10 Day by Day in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
@@ -334,5 +382,11 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Traces MiniSwift from Swift source through parsing, semantic analysis, WebAssembly generation, linking, and browser execution. It is useful for understanding how a compact Swift-compatible toolchain can run without Xcode or Apple’s compiler binaries.
 - [Beyond Chatbots: Building Smart iOS Apps with Firebase AI Logic & Swift](https://www.youtube.com/watch?v=sfWYh-oxk8k) — Not only Swift · Issue 87 — Video · Topics: AI Development · App Intents & System Surfaces · Swift
   **NeKI brief:** Live-codes Firebase AI Logic features in Swift, including JSON-schema structured output and Imagen-based image generation. The session also discusses API security, quota management, pricing choices, and forthcoming schema-annotation tooling.
+- [this interview](https://www.youtube.com/watch?v=wCEkK1YzqBo) — Not only Swift · Issue 83 — Video · Topics: AI Development · App Intents & System Surfaces · Swift
+  **NeKI brief:** This interview with Craig Federighi and Greg Joswiak discusses Apple's new Siri and its AI capabilities. It provides first-hand product context for understanding the intended behavior and limitations of the smart-assistant features discussed by the source.
+- [Where is she?](https://www.youtube.com/watch?v=wCEkK1YzqBo&t=20s) — Not only Swift · Issue 83 — Video · Topics: AI Development · App Intents & System Surfaces · Swift
+  **NeKI brief:** This interview with Craig Federighi and Greg Joswiak discusses Apple's new Siri and its AI capabilities. It provides first-hand product context for understanding the intended behavior and limitations of the smart-assistant features discussed by the source.
 - [AI mania](https://daringfireball.net/2025/03/apple_is_delaying_the_more_personalized_siri_apple_intelligence_features) — Not only Swift · Issue 76 — Article · Topics: AI Development · App Intents & System Surfaces · Swift
   **NeKI brief:** This article covers the delayed personalized Siri Apple Intelligence features. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [originally brought up by Simon Willison](https://simonwillison.net/2025/Mar/8/delaying-personalized-siri) — Not only Swift · Issue 76 — Article · Topics: App Intents & System Surfaces · Swift
+  **NeKI brief:** Simon Willison analyzes why personalized Siri features may be delayed, highlighting prompt injection as a security and product-design challenge. The article gives a concrete explanation of how hostile instructions in retrieved content can affect an AI assistant's behavior.

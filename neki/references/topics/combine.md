@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Combine publishers, subscribers, operators, and reactive-programming techniques.
 
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed links shown: **105**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **150**
 
 ## Direct-source reading
 
@@ -72,19 +72,37 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Release 4.0.0 · AvdLee/SwiftUI-Agent-Skill. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
 - [A floating card using safeAreaBarBuilding a floating card component using iOS 26’s safeAreaBar with an iOS 18 fallbackCodakuma](https://codakuma.com/floating-safe-area-bar?ref=createwithswift.com) — Create with Swift · Issue 109 — Article · Topics: Combine & Reactive Programming · Swift · SwiftUI
   **Published:** `2026-05-29T16:00:08.000Z`
-  **NeKI brief:** Creates a floating bar with SwiftUI’s safeAreaBar modifier, keeping controls attached to safe-area edges as content scrolls. Useful for persistent actions or playback controls without manual inset calculations and overlay hit-testing.
+  **NeKI brief:** Shaun shows how to build a reusable floating bottom card in SwiftUI using safeAreaBar on iOS 26, with an iOS 18 fallback that combines safeAreaInset, material, and a gradient fade to keep scrolling content readable behind it.
+- [Optimizing For VoiceOver And Voice Control](https://www.basbroek.nl/optimizing-assistive-technology) — Those Who Swift · Issue 267 — Article · Topics: Accessibility · Combine & Reactive Programming
+  **Published:** `2026-05-21`
+  **NeKI brief:** Explores optimization for assistive technology such as VoiceOver and Voice Control. Useful for checking labels, focus, and interaction semantics beyond visual layout correctness.
+- [A guide to macOS window toolbar styles in SwiftUI](https://nilcoalescing.com/blog/AGuideToMacOSToolbarStylesInSwiftUI?ck_subscriber_id=2978342081) — Create with Swift · Issue 107 — Article · Topics: Combine & Reactive Programming · Swift · SwiftUI
+  **Published:** `2026-05-15T16:00:08.000Z`
+  **NeKI brief:** Natalia covers all the modifiers you need to customize the macOS window toolbar in SwiftUI, from layout styles to title and background visibility.
+- [read here](https://www.rocketsim.app/blog/15-voiceover-navigator-pro-xcode-simulator-recordings) — SwiftLee Weekly · Issue 319 — Article · Topics: Accessibility · Combine & Reactive Programming · Xcode
+  **Published:** `2026-04-14T14:07:31.000Z`
+  **NeKI brief:** Documents read here, focusing on an iOS Simulator workflow and the concrete debugging or testing decisions it enables for Apple-platform development.
 - [Embedded Swift Improvements Coming in Swift 6.3Embedded Swift is a subset of Swift that’s designed for low resource usage, making it capable of running on constrained environments like microcontrollers. Using a special compilation mode, Embedded Swift produces significantly smaller binaries than regular Swift. While a subset of the full language, the vast majority of the Swift language works exactly the same in Embedded Swift. Additional information is described in the Embedded Swift vision document.Swift.orgApple Inc.](https://www.swift.org/blog/embedded-swift-improvements-coming-in-swift-6.3?ref=ioscodereview.com) — iOS Code Review · Issue 76 — Article · Topics: Combine & Reactive Programming · Foundation & Data Formats · Swift
   **Published:** `2026-03-30T18:21:46.000Z`
   **NeKI brief:** Examines Embedded Swift Improvements Coming in Swift 6.3Embedded Swift is a subset of Swift that’s designed for low… in the context of Combine & Reactive Programming and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [SwiftUI transitions with distortion effect and Metal Shaders](https://nerdyak.tech/development/2023/06/16/distortionEffect-with-Metal-shaders-for-better-transitions.html) — SwiftLee Weekly · Issue 315 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2026-03-17T15:01:49.000Z`
+  **NeKI brief:** Explains SwiftUI transitions with distortion effect and Metal Shaders, connecting the underlying Apple-platform mechanism to implementation choices and practical trade-offs that Swift developers can evaluate.
 - [An Xcode Agent Prompt: What It Signals for Combine and RxSwift](https://livsycode.com/blog/an-xcode-agent-prompt-what-it-signals-for-combine-and-rxswift) — SwiftLee Weekly · Issue 310 — Article · Topics: Combine & Reactive Programming · Swift · Xcode
   **Published:** `2026-02-10T15:14:11.000Z`
   **NeKI brief:** Presents An Xcode Agent Prompt: What It Signals for Combine and RxSwift, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [AcceptedSE-0502Exclude private initialized properties from memberwise initializer](https://github.com/apple/swift-evolution/blob/main/proposals/0502-exclude-private-from-memberwise-init.md) — SwiftLee Weekly · Issue 310 — Source repository · Topics: Combine & Reactive Programming · Developer Tools · Swift
   **Published:** `2026-02-10T15:14:11.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0502Exclude private initialized properties from memberwise initializer. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Active ReviewSE-0510Introduce `Dictionary.mapValuesWithKeys`](https://github.com/apple/swift-evolution/blob/main/proposals/0510-dictionary-mapvalues-with-keys.md) — SwiftLee Weekly · Issue 310 — Source repository · Topics: Combine & Reactive Programming · Developer Tools · Swift
+  **Published:** `2026-02-10T15:14:11.000Z`
+  **NeKI brief:** Records Active ReviewSE-0510Introduce `Dictionary.mapValuesWithKeys`, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Active ReviewSE-0511SwiftPM Add Target Plugin Command](https://github.com/apple/swift-evolution/blob/main/proposals/0511-swiftpm-add-target-plugin.md) — SwiftLee Weekly · Issue 310 — Source repository · Topics: Combine & Reactive Programming · Developer Tools · Swift
   **Published:** `2026-02-10T15:14:11.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0511SwiftPM Add Target Plugin Command. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Understanding Apple’s Retention Messaging API](https://www.revenuecat.com/blog/engineering/apple-retention-messaging-api) — iOS Dev Weekly · Issue 742 — Article · Topics: App Distribution & Store Operations · Combine & Reactive Programming
+  **Published:** `6th February 2026`
+  **NeKI brief:** Explains Apple’s Retention Messaging API and how subscription apps can communicate with lapsed customers. Useful for connecting retention features with entitlement-aware messaging and lifecycle decisions.
 - [Creating and Introducing AsyncSharedStream](https://medium.com/the-swift-cooperative/creating-and-introducing-asyncsharedstream-3e9185317a5a) — Those Who Swift · Issue 250 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `2026-01-21`
   **NeKI brief:** Introduces an AsyncSharedStream abstraction for sharing asynchronous events among consumers. Follow it when evaluating fan-out stream design, cancellation, buffering, and termination semantics instead of assuming AsyncStream alone defines the desired policy.
@@ -100,18 +118,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AsyncCombine](https://github.com/will-lumley/AsyncCombine) — Fatbobman’s Swift Weekly · Issue 108 — Source repository · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `2025-10-27T12:02:17.397Z`
   **NeKI brief:** AsyncCombine bridges familiar Combine-style concepts into Swift concurrency, including relay-like state sharing. Use it to compare an interim async stream abstraction with the proposed AsyncBroadcastSequence and choose explicit buffering semantics.
-- [Transforming Glass Views with the glassEffectID in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/transforming-glass-views-with-the-glasseffectid-modifier-in-swiftui) — SwiftLee Weekly · Issue 294 — Tutorial · Topics: Combine & Reactive Programming · Swift · SwiftUI
-  **Published:** `2025-10-21T14:13:02.000Z`
-  **NeKI brief:** Presents Transforming Glass Views with the glassEffectID in SwiftUI, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [🎥 CI/CD for iOS Developers webinar recording](https://streamyard.com/ik659maf7b32) — iOS CI Newsletter · Issue 77 — Article · Topics: CI/CD & Automation · Combine & Reactive Programming
   **Published:** `2025-10-06T00:00:00.000Z`
   **NeKI brief:** Examines CI/CD for iOS Developers webinar recording in the context of CI/CD & Automation and Combine & Reactive Programming. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [AsyncSequence for Real-Time APIs](https://medium.com/@wesleymatlock/asyncsequence-for-real-time-apis-from-legacy-polling-to-swift-6-elegance-c2b8139c21e0) — Those Who Swift · Issue 234 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `2025-10-01`
   **NeKI brief:** Examines AsyncSequence for Real-Time APIs, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [Feature Flags in Swift](https://l.fatbobman.com/w0103-03) — Fatbobman’s Swift Weekly · Issue 103 — Article · Topics: Combine & Reactive Programming · Swift · Testing
+  **Published:** `2025-09-22T12:03:29.428Z`
+  **NeKI brief:** Shows how Swift feature flags can vary behavior across Debug, TestFlight, and App Store configurations. Follow it when designing compile-time or runtime switches that keep release behavior explicit and testable.
 - [We Need to Talk About Observation](https://jaredsinclair.com/2025/09/10/observation.html) — SwiftLee Weekly · Issue 289 — Article · Topics: Combine & Reactive Programming · Cross-Platform & Web · Testing
   **Published:** `2025-09-16T14:09:42.000Z`
   **NeKI brief:** Explains We Need to Talk About Observation, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [We Need to Talk About Observation](https://l.fatbobman.com/w0102-01) — Fatbobman’s Swift Weekly · Issue 102 — Article · Topics: Combine & Reactive Programming · Observation & State Management
+  **Published:** `2025-09-15T12:03:30.479Z`
+  **NeKI brief:** Challenges common assumptions about Swift Observation and its runtime behavior. Follow it when auditing observable state propagation, invalidation boundaries, and the differences between conceptual model ownership and what a framework actually tracks.
+- [Osaurus](https://github.com/dinoki-ai/osaurus) — iOS Dev Tools · iOS Dev Tools: WhisperKit, Swiftfin, Pearcleaner — Source repository · Topics: AI Development · Combine & Reactive Programming · Developer Tools
+  **Published:** `2025-08-29T06:38:01.785Z`
+  **NeKI brief:** Osaurus is an AI-oriented Apple-platform project. Follow its source for concrete local model, tool, or automation integration points, while verifying current APIs, resource requirements, and privacy behavior.
 - [OpenSwiftUI](https://github.com/OpenSwiftUIProject/OpenSwiftUI) — Fatbobman’s Swift Weekly · Issue 99 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2025-08-25T12:03:32.117Z`
   **NeKI brief:** OpenSwiftUI is a community reimplementation useful for studying declarative view behavior and framework boundaries. Follow it for comparative exploration, not as a drop-in substitute for Apple's implementation guarantees.
@@ -124,6 +148,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [OAuthKit](https://github.com/codefiesta/OAuthKit) — iOS Dev Tools · iOS Dev Tools: AI Git Narrator, OAuthKit, FlipKit — Source repository · Topics: Architecture · Combine & Reactive Programming · Swift
   **Published:** `2025-06-12T19:41:45.540Z`
   **NeKI brief:** OAuthKit provides an observable Swift framework for OAuth 2.0 authorization flows, centralizing state and callback handling. Useful for comparing a reusable authentication boundary with endpoint-specific browser-session code.
+- [AsyncExtensions](https://github.com/sideeffect-io/AsyncExtensions) — SwiftLee Weekly · Issue 272 — Source repository · Topics: Combine & Reactive Programming · Concurrency · Developer Tools
+  **Published:** `2025-05-20T14:12:58.000Z`
+  **NeKI brief:** Points to AsyncExtensions, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [SE-475: Transactional Observation of Values](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0475-observed.md) — SwiftLee Weekly · Issue 272 — Source repository · Topics: Combine & Reactive Programming · Developer Tools · Swift
   **Published:** `2025-05-20T14:12:58.000Z`
   **NeKI brief:** Provides the public source repository for SE-0475. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
@@ -160,12 +187,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Unit Test the Observation FrameworkMake your iOS 17 view models rock-solidJacob’s Tech TavernJacob Bartlett](https://jacobbartlett.substack.com/p/unit-test-the-observation-framework) — iOS Code Review · Issue 66 — Article · Topics: Combine & Reactive Programming · Observation & State Management · Testing
   **Published:** `2024-03-18T13:34:21.000Z`
   **NeKI brief:** Examines Unit Test the Observation FrameworkMake your iOS 17 view models rock-solidJacob’s Tech TavernJacob Bartlett in the context of Combine & Reactive Programming and Observation & State Management. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Creating iOSExpert](https://racecondition.software/blog/iosexpert) — iOS Dev Weekly · Issue 651 — Tutorial · Topics: Combine & Reactive Programming · Developer Career & Practice · Developer Community & Business
+  **Published:** `8th March 2024`
+  **NeKI brief:** Describes the creation of iOSExpert and the product decisions behind a specialized iOS development tool. Useful for examining how focused developer utilities are shaped around real workflow friction.
 - [✨ Using Emerge Tools on CI/CD to optimise your app’s size](https://blog.codemagic.io/optimising-ios-app-size-emerge-tools-ci-cd) — iOS CI Newsletter · Issue 31 — Article · Topics: CI/CD & Automation · Combine & Reactive Programming
   **Published:** `2023-12-17T00:00:00.000Z`
   **NeKI brief:** Examines Using Emerge Tools on CI/CD to optimise your app’s size in the context of CI/CD & Automation and Combine & Reactive Programming. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Injecting code in result builders](https://trycombine.com/posts/an-example-of-using-arbitrary-code-in-result-builders) — Fatbobman’s Swift Weekly · Issue 10 — Article · Topics: Combine & Reactive Programming · Dependency Injection
   **Published:** `2023-12-11T22:00:36.607Z`
   **NeKI brief:** Demonstrates injecting arbitrary code into result builders and explains how builder transformation rules affect control flow. Use it when designing custom DSLs and checking whether generated component structure remains readable and type-checkable.
+- [Marin’s Side Project Tools from 2023](https://trycombine.com/posts/marin-side-projects-2023) — iOS Dev Weekly · Issue 639 — Article · Topics: Combine & Reactive Programming
+  **Published:** `8th December 2023`
+  **NeKI brief:** Presents Marin’s Side Project Tools from 2023, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Creating Shortcuts with App Intents](https://www.kodeco.com/40950083-creating-shortcuts-with-app-intents) — Fatbobman’s Swift Weekly · Issue 5 — Article · Topics: App Distribution & Store Operations · App Intents & System Surfaces · Combine & Reactive Programming
   **Published:** `2023-11-06T22:30:15.675Z`
   **NeKI brief:** Explains creating Shortcuts actions with App Intents and connecting typed app operations to system automation. Use it when exposing discoverable actions while checking entity modeling, parameter resolution, availability, and privacy boundaries.
@@ -175,12 +208,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Combine](https://www.swiftbysundell.com/discover/combine) — SwiftUI Weekly · SwiftUI Weekly - Issue #161 — Article · Topics: Combine & Reactive Programming · Swift · SwiftUI
   **Published:** `2023-09-25T21:58:53.226Z`
   **NeKI brief:** Collects Swift by Sundell's Combine material on publishers, operators, and reactive application design. Useful as a navigation hub when maintaining Combine code or comparing legacy pipelines with newer async/await implementations.
+- [Paywalls Made Easy](https://www.revenuecat.com/blog/growth/introducing-revenuecat-paywalls) — iOS Dev Weekly · Issue 626 — Article · Topics: Combine & Reactive Programming · Testing
+  **Published:** `8th September 2023`
+  **NeKI brief:** Introduces RevenueCat Paywalls as a way to configure and iterate subscription purchase screens without shipping every presentation change in app code. Useful for separating paywall experimentation from entitlement and transaction logic.
 - [Explore the docs →](https://www.revenuecat.com/docs/paywalls) — iOS Dev Weekly · Issue 626 — Article · Topics: Combine & Reactive Programming · Testing
   **Published:** `8th September 2023`
   **NeKI brief:** RevenueCat documentation for configuring and presenting in-app paywalls through its SDK and dashboard tooling. Use it when evaluating a subscription implementation, validating entitlement flow choices, or integrating RevenueCat's paywall APIs into an Apple-platform app.
 - [Use the right assertions](https://www.hackingwithswift.com/plus/intermediate-swift/understanding-assertions?ref=ioscodereview.com) — iOS Code Review · Issue 47 — Article · Topics: Combine & Reactive Programming · Developer Tools · Swift
   **Published:** `2023-04-28T10:30:39.000Z`
   **NeKI brief:** Examines Use the right assertions in the context of Combine & Reactive Programming and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Source and font download](http://sensi.org/~svo/glasstty) — iOS Dev Weekly · Issue 599 — Article · Topics: Combine & Reactive Programming · Developer Tools · Xcode
+  **Published:** `3rd March 2023`
+  **NeKI brief:** Examines VT220 TrueType font. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Adding a stretchable and sticky header to a SwiftUI ScrollView](https://danielsaidi.com/blog/2023/02/09/adding-a-sticky-header-to-a-swiftui-scroll-view) — SwiftUI Weekly · SwiftUI Weekly - Issue #131 — Article · Topics: Combine & Reactive Programming · Swift · SwiftUI
+  **Published:** `2023-02-14T07:17:12.491Z`
+  **NeKI brief:** Builds a sticky-header effect for a SwiftUI scroll view by combining scroll offset information with view positioning. Useful for sectioned content that must retain contextual controls while the user scrolls.
 - [Asynchronous Programming with SwiftUI and Combine](https://link.springer.com/book/10.1007/978-1-4842-8572-5) — iOS Dev Weekly · Issue 595 — Article · Topics: Combine & Reactive Programming · Swift · SwiftUI
   **Published:** `3rd February 2023`
   **NeKI brief:** Explores Asynchronous Programming with SwiftUI and Combine, focusing on this new book from peter friese may not be trying. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -202,15 +244,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Pitfall of Nested ObservableObject](https://samwize.com/2022/09/30/pitfall-of-nested-observableobject) — iOS Dev Weekly · Issue 579 — Article · Topics: Combine & Reactive Programming · Observation & State Management · Swift
   **Published:** `7th October 2022`
   **NeKI brief:** Explores Pitfall of Nested ObservableObject, focusing on if you’ve worked with swiftui, you’ll likely have dealt with. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Introducing MarkCodable](https://trycombine.com/posts/introducing-markcodable) — iOS Dev Weekly · Issue 575 — Article · Topics: Combine & Reactive Programming · Foundation & Data Formats · Persistence & Synchronisation
+  **Published:** `9th September 2022`
+  **NeKI brief:** Introduces MarkCodable as a Markdown-backed alternative for Codable data, aimed at small tools where files should remain easy to inspect, parse, and edit by hand. Useful when JSON readability is part of the workflow.
 - [Using AsyncAlgorithms to close the gap on Combine](https://johnoreilly.dev/posts/swift-async-algorithms-combine) — iOS Dev Weekly · Issue 556 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `29th April 2022`
   **NeKI brief:** Explores Using AsyncAlgorithms to close the gap on Combine, focusing on the article discusses enjoyed this post from john o’reilly talking. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Run iOS builds on M1, Intel or both with Orka](https://www.macstadium.com/orka) — iOS Dev Weekly · Issue 553 — Article · Topics: Combine & Reactive Programming · Testing
   **Published:** `8th April 2022`
   **NeKI brief:** Explores Accelerate Your iOS DevOps with Granular VM Control in Orka, focusing on orka 2.0 is now available and includes support for macos. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [with !! and friends](https://www.man7.org/linux/man-pages/man3/history.3.html) — iOS Dev Weekly · Issue 553 — Article · Topics: Combine & Reactive Programming · Cross-Platform & Web · Developer Tools
+  **Published:** `8th April 2022`
+  **NeKI brief:** Here’s a great Terminal tip from Presh Onyee. Combine this with !! and friends and you’ve got yourself a great recipe for saving lots of keypresses. 🚀
 - [Introducing Swift Async Algorithms](https://www.swift.org/blog/swift-async-algorithms) — iOS Dev Weekly · Issue 552 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `1st April 2022`
   **NeKI brief:** Explores Introducing Swift Async Algorithms, focusing on the article discusses mentioned it briefly in this week’s comment,. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Introducing timeui](https://trycombine.com/posts/introducing-timeui) — iOS Dev Weekly · Issue 551 — Article · Topics: Combine & Reactive Programming
+  **Published:** `25th March 2022`
+  **NeKI brief:** Presents Introducing timeui, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Optimization in Swift](https://trycombine.com/posts/swift-performance-concurrency-1) — iOS Dev Weekly · Issue 550 — Article · Topics: Concurrency · Performance · Swift
   **Published:** `18th March 2022`
   **NeKI brief:** Explores Optimization in Swift, focusing on the article discusses enjoyed this four-part (1, 2, 3, and. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -232,6 +283,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Does 'assign(to:)' produce memory leaks? - Using Swift - Swift Forums](https://forums.swift.org/t/does-assign-to-produce-memory-leaks/29546?ref=ioscodereview.com) — iOS Code Review · Issue 4 — Article · Topics: Combine & Reactive Programming · Swift
   **Published:** `2021-08-05T14:19:35.000Z`
   **NeKI brief:** Examines Does 'assign(to:)' produce memory leaks? - Using Swift - Swift Forums in the context of Combine & Reactive Programming and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [The Future of Combine](https://benscheirman.com/2021/06/async-await-and-the-future-of-combine) — iOS Dev Weekly · Issue 511 — Article · Topics: Combine & Reactive Programming · Concurrency
+  **Published:** `11th June 2021`
+  **NeKI brief:** The article examines how Swift async/await changes the future role and design of Apple's Combine framework.
 - [Swift Actors: A Practical Example](https://trycombine.com/posts/swift-actors) — iOS Dev Weekly · Issue 507 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `14th May 2021`
   **NeKI brief:** Explores Swift Actors: A Practical Example, focusing on one of the new features coming in swift 5.5 is. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -247,18 +301,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Timer App Clone](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9cVNMdk5HaU5fcjAiLCJwb3N0X2lkIjoiMGYzMzljOTUtMzM2Ny00OGE5LWI4M2EtNzFlZjc0NjY3OGM2IiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6IjQ0YmNiZGM1LWZlMzMtNDA1ZC1hMDUzLTZlYzk0NDRiOTJiNyIsImlhdCI6MTY3NDA2MjY3OC4yMzgsImlzcyI6Im9yY2hpZCJ9.YKWs6zmCgJceKFjjkHQAcH_p5XFr2sI41lfv9Kg_sVg) — SwiftUI Weekly · SwiftUI Weekly - Issue #50 — Article · Topics: AI Development · Combine & Reactive Programming · Swift
   **Published:** `2021-03-15T20:06:20.000Z`
   **NeKI brief:** Recreates a timer app in SwiftUI, connecting time progression to view state and controls. Use it as a compact example for lifecycle, scheduling, and presentation concerns in time-sensitive UI.
+- [Building a Customizable UITextField with Combine](https://lickability.com/blog/building-a-customizable-uitextfield-with-combine) — iOS Dev Weekly · Issue 498 — Article · Topics: Combine & Reactive Programming
+  **Published:** `12th March 2021`
+  **NeKI brief:** Examines Our guide to text field overlays, customizations, and more. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Core Store](https://dimsumthinking.com/Blog/2021/03/04-CoreStore.html) — iOS Dev Weekly · Issue 497 — Article · Topics: Combine & Reactive Programming · Core Data · Persistence & Synchronisation
   **Published:** `5th March 2021`
   **NeKI brief:** Examines Core Store, focusing on core data works well with new technologies like swiftui and combine, but does it feel at home with them? it does not. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Build a news app in SwiftUI 2.0 (Combine, API, MVVM & Swift Package Manager)](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9TTJwc1gtSndIZEUiLCJwb3N0X2lkIjoiZmI3YTliMDItOWZiMi00MWJkLTlhNGUtMzRjY2JjMzIzZjQxIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6IjA4NWFhZTc4LWY0ZGQtNDk1NS04MDA2LTQyZmIwYzcxMmNhNCIsImlhdCI6MTY3NDA2MjY3OC40MTksImlzcyI6Im9yY2hpZCJ9.9_MYRo5QPnk2BAP2P8aD_71Ckd92WPNekkK-uesvp78) — SwiftUI Weekly · SwiftUI Weekly - Issue #47 — Tutorial · Topics: Swift · Swift Package Manager · SwiftUI
   **Published:** `2021-02-23T19:43:19.000Z`
   **NeKI brief:** Builds a SwiftUI 2 news app using Combine, an API, MVVM, and Swift Package Manager. Use it to inspect boundaries among networking, view models, dependency packaging, and list presentation.
+- [A Combine Kickstart](https://editorscut.com/Blog/2021/02/04-Combine.html) — iOS Dev Weekly · Issue 493 — Article · Topics: Combine & Reactive Programming · Cross-Platform & Web · Functional Programming
+  **Published:** `5th February 2021`
+  **NeKI brief:** The page covers “A Combine Kickstart” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Combine and Swift Concurrency](https://rhonabwy.com/2020/11/08/combine-and-swift-concurrency) — iOS Dev Weekly · Issue 482 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `13th November 2020`
   **NeKI brief:** Examines Combine and Swift Concurrency, offering practical guidance on networking and asynchronous reliability. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
 - [about Combine](https://heckj.github.io/swiftui-notes) — iOS Dev Weekly · Issue 482 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `13th November 2020`
   **NeKI brief:** Examines about Combine, offering practical guidance on networking and asynchronous reliability. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [post the 85%/15% subscriptions revenue split](https://www.revenuecat.com/blog/about-that-85-percent) — iOS Dev Weekly · Issue 480 — Article · Topics: App Distribution & Store Operations · Combine & Reactive Programming
+  **Published:** `30th October 2020`
+  **NeKI brief:** Presents post the 85%/15% subscriptions revenue split, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Nuke 9](https://kean.github.io/post/nuke-9) — iOS Dev Weekly · Issue 457 — Article · Topics: Combine & Reactive Programming · Developer Tools · Swift
   **Published:** `22nd May 2020`
   **NeKI brief:** Covers Nuke 9, focusing on Swift and Apple-platform engineering practice. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
@@ -274,33 +337,84 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Exploring Futures over Closures](https://www.swiftjectivec.com/exploring-closures-with-futures) — iOS Dev Weekly · Issue 453 — Article · Topics: Combine & Reactive Programming · Swift
   **Published:** `24th April 2020`
   **NeKI brief:** Examines Exploring Futures over Closures, offering practical guidance on Swift engineering practice. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [Keyboard Avoidance for SwiftUI Views](https://www.vadimbulavin.com/how-to-move-swiftui-view-when-keyboard-covers-text-field) — iOS Dev Weekly · Issue 450 — Article · Topics: Hardware & Devices · Swift · SwiftUI
+  **Published:** `3rd April 2020`
+  **NeKI brief:** Examines Learn how to manage a SwiftUI view when keyboard appears. We. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Getting Started with Combine and SwiftUI in iOS](https://www.youtube.com/watch?v=fwXv7y2XkDQ) — iOS Dev Weekly · Issue 449 — Video · Topics: Combine & Reactive Programming · Graphics, Media & Games · Swift
+  **Published:** `27th March 2020`
+  **NeKI brief:** Join Scott Gardner for a few hours with a recording of the workshop he was due to give at the postponed AppDevCon, which was instead streamed it to a small online audience. Or, if you don’t quite have that amount of time, you might enjoy the talk he had…
+- [Vadim Bulavin covered the same topic](https://www.vadimbulavin.com/modern-mvvm-ios-app-architecture-with-combine-and-swiftui) — iOS Dev Weekly · Issue 449 — Article · Topics: Architecture · Combine & Reactive Programming · Objective-C & Cocoa
+  **Published:** `27th March 2020`
+  **NeKI brief:** Explains Vadim Bulavin covered the same topic, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [lots of writing about Combine](https://www.donnywals.com/category/combine) — iOS Dev Weekly · Issue 448 — Article · Topics: Combine & Reactive Programming
+  **Published:** `20th March 2020`
+  **NeKI brief:** Examines Category: Combine – Donny Wals. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Understanding Combine](https://www.apeth.com/UnderstandingCombine/toc.html) — iOS Dev Weekly · Issue 448 — Article · Topics: Combine & Reactive Programming · Cross-Platform & Web
+  **Published:** `20th March 2020`
+  **NeKI brief:** Examines Understanding Combine. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [more information here](http://trycombine.com/posts/announcing-timelane-combine) — iOS Dev Weekly · Issue 445 — Article · Topics: Combine & Reactive Programming · Concurrency · Performance
   **Published:** `28th February 2020`
   **NeKI brief:** Examines more information here, offering practical guidance on Swift engineering practice. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [Throttle and debounce in Combine](https://rhonabwy.com/2019/12/15/combine-throttle-and-debounce) — iOS Dev Weekly · Issue 435 — Article · Topics: Combine & Reactive Programming
+  **Published:** `20th December 2019`
+  **NeKI brief:** Joseph Heck, author of the wonderful (and continuously updated) Using Combine book talking about throttle and debounce in Combine. Highly recommended reading.
 - [continuously updated](https://github.com/heckj/swiftui-notes/commits/master) — iOS Dev Weekly · Issue 435 — Source repository · Topics: Combine & Reactive Programming · Developer Tools · Swift
   **Published:** `20th December 2019`
   **NeKI brief:** Examines continuously updated, focusing on joseph heck, author of the wonderful (and continuously updated) using combine book talking about throttle and debounce in…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [1](https://www.pointfree.co/episodes/ep80-the-combine-framework-and-effects-part-1) — iOS Dev Weekly · Issue 431 — Article · Topics: Combine & Reactive Programming · Graphics, Media & Games · Swift
+  **Published:** `22nd November 2019`
+  **NeKI brief:** The Point-Free episode introduces effects in the Combine framework and discusses modeling asynchronous work in Swift applications.
+- [2](https://www.pointfree.co/episodes/ep81-the-combine-framework-and-effects-part-2) — iOS Dev Weekly · Issue 431 — Article · Topics: Combine & Reactive Programming · Graphics, Media & Games · Swift
+  **Published:** `22nd November 2019`
+  **NeKI brief:** I really liked this free two-part (1, 2) video from Brandon Williams and Stephen Celis where they demonstrate and explain Combine. There’s also links to their free series (1, 2, 3) of videos on SwiftUI as well! 👍
+- [3](https://www.pointfree.co/episodes/ep67-swiftui-and-state-management-part-3) — iOS Dev Weekly · Issue 431 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `22nd November 2019`
+  **NeKI brief:** The Point-Free episode discusses SwiftUI state management and provides a concrete third-part tutorial on modeling state in Swift applications.
 - [Combine by Tutorials](https://store.raywenderlich.com/products/combine-asynchronous-programming-with-swift) — iOS Dev Weekly · Issue 428 — Tutorial · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `1st November 2019`
   **NeKI brief:** Examines Combine by Tutorials, focusing on the author’s note that should make it clear that i haven’t read all of these books myself. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Using Combine](https://gumroad.com/l/usingcombine) — iOS Dev Weekly · Issue 428 — Article · Topics: Combine & Reactive Programming
+  **Published:** `1st November 2019`
+  **NeKI brief:** I should make it clear that I haven’t read all of these books myself. I have received promo/review copies of a couple of them, but I tried to make this list as comprehensive as possible rather than opinionated!
 - [LLVS project](https://github.com/mentalfaculty/LLVS) — iOS Dev Weekly · Issue 424 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Persistence & Synchronisation
   **Published:** `4th October 2019`
   **NeKI brief:** Examines LLVS project, focusing on one topic that has been talked about consistently since wwdc is how core data (or any data persistence framework) will be…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Error Handling in Swift Combine Framework](https://www.vadimbulavin.com/error-handling-in-swift-combine-framework) — iOS Dev Weekly · Issue 424 — Article · Topics: Combine & Reactive Programming · Swift
+  **Published:** `4th October 2019`
+  **NeKI brief:** The article explains error handling patterns in Swift Combine and demonstrates how publishers propagate and transform failures.
 - [Using Combine to Supplement Delegates With Publishers](https://www.iamsim.me/using-combine-to-supplement-delegates-with-publishers) — iOS Dev Weekly · Issue 424 — Article · Topics: Combine & Reactive Programming · Swift · SwiftUI
   **Published:** `4th October 2019`
   **NeKI brief:** Examines Using Combine to Supplement Delegates With Publishers, offering practical guidance on networking and asynchronous reliability. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [CombineDataSources](https://github.com/combineopensource/CombineDataSources) — iOS Dev Weekly · Issue 417 — Source repository · Topics: Combine & Reactive Programming · Developer Tools
+  **Published:** `16th August 2019`
+  **NeKI brief:** The GitHub repository provides CombineDataSources, a library for driving table and collection views from Combine publishers.
+- [Combine Latest Collection](https://danieltull.co.uk//blog/2019/08/04/combine-latest-collection) — iOS Dev Weekly · Issue 416 — Article · Topics: Combine & Reactive Programming · Testing
+  **Published:** `9th August 2019`
+  **NeKI brief:** The page covers “Combine Latest Collection” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Building a custom operator in Combine](http://trycombine.com/posts/more-simple-custom-combine-operators-with-sample) — iOS Dev Weekly · Issue 416 — Article · Topics: Combine & Reactive Programming
+  **Published:** `9th August 2019`
+  **NeKI brief:** Shows how to build a custom Combine operator around sampling behavior, making event streams emit selected values instead of every upstream change. Useful when shaping reusable publishers for throttled or state-sampling workflows.
 - [Combine vs. RxSwift: Should you switch to Combine?](https://quickbirdstudios.com/blog/combine-vs-rxswift) — iOS Dev Weekly · Issue 416 — Article · Topics: Combine & Reactive Programming · Swift · Testing
   **Published:** `9th August 2019`
   **NeKI brief:** Covers Combine vs. RxSwift: Should you switch to Combine?, focusing on Swift and Apple-platform engineering practice. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
 - [performance testing](https://github.com/quickbirdstudios/CombineRxSwiftPerformance/blob/master/Readme.md) — iOS Dev Weekly · Issue 416 — Source repository · Topics: Combine & Reactive Programming · Performance · Testing
   **Published:** `9th August 2019`
   **NeKI brief:** Examines performance testing, focusing on so much combine content this week! we’ll finish with stefan kofler taking a balanced look comparing rxswift to combine. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Catch SwiftUI model updates from bad threads](https://www.appsdissected.com/swiftui-updates-main-thread-debug-crash) — iOS Dev Weekly · Issue 415 — Article · Topics: Combine & Reactive Programming · Swift · SwiftUI
+  **Published:** `2nd August 2019`
+  **NeKI brief:** Examines It hasn’t yet been reflected in the official SwiftUI documentation (yay, betas), but the WWDC presentations and further guidance from Apple engineers have made it very clear about. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [MovieSwiftUI](https://github.com/Dimillian/MovieSwiftUI) — iOS Dev Weekly · Issue 413 — Source repository · Topics: Combine & Reactive Programming · Swift · SwiftUI
   **Published:** `19th July 2019`
   **NeKI brief:** Examines MovieSwiftUI, focusing on how far can swiftui (and combine) go before you need to resort to uiviewrepresentable? thomas ricouard has been doing…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [GRDBCombine](https://github.com/groue/GRDBCombine) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Developer Tools
+  **Published:** `28th June 2019`
+  **NeKI brief:** The GitHub repository provides GRDBCombine, integrating GRDB database observation with Combine publishers.
 - [GRDB](https://github.com/groue/GRDB.swift) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Developer Tools
   **Published:** `28th June 2019`
   **NeKI brief:** GRDB.swift is a SQLite toolkit offering query interfaces, migrations, observations, and record mapping. Use it when an app needs transparent relational persistence and reactive database changes without SwiftData's deployment and sync assumptions.
+- [example app](https://github.com/groue/GRDBCombine/blob/master/Documentation/Demo/README.md) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Developer Tools
+  **Published:** `28th June 2019`
+  **NeKI brief:** The repository README documents the GRDBCombine example app and shows how the library integrates GRDB database access with Combine.
 - [this article](https://www.bloomberg.com/news/articles/2017-12-20/apple-is-said-to-have-plan-to-combine-iphone-ipad-and-mac-apps) — iOS Dev Weekly · Issue 332 — Article · Topics: Combine & Reactive Programming · Cross-Platform & Web
   **Published:** `22nd December 2017`
   **NeKI brief:** Reports the historical proposal to unify iPhone, iPad, and Mac app distribution or development. Use it as platform-strategy context when assessing multiplatform architecture, while treating predictions as historical and checking the current Apple deployment model.
@@ -310,6 +424,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Intro to Protocol Oriented Programming](https://blog.bobthedeveloper.io/introduction-to-protocol-oriented-programming-in-swift-b358fe4974f) — iOS Dev Weekly · Issue 296 — Article · Topics: Combine & Reactive Programming · Swift
   **Published:** `14th April 2017`
   **NeKI brief:** Explores Intro to Protocol Oriented Programming in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [Snowflake](https://github.com/onmyway133/Snowflake) — iOS Dev Weekly · Issue 279 — Source repository · Topics: Combine & Reactive Programming · Developer Community & Business · Developer Tools
+  **Published:** `2nd December 2016`
+  **NeKI brief:** The page covers “Snowflake” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Retro Flappy Bird](https://www.youtube.com/watch?v=hB6eY73sLV0) — iOS Dev Weekly · Issue 244 — Video · Topics: Combine & Reactive Programming · Graphics, Media & Games
+  **Published:** `1st April 2016`
+  **NeKI brief:** Who knows how many hours of planning combined with 53 long painful minutes to enter the code, and the reward is to play Flappy Bird? The most frustrating game ever! That’s a special kind of masochism! 🤕
+- [News Publisher](https://www.icloud.com/newspublisher) — iOS Dev Weekly · Issue 242 — Article · Topics: Combine & Reactive Programming
+  **Published:** `18th March 2016`
+  **NeKI brief:** The iCloud page documents Apple's News Publisher service and explains how publishers submit content to Apple News.
+- [some thoughts on that](http://pxlnv.com/linklog/apple-releases-its-proprietary-apple-news-format) — iOS Dev Weekly · Issue 242 — Article · Topics: Combine & Reactive Programming
+  **Published:** `18th March 2016`
+  **NeKI brief:** We’ve been able to add content to Apple News for a while now but unless you were blessed as a partner, your only option was via an RSS feed. This week, they opened up the native publishing kit to everyone. There’s a new version of News Publisher in iCloud…
+- [Your iOS app on the Play Store for just 30% of your original cost](https://myappconverter.com/campaign/iosdevweekly) — iOS Dev Weekly · Issue 237 — Article · Topics: Combine & Reactive Programming · Cross-Platform & Web
+  **Published:** `12th February 2016`
+  **NeKI brief:** Explains Your iOS app on the Play Store for just 30% of your original cost, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [comScore Reports February 2012 U.S. Mobile Subscriber Market Share](http://www.comscore.com/Press_Events/Press_Releases/2012/4/comScore_Reports_February_2012_U.S._Mobile_Subscriber_Market_Share) — iOS Dev Weekly · Issue 36 — Article · Topics: Combine & Reactive Programming
+  **Published:** `6th April 2012`
+  **NeKI brief:** I thought the most surprising thing about this was that the Symbian smartphone market share did not fall at all in the last year. Sadly it seems like the market share for Windows Phone did however.
 - [Touchpose](https://github.com/toddreed/Touchpose) — iOS Dev Weekly · Issue 32 — Source repository · Topics: Combine & Reactive Programming · Developer Tools
   **Published:** `9th March 2012`
   **NeKI brief:** Provides the Touchpose source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -319,5 +451,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** This source repository covers reusable Swift and SwiftUI extensions and modifiers. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [The Secret to Buttery Smooth SwiftUI](https://www.swiftdifferently.com/blog/swiftui/swiftui-performance-article) — Not only Swift · Issue 92 — Article · Topics: Concurrency · Swift · SwiftUI
   **NeKI brief:** Explores practical causes of sluggish SwiftUI rendering and techniques for reducing unnecessary work. Useful as a performance checklist before profiling view identity, expensive body computations, and state-driven update frequency with Instruments.
+- [How to support iOS 26 without breaking glass](https://www.youtube.com/live/UXG7U6iFxxM) — Not only Swift · Issue 85 — Video · Topics: Combine & Reactive Programming · Product Design
+  **NeKI brief:** Works through supporting iOS 26 Liquid Glass while retaining earlier deployment targets, using availability checks and a custom SwiftUI backport after a library approach fails on iOS 18. Useful for concrete compatibility trade-offs.
 - [Building a MCP Server in Swift](https://adamwulf.me/2025/03/building-a-mcp-server-in-swift) — Not only Swift · Issue 78 — Article · Topics: AI Development · Combine & Reactive Programming · Swift
   **NeKI brief:** Describes Building a MCP Server in Swift, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.

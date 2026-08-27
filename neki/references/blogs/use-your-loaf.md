@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://useyourloaf.com/archives/](https://useyourloaf.com/archives/)
-- Last collected: `2026-07-22T21:58:56Z`
+- Last collected: `2026-08-27T19:22:09Z`
 - Indexed entries: **575**
 
 - [WWDC 2026 Viewing Guide](https://useyourloaf.com/blog/wwdc-2026-viewing-guide)
@@ -1157,7 +1157,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Updating Strings for Swift 3](https://useyourloaf.com/blog/updating-strings-for-swift-3)
   **Published:** `2016-10-10T09:01:57+01:00`
   **Topics:** Swift
-  **NeKI brief:** Guides Swift 3 string migration toward Unicode-correct indexing and modern APIs. Treat compiler fixes as a starting point; verify text behavior with emoji and localized input.
+  **NeKI brief:** Great post by Keith Harrison on strings in Swift 3 and the syntax changes since Swift 2. There’s also an updated playground file with some examples of everything he talks about.
 - [Split View Controller Display Modes](https://useyourloaf.com/blog/split-view-controller-display-modes)
   **Published:** `2016-10-03T11:07:23+01:00`
   **Topics:** Xcode
@@ -1169,7 +1169,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [openURL Deprecated in iOS10](https://useyourloaf.com/blog/openurl-deprecated-in-ios10)
   **Published:** `2016-09-19T12:07:50+01:00`
   **Topics:** Networking
-  **NeKI brief:** Migrates deprecated openURL calls to options-based APIs with completion reporting. Treat launch success as a request outcome, not proof the destination completed the desired user flow.
+  **NeKI brief:** Discusses the deprecation of openURL in iOS 10 and the move toward newer URL-opening APIs. Follow it for concrete migration context, while checking current UIApplication and scene behavior.
 - [Adding Swift Convenience Initializers](https://useyourloaf.com/blog/adding-swift-convenience-initializers)
   **Published:** `2016-09-12T19:49:21+01:00`
   **Topics:** Swift · UIKit
@@ -1193,7 +1193,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Xcode Visual Memory Debugger](https://useyourloaf.com/blog/xcode-visual-memory-debugger)
   **Published:** `2016-07-25T21:18:40+01:00`
   **Topics:** Performance · Xcode
-  **NeKI brief:** Uses Xcode's visual memory debugger to inspect object graphs and identify unexpected retention. The graph suggests relationships, but retain-cycle conclusions still need verification against ownership code.
+  **NeKI brief:** Presents Xcode Visual Memory Debugger, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Slow App Startup Times](https://useyourloaf.com/blog/slow-app-startup-times)
   **Published:** `2016-07-18T20:47:23+01:00`
   **Topics:** UIKit
@@ -1225,7 +1225,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Detecting low power mode](https://useyourloaf.com/blog/detecting-low-power-mode)
   **Published:** `2016-05-23T12:26:58+01:00`
   **Topics:** UIKit
-  **NeKI brief:** Detects Low Power Mode so optional background work or animations can adapt to battery constraints. The setting is a user preference signal, not permission to reduce essential functionality.
+  **NeKI brief:** The article explains how an iOS application can detect Low Power Mode and use that system state in its runtime behavior.
 - [New Swift, Core Data and Cocoa Books](https://useyourloaf.com/blog/new-swift-core-data-and-cocoa-books)
   **Published:** `2016-05-16T10:43:25+01:00`
   **Topics:** Core Data · Persistence & Synchronisation · Swift
@@ -1245,7 +1245,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Readable Content Guides](https://useyourloaf.com/blog/readable-content-guides)
   **Published:** `2016-04-18T12:24:30+01:00`
   **Topics:** UIKit
-  **NeKI brief:** Introduces readable-content guides for text layouts that should avoid excessively wide lines. Pair readable width with safe-area constraints so navigation and interactive content retain sensible bounds.
+  **NeKI brief:** It’s well known that long lines of text can present problems with readability and while the phone is unlikely to have this problem, when you get to the iPad you’ll almost certainly have to consider it. I had no idea that Auto Layout included a solution for…
 - [Natural Text Alignment for RTL Languages](https://useyourloaf.com/blog/natural-text-alignment-for-rtl-languages)
   **Published:** `2016-04-11T14:52:42+01:00`
   **Topics:** UIKit
@@ -1261,7 +1261,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Scrolling Stack Views](https://useyourloaf.com/blog/scrolling-stack-views)
   **Published:** `2016-03-14T12:21:00+00:00`
   **Topics:** SwiftUI · UIKit
-  **NeKI brief:** Embeds a stack view in a scroll view with constraints that define content size automatically. The layout chain must cover both dimensions, while large dynamic stacks may require virtualization for performance.
+  **NeKI brief:** Examines At the point of scrolling a stack view, it might be worth considering a table view/collection view. However, if you’re wanting to do it Keith Harrison has some useful tips for making it work. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Styling buttons using the Asset Catalog](https://useyourloaf.com/blog/styling-buttons-using-the-asset-catalog)
   **Published:** `2016-03-07T20:25:03+00:00`
   **Topics:** UIKit · Xcode

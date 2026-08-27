@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.mikeash.com/pyblog/](https://www.mikeash.com/pyblog/)
-- Last collected: `2026-07-22T21:49:38Z`
+- Last collected: `2026-08-27T19:22:09Z`
 - Indexed entries: **226**
 
 - [mikeash.com: XBolo is Out!](https://www.mikeash.com/pyblog/xbolo-is-out.html)
@@ -176,7 +176,7 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Swift type erasure hides concrete generic types behind a stable interface, typically by storing forwarding closures or a boxed witness. The article explains the runtime and API trade-off behind AnySequence-style designs.
 - [mikeash.com: Friday Q&A 2017-11-10: Observing the A11's Heterogenous Cores](https://www.mikeash.com/pyblog/friday-qa-2017-11-10-observing-the-a11s-heterogenous-cores.html)
   **Topics:** Objective-C & Cocoa
-  **NeKI brief:** The A11's heterogeneous cores make scheduling and benchmark interpretation hardware-aware: throughput and latency can vary with core assignment and workload. Follow it when diagnosing performance results that are not reproducible across devices.
+  **NeKI brief:** Let’s kick this week’s code section off in the most hardcore way possible. The A11 is an amazing chip and Mike Ash is going to give you a wonderful tour of the heterogeneous cores in the new processor. 🚀
 - [mikeash.com: Friday Q&A 2017-10-27: Locks, Thread Safety, and Swift: 2017 Edition](https://www.mikeash.com/pyblog/friday-qa-2017-10-27-locks-thread-safety-and-swift-2017-edition.html)
   **Topics:** Swift
   **NeKI brief:** The lock discussion compares synchronization primitives, ownership discipline, and contention rather than treating a mutex as a universal fix. It helps diagnose races by identifying the protected invariant and the cost of serialized access.
@@ -347,7 +347,7 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Building NSInvocation reveals Objective-C method signatures, argument buffers, and message dispatch as distinct runtime layers. The exercise gives useful diagnostic context for reflection-heavy legacy code.
 - [mikeash.com: Friday Q&A 2013-02-22: Let's Build UITableView](https://www.mikeash.com/pyblog/friday-qa-2013-02-22-lets-build-uitableview.html)
   **Topics:** Objective-C & Cocoa
-  **NeKI brief:** A table-view implementation coordinates data source queries, visible-cell reuse, scrolling, and layout invalidation. Recreating it demonstrates why reuse identity and incremental updates are core performance mechanisms.
+  **NeKI brief:** Matthew Elton takes the reins for the Friday Q&A this week with a look at implementing UITableView from scratch. The sample code provided has options to toggle the cell reuse optimisation which gives a glimpse of how life could have been without the reuse…
 - [mikeash.com: Friday Q&A 2013-02-08: Let's Build Key-Value Coding](https://www.mikeash.com/pyblog/friday-qa-2013-02-08-lets-build-key-value-coding.html)
   **Topics:** Objective-C & Cocoa
   **NeKI brief:** Key-value coding resolves property paths dynamically, requiring well-defined lookup, conversion, and failure behavior. Rebuilding it exposes the runtime assumptions hidden by a string-based API.
@@ -395,7 +395,7 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** C exposes layout, integer conversion, pointer, and undefined-behavior rules that higher-level languages often hide. The tour is useful when diagnosing failures at an FFI or systems boundary.
 - [mikeash.com: Friday Q&A 2012-08-10: A Tour of CommonCrypto](https://www.mikeash.com/pyblog/friday-qa-2012-08-10-a-tour-of-commoncrypto.html)
   **Topics:** Objective-C & Cocoa
-  **NeKI brief:** CommonCrypto exposes low-level hashing, encryption, and MAC primitives with byte-buffer APIs. The tour highlights algorithm choice, key handling, and authenticated encryption boundaries that wrappers must preserve.
+  **NeKI brief:** The Friday Q&A article gives a technical tour of Apple's CommonCrypto APIs and explains their use from application code.
 - [mikeash.com: Friday Q&A 2012-07-27: Let's Build Tagged Pointers](https://www.mikeash.com/pyblog/friday-qa-2012-07-27-lets-build-tagged-pointers.html)
   **Topics:** Objective-C & Cocoa
   **NeKI brief:** Tagged pointers encode small values in pointer bits, avoiding allocation while retaining object-like interfaces. The runtime technique is ABI-sensitive and belongs in framework internals, not ordinary application code.
@@ -425,7 +425,7 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** A mutable dictionary couples hashing, equality, collision handling, resizing, and mutation semantics; preserve these invariants as entries are inserted or removed rather than optimizing buckets in isolation.
 - [mikeash.com: Friday Q&A 2012-03-09: Let's Build NSMutableArray](https://www.mikeash.com/pyblog/friday-qa-2012-03-09-lets-build-nsmutablearray.html)
   **Topics:** Objective-C & Cocoa
-  **NeKI brief:** A mutable array implementation must define indexing, capacity growth, mutation detection, ownership, and iteration guarantees together; its storage optimizations are valid only if those collection contracts remain intact.
+  **NeKI brief:** Presents Let’s Build NSMutableArray, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [mikeash.com: Friday Q&A 2012-03-02: Key-Value Observing Done Right: Take 2](https://www.mikeash.com/pyblog/friday-qa-2012-03-02-key-value-observing-done-right-take-2.html)
   **Topics:** Objective-C & Cocoa
   **NeKI brief:** Explains Key-Value Observing Done Right Take 2 with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
@@ -449,7 +449,7 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Assembly inspection begins by mapping instructions to calling conventions, registers, stack frames, and branches; use it to validate compiler output or crash behavior rather than replacing source-level diagnosis prematurely.
 - [mikeash.com: Friday Q&A 2011-12-02: Object File Inspection Tools](https://www.mikeash.com/pyblog/friday-qa-2011-12-02-object-file-inspection-tools.html)
   **Topics:** Objective-C & Cocoa
-  **NeKI brief:** Object-file inspection tools reveal symbols, sections, architectures, load commands, and linked dependencies; inspect build artifacts when linker, loader, or binary-size behavior differs from source-level expectations.
+  **NeKI brief:** I have been trying not to link to Mike Ash every week (you really should be subscribed!) but I couldn’t let this one pass unnoticed. This week takes a look at otool, nm, otx and class-dump.
 - [mikeash.com: Friday Q&A 2011-11-11: Building a Memoizing Block Proxy](https://www.mikeash.com/pyblog/friday-qa-2011-11-11-building-a-memoizing-block-proxy.html)
   **Topics:** Objective-C & Cocoa
   **NeKI brief:** Memoization caches a function result by its input identity, reducing repeated work only when the function is pure enough; bound cache lifetime and define invalidation for mutable data or resource-heavy results.
@@ -461,7 +461,7 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** GCD API additions should refine queue ownership and work submission rather than obscure it; adopt newer primitives when they express cancellation, groups, or synchronization more directly than manual coordination.
 - [mikeash.com: Friday Q&A 2011-09-30: Automatic Reference Counting](https://www.mikeash.com/pyblog/friday-qa-2011-09-30-automatic-reference-counting.html)
   **Topics:** Objective-C & Cocoa
-  **NeKI brief:** ARC inserts ownership operations from strong, weak, and unowned relationships, but cannot infer semantic lifetime; design the graph explicitly and use diagnostics to find cycles or escaping references.
+  **NeKI brief:** Simply the clearest and best explanation of ARC that I have seen so far. Fascinating.
 - [mikeash.com: Friday Q&A 2011-09-16: Let's Build Reference Counting](https://www.mikeash.com/pyblog/friday-qa-2011-09-16-lets-build-reference-counting.html)
   **Topics:** Objective-C & Cocoa
   **NeKI brief:** Explains Let’s Build Reference Counting with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.

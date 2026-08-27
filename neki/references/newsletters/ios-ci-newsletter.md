@@ -3,8 +3,26 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.ioscinewsletter.com/](https://www.ioscinewsletter.com/)
-- Last collected: `2026-08-05T10:03:08Z`
-- Indexed entries: **88**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed entries: **89**
+
+## [Issue 92](https://ioscinewsletter.com/issues/92)
+
+- Published: `2026-08-23T00:00:00.000Z`
+
+**Topics:** App Distribution & Store Operations · CI/CD & Automation · Dependency Injection · Swift · Swift Package Manager · Testing
+
+**Sections:** Stay up to date with the latest iOS CI/CD news
+
+**NeKI brief:** Collects CI-adjacent reading on EU distribution terms, Swift package registries, generating promotional assets from XCUITest, and trimming SwiftPM dependency graphs with traits. The edition is a routing starting point for delivery and package-maintenance work.
+
+**Selected links:**
+- [SwiftNavigation](https://github.com/pointfreeco/swift-navigation) — Source repository · Topics: Dependency Injection · Developer Tools · Swift
+  **NeKI brief:** Introduces Point-Free’s cross-platform, state-driven navigation package, with SwiftUI and UIKit modules, binding tools, case studies, and deep-linkable state. It is useful when moving UIKit navigation from imperative actions to a model that stays synchronized with presentations.
+- [🎥 Using an automation to generate promotional assets](https://thosewhoswift.substack.com/p/devs-for-devs-from-xcuitest-to-promo) — Article · Topics: Swift · Testing
+  **NeKI brief:** Treats App Store screenshots and promo videos as reproducible build output: launch exact SwiftUI state, operate capture through XCUITest, compose in Remotion, and verify inputs with manifests and hashes.
+- [✂️ Using traits to reduce the number of transitive dependencies](https://www.pointfree.co/blog/posts/216-trait-ifying-our-libraries-to-reduce-transitive-dependencies) — Article · Topics: Dependency Injection · Swift
+  **NeKI brief:** Applies SwiftPM traits to make optional library features opt-in, using SwiftNavigation as the test case. Follow it when reducing transitive dependencies while weighing package configuration complexity against smaller builds.
 
 ## [Issue 91](https://ioscinewsletter.com/issues/91)
 
@@ -159,6 +177,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Examines How monday.com cut their CI build times in half in the context of Architecture and CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [🪝 How the new App Store Connect webhooks can power your automations](https://en.zhgchg.li/posts/zrealm-dev/app-store-connect-api-webhook-automate-ci-cd-workflows-seamlessly-7c0974856393) — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
   **NeKI brief:** Examines How the new App Store Connect webhooks can power your automations in the context of App Distribution & Store Operations and Apple Platform Ecosystem. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Mark Szymczyk](https://mastodon.world/@swiftdevjournal) — Article · Topics: Swift · Swift Package Manager
+  **NeKI brief:** Mark shows how to use instrument to profile your app, spot views with high update frequency and investigate the roots of unnecessary re-renders.
 - [🐙 GitHub’s Platform fee explained](https://cloud.namespace.so/pd3382pdfrpeq/updates/github-pricing-dec16-2025) — Article · Topics: Developer Tools · Objective-C & Cocoa
   **NeKI brief:** Examines GitHub’s Platform fee explained in the context of Developer Tools and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [check out our latest post on the Helm blog](https://helm-app.com/changelog/helm-2025-past-present-future) — Article · Topics: Testing
@@ -336,7 +356,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [💪 How to install Xcode 26’s Metal Toolchain on CI/CD](https://www.polpiella.dev/metal-toolchain-ci-cd) — Article · Topics: CI/CD & Automation · Graphics, Media & Games · Xcode
   **NeKI brief:** Shows provisioning Xcode's Metal toolchain in CI/CD. Use it when a project compiles Metal shaders or GPU code outside a developer machine and a runner must install the matching components reproducibly.
 - [🧠 Profile your Foundation Models calls in Xcode 26](https://artemnovichkov.com/blog/foundation-models-profiling-with-xcode-instruments) — Article · Topics: AI Development · Foundation & Data Formats · Performance
-  **NeKI brief:** Examines Foundation Models Profiling with Xcode Instruments, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+  **NeKI brief:** Artem shows how to profile and optimize Foundation Models performance using Xcode Instruments, tracking response time, token usage and tool calls to help developers improve performance on real devices.
 - [💪 ReleaseTools: A lightweight alternative to Fastlane written entirely in Swift](https://elegantchaos.com/2025/09/26/release-tools.html) — Article · Topics: CI/CD & Automation · Cross-Platform & Web · Swift
   **NeKI brief:** Summarises ReleaseTools: A lightweight alternative to Fastlane written entirely in Swift for CI/CD & Automation and Cross-Platform & Web. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
 - [this update post we have written](https://helm-app.com/changelog/helm-2-0) — Article
@@ -506,7 +526,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [this tutorial on how to build an MCP Server in Swift](https://www.artemnovichkov.com/blog/creating-mcp-servers-in-swift) — Tutorial · Topics: AI Development · Swift
-  **NeKI brief:** Presents Creating MCP Servers in Swift, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Artem explains how to create an MCP server (Model Context Protocol) that can be used to connect LLMs model with the tools that we use everyday using the Swift programming language.
 - [🤖 Interacting with Bitrise from an AI Assistant](https://bitrise.io/blog/post/chat-with-your-builds-ci-and-more-introducing-the-bitrise-mcp-server) — Article · Topics: AI Development · Developer Tools
   **NeKI brief:** Examines Interacting with Bitrise from an AI Assistant in the context of AI Development and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [ready-to-use MCP Servers](https://github.com/modelcontextprotocol/servers) — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
@@ -530,7 +550,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [the Model Context Protocol, a new standard for providing context to LLMs](https://www.anthropic.com/news/model-context-protocol) — Article · Topics: AI Development
   **NeKI brief:** Discusses Model Context Protocol in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
 - [📦 Inspect and secure your app’s .ipa files](https://www.artemnovichkov.com/blog/how-to-inspect-ipa-files) — Article
-  **NeKI brief:** Shows how to inspect an IPA archive for packaging details and common security mistakes. Use it during release audits to examine embedded assets, metadata, and bundled resources before distribution.
+  **NeKI brief:** In this original article, Artem provides a comprehensive guide on examining the contents of iOS application packages (.ipa files) and highlights common security pitfalls to avoid.
 
 ## [Issue 65](https://ioscinewsletter.com/issues/65)
 
@@ -652,7 +672,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [🍎 Running Xcode in unsupported macOS versions](https://marcelvoss.com/2025/tricking-xcode-into-running-on-an-unsupported-macos) — Article · Topics: Apple Platform Ecosystem · Personal Essays · Xcode
   **NeKI brief:** Examines Running Xcode in unsupported macOS versions in the context of Apple Platform Ecosystem and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [❓ Apple has open-sourced Swift Build: Now what?](https://www.swift.org/blog/the-next-chapter-in-swift-build-technologies) — Article · Topics: Swift · Xcode
-  **NeKI brief:** Discusses the direction of Swift build technologies and tooling. Use it for ecosystem context when planning build-system work, but keep implementation decisions grounded in the current Swift Package Manager and Xcode documentation.
+  **NeKI brief:** This commitment led Apple to open-sourcing Swift Build, a build engine that offers a comprehensive set of build rules for constructing Swift projects.
 - [I would recommend reading this article](https://tuist.dev/blog/2025/02/03/swift-build) — Article · Topics: Swift
   **NeKI brief:** Examines I would recommend reading this article in the context of Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [🔧 Ready to use UI components for Swift CLIs](https://swifttoolkit.dev/posts/noora-package) — Article · Topics: Swift
@@ -886,7 +906,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [👨‍🔧 Detecting a memory leak in Xcode](https://www.emergetools.com/blog/posts/the-memory-leak-an-xcode-detective-story) — Article · Topics: Developer Tools · Xcode
-  **NeKI brief:** Presents an xcode detective story for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Jacob describes how he tracked down a memory leak that caused a double navigation bug in an iOS app providing a detailed breakdown of the bug and the process he went through to resolve it.
 - [🎨 Styling terminal output in Swift executables](https://swifttoolkit.dev/posts/terminal-colors) — Article · Topics: Developer Community & Business · Developer Tools · Swift
   **NeKI brief:** Examines Styling terminal output in Swift executables in the context of Developer Community & Business and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [I have spoken about in the past](https://www.youtube.com/watch?v=LBYFHS8jFKk) — Video · Topics: Developer Community & Business · Developer Tools · Swift
@@ -1126,7 +1146,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [📦 Build a Swift Package with the Swift 6 language mode](https://www.polpiella.dev/swift-6-language-mode) — Article · Topics: Objective-C & Cocoa · Swift · Swift Package Manager
   **NeKI brief:** Enabling Swift 6 language mode in a package means selecting a development toolchain and surfacing strict concurrency diagnostics during builds. The article presents this as an incremental migration gate, not a one-line compiler-version upgrade.
 - [15th of March, the Swift language team created the release branch for Swift 6](https://forums.swift.org/t/swift-6-0-release-process/70220) — Article · Topics: Objective-C & Cocoa · Swift · Swift Package Manager
-  **NeKI brief:** The Swift 6 release-process discussion records how toolchains, proposals, and release milestones are coordinated. Use it to understand version timing and migration planning rather than treating a release label as a complete compatibility guarantee.
+  **NeKI brief:** post. This link is retained as a technical reading lead for Apple-platform development.
 - [making snapshots from this branch regularly available for download](https://www.swift.org/download) — Article · Topics: Objective-C & Cocoa · Swift · Swift Package Manager
   **NeKI brief:** Examines making snapshots from this branch regularly available for download in the context of Objective-C & Cocoa and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [👀 How to monitor Xcode Build times with RocketSim](https://www.avanderlee.com/xcode/xcode-build-insights-keep-track-of-project-compilation-times) — Article · Topics: Navigation & Deep Linking · Xcode
@@ -1280,7 +1300,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [this awesome article](https://blog.eidinger.info/why-and-how-to-adopt-actionscheckoutv3-in-your-github-action-workflow) — Article · Topics: Developer Tools · Objective-C & Cocoa
   **NeKI brief:** Examines actions/checkout GitHub action updated! in the context of Developer Tools and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [👀 The Swift 6 release process](https://forums.swift.org/t/swift-6-0-release-process/70220) — Article · Topics: Swift
-  **NeKI brief:** The Swift 6 release-process discussion records how toolchains, proposals, and release milestones are coordinated. Use it to understand version timing and migration planning rather than treating a release label as a complete compatibility guarantee.
+  **NeKI brief:** post. This link is retained as a technical reading lead for Apple-platform development.
 - [🛑 Deprecation of widely used GitHub Actions actions](https://github.blog/changelog/2024-02-13-deprecation-notice-v1-and-v2-of-the-artifact-actions) — Article · Topics: Developer Tools
   **NeKI brief:** Examines Deprecation of widely used GitHub Actions actions in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [upload](https://github.com/actions/upload-artifact) — Source repository · Topics: Developer Tools

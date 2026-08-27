@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** WWDC and platform announcements, Apple ecosystem context, compatibility history, and release-overview reading.
 
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed links shown: **437**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **652**
 
 ## Direct-source reading
 
@@ -569,7 +569,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Additional pattern-matching examples show how associated values, optionals, and where clauses can express domain conditions together. The technique improves branch clarity when it reflects real alternatives rather than clever syntax.
 - [How to Use updateConstraints – Ole Begemann](https://oleb.net/blog/2015/08/how-to-use-updateconstraints) — Ole Begemann · article catalogue
   **Published:** `2015-08-31T21:53:00Z`
-  **NeKI brief:** updateConstraints is the right hook for changing constraint definitions, while layout passes should not continually recreate them. The article maps Auto Layout work to lifecycle phases and prevents feedback-loop performance issues.
+  **NeKI brief:** Presents How to Use updateConstraints, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [iOS 9 Proportional Numbers](https://useyourloaf.com/blog/ios-9-proportional-numbers) — Use Your Loaf · article catalogue
   **Published:** `2015-06-29T20:24:12+01:00`
   **NeKI brief:** Uses tabular or proportional numeral font features according to whether changing numbers need alignment. Typography selection affects readability of timers and metrics without changing underlying numeric data.
@@ -731,7 +731,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [MartianCraft Smart Mirror Project—Part 1: Hardware](https://martiancraft.com/blog/2017/01/smart-mirror-hardware) — MartianCraft · article catalogue
   **NeKI brief:** An iPad-powered smart mirror keeps the display removable for maintenance while delivering locale-aware time, RSS, weather, and calendar modules. Define the physical enclosure, one-way mirror, power, and device-access constraints alongside the iOS UI.
 - [Arriving at San Francisco](https://martiancraft.com/blog/2015/10/san-francisco-part-2) — MartianCraft · article catalogue
-  **NeKI brief:** San Francisco uses size-specific optical cuts, tracking, and numeric variants to preserve legibility. Prefer system typography so the platform selects appropriate metrics; when rendering dense data or animated values, choose tabular figures deliberately.
+  **NeKI brief:** Examines Discover the evolution of Apple. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Living the Live Photos Dream](https://martiancraft.com/blog/2015/09/live-photos) — MartianCraft · article catalogue
   **NeKI brief:** Live Photos combine still imagery with short motion and audio, enabling effects adjacent to cinemagraphs. Product experiments must account for capture, editing, and playback constraints rather than assuming a static-image pipeline can represent the richer media.
 - [Establishing Priority](https://martiancraft.com/blog/2014/07/establishing-priority) — MartianCraft · article catalogue
@@ -739,6 +739,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Amethyst Vein: An Open-Source, Cross-Platform Local Persistence Framework with SwiftData-Style APIs](https://l.fatbobman.com/w0150-6) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Cross-Platform & Web · Swift · SwiftData
+  **Published:** `2026-08-24T12:03:48.210Z`
+  **NeKI brief:** Presents Vein, an open-source local-first ORM with SwiftData-like macros, model containers, queries, migrations, and a SQLite/SQLCipher backend across Apple platforms, Linux, Android, and Windows. Use it to assess a shared Swift persistence layer rather than assuming SwiftData portability.
+- [KSCrash](https://github.com/kstenerud/KSCrash) — iOS Dev Tools · iOS Dev Tools: Appllama, KSCrash, Reely — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `2026-08-20T16:31:57.620Z`
+  **NeKI brief:** KSCrash is a mature iOS/macOS crash-reporting library that captures native crashes and turns them into reports for later symbolication or delivery. It is useful when comparing in-process crash capture with hosted crash-reporting SDK trade-offs.
 - [NoMac](https://nomac.app/) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Article · Topics: AI Development · App Distribution & Store Operations · Testing
   **Published:** `2026-08-13T16:30:38.104Z`
   **NeKI brief:** Offers an agent-oriented cloud pipeline that creates signed iOS builds, installs them on a phone, sends them to TestFlight, and submits to the App Store. Its model avoids local Xcode and certificate handling.
@@ -757,9 +763,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [An Indie Playbook for the WWDC26 App Store Changes](https://3nsofts.com/guides/app-store/app-store-wwdc26-monetization-indie-playbook) — iOS Dev Weekly · Issue 759 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
   **Published:** `17th July 2026`
   **NeKI brief:** Examines WWDC26 App Store changes through an indie developer lens, connecting policy updates to pricing, subscriptions, and release planning. Useful for product decisions, but verify current Apple commerce rules before implementation.
+- [Apple’s WWDC26 AI Story Is About Control, Not Just Models](https://jonbrown.org/blog/apple-intelligence-xcode-wwdc26-platform-control) — Those Who Swift · Issue 275 — Article · Topics: AI Development · Apple Platform Ecosystem · Xcode
+  **Published:** `2026-07-15`
+  **NeKI brief:** Argues that Apple’s AI direction emphasizes platform control and developer tooling. Useful for strategic context when assessing how Foundation Models and Xcode capabilities shape implementation choices.
 - [WWDC 2026 Developer Tools: Xcode 27, Swift, Foundation Models](https://andrew.ooo/answers/wwdc-2026-developer-tools-xcode-swift-foundation-models-june-2026) — Those Who Swift · Issue 275 — Article · Topics: Apple Platform Ecosystem · Foundation & Data Formats · Swift
   **Published:** `2026-07-15`
   **NeKI brief:** Surveys the WWDC 2026 developer-tool changes across Xcode, Swift, and Foundation Models. Use it as a release-oriented map of new workflows, then verify specific APIs, deployment requirements, and availability in Apple's current documentation.
+- [https://www.figma.com/community/file/1651309003795292092/ios-and-ipados-27](https://www.figma.com/community/file/1651309003795292092/ios-and-ipados-27?ref=createwithswift.com) — Create with Swift · Issue 115 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **Published:** `2026-07-10T15:00:44.000Z`
+  **NeKI brief:** Apple has updated its official Figma UI kits for iOS, iPadOS, and macOS 27, giving designers and developers a refreshed set of components, styles, materials, and templates that reflect the latest platform updates. The new kits are useful for creating more…
 - [What’s New In Swift: June 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-june-2026) — Those Who Swift · Issue 274 — Article · Topics: Apple Platform Ecosystem · Swift
   **Published:** `2026-07-08`
   **NeKI brief:** Examines June digest in the context of Swift and SwiftUI. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -769,6 +781,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iPhone Apps Are Resizable Now, and It's Not Just for iPad](https://dev.to/arshtechpro/wwdc26-whats-new-in-swiftui-a-developers-breakdown-1333?ref=ioscodereview.com) — iOS Code Review · Issue 81 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2026-06-30T16:31:22.000Z`
   **NeKI brief:** Examines iPhone Apps Are Resizable Now, and It's Not Just for iPad in the context of Apple Platform Ecosystem and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [All new frameworks presented at WWDC26](https://blog.eidinger.info/all-new-frameworks-presented-at-wwdc26) — SwiftLee Weekly · Issue 330 — Article · Topics: Apple Platform Ecosystem · Objective-C & Cocoa
+  **Published:** `2026-06-30T14:07:37.000Z`
+  **NeKI brief:** This reference inventories the 14 frameworks introduced at WWDC26 and pairs each name with its Apple-platform purpose. It is useful as a compact discovery map before following the relevant primary documentation for App Intents, AI, routing, graphics, or testing work.
 - [WWDC26: SwiftUI Group Lab 2nd - Q&A](https://antongubarenko.substack.com/p/wwdc26-swiftui-group-lab-2nd-q-and) — Those Who Swift · Issue 272 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2026-06-24`
   **NeKI brief:** Summarizes questions and answers from the second WWDC26 SwiftUI Group Lab, capturing implementation guidance and framework constraints discussed with Apple engineers. Useful as contextual follow-up when an API’s behavior is unclear from documentation alone.
@@ -781,6 +796,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [WWDC26: Xcode Tips and Tricks Group Lab - Q&A](https://antongubarenko.substack.com/p/wwdc26-xcode-tips-and-tricks-group) — iOS Dev Weekly · Issue 755 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Xcode
   **Published:** `19th June 2026`
   **NeKI brief:** Explains WWDC26: Xcode Tips and Tricks Group Lab - Q&A, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [How did Apple cut launch time by 30% in iOS 27?](https://blog.jacobstechtavern.com/p/ios-27-launch-time) — iOS Dev Weekly · Issue 755 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `19th June 2026`
+  **NeKI brief:** The article investigates how Apple reduced launch time in iOS 27 and discusses the technical changes behind the performance improvement.
 - [Footprint](https://github.com/naftaly/Footprint) — iOS Dev Tools · iOS Dev Tools: Footprint, ZMarkupParser, Lettera — Source repository · Topics: Apple Platform Ecosystem · Developer Career & Practice · Developer Tools
   **Published:** `2026-06-18T16:02:35.381Z`
   **NeKI brief:** Footprint exposes app and system memory pressure as normal, warning, urgent, critical, and terminal states, with a 500-ms heartbeat and AsyncStream updates. SwiftUI modifiers let an app adapt before memory warnings arrive too late.
@@ -790,6 +808,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [WWDC26: Swift Group Lab – Q&A](https://antongubarenko.substack.com/p/wwdc26-swift-group-lab-q-and-a) — Those Who Swift · Issue 271 — Article · Topics: Apple Platform Ecosystem · Swift
   **Published:** `2026-06-18`
   **NeKI brief:** Summarizes SwiftUI Group Lab questions from WWDC26, capturing practical API clarifications and design guidance that are easy to miss in session videos. Useful as a focused follow-up for current SwiftUI adoption decisions.
+- [WWDC26 Group Labs: The Real Story Isn’t Foundation Models. It’s Evaluation.](https://divyaravidev.substack.com/p/wwdc26-group-labs-the-real-story) — Those Who Swift · Issue 271 — Article · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
+  **Published:** `2026-06-18`
+  **NeKI brief:** Reports on WWDC26 group labs and evaluation around Foundation Models. Useful for understanding model assessment as an engineering concern rather than relying on demo quality alone.
 - [🚀 WWDC26: Improvements to Instruments in Xcode 27](https://youtu.be/9zjeImiYtow?si=vEN-AD55cyLIUnr4&t=1279) — iOS CI Newsletter · Issue 89 — Video · Topics: Apple Platform Ecosystem · Performance · Xcode
   **Published:** `2026-06-17T00:00:00.000Z`
   **NeKI brief:** Records WWDC26: Improvements to Instruments in Xcode 27 as a visual walkthrough relevant to Apple Platform Ecosystem and Performance. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
@@ -801,7 +822,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Records WWDC26: Build, deliver, and automate with Xcode Cloud as a visual walkthrough relevant to Apple Platform Ecosystem and Xcode. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
 - [What's New In Swiftdata](https://azamsharp.com/2026/06/12/whats-new-in-swiftdata.html) — SwiftLee Weekly · Issue 328 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2026-06-16T14:06:32.000Z`
-  **NeKI brief:** Summarizes SwiftData changes for iOS 27. Use it to identify migration and feature candidates for a persistence layer, then verify model, query, and availability details against current Apple documentation.
+  **NeKI brief:** Mohammad covers what’s new in SwiftData for iOS 27, showing how enum predicates, sectioned queries, compound predicates, the new .codable attribute, and ResultsObserver remove common workarounds.
+- [add 30+ features to Xcode's Device Hub](https://www.rocketsim.app/docs/features/capturing/device-hub-support) — SwiftLee Weekly · Issue 328 — Article · Topics: Apple Platform Ecosystem · Xcode
+  **Published:** `2026-06-16T14:06:32.000Z`
+  **NeKI brief:** Documents add 30+ features to Xcode's Device Hub, focusing on an iOS Simulator workflow and the concrete debugging or testing decisions it enables for Apple-platform development.
 - [WWDC 2026 - What's New in Swift](https://dev.to/arshtechpro/wwdc-2026-whats-new-in-swift-3nb2?ref=ioscodereview.com) — iOS Code Review · Issue 80 — Article · Topics: Apple Platform Ecosystem · Swift · Testing
   **Published:** `2026-06-15T17:08:20.000Z`
   **NeKI brief:** Summarises WWDC 2026 - What's New in Swift for Apple Platform Ecosystem and Swift. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
@@ -838,18 +862,39 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [WWDC Quick Look](https://wwdc-quick-look.swiftgg.team/articles) — Fatbobman’s Swift Weekly · Issue 140 — Article · Topics: Apple Platform Ecosystem · Swift
   **Published:** `2026-06-15T12:03:17.597Z`
   **NeKI brief:** WWDC Quick Look provides a community index of Apple developer announcements and session takeaways. Use it for fast discovery across topics, treating every summary as a pointer to the authoritative session or documentation.
+- [My First Developer Notes from WWDC26](https://www.ioscoffeebreak.com/issue/issue73) — iOS Dev Weekly · Issue 754 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `12th June 2026`
+  **NeKI brief:** Examines WWDC26 is here, and after watching the keynote and Platforms State of the Union, these are the announcements that felt most relevant to me as an Apple Developer. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [First Impressions of WWDC 2026: In Line with Expectations, but More Pragmatic](https://fatbobman.com/en/weekly/issue-139) — iOS Dev Weekly · Issue 754 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `12th June 2026`
+  **NeKI brief:** The page covers “First Impressions of WWDC 2026: In Line with Expectations, but More Pragmatic” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [SwiftUI reorderable containers in iOS 27](https://livsycode.com/swiftui/swiftui-reorderable-containers-in-ios-27) — SwiftLee Weekly · Issue 327 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2026-06-09T21:59:45.000Z`
-  **NeKI brief:** Shows reorderable SwiftUI containers introduced for iOS 27 and the interaction model they enable. Use it when replacing custom drag-state code, checking platform availability and accessibility behavior before migration.
+  **NeKI brief:** Artem shares how SwiftUI’s new iOS 27 reorderable containers let you add drag-to-reorder support beyond List, using reorderable()and reorderContainer to make stacks, grids, and custom layouts easier to rearrange.
+- [Active ReviewSE-0478File-level defaults](https://github.com/apple/swift-evolution/blob/main/proposals/0478-default-isolation-typealias.md) — SwiftLee Weekly · Issue 327 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2026-06-09T21:59:45.000Z`
+  **NeKI brief:** Records Active ReviewSE-0478File-level defaults, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Active ReviewSE-0516`Iterable`](https://github.com/apple/swift-evolution/blob/main/proposals/0516-borrowing-sequence.md) — SwiftLee Weekly · Issue 327 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
   **Published:** `2026-06-09T21:59:45.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0516`Iterable`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [AcceptedSE-0529Add `FilePath` to the Standard Library](https://github.com/apple/swift-evolution/blob/main/proposals/0529-filepath-in-stdlib.md) — SwiftLee Weekly · Issue 327 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2026-06-09T21:59:45.000Z`
+  **NeKI brief:** Records AcceptedSE-0529Add `FilePath` to the Standard Library, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [A Vision for Networking in Swift](https://github.com/swiftlang/swift-evolution/blob/main/visions/networking.md) — Fatbobman’s Swift Weekly · Issue 139 — Source repository · Topics: Apple Platform Ecosystem · Networking · Swift
   **Published:** `2026-06-09T12:03:24.234Z`
   **NeKI brief:** Swift's networking vision analyzes overlapping responsibilities among URLSession, Network.framework, SwiftNIO, and related clients. Follow it when designing an abstraction that should align with the language ecosystem's planned consolidation.
 - [Swift HTTP API Proposal](https://github.com/apple/swift-http-api-proposal) — Fatbobman’s Swift Weekly · Issue 139 — Source repository · Topics: Apple Platform Ecosystem · Networking · Swift
   **Published:** `2026-06-09T12:03:24.234Z`
   **NeKI brief:** The Swift HTTP API proposal explores a common foundation for HTTP types and behavior across client and server libraries. Use it to track interoperable networking direction before committing a new cross-library adapter.
+- [Michael Tsai](https://mjtsai.com/blog/2026/06/03/wwdc-2026-wish-lists) — iOS Dev Weekly · Issue 753 — Article · Topics: AI Development · Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `5th June 2026`
+  **NeKI brief:** Examines Michael Tsai - Blog - WWDC 2026 Wish Lists. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [WWDC 2026: Community Preview](https://mjtsai.com/blog/2026/06/04/wwdc-2026-preview) — iOS Dev Weekly · Issue 753 — Article · Topics: AI Development · Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `5th June 2026`
+  **NeKI brief:** Collects community expectations and links ahead of WWDC 2026. Useful for discovering topics to investigate while separating predictions from Apple’s eventual announcements.
+- [Apple Music playlist](https://music.apple.com/ru/playlist/wwdc26-hello/pl.c2b332d45b194756aeb66a44329a2a08?l=en-GB) — Those Who Swift · Issue 269 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Graphics, Media & Games
+  **Published:** `2026-06-04`
+  **NeKI brief:** Links an Apple Music playlist. Useful only as media navigation, not as a knowledge-index reading source.
 - [W.W.D.C. 2026: The Pregame Quiz](https://www.swiftjectivec.com/wwdc-2026-the-pregame-quiz) — SwiftLee Weekly · Issue 326 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Swift
   **Published:** `2026-06-02T14:07:19.000Z`
   **NeKI brief:** Presents W.W.D.C. 2026: The Pregame Quiz, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -859,12 +904,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [TUAW](https://www.tuaw.com/2026/05/19/apple-design-awards-2026-finalists-revealed?ref=ioscodereview.com) — iOS Code Review · Issue 79 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games
   **Published:** `2026-06-01T16:27:14.000Z`
   **NeKI brief:** Examines TUAW in the context of Apple Platform Ecosystem and Graphics, Media & Games. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Who’s Going to WWDC26?Add your flights • See who’s coming](https://flighty.app/wwdc26?ref=createwithswift.com) — Create with Swift · Issue 109 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **Published:** `2026-05-29T16:00:08.000Z`
+  **NeKI brief:** As every year, Flighty is bringing back its community map so you can add your flights, see who’s flying in from around the world, and maybe even spot a few familiar faces on your route!
+- [AgentKitten: Provider-Agnostic AI Agents in Swift](https://github.com/fbeeper/agentkitten) — iOS Dev Weekly · Issue 752 — Source repository · Topics: AI Development · Apple Platform Ecosystem · Swift
+  **Published:** `29th May 2026`
+  **NeKI brief:** The page covers “AgentKitten: Provider-Agnostic AI Agents in Swift” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [WWDC Bingo](https://basicappleguy.com/basicappleblog/tag/Bingo) — iOS Dev Weekly · Issue 752 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `29th May 2026`
+  **NeKI brief:** Discusses WWDC Bingo, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
+- [Make It Visible: Accessibility Meetup @ CommunityKit](https://luma.com/ro48u8fw) — SwiftLee Weekly · Issue 325 — Article · Topics: Accessibility · Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `2026-05-26T14:06:24.000Z`
+  **NeKI brief:** Describes Make It Visible: Accessibility Meetup @ CommunityKit, providing the event-specific information needed to identify its Apple-platform community context.
 - [Xcode should be decoupled from Swift versions](https://macguru.dev/xcode-should-be-decoupled-from-swift-versions) — SwiftLee Weekly · Issue 325 — Article · Topics: Apple Platform Ecosystem · Swift · Xcode
   **Published:** `2026-05-26T14:06:24.000Z`
   **NeKI brief:** Argues that Xcode and Swift version coupling creates avoidable upgrade friction. Use it as a language-toolchain compatibility perspective when planning CI matrices, migration sequencing, and package version constraints.
+- [Beer with Swift - WWDC26 Special Edition](https://luma.com/y95acvdw?ref=createwithswift.com) — Create with Swift · Issue 108 — Article · Topics: Apple Platform Ecosystem · Swift
+  **Published:** `2026-05-22T16:00:37.000Z`
+  **NeKI brief:** Don’t miss the chance to keep the excitement going beyond the mothership, join us around Cupertino on the 9th of June for a special WWDC26 edition of our Create Beer with Swift! This is your chance to connect with fellow Swift enthusiasts, discuss Apple's…
 - [Swift Student Challenge winners](https://9to5mac.com/2026/05/07/apple-highlights-four-swift-student-challenge-apps-ahead-of-wwdc-2026?ref=ioscodereview.com) — iOS Code Review · Issue 78 — Article · Topics: AI Development · Apple Platform Ecosystem · Swift
   **Published:** `2026-05-16T17:59:28.000Z`
   **NeKI brief:** Examines Swift Student Challenge winners in the context of AI Development and Apple Platform Ecosystem. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Lil Finder Guy](https://basicappleguy.com/basicappleblog/lil-finder-guy) — iOS Dev Weekly · Issue 748 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `17th April 2026`
+  **NeKI brief:** Discusses Lil Finder Guy, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
 - [MacRumors](https://www.macrumors.com/roundup/wwdc?ref=ioscodereview.com) — iOS Code Review · Issue 77 — Article · Topics: Apple Platform Ecosystem
   **Published:** `2026-04-15T16:20:56.000Z`
   **NeKI brief:** Examines MacRumors in the context of Apple Platform Ecosystem. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -874,33 +937,75 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [OpenAI: Build For iOS And macOS](https://developers.openai.com/codex/use-cases/native-ios-macos-apps) — Those Who Swift · Issue 260 — Article · Topics: AI Development · Apple Platform Ecosystem · Testing
   **Published:** `2026-04-01`
   **NeKI brief:** Examines OpenAI: Build For iOS And macOS, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
-- [Morphing Sheets Out of Buttons in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/morphing-sheets-out-of-buttons-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #229 — Tutorial · Topics: Apple Platform Ecosystem · Swift · SwiftUI
-  **Published:** `2026-02-16T14:07:46.823Z`
-  **NeKI brief:** Demonstrates morphing a SwiftUI button into sheet content using matched visual state and presentation transitions. Useful for building expressive modal affordances while keeping trigger state, accessibility, and dismissal behavior explicit.
 - [FeaturesKit](https://github.com/adamfootdev/FeaturesKit) — iOS Dev Tools · iOS Dev Tools: DevScroll, FeaturesKit, HeC - Unofficial Hetzner Cloud — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
   **Published:** `2026-02-12T17:15:27.823Z`
   **NeKI brief:** FeaturesKit models feature flags and evaluates them through injectable configuration, making rollout and test scenarios explicit. The repository helps compare a typed feature-management layer with scattered boolean checks and explains where deterministic test overrides belong.
+- [AboutKit](https://github.com/adamfootdev/AboutKit) — iOS Dev Tools · iOS Dev Tools: AboutKit, HelpKit, Claude XcodePreviews — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `2026-02-05T21:03:29.009Z`
+  **NeKI brief:** AboutKit provides reusable UI for an application’s About screen and related metadata. Follow its source for concrete SwiftUI or UIKit composition patterns, then verify customization and localization behavior.
+- [HelpKit](https://github.com/adamfootdev/HelpKit) — iOS Dev Tools · iOS Dev Tools: AboutKit, HelpKit, Claude XcodePreviews — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `2026-02-05T21:03:29.009Z`
+  **NeKI brief:** HelpKit provides reusable help or support-screen components for Apple-platform applications. Follow its source for concrete content, navigation, and presentation patterns, while checking platform and API compatibility.
+- [a major shift in AI leadership](https://www.theguardian.com/technology/2025/dec/01/apple-ai-chief-john-giannandrea-steps-down) — Those Who Swift · Issue 252 — Article · Topics: AI Development · App Intents & System Surfaces · Apple Platform Ecosystem
+  **Published:** `2026-02-04`
+  **NeKI brief:** Reviews a major shift in AI leadership. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [InAppPurchaseKit](https://github.com/adamfootdev/InAppPurchaseKit) — iOS Dev Tools · iOS Dev Tools: Bullseye, Commander, InAppPurchaseKit — Source repository · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Tools
+  **Published:** `2026-01-29T21:12:37.433Z`
+  **NeKI brief:** InAppPurchaseKit packages common in-app-purchase workflows for Swift applications. Follow its source for concrete product loading, entitlement, and transaction abstractions, then verify StoreKit version assumptions separately.
+- [rolling out changes to App Store search ads](https://www.macrumors.com/2026/01/23/more-app-store-ads-coming-soon) — Those Who Swift · Issue 251 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Objective-C & Cocoa
+  **Published:** `2026-01-28`
+  **NeKI brief:** Reviews rolling out changes to App Store search ads. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [WWDC Index](https://nonstrict.eu/wwdcindex) — iOS Dev Weekly · Issue 739 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Testing
   **Published:** `16th January 2026`
   **NeKI brief:** This technical resource covers a searchable index of WWDC material. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [Asset Catalog Viewer](https://github.com/artemnovichkov/asset-catalog-viewer) — iOS Dev Tools · iOS Dev Tools: Swift Commit Generator, CommonSwiftUI, Asset Catalog Viewer — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Xcode
+  **Published:** `2025-12-31T16:45:21.414Z`
+  **NeKI brief:** Asset Catalog Viewer inspects Xcode asset catalogs and their contained resources. Follow its source for concrete catalog parsing and preview behavior, useful when auditing image, color, and app-icon assets outside Xcode.
 - [🪝 How the new App Store Connect webhooks can power your automations](https://en.zhgchg.li/posts/zrealm-dev/app-store-connect-api-webhook-automate-ci-cd-workflows-seamlessly-7c0974856393) — iOS CI Newsletter · Issue 84 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
   **Published:** `2025-12-31T00:00:00.000Z`
   **NeKI brief:** Examines How the new App Store Connect webhooks can power your automations in the context of App Distribution & Store Operations and Apple Platform Ecosystem. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Mastering SwiftUI — Free Guide](https://psimas.gumroad.com/l/swiftui?layout=discover&recommended_by=search&_gl=1%2A10g751b%2A_ga%2AODYxNDkzMDQzLjE3NjU2NDU4NjM.%2A_ga_6LJN6D94N6%2AczE3NjU2NDU4NjIkbzEkZzAkdDE3NjU2NDU4NjIkajYwJGwwJGgw) — Those Who Swift · Issue 245 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2025-12-17`
   **NeKI brief:** Examines Mastering SwiftUI — Free Guide, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [Swift AI SDK](https://github.com/teunlao/swift-ai-sdk) — iOS Dev Tools · iOS Dev Tools: Price Localize App, Swift AI SDK, ThreadCommissionerKit — Source repository · Topics: AI Development · Apple Platform Ecosystem · Swift
+  **Published:** `2025-12-11T17:45:25.072Z`
+  **NeKI brief:** Swift AI SDK provides Swift abstractions for integrating AI services or models. Follow its source for concrete request, streaming, and model interfaces, while verifying provider compatibility, credentials, and privacy requirements.
+- [Swift SDK for Android, Shipathon Winners & SwiftUI Scroll Performance](https://www.youtube.com/watch?v=YCRvVfDGQuY) — Those Who Swift · Issue 243 — Video · Topics: Cross-Platform & Web · Performance · Swift
+  **Published:** `2025-12-10`
+  **NeKI brief:** Reviews Swift SDK for Android, Shipathon Winners & SwiftUI Scroll Performance. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [Sourcekit-bazel-bsp](https://github.com/spotify/sourcekit-bazel-bsp) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** Sourcekit-bazel-bsp connects Bazel-based builds with SourceKit and the Build Server Protocol. Follow its repository for concrete editor, indexing, and build integration, while verifying toolchain-version compatibility.
+- [Build Server Protocol](https://build-server-protocol.github.io/) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** Build Server Protocol documents a protocol for communication between editors or IDEs and build servers. Follow it for a concrete integration boundary when designing language-tooling and build-system interoperability.
+- [sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** sourcekit-lsp provides language-server functionality for Swift and related source tooling. Follow its source for concrete indexing, diagnostics, completion, and editor-integration behavior, while checking current toolchain compatibility.
+- [Language Server Protocol](https://microsoft.github.io/language-server-protocol) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** Defines the Language Server Protocol boundary between editors and language servers, covering features such as completion, go-to-definition, references, and hover documentation. Useful when evaluating editor tooling integrations and language-specific service architecture.
 - [Embedded Swift Improvements Coming in Swift 6.3](https://www.swift.org/blog/embedded-swift-improvements-coming-in-swift-6.3) — iOS Dev Weekly · Issue 736 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Swift
   **Published:** `21st November 2025`
   **NeKI brief:** Examines Embedded Swift Improvements Coming in Swift 6.3Embedded Swift is a subset of Swift that’s designed for low… in the context of Combine & Reactive Programming and Foundation & Data Formats. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Find the SwiftUI Views that Update the Most Using Instruments](https://swiftdevjournal.com/posts/swiftui-frequent-view-updates) — iOS Dev Weekly · Issue 734 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `7th November 2025`
-  **NeKI brief:** Presents find the swiftui views that update the most using instruments for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Mark shows how to use instrument to profile your app, spot views with high update frequency and investigate the roots of unnecessary re-renders.
+- [Mark Szymczyk](https://mastodon.world/@swiftdevjournal) — iOS Dev Weekly · Issue 734 — Article · Topics: Apple Platform Ecosystem · Swift
+  **Published:** `7th November 2025`
+  **NeKI brief:** Mark shows how to use instrument to profile your app, spot views with high update frequency and investigate the roots of unnecessary re-renders.
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) — Fatbobman’s Swift Weekly · Issue 109 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Swift
   **Published:** `2025-11-03T12:02:55.598Z`
   **NeKI brief:** The Dev Containers extension adds reproducible container-backed development environments to Visual Studio Code. Use it when comparing local toolchain isolation and onboarding workflows, while separating container setup from Swift package or Xcode build behavior.
 - [An Apple Intelligence-Style Glow Effect in SwiftUI](https://livsycode.com/swiftui/an-apple-intelligence-style-glow-effect-in-swiftui) — iOS Dev Weekly · Issue 730 — Article · Topics: AI Development · Swift · SwiftUI
   **Published:** `10th October 2025`
-  **NeKI brief:** Creates an Apple Intelligence-style glow effect in SwiftUI. Use it as a rendering experiment for animated gradients and masks, while considering GPU cost, reduced-motion preferences, contrast, and a non-animated fallback.
+  **NeKI brief:** Artem demonstrates how to create an “Apple Intelligence” style glow effect in SwiftUI by applying visual effects (like blurs and overlays) to achieve a glowing UI appearance.
+- [Widgetsmith Five Years Later - David Smith, Independent iOS Developer](https://david-smith.org/blog/2025/09/18/widgetsmith-at-five) — SwiftLee Weekly · Issue 290 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `2025-09-23T14:09:24.000Z`
+  **NeKI brief:** Explains Widgetsmith Five Years Later - David Smith, Independent iOS Developer, focusing on the underlying Apple-platform behavior and the implementation trade-offs relevant to production code.
+- [Perception](http://github.com/pointfreeco/swift-perception) — SwiftUI Weekly · SwiftUI Weekly - Issue #222 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-09-01T13:02:53.458Z`
+  **NeKI brief:** Provides Point-Free's backport of Swift observation capabilities for deployment targets that predate the newer Observation framework. Useful when sharing modern observable-model patterns across older OS versions.
 - [SwiftUI WebView](https://troz.net/post/2025/swiftui-webview) — SwiftLee Weekly · Issue 286 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2025-08-26T14:12:25.000Z`
   **NeKI brief:** Presents a concrete implementation of SwiftUI WebView. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
@@ -916,18 +1021,51 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [you know what to do](https://iosdevdirectory.com/contributing) — iOS Dev Weekly · Issue 721 — Article · Topics: AI Development · Apple Platform Ecosystem · Developer Community & Business
   **Published:** `8th August 2025`
   **NeKI brief:** Explores add their site for them, focusing on so, whether you’ve fully migrated to mastodon or now split. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [SwiftNetworkRequest](https://github.com/vadimkrutovlv/swift-network-request) — iOS Dev Tools · iOS Dev Tools: SparkDI, SwiftNetworkRequest, TranscriptDebugMenu — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-08-07T19:48:09.291Z`
+  **NeKI brief:** SwiftNetworkRequest provides request abstractions for Swift networking. Follow its source for concrete construction, decoding, error, and cancellation semantics, then compare its concurrency model with the project’s networking layer.
+- [Icon Composer Notes](https://www.virtualsanity.com/202507/icon-composer-notes) — Those Who Swift · Issue 223 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `2025-07-16`
+  **NeKI brief:** Reviews Icon Composer Notes. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [WWDC25 updates to Transwwdcripts & Resourwwdces](https://www.elkraneo.com/wwdc25-updates-to-transwwdcripts-resourwwdces) — iOS Dev Weekly · Issue 717 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `11th July 2025`
+  **NeKI brief:** Presents WWDC25 updates to Transwwdcripts & Resourwwdces, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Transwwdcripts](https://www.elkraneo.com/transwwdcripts) — iOS Dev Weekly · Issue 717 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `11th July 2025`
+  **NeKI brief:** Cristian Díaz with updates to his WWDC-related apps. Transwwdcripts lets you view and download session transcripts, and Resourwwdces is a collection of links to documentation, sample code, and other resources from the conference. I know I risk losing…
+- [Resourwwdces](https://www.elkraneo.com/resourwwdces) — iOS Dev Weekly · Issue 717 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `11th July 2025`
+  **NeKI brief:** Examines 1679 links, 5 categories, 10 years. That is how many resources have been shared on WWDC editions since 2014. The categories are Sample Code, Documentation Guide, Developer Forum, a. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [🫙 Getting started with Apple’s Docker alternative](https://swifttoolkit.dev/posts/container) — iOS CI Newsletter · Issue 71 — Article · Topics: Apple Platform Ecosystem · Product Design · Swift
   **Published:** `2025-06-30T00:00:00.000Z`
   **NeKI brief:** Examines Getting started with Apple’s Docker alternative in the context of Apple Platform Ecosystem and Product Design. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Container](https://github.com/apple/container) — iOS CI Newsletter · Issue 71 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Product Design
   **Published:** `2025-06-30T00:00:00.000Z`
   **NeKI brief:** Apple Container provides container tooling for macOS development environments. Use it when isolating builds or services on Apple Silicon, while checking runtime constraints and image compatibility before replacing existing VM or CI workflows.
+- [Apple’s On-Device Foundation Model Is Here.. But Is It Any Good?](https://ronnierocha.dev/blog/wwdc-2025-apples-on-device-foundation-model-is-here-but-is-it-any-good) — iOS Dev Weekly · Issue 716 — Article · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
+  **Published:** `27th June 2025`
+  **NeKI brief:** Apple’s On-Device Foundation Model Is Here.. But Is It Any Good?. This link is retained as a technical reading lead for Apple-platform development.
+- [Embedding Godot games in iOS apps is easy now](https://christianselig.com/2025/05/godot-ios-interop) — iOS Dev Weekly · Issue 716 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Personal Essays
+  **Published:** `27th June 2025`
+  **NeKI brief:** You might have missed Christian Selig’s latest article in the run up to WWDC, but it’s worth reading as it’ll quickly get you up and running with a Godot scene inside your iOS or Mac. There has been plenty of work going on with Godot on Apple platforms…
+- [State of the Union: What I Took Away](https://yaacoub.github.io/articles/swift-tip/state-of-the-union-what-i-took-away) — SwiftUI Weekly · SwiftUI Weekly - Issue #218 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-06-23T10:41:25.657Z`
+  **NeKI brief:** Distills the author's practical takeaways from Apple's Platforms State of the Union at WWDC25. Useful for quickly identifying platform changes worth following up in a SwiftUI or Apple-platform product roadmap.
 - [Swift at Apple: Migrating the Password Monitoring service](https://www.swift.org/blog/swift-at-apple-migrating-the-password-monitoring-service-from-java) — iOS Dev Weekly · Issue 715 — Article · Topics: Apple Platform Ecosystem · Security & Privacy · Swift
   **Published:** `20th June 2025`
   **NeKI brief:** Describes Apple's migration of a password-monitoring service from Java to Swift, including server-side concurrency and operational considerations. Useful as a production case study for Swift beyond client applications.
+- [a brief mention in a 2024 WWDC video](https://youtu.be/OWNjtWUb9bs?t=79) — iOS Dev Weekly · Issue 715 — Video · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Swift
+  **Published:** `20th June 2025`
+  **NeKI brief:** Details of how Apple use Swift in server environments have been hard to come by. It’s clear Apple care deeply about this subject from the sustained work they do on NIO and related packages. That said, apart from a brief mention in a 2024 WWDC video, there…
+- [These 4 code snippets won WWDC](https://justin.searls.co/posts/these-4-code-snippets-won-wwdc) — iOS Dev Weekly · Issue 715 — Article · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
+  **Published:** `20th June 2025`
+  **NeKI brief:** Examines WWDC 2025 delivered on the one thing I was hoping to see from WWDC 2024: free, unlimited invocation of Apple's on-device language models by developers. It may…. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Don‘t Liquid Glass All the Things](https://david-smith.org/blog/2025/06/17/design-dary-liquid-glass-everything) — iOS Dev Weekly · Issue 715 — Article · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
   **Published:** `20th June 2025`
   **NeKI brief:** Argues for deliberate adoption of Liquid Glass rather than applying it indiscriminately across an interface. It offers a design-review perspective for separating places where the new material improves hierarchy from places where it distracts or weakens clarity.
+- [WWDC25: Highlights as an iOS Developer](https://www.youtube.com/watch?v=__RoIeqfrSY) — Those Who Swift · Issue 219 — Video · Topics: Apple Platform Ecosystem · Objective-C & Cocoa
+  **Published:** `2025-06-19`
+  **NeKI brief:** Reviews WWDC25: Highlights as an iOS Developer. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [Developer experience wins from WWDC25](https://tuist.dev/blog/2025/06/10/wwdc) — iOS Dev Weekly · Issue 714 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
   **Published:** `13th June 2025`
   **NeKI brief:** Explains Developer experience wins from WWDC25, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -948,16 +1086,34 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** The first part of a Foundation Models overview maps Apple Intelligence APIs relevant to app developers. Use it to orient implementation research, then cross-check model availability, privacy, and entitlement details against current Apple material.
 - [parts here](https://alexanderlogan.co.uk/blog/wwdc25/02-apple-intelligence-tools) — Fatbobman’s Swift Weekly · Issue 88 — Article · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
   **Published:** `2025-06-12T02:52:10.753Z`
-  **NeKI brief:** The second part of a Foundation Models series focuses on available tool-related capabilities. Use it to connect high-level model generation with app actions, then verify current tool-calling contracts in official framework documentation.
+  **NeKI brief:** Alex explains how developers can enhance on-device large language models with custom Swift tools letting their apps invoke system APIs or services (like HealthKit or network calls) and feed the real results back into the AI for richer responses.
 - [What’s New with SwiftUI 26](https://dimillian.medium.com/whats-new-with-swift-26-f17e98b07c87) — Fatbobman’s Swift Weekly · Issue 88 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2025-06-12T02:52:10.753Z`
   **NeKI brief:** Surveys SwiftUI 26 changes from a practitioner's perspective. Use it as a discovery index for APIs worth evaluating, then confirm behavior and availability in the official SDK documentation before committing a migration.
 - [WWDC 2025 Group Lab Transcript](https://gist.github.com/samhenrigold) — Fatbobman’s Swift Weekly · Issue 88 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
   **Published:** `2025-06-12T02:52:10.753Z`
   **NeKI brief:** Provides a concrete technical reference through WWDC 2025 Group Lab Transcript, useful for examining the surrounding design, tooling, or ecosystem discussion before choosing an implementation direction.
+- [What It’s Like Attending WWDC25 at Apple Park](https://www.youtube.com/watch?v=66W2-H1xxnY) — Those Who Swift · Issue 218 — Video · Topics: Apple Platform Ecosystem · Personal Essays
+  **Published:** `2025-06-11`
+  **NeKI brief:** Reviews What It’s Like Attending WWDC25 at Apple Park. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [countless other events](https://github.com/twostraws/wwdc) — iOS Dev Weekly · Issue 713 — Source repository · Topics: Apple Platform Ecosystem · Developer Community & Business · Developer Tools
+  **Published:** `6th June 2025`
+  **NeKI brief:** If you have a ticket and are going to California, I hope you have a wonderful time at the event. If you’ll be there without a ticket, I hope you have a wonderful time at CommunityKit and One More Thing, and the countless other events during the week!
+- [few tickets remaining](https://www.eventbrite.com/e/james-dempsey-and-the-breakpoints-live-near-wwdc-benefit-concert-2025-tickets-1369110078099) — iOS Dev Weekly · Issue 713 — Tutorial · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `6th June 2025`
+  **NeKI brief:** Describes a James Dempsey and the Breakpoints benefit concert near WWDC. It is publicly reachable but event promotion rather than Knowledge Index reading; retain only if central editorial policy explicitly allows this category.
+- [livestream](https://jamesdempsey.net/2025/06/04/live-near-wwdc-2025-livestream.html) — iOS Dev Weekly · Issue 713 — Tutorial · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Developer Community & Business
+  **Published:** `6th June 2025`
+  **NeKI brief:** Of course, WWDC wouldn’t be complete without a James Dempsey and the Breakpoints benefit concert, and this year it’s supporting Techtonica. You’ll be happy to hear there are a few tickets remaining, or a livestream if you can’t be there in person.
 - [The pregame quiz ’25](https://www.swiftjectivec.com/wwdc-2025-the-pregame-quiz) — iOS Dev Weekly · Issue 713 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Swift
   **Published:** `6th June 2025`
   **NeKI brief:** Presents W.W.D.C. 2025: The Pregame Quiz, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [RocketSim Meetup at CommunityKit](https://lu.ma/g4m3q37q) — SwiftLee Weekly · Issue 272 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **Published:** `2025-05-20T14:12:58.000Z`
+  **NeKI brief:** Describes RocketSim Meetup at CommunityKit, providing the event-specific information needed to identify its Apple-platform community context.
+- [WWDC community events](https://github.com/twostraws/wwdc?tab=readme-ov-file) — iOS Dev Weekly · Issue 711 — Source repository · Topics: Apple Platform Ecosystem · Developer Community & Business · Developer Tools
+  **Published:** `9th May 2025`
+  **NeKI brief:** I won’t be making the trip across to Cupertino this year, but if you’re making the trip then the best place to find out what’s going on all week is the WWDC community events repository, which is still accepting updates if you spot anything missing.
 - [🎥 FREE Webinar: Automating Multiplatform App Releases](https://streamyard.com/watch/BwQ2t4Q5aCkk) — iOS CI Newsletter · Issue 67 — Article · Topics: Apple Platform Ecosystem · CI/CD & Automation
   **Published:** `2025-05-04T00:00:00.000Z`
   **NeKI brief:** Summarises FREE Webinar: Automating Multiplatform App Releases for Apple Platform Ecosystem and CI/CD & Automation. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
@@ -967,33 +1123,60 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [latest post](https://snopia.net/en/blog/recipe-sticker-effect-swiftui) — iOS Dev Weekly · Issue 709 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `25th April 2025`
   **NeKI brief:** Presents latest post for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [article](https://swiftrocks.com/how-im-using-ai-for-software-engineering?ref=createwithswift.com) — Create with Swift · Issue 57 — Article · Topics: AI Development · Apple Platform Ecosystem · Swift
+  **Published:** `2025-04-18T15:00:48.000Z`
+  **NeKI brief:** Welcome to this week's edition of our newsletter.With WWDC25 one week closer, the community is continuing to buzz with hopes and ideas for the future of developer tools. Fatbobman shares his vision for the evolution of Xcode, where AI remains a recurring…
+- [interesting article celebrating 20 years of Git](https://blog.gitbutler.com/20-years-of-git) — iOS Dev Weekly · Issue 707 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `11th April 2025`
+  **NeKI brief:** Examines Twenty years ago, Git was born. How did this unlikely "information manager" take over the world?. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [ModelActor is Just Weird](https://www.massicotte.org/model-actor) — SwiftLee Weekly · Issue 264 — Article · Topics: Apple Platform Ecosystem · Concurrency · Swift
   **Published:** `2025-03-25T15:06:57.000Z`
-  **NeKI brief:** Explains ModelActor is Just Weird, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** In this article, Matt shows his journey in understanding how the ModelActor protocol and how Swift Data deals with concurrency in the system.
 - [mcp-swift-sdk](https://github.com/loopwork-ai/mcp-swift-sdk) — Fatbobman’s Swift Weekly · Issue 76 — Source repository · Topics: AI Development · Apple Platform Ecosystem · Swift
   **Published:** `2025-03-24T12:01:29.089Z`
   **NeKI brief:** mcp-swift-sdk implements Model Context Protocol server and client concepts in Swift. Use it when exposing Apple-platform data or app capabilities to an agent through typed tools rather than maintaining a bespoke JSON protocol.
 - [🍎 Running Xcode in unsupported macOS versions](https://marcelvoss.com/2025/tricking-xcode-into-running-on-an-unsupported-macos) — iOS CI Newsletter · Issue 61 — Article · Topics: Apple Platform Ecosystem · Personal Essays · Xcode
   **Published:** `2025-02-09T00:00:00.000Z`
   **NeKI brief:** Examines Running Xcode in unsupported macOS versions in the context of Apple Platform Ecosystem and Personal Essays. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Objective by the Sea](https://objectivebythesea.org/v7/index.html) — iOS Dev Weekly · Issue 697 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Developer Community & Business
+  **Published:** `31st January 2025`
+  **NeKI brief:** The Objective by the Sea event might not be directly relevant to your everyday work as a security conference focused on Apple platforms. However, it’s close enough that you’ll almost certainly find something here to interest you.
 - [📦 The Tuist Swift Package Manager Registry](https://tuist.dev/blog/2025/01/22/announcing-tuist-registry) — iOS CI Newsletter · Issue 60 — Article · Topics: Apple Platform Ecosystem · Swift · Swift Package Manager
   **Published:** `2025-01-28T00:00:00.000Z`
   **NeKI brief:** Examines The Tuist Swift Package Manager Registry in the context of Apple Platform Ecosystem and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Apple WWDC YouTube videos update](https://www.youtube.com/@AppleDeveloper/videos) — Those Who Swift · Issue 197 — Video · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `2025-01-17`
+  **NeKI brief:** Reviews Apple WWDC YouTube videos update. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [Exploring TabView Advancements in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/exploring-tabview-advancements-in-swiftui-part-1) — SwiftUI Weekly · SwiftUI Weekly - Issue #205 — Tutorial · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2024-12-16T17:10:10.299Z`
   **NeKI brief:** Explores newer TabView configuration and presentation APIs in SwiftUI. Useful when building adaptive tab navigation that needs explicit selection, customization, or platform-aware behavior.
 - [SwiftUI Zoom Navigation Transitions: Add a Touch of Magic to Your App](https://www.stphndxn.com/swiftui-zoom-navigation-transitions-add-a-touch-of-magic-to-your-app) — SwiftUI Weekly · SwiftUI Weekly - Issue #204 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2024-12-03T07:24:48.832Z`
   **NeKI brief:** Demonstrates zoom navigation transitions between SwiftUI source and destination views. Useful for preserving visual continuity when tapping thumbnails into detail screens.
+- [anyway](https://eclecticlight.co/2024/11/08/why-cpu-in-activity-monitor-isnt-what-you-think) — iOS Dev Weekly · Issue 687 — Article · Topics: Apple Platform Ecosystem · Developer Career & Practice · Swift
+  **Published:** `15th November 2024`
+  **NeKI brief:** Examines One of the most common reasons for opening Activity Monitor is to check the % CPU of processes that might be running out of control. How accurate are those figures, though, and sho. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [let me know what you hope Apple is working on](https://docs.google.com/forms/d/e/1FAIpQLScveGrTMcVtYdNnA-Uv_TObuctur2Duzfn2tJynQpwmM43RDQ/viewform) — iOS Dev Weekly · Issue 684 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `25th October 2024`
+  **NeKI brief:** It’s almost certainly too late for feedback to influence Apple’s priorities for next year’s releases, but I’d love to know what you’d all prioritise. I’d love it if you let me know what you hope Apple is working on for WWDC 2025.
+- [A Cozy WWDC](https://www.toddheberlein.com/blog/2024/10/3/a-cozy-wwdc) — iOS Dev Weekly · Issue 682 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `11th October 2024`
+  **NeKI brief:** Presents A Cozy WWDC, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Removing 58000 lines of code using XcodeGen](https://mokacoding.com/blog/how-xcodegen-reducet-the-tdd-in-swift-codebase-by-58-000-lines) — iOS CI Newsletter · Issue 52 — Article · Topics: Apple Platform Ecosystem · Swift · Xcode
   **Published:** `2024-10-06T00:00:00.000Z`
   **NeKI brief:** Examines Removing 58000 lines of code using XcodeGen in the context of Apple Platform Ecosystem and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Insetting Scrollable Views’ Content With contentMargins In SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/insetting-scrollable-views-content-with-contentmargins-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #200 — Tutorial · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2024-09-30T17:14:55.385Z`
   **NeKI brief:** Demonstrates contentMargins for insetting ScrollView content in SwiftUI. Useful for consistent readable edges and indicator placement without spacer-based layout hacks.
+- [Create Custom Visual Effects with SwiftUI](https://yaacoub.github.io/articles/swift-tip/create-custom-visual-effects-with-swiftui-wwdc24) — SwiftUI Weekly · SwiftUI Weekly - Issue #199 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2024-09-09T19:49:43.177Z`
+  **NeKI brief:** Summarizes the WWDC24 SwiftUI additions for building custom visual effects and highlights the APIs that enable richer rendering. Useful when evaluating platform-provided effect composition before adopting lower-level graphics techniques.
 - [SwiftUI for Mac 2024](https://troz.net/post/2024/swiftui-mac-2024) — SwiftUI Weekly · SwiftUI Weekly - Issue #198 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2024-08-26T10:56:58.237Z`
   **NeKI brief:** Reviews SwiftUI for macOS in 2024, including windowing, menus, and platform-specific controls. Useful for auditing which shared views need deliberate Mac adaptations.
+- [of course one survived](https://9to5mac.com/2024/05/20/dtk-mac-mini-scrapped-repaired) — iOS Dev Weekly · Issue 675 — Tutorial · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **Published:** `23rd August 2024`
+  **NeKI brief:** Discusses of course one survived, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
 - [What's New in SwiftUI - WWDC24](https://yaacoub.github.io/articles/swift-tip/what-s-new-in-swiftui-wwdc24) — SwiftUI Weekly · SwiftUI Weekly - Issue #197 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2024-08-19T10:45:25.615Z`
   **NeKI brief:** Summarizes WWDC24 SwiftUI additions and their intended use cases. Useful as a release-oriented checklist when deciding which iOS 18 APIs can replace custom implementations.
@@ -1012,27 +1195,60 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Understanding Swift 6 concurrency via evolution proposal analysis](https://www.massicotte.org/concurrency-swift-6-se-0431) — iOS Dev Weekly · Issue 669 — Article · Topics: Apple Platform Ecosystem · Concurrency · Swift
   **Published:** `12th July 2024`
   **NeKI brief:** Presents understanding swift 6 concurrency via evolution proposal analysis for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Diffuse reflection UV computation tool](https://www.elkraneo.com/diffuse-reflection-uv-computation-tool) — iOS Dev Weekly · Issue 668 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `5th July 2024`
+  **NeKI brief:** The page documents a tool for computing diffuse-reflection UV data and explains its use in a graphics or rendering workflow.
 - [Using TextRenderer to create highlighted text](https://alexanderweiss.dev/blog/2024-06-24-using-textrenderer-to-create-highlighted-text) — SwiftUI Weekly · SwiftUI Weekly - Issue #192 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2024-07-02T09:09:59.000Z`
   **NeKI brief:** Uses TextRenderer to draw highlighted text in SwiftUI. Useful for search results, annotation, or syntax emphasis where attributed-string styling alone is insufficient.
 - [My Favorite SwiftUI Updates in iOS 18](https://www.youtube.com/watch?v=aCbh9LmIZTI) — SwiftUI Weekly · SwiftUI Weekly - Issue #192 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2024-07-02T09:09:59.000Z`
   **NeKI brief:** Reviews notable SwiftUI updates arriving with iOS 18. Useful as a visual overview before drilling into individual API documentation and deployment constraints.
+- [WWDC Notes](https://wwdcnotes.github.io/WWDCNotes/documentation/wwdcnotes/wwdc24?ref=createwithswift.com) — Create with Swift · Issue 18 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2024-06-21T15:00:36.000Z`
+  **NeKI brief:** We are still looking into this year's WWDC which was jam-packed with exciting announcements and innovative new features and frameworks.
+- [contributing](https://wwdcnotes.github.io/WWDCNotes/documentation/wwdcnotes/contributing?ref=createwithswift.com) — Create with Swift · Issue 18 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2024-06-21T15:00:36.000Z`
+  **NeKI brief:** We are still looking into this year's WWDC which was jam-packed with exciting announcements and innovative new features and frameworks.
+- [WWDC24 Bento Summaries](https://thatvirtualboy.com/wwdc24-bentos) — iOS Dev Weekly · Issue 666 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `21st June 2024`
+  **NeKI brief:** Examines The WWDC24 Keynote was jam packed with announcements and updates to all of Apple’s major operating systems, including visionOS, macOS, iOS, watchOS, and iPadOS. The keynote even co. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Zoom navigation transition in SwiftUI](https://augmentedcode.io/2024/06/17/zoom-navigation-transition-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #191 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2024-06-17T19:22:55.398Z`
   **NeKI brief:** Implements SwiftUI zoom navigation transitions with matched source and destination content. Useful for building detail navigation that retains the user's visual point of origin.
 - [Louie Mantia, Jr](https://lmnt.me/intro) — Fatbobman’s Swift Weekly · Issue 36 — Article · Topics: Apple Platform Ecosystem
   **Published:** `2024-06-17T12:00:46.941Z`
   **NeKI brief:** Provides contextual background on Louie Mantia, Jr, useful for understanding the surrounding product, policy, or ecosystem issue before drawing technical or business conclusions.
+- [WWDC Notes 2024](https://wwdcnotes.github.io/WWDCNotes/documentation/wwdcnotes) — iOS Dev Weekly · Issue 665 — Article · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `14th June 2024`
+  **NeKI brief:** There have been some changes to WWDC Notes for this year. I almost missed this, because the old site has no links to the new one, which is very strange! However, the project is alive and well, which is great news! This year’s notes are hosted with DocC, and…
+- [Hidde van der Ploeg](https://mastodon.design/@hidde) — iOS Dev Weekly · Issue 665 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `14th June 2024`
+  **NeKI brief:** What a handy page full of example 3D models Apple has provided everyone! Thanks so much to Hidde van der Ploeg for pointing it out!
+- [Dark Mode App Icons](https://lmnt.me/blog/dark-mode-app-icons.html) — iOS Dev Weekly · Issue 665 — Article · Topics: Cross-Platform & Web
+  **Published:** `14th June 2024`
+  **NeKI brief:** Examines Dark Mode App Icons. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Live near WWDC](https://youtu.be/xK4X5Src4oQ?t=1197) — iOS Dev Weekly · Issue 665 — Video · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `14th June 2024`
+  **NeKI brief:** Examines Continuing a WWDC-week tradition that began in 2012, the annual James Dempsey and the Breakpoints show is back for 2024!Our musical band of nerds, techies, a. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [StyleGuide](https://apps.apple.com/us/app/styleguide-hig-menubar-app/id6503706164) — iOS Dev Tools · iOS Dev Tools: StyleGuide, AppScreens, AHAPpy — Article · Topics: Apple Platform Ecosystem
+  **Published:** `2024-06-13T17:58:49.715Z`
+  **NeKI brief:** StyleGuide previews Apple-platform typography, colors, and sizes against Human Interface Guidelines concepts. Follow it for a concrete design-validation workflow before committing visual choices to an iOS or macOS interface.
 - [What is New in SwiftUI After WWDC 24](https://twtr.to/d5ygM) — Fatbobman’s Swift Weekly · Issue 35 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2024-06-11T12:03:15.731Z`
   **NeKI brief:** This shortened link points to a community resource about what changed in SwiftUI after WWDC24. Resolve and inspect the destination before relying on it, then verify version-specific claims against Apple's release notes.
 - [老司机技术](https://github.com/SwiftOldDriver/iOS-Weekly) — Fatbobman’s Swift Weekly · Issue 35 — Source repository · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Tools
   **Published:** `2024-06-11T12:03:15.731Z`
   **NeKI brief:** Indexes Chinese iOS development reading and project links in a repository-friendly format. Use it as a discovery route for community material, then verify each linked source independently before relying on it.
+- [Michie Ang](https://www.wwdcscholars.com/s/4A4B50FA-4D81-49E5-B38A-7AB4B5710BA1) — iOS Dev Weekly · Issue 664 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `7th June 2024`
+  **NeKI brief:** When I congratulated the WWDC student scholarship winners a few weeks ago, I asked if anyone knew of a replacement for the sadly abandoned WWDC Students repositories. I had no responses to that request, but I found the successor project today, and it’s…
 - [Concurrency in Swift 6](https://www.massicotte.org/concurrency-swift-6-se-401) — iOS Dev Weekly · Issue 664 — Article · Topics: Apple Platform Ecosystem · Concurrency · Swift
   **Published:** `7th June 2024`
   **NeKI brief:** Presents concurrency in swift 6 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [very long list of everything](https://nonstrict.eu/wwdcindex/all) — iOS Dev Weekly · Issue 660 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `10th May 2024`
+  **NeKI brief:** The WWDC index provides a searchable public catalogue of Apple's developer-session videos and related session information.
 - [The Engineering Challenges of Scaling ChatGPT](https://newsletter.pragmaticengineer.com/p/scaling-chatgpt) — iOS Dev Weekly · Issue 658 — Tutorial · Topics: AI Development · Apple Platform Ecosystem · Developer Community & Business
   **Published:** `26th April 2024`
   **NeKI brief:** Presents the engineering challenges of scaling chatgpt for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -1042,6 +1258,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Alamofire](https://github.com/Alamofire/Alamofire) — iOS Dev Tools · iOS Dev Tools: Pow, Maccy, Pulse — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Networking
   **Published:** `2024-04-25T13:41:52.260Z`
   **NeKI brief:** Alamofire layers request construction, response validation, serialization, upload, and retry facilities over URLSession. Use it when those shared networking policies justify a dependency; otherwise compare its abstractions with direct URLSession code.
+- [Get](https://github.com/kean/Get) — iOS Dev Tools · iOS Dev Tools: Pow, Maccy, Pulse — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Networking
+  **Published:** `2024-04-25T13:41:52.260Z`
+  **NeKI brief:** Get provides Swift networking or HTTP abstractions. Follow its source for concrete request, response, and cancellation behavior, then compare its concurrency and error model with the application’s networking layer.
+- [SwiftHeroes](https://swiftheroes.com/2024?ref=createwithswift.com) — Create with Swift · Issue 8 — Article · Topics: Apple Platform Ecosystem · Swift
+  **Published:** `2024-04-12T15:00:48.000Z`
+  **NeKI brief:** Next week Flora Damiano will present “Crafting Better App Icons” at SwiftHeroes in Turin, Italy. She will share her process and insights on creating app icons for various Apple platforms.
 - [Apple DeveloperHello and welcome to the official Apple Developer YouTube channel.YouTube](https://www.youtube.com/@AppleDeveloper/playlists?ref=ioscodereview.com) — iOS Code Review · Issue 67 — Video · Topics: Apple Platform Ecosystem · Graphics, Media & Games
   **Published:** `2024-04-03T12:22:37.000Z`
   **NeKI brief:** Records Apple DeveloperHello and welcome to the official Apple Developer YouTube channel.YouTube as a visual walkthrough relevant to Apple Platform Ecosystem and Graphics, Media & Games. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
@@ -1063,21 +1285,48 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI geometryGroup() Guide: From Theory to Practice](https://medium.com/the-swift-cooperative/swiftui-geometrygroup-guide-from-theory-to-practice-1a7f4b04c4ec) — SwiftUI Weekly · SwiftUI Weekly - Issue #170 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2023-12-11T13:23:19.560Z`
   **NeKI brief:** Explains geometryGroup() and the animation anomalies it addresses by grouping a view's geometry before interpolation. Useful when nested SwiftUI animations distort layout or require coordinated geometry without rebuilding the hierarchy.
+- [SVGView](https://github.com/exyte/SVGView) — iOS Dev Tools · 🔨 Raycast, Build Distro, SVGView — Source repository · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2023-11-23T16:19:32.692Z`
+  **NeKI brief:** SVGView renders SVG content in SwiftUI or Apple-platform interfaces. Follow its source for concrete parsing, layout, and rendering behavior, then evaluate SVG feature coverage and performance for the intended assets.
 - [Mastering TipKit: Basics](https://itnext.io/mastering-tipkit-basics-dcccfdbc9927) — SwiftUI Weekly · SwiftUI Weekly - Issue #166 — Article · Topics: Apple Platform Ecosystem
   **Published:** `2023-10-31T07:27:47.287Z`
   **NeKI brief:** Introduces TipKit's core model for defining, displaying, and controlling contextual tips in an app. Useful when planning discoverability prompts with eligibility rules and dismissals instead of ad hoc overlays.
 - [Apple’s use of Swift and SwiftUI in iOS 17](https://blog.timac.org/2023/1019-state-of-swift-and-swiftui-ios17) — iOS Dev Weekly · Issue 632 — Article · Topics: Swift · SwiftUI
   **Published:** `20th October 2023`
   **NeKI brief:** Reviews Swift and SwiftUI changes around iOS 17 with implementation context. Use it to orient migration work and identify which new APIs affect deployment targets or existing view architecture.
+- [silicon](https://arun.is/blog/apple-mirage) — iOS Dev Weekly · Issue 631 — Article · Topics: Apple Platform Ecosystem · Developer Career & Practice · Swift
+  **Published:** `13th October 2023`
+  **NeKI brief:** Examines A short photoessay about my visit to a new permanent art installation at Apple Park. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Animating with PhaseAnimator in SwiftUI](https://augmentedcode.io/2023/09/04/animating-with-phaseanimator-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #159 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2023-09-11T10:23:27.802Z`
+  **NeKI brief:** Introduces PhaseAnimator for driving a view through a sequence of animation phases. Useful when an interaction needs repeatable multi-step motion with phase-specific values rather than one undifferentiated animation.
+- [Examples of animating SF symbols in SwiftUI](https://augmentedcode.io/2023/08/21/examples-of-animating-sf-symbols-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #156 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2023-08-21T19:48:52.195Z`
+  **NeKI brief:** Demonstrates the SF Symbols animation presets introduced for SwiftUI, including appearance, emphasis, and replacement effects. Useful when choosing a semantic symbol animation that communicates state without custom artwork.
 - [Applying metal shader to text in SwiftUI](https://augmentedcode.io/2023/08/07/applying-metal-shader-to-text-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #154 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2023-08-08T03:29:42.397Z`
   **NeKI brief:** Applies a simple Metal shader to SwiftUI text using the shader-related view modifiers introduced with WWDC 2023. A compact first example for learning how ShaderLibrary effects connect SwiftUI views to custom Metal code.
+- [Migrating to the Observation framework in SwiftUI](https://tanaschita.com/20230807-migrating-to-observation) — SwiftUI Weekly · SwiftUI Weekly - Issue #154 — Article · Topics: Apple Platform Ecosystem · Macros & Metaprogramming · Swift
+  **Published:** `2023-08-08T03:29:42.397Z`
+  **NeKI brief:** Explains Introduced at WWDC23, Observation is a new Swift framework for tracking changes of properties. It uses the new macro system in Swift to transform Swift types to observable objects. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [My WWDC Design Lab Experience](https://chriswu.com/posts/wwdc/designlab2023) — iOS Dev Weekly · Issue 620 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `28th July 2023`
+  **NeKI brief:** Examines How my app improved. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Sign up here](https://create.unity.com/spatial) — iOS Dev Weekly · Issue 619 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `21st July 2023`
+  **NeKI brief:** Examines Here we go! Apple talked about building visionOS apps in Unity at WWDC, and we now have a way to sign up for the beta. It’s unclear how many people/companies will get access, but with the visionOS beta being open to anyo Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [The Ultimate Guide to Building SwiftData Applications](https://azamsharp.com/2023/07/04/the-ultimate-swift-data-guide.html) — SwiftUI Weekly · SwiftUI Weekly - Issue #151 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2023-07-17T21:13:35.306Z`
   **NeKI brief:** Provides a broad SwiftData walkthrough covering model declaration, persistence, and cloud-sync-oriented concepts introduced at WWDC 2023. Useful for mapping Core Data requirements to SwiftData before committing to a migration or new model layer.
+- [video covering his demo experience](https://youtu.be/n8-wTpiuZwE) — iOS Dev Weekly · Issue 618 — Video · Topics: Apple Platform Ecosystem · Developer Community & Business · Graphics, Media & Games
+  **Published:** `14th July 2023`
+  **NeKI brief:** It’s been a few weeks since they were published, but I’ve had two videos on my mind recently, both covering the Vision Pro headset demos from WWDC. First, just a couple of days after the conference ended, Paul Hudson posted a video covering his demo…
 - [Build an app using SwiftData](https://www.youtube.com/playlist?list=PLvUWi5tdh92wZ5_iDMcBpenwTgFNan9T7) — iOS Dev Weekly · Issue 617 — Video · Topics: Apple Platform Ecosystem · Swift · SwiftData
   **Published:** `7th July 2023`
   **NeKI brief:** Explores Build an app using SwiftData, focusing on it’s a measure of how many new things were announced. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [In-app purchase updates from WWDC](https://www.revenuecat.com/blog/engineering/wwdc2023-highlights) — iOS Dev Weekly · Issue 615 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `23rd June 2023`
+  **NeKI brief:** Examines RevenueCat developer advocate Charlie Chapman shares his first impressions from WWDC 2023, focusing on subscriptions, monetisations, and more. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [The debut of ButtonRepeatBehavior](https://serialcoder.dev/text-tutorials/swiftui/wwdc23-swiftui-the-debut-of-the-buttonrepeatbehavior-view-modifier) — iOS Dev Weekly · Issue 615 — Tutorial · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `23rd June 2023`
   **NeKI brief:** Explores The debut of ButtonRepeatBehavior, focusing on when i first read the title of this post from. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -1093,36 +1342,105 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Download free report](https://yo.bitrise.io/mobile-devops-assessment-report-2023-download.html) — iOS Code Review · Issue 50 — Article · Topics: Apple Platform Ecosystem · Code Quality · Cross-Platform & Web
   **Published:** `2023-06-09T10:49:04.000Z`
   **NeKI brief:** Examines Download free report in the context of Code Quality and Cross-Platform & Web. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [The unofficial WWDC app](https://github.com/insidegui/WWDC) — iOS Dev Weekly · Issue 613 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games
+  **Published:** `9th June 2023`
+  **NeKI brief:** The official Developer app is excellent and gets better every year, but I reach for this independently developed app when I want to stream (or download) a WWDC video. So, I’d like to thank Gui Rambo and all the contributors for their work every year in…
+- [all the contributors](https://github.com/insidegui/WWDC/graphs/contributors) — iOS Dev Weekly · Issue 613 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games
+  **Published:** `9th June 2023`
+  **NeKI brief:** The official Developer app is excellent and gets better every year, but I reach for this independently developed app when I want to stream (or download) a WWDC video. So, I’d like to thank Gui Rambo and all the contributors for their work every year in…
+- [All new frameworks presented at WWDC23](https://blog.eidinger.info/all-new-frameworks-presented-at-wwdc23) — iOS Dev Weekly · Issue 613 — Article · Topics: Apple Platform Ecosystem · Objective-C & Cocoa
+  **Published:** `9th June 2023`
+  **NeKI brief:** Catalogues the new frameworks presented at WWDC23 and provides a compact map of the platform additions introduced that year. Useful as historical orientation before consulting the current SDK documentation for each framework.
+- [An Introduction to Grids in SwiftUI](https://cctplus.dev/an-introduction-to-grids-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #145 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2023-06-05T08:35:48.243Z`
+  **NeKI brief:** Introduces SwiftUI grids as adaptive layout primitives for dynamic content and changing device sizes. Useful when a collection needs responsive rows and columns instead of a manually composed stack layout.
 - [SwiftUI Notes Before WWDC 2023](https://mjtsai.com/blog/2023/05/30/swiftui-notes-before-wwdc-2023) — iOS Dev Weekly · Issue 612 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2nd June 2023`
   **NeKI brief:** Explores SwiftUI Notes Before WWDC 2023, focusing on michael tsai has done a fantastic job rounding up a. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [online live stream](https://jamesdempsey.net/2023/06/01/live-near-wwdc-2023-update.html) — iOS Dev Weekly · Issue 612 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web
+  **Published:** `2nd June 2023`
+  **NeKI brief:** Examines Oh, and while I mention James, I linked to the James Dempsey and the Breakpoints live show last week, but there will also be an online live stream! I only wish it didn’t start at 3:30 am in my timezone! 😬 Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Apple Platforms Developer @ Cascable AB](https://cascable.se/jobs) — iOS Dev Weekly · Issue 609 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `12th May 2023`
   **NeKI brief:** Explores Apple Platforms Developer @ Cascable AB, focusing on apple platforms developer @ cascable ab – cascable is a. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [The launch of the Mojo language](https://www.fast.ai/posts/2023-05-03-mojo-launch.html) — iOS Dev Weekly · Issue 608 — Article · Topics: AI Development · Apple Platform Ecosystem · Cross-Platform & Web
+  **Published:** `5th May 2023`
+  **NeKI brief:** The fast.ai post announces the Mojo programming language and describes its goals for high-performance machine-learning and systems development.
+- [Your WWDC Insurance Policy](https://www.revenuecat.com/docs/migrating-existing-subscriptions) — iOS Dev Weekly · Issue 607 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `28th April 2023`
+  **NeKI brief:** Examines Importing existing purchase data to RevenueCat can be done server-side, or client-side. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Swift 5.8 Released](https://www.swift.org/blog/swift-5.8-released) — iOS Dev Weekly · Issue 603 — Article · Topics: Apple Platform Ecosystem · Swift · Swift Package Manager
   **Published:** `31st March 2023`
   **NeKI brief:** Presents a concrete implementation of Swift 5.8 Released!. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
+- [daily reminder that it’s on its way](https://mrmacintosh.com/wwdc23-wallpaper-desktop-images-4k-downloads) — iOS Dev Weekly · Issue 603 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `31st March 2023`
+  **NeKI brief:** daily reminder that it’s on its way. This link is retained as a technical reading lead for Apple-platform development.
 - [Swift 5.9 Release Process](https://forums.swift.org/t/swift-5-9-release-process/63557) — iOS Dev Weekly · Issue 600 — Article · Topics: Apple Platform Ecosystem · Swift · Xcode
   **Published:** `10th March 2023`
   **NeKI brief:** Explores Swift 5.9 Release Process, focusing on talking of new swift versions, i think this is the. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [shrinkydink](https://techreflect.net/2022/06/rising-from-the-ashes-stage-manager) — iOS Dev Weekly · Issue 590 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `30th December 2022`
+  **NeKI brief:** Examines Every year I worked on macOS/iOS, I would get attached to a handful of features that would ultimately get axed. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Swift for Android](https://github.com/apple/swift/blob/main/docs/Android.md) — iOS Dev Weekly · Issue 577 — Source repository · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Swift
+  **Published:** `23rd September 2022`
+  **NeKI brief:** Examines Yes, you can write Swift for Android, but I think it’s fair to say that JetBrains is promoting Kotlin as a language you can use with Apple platforms more than Apple is promoting Swift for Android development. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [a language you can use with Apple platforms](https://kotlinlang.org/lp/mobile) — iOS Dev Weekly · Issue 577 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Swift
+  **Published:** `23rd September 2022`
+  **NeKI brief:** Examines Kotlin Multiplatform is a technology for reusing up to 100% of your code across Android, iOS, web, and desktop, with Compose Multiplatform for shared UIs. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [the official overview](https://www.swift.org/blog/swift-language-updates-from-wwdc22?ref=ioscodereview.com) — iOS Code Review · Issue 32 — Article · Topics: Apple Platform Ecosystem · Swift
   **Published:** `2022-09-22T10:30:02.000Z`
   **NeKI brief:** Explores Swift language announcements from WWDC22, focusing on it’s easy to get distracted by all the swiftui, uikit. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Swift 5.7 Released](https://www.swift.org/blog/swift-5.7-released) — iOS Dev Weekly · Issue 576 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Swift
   **Published:** `16th September 2022`
   **NeKI brief:** Summarises the full list of evolution proposals released in 5.7 for Swift. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
+- [An Open Source Implementation of Code Signing and Notarization](https://gregoryszorc.com/blog/2022/08/08/achieving-a-completely-open-source-implementation-of-apple-code-signing-and-notarization) — iOS Dev Weekly · Issue 571 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `12th August 2022`
+  **NeKI brief:** The page covers “An Open Source Implementation of Code Signing and Notarization” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [PyOxidizer](https://github.com/indygreg/PyOxidizer) — iOS Dev Weekly · Issue 571 — Source repository · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `12th August 2022`
+  **NeKI brief:** It wasn’t a huge announcement from this year’s WWDC, but the Notary API was a big deal for some sections of this community. Here’s Gregory Szorc talking about Robin Lambertz’s pull request to PyOxidizer that allows code signing and notarization from Linux. 👍
 - [Swift language announcements from WWDC22](https://www.swift.org/blog/swift-language-updates-from-wwdc22) — iOS Dev Weekly · Issue 566 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `8th July 2022`
   **NeKI brief:** Explores Swift language announcements from WWDC22, focusing on it’s easy to get distracted by all the swiftui, uikit. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Augmented Reality Digital Lounge from WWDC22](https://yono.ai/articles/wwdc22-arkit-realitykit-usdz-digital-lounge) — iOS Dev Weekly · Issue 566 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Spatial Computing
+  **Published:** `8th July 2022`
+  **NeKI brief:** Summarizes the WWDC22 ARKit, RealityKit, and USDZ digital-lounge material and points to the related demonstrations. Useful for orienting an augmented-reality exploration before consulting the current ARKit and RealityKit documentation.
+- [Machine Learning](https://yono.ai/articles/wwdc22-machine-learning-digital-lounge) — iOS Dev Weekly · Issue 566 — Article · Topics: AI Development · Apple Platform Ecosystem · Developer Tools
+  **Published:** `8th July 2022`
+  **NeKI brief:** Summarizes the WWDC22 machine-learning digital-lounge material and its demonstrations. Useful as a compact orientation to the session topics before consulting Apple’s current machine-learning frameworks and documentation.
+- [Creating custom extension points for Mac apps with ExtensionKit](https://rambo.codes/posts/2022-06-27-creating-custom-extension-points-with-extensionkit) — iOS Dev Weekly · Issue 565 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `1st July 2022`
+  **NeKI brief:** Examines Gui Rambo writes about his coding and reverse engineering adventures. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Using ViewThatFits to replace GeometryReader in SwiftUI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy5jcmVhdGV3aXRoc3dpZnQuY29tL3VzaW5nLXZpZXd0aGF0Zml0cy10by1yZXBsYWNlLWdlb21ldHJ5cmVhZGVyLWluLXN3aWZ0dWkvP3V0bV9jYW1wYWlnbj0lMjBTd2lmdFVJJTIwV2Vla2x5JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1SZXZ1ZSUyMG5ld3NsZXR0ZXIiLCJwb3N0X2lkIjoiZThjMmRiMDAtOWNjYy00ZDliLWJiOTYtZDFlNjA1NzYxYTk3IiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6ImNhOGIyNTg0LTJhM2MtNDlkNS04ZTc5LTUzNTY3ZTQyNTk2NiIsImlhdCI6MTY3NDA2MjU1OC44NzMsImlzcyI6Im9yY2hpZCJ9.SNpycsd5yJT-2Mbxz9F_-rNT5IeEMU7DZI1u9fqXj3A) — SwiftUI Weekly · SwiftUI Weekly - Issue #107 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2022-06-21T10:41:22.000Z`
   **NeKI brief:** Demonstrates ViewThatFits for selecting a layout that fits available space instead of measuring manually with GeometryReader. Useful for responsive controls that need graceful alternatives across compact and regular widths.
+- [recap of WWDC](https://beckyhansmeyer.com/2022/06/13/reflections-on-wwdc-2022) — iOS Dev Weekly · Issue 563 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `17th June 2022`
+  **NeKI brief:** Examines A blog about Apple and indie iOS development using Swift and SwiftUI. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [SwiftUI Digital Lounge archive](https://midnight-beanie-ccb.notion.site/swiftui-lounge-wwdc22-e20094b91f074398ba395c3fa245e63d) — iOS Dev Weekly · Issue 563 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `17th June 2022`
   **NeKI brief:** Explores SwiftUI Digital Lounge archive, focusing on the digital lounges were great again this year, but they. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [open-source](https://github.com/WWDCNotes/Content) — iOS Dev Weekly · Issue 562 — Source repository · Topics: App Intents & System Surfaces · Apple Platform Ecosystem · Developer Tools
+  **Published:** `10th June 2022`
+  **NeKI brief:** Examines WWDCNotes.com content. Contribute to WWDCNotes/Content development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [via Docker and VS Code development containers](https://finestructure.co/blog/2022/6/9/trying-new-swift-features-on-linux-via-vs-code-dev-containers) — iOS Dev Weekly · Issue 562 — Article · Topics: Apple Platform Ecosystem · Product Design · Swift
   **Published:** `10th June 2022`
   **NeKI brief:** Explores wrote a simple tutorial covering this feature, focusing on of course, xcode also supports all these features! so why. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [The Talk Show Live From WWDC 2022](https://www.youtube.com/watch?v=WfnvsepVJC0) — iOS Dev Weekly · Issue 562 — Video · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `10th June 2022`
+  **NeKI brief:** I’ve not watched this as it was only published an hour ago, but it’ll be great, as always! Unless things have changed significantly, it’ll be John Gruber, Craig Federighi, and Greg Joswiak with 90 minutes of additional context about this week.
+- [The Talk Show Live](https://daringfireball.net/linked/2022/06/01/the-talk-show-live-from-wwdc-2022) — iOS Dev Weekly · Issue 561 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `3rd June 2022`
+  **NeKI brief:** Don’t forget the community events, either! I was going to try and summarise everything that’s going on here until I saw that Apple had produced a wonderful collection of more than ten community events happening around the world. The only missing event I know…
+- [requirement to add retina assets](https://thenextweb.com/news/apple-requires-iphone-developers-to-submit-retina-screenshots-may-herald-end-of-3gs-era) — iOS Dev Weekly · Issue 556 — Article
+  **Published:** `29th April 2022`
+  **NeKI brief:** The article reports Apple's requirement for Retina screenshots and assets and discusses what the change meant for iPhone developers.
+- [DocC is Now Open-Source](https://swift.org/blog/swift-docc) — iOS Dev Weekly · Issue 529 — Article · Topics: Apple Platform Ecosystem · Swift
+  **Published:** `15th October 2021`
+  **NeKI brief:** When DocC debuted at WWDC, Apple mentioned that the plan was to open-source the project, and here it is! I’d say the tool has had quite a mixed reception so far, although I remain optimistic about it. Contributions are open, and while there’s no formal…
+- [contributions guide](https://github.com/apple/swift-docc/blob/main/CONTRIBUTING.md) — iOS Dev Weekly · Issue 529 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `15th October 2021`
+  **NeKI brief:** Examines Documentation compiler that produces rich API reference documentation and interactive tutorials for your Swift framework or package. - swift-docc/CONTRIBUTING.md at main · swiftlan. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Keeping WWDC videos and sample code current](https://dimsumthinking.com/Blog/2021/08/30-KeepingCurrent.html) — iOS Dev Weekly · Issue 523 — Article · Topics: Apple Platform Ecosystem · Concurrency · Cross-Platform & Web
   **Published:** `3rd September 2021`
   **NeKI brief:** Explores Keeping WWDC videos and sample code current, focusing on here’s another advantage of not having on-stage presentations at wwdc.. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -1156,63 +1474,261 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI patterns evolution: view builders](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL2ZpdmVzdGFycy5ibG9nL2FydGljbGVzL3N3aWZ0dWktcGF0dGVybnMtdmlldy1idWlsZGVycy8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiIzNmNmNWJjYi1mMDU3LTQzN2EtOWY3Ni1jMDQ0NTc0YWQyYjciLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiZWMyZjUxYTYtZTFjYy00MWFjLThhMTgtZGQxN2QxMTE4ZjYwIiwiaWF0IjoxNjc0MDYyNjc3LjA2MSwiaXNzIjoib3JjaGlkIn0.1iTXRq_oB78yxzsqRJp_rX8sxGAwzmG5SZ-hO6mmvI4) — SwiftUI Weekly · SwiftUI Weekly - Issue #66 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2021-07-06T10:24:10.000Z`
   **NeKI brief:** Traces how SwiftUI view-builder patterns evolve as APIs become more expressive. Follow it when choosing between generic composition, result builders, and concrete helper views for maintainable screen structure.
+- [The Droid (Stats) You’re Looking For](https://blog.curtisherbert.com/slopes-diaries-40-the-droid-stats-youre-looking-for) — iOS Dev Weekly · Issue 514 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web
+  **Published:** `2nd July 2021`
+  **NeKI brief:** Examines Curtis Herbert posted this the day before WWDC started, and while I wanted to link to it, that’s terrible timing! If you write an iOS-only app, it’s so easy to dismiss the idea of creating an Android version for so many Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Catalyst Sample Code Roundup](https://www.highcaffeinecontent.com/blog/20210605-Catalyst-Sample-Code-Roundup) — iOS Dev Weekly · Issue 513 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `25th June 2021`
+  **NeKI brief:** I’ve had this article from Steve Troughton-Smith in my queue since just before WWDC, and with all the excitement about “new things”, it stayed there for a few weeks! I do want to make sure I link to it, though, so here it is. It’s a superb collection of…
 - [Building a music recognization app in SwiftUI with ShazamKit](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3N3YXBuYW5pbGRob2wubWVkaXVtLmNvbS9idWlsZGluZy1hLW11c2ljLXJlY29nbml6YXRpb24tYXBwLWluLXN3aWZ0dWktd2l0aC1zaGF6YW1raXQtN2NhYjc2NDA3ZDEwP3V0bV9jYW1wYWlnbj0lMjBTd2lmdFVJJTIwV2Vla2x5JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1SZXZ1ZSUyMG5ld3NsZXR0ZXIiLCJwb3N0X2lkIjoiOTg1NDJmZTMtOWU5Zi00ZmY4LTk5YzAtNDQ4NzU3M2JkNjQyIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6ImUwZDE2NzkyLTFmZjUtNGEyMS05ODRjLTRlOTQxOGI5YTM5ZSIsImlhdCI6MTY3NDA2MjY3Ny4wMSwiaXNzIjoib3JjaGlkIn0.D1X3KuG_ZZVBpnjLs42Pwiu20YFyMkC-z5viuvXke6c) — SwiftUI Weekly · SwiftUI Weekly - Issue #63 — Tutorial · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2021-06-14T22:35:11.000Z`
   **NeKI brief:** Builds a SwiftUI music-recognition app around ShazamKit. Follow it to see how capture, matching results, permissions, and asynchronous updates are connected to observable UI state.
+- [App Store Review Guidelines Updates for WWDC 2021](http://www.appstorereviewguidelineshistory.com/articles/2021-06-07-wwdc-2021) — iOS Dev Weekly · Issue 511 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `11th June 2021`
+  **NeKI brief:** Examines WWDC 2021 - App Store Review Guidelines History. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Big improvements to UIButton in iOS 15](https://nemecek.be/blog/107/big-improvements-to-uibutton-in-ios-15) — iOS Dev Weekly · Issue 511 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `11th June 2021`
+  **NeKI brief:** Who had “Huge changes to UIButton” on their WWDC bingo card? I know I didn’t! Here’s Filip Němeček with the low down on what’s changed. I’ll be happy to see some standardisation come back to button design with these changes.
+- [organised by the Diversity in Swift team](https://www.eventbrite.com/o/diversity-in-swift-33499837783) — iOS Dev Weekly · Issue 510 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **Published:** `4th June 2021`
+  **NeKI brief:** The Eventbrite organiser page lists Diversity in Swift events and provides publicly readable information about the organiser's developer-community programme.
+- [try! Swift DUB DUB](https://www.tryswift.co/dub-dub) — iOS Dev Weekly · Issue 510 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **Published:** `4th June 2021`
+  **NeKI brief:** Examines try! Swift is an immersive community gathering about Swift Language Best Practices, Application Development in Swift, Server-Side Swift, Open Source Swift, and the Swift Community. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [NSScreencast Remote Happy Hour](https://ti.to/ficklebits/wwdc-2021-happy-hour) — iOS Dev Weekly · Issue 510 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `4th June 2021`
+  **NeKI brief:** WWDC.community is back and bigger than ever this year. There’s so much going on there, you really must check it out. There’s also WWDC Together, the AltConf Keynote stream, and the Ray Wenderlich WWDC Livecast for live streams and chat. There are also a few…
+- [James Dempsey and the Breakpoints](https://vi.to/hubs/live-near-wwdc) — iOS Dev Weekly · Issue 510 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `4th June 2021`
+  **NeKI brief:** The page presents the Live Near WWDC hub for James Dempsey and the Breakpoints, with publicly readable programme and event information.
+- [AASA File Identifiers](https://lickability.com/blog/insidious-bugs-number-3-apple-app-site-association-file) — iOS Dev Weekly · Issue 509 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `28th May 2021`
+  **NeKI brief:** We recently struggled with AASA while trying to make the SPI Playgrounds app respond to URLs. Documentation is sparse and spread over multiple WWDC videos, and we eventually decided not to implement it. So, I read this story from Michael Amundsen with…
+- [apps scrolled from one end of this huge table to the other](https://www.flickr.com/photos/kepi/7389267724/in/photolist-ceubSG-cfXVRE-88TkoC-88Q7iB) — iOS Dev Weekly · Issue 508 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `21st May 2021`
+  **NeKI brief:** Examines In 2008 Apple had a similar app display, except back then it was a bunch of monitors mounted to the wall. This year, it was a table full of iPads. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Comparing iPhone OS 1.0 with iOS 14 using tree maps](https://blog.timac.org/2020/1122-comparing-iphone-os-with-ios-14-using-tree-maps) — iOS Dev Weekly · Issue 484 — Article · Topics: Maps & Location
+  **Published:** `27th November 2020`
+  **NeKI brief:** Examines Alexandre Colucci is at it again, this time with a great visualisation of what types of files make up iOS releases over the years. As many people have noticed, it’s striking how much of iOS 1 was font files, but I think Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Evolution of Programming Languages – iPhone OS 1.0 to iOS 14](https://blog.timac.org/2020/1019-evolution-of-the-programming-languages-from-iphone-os-to-ios-14) — iOS Dev Weekly · Issue 479 — Article · Topics: Swift
+  **Published:** `23rd October 2020`
+  **NeKI brief:** Explains Evolution of Programming Languages – iPhone OS 1.0 to iOS 14, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [Mastering ScrollView in SwiftUI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3N3aWZ0d2l0aG1hamlkLmNvbS8yMDIwLzA5LzI0L21hc3RlcmluZy1zY3JvbGx2aWV3LWluLXN3aWZ0dWkvP3V0bV9jYW1wYWlnbj0lMjBTd2lmdFVJJTIwV2Vla2x5JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1SZXZ1ZSUyMG5ld3NsZXR0ZXIiLCJwb3N0X2lkIjoiMjRiMzQ3YmQtZTA2NS00ZGJmLThjMTAtMzJhZjQ4ZTM1MTZmIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6Ijk4ZDliYTZjLWE2NjAtNDdiOC1iZjg1LTQwZmU4ODY2OGViOCIsImlhdCI6MTY3NDA2MjczNi43OTIsImlzcyI6Im9yY2hpZCJ9.8uSewvaVO9CkH6aARNQquTsEmJ6KVckQz6RnAtixA_4) — SwiftUI Weekly · SwiftUI Weekly - Issue #29 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2020-09-28T20:44:06.000Z`
   **NeKI brief:** Surveys ScrollView composition, axes, indicators, and nested content in SwiftUI. Follow it when diagnosing scrolling layout behavior or choosing between a plain scroll container and a lazy collection.
+- [UnofficialSandwiches](https://github.com/dempseyatgithub/UnofficialSandwiches) — iOS Dev Weekly · Issue 471 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `28th August 2020`
+  **NeKI brief:** The page covers “UnofficialSandwiches” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [What’s New in Unit Testing?](https://qualitycoding.org/wwdc20-unit-testing) — iOS Dev Weekly · Issue 464 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Testing
   **Published:** `10th July 2020`
   **NeKI brief:** Reviews the unit-testing changes presented at WWDC 2020 and connects them to practical Xcode test workflows. Follow it when maintaining older XCTest infrastructure and checking which release-era features can simplify test organization or diagnostics.
+- [this post appeared](https://pspdfkit.com/blog/2020/sponsoring-cocoapods) — iOS Dev Weekly · Issue 463 — Article · Topics: Apple Platform Ecosystem · Objective-C & Cocoa
+  **Published:** `3rd July 2020`
+  **NeKI brief:** Examines PSPDFKit is sponsoring the costs of hosting the CocoaPods CND. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Apple machine learning in 2020](https://machinethink.net/blog/new-in-apple-machine-learning-2020) — iOS Dev Weekly · Issue 463 — Article · Topics: AI Development · Apple Platform Ecosystem
   **Published:** `3rd July 2020`
   **NeKI brief:** Covers Apple machine learning in 2020, focusing on Swift and Apple-platform engineering practice. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
 - [How SwiftUI can now be used to build entire iOS apps](https://wwdcbysundell.com/2020/building-entire-apps-with-swiftui) — iOS Dev Weekly · Issue 462 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `26th June 2020`
   **NeKI brief:** Examines How SwiftUI can now be used to build entire iOS apps, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [bit of pre-WWDC trivia fun](https://www.eventbrite.com/e/pre-wwdc-virtual-trivia-tickets-108879668018) — iOS Dev Weekly · Issue 461 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `19th June 2020`
+  **NeKI brief:** Here we go! 🚀 Things kick off this weekend with a bit of pre-WWDC trivia fun. Almost guaranteed to be chaos on Zoom, but I’m completely up for that, and will be there!
+- [try! Swift social](https://www.holler.com/meetings/8KDfOw/register) — iOS Dev Weekly · Issue 461 — Article · Topics: Apple Platform Ecosystem · Swift
+  **Published:** `19th June 2020`
+  **NeKI brief:** Examines Holler is a content & media company. Shows, stories, and social-first video worth shouting about. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [browsing through your submissions](https://wwdc.github.io/2020) — iOS Dev Weekly · Issue 461 — Article · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `19th June 2020`
+  **NeKI brief:** The page is a public WWDC 2020 submissions index that lets readers browse developer projects and related submission information.
+- [Grab a spot here](https://ti.to/altconf/the-altconf-keynote-2020-happy-hour) — iOS Dev Weekly · Issue 461 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `19th June 2020`
+  **NeKI brief:** Examines AltConf is hosting an online, audio only happy hour to bring together the community across the world, to discuss the keynote and recent announcements from Apple. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Tibor Bödecs’ guide to what’s new in Swift 5.3](https://theswiftdev.com/whats-new-in-swift-5-3) — iOS Dev Weekly · Issue 456 — Article · Topics: Apple Platform Ecosystem · Swift · Xcode
   **Published:** `15th May 2020`
   **NeKI brief:** Examines Tibor Bödecs' guide to what's new in Swift 5.3, offering practical guidance on Swift engineering practice. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [watch this interview](https://www.cnet.com/news/apple-unveils-wwdc-2020-coding-contest-for-students) — iOS Dev Weekly · Issue 455 — Article · Topics: Apple Platform Ecosystem · Testing
+  **Published:** `8th May 2020`
+  **NeKI brief:** Examines For this year's virtual WWDC, Apple's Swift Student Challenge puts the spotlight on coding and STEM. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Hacking with Swift Live](https://www.hackingwithswift.com/live) — iOS Dev Weekly · Issue 452 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
   **Published:** `17th April 2020`
   **NeKI brief:** Covers Hacking with Swift Live, focusing on Swift and Apple-platform engineering practice. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
+- [what an online-only WWDC could look like last week](https://iosdevsurvey.com/2019/is-wwdc-already-a-virtual-conference) — iOS Dev Weekly · Issue 447 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `13th March 2020`
+  **NeKI brief:** Is WWDC already a virtual conference?. This link is retained as a technical reading lead for Apple-platform development.
+- [postponed, cancelled, or going virtual](https://www.zdnet.com/article/coronavirus-2020-tech-conference-cancellations-list) — iOS Dev Weekly · Issue 446 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `6th March 2020`
+  **NeKI brief:** In the light of so many tech conferences being postponed, cancelled, or going virtual there’s plenty of speculation about this year’s WWDC, especially as we get close to the date Apple might typically announce it.
+- [Apple might typically announce it](https://david-smith.org/wwdc) — iOS Dev Weekly · Issue 446 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `6th March 2020`
+  **NeKI brief:** In the light of so many tech conferences being postponed, cancelled, or going virtual there’s plenty of speculation about this year’s WWDC, especially as we get close to the date Apple might typically announce it.
 - [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) — iOS Dev Weekly · Issue 439 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `17th January 2020`
   **NeKI brief:** Provides a sequence of SwiftUI exercises that build from view composition into state, navigation, and platform integration. Use it as structured onboarding or a gap-finding checklist, not as a current API reference.
+- [How to build a UICollectionView like the App Store](https://www.youtube.com/watch?v=SR7DtcT61tA) — iOS Dev Weekly · Issue 426 — Video · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `18th October 2019`
+  **NeKI brief:** Paul Hudson doing a video that isn’t about SwiftUI? Oh yes! This is a fantastic guide to the new collection view APIs introduced at this year’s WWDC. If you haven’t looked at the changes yet, this is a great way to catch up.
 - [LLVS project](https://github.com/mentalfaculty/LLVS) — iOS Dev Weekly · Issue 424 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Persistence & Synchronisation
   **Published:** `4th October 2019`
   **NeKI brief:** Examines LLVS project, focusing on one topic that has been talked about consistently since wwdc is how core data (or any data persistence framework) will be…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Deriving Reactive from Imperative: An Introduction to Duals](https://jasdev.me/duals) — iOS Dev Weekly · Issue 415 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `2nd August 2019`
+  **NeKI brief:** Examines While Apple’s Combine framework didn’t take center stage, its implications on our community certainly will for the next decade. We now have a first-party toolkit for functional rea. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [MacVoices podcast](http://www.macvoices.com/macvoices-19175-altconf-rob-elkin-and-mike-lee-on-the-objectives-of-altconf) — iOS Dev Weekly · Issue 410 — Podcast · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `28th June 2019`
+  **NeKI brief:** I’ve been catching up with a few podcast episodes from WWDC this week and found myself listening to Rob Elkin and Mike Lee on the MacVoices podcast being interviewed by Chuck Joiner.
 - [“hiccups” along the way](https://9to5mac.com/2015/06/05/apple-reverses-course-will-allow-altconf-to-stream-wwdc-keynote) — iOS Dev Weekly · Issue 410 — Tutorial · Topics: Apple Platform Ecosystem · Developer Community & Business
   **Published:** `28th June 2019`
   **NeKI brief:** Reports Apple's decision to allow AltConf to stream the WWDC keynote after earlier event friction. It is a historical note on the growth of ticket-independent developer-conference participation.
+- [GRDBCombine](https://github.com/groue/GRDBCombine) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Developer Tools
+  **Published:** `28th June 2019`
+  **NeKI brief:** The GitHub repository provides GRDBCombine, integrating GRDB database observation with Combine publishers.
 - [GRDB](https://github.com/groue/GRDB.swift) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Developer Tools
   **Published:** `28th June 2019`
   **NeKI brief:** GRDB.swift is a SQLite toolkit offering query interfaces, migrations, observations, and record mapping. Use it when an app needs transparent relational persistence and reactive database changes without SwiftData's deployment and sync assumptions.
+- [example app](https://github.com/groue/GRDBCombine/blob/master/Documentation/Demo/README.md) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Developer Tools
+  **Published:** `28th June 2019`
+  **NeKI brief:** The repository README documents the GRDBCombine example app and shows how the library integrates GRDB database access with Combine.
+- [The Things You May Have Missed at WWDC 2019](https://patrickbalestra.com/blog/2019/06/07/wwdc-2019-the-things-you-may-have-missed.html) — iOS Dev Weekly · Issue 408 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web
+  **Published:** `14th June 2019`
+  **NeKI brief:** Presents The Things You May Have Missed at WWDC 2019, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Apple Platform SDK API Differences](http://codeworkshop.net/objc-diff/sdkdiffs) — iOS Dev Weekly · Issue 407 — Tutorial · Topics: Apple Platform Ecosystem
+  **Published:** `7th June 2019`
+  **NeKI brief:** Looking for the lowdown on everything that has changed? Look no further than the official docs for a comprehensive list of changes, by framework and class. Or, if you’d prefer a full list of only what has changed then there’s also this list generated by…
 - [A first look at Xcode 11’s Swift Package Manager integration](https://wwdcbysundell.com/2019/xcode-swiftpm-first-look) — iOS Dev Weekly · Issue 407 — Article · Topics: Swift · Swift Package Manager · Xcode
   **Published:** `7th June 2019`
   **NeKI brief:** Examines A first look at Xcode 11's Swift Package Manager integration, offering practical guidance on Swift Package Manager integration. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
 - [Getting Started with Xcode Test Plans](https://shashikantjagtap.net/wwdc19-getting-started-with-test-plan-for-xctest) — iOS Dev Weekly · Issue 407 — Article · Topics: Apple Platform Ecosystem · Testing · Xcode
   **Published:** `7th June 2019`
   **NeKI brief:** Examines Getting Started with Xcode Test Plans, offering practical guidance on test design and automation strategy. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [organise an impromptu get together yourself](https://www.andydev.co.uk/blog/conffriends-2019) — iOS Dev Weekly · Issue 406 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `31st May 2019`
+  **NeKI brief:** Examines With under a week until developers from around the world start to descend on San Jose for Apple’s World Wide Developer Conference. ConfFriends (formerly WWDC Family) has been updat. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [decent guide here](https://jaimzuber.com/san-jose-convention-guide.html) — iOS Dev Weekly · Issue 406 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web
+  **Published:** `31st May 2019`
+  **NeKI brief:** The page covers “decent guide here” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [interview with me](https://wwdcbysundell.com/2019/interviews/dave-verwer) — iOS Dev Weekly · Issue 406 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `31st May 2019`
+  **NeKI brief:** Or, maybe none of that is possible this year and you’re going to be following along completely remotely. There will be plenty coverage from the session videos, and on Twitter, but one site that I’ll call out specifically is WWDC by Sundell. Yes, that’s a new…
+- [Designing APIs](https://www.swiftbysundell.com/posts/designing-swift-apis) — iOS Dev Weekly · Issue 400 — Article · Topics: Code Quality · Objective-C & Cocoa · Swift
+  **Published:** `19th April 2019`
+  **NeKI brief:** Explains Designing APIs, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [Student submissions for the WWDC 2019 Scholarship](https://github.com/wwdc/2019) — iOS Dev Weekly · Issue 397 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `29th March 2019`
+  **NeKI brief:** Presents Student submissions for the WWDC 2019 Scholarship, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Brent Simmons](https://micro.blog/brentsimmons) — iOS Dev Weekly · Issue 394 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `8th March 2019`
+  **NeKI brief:** Brent Simmons also gets it. I have a very similar list of questions that I’ll be watching for answers to during this years WWDC.
+- [list of questions](http://inessential.com/2019/03/07/questions_about_marzipan_apps_on_the_mac) — iOS Dev Weekly · Issue 394 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `8th March 2019`
+  **NeKI brief:** Brent Simmons also gets it. I have a very similar list of questions that I’ll be watching for answers to during this years WWDC.
+- [Making AR Apps and Websites](https://parall.ax/blog/view/3283/making-ar-apps-and-websites) — iOS Dev Weekly · Issue 391 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `15th February 2019`
+  **NeKI brief:** Examines Parallax: Building better digital experiences together. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Evolving Swift On Apple Platforms After ABI Stability](https://swift.org/blog/abi-stability-and-apple) — iOS Dev Weekly · Issue 391 — Article · Topics: Apple Platform Ecosystem · Objective-C & Cocoa · Swift
+  **Published:** `15th February 2019`
+  **NeKI brief:** Examines With the release of Swift 5.0, Swift is now ABI stable and is delivered as a core component of macOS, iOS, tvOS, and watchOS. ABI stability has been a goal for Swift since its ince. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Transmit 5 on the Mac App Store](https://panic.com/blog/transmit-5-on-the-mac-app-store) — iOS Dev Weekly · Issue 379 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `23rd November 2018`
+  **NeKI brief:** Examines Panic Blog » Transmit 5 on the Mac App Store. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [article by Daniel Jalkut](https://bitsplitting.org/2018/11/15/mac-sandboxing-privileged-file-operations) — iOS Dev Weekly · Issue 379 — Article · Topics: Apple Platform Ecosystem · Security & Privacy
+  **Published:** `23rd November 2018`
+  **NeKI brief:** No sign of BBEdit yet, but the promised return of Transmit from this year’s WWDC finally happened. Here’s the news from Panic’s blog, and there’s also this article by Daniel Jalkut on the entitlements that it uses.
+- [Lessons Learned From the RWDevCon 2018 Design Lab](https://www.raywenderlich.com/5548-lessons-learned-from-the-rwdevcon-2018-design-lab) — iOS Dev Weekly · Issue 368 — Tutorial · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `7th September 2018`
+  **NeKI brief:** Discusses Lessons Learned From the RWDevCon 2018 Design Lab, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
 - [Improving Your Build Time in Xcode 10](https://patrickbalestra.com/blog/2018/08/27/improving-your-build-time-in-xcode-10.html) — iOS Dev Weekly · Issue 367 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Xcode
   **Published:** `31st August 2018`
   **NeKI brief:** Explores Improving Your Build Time in Xcode 10 in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
 - [Value-Oriented Programming](https://matt.diephouse.com/2018/08/value-oriented-programming) — iOS Dev Weekly · Issue 367 — Article · Topics: Apple Platform Ecosystem · Swift
   **Published:** `31st August 2018`
   **NeKI brief:** Explores Value-Oriented Programming in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [available on GitHub](https://github.com/nathangitter/fluid-interfaces) — iOS Dev Weekly · Issue 364 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `10th August 2018`
+  **NeKI brief:** Discusses available on GitHub, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
+- [App Store Review Guidelines – Changes from WWDC 2018](http://www.appstorereviewguidelineshistory.com/articles/2018-06-04-wwdc2018) — iOS Dev Weekly · Issue 357 — Tutorial · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `22nd June 2018`
+  **NeKI brief:** Examines Changes after WWDC 2018 - App Store Review Guidelines History. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [A first look at the Natural Language framework](https://www.swiftbysundell.com/daily-wwdc/a-first-look-at-the-natural-language-framework) — iOS Dev Weekly · Issue 355 — Article · Topics: Apple Platform Ecosystem · Swift
+  **Published:** `8th June 2018`
+  **NeKI brief:** Gives an early practical look at Apple’s Natural Language framework and the kinds of text analysis it exposes. Useful historical orientation for language-processing APIs, with availability and behavior checked against current SDK documentation.
+- [official app](https://itunes.apple.com/app/wwdc/id640199958) — iOS Dev Weekly · Issue 354 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **Published:** `1st June 2018`
+  **NeKI brief:** The page covers “official app” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Save 50% during WWDC!](https://www.hackingwithswift.com/offers/iosdev1-50) — iOS Dev Weekly · Issue 354 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **Published:** `1st June 2018`
+  **NeKI brief:** Examines Special offers for Swift tutorials. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Apple Silently Launched Creative Testing in App Store Search Ads](https://asostack.com/apple-secretly-launched-creative-testing-in-app-store-search-ads-761a9f7b8abb) — iOS Dev Weekly · Issue 354 — Article · Topics: App Distribution & Store Operations · Objective-C & Cocoa · Testing
+  **Published:** `1st June 2018`
+  **NeKI brief:** Examines Mobile marketers and developers can as of now test different Apple Search Ads assets in the App Store. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [WWDC 97 Videos](http://bslabs.net/2018/05/28/wwdc-1997-videos) — iOS Dev Weekly · Issue 354 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `1st June 2018`
+  **NeKI brief:** Examines Want something to watch on the flight to San Jose this weekend? These are fantastic. 🥇 Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [developer keynote](https://www.youtube.com/watch?v=flU42CTF3MQ) — iOS Dev Weekly · Issue 351 — Video · Topics: Apple Platform Ecosystem
+  **Published:** `11th May 2018`
+  **NeKI brief:** Examines Learn about the latest updates to our developer products and platforms at Google in a Keynote led by Jason Titus.This video is also subtitled in Chinese, Ind. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Andreas Neusüß](https://anerma.de/blog) — iOS Dev Weekly · Issue 347 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `13th April 2018`
+  **NeKI brief:** Examines A blog of Andreas Neusüß. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [WWDC 2018 Scholarship Submissions](https://wwdc.github.io/2018) — iOS Dev Weekly · Issue 347 — Article · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** The page is a public index of WWDC 2018 scholarship submissions and provides browsable information about the submitted projects.
+- [repo](https://github.com/wwdc/2018) — iOS Dev Weekly · Issue 347 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** Last week I linked to one of the WWDC 2018 scholarship submissions that had caught my eye and said I felt guilty about linking to just that one when I was sure there were so many other great submissions waiting to be discovered. So, I asked if there were any…
+- [2014](https://github.com/wwdc/2014) — iOS Dev Weekly · Issue 347 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** Examines A curated list of all the WWDC Submissions in one place - wwdc/2014. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [2015](https://github.com/wwdc/2015) — iOS Dev Weekly · Issue 347 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** Examines Last week I linked to one of the WWDC 2018 scholarship submissions that had caught my eye and said I felt guilty about linking to just that one when I was sure there were so many other great submissions waiting to be dis Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [2016](https://github.com/wwdc/2016) — iOS Dev Weekly · Issue 347 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** The page covers “2016” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [2017](https://github.com/wwdc/2017) — iOS Dev Weekly · Issue 347 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** Examines Student Submissions for the WWDC 2017 Scholarship - GitHub - wwdc/2017: Student Submissions for the WWDC 2017 Scholarship. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Visual Programming Language](https://github.com/NathanFlurry/VisualProgrammingLanguage) — iOS Dev Weekly · Issue 346 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `6th April 2018`
+  **NeKI brief:** Presents Visual Programming Language, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [this one](https://dribbble.com/shots/4318035-Toggle) — iOS Dev Weekly · Issue 344 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `23rd March 2018`
+  **NeKI brief:** Oh my god, this one! Also, this is DEFINITELY the look and feel of iOS 12 based on the WWDC ‘18 artwork. 😂 Obviously none of these are going to make it into an actual app, but it’s nice to step outside of the reality of implementation to get inspired…
 - [Apple Networking Feedback Survey](https://forums.developer.apple.com/thread/97662) — iOS Dev Weekly · Issue 342 — Article · Topics: Apple Platform Ecosystem · Networking
   **Published:** `9th March 2018`
   **NeKI brief:** Examines Apple Networking Feedback Survey, focusing on interesting, quinn “the eskimo!” (who you may have met if you’ve ever found yourself in the labs at wwdc) is asking for…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [QUIC protocol](https://en.wikipedia.org/wiki/QUIC) — iOS Dev Weekly · Issue 342 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `9th March 2018`
+  **NeKI brief:** Examines QUIC - Wikipedia. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [refocusing on quality and reliability](https://sixcolors.com/link/2018/01/report-apple-pushing-back-features-focusing-on-software-quality-in-next-major-ios-release) — iOS Dev Weekly · Issue 337 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `2nd February 2018`
+  **NeKI brief:** As February kicks off, your thoughts might be turning to possible WWDC announcements. It’s certainly getting close to the time when we may see dates and ticket plans for this year’s conference. I’d say it’s very likely going to be in San Jose again, but we…
+- [hallway track](http://sachachua.com/blog/2010/12/making-the-most-of-the-conference-hallway-track) — iOS Dev Weekly · Issue 335 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `19th January 2018`
+  **NeKI brief:** The article explains how to make the most of informal hallway conversations at conferences and turn them into useful knowledge exchange.
+- [templated apps](https://techcrunch.com/2017/12/08/apples-widened-ban-on-templated-apps-is-wiping-small-businesses-from-the-app-store) — iOS Dev Weekly · Issue 331 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `15th December 2017`
+  **NeKI brief:** Discusses templated apps, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
 - [panel discussion](https://news.realm.io/news/wwdc-2017-swift-panel) — iOS Dev Weekly · Issue 309 — Article · Topics: Apple Platform Ecosystem · Swift
   **Published:** `14th July 2017`
   **NeKI brief:** Explores panel discussion in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [New stuff from WWDC 2017](https://mackuba.eu/2017/07/05/new-stuff-from-wwdc-2017) — iOS Dev Weekly · Issue 308 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `7th July 2017`
+  **NeKI brief:** How could anyone remember everything Apple announced at WWDC? Luckily, we don’t have to, because Kuba Suder composed this detailed list of all the important announcements. He starts with the user-facing features but quickly moves on to developer and…
+- [HomeKit in iOS 11](https://www.theverge.com/2017/6/8/15761800/apple-homekit-updates-ios-11-easier-build-requirements-wwdc-2017) — iOS Dev Weekly · Issue 307 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `30th June 2017`
+  **NeKI brief:** When Apple first announced HomeKit back in 2014, I was disappointed by all the hurdles I’d have to jump through just to tinker with it. Well, with the upcoming release of iOS 11 things are finally changing for the better. If you have a few Arduinos or…
 - [Save 50% on all Hacking with Swift books](https://www.hackingwithswift.com/offers/wwdc17-50) — iOS Dev Weekly · Issue 304 — Article · Topics: Apple Platform Ecosystem · Spatial Computing · Swift
   **Published:** `9th June 2017`
   **NeKI brief:** Examines Save 50% on all Hacking with Swift books, focusing on celebrate wwdc by learning something new - all hacking with swift books are 50% off for the next four days, including my…. Use it as a focused research reference for related Apple-platform work, and.
 - [App Store Review Guidelines changes from WWDC 2017](http://www.appstorereviewguidelineshistory.com/articles/2017-06-08-new-rules-following-wwdc-2017) — iOS Dev Weekly · Issue 304 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
   **Published:** `9th June 2017`
   **NeKI brief:** Examines App Store Review Guidelines changes from WWDC 2017, focusing on what else did wwdc bring us? a huge set of changes to the app store review guidelines! 📖 along with some quite shocking…. Use it as a focused research reference for related Apple-platform work.
+- [Looking Back to WWDC ’97](http://bslabs.net/2017/06/01/wwdc-1997) — iOS Dev Weekly · Issue 304 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `9th June 2017`
+  **NeKI brief:** Looking Back to WWDC ’97. This link is retained as a technical reading lead for Apple-platform development.
+- [official WWDC app](https://itunes.apple.com/gb/app/wwdc/id640199958?mt=8) — iOS Dev Weekly · Issue 303 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `2nd June 2017`
+  **NeKI brief:** Examines If you’re following along from elsewhere like me, then don’t forget that the official WWDC app has already been updated for this year, or you could use the unofficial app if you prefer viewing on a Mac. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [one of our events](https://www.buddybuild.com/blog/buddybuild-events-at-wwdc17) — iOS Dev Weekly · Issue 303 — Article · Topics: Apple Platform Ecosystem · CI/CD & Automation · Testing
   **Published:** `2nd June 2017`
   **NeKI brief:** Explores one of our events in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
@@ -1228,36 +1744,129 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines) — iOS Dev Weekly · Issue 266 — Article · Topics: Apple Platform Ecosystem · Code Quality · Swift
   **Published:** `2nd September 2016`
   **NeKI brief:** Examines API guidelines, focusing on ash furrow with a great article on the flexibility swift has around naming. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [New stuff from WWDC 2016](https://gist.github.com/mackuba/e8fb4219c7ef611f47cdb66b93986d85) — iOS Dev Weekly · Issue 259 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `15th July 2016`
+  **NeKI brief:** Examines Kuba Suder with his annual list of everything that was announced at WWDC. When you look at it like this, I dare anyone to ask “What have Apple been doing since last year?” 😄 Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [The Great Swift 3 Rename](https://littlebitesofcocoa.com/243-the-great-swift-3-rename) — iOS Dev Weekly · Issue 257 — Article · Topics: Apple Platform Ecosystem · Objective-C & Cocoa · Swift
   **Published:** `1st July 2016`
   **NeKI brief:** Explores The Great Swift 3 Rename in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [Ole Begemann’s comments](http://oleb.net/blog/2016/06/swift-3) — iOS Dev Weekly · Issue 257 — Article · Topics: Apple Platform Ecosystem · Swift · UIKit
+  **Published:** `1st July 2016`
+  **NeKI brief:** Over the last couple of years I’ve speculated several times on whether Apple would make a more Swift friendly replacement for UIKit. I think WWDC this year showed us the last piece of the puzzle that’s been creeping up on us for a while now. Why re-engineer…
+- [The Deprecation of iCloud Core Data](http://mjtsai.com/blog/2016/06/17/the-deprecation-of-icloud-core-data) — iOS Dev Weekly · Issue 257 — Article · Topics: Apple Platform Ecosystem · Core Data · Persistence & Synchronisation
+  **Published:** `1st July 2016`
+  **NeKI brief:** Explains the deprecation of iCloud Core Data and its implications for persistence architecture. Follow it for concrete migration and synchronization context, while verifying current Apple-supported alternatives.
 - [PSTModernizer](https://github.com/PSPDFKit-labs/PSTModernizer) — iOS Dev Weekly · Issue 257 — Source repository · Topics: Developer Community & Business · Developer Tools · UIKit
   **Published:** `1st July 2016`
   **NeKI brief:** Examines PSTModernizer, focusing on what do you do when find a bug in uikit? you file a radar of course! but then what? maybe you find a workaround and fix…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details.
+- [A quick list of overlooked announcements at WWDC 16](http://alisoftware.github.io/conferences/2016/06/20/ios-10-api-diff) — iOS Dev Weekly · Issue 256 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Developer Tools
+  **Published:** `24th June 2016`
+  **NeKI brief:** Examines Making your Swift code more fun 🎉, magical ✨ and crunchier 👌. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [New in Notifications](http://fichek.com/blog/wwdc16-notifications) — iOS Dev Weekly · Issue 256 — Article · Topics: Apple Platform Ecosystem · UIKit
   **Published:** `24th June 2016`
   **NeKI brief:** Explores New in Notifications in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [official iOS app](https://itunes.apple.com/us/app/wwdc/id640199958?mt=8) — iOS Dev Weekly · Issue 255 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `17th June 2016`
+  **NeKI brief:** Stream or download the videos from the main site, with the official iOS app. If you’re reading this on Friday then you might even still catch some of the live stream. There’s also the (unofficial) WWDC Mac app if you want to organize your downloads better on…
+- [Beard Bash](http://www.loopinsight.com/2016/05/19/rsvp-for-the-beard-bash-2016-at-wwdc-now-open) — iOS Dev Weekly · Issue 251 — Article · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `20th May 2016`
+  **NeKI brief:** The post announces the Beard Bash event at WWDC and provides publicly readable event details.
+- [The Talk Show Live](https://daringfireball.net/thetalkshow) — iOS Dev Weekly · Issue 251 — Article · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `20th May 2016`
+  **NeKI brief:** Examines Daring Fireball: The Talk Show. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [help with that](https://github.com/azzoor/WWDCTV) — iOS Dev Weekly · Issue 239 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games
+  **Published:** `26th February 2016`
+  **NeKI brief:** The page covers “help with that” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Videos from CocoaLove 2015](https://vimeo.com/channels/cocoalove2015) — iOS Dev Weekly · Issue 237 — Video · Topics: Apple Platform Ecosystem · Graphics, Media & Games · Objective-C & Cocoa
+  **Published:** `12th February 2016`
+  **NeKI brief:** CocoaLove describes itself as a conference which “focuses on talks that aren’t deprecated at the next WWDC”. This means you’re not going to find much, if any code here but what you will find is a great set of inspirational and interesting presentations.
+- [Bjango Design Resources](https://bjango.com/designresources) — iOS Dev Weekly · Issue 235 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web
+  **Published:** `29th January 2016`
+  **NeKI brief:** Big update to the design resources provided by Bjango this week. There’s not only an update to their Actions but also a brand new app icon template covering all of the Apple platforms (iOS, watchOS, tvOS, Mac) as well as Android, Windows and even web…
+- [Actions](https://github.com/bjango/Bjango-Actions) — iOS Dev Weekly · Issue 235 — Source repository · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Developer Tools
+  **Published:** `29th January 2016`
+  **NeKI brief:** Examines A collection of Photoshop actions, Photoshop scripts, Hazel rules, macOS workflows and other random things for screen designers and developers. - bjango/Bjango-Actions. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [app icon template](https://github.com/bjango/Bjango-Templates) — iOS Dev Weekly · Issue 235 — Source repository · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Developer Tools
+  **Published:** `29th January 2016`
+  **NeKI brief:** Examines Big update to the design resources provided by Bjango this week. There’s not only an update to their Actions but also a brand new app icon template covering all of the Apple platforms (iOS, watchOS, tvOS, Mac) as well as Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [How to Use updateConstraints](http://oleb.net/blog/2015/08/how-to-use-updateconstraints) — iOS Dev Weekly · Issue 214 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `4th September 2015`
+  **NeKI brief:** Presents How to Use updateConstraints, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Thoughts on Swift 2 Errors](https://gist.github.com/nicklockwood/21495c2015fd2dda56cf) — iOS Dev Weekly · Issue 212 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `21st August 2015`
+  **NeKI brief:** Examines Thoughts on Swift 2 Errors. GitHub Gist: instantly share code, notes, and snippets. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Apple TV Event in September?](http://www.buzzfeed.com/johnpaczkowski/apple-will-debut-new-apple-tv-in-september) — iOS Dev Weekly · Issue 209 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `31st July 2015`
+  **NeKI brief:** Examines The new Apple TV is headed to market along with an App Store of its own. Next step: that long-in-the-offing subscription internet-TV service. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [UICollectionViews now have easy reordering](http://nshint.io/blog/2015/07/16/uicollectionviews-now-have-easy-reordering) — iOS Dev Weekly · Issue 207 — Article · Topics: Apple Platform Ecosystem
   **Published:** `17th July 2015`
   **NeKI brief:** Explains UICollectionViews now have easy reordering with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [New stuff from WWDC 2015](https://gist.github.com/mackuba/15994186a4f9d7da3137) — iOS Dev Weekly · Issue 206 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `10th July 2015`
+  **NeKI brief:** The public gist collects notes about new technologies and APIs announced at WWDC 2015.
 - [Address Sanitizer](https://mikeash.com/pyblog/friday-qa-2015-07-03-address-sanitizer.html) — iOS Dev Weekly · Issue 206 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Developer Tools
   **Published:** `10th July 2015`
   **NeKI brief:** Explains Address Sanitizer with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [Valet](https://github.com/square/Valet) — iOS Dev Weekly · Issue 204 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Persistence & Synchronisation
+  **Published:** `26th June 2015`
+  **NeKI brief:** I’m really surprised that by iOS 9 we still don’t have a higher level API to Keychain. I actually had this saved just before WWDC but I postponed it, just in case it finally happened… Anyway, it didn’t so here you go. Yes, there are loads of these already…
 - [little warning](http://nomothetis.svbtle.com/the-ghost-of-swift-bugs-future) — iOS Dev Weekly · Issue 203 — Article · Topics: Apple Platform Ecosystem · Swift
   **Published:** `19th June 2015`
   **NeKI brief:** Explains little warning with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [The state of iBeacons](https://stawecki.wordpress.com/2015/06/11/the-state-of-ibeacons-june-2015) — iOS Dev Weekly · Issue 203 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `19th June 2015`
+  **NeKI brief:** One thing we heard very little about last week was iBeacons (in fact, the awesome ASCIIwwdc tells me that it wasn’t mentioned at all in any session this year). Mateusz Stawecki writes about the recent use of beacons at Úll and a view on the current state of…
+- [UIKonf 2015 Videos](https://www.youtube.com/playlist?list=PLdr22uU_wISpW6XI1J0S7Lp-X8Km-HaQW) — iOS Dev Weekly · Issue 202 — Video · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `12th June 2015`
+  **NeKI brief:** Just in case the WWDC videos weren’t enough for you this week. Here’s the full set of videos from this year’s UIKonf in Berlin. Enjoy!
 - [no selfie sticks](http://9to5mac.com/2015/04/14/wwdc-selfie-sticks) — iOS Dev Weekly · Issue 194 — Article · Topics: Apple Platform Ecosystem
   **Published:** `17th April 2015`
   **NeKI brief:** Reports WWDC event-policy changes, including Friday sessions and labs, streamed sessions, scholarship details, and a ban on selfie sticks. It is historical conference logistics rather than developer education.
+- [Learn How To Create An iOS App Using HomeKit](http://www.xmcgraw.com/learn-how-to-create-an-ios-app-using-homekit) — iOS Dev Weekly · Issue 186 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `20th February 2015`
+  **NeKI brief:** Is it just me or have we heard very little about HomeKit since WWDC last year? David McGraw has an excellent overview of what to expect when developing an app that interfaces to a HomeKit enabled device. Looks like HomeKit removes the burden of device…
 - [IBInspectable / IBDesignable](http://nshipster.com/ibinspectable-ibdesignable) — iOS Dev Weekly · Issue 184 — Article · Topics: Apple Platform Ecosystem
   **Published:** `6th February 2015`
   **NeKI brief:** IBInspectable and IBDesignable expose custom view configuration and previews in Interface Builder. Use them to shorten UIKit iteration, keeping inspectable properties simple because design-time rendering has a different runtime environment.
+- [pulling of all HealthKit apps due to a bug](http://www.theguardian.com/technology/2014/sep/18/apple-healthkit-bug-ios-8) — iOS Dev Weekly · Issue 164 — Article · Topics: App Distribution & Store Operations · Health Apps
+  **Published:** `19th September 2014`
+  **NeKI brief:** Examines Health and fitness-tracking app updates pulled, with cure expected by the end of September. By <strong>Stuart Dredge</strong>. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Form](http://www.relativewave.com/form) — iOS Dev Weekly · Issue 162 — Article · Topics: Apple Platform Ecosystem · Performance
+  **Published:** `5th September 2014`
+  **NeKI brief:** The former Relative Wave Form URL now redirects to Material Design guidance. Useful as redirect history; the current destination should be assessed as design documentation, not the original tool page.
 - [Cocoa without the limitations of C compatibility](https://devforums.apple.com/message/1025388) — iOS Dev Weekly · Issue 160 — Article · Topics: Apple Platform Ecosystem · Objective-C & Cocoa · Swift
   **Published:** `22nd August 2014`
   **NeKI brief:** Explains Cocoa without the limitations of C compatibility with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly.
 - [demoed in the Keynote](https://www.youtube.com/watch?feature=player_detailpage&v=w87fOAG8fjk) — iOS Dev Weekly · Issue 159 — Video · Topics: Apple Platform Ecosystem · Swift
   **Published:** `15th August 2014`
   **NeKI brief:** Apple's WWDC 2014 keynote introduces iOS 8 and OS X Yosemite, providing historical context for their original platform features and design direction. Use it to understand the announcements, not current API availability.
+- [Introducing the 1Password App Extension](http://blog.agilebits.com/2014/07/30/introducing-the-1password-app-extension-for-ios-8-apps) — iOS Dev Weekly · Issue 157 — Article · Topics: App Services & Extensions · Apple Platform Ecosystem · Security & Privacy
+  **Published:** `1st August 2014`
+  **NeKI brief:** Explains Introducing the 1Password App Extension, focusing on the concrete UIKit or iOS implementation technique and the trade-offs relevant to production apps.
+- [The importance of bug reporting](http://www.imore.com/importance-of-bug-reporting) — iOS Dev Weekly · Issue 152 — Article · Topics: Apple Platform Ecosystem · Swift · Testing
+  **Published:** `27th June 2014`
+  **NeKI brief:** I talked about this a few weeks ago but with WWDC behind us and with iOS 8, Yosemite and Swift in our hands it’s even more important to log bugs in this period of beta testing. Now is the time to get the feedback in to Apple on bugs and feature requests…
+- [Screenshot](http://xkcd.com/1373) — iOS Dev Weekly · Issue 148 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `30th May 2014`
+  **NeKI brief:** Examines xkcd: Screenshot. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Rob Elkin on AltConf](https://www.youtube.com/watch?v=CKm-qJamPnY&app=desktop) — iOS Dev Weekly · Issue 147 — Video · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `23rd May 2014`
+  **NeKI brief:** Examines Rob Elkin is again organizing a parallel event to Apple's Worldwide Developers Conference. This year, it will be called AltConf, and is a follow-up to last y. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Orta’s WWDC party list](https://github.com/orta/wwdc_parties_2014/blob/master/README.md) — iOS Dev Weekly · Issue 147 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `23rd May 2014`
+  **NeKI brief:** The page covers “Orta’s WWDC party list” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [MTDActionSheet](https://github.com/myell0w/MTDActionSheet) — iOS Dev Weekly · Issue 146 — Source repository · Topics: Developer Tools
+  **Published:** `16th May 2014`
+  **NeKI brief:** Examines A customizable popover-based UIActionSheet replacement for the iPhone & iPad - myell0w/MTDActionSheet. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [iOS 8 Wishes](http://www.macstories.net/stories/ios-8-wishes) — iOS Dev Weekly · Issue 143 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `25th April 2014`
+  **NeKI brief:** As we are only five weeks away from WWDC, it’s probably time to start speculating on iOS 8. Federico Viticci provides an in-depth look at his wishes for the new version. There’s nothing too crazy listed here as he is predicting that iOS 8 will be more of a…
+- [OS X and Helvetica Neue](http://furbo.org/2014/04/18/get-ready-for-june-2nd) — iOS Dev Weekly · Issue 143 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `25th April 2014`
+  **NeKI brief:** Examines There’s no doubt in my mind that Apple is going to overhaul the look of Mac OS X in the next version. As more and more apps bridge the gap between the desktop and mobile, the. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Contribute to ASCIIwwdc](http://asciiwwdc.com/contribute) — iOS Dev Weekly · Issue 122 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `29th November 2013`
+  **NeKI brief:** Examines Searchable full-text transcripts of WWDC sessions. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Using your tech support incidents](http://www.tuaw.com/2013/08/21/dev-juice-using-your-tech-support-incidents) — iOS Dev Weekly · Issue 108 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
   **Published:** `23rd August 2013`
   **NeKI brief:** Explains Using your tech support incidents with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
@@ -1267,6 +1876,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [WWDC First-Timer Tips](http://orangejuiceliberationfront.com/wwdc-first-timer-tips) — iOS Dev Weekly · Issue 97 — Article · Topics: Apple Platform Ecosystem
   **Published:** `7th June 2013`
   **NeKI brief:** Explains WWDC First-Timer Tips with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [WWDC Expectations](http://www.loopinsight.com/2013/05/29/wwdc-expectations) — iOS Dev Weekly · Issue 96 — Tutorial · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `31st May 2013`
+  **NeKI brief:** Examines WWDC Expectations. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [The Gathering Storm: Our Travails with iCloud Sync](http://rms2.tumblr.com/post/46505165521/the-gathering-storm-our-travails-with-icloud-sync) — iOS Dev Weekly · Issue 87 — Article · Topics: Apple Platform Ecosystem · Core Data · Persistence & Synchronisation
   **Published:** `29th March 2013`
   **NeKI brief:** Explains The Gathering Storm Our Travails with iCloud Sync with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev.
@@ -1279,6 +1891,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Finding relevant WWDC videos](http://www.escortmissions.com/blog/2012/7/22/finding-relevant-wwdc-videos.html) — iOS Dev Weekly · Issue 52 — Article · Topics: App Intents & System Surfaces · Apple Platform Ecosystem · Graphics, Media & Games
   **Published:** `27th July 2012`
   **NeKI brief:** Explains Finding relevant WWDC videos with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [WWDC Videos 2004-2008](http://oleb.net/blog/2012/07/wwdc-videos-2004-2008) — iOS Dev Weekly · Issue 50 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **Published:** `13th July 2012`
+  **NeKI brief:** Collects older WWDC videos from 2004 through 2008. Follow individual sessions for historical Apple-platform context, while using current documentation for supported APIs and behavior.
+- [iOS 6 WWDC Keynote Updates](http://useyourloaf.com/blog/2012/06/11/ios-6-wwdc-keynote-updates.html) — iOS Dev Weekly · Issue 46 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web
+  **Published:** `15th June 2012`
+  **NeKI brief:** Examines A great, non NDA breaking round up of some of what we can talk about in iOS 6 by Keith Harrison. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Let’s Have Some Fun with the Preliminary Schedule for WWDC 2012](http://daringfireball.net/2012/05/reading_way_too_much_into_wwdc_schedule) — iOS Dev Weekly · Issue 44 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `1st June 2012`
+  **NeKI brief:** Examines As much as I want to see an App Store for the Apple TV (and I really do), I am not sure I really believe it will happen now and those TBA sessions on the schedule are always less exciting than the rumours when the confer Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Appsterdam WWDC HQ](http://www.robelkin.com/wwdc) — iOS Dev Weekly · Issue 43 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `25th May 2012`
+  **NeKI brief:** Appsterdam on tour in San Francisco with another co-working venue for WWDC week which may be useful if you are planning to do an unofficial WWDC this year. Or just pop along for one of the famous Appsterdam lunchtime lectures as they are hosting a different…
+- [Alternative To WWDC 2012: Check Out Indie Developer Lab](http://www.cultofmac.com/163225/alternative-to-sold-out-wwdc-2012-launches-check-out-indie-developer-lab) — iOS Dev Weekly · Issue 39 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `27th April 2012`
+  **NeKI brief:** Examines Apple's 2012 Worldwide Developer Conference sold out in just two hours yesterday morning, and most of the west coast got screwed because it all happened. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [WWDC-less WWDC](http://rentzsch.tumblr.com/post/20879080490/wwdc-less-wwdc) — iOS Dev Weekly · Issue 37 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `13th April 2012`
+  **NeKI brief:** Examines Last year Victoria and I tried something different: visiting San Francisco during WWDC, but not actually attending WWDC. Here's a quick rundown of our experience. Pros: Ticket. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [What's New at WWDC 2026](https://go.peterfriese.dev/swift-whats-new-at-wwdc-2026?s=web&t=ext) — Not only Swift · Issue 99 — Article · Topics: Apple Platform Ecosystem · Swift
   **NeKI brief:** Aggregates WWDC 2026 changes from session transcripts and groups them by framework and capability. It is a broad discovery map for finding relevant announcements, with final API decisions still requiring the linked Apple sessions and documentation.
 - [Siri & App Intents](https://go.peterfriese.dev/wwdc-2026-siri-app?s=newsletter&t=ext) — Not only Swift · Issue 99 — Article · Topics: App Intents & System Surfaces · Apple Platform Ecosystem
@@ -1291,8 +1921,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Surveys the agent skills bundled with Xcode 27 and how they guide Swift, SwiftUI, testing, and Apple-framework work. Treat it as community orientation, then verify the installed skill contents and supported workflow in the actual Xcode release.
 - [Play](https://youtube.com/watch?v=qx5QWrKhxM8) — Not only Swift · Issue 98 — Video · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
   **NeKI brief:** Demonstrates a Firebase bridge that makes Gemini models available through Apple’s Foundation Models-style API. Use it to compare a cloud-model fallback with on-device sessions while keeping authentication, privacy, latency, and API compatibility explicit.
+- [Get started with Firebase App Check for Apple Platforms](https://firebase.google.com/docs/app-check/ios) — Not only Swift · Issue 95 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games
+  **NeKI brief:** Explains how to configure Firebase App Check for Apple platforms so backend resources can distinguish traffic from authentic app instances. Use it when adding app-attestation protections around Firebase services.
+- [Bezel app](https://nonstrict.eu/bezel) — Not only Swift · Issue 90 — Article · Topics: Apple Platform Ecosystem
+  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
 - [an entire chapter just about toolbars](https://youtu.be/3MugGCtm26A?t=469s) — Not only Swift · Issue 84 — Video · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **NeKI brief:** Links to a presentation segment focused on SwiftUI toolbars. Use the demonstration to understand composition and interaction choices, while checking current toolbar APIs and platform behavior in Apple documentation.
+- [livestream to dig into some of the new stuff released at WWDC 25](https://www.youtube.com/watch?v=tmPwLamVGYM) — Not only Swift · Issue 83 — Video · Topics: Apple Platform Ecosystem · Swift
+  **NeKI brief:** This livestream reviews new material announced at WWDC 25 and discusses its practical implications for Apple-platform developers. The recording provides a concrete, time-bounded walkthrough of the APIs and platform changes covered after the conference.
+- [another livestream](https://www.youtube.com/watch?v=8vojkFvKT1U&list=PLl-K7zZEsYLk807wutFVVKom8HsB1H9m_&index=1) — Not only Swift · Issue 83 — Video · Topics: Apple Platform Ecosystem · Swift
+  **NeKI brief:** This developer livestream follows the WWDC 25 and Google I/O Connect discussions with a practical look at the newly announced tools and platform capabilities. It is useful for seeing the presenter work through the changes in context rather than reading only release summaries.
+- [argued that](https://www.youtube.com/watch?v=Gw5lB1Jo-bM&t=2130s) — Not only Swift · Issue 83 — Video · Topics: Apple Platform Ecosystem · Developer Community & Business · Liquid Glass
+  **NeKI brief:** This Hardfork podcast segment critiques Apple's Liquid Glass design through the distinction between appearance and behavior. It offers a concrete community perspective on the interaction and usability trade-offs developers should consider when evaluating the new UI direction.
 - [What's new in SwiftUI - WWDCNotes](https://wwdcnotes.com/documentation/wwdcnotes/wwdc25-256-whats-new-in-swiftui) — Not only Swift · Issue 83 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **NeKI brief:** Presents a concrete implementation of What's new in SwiftUI - WWDCNotes. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
 - [write-up](https://wwdcnotes.com/documentation/wwdcnotes/wwdc21-10022-demystify-swiftui) — Not only Swift · Issue 76 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI

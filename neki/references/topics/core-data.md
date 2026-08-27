@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Core Data models, fetching, migration, concurrency, and persistence behaviour.
 
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed links shown: **278**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **286**
 
 ## Direct-source reading
 
@@ -607,21 +607,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Core Data Evolution](https://github.com/fatbobman/CoreDataEvolution) — Fatbobman’s Swift Weekly · Issue 128 — Source repository · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-03-23T12:02:22.360Z`
   **NeKI brief:** CoreDataEvolution experiments with bringing ModelActor-like concurrency structure to Core Data. Use it when modernizing a Core Data stack while retaining its model and store, especially to centralize context ownership and serialized mutations.
+- [CoreDataBrowser](https://github.com/kyletaylor94/CoreDataBrowser) — iOS Dev Tools · iOS Dev Tools: web2wave, CoreDataBrowser, DataStoreKit — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
+  **Published:** `2026-03-19T17:30:50.047Z`
+  **NeKI brief:** CoreDataBrowser provides tooling for browsing Core Data stores. Follow its source for concrete persistence inspection and debugging workflows, while checking schema, migration, and read/write safety boundaries.
 - [Apple Doesn’t Show SwiftData iCloud Sync Status — So Let’s Build One](https://azamsharp.com/2026/03/16/swiftdata-icloud-sync-status.html) — Those Who Swift · Issue 258 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2026-03-18`
-  **NeKI brief:** Examines Apple Doesn’t Show SwiftData iCloud Sync Status — So Let’s Build One, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+  **NeKI brief:** Azam shows how to build a simple sync status monitor for SwiftData, giving users meaningful feedback on what's happening behind the scenes while their data syncs with iCloud.
 - [Measuring Core Data and SwiftData](https://yaacoub.github.io/articles/swift-tip/measuring-core-data-and-swiftdata) — iOS Dev Weekly · Issue 744 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `27th February 2026`
   **NeKI brief:** Presents measuring core data and swiftdata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [If You Are Not Versioning Your Swiftdata Schema](https://azamsharp.com/2026/02/14/if-you-are-not-versioning-your-swiftdata-schema.html) — SwiftLee Weekly · Issue 311 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
+  **Published:** `2026-02-17T15:07:33.000Z`
+  **NeKI brief:** Azam explains why schema versioning in SwiftData is essential once your app stores real user data and shows how to define VersionedSchema, implement custom migrations, and evolve models.
 - [Swift Concurrency](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill) — Fatbobman’s Swift Weekly · Issue 121 — Source repository · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2026-02-02T12:03:11.621Z`
   **NeKI brief:** Provides focused agent guidance for Swift concurrency work. Use it to give coding agents project-relevant rules around isolation, Sendable boundaries, and async tests before they propose or edit concurrent Swift code.
 - [Core Data](https://github.com/AvdLee/Core-Data-Agent-Skill) — Fatbobman’s Swift Weekly · Issue 121 — Source repository · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-02-02T12:03:11.621Z`
   **NeKI brief:** Provides focused agent guidance for Core Data tasks. Use it to constrain an agent around contexts, threading, migrations, and persistence boundaries before it modifies an existing Core Data stack.
-- [How SwiftData Represents AttributedString in Core Data Storage](https://medium.com/@djalex566/how-swiftdata-represents-attributedstring-in-core-data-storage-69036a4f166a) — SwiftLee Weekly · Issue 299 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
-  **Published:** `2025-11-25T15:16:48.000Z`
-  **NeKI brief:** Explains How SwiftData Represents AttributedString in Core Data Storage, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [Discussion on SwiftData’s ModelActor](https://l.fatbobman.com/w0100-04) — Fatbobman’s Swift Weekly · Issue 100 — Article · Topics: Concurrency · Swift · SwiftData
+  **Published:** `2025-09-01T12:03:36.183Z`
+  **NeKI brief:** Examines why SwiftData’s ModelActor can feel surprising and where its isolation model complicates persistence design. Follow it when reviewing actor boundaries, model-container ownership, and concurrency assumptions in SwiftData code.
 - [GitHub repository](https://github.com/AvdLee/CoreDataBestPractices) — SwiftLee Weekly · Issue 282 — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **Published:** `2025-07-29T14:14:45.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for GitHub repository. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -637,6 +643,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Mogenerator](https://github.com/rentzsch/mogenerator) — iOS Dev Tools · iOS Dev Tools: Mogenerator, xcpretty, vscode-swift — Source repository · Topics: Core Data · Developer Tools · Objective-C & Cocoa
   **Published:** `2025-01-23T15:15:36.631Z`
   **NeKI brief:** mogenerator reads a Core Data model and generates separate machine and human subclasses for managed objects. Use it in legacy Core Data projects that need repeatable typed accessors while preserving hand-written behavior across model regeneration.
+- [CoreStore](https://github.com/JohnEstropia/CoreStore) — iOS Dev Tools · iOS Dev Tools: Compose Multiplatform, CoreStore, SourceKitten — Source repository · Topics: Core Data · Developer Career & Practice · Developer Tools
+  **Published:** `2024-12-05T17:49:51.669Z`
+  **NeKI brief:** CoreStore provides a higher-level Swift interface for Core Data persistence. Follow its source for concrete stack setup, transaction, and object-management abstractions, then compare them with the project’s existing persistence boundaries.
+- [CoreData Studio](https://apps.apple.com/us/app/coredata-studio/id6670322925) — iOS Dev Tools · iOS Dev Tools: CoreData Studio, Swift Crypto, StatusBuddy — Article · Topics: Core Data · Objective-C & Cocoa · Persistence & Synchronisation
+  **Published:** `2024-11-28T18:43:21.075Z`
+  **NeKI brief:** CoreData Studio is a native SQLite viewer, editor, and inspector for Core Data and SwiftData stores. Follow it for a concrete debugging workflow around locating, examining, and modifying local persistence data.
 - [The weirdest Core Data crash I have seen](https://nemecek.be/blog/207/the-weirdest-core-data-crash-i-have-seen) — iOS Dev Weekly · Issue 678 — Article · Topics: Core Data · Persistence & Synchronisation
   **Published:** `13th September 2024`
   **NeKI brief:** Presents the weirdest core data crash i have seen for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -646,6 +658,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Screen vs View in SwiftUI](https://scottsmithdev.com/screen-vs-view-in-swiftui) — iOS Dev Weekly · Issue 647 — Article · Topics: Core Data · Swift · SwiftUI
   **Published:** `9th February 2024`
   **NeKI brief:** Contrasts screen-level composition with reusable SwiftUI views and gives naming and responsibility boundaries that help keep navigation and presentation code maintainable.
+- [Core Data Lab](https://betamagic.nl/products/coredatalab.html) — iOS Dev Tools · 🔨 Setting, Core Data Lab, MonitorControl — Article · Topics: Core Data · Cross-Platform & Web · Persistence & Synchronisation
+  **Published:** `2024-01-11T16:12:03.171Z`
+  **NeKI brief:** Core Data Lab provides a dedicated interface for inspecting Core Data stores. Follow it for a concrete local-persistence debugging workflow focused on examining application data outside the running app.
 - [Integrating Haptic Feedback In SwiftUI Projects](https://serialcoder.dev/text-tutorials/swiftui/integrating-haptic-feedback-in-swiftui-projects) — Fatbobman’s Swift Weekly · Issue 12 — Tutorial · Topics: Swift · SwiftData · SwiftUI
   **Published:** `2023-12-25T22:00:09.856Z`
   **NeKI brief:** Shows how to trigger haptic feedback from SwiftUI interactions by bridging to the appropriate UIKit feedback generators. Follow it when adding tactile confirmation while keeping feedback timing, accessibility, and device capability checks explicit.
@@ -661,6 +676,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [@Model for CoreData](https://www.alwaysrightinstitute.com/managedmodels) — iOS Dev Weekly · Issue 629 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `29th September 2023`
   **NeKI brief:** Presents @model for coredata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Core Data Lab and SwiftData](https://betamagic.nl/news/2023/2023_03.html) — iOS Dev Weekly · Issue 628 — Article · Topics: Core Data · Cross-Platform & Web · Persistence & Synchronisation
+  **Published:** `22nd September 2023`
+  **NeKI brief:** I’ve written about Core Data Lab before, and it remains an excellent companion app with enough features specific to Core Data to make it worthwhile over a “regular” Core Data client, so I was excited to read that there’s a beta available for a new release…
 - [Unlocking Advanced Core Data Features in SwiftData](https://itnext.io/swiftdatakit-unleashing-advanced-core-data-features-in-swiftdata-3fcd5f443c99) — iOS Dev Weekly · Issue 626 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `8th September 2023`
   **NeKI brief:** Presents unlocking advanced core data features in swiftdata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -733,6 +751,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Dealing with Dates](http://martiancraft.com/blog/2018/05/dealing-with-dates) — iOS Dev Weekly · Issue 351 — Article · Topics: Core Data · Persistence & Synchronisation
   **Published:** `11th May 2018`
   **NeKI brief:** Date bugs arise when an instant, calendar date, locale, and time zone are conflated. The guide uses Foundation's calendar and formatter APIs to make those boundaries explicit, a useful diagnostic checklist for scheduling and display failures.
+- [simMagnifier](http://microedition.biz/simMagnifier/index.html) — iOS Dev Weekly · Issue 283 — Article · Topics: Core Data · Cross-Platform & Web · Persistence & Synchronisation
+  **Published:** `13th January 2017`
+  **NeKI brief:** Examines Easily access your latest run apps on iOS Simulators. Explore folders, edit Core Data content, and much more!. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [mogenerator and Swift 3](http://rentzsch.tumblr.com/post/151300114355/mogenerator-131) — iOS Dev Weekly · Issue 271 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `7th October 2016`
   **NeKI brief:** Explores mogenerator and Swift 3 in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
@@ -742,6 +763,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using a Core Data Model in Swift Playgrounds](https://www.andrewcbancroft.com/2016/07/10/using-a-core-data-model-in-swift-playgrounds) — iOS Dev Weekly · Issue 259 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `15th July 2016`
   **NeKI brief:** Explores Using a Core Data Model in Swift Playgrounds in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [The Deprecation of iCloud Core Data](http://mjtsai.com/blog/2016/06/17/the-deprecation-of-icloud-core-data) — iOS Dev Weekly · Issue 257 — Article · Topics: Apple Platform Ecosystem · Core Data · Persistence & Synchronisation
+  **Published:** `1st July 2016`
+  **NeKI brief:** Explains the deprecation of iCloud Core Data and its implications for persistence architecture. Follow it for concrete migration and synchronization context, while verifying current Apple-supported alternatives.
 - [New Swift, Core Data and Cocoa Books](http://useyourloaf.com/blog/new-swift-core-data-and-cocoa-books) — iOS Dev Weekly · Issue 251 — Article · Topics: Core Data · Objective-C & Cocoa · Swift
   **Published:** `20th May 2016`
   **NeKI brief:** Collects book recommendations around Swift, Core Data, and Cocoa as a learning route. Treat editions as historical context and cross-check API guidance against current Apple documentation.

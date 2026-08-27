@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Local storage, CloudKit, databases, caching, keychain use, and synchronisation.
 
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed links shown: **586**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **638**
 
 ## Direct-source reading
 
@@ -1197,6 +1197,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Wally 7](https://danielsaidi.com/blog/2026/08/20/wally-7) — Those Who Swift · Issue 281 — Article · Topics: Swift · SwiftData
+  **Published:** `2026-08-26T20:38:31.643Z`
+  **NeKI brief:** Announces Wally 7, a major release of Daniel Saidi's native iOS app, with a new data store and additional features. The release is useful as a concrete example of evolving a long-lived Apple-platform app while replacing foundational persistence infrastructure.
+- [AI Wanted to Give Up. The Human Didn’t.](https://fatbobman.com/en/weekly/issue-150) — Those Who Swift · Issue 281 — Article · Topics: AI Development · Developer Tools · Persistence & Synchronisation
+  **Published:** `2026-08-26T20:38:31.643Z`
+  **NeKI brief:** Curates Apple-platform topics including AI delegation, Swift Package Registry, CoreBluetooth concurrency, CloudKit, and OCR mapping. It serves as a source map to several implementation discussions, with each linked article requiring its own technical evaluation.
+- [What Is CloudKit? Apple’s Backend Explained](https://l.fatbobman.com/w0150-3) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Persistence & Synchronisation
+  **Published:** `2026-08-24T12:03:48.210Z`
+  **NeKI brief:** Introduces CloudKit through containers, record schemas, private/shared/public databases, and the choice between direct APIs, Core Data, and SwiftData. It also frames Apple-platform focus, iCloud dependency, schema migration, and infrastructure-control limits before treating it as a backend choice.
+- [Amethyst Vein: An Open-Source, Cross-Platform Local Persistence Framework with SwiftData-Style APIs](https://l.fatbobman.com/w0150-6) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Cross-Platform & Web · Swift · SwiftData
+  **Published:** `2026-08-24T12:03:48.210Z`
+  **NeKI brief:** Presents Vein, an open-source local-first ORM with SwiftData-like macros, model containers, queries, migrations, and a SQLite/SQLCipher backend across Apple platforms, Linux, Android, and Windows. Use it to assess a shared Swift persistence layer rather than assuming SwiftData portability.
 - [Simple Simulator Manager](https://github.com/Heckscheibe/SimpleSimulatorManager) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Source repository · Topics: Developer Tools · macOS & AppKit
   **Published:** `2026-08-13T16:30:38.104Z`
   **NeKI brief:** Provides a macOS menu-bar route to simulator app containers, bundles, Documents, UserDefaults, and App Groups, plus cleanup of unavailable runtimes. It removes repeated CoreSimulator UUID hunting from inspection and disk-maintenance workflows.
@@ -1221,7 +1233,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Syncing SwiftData with a custom backend using HistoryObserver](https://azamsharp.com/2026/07/16/syncing-swiftdata-with-a-custom-backend-using-historyobserver.html) — iOS Dev Weekly · Issue 760 — Article · Topics: Networking · Persistence & Synchronisation · SwiftData
   **Published:** `24th July 2026`
   **NeKI brief:** Builds a one-way synchronisation pipeline from SwiftData HistoryObserver transactions to a REST backend. Persisting the last processed transaction token avoids duplicate uploads; server-to-client changes remain a separate responsibility.
-- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** MistKit packages CloudKit Web Services access for server-side Swift and command-line tools, separating backend automation from Apple's client frameworks. Useful when a service needs CloudKit data without running inside an iOS app.
 - [Keeping SwiftData behind a boundary](https://tanaschita.com/swiftdata-persistence-boundaries?ref=ioscodereview.com) — iOS Code Review · Issue 82 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
@@ -1235,7 +1247,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Implements List movement and LazyVGrid drag-and-drop, first in memory and then with SwiftData sort-order persistence. A custom DropDelegate updates visual order during dragging and saves only when the operation completes.
 - [What’s New In SwiftData For iOS 27](https://azamsharp.com/2026/06/12/whats-new-in-swiftdata.html) — Those Who Swift · Issue 271 — Article · Topics: Cross-Platform & Web · Swift · SwiftData
   **Published:** `2026-06-18`
-  **NeKI brief:** Summarizes SwiftData changes for iOS 27. Use it to identify migration and feature candidates for a persistence layer, then verify model, query, and availability details against current Apple documentation.
+  **NeKI brief:** Mohammad covers what’s new in SwiftData for iOS 27, showing how enum predicates, sectioned queries, compound predicates, the new .codable attribute, and ResultsObserver remove common workarounds.
 - [Stop configuring MCPs in every AI app](https://www.mcp-beast.ai/mac-app-ios-developers) — SwiftLee Weekly · Issue 328 — Article · Topics: AI Development · Developer Tools · Persistence & Synchronisation
   **Published:** `2026-06-16T14:06:32.000Z`
   **NeKI brief:** Explores centralizing MCP configuration so multiple AI clients can share one setup. Use it when reducing repeated tool registration across development environments, while reviewing credential handling and client-specific capability differences.
@@ -1251,18 +1263,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Decoupling SwiftData in SwiftUI: Is It Worth It?](https://www.youtube.com/watch?v=2so9ifq5hYY) — Those Who Swift · Issue 268 — Video · Topics: Swift · SwiftData · SwiftUI
   **Published:** `2026-05-27`
   **NeKI brief:** Implements protocol-backed SwiftData and SQLite stores, then examines the cost of losing SwiftData's automatic UI integration. Useful for deciding when persistence abstraction improves testability and when it merely adds architectural overhead.
+- [SwiftData for Beginners](https://www.youtube.com/watch?v=mgUYC6TWbSM) — Those Who Swift · Issue 266 — Video · Topics: Swift · SwiftData
+  **Published:** `2026-05-13`
+  **NeKI brief:** Reviews SwiftData for Beginners. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [iOS Privacy Manifest & Required Reasons APIs: A Compliance Checklist](https://idiotswithios.com/ios-privacy-manifest-required-reasons-apis-compliance-checklist) — Those Who Swift · Issue 265 — Article · Topics: Security & Privacy
+  **Published:** `2026-05-06`
+  **NeKI brief:** Explains required-reason API declarations in Apple privacy manifests. Useful for auditing SDK and app dependencies before submission and connecting API usage to the compliance metadata Apple expects.
 - [Core Data Evolution](https://github.com/fatbobman/CoreDataEvolution) — Fatbobman’s Swift Weekly · Issue 128 — Source repository · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-03-23T12:02:22.360Z`
   **NeKI brief:** CoreDataEvolution experiments with bringing ModelActor-like concurrency structure to Core Data. Use it when modernizing a Core Data stack while retaining its model and store, especially to centralize context ownership and serialized mutations.
+- [DataStoreKit](https://github.com/asymbas/datastorekit) — iOS Dev Tools · iOS Dev Tools: web2wave, CoreDataBrowser, DataStoreKit — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Persistence & Synchronisation
+  **Published:** `2026-03-19T17:30:50.047Z`
+  **NeKI brief:** DataStoreKit provides Swift persistence abstractions for storing application data. Follow its source and tests for concrete serialization, caching, and lifecycle semantics, then compare them with the project’s existing persistence layer.
 - [Apple Doesn’t Show SwiftData iCloud Sync Status — So Let’s Build One](https://azamsharp.com/2026/03/16/swiftdata-icloud-sync-status.html) — Those Who Swift · Issue 258 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2026-03-18`
-  **NeKI brief:** Examines Apple Doesn’t Show SwiftData iCloud Sync Status — So Let’s Build One, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+  **NeKI brief:** Azam shows how to build a simple sync status monitor for SwiftData, giving users meaningful feedback on what's happening behind the scenes while their data syncs with iCloud.
 - [Measuring Core Data and SwiftData](https://yaacoub.github.io/articles/swift-tip/measuring-core-data-and-swiftdata) — iOS Dev Weekly · Issue 744 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `27th February 2026`
   **NeKI brief:** Presents measuring core data and swiftdata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [If You’re Not Versioning Your SwiftData Schema, You’re Gambling](https://azamsharp.com/2026/02/14/if-you-are-not-versioning-your-swiftdata-schema.html) — Those Who Swift · Issue 254 — Article · Topics: App Distribution & Store Operations · Swift · SwiftData
+  **Published:** `2026-02-18`
+  **NeKI brief:** Azam explains why schema versioning in SwiftData is essential once your app stores real user data and shows how to define VersionedSchema, implement custom migrations, and evolve models.
 - [Sharing SwiftData Content Between Users](https://www.youtube.com/watch?v=t9FRldfZ8vc) — Those Who Swift · Issue 254 — Video · Topics: Swift · SwiftData · SwiftUI
   **Published:** `2026-02-18`
   **NeKI brief:** Exports selected SwiftData relationships as a custom file through UIActivityViewController, then imports them with onOpenURL and security-scoped access. The merge logic reconnects related models while preventing duplicates.
+- [Sharing SwiftData Between Users](https://www.youtube.com/watch?v=TPGn2pJjfis) — Those Who Swift · Issue 253 — Video · Topics: Swift · SwiftData
+  **Published:** `2026-02-12`
+  **NeKI brief:** Reviews Sharing SwiftData Between Users. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [Mastering DatePicker, MultiDatePicker, and ColorPicker in SwiftUI](https://www.youtube.com/watch?v=O540BJGGpYw&t=2s) — Those Who Swift · Issue 252 — Video · Topics: Persistence & Synchronisation · Swift · SwiftUI
   **Published:** `2026-02-04`
   **NeKI brief:** Compares SwiftUI DatePicker, MultiDatePicker, and ColorPicker configurations, including ranges, optional-date bindings, persistence-friendly colors, and a UIColorPickerViewController bridge. Useful for understanding where native SwiftUI controls still need UIKit support.
@@ -1272,24 +1299,48 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Core Data](https://github.com/AvdLee/Core-Data-Agent-Skill) — Fatbobman’s Swift Weekly · Issue 121 — Source repository · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-02-02T12:03:11.621Z`
   **NeKI brief:** Provides focused agent guidance for Core Data tasks. Use it to constrain an agent around contexts, threading, migrations, and persistence boundaries before it modifies an existing Core Data stack.
+- [Blink](https://blink.new/) — iOS Dev Tools · iOS Dev Tools: Bullseye, Commander, InAppPurchaseKit — Article · Topics: AI Development · Persistence & Synchronisation
+  **Published:** `2026-01-29T21:12:37.433Z`
+  **NeKI brief:** Blink describes an AI builder for creating and hosting websites or apps from natural-language instructions. Follow it for a concrete product-generation workflow, not for Apple-platform implementation guidance.
+- [CKSyncEngine questions and answers](https://christianselig.com/2026/01/cksyncengine) — SwiftLee Weekly · Issue 306 — Article
+  **Published:** `2026-01-13T15:06:45.000Z`
+  **NeKI brief:** Christian dives into his experience using Apple’s new CKSyncEngine API for CloudKit syncing, answering common questions and sharing practical insights on real-world issues.
+- [The Whole App is a Blob](https://drobinin.com/posts/the-whole-app-is-a-blob) — iOS Dev Weekly · Issue 738 — Article · Topics: Swift
+  **Published:** `9th January 2026`
+  **NeKI brief:** She doesn’t ask the question of whether you can store Swift structs in UserDefaults, but whether you should.
 - [Mobile Engineers, You’re All Full-Stack](https://newsletter.mobileengineer.io/p/mobile-engineers-youre-all-full-stack?r=g891u&triedRedirect=true) — Those Who Swift · Issue 248 — Article · Topics: Code Quality · Networking · Persistence & Synchronisation
   **Published:** `2026-01-08`
   **NeKI brief:** Examines Mobile Engineers, You’re All Full-Stack, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [swift-openapi-generator](https://github.com/apple/swift-openapi-generator) — Fatbobman’s Swift Weekly · Issue 115 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-12-15T12:01:14.054Z`
   **NeKI brief:** Generates type-safe Swift client and server interfaces from OpenAPI descriptions, separating schema-driven transport code from application logic. Use it when a REST contract should drive refactors and reduce manual endpoint decoding.
+- [Finishing the Rich Notes App in SwiftUI](https://www.youtube.com/watch?v=UUvgm9-yltE) — Those Who Swift · Issue 244 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2025-12-11`
+  **NeKI brief:** Reviews Finishing the Rich Notes App in SwiftUI. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [Vectorizing Images With LLMs — Image Search & Semantic Matching](https://robkerr.com/vectorizing-images-with-llms) — Those Who Swift · Issue 243 — Article · Topics: AI Development · Objective-C & Cocoa · Persistence & Synchronisation
+  **Published:** `2025-12-10`
+  **NeKI brief:** Explains vectorizing images with LLMs for semantic search. Useful for designing embedding pipelines, similarity retrieval, and the evaluation needed before using visual search in a product.
 - [ObjectBox](https://github.com/objectbox/objectbox-swift) — iOS Dev Tools · iOS Dev Tools: ObjectBox, RIB, Swon — Source repository · Topics: Developer Tools · Persistence & Synchronisation · Swift
   **Published:** `2025-12-04T17:28:54.311Z`
   **NeKI brief:** ObjectBox provides a typed Swift NoSQL API with relations, automatic schema migrations, cross-platform targets, and resource-conscious queries. Its on-device vector-search support makes the repository relevant when evaluating local persistence for large datasets or embedded AI features.
-- [How SwiftData Represents AttributedString in Core Data Storage](https://medium.com/@djalex566/how-swiftdata-represents-attributedstring-in-core-data-storage-69036a4f166a) — SwiftLee Weekly · Issue 299 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
-  **Published:** `2025-11-25T15:16:48.000Z`
-  **NeKI brief:** Explains How SwiftData Represents AttributedString in Core Data Storage, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [AcceptedSE-0491Module selectors for name disambiguation](https://github.com/apple/swift-evolution/blob/main/proposals/0491-module-selectors.md) — SwiftLee Weekly · Issue 293 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `2025-10-14T14:14:22.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0491Module selectors for name disambiguation. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Performing Search with SwiftData in a SwiftUI app](https://l.fatbobman.com/w0106-04) — Fatbobman’s Swift Weekly · Issue 106 — Article · Topics: Objective-C & Cocoa · Swift · SwiftData
+  **Published:** `2025-10-13T12:03:32.126Z`
+  **NeKI brief:** Demonstrates combining SwiftData queries with SwiftUI’s searchable modifier to implement app search. Follow it when connecting query predicates, search state, and result presentation without duplicating a second in-memory data source.
 - [Swift Server Workgroup](https://www.swift.org/sswg) — iOS Dev Weekly · Issue 728 — Article · Topics: Developer Community & Business · Swift
   **Published:** `26th September 2025`
   **NeKI brief:** The Swift Server Workgroup coordinates ecosystem efforts for server-side Swift. Use it to discover supported libraries and governance context, not as an implementation reference.
+- [incubate](https://www.swift.org/sswg/incubation-process.html) — iOS Dev Weekly · Issue 728 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
+  **Published:** `26th September 2025`
+  **NeKI brief:** Examines Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [recommend](https://www.swift.org/sswg/incubated-packages.html) — iOS Dev Weekly · Issue 728 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
+  **Published:** `26th September 2025`
+  **NeKI brief:** Explains recommend, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [Discussion on SwiftData’s ModelActor](https://l.fatbobman.com/w0100-04) — Fatbobman’s Swift Weekly · Issue 100 — Article · Topics: Concurrency · Swift · SwiftData
+  **Published:** `2025-09-01T12:03:36.183Z`
+  **NeKI brief:** Examines why SwiftData’s ModelActor can feel surprising and where its isolation model complicates persistence design. Follow it when reviewing actor boundaries, model-container ownership, and concurrency assumptions in SwiftData code.
 - [How to Work with SwiftData in the Background in Swift 6](https://www.natashatherobot.com/p/swiftdata-background-swift-6) — Those Who Swift · Issue 228 — Article · Topics: AI Development · Swift · SwiftData
   **Published:** `2025-08-20`
   **NeKI brief:** Explains How to Work with SwiftData in the Background in Swift 6, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -1308,6 +1359,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [discussion thread](https://mjtsai.com/blog/2025/05/15/sqlite-databases-in-app-group-containers-dont) — Fatbobman’s Swift Weekly · Issue 84 — Article · Topics: Persistence & Synchronisation
   **Published:** `2025-05-19T12:00:44.196Z`
   **NeKI brief:** Investigates SQLite databases placed in App Group containers and the cross-process coordination risks involved. Use it when an app and extension share persistence, especially to validate locking, WAL behavior, and migration strategy.
+- [MYCloudKit](https://github.com/mufasaYC/MYCloudKit) — iOS Dev Tools · iOS Dev Tools: MYCloudKit, SwiftUX, Deploy Path — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-05-15T18:46:45.755Z`
+  **NeKI brief:** MYCloudKit provides Swift abstractions around CloudKit data or synchronization. Follow its source for concrete record, container, and sync behavior, then compare its conflict and error model with the application architecture.
 - [SwiftData Predicates For Parent RelationshipsHow do you write SwiftData predicates to query for parent relationships.Use Your Loaf - iOS Development News & Tips](https://useyourloaf.com/blog/swiftdata-predicates-for-parent-relationships?ref=createwithswift.com) — Create with Swift · Issue 60 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2025-05-09T15:30:59.000Z`
   **NeKI brief:** Builds a #Predicate over an optional SwiftData relationship by comparing the parent’s persistentModelID, then extends the pattern to multiple parent IDs. This is useful when CloudKit-compatible optional relationships must still support parameterized child queries.
@@ -1323,18 +1377,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Mastering Data Tracking and Notifications in Core Data and SwiftData](https://itnext.io/mastering-data-tracking-and-notifications-in-core-data-and-swiftdata-a21921ebfa9d?source=rss-b8c3000741------2) — Those Who Swift · Issue 209 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2025-04-09`
   **NeKI brief:** Examines Mastering Data Tracking and Notifications in Core Data and SwiftData, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [Learn B-trees and Database Indexes](https://planetscale.com/blog/btrees-and-database-indexes) — Those Who Swift · Issue 209 — Article · Topics: Persistence & Synchronisation
+  **Published:** `2025-04-09`
+  **NeKI brief:** Explains B-trees and database indexes. Useful for reasoning about lookup complexity, storage layout, and query performance when selecting or diagnosing persistence structures.
 - [Modern URL construction in Swift](https://www.swiftbysundell.com/articles/modern-url-construction-in-swift?ref=createwithswift.com) — Create with Swift · Issue 55 — Article · Topics: Foundation & Data Formats · Swift
   **Published:** `2025-04-04T15:49:40.000Z`
   **NeKI brief:** Builds URLs with modern Foundation components rather than string concatenation. Use it when paths, query items, and percent encoding must remain correct under optional or user-provided values.
 - [Swiftdata Architecture Patterns And PracticesBlog about iOS development and musings on technologyAzamSharpMohammad Azam](https://azamsharp.com/2025/03/28/swiftdata-architecture-patterns-and-practices.html?ref=createwithswift.com) — Create with Swift · Issue 55 — Article · Topics: Architecture · Objective-C & Cocoa · Swift
   **Published:** `2025-04-04T15:49:40.000Z`
-  **NeKI brief:** Explains Swiftdata Architecture Patterns And Practices, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Using a practical example, Mohammad shows how to build scalable SwiftData apps in SwiftUI, covering model structure, business logic, DTOs, testing, previews, CloudKit integration, and strategies to future-proof your architecture.
 - [Swiftdata Architecture Patterns And Practices](https://azamsharp.com/2025/03/28/swiftdata-architecture-patterns-and-practices.html) — SwiftLee Weekly · Issue 265 — Article · Topics: Architecture · Objective-C & Cocoa · Swift
   **Published:** `2025-04-01T14:13:42.000Z`
-  **NeKI brief:** Explains Swiftdata Architecture Patterns And Practices, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Using a practical example, Mohammad shows how to build scalable SwiftData apps in SwiftUI, covering model structure, business logic, DTOs, testing, previews, CloudKit integration, and strategies to future-proof your architecture.
 - [ModelActor is Just Weird](https://www.massicotte.org/model-actor) — Those Who Swift · Issue 207 — Article · Topics: Concurrency · Swift · SwiftData
   **Published:** `2025-03-28`
-  **NeKI brief:** Explains ModelActor is Just Weird, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** In this article, Matt shows his journey in understanding how the ModelActor protocol and how Swift Data deals with concurrency in the system.
 - [Key Considerations Before Using SwiftData](https://fatbobman.com/en/posts/key-considerations-before-using-swiftdata?ref=createwithswift.com) — Create with Swift · Issue 52 — Article · Topics: Concurrency · Swift · SwiftData
   **Published:** `2025-03-14T17:00:20.000Z`
   **NeKI brief:** Evaluates SwiftData's practical limits before adoption. Use it when deciding whether its model, migration, query, or synchronization behavior fits a production persistence requirement.
@@ -1343,10 +1400,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines UserDefaults and Observation in SwiftUI: How to Achieve Precise Responsiveness, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [Filtering SwiftData Models Using Enum](https://azamsharp.com/2025/01/23/filtering-swiftdata-models-using-enum.html?ref=createwithswift.com) — Create with Swift · Issue 46 — Article · Topics: Cross-Platform & Web · Swift · SwiftData
   **Published:** `2025-01-31T16:30:58.000Z`
-  **NeKI brief:** Examines Filtering SwiftData Models Using Enum, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+  **NeKI brief:** Azam explains how to filter SwiftData models using enum values, overcoming query limitations with raw values, while providing code examples and highlighting enums’ benefits.
 - [Filtering SwiftData Models Using Enum](https://azamsharp.com/2025/01/23/filtering-swiftdata-models-using-enum.html) — Those Who Swift · Issue 199 — Article · Topics: Cross-Platform & Web · Swift · SwiftData
   **Published:** `2025-01-30`
-  **NeKI brief:** Examines Filtering SwiftData Models Using Enum, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+  **NeKI brief:** Azam explains how to filter SwiftData models using enum values, overcoming query limitations with raw values, while providing code examples and highlighting enums’ benefits.
 - [Mogenerator](https://github.com/rentzsch/mogenerator) — iOS Dev Tools · iOS Dev Tools: Mogenerator, xcpretty, vscode-swift — Source repository · Topics: Core Data · Developer Tools · Objective-C & Cocoa
   **Published:** `2025-01-23T15:15:36.631Z`
   **NeKI brief:** mogenerator reads a Core Data model and generates separate machine and human subclasses for managed objects. Use it in legacy Core Data projects that need repeatable typed accessors while preserving hand-written behavior across model regeneration.
@@ -1365,27 +1422,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Sharing](https://github.com/pointfreeco/swift-sharing) — Fatbobman’s Swift Weekly · Issue 61 — Source repository · Topics: Composable Architecture · Developer Tools · Swift
   **Published:** `2024-12-09T12:00:43.829Z`
   **NeKI brief:** Sharing provides `@Shared` state with persistence strategies spanning app storage, files, memory, and external stores. Follow it when routing shared SwiftUI/UIKit state while keeping observation and persistence concerns explicit.
+- [CoreStore](https://github.com/JohnEstropia/CoreStore) — iOS Dev Tools · iOS Dev Tools: Compose Multiplatform, CoreStore, SourceKitten — Source repository · Topics: Core Data · Developer Career & Practice · Developer Tools
+  **Published:** `2024-12-05T17:49:51.669Z`
+  **NeKI brief:** CoreStore provides a higher-level Swift interface for Core Data persistence. Follow its source for concrete stack setup, transaction, and object-management abstractions, then compare them with the project’s existing persistence boundaries.
+- [CoreData Studio](https://apps.apple.com/us/app/coredata-studio/id6670322925) — iOS Dev Tools · iOS Dev Tools: CoreData Studio, Swift Crypto, StatusBuddy — Article · Topics: Core Data · Objective-C & Cocoa · Persistence & Synchronisation
+  **Published:** `2024-11-28T18:43:21.075Z`
+  **NeKI brief:** CoreData Studio is a native SQLite viewer, editor, and inspector for Core Data and SwiftData stores. Follow it for a concrete debugging workflow around locating, examining, and modifying local persistence data.
 - [Being Sendable with SwiftData](https://brightdigit.com/tutorials/swiftdata-sendable?issue=057) — Fatbobman’s Swift Weekly · Issue 57 — Tutorial · Topics: Concurrency · Swift · SwiftData
   **Published:** `2024-11-11T12:03:02.180Z`
   **NeKI brief:** Explains Sendable boundaries around SwiftData models and persistence access. Use it when concurrency checking exposes non-Sendable model crossings and you need to decide where actors or value projections belong.
 - [Beware UserDefaults: a tale of hard to find bugs, and lost data](https://christianselig.com/2024/10/beware-userdefaults) — iOS Dev Weekly · Issue 683 — Article · Topics: Persistence & Synchronisation
   **Published:** `18th October 2024`
-  **NeKI brief:** Presents beware userdefaults: a tale of hard to find bugs, and lost data for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Christian discusses unexpected and hard-to-debug issues developers might encounter when using UserDefaults suggesting possible solutions.
+- [this article on a new package](https://christianselig.com/2024/10/introducing-tiny-storage) — iOS Dev Weekly · Issue 683 — Article
+  **Published:** `18th October 2024`
+  **NeKI brief:** Examines Hey I'm a developer not an artist Following my last blog post about difficulties surrounding UserDefaults and edge cases that lead to data loss (give it a read if you haven&rsq. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [@ObservableDefaults](https://github.com/fatbobman/ObservableDefaults) — Fatbobman’s Swift Weekly · Issue 53 — Source repository · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2024-10-14T12:03:14.201Z`
-  **NeKI brief:** ObservableDefaults bridges UserDefaults-backed values into SwiftUI observation. Use it when app settings need reactive updates while retaining UserDefaults persistence and predictable key-level storage.
+  **NeKI brief:** Fatbobman explores the challenges of integrating UserDefaults with the new Observation framework and introduces the ObservableDefaults library, a custom solution that allows properties to react to external changes in real-time while reducing unnecessary view…
 - [Chris Eidhof](https://m.objc.io/@chris) — Fatbobman’s Swift Weekly · Issue 53 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2024-10-14T12:03:14.201Z`
   **NeKI brief:** Presents chris eidhof for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Beware UserDefaults: a tale of hard to find bugs, and lost data](https://christianselig.com/2024/10/beware-userdefaults?ref=createwithswift.com) — Create with Swift · Issue 31 — Article · Topics: Persistence & Synchronisation · Swift
   **Published:** `2024-10-11T15:30:29.000Z`
-  **NeKI brief:** Presents beware userdefaults: a tale of hard to find bugs, and lost data for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Christian discusses unexpected and hard-to-debug issues developers might encounter when using UserDefaults suggesting possible solutions.
 - [UserDefaults and Observation in SwiftUI: How to Achieve Precise Responsiveness](https://fatbobman.com/en/posts/userdefaults-and-observation?ref=createwithswift.com) — Create with Swift · Issue 31 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2024-10-11T15:30:29.000Z`
   **NeKI brief:** Observation does not automatically make UserDefaults changes precise inside SwiftUI. The @ObservableDefaults approach bridges key reads and writes into tracked properties, avoiding broad invalidation while retaining UserDefaults persistence semantics.
 - [ObservableDefaults library](https://github.com/fatbobman/ObservableDefaults?ref=createwithswift.com) — Create with Swift · Issue 31 — Source repository · Topics: Developer Tools · Observation & State Management · Swift
   **Published:** `2024-10-11T15:30:29.000Z`
-  **NeKI brief:** ObservableDefaults bridges UserDefaults-backed values into SwiftUI observation. Use it when app settings need reactive updates while retaining UserDefaults persistence and predictable key-level storage.
+  **NeKI brief:** Fatbobman explores the challenges of integrating UserDefaults with the new Observation framework and introduces the ObservableDefaults library, a custom solution that allows properties to react to external changes in real-time while reducing unnecessary view…
 - [The weirdest Core Data crash I have seen](https://nemecek.be/blog/207/the-weirdest-core-data-crash-i-have-seen) — iOS Dev Weekly · Issue 678 — Article · Topics: Core Data · Persistence & Synchronisation
   **Published:** `13th September 2024`
   **NeKI brief:** Presents the weirdest core data crash i have seen for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -1406,16 +1472,19 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains selective testing as a way to shorten iOS test feedback cycles by choosing affected tests. Use it to discuss CI optimization, validating its heuristics against the project's dependency graph and failure-reporting needs.
 - [Creating Settings Screen in SwiftUI With AppStorage](https://holyswift.app/using-userdefaults-to-persist-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #186 — Article · Topics: Persistence & Synchronisation · Swift · SwiftUI
   **Published:** `2024-05-15T12:55:37.453Z`
-  **NeKI brief:** Shows persisting SwiftUI settings with AppStorage and UserDefaults. Useful for small preferences whose lifetime should survive launches without introducing a database model.
+  **NeKI brief:** Leonardo discusses how to use the AppStorage property wrapper in SwiftUI to create a persistent user settings screen and include best practices for managing data efficiently.
 - [Creating Settings Screen in SwiftUI With AppStorage](https://holyswift.app/using-userdefaults-to-persist-in-swiftui?ref=createwithswift.com) — Create with Swift · Issue 12 — Article · Topics: Persistence & Synchronisation · Swift · SwiftUI
   **Published:** `2024-05-10T15:00:28.000Z`
-  **NeKI brief:** Shows persisting SwiftUI settings with AppStorage and UserDefaults. Useful for small preferences whose lifetime should survive launches without introducing a database model.
+  **NeKI brief:** Leonardo discusses how to use the AppStorage property wrapper in SwiftUI to create a persistent user settings screen and include best practices for managing data efficiently.
 - [The Composable Architecture: My 3 Year Experience](https://rodschmidt.com/posts/composable-architecture-experience?issue=030) — Fatbobman’s Swift Weekly · Issue 30 — Article · Topics: Architecture · Composable Architecture · Objective-C & Cocoa
   **Published:** `2024-05-06T12:01:46.954Z`
   **NeKI brief:** A three-year TCA retrospective surfaces production trade-offs that API introductions omit, including architectural discipline and maintenance cost. Use it to evaluate long-lived team fit rather than reading it as a generic framework endorsement.
 - [Subscribing to SwiftData changes outside SwiftUI](https://www.finnvoorhees.com/words/subscribing-to-swiftdata-changes-outside-swiftui) — iOS Dev Weekly · Issue 659 — Article · Topics: Swift · SwiftData · SwiftUI
   **Published:** `3rd May 2024`
   **NeKI brief:** Presents subscribing to swiftdata changes outside swiftui for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [SwiftData](https://www.youtube.com/playlist?list=PLlc_rDuPW0Y1X55v_cJlTWomSmHd-MS5r) — iOS Dev Weekly · Issue 659 — Video · Topics: Graphics, Media & Games · Swift · SwiftData
+  **Published:** `3rd May 2024`
+  **NeKI brief:** A nine-part series of videos on SwiftData sounds like a lot to chew through, doesn’t it? What if it was from Daniel Steinberg? Now you’re interested? Well, what if I added that they’re each only about 5 minutes long? Did that trigger your clicking finger? 😂…
 - [How to use SwiftData outside SwiftUI](https://jacobbartlett.substack.com/p/swiftdata-outside-swiftui) — iOS Dev Weekly · Issue 658 — Tutorial · Topics: Swift · SwiftData · SwiftUI
   **Published:** `26th April 2024`
   **NeKI brief:** Presents how to use swiftdata outside swiftui for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -1431,6 +1500,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Screen vs View in SwiftUI](https://scottsmithdev.com/screen-vs-view-in-swiftui) — iOS Dev Weekly · Issue 647 — Article · Topics: Core Data · Swift · SwiftUI
   **Published:** `9th February 2024`
   **NeKI brief:** Contrasts screen-level composition with reusable SwiftUI views and gives naming and responsibility boundaries that help keep navigation and presentation code maintainable.
+- [Core Data Lab](https://betamagic.nl/products/coredatalab.html) — iOS Dev Tools · 🔨 Setting, Core Data Lab, MonitorControl — Article · Topics: Core Data · Cross-Platform & Web · Persistence & Synchronisation
+  **Published:** `2024-01-11T16:12:03.171Z`
+  **NeKI brief:** Core Data Lab provides a dedicated interface for inspecting Core Data stores. Follow it for a concrete local-persistence debugging workflow focused on examining application data outside the running app.
+- [SwiftData](https://www.youtube.com/playlist?list=PLBn01m5Vbs4Ck-JEF2nkcFTF_2rhGBMKX) — iOS Dev Weekly · Issue 642 — Video · Topics: Developer Community & Business · Swift · SwiftData
+  **Published:** `5th January 2024`
+  **NeKI brief:** Collects videos around SwiftData in a single playlist. Useful for discovery and grouped learning, while each recording should be checked separately for current API behavior.
 - [How to Play Spatial Video On iOS 17.2](https://xreality.zone/zh/posts/how-to-play-spatial-video-on-ios-17-2) — Fatbobman’s Swift Weekly · Issue 12 — Tutorial · Topics: Developer Community & Business · Graphics, Media & Games · Swift
   **Published:** `2023-12-25T22:00:09.856Z`
   **NeKI brief:** Demonstrates playing spatial video on iOS 17.2 and discusses the media and device prerequisites involved. Use it to investigate immersive-video playback paths while verifying format support and availability against current Apple APIs.
@@ -1461,18 +1536,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftData by Example](https://twostraws.gumroad.com/l/swiftdata-by-example) — iOS Dev Weekly · Issue 630 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `6th October 2023`
   **NeKI brief:** Presents swiftdata by example for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [online version that you can read for free](https://www.hackingwithswift.com/quick-start/swiftdata) — iOS Dev Weekly · Issue 630 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
+  **Published:** `6th October 2023`
+  **NeKI brief:** Available as a PDF download or an online version that you can read for free, I’m confident Paul Hudson’s is the most comprehensive look at Apple’s new persistence framework there is. Incredibly, he published this book (effectively) simultaneously with the…
 - [@Model for CoreData](https://www.alwaysrightinstitute.com/managedmodels) — iOS Dev Weekly · Issue 629 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `29th September 2023`
   **NeKI brief:** Presents @model for coredata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Core Data Lab and SwiftData](https://betamagic.nl/news/2023/2023_03.html) — iOS Dev Weekly · Issue 628 — Article · Topics: Core Data · Cross-Platform & Web · Persistence & Synchronisation
+  **Published:** `22nd September 2023`
+  **NeKI brief:** I’ve written about Core Data Lab before, and it remains an excellent companion app with enough features specific to Core Data to make it worthwhile over a “regular” Core Data client, so I was excited to read that there’s a beta available for a new release…
 - [Unlocking Advanced Core Data Features in SwiftData](https://itnext.io/swiftdatakit-unleashing-advanced-core-data-features-in-swiftdata-3fcd5f443c99) — iOS Dev Weekly · Issue 626 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `8th September 2023`
   **NeKI brief:** Presents unlocking advanced core data features in swiftdata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [Premature Optimization: Universally Misunderstood](https://milen.me/writings/premature-optimization-universally-misunderstood?ref=ioscodereview.com) — iOS Code Review · Issue 54 — Article · Topics: Architecture · Code Quality · Objective-C & Cocoa
   **Published:** `2023-08-31T14:20:05.000Z`
   **NeKI brief:** Examines Premature Optimization: Universally Misunderstood in the context of Architecture and Code Quality. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Pietro Rea’s recent article](https://pietrorea.com/2023/07/21/will-swiftdata-fix-core-datas-marketing-problem) — iOS Dev Weekly · Issue 621 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
+  **Published:** `4th August 2023`
+  **NeKI brief:** Examines Will SwiftData fix Core Data’s marketing problem? | Pietro Rea. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [How to Easily Persist Data in SwiftUI](https://www.youtube.com/watch?v=CcUgRDLcUmQ) — iOS Dev Weekly · Issue 621 — Video · Topics: Graphics, Media & Games · Persistence & Synchronisation · Swift
+  **Published:** `4th August 2023`
+  **NeKI brief:** Talking of SwiftData, how about a guide through the basics from Karin Prater? She builds the ultimate example app when you want to play with a persistence framework, a to-do list app!
 - [The Ultimate Guide to Building SwiftData Applications](https://azamsharp.com/2023/07/04/the-ultimate-swift-data-guide.html) — SwiftUI Weekly · SwiftUI Weekly - Issue #151 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2023-07-17T21:13:35.306Z`
   **NeKI brief:** Provides a broad SwiftData walkthrough covering model declaration, persistence, and cloud-sync-oriented concepts introduced at WWDC 2023. Useful for mapping Core Data requirements to SwiftData before committing to a migration or new model layer.
+- [Driving Users to Sign Into the Community Database](https://ryanashcraft.com/driving-users-to-sign-into-the-community-database) — iOS Dev Weekly · Issue 618 — Article · Topics: Developer Community & Business · Persistence & Synchronisation
+  **Published:** `14th July 2023`
+  **NeKI brief:** Examines A retrospective on a relatively minor design change that actually made a significant difference on some key product metrics. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [SwiftData Suprises](https://jsorge.net/2023/06/30/swiftdata-surprises) — iOS Dev Weekly · Issue 617 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `7th July 2023`
   **NeKI brief:** Explores SwiftData Suprises, focusing on understanding new frameworks is always important, but understanding new data storage frameworks is especially important!. Follow it to assess the approach, its trade-offs, and where it fits in a current Swift or Apple-platform project.
@@ -1485,6 +1575,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [GitHub Dependency Graph, Dependabot Alerts, and Advisory Database now support Swift advisories](https://github.blog/changelog/2023-06-19-dependency-graph-dependabot-alerts-and-advisory-database-now-support-swift-advisories) — iOS Dev Weekly · Issue 615 — Article · Topics: Developer Tools · Persistence & Synchronisation · Swift
   **Published:** `23rd June 2023`
   **NeKI brief:** Explores GitHub Dependency Graph, Dependabot Alerts, and Advisory Database now support Swift advisories, focusing on if you have worked with other languages, you’ve likely come. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Canopy for CloudKit](https://blog.justtact.com/canopy) — iOS Dev Weekly · Issue 605 — Article · Topics: Testing
+  **Published:** `14th April 2023`
+  **NeKI brief:** The article introduces Canopy for CloudKit and explains how the tool supports development with Apple's CloudKit services.
 - [What I Learned Writing My Own CloudKit Syncing Library](https://ryanashcraft.com/what-i-learned-writing-my-own-cloudkit-sync-library) — iOS Dev Weekly · Issue 605 — Article · Topics: Core Data · Persistence & Synchronisation
   **Published:** `14th April 2023`
   **NeKI brief:** Shares lessons from building an open-source CloudKit synchronization library, including the practical complexity hidden behind sync-enabled apps. Follow it when comparing a custom sync layer with direct CloudKit use and identifying the design decisions the abstraction must own.
@@ -1494,6 +1587,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Advanced Data Protection and CloudKit](https://blog.justtact.com/advanced-data-protection) — iOS Dev Weekly · Issue 593 — Article
   **Published:** `20th January 2023`
   **NeKI brief:** Explores Advanced Data Protection and CloudKit, focusing on when apple introduced advanced data protection at the end of. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Introducing MarkCodable](https://trycombine.com/posts/introducing-markcodable) — iOS Dev Weekly · Issue 575 — Article · Topics: Combine & Reactive Programming · Foundation & Data Formats · Persistence & Synchronisation
+  **Published:** `9th September 2022`
+  **NeKI brief:** Introduces MarkCodable as a Markdown-backed alternative for Codable data, aimed at small tools where files should remain easy to inspect, parse, and edit by hand. Useful when JSON readability is part of the workflow.
 - [The Lighter Swift Codegen for SQLite3](https://www.alwaysrightinstitute.com//lighter) — iOS Dev Weekly · Issue 572 — Article · Topics: Developer Tools · Persistence & Synchronisation · Swift
   **Published:** `19th August 2022`
   **NeKI brief:** Explores The Lighter Swift Codegen for SQLite3, focusing on there’s a lot going on in this post from helge. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -1536,6 +1632,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How to Set Up Core Data and CloudKit When You Haven’t the Faintest Clue What You’re Doing](https://beckyhansmeyer.com/2021/03/30/how-to-set-up-core-data-cloudkit-and-swiftui-when-you-havent-the-faintest-clue-what-youre-doing) — iOS Dev Weekly · Issue 501 — Article · Topics: Core Data · Persistence & Synchronisation · Testing
   **Published:** `2nd April 2021`
   **NeKI brief:** Explores How to Set Up Core Data and CloudKit When You Haven’t the Faintest Clue What You’re Doing, focusing on what a candid blog post title from. Follow it to assess trade-offs before applying it in a current Swift or Apple-platform project.
+- [A better approach to writing a UserDefaults Property Wrapper](https://www.jessesquires.com/blog/2021/03/26/a-better-approach-to-writing-a-userdefaults-property-wrapper) — iOS Dev Weekly · Issue 501 — Article · Topics: Persistence & Synchronisation
+  **Published:** `2nd April 2021`
+  **NeKI brief:** Do we need another user defaults library? Maybe! I liked how Jesse Squires approached thinking about whether we needed something new before creating his Foil library.
 - [Quick guide to using Core Data with SwiftUI](https://tanaschita.com/20210320-using-core-data-with-swiftui) — iOS Dev Weekly · Issue 500 — Article · Topics: Persistence & Synchronisation · Swift · SwiftUI
   **Published:** `26th March 2021`
   **NeKI brief:** Examines Quick guide to using Core Data with SwiftUI, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
@@ -1554,6 +1653,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Propagating user-facing errors in Swift](https://swiftbysundell.com/articles/propagating-user-facing-errors-in-swift) — iOS Dev Weekly · Issue 456 — Tutorial · Topics: Core Data · Developer Community & Business · Swift
   **Published:** `15th May 2020`
   **NeKI brief:** Examines Propagating user-facing errors in Swift, offering practical guidance on Swift engineering practice. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [SecurePropertyStorage](https://github.com/alexruperez/PropertyWrappers) — iOS Dev Weekly · Issue 450 — Source repository · Topics: Developer Tools · Persistence & Synchronisation · Security & Privacy
+  **Published:** `3rd April 2020`
+  **NeKI brief:** Discusses SecurePropertyStorage, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
 - [Using CoreData with SwiftUI](https://augmentedcode.io/2020/01/19/using-coredata-with-swiftui) — iOS Dev Weekly · Issue 441 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `31st January 2020`
   **NeKI brief:** Walks through connecting Core Data fetches and managed-object context to SwiftUI views. Use it to inspect ownership and update-flow choices, then adapt the pattern to the app’s concurrency and persistence model.
@@ -1563,6 +1665,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Five tips and tricks for CloudKit Sharing](https://contagious.dev/blog/cloudkit-sharing-five-tips-and-tricks) — iOS Dev Weekly · Issue 427 — Article · Topics: Persistence & Synchronisation
   **Published:** `25th October 2019`
   **NeKI brief:** Examines Five tips and tricks for CloudKit Sharing, offering practical guidance on data modeling and persistence trade-offs. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [Dan Griffin](https://contagious.dev/dan-griffin) — iOS Dev Weekly · Issue 427 — Article
+  **Published:** `25th October 2019`
+  **NeKI brief:** Examines Hello! I'm Dan Griffin, a creative in St. Louis, Missouri. I work in Wordpress, iOS, and Mac development while also dabbling in Branding and Graphic Design. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [LLVS project](https://github.com/mentalfaculty/LLVS) — iOS Dev Weekly · Issue 424 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Persistence & Synchronisation
   **Published:** `4th October 2019`
   **NeKI brief:** Examines LLVS project, focusing on one topic that has been talked about consistently since wwdc is how core data (or any data persistence framework) will be…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -1572,15 +1677,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Getting Started With NSPersistentCloudKitContainer](https://www.andrewcbancroft.com/blog/ios-development/data-persistence/getting-started-with-nspersistentcloudkitcontainer) — iOS Dev Weekly · Issue 416 — Article · Topics: Core Data · Persistence & Synchronisation · Personal Essays
   **Published:** `9th August 2019`
   **NeKI brief:** Examines Getting Started With NSPersistentCloudKitContainer, offering practical guidance on data modeling and persistence trade-offs. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [So They’ve Signed in with Apple, Now What?](https://blog.curtisherbert.com/so-theyve-signed-in-with-apple-now-what) — iOS Dev Weekly · Issue 413 — Article · Topics: Persistence & Synchronisation · Security & Privacy
+  **Published:** `19th July 2019`
+  **NeKI brief:** Here’s Curtis Herbert with his experience transitioning Slopes from a basic login system where the username/password is stored in the keychain, to taking advantage of Sign in with Apple. It ended up triggering some changes in the app, and made a good story…
 - [announcement of v4 this week](https://forums.swift.org/t/new-release-grdb-4-0-0/24798) — iOS Dev Weekly · Issue 405 — Article · Topics: Persistence & Synchronisation · Swift
   **Published:** `24th May 2019`
   **NeKI brief:** Examines announcement of v4 this week, focusing on the author’s note that hadn’t come across gwendal roué’s sqlite wrapper for swift until i saw the announcement of v4 this week. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [well documented](https://github.com/groue/GRDB.swift/blob/master/README.md) — iOS Dev Weekly · Issue 405 — Source repository · Topics: Developer Tools · Persistence & Synchronisation · Swift
   **Published:** `24th May 2019`
   **NeKI brief:** Examines well documented, focusing on the author’s note that hadn’t come across gwendal roué’s sqlite wrapper for swift until i saw the announcement of v4 this week. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [NSUserDefaults In Practice](http://dscoder.com/defaults.html) — iOS Dev Weekly · Issue 400 — Article · Topics: Cross-Platform & Web
+  **Published:** `19th April 2019`
+  **NeKI brief:** Examines NSUserDefaults In Practice. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [check out](https://github.com/wibosco/CoreDataMigrationRevised-Example) — iOS Dev Weekly · Issue 390 — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **Published:** `8th February 2019`
   **NeKI brief:** Examines check out, focusing on comprehensive and well written look at the migration process for core data by william boles. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Implement Push Notification easily using CloudKit](https://fluffy.es/push-notification-cloudkit) — iOS Dev Weekly · Issue 372 — Article · Topics: App Services & Extensions · Persistence & Synchronisation
+  **Published:** `5th October 2018`
+  **NeKI brief:** Presents Implement Push Notification easily using CloudKit, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [The Case for CloudKit](https://www.andrewcbancroft.com/2018/08/06/case-for-cloudkit) — iOS Dev Weekly · Issue 364 — Article · Topics: Persistence & Synchronisation
+  **Published:** `10th August 2018`
+  **NeKI brief:** Examines When it comes to remote backend services for mobile apps, you have options. What is the case for CloudKit?. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [The Laws of Core Data](http://davedelong.com/blog/2018/05/09/the-laws-of-core-data) — iOS Dev Weekly · Issue 351 — Article · Topics: Core Data · Objective-C & Cocoa · Persistence & Synchronisation
   **Published:** `11th May 2018`
   **NeKI brief:** Core Data laws frame managed objects as context-bound lifecycles rather than ordinary models, clarifying why thread confinement and save ordering are correctness constraints.
@@ -1590,6 +1707,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Dealing with Dates](http://martiancraft.com/blog/2018/05/dealing-with-dates) — iOS Dev Weekly · Issue 351 — Article · Topics: Core Data · Persistence & Synchronisation
   **Published:** `11th May 2018`
   **NeKI brief:** Date bugs arise when an instant, calendar date, locale, and time zone are conflated. The guide uses Foundation's calendar and formatter APIs to make those boundaries explicit, a useful diagnostic checklist for scheduling and display failures.
+- [CloudKitGDPR](https://github.com/arturgrigor/CloudKitGDPR) — iOS Dev Weekly · Issue 350 — Source repository · Topics: Developer Tools
+  **Published:** `4th May 2018`
+  **NeKI brief:** The GitHub repository contains CloudKitGDPR, a project addressing GDPR-related data handling with CloudKit.
 - [IceCream](https://github.com/caiyue1993/IceCream) — iOS Dev Weekly · Issue 329 — Source repository · Topics: Developer Tools · Persistence & Synchronisation
   **Published:** `1st December 2017`
   **NeKI brief:** Examines IceCream, focusing on if you’ve been holding off on syncing your realm database with cloudkit thinking it requires a lot of work, well you’re…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -1599,9 +1719,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Better NSUserDefaults with Swift](http://www.xs-labs.com/en/blog/2017/10/08/better-nsuserdefaults-with-swift) — iOS Dev Weekly · Issue 322 — Article · Topics: Persistence & Synchronisation · Swift
   **Published:** `13th October 2017`
   **NeKI brief:** Explores Better NSUserDefaults with Swift in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [Firebase](https://firebase.google.com/products/realtime-database) — iOS Dev Weekly · Issue 321 — Tutorial · Topics: Developer Community & Business · Persistence & Synchronisation
+  **Published:** `6th October 2017`
+  **NeKI brief:** Examines Data is synced across all clients in realtime, and remains available when your app goes offline. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [DefaultsKit](https://github.com/nmdias/DefaultsKit) — iOS Dev Weekly · Issue 315 — Source repository · Topics: Developer Tools
+  **Published:** `25th August 2017`
+  **NeKI brief:** Examines Simple, Strongly Typed UserDefaults for iOS, macOS and tvOS - nmdias/DefaultsKit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [PersistentStorageSerializable](https://github.com/IvanRublev/PersistentStorageSerializable) — iOS Dev Weekly · Issue 296 — Source repository · Topics: Developer Tools · Swift
   **Published:** `14th April 2017`
   **NeKI brief:** Examines PersistentStorageSerializable, focusing on ivan rublev with a swift library that makes it easy to automatically serialize user preferences with userdefaults or a plist. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [simMagnifier](http://microedition.biz/simMagnifier/index.html) — iOS Dev Weekly · Issue 283 — Article · Topics: Core Data · Cross-Platform & Web · Persistence & Synchronisation
+  **Published:** `13th January 2017`
+  **NeKI brief:** Examines Easily access your latest run apps on iOS Simulators. Explore folders, edit Core Data content, and much more!. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Stop Making Me Sign Up!](https://medium.freecodecamp.com/stop-making-me-sign-up-9dc9e1ffac4e) — iOS Dev Weekly · Issue 276 — Article
+  **Published:** `11th November 2016`
+  **NeKI brief:** Examines By Conor Sheehan Installing a new app can be exciting. When you’ve found one that may be just what you need, opening it is like unboxing a new toy. So why do so many apps insist on. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [mogenerator and Swift 3](http://rentzsch.tumblr.com/post/151300114355/mogenerator-131) — iOS Dev Weekly · Issue 271 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `7th October 2016`
   **NeKI brief:** Explores mogenerator and Swift 3 in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
@@ -1611,9 +1743,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using a Core Data Model in Swift Playgrounds](https://www.andrewcbancroft.com/2016/07/10/using-a-core-data-model-in-swift-playgrounds) — iOS Dev Weekly · Issue 259 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `15th July 2016`
   **NeKI brief:** Explores Using a Core Data Model in Swift Playgrounds in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [The Deprecation of iCloud Core Data](http://mjtsai.com/blog/2016/06/17/the-deprecation-of-icloud-core-data) — iOS Dev Weekly · Issue 257 — Article · Topics: Apple Platform Ecosystem · Core Data · Persistence & Synchronisation
+  **Published:** `1st July 2016`
+  **NeKI brief:** Explains the deprecation of iCloud Core Data and its implications for persistence architecture. Follow it for concrete migration and synchronization context, while verifying current Apple-supported alternatives.
 - [New Swift, Core Data and Cocoa Books](http://useyourloaf.com/blog/new-swift-core-data-and-cocoa-books) — iOS Dev Weekly · Issue 251 — Article · Topics: Core Data · Objective-C & Cocoa · Swift
   **Published:** `20th May 2016`
   **NeKI brief:** Collects book recommendations around Swift, Core Data, and Cocoa as a learning route. Treat editions as historical context and cross-check API guidance against current Apple documentation.
+- [CloudKit Security model](http://blog.krzyzanowskim.com/2016/03/08/cloudkit-security) — iOS Dev Weekly · Issue 241 — Article · Topics: Objective-C & Cocoa · Persistence & Synchronisation · Security & Privacy
+  **Published:** `11th March 2016`
+  **NeKI brief:** This article examines CloudKit’s security model and the boundaries around shared application data. Follow it for concrete protection and trust considerations, while verifying current CloudKit APIs and entitlement behavior.
+- [AgileCloudKit: iCloud Sync Gets Its Wings](https://blog.agilebits.com/2016/01/12/agilecloudkit-icloud-sync-gets-its-wings) — iOS Dev Weekly · Issue 233 — Article · Topics: Persistence & Synchronisation
+  **Published:** `15th January 2016`
+  **NeKI brief:** Examines Up until recently, iCloud sync in Mac apps has always been dependent on the app being available in the MAS. This is a pain for developers, and potentially confusing for users if you sell both a MAS and a non-MAS version Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Xcode Swift Snippets](https://github.com/Abizern/xcode-snippets) — iOS Dev Weekly · Issue 220 — Source repository · Topics: Core Data · Developer Tools · Xcode
   **Published:** `16th October 2015`
   **NeKI brief:** Provides the Xcode Swift Snippets source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -1626,12 +1767,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Cache Me If You Can](http://khanlou.com/2015/07/cache-me-if-you-can) — iOS Dev Weekly · Issue 208 — Article · Topics: Core Data · Persistence & Synchronisation
   **Published:** `24th July 2015`
   **NeKI brief:** Explains Cache Me If You Can with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [Valet](https://github.com/square/Valet) — iOS Dev Weekly · Issue 204 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Persistence & Synchronisation
+  **Published:** `26th June 2015`
+  **NeKI brief:** I’m really surprised that by iOS 9 we still don’t have a higher level API to Keychain. I actually had this saved just before WWDC but I postponed it, just in case it finally happened… Anyway, it didn’t so here you go. Yes, there are loads of these already…
 - [Sync](https://github.com/hyperoslo/Sync) — iOS Dev Weekly · Issue 193 — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **Published:** `10th April 2015`
   **NeKI brief:** Provides the Sync source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [My Core Data Stack](http://martiancraft.com/blog/2015/03/core-data-stack) — iOS Dev Weekly · Issue 192 — Article · Topics: Core Data · Persistence & Synchronisation · Xcode
   **Published:** `3rd April 2015`
   **NeKI brief:** A production-oriented Core Data stack walkthrough covering setup, contexts, and persistence boundaries. Use it to compare lifecycle and concurrency choices before adopting a shared storage layer.
+- [An update on Explicit Ratings](http://blog.supertop.co/post/109616310332) — iOS Dev Weekly · Issue 184 — Article
+  **Published:** `6th February 2015`
+  **NeKI brief:** Padraig Kennedy follows up on his previous post about third party app access to parental settings. The great news is there actually is access through NSUserDefaults. Would be nice to have this documented as many third party apps that play content could…
+- [previous post](http://blog.supertop.co/post/109562707757/does-it-matter-that-castro-doesnt-show-explicit) — iOS Dev Weekly · Issue 184 — Article
+  **Published:** `6th February 2015`
+  **NeKI brief:** This post discusses whether Castro’s podcast app should show explicit content. Follow it for a concrete product-policy and user-experience decision, rather than as implementation guidance.
 - [Swifty APIs: NSUserDefaults](http://radex.io/swift/nsuserdefaults) — iOS Dev Weekly · Issue 182 — Article · Topics: Persistence & Synchronisation · Swift
   **Published:** `23rd January 2015`
   **NeKI brief:** Explains Swifty APIs NSUserDefaults with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
@@ -1701,6 +1851,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iCloud and That Sinking Feeling](http://nicemohawk.com/blog/2013/02/icloud-and-that-sinking-feeling) — iOS Dev Weekly · Issue 83 — Article · Topics: Core Data · Persistence & Synchronisation
   **Published:** `1st March 2013`
   **NeKI brief:** Explains iCloud and That Sinking Feeling with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [HTAutocompleteTextField](https://github.com/hoteltonight/HTAutocompleteTextField) — iOS Dev Weekly · Issue 79 — Source repository · Topics: Developer Tools · Persistence & Synchronisation
+  **Published:** `1st February 2013`
+  **NeKI brief:** The GitHub repository contains HTAutocompleteTextField, a UIKit text-field component that provides autocomplete behavior for iOS.
 - [GVUserDefaults](https://github.com/gangverk/GVUserDefaults) — iOS Dev Weekly · Issue 73 — Source repository · Topics: Developer Tools
   **Published:** `21st December 2012`
   **NeKI brief:** Provides the GVUserDefaults source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -1713,6 +1866,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Debugging Core Data Objects](http://furbo.org/2012/06/28/debugging-core-data-objects) — iOS Dev Weekly · Issue 48 — Article · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **Published:** `29th June 2012`
   **NeKI brief:** Explains Debugging Core Data Objects with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [SQLite4](http://www.sqlite.org/src4/doc/trunk/www/design.wiki) — iOS Dev Weekly · Issue 48 — Article · Topics: Persistence & Synchronisation
+  **Published:** `29th June 2012`
+  **NeKI brief:** No idea of when (or even if) this will be included with iOS but I thought this was interesting news from the SQLite world.
 - [Unit Testing with Core Data](http://www.cimgf.com/2012/05/15/unit-testing-with-core-data) — iOS Dev Weekly · Issue 42 — Article · Topics: Core Data · Persistence & Synchronisation · Testing
   **Published:** `18th May 2012`
   **NeKI brief:** Explains Unit Testing with Core Data with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.

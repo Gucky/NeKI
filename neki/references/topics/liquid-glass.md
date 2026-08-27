@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Liquid Glass design, hierarchy, scrolling, and component adaptation on current Apple platforms.
 
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed links shown: **69**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **91**
 
 ## Direct-source reading
 
@@ -108,25 +108,28 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
 - [iOS 27 SDK: 3 Major Requirements That Might Break Your App](https://blog.makwanbk.com/ios-27-sdk-3-major-requirements-that-migh-break-your-app) — Those Who Swift · Issue 276 — Article · Topics: Liquid Glass
   **Published:** `2026-07-22T20:01:13.378Z`
-  **NeKI brief:** Summarizes three iOS 27 SDK requirements that may surface during an upgrade. Use it as a migration checklist for build and runtime audits, then verify each requirement against Apple's release documentation.
+  **NeKI brief:** Makwan highlights three iOS 27 SDK requirements that could break older apps or block App Store submission: UIScene support, the new launch screen requirement, and the end of the Liquid Glass compatibility opt-out.
+- [5 biggest Liquid Glass changes in iOS 27 and macOS 27](https://www.cultofmac.com/news/liquid-glass-changes-ios-27-macos-27) — Those Who Swift · Issue 275 — Article · Topics: Liquid Glass · macOS & AppKit
+  **Published:** `2026-07-15`
+  **NeKI brief:** Summarizes major Liquid Glass changes in iOS 27 and macOS 27. Useful for high-level UI migration awareness before checking exact behavior in Apple documentation and SDKs.
 - [Liquid Glass can be gradually rolled out](https://www.scottberrevoets.com/til/liquid-glass-can-be-gradually-rolled-out) — SwiftLee Weekly · Issue 322 — Article · Topics: Liquid Glass
   **Published:** `2026-07-14T14:06:22.000Z`
   **NeKI brief:** Shows how Liquid Glass adoption can be staged instead of switching an entire interface at once. Use it when planning incremental visual migrations, with separate review of fallback behavior and platform availability.
 - [Rotating Liquid Glass in SwiftUI without breaking the shape](https://livsycode.com/swiftui/liquid-glass-rotating) — SwiftLee Weekly · Issue 331 — Article · Topics: Liquid Glass · Swift · SwiftUI
   **Published:** `2026-07-07T14:05:55.000Z`
-  **NeKI brief:** Demonstrates rotating Liquid Glass content while preserving the effect's shape and visual continuity. Use it when animated controls or cards distort during transforms and you need a compositing-aware SwiftUI implementation.
+  **NeKI brief:** Artem explains how modifier order affects rotated Liquid Glass views in SwiftUI, and why applying rotation after the glass effect can break the intended shape instead of rotating the effect cleanly with the content.
 - [iOS 27 SDK: 3 Major Requirements That Might Break Your App](https://blog.makwanbk.com/ios-27-sdk-3-major-requirements-that-migh-break-your-app?ref=createwithswift.com) — Create with Swift · Issue 114 — Article · Topics: App Distribution & Store Operations · Liquid Glass · Swift
   **Published:** `2026-07-04T15:00:32.000Z`
-  **NeKI brief:** Summarizes three iOS 27 SDK requirements that may surface during an upgrade. Use it as a migration checklist for build and runtime audits, then verify each requirement against Apple's release documentation.
+  **NeKI brief:** Makwan highlights three iOS 27 SDK requirements that could break older apps or block App Store submission: UIScene support, the new launch screen requirement, and the end of the Liquid Glass compatibility opt-out.
 - [Rotating Liquid Glass in SwiftUI without breaking the shape](https://livsycode.com/swiftui/liquid-glass-rotating?ref=createwithswift.com) — Create with Swift · Issue 114 — Article · Topics: Liquid Glass · Swift · SwiftUI
   **Published:** `2026-07-04T15:00:32.000Z`
-  **NeKI brief:** Demonstrates rotating Liquid Glass content while preserving the effect's shape and visual continuity. Use it when animated controls or cards distort during transforms and you need a compositing-aware SwiftUI implementation.
+  **NeKI brief:** Artem explains how modifier order affects rotated Liquid Glass views in SwiftUI, and why applying rotation after the glass effect can break the intended shape instead of rotating the effect cleanly with the content.
 - [_UIPortalView: From Live Mirroring to Liquid Glass-Style Effects](https://livsycode.com/uikit/exploring-_uiportalview-live-view-replication-without-copying-or-snapshots?ref=createwithswift.com) — Create with Swift · Issue 113 — Article · Topics: Graphics, Media & Games · Liquid Glass · UIKit
   **Published:** `2026-06-27T18:12:28.000Z`
-  **NeKI brief:** Explores UIKit's UIPortalView for live view replication without copying or taking snapshots. Follow it when evaluating mirrored or glass-like effects and when deciding how rendering, hierarchy, interaction, and performance constraints affect the design.
+  **NeKI brief:** Artem dives deep on how the private UIKit _UIPortalView mirrors live view content without duplicating view hierarchies or taking snapshots, using it as a window into how UIKit, Core Animation, and Liquid Glass-style effects compose live UI at the rendering…
 - [_UIPortalView: From Live Mirroring to Liquid Glass-Style Effects](https://livsycode.com/uikit/exploring-_uiportalview-live-view-replication-without-copying-or-snapshots) — iOS Dev Weekly · Issue 756 — Article · Topics: Liquid Glass · UIKit
   **Published:** `26th June 2026`
-  **NeKI brief:** Explores UIKit's UIPortalView for live view replication without copying or taking snapshots. Follow it when evaluating mirrored or glass-like effects and when deciding how rendering, hierarchy, interaction, and performance constraints affect the design.
+  **NeKI brief:** Artem dives deep on how the private UIKit _UIPortalView mirrors live view content without duplicating view hierarchies or taking snapshots, using it as a window into how UIKit, Core Animation, and Liquid Glass-style effects compose live UI at the rendering…
 - [Liquid Glass In SwiftUI: How To Modernize An iOS App Template](https://iosapptemplates.com/blog/liquid-glass-swiftui-app-template-modernization) — Those Who Swift · Issue 272 — Article · Topics: Liquid Glass · Swift · SwiftUI
   **Published:** `2026-06-24`
   **NeKI brief:** Walks through modernizing a SwiftUI template with Liquid Glass styling. Use it to identify migration touchpoints in an existing UI, then validate visual hierarchy, accessibility, and API availability rather than applying the template wholesale.
@@ -142,9 +145,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Expanding Animations in SwiftUI Lists](https://nerdyak.tech/development/2026/03/16/expand-animation-in-SwiftUI-List.html) — SwiftUI Weekly · SwiftUI Weekly - Issue #231 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `2026-04-06T15:12:39.552Z`
   **NeKI brief:** Diagnoses janky expand and collapse animations inside SwiftUI List and documents the identity and transaction choices that improve them. Useful when animating variable-height rows without breaking list diffing or scroll performance.
-- [Morphing Sheets Out of Buttons in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/morphing-sheets-out-of-buttons-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #229 — Tutorial · Topics: Apple Platform Ecosystem · Swift · SwiftUI
-  **Published:** `2026-02-16T14:07:46.823Z`
-  **NeKI brief:** Demonstrates morphing a SwiftUI button into sheet content using matched visual state and presentation transitions. Useful for building expressive modal affordances while keeping trigger state, accessibility, and dismissal behavior explicit.
 - [Introducing FabBar: The Liquid Glass Tab Bar I Wish Apple Made](https://ryanashcraft.com/introducing-fabbar) — SwiftUI Weekly · SwiftUI Weekly - Issue #227 — Article · Topics: Liquid Glass · Swift · SwiftUI
   **Published:** `2026-02-02T11:12:03.900Z`
   **NeKI brief:** Introduces FabBar, a custom Liquid Glass tab-bar implementation with prominent actions and visual effects. Useful for studying custom navigation chrome, while weighing platform conventions, accessibility, and maintenance against system TabView behavior.
@@ -157,36 +157,95 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [demo projects](https://github.com/zhangqifan/Insights) — Fatbobman’s Swift Weekly · Issue 111 — Source repository · Topics: App Distribution & Store Operations · Architecture · Liquid Glass
   **Published:** `2025-11-17T12:02:46.781Z`
   **NeKI brief:** Insights contains demo projects for applying Liquid Glass design to a production health app. Use it to inspect concrete adaptations of translucent materials, hierarchy, and interaction rather than treating WWDC design guidance as abstract theory.
+- [iOS26, SwiftUI and Accessibility](https://www.youtube.com/watch?v=CEZbwcv60MA&t=5s) — Those Who Swift · Issue 239 — Video · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `2025-11-05`
+  **NeKI brief:** Reviews iOS26, SwiftUI and Accessibility. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [video that demonstrates it](https://youtu.be/jYhRXZwO0cc) — iOS Dev Weekly · Issue 732 — Video · Topics: Graphics, Media & Games · Liquid Glass
   **Published:** `24th October 2025`
   **NeKI brief:** Examines the iOS 26.1 beta Liquid Glass Tinted setting, comparing its increased opacity, contrast, and readability with the default appearance in light and dark modes. Treat the demonstrated behavior as prerelease SDK context.
-- [Transforming Glass Views with glassEffectID in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/transforming-glass-views-with-the-glasseffectid-modifier-in-swiftui) — Those Who Swift · Issue 237 — Tutorial · Topics: Liquid Glass · Swift · SwiftUI
-  **Published:** `2025-10-22`
-  **NeKI brief:** Presents Transforming Glass Views with the glassEffectID in SwiftUI, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [Liquid Glass or … something else?](https://mastodon.design/@rafa/115406890660401171) — iOS Dev Weekly · Issue 732 — Article · Topics: Liquid Glass
+  **Published:** `24th October 2025`
+  **NeKI brief:** Talking of Liquid Glass, Rafael Conde posted some fascinating details about the process of adapting Sketch to macOS Tahoe. Does that mean adopting Liquid Glass? Well, kinda. It’s a really good set of posts, I just wish it were a blog post, as I find threads…
+- [Rafael Conde](https://mastodon.design/@rafa) — iOS Dev Weekly · Issue 732 — Article · Topics: Liquid Glass
+  **Published:** `24th October 2025`
+  **NeKI brief:** The public Mastodon profile identifies Rafael Conde and exposes the author's profile and published posts without authentication.
+- [what happened to Apple’s legendary attention to detail?](https://blog.johnozbay.com/what-happened-to-apples-attention-to-detail.html) — iOS Dev Weekly · Issue 731 — Article · Topics: Cross-Platform & Web · Liquid Glass
+  **Published:** `17th October 2025`
+  **NeKI brief:** The page covers “what happened to Apple’s legendary attention to detail?” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [whether prioritising content over tools is the correct decision](https://tidbits.com/2025/10/06/apples-liquid-glass-design-prioritizes-content-over-tools) — iOS Dev Weekly · Issue 731 — Article · Topics: Liquid Glass
+  **Published:** `17th October 2025`
+  **NeKI brief:** Discusses whether prioritising content over tools is the correct decision, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
+- [great round-up of Liquid Glass comments from social media](https://mjtsai.com/blog/2025/10/16/shipping-liquid-glass) — iOS Dev Weekly · Issue 731 — Article · Topics: Liquid Glass
+  **Published:** `17th October 2025`
+  **NeKI brief:** The article rounds up social-media commentary about shipping Liquid Glass and discusses practical reactions to Apple's new interface design system.
+- [commentary on Liquid Glass from the early betas](https://lmnt.me/blog/rose-gold-tinted-liquid-glasses.html) — iOS Dev Weekly · Issue 731 — Article · Topics: Cross-Platform & Web · Liquid Glass
+  **Published:** `17th October 2025`
+  **NeKI brief:** Presents commentary on Liquid Glass from the early betas, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [ways to turn at least the Liquid Glass portion of the design system off](https://tidbits.com/2025/10/09/how-to-turn-liquid-glass-into-a-solid-interface) — iOS Dev Weekly · Issue 731 — Article · Topics: Liquid Glass
+  **Published:** `17th October 2025`
+  **NeKI brief:** Examines Apple’s new Liquid Glass interface design can be hard to read in certain situations. If you encounter any issues, here’s how to adjust the transparency and other visual effects acr. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Adopting Liquid Glass: Experiences and Pitfalls](https://juniperphoton.substack.com/p/adopting-liquid-glass-experiences) — Those Who Swift · Issue 235 — Article · Topics: Liquid Glass · Testing
   **Published:** `2025-10-08`
   **NeKI brief:** Examines Adopting Liquid Glass: Experiences and Pitfalls, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [Adopting Liquid Glass: Experiences and Pitfalls](https://l.fatbobman.com/w0105-03) — Fatbobman’s Swift Weekly · Issue 105 — Article · Topics: Liquid Glass
+  **Published:** `2025-10-06T12:03:37.161Z`
+  **NeKI brief:** Reflects on adopting Liquid Glass and the practical pitfalls encountered while updating for iOS 26.1 and iPadOS 26.1. Follow it when validating design-system changes against real layouts and interaction behavior.
+- [Benjamin Button Reviews macOS](https://l.fatbobman.com/w0104-04) — Fatbobman’s Swift Weekly · Issue 104 — Article · Topics: Liquid Glass · Testing
+  **Published:** `2025-09-29T12:00:38.726Z`
+  **NeKI brief:** Reviews macOS through the Benjamin Button utility’s perspective and feature set. Follow it as a product-oriented macOS observation, not as a technical implementation guide or platform reference.
+- [The Northern Stars of Liquid Glass](https://l.fatbobman.com/w0103-04) — Fatbobman’s Swift Weekly · Issue 103 — Article · Topics: Liquid Glass · Objective-C & Cocoa
+  **Published:** `2025-09-22T12:03:29.428Z`
+  **NeKI brief:** Summarizes Liquid Glass guidance around hierarchy, harmony, and consistency from Apple’s Human Interface Guidelines. Follow it when evaluating whether a visual treatment supports structure and usability rather than merely adding translucency.
 - [The Northern Stars of Liquid Glass](https://captainswiftui.substack.com/p/the-northern-stars-of-liquid-glass) — Those Who Swift · Issue 232 — Article · Topics: Liquid Glass · Objective-C & Cocoa · Swift
   **Published:** `2025-09-17`
-  **NeKI brief:** Examines The Northern Stars of Liquid Glass, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+  **NeKI brief:** Danny breaks down Apple’s three core Liquid Glass principles (Hierarchy, Harmony and Consistency) showing how they guide layering, rhythm and predictability in modern SwiftUI apps and how to apply them in real-world designs.
+- [SwiftUI’s New Glassy Controls – Toolbars & Modal Sheets](https://www.youtube.com/watch?v=IiLDbrtBsn0&t=1053s) — Those Who Swift · Issue 232 — Video · Topics: Liquid Glass · Swift · SwiftUI
+  **Published:** `2025-09-17`
+  **NeKI brief:** Reviews SwiftUI’s New Glassy Controls – Toolbars & Modal Sheets. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [How to disable Liquid Glass](https://www.swiftwithvincent.com/blog/how-to-disable-liquid-glass) — SwiftLee Weekly · Issue 289 — Article · Topics: Liquid Glass · Swift
   **Published:** `2025-09-16T14:09:42.000Z`
   **NeKI brief:** Explains How to disable Liquid Glass, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [Pedometer++ Redesign Walkthrough](https://david-smith.org/blog/2025/09/04/pedometer-redesign) — iOS Dev Weekly · Issue 725 — Article · Topics: Graphics, Media & Games · Liquid Glass · Testing
   **Published:** `5th September 2025`
   **NeKI brief:** Presents pedometer++ redesign walkthrough for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
-- [SwiftUI for Mac 2025](https://troz.net/post/2025/swiftui-mac-2025) — iOS Dev Weekly · Issue 720 — Article · Topics: Concurrency · Swift · SwiftUI
-  **Published:** `1st August 2025`
-  **NeKI brief:** Presents SwiftUI for Mac 2025, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [Adapting Toolbar Elements to the Liquid Glass Design System](https://l.fatbobman.com/w0100-07) — Fatbobman’s Swift Weekly · Issue 100 — Article · Topics: Liquid Glass · Objective-C & Cocoa
+  **Published:** `2025-09-01T12:03:36.183Z`
+  **NeKI brief:** Shows how to adapt toolbar elements to the Liquid Glass design system in iOS 26. Follow it when reviewing toolbar hierarchy, material treatment, and compatibility decisions for updated Apple-platform navigation chrome.
+- [Liquid Glass. Why?](https://furbo.org/2025/08/17/liquid-glass-why) — iOS Dev Weekly · Issue 723 — Article · Topics: Liquid Glass
+  **Published:** `22nd August 2025`
+  **NeKI brief:** Explores why Liquid Glass matters in Apple-platform UI. Useful for evaluating visual-system changes in terms of hierarchy, interaction, and platform behavior rather than decoration alone.
+- [Stuart Breckenridge](https://indieweb.social/@stuarticus) — iOS Dev Weekly · Issue 722 — Article · Topics: Liquid Glass
+  **Published:** `15th August 2025`
+  **NeKI brief:** The public IndieWeb.social profile identifies Stuart Breckenridge and exposes the author's profile and posts without authentication.
+- [Liquid Glass - 5 Things You MUST Know Before Implementing](https://www.youtube.com/watch?v=aF2qt5WfprM) — Those Who Swift · Issue 226 — Video · Topics: Liquid Glass
+  **Published:** `2025-08-06`
+  **NeKI brief:** Reviews Liquid Glass - 5 Things You MUST Know Before Implementing. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [New Watch](https://david-smith.org/blog/2025/07/22/new-watch) — iOS Dev Weekly · Issue 719 — Article · Topics: Liquid Glass
+  **Published:** `25th July 2025`
+  **NeKI brief:** Examines New Watch - David Smith, Independent iOS Developer. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [ImplementedSE-0464UTF8Span: Safe UTF-8 Processing Over Contiguous Bytes](https://github.com/apple/swift-evolution/blob/main/proposals/0464-utf8span-safe-utf8-processing.md) — SwiftLee Weekly · Issue 279 — Source repository · Topics: Developer Tools · Liquid Glass · Swift
   **Published:** `2025-07-08T13:08:44.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0464UTF8Span: Safe UTF-8 Processing Over Contiguous Bytes. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Active ReviewSE-0487Extensible enums](https://github.com/apple/swift-evolution/blob/main/proposals/0487-extensible-enums.md) — SwiftLee Weekly · Issue 279 — Source repository · Topics: Developer Tools · Liquid Glass · Swift
+  **Published:** `2025-07-08T13:08:44.000Z`
+  **NeKI brief:** Records AcceptedSE-0487Nonexhaustive enums, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [Active ReviewSE-0488Apply the extracting() slicing pattern more widely](https://github.com/apple/swift-evolution/blob/main/proposals/0488-extracting.md) — SwiftLee Weekly · Issue 279 — Source repository · Topics: Developer Tools · Liquid Glass · Swift
+  **Published:** `2025-07-08T13:08:44.000Z`
+  **NeKI brief:** Records ImplementedSE-0488Apply the extracting() slicing pattern more widely, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [Why Liquid Glass Is Making Cross‑Platform Developers Rethink Flutter](https://ohmyswift.com/blog/2025/06/28/why-liquid-glass-is-making-developers-rethink-flutter) — Those Who Swift · Issue 221 — Article · Topics: Cross-Platform & Web · Liquid Glass · Swift
+  **Published:** `2025-07-02`
+  **NeKI brief:** Explains Why Liquid Glass Is Making Developers Rethink Flutter, connecting the underlying Apple-platform mechanism to implementation choices and practical trade-offs that Swift developers can evaluate.
 - [Don‘t Liquid Glass All the Things](https://david-smith.org/blog/2025/06/17/design-dary-liquid-glass-everything) — iOS Dev Weekly · Issue 715 — Article · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
   **Published:** `20th June 2025`
   **NeKI brief:** Argues for deliberate adoption of Liquid Glass rather than applying it indiscriminately across an interface. It offers a design-review perspective for separating places where the new material improves hierarchy from places where it distracts or weakens clarity.
+- [How to Make Apple’s Liquid Glass Effect In Figma](https://youtu.be/uJthLkf8X1A) — iOS Dev Weekly · Issue 714 — Video · Topics: Liquid Glass
+  **Published:** `13th June 2025`
+  **NeKI brief:** I suspect Sketch and maybe Figma will simplify the creation of this effect in design files in future versions, as doing this process repeatedly would be a pain. However, it’s interesting to see Erik Kennedy create it from scratch!
 - [Discussion on Flutter’s Support for Liquid Glass](https://github.com/flutter/flutter/issues/170310) — Fatbobman’s Swift Weekly · Issue 88 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Liquid Glass
   **Published:** `2025-06-12T02:52:10.753Z`
   **NeKI brief:** This Flutter issue discusses support for Apple's Liquid Glass redesign and related platform integration concerns. Follow the thread for cross-platform implementation constraints and status, not as a guarantee of shipped Flutter behavior.
+- [Skills for Liquid Glass](https://go.peterfriese.dev/swiftui-fwc-swiftui-skills?s=web&t=ext) — Not only Swift · Issue 101 — Article · Topics: Liquid Glass · Swift · SwiftUI
+  **NeKI brief:** A small repository of Cursor Agent Skills for modern SwiftUI work, including a Liquid Glass skill and a focused skill-folder layout. Use it as a concrete tool-specific packaging example, while checking its assumptions against the host agent and project constraints.
 - [Second Brain app](https://www.youtube.com/playlist?list=PLsnLd2esiGRTmfGZcZMnEy6hkBHXBH_en) — Not only Swift · Issue 85 — Video · Topics: Graphics, Media & Games · Liquid Glass · Swift
   **NeKI brief:** Follows a SwiftUI second-brain app built with Firestore sync, Gemini summaries and questions, Genkit integration, and Siri access. The playlist shows those services evolving together inside a real project.
 - [Play](https://youtube.com/watch?v=UXG7U6iFxxM) — Not only Swift · Issue 85 — Video · Topics: Liquid Glass · Product Design · Testing
@@ -199,9 +258,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** This article covers the Path iOS app's design and interaction choices. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Rules for Rules: Writing Docs for LLMs](https://mbleigh.dev/posts/rules-for-rules) — Not only Swift · Issue 85 — Article · Topics: AI Development · Liquid Glass
   **NeKI brief:** This article covers writing effective rules and instructions for LLMs. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [Building a Second Brain App livestream - S3E2](https://www.youtube.com/live/7jHo4DuFJ8U) — Not only Swift · Issue 84 — Video · Topics: Liquid Glass
+  **NeKI brief:** Updates a SwiftUI chat interface for iOS 26 Liquid Glass while discussing backward compatibility, Foundation Models, network inspection with Proxyman, and Gemini through Firebase AI Logic. Useful for comparing integration strategies in one evolving app.
 - [Play](https://youtube.com/watch?v=7jHo4DuFJ8U) — Not only Swift · Issue 84 — Video · Topics: Liquid Glass · Swift · SwiftUI
   **NeKI brief:** Updates a SwiftUI chat interface for iOS 26 Liquid Glass while discussing backward compatibility, Foundation Models, network inspection with Proxyman, and Gemini through Firebase AI Logic. Useful for comparing integration strategies in one evolving app.
 - [an entire chapter just about toolbars](https://youtu.be/3MugGCtm26A?t=469s) — Not only Swift · Issue 84 — Video · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **NeKI brief:** Links to a presentation segment focused on SwiftUI toolbars. Use the demonstration to understand composition and interaction choices, while checking current toolbar APIs and platform behavior in Apple documentation.
+- [argued that](https://www.youtube.com/watch?v=Gw5lB1Jo-bM&t=2130s) — Not only Swift · Issue 83 — Video · Topics: Apple Platform Ecosystem · Developer Community & Business · Liquid Glass
+  **NeKI brief:** This Hardfork podcast segment critiques Apple's Liquid Glass design through the distinction between appearance and behavior. It offers a concrete community perspective on the interaction and usability trade-offs developers should consider when evaluating the new UI direction.
 - [Ice Cubes](https://github.com/Dimillian/IceCubesApp) — Not only Swift · Issue 83 — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
   **NeKI brief:** Provides the public source repository for Ice Cubes. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.

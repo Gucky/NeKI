@@ -3,9 +3,17 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/)
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed entries: **216**
+- Last collected: `2026-08-27T13:26:05Z`
+- Indexed entries: **218**
 
+- [Building an accessible calendar chart with Swift Charts](https://nilcoalescing.com/blog/BuildingAnAccessibleCalendarInSwiftCharts)
+  **Published:** `2026-08-27`
+  **Topics:** Accessibility · Swift
+  **NeKI brief:** Builds a month-style Swift Charts calendar that combines daily values with VoiceOver-friendly labels and summaries. It shows how chart marks, axis choices, and accessible descriptions can preserve an at-a-glance visual while making the same data understandable without sight.
+- [Building adaptive SwiftUI layouts with containerRelativeFrame()](https://nilcoalescing.com/blog/BuildingAdaptiveSwiftUILayoutsWithContainerRelativeFrame)
+  **Published:** `2026-08-21`
+  **Topics:** SwiftUI
+  **NeKI brief:** Shows how containerRelativeFrame() sizes and positions SwiftUI content relative to its container, making layouts adapt cleanly across split views, navigation surfaces, and different window sizes.
 - [Responding to geometry changes in SwiftUI](https://nilcoalescing.com/blog/RespondingToGeometryChangesInSwiftUI)
   **Published:** `2026-08-17`
   **Topics:** Observation & State Management · SwiftUI

@@ -3,8 +3,34 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.fatbobman.com/archive](https://weekly.fatbobman.com/archive)
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed entries: **149**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed entries: **150**
+
+## [Issue 150](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-150)
+
+- Published: `2026-08-24T12:03:48.210Z`
+
+**Topics:** Developer Tools · Persistence & Synchronisation · Swift · Swift Package Manager · SwiftData · SwiftUI
+
+**Sections:** AI Wanted to Give Up. The Human Didn’t. · 📢 Sponsor Fatbobman’s Swift Weekly · Original
+
+**NeKI brief:** Uses a kernel-debugging story to examine when humans must override an agent's 'unsolvable' judgement, then collects practical leads on package registries, CoreBluetooth cancellation, CloudKit, OCR and Swift tools.
+
+**Selected links:**
+- [ArcBLEKit](https://github.com/ilawsonlu/ArcBLEKit) — Source repository · Topics: Concurrency · Developer Tools · Objective-C & Cocoa
+  **NeKI brief:** Provides a zero-dependency Swift Concurrency package for BLE central apps on iOS 14 and macOS 11 onward. Its cancellable scanning, connection, GATT, notification, timeout, reconnect, and write-backpressure APIs show how to contain CoreBluetooth delegate complexity.
+- [Amethyst Vein: An Open-Source, Cross-Platform Local Persistence Framework with SwiftData-Style APIs](https://l.fatbobman.com/w0150-6) — Article · Topics: Cross-Platform & Web · Swift · SwiftData
+  **NeKI brief:** Presents Vein, an open-source local-first ORM with SwiftData-like macros, model containers, queries, migrations, and a SQLite/SQLCipher backend across Apple platforms, Linux, Android, and Windows. Use it to assess a shared Swift persistence layer rather than assuming SwiftData portability.
+- [DynamicNotch: Building Polished Notch and Screen-Edge Interactions for macOS](https://l.fatbobman.com/w0150-7) — Article · Topics: Swift · Swift Package Manager · SwiftUI
+  **NeKI brief:** Offers a macOS Swift package for notch-aware SwiftUI surfaces and AppKit-backed floating edge windows. It centralizes clipping, hit testing, safe-area and multi-display geometry, placement, and compact-notch reservations while leaving product state and interaction policy to the host app.
+- [SwiftTUI: Building Terminal Interfaces the SwiftUI Way](https://l.fatbobman.com/w0150-8) — Article · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Provides a beta Swift framework that maps SwiftUI-style views, state, focus, gestures, layout, and animation onto terminal cells. It supports native macOS, Linux, and Windows binaries plus browser/WASI and native-host variants, with partial redraws and TTY-free frame testing.
+- [Handling CoreBluetooth Timeouts and Task Cancellation Correctly](https://l.fatbobman.com/w0150-2) — Article · Topics: Concurrency
+  **NeKI brief:** Explains wrapping CoreBluetooth delegate callbacks in Swift concurrency while resolving timeout, cancellation, and concurrent-completion races. It distinguishes cancelling a Swift task from ending the underlying Bluetooth operation and uses ArcBLEKit to demonstrate a safer API design.
+- [What Is CloudKit? Apple’s Backend Explained](https://l.fatbobman.com/w0150-3) — Article · Topics: Persistence & Synchronisation
+  **NeKI brief:** Introduces CloudKit through containers, record schemas, private/shared/public databases, and the choice between direct APIs, Core Data, and SwiftData. It also frames Apple-platform focus, iCloud dependency, schema migration, and infrastructure-control limits before treating it as a backend choice.
+- [6 ways to promote your app without spending a penny](https://l.fatbobman.com/w0150-5) — Article
+  **NeKI brief:** Suggests six no-spend discovery tactics for independent apps, including showcases, cross-promotion, community participation, mailing lists, public building, and App Store optimization. It pairs the channels with time costs and cautions that community promotion requires honest, rule-respecting participation.
 
 ## [Issue 149](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-149)
 
@@ -206,7 +232,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Camera and Photo](https://antongubarenko.substack.com/p/wwdc26-camera-and-photo-technologies) — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **NeKI brief:** A WWDC26 camera and photo technology Q&A collecting implementation questions from developers. Use it as a topical guide to capture, processing, and media APIs, then validate specifics against Apple frameworks.
 - [What’s New in SwiftData for iOS 27](https://azamsharp.com/2026/06/12/whats-new-in-swiftdata.html) — Article · Topics: Cross-Platform & Web · Swift · SwiftData
-  **NeKI brief:** Summarizes SwiftData changes for iOS 27. Use it to identify migration and feature candidates for a persistence layer, then verify model, query, and availability details against current Apple documentation.
+  **NeKI brief:** Mohammad covers what’s new in SwiftData for iOS 27, showing how enum predicates, sectioned queries, compound predicates, the new .codable attribute, and ResultsObserver remove common workarounds.
 - [What is new in SwiftUI after WWDC26](https://swiftwithmajid.com/2026/06/08/what-is-new-in-swiftui-after-wwdc26) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **NeKI brief:** Summarizes SwiftUI additions after WWDC 2026. Use it to discover relevant new layout, rendering, and system-integration capabilities before narrowing to one feature and reading its authoritative API documentation.
 - [SwiftUI’s @State is now a macro](https://livsycode.com/swiftui/swiftuis-state-is-now-a-macro) — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
@@ -218,13 +244,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [What’s new in Swift 6.4 at WWDC26](https://onmyway133.com/posts/whats-new-in-swift-6.4-at-wwdc26) — Article · Topics: Apple Platform Ecosystem · Swift
   **NeKI brief:** Surveys Swift 6.4 changes announced around WWDC26, grouping language and toolchain developments for practitioners. Use it as a release-note map and verify proposal status, syntax, and availability in Swift.org sources.
 - [iOS 27: Notable UIKit Additions](https://www.swiftjectivec.com/ios-27-notable-uikit-additions) — Article · Topics: Swift · UIKit
-  **NeKI brief:** Surveys notable UIKit additions in iOS 27. Use it to identify modernization opportunities in an existing UIKit codebase, then verify API availability and migration impact in the relevant Apple documentation.
+  **NeKI brief:** Jordan walks you through the notable UIKit additions in iOS 27, focusing on practical updates to navigation bars, bar buttons, scenes, windows, tab bars, sidebars, menus, and document launch screens.
 - [Custom scroll layouts with swipe actions in SwiftUI on iOS 27](https://nilcoalescing.com/blog/CustomScrollLayoutsWithSwipeActionsInSwiftUIOnIOS27) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Shows custom scroll layouts combined with swipe actions in SwiftUI on iOS 27. Use it when list-like interactions need nonstandard geometry without giving up contextual swipe affordances.
 - [Using Claude with Apple Foundation Models](https://artemnovichkov.com/blog/using-claude-with-apple-foundation-models) — Article · Topics: AI Development · Foundation & Data Formats
-  **NeKI brief:** Explores combining Claude with Apple Foundation Models in an Apple-platform workflow. Use it when comparing cloud-model assistance with on-device generation, especially around handoff boundaries, privacy, and feature availability.
+  **NeKI brief:** Artem shows how Claude can be used into Apple’s Foundation Models framework on iOS 27, using the same LanguageModelSessionAPI to switch between on-device models and Claude.
 - [SwiftUI’s New .prominent Tab in iOS 27 Is Not a Floating Action Button](https://www.sagarunagar.com/blog/swiftui-prominent-tab-is-not-a-floating-action-button) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Clarifies the prominent tab role in iOS 26 and why it is navigation hierarchy rather than a generic floating action button. Useful for avoiding misleading tab-bar designs.
+  **NeKI brief:** Sagar shares why SwiftUI’s new .prominent tab role should be used to highlight important destinations, not as a replacement for floating action buttons, toolbar actions, or “add” buttons.
 - [Installing simulator runtimes from the command line](https://www.donnywals.com/installing-simulator-runtimes-from-the-command-line) — Article · Topics: Developer Tools · Objective-C & Cocoa
   **NeKI brief:** Explains installing Xcode Simulator runtimes from the command line. Use it when CI or a fresh development machine must provision a specific runtime reproducibly instead of relying on Xcode's graphical download flow.
 - [iOS/MacOS: Apple Beta Doc Retriever](https://github.com/0Itsuki0/iOS-MacOS_AppleBetaDocRetriever) — Source repository · Topics: Developer Tools
@@ -403,6 +429,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Fatbobman's Swift Weekly · Fatbobman's Swift Weekly #127 · Apple at 50 and Me at 51
 
 **Selected links:**
+- [Native AI chat app — ultra-fast, privacy-first, 100+ pro features](https://l.fatbobman.com/sb-boltai) — Article · Topics: AI Development · Cross-Platform & Web · Security & Privacy
+  **NeKI brief:** Presents BoltAI, a native Mac application for using ChatGPT, Claude, Gemini, and local models. Follow it when evaluating desktop AI tooling, model-provider support, and the boundary between local and hosted inference.
 - [ASC CLI](https://github.com/rudrankriyam/App-Store-Connect-CLI) — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
   **NeKI brief:** App-Store-Connect-CLI automates App Store Connect tasks from the command line, including subscription-related setup. Use it to replace repetitive portal configuration with reviewable scripts, while treating credentials and destructive commands carefully.
 
@@ -415,6 +443,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** MacBook Neo: The Starting Point of Apple’s Return to Campus · This Week’s Sponsor · Original
 
 **Selected links:**
+- [Notepad.exe — Your First Stop for Swift Experiments](https://l.fatbobman.com/sb-notepad) — Article · Topics: Personal Essays · Swift · Xcode
+  **NeKI brief:** Presents Notepad.exe as a Mac code editor that runs Swift, Python, JavaScript, and Go files, with an on-device agent and Linux testing. Follow it when assessing lightweight cross-language development environments.
 - [vChewing Input Method](https://vchewing.github.io/README.html) — Article · Topics: Cross-Platform & Web · Developer Tools · Swift
   **NeKI brief:** vChewing documents a Chinese input method built for Apple platforms, including its user-facing behavior and project context. Follow it as a case study in text-input engineering, not as a general Swift UI tutorial.
 - [IMKSwift](https://github.com/vChewing/IMKSwift) — Source repository · Topics: Concurrency · Developer Tools · Swift
@@ -439,6 +469,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Documents reverse engineering around vphone-related components in Apple platform firmware. Use it as technical research context for virtual-phone experiments, not as production guidance or an endorsement of unsupported platform modification.
 - [SE-0508](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0508-array-expression-trailing-closures.md) — Source repository · Topics: Developer Tools · Swift
   **NeKI brief:** SE-0508 removes the special restriction that prevented array and dictionary type expressions from being followed by trailing closures. Use it to understand a small syntax change that improves consistency in generic and closure-heavy declarations.
+- [Notepad.exe — A Notepad for Developers](https://l.fatbobman.com/sb-notepad) — Article
+  **NeKI brief:** Presents Notepad.exe as a Mac code editor that runs Swift, Python, JavaScript, and Go files, with an on-device agent and Linux testing. Follow it when assessing lightweight cross-language development environments.
 
 ## [Issue 124](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-124)
 
@@ -472,6 +504,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Explores Xcode 26.3 agent capabilities, macOS screen-recording development, iOS on-demand resources, and pitfalls when creating Observation infrastructure. Follow it when evaluating agent-assisted workflows alongside packaging, capture, and state-update constraints.
 
+**Selected links:**
+- [Mark Szymczyk](https://mastodon.world/@swiftdevjournal) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Mark shows how to use instrument to profile your app, spot views with high update frequency and investigate the roots of unnecessary re-renders.
+
 ## [Issue 121](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-121)
 
 - Published: `2026-02-02T12:03:11.621Z`
@@ -485,6 +521,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Provides focused agent guidance for Swift concurrency work. Use it to give coding agents project-relevant rules around isolation, Sendable boundaries, and async tests before they propose or edit concurrent Swift code.
 - [Core Data](https://github.com/AvdLee/Core-Data-Agent-Skill) — Source repository · Topics: Core Data · Persistence & Synchronisation · Swift
   **NeKI brief:** Provides focused agent guidance for Core Data tasks. Use it to constrain an agent around contexts, threading, migrations, and persistence boundaries before it modifies an existing Core Data stack.
+- [Need to debug HTTPS on your iPhone?](https://l.fatbobman.com/sb-proxyman) — Article · Topics: Developer Tools
+  **NeKI brief:** Presents Proxyman as a native cross-platform HTTP debugging proxy for capturing, inspecting, and mocking HTTP and HTTPS traffic. Follow it when comparing request-inspection workflows across Apple and other development environments.
 
 ## [Issue 120](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-120)
 
@@ -549,6 +587,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Sensei provides a customizable macOS material-blur view that goes beyond NSVisualEffectView's public configuration surface. Use it when a desktop UI needs controlled materials, while isolating the visual dependency from core application logic.
 - [technical article](https://oskargroth.com/blog/reverse-engineering-nsvisualeffectview) — Article
   **NeKI brief:** Reverse-engineers `NSVisualEffectView` behavior to expose how macOS visual effects are composed. Use it to understand implementation boundaries before relying on undocumented appearance details in a production AppKit interface.
+- [Fatbobman reader-exclusive 10% off link](https://l.fatbobman.com/iosconfsg2026) — Article
+  **NeKI brief:** Provides the public schedule and discount entry point for iOS Conf SG 2026. This is an event lead rather than technical reading, so it is useful only for identifying conference programming, not as an implementation reference.
 
 ## [Issue 115](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-115)
 
@@ -588,6 +628,14 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Connects Android-to-iOS AirDrop interoperability with dual-platform development, Skip, Trendyol's macOS farm, SwiftUI Previews, Associated Domains debugging, and visual data-race explanations. Use it to compare cross-platform delivery with concrete Apple build and networking diagnostics.
 
+**Selected links:**
+- [Native macOS AI Client: GPT, Claude, Gemini & Local Models](https://l.fatbobman.com/boltai-week-en) — Article · Topics: AI Development
+  **NeKI brief:** Describes BoltAI as a native Mac client that brings hosted and local language models into a desktop workflow. Follow it when comparing developer-oriented AI assistants and the trade-offs of keeping model interaction on-device.
+- [Mac 原生 AI 客户端：聚合 GPT、Claude、Gemini 及本地最新模型](https://l.fatbobman.com/sb-boltai) — Article · Topics: AI Development
+  **NeKI brief:** Presents BoltAI, a native Mac application for using ChatGPT, Claude, Gemini, and local models. Follow it when evaluating desktop AI tooling, model-provider support, and the boundary between local and hosted inference.
+- [🚀 立即试用 BoltAI!](https://l.fatbobman.com/sb-boltai-zh) — Article · Topics: AI Development
+  **NeKI brief:** Presents BoltAI, a native Mac application for using ChatGPT, Claude, Gemini, and local models. Follow it when evaluating desktop AI tooling, model-provider support, and the boundary between local and hosted inference.
+
 ## [Issue 112](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-112)
 
 - Published: `2025-11-24T12:01:09.147Z`
@@ -597,6 +645,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** When AI Makes “Seeing Is Believing” Impossible · This Week’s Sponsor · Recent Recommendations
 
 **Selected links:**
+- [Need to debug HTTPS on your iPhone?](https://l.fatbobman.com/sb-proxyman) — Article · Topics: Developer Tools
+  **NeKI brief:** Presents Proxyman as a native cross-platform HTTP debugging proxy for capturing, inspecting, and mocking HTTP and HTTPS traffic. Follow it when comparing request-inspection workflows across Apple and other development environments.
 - [imessage-kit](https://github.com/photon-hq/imessage-kit) — Source repository · Topics: Developer Tools
   **NeKI brief:** iMessageKit explores message-style interfaces on Apple platforms despite iMessage itself lacking a public automation API. Use it as a UI and data-model reference, not as evidence that third-party apps can access system conversations.
 
@@ -629,6 +679,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Skip Fuse Now Free for Indie Devs! · Recent Recommendations · Tools
 
 **NeKI brief:** Highlights Skip Fuse becoming free for indie developers and surveys Swift Android cross-compilation, SwiftData architecture refinement, Tuist migration, and Language Discovery personalization. Follow it when weighing shared-code economics against project-generation and persistence complexity.
+
+**Selected links:**
+- [Mark Szymczyk](https://mastodon.world/@swiftdevjournal) — Article · Topics: Performance · Swift · SwiftUI
+  **NeKI brief:** Mark shows how to use instrument to profile your app, spot views with high update frequency and investigate the roots of unnecessary re-renders.
 
 ## [Issue 109](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-0109)
 
@@ -669,6 +723,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** A Trip to the Apple Store for Repairs · Recent Recommendations · Tools
 
 **Selected links:**
+- [Hot Reloading SwiftUI Apps](https://l.fatbobman.com/w0107-01) — Article · Topics: Swift · SwiftUI · Xcode
+  **NeKI brief:** Demonstrates hot reloading of a running SwiftUI app without relying on Xcode previews. Follow it when shortening UI iteration cycles and evaluating the build, injection, and runtime trade-offs of live code replacement.
 - [swift-subprocess](https://github.com/swiftlang/swift-subprocess) — Source repository · Topics: Developer Tools · Swift
   **NeKI brief:** swift-subprocess modernizes launching and interacting with child processes through Swift concurrency. Use it for scripts and tools that need structured stdin, stdout, cancellation, and exit-status handling beyond Foundation's older Process API.
 
@@ -681,10 +737,26 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Qualcomm Acquires Arduino: The Wheel of History Turns · Recent Recommendations · Tools
 
 **Selected links:**
+- [How to Integrate OpenSwiftUI into Your Project](https://l.fatbobman.com/w0106-02) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **NeKI brief:** Documents integration steps for OpenSwiftUI, an open-source implementation of Apple’s SwiftUI concepts. Follow it when exploring compatibility boundaries and understanding which framework assumptions a non-Apple implementation must reproduce.
 - [OpenSwiftUI](https://github.com/OpenSwiftUIProject/OpenSwiftUI) — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **NeKI brief:** OpenSwiftUI is a community reimplementation useful for studying declarative view behavior and framework boundaries. Follow it for comparative exploration, not as a drop-in substitute for Apple's implementation guarantees.
+- [Performing Search with SwiftData in a SwiftUI app](https://l.fatbobman.com/w0106-04) — Article · Topics: Objective-C & Cocoa · Swift · SwiftData
+  **NeKI brief:** Demonstrates combining SwiftData queries with SwiftUI’s searchable modifier to implement app search. Follow it when connecting query predicates, search state, and result presentation without duplicating a second in-memory data source.
+- [SwiftUI Toggle with Dynamic Image Overlay](https://l.fatbobman.com/w0106-05) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Shows how to attach a persistent image overlay to a SwiftUI Toggle and update it with interaction state. Follow it when designing expressive controls while preserving a clear relationship between visual feedback and the underlying Boolean value.
+- [Foundation Models Playgrounds](https://l.fatbobman.com/w0106-08) — Article · Topics: AI Development · Foundation & Data Formats
+  **NeKI brief:** Collects playground examples for Apple’s Foundation Models framework. Follow it when quickly exploring model APIs and isolating sample behavior before integrating the framework into a production feature.
 - [Introducing Swift Profile Recorder: Identifying Performance Bottlenecks in Production](https://www.swift.org/blog/swift-profile-recorder) — Article · Topics: Cross-Platform & Web · Performance · Swift
   **NeKI brief:** Introduces Swift Profile Recorder for capturing runtime profiling data from Swift applications. Useful for collecting reproducible performance evidence in environments where full Instruments sessions are impractical.
+- [iOS 26: Foundation Model Framework - Code-Along Q&A](https://l.fatbobman.com/w0106-03) — Article · Topics: Foundation & Data Formats
+  **NeKI brief:** Presents a code-along introduction to the iOS 26 Foundation Models framework. Follow it when mapping model APIs to a concrete app workflow and identifying which platform assumptions need testing on supported devices and SDKs.
+- [Swift Profile Recorder: A Performance Profiler Requiring No System Privileges](https://l.fatbobman.com/w0106-06) — Article · Topics: Performance · Swift
+  **NeKI brief:** Provides Apple’s Swift Profile Recorder package for recording profiling data from Swift programs. Follow it when instrumenting performance investigations and comparing programmatic trace capture with interactive Instruments sessions.
+- [RichText: A SwiftUI Component for Free Text and View Mixing](https://l.fatbobman.com/w0106-07) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Provides a supplementary SwiftUI TextView with richer text selection and declarative native-view embedding. Follow it when standard Text does not meet selection or UIKit-interoperability needs and those trade-offs are acceptable.
+- [Do Job Silently](https://l.fatbobman.com/w0106-01) — Article · Topics: App Services & Extensions
+  **NeKI brief:** Examines how background computation and data processing affect modern mobile applications. Follow it when reasoning about silent jobs, scheduling, and the user-visible consequences of moving work away from interactive execution.
 
 ## [Issue 105](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-0105)
 
@@ -695,8 +767,20 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Sora 2: A Great Model, but Not Necessarily a Great Business · Recent Recommendations · Tools
 
 **Selected links:**
+- [Foundation Models Profiling with Xcode Instruments](https://l.fatbobman.com/w0105-05) — Article · Topics: AI Development · Foundation & Data Formats · Performance
+  **NeKI brief:** Shows how to profile and optimize Foundation Models performance with Xcode Instruments. Follow it when measuring model latency, resource use, and bottlenecks instead of tuning an on-device AI feature from subjective responsiveness alone.
 - [TranscriptDebugMenu](https://github.com/artemnovichkov/TranscriptDebugMenu) — Source repository · Topics: AI Development · Foundation & Data Formats · Performance
   **NeKI brief:** TranscriptDebugMenu is a debug surface for inspecting Foundation Models conversations and related app state. Use it alongside Xcode Instruments when testing session prewarming, tool calls, and model-output performance in development builds.
+- [The File Importer in SwiftUI](https://l.fatbobman.com/w0105-04) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Demonstrates SwiftUI’s file importer flow for selecting files from the system document browser. Follow it when wiring URL-based input, security-scoped access, and user-facing failure handling around imported content.
+- [Testing Private Members in Swift with @_private](https://l.fatbobman.com/w0105-06) — Article · Topics: Swift · Testing
+  **NeKI brief:** Explains using Swift’s @_private(sourceFile:) facility to test otherwise private members. Follow it when weighing test visibility against encapsulation and keeping source-file coupling explicit in a Swift test strategy.
+- [Swift Configuration - Unified Configuration Management](https://l.fatbobman.com/w0105-07) — Article · Topics: Developer Career & Practice · Swift
+  **NeKI brief:** Provides Apple’s Swift Configuration package for reading application configuration. Follow it when separating configuration sources from code and reviewing typed, cross-platform configuration loading in Swift projects.
+- [Adopting Liquid Glass: Experiences and Pitfalls](https://l.fatbobman.com/w0105-03) — Article · Topics: Liquid Glass
+  **NeKI brief:** Reflects on adopting Liquid Glass and the practical pitfalls encountered while updating for iOS 26.1 and iPadOS 26.1. Follow it when validating design-system changes against real layouts and interaction behavior.
+- [AsyncItemProvider - Timing-Safe Async Loading](https://l.fatbobman.com/w0105-08) — Article · Topics: Concurrency
+  **NeKI brief:** Provides a Swift Concurrency interface for NSItemProvider. Follow it when bridging callback-based item loading into async workflows while keeping cancellation, type conversion, and provider failure behavior visible.
 
 ## [Issue 104](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-0104)
 
@@ -707,12 +791,28 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Apple is Preparing for System-Level MCP Support · Recent Recommendations · Tools
 
 **Selected links:**
+- [ProjectNavigator - SwiftUI File Navigation Component](https://l.fatbobman.com/w0104-08) — Article · Topics: Architecture · Swift · SwiftUI
+  **NeKI brief:** Provides a SwiftUI project-navigation view for macOS and iOS. Follow it when evaluating reusable navigation components and the trade-offs of introducing a custom hierarchy browser instead of relying solely on platform containers.
 - [9TO5Mac’s report](https://9to5mac.com/2025/09/22/macos-tahoe-26-1-beta-1-mcp-integration) — Article · Topics: AI Development · macOS & AppKit
   **NeKI brief:** Reports beta evidence of MCP-related integration in macOS Tahoe. Use it only as an early signal for system-level agent support, then validate actual APIs, availability, and permissions against Apple's released documentation.
+- [Implementing Drag and Drop with the SwiftUI Modifiers](https://l.fatbobman.com/w0104-02) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Demonstrates implementing drag and drop with SwiftUI modifiers. Follow it when wiring transferable data, drop destinations, and interaction feedback while keeping the feature’s state transitions explicit.
+- [Integrating Firebase into Tuist Project](https://l.fatbobman.com/w0104-03) — Article · Topics: Developer Career & Practice · Xcode
+  **NeKI brief:** Describes integrating Firebase into a Tuist-managed iOS project. Follow it when reviewing package and project-generation boundaries, especially for services such as Crashlytics that require consistent build-phase configuration.
+- [Adopting the New Window Controls in iPadOS 26](https://l.fatbobman.com/w0104-01) — Article · Topics: macOS & AppKit
+  **NeKI brief:** Shows how iPadOS 26 window controls and a macOS-like menu bar change the windowing experience. Follow it when adapting multiwindow layouts and deciding which controls belong to the system chrome versus the app interface.
+- [How I QA iOS Apps](https://l.fatbobman.com/w0104-05) — Article · Topics: Testing
+  **NeKI brief:** Describes a practical QA process for iOS applications. Follow it when shaping manual and exploratory test coverage, release checklists, and the boundary between repeatable verification and ad hoc device testing.
 - [chaos monkey](https://en.wikipedia.org/wiki/Chaos_engineering) — Article · Topics: Testing
   **NeKI brief:** Introduces the resilience-testing discipline of deliberately injecting disruptive conditions. Use it to turn informal iOS stress checks—rotation, backgrounding, rapid input, and network loss—into repeatable failure scenarios with observable recovery criteria.
+- [App Store Optimization: Real-world Best Practices](https://l.fatbobman.com/w0104-06) — Article · Topics: App Distribution & Store Operations
+  **NeKI brief:** Collects App Store Optimization practices for improving an app’s visibility and acquisition. Follow it when connecting store metadata, screenshots, and positioning to release planning without confusing marketing signals with product quality.
+- [Benjamin Button Reviews macOS](https://l.fatbobman.com/w0104-04) — Article · Topics: Liquid Glass · Testing
+  **NeKI brief:** Reviews macOS through the Benjamin Button utility’s perspective and feature set. Follow it as a product-oriented macOS observation, not as a technical implementation guide or platform reference.
 - [sample project](https://github.com/JuniperPhoton/CornerMarginSample) — Source repository · Topics: Developer Tools
   **NeKI brief:** CornerMarginSample demonstrates layout behavior around corner and margin changes. Use it as a visual test fixture when comparing SwiftUI layout effects across OS versions instead of inferring geometry from screenshots alone.
+- [GitHub Markdown Shortcuts](https://l.fatbobman.com/w0104-07) — Article · Topics: Developer Tools
+  **NeKI brief:** Shows Markdown shortcuts that streamline GitHub pull-request writing. Follow it when reducing review friction through consistent formatting, reusable structure, and clearer communication of implementation changes.
 
 ## [Issue 103](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-0103)
 
@@ -723,8 +823,22 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Swift 6.2 Is Here · Recent Recommendations · Tools
 
 **Selected links:**
+- [Feature Flags in Swift](https://l.fatbobman.com/w0103-03) — Article · Topics: Combine & Reactive Programming · Swift · Testing
+  **NeKI brief:** Shows how Swift feature flags can vary behavior across Debug, TestFlight, and App Store configurations. Follow it when designing compile-time or runtime switches that keep release behavior explicit and testable.
+- [edge-agent: A Swift Runtime Platform for Edge Computing](https://l.fatbobman.com/w0103-07) — Article · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **NeKI brief:** Provides infrastructure for deploying robotics and edge-AI workloads with Swift-oriented tooling. Follow it when evaluating Swift beyond conventional app targets and considering deployment, device, and operational constraints for edge systems.
+- [The Northern Stars of Liquid Glass](https://l.fatbobman.com/w0103-04) — Article · Topics: Liquid Glass · Objective-C & Cocoa
+  **NeKI brief:** Summarizes Liquid Glass guidance around hierarchy, harmony, and consistency from Apple’s Human Interface Guidelines. Follow it when evaluating whether a visual treatment supports structure and usability rather than merely adding translucency.
+- [iOS 17+ SwiftUI TextField 内存泄漏分析](https://l.fatbobman.com/w0103-01) — Article · Topics: Swift · SwiftUI · UIKit
+  **NeKI brief:** Investigates an iOS 17+ SwiftUI TextField memory leak involving AFUITargetDetectionController and documents practical workarounds. Follow it when profiling text-entry screens and separating framework behavior from application retention bugs.
 - [new features](https://www.swift.org/blog/swift-6.2-released) — Article · Topics: Concurrency · Swift
-  **NeKI brief:** Swift 6.2's release announcement provides the authoritative overview of language and toolchain changes. Use it to plan adoption boundaries and match compiler behavior to the released version.
+  **NeKI brief:** Swift 6.2 is here with improvements that make coding smoother and faster. It delivers improved performance, faster build times, enhanced tools, and early WebAssembly support, making Swift easier and more reliable for developers.
+- [SwiftUI TextField Memory Leak on iOS 17+ - Analysis](https://l.fatbobman.com/w0103-10) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Investigates an iOS 17+ SwiftUI TextField memory leak involving AFUITargetDetectionController and documents practical workarounds. Follow it when profiling text-entry screens and separating framework behavior from application retention bugs.
+- [Zettelkasten for Programmers: Processing Swift Actor Usage Advice in Depth](https://l.fatbobman.com/w0103-02) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Uses a Zettelkasten-style reading of Swift actor guidance to extract concurrency lessons and caveats. Follow it when comparing actor recommendations critically and turning broad advice into explicit isolation decisions for a codebase.
+- [iOS Application Rendering: A Deep Dive](https://l.fatbobman.com/w0103-06) — Article · Topics: Graphics, Media & Games · Maps & Location
+  **NeKI brief:** Documents a personal investigation into how iOS renders application content. Follow it when studying rendering stages, compositing assumptions, and the boundary between observable UIKit behavior and implementation details that may change.
 
 ## [Issue 102](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-0102)
 
@@ -741,8 +855,24 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** OpenAttributeGraph documents an open implementation of SwiftUI-style dependency tracking and attribute propagation. Use it to investigate why state changes invalidate views, while treating it as a learning model rather than Apple's private framework source.
 - [JNIKit](https://github.com/swifdroid/jni-kit) — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **NeKI brief:** JNIKit provides Swift-friendly bindings for Android JNI interaction. Use it when a Swift Android library must call Java or Kotlin APIs, keeping conversion and reference-lifetime rules isolated from application code.
+- [Swift-Build GitHub Action](https://l.fatbobman.com/w0102-07) — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **NeKI brief:** Provides a GitHub Action for building and testing Swift packages across platforms. Follow it when setting up matrix-based package validation and comparing CI workflows for Linux, macOS, and other supported targets.
 - [detailed introduction](https://brightdigit.com/tutorials/swift-build) — Tutorial · Topics: Developer Tools · Swift · Swift Package Manager
   **NeKI brief:** Explains using the swift-build GitHub Action to run Swift Package Manager builds and tests on macOS and Linux. Use it as a compact cross-platform CI starting point before adding caching, matrices, or release artifacts.
+- [Should you opt-in to Swift 6.2's Main Actor isolation?](https://l.fatbobman.com/w0102-02) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Explains Swift 6.2’s main-actor isolation changes and the compiler option that makes default isolation more explicit. Follow it when planning concurrency migrations and measuring how UI isolation affects existing nonisolated code.
+- [Understanding SwiftUI's TimelineView: A Deep Dive](https://l.fatbobman.com/w0102-09) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explores SwiftUI TimelineView and TimelineSchedule internals for time-driven view updates. Follow it when reasoning about scheduled refresh behavior and choosing an explicit timeline strategy instead of an uncontrolled timer.
+- [The Swift Android Setup I Always Wanted](https://l.fatbobman.com/w0102-05) — Article · Topics: Cross-Platform & Web · Swift
+  **NeKI brief:** Describes a Swift 6 Android setup using the Android NDK and JNIKit to bridge Swift code into Android. Follow it when evaluating cross-platform Swift experiments and the build and interop costs behind them.
+- [AppKitUI](https://l.fatbobman.com/w0102-08) — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **NeKI brief:** Provides an AppKit UI toolkit that simplifies creating and managing NSView content with Swift. Follow it when evaluating reusable macOS UI abstractions that complement SwiftUI without hiding AppKit ownership and lifecycle details.
+- [We Need to Talk About Observation](https://l.fatbobman.com/w0102-01) — Article · Topics: Combine & Reactive Programming · Observation & State Management
+  **NeKI brief:** Challenges common assumptions about Swift Observation and its runtime behavior. Follow it when auditing observable state propagation, invalidation boundaries, and the differences between conceptual model ownership and what a framework actually tracks.
+- [Date Range picker in SwiftUI](https://l.fatbobman.com/w0102-03) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Builds a SwiftUI date-range picker for selecting constrained periods when the standard control does not match the product requirement. Follow it when designing calendar selection state, validation, and custom interaction affordances.
+- [深入理解 SwiftUI 的 TimelineView](https://l.fatbobman.com/w0102-04) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explores SwiftUI TimelineView and its TimelineSchedule mechanisms for time-driven view updates. Follow it when implementing clocks, periodic refreshes, or scheduled visual changes without manually wiring an unrestricted timer.
 
 ## [Issue 101](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-0101)
 
@@ -755,6 +885,20 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [OpenAttributeGraph](https://github.com/OpenSwiftUIProject/OpenAttributeGraph) — Source repository · Topics: Dependency Injection · Swift · SwiftUI
   **NeKI brief:** OpenAttributeGraph documents an open implementation of SwiftUI-style dependency tracking and attribute propagation. Use it to investigate why state changes invalidate views, while treating it as a learning model rather than Apple's private framework source.
+- [Subprocess](https://l.fatbobman.com/w0101-07) — Article · Topics: Concurrency · Cross-Platform & Web · Swift
+  **NeKI brief:** Provides Swift Subprocess as a cross-platform package for spawning processes from Swift. Follow it when replacing platform-specific process-launch code and reviewing argument handling, output capture, and portability requirements.
+- [Automating Swift Binary Releases Using GitHub Actions](https://l.fatbobman.com/w0101-04) — Article · Topics: Developer Tools · Swift
+  **NeKI brief:** Shows how GitHub Actions can build and publish Swift command-line tools automatically when a new tag is pushed. Follow it when designing a release pipeline with reproducible triggers, artifact generation, and package distribution steps.
+- [SwiftUI is Stifling your App’s Maintainability and Testability](https://l.fatbobman.com/w0101-02) — Article · Topics: Code Quality · Swift · SwiftUI
+  **NeKI brief:** Argues for separating SwiftUI view responsibilities from oversized view models and connects that choice to maintainability and testability. Follow it when revisiting feature boundaries, dependency flow, and preview-friendly state ownership.
+- [Need to debug HTTPS on your iPhone?](https://l.fatbobman.com/sb-proxyman) — Article · Topics: Developer Tools
+  **NeKI brief:** Presents Proxyman as a native cross-platform HTTP debugging proxy for capturing, inspecting, and mocking HTTP and HTTPS traffic. Follow it when comparing request-inspection workflows across Apple and other development environments.
+- [When should you use an actor?](https://l.fatbobman.com/w0101-01) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Explains when Swift actors are appropriate for protecting shared mutable state and when they add unnecessary isolation. Follow it to distinguish data-race safety from broader architectural questions about ownership, synchronization, and performance.
+- [How Large is That File?](https://l.fatbobman.com/w0101-03) — Article
+  **NeKI brief:** Investigates how macOS file sizes can diverge because extended attributes are counted differently across tools and system versions. Follow it when diagnosing filesystem-size discrepancies involving metadata, APFS, and Finder-style reporting.
+- [Swift Default Value in String Interpolations](https://l.fatbobman.com/w0101-05) — Article · Topics: Swift
+  **NeKI brief:** Explains Swift 6.2’s support for default values inside string interpolation when interpolated optionals are nil. Follow it when simplifying user-facing formatting while keeping fallback behavior explicit and localized.
 
 ## [Issue 100](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-0100)
 
@@ -767,6 +911,22 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [CoreDataEvolution](https://github.com/fatbobman/CoreDataEvolution) — Source repository · Topics: Concurrency · Core Data · Persistence & Synchronisation
   **NeKI brief:** CoreDataEvolution experiments with bringing ModelActor-like concurrency structure to Core Data. Use it when modernizing a Core Data stack while retaining its model and store, especially to centralize context ownership and serialized mutations.
+- [similar implementation](https://l.fatbobman.com/w0100-09) — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **NeKI brief:** Provides an open-source observation implementation inspired by SwiftUI’s model, useful for studying how observable state can be reconstructed outside Apple’s framework. Follow it for experimental architecture comparison, not API compatibility guarantees.
+- [@ViewBuilder Usage Explained with Code Examples](https://l.fatbobman.com/w0100-03) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains how the SwiftUI @ViewBuilder result builder creates compact declarative view code and improves readability. Follow it when reviewing builder constraints or deciding how to structure conditional and composed view content.
+- [Forcing a View Reload in SwiftUI](https://l.fatbobman.com/w0100-06) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains how SwiftUI’s id modifier can force a view subtree to rebuild when state-driven identity changes. Follow it when diagnosing stale local state, while treating forced reloads as a targeted workaround rather than default architecture.
+- [Discussion on SwiftData’s ModelActor](https://l.fatbobman.com/w0100-04) — Article · Topics: Concurrency · Swift · SwiftData
+  **NeKI brief:** Examines why SwiftData’s ModelActor can feel surprising and where its isolation model complicates persistence design. Follow it when reviewing actor boundaries, model-container ownership, and concurrency assumptions in SwiftData code.
+- [SBSObservation: A Swift Observation Framework Compatible with iOS 12](https://l.fatbobman.com/w0100-08) — Article · Topics: Observation & State Management · Performance · Swift
+  **NeKI brief:** Provides a small Swift-macro observation framework for UIKit applications that manages observation lifetimes automatically. Follow it when comparing macro-based observation with manual notification cleanup in projects supporting older iOS versions.
+- [Creating Amazing Loading Animations with SF Symbols](https://l.fatbobman.com/w0100-05) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Demonstrates loading animations built with SF Symbols rather than custom image assets. Follow it when designing lightweight progress feedback and evaluating symbol animation choices for clarity, performance, and platform consistency.
+- [Adapting Toolbar Elements to the Liquid Glass Design System](https://l.fatbobman.com/w0100-07) — Article · Topics: Liquid Glass · Objective-C & Cocoa
+  **NeKI brief:** Shows how to adapt toolbar elements to the Liquid Glass design system in iOS 26. Follow it when reviewing toolbar hierarchy, material treatment, and compatibility decisions for updated Apple-platform navigation chrome.
+- [Building a Design System at Genius Scan](https://l.fatbobman.com/w0100-02) — Article
+  **NeKI brief:** Shows how Genius Scan approached a design system through reusable components configured with the SwiftUI environment. Follow it when structuring shared UI primitives that need consistent defaults without sacrificing feature-level customization.
 
 ## [Issue 99](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-099)
 
@@ -896,7 +1056,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Swift.org has now officially launched an Android Workgroup](https://www.swift.org/android-workgroup) — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
-  **NeKI brief:** Documents the Swift Android Workgroup's effort to improve Swift tooling and runtime support on Android. Useful for tracking cross-platform language infrastructure beyond Apple's deployment targets.
+  **NeKI brief:** Swift.orgSwift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.Swift.orgApple Inc.. This link is retained as a technical reading lead for Apple-platform development.
 - [内存优化篇](https://antongubarenko.substack.com/p/memory-efficiency-in-ios-reducing) — Article
   **NeKI brief:** Provides a structured iOS memory-optimization route through usage assessment, diagnostic tools, and mitigation techniques. Use it when building an investigation plan for warnings, leaks, or termination under resource pressure.
 
@@ -946,7 +1106,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Setting Default Actor Isolation in Xcode 26](https://www.donnywals.com/setting-default-actor-isolation-in-xcode-26) — Article · Topics: Concurrency · Xcode
   **NeKI brief:** Shows configuring default actor isolation in Xcode 26 and the resulting compiler assumptions. Useful for making concurrency policy explicit at project scope instead of annotating declarations reactively.
 - [parts here](https://alexanderlogan.co.uk/blog/wwdc25/02-apple-intelligence-tools) — Article · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
-  **NeKI brief:** The second part of a Foundation Models series focuses on available tool-related capabilities. Use it to connect high-level model generation with app actions, then verify current tool-calling contracts in official framework documentation.
+  **NeKI brief:** Alex explains how developers can enhance on-device large language models with custom Swift tools letting their apps invoke system APIs or services (like HealthKit or network calls) and feed the real results back into the AI for richer responses.
 - [What’s New with SwiftUI 26](https://dimillian.medium.com/whats-new-with-swift-26-f17e98b07c87) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **NeKI brief:** Surveys SwiftUI 26 changes from a practitioner's perspective. Use it as a discovery index for APIs worth evaluating, then confirm behavior and availability in the official SDK documentation before committing a migration.
 - [What Is New in SwiftUI after WWDC 25](https://swiftwithmajid.com/2025/06/10/what-is-new-in-swiftui-after-wwdc25) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
@@ -1117,6 +1277,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** swift-markdown parses and constructs Markdown using a typed document tree and Visitor traversal. Use it when a tool must transform Markdown structurally rather than applying fragile string replacements to source text.
 - [UBI](https://github.com/houseabsolute/ubi) — Source repository · Topics: Developer Tools · Swift
   **NeKI brief:** ubi installs precompiled command-line tool binaries from GitHub releases rather than building them locally. Use it when developer-tool setup must be fast and repeatable across machines, while checking release provenance and platform artifacts.
+- [Need to debug HTTPS on your iPhone?](https://l.fatbobman.com/sb-proxyman) — Article · Topics: Developer Tools
+  **NeKI brief:** Presents Proxyman as a native cross-platform HTTP debugging proxy for capturing, inspecting, and mocking HTTP and HTTPS traffic. Follow it when comparing request-inspection workflows across Apple and other development environments.
 - [AdventureX 2025 Now Open for Global Applications](https://adventure-x.org/en) — Article · Topics: Personal Essays
   **NeKI brief:** Provides contextual background on AdventureX 2025 Now Open for Global Applications, useful for understanding the surrounding product, policy, or ecosystem issue before drawing technical or business conclusions.
 - [AdventureX 2025 解除报名的年龄限制](https://adventure-x.org/zh) — Article
@@ -1270,7 +1432,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Swift Build](https://github.com/swiftlang/swift-build) — Source repository · Topics: Swift · Swift Package Manager · Xcode
-  **NeKI brief:** Swift Build is the open-sourced build engine behind Xcode and SwiftPM convergence work. Follow it when assessing build-graph architecture, toolchain behavior, and future migration implications for projects that currently rely on opaque Xcode builds.
+  **NeKI brief:** This commitment led Apple to open-sourcing Swift Build, a build engine that offers a comprehensive set of build rules for constructing Swift projects.
 - [llbuild](https://github.com/swiftlang/swift-llbuild) — Source repository · Topics: Swift · Swift Package Manager · Xcode
   **NeKI brief:** llbuild is the lower-level build-system engine used by Swift tooling. Use it to inspect dependency scheduling and incremental compilation foundations, while keeping its implementation role distinct from the higher-level Swift Build repository.
 
@@ -1384,7 +1546,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Advent of Code Starter Template](https://github.com/swiftlang/swift-aoc-starter-example) — Source repository · Topics: Developer Tools · Swift · Xcode
   **NeKI brief:** Swift's Advent of Code starter template demonstrates a package and command-line workflow outside Xcode. Use it to bootstrap reproducible exercises and inspect the minimum project structure needed for SwiftPM-based development.
 - [Advent of Code 2024](https://forums.swift.org/t/advent-of-code-2024/76301) — Article · Topics: Swift
-  **NeKI brief:** Uses Advent of Code 2024 as a practical reference for Apple-platform development, surfacing implementation constraints and workflow trade-offs worth checking before applying the idea in production code.
+  **NeKI brief:** make coding fun. This link is retained as a technical reading lead for Apple-platform development.
 
 ## [Issue 59](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-059)
 
@@ -1466,7 +1628,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [@ObservableDefaults](https://github.com/fatbobman/ObservableDefaults) — Source repository · Topics: Observation & State Management · Swift · SwiftUI
-  **NeKI brief:** ObservableDefaults bridges UserDefaults-backed values into SwiftUI observation. Use it when app settings need reactive updates while retaining UserDefaults persistence and predictable key-level storage.
+  **NeKI brief:** Fatbobman explores the challenges of integrating UserDefaults with the new Observation framework and introduces the ObservableDefaults library, a custom solution that allows properties to react to external changes in real-time while reducing unnecessary view…
 - [Chris Eidhof](https://m.objc.io/@chris) — Article · Topics: Observation & State Management · Swift · SwiftUI
   **NeKI brief:** Presents chris eidhof for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 
@@ -1713,6 +1875,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Converting Local LLMs to Core ML Models - How to Use 🤗 Exporters](https://zenn.dev/shu223/articles/coreml-exporters) — Article · Topics: AI Development · Dependency Injection · Xcode
   **NeKI brief:** Introduces exporting machine-learning models for Core ML, with attention to conversion tooling and deployment constraints. Use it to understand an end-to-end model-export workflow, verifying supported operators and runtime requirements for the target device.
+- [How to train your first machine learning model and run it inside your iOS app via CoreML](https://krausefx.com/blog/how-to-train-your-first-machine-learning-model-and-run-it-inside-your-ios-app-via-coreml?issue=031) — Article · Topics: AI Development · Developer Community & Business
+  **NeKI brief:** Walks through training a first machine-learning model with Create ML and embedding it in an iOS app through Core ML. Follow it to understand the model-conversion, packaging, and on-device inference workflow.
 - [Exporters](https://github.com/huggingface/exporters) — Source repository · Topics: AI Development · Developer Tools
   **NeKI brief:** Hugging Face Exporters converts trained models into deployment-oriented formats and artifacts. Follow it when an iOS ML pipeline needs a reproducible handoff from training output to Core ML or other runtime packaging.
 - [Migrating from CocoaPods to Tuist at Playtomic](https://dev.to/playtomic/migrating-from-cocoapods-to-tuist-at-playtomic-26ed?issue=031) — Article · Topics: Architecture · Composable Architecture · Objective-C & Cocoa
@@ -1878,7 +2042,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [release process](https://forums.swift.org/t/swift-6-0-release-process/70220) — Article · Topics: Developer Community & Business · Objective-C & Cocoa · Swift
-  **NeKI brief:** The Swift 6 release-process discussion records how toolchains, proposals, and release milestones are coordinated. Use it to understand version timing and migration planning rather than treating a release label as a complete compatibility guarantee.
+  **NeKI brief:** post. This link is retained as a technical reading lead for Apple-platform development.
 
 ## [Issue 19](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-019)
 
@@ -2102,7 +2266,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode) — Article · Topics: Foundation & Data Formats · Swift · SwiftData
   **NeKI brief:** Explains Unicode fundamentals and common misconceptions that still cause text-processing bugs. Use it when reviewing Swift string handling, normalization, grapheme boundaries, and serialization across user-visible content and external systems.
 - [https://github.com/thebrowsercompany/swift-winrt](https://github.com/thebrowsercompany/swift-winrt) — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
-  **NeKI brief:** swift-winrt generates Swift projections over Windows Runtime and its COM-based ABI. Use it to study cross-platform bindings, generated interop, and the boundary between Swift ergonomics and platform-specific runtime contracts.
+  **NeKI brief:** On another interesting turn of events, the browser Arc, fully developed using the Swift language, released its Windows version this week. What makes it interesting is that the tools they used are fully open-source and available on GitHub. Why not take a look…
 - [example](https://github.com/thebrowsercompany/windows-samples) — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **NeKI brief:** Collects Windows sample projects that accompany experiments with Swift and WinRT interoperability. Follow it for concrete API-binding and build examples, while keeping platform-specific assumptions isolated from portable Swift package code.
 - [Creating Shortcuts with App Intents](https://www.kodeco.com/40950083-creating-shortcuts-with-app-intents) — Article · Topics: App Distribution & Store Operations · App Intents & System Surfaces · Combine & Reactive Programming

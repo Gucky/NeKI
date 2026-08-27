@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** URLSession, HTTP, GraphQL, WebSockets, API clients, and network reliability.
 
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed links shown: **252**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **279**
 
 ## Direct-source reading
 
@@ -380,7 +380,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains URLSession's wait-for-connectivity behavior for requests made without immediate network access. Follow it when deciding whether retries should be delegated to the system or modeled explicitly in app state.
 - [openURL Deprecated in iOS10](https://useyourloaf.com/blog/openurl-deprecated-in-ios10) — Use Your Loaf · article catalogue
   **Published:** `2016-09-19T12:07:50+01:00`
-  **NeKI brief:** Migrates deprecated openURL calls to options-based APIs with completion reporting. Treat launch success as a request outcome, not proof the destination completed the desired user flow.
+  **NeKI brief:** Discusses the deprecation of openURL in iOS 10 and the move toward newer URL-opening APIs. Follow it for concrete migration context, while checking current UIApplication and scene behavior.
 - [WWDC 2016 Viewing Guide](https://useyourloaf.com/blog/wwdc-2016-viewing-guide) — Use Your Loaf · article catalogue
   **Published:** `2016-06-20T12:39:29+01:00`
   **NeKI brief:** Indexes WWDC16 sessions for focused discovery of platform changes. It is a historical routing aid; linked material must be checked for API deprecation and current availability.
@@ -521,8 +521,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
-- [How to stream SSE with URLSession in Swift](https://onmyway133.com/posts/how-to-stream-sse-with-urlsession-in-swift) — iOS Dev Weekly · Issue 763 — Article · Topics: Networking · Swift
-  **Published:** `14th August 2026`
+- [How to stream SSE with URLSession in Swift](https://onmyway133.com/posts/how-to-stream-sse-with-urlsession-in-swift) — Those Who Swift · Issue 280 — Article · Topics: AI Development · Networking · Swift
+  **Published:** `2026-08-19T20:31:22.272Z`
   **NeKI brief:** Builds a Server-Sent Events client from URLSession.bytes, first parsing data lines and then handling multi-field events through AsyncStream. The progression is useful for lightweight LLM token streaming without a separate dependency.
 - [AsyncImage Finally Gets Caching in SwiftUI](https://www.sagarunagar.com/blog/asyncimage-caching-wwdc-2026) — Those Who Swift · Issue 278 — Article · Topics: Networking · Performance · SwiftUI
   **Published:** `2026-08-05T20:00:46.292Z`
@@ -539,6 +539,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AsyncImage improvements in iOS 27](https://nilcoalescing.com/blog/AsyncImageImprovementsInSwiftUIOnIOS27?ref=createwithswift.com) — Create with Swift · Issue 113 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2026-06-27T18:12:28.000Z`
   **NeKI brief:** Covers iOS 27 AsyncImage improvements for loading behavior and presentation. Useful when replacing custom image loaders, while checking cache, cancellation, and failure semantics against the deployment target.
+- [AFP (Apple Filing Protocol)](https://appleinsider.com/articles/26/06/10/time-capsule-support-is-dead-in-macos-27-but-you-can-keep-the-hardware-alive) — iOS Dev Weekly · Issue 755 — Article · Topics: macOS & AppKit · Networking
+  **Published:** `19th June 2026`
+  **NeKI brief:** Examines Apple has terminated support for AFP in macOS 27, effectively killing off the Time Capsule. However, affected owners might be able to revive their hardware. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [M4 Max Mac Studio](https://www.youtube.com/watch?v=SjsmBfkH1K0) — iOS Dev Weekly · Issue 755 — Video · Topics: Networking
+  **Published:** `19th June 2026`
+  **NeKI brief:** It is truly the end of an era across the board, especially with macOS 27 also quietly pulling the plug on AFP (Apple Filing Protocol) and vintage AirPort Time Capsules. Seeing a networking standard that dates back to System 6 finally get sunsetted really…
 - [Announcing The Networking Workgroup](https://www.swift.org/blog/announcing-networking-workgroup) — Those Who Swift · Issue 270 — Article · Topics: Networking · Swift
   **Published:** `2026-06-10`
   **NeKI brief:** Announces Swift's Networking Workgroup and its role in coordinating networking APIs and ecosystem direction. Use it for project discovery and community context, not as a substitute for the concrete package or API documentation used in implementation.
@@ -548,15 +554,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift HTTP API Proposal](https://github.com/apple/swift-http-api-proposal) — Fatbobman’s Swift Weekly · Issue 139 — Source repository · Topics: Apple Platform Ecosystem · Networking · Swift
   **Published:** `2026-06-09T12:03:24.234Z`
   **NeKI brief:** The Swift HTTP API proposal explores a common foundation for HTTP types and behavior across client and server libraries. Use it to track interoperable networking direction before committing a new cross-library adapter.
+- [GQLSwift](https://github.com/BaherTamer/GQLSwift) — iOS Dev Tools · iOS Dev Tools: GQLSwift, ScreenPlace, BuildWatch — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-05-28T16:31:04.346Z`
+  **NeKI brief:** GQLSwift is a GitHub Swift library for GraphQL-related application code. Follow its source and README for concrete query or model-generation integration points, while checking supported GraphQL and Swift versions before adoption.
 - [How to Think About Performance in iOS](https://livsycode.com/best-practices/how-to-think-about-performance-in-ios?ref=createwithswift.com) — Create with Swift · Issue 107 — Article · Topics: Architecture · Graphics, Media & Games · Performance
   **Published:** `2026-05-15T16:00:08.000Z`
-  **NeKI brief:** Frames iOS performance as a measurement and prioritization problem rather than a collection of tricks. Follow it when planning investigations, connecting user-visible symptoms to traces, and choosing fixes that improve the actual bottleneck.
+  **NeKI brief:** Artem walks through iOS performance as a layered system covering metrics, architecture, UI rendering, networking, caching, memory, and CPU behavior.
 - [How To Think About Performance In iOS](https://livsycode.com/best-practices/how-to-think-about-performance-in-ios) — Those Who Swift · Issue 266 — Article · Topics: Architecture · Networking · Performance
   **Published:** `2026-05-13`
-  **NeKI brief:** Frames iOS performance as a measurement and prioritization problem rather than a collection of tricks. Follow it when planning investigations, connecting user-visible symptoms to traces, and choosing fixes that improve the actual bottleneck.
+  **NeKI brief:** Artem walks through iOS performance as a layered system covering metrics, architecture, UI rendering, networking, caching, memory, and CPU behavior.
 - [Production SwiftUI: Scalable Networking Architecture With Async/Await And Generics](https://www.youtube.com/watch?v=M5ZUGBeugP4) — Those Who Swift · Issue 266 — Video · Topics: Architecture · Concurrency · Networking
   **Published:** `2026-05-13`
   **NeKI brief:** Builds a protocol-driven SwiftUI networking stack with a Sendable API client, typed errors, endpoints, services, dependency injection, and preview mocks. The architectural discussion clarifies boundaries between view models, services, and concurrency isolation.
+- [Console logs showing up in the Network Monitor](https://www.rocketsim.app/docs/features/networking/network-traffic-monitoring) — SwiftLee Weekly · Issue 319 — Article · Topics: Networking
+  **Published:** `2026-04-14T14:07:31.000Z`
+  **NeKI brief:** Documents Console logs showing up in the Network Monitor, focusing on an iOS Simulator workflow and the concrete debugging or testing decisions it enables for Apple-platform development.
 - [participate here](https://forums.swift.org/t/prospective-vision-networking) — Fatbobman’s Swift Weekly · Issue 128 — Article · Topics: Developer Community & Business · Networking · Swift
   **Published:** `2026-03-23T12:02:22.360Z`
   **NeKI brief:** The Swift networking vision discussion collects community feedback on simplifying overlapping APIs across URLSession, Network.framework, SwiftNIO, and HTTP clients. Follow it when a networking abstraction decision depends on the ecosystem's future direction.
@@ -566,18 +578,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Mobile Engineers, You’re All Full-Stack](https://newsletter.mobileengineer.io/p/mobile-engineers-youre-all-full-stack?r=g891u&triedRedirect=true) — Those Who Swift · Issue 248 — Article · Topics: Code Quality · Networking · Persistence & Synchronisation
   **Published:** `2026-01-08`
   **NeKI brief:** Examines Mobile Engineers, You’re All Full-Stack, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [RequestSpec](https://github.com/ibrahimcetin/RequestSpec) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Source repository · Topics: Developer Tools · Networking · Swift
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** RequestSpec provides request-specification or API testing abstractions for Swift. Follow its source for concrete request construction and validation behavior, then evaluate how it handles errors, fixtures, and asynchronous execution.
+- [NetworkKit](https://github.com/bpisano/NetworkKit) — iOS Dev Tools · iOS Dev Tools: Votice, SwiftMCP, NetworkKit — Source repository · Topics: Developer Tools · Networking · Swift
+  **Published:** `2025-08-21T17:28:34.537Z`
+  **NeKI brief:** NetworkKit provides reusable networking abstractions for Swift applications. Follow its source for concrete request, response, and transport composition, then evaluate error handling, cancellation, and concurrency compatibility.
 - [Reserve Your Spot](https://pragmaconference.com/) — iOS Dev Tools · iOS Dev Tools: Picasso, YoutubeTranscript, Applite — Article · Topics: Developer Community & Business · Networking · Swift
   **Published:** `2025-07-17T18:57:30.320Z`
   **NeKI brief:** Provides the Pragmaconference event hub for talks and community sessions about Apple development. Use it to discover practitioner perspectives and verify session details before relying on a conference presentation.
+- [Keep Downloading with a Background Session](https://williamboles.com/keep-downloading-with-a-background-session) — Those Who Swift · Issue 212 — Article · Topics: Networking
+  **Published:** `2025-04-30`
+  **NeKI brief:** Explains continuing downloads with a background URLSession. Useful for designing resilient transfers that survive suspension and reconnect correctly through delegate-driven lifecycle events.
 - [Swift GraphQL Codegen](https://github.com/pm-dev/swift-graphql-codegen) — iOS Dev Tools · iOS Dev Tools: Swift GraphQL Codegen, HandySwiftUI, Surge — Source repository · Topics: Developer Tools · Networking · Swift
   **Published:** `2025-03-13T19:20:57.517Z`
   **NeKI brief:** Swift GraphQL Codegen generates Swift types and operations from a GraphQL schema, emphasizing correctness and flexible output. Useful for keeping API models synchronized with schema changes without hand-maintaining request and response structs.
 - [iPhone Apps 101 - SwiftUI App Development Course](https://paulsolt.teachable.com/p/iphoneapps101?affcode=1123_hyqyixcy) — SwiftLee Weekly · Issue 254 — Tutorial · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `2025-01-14T14:03:25.000Z`
   **NeKI brief:** Introduces iPhone Apps 101 - SwiftUI App Development Course as a developer resource or service relevant to Swift and Apple-platform work. Use it to assess the stated workflow or offering, checking scope, pricing, access requirements, and technical fit before relying on it.
+- [Testing Background Uploads in iOS](https://adamwulf.me/2025/01/testing-background-uploads-in-ios) — Those Who Swift · Issue 196 — Article · Topics: Networking · Testing
+  **Published:** `2025-01-09`
+  **NeKI brief:** Tests background uploads in iOS, focusing on execution constraints and reliable completion. Useful when validating upload behavior that must survive suspension rather than assuming foreground networking semantics.
 - [appstoreconnect-swift-sdk](https://github.com/AvdLee/appstoreconnect-swift-sdk) — iOS CI Newsletter · Issue 56 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
   **Published:** `2024-12-02T00:00:00.000Z`
   **NeKI brief:** Examines this project, focusing on the app store connect api is available and documented! straight away, antoine van der lee jumped into action and started…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [SocketRocket](https://github.com/facebookincubator/SocketRocket) — iOS Dev Tools · iOS Dev Tools: VirtualBuddy, Facebook SDK, SocketRocket — Source repository · Topics: Developer Tools
+  **Published:** `2024-11-21T15:40:40.034Z`
+  **NeKI brief:** SocketRocket implements a WebSocket client for iOS and macOS. Follow its source for concrete connection, delegate, and message-handling behavior, then evaluate protocol, concurrency, and maintenance compatibility with current networking code.
 - [How to Use URLSession with Async/Await for Network Requests in Swift](https://www.avanderlee.com/concurrency/urlsession-async-await-network-requests-in-swift?ref=createwithswift.com) — Create with Swift · Issue 35 — Article · Topics: Concurrency · Networking · Swift
   **Published:** `2024-11-08T16:05:59.000Z`
   **NeKI brief:** Builds URLSession requests with async/await, HTTP validation, decoding, and typed error handling without third-party networking frameworks. The sequence provides a concrete baseline for deciding where retries and cancellation belong.
@@ -596,30 +623,51 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AsyncImage in SwiftUI: Loading Images from URLs](https://matteomanferdini.com/swiftui-asyncimage) — SwiftUI Weekly · SwiftUI Weekly - Issue #189 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2024-06-04T09:49:38.933Z`
   **NeKI brief:** Explains AsyncImage loading phases, placeholders, and failures in SwiftUI. Useful for simple remote-image screens while clarifying when caching or a dedicated loader is still required.
+- [Moya](https://github.com/Moya/Moya) — iOS Dev Tools · iOS Dev Tools: Screenshot Studio, Moya, SkeletonView — Source repository · Topics: Developer Tools · Networking · Swift
+  **Published:** `2024-05-23T13:40:50.650Z`
+  **NeKI brief:** Moya wraps network requests in a higher-level Swift abstraction over URLSession. Follow its source for concrete target, provider, plugin, and request-testing patterns, then compare them with the project’s networking architecture.
 - [Pulse](https://github.com/kean/Pulse) — iOS Dev Tools · iOS Dev Tools: Pow, Maccy, Pulse — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Networking
   **Published:** `2024-04-25T13:41:52.260Z`
   **NeKI brief:** Provides the public source repository for Pulse. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
-- [Quicktype](https://quicktype.io/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi — Article
+- [Get](https://github.com/kean/Get) — iOS Dev Tools · iOS Dev Tools: Pow, Maccy, Pulse — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Networking
+  **Published:** `2024-04-25T13:41:52.260Z`
+  **NeKI brief:** Get provides Swift networking or HTTP abstractions. Follow its source for concrete request, response, and cancellation behavior, then compare its concurrency and error model with the application’s networking layer.
+- [Quicktype](https://quicktype.io/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi - iOS Dev Tools — Article
   **Published:** `2023-12-28T14:58:37.485Z`
   **NeKI brief:** Quicktype converts JSON, schemas, or GraphQL into typed models and serializers for many languages. Use it to bootstrap data-model code from representative payloads, then review naming, optionality, validation, and generated-code ownership before committing it.
-- [RapidAPI](https://paw.cloud/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi — Article · Topics: Networking · Testing
+- [RapidAPI](https://paw.cloud/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi - iOS Dev Tools — Article · Topics: Networking · Testing
   **Published:** `2023-12-28T14:58:37.485Z`
   **NeKI brief:** Paw is a macOS REST client for composing, testing, and documenting HTTP requests. Use it as historical API-workflow context and compare with maintained tooling before adoption.
 - [Introducing Swift HTTP Types](https://www.swift.org/blog/introducing-swift-http-types) — iOS Dev Weekly · Issue 618 — Article · Topics: Networking · Swift
   **Published:** `14th July 2023`
   **NeKI brief:** Explores Introducing Swift HTTP Types, focusing on what an excellent idea this is. i hope this becomes the last ever swift implementation of these core networking types!. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Starscream - Swift WebSocket Powerhouse](https://github.com/airbnb/lottie-ios) — iOS Dev Tools · 🔨 Real-time Rendering & Stunning Imagery — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2023-07-13T13:51:39.780Z`
+  **NeKI brief:** Lottie iOS renders JSON-based vector animations in Apple-platform applications. Follow its source for concrete animation loading, playback, and rendering integration, then verify performance and format compatibility for the target app.
+- [Moya - Networking Abstraction Layer for Swift](https://github.com/Juanpe/SkeletonView) — iOS Dev Tools · 🔨 Elevate Swift Networking with Moya & More — Source repository · Topics: Developer Tools · Networking · Swift
+  **Published:** `2023-06-22T13:47:30.798Z`
+  **NeKI brief:** SkeletonView adds loading placeholders and skeleton animations to iOS interfaces. Follow its source for concrete table, collection, and view-layout integration patterns, while checking compatibility with current UIKit and Swift versions.
 - [Implementing reachability](https://www.avanderlee.com/swift/optimizing-network-reachability?ref=ioscodereview.com) — iOS Code Review · Issue 47 — Article · Topics: Networking · Swift
   **Published:** `2023-04-28T10:30:39.000Z`
   **NeKI brief:** Uses NWPathMonitor to observe connectivity without treating reachability as proof that a request will succeed. Useful for gating retries or UI hints while keeping the server response authoritative.
+- [Downloading Data in SwiftUI with URLSession and async/await](https://matteomanferdini.com/swift-urlsession) — SwiftUI Weekly · SwiftUI Weekly - Issue #135 — Article · Topics: Concurrency · Networking · Swift
+  **Published:** `2023-03-13T10:48:39.427Z`
+  **NeKI brief:** Explains Many modern iOS apps are connected to the internet. When you need to download or upload data, URLSession is the solution. Together with other types, URLSession not only transfers data over a network but also groups trans Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [URLRequest cache policies](https://tanaschita.com/20221031-managing-cache-when-working-with-urlsession-in-ios?ref=ioscodereview.com) — iOS Code Review · Issue 37 — Article · Topics: Networking
   **Published:** `2022-11-18T11:51:59.000Z`
   **NeKI brief:** URLRequest cache policies control reuse, validation and network freshness. The comparison is useful for choosing per-request behavior rather than applying a global cache assumption to every endpoint.
 - [Decode an array with a corrupted element | Sarunw](https://sarunw.com/posts/decode-array-with-corrupted-element?ref=ioscodereview.com) — iOS Code Review · Issue 19 — Article · Topics: Foundation & Data Formats
   **Published:** `2022-03-24T11:50:04.000Z`
   **NeKI brief:** Codable normally fails an entire array when one element violates its schema, which is the right default for controlled APIs. For legacy or third-party data, decode elements through a lossy optional wrapper, discard failures deliberately, and log the data-quality trade-off.
+- [Manipulating in-flight networking requests and responses](https://tanaschita.com/20220307-manipulating-network-requests-and-responses-with-charles) — iOS Dev Weekly · Issue 549 — Article · Topics: Developer Tools · Networking · Personal Essays
+  **Published:** `11th March 2022`
+  **NeKI brief:** Examines Learn how to use Charles breakpoints tool to change network data and test your iOS application. The breakpoints tool lets us intercept and manipulate requests and responses before. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Download Progress With Awaited Network Tasks](https://khanlou.com/2021/10/download-progress-with-awaited-network-tasks) — iOS Dev Weekly · Issue 529 — Article · Topics: Concurrency · Networking
   **Published:** `15th October 2021`
   **NeKI brief:** Explores Download Progress With Awaited Network Tasks, focusing on so, if you no longer need to deal with urlsessiondatatask. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Levelling up our Networking at Steamclock](https://steamclock.com/blog/2021/10/introducing-netable) — iOS Dev Weekly · Issue 528 — Article · Topics: Networking
+  **Published:** `8th October 2021`
+  **NeKI brief:** Introduces Netable as Steamclock’s approach to structuring and improving networking code in an app. Useful for examining a production team’s networking abstractions and trade-offs rather than copying an architecture without local constraints.
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) — iOS Dev Weekly · Issue 528 — Source repository · Topics: Developer Tools · Networking
   **Published:** `8th October 2021`
   **NeKI brief:** Provides the AFNetworking 2.0 source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -629,9 +677,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [follow-up post](https://inessential.com/2021/03/21/benefits_of_netnewswires_threading_model) — iOS Dev Weekly · Issue 500 — Article · Topics: Concurrency · Networking
   **Published:** `26th March 2021`
   **NeKI brief:** Explores the benefits of NetNewsWire's threading model, connecting queue choices with responsive UI and safe data access. Use it to review actor or dispatch boundaries, then verify historical SDK assumptions before production use.
+- [Swift WebSockets: Starscream or URLSession in 2021?](https://getstream.io/blog/swift-websockets-starscream-urlsession) — iOS Dev Weekly · Issue 498 — Article · Topics: Networking · Swift
+  **Published:** `12th March 2021`
+  **NeKI brief:** Examines In this article, we’ll go over several positive and negative characteristics of Starscream and URLSession to help you decide which fits best with your requirements for WebSockets. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [URLSession’s Delegate Queue Should Be the Main Queue](https://inessential.com/2021/01/27/urlsession_delegate_main_queue) — iOS Dev Weekly · Issue 493 — Article · Topics: Concurrency · Networking
   **Published:** `5th February 2021`
   **NeKI brief:** Examines URLSession's Delegate Queue Should Be the Main Queue, offering practical guidance on networking and asynchronous reliability. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [Sign up for Apollo Day! An Event Focused on GraphQL for Mobile](https://go.apollo.dev/apollo-day) — iOS Dev Weekly · Issue 491 — Article
+  **Published:** `22nd January 2021`
+  **NeKI brief:** Apollo Day Mobile is a one-day event focused on mobile development with Apollo GraphQL. You’ll see talks on using GraphQL from multiple platforms, along with a panel discussion with the team of Apollo GraphQL experts. Everyone is welcome, no matter your…
 - [GraphQL Interfaces, Unions, and Fragments In SwiftUI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD91dG1fY2FtcGFpZ249JTIwU3dpZnRVSSUyMFdlZWtseSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9UmV2dWUlMjBuZXdzbGV0dGVyJnY9SE5rc2lxTXVQMUkiLCJwb3N0X2lkIjoiMjRiMzQ3YmQtZTA2NS00ZGJmLThjMTAtMzJhZjQ4ZTM1MTZmIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6Ijk4ZDliYTZjLWE2NjAtNDdiOC1iZjg1LTQwZmU4ODY2OGViOCIsImlhdCI6MTY3NDA2MjczNi43OTMsImlzcyI6Im9yY2hpZCJ9.teolY23pM5QygzOT8FIwGcxuhQfPjdSLMQLZxLbATNo) — SwiftUI Weekly · SwiftUI Weekly - Issue #29 — Article · Topics: Swift · SwiftUI
   **Published:** `2020-09-28T20:44:06.000Z`
   **NeKI brief:** Introduces GraphQL interfaces, unions, and fragments in a SwiftUI client context. Use it to reason about decoding polymorphic API results before mapping them into stable view models.
@@ -683,15 +737,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Networking](https://github.com/3lvis/Networking) — iOS Dev Weekly · Issue 251 — Source repository · Topics: Developer Tools · Networking · Testing
   **Published:** `20th May 2016`
   **NeKI brief:** Examines Networking, focusing on new networking library from elvis nuñez which shipped a 1.0 this week. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Please Enter Your Password](http://unexpectederror.net/please-enter-your-password) — iOS Dev Weekly · Issue 249 — Article · Topics: Networking · Security & Privacy
+  **Published:** `6th May 2016`
+  **NeKI brief:** Examines How many times have you entered a password into a computer, phone or tablet?. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [GitHub repository](https://github.com/joemasilotti/TestingNSURLSession) — iOS Dev Weekly · Issue 242 — Source repository · Topics: Developer Tools · Networking · Testing
   **Published:** `18th March 2016`
   **NeKI brief:** Provides the GitHub repository source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [worth a read](http://www.cimgf.com/2016/01/28/a-modern-network-operation) — iOS Dev Weekly · Issue 235 — Article · Topics: Networking
+  **Published:** `29th January 2016`
+  **NeKI brief:** Examines A Modern Network Operation | Cocoa Is My Girlfriend. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [AFNetworking 3](https://github.com/AFNetworking/AFNetworking/releases/tag/3.0.0) — iOS Dev Weekly · Issue 228 — Source repository · Topics: Developer Tools · Networking
   **Published:** `11th December 2015`
   **NeKI brief:** Provides the AFNetworking 3 source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [Migration Guide](https://github.com/AFNetworking/AFNetworking/wiki/AFNetworking-3.0-Migration-Guide) — iOS Dev Weekly · Issue 228 — Source repository · Topics: Developer Tools · Networking
   **Published:** `11th December 2015`
   **NeKI brief:** Provides the Migration Guide source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Vision API - Image Content Analysis](https://cloud.google.com/vision) — iOS Dev Weekly · Issue 228 — Article · Topics: Networking
+  **Published:** `11th December 2015`
+  **NeKI brief:** Not related directly to iOS, but usable from it! This is Google’s image content analysis library available via a REST API. Offering basic object detection, inappropriate content detection and plenty more. There’s plenty of apps that could be built on top of…
 - [ResponseDetective](https://github.com/netguru/ResponseDetective) — iOS Dev Weekly · Issue 208 — Source repository · Topics: Developer Tools · Networking
   **Published:** `24th July 2015`
   **NeKI brief:** Provides the ResponseDetective source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -704,9 +767,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [this article](http://techblog.thescore.com/2015/05/20/reducing-watchkit-traffic-with-view-models) — iOS Dev Weekly · Issue 201 — Article · Topics: Networking
   **Published:** `5th June 2015`
   **NeKI brief:** Explains Reducing WatchKit Traffic With View Models with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [Response to recent security concerns in AFNetworking](https://gist.github.com/AlamofireSoftwareFoundation/f784f18f949b95ab733a) — iOS Dev Weekly · Issue 196 — Source repository · Topics: Developer Tools · Networking · Security & Privacy
+  **Published:** `1st May 2015`
+  **NeKI brief:** The gist contains a public response to security concerns in AFNetworking, documenting the maintainers' technical position and remediation context.
 - [Sync](https://github.com/hyperoslo/Sync) — iOS Dev Weekly · Issue 193 — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **Published:** `10th April 2015`
   **NeKI brief:** Provides the Sync source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [SSL MiTM attack in AFNetworking 2.5.1](http://blog.mindedsecurity.com/2015/03/ssl-mitm-attack-in-afnetworking-251-do.html) — iOS Dev Weekly · Issue 191 — Article · Topics: Cross-Platform & Web · Networking · Security & Privacy
+  **Published:** `27th March 2015`
+  **NeKI brief:** This security advisory describes an SSL man-in-the-middle issue affecting AFNetworking 2.5.1 and points to the 2.5.2 fix. It is valuable historical dependency-risk context for checking networking-library versions and responding quickly to security releases.
+- [2.5.2 was released](https://github.com/AFNetworking/AFNetworking/releases/tag/2.5.2) — iOS Dev Weekly · Issue 191 — Source repository · Topics: Developer Tools · Networking
+  **Published:** `27th March 2015`
+  **NeKI brief:** Examines You should read the article for the full details but given how prevalent AFNetworking usage is this is something you should certainly pay attention to. Just a few hours ago version 2.5.2 was released which includes a fix Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Easier File Networking with Carrierwave-iOS](https://netguru.co/blog/carrierwave-ios-in-open-source) — iOS Dev Weekly · Issue 190 — Article · Topics: Networking
   **Published:** `20th March 2015`
   **NeKI brief:** Explains Easier File Networking with Carrierwave-iOS with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
@@ -734,6 +806,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [check out the follow up post for a better solution to the original problem](http://tech.ustwo.com/2014/06/05/ios-swift-afnetworking-issue-part-ii) — iOS Dev Weekly · Issue 149 — Article · Topics: Networking · Swift
   **Published:** `6th June 2014`
   **NeKI brief:** Explains check out the follow up post for a better solution to the original problem with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because.
+- [How an Under-Appreciated iOS 7 Feature Will Change the World](http://www.cultofmac.com/271225/appreciated-ios-7-feature-will-change-world) — iOS Dev Weekly · Issue 139 — Article · Topics: Networking
+  **Published:** `28th March 2014`
+  **NeKI brief:** Explains How an Under-Appreciated iOS 7 Feature Will Change the World, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [AFNetworking SSL Pinning With Self-Signed Certificates](http://initwithfunk.com/blog/2014/03/12/afnetworking-ssl-pinning-with-self-signed-certificates) — iOS Dev Weekly · Issue 137 — Article · Topics: Networking · Security & Privacy
+  **Published:** `14th March 2014`
+  **NeKI brief:** Explains AFNetworking SSL Pinning With Self-Signed Certificates, focusing on the concrete iOS implementation technique and the trade-offs relevant to production applications.
 - [Haneke](https://github.com/hpique/Haneke) — iOS Dev Weekly · Issue 136 — Source repository · Topics: Developer Tools · Networking · UIKit
   **Published:** `7th March 2014`
   **NeKI brief:** Provides the Haneke source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -746,6 +824,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Nocilla](https://github.com/luisobo/Nocilla) — iOS Dev Weekly · Issue 67 — Source repository · Topics: Developer Tools · Networking · Testing
   **Published:** `9th November 2012`
   **NeKI brief:** Provides the Nocilla source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Remote Packet Capture for iOS devices](http://useyourloaf.com/blog/2012/02/07/remote-packet-capture-for-ios-devices.html) — iOS Dev Weekly · Issue 60 — Article · Topics: Cross-Platform & Web · Developer Tools · Networking
+  **Published:** `21st September 2012`
+  **NeKI brief:** Examines Continuing the networking theme Keith Harrison on examining network data from a real device on your Mac using a remote virtual interface rather than a proxy. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Introducing SocketRocket](http://corner.squareup.com/2012/02/socketrocket-websockets.html) — iOS Dev Weekly · Issue 28 — Article · Topics: Cross-Platform & Web · Networking
   **Published:** `10th February 2012`
   **NeKI brief:** Explains Introducing SocketRocket with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.

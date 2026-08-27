@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.swiftjectivec.com/allposts](https://www.swiftjectivec.com/allposts)
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed entries: **200**
+- Last collected: `2026-08-27T13:26:05Z`
+- Indexed entries: **201**
 
+- [Introducing Indie Walks | Swiftjective-C](https://swiftjectivec.com/Introducing-Indie-Walks)
+  **Published:** `2026-08-24T00:00:00-05:00`
+  **Topics:** Developer Community & Business
+  **NeKI brief:** Announces a concise, ongoing video-journal series about independent iOS practice, including revenue, web-to-app work, and balancing side projects with parenting. It is a source-format and community-development update rather than technical implementation guidance.
 - [The Skills Conundrum | Swiftjective-C](https://swiftjectivec.com/The-Skills-Conundrum)
   **Published:** `2026-08-10T00:00:00-05:00`
   **Topics:** AI Development · Developer Tools

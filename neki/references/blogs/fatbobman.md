@@ -3,9 +3,17 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://fatbobman.com/en/posts/](https://fatbobman.com/en/posts/)
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed entries: **233**
+- Last collected: `2026-08-27T13:26:05Z`
+- Indexed entries: **235**
 
+- [From Using AI to Delegating Work to AI (Part 2) - What I Mean by Delegability](https://fatbobman.com/en/posts/from-using-ai-to-delegating-work-to-ai-2)
+  **Published:** `2026-08-19T14:00:00.000Z`
+  **Topics:** AI Development
+  **NeKI brief:** Defines delegability through a deterministic runtime, durable task records, isolated contexts, and explicit handoffs. It clarifies why models may assess actions but cannot infer authorization, and where policy should constrain state-changing work.
+- [From Using AI to Delegating Work to AI (Part 1) - Why I No Longer Wait for Stronger Models](https://fatbobman.com/en/posts/from-using-ai-to-delegating-work-to-ai)
+  **Published:** `2026-08-19T14:00:00.000Z`
+  **Topics:** AI Development
+  **NeKI brief:** Frames delegation as a systems problem rather than a model-capability race, identifying context drift, rule decay, and ambiguous authority. Useful for moving stable facts and enforceable checks into external tools while reserving intent and approvals for people.
 - [ContentBuilder Explained - The Secret Behind SwiftUI's Type-Checking Speedup](https://fatbobman.com/en/posts/contentbuilder-explained)
   **Published:** `2026-08-12T14:00:00.000Z`
   **Topics:** Performance · SwiftUI

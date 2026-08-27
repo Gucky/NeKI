@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Git, command-line work, debugging, automation, and practical developer workflows.
 
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed links shown: **1266**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **2446**
 
 ## Direct-source reading
 
@@ -98,10 +98,46 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Introduction to bash scripting for iOS developers](https://tanaschita.com/20231023-bash-scripting-for-ios-devs) — Tanaschita · article catalogue
   **NeKI brief:** Bash scripting examples automate repeatable iOS development tasks outside Xcode. The useful boundary is treating arguments, exit codes and environment variables as a stable tool contract rather than a shell-only convenience.
 - [Handling Storyboard Merge Conflicts](https://martiancraft.com/blog/2018/02/handling-storyboard-merge-conflicts) — MartianCraft · article catalogue
-  **NeKI brief:** Storyboard XML conflicts are resolved by understanding scene and constraint identifiers, then checking the rendered graph rather than blindly accepting textual hunks. The workflow reduces broken navigation and Auto Layout relationships after parallel UI edits.
+  **NeKI brief:** Explains Handling Storyboard Merge Conflicts, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 
 ## Newsletter and related leads
 
+- [AI Wanted to Give Up. The Human Didn’t.](https://fatbobman.com/en/weekly/issue-150) — Those Who Swift · Issue 281 — Article · Topics: AI Development · Developer Tools · Persistence & Synchronisation
+  **Published:** `2026-08-26T20:38:31.643Z`
+  **NeKI brief:** Curates Apple-platform topics including AI delegation, Swift Package Registry, CoreBluetooth concurrency, CloudKit, and OCR mapping. It serves as a source map to several implementation discussions, with each linked article requiring its own technical evaluation.
+- [Returned For RevisionSE-0539Enable Macros to Grant `self` Access for Property Initializers](https://github.com/apple/swift-evolution/blob/main/proposals/0539-self-access-for-property-initializers.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
+  **Published:** `2026-08-25T14:06:16.000Z`
+  **NeKI brief:** Proposal SE-0539 explores allowing attached macros to grant controlled self access during property initialization. Follow it when macro-generated storage needs enclosing-instance context, while checking review status and initialization-safety constraints before relying on the feature.
+- [AcceptedSE-0543InlineArray: Hashable](https://github.com/apple/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-08-25T14:06:16.000Z`
+  **NeKI brief:** Proposes conditional Equatable and Hashable conformances for InlineArray when its elements qualify, using elementwise equality and hashing every element with linear complexity.
+- [Active ReviewSE-0546Same-file memberwise initializer extensions](https://github.com/apple/swift-evolution/blob/main/proposals/0546-memberwise-init-extensions.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-08-25T14:06:16.000Z`
+  **NeKI brief:** Specifies SE-0546, which permits a same-file extension to declare a memberwise initializer with broader access. It defines the matching rules and explains how an explicit initializer interacts with synthesis, helping library authors expose stable construction APIs without changing ABI behavior.
+- [ArcBLEKit](https://github.com/ilawsonlu/ArcBLEKit) — Fatbobman’s Swift Weekly · Issue 150 — Source repository · Topics: Concurrency · Developer Tools · Objective-C & Cocoa
+  **Published:** `2026-08-24T12:03:48.210Z`
+  **NeKI brief:** Provides a zero-dependency Swift Concurrency package for BLE central apps on iOS 14 and macOS 11 onward. Its cancellable scanning, connection, GATT, notification, timeout, reconnect, and write-backpressure APIs show how to contain CoreBluetooth delegate complexity.
+- [SwiftTUI: Building Terminal Interfaces the SwiftUI Way](https://l.fatbobman.com/w0150-8) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-24T12:03:48.210Z`
+  **NeKI brief:** Provides a beta Swift framework that maps SwiftUI-style views, state, focus, gestures, layout, and animation onto terminal cells. It supports native macOS, Linux, and Windows binaries plus browser/WASI and native-host variants, with partial redraws and TTY-free frame testing.
+- [SwiftNavigation](https://github.com/pointfreeco/swift-navigation) — iOS CI Newsletter · Issue 92 — Source repository · Topics: Dependency Injection · Developer Tools · Swift
+  **Published:** `2026-08-23T00:00:00.000Z`
+  **NeKI brief:** Introduces Point-Free’s cross-platform, state-driven navigation package, with SwiftUI and UIKit modules, binding tools, case studies, and deep-linkable state. It is useful when moving UIKit navigation from imperative actions to a model that stays synchronized with presentations.
+- [Using AI while exercising your critical thinking](https://swiftrocks.com/using-ai-without-losing-critical-thinking) — iOS Dev Weekly · Issue 764 — Article · Topics: AI Development · Developer Tools · Swift
+  **Published:** `21st August 2026`
+  **NeKI brief:** Argues that developers must verify AI claims and retain engineering judgment, framing uncritical relay of model output as cognitive surrender rather than productive delegation.
+- [KSCrash](https://github.com/kstenerud/KSCrash) — iOS Dev Tools · iOS Dev Tools: Appllama, KSCrash, Reely — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `2026-08-20T16:31:57.620Z`
+  **NeKI brief:** KSCrash is a mature iOS/macOS crash-reporting library that captures native crashes and turns them into reports for later symbolication or delivery. It is useful when comparing in-process crash capture with hosted crash-reporting SDK trade-offs.
+- [Adapting EPUB 3 Features to CoreText in Yuedu Reader](https://chang-jui-lin.github.io/Yuedu-reader/2026/06/08/coretext-epub3-adaptation) — Those Who Swift · Issue 280 — Article · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `2026-08-19T20:31:22.272Z`
+  **NeKI brief:** Explains how the Yuedu Reader maps EPUB 3 features such as fixed layout, media overlays, HTML5 media, CSS floats, tables, and bidirectional text onto a native CoreText engine. The article is a concrete case study in preserving rich document semantics across a custom reader layout.
+- [The Curious Case of the missing SwiftUI Clicks](https://damian.fyi/swift/2026/08/16/curious-case-of-missing-click.html) — Those Who Swift · Issue 280 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
+  **Published:** `2026-08-19T20:31:22.272Z`
+  **NeKI brief:** Investigates a missing SwiftUI click in the context of a searchable, on-device timeline app. The debugging story highlights how gesture targets and view composition can diverge from the visual hierarchy, a useful reminder when diagnosing apparently inactive controls.
+- [IP and DNS Leaks in WebKit Affecting Proxy Browsers and Apple iCloud Private Relay](https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak) — Those Who Swift · Issue 280 — Article · Topics: Developer Tools · Objective-C & Cocoa · Security & Privacy
+  **Published:** `2026-08-19T20:31:22.272Z`
+  **NeKI brief:** Demonstrates three WebKit paths—DNS prefetching, WebAuthn related-origin requests, and WebTransport—that can bypass configured proxies and expose a device's network. It distinguishes affected proxy and Private Relay setups from system-level VPN tunnels.
 - [Fastlane alternative - Codemagic CLI tools](https://github.com/codemagic-ci-cd/cli-tools) — SwiftLee Weekly · Issue 337 — Source repository · Topics: CI/CD & Automation · Developer Tools
   **Published:** `2026-08-18T14:06:21.000Z`
   **NeKI brief:** Codemagic CLI tools collect utilities for iOS and Android build automation, code signing, and deployment. Useful for inspecting reusable CI primitives before writing bespoke scripts around archives, provisioning, or store uploads.
@@ -111,9 +147,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Active ReviewSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Performance · Swift
   **Published:** `2026-08-18T14:06:21.000Z`
   **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
-- [WebKit IP and DNS leaks affecting proxies and Private Relay](https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak) — iOS Dev Weekly · Issue 763 — Article · Topics: Developer Tools
-  **Published:** `14th August 2026`
-  **NeKI brief:** Demonstrates three WebKit paths—DNS prefetching, WebAuthn related-origin requests, and WebTransport—that can bypass configured proxies and expose a device's network. It distinguishes affected proxy and Private Relay setups from system-level VPN tunnels.
 - [Simple Simulator Manager](https://github.com/Heckscheibe/SimpleSimulatorManager) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Source repository · Topics: Developer Tools · macOS & AppKit
   **Published:** `2026-08-13T16:30:38.104Z`
   **NeKI brief:** Provides a macOS menu-bar route to simulator app containers, bundles, Documents, UserDefaults, and App Groups, plus cleanup of unavailable runtimes. It removes repeated CoreSimulator UUID hunting from inspection and disk-maintenance workflows.
@@ -135,9 +168,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Active ReviewSE-0541Flexible Swift/C Interoperability for Packages](https://github.com/apple/swift-evolution/blob/main/proposals/0541-flexible-swift-c-interoperability-for-packages.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-08-11T14:07:13.000Z`
   **NeKI brief:** Proposes mixed Swift and C-family sources in SwiftPM targets, bridging-header manifest support and sounder generated-header consumption for package interoperability.
-- [Active ReviewSE-0543InlineArray: Hashable](https://github.com/apple/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
-  **Published:** `2026-08-11T14:07:13.000Z`
-  **NeKI brief:** Proposes conditional Equatable and Hashable conformances for InlineArray when its elements qualify, using elementwise equality and hashing every element with linear complexity.
 - [My Swift Concurrency Agent Skill should already work](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill/releases/tag/2.2.0) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-08-11T14:07:13.000Z`
   **NeKI brief:** Updates the Swift concurrency skill with approachable-concurrency settings, Xcode defaults and SendableMetatype guidance while adopting the Agent Plugins 1.0 portable package format.
@@ -165,9 +195,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0526withDeadline](https://github.com/apple/swift-evolution/blob/main/proposals/0526-deadline.md) — SwiftLee Weekly · Issue 335 — Source repository · Topics: Developer Tools · Swift · SwiftData
   **Published:** `2026-08-04T14:04:01.000Z`
   **NeKI brief:** Proposal SE-0526 adds withDeadline for time-bounded asynchronous work. Read it to distinguish deadline expiry from ordinary cancellation and failure, and verify accepted semantics and toolchain availability before designing a public timeout API around it.
-- [Active ReviewSE-0539Enable Macros to Grant `self` Access for Property Initializers](https://github.com/apple/swift-evolution/blob/main/proposals/0539-self-access-for-property-initializers.md) — SwiftLee Weekly · Issue 335 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
-  **Published:** `2026-08-04T14:04:01.000Z`
-  **NeKI brief:** Proposal SE-0539 explores allowing attached macros to grant controlled self access during property initialization. Follow it when macro-generated storage needs enclosing-instance context, while checking review status and initialization-safety constraints before relying on the feature.
 - [TaskProperty](https://github.com/vanvoorden/TaskProperty) — Fatbobman’s Swift Weekly · Issue 147 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-08-03T12:02:34.944Z`
   **NeKI brief:** TaskProperty is a focused experiment for attaching asynchronous, stateful work to SwiftUI views. Use the source to examine task lifetime, cancellation, and reusable ownership semantics before adopting the pattern in production UI code.
@@ -186,19 +213,28 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Make AI talk without human social patterns](https://swiftrocks.com/a-system-prompt-to-get-ai-to-stop-pretending-to-be-human) — iOS Dev Weekly · Issue 760 — Article · Topics: AI Development · Developer Tools
   **Published:** `24th July 2026`
   **NeKI brief:** Offers a concrete system prompt that removes conversational filler and asks a model to describe its computational role directly. The author reports subjective improvement but no evaluations, making it a prompt experiment rather than validated guidance.
+- [ImplementedSE-0522Source-Level Control Over Compiler Warnings](https://github.com/apple/swift-evolution/blob/main/proposals/0522-source-warning-control.md) — SwiftLee Weekly · Issue 323 — Source repository · Topics: Architecture · Developer Tools · Swift
+  **Published:** `2026-07-21T14:05:55.000Z`
+  **NeKI brief:** Records ImplementedSE-0522Source-Level Control Over Compiler Warnings, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [ImplementedSE-0525Safe loading API for `RawSpan`](https://github.com/apple/swift-evolution/blob/main/proposals/0525-rawspan-safe-loading-api.md) — SwiftLee Weekly · Issue 323 — Source repository · Topics: Architecture · Developer Tools · Swift
   **Published:** `2026-07-21T14:05:55.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0525Safe loading API for `RawSpan`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
-- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [RejectedSE-0533Generating synchronous overloads of `async` functions with a macro](https://github.com/apple/swift-evolution/blob/main/proposals/0533-reasync-macros.md) — SwiftLee Weekly · Issue 323 — Source repository · Topics: Architecture · Concurrency · Swift
+  **Published:** `2026-07-21T14:05:55.000Z`
+  **NeKI brief:** Records RejectedSE-0533Generating synchronous overloads of `async` functions with a macro, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [Active ReviewSE-0538Disconnected](https://github.com/apple/swift-evolution/blob/main/proposals/0538-disconnected.md) — SwiftLee Weekly · Issue 323 — Source repository · Topics: Architecture · Developer Tools · Swift
+  **Published:** `2026-07-21T14:05:55.000Z`
+  **NeKI brief:** Records Active ReviewSE-0538Disconnected, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** MistKit packages CloudKit Web Services access for server-side Swift and command-line tools, separating backend automation from Apple's client frameworks. Useful when a service needs CloudKit data without running inside an iOS app.
-- [Swift Scribe](https://github.com/FluidInference/swift-scribe) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: AI Development · Developer Tools · Swift
+- [Swift Scribe](https://github.com/FluidInference/swift-scribe) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Swift Scribe combines local microphone transcription with on-device summarization on current Apple OS releases, without external dependencies. Useful for evaluating a privacy-preserving speech pipeline and its deployment-version constraints.
-- [cmux](https://github.com/manaflow-ai/cmux) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: AI Development · Developer Tools · Product Design
+- [cmux](https://github.com/manaflow-ai/cmux) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** cmux is a Ghostty-based macOS terminal organized around vertical tabs, notifications, and programmable agent workflows. Useful for evaluating a terminal layout that keeps multiple coding-agent sessions visible and actionable.
-- [agent-browser](https://github.com/vercel-labs/agent-browser) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: Developer Tools · Product Design
+- [agent-browser](https://github.com/vercel-labs/agent-browser) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: Developer Tools · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** agent-browser exposes browser automation through a CLI designed for AI agents, giving scripts navigation, interaction, and inspection primitives. Useful for comparing deterministic command workflows with bespoke browser-control integrations.
 - [Swift Bits: My Top Xcode CI Environment Variables](https://antongubarenko.substack.com/p/swift-bits-my-top-xcode-ci-environment) — Those Who Swift · Issue 275 — Article · Topics: Developer Tools · Swift · Xcode
@@ -210,6 +246,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [open sourced](https://github.com/apple/swift-nio-quic?ref=ioscodereview.com) — iOS Code Review · Issue 82 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-07-14T19:04:53.000Z`
   **NeKI brief:** Provides the source and change history for open sourced, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
+- [AcceptedSE-0532`Optional` noncopyable improvements and generalizations](https://github.com/apple/swift-evolution/blob/main/proposals/0532-optional-noncopyable-improvements.md) — SwiftLee Weekly · Issue 322 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-07-14T14:06:22.000Z`
+  **NeKI brief:** Records AcceptedSE-0532`Optional` noncopyable improvements and generalizations, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [Active ReviewSE-0536Package Registry Search](https://github.com/apple/swift-evolution/blob/main/proposals/0536-registry-search.md) — SwiftLee Weekly · Issue 322 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `2026-07-14T14:06:22.000Z`
+  **NeKI brief:** Records Active ReviewSE-0536Package Registry Search, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [TourKit](https://github.com/rampatra/TourKit) — iOS Dev Tools · iOS Dev Tools: TourKit, MockingKit, MemoryMap — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-07-09T16:30:20.398Z`
   **NeKI brief:** TourKit implements Apple-style onboarding tours for Mac and iPhone apps, providing guided highlights over application UI. Useful when a product needs contextual feature discovery instead of a sequence of static introduction screens.
@@ -228,6 +270,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Lidless](https://github.com/nghialuong/Lidless) — iOS Dev Tools · iOS Dev Tools: TourKit, MockingKit, MemoryMap — Source repository · Topics: Developer Tools · macOS & AppKit · Personal Essays
   **Published:** `2026-07-09T16:30:20.398Z`
   **NeKI brief:** Lidless keeps a Mac running with its lid closed, targeting unattended coding-agent workflows from the menu bar. Useful for evaluating laptop clamshell automation while considering thermal, power, and security trade-offs.
+- [Quay](https://abhi.am/quay) — iOS Dev Tools · iOS Dev Tools: TourKit, MockingKit, MemoryMap — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-07-09T16:30:20.398Z`
+  **NeKI brief:** Quay is a macOS utility from Kumar Abhishek; follow the product page to inspect its stated workflow and positioning as a focused developer tool rather than an implementation article or framework reference.
 - [AcceptedSE-0513API to get the path to the current executable](https://github.com/apple/swift-evolution/blob/main/proposals/0513-commandline-executablepath.md) — SwiftLee Weekly · Issue 331 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-07-07T14:05:55.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0513API to get the path to the current executable. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -255,6 +300,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [A Community Agent Skill for Swift Testing](https://github.com/twostraws/Swift-Testing-Agent-Skill?ref=ioscodereview.com) — iOS Code Review · Issue 81 — Source repository · Topics: Developer Community & Business · Swift · Testing
   **Published:** `2026-06-30T16:31:22.000Z`
   **NeKI brief:** Provides the source and change history for A Community Agent Skill for Swift Testing, relevant to Developer Community & Business and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
+- [ImplementedSE-0521Improved Syntax for Optionals of Opaque and Existential Types](https://github.com/apple/swift-evolution/blob/main/proposals/0521-improved-optional-opaque-and-any.md) — SwiftLee Weekly · Issue 330 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-06-30T14:07:37.000Z`
+  **NeKI brief:** Records ImplementedSE-0521Improved Syntax for Optionals of Opaque and Existential Types, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [ImplementedSE-0528`Continuation` — Safe and Performant Async Continuations](https://github.com/apple/swift-evolution/blob/main/proposals/0528-noncopyable-continuation.md) — SwiftLee Weekly · Issue 330 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-06-30T14:07:37.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0528`Continuation` — Safe and Performant Async Continuations. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -267,6 +315,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Your iOS Builds Deserve Better](https://go.macstadium.com/build-faster-with-orka) — iOS Dev Weekly · Issue 756 — Article · Topics: Developer Tools
   **Published:** `26th June 2026`
   **NeKI brief:** MacStadium's Orka overview describes API- and CLI-driven Apple-silicon virtual machines for CI, testing, and agent workflows. Use it to evaluate elastic macOS capacity against cost, isolation, Kubernetes integration, and reproducible build requirements.
+- [Reef](https://github.com/gouwsxander/Reef) — iOS Dev Tools · iOS Dev Tools: Reef, CodeIsland, Lucide Swift — Source repository · Topics: Developer Tools
+  **Published:** `2026-06-25T18:30:48.034Z`
+  **NeKI brief:** Reef is a Swift or Apple-platform developer project. Follow its repository for the concrete problem, public API, and integration examples, then assess maintenance and dependency risk before adoption.
+- [CodeIsland](https://github.com/wxtsky/CodeIsland) — iOS Dev Tools · iOS Dev Tools: Reef, CodeIsland, Lucide Swift — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-06-25T18:30:48.034Z`
+  **NeKI brief:** CodeIsland provides a macOS developer utility or coding workspace. Follow its source and README for concrete interaction and integration behavior, while verifying platform support and maintenance before adoption.
+- [Lucide Swift](https://github.com/ajaxjiang96/lucide-swift) — iOS Dev Tools · iOS Dev Tools: Reef, CodeIsland, Lucide Swift — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `2026-06-25T18:30:48.034Z`
+  **NeKI brief:** Lucide Swift provides Swift-compatible Lucide icon assets and rendering helpers. Follow its repository for concrete symbol integration and customization patterns, while checking licensing, generated assets, and supported UI frameworks.
+- [Claude Cap](https://github.com/DevNuwancat/claudecap) — iOS Dev Tools · iOS Dev Tools: Reef, CodeIsland, Lucide Swift — Source repository · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2026-06-25T18:30:48.034Z`
+  **NeKI brief:** Claude Cap is a GitHub project for capturing or managing Claude-related development activity. Follow its source and README for concrete automation hooks, while verifying its current API and permission requirements.
+- [Vorssaint](https://github.com/vorssaint/vorssaint-utils) — iOS Dev Tools · iOS Dev Tools: Reef, CodeIsland, Lucide Swift — Source repository · Topics: Developer Career & Practice · Developer Tools · macOS & AppKit
+  **Published:** `2026-06-25T18:30:48.034Z`
+  **NeKI brief:** Vorssaint-utils provides reusable utilities for Swift or Apple-platform development. Follow its source and tests for concrete helper behavior, then evaluate API stability, naming, and supported Swift versions before adoption.
+- [RemindMe](https://github.com/samirpatil2000/remindme) — iOS Dev Tools · iOS Dev Tools: Reef, CodeIsland, Lucide Swift — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-06-25T18:30:48.034Z`
+  **NeKI brief:** RemindMe is a Swift or Apple-platform reminder utility. Follow its source for concrete scheduling, notification, and persistence behavior, while verifying authorization and lifecycle handling before adoption.
+- [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher) — iOS Dev Weekly · Issue 755 — Article · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `19th June 2026`
+  **NeKI brief:** Examines Experience macOS just like before. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [RTSP Live Streaming on iOS with AWS](https://github.com/hariharanjagan/RTSP-Streaming-iOS-AWS/blob/main/index.md) — iOS Dev Weekly · Issue 755 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `19th June 2026`
+  **NeKI brief:** Streaming live video via RTSP on iOS has always been a bit of a challenge since AVPlayer does not support it out of the box. Hariharan Jagan has put together a comprehensive guide exploring how to bridge this gap using AWS infrastructure. The project walks…
 - [Footprint](https://github.com/naftaly/Footprint) — iOS Dev Tools · iOS Dev Tools: Footprint, ZMarkupParser, Lettera — Source repository · Topics: Apple Platform Ecosystem · Developer Career & Practice · Developer Tools
   **Published:** `2026-06-18T16:02:35.381Z`
   **NeKI brief:** Footprint exposes app and system memory pressure as normal, warning, urgent, critical, and terminal states, with a 500-ms heartbeat and AsyncStream updates. SwiftUI modifiers let an app adapt before memory warnings arrive too late.
@@ -276,6 +348,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Drafty](https://www.brrai.nz/products/drafty) — iOS Dev Tools · iOS Dev Tools: Footprint, ZMarkupParser, Lettera — Article · Topics: Developer Tools
   **Published:** `2026-06-18T16:02:35.381Z`
   **NeKI brief:** Drafty is a writing workspace designed to help turn rough ideas into organized text. It is relevant as a lightweight product-writing tool, but evaluate its export, privacy, and collaboration behavior before adopting it for project documentation.
+- [PawPause](https://miladsafarzadeh1.github.io/PawPause-mac) — iOS Dev Tools · iOS Dev Tools: Footprint, ZMarkupParser, Lettera — Article · Topics: Developer Tools · Hardware & Devices · macOS & AppKit
+  **Published:** `2026-06-18T16:02:35.381Z`
+  **NeKI brief:** PawPause is a macOS utility for encouraging breaks or managing screen habits. Follow it for a concrete reminder and productivity workflow, rather than as framework implementation guidance.
 - [Build a Swift Terminal Developer Toolkit with TUIkit](https://www.youtube.com/watch?v=hqDurFnEJs8) — Those Who Swift · Issue 271 — Video · Topics: Developer Tools · Swift · UIKit
   **Published:** `2026-06-18`
   **NeKI brief:** Builds a Swift TUIkit terminal application with Pomodoro, Git-status, and release-tracking panels. The walkthrough covers NavigationSplitView-style composition, PulseTimer, shell commands, AppStorage persistence, and TUI-specific state-update constraints.
@@ -297,6 +372,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [EnableMacosAI](https://github.com/SkyBlue997/enableMacosAI) — Fatbobman’s Swift Weekly · Issue 140 — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
   **Published:** `2026-06-15T12:03:17.597Z`
   **NeKI brief:** EnableMacosAI documents a workaround for making Apple Intelligence features available in unsupported macOS environments. Treat it as experimental configuration research, not a supported deployment approach or substitute for official eligibility requirements.
+- [Promptberry](https://github.com/onmyway133/Promptberry) — iOS Dev Tools · iOS Dev Tools: Promptberry, SolidLikeARock, MLX Swift LM — Source repository · Topics: Developer Tools · Product Design · Swift
+  **Published:** `2026-06-11T16:01:47.008Z`
+  **NeKI brief:** Promptberry is a GitHub project for prompt or AI-assisted developer workflows. Follow its source for concrete prompt composition and integration behavior, while verifying providers, credentials, and privacy boundaries.
+- [SolidLikeARock](https://github.com/nenadvulic/solid-like-a-rock) — iOS Dev Tools · iOS Dev Tools: Promptberry, SolidLikeARock, MLX Swift LM — Source repository · Topics: Architecture · Objective-C & Cocoa · Swift
+  **Published:** `2026-06-11T16:01:47.008Z`
+  **NeKI brief:** SolidLikeARock is a GitHub project for Swift or Apple-platform development. Follow its source for the concrete problem, API shape, and examples, while verifying supported versions before using it.
+- [MLX Swift LM](https://github.com/ml-explore/mlx-swift-lm) — iOS Dev Tools · iOS Dev Tools: Promptberry, SolidLikeARock, MLX Swift LM — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2026-06-11T16:01:47.008Z`
+  **NeKI brief:** MLX Swift LM provides Swift APIs for running machine-learning language models on Apple platforms. Follow its source for concrete model loading and inference workflows, while checking memory, hardware, and model-format requirements.
+- [Offsend](https://github.com/Offsend/Offsend) — iOS Dev Tools · iOS Dev Tools: Promptberry, SolidLikeARock, MLX Swift LM — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
+  **Published:** `2026-06-11T16:01:47.008Z`
+  **NeKI brief:** Offsend is a GitHub project for sending or transferring content. Follow its README and source to inspect the concrete workflow, protocol, and platform assumptions before treating it as a maintained dependency.
+- [QuickCal](https://github.com/BrianB-22/quickcal) — iOS Dev Tools · iOS Dev Tools: Promptberry, SolidLikeARock, MLX Swift LM — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
+  **Published:** `2026-06-11T16:01:47.008Z`
+  **NeKI brief:** QuickCal is a GitHub project for fast calendar entry or scheduling workflows. Follow its source and README to inspect the concrete interaction and integration surface before treating it as a maintained dependency.
+- [Active ReviewSE-0478File-level defaults](https://github.com/apple/swift-evolution/blob/main/proposals/0478-default-isolation-typealias.md) — SwiftLee Weekly · Issue 327 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2026-06-09T21:59:45.000Z`
+  **NeKI brief:** Records Active ReviewSE-0478File-level defaults, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [AcceptedSE-0529Add `FilePath` to the Standard Library](https://github.com/apple/swift-evolution/blob/main/proposals/0529-filepath-in-stdlib.md) — SwiftLee Weekly · Issue 327 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2026-06-09T21:59:45.000Z`
+  **NeKI brief:** Records AcceptedSE-0529Add `FilePath` to the Standard Library, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [A Vision for Networking in Swift](https://github.com/swiftlang/swift-evolution/blob/main/visions/networking.md) — Fatbobman’s Swift Weekly · Issue 139 — Source repository · Topics: Apple Platform Ecosystem · Networking · Swift
   **Published:** `2026-06-09T12:03:24.234Z`
   **NeKI brief:** Swift's networking vision analyzes overlapping responsibilities among URLSession, Network.framework, SwiftNIO, and related clients. Follow it when designing an abstraction that should align with the language ecosystem's planned consolidation.
@@ -305,43 +401,73 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** The Swift HTTP API proposal explores a common foundation for HTTP types and behavior across client and server libraries. Use it to track interoperable networking direction before committing a new cross-library adapter.
 - [Task Names in Swift ConcurrencyName Swift tasks for clearer debugging and profilingArtem Novichkov](https://artemnovichkov.com/blog/task-names-in-swift-concurrency?ref=createwithswift.com) — Create with Swift · Issue 110 — Article · Topics: Concurrency · Performance · Swift
   **Published:** `2026-06-06T14:00:23.000Z`
-  **NeKI brief:** Explains naming tasks in Swift concurrency and how names aid debugging and observability. Follow it when tracing asynchronous work, while keeping names descriptive and avoiding assumptions that labels change scheduling, isolation, or cancellation semantics.
+  **NeKI brief:** Artem explains Swift Concurrency task names, showing how to label Task, Task.detached, task groups, and SwiftUI .task calls so they’re easier to identify in LLDB, Instruments, and logs.
 - [SwiftTUI](https://snopia.net/en/blog/introducing-swifttui) — iOS Dev Weekly · Issue 753 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `5th June 2026`
   **NeKI brief:** Presents swifttui for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
-- [Simtime](https://github.com/MobAI-App/simtime) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: AI Development · Developer Tools · Personal Essays
+- [Simtime](https://github.com/MobAI-App/simtime) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Personal Essays
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Simtime changes the wall clock perceived by an already-running iOS Simulator app, supporting freeze, jump, scale, and reset without rebuilding. Useful for deterministic testing of time-dependent UI, caches, and scheduled work.
-- [Sparkle 2](https://github.com/sparkle-project/Sparkle) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools
+- [Sparkle 2](https://github.com/sparkle-project/Sparkle) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Sparkle provides signed software-update delivery for macOS applications, including feed handling and installer integration. Useful for studying a mature update channel and the security responsibilities around release signatures and keys.
-- [SwiftINI](https://github.com/jaywcjlove/SwiftINI) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [SwiftINI](https://github.com/jaywcjlove/SwiftINI) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** SwiftINI parses and serializes INI configuration files in Swift, providing a small format-specific layer instead of treating configuration as untyped text. Useful for command-line tools or legacy settings that need round-tripping.
-- [Windows Terminal](https://github.com/microsoft/terminal) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Swift
+- [Windows Terminal](https://github.com/microsoft/terminal) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Windows Terminal combines modern terminal tabs, panes, profiles, and rendering with the original Windows console host. Useful as a cross-platform terminal reference when agent or build workflows span Windows environments.
-- [SwiftBar](https://github.com/swiftbar/SwiftBar) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
+- [SwiftBar](https://github.com/swiftbar/SwiftBar) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** SwiftBar turns shell scripts into macOS menu-bar items, using script output to define labels, menus, and refresh behavior. Useful for lightweight developer dashboards without building a dedicated native status application.
-- [DockDoor](https://github.com/ejbills/DockDoor) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Swift
+- [DockDoor](https://github.com/ejbills/DockDoor) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** DockDoor adds macOS window peeking, alternate-tab behavior, and related desktop navigation enhancements. Useful for examining how a menu-bar utility can improve window switching while staying outside application code.
-- [Open Caffeine](https://github.com/sapsaldog/open-caffeine) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
+- [Open Caffeine](https://github.com/sapsaldog/open-caffeine) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Open Caffeine prevents a Mac from sleeping through a small menu-bar control. Useful for inspecting a minimal, reversible power-management utility used during long builds, demos, or unattended local jobs.
-- [BarDict](https://github.com/TokinoyuushaLink/BarDict) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Hardware & Devices · Objective-C & Cocoa
+- [BarDict](https://github.com/TokinoyuushaLink/BarDict) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Hardware & Devices · Objective-C & Cocoa
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** BarDict is a macOS menu-bar dictionary application supporting MDX and MDD resources. Useful for evaluating offline dictionary lookup and packaged language assets in a compact AppKit-style utility.
+- [Apple’s Hidden AI: Unlock Foundation Models on Your Mac with Apfel](https://www.youtube.com/watch?v=KlCqHP32c8M) — Those Who Swift · Issue 269 — Video · Topics: AI Development · Developer Tools · Foundation & Data Formats
+  **Published:** `2026-06-04`
+  **NeKI brief:** Reviews Apple’s Hidden AI: Unlock Foundation Models on Your Mac with Apfel. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [Xcsift](https://github.com/ldomaradzki/xcsift) — Fatbobman’s Swift Weekly · Issue 138 — Source repository · Topics: AI Development · Developer Tools · Testing
   **Published:** `2026-06-01T12:04:47.860Z`
   **NeKI brief:** xcsift condenses xcodebuild output so coding agents receive actionable build and test diagnostics instead of full verbose logs. Use it when agent context windows are consumed by compiler noise rather than failures requiring repair.
+- [AgentKitten: Provider-Agnostic AI Agents in Swift](https://github.com/fbeeper/agentkitten) — iOS Dev Weekly · Issue 752 — Source repository · Topics: AI Development · Apple Platform Ecosystem · Swift
+  **Published:** `29th May 2026`
+  **NeKI brief:** The page covers “AgentKitten: Provider-Agnostic AI Agents in Swift” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Replacing Bash with Swift in an AI Harness](https://alejandromp.com/development/blog/replacing-bash-with-swift-in-an-ai-harness) — iOS Dev Weekly · Issue 752 — Article · Topics: AI Development · Developer Tools · Swift
   **Published:** `29th May 2026`
   **NeKI brief:** Replaces shell orchestration with Swift in an AI harness, showing how typed process control and platform APIs can improve portability while adding implementation overhead.
+- [GQLSwift](https://github.com/BaherTamer/GQLSwift) — iOS Dev Tools · iOS Dev Tools: GQLSwift, ScreenPlace, BuildWatch — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-05-28T16:31:04.346Z`
+  **NeKI brief:** GQLSwift is a GitHub Swift library for GraphQL-related application code. Follow its source and README for concrete query or model-generation integration points, while checking supported GraphQL and Swift versions before adoption.
+- [SmartClose](https://github.com/mahirozdin/SmartClose) — iOS Dev Tools · iOS Dev Tools: GQLSwift, ScreenPlace, BuildWatch — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-05-28T16:31:04.346Z`
+  **NeKI brief:** SmartClose closes or manages macOS applications through a focused utility workflow. Follow its source for concrete process-control and window-state behavior, while reviewing permissions and failure handling before adoption.
+- [A Recipe to Custom Instructions for GitHub Copilot](https://www.ioscoffeebreak.com/issue/issue72) — SwiftLee Weekly · Issue 325 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-05-26T14:06:24.000Z`
+  **NeKI brief:** Explains A Recipe to Custom Instructions for GitHub Copilot, connecting the underlying Apple-platform mechanism to implementation choices and practical trade-offs that Swift developers can evaluate.
 - [SwiftScript](https://github.com/Cocoanetics/SwiftScript) — Fatbobman’s Swift Weekly · Issue 137 — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-05-25T12:03:50.192Z`
   **NeKI brief:** SwiftScript is an experimental embeddable interpreter that parses and executes Swift ASTs with SwiftSyntax rather than invoking swiftc. Use it to study interpreter architecture and dynamic scripting trade-offs in a Swift-hosted environment.
+- [From WebView to CoreText: Building a Native EPUB Reader for iOS](https://chang-jui-lin.github.io/Yuedu-reader/2026/05/20/from-webview-to-coretext?ref=createwithswift.com) — Create with Swift · Issue 108 — Article · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `2026-05-22T16:00:37.000Z`
+  **NeKI brief:** Chang-Jui shares the journey behind Yuedu Reader, an open source EPUB reader for iOS, and why supporting CJK vertical writing made a custom CoreText rendering engine unavoidable.
+- [From WebView to CoreText: Building a Native EPUB Reader for iOS](https://chang-jui-lin.github.io/Yuedu-reader/2026/05/20/from-webview-to-coretext) — iOS Dev Weekly · Issue 751 — Article · Topics: Developer Tools
+  **Published:** `22nd May 2026`
+  **NeKI brief:** Chang-Jui shares the journey behind Yuedu Reader, an open source EPUB reader for iOS, and why supporting CJK vertical writing made a custom CoreText rendering engine unavoidable.
+- [MacPane](https://github.com/Gigaxel/macpane) — iOS Dev Tools · iOS Dev Tools: MacPane, Livable, Sherlock — Source repository · Topics: Accessibility · Developer Tools · Hardware & Devices
+  **Published:** `2026-05-21T16:30:30.985Z`
+  **NeKI brief:** MacPane embeds or hosts web content in native macOS panes. Follow its source and README for concrete window, web-view, and application-shell integration patterns.
+- [Livable](https://github.com/whatsinlab/livable) — iOS Dev Tools · iOS Dev Tools: MacPane, Livable, Sherlock — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-05-21T16:30:30.985Z`
+  **NeKI brief:** Livable is a Swift or Apple-platform project with a focused developer workflow. Follow its README and source to identify the concrete API and problem it solves, then verify maintenance and platform assumptions.
+- [Doorry](https://www.altumdream.com/doorry) — iOS Dev Tools · iOS Dev Tools: MacPane, Livable, Sherlock — Article · Topics: Developer Tools
+  **Published:** `2026-05-21T16:30:30.985Z`
+  **NeKI brief:** Doorry is a macOS utility or developer product page. Follow it for the concrete workflow and interaction model described there, while requiring current documentation before relying on its technical behavior.
 - [AcceptedSE-0530Async Result Support](https://github.com/apple/swift-evolution/blob/main/proposals/0530-async-result-support.md) — SwiftLee Weekly · Issue 324 — Source repository · Topics: AI Development · Concurrency · Swift
   **Published:** `2026-05-19T14:04:54.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0530Async Result Support. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -363,21 +489,60 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Dropshit](https://github.com/iamsumanp/Dropshit) — iOS Dev Tools · iOS Dev Tools: SwiftSafeUI, Northstar, Ezscreenshots — Source repository · Topics: Developer Tools
   **Published:** `2026-05-14T16:15:24.123Z`
   **NeKI brief:** Dropshit accepts files and folders dropped anywhere on the macOS screen, providing a lightweight drag-and-drop utility. Useful for exploring global drop targets and desktop-level workflow shortcuts outside a document app.
+- [How to Create Dynamic Quick Actions in iOS](https://diamantidis.github.io/2026/05/10/how-to-create-dynamic-quick-actions-ios-swift) — SwiftLee Weekly · Issue 323 — Article · Topics: Developer Tools · Swift
+  **Published:** `2026-05-12T14:05:49.000Z`
+  **NeKI brief:** Explains How to Create Dynamic Quick Actions in iOS, focusing on the underlying Apple-platform behavior and the implementation trade-offs relevant to production code.
 - [WatchLink](https://github.com/tareksabry1337/WatchLink) — Fatbobman’s Swift Weekly · Issue 135 — Source repository · Topics: Cross-Platform & Web · Developer Tools
   **Published:** `2026-05-11T12:02:41.178Z`
   **NeKI brief:** WatchLink explores Watch connectivity over ordinary network protocols, allowing the peer to be an iPhone, Android device, or other IP endpoint. Use it when a watch feature should not depend on a proprietary phone-pairing transport.
 - [ios-build-verify](https://github.com/vermont42/ios-build-verify) — iOS Dev Weekly · Issue 750 — Source repository · Topics: Accessibility · Developer Tools · Testing
   **Published:** `8th May 2026`
   **NeKI brief:** Provides a command-line verifier for iOS build artifacts and project settings. Use it in CI to catch invalid configurations early, while reviewing its checks against your signing, SDK, and reproducibility requirements.
+- [Hokusai](https://github.com/ivantokar/hokusai) — iOS Dev Tools · iOS Dev Tools: AscBuddy, TourKit, Hokusai — Source repository · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-05-07T16:16:37.368Z`
+  **NeKI brief:** Hokusai is a Swift or Apple-platform developer library. Follow its README and source to inspect the concrete API and workflow it provides, then verify platform, dependency, and maintenance assumptions.
+- [Breaks](https://gjinprelvukaj.github.io/Breaks) — iOS Dev Tools · iOS Dev Tools: AscBuddy, TourKit, Hokusai — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-05-07T16:16:37.368Z`
+  **NeKI brief:** Breaks presents a macOS utility for scheduling or encouraging work breaks. Follow it for a concrete reminder and menu-bar interaction pattern, rather than as framework or implementation documentation.
+- [TextSniper](https://textsniper.app/) — iOS Dev Tools · iOS Dev Tools: AscBuddy, TourKit, Hokusai — Article · Topics: Developer Tools
+  **Published:** `2026-05-07T16:16:37.368Z`
+  **NeKI brief:** TextSniper extracts text from screen regions using OCR. Follow it for a concrete macOS capture-to-text workflow, while checking language support, local processing, and privacy behavior.
 - [Swift Concurrency Agent Skill](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill) — SwiftLee Weekly · Issue 322 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-05-05T14:09:40.000Z`
   **NeKI brief:** Provides focused agent guidance for Swift concurrency work. Use it to give coding agents project-relevant rules around isolation, Sendable boundaries, and async tests before they propose or edit concurrent Swift code.
+- [AcceptedSE-0517UniqueBox](https://github.com/apple/swift-evolution/blob/main/proposals/0517-uniquebox.md) — SwiftLee Weekly · Issue 322 — Source repository · Topics: Developer Tools · Maps & Location · Swift
+  **Published:** `2026-05-05T14:09:40.000Z`
+  **NeKI brief:** Records AcceptedSE-0517UniqueBox, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [ImplementedSE-0524Add `withTemporaryAllocation` using `Output(Raw)Span`](https://github.com/apple/swift-evolution/blob/main/proposals/0524-span-temporary-allocation.md) — SwiftLee Weekly · Issue 322 — Source repository · Topics: Developer Tools · Maps & Location · Swift
   **Published:** `2026-05-05T14:09:40.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0524Add `withTemporaryAllocation` using `Output(Raw)Span`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
 - [KadrUI](https://github.com/SteliyanH/kadr-ui) — Fatbobman’s Swift Weekly · Issue 134 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
   **Published:** `2026-05-04T12:03:54.604Z`
   **NeKI brief:** KadrUI supplies SwiftUI editing components such as multi-track timelines, inspectors, overlays, and keyframe editing. Use it when a video or motion-editing product needs a structured editor surface rather than isolated custom controls.
+- [KIF](https://github.com/kif-framework/KIF) — iOS Dev Tools · iOS Dev Tools: KIF, AeroSpace, FineTune — Source repository · Topics: Developer Tools · Testing
+  **Published:** `2026-05-01T08:18:29.566Z`
+  **NeKI brief:** KIF provides an integration-testing framework for iOS interfaces. Follow its source for concrete user-action, synchronization, and assertion patterns, while checking compatibility with current XCTest and accessibility behavior.
+- [AeroSpace (Beta)](https://github.com/nikitabobko/AeroSpace) — iOS Dev Tools · iOS Dev Tools: KIF, AeroSpace, FineTune — Source repository · Topics: Developer Tools
+  **Published:** `2026-05-01T08:18:29.566Z`
+  **NeKI brief:** AeroSpace is a tiling window manager for macOS. Follow its source for concrete workspace, keyboard, and window-placement behavior, while checking configuration and compatibility with current system APIs.
+- [FineTune](https://github.com/ronitsingh10/FineTune) — iOS Dev Tools · iOS Dev Tools: KIF, AeroSpace, FineTune — Source repository · Topics: Developer Tools · macOS & AppKit · Navigation & Deep Linking
+  **Published:** `2026-05-01T08:18:29.566Z`
+  **NeKI brief:** FineTune is a GitHub project for tuning or configuring AI models or outputs. Follow its source for concrete training or evaluation workflows, while verifying supported runtimes, data handling, and resource requirements.
+- [Tyndale](https://github.com/ogrodev/tyndale) — iOS Dev Tools · iOS Dev Tools: KIF, AeroSpace, FineTune — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
+  **Published:** `2026-05-01T08:18:29.566Z`
+  **NeKI brief:** Tyndale is a Swift or Apple-platform developer project. Follow its README and source to inspect the concrete workflow and API surface, then verify supported platforms and maintenance before adoption.
+- [Just10](https://github.com/zunguyen/Just10) — iOS Dev Tools · iOS Dev Tools: KIF, AeroSpace, FineTune — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-05-01T08:18:29.566Z`
+  **NeKI brief:** Just10 is a Swift or Apple-platform developer project. Follow its repository for the concrete problem, API shape, and usage examples, while verifying supported platforms and maintenance before adoption.
+- [Kedip](https://github.com/dendianugerah/kedip) — iOS Dev Tools · iOS Dev Tools: KIF, AeroSpace, FineTune — Source repository · Topics: Developer Tools
+  **Published:** `2026-05-01T08:18:29.566Z`
+  **NeKI brief:** Kedip is an Apple-platform project with a focused developer utility or implementation. Follow its README and source to inspect the concrete API and workflow before considering it as a maintained dependency.
+- [also almost there](https://github.com/react-native-community/discussions-and-proposals/issues/587) — iOS Dev Weekly · Issue 749 — Source repository · Topics: Cross-Platform & Web · Developer Community & Business · Developer Tools
+  **Published:** `1st May 2026`
+  **NeKI brief:** Does this deserve a “Finally” comment? It’s good to see it happen, regardless. That CocoaPods read-only trunk deadline will come around sooner than we think. As far as I can tell, React Native still currently requires pod, but it appears that they are also…
+- [Rilmazafone](https://github.com/kageroumado/rilmazafone) — iOS Dev Weekly · Issue 749 — Source repository · Topics: Developer Tools · Product Design
+  **Published:** `1st May 2026`
+  **NeKI brief:** Remember when apps used to come with meticulously designed DMG backgrounds that included the branding, colour scheme, and the ever-so-gentle hints that you should drag the app icon into your Applications folder? Well, that era doesn’t need to be over if you…
 - [Recording & Analyzing SwiftUI Instruments Traces](https://github.com/AvdLee/SwiftUI-Agent-Skill) — SwiftLee Weekly · Issue 321 — Source repository · Topics: Performance · Swift · SwiftUI
   **Published:** `2026-04-28T14:07:22.000Z`
   **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
@@ -387,45 +552,102 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [open source](https://github.com/toprakdeviren/msf) — Fatbobman’s Swift Weekly · Issue 133 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-04-27T12:03:24.228Z`
   **NeKI brief:** msf open-sources a compiler frontend with lexer, parser, and semantic-analysis code. Use it as an educational route through language-tooling architecture, not as a drop-in replacement for the production Swift compiler.
+- [Yotei](https://github.com/claustrofob/Yotei) — iOS Dev Tools · iOS Dev Tools: Yotei, Pica, Revyl — Source repository · Topics: Architecture · Developer Tools · Swift
+  **Published:** `2026-04-23T16:32:50.159Z`
+  **NeKI brief:** Yotei is a GitHub project for Apple-platform development. Follow its README and source for the concrete problem, API surface, and integration examples, while verifying current build and platform assumptions.
+- [Revyl](https://github.com/RevylAI/revyl-cli) — iOS Dev Tools · iOS Dev Tools: Yotei, Pica, Revyl — Source repository · Topics: AI Development · Developer Tools · Testing
+  **Published:** `2026-04-23T16:32:50.159Z`
+  **NeKI brief:** Revyl is a command-line or AI-assisted tool for testing and validating application behavior. Follow its source for concrete CLI workflows and automation hooks, then verify supported project formats and generated artifacts.
+- [CC Usage Bar](https://github.com/lionhylra/cc-usage-bar) — iOS Dev Tools · iOS Dev Tools: Yotei, Pica, Revyl — Source repository · Topics: Developer Tools
+  **Published:** `2026-04-23T16:32:50.159Z`
+  **NeKI brief:** CC Usage Bar presents usage or quota information in a macOS status-bar interface. Follow its source for concrete monitoring and menu-bar integration, while verifying which service APIs and credentials it requires.
+- [MakLock](https://github.com/dutkiewiczmaciej/MakLock) — iOS Dev Tools · iOS Dev Tools: Yotei, Pica, Revyl — Source repository · Topics: Developer Tools · macOS & AppKit · Security & Privacy
+  **Published:** `2026-04-23T16:32:50.159Z`
+  **NeKI brief:** MakLock provides a macOS locking or security utility. Follow its source for concrete system-integration and state-transition behavior, while checking permissions and failure handling before relying on it for device protection.
 - [OpenSwiftUI](https://github.com/OpenSwiftUIProject/OpenSwiftUI) — Fatbobman’s Swift Weekly · Issue 132 — Source repository · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `2026-04-20T12:03:00.641Z`
   **NeKI brief:** OpenSwiftUI is a community reimplementation useful for studying declarative view behavior and framework boundaries. Follow it for comparative exploration, not as a drop-in substitute for Apple's implementation guarantees.
 - [DanceUI](https://github.com/bytedance/DanceUI) — Fatbobman’s Swift Weekly · Issue 132 — Source repository · Topics: Developer Community & Business · Swift · SwiftUI
   **Published:** `2026-04-20T12:03:00.641Z`
   **NeKI brief:** DanceUI is ByteDance's open-source exploration of reimplementing SwiftUI concepts. Use it to inspect alternative declarative-UI architecture and rendering decisions, without assuming behavior matches Apple's private implementation.
+- [AI tool policy](https://github.com/hummingbird-project/hummingbird/blob/main/AI_POLICY.md) — iOS Dev Weekly · Issue 748 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `17th April 2026`
+  **NeKI brief:** One community announcement that stood out to me this week was the Hummingbird project announcing their AI tool policy.
 - [Pica](https://github.com/onmyway133/pica) — iOS Dev Tools · iOS Dev Tools: SwiftZilla, Room Service, Pica — Source repository · Topics: Developer Tools
   **Published:** `2026-04-16T16:01:26.478Z`
   **NeKI brief:** Pica discovers Claude Code agents, skills, commands, hooks, and rules in GitHub repositories or local paths, then offers interactive copy or symlink installation at local or global scope. It helps inspect and curate agent tooling without manual file copying.
 - [Claude Account Switcher](https://github.com/Symbioose/claude-account-switcher) — iOS Dev Tools · iOS Dev Tools: SwiftZilla, Room Service, Pica — Source repository · Topics: Developer Tools · macOS & AppKit
   **Published:** `2026-04-16T16:01:26.478Z`
   **NeKI brief:** Claude Account Switcher manages multiple Claude Code and Codex CLI accounts from a Mac menu bar, showing usage and switching at limits. Useful for studying credential-profile separation and the operational risks of automated account changes.
+- [AcceptedSE-0523Hashable conformance for `UnownedTaskExecutor`](https://github.com/apple/swift-evolution/blob/main/proposals/0523-hashable-unownedtask-executor.md) — SwiftLee Weekly · Issue 319 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-04-14T14:07:31.000Z`
+  **NeKI brief:** Records AcceptedSE-0523Hashable conformance for `UnownedTaskExecutor`, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Ignite](https://github.com/twostraws/Ignite) — Fatbobman’s Swift Weekly · Issue 131 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-04-13T12:03:12.522Z`
   **NeKI brief:** Ignite is a Swift web framework inspired by SwiftUI-style APIs. Use it to evaluate declarative server-rendered site composition in Swift, while separating its design experiment from claims about an official SwiftUI implementation.
 - [SwiftMCP](https://github.com/Cocoanetics/SwiftMCP.git) — Fatbobman’s Swift Weekly · Issue 131 — Source repository · Topics: AI Development · App Intents & System Surfaces · Swift
   **Published:** `2026-04-13T12:03:12.522Z`
   **NeKI brief:** SwiftMCP uses Swift macros to build MCP servers and map App Intents into agent-callable tools. Use it when exposing existing app capabilities to agents while retaining a typed, auditable declaration of each operation.
+- [Audio-mcp](https://github.com/BugorBN/audio-mcp) — iOS Dev Tools · iOS Dev Tools: Audio-mcp, Remodex, Pippin — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-04-09T17:01:21.324Z`
+  **NeKI brief:** Audio-mcp is a GitHub project connecting audio capabilities to an MCP-style tool interface. Follow its source and README to inspect the concrete command surface and integration boundaries before adopting it in an AI-assisted workflow.
+- [Pippin](https://github.com/acrollet/pippin) — iOS Dev Tools · iOS Dev Tools: Audio-mcp, Remodex, Pippin — Source repository · Topics: Developer Tools
+  **Published:** `2026-04-09T17:01:21.324Z`
+  **NeKI brief:** Pippin is a Swift or Apple-platform developer project. Follow its README and source to inspect the concrete problem it solves, public API, and integration assumptions before treating it as a dependency.
+- [Developer Icons](https://xandemon.github.io/developer-icons/icons/All) — iOS Dev Tools · iOS Dev Tools: Audio-mcp, Remodex, Pippin — Article · Topics: Developer Tools
+  **Published:** `2026-04-09T17:01:21.324Z`
+  **NeKI brief:** Developer Icons provides a collection of icons for programming tools and technologies. Follow it for concrete asset-selection and presentation use, while checking licensing and export requirements.
+- [RejectedSE-0246Generic Math(s) Functions](https://github.com/apple/swift-evolution/blob/main/proposals/0246-mathable.md) — SwiftLee Weekly · Issue 318 — Source repository · Topics: Architecture · Composable Architecture · Swift
+  **Published:** `2026-04-07T14:09:08.000Z`
+  **NeKI brief:** Records RejectedSE-0246Generic Math(s) Functions, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [presentation repository](https://github.com/onevcat/2026-let-s-vision) — Fatbobman’s Swift Weekly · Issue 130 — Source repository · Topics: AI Development · Developer Tools · Objective-C & Cocoa
   **Published:** `2026-04-06T12:03:03.974Z`
   **NeKI brief:** Hosts WWDC-related Slidev material together with raw research and AI collaboration traces. Use it to inspect how a technical talk's claims were assembled and how agent-assisted research can remain reviewable.
+- [Superset](https://github.com/superset-sh/superset) — iOS Dev Tools · iOS Dev Tools: Superset, xcodebuild.nvim, Mole — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-04-02T18:33:52.413Z`
+  **NeKI brief:** Superset is a developer tool or platform project. Follow its README and source for the concrete workflow, API surface, and integration assumptions, then assess maintenance before using it as a dependency.
+- [xcodebuild.nvim](https://github.com/wojciech-kulik/xcodebuild.nvim) — iOS Dev Tools · iOS Dev Tools: Superset, xcodebuild.nvim, Mole — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `2026-04-02T18:33:52.413Z`
+  **NeKI brief:** xcodebuild.nvim integrates Xcode build actions into Neovim. Follow its source for concrete command, output, and project-discovery behavior, while verifying the required Neovim, Xcode, and environment configuration.
+- [Mole](https://github.com/tw93/Mole) — iOS Dev Tools · iOS Dev Tools: Superset, xcodebuild.nvim, Mole — Source repository · Topics: Developer Tools
+  **Published:** `2026-04-02T18:33:52.413Z`
+  **NeKI brief:** Mole is a macOS system-cleaning and maintenance utility. Follow its source for concrete discovery and cleanup behavior, while treating deletion safeguards, permissions, and recoverability as security-sensitive.
+- [Claude Usage Monitor](https://github.com/theDanButuc/Claude-Usage-Monitor) — iOS Dev Tools · iOS Dev Tools: Superset, xcodebuild.nvim, Mole — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-04-02T18:33:52.413Z`
+  **NeKI brief:** Claude Usage Monitor tracks usage information for Claude-related workflows. Follow its source for concrete accounting and display behavior, while checking service endpoints, authentication, and data-handling assumptions.
 - [CI/CD Build Speed Benchmark: Codemagic Vs GitHub Actions Vs Bitrise](https://blog.codemagic.io/build-speed-benchmark-comparison) — Those Who Swift · Issue 260 — Article · Topics: CI/CD & Automation · Cross-Platform & Web · Developer Tools
   **Published:** `2026-04-01`
   **NeKI brief:** Examines How fast can each CI/CD service build your app? in the context of CI/CD & Automation and Concurrency. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Xcode 26.4 Simulator Paste Is Broken: Here’s the Workaround](https://samwize.com/2026/03/30/xcode-simulator-paste-broken-workaround) — SwiftLee Weekly · Issue 317 — Article · Topics: Developer Tools · Xcode
   **Published:** `2026-03-31T14:07:14.000Z`
   **NeKI brief:** Examines @samwize in the context of AI Development and Cross-Platform & Web. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Returned For RevisionSE-0479Method and Initializer Key Paths](https://github.com/apple/swift-evolution/blob/main/proposals/0479-method-and-initializer-keypaths.md) — SwiftLee Weekly · Issue 317 — Source repository · Topics: Developer Tools · Swift · Xcode
+  **Published:** `2026-03-31T14:07:14.000Z`
+  **NeKI brief:** Records Returned For RevisionSE-0479Method and Initializer Key Paths, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Returned For RevisionSE-0490Environment Constrained Shared Libraries](https://github.com/apple/swift-evolution/blob/main/proposals/0490-environment-constrained-shared-libraries.md) — SwiftLee Weekly · Issue 317 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `2026-03-31T14:07:14.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Returned For RevisionSE-0490Environment Constrained Shared Libraries. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
 - [ImplementedSE-0502Exclude private initialized properties from memberwise initializer](https://github.com/apple/swift-evolution/blob/main/proposals/0502-exclude-private-from-memberwise-init.md) — SwiftLee Weekly · Issue 317 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `2026-03-31T14:07:14.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0502Exclude private initialized properties from memberwise initializer. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [ImplementedSE-0507Borrow and Mutate Accessors](https://github.com/apple/swift-evolution/blob/main/proposals/0507-borrow-accessors.md) — SwiftLee Weekly · Issue 317 — Source repository · Topics: Developer Tools · Swift · Xcode
+  **Published:** `2026-03-31T14:07:14.000Z`
+  **NeKI brief:** Records ImplementedSE-0507Borrow and Mutate Accessors, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Conduit](https://github.com/christopherkarani/Conduit) — Fatbobman’s Swift Weekly · Issue 129 — Source repository · Topics: AI Development · Developer Career & Practice · Developer Tools
   **Published:** `2026-03-30T12:03:55.935Z`
   **NeKI brief:** Conduit is a unified SDK for working with multiple LLM providers. Use it when an application needs provider substitution behind one interface, while keeping model-specific capabilities and cost differences visible to callers.
 - [Colony](https://github.com/christopherkarani/Colony) — Fatbobman’s Swift Weekly · Issue 129 — Source repository · Topics: AI Development · Developer Career & Practice · Developer Tools
   **Published:** `2026-03-30T12:03:55.935Z`
   **NeKI brief:** Colony is an agent runtime built around Apple Foundation Models. Use it to explore agent orchestration on-device, especially where tool execution, memory, and model-session lifecycle need a framework-level boundary.
+- [Codex-history](https://github.com/nishantdesai/codex-history) — iOS Dev Tools · iOS Dev Tools: Dispatched, Codex-history, Axe — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `2026-03-26T19:26:01.777Z`
+  **NeKI brief:** Codex-history stores or exposes history from Codex-related workflows. Follow its source for concrete persistence, search, and presentation behavior, while reviewing privacy and local-data boundaries before use.
+- [Axe](https://github.com/k-kohey/axe) — iOS Dev Tools · iOS Dev Tools: Dispatched, Codex-history, Axe — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-03-26T19:26:01.777Z`
+  **NeKI brief:** Axe is a Swift or Apple-platform developer project. Follow its repository for concrete implementation details, API shape, and usage examples, then verify its maintenance and supported platform before adoption.
+- [Generally Useful Prompts](https://david-smith.org/blog/2026/03/20/generally-useful-prompts) — Those Who Swift · Issue 259 — Article · Topics: AI Development · Developer Tools · Testing
+  **Published:** `2026-03-26`
+  **NeKI brief:** Discusses Generally Useful Prompts, extracting concrete engineering practices and trade-offs that Apple-platform developers can apply when evaluating this workflow.
 - [ImplementedSE-0491Module selectors for name disambiguation](https://github.com/apple/swift-evolution/blob/main/proposals/0491-module-selectors.md) — SwiftLee Weekly · Issue 316 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-03-24T15:03:10.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0491Module selectors for name disambiguation. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -438,12 +660,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Core Data Evolution](https://github.com/fatbobman/CoreDataEvolution) — Fatbobman’s Swift Weekly · Issue 128 — Source repository · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-03-23T12:02:22.360Z`
   **NeKI brief:** CoreDataEvolution experiments with bringing ModelActor-like concurrency structure to Core Data. Use it when modernizing a Core Data stack while retaining its model and store, especially to centralize context ownership and serialized mutations.
+- [CoreDataBrowser](https://github.com/kyletaylor94/CoreDataBrowser) — iOS Dev Tools · iOS Dev Tools: web2wave, CoreDataBrowser, DataStoreKit — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
+  **Published:** `2026-03-19T17:30:50.047Z`
+  **NeKI brief:** CoreDataBrowser provides tooling for browsing Core Data stores. Follow its source for concrete persistence inspection and debugging workflows, while checking schema, migration, and read/write safety boundaries.
+- [DataStoreKit](https://github.com/asymbas/datastorekit) — iOS Dev Tools · iOS Dev Tools: web2wave, CoreDataBrowser, DataStoreKit — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Persistence & Synchronisation
+  **Published:** `2026-03-19T17:30:50.047Z`
+  **NeKI brief:** DataStoreKit provides Swift persistence abstractions for storing application data. Follow its source and tests for concrete serialization, caching, and lifecycle semantics, then compare them with the project’s existing persistence layer.
+- [Petal](https://github.com/Aayush9029/petal) — iOS Dev Tools · iOS Dev Tools: web2wave, CoreDataBrowser, DataStoreKit — Source repository · Topics: Developer Tools
+  **Published:** `2026-03-19T17:30:50.047Z`
+  **NeKI brief:** Petal is a GitHub project offering an Apple-platform developer implementation. Follow its source and README to inspect the concrete API shape, supported platform, and integration trade-offs before using it as a dependency.
+- [NothingHere](https://solee0524.github.io/NothingHere) — iOS Dev Tools · iOS Dev Tools: web2wave, CoreDataBrowser, DataStoreKit — Article · Topics: Developer Tools
+  **Published:** `2026-03-19T17:30:50.047Z`
+  **NeKI brief:** NothingHere is a small GitHub Pages project with minimal or exploratory content. Follow it only for the concrete artifact linked there; it does not currently provide substantial technical reading.
 - [Over-Extended Types On The Overuse Of Swift Extensions](https://pastey.github.io/blog/2026-02-15-extensions) — Those Who Swift · Issue 258 — Article · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-03-18`
   **NeKI brief:** Examines Over-Extended Types On The Overuse Of Swift Extensions, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [ImplementedSE-0481`weak let`](https://github.com/apple/swift-evolution/blob/main/proposals/0481-weak-let.md) — SwiftLee Weekly · Issue 315 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-03-17T15:01:49.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0481`weak let`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [ImplementedSE-0489Improve `EncodingError` and `DecodingError`'s printed descriptions](https://github.com/apple/swift-evolution/blob/main/proposals/0489-codable-error-printing.md) — SwiftLee Weekly · Issue 315 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Swift
+  **Published:** `2026-03-17T15:01:49.000Z`
+  **NeKI brief:** Records ImplementedSE-0489Improve `EncodingError` and `DecodingError`'s printed descriptions, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [ImplementedSE-0492Section Placement Control](https://github.com/apple/swift-evolution/blob/main/proposals/0492-section-control.md) — SwiftLee Weekly · Issue 315 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-03-17T15:01:49.000Z`
+  **NeKI brief:** Records ImplementedSE-0492Section Placement Control, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [ImplementedSE-0496`@inline(always)` attribute](https://github.com/apple/swift-evolution/blob/main/proposals/0496-inline-always.md) — SwiftLee Weekly · Issue 315 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-03-17T15:01:49.000Z`
+  **NeKI brief:** Records ImplementedSE-0496`@inline(always)` attribute, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [AcceptedSE-0501HTML Coverage Report](https://github.com/apple/swift-evolution/blob/main/proposals/0501-swiftpm-html-coverage-report.md) — SwiftLee Weekly · Issue 315 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `2026-03-17T15:01:49.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0501HTML Coverage Report. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -477,12 +720,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [dadederk/iOS-Accessibility-Agent-Skill](https://github.com/dadederk/iOS-Accessibility-Agent-Skill) — SwiftLee Weekly · Issue 314 — Source repository · Topics: Accessibility · Developer Tools · Swift
   **Published:** `2026-03-10T15:03:18.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for dadederk/iOS-Accessibility-Agent-Skill. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [one from Roberto Gómez](https://github.com/rgmez/apple-accessibility-skills) — SwiftLee Weekly · Issue 314 — Source repository · Topics: Accessibility · Developer Tools · Swift
+  **Published:** `2026-03-10T15:03:18.000Z`
+  **NeKI brief:** Points to one from Roberto Gómez, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
+- [Pasquale Vittoriosi](https://github.com/PasqualeVittoriosi/swift-accessibility-skill) — SwiftLee Weekly · Issue 314 — Source repository · Topics: Accessibility · Developer Tools · Swift
+  **Published:** `2026-03-10T15:03:18.000Z`
+  **NeKI brief:** Points to Pasquale Vittoriosi, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [twostraws/SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill) — SwiftLee Weekly · Issue 314 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-03-10T15:03:18.000Z`
   **NeKI brief:** Provides a reusable SwiftUI-focused agent skill with guidance for generating and reviewing views. Useful as a concrete prompt and workflow artifact when evaluating AI-assisted UI composition, accessibility, and maintainability in a project.
 - [Active ReviewSE-0518`~Sendable` for explicitly marking non-`Sendable` types](https://github.com/apple/swift-evolution/blob/main/proposals/0518-tilde-sendable.md) — SwiftLee Weekly · Issue 314 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-03-10T15:03:18.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0518`~Sendable` for explicitly marking non-`Sendable` types. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Active ReviewSE-0519`Borrow` and `Inout` types for safe, first-class references](https://github.com/apple/swift-evolution/blob/main/proposals/0519-borrow-inout-types.md) — SwiftLee Weekly · Issue 314 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-03-10T15:03:18.000Z`
+  **NeKI brief:** Records Active ReviewSE-0519`Borrow` and `Inout` types for safe, first-class references, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Mastering Geometry in SwiftUI - GeometryReader, GeometryProxy & onGeometryChange](https://www.sagarunagar.com/blog/geometry-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #230 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-03-09T13:33:31.501Z`
   **NeKI brief:** Surveys GeometryReader, GeometryProxy, and onGeometryChange through practical SwiftUI layout examples. Useful for choosing the least-coupled measurement tool when adaptive components need size or position information without destabilizing layout.
@@ -498,9 +750,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [IMKSwift](https://github.com/vChewing/IMKSwift) — Fatbobman’s Swift Weekly · Issue 126 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-03-09T12:02:58.691Z`
   **NeKI brief:** IMKSwift provides a Swift 6-oriented, @MainActor-isolated base controller for InputMethodKit sessions. Use it when modernizing macOS input methods and avoiding the concurrency hazards inherited from IMKInputController-style callbacks.
-- [Next.app devcon](https://www.nextappcon.com/) — iOS Dev Tools · iOS Dev Tools: Notepad.exe, SimTag, Rich HTML Editor — Article · Topics: Developer Tools
+- [Rich HTML Editor](https://github.com/Infomaniak/swift-rich-html-editor) — iOS Dev Tools · iOS Dev Tools: Notepad.exe, SimTag, Rich HTML Editor — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `2026-03-05T17:46:01.942Z`
-  **NeKI brief:** Provides public event information for Next.app devcon, including community sessions and speakers. Use it to discover practitioner perspectives and recordings, while treating any API guidance as contextual and verifying details independently.
+  **NeKI brief:** Infomaniak’s Swift Rich HTML Editor provides an editable rich-text component for Swift applications. Follow its source for concrete HTML, selection, and editor integration choices, then verify supported platforms and serialization behavior.
+- [GitSync](https://apps.apple.com/in/app/gitsync-lite/id6759090001?mt=12) — iOS Dev Tools · iOS Dev Tools: Notepad.exe, SimTag, Rich HTML Editor — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-03-05T17:46:01.942Z`
+  **NeKI brief:** GitSync Lite scans developer directories for repositories and reports branch state, uncommitted changes, ahead-behind counts, commit time, and .git size. It is a concrete lead for lightweight local repository monitoring.
+- [MAU Vegas](https://mauvegas.com/) — iOS Dev Tools · iOS Dev Tools: Notepad.exe, SimTag, Rich HTML Editor — Article · Topics: Developer Tools
+  **Published:** `2026-03-05T17:46:01.942Z`
+  **NeKI brief:** MAU Vegas is a Mac community or event page. It is community promotion rather than technical reading and should normally be excluded from the knowledge index.
+- [Swift Rockies](https://swiftrockies.com/) — iOS Dev Tools · iOS Dev Tools: Notepad.exe, SimTag, Rich HTML Editor — Article · Topics: Developer Tools · Swift
+  **Published:** `2026-03-05T17:46:01.942Z`
+  **NeKI brief:** Swift Rockies is an Apple-platform developer conference page. It is event promotion rather than technical reading and should normally be excluded from the knowledge index.
 - [edwardsanchez/MotionEyes](https://github.com/edwardsanchez/MotionEyes) — SwiftLee Weekly · Issue 313 — Source repository · Topics: AI Development · Developer Tools
   **Published:** `2026-03-03T15:11:29.000Z`
   **NeKI brief:** This source repository covers instrumenting and inspecting SwiftUI animation behavior. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
@@ -522,12 +783,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Measuring Core Data and SwiftData](https://yaacoub.github.io/articles/swift-tip/measuring-core-data-and-swiftdata) — iOS Dev Weekly · Issue 744 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `27th February 2026`
   **NeKI brief:** Presents measuring core data and swiftdata for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Wax](https://github.com/christopherkarani/Wax) — iOS Dev Tools · iOS Dev Tools: Wax, RespectASO, ThemeKit — Source repository · Topics: AI Development · Developer Tools · Objective-C & Cocoa
+  **Published:** `2026-02-26T17:30:30.625Z`
+  **NeKI brief:** Wax is a Swift or Apple-platform library with reusable application functionality. Follow its README and source to identify the concrete API and supported workflow, then assess maintenance and dependency risk.
+- [RespectASO](https://github.com/respectlytics/respectaso) — iOS Dev Tools · iOS Dev Tools: Wax, RespectASO, ThemeKit — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `2026-02-26T17:30:30.625Z`
+  **NeKI brief:** RespectASO provides App Store Optimization tooling or metadata workflows. Follow its source for concrete keyword and listing-analysis behavior, while treating market data as time-sensitive and vendor-specific.
+- [ThemeKit](https://github.com/rozd/theme-kit) — iOS Dev Tools · iOS Dev Tools: Wax, RespectASO, ThemeKit — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-02-26T17:30:30.625Z`
+  **NeKI brief:** ThemeKit provides theming abstractions for Swift applications. Follow its source for concrete color, typography, and appearance propagation behavior, then evaluate dynamic-type, accessibility, and state-management fit.
+- [Netfluss](https://github.com/rana-gmbh/netfluss) — iOS Dev Tools · iOS Dev Tools: Wax, RespectASO, ThemeKit — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-02-26T17:30:30.625Z`
+  **NeKI brief:** Netfluss is a Swift or networking-oriented developer project. Follow its source and README for concrete transport or monitoring behavior, while verifying protocol scope, security, and platform assumptions.
 - [ImplementedSE-0508Array expression trailing closures](https://github.com/apple/swift-evolution/blob/main/proposals/0508-array-expression-trailing-closures.md) — SwiftLee Weekly · Issue 312 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-02-24T15:08:55.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0508Array expression trailing closures. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Active ReviewSE-0512Document that `Mutex.withLockIfAvailable(_:)` cannot spuriously fail](https://github.com/apple/swift-evolution/blob/main/proposals/0512-withlockifavailable-cannot-spuriously-fail.md) — SwiftLee Weekly · Issue 312 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-02-24T15:08:55.000Z`
+  **NeKI brief:** Records Active ReviewSE-0512Document that `Mutex.withLockIfAvailable(_:)` cannot spuriously fail, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [Active ReviewSE-0514`Hashable` Conformance for `Dictionary.Keys`, `CollectionOfOne` and `EmptyCollection`](https://github.com/apple/swift-evolution/blob/main/proposals/0514-hashable-conformance-for-dictionarykeys-collectionofone-emptycollection.md) — SwiftLee Weekly · Issue 312 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-02-24T15:08:55.000Z`
+  **NeKI brief:** Records Active ReviewSE-0514`Hashable` Conformance for `Dictionary.Keys`, `CollectionOfOne` and `EmptyCollection`, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Paul Hudson's SwiftAgents AGENTS.md](https://github.com/twostraws/SwiftAgents) — SwiftLee Weekly · Issue 312 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-02-24T15:08:55.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Paul Hudson's SwiftAgents AGENTS.md. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [FRTMProxy](https://github.com/ValentinoPalomba/FRTMProxy) — iOS Dev Tools · iOS Dev Tools: FRTMProxy, LLM Checker, PicoClaw — Source repository · Topics: Developer Tools
+  **Published:** `2026-02-19T20:00:59.741Z`
+  **NeKI brief:** FRTMProxy provides a proxy-related developer tool or library. Follow its source and README for concrete request-routing and inspection behavior, then verify supported protocols, security boundaries, and maintenance before adoption.
+- [LLM Checker](https://github.com/Pavelevich/llm-checker) — iOS Dev Tools · iOS Dev Tools: FRTMProxy, LLM Checker, PicoClaw — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-02-19T20:00:59.741Z`
+  **NeKI brief:** LLM Checker evaluates or checks large-language-model output. Follow its source for concrete validation rules and command-line workflow, while reviewing its supported providers, failure modes, and privacy implications.
+- [PicoClaw](https://github.com/sipeed/picoclaw) — iOS Dev Tools · iOS Dev Tools: FRTMProxy, LLM Checker, PicoClaw — Source repository · Topics: AI Development · Concurrency · Developer Tools
+  **Published:** `2026-02-19T20:00:59.741Z`
+  **NeKI brief:** PicoClaw is a compact project for AI or edge-device workflows. Follow its source for concrete model, tool, and runtime integration, while verifying hardware, provider, and privacy requirements before adoption.
+- [nanobot](https://github.com/HKUDS/nanobot) — iOS Dev Tools · iOS Dev Tools: FRTMProxy, LLM Checker, PicoClaw — Source repository · Topics: AI Development · Concurrency · Developer Tools
+  **Published:** `2026-02-19T20:00:59.741Z`
+  **NeKI brief:** nanobot is a compact project for building an AI or automation bot. Follow its source and README to inspect the concrete agent loop, tool integration, and runtime assumptions before relying on it.
 - [AcceptedSE-0504Task Cancellation Shields](https://github.com/apple/swift-evolution/blob/main/proposals/0504-task-cancellation-shields.md) — SwiftLee Weekly · Issue 311 — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-02-17T15:07:33.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0504Task Cancellation Shields. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -537,27 +828,66 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0506Advanced Observation Tracking](https://github.com/apple/swift-evolution/blob/main/proposals/0506-advanced-observation-tracking.md) — SwiftLee Weekly · Issue 311 — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-02-17T15:07:33.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0506Advanced Observation Tracking. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [SimTag: Context for your iOS Simulators](https://digitalbunker.dev/simtag-context-for-your-ios-simulators) — iOS Dev Weekly · Issue 743 — Article · Topics: Developer Tools · Swift
+  **Published:** `13th February 2026`
+  **NeKI brief:** It’s that time of year again! The Swift Student Challenge is open for submissions until February 28th. It’s truly a unique experience for the winners, but it’s also a great opportunity to put your mind to a focused, constrained project for a couple of weeks…
 - [FeaturesKit](https://github.com/adamfootdev/FeaturesKit) — iOS Dev Tools · iOS Dev Tools: DevScroll, FeaturesKit, HeC - Unofficial Hetzner Cloud — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
   **Published:** `2026-02-12T17:15:27.823Z`
   **NeKI brief:** FeaturesKit models feature flags and evaluates them through injectable configuration, making rollout and test scenarios explicit. The repository helps compare a typed feature-management layer with scattered boolean checks and explains where deterministic test overrides belong.
 - [VPN Bypass](https://github.com/GeiserX/VPN-Bypass) — iOS Dev Tools · iOS Dev Tools: DevScroll, FeaturesKit, HeC - Unofficial Hetzner Cloud — Source repository · Topics: Developer Tools
   **Published:** `2026-02-12T17:15:27.823Z`
   **NeKI brief:** VPN-Bypass offers per-domain and subnet routing on macOS, selecting direct, VPN, proxy, or Tailscale egress through a menu-bar app and CLI. Useful for testing fine-grained network paths without changing the entire system route.
+- [Active ReviewSE-0510Introduce `Dictionary.mapValuesWithKeys`](https://github.com/apple/swift-evolution/blob/main/proposals/0510-dictionary-mapvalues-with-keys.md) — SwiftLee Weekly · Issue 310 — Source repository · Topics: Combine & Reactive Programming · Developer Tools · Swift
+  **Published:** `2026-02-10T15:14:11.000Z`
+  **NeKI brief:** Records Active ReviewSE-0510Introduce `Dictionary.mapValuesWithKeys`, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [Accessibility Inspector](https://github.com/AvdLee/RocketSimApp/issues/521) — SwiftLee Weekly · Issue 310 — Source repository · Topics: Accessibility · Developer Tools
+  **Published:** `2026-02-10T15:14:11.000Z`
+  **NeKI brief:** Points to Accessibility Inspector, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
+- [open source](https://github.com/cocoatype/barc-generator) — iOS Dev Weekly · Issue 742 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `6th February 2026`
+  **NeKI brief:** Also on the Wasm side, Geoff Pado’s Barcode Generator for his Barc app uses Wasm to generate the barcode images. The project is even open source if you fancy learning from a real-world example.
+- [AboutKit](https://github.com/adamfootdev/AboutKit) — iOS Dev Tools · iOS Dev Tools: AboutKit, HelpKit, Claude XcodePreviews — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `2026-02-05T21:03:29.009Z`
+  **NeKI brief:** AboutKit provides reusable UI for an application’s About screen and related metadata. Follow its source for concrete SwiftUI or UIKit composition patterns, then verify customization and localization behavior.
+- [HelpKit](https://github.com/adamfootdev/HelpKit) — iOS Dev Tools · iOS Dev Tools: AboutKit, HelpKit, Claude XcodePreviews — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `2026-02-05T21:03:29.009Z`
+  **NeKI brief:** HelpKit provides reusable help or support-screen components for Apple-platform applications. Follow its source for concrete content, navigation, and presentation patterns, while checking platform and API compatibility.
 - [Claude XcodePreviews](https://github.com/Iron-Ham/Claude-XcodePreviews) — iOS Dev Tools · iOS Dev Tools: AboutKit, HelpKit, Claude XcodePreviews — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `2026-02-05T21:03:29.009Z`
   **NeKI brief:** Describes Claude XcodePreviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
+- [Typester](https://github.com/nickustinov/typester-macos) — iOS Dev Tools · iOS Dev Tools: AboutKit, HelpKit, Claude XcodePreviews — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-02-05T21:03:29.009Z`
+  **NeKI brief:** Typester is a macOS typing or text utility. Follow its source for concrete input and menu-bar interaction patterns, while verifying permissions and behavior before treating it as a developer dependency.
+- [Pinster](https://github.com/nickustinov/pinster-macos) — iOS Dev Tools · iOS Dev Tools: AboutKit, HelpKit, Claude XcodePreviews — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-02-05T21:03:29.009Z`
+  **NeKI brief:** Pinster is a macOS utility for managing pinned or saved information. Follow its source for concrete menu-bar and persistence behavior, while checking its supported workflows and current compatibility.
 - [Designing Swift Errors for an SDK](https://nonstrict.eu/blog/2026/designing-swift-errors-for-an-sdk) — Those Who Swift · Issue 252 — Article · Topics: Developer Tools · Swift
   **Published:** `2026-02-04`
   **NeKI brief:** This article covers designing stable, expressive error APIs for Swift SDKs. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [Print Design Mindset to App Design Mindset](https://twocentstudios.com/2026/01/29/print-design-mindset) — Those Who Swift · Issue 252 — Article · Topics: Developer Tools
+  **Published:** `2026-02-04`
+  **NeKI brief:** Applies print-design principles to app design. Useful for reviewing hierarchy, spacing, and composition when translating editorial visual ideas into interactive mobile interfaces.
 - [SwiftUI agent skill](https://github.com/AvdLee/SwiftUI-Agent-Skill/pull/11) — SwiftLee Weekly · Issue 309 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-02-03T15:08:20.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for SwiftUI agent skill. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
 - [Active ReviewSE-0509Software Bill of Materials (SBOM) Generation for Swift Package Manager](https://github.com/apple/swift-evolution/blob/main/proposals/0509-swift-sboms.md) — SwiftLee Weekly · Issue 309 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-02-03T15:08:20.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0509Software Bill of Materials (SBOM) Generation for Swift Package Manager. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Need to debug HTTPS on your iPhone?](https://l.fatbobman.com/sb-proxyman) — Fatbobman’s Swift Weekly · Issue 121 — Article · Topics: Developer Tools
+  **Published:** `2026-02-02T12:03:11.621Z`
+  **NeKI brief:** Presents Proxyman as a native cross-platform HTTP debugging proxy for capturing, inspecting, and mocking HTTP and HTTPS traffic. Follow it when comparing request-inspection workflows across Apple and other development environments.
 - [Core Data](https://github.com/AvdLee/Core-Data-Agent-Skill) — Fatbobman’s Swift Weekly · Issue 121 — Source repository · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-02-02T12:03:11.621Z`
   **NeKI brief:** Provides focused agent guidance for Core Data tasks. Use it to constrain an agent around contexts, threading, migrations, and persistence boundaries before it modifies an existing Core Data stack.
+- [Commander](https://commanderai.app/) — iOS Dev Tools · iOS Dev Tools: Bullseye, Commander, InAppPurchaseKit — Article · Topics: AI Development · Concurrency · Developer Tools
+  **Published:** `2026-01-29T21:12:37.433Z`
+  **NeKI brief:** Commander is a macOS utility that exposes actions and workflows from a keyboard-oriented command interface. Follow it for a concrete productivity pattern centered on searchable commands and rapid app control.
+- [InAppPurchaseKit](https://github.com/adamfootdev/InAppPurchaseKit) — iOS Dev Tools · iOS Dev Tools: Bullseye, Commander, InAppPurchaseKit — Source repository · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Tools
+  **Published:** `2026-01-29T21:12:37.433Z`
+  **NeKI brief:** InAppPurchaseKit packages common in-app-purchase workflows for Swift applications. Follow its source for concrete product loading, entitlement, and transaction abstractions, then verify StoreKit version assumptions separately.
+- [Understanding Memory in iOS](https://anubhav52.gumroad.com/l/ios-memory) — Those Who Swift · Issue 251 — Tutorial · Topics: Developer Career & Practice · Developer Community & Business · Developer Tools
+  **Published:** `2026-01-28`
+  **NeKI brief:** Offers an iOS memory guide. Useful for reviewing allocation, lifetime, and profiling concepts when investigating memory pressure in shipped apps.
 - [The unexpected @Binding side effect](https://swiftunwrap.com/article/binding-side-effect) — SwiftLee Weekly · Issue 308 — Article · Topics: Developer Tools · Observation & State Management · Swift
   **Published:** `2026-01-27T15:08:00.000Z`
   **NeKI brief:** Presents The unexpected @Binding side effect, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -567,15 +897,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [meta-swift](https://github.com/jeremy-prater/meta-swift) — Fatbobman’s Swift Weekly · Issue 120 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
   **Published:** `2026-01-26T12:03:41.562Z`
   **NeKI brief:** meta-swift is the Yocto layer that packages Swift toolchains for embedded Linux builds. Use it when an appliance or device target needs Swift 6.1-era support within an existing Yocto distribution.
+- [MachScope](https://github.com/sadopc/machscope) — iOS Dev Tools · iOS Dev Tools: MachScope, SwiftFindRefs, HealthKit Data Generator — Source repository · Topics: Dependency Injection · Developer Tools · Swift
+  **Published:** `2026-01-22T20:01:38.499Z`
+  **NeKI brief:** MachScope inspects Mach or low-level process information on Apple platforms. Follow its source for concrete diagnostics and system interfaces, while treating private APIs, permissions, and OS-version behavior as constraints.
+- [SwiftFindRefs](https://github.com/michaelversus/SwiftFindRefs) — iOS Dev Tools · iOS Dev Tools: MachScope, SwiftFindRefs, HealthKit Data Generator — Source repository · Topics: Developer Tools · Swift · Xcode
+  **Published:** `2026-01-22T20:01:38.499Z`
+  **NeKI brief:** SwiftFindRefs searches Swift source for references to symbols. Follow its source for concrete indexing and navigation behavior, while verifying parser/compiler-version support and performance on large workspaces.
 - [HealthKit Data Generator](https://github.com/aminbenarieb/healthkit-data-generator) — iOS Dev Tools · iOS Dev Tools: MachScope, SwiftFindRefs, HealthKit Data Generator — Source repository · Topics: AI Development · Developer Tools · Testing
   **Published:** `2026-01-22T20:01:38.499Z`
   **NeKI brief:** HealthKit Data Generator creates configurable, realistic HealthKit samples for iOS development and tests, including natural-language-assisted profiles. Useful for exercising charts and analytics without manually producing device health records.
+- [AcceptedSE-0500Improving package creation with custom templates: SwiftPM Template Initialization](https://github.com/apple/swift-evolution/blob/main/proposals/0500-package-manager-templates.md) — SwiftLee Weekly · Issue 307 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-01-20T15:10:47.000Z`
+  **NeKI brief:** Records AcceptedSE-0500Improving package creation with custom templates: SwiftPM Template Initialization, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Access-level modifiers on import declarations](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0409-access-level-on-imports.md) — Fatbobman’s Swift Weekly · Issue 119 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-01-19T12:01:40.101Z`
   **NeKI brief:** SE-0409 adds access-level modifiers to imports so public APIs do not accidentally leak implementation dependencies. Use it when library modules need tighter dependency boundaries and clearer source-level visibility intent.
+- [Swift Package Index package list](https://github.com/SwiftPackageIndex/PackageList/blob/main/packages.json) — iOS Dev Weekly · Issue 739 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `16th January 2026`
+  **NeKI brief:** The Swift Package Index repository file contains the public package catalogue data used to index Swift packages.
 - [The Swift Programming Language - PDF edition](https://github.com/peterfriese/swift-book) — iOS Dev Weekly · Issue 739 — Source repository · Topics: Developer Tools · Swift
   **Published:** `16th January 2026`
   **NeKI brief:** Provides Peter Friese’s Swift book materials and examples as a public reference for learning and teaching core Swift concepts. Use it for structured study, not as version-specific API authority.
+- [download a pre-built release](https://github.com/peterfriese/swift-book/releases) — iOS Dev Weekly · Issue 739 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `16th January 2026`
+  **NeKI brief:** The page covers “download a pre-built release” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [instructions for the agent in the form of a skill](https://github.com/mikker/steve/blob/main/skills/steve/SKILL.md) — iOS Dev Weekly · Issue 739 — Source repository · Topics: AI Development · Developer Tools · Testing
+  **Published:** `16th January 2026`
+  **NeKI brief:** The page covers “instructions for the agent in the form of a skill” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [fantastic documentation](https://space-code.github.io/validator) — iOS Dev Weekly · Issue 739 — Article · Topics: Developer Community & Business · Developer Tools · Swift
   **Published:** `16th January 2026`
   **NeKI brief:** Presents fantastic documentation for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -588,6 +936,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [WhisperShortcut](https://github.com/mgsgde/whisper-shortcut) — iOS Dev Tools · iOS Dev Tools: SwiftAgents, XML Comparator, Colorful — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
   **Published:** `2026-01-15T18:30:34.396Z`
   **NeKI brief:** WhisperShortcut provides speech-to-text and voice-to-prompt workflows on macOS using Whisper and Gemini integrations. Useful for evaluating local audio capture, transcription handoff, and assistant prompting in a keyboard-driven tool.
+- [Active ReviewSE-0503Suppressed Default Conformances on Associated Types With Defaults](https://github.com/apple/swift-evolution/blob/main/proposals/0503-suppressed-associated-types.md) — SwiftLee Weekly · Issue 306 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-01-13T15:06:45.000Z`
+  **NeKI brief:** Records Active ReviewSE-0503Suppressed Default Conformances on Associated Types With Defaults, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [SwiftTerm](https://github.com/migueldeicaza/SwiftTerm) — iOS Dev Tools · iOS Dev Tools: SwiftTerm, Conduit, FRTMTools — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-01-08T21:14:36.266Z`
+  **NeKI brief:** SwiftTerm provides terminal-emulation components in Swift. Follow its source for concrete screen-buffer, escape-sequence, input, and rendering behavior, then evaluate platform and concurrency assumptions before embedding it.
+- [Hyperlinks](https://gist.github.com/egmontkob/eb114294efbcd5adb1944c9f3cb5feda) — iOS Dev Tools · iOS Dev Tools: SwiftTerm, Conduit, FRTMTools — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-01-08T21:14:36.266Z`
+  **NeKI brief:** This gist demonstrates hyperlink handling or navigation code in a compact example. Follow it for the concrete implementation shown, but verify assumptions about framework versions and edge cases against current Apple documentation.
+- [provided separately](https://github.com/migueldeicaza/TermKit) — iOS Dev Tools · iOS Dev Tools: SwiftTerm, Conduit, FRTMTools — Source repository · Topics: Developer Tools · Swift · UIKit
+  **Published:** `2026-01-08T21:14:36.266Z`
+  **NeKI brief:** TermKit supplies terminal UI or command-line components for Swift. Follow its source for concrete terminal layout and interaction abstractions, while verifying its maintenance and supported Apple platforms.
+- [FRTMTools](https://github.com/ValentinoPalomba/FRTMTools) — iOS Dev Tools · iOS Dev Tools: SwiftTerm, Conduit, FRTMTools — Source repository · Topics: Dependency Injection · Developer Tools · Security & Privacy
+  **Published:** `2026-01-08T21:14:36.266Z`
+  **NeKI brief:** FRTMTools collects tooling related to proxying or network diagnostics. Follow the repository for concrete command and integration surfaces, while checking its platform requirements and handling of captured traffic.
+- [The Age of Micro-Entrepreneurs](https://merowing.info/posts/the-age-of-micro-entrepreneurs) — Those Who Swift · Issue 248 — Article · Topics: Developer Community & Business · Developer Tools
+  **Published:** `2026-01-08`
+  **NeKI brief:** Reflects on micro-entrepreneurship and software work. Useful as product and engineering context for evaluating scope, maintenance, and the trade-offs of independent development.
 - [Dimillian/Skills: My Codex Skills](https://github.com/Dimillian/Skills) — SwiftLee Weekly · Issue 305 — Source repository · Topics: AI Development · Developer Tools
   **Published:** `2026-01-06T15:07:32.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Dimillian/Skills: My Codex Skills. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -597,6 +963,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Approachable Concurrency](https://github.com/swiftlang/swift-evolution/blob/main/visions/approachable-concurrency.md) — Those Who Swift · Issue 247 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-01-01`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for the vision document. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Swift Commit Generator](https://github.com/Iron-Ham/swift-commit-gen) — iOS Dev Tools · iOS Dev Tools: Swift Commit Generator, CommonSwiftUI, Asset Catalog Viewer — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-12-31T16:45:21.414Z`
+  **NeKI brief:** Swift Commit Gen generates commit messages or related Git workflow output from Swift projects. Follow its source and README to inspect the concrete command-line workflow and its assumptions about repository history.
+- [CommonSwiftUI](https://github.com/Enryun/Common_SwiftUI) — iOS Dev Tools · iOS Dev Tools: Swift Commit Generator, CommonSwiftUI, Asset Catalog Viewer — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-12-31T16:45:21.414Z`
+  **NeKI brief:** CommonSwiftUI collects reusable SwiftUI components and utilities. Follow the source for concrete view-building patterns, then check API stability and platform availability before treating it as a production dependency.
+- [Asset Catalog Viewer](https://github.com/artemnovichkov/asset-catalog-viewer) — iOS Dev Tools · iOS Dev Tools: Swift Commit Generator, CommonSwiftUI, Asset Catalog Viewer — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Xcode
+  **Published:** `2025-12-31T16:45:21.414Z`
+  **NeKI brief:** Asset Catalog Viewer inspects Xcode asset catalogs and their contained resources. Follow its source for concrete catalog parsing and preview behavior, useful when auditing image, color, and app-icon assets outside Xcode.
+- [Workspace Manager](https://frafra077.github.io/workspace-manager) — iOS Dev Tools · iOS Dev Tools: Swift Commit Generator, CommonSwiftUI, Asset Catalog Viewer — Article · Topics: Developer Tools
+  **Published:** `2025-12-31T16:45:21.414Z`
+  **NeKI brief:** Workspace Manager presents a way to organize and reopen development workspaces. Follow it for a concrete project-context workflow, especially when coordinating multiple repositories, terminals, and editor windows.
 - [🐙 GitHub’s Platform fee explained](https://cloud.namespace.so/pd3382pdfrpeq/updates/github-pricing-dec16-2025) — iOS CI Newsletter · Issue 84 — Article · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `2025-12-31T00:00:00.000Z`
   **NeKI brief:** Examines GitHub’s Platform fee explained in the context of Developer Tools and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -621,6 +999,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [list of tips in Paul’s AGENTS.md](https://github.com/twostraws/SwiftAgents/blob/main/AGENTS.md) — iOS Dev Weekly · Issue 737 — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `19th December 2025`
   **NeKI brief:** Presents list of tips in paul’s agents.md for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [hummingbird-examples](https://github.com/hummingbird-project/hummingbird-examples) — iOS Dev Weekly · Issue 737 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `19th December 2025`
+  **NeKI brief:** Examines Examples demonstrating various aspects of the Hummingbird swift server framework - hummingbird-project/hummingbird-examples. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [VideoKit](https://github.com/danielsaidi/VideoKit) — iOS Dev Tools · iOS Dev Tools: VideoKit, MacsyZones, SwiftUI Routes — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `2025-12-18T17:31:09.014Z`
+  **NeKI brief:** VideoKit provides video playback, capture, or processing abstractions for Apple platforms. Follow its source for concrete AVFoundation integration and media workflows, while verifying codec, concurrency, and platform requirements.
+- [SwiftUI Routes](https://github.com/gabriel/swiftui-routes) — iOS Dev Tools · iOS Dev Tools: VideoKit, MacsyZones, SwiftUI Routes — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-12-18T17:31:09.014Z`
+  **NeKI brief:** SwiftUI Routes provides routing abstractions for SwiftUI navigation. Follow its source for concrete route modeling and destination presentation, then compare its state ownership and deep-link behavior with the app architecture.
 - [SwiftUI: Share Wi-Fi Network Credentials With Paired Accessories](https://levelup.gitconnected.com/swiftui-share-wi-fi-network-credentials-with-paired-accessories-30004a4bf8f9) — Those Who Swift · Issue 245 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2025-12-17`
   **NeKI brief:** Examines SwiftUI: Share Wi-Fi Network Credentials With Paired Accessories, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -633,6 +1020,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [swift-openapi-generator](https://github.com/apple/swift-openapi-generator) — Fatbobman’s Swift Weekly · Issue 115 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-12-15T12:01:14.054Z`
   **NeKI brief:** Generates type-safe Swift client and server interfaces from OpenAPI descriptions, separating schema-driven transport code from application logic. Use it when a REST contract should drive refactors and reduce manual endpoint decoding.
+- [Swift AI SDK](https://github.com/teunlao/swift-ai-sdk) — iOS Dev Tools · iOS Dev Tools: Price Localize App, Swift AI SDK, ThreadCommissionerKit — Source repository · Topics: AI Development · Apple Platform Ecosystem · Swift
+  **Published:** `2025-12-11T17:45:25.072Z`
+  **NeKI brief:** Swift AI SDK provides Swift abstractions for integrating AI services or models. Follow its source for concrete request, streaming, and model interfaces, while verifying provider compatibility, credentials, and privacy requirements.
+- [ThreadCommissionerKit](https://github.com/phil-margetson/ThreadCommissionerKit) — iOS Dev Tools · iOS Dev Tools: Price Localize App, Swift AI SDK, ThreadCommissionerKit — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-12-11T17:45:25.072Z`
+  **NeKI brief:** ThreadCommissionerKit provides Swift support for Thread or connected-device workflows. Follow its source for concrete commissioning, network, and device-state APIs, while verifying hardware and platform requirements.
+- [VibeProxy](https://github.com/automazeio/vibeproxy) — iOS Dev Tools · iOS Dev Tools: Price Localize App, Swift AI SDK, ThreadCommissionerKit — Source repository · Topics: App Distribution & Store Operations · Developer Tools · macOS & AppKit
+  **Published:** `2025-12-11T17:45:25.072Z`
+  **NeKI brief:** VibeProxy presents a proxy-oriented developer tool. Follow its source and README for concrete traffic-routing or integration behavior, while verifying protocol support, credentials, and security implications before use.
 - [Returned For RevisionSE-0283Tuples Conform to `Equatable`, `Comparable`, and `Hashable`](https://github.com/apple/swift-evolution/blob/main/proposals/0283-tuples-are-equatable-comparable-hashable.md) — SwiftLee Weekly · Issue 301 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `2025-12-09T15:08:23.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Returned For RevisionSE-0283Tuples Conform to `Equatable`, `Comparable`, and `Hashable`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -660,6 +1056,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Improving Swift Package Scripts with GitHub Actions workflows](https://danielsaidi.com/blog/2025/11/26/improving-swift-package-scripts-with-github-action-workflows) — SwiftLee Weekly · Issue 300 — Article · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-12-02T15:13:04.000Z`
   **NeKI brief:** Examines A list of ready-to-use GitHub Actions workflows for Swift Packages in the context of Developer Tools and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [RequestSpec](https://github.com/ibrahimcetin/RequestSpec) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Source repository · Topics: Developer Tools · Networking · Swift
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** RequestSpec provides request-specification or API testing abstractions for Swift. Follow its source for concrete request construction and validation behavior, then evaluate how it handles errors, fixtures, and asynchronous execution.
+- [SwiftUI Popover](https://github.com/qusc/SwiftUI-Popover) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** SwiftUI Popover provides popover presentation components for SwiftUI. Follow its source for concrete anchoring, dismissal, and platform-specific behavior, then compare its API with current native presentation tools.
+- [Sourcekit-bazel-bsp](https://github.com/spotify/sourcekit-bazel-bsp) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** Sourcekit-bazel-bsp connects Bazel-based builds with SourceKit and the Build Server Protocol. Follow its repository for concrete editor, indexing, and build integration, while verifying toolchain-version compatibility.
+- [Build Server Protocol](https://build-server-protocol.github.io/) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** Build Server Protocol documents a protocol for communication between editors or IDEs and build servers. Follow it for a concrete integration boundary when designing language-tooling and build-system interoperability.
+- [sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** sourcekit-lsp provides language-server functionality for Swift and related source tooling. Follow its source for concrete indexing, diagnostics, completion, and editor-integration behavior, while checking current toolchain compatibility.
+- [Language Server Protocol](https://microsoft.github.io/language-server-protocol) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** Defines the Language Server Protocol boundary between editors and language servers, covering features such as completion, go-to-definition, references, and hover documentation. Useful when evaluating editor tooling integrations and language-specific service architecture.
+- [lldb-dap](https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.lldb-dap) — iOS Dev Tools · iOS Dev Tools: RequestSpec, SwiftUI Popover, Sourcekit-bazel-bsp — Article · Topics: Developer Tools · Swift · Systems Programming
+  **Published:** `2025-11-27T20:00:44.130Z`
+  **NeKI brief:** The lldb-dap extension integrates LLDB’s Debug Adapter Protocol with Visual Studio Code. Follow it for concrete debugger and editor integration, while checking compiler, extension, and platform setup requirements.
 - [Swift Macros From 0 to Hero](https://levelup.gitconnected.com/swift-macros-from-0-to-hero-0-01-2ff3eac8571a) — Those Who Swift · Issue 242 — Tutorial · Topics: Developer Tools · Macros & Metaprogramming · Swift
   **Published:** `2025-11-26`
   **NeKI brief:** Examines Swift Macros From 0 to Hero, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -672,6 +1089,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [set up code and instructions in this amazing example project](https://github.com/sebsto/amplify-ios-getting-started/tree/main) — iOS CI Newsletter · Issue 81 — Source repository · Topics: Developer Tools
   **Published:** `2025-11-24T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for set up code and instructions in this amazing example project, relevant to Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Visual debugging with Swift Charts](https://dchakarov.com/blog/visual-debugging-with-Swift-Charts) — iOS Dev Weekly · Issue 736 — Article · Topics: Developer Tools · Swift
+  **Published:** `21st November 2025`
+  **NeKI brief:** Examines Visual debugging with Swift Charts. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [SettingsKit](https://github.com/Aeastr/SettingsKit) — iOS Dev Tools · iOS Dev Tools: AppLayoutsUI 2.0, SettingsKit, SwiftCache — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `2025-11-20T16:50:33.113Z`
+  **NeKI brief:** SettingsKit is a GitHub library for constructing or managing application settings interfaces. Follow its source to inspect the concrete model and view integration, while checking platform and lifecycle assumptions before adoption.
+- [SwiftCache](https://github.com/SudhirGadhvi/SwiftCache-SDK) — iOS Dev Tools · iOS Dev Tools: AppLayoutsUI 2.0, SettingsKit, SwiftCache — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-11-20T16:50:33.113Z`
+  **NeKI brief:** SwiftCache-SDK provides caching functionality for Swift applications. Follow its source and README for concrete key, storage, expiration, and retrieval semantics, then evaluate its thread-safety and persistence behavior.
+- [Usage4Claude](https://github.com/f-is-h/Usage4Claude) — iOS Dev Tools · iOS Dev Tools: AppLayoutsUI 2.0, SettingsKit, SwiftCache — Source repository · Topics: Developer Tools
+  **Published:** `2025-11-20T16:50:33.113Z`
+  **NeKI brief:** Usage4Claude is a GitHub utility for inspecting or tracking Claude usage. Follow its source and README for concrete accounting and workflow integration, while verifying current service endpoints, authentication, and privacy boundaries before adoption.
 - [ImplementedSE-0495C compatible functions and enums](https://github.com/apple/swift-evolution/blob/main/proposals/0495-cdecl.md) — SwiftLee Weekly · Issue 298 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-11-18T19:03:17.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0495C compatible functions and enums. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -684,12 +1113,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [UniFFI](https://mozilla.github.io/uniffi-rs/latest) — Fatbobman’s Swift Weekly · Issue 111 — Article · Topics: Developer Tools · Swift · Testing
   **Published:** `2025-11-17T12:02:46.781Z`
   **NeKI brief:** UniFFI generates language bindings from Rust components, including Swift-facing APIs. Use it when sharing performant or security-sensitive core logic across platforms while keeping the generated Swift boundary explicit and testable.
+- [since the closure](https://swiftweekly.github.io/issue-201) — iOS Dev Weekly · Issue 735 — Article · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `14th November 2025`
+  **NeKI brief:** Swift Weekly issue 201 is a publicly readable newsletter edition collecting Swift ecosystem news and links.
+- [PostgresNIO](https://github.com/vapor/postgres-nio) — iOS Dev Tools · iOS Dev Tools: PostgresNIO, SwiftDisc, SM3 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-11-13T17:02:43.035Z`
+  **NeKI brief:** PostgresNIO provides a nonblocking PostgreSQL client for SwiftNIO applications. Follow its source for concrete connection, query, pooling, and event-loop behavior, while checking database and SwiftNIO compatibility.
+- [SwiftDisc](https://github.com/M1tsumi/SwiftDisc) — iOS Dev Tools · iOS Dev Tools: PostgresNIO, SwiftDisc, SM3 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-11-13T17:02:43.035Z`
+  **NeKI brief:** SwiftDisc is a Swift project related to Discord integration or client behavior. Follow its repository for concrete networking and model choices, while verifying protocol scope, credentials, and maintenance before adoption.
+- [SM3](https://github.com/ekscrypto/sm3) — iOS Dev Tools · iOS Dev Tools: PostgresNIO, SwiftDisc, SM3 — Source repository · Topics: Developer Tools
+  **Published:** `2025-11-13T17:02:43.035Z`
+  **NeKI brief:** SM3 implements the SM3 cryptographic hash algorithm for Swift or Apple-platform use. Follow its source for concrete byte handling and API shape, while verifying algorithm suitability and security requirements independently.
+- [LlamaBarn](https://github.com/ggml-org/LlamaBarn) — iOS Dev Tools · iOS Dev Tools: PostgresNIO, SwiftDisc, SM3 — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
+  **Published:** `2025-11-13T17:02:43.035Z`
+  **NeKI brief:** LlamaBarn is an Apple-platform project related to running or managing Llama models. Follow its source for concrete local-inference workflows, while verifying model formats, hardware requirements, and current API boundaries.
+- [Building Closed-Source Binaries With GitHub Actions](https://danielsaidi.com/blog/2025/11/09/building-closed-source-binaries-with-github-actions) — Those Who Swift · Issue 240 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-11-12`
+  **NeKI brief:** Describes building closed-source binaries with GitHub Actions. Useful for designing reproducible distribution pipelines while keeping source private and making signing, artifacts, and release inputs explicit.
 - [ImplementedSE-0497Controlling function definition visibility in clients](https://github.com/apple/swift-evolution/blob/main/proposals/0497-definition-visibility.md) — SwiftLee Weekly · Issue 297 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-11-11T15:06:31.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0497Controlling function definition visibility in clients. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Active ReviewSE-0498Expose demangle function in Runtime module](https://github.com/apple/swift-evolution/blob/main/proposals/0498-runtime-demangle.md) — SwiftLee Weekly · Issue 297 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `2025-11-11T15:06:31.000Z`
+  **NeKI brief:** Records Active ReviewSE-0498Expose demangle function in Runtime module, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [🆕 What’s new in GitHub Actions](https://github.blog/changelog/2025-11-06-new-releases-for-github-actions-november-2025) — iOS CI Newsletter · Issue 80 — Article · Topics: Developer Tools
   **Published:** `2025-11-10T00:00:00.000Z`
   **NeKI brief:** Summarises What’s new in GitHub Actions for Developer Tools. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
+- [Clash X](https://clashx.tech/) — iOS Dev Tools · iOS Dev Tools: Clash X, AnyLanguageModel, HealthKit Data Generator — Article · Topics: Developer Tools
+  **Published:** `2025-11-06T22:32:54.905Z`
+  **NeKI brief:** ClashX is presented as a macOS proxy client and network-tool distribution page. Follow it only for the concrete desktop networking utility context; the page itself is not a framework or development article.
 - [AnyLanguageModel](https://github.com/mattt/AnyLanguageModel) — iOS Dev Tools · iOS Dev Tools: Clash X, AnyLanguageModel, HealthKit Data Generator — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
   **Published:** `2025-11-06T22:32:54.905Z`
   **NeKI brief:** AnyLanguageModel mirrors Apple's Foundation Models API while allowing alternative language-model providers, presenting a compatible abstraction for application code. Useful for testing provider substitution and keeping model integration behind a stable Swift interface.
@@ -726,24 +1179,57 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Vercel Deployment Menu Bar](https://github.com/andrewk17/vercel-deployment-menu-bar) — iOS Dev Tools · iOS Dev Tools: Netrofit, MacPacker, GradientEditor — Source repository · Topics: Developer Tools · macOS & AppKit
   **Published:** `2025-10-30T18:15:32.319Z`
   **NeKI brief:** Vercel Deployment Menu Bar watches deployment states such as building, ready, and error from a macOS status item. Useful for a small event-driven release monitor that keeps CI feedback visible outside the browser.
+- [AI Agents Comparison from iOS Developer Perspective](https://brightinventions.pl/blog/ai-agents-comparison-from-ios-dev-perspective) — Those Who Swift · Issue 238 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2025-10-29`
+  **NeKI brief:** Compares AI agents from an iOS developer perspective. Useful for assessing where agents help with coding workflows and where review, context, and platform verification remain necessary.
 - [porting to the Android platform](https://github.com/OpenSwiftUIProject/OpenSwiftUI/issues?q=is%3Aissue+label%3A%22platform%3A+Android%22) — Fatbobman’s Swift Weekly · Issue 108 — Source repository · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `2025-10-27T12:02:17.397Z`
   **NeKI brief:** This OpenSwiftUI issue view tracks Android-platform work and compatibility questions in an open-source SwiftUI reimplementation. Follow it to assess cross-platform progress and limitations, not as evidence about Apple's private SwiftUI implementation.
 - [AsyncCombine](https://github.com/will-lumley/AsyncCombine) — Fatbobman’s Swift Weekly · Issue 108 — Source repository · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `2025-10-27T12:02:17.397Z`
   **NeKI brief:** AsyncCombine bridges familiar Combine-style concepts into Swift concurrency, including relay-like state sharing. Use it to compare an interim async stream abstraction with the proposed AsyncBroadcastSequence and choose explicit buffering semantics.
+- [Jeff Verkoeyen](https://www.threads.com/@featherless) — iOS Dev Weekly · Issue 732 — Article · Topics: Developer Tools
+  **Published:** `24th October 2025`
+  **NeKI brief:** Jeff Verkoeyen recently decided to see how much it would cost to add CI to his Sidecar app. GitHub Actions is great for the first 3,000 minutes per month, unless you’re using macOS runners, in which case the allowance is 300 minutes. 😬 The other options…
+- [GitHub Feedback SDK](https://github.com/Tom4259/SwiftUIFeatureBugReport) — iOS Dev Tools · iOS Dev Tools: GitHub Feedback SDK, CornerCraft, Appbot — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-10-23T17:57:34.511Z`
+  **NeKI brief:** SwiftUIFeatureBugReport is a GitHub feedback-oriented project demonstrating or collecting SwiftUI issue reports. Follow it for concrete reproducibility information and framework behavior examples, while verifying each report against current SDKs.
+- [The Fast Engineer Trap](https://digitalbunker.dev/the-fast-engineer-trap) — Those Who Swift · Issue 237 — Article · Topics: Developer Tools · Testing
+  **Published:** `2025-10-22`
+  **NeKI brief:** Examines the fast-engineer trap and its costs. Useful for reflecting on delivery incentives, sustainable engineering practice, and where speed can conceal quality or maintenance risk.
+- [Generative AI for Beginners – Microsoft GitHub Course](https://github.com/microsoft/generative-ai-for-beginners) — Those Who Swift · Issue 237 — Source repository · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-10-22`
+  **NeKI brief:** Offers a practical course on generative AI concepts. Useful for engineers building AI-enabled features who need a structured path through models, prompting, evaluation, and application integration.
+- [AcceptedSE-0494Add `isIdentical(to:)` Methods for Quick Comparisons to Concrete Types](https://github.com/apple/swift-evolution/blob/main/proposals/0494-add-is-identical-methods.md) — SwiftLee Weekly · Issue 294 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2025-10-21T14:13:02.000Z`
+  **NeKI brief:** Records AcceptedSE-0494Add `isIdentical(to:)` Methods for Quick Comparisons to Concrete Types, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Tunable, physics-driven motion primitives for SwiftUI](https://github.com/roberthein/kinetics) — SwiftUI Weekly · SwiftUI Weekly - Issue #223 — Source repository · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2025-10-20T15:15:23.773Z`
-  **NeKI brief:** Provides tunable, physics-driven motion primitives for SwiftUI, including configurable springs and dynamics. Useful for experimenting with reusable interactive animations while inspecting API ergonomics, cancellation, and performance in real screens.
+  **NeKI brief:** Kinetics is an Apple-platform project related to motion or animation behavior. Follow its source for concrete timing, physics, or interaction techniques, while verifying framework and performance assumptions.
 - [swift-subprocess](https://github.com/swiftlang/swift-subprocess) — Fatbobman’s Swift Weekly · Issue 107 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-10-20T12:02:20.057Z`
   **NeKI brief:** swift-subprocess modernizes launching and interacting with child processes through Swift concurrency. Use it for scripts and tools that need structured stdin, stdout, cancellation, and exit-status handling beyond Foundation's older Process API.
+- [iOS Image Optimizer](https://github.com/sahilsatralkar/iOSImageOptimizerTool) — iOS Dev Tools · iOS Dev Tools: col.or, iOS Image Optimizer, LaunchPad — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-10-16T18:35:25.053Z`
+  **NeKI brief:** iOS Image Optimizer Tool compresses or transforms image assets for iOS projects. Follow its source for concrete format, quality, and batch-processing behavior, while checking whether output preserves required asset dimensions and metadata.
+- [LaunchPad](https://github.com/kristof12345/Launchpad) — iOS Dev Tools · iOS Dev Tools: col.or, iOS Image Optimizer, LaunchPad — Source repository · Topics: Developer Tools
+  **Published:** `2025-10-16T18:35:25.053Z`
+  **NeKI brief:** LaunchPad is a macOS launcher or application-navigation utility. Follow its source for concrete discovery and launch behavior, while checking permissions and compatibility with current application lifecycle APIs.
 - [🧪 How to test Swift CLIs using GitHub Actions](https://www.ioscoffeebreak.com/issue/issue59) — iOS CI Newsletter · Issue 78 — Article · Topics: Developer Tools · Swift · Testing
   **Published:** `2025-10-13T00:00:00.000Z`
   **NeKI brief:** Walks through how to test Swift CLIs using GitHub Actions, with practical context for Developer Tools and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [🐙 GitHub Dependabot upcoming deprecations](https://github.blog/changelog/2025-10-07-upcoming-changes-to-github-dependabot-pull-request-comment-commands) — iOS CI Newsletter · Issue 78 — Article · Topics: Developer Tools
   **Published:** `2025-10-13T00:00:00.000Z`
   **NeKI brief:** Examines GitHub Dependabot upcoming deprecations in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [configuration data for command-line tools](https://github.com/apple/swift-configuration/tree/main/Examples/hello-world-cli-example) — iOS Dev Weekly · Issue 730 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `10th October 2025`
+  **NeKI brief:** Examines API package for reading configuration. Contribute to apple/swift-configuration development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [SwiftGitX](https://github.com/ibrahimcetin/SwiftGitX) — iOS Dev Tools · iOS Dev Tools: SwiftGitX, AsyncLifetime, Navigator — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-10-09T16:31:37.747Z`
+  **NeKI brief:** SwiftGitX exposes Git operations through Swift APIs. Follow its source for concrete repository, branch, and command abstractions, while checking process execution, error handling, and platform support before integrating it.
+- [AsyncLifetime](https://github.com/nonameplum/AsyncLifetime) — iOS Dev Tools · iOS Dev Tools: SwiftGitX, AsyncLifetime, Navigator — Source repository · Topics: Concurrency · Developer Career & Practice · Developer Tools
+  **Published:** `2025-10-09T16:31:37.747Z`
+  **NeKI brief:** AsyncLifetime provides Swift abstractions for asynchronous resource lifetimes. Follow its source for concrete cancellation, cleanup, and ownership semantics, then assess how they interact with Swift concurrency in the target project.
 - [Navigator](https://github.com/hmlongco/Navigator) — iOS Dev Tools · iOS Dev Tools: SwiftGitX, AsyncLifetime, Navigator — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2025-10-09T16:31:37.747Z`
   **NeKI brief:** Navigator provides a SwiftUI navigation abstraction centered on route-driven presentation. Use it to compare centralized routing decisions with native NavigationStack state when complex flows need testable deep-link handling.
@@ -771,18 +1257,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Aidoku](https://github.com/Aidoku/Aidoku) — iOS Dev Tools · iOS Dev Tools: React-native-enriched, Darling, Aidoku — Source repository · Topics: Developer Tools
   **Published:** `2025-10-02T19:15:22.078Z`
   **NeKI brief:** Aidoku is an ad-free, open-source manga reader for iOS and iPadOS with downloadable content, external-source support, WebAssembly-based source modules, and AniList/MyAnimeList tracking. The project is a substantial example of modular content ingestion on Apple platforms.
+- [Claude Sonnet 4.5 Released](https://www.anthropic.com/news/claude-sonnet-4-5) — Those Who Swift · Issue 234 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2025-10-01`
+  **NeKI brief:** Reviews Claude Sonnet 4.5 Released. Useful as a focused reference for evaluating the described workflow or technology, while validating current platform behavior and project-specific constraints against primary documentation.
 - [sample project](https://github.com/JuniperPhoton/CornerMarginSample) — Fatbobman’s Swift Weekly · Issue 104 — Source repository · Topics: Developer Tools
   **Published:** `2025-09-29T12:00:38.726Z`
   **NeKI brief:** CornerMarginSample demonstrates layout behavior around corner and margin changes. Use it as a visual test fixture when comparing SwiftUI layout effects across OS versions instead of inferring geometry from screenshots alone.
+- [GitHub Markdown Shortcuts](https://l.fatbobman.com/w0104-07) — Fatbobman’s Swift Weekly · Issue 104 — Article · Topics: Developer Tools
+  **Published:** `2025-09-29T12:00:38.726Z`
+  **NeKI brief:** Shows Markdown shortcuts that streamline GitHub pull-request writing. Follow it when reducing review friction through consistent formatting, reusable structure, and clearer communication of implementation changes.
 - [Swift Package Index](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server) — iOS Dev Weekly · Issue 728 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `26th September 2025`
   **NeKI brief:** Examines open-source, focusing on georgios recommends the point-free swift-snapshot-testing which we also use to test the rendered html output from the…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [GitHub Markdown Shortcuts](https://lickability.com/blog/github-markdown-shortcuts) — iOS Dev Weekly · Issue 728 — Article · Topics: Developer Tools
+  **Published:** `26th September 2025`
+  **NeKI brief:** Examines Streamlining our pull requests. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [LaunchNext](https://github.com/RoversX/LaunchNext) — iOS Dev Tools · iOS Dev Tools: LaunchNext, Feather, DeskRest — Source repository · Topics: Developer Tools · Testing
+  **Published:** `2025-09-25T16:45:27.027Z`
+  **NeKI brief:** LaunchNext is a macOS launcher utility for opening applications or workflows. Follow its source for concrete menu-bar, search, and process-launch interactions, while checking its permissions and current macOS compatibility.
+- [Feather](https://github.com/khcrysalis/Feather) — iOS Dev Tools · iOS Dev Tools: LaunchNext, Feather, DeskRest — Source repository · Topics: Developer Tools · Security & Privacy
+  **Published:** `2025-09-25T16:45:27.027Z`
+  **NeKI brief:** Feather is an Apple-platform project for managing or installing application packages. Follow its source for concrete package and signing workflows, while treating trust, permissions, and distribution boundaries as security-sensitive.
+- [YoutubeBarPlayer](https://artiomgramatin.github.io/SunnyAAGWebsite/YoutubeBarPlayer.html) — iOS Dev Tools · iOS Dev Tools: LaunchNext, Feather, DeskRest — Article · Topics: Cross-Platform & Web · Developer Tools · Graphics, Media & Games
+  **Published:** `2025-09-25T16:45:27.027Z`
+  **NeKI brief:** YoutubeBarPlayer plays YouTube videos from a macOS menu bar popover by accepting a pasted link and embedding playback. Follow it for a concrete lightweight media utility interaction without a full browser window.
 - [The TCA Playbook: Debugging Large Reducers Without Losing Your Mind](https://medium.com/@wesleymatlock/the-tca-playbook-debugging-large-reducers-without-losing-your-mind-e8813c9c6eda) — Those Who Swift · Issue 233 — Article · Topics: Composable Architecture · Developer Tools · Performance
   **Published:** `2025-09-24`
   **NeKI brief:** Examines The TCA Playbook: Debugging Large Reducers Without Losing Your Mind, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [available on GitHub](https://github.com/NSHipster/sosumi.ai) — SwiftLee Weekly · Issue 290 — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2025-09-23T14:09:24.000Z`
+  **NeKI brief:** Points to available on GitHub, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [ImplementedSE-0482Binary Static Library Dependencies](https://github.com/apple/swift-evolution/blob/main/proposals/0482-swiftpm-static-library-binary-target-non-apple-platforms.md) — SwiftLee Weekly · Issue 290 — Source repository · Topics: Dependency Injection · Developer Tools · Swift
   **Published:** `2025-09-23T14:09:24.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0482Binary Static Library Dependencies. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [edge-agent: A Swift Runtime Platform for Edge Computing](https://l.fatbobman.com/w0103-07) — Fatbobman’s Swift Weekly · Issue 103 — Article · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `2025-09-22T12:03:29.428Z`
+  **NeKI brief:** Provides infrastructure for deploying robotics and edge-AI workloads with Swift-oriented tooling. Follow it when evaluating Swift beyond conventional app targets and considering deployment, device, and operational constraints for edge systems.
 - [⚠️ Node 20 will soon be deprecated on GitHub Actions](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners) — iOS CI Newsletter · Issue 75 — Article · Topics: Developer Tools
   **Published:** `2025-09-21T00:00:00.000Z`
   **NeKI brief:** Examines Node 20 will soon be deprecated on GitHub Actions in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -795,15 +1305,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Toolbar Guidelines](https://marioaguzman.github.io/design/toolbarguidelines) — iOS Dev Weekly · Issue 727 — Article · Topics: Developer Tools
   **Published:** `19th September 2025`
   **NeKI brief:** Presents toolbar guidelines for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Kinetics](https://github.com/roberthein/Kinetics) — iOS Dev Tools · iOS Dev Tools: Kinetics, Simulator Manager, PartialJSON — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-09-18T19:16:43.486Z`
+  **NeKI brief:** Kinetics is an Apple-platform project related to motion or animation behavior. Follow its source for concrete timing, physics, or interaction techniques, while verifying framework and performance assumptions.
+- [PartialJSON](https://github.com/itruf/PartialJSON) — iOS Dev Tools · iOS Dev Tools: Kinetics, Simulator Manager, PartialJSON — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-09-18T19:16:43.486Z`
+  **NeKI brief:** PartialJSON provides parsing support for incomplete or partial JSON content. Follow its source for concrete recovery and decoding behavior, then verify malformed-input semantics before using it in a production data pipeline.
+- [Developer Mode Guide — OpenAI Platform](https://platform.openai.com/docs/guides/developer-mode) — Those Who Swift · Issue 232 — Article · Topics: AI Development · Developer Tools · Security & Privacy
+  **Published:** `2025-09-17`
+  **NeKI brief:** Documents OpenAI Platform developer mode. Useful for understanding tool and environment configuration in agent workflows, with credentials and execution permissions treated as explicit boundaries.
 - [OpenAttributeGraph](https://github.com/OpenSwiftUIProject/OpenAttributeGraph) — Fatbobman’s Swift Weekly · Issue 102 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2025-09-15T12:03:30.479Z`
   **NeKI brief:** OpenAttributeGraph documents an open implementation of SwiftUI-style dependency tracking and attribute propagation. Use it to investigate why state changes invalidate views, while treating it as a learning model rather than Apple's private framework source.
 - [JNIKit](https://github.com/swifdroid/jni-kit) — Fatbobman’s Swift Weekly · Issue 102 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `2025-09-15T12:03:30.479Z`
   **NeKI brief:** JNIKit provides Swift-friendly bindings for Android JNI interaction. Use it when a Swift Android library must call Java or Kotlin APIs, keeping conversion and reference-lifetime rules isolated from application code.
+- [Swift-Build GitHub Action](https://l.fatbobman.com/w0102-07) — Fatbobman’s Swift Weekly · Issue 102 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-09-15T12:03:30.479Z`
+  **NeKI brief:** Provides a GitHub Action for building and testing Swift packages across platforms. Follow it when setting up matrix-based package validation and comparing CI workflows for Linux, macOS, and other supported targets.
 - [detailed introduction](https://brightdigit.com/tutorials/swift-build) — Fatbobman’s Swift Weekly · Issue 102 — Tutorial · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-09-15T12:03:30.479Z`
   **NeKI brief:** Explains using the swift-build GitHub Action to run Swift Package Manager builds and tests on macOS and Linux. Use it as a compact cross-platform CI starting point before adding caching, matrices, or release artifacts.
+- [ReerJSON](https://github.com/reers/ReerJSON) — iOS Dev Tools · iOS Dev Tools: Subprocess, ReerJSON, Haptic Video Sync — Source repository · Topics: Developer Tools · Product Design
+  **Published:** `2025-09-11T20:39:49.146Z`
+  **NeKI brief:** ReerJSON provides JSON parsing or serialization helpers for Swift. Follow its source and tests for concrete decoding behavior and error handling, then evaluate compatibility with Codable and project data models.
 - [Haptic Video Sync](https://github.com/thomasdye12/HapticPlayer) — iOS Dev Tools · iOS Dev Tools: Subprocess, ReerJSON, Haptic Video Sync — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
   **Published:** `2025-09-11T20:39:49.146Z`
   **NeKI brief:** HapticPlayer is an iOS haptic playback example, providing a focused repository for experimenting with Core Haptics patterns. Useful for isolating feedback timing and device capability checks before embedding haptics into a larger feature.
@@ -816,15 +1341,39 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🧰 Automating Swift binary releases using GitHub Actions](https://www.ioscoffeebreak.com/issue/issue58) — iOS CI Newsletter · Issue 74 — Article · Topics: Developer Tools · Swift
   **Published:** `2025-09-10T00:00:00.000Z`
   **NeKI brief:** Summarises Automating Swift binary releases using GitHub Actions for Developer Tools and Swift. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
+- [Automating Swift Binary Releases Using GitHub Actions](https://l.fatbobman.com/w0101-04) — Fatbobman’s Swift Weekly · Issue 101 — Article · Topics: Developer Tools · Swift
+  **Published:** `2025-09-08T12:03:42.721Z`
+  **NeKI brief:** Shows how GitHub Actions can build and publish Swift command-line tools automatically when a new tag is pushed. Follow it when designing a release pipeline with reproducible triggers, artifact generation, and package distribution steps.
 - [IQListKit](https://github.com/Instagram/IGListKit) — iOS Dev Tools · iOS Dev Tools: IQListKit, Radar, HapticPlayer — Source repository · Topics: Developer Tools
   **Published:** `2025-09-04T15:31:16.101Z`
-  **NeKI brief:** IGListKit provides a data-driven collection-view architecture with section controllers, diffing, and incremental updates. It is useful for studying how large, frequently changing lists can avoid brittle index-path bookkeeping and preserve performant UIKit rendering.
+  **NeKI brief:** Examines A data-driven UICollectionView framework for building fast and flexible lists. - Instagram/IGListKit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [QuickRecorder](https://github.com/lihaoyun6/QuickRecorder) — iOS Dev Tools · iOS Dev Tools: IQListKit, Radar, HapticPlayer — Source repository · Topics: Developer Tools · Performance
   **Published:** `2025-09-04T15:31:16.101Z`
   **NeKI brief:** QuickRecorder is a lightweight macOS recorder built around ScreenCaptureKit, covering screen capture and related recording controls. Useful for examining a native capture workflow when producing reproducible demos or test evidence.
 - [Debugging Swift Concurrency: "Am I on the Main Actor?" (Not the Main Thread)](https://www.swiftyplace.com/blog/debugging-swift-concurrency) — SwiftLee Weekly · Issue 287 — Article · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-09-02T14:17:18.000Z`
   **NeKI brief:** Explains how to determine whether Swift code runs on the MainActor rather than merely the main thread. Use it to diagnose isolation mistakes and validate actor assumptions during concurrency debugging.
+- [Perception](http://github.com/pointfreeco/swift-perception) — SwiftUI Weekly · SwiftUI Weekly - Issue #222 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-09-01T13:02:53.458Z`
+  **NeKI brief:** Provides Point-Free's backport of Swift observation capabilities for deployment targets that predate the newer Observation framework. Useful when sharing modern observable-model patterns across older OS versions.
+- [WhisperKit](https://github.com/argmaxinc/WhisperKit) — iOS Dev Tools · iOS Dev Tools: WhisperKit, Swiftfin, Pearcleaner — Source repository · Topics: Developer Tools
+  **Published:** `2025-08-29T06:38:01.785Z`
+  **NeKI brief:** WhisperKit packages on-device Whisper speech recognition for Apple platforms. Follow its source for concrete model loading, transcription, and performance workflows, including the trade-off between local privacy, memory, and speed.
+- [Swiftfin](https://github.com/jellyfin/Swiftfin) — iOS Dev Tools · iOS Dev Tools: WhisperKit, Swiftfin, Pearcleaner — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `2025-08-29T06:38:01.785Z`
+  **NeKI brief:** Swiftfin is a Swift client for Jellyfin media services. Follow its source for concrete API, playback, authentication, and caching integration patterns, while verifying server and platform compatibility.
+- [Pearcleaner](https://github.com/alienator88/Pearcleaner) — iOS Dev Tools · iOS Dev Tools: WhisperKit, Swiftfin, Pearcleaner — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `2025-08-29T06:38:01.785Z`
+  **NeKI brief:** Pearcleaner is a macOS application uninstaller that identifies related support files for removal. Follow its source for concrete filesystem discovery and cleanup safeguards, while treating deletion behavior as security-sensitive.
+- [Osaurus](https://github.com/dinoki-ai/osaurus) — iOS Dev Tools · iOS Dev Tools: WhisperKit, Swiftfin, Pearcleaner — Source repository · Topics: AI Development · Combine & Reactive Programming · Developer Tools
+  **Published:** `2025-08-29T06:38:01.785Z`
+  **NeKI brief:** Osaurus is an AI-oriented Apple-platform project. Follow its source for concrete local model, tool, or automation integration points, while verifying current APIs, resource requirements, and privacy behavior.
+- [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) — iOS Dev Tools · iOS Dev Tools: WhisperKit, Swiftfin, Pearcleaner — Source repository · Topics: Developer Tools
+  **Published:** `2025-08-29T06:38:01.785Z`
+  **NeKI brief:** MarkEdit is a native Markdown editor for Apple platforms. Follow its source for concrete document, preview, and editor architecture, and inspect how file coordination and syntax rendering are handled.
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) — iOS Dev Weekly · Issue 724 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `29th August 2025`
+  **NeKI brief:** Examines An open-source AI agent that brings the power of Gemini directly into your terminal. - google-gemini/gemini-cli. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [working sample](https://github.com/trozware/swiftui-webview) — iOS Dev Weekly · Issue 724 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `29th August 2025`
   **NeKI brief:** Presents working sample for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -834,6 +1383,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [ImplementedSE-0476Controlling the ABI of a function, initializer, property, or subscript](https://github.com/apple/swift-evolution/blob/main/proposals/0476-abi-attr.md) — SwiftLee Weekly · Issue 286 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2025-08-26T14:12:25.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0476Controlling the ABI of a function, initializer, property, or subscript. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [SwiftMCP](https://github.com/Cocoanetics/SwiftMCP) — iOS Dev Tools · iOS Dev Tools: Votice, SwiftMCP, NetworkKit — Source repository · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2025-08-21T17:28:34.537Z`
+  **NeKI brief:** SwiftMCP provides Swift-oriented MCP implementation code. Follow its repository for concrete transport, tool, and model abstractions, then verify protocol compatibility and maintenance status before integrating it into an application.
+- [NetworkKit](https://github.com/bpisano/NetworkKit) — iOS Dev Tools · iOS Dev Tools: Votice, SwiftMCP, NetworkKit — Source repository · Topics: Developer Tools · Networking · Swift
+  **Published:** `2025-08-21T17:28:34.537Z`
+  **NeKI brief:** NetworkKit provides reusable networking abstractions for Swift applications. Follow its source for concrete request, response, and transport composition, then evaluate error handling, cancellation, and concurrency compatibility.
 - [Hidden Gems in the Swift Argument Parser – Part I](https://swifttoolkit.dev/posts/argument-parser-gems) — Those Who Swift · Issue 228 — Article · Topics: Developer Tools · Swift
   **Published:** `2025-08-20`
   **NeKI brief:** Examines Hidden Gems in the Swift Argument Parser – Part I, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -843,12 +1398,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [WithdrawnSE-0030Property Behaviors](https://github.com/apple/swift-evolution/blob/main/proposals/0030-property-behavior-decls.md) — SwiftLee Weekly · Issue 285 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2025-08-19T14:12:01.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for WithdrawnSE-0030Property Behaviors. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [AcceptedSE-0487Nonexhaustive enums](https://github.com/apple/swift-evolution/blob/main/proposals/0487-extensible-enums.md) — SwiftLee Weekly · Issue 285 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-08-19T14:12:01.000Z`
+  **NeKI brief:** Records AcceptedSE-0487Nonexhaustive enums, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [STTextView](https://github.com/krzyzanowskim/STTextView) — Fatbobman’s Swift Weekly · Issue 98 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `2025-08-18T12:03:30.201Z`
   **NeKI brief:** STTextView is a TextKit 2-based text editor that exposes the practical gaps encountered in Apple's newer text system. Use it when building editor-like macOS UI and needing a tested reference for selection, layout, and editing behavior.
 - [swift-argument-parser](https://github.com/apple/swift-argument-parser) — Fatbobman’s Swift Weekly · Issue 98 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-08-18T12:03:30.201Z`
   **NeKI brief:** swift-argument-parser declares command-line options, arguments, subcommands, validation, and help in typed Swift definitions. Use it when a developer tool needs discoverable CLI behavior without manually parsing argv or maintaining usage text separately.
+- [Whisper model](https://github.com/openai/whisper) — iOS Dev Weekly · Issue 722 — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `15th August 2025`
+  **NeKI brief:** Examines Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [ch.at](https://github.com/Deep-ai-inc/ch.at) — iOS Dev Tools · iOS Dev Tools: ch.at, Mercato, Dependencies — Source repository · Topics: AI Development · Developer Tools · Security & Privacy
   **Published:** `2025-08-14T19:53:26.103Z`
   **NeKI brief:** ch.at is an open-source chat application project from Deep AI Inc. Use the repository to inspect conversational UI, networking, and model-integration patterns, while treating its architecture as an example rather than a production security baseline.
@@ -858,9 +1419,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Dependencies](https://github.com/pointfreeco/swift-dependencies) — iOS Dev Tools · iOS Dev Tools: ch.at, Mercato, Dependencies — Source repository · Topics: Dependency Injection · Developer Tools · Swift
   **Published:** `2025-08-14T19:53:26.103Z`
   **NeKI brief:** Swift Dependencies models dependency values in a SwiftUI-inspired environment, allowing production implementations to be replaced in tests and previews. Useful for making side effects explicit without threading every service through initializer parameters.
+- [ImplementedSE-0459Add `Collection` conformances for `enumerated()`](https://github.com/apple/swift-evolution/blob/main/proposals/0459-enumerated-collection.md) — SwiftLee Weekly · Issue 284 — Source repository · Topics: Developer Tools · Swift · Xcode
+  **Published:** `2025-08-12T18:01:44.000Z`
+  **NeKI brief:** Records ImplementedSE-0459Add `Collection` conformances for `enumerated()`, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [ImplementedSE-0477Default Value in String Interpolations](https://github.com/apple/swift-evolution/blob/main/proposals/0477-default-interpolation-values.md) — SwiftLee Weekly · Issue 284 — Source repository · Topics: Developer Tools · Swift · Xcode
+  **Published:** `2025-08-12T18:01:44.000Z`
+  **NeKI brief:** Records ImplementedSE-0477Default Value in String Interpolations, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [ImplementedSE-0480Warning Control Settings for SwiftPM](https://github.com/apple/swift-evolution/blob/main/proposals/0480-swiftpm-warning-control.md) — SwiftLee Weekly · Issue 284 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-08-12T18:01:44.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0480Warning Control Settings for SwiftPM. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [ImplementedSE-0483`InlineArray` Type Sugar](https://github.com/apple/swift-evolution/blob/main/proposals/0483-inline-array-sugar.md) — SwiftLee Weekly · Issue 284 — Source repository · Topics: Developer Tools · Swift · Xcode
+  **Published:** `2025-08-12T18:01:44.000Z`
+  **NeKI brief:** Records ImplementedSE-0483`InlineArray` Type Sugar, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [ImplementedSE-0485OutputSpan: delegate initialization of contiguous memory](https://github.com/apple/swift-evolution/blob/main/proposals/0485-outputspan.md) — SwiftLee Weekly · Issue 284 — Source repository · Topics: Developer Tools · Swift · Xcode
+  **Published:** `2025-08-12T18:01:44.000Z`
+  **NeKI brief:** Records ImplementedSE-0485OutputSpan: delegate initialization of contiguous memory, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [ImplementedSE-0488Apply the extracting() slicing pattern more widely](https://github.com/apple/swift-evolution/blob/main/proposals/0488-extracting.md) — SwiftLee Weekly · Issue 284 — Source repository · Topics: Developer Tools · Swift · Xcode
+  **Published:** `2025-08-12T18:01:44.000Z`
+  **NeKI brief:** Records ImplementedSE-0488Apply the extracting() slicing pattern more widely, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Valkey](https://github.com/valkey-io/valkey) — Fatbobman’s Swift Weekly · Issue 97 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-08-11T12:04:06.619Z`
   **NeKI brief:** Valkey is a BSD-licensed, Redis-compatible high-performance key-value store forked from Redis 7.2.4. Use it when server-side caching or queues need Redis protocol compatibility without the later Redis licensing model.
@@ -870,9 +1446,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [xcode-build-server](https://github.com/SolaWing/xcode-build-server) — Fatbobman’s Swift Weekly · Issue 97 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Xcode
   **Published:** `2025-08-11T12:04:06.619Z`
   **NeKI brief:** xcode-build-server supplies build-server-protocol data for Xcode projects so editors can understand Swift builds. Use it when integrating non-Xcode tooling such as Zed with an existing workspace and its compiler settings.
+- [share the primary prompt I use](https://gist.github.com/daveverwer/3e149ce951f3a52e996a0fdcdb7522d9) — iOS Dev Weekly · Issue 721 — Source repository · Topics: Developer Tools
+  **Published:** `8th August 2025`
+  **NeKI brief:** ¹ I can even share the primary prompt I use inside Lex, if you’re interested.
+- [SparkDI](https://github.com/sassiwalid/SparkDI) — iOS Dev Tools · iOS Dev Tools: SparkDI, SwiftNetworkRequest, TranscriptDebugMenu — Source repository · Topics: Dependency Injection · Developer Tools · Swift
+  **Published:** `2025-08-07T19:48:09.291Z`
+  **NeKI brief:** SparkDI provides dependency-injection abstractions for Swift applications. Follow its source for concrete container, registration, and resolution behavior, then evaluate lifecycle, concurrency, and testability trade-offs before integrating it.
+- [SwiftNetworkRequest](https://github.com/vadimkrutovlv/swift-network-request) — iOS Dev Tools · iOS Dev Tools: SparkDI, SwiftNetworkRequest, TranscriptDebugMenu — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-08-07T19:48:09.291Z`
+  **NeKI brief:** SwiftNetworkRequest provides request abstractions for Swift networking. Follow its source for concrete construction, decoding, error, and cancellation semantics, then compare its concurrency model with the project’s networking layer.
+- [Hidden Bar](https://github.com/dwarvesf/hidden) — iOS Dev Tools · iOS Dev Tools: SparkDI, SwiftNetworkRequest, TranscriptDebugMenu — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2025-08-07T19:48:09.291Z`
+  **NeKI brief:** Hidden Bar hides or reveals macOS menu-bar items to manage limited horizontal space. Follow its source for concrete menu-bar status-item behavior and system integration, while checking current macOS compatibility.
+- [gpt-oss by OpenAI](https://github.com/openai/gpt-oss) — Those Who Swift · Issue 226 — Source repository · Topics: AI Development · Developer Tools · Performance
+  **Published:** `2025-08-06`
+  **NeKI brief:** Publishes OpenAI’s open-weight GPT models and related artifacts. Useful for inspecting model distribution and runtime integration details while keeping deployment, hardware, and licensing assumptions explicit.
+- [AI Use Cases](https://github.com/Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies) — Those Who Swift · Issue 226 — Source repository · Topics: AI Development · Architecture · Developer Tools
+  **Published:** `2025-08-06`
+  **NeKI brief:** Collects machine-learning system-design case studies. Useful for broadening architecture review vocabulary around data, models, serving, and operational trade-offs.
 - [swiftlang/swift-testing: A modern, expressive testing package for Swift](https://github.com/swiftlang/swift-testing) — SwiftLee Weekly · Issue 283 — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `2025-08-05T17:17:03.000Z`
   **NeKI brief:** Presents a concrete implementation of Swift Testing. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
+- [Swift](https://github.com/swiftlang/swift) — SwiftLee Weekly · Issue 283 — Source repository · Topics: Developer Tools · Swift · Testing
+  **Published:** `2025-08-05T17:17:03.000Z`
+  **NeKI brief:** Points to Swift, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
+- [swift-package-manager](https://github.com/swiftlang/swift-package-manager) — SwiftLee Weekly · Issue 283 — Source repository · Topics: Developer Tools · Swift · Testing
+  **Published:** `2025-08-05T17:17:03.000Z`
+  **NeKI brief:** Points to swift-package-manager, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
+- [swiftlang/swiftly: A Swift toolchain installer and manager, written in Swift.](https://github.com/swiftlang/swiftly) — SwiftLee Weekly · Issue 283 — Source repository · Topics: Developer Tools · Swift · Testing
+  **Published:** `2025-08-05T17:17:03.000Z`
+  **NeKI brief:** Points to swiftlang/swiftly: A Swift toolchain installer and manager, written in Swift., an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [apple/swift-async-algorithms: Async Algorithms for Swift](https://github.com/apple/swift-async-algorithms) — SwiftLee Weekly · Issue 283 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-08-05T17:17:03.000Z`
   **NeKI brief:** swift-async-algorithms adds reusable asynchronous sequence operators and utilities for Swift concurrency. Use it when async/await code needs throttling, merging, buffering, or other stream composition without reintroducing a full Combine pipeline.
@@ -885,6 +1488,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [memory monitoring tool](https://github.com/egzonpllana/MemoryProfiler) — Fatbobman’s Swift Weekly · Issue 96 — Source repository · Topics: Developer Tools · Performance
   **Published:** `2025-08-04T12:03:39.737Z`
   **NeKI brief:** MemoryProfiler helps surface abnormal memory growth during iOS navigation and interaction. Use it to reproduce a suspected leak or retained graph before escalating to Instruments, rather than relying only on one-time memory snapshots.
+- [Giselle Katics](https://gkatics.github.io/giKatics) — iOS Dev Weekly · Issue 720 — Article · Topics: App Distribution & Store Operations · Developer Tools · Testing
+  **Published:** `1st August 2025`
+  **NeKI brief:** But could there be more metadata on App Store pages in the future? I felt inspired to write this after reading Giselle Katics‘ latest article, “Building for hate: Designing for deception”. The whole article is worth a read, but this piece stood out to me:
+- [Digital Fairness Act](https://cerre.eu/publications/shaping-the-future-of-european-consumer-protection-towards-a-digital-fairness-act?ref=createwithswift.com) — iOS Dev Weekly · Issue 720 — Article · Topics: Developer Tools · Swift
+  **Published:** `1st August 2025`
+  **NeKI brief:** Examines Shaping the Future of European Consumer Protection: Towards a Digital Fairness Act? - CERRE. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [FreeTypeFramework](https://github.com/EvgenijLutz/FreeTypeFramework) — iOS Dev Tools · iOS Dev Tools: FreeTypeFramework, IGListKit, Horoscope — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-07-31T18:12:59.226Z`
   **NeKI brief:** FreeTypeFramework packages the FreeType font engine for Apple-platform projects, making font parsing and rasterization available through a reusable framework. The repository is a useful starting point when system font APIs do not cover a custom rendering pipeline.
@@ -903,6 +1512,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Foundation Models Framework Example](https://github.com/rudrankriyam/Foundation-Models-Framework-Example) — iOS Dev Weekly · Issue 719 — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
   **Published:** `25th July 2025`
   **NeKI brief:** This source repository covers a practical lab for building, testing, and evaluating Apple Foundation Models apps. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [little experiment](https://github.com/daveverwer/FoundationModelComparison?tab=readme-ov-file) — iOS Dev Weekly · Issue 719 — Source repository · Topics: Developer Tools · Foundation & Data Formats
+  **Published:** `25th July 2025`
+  **NeKI brief:** The GitHub repository documents a small experiment comparing Foundation model behavior, with publicly readable README and source context.
 - [XCFolder](https://github.com/ZhgChgLi/XCFolder) — iOS Dev Tools · iOS Dev Tools: XCFolder, Mocking Star, SwiftPostgresClient — Source repository · Topics: Developer Tools · Xcode
   **Published:** `2025-07-24T17:41:16.681Z`
   **NeKI brief:** XCFolder converts Xcode's virtual groups into real directories, aligning project structure with filesystem-based generators such as Tuist and XcodeGen. Useful for reducing project-file drift while planning a source-tree migration.
@@ -915,6 +1527,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [ImplementedSE-0470Global-actor isolated conformances](https://github.com/apple/swift-evolution/blob/main/proposals/0470-isolated-conformances.md) — SwiftLee Weekly · Issue 281 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-07-22T14:08:43.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0470Global-actor isolated conformances. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [swift-java package](https://github.com/swiftlang/swift-java) — iOS Dev Weekly · Issue 718 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `18th July 2025`
+  **NeKI brief:** The Swift team has open-sourced early work on Swift/Java interoperability. The project includes JavaKit and jextract-swift, allowing Swift to use Java libraries and Java to call Swift. It's an early prototype aimed at expanding Swift's versatility across…
+- [YoutubeTranscript](https://github.com/spaceman1412/swift-youtube-transcript) — iOS Dev Tools · iOS Dev Tools: Picasso, YoutubeTranscript, Applite — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
+  **Published:** `2025-07-17T18:57:30.320Z`
+  **NeKI brief:** YoutubeTranscript extracts or processes YouTube transcripts in Swift. Follow its source for concrete request, parsing, and text-processing behavior, while checking API limits, availability, and content-rights boundaries.
+- [Applite](https://github.com/milanvarady/Applite) — iOS Dev Tools · iOS Dev Tools: Picasso, YoutubeTranscript, Applite — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
+  **Published:** `2025-07-17T18:57:30.320Z`
+  **NeKI brief:** Applite is a macOS graphical client for Homebrew package management. Follow its source for concrete package discovery, installation, and update workflows, while checking privilege and repository assumptions.
+- [CalcGPT.io](https://github.com/Calvin-LL/CalcGPT.io) — Those Who Swift · Issue 223 — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2025-07-16`
+  **NeKI brief:** Provides a small SwiftUI app for exploring calculator behavior. Useful for inspecting a concrete Apple-platform codebase and evaluating how UI state, calculation logic, and project structure are organized.
 - [Active ReviewSE-0466Control default actor isolation inference](https://github.com/apple/swift-evolution/blob/main/proposals/0466-control-default-actor-isolation.md) — SwiftLee Weekly · Issue 280 — Source repository · Topics: AI Development · Concurrency · Swift
   **Published:** `2025-07-15T14:13:29.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0466Control default actor isolation inference. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -927,6 +1551,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [✨ How to build delight Swift CLIs](https://swifttoolkit.dev/posts/terminal-utilities) — iOS CI Newsletter · Issue 72 — Article · Topics: CI/CD & Automation · Developer Tools · Swift
   **Published:** `2025-07-14T00:00:00.000Z`
   **NeKI brief:** Walks through how to build delight Swift CLIs, with practical context for CI/CD & Automation and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) — iOS Dev Tools · iOS Dev Tools: FluidAudio, PlayCover, FlashSpace — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Performance
+  **Published:** `2025-07-10T20:12:55.159Z`
+  **NeKI brief:** FluidAudio provides Swift audio and speech-processing components. Follow its source for concrete local inference or signal-processing workflows, while checking model requirements, performance characteristics, and supported Apple platforms.
+- [PlayCover](https://github.com/PlayCover/PlayCover) — iOS Dev Tools · iOS Dev Tools: FluidAudio, PlayCover, FlashSpace — Source repository · Topics: Developer Tools · Graphics, Media & Games · Hardware & Devices
+  **Published:** `2025-07-10T20:12:55.159Z`
+  **NeKI brief:** PlayCover runs iOS applications on macOS through a compatibility layer. Follow its source for concrete packaging, runtime, and input-mapping techniques, while treating compatibility and legal boundaries as project-specific constraints.
+- [FlashSpace](https://github.com/wojciech-kulik/FlashSpace) — iOS Dev Tools · iOS Dev Tools: FluidAudio, PlayCover, FlashSpace — Source repository · Topics: Developer Tools
+  **Published:** `2025-07-10T20:12:55.159Z`
+  **NeKI brief:** FlashSpace is a macOS window and workspace manager. Follow its source for concrete workspace, shortcut, and window-placement behavior, while checking permissions and compatibility with current macOS Spaces.
 - [ImplementedSE-0464UTF8Span: Safe UTF-8 Processing Over Contiguous Bytes](https://github.com/apple/swift-evolution/blob/main/proposals/0464-utf8span-safe-utf8-processing.md) — SwiftLee Weekly · Issue 279 — Source repository · Topics: Developer Tools · Liquid Glass · Swift
   **Published:** `2025-07-08T13:08:44.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0464UTF8Span: Safe UTF-8 Processing Over Contiguous Bytes. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -939,21 +1572,75 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [JustLockIn](https://github.com/spaceman1412/justlockin) — iOS Dev Tools · iOS Dev Tools: QuickLook, ASO.report, GitProbe — Source repository · Topics: Developer Tools
   **Published:** `2025-07-03T19:16:57.125Z`
   **NeKI brief:** JustLockIn is a minimalist macOS menu-bar Pomodoro timer controlled from a single click. Useful for examining a deliberately narrow focus workflow and the interaction cost of persistent desktop reminders.
+- [Copilot Open Source AI Editor: First Milestone](https://code.visualstudio.com/blogs/2025/06/30/openSourceAIEditorFirstMilestone) — Those Who Swift · Issue 221 — Article · Topics: AI Development · Developer Community & Business · Developer Tools
+  **Published:** `2025-07-02`
+  **NeKI brief:** Describes an early milestone of an open-source AI editor based on VS Code. Useful for comparing editor extensibility, agent integration, and the operational trade-offs of adopting an evolving toolchain.
 - [ImplementedSE-0472Starting tasks synchronously from caller context](https://github.com/apple/swift-evolution/blob/main/proposals/0472-task-start-synchronously-on-caller-context.md) — SwiftLee Weekly · Issue 278 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
   **Published:** `2025-07-01T14:14:53.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0472Starting tasks synchronously from caller context. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [AcceptedSE-0474Yielding accessors](https://github.com/apple/swift-evolution/blob/main/proposals/0474-yielding-accessors.md) — SwiftLee Weekly · Issue 278 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2025-07-01T14:14:53.000Z`
+  **NeKI brief:** Records AcceptedSE-0474Yielding accessors, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [Diagnostics](https://github.com/wetransfer/diagnostics) — SwiftLee Weekly · Issue 278 — Source repository · Topics: Concurrency · Developer Community & Business · Swift
+  **Published:** `2025-07-01T14:14:53.000Z`
+  **NeKI brief:** Points to Diagnostics, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
+- [NIOFileSystem](https://github.com/apple/swift-nio/tree/main/Sources/NIOFileSystem) — SwiftLee Weekly · Issue 278 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-07-01T14:14:53.000Z`
+  **NeKI brief:** Points to NIOFileSystem, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [📦 How to set up a Swift Package registry](https://albertodebortoli.com/2025/06/06/how-to-setup-a-swift-package-registry-in-artifactory) — iOS CI Newsletter · Issue 71 — Article · Topics: Concurrency · Swift · Swift Package Manager
   **Published:** `2025-06-30T00:00:00.000Z`
   **NeKI brief:** Walks through how to set up a Swift Package registry, with practical context for Concurrency and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [🧪 How to run Unit Tests on CI/CD](https://nowham.dev/posts/github_actions_unit_tests) — iOS CI Newsletter · Issue 71 — Article · Topics: CI/CD & Automation · Developer Tools · Testing
   **Published:** `2025-06-30T00:00:00.000Z`
   **NeKI brief:** Walks through how to run Unit Tests on CI/CD, with practical context for CI/CD & Automation and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [late February](https://devclass.com/2025/02/27/anthropic-previews-claude-code-agentic-coding-capable-but-costly) — iOS Dev Weekly · Issue 716 — Article · Topics: AI Development · Developer Tools · Objective-C & Cocoa
+  **Published:** `27th June 2025`
+  **NeKI brief:** Examines ¹ Claude Code entered “research preview” in late February and GitHub talked about the Copilot agent just a month ago. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [just a month ago](https://github.blog/news-insights/product-news/github-copilot-meet-the-new-coding-agent) — iOS Dev Weekly · Issue 716 — Article · Topics: AI Development · Developer Tools · Objective-C & Cocoa
+  **Published:** `27th June 2025`
+  **NeKI brief:** The GitHub Blog article introduces GitHub Copilot's coding agent and explains its workflow for delegating software-engineering tasks.
+- [AI Coding Assistant Benchmarks: Who Fixes iOS Crashes Best?](https://www.instabug.com/blog/benchmarking-ai-coding-assistants-for-mobile-app-crash-resolution) — iOS Dev Weekly · Issue 716 — Article · Topics: AI Development · Cross-Platform & Web · Developer Tools
+  **Published:** `27th June 2025`
+  **NeKI brief:** Examines Benchmarking AI Coding Assistants for Mobile App Crash Resolution | Luciq. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Create Custom Symbols](https://github.com/jaywcjlove/create-custom-symbols) — iOS Dev Tools · iOS Dev Tools: Create Custom Symbols, MoPromoteKit, SyntaxKit — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `2025-06-26T19:24:23.404Z`
+  **NeKI brief:** Create Custom Symbols generates or manages custom SF Symbols-like assets. Follow its source and examples for concrete symbol construction and asset workflow, while verifying Xcode catalog and rendering compatibility.
+- [MoPromoteKit](https://github.com/mkhasson97/MoPromoteKit) — iOS Dev Tools · iOS Dev Tools: Create Custom Symbols, MoPromoteKit, SyntaxKit — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `2025-06-26T19:24:23.404Z`
+  **NeKI brief:** MoPromoteKit provides promotion or marketing integration for mobile applications. Follow its repository for concrete API and campaign workflows, while verifying supported providers, privacy, and maintenance before adoption.
+- [SyntaxKit](https://github.com/brightdigit/SyntaxKit) — iOS Dev Tools · iOS Dev Tools: Create Custom Symbols, MoPromoteKit, SyntaxKit — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-06-26T19:24:23.404Z`
+  **NeKI brief:** SyntaxKit provides syntax-related parsing or presentation components for Swift. Follow its source and examples for concrete tokenization and highlighting behavior, while checking grammar coverage and performance for the intended editor or viewer.
+- [AlwaysOnTop](https://github.com/itsabhishekolkha/AlwaysOnTop) — iOS Dev Tools · iOS Dev Tools: Create Custom Symbols, MoPromoteKit, SyntaxKit — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2025-06-26T19:24:23.404Z`
+  **NeKI brief:** AlwaysOnTop keeps selected macOS windows above other windows. Follow its source for concrete window-level and menu-bar integration, while checking accessibility permissions and behavior across Spaces and full-screen apps.
+- [The Evolution of Mobile CI: Navigating the Shift to Infrastructure‑as‑a‑Service](https://tuist.dev/blog/2025/06/18/mobile-ci) — Those Who Swift · Issue 220 — Article · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `2025-06-25`
+  **NeKI brief:** Describes the evolution of mobile CI toward infrastructure services. Useful for comparing reproducibility, scaling, and operational ownership when designing an iOS build pipeline.
+- [ImplementedSE-0486Migration tooling for Swift features](https://github.com/apple/swift-evolution/blob/main/proposals/0486-adoption-tooling-for-swift-features.md) — SwiftLee Weekly · Issue 277 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-06-24T14:09:23.000Z`
+  **NeKI brief:** Records ImplementedSE-0486Migration tooling for Swift features, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [State of the Union: What I Took Away](https://yaacoub.github.io/articles/swift-tip/state-of-the-union-what-i-took-away) — SwiftUI Weekly · SwiftUI Weekly - Issue #218 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2025-06-23T10:41:25.657Z`
+  **NeKI brief:** Distills the author's practical takeaways from Apple's Platforms State of the Union at WWDC25. Useful for quickly identifying platform changes worth following up in a SwiftUI or Apple-platform product roadmap.
+- [Iconed](https://github.com/jaywcjlove/iconed) — iOS Dev Tools · iOS Dev Tools: App Store Screenshot Tester, Iconed, ChessKit, — Source repository · Topics: Developer Tools
+  **Published:** `2025-06-19T14:20:14.930Z`
+  **NeKI brief:** Iconed is a project for generating or managing application icons. Follow its source for concrete asset-generation and export behavior, while checking required formats and App Store submission constraints.
+- [ChessKit](https://github.com/chesskit-app/chesskit-swift) — iOS Dev Tools · iOS Dev Tools: App Store Screenshot Tester, Iconed, ChessKit, — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-06-19T14:20:14.930Z`
+  **NeKI brief:** ChessKit provides Swift models or UI components for chess applications. Follow its source for concrete board, move, and game-state representations, while verifying its package API and performance for the intended use.
+- [LookAway](https://lookaway.app/) — iOS Dev Tools · iOS Dev Tools: App Store Screenshot Tester, Iconed, ChessKit, — Article · Topics: Developer Tools
+  **Published:** `2025-06-19T14:20:14.930Z`
+  **NeKI brief:** LookAway encourages users to take visual breaks from screens. Follow it for a concrete reminder and camera or attention workflow, while treating it as a product example rather than technical documentation.
 - [ImplementedSE-0456Add `Span`-providing Properties to Standard Library Types](https://github.com/apple/swift-evolution/blob/main/proposals/0456-stdlib-span-properties.md) — SwiftLee Weekly · Issue 276 — Source repository · Topics: Developer Tools · Swift · UIKit
   **Published:** `2025-06-17T14:10:56.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0456Add `Span`-providing Properties to Standard Library Types. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
 - [ImplementedSE-0465Standard Library Primitives for Nonescapable Types](https://github.com/apple/swift-evolution/blob/main/proposals/0465-nonescapable-stdlib-primitives.md) — SwiftLee Weekly · Issue 276 — Source repository · Topics: Developer Tools · Swift · UIKit
   **Published:** `2025-06-17T14:10:56.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0465Standard Library Primitives for Nonescapable Types. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [ImplementedSE-0467MutableSpan and MutableRawSpan: delegate mutations of contiguous memory](https://github.com/apple/swift-evolution/blob/main/proposals/0467-MutableSpan.md) — SwiftLee Weekly · Issue 276 — Source repository · Topics: Developer Tools · Swift · UIKit
+  **Published:** `2025-06-17T14:10:56.000Z`
+  **NeKI brief:** Records ImplementedSE-0467MutableSpan and MutableRawSpan: delegate mutations of contiguous memory, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [ImplementedSE-0468`Hashable` conformance for `Async(Throwing)Stream.Continuation`](https://github.com/apple/swift-evolution/blob/main/proposals/0468-async-stream-continuation-hashable-conformance.md) — SwiftLee Weekly · Issue 276 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-06-17T14:10:56.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0468`Hashable` conformance for `Async(Throwing)Stream.Continuation`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -984,9 +1671,51 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [DataScoutCompanion](https://github.com/alex566/DataScoutCompanion) — Fatbobman’s Swift Weekly · Issue 87 — Source repository · Topics: Developer Tools · Swift · SwiftData
   **Published:** `2025-06-07T12:01:11.599Z`
   **NeKI brief:** DataScoutCompanion is an open-source companion for inspecting application data during development. Use it when debugging data flows needs a dedicated in-app inspection surface rather than scattered temporary logging statements.
+- [countless other events](https://github.com/twostraws/wwdc) — iOS Dev Weekly · Issue 713 — Source repository · Topics: Apple Platform Ecosystem · Developer Community & Business · Developer Tools
+  **Published:** `6th June 2025`
+  **NeKI brief:** If you have a ticket and are going to California, I hope you have a wonderful time at the event. If you’ll be there without a ticket, I hope you have a wonderful time at CommunityKit and One More Thing, and the countless other events during the week!
+- [Installing Swift Executables From Source With Mise](https://swifttoolkit.dev/posts/mise-swift) — iOS Dev Weekly · Issue 713 — Article · Topics: Developer Tools · Swift
+  **Published:** `6th June 2025`
+  **NeKI brief:** Examines Using Mise. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [the original post from Pedro Piñera,](https://swifttoolkit.dev/posts/distribute-swift-clis) — iOS Dev Weekly · Issue 713 — Article · Topics: Developer Tools · Swift
   **Published:** `6th June 2025`
   **NeKI brief:** This article covers distributing Swift command-line tools for macOS. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [Natan Rolnik](https://threads.net/@natanrolnik) — iOS Dev Weekly · Issue 713 — Article · Topics: Developer Tools · Swift
+  **Published:** `6th June 2025`
+  **NeKI brief:** I missed the original post from Pedro Piñera, but I caught this follow-up post from Natan Rolnik about distributing and installing Swift command line tools with Mise. Specifically, an experimental feature in Mise which allows SPM executables to be built and…
+- [Porkbun.com — Offering .app and .dev Domains For Under $6](https://porkbun.com/land/dot-app-domains-dot-dev-domains?coupon=APPDEV599) — iOS Dev Tools · iOS Dev Tools: Bezel, Footprint, AppRouter — Article · Topics: Developer Tools · Testing
+  **Published:** `2025-06-05T19:50:55.283Z`
+  **NeKI brief:** This Porkbun page is a discounted .app and .dev domain advertisement. It is commercial promotion rather than technical reading and should normally be excluded from the knowledge index.
+- [.app or .dev domain for less than $6](http://porkbun.com/land/app-domain-dev-domain-foo-domain?coupon=APPDEVFOO1) — iOS Dev Tools · iOS Dev Tools: Bezel, Footprint, AppRouter — Article · Topics: Developer Tools · Testing
+  **Published:** `2025-06-05T19:50:55.283Z`
+  **NeKI brief:** This Porkbun page is a discounted .app, .dev, or .foo domain advertisement. It is commercial promotion rather than technical reading and should normally be excluded from the knowledge index.
+- [AppRouter](https://github.com/Dimillian/AppRouter) — iOS Dev Tools · iOS Dev Tools: Bezel, Footprint, AppRouter — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-06-05T19:50:55.283Z`
+  **NeKI brief:** AppRouter is a SwiftUI routing library that centralizes navigation decisions. Follow its source to inspect how routes, destinations, and presentation state are modeled, and compare those trade-offs with the project’s existing navigation architecture.
+- [Ice](https://github.com/jordanbaird/Ice) — iOS Dev Tools · iOS Dev Tools: Bezel, Footprint, AppRouter — Source repository · Topics: Developer Career & Practice · Developer Tools · macOS & AppKit
+  **Published:** `2025-06-05T19:50:55.283Z`
+  **NeKI brief:** Ice manages macOS menu-bar items and hidden status icons. Follow its source for concrete menu-bar layout and interaction behavior, while checking current macOS compatibility and permission boundaries.
+- [IcySky](https://github.com/Dimillian/IcySky/blob/main/App/IcySkyApp.swift) — SwiftUI Weekly · SwiftUI Weekly - Issue #217 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-06-02T12:56:10.176Z`
+  **NeKI brief:** Explains It’s 2025, and I’m still getting asked the same question: “Where are your ViewModels?” Every time I share this opinion or code from my open-source projects like my BlueSky client, IcySky, or even the Medium iOS app, deve Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [OneSignal iOS SDK](https://github.com/OneSignal/OneSignal-iOS-SDK) — iOS Dev Tools · iOS Dev Tools: OneSignal iOS SDK, Syncthing, Flex — Source repository · Topics: App Services & Extensions · Developer Tools
+  **Published:** `2025-05-29T19:34:37.258Z`
+  **NeKI brief:** OneSignal’s iOS SDK integrates push notifications and messaging into Apple-platform apps. Follow the repository for concrete registration, event, and notification-service-extension integration points, while verifying current SDK setup separately.
+- [Syncthing](https://github.com/syncthing/syncthing-macos) — iOS Dev Tools · iOS Dev Tools: OneSignal iOS SDK, Syncthing, Flex — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2025-05-29T19:34:37.258Z`
+  **NeKI brief:** Syncthing for macOS synchronizes files across devices without a central cloud service. Follow its source for concrete peer discovery, replication, and conflict behavior, while reviewing security and operational trade-offs.
+- [Flex](https://github.com/FLEXTool/FLEX) — iOS Dev Tools · iOS Dev Tools: OneSignal iOS SDK, Syncthing, Flex — Source repository · Topics: Developer Tools
+  **Published:** `2025-05-29T19:34:37.258Z`
+  **NeKI brief:** FLEX is an in-app debugging and inspection tool for iOS. Follow its source to examine runtime view hierarchy, network, and object-inspection capabilities that can shorten diagnosis during development builds.
+- [Reminders MenuBar](https://github.com/DamascenoRafael/reminders-menubar) — iOS Dev Tools · iOS Dev Tools: OneSignal iOS SDK, Syncthing, Flex — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2025-05-29T19:34:37.258Z`
+  **NeKI brief:** Reminders MenuBar is a macOS menu-bar utility for creating or viewing reminders. Follow its source to inspect a focused EventKit-style workflow and the concrete choices used for quick task capture.
+- [StoreKit Examples - GitHub Repo](https://github.com/jordibruin/StoreKit-Examples) — SwiftLee Weekly · Issue 273 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `2025-05-27T14:08:19.000Z`
+  **NeKI brief:** Points to StoreKit Examples - GitHub Repo, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
+- [add it to the GitHub issue](https://github.com/AvdLee/RocketSimApp/issues/607) — SwiftLee Weekly · Issue 273 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Xcode
+  **Published:** `2025-05-27T14:08:19.000Z`
+  **NeKI brief:** Points to add it to the GitHub issue, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [ImmutableData-FoodTruck](https://github.com/Swift-ImmutableData/ImmutableData-FoodTruck) — Fatbobman’s Swift Weekly · Issue 85 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-05-26T12:01:23.043Z`
   **NeKI brief:** ImmutableData-FoodTruck is a migration tutorial showing incremental adoption of immutable-data patterns in a sample app. Use it to study a staged refactor rather than attempting to convert an existing mutable model all at once.
@@ -1005,6 +1734,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0471Improved Custom SerialExecutor isolation checking for Concurrency Runtime](https://github.com/apple/swift-evolution/blob/main/proposals/0471-SerialExecutor-isIsolated.md) — SwiftLee Weekly · Issue 272 — Source repository · Topics: App Services & Extensions · Swift · Testing
   **Published:** `2025-05-20T14:12:58.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0471Improved Custom SerialExecutor isolation checking for Concurrency Runtime. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [AsyncExtensions](https://github.com/sideeffect-io/AsyncExtensions) — SwiftLee Weekly · Issue 272 — Source repository · Topics: Combine & Reactive Programming · Concurrency · Developer Tools
+  **Published:** `2025-05-20T14:12:58.000Z`
+  **NeKI brief:** Points to AsyncExtensions, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [SE-475: Transactional Observation of Values](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0475-observed.md) — SwiftLee Weekly · Issue 272 — Source repository · Topics: Combine & Reactive Programming · Developer Tools · Swift
   **Published:** `2025-05-20T14:12:58.000Z`
   **NeKI brief:** Provides the public source repository for SE-0475. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
@@ -1029,12 +1761,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🪝How to use Git Hooks for iOS projects](https://nowham.dev/posts/git_hooks) — iOS CI Newsletter · Issue 68 — Article · Topics: CI/CD & Automation · Developer Tools
   **Published:** `2025-05-18T00:00:00.000Z`
   **NeKI brief:** Walks through how to use Git Hooks for iOS projects, with practical context for CI/CD & Automation and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [MYCloudKit](https://github.com/mufasaYC/MYCloudKit) — iOS Dev Tools · iOS Dev Tools: MYCloudKit, SwiftUX, Deploy Path — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-05-15T18:46:45.755Z`
+  **NeKI brief:** MYCloudKit provides Swift abstractions around CloudKit data or synchronization. Follow its source for concrete record, container, and sync behavior, then compare its conflict and error model with the application architecture.
+- [ShutdownScheduler](https://github.com/ihugang/ShutdownScheduler) — iOS Dev Tools · iOS Dev Tools: MYCloudKit, SwiftUX, Deploy Path — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2025-05-15T18:46:45.755Z`
+  **NeKI brief:** ShutdownScheduler schedules Mac shutdown or related power actions. Follow its source for concrete scheduling and system-command behavior, while reviewing permission, cancellation, and failure handling before relying on it.
+- [Diagnostics](https://github.com/WeTransfer/Diagnostics) — SwiftLee Weekly · Issue 271 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-05-13T09:07:48.000Z`
+  **NeKI brief:** Points to Diagnostics, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [ImplementedSE-0461Run nonisolated async functions on the caller's actor by default](https://github.com/apple/swift-evolution/blob/main/proposals/0461-async-function-isolation.md) — SwiftLee Weekly · Issue 271 — Source repository · Topics: Concurrency · Swift · Testing
   **Published:** `2025-05-13T09:07:48.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0461Run nonisolated async functions on the caller's actor by default. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Active ReviewSE-0484Allow Additional Arguments to `@dynamicMemberLookup` Subscripts](https://github.com/apple/swift-evolution/blob/main/proposals/0484-allow-additional-args-to-dynamicmemberlookup-subscripts.md) — SwiftLee Weekly · Issue 271 — Source repository · Topics: Concurrency · Swift · Testing
+  **Published:** `2025-05-13T09:07:48.000Z`
+  **NeKI brief:** Records Active ReviewSE-0484Allow Additional Arguments to `@dynamicMemberLookup` Subscripts, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [SwiftPamphletApp](https://github.com/ming1016/SwiftPamphletApp) — Fatbobman’s Swift Weekly · Issue 83 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-05-12T12:02:48.422Z`
   **NeKI brief:** SwiftPamphletApp is an Apple-ecosystem knowledge-management app combining technical material, notes, and curated reading. Use it as a product reference for personal developer-information organization rather than a framework tutorial.
+- [WWDC community events](https://github.com/twostraws/wwdc?tab=readme-ov-file) — iOS Dev Weekly · Issue 711 — Source repository · Topics: Apple Platform Ecosystem · Developer Community & Business · Developer Tools
+  **Published:** `9th May 2025`
+  **NeKI brief:** I won’t be making the trip across to Cupertino this year, but if you’re making the trip then the best place to find out what’s going on all week is the WWDC community events repository, which is still accepting updates if you spot anything missing.
+- [MMKV](https://github.com/Tencent/MMKV) — iOS Dev Tools · iOS Dev Tools: WinWinLinks, MMKV, Harmonize — Source repository · Topics: Cross-Platform & Web · Developer Tools · Performance
+  **Published:** `2025-05-08T14:22:48.081Z`
+  **NeKI brief:** MMKV provides fast key-value persistence backed by memory-mapped files. Follow its source for concrete serialization, synchronization, and storage behavior, then evaluate durability and cross-platform trade-offs before using it for application state.
+- [Clippy](https://felixrieseberg.github.io/clippy) — iOS Dev Tools · iOS Dev Tools: WinWinLinks, MMKV, Harmonize — Article · Topics: Developer Tools
+  **Published:** `2025-05-08T14:22:48.081Z`
+  **NeKI brief:** Clippy is a macOS clipboard manager from Felix Rieseberg. Follow it for a concrete local clipboard-history workflow and compare its retention and privacy behavior with other clipboard utilities.
 - [Metatype Keypaths](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0438-metatype-keypath.md) — Fatbobman’s Swift Weekly · Issue 82 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-05-05T12:02:30.935Z`
   **NeKI brief:** SE-0438 introduces key paths rooted at metatypes for referring to static members. Use it when generic code needs a type-level projection, while verifying compiler support and syntax in the project's targeted Swift release.
@@ -1050,6 +1803,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🆓 Draft Pull Requests are now available in all repositories](https://github.blog/changelog/2025-05-01-draft-pull-requests-are-now-available-in-all-repositories) — iOS CI Newsletter · Issue 67 — Article · Topics: Developer Tools
   **Published:** `2025-05-04T00:00:00.000Z`
   **NeKI brief:** Examines Draft Pull Requests are now available in all repositories in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [XcodeBuild MCP](https://github.com/cameroncooke/XcodeBuildMCP) — iOS Dev Tools · iOS Dev Tools: GrowASO, XcodeBuild MCP, Compot — Source repository · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2025-05-01T14:50:23.226Z`
+  **NeKI brief:** XcodeBuildMCP exposes Xcode build and simulator workflows through an MCP tool interface. Follow its repository for concrete automation commands and environment boundaries, while checking permission and tool-version requirements before use.
+- [Qwen3 Release](https://qwenlm.github.io/blog/qwen3) — Those Who Swift · Issue 212 — Article · Topics: Developer Tools · Testing
+  **Published:** `2025-04-30`
+  **NeKI brief:** Introduces Qwen3. Useful for comparing model capabilities and deployment options while separating release claims from measured behavior in a target application.
+- [Code-talker](https://github.com/HarishChandran3304/TTG) — Those Who Swift · Issue 212 — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2025-04-30`
+  **NeKI brief:** Provides a code-talker project repository. Useful for inspecting an implementation directly and evaluating how speech or code presentation is structured in an Apple-platform tool.
 - [ImplementedSE-0457Expose attosecond representation of `Duration`](https://github.com/apple/swift-evolution/blob/main/proposals/0457-duration-attosecond-represenation.md) — SwiftLee Weekly · Issue 269 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-04-29T14:18:33.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0457Expose attosecond representation of `Duration`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -1059,6 +1821,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [ImplementedSE-0463Import Objective-C completion handler parameters as `@Sendable`](https://github.com/apple/swift-evolution/blob/main/proposals/0463-sendable-completion-handlers.md) — SwiftLee Weekly · Issue 269 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-04-29T14:18:33.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0463Import Objective-C completion handler parameters as `@Sendable`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [ImplementedSE-0469Task Naming](https://github.com/apple/swift-evolution/blob/main/proposals/0469-task-names.md) — SwiftLee Weekly · Issue 269 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-04-29T14:18:33.000Z`
+  **NeKI brief:** Records ImplementedSE-0469Task Naming, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [ErrorKit](https://github.com/FlineDev/ErrorKit) — Fatbobman’s Swift Weekly · Issue 81 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `2025-04-28T00:00:42.290Z`
   **NeKI brief:** ErrorKit is an Apple-platform error presentation layer that turns failures into user-facing alerts, sheets, or notifications while keeping error handling composable. The source helps evaluate a centralized approach to reporting errors across SwiftUI and UIKit flows.
@@ -1068,6 +1833,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [DataScout](https://data-scout.pages.dev/) — iOS Dev Tools · iOS Dev Tools: AppsMan, ErrorKit, DataScout — Article · Topics: Core Data · Cross-Platform & Web · Persistence & Synchronisation
   **Published:** `2025-04-24T13:08:49.536Z`
   **NeKI brief:** Data Scout is a data-exploration project presented as a developer product. Inspect its concrete workflow when comparing small utility apps, data presentation choices, and the cost of maintaining a focused independent product.
+- [Apple Rebrands Search Ads as Apple Ads](https://searchengineland.com/apple-search-ads-apple-ads-454356) — Those Who Swift · Issue 211 — Article · Topics: App Distribution & Store Operations · Developer Tools · Objective-C & Cocoa
+  **Published:** `2025-04-24`
+  **NeKI brief:** Reports Apple’s rebranding of Search Ads. Useful for App Store acquisition context, while current campaign behavior requires official documentation.
+- [Internet OS for Enthusiasts](https://github.com/heyPuter/puter) — Those Who Swift · Issue 211 — Source repository · Topics: Developer Tools
+  **Published:** `2025-04-24`
+  **NeKI brief:** Provides the Puter internet-OS project source. Useful for examining a browser-oriented application architecture and its integration boundaries instead of relying only on a product overview.
+- [release/6.2 branch](https://github.com/swiftlang/swift/tree/release/6.2) — SwiftLee Weekly · Issue 268 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-04-22T13:40:18.000Z`
+  **NeKI brief:** Points to release/6.2 branch, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [a starting point in the repository's readme](https://github.com/swiftlang/swift/tree/release/6.2?tab=readme-ov-file) — SwiftLee Weekly · Issue 268 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `2025-04-22T13:40:18.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for a starting point in the repository's readme. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -1098,6 +1872,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🍎 Can your AI Assistant help you with App Store Connect issues?](https://github.com/JoshuaRileyDev/app-store-connect-mcp-server) — iOS CI Newsletter · Issue 66 — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
   **Published:** `2025-04-20T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for Can your AI Assistant help you with App Store Connect issues?, relevant to AI Development and App Distribution & Store Operations. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Flappy Swift](https://sliemeobn.github.io/flappy-swift) — iOS Dev Weekly · Issue 708 — Article · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `18th April 2025`
+  **NeKI brief:** try! Swift Tokyo was happening just a few days ago, and the organisers already have the entire set of videos available if you were not able to make the trip to Japan. Why not enjoy a few of them this weekend?
+- [FormattedListKit](https://github.com/chiahsien/FormattedListKit) — iOS Dev Tools · iOS Dev Tools: FormattedListKit, Libraried, Pressdeck — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-04-17T13:23:18.210Z`
+  **NeKI brief:** FormattedListKit provides formatted list components for SwiftUI or UIKit. Follow its source for concrete row layout, formatting, and interaction patterns, then check accessibility and platform compatibility before adoption.
+- [World Clock](https://apps.apple.com/us/app/world-clock-time-zone-widgets/id956377119) — iOS Dev Tools · iOS Dev Tools: FormattedListKit, Libraried, Pressdeck — Article · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `2025-04-17T13:23:18.210Z`
+  **NeKI brief:** World Clock presents analog or digital city times through Home Screen, Lock Screen, and Dynamic Island widgets. Follow it for a concrete cross-surface time-zone utility and widget configuration pattern.
+- [AcceptedSE-0473Clock Epochs](https://github.com/apple/swift-evolution/blob/main/proposals/0473-clock-epochs.md) — SwiftLee Weekly · Issue 267 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-04-15T13:04:41.000Z`
+  **NeKI brief:** Records AcceptedSE-0473Clock Epochs, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [Active ReviewSE-0475Transactional Observation of Values](https://github.com/apple/swift-evolution/blob/main/proposals/0475-observed.md) — SwiftLee Weekly · Issue 267 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-04-15T13:04:41.000Z`
+  **NeKI brief:** Records Active ReviewSE-0475Transactional Observation of Values, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [swift-markdown](https://github.com/swiftlang/swift-markdown) — Fatbobman’s Swift Weekly · Issue 79 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-04-14T12:01:43.772Z`
   **NeKI brief:** swift-markdown parses and constructs Markdown using a typed document tree and Visitor traversal. Use it when a tool must transform Markdown structurally rather than applying fragile string replacements to source text.
@@ -1110,6 +1899,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [StoreKitHelper](https://github.com/jaywcjlove/StoreKitHelper) — iOS Dev Tools · iOS Dev Tools: easy-frame, Sweetpad, StoreKitHelper — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
   **Published:** `2025-04-11T07:56:27.598Z`
   **NeKI brief:** StoreKitHelper wraps StoreKit 2 for SwiftUI in a lightweight package, reducing repeated purchase and entitlement plumbing. Useful for comparing a small declarative helper with direct StoreKit transaction observation and product loading.
+- [interesting article celebrating 20 years of Git](https://blog.gitbutler.com/20-years-of-git) — iOS Dev Weekly · Issue 707 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `11th April 2025`
+  **NeKI brief:** Examines Twenty years ago, Git was born. How did this unlikely "information manager" take over the world?. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [26th March 2005](https://en.wikipedia.org/wiki/GNU_Bazaar) — iOS Dev Weekly · Issue 707 — Article · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `11th April 2025`
+  **NeKI brief:** Examines GNU Bazaar - Wikipedia. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [7th April](https://en.wikipedia.org/wiki/Git) — iOS Dev Weekly · Issue 707 — Article · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `11th April 2025`
+  **NeKI brief:** The page covers “7th April” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [19th April](https://en.wikipedia.org/wiki/Mercurial) — iOS Dev Weekly · Issue 707 — Article · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `11th April 2025`
+  **NeKI brief:** Presents 19th April, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Webinar recording](https://streamyard.com/asubu9a35gcn) — iOS CI Newsletter · Issue 65 — Article · Topics: CI/CD & Automation · Developer Tools · Swift
   **Published:** `2025-04-06T00:00:00.000Z`
   **NeKI brief:** Examines Webinar recording in the context of CI/CD & Automation and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -1125,9 +1926,39 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🐙 GitHub Copilot code review now has Swift support](https://github.blog/changelog/2025-04-04-copilot-code-review-now-generally-available) — iOS CI Newsletter · Issue 65 — Article · Topics: AI Development · Code Quality · Developer Tools
   **Published:** `2025-04-06T00:00:00.000Z`
   **NeKI brief:** Examines GitHub Copilot code review now has Swift support in the context of AI Development and Code Quality. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [ish](https://github.com/swiftlang/swift-docc-plugin/releases/tag/1.4.0) — iOS Dev Weekly · Issue 706 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `4th April 2025`
+  **NeKI brief:** Explains ish, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [NeoBrutalism UI components](https://github.com/rational-kunal/NeoBrutalism) — iOS Dev Tools · iOS Dev Tools: WinWinKit, ASO.dev, NeoBrutalism — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-04-03T14:55:54.485Z`
+  **NeKI brief:** NeoBrutalism provides SwiftUI interface components styled around neo-brutalist design. Follow its examples for concrete layout, color, and interaction patterns, then assess accessibility and design-system fit.
+- [AppleAI](https://github.com/bunnysayzz/AppleAI) — iOS Dev Tools · iOS Dev Tools: WinWinKit, ASO.dev, NeoBrutalism — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
+  **Published:** `2025-04-03T14:55:54.485Z`
+  **NeKI brief:** AppleAI is a GitHub project exploring Apple-platform AI capabilities. Follow its source for concrete framework calls and integration experiments, while verifying availability, privacy boundaries, and current Apple API contracts independently.
 - [Does AsyncStream Replace Combine? No.](https://levelup.gitconnected.com/does-asyncstream-replace-combine-a4fc091a8175) — Those Who Swift · Issue 208 — Article · Topics: Combine & Reactive Programming · Concurrency · Developer Tools
   **Published:** `2025-04-02`
   **NeKI brief:** This article covers the boundary between AsyncStream and Combine. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [Terminus](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html) — Those Who Swift · Issue 208 — Article · Topics: Cross-Platform & Web · Developer Tools · Graphics, Media & Games
+  **Published:** `2025-04-02`
+  **NeKI brief:** Reviews Terminus. Useful as a focused reference for evaluating the described workflow or technology, while validating current platform behavior and project-specific constraints against primary documentation.
+- [GameShell](https://www.clockworkpi.com/gameshell) — Those Who Swift · Issue 208 — Article · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `2025-04-02`
+  **NeKI brief:** Reviews GameShell. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [or else](https://blog.gitbutler.com/why-is-git-autocorrect-too-fast-for-formula-one-drivers) — iOS Dev Weekly · Issue 705 — Tutorial · Topics: Developer Tools · Performance
+  **Published:** `28th March 2025`
+  **NeKI brief:** I know I say this every time I link to information about Instruments, but it’s an underused app because it can be seen as hard to get to grips with. So I was delighted to see Apple publish this new 90-minute tutorial. From the content of the two currently…
+- [ChatLayout](https://github.com/ekazaev/ChatLayout) — iOS Dev Tools · iOS Dev Tools: RevenueFlo, ChatLayout, HandySwift — Source repository · Topics: Developer Tools
+  **Published:** `2025-03-27T21:08:09.510Z`
+  **NeKI brief:** ChatLayout provides layout infrastructure for chat and messaging interfaces. Follow its source for concrete self-sizing, scrolling, and message-positioning techniques, then compare its behavior with the app’s input and pagination model.
+- [MessageKit](https://github.com/MessageKit/MessageKit) — iOS Dev Tools · iOS Dev Tools: RevenueFlo, ChatLayout, HandySwift — Source repository · Topics: Developer Tools
+  **Published:** `2025-03-27T21:08:09.510Z`
+  **NeKI brief:** MessageKit supplies reusable UIKit components for building chat and messaging interfaces. Follow its examples and source for concrete message-cell, input-bar, and layout patterns before adapting them to an app.
+- [HandySwift](https://github.com/FlineDev/HandySwift) — iOS Dev Tools · iOS Dev Tools: RevenueFlo, ChatLayout, HandySwift — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-03-27T21:08:09.510Z`
+  **NeKI brief:** HandySwift provides reusable Swift conveniences and helpers. Follow its source and tests to inspect the concrete extensions offered, then evaluate naming, dependency surface, and Swift-version compatibility before adoption.
+- [FlowNavigation](https://github.com/magnuskahr/swiftui-flow-navigation) — SwiftLee Weekly · Issue 264 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-03-25T15:06:57.000Z`
+  **NeKI brief:** Points to FlowNavigation, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [ImplementedSE-0444Member import visibility](https://github.com/apple/swift-evolution/blob/main/proposals/0444-member-import-visibility.md) — SwiftLee Weekly · Issue 264 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-03-25T15:06:57.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0444Member import visibility. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -1164,18 +1995,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [MaClicker](https://github.com/WorldOfBasti/MaClicker) — iOS Dev Tools · iOS Dev Tools: Swift GraphQL Codegen, HandySwiftUI, Surge — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-03-13T19:20:57.517Z`
   **NeKI brief:** MaClicker is a small macOS auto-clicker implemented as a focused utility. Useful for examining global input automation and the permission boundary such tools require, rather than treating simulated clicks as ordinary app events.
+- [Animatable Auto-Sized-To-Fit SwiftUI Sheet](https://clive819.github.io/posts/animatable-auto-sized-to-fit-swiftui-sheet) — Those Who Swift · Issue 205 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-03-12`
+  **NeKI brief:** Shows an animatable auto-sized SwiftUI sheet. Useful for coordinating measured content, animation, and presentation state when a sheet should fit changing content without hard-coded detents.
 - [Gist](https://gist.github.com/fatbobman/d47e7d11df5ce5d3c42f032e27457eed) — Fatbobman’s Swift Weekly · Issue 74 — Source repository · Topics: Developer Tools · Performance · Swift
   **Published:** `2025-03-10T12:03:47.395Z`
   **NeKI brief:** Collects the article's related source snippets in one Gist for easier comparison and reuse. Use it as a companion code reference, while reading the surrounding analysis for lifecycle and concurrency rationale.
 - [set_github_release](https://preview.convertkit-mail2.com/click/dpheh0hzhm/aHR0cHM6Ly9kb2NzLmZhc3RsYW5lLnRvb2xzL2FjdGlvbnMvc2V0X2dpdGh1Yl9yZWxlYXNlLw==) — iOS CI Newsletter · Issue 63 — Article · Topics: CI/CD & Automation · Developer Tools
   **Published:** `2025-03-09T00:00:00.000Z`
   **NeKI brief:** Summarises set_github_release for CI/CD & Automation and Developer Tools. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
+- [this repository](https://github.com/metal-by-example/spatial-rendering) — iOS Dev Weekly · Issue 702 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `7th March 2025`
+  **NeKI brief:** I’ve had this repository from Warren Moore in my list of “things to check out” for a while now. Finally, seeing the release of this video made me do it. It’s an hour-long overview of his Swift-based renderer for visionOS, and while the content of his talk…
+- [Creating macOS Menu Bar App in SwiftUI](https://clive819.github.io/posts/creating-macos-menu-bar-app-in-swiftui) — Those Who Swift · Issue 204 — Article · Topics: macOS & AppKit · Swift · SwiftUI
+  **Published:** `2025-03-05`
+  **NeKI brief:** Builds a macOS menu-bar app with SwiftUI. Useful for understanding menu-bar lifecycle, scene configuration, and the platform-specific constraints that differ from a regular windowed app.
+- [ImplementedSE-0447Span: Safe Access to Contiguous Storage](https://github.com/apple/swift-evolution/blob/main/proposals/0447-span-access-shared-contiguous-storage.md) — SwiftLee Weekly · Issue 261 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-03-04T15:16:50.000Z`
+  **NeKI brief:** Records ImplementedSE-0447Span: Safe Access to Contiguous Storage, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [ImplementedSE-0458Opt-in Strict Memory Safety Checking](https://github.com/apple/swift-evolution/blob/main/proposals/0458-strict-memory-safety.md) — SwiftLee Weekly · Issue 261 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-03-04T15:16:50.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0458Opt-in Strict Memory Safety Checking. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [SE-461 Run nonisolated async functions on the caller's actor by default](https://github.com/swiftlang/swift-evolution/blob/e56820b8eaeb5441ad4b0a4e0132eb501729f291/proposals/0461-async-function-isolation.md) — SwiftLee Weekly · Issue 261 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-03-04T15:16:50.000Z`
+  **NeKI brief:** Records SE-461 Run nonisolated async functions on the caller's actor by default, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [sample code](https://github.com/artemnovichkov/ShazamKitExample) — Fatbobman’s Swift Weekly · Issue 73 — Source repository · Topics: Concurrency · Developer Career & Practice · Developer Tools
   **Published:** `2025-03-04T01:25:29.647Z`
   **NeKI brief:** ShazamKitExample demonstrates music recognition with ShazamKit's modern async APIs. Use it to trace recognition-result flow without manually coordinating AVAudioEngine callbacks, then adapt audio capture and permissions to the product's needs.
+- [LinksKit](https://github.com/FlineDev/LinksKit) — iOS Dev Tools · iOS Dev Tools: PrettyPrintedJSON, LinksKit, Hex — Source repository · Topics: Developer Tools
+  **Published:** `2025-02-27T16:23:55.746Z`
+  **NeKI brief:** LinksKit is a Swift library for working with links or link-related UI. Follow the repository for concrete model and interaction abstractions, and verify supported platforms and maintenance before integrating it.
+- [Hex](https://github.com/kitlangton/Hex) — iOS Dev Tools · iOS Dev Tools: PrettyPrintedJSON, LinksKit, Hex — Source repository · Topics: Architecture · Composable Architecture · Developer Tools
+  **Published:** `2025-02-27T16:23:55.746Z`
+  **NeKI brief:** Hex provides Swift utilities or UI for hexadecimal data and representation. Follow its source for concrete conversion and formatting behavior, while checking byte-order, validation, and platform integration details.
+- [Viz](https://github.com/alienator88/Viz) — iOS Dev Tools · iOS Dev Tools: PrettyPrintedJSON, LinksKit, Hex — Source repository · Topics: Developer Tools · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2025-02-27T16:23:55.746Z`
+  **NeKI brief:** Viz is a GitHub project for visualizing or inspecting data on Apple platforms. Follow its source and examples for concrete rendering and interaction patterns, while verifying the project’s supported frameworks and current maintenance.
 - [ViewInspector](https://github.com/nalexn/ViewInspector) — Fatbobman’s Swift Weekly · Issue 72 — Source repository · Topics: Swift · SwiftUI · Testing
   **Published:** `2025-02-24T12:03:49.550Z`
   **NeKI brief:** ViewInspector enables runtime inspection of SwiftUI view hierarchies in tests. Use it when asserting view structure or extracting state that normal UI tests cannot observe, while keeping tests resilient to intentional implementation changes.
@@ -1215,10 +2070,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [TranslateKit](https://github.com/FlineDev/TranslateKit) — Fatbobman’s Swift Weekly · Issue 71 — Source repository · Topics: Developer Tools · Localization · Swift
   **Published:** `2025-02-17T23:25:21.639Z`
   **NeKI brief:** TranslateKit packages localization workflows for Swift projects, including translation-oriented tooling around Xcode resources. Follow it when evaluating whether localization synchronization should live in build tooling instead of ad-hoc manual edits.
-- [Mint](https://github.com/yonaskolb/Mint) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [Cool Terminal Things I’ve Found Recently](https://www.neilmacy.co.uk/blog/some-cool-terminal-things) — iOS Dev Weekly · Issue 699 — Article · Topics: Developer Tools
+  **Published:** `14th February 2025`
+  **NeKI brief:** This is a great set of Terminal tips and tricks from Neil Macy. The one that stuck for me was Atuin, which has already saved me from many keypresses on the up arrow key. 🎉
+- [Mint](https://github.com/yonaskolb/Mint) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Mint installs and runs Swift Package Manager command-line tools at project-pinned versions. Use it to make generators, linters, and other developer executables reproducible without committing their binaries or relying on globally installed versions.
-- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Architecture · Composable Architecture · Swift
+- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Source repository · Topics: Architecture · Composable Architecture · Swift
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Giffy is a sample iOS application that combines SwiftUI, The Composable Architecture, and Swinject-based dependency injection. Use it to inspect how those architectural pieces are wired together in a small, runnable project.
 - [VS Code extension for Swift update](https://www.swift.org/blog/vscode-swift-2) — Those Who Swift · Issue 201 — Article · Topics: Developer Tools · Swift · Swift Package Manager
@@ -1232,22 +2090,46 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0450Package traits. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
 - [GitHub - swiftlang/swift-build: A high-level build system based on llbuild, used by Xcode, Swift Playground, and the Swift Package ManagerA high-level build system based on llbuild, used by Xcode, Swift Playground, and the Swift Package Manager - swiftlang/swift-buildGitHubswiftlang](https://github.com/swiftlang/swift-build?ref=createwithswift.com) — Create with Swift · Issue 47 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-02-07T16:00:24.000Z`
-  **NeKI brief:** Swift Build is the open-sourced build engine behind Xcode and SwiftPM convergence work. Follow it when assessing build-graph architecture, toolchain behavior, and future migration implications for projects that currently rely on opaque Xcode builds.
+  **NeKI brief:** This commitment led Apple to open-sourcing Swift Build, a build engine that offers a comprehensive set of build rules for constructing Swift projects.
+- [breaking down the changes in more detail](https://mutatingfunc.github.io/blog/2025-01-31-swift-playgrounds-4-6) — iOS Dev Weekly · Issue 698 — Article · Topics: Developer Tools · Swift
+  **Published:** `7th February 2025`
+  **NeKI brief:** The release notes were a little lacking, so I was grateful to James Froggatt for breaking down the changes in more detail.
+- [wish list for iPad Coding](https://mutatingfunc.github.io/blog/2025-01-30-ipad-coding-wishlist-2025) — iOS Dev Weekly · Issue 698 — Article · Topics: Developer Tools
+  **Published:** `7th February 2025`
+  **NeKI brief:** I’m happy to see Apple continue to update and invest in the product, and the fact that it had a name change means it’s getting attention over and above “bug fixes and improvements”, but it needs much more work if it’s going to compete as a serious tool. For…
 - [ZIP Foundation](https://github.com/weichsel/ZIPFoundation) — iOS Dev Tools · iOS Dev Tools: Diagnostics, ZIP Foundation, WebKit — Source repository · Topics: Developer Tools · Foundation & Data Formats · Objective-C & Cocoa
   **Published:** `2025-02-06T17:32:00.627Z`
   **NeKI brief:** Provides the public source repository for ZIP Foundation. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
+- [WebKit](https://github.com/WebKit/WebKit) — iOS Dev Tools · iOS Dev Tools: Diagnostics, ZIP Foundation, WebKit — Source repository · Topics: Developer Tools · Foundation & Data Formats · Product Design
+  **Published:** `2025-02-06T17:32:00.627Z`
+  **NeKI brief:** WebKit is Apple’s open-source browser engine and framework implementation. Follow the repository for concrete engine architecture and platform behavior, but use current Apple documentation for supported public APIs and guarantees.
+- [Xcode 16: new features to know](https://www.youtube.com/watch?v=Ow0hU6bhiwo) — Those Who Swift · Issue 200 — Video · Topics: Developer Tools · Graphics, Media & Games · Xcode
+  **Published:** `2025-02-05`
+  **NeKI brief:** Reviews Xcode 16: new features to know. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [Swift Build](https://github.com/swiftlang/swift-build) — SwiftLee Weekly · Issue 257 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `2025-02-04T14:26:37.000Z`
-  **NeKI brief:** Swift Build is the open-sourced build engine behind Xcode and SwiftPM convergence work. Follow it when assessing build-graph architecture, toolchain behavior, and future migration implications for projects that currently rely on opaque Xcode builds.
+  **NeKI brief:** This commitment led Apple to open-sourcing Swift Build, a build engine that offers a comprehensive set of build rules for constructing Swift projects.
+- [AcceptedSE-0452Integer Generic Parameters](https://github.com/apple/swift-evolution/blob/main/proposals/0452-integer-generic-parameters.md) — SwiftLee Weekly · Issue 257 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2025-02-04T14:26:37.000Z`
+  **NeKI brief:** Records AcceptedSE-0452Integer Generic Parameters, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [llbuild](https://github.com/swiftlang/swift-llbuild) — Fatbobman’s Swift Weekly · Issue 69 — Source repository · Topics: Swift · Swift Package Manager · Xcode
   **Published:** `2025-02-03T12:01:11.391Z`
   **NeKI brief:** llbuild is the lower-level build-system engine used by Swift tooling. Use it to inspect dependency scheduling and incremental compilation foundations, while keeping its implementation role distinct from the higher-level Swift Build repository.
 - [Scale up your snapshot tests, without the friction](https://screenshotbot.io/) — iOS Dev Tools · iOS Dev Tools: SwiftUIX, Vapor, DevCleaner — Article · Topics: Developer Tools · Testing
   **Published:** `2025-01-30T15:53:21.682Z`
   **NeKI brief:** Provides Screenshotbot’s service for collecting and reviewing visual test artifacts. Use it to assess snapshot-test workflows, change review, and CI integration before selecting a visual regression platform.
+- [SwiftUIX](https://github.com/SwiftUIX/SwiftUIX) — iOS Dev Tools · iOS Dev Tools: SwiftUIX, Vapor, DevCleaner — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2025-01-30T15:53:21.682Z`
+  **NeKI brief:** SwiftUIX extends SwiftUI with reusable views, modifiers, and compatibility helpers. Follow its source and examples for concrete composition patterns, while checking current platform availability and whether each extension remains needed on modern SDKs.
 - [Vapor](https://github.com/vapor/vapor) — iOS Dev Tools · iOS Dev Tools: SwiftUIX, Vapor, DevCleaner — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-01-30T15:53:21.682Z`
   **NeKI brief:** Provides the public source repository for Vapor. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
+- [DevCleaner](https://github.com/vashpan/xcode-dev-cleaner) — iOS Dev Tools · iOS Dev Tools: SwiftUIX, Vapor, DevCleaner — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Xcode
+  **Published:** `2025-01-30T15:53:21.682Z`
+  **NeKI brief:** DevCleaner is a macOS tool for finding and removing development artifacts. Follow its source for concrete path discovery and cleanup rules, while verifying exactly which Xcode, simulator, and build files it can delete.
+- [Task Management in Swift: A 3-Part Series](https://junebash.bearblog.dev/task-management-in-swift-part-1-the-problem) — Those Who Swift · Issue 199 — Article · Topics: Developer Career & Practice · Developer Tools · Swift
+  **Published:** `2025-01-30`
+  **NeKI brief:** Introduces a Swift task-management series and its motivating problem. Useful for examining how requirements, state, and scheduling concerns are decomposed before implementation.
 - [Debugging An Undebuggable App](https://bryce.co/undebuggable) — SwiftLee Weekly · Issue 256 — Article · Topics: Dependency Injection · Developer Tools
   **Published:** `2025-01-28T15:11:34.000Z`
   **NeKI brief:** Explains Debugging An Undebuggable App, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
@@ -1290,6 +2172,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [backend service](https://github.com/arrinal/sample-service-swift-vapor) — Fatbobman’s Swift Weekly · Issue 67 — Source repository · Topics: Architecture · Developer Tools · Swift
   **Published:** `2025-01-20T12:03:32.506Z`
   **NeKI brief:** Pairs a Swift service example with Vapor, making the repository useful for tracing request handling and application-layer separation. Follow it when comparing server-side Swift structure with client architecture conventions.
+- [is available](https://github.com/chunkyguy/PhotoApp/tree/master/compose-multiplatform) — iOS Dev Weekly · Issue 695 — Source repository · Topics: Developer Tools
+  **Published:** `17th January 2025`
+  **NeKI brief:** The code from his experiment is available if you’re also curious about using Kotlin and Jetpack Compose to write an iOS app.
+- [one more platform](https://github.com/ading2210/doompdf) — iOS Dev Weekly · Issue 695 — Source repository · Topics: Developer Tools
+  **Published:** `17th January 2025`
+  **NeKI brief:** Adding one more platform to the list of places you can run DOOM. 😱
 - [Swift Bundler](https://github.com/stackotter/swift-bundler) — iOS Dev Tools · iOS Dev Tools: Swift Bundler, Swift for Visual Studio Code, iOS-uploader — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-01-16T21:51:40.196Z`
   **NeKI brief:** Swift Bundler wraps package creation, building, running, and testing in a single cross-platform workflow, with templates and Xcode integration. It helps compare a package-centric toolchain with manually maintained project and distribution scripts.
@@ -1299,12 +2187,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Active ReviewSE-0455SwiftPM @testable build setting](https://github.com/apple/swift-evolution/blob/main/proposals/0455-swiftpm-testable-build-setting.md) — SwiftLee Weekly · Issue 254 — Source repository · Topics: Objective-C & Cocoa · Swift · Testing
   **Published:** `2025-01-14T14:03:25.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0455SwiftPM @testable build setting. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [gradle-xcodePlugin (GXP)](https://github.com/openbakery/gradle-xcodePlugin) — iOS Dev Tools · iOS Dev Tools: GXP, PullToReach, Penpot — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `2025-01-09T16:27:02.930Z`
+  **NeKI brief:** gradle-xcodePlugin integrates Gradle workflows with Xcode projects or builds. Follow its source for concrete cross-tool configuration and build orchestration, while checking Gradle, Xcode, and signing compatibility.
+- [PullToReach](https://github.com/QuickBirdEng/PullToReach) — iOS Dev Tools · iOS Dev Tools: GXP, PullToReach, Penpot — Source repository · Topics: Developer Tools
+  **Published:** `2025-01-09T16:27:02.930Z`
+  **NeKI brief:** PullToReach implements a pull gesture that makes upper interface content easier to reach. Follow its source for concrete gesture-state and layout-offset handling, then compare the behavior with current accessibility and navigation needs.
+- [Penpot](https://github.com/penpot/penpot) — iOS Dev Tools · iOS Dev Tools: GXP, PullToReach, Penpot — Source repository · Topics: Developer Tools
+  **Published:** `2025-01-09T16:27:02.930Z`
+  **NeKI brief:** Penpot is an open-source collaborative design platform. Follow its source for concrete design-file, collaboration, and interface workflows, while distinguishing product behavior from Apple-platform implementation guidance.
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands) — Those Who Swift · Issue 196 — Source repository · Topics: AI Development · Developer Tools · Personal Essays
+  **Published:** `2025-01-09`
+  **NeKI brief:** Provides the OpenHands agent platform source repository. Useful for inspecting implementation, deployment, and extensibility details directly rather than relying only on product descriptions.
 - [SE-0364](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0364-retroactive-conformance-warning.md) — Fatbobman’s Swift Weekly · Issue 65 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2025-01-06T12:02:39.656Z`
   **NeKI brief:** SE-0364 proposes warnings for retroactive protocol conformances that can conflict with future declarations. Use it to understand library-evolution hazards and compiler diagnostics when extending types you do not own.
 - [MongoKitten](https://github.com/orlandos-nl/MongoKitten) — Fatbobman’s Swift Weekly · Issue 65 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Swift
   **Published:** `2025-01-06T12:02:39.656Z`
   **NeKI brief:** MongoKitten provides a pure-Swift MongoDB driver built on SwiftNIO. Follow it when evaluating asynchronous document-database access, connection lifecycle, and how a Swift server maps BSON operations into application models.
+- [Now we’re all Forked!](https://appdecentral.com/2024/12/13/now-we-are-all-forked) — iOS Dev Weekly · Issue 693 — Article · Topics: Developer Tools
+  **Published:** `3rd January 2025`
+  **NeKI brief:** Examines Notes on software, sync, and shipping by Drew McCormack. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Finch](https://github.com/namolnad/Finch) — iOS Dev Tools · iOS Dev Tools: Finch, Swift-mod, Nimble — Source repository · Topics: Developer Tools
+  **Published:** `2025-01-02T17:37:26.914Z`
+  **NeKI brief:** Finch is a Swift or Apple-platform developer project. Follow its README and source to inspect the concrete API and workflow it provides, then verify maintenance and platform assumptions before adoption.
+- [Swift-mod](https://github.com/ra1028/swift-mod) — iOS Dev Tools · iOS Dev Tools: Finch, Swift-mod, Nimble — Source repository · Topics: Code Quality · Developer Tools · Swift
+  **Published:** `2025-01-02T17:37:26.914Z`
+  **NeKI brief:** Swift-mod supplies Swift utilities or language-oriented extensions. Follow its source for concrete transformations and API choices, while checking naming, compatibility, and maintenance before adding it as a dependency.
 - [Nimble](https://github.com/Quick/Nimble) — iOS Dev Tools · iOS Dev Tools: Finch, Swift-mod, Nimble — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `2025-01-02T17:37:26.914Z`
   **NeKI brief:** Provides the public source repository for Nimble. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
@@ -1323,6 +2232,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUIKit](https://github.com/danielsaidi/SwiftUIKit) — Fatbobman’s Swift Weekly · Issue 63 — Source repository · Topics: Swift · SwiftUI · UIKit
   **Published:** `2024-12-23T12:01:34.355Z`
   **NeKI brief:** SwiftUIKit collects reusable UIKit helpers and extensions from Daniel Saidi's ecosystem. Use it as a source of focused implementation patterns when a project needs small UIKit conveniences without adopting a large UI framework.
+- [KVKCalendar](https://github.com/kvyatkovskys/KVKCalendar) — iOS Dev Tools · iOS Dev Tools: KVKCalendar, PLCrashReporter, Mackup — Source repository · Topics: Developer Tools
+  **Published:** `2024-12-19T15:19:02.752Z`
+  **NeKI brief:** KVKCalendar provides calendar UI components for Swift applications. Follow its source and examples for concrete event, date, layout, and interaction patterns, then evaluate localization and accessibility behavior.
+- [PLCrashReporter](https://github.com/microsoft/plcrashreporter) — iOS Dev Tools · iOS Dev Tools: KVKCalendar, PLCrashReporter, Mackup — Source repository · Topics: Developer Tools · Product Design
+  **Published:** `2024-12-19T15:19:02.752Z`
+  **NeKI brief:** PLCrashReporter captures and symbolizes crash reports from Apple-platform applications. Follow its source for concrete crash-diagnostics, signal-handling, and report-format behavior, while checking compatibility and privacy implications before integrating it.
+- [Mackup](https://github.com/lra/mackup) — iOS Dev Tools · iOS Dev Tools: KVKCalendar, PLCrashReporter, Mackup — Source repository · Topics: Developer Career & Practice · Developer Tools
+  **Published:** `2024-12-19T15:19:02.752Z`
+  **NeKI brief:** Mackup backs up and restores application configuration files across machines. Follow its source for concrete file-selection, synchronization, and restore behavior, while reviewing conflict and privacy implications before use.
 - [Code for this week's article can be found on GitHub.](https://github.com/AvdLee/SwiftLeeArticlesCode) — SwiftLee Weekly · Issue 250 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2024-12-17T10:30:53.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Code for this week's article can be found on GitHub.. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -1332,6 +2250,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [vision document](https://github.com/hborla/swift-evolution/blob/approachable-concurrency-vision/visions/approachable-concurrency.md) — Fatbobman’s Swift Weekly · Issue 62 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2024-12-16T12:01:20.048Z`
   **NeKI brief:** The approachable-concurrency vision frames migration barriers and proposed defaults for making isolation easier to adopt. Use it to connect compiler diagnostics and project settings with a staged Swift 6 concurrency rollout.
+- [FlutterSwift library](https://github.com/PADL/FlutterSwift) — iOS Dev Weekly · Issue 691 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
+  **Published:** `13th December 2024`
+  **NeKI brief:** Examines Flutter and Swift integration for iOS, macOS, Android and eLinux - PADL/FlutterSwift. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Wormholy](https://github.com/pmusolino/Wormholy) — iOS Dev Tools · iOS Dev Tools: Wormholy, Bagbutik, Kintsugi — Source repository · Topics: Developer Tools
   **Published:** `2024-12-12T14:42:27.564Z`
   **NeKI brief:** Provides the public source repository for Wormholy. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
@@ -1347,6 +2268,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Sharing](https://github.com/pointfreeco/swift-sharing) — Fatbobman’s Swift Weekly · Issue 61 — Source repository · Topics: Composable Architecture · Developer Tools · Swift
   **Published:** `2024-12-09T12:00:43.829Z`
   **NeKI brief:** Sharing provides `@Shared` state with persistence strategies spanning app storage, files, memory, and external stores. Follow it when routing shared SwiftUI/UIKit state while keeping observation and persistence concerns explicit.
+- [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) — iOS Dev Tools · iOS Dev Tools: Compose Multiplatform, CoreStore, SourceKitten — Source repository · Topics: Cross-Platform & Web · Developer Tools · Performance
+  **Published:** `2024-12-05T17:49:51.669Z`
+  **NeKI brief:** Compose Multiplatform shares UI code across Apple and other supported platforms. Follow its repository for concrete composition, rendering, and platform-bridge patterns, while verifying current iOS support and interoperability trade-offs.
+- [CoreStore](https://github.com/JohnEstropia/CoreStore) — iOS Dev Tools · iOS Dev Tools: Compose Multiplatform, CoreStore, SourceKitten — Source repository · Topics: Core Data · Developer Career & Practice · Developer Tools
+  **Published:** `2024-12-05T17:49:51.669Z`
+  **NeKI brief:** CoreStore provides a higher-level Swift interface for Core Data persistence. Follow its source for concrete stack setup, transaction, and object-management abstractions, then compare them with the project’s existing persistence boundaries.
+- [SourceKitten](https://github.com/jpsim/SourceKitten) — iOS Dev Tools · iOS Dev Tools: Compose Multiplatform, CoreStore, SourceKitten — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2024-12-05T17:49:51.669Z`
+  **NeKI brief:** SourceKitten exposes Swift and Objective-C source structure through SourceKit-based tooling. Follow its source for concrete indexing, parsing, and symbol-inspection workflows, while checking compiler-version compatibility.
 - [SnapshotPreviews](https://github.com/EmergeTools/SnapshotPreviews) — Fatbobman’s Swift Weekly · Issue 60 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2024-12-02T12:03:20.977Z`
   **NeKI brief:** SnapshotPreviews captures SwiftUI previews as image artifacts for repeatable visual comparison. Follow it when preview states need regression coverage in CI without driving the full application UI.
@@ -1358,13 +2288,40 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines Automate memory leak discovery using GitHub Actions in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Time-Based View Updates in SwiftUI](https://digitalbunker.dev/time-based-view-updates-in-swiftui?ref=createwithswift.com) — Create with Swift · Issue 38 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2024-11-29T16:30:38.000Z`
-  **NeKI brief:** Presents Time-Based View Updates in SwiftUI, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** In this article Aryaman shares how to use the TimeLineView container to programmatically update a SwiftUI View following a specific schedule.
+- [Black Friday Deals](https://github.com/mRs-/Black-Friday-Deals) — iOS Dev Weekly · Issue 689 — Source repository · Topics: Developer Tools
+  **Published:** `29th November 2024`
+  **NeKI brief:** Examines Black Friday Deals for macOS / iOS Software & Books - mRs-/Black-Friday-Deals. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Swift Crypto](https://github.com/apple/swift-crypto) — iOS Dev Tools · iOS Dev Tools: CoreData Studio, Swift Crypto, StatusBuddy — Source repository · Topics: Developer Tools · Product Design · Swift
+  **Published:** `2024-11-28T18:43:21.075Z`
+  **NeKI brief:** Swift Crypto provides cryptographic primitives and APIs for Swift across supported platforms. Follow its source for concrete algorithm and portability details, while consulting current security guidance before selecting primitives for production.
+- [StatusBuddy](https://github.com/insidegui/StatusBuddy) — iOS Dev Tools · iOS Dev Tools: CoreData Studio, Swift Crypto, StatusBuddy — Source repository · Topics: App Distribution & Store Operations · Developer Tools · macOS & AppKit
+  **Published:** `2024-11-28T18:43:21.075Z`
+  **NeKI brief:** StatusBuddy monitors or presents macOS system status from a focused utility. Follow its source for concrete status-item and system-integration patterns, while checking current macOS APIs and resource usage.
 - [Time-Based View Updates in SwiftUI](https://digitalbunker.dev/time-based-view-updates-in-swiftui) — SwiftLee Weekly · Issue 247 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2024-11-26T15:01:34.000Z`
-  **NeKI brief:** Presents Time-Based View Updates in SwiftUI, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** In this article Aryaman shares how to use the TimeLineView container to programmatically update a SwiftUI View following a specific schedule.
+- [did you know that you can create screensavers with Swift??????](https://digitalbunker.dev/creating-a-macos-screensaver-in-swiftui?ref=createwithswift.com) — Create with Swift · Issue 37 — Article · Topics: Developer Tools · macOS & AppKit · Swift
+  **Published:** `2024-11-22T16:00:12.000Z`
+  **NeKI brief:** And as a curiosity... did you know that you can create screensavers with Swift??????
+- [Learn how to use NSDockTilePlugIn](https://github.com/marioaguzman/NSDockTilePlugIn-Example) — iOS Dev Weekly · Issue 688 — Source repository · Topics: Developer Tools
+  **Published:** `22nd November 2024`
+  **NeKI brief:** Examines I like this quick macOS tip and tutorial from Mario Guzmán about dynamic dock icons on macOS. It’s worth noting that: Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [SwiftUI Experiments](https://github.com/mikelikesdesign/SwiftUI-experiments) — iOS Dev Weekly · Issue 688 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `22nd November 2024`
   **NeKI brief:** Presents swiftui experiments for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Swift bindings](https://github.com/migueldeicaza/SwiftGodot) — iOS Dev Weekly · Issue 688 — Source repository · Topics: Developer Tools · Observation & State Management · Swift
+  **Published:** `22nd November 2024`
+  **NeKI brief:** I’ve been curious about Godot for a long time now. I got even more curious when Miguel de Icaza started working on Swift bindings for it. If you’re also curious then you should watch him giving this presentation from GodotCon 2024. I did, and thoroughly…
+- [VirtualBuddy](https://github.com/insidegui/VirtualBuddy) — iOS Dev Tools · iOS Dev Tools: VirtualBuddy, Facebook SDK, SocketRocket — Source repository · Topics: Developer Tools · Testing
+  **Published:** `2024-11-21T15:40:40.034Z`
+  **NeKI brief:** Guilherme Rambo has been experimenting with macOS 11’s Virtualization framework and the Ventura beta, and just like that, he now has a new app! It’s open-source, so feel free to look at how it works or contribute something!
+- [Facebook SDK](https://github.com/facebook/facebook-ios-sdk) — iOS Dev Tools · iOS Dev Tools: VirtualBuddy, Facebook SDK, SocketRocket — Source repository · Topics: Developer Tools
+  **Published:** `2024-11-21T15:40:40.034Z`
+  **NeKI brief:** Facebook SDK for iOS provides client libraries for integrating Facebook services into Apple-platform applications. Follow its source for concrete initialization and feature modules, while checking current privacy, permissions, and platform requirements.
+- [SocketRocket](https://github.com/facebookincubator/SocketRocket) — iOS Dev Tools · iOS Dev Tools: VirtualBuddy, Facebook SDK, SocketRocket — Source repository · Topics: Developer Tools
+  **Published:** `2024-11-21T15:40:40.034Z`
+  **NeKI brief:** SocketRocket implements a WebSocket client for iOS and macOS. Follow its source for concrete connection, delegate, and message-handling behavior, then evaluate protocol, concurrency, and maintenance compatibility with current networking code.
 - [trailing comma in comma-separated lists](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0439-trailing-comma-lists.md?ref=ioscodereview.com) — iOS Code Review · Issue 73 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2024-11-20T11:14:23.000Z`
   **NeKI brief:** Provides the source and change history for trailing comma in comma-separated lists, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -1377,12 +2334,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🚨 GitHub Actions list of upcoming breaking changes](https://github.blog/changelog/2024-11-05-notice-of-breaking-changes-for-github-actions) — iOS CI Newsletter · Issue 55 — Article · Topics: Developer Tools
   **Published:** `2024-11-17T00:00:00.000Z`
   **NeKI brief:** Examines GitHub Actions list of upcoming breaking changes in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Gravatar iOS SDK](https://github.com/Automattic/Gravatar-SDK-iOS) — iOS Dev Tools · iOS Dev Tools: Gravatar iOS SDK, GRDB, NetShears — Source repository · Topics: Developer Tools · Performance
+  **Published:** `2024-11-14T14:46:00.891Z`
+  **NeKI brief:** Gravatar iOS SDK provides Apple-platform integration for resolving and displaying Gravatar identities. Follow its repository for concrete networking, caching, and image-rendering choices, and verify its current package compatibility.
+- [NetShears](https://github.com/divar-ir/NetShears) — iOS Dev Tools · iOS Dev Tools: Gravatar iOS SDK, GRDB, NetShears — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2024-11-14T14:46:00.891Z`
+  **NeKI brief:** NetShears is a networking or traffic-inspection project. Follow its source and README for concrete filtering or request-handling behavior, while assessing protocol coverage, data exposure, and maintenance before adoption.
 - [swift-format](https://github.com/swiftlang/swift-format) — SwiftLee Weekly · Issue 245 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `2024-11-12T19:03:27.000Z`
   **NeKI brief:** swift-format is the official Swift formatter and linter. Use it to enforce formatting consistently in local development and CI without relying on editor-specific whitespace settings.
 - [ImplementedSE-0106Add a `macOS` Alias for the `OSX` Platform Configuration Test](https://github.com/apple/swift-evolution/blob/main/proposals/0106-rename-osx-to-macos.md) — SwiftLee Weekly · Issue 245 — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
   **Published:** `2024-11-12T19:03:27.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0106Add a `macOS` Alias for the `OSX` Platform Configuration Test. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [ImplementedSE-0371Isolated synchronous deinit](https://github.com/apple/swift-evolution/blob/main/proposals/0371-isolated-synchronous-deinit.md) — SwiftLee Weekly · Issue 245 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2024-11-12T19:03:27.000Z`
+  **NeKI brief:** Records ImplementedSE-0371Isolated synchronous deinit, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [AcceptedSE-0446Nonescapable Types](https://github.com/apple/swift-evolution/blob/main/proposals/0446-non-escapable.md) — SwiftLee Weekly · Issue 245 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2024-11-12T19:03:27.000Z`
+  **NeKI brief:** Records AcceptedSE-0446Nonescapable Types, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [ImplementedSE-0449Allow `nonisolated` to prevent global actor inference](https://github.com/apple/swift-evolution/blob/main/proposals/0449-nonisolated-for-global-actor-cutoff.md) — SwiftLee Weekly · Issue 245 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2024-11-12T19:03:27.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0449Allow `nonisolated` to prevent global actor inference. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -1394,7 +2363,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** SwiftFormat offers configurable source-formatting rules and a mature command-line workflow. Follow it when comparing formatter policy, rule customization, and repository integration against Apple's swift-format rather than treating formatting as purely cosmetic.
 - [announcement of a new Xcode plug-in](https://github.blog/changelog/2024-10-29-github-copilot-code-completion-in-xcode-is-now-available-in-public-preview) — iOS Dev Weekly · Issue 686 — Article · Topics: AI Development · Developer Tools · Xcode
   **Published:** `8th November 2024`
-  **NeKI brief:** Records GitHub Copilot code completion becoming available in Xcode public preview, including the integration’s scope at that point. Useful historical release context when evaluating Xcode-native AI completion capabilities against current tooling and team policy.
+  **NeKI brief:** Word??. This link is retained as a technical reading lead for Apple-platform development.
 - [Shx Guo’s plugin](https://github.com/intitni/CopilotForXcode) — iOS Dev Weekly · Issue 686 — Source repository · Topics: AI Development · Developer Tools · Xcode
   **Published:** `8th November 2024`
   **NeKI brief:** Describes Copilot for Xcode, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
@@ -1425,9 +2394,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [📈 GitHub Actions metrics now available](https://github.blog/changelog/2024-10-31-actions-performance-metrics-in-public-preview) — iOS CI Newsletter · Issue 54 — Article · Topics: Developer Tools · Performance
   **Published:** `2024-11-03T00:00:00.000Z`
   **NeKI brief:** Examines GitHub Actions metrics now available in the context of Developer Tools and Performance. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [a public repository](https://github.com/edvilme/What-Word?ref=createwithswift.com) — Create with Swift · Issue 34 — Source repository · Topics: Accessibility · Developer Tools · Swift
+  **Published:** `2024-11-01T19:30:40.000Z`
+  **NeKI brief:** This project highlights how advanced device features can significantly enhance accessibility for people with communication challenges. The project is currently a work in progress, and a public repository is available to show how some of the app features are…
 - [Word??](https://github.blog/changelog/2024-10-29-github-copilot-code-completion-in-xcode-is-now-available-in-public-preview?ref=createwithswift.com) — Create with Swift · Issue 34 — Article · Topics: AI Development · Developer Tools · Swift
   **Published:** `2024-11-01T19:30:40.000Z`
-  **NeKI brief:** Records GitHub Copilot code completion becoming available in Xcode public preview, including the integration’s scope at that point. Useful historical release context when evaluating Xcode-native AI completion capabilities against current tooling and team policy.
+  **NeKI brief:** Word??. This link is retained as a technical reading lead for Apple-platform development.
+- [DeepLinkKit](https://github.com/button/DeepLinkKit) — iOS Dev Tools · iOS Dev Tools: Testpiler, HelpKit, DeepLinkKit — Source repository · Topics: Developer Tools · Navigation & Deep Linking
+  **Published:** `2024-10-31T18:17:35.458Z`
+  **NeKI brief:** DeepLinkKit provides routing support for deep links in Apple-platform applications. Follow its source for concrete URL parsing, route matching, and navigation handoff patterns, then compare its ownership model with the app architecture.
+- [ImplementedSE-0387Swift SDKs for Cross-Compilation](https://github.com/apple/swift-evolution/blob/main/proposals/0387-cross-compilation-destinations.md) — SwiftLee Weekly · Issue 243 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2024-10-29T08:54:32.000Z`
+  **NeKI brief:** Records ImplementedSE-0387Swift SDKs for Cross-Compilation, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [App development on iPad](https://mutatingfunc.github.io/blog/2024-10-12-app-development-on-ipad) — iOS Dev Weekly · Issue 684 — Article · Topics: Developer Tools · Testing
   **Published:** `25th October 2024`
   **NeKI brief:** Presents app development on ipad for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -1446,12 +2424,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift-CowBox](https://github.com/Swift-CowBox/Swift-CowBox) — Fatbobman’s Swift Weekly · Issue 54 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
   **Published:** `2024-10-21T12:03:34.069Z`
   **NeKI brief:** Swift-CowBox uses macros and copy-on-write wrappers to provide value-like behavior for reference-backed storage. Follow it when performance-sensitive models need controlled mutation semantics without duplicating large buffers.
+- [ID cards to everyone's wallets](https://learn.wallet.apple/id?ref=createwithswift.com) — Create with Swift · Issue 32 — Article · Topics: Developer Tools · Swift
+  **Published:** `2024-10-18T15:00:03.000Z`
+  **NeKI brief:** Apple Pay recently turned 10 years old. The service that promised to revolutionize digital payments has evolved over time and expanded into other offshoots such as Tap to Pay and Tap to Cash.
+- [Parchment](https://github.com/rechsteiner/Parchment) — iOS Dev Tools · iOS Dev Tools: AboutKit, Swift Async Algorithms, Parchment — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `2024-10-17T15:13:39.704Z`
+  **NeKI brief:** Parchment provides a customizable paging or segmented navigation component for iOS. Follow its source for concrete page-controller, layout, and gesture behavior, while checking UIKit and Swift compatibility.
 - [@ObservableDefaults](https://github.com/fatbobman/ObservableDefaults) — Fatbobman’s Swift Weekly · Issue 53 — Source repository · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2024-10-14T12:03:14.201Z`
-  **NeKI brief:** ObservableDefaults bridges UserDefaults-backed values into SwiftUI observation. Use it when app settings need reactive updates while retaining UserDefaults persistence and predictable key-level storage.
+  **NeKI brief:** Fatbobman explores the challenges of integrating UserDefaults with the new Observation framework and introduces the ObservableDefaults library, a custom solution that allows properties to react to external changes in real-time while reducing unnecessary view…
 - [ObservableDefaults library](https://github.com/fatbobman/ObservableDefaults?ref=createwithswift.com) — Create with Swift · Issue 31 — Source repository · Topics: Developer Tools · Observation & State Management · Swift
   **Published:** `2024-10-11T15:30:29.000Z`
-  **NeKI brief:** ObservableDefaults bridges UserDefaults-backed values into SwiftUI observation. Use it when app settings need reactive updates while retaining UserDefaults persistence and predictable key-level storage.
+  **NeKI brief:** Fatbobman explores the challenges of integrating UserDefaults with the new Observation framework and introduces the ObservableDefaults library, a custom solution that allows properties to react to external changes in real-time while reducing unnecessary view…
 - [Jazzy](https://github.com/realm/jazzy) — iOS Dev Tools · iOS Dev Tools: Jazzy, Concentric Onboarding, Quick — Source repository · Topics: Developer Tools
   **Published:** `2024-10-10T16:40:59.907Z`
   **NeKI brief:** Jazzy generates Apple-style API documentation from Swift and Objective-C source, including symbol graphs, declarations, and Markdown comments. The repository is useful when setting up repeatable documentation generation as part of a library or CI release pipeline.
@@ -1476,6 +2460,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [📦 How to edit Swift Packages from the command line](https://www.andrea-scuderi.com/blog/edit-swift-package-from-command-line) — iOS CI Newsletter · Issue 52 — Article · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2024-10-06T00:00:00.000Z`
   **NeKI brief:** Walks through how to edit Swift Packages from the command line, with practical context for Developer Tools and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [Implementing Shared With You in SwiftUI](https://digitalbunker.dev/shared-with-you?ref=createwithswift.com) — Create with Swift · Issue 30 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2024-10-04T16:00:37.000Z`
+  **NeKI brief:** Aryaman explains in detail how to implement Shared with You, a feature introduced in iOS 16 that allows users to view content shared via Messages directly within the app.
 - [Hummingbird](https://github.com/hummingbird-project/hummingbird) — iOS Dev Tools · iOS Dev Tools: Hummingbird, Apollo iOS, MBProgressHUD — Source repository · Topics: Architecture · Developer Tools · Swift
   **Published:** `2024-10-03T14:43:23.083Z`
   **NeKI brief:** Hummingbird is a modular server framework built on SwiftNIO, offering routing, request handling, and optional server components. Use it when a Swift backend needs a smaller, composable alternative to a more opinionated web framework.
@@ -1485,12 +2472,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [MBProgressHUD](https://github.com/jdg/MBProgressHUD) — iOS Dev Tools · iOS Dev Tools: Hummingbird, Apollo iOS, MBProgressHUD — Source repository · Topics: App Services & Extensions · Developer Tools
   **Published:** `2024-10-03T14:43:23.083Z`
   **NeKI brief:** MBProgressHUD presents an overlay progress indicator over UIKit content while background work runs. Use it for legacy UIKit flows that need an explicit blocking-progress affordance, while ensuring cancellation and accessibility remain available.
+- [swift-java](https://github.com/swiftlang/swift-java.git) — iOS Dev Weekly · Issue 680 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `30th September 2024`
+  **NeKI brief:** The big Swift news from last week happened at the Server-Side Swift conference in the keynote session. Tony Parker and Ben Cohen announced swift-java, a Swift/Java interoperability library.
+- [AVAudioEffectNode: Painless low level audio effects](https://orjpap.github.io/swift/low-level/audio/avfoundation/2024/09/19/avAudioEffectNode.html) — iOS Dev Weekly · Issue 680 — Article · Topics: Cross-Platform & Web · Developer Tools · Foundation & Data Formats
+  **Published:** `30th September 2024`
+  **NeKI brief:** Examines In a previous post, I covered two AVFoundation nodes that can generate sound or tap into the output of an existing node. If you experiment with them, you'll quickly realize:. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [GitHub - swiftlang/swift-javaContribute to swiftlang/swift-java development by creating an account on GitHub.GitHubswiftlang](https://github.com/swiftlang/swift-java?ref=createwithswift.com) — Create with Swift · Issue 29 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2024-09-27T15:10:02.000Z`
+  **NeKI brief:** The Swift team has open-sourced early work on Swift/Java interoperability. The project includes JavaKit and jextract-swift, allowing Swift to use Java libraries and Java to call Swift. It's an early prototype aimed at expanding Swift's versatility across…
 - [Swift Regex examples](https://github.com/DandyLyons/NativeRegexExamples?ref=ioscodereview.com) — iOS Code Review · Issue 71 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2024-09-24T10:08:19.000Z`
   **NeKI brief:** Provides the source and change history for Swift Regex examples, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [👨‍🔧 Detecting a memory leak in Xcode](https://www.emergetools.com/blog/posts/the-memory-leak-an-xcode-detective-story) — iOS CI Newsletter · Issue 51 — Article · Topics: Developer Tools · Xcode
   **Published:** `2024-09-23T00:00:00.000Z`
-  **NeKI brief:** Presents an xcode detective story for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Jacob describes how he tracked down a memory leak that caused a double navigation bug in an iOS app providing a detailed breakdown of the bug and the process he went through to resolve it.
 - [🎨 Styling terminal output in Swift executables](https://swifttoolkit.dev/posts/terminal-colors) — iOS CI Newsletter · Issue 51 — Article · Topics: Developer Community & Business · Developer Tools · Swift
   **Published:** `2024-09-23T00:00:00.000Z`
   **NeKI brief:** Examines Styling terminal output in Swift executables in the context of Developer Community & Business and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -1506,9 +2502,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [XcodeSelectiveTesting](https://github.com/mikeger/XcodeSelectiveTesting) — iOS Dev Tools · iOS Dev Tools: UItesting.tools, XcodeSelectiveTesting, Suborbital — Source repository · Topics: Developer Tools · Testing · Xcode
   **Published:** `2024-09-19T13:14:54.513Z`
   **NeKI brief:** Provides the source and change history for XcodeSelectiveTesting, relevant to Architecture and Testing. Inspect its implementation, open issues, and release state before adopting the approach.
-- [Retcon](https://retcon.app/) — iOS Dev Tools · iOS Dev Tools: Retcon, Jack, ImpressKit — Article · Topics: Developer Tools
+- [Retcon](https://retcon.app/) — iOS Dev Tools · iOS Dev Tools: Retcon, Jack, ImpressKit - iOS Dev Tools — Article · Topics: Developer Tools
   **Published:** `2024-09-12T15:24:58.073Z`
   **NeKI brief:** Retcon is a macOS Git client focused on fast, visually clear history rewriting. Use it to inspect an alternative workflow for interactive commit editing, while keeping repository safety, collaboration, and recoverability explicit.
+- [Create Custom Visual Effects with SwiftUI](https://yaacoub.github.io/articles/swift-tip/create-custom-visual-effects-with-swiftui-wwdc24) — SwiftUI Weekly · SwiftUI Weekly - Issue #199 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2024-09-09T19:49:43.177Z`
+  **NeKI brief:** Summarizes the WWDC24 SwiftUI additions for building custom visual effects and highlights the APIs that enable richer rendering. Useful when evaluating platform-provided effect composition before adopting lower-level graphics techniques.
 - [Github contribution graph with Swift Charts](https://www.artemnovichkov.com/blog/github-contribution-graph-swift-charts) — SwiftUI Weekly · SwiftUI Weekly - Issue #199 — Article · Topics: Developer Tools · Swift
   **Published:** `2024-09-09T19:49:43.177Z`
   **NeKI brief:** Creates a GitHub-style contribution graph with Swift Charts using calendar-shaped data. Useful for practicing custom mark layouts, color scales, and date-based visualization.
@@ -1521,12 +2520,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🚀 GitHub-hosted Linux and Windows ARM64 runners are now available](https://github.blog/changelog/2024-09-03-github-actions-arm64-linux-and-windows-runners-are-now-generally-available) — iOS CI Newsletter · Issue 50 — Article · Topics: Architecture · Developer Tools · Product Design
   **Published:** `2024-09-08T00:00:00.000Z`
   **NeKI brief:** Examines GitHub-hosted Linux and Windows ARM64 runners are now available in the context of Architecture and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [RevenueCat Ship-a-ton: Ship apps and make money](https://www.revenuecat.com/blog/engineering/revenuecat-ship-a-ton) — iOS Dev Weekly · Issue 677 — Article · Topics: Developer Tools
+  **Published:** `6th September 2024`
+  **NeKI brief:** Examines The mobile hackathon that puts the focus on shipping… a ton. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [ever run out of disk space](https://www.dzombak.com/blog/2024/09/Freeing-disk-space-on-GitHub-Actions-runners.html) — iOS Dev Weekly · Issue 677 — Article · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `6th September 2024`
+  **NeKI brief:** ever run out of disk space. This link is retained as a technical reading lead for Apple-platform development.
+- [script](https://raw.githubusercontent.com/kou/arrow/e49d8ae15583ceff03237571569099a6ad62be32/ci/scripts/util_free_space.sh) — iOS Dev Weekly · Issue 677 — Article · Topics: Developer Tools
+  **Published:** `6th September 2024`
+  **NeKI brief:** script. This link is retained as a technical reading lead for Apple-platform development.
+- [R.swift](https://github.com/mac-cain13/R.swift) — iOS Dev Tools · iOS Dev Tools: R.swift, Alamofire, SwiftFormat — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
+  **Published:** `2024-09-05T15:57:02.879Z`
+  **NeKI brief:** R.swift generates strongly typed Swift accessors for resources such as images, colors, and localized strings. Follow its source for concrete build-plugin or code-generation integration, while checking current Swift package and Xcode support.
 - [Alamofire](https://github.com/Alamofire/Alamofire) — iOS Dev Tools · iOS Dev Tools: R.swift, Alamofire, SwiftFormat — Source repository · Topics: Developer Tools · Networking · Swift
   **Published:** `2024-09-05T15:57:02.879Z`
   **NeKI brief:** Alamofire layers request construction, response validation, serialization, upload, and retry facilities over URLSession. Use it when those shared networking policies justify a dependency; otherwise compare its abstractions with direct URLSession code.
 - [Beautiful async buttons](https://github.com/Dean151/ButtonKit?ref=ioscodereview.com) — iOS Code Review · Issue 70 — Source repository · Topics: Concurrency · Developer Tools
   **Published:** `2024-09-02T10:30:09.000Z`
   **NeKI brief:** Provides the source and change history for Beautiful async buttons, relevant to Concurrency and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [GitHub repository](https://github.com/knotbin/memento?ref=createwithswift.com) — Create with Swift · Issue 25 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2024-08-30T15:00:43.000Z`
+  **NeKI brief:** It is important to highlight that the project is open source and you can follow its development on its GitHub repository.
+- [Inject](https://github.com/krzysztofzablocki/Inject) — iOS Dev Tools · iOS Dev Tools: Inject, StreamUI, Hero — Source repository · Topics: Developer Tools
+  **Published:** `2024-08-29T14:10:45.103Z`
+  **NeKI brief:** Inject provides code-injection and hot-reloading support for Swift development. Follow its source for concrete runtime replacement and development-build workflows, while checking safety and compatibility with current Swift and Xcode versions.
+- [StreamUI](https://github.com/StreamUI/StreamUI) — iOS Dev Tools · iOS Dev Tools: Inject, StreamUI, Hero — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `2024-08-29T14:10:45.103Z`
+  **NeKI brief:** StreamUI is a SwiftUI-related project providing reusable interface components or patterns. Follow its source for concrete view composition and state-handling choices, while verifying supported platform versions before adoption.
+- [Hero](https://github.com/HeroTransitions/Hero) — iOS Dev Tools · iOS Dev Tools: Inject, StreamUI, Hero — Source repository · Topics: Developer Tools · UIKit
+  **Published:** `2024-08-29T14:10:45.103Z`
+  **NeKI brief:** Hero is a transition-animation library for iOS interfaces. Follow its source and examples to inspect concrete view-matching and animated-navigation techniques, then assess its maintenance against current UIKit APIs.
 - [🧵 Automatically translate your string catalogues](https://github.com/hidden-spectrum/swift-translate) — iOS CI Newsletter · Issue 49 — Source repository · Topics: Developer Tools · Localization · Product Design
   **Published:** `2024-08-25T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for Automatically translate your string catalogues, relevant to Developer Tools and Localization. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -1542,10 +2565,16 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [turn this feature on and get alerts when you accidentally leak secrets in your repo](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/introduction/about-secret-scanning) — iOS CI Newsletter · Issue 49 — Source repository · Topics: Developer Tools · Security & Privacy · Testing
   **Published:** `2024-08-25T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for turn this feature on and get alerts when you accidentally leak secrets in your repo, relevant to Developer Tools and Security & Privacy. Inspect its implementation, open issues, and release state before adopting the approach.
+- [PR Focus](https://prfocus.app/) — iOS Dev Tools · iOS Dev Tools: FreemiumKit, PR Focus, Swift Testing — Article · Topics: Developer Tools
+  **Published:** `2024-08-22T19:06:22.711Z`
+  **NeKI brief:** PR Focus provides a workflow for monitoring or organizing pull requests. Follow it for concrete review-status and notification behavior, while checking provider integrations and permission scope.
 - [What's New in SwiftUI - WWDC24](https://yaacoub.github.io/articles/swift-tip/what-s-new-in-swiftui-wwdc24) — SwiftUI Weekly · SwiftUI Weekly - Issue #197 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2024-08-19T10:45:25.615Z`
   **NeKI brief:** Summarizes WWDC24 SwiftUI additions and their intended use cases. Useful as a release-oriented checklist when deciding which iOS 18 APIs can replace custom implementations.
-- [Nuke](https://github.com/kean/Nuke) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen — Source repository · Topics: Developer Career & Practice · Developer Tools
+- [one specific app](https://github.com/rileytestut/Delta) — iOS Dev Weekly · Issue 674 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `16th August 2024`
+  **NeKI brief:** The GitHub repository contains Delta, an open-source iOS emulator project with publicly readable source and project documentation.
+- [Nuke](https://github.com/kean/Nuke) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen - iOS Dev Tools — Source repository · Topics: Developer Career & Practice · Developer Tools
   **Published:** `2024-08-15T18:31:01.455Z`
   **NeKI brief:** Nuke provides image loading, caching, processing, and prefetching for Apple platforms, with UIKit and SwiftUI integrations. Use it when remote-image behavior needs explicit cache policy, progressive rendering, or processing pipelines beyond a minimal loader.
 - [https://gitbook.swiftgg.team/swift](https://gitbook.swiftgg.team/swift) — Fatbobman’s Swift Weekly · Issue 44 — Article · Topics: Developer Tools · Swift
@@ -1557,6 +2586,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🧰 Releasing Swift Binaries with GitHub Actions](https://swifttoolkit.dev/posts/releasing-with-gh-actions) — iOS CI Newsletter · Issue 48 — Article · Topics: Developer Tools · Product Design · Swift
   **Published:** `2024-08-11T00:00:00.000Z`
   **NeKI brief:** Examines Releasing Swift Binaries with GitHub Actions in the context of Developer Tools and Product Design. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Stevia](https://github.com/freshOS/Stevia) — iOS Dev Tools · iOS Dev Tools: FilterMagic, Stevia, Blink Shell — Source repository · Topics: Developer Tools
+  **Published:** `2024-08-08T14:06:02.007Z`
+  **NeKI brief:** Stevia provides a declarative Swift syntax for building UIKit layouts. Follow its source and examples for concrete constraint composition patterns, while comparing its lifecycle and debugging trade-offs with native Auto Layout APIs.
+- [Blink Shell](https://blink.sh/) — iOS Dev Tools · iOS Dev Tools: FilterMagic, Stevia, Blink Shell — Article · Topics: Developer Tools
+  **Published:** `2024-08-08T14:06:02.007Z`
+  **NeKI brief:** Blink Shell is a desktop-grade terminal for iOS and iPadOS with Mosh, SSH, local Unix tools, and extensive customization. Follow it for a concrete remote-development workflow on Apple mobile devices.
+- [AnimationPlanner](https://github.com/PimCoumans/AnimationPlanner) — iOS Dev Tools · iOS Dev Tools: AnimationPlanner, Xcode-Kotlin, React-native-vision-camera — Source repository · Topics: Developer Tools
+  **Published:** `2024-08-01T16:50:45.265Z`
+  **NeKI brief:** AnimationPlanner provides planning or editing tools for animation sequences. Follow its repository for concrete timeline and animation-model abstractions, then assess whether its output maps cleanly onto the project’s rendering framework.
+- [Xcode-Kotlin](https://github.com/touchlab/xcode-kotlin) — iOS Dev Tools · iOS Dev Tools: AnimationPlanner, Xcode-Kotlin, React-native-vision-camera — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `2024-08-01T16:50:45.265Z`
+  **NeKI brief:** Xcode-Kotlin integrates Kotlin development or tooling with Xcode workflows. Follow its source for concrete project, build, and editor integration, while verifying Kotlin, Gradle, and Xcode version compatibility.
+- [React-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) — iOS Dev Tools · iOS Dev Tools: AnimationPlanner, Xcode-Kotlin, React-native-vision-camera — Source repository · Topics: Cross-Platform & Web · Developer Tools · Graphics, Media & Games
+  **Published:** `2024-08-01T16:50:45.265Z`
+  **NeKI brief:** React Native Vision Camera provides camera access and frame-processing capabilities for React Native applications. Follow its source for concrete native-module, permission, and frame-pipeline integration, while checking platform support.
 - [🤯 Automatically migrate suites from XCTest to Swift Testing](https://github.com/giginet/swift-testing-revolutionary) — iOS CI Newsletter · Issue 47 — Source repository · Topics: Apple Platform Ecosystem · Swift · Testing
   **Published:** `2024-07-28T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for Automatically migrate suites from XCTest to Swift Testing, relevant to Apple Platform Ecosystem and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -1568,10 +2612,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Walks through how to build and run tests for an iOS app using GitHub Actions, with practical context for CI/CD & Automation and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [Using @DebugDescription in Xcode 16](https://digitalbunker.dev/debug-description-macro-xcode-16?ref=createwithswift.com) — Create with Swift · Issue 23 — Article · Topics: Developer Tools · Macros & Metaprogramming · Xcode
   **Published:** `2024-07-26T15:00:26.000Z`
-  **NeKI brief:** Presents using @debugdescription in xcode 16 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Aryaman shows you how to create clear and informative debug output for your custom types using both the CustomDebugStringConvertible protocol and @DebugDescription macro.
 - [Using @DebugDescription in Xcode 16](https://digitalbunker.dev/debug-description-macro-xcode-16) — iOS Dev Weekly · Issue 671 — Article · Topics: Developer Tools · Macros & Metaprogramming · Xcode
   **Published:** `26th July 2024`
-  **NeKI brief:** Presents using @debugdescription in xcode 16 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Aryaman shows you how to create clear and informative debug output for your custom types using both the CustomDebugStringConvertible protocol and @DebugDescription macro.
 - [ControlRoom](https://github.com/twostraws/ControlRoom) — iOS Dev Tools · iOS Dev Tools: ControlRoom, SwiftDeps, Starscream — Source repository · Topics: Developer Tools · Xcode
   **Published:** `2024-07-25T15:18:00.048Z`
   **NeKI brief:** ControlRoom is a macOS front end for simctl that manages iOS, tvOS, and watchOS Simulator state. Use it for device launch, screenshots, deep links, permissions, or location testing without repeatedly assembling command-line invocations.
@@ -1583,13 +2627,25 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Infinite4Pager implements looping pager behavior for SwiftUI, including the index-management concerns of wrapping content. Follow it when evaluating infinite carousels and the state synchronization they require.
 - [Blend Modes in SwiftUI](https://digitalbunker.dev/blend-modes-in-swiftui?ref=createwithswift.com) — Create with Swift · Issue 22 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2024-07-19T16:00:03.000Z`
-  **NeKI brief:** Presents a concrete implementation of Blend Modes in SwiftUI. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
+  **NeKI brief:** Aryaman explores the different blend modes available in SwiftUI, showing visual examples, explaining their purposes, and demonstrating how to implement them in SwiftUI.
+- [Xcode-Kotlin 2.0](https://touchlab.co/xcode-kotlin-2-0) — iOS Dev Weekly · Issue 670 — Article · Topics: Developer Tools · Xcode
+  **Published:** `19th July 2024`
+  **NeKI brief:** Touchlab’s Xcode-Kotlin update describes integration changes for Kotlin development in Xcode. Follow it for concrete build and editor workflow details, while verifying toolchain compatibility independently.
 - [Using SwiftUI in Command Line Tools](https://swifttoolkit.dev/posts/swiftui-meets-command-line) — iOS Dev Weekly · Issue 670 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `19th July 2024`
   **NeKI brief:** Presents using swiftui in command line tools for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [SemanticDiff](https://semanticdiff.com/github) — iOS Dev Tools · iOS Dev Tools: SemanticDiff, Usage, Astro — Article · Topics: Developer Tools · Swift
+  **Published:** `2024-07-18T14:40:09.750Z`
+  **NeKI brief:** SemanticDiff compares code using semantic rather than purely textual changes. Follow it for concrete review and change-understanding workflows, while checking supported languages and repository integrations.
 - [Blend Modes in SwiftUI](https://digitalbunker.dev/blend-modes-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #194 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2024-07-15T12:03:07.308Z`
-  **NeKI brief:** Presents a concrete implementation of Blend Modes in SwiftUI. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
+  **NeKI brief:** Aryaman explores the different blend modes available in SwiftUI, showing visual examples, explaining their purposes, and demonstrating how to implement them in SwiftUI.
+- [available on GitHub](https://github.com/joogps/Glur?ref=createwithswift.com) — Create with Swift · Issue 21 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2024-07-12T15:17:02.000Z`
+  **NeKI brief:** In the app description, the developer Johnny explains that a glur is a type of visual effect that adds a Gaussian blur and that's exactly what the glur app does. It applies a progressive blur to images, and you can adjust parameters such as radius, offset…
+- [Kaleidoscope 5](https://blog.kaleidoscope.app/2024/07/09/welcome-kaleidoscope-5) — iOS Dev Weekly · Issue 669 — Article · Topics: Developer Tools
+  **Published:** `12th July 2024`
+  **NeKI brief:** The announcement introduces Kaleidoscope 5 and describes its new features for comparing files, images, and revisions.
 - [Swinject](https://github.com/Swinject/Swinject) — iOS Dev Tools · iOS Dev Tools: AppLayoutsUI, Swinject, Pieces Copilot+ — Source repository · Topics: Architecture · Dependency Injection · Developer Tools
   **Published:** `2024-07-11T14:52:09.603Z`
   **NeKI brief:** Swinject resolves object graphs through registered factories and supports scopes such as transient or container lifetime. Use it to compare explicit dependency composition with container-based injection, especially around runtime resolution failures and test overrides.
@@ -1605,12 +2661,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Tuist](https://tuist.io/) — iOS Dev Tools · iOS Dev Tools: Pricetag, Tuist, Snapshots — Article · Topics: Architecture · Developer Tools · Foundation & Data Formats
   **Published:** `2024-06-27T16:03:43.649Z`
   **NeKI brief:** Tuist provides project generation and automation for Xcode-based applications. Evaluate it when scaling modular projects, balancing reproducibility and abstraction against Xcode project complexity.
+- [WWDC Notes](https://wwdcnotes.github.io/WWDCNotes/documentation/wwdcnotes/wwdc24?ref=createwithswift.com) — Create with Swift · Issue 18 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2024-06-21T15:00:36.000Z`
+  **NeKI brief:** We are still looking into this year's WWDC which was jam-packed with exciting announcements and innovative new features and frameworks.
+- [contributing](https://wwdcnotes.github.io/WWDCNotes/documentation/wwdcnotes/contributing?ref=createwithswift.com) — Create with Swift · Issue 18 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `2024-06-21T15:00:36.000Z`
+  **NeKI brief:** We are still looking into this year's WWDC which was jam-packed with exciting announcements and innovative new features and frameworks.
 - [AudioKit](https://github.com/AudioKit/AudioKit) — iOS Dev Tools · iOS Dev Tools: Helm, AudioKit, Lottie — Source repository · Topics: Developer Tools
   **Published:** `2024-06-20T13:30:58.118Z`
   **NeKI brief:** Provides the public source repository for AudioKit. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
+- [Lottie](https://github.com/airbnb/lottie-ios) — iOS Dev Tools · iOS Dev Tools: Helm, AudioKit, Lottie — Source repository · Topics: Developer Tools
+  **Published:** `2024-06-20T13:30:58.118Z`
+  **NeKI brief:** Lottie iOS renders JSON-based vector animations in Apple-platform applications. Follow its source for concrete animation loading, playback, and rendering integration, then verify performance and format compatibility for the target app.
 - [🧐 How GitHub reduced testing time for iOS apps with new runner features](https://github.blog/2024-06-03-how-github-reduced-testing-time-for-ios-apps-with-new-runner-features) — iOS CI Newsletter · Issue 44 — Article · Topics: CI/CD & Automation · Developer Tools · Testing
   **Published:** `2024-06-16T00:00:00.000Z`
   **NeKI brief:** Examines How GitHub reduced testing time for iOS apps with new runner features in the context of CI/CD & Automation and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [WWDC Notes 2024](https://wwdcnotes.github.io/WWDCNotes/documentation/wwdcnotes) — iOS Dev Weekly · Issue 665 — Article · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `14th June 2024`
+  **NeKI brief:** There have been some changes to WWDC Notes for this year. I almost missed this, because the old site has no links to the new one, which is very strange! However, the project is alive and well, which is great news! This year’s notes are hosted with DocC, and…
+- [New GitHub Organization for the Swift Project](https://www.swift.org/blog/swiftlang-github) — iOS Dev Weekly · Issue 665 — Article · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `14th June 2024`
+  **NeKI brief:** Examines Today, we are announcing an exciting development for the Swift programming language: its migration to a dedicated GitHub organization at GitHub.com/swiftlang. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [playground](https://github.com/twostraws/whats-new-in-swift-6-0) — iOS Dev Weekly · Issue 665 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `14th June 2024`
   **NeKI brief:** Provides an executable Xcode playground for Swift 6 features including complete concurrency checking, typed throws, pack iteration, noncopyable improvements, and 128-bit integers. Use it to experiment alongside the corresponding language overview.
@@ -1620,6 +2691,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [recently accepted](https://github.com/swiftlang/swift-evolution/pull/2466) — iOS Dev Weekly · Issue 665 — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `14th June 2024`
   **NeKI brief:** Presents recently accepted for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [AHAPpy](https://github.com/samroman3/AHAPpy) — iOS Dev Tools · iOS Dev Tools: StyleGuide, AppScreens, AHAPpy — Source repository · Topics: Developer Tools
+  **Published:** `2024-06-13T17:58:49.715Z`
+  **NeKI brief:** AHAPpy helps create or work with Apple Haptic and Audio Pattern files. Follow its source for concrete AHAP encoding and authoring workflows, while checking format support against current Core Haptics requirements.
 - [What's new in Swift 6.0?](https://github.com/twostraws/whats-new-in-swift-6-0?issue=035) — Fatbobman’s Swift Weekly · Issue 35 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `2024-06-11T12:03:15.731Z`
   **NeKI brief:** The repository collects examples demonstrating what changed in Swift 6.0. Use it for runnable language-feature examples and migration ideas, while checking the compiler version and proposal status required by each example.
@@ -1635,12 +2709,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SQLite.swift](https://github.com/stephencelis/SQLite.swift) — iOS Dev Tools · iOS Dev Tools: Sw!ftalyzer, Invoice Maker, SQLite.swift — Source repository · Topics: Developer Tools · Persistence & Synchronisation · Swift
   **Published:** `2024-05-30T15:20:30.896Z`
   **NeKI brief:** SQLite.swift wraps SQLite3 in typed Swift query builders and value bindings rather than raw SQL strings alone. Use it when a lightweight relational store needs explicit schemas and transactions without adopting a full object-relational framework.
+- [Moya](https://github.com/Moya/Moya) — iOS Dev Tools · iOS Dev Tools: Screenshot Studio, Moya, SkeletonView — Source repository · Topics: Developer Tools · Networking · Swift
+  **Published:** `2024-05-23T13:40:50.650Z`
+  **NeKI brief:** Moya wraps network requests in a higher-level Swift abstraction over URLSession. Follow its source for concrete target, provider, plugin, and request-testing patterns, then compare them with the project’s networking architecture.
+- [SkeletonView](https://github.com/Juanpe/SkeletonView) — iOS Dev Tools · iOS Dev Tools: Screenshot Studio, Moya, SkeletonView — Source repository · Topics: Developer Tools · Product Design · Swift
+  **Published:** `2024-05-23T13:40:50.650Z`
+  **NeKI brief:** SkeletonView adds loading placeholders and skeleton animations to iOS interfaces. Follow its source for concrete table, collection, and view-layout integration patterns, while checking compatibility with current UIKit and Swift versions.
 - [Debugging Animations](https://talk.objc.io/episodes/S01E405-debugging-animations?issue=031) — Fatbobman’s Swift Weekly · Issue 32 — Article · Topics: Developer Tools · Performance · Swift
   **Published:** `2024-05-20T12:02:52.341Z`
   **NeKI brief:** This objc.io episode demonstrates debugging SwiftUI animations through focused experiments and visual inspection. Follow it when diagnosing transaction or interpolation surprises, adapting the techniques to current SDK behavior.
 - [Reducing iOS Test execution time with Selective Testing](https://levelup.gitconnected.com/reducing-ios-test-execution-time-with-selective-testing-384879e5f243?issue=031) — Fatbobman’s Swift Weekly · Issue 32 — Article · Topics: Concurrency · Swift · Testing
   **Published:** `2024-05-20T12:02:52.341Z`
   **NeKI brief:** Explains selective testing as a way to shorten iOS test feedback cycles by choosing affected tests. Use it to discuss CI optimization, validating its heuristics against the project's dependency graph and failure-reporting needs.
+- [launch blog post](https://digitalbunker.dev/launching-getuniversal-link) — iOS Dev Weekly · Issue 661 — Article · Topics: Developer Tools
+  **Published:** `17th May 2024`
+  **NeKI brief:** Presents launch blog post, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Stats](https://github.com/exelban/stats) — iOS Dev Tools · iOS Dev Tools: AppDab, MessageKit, Stats — Source repository · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2024-05-16T13:45:55.601Z`
+  **NeKI brief:** Stats is a macOS menu-bar system monitor exposing CPU, memory, disk, network, battery, and sensor information. Follow its source for concrete polling and status-item patterns, while checking resource overhead and permissions.
 - [SyncUps](https://github.com/pointfreeco/syncups) — SwiftUI Weekly · SwiftUI Weekly - Issue #186 — Source repository · Topics: Architecture · Developer Tools · Objective-C & Cocoa
   **Published:** `2024-05-15T12:55:37.453Z`
   **NeKI brief:** Provides the SyncUps sample repository with SwiftUI architecture, persistence, and tests. Useful for inspecting concrete implementation trade-offs rather than relying on abstract diagrams.
@@ -1659,9 +2745,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Automerge Swift](https://github.com/automerge/automerge-swift) — Fatbobman’s Swift Weekly · Issue 30 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2024-05-06T12:01:46.954Z`
   **NeKI brief:** Automerge Swift brings CRDT-based document synchronization to Swift. Use it when offline-first collaboration requires mergeable edits and conflict resolution rather than last-write-wins persistence.
+- [fully developed using the Swift](https://www.theverge.com/2024/4/30/24144183/arc-browser-windows-launch-features-availability?ref=createwithswift.com) — Create with Swift · Issue 11 — Article · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `2024-05-03T15:00:23.000Z`
+  **NeKI brief:** On another interesting turn of events, the browser Arc, fully developed using the Swift language, released its Windows version this week. What makes it interesting is that the tools they used are fully open-source and available on GitHub. Why not take a look…
 - [fully open-source and available on GitHub](https://github.com/thebrowsercompany/swift-winrt?ref=createwithswift.com) — Create with Swift · Issue 11 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `2024-05-03T15:00:23.000Z`
-  **NeKI brief:** swift-winrt generates Swift projections over Windows Runtime and its COM-based ABI. Use it to study cross-platform bindings, generated interop, and the boundary between Swift ergonomics and platform-specific runtime contracts.
+  **NeKI brief:** On another interesting turn of events, the browser Arc, fully developed using the Swift language, released its Windows version this week. What makes it interesting is that the tools they used are fully open-source and available on GitHub. Why not take a look…
+- [Kingfisher](https://github.com/onevcat/Kingfisher) — iOS Dev Tools · [May 2nd] iOS Dev Tools: ShipThatApp, Kingfisher, SwiftLint — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2024-05-02T15:20:25.175Z`
+  **NeKI brief:** Kingfisher provides asynchronous image downloading, caching, and processing for Swift applications. Follow its source for concrete pipeline and cache behavior, while checking current concurrency, format, and performance support.
 - [SwiftLint](https://github.com/realm/SwiftLint) — iOS Dev Tools · [May 2nd] iOS Dev Tools: ShipThatApp, Kingfisher, SwiftLint — Source repository · Topics: Developer Tools · Swift
   **Published:** `2024-05-02T15:20:25.175Z`
   **NeKI brief:** Presents a concrete implementation of SwiftLint. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
@@ -1671,9 +2763,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Converting Codable Models To CSV](https://digitalbunker.dev/converting-codable-models-to-csv?issue=029) — Fatbobman’s Swift Weekly · Issue 29 — Article · Topics: Developer Tools · Foundation & Data Formats · Swift
   **Published:** `2024-04-29T12:02:14.611Z`
   **NeKI brief:** Shows mapping Codable models into CSV rows, including the column-order and value-conversion decisions serialization requires. Follow it when exporting Swift domain data for reports or interoperability rather than JSON APIs.
+- [AJ Nettles](https://www.github.com/DelMonteAJ) — iOS Dev Weekly · Issue 658 — Source repository · Topics: Developer Tools
+  **Published:** `26th April 2024`
+  **NeKI brief:** I got a chance to talk with a couple of the winners this week: AJ Nettles and Dezmond Blair. In previous years, the students have organised to keep track of everyone’s submissions, and I always loved browsing and linking to those repositories each year…
+- [password manager](https://github.com/DelMonteAJ/CryptOh.swiftpm) — iOS Dev Weekly · Issue 658 — Source repository · Topics: Developer Tools · Security & Privacy · Spatial Computing
+  **Published:** `26th April 2024`
+  **NeKI brief:** Their apps are impressive, too, with AJ creating a password manager using CryptoKit and Dezmond making a mountain biking companion app using ARKit.
 - [Pulse](https://github.com/kean/Pulse) — iOS Dev Tools · iOS Dev Tools: Pow, Maccy, Pulse — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Networking
   **Published:** `2024-04-25T13:41:52.260Z`
   **NeKI brief:** Provides the public source repository for Pulse. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
+- [Get](https://github.com/kean/Get) — iOS Dev Tools · iOS Dev Tools: Pow, Maccy, Pulse — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Networking
+  **Published:** `2024-04-25T13:41:52.260Z`
+  **NeKI brief:** Get provides Swift networking or HTTP abstractions. Follow its source for concrete request, response, and cancellation behavior, then compare its concurrency and error model with the application’s networking layer.
 - [Danger](https://github.com/danger/danger) — iOS CI Newsletter · Issue 40 — Source repository · Topics: CI/CD & Automation · Developer Tools · Swift
   **Published:** `2024-04-21T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for Danger, relevant to CI/CD & Automation and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -1686,15 +2787,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [example code](https://github.com/steipete/OSLogTest/blob/master/LoggingTest/ContentView.swift) — iOS Dev Weekly · Issue 656 — Source repository · Topics: Concurrency · Developer Tools · Testing
   **Published:** `12th April 2024`
   **NeKI brief:** Presents example code for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit) — iOS Dev Tools · iOS Dev tools: EditKit, Copilot for Xcode, PhoneNumberKit — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2024-04-11T14:16:07.847Z`
+  **NeKI brief:** PhoneNumberKit parses, formats, and validates international phone numbers in Swift applications. Follow its source for concrete region, formatting, and validation APIs, while checking metadata updates and localization requirements.
 - [🔐 Secret scanning now detects secrets in GitHub wikis](https://github.blog/changelog/2024-04-03-secret-scanning-now-detects-secrets-in-github-wikis) — iOS CI Newsletter · Issue 39 — Article · Topics: Developer Tools
   **Published:** `2024-04-07T00:00:00.000Z`
   **NeKI brief:** Examines Secret scanning now detects secrets in GitHub wikis in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [🆕 Roundup of all updates to GitHub-hosted runners](https://github.blog/changelog/2024-04-02-whats-new-for-github-actions-hosted-runners) — iOS CI Newsletter · Issue 39 — Article · Topics: Developer Tools
   **Published:** `2024-04-07T00:00:00.000Z`
   **NeKI brief:** Examines Roundup of all updates to GitHub-hosted runners in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [embedded examples](https://github.com/apple/swift-embedded-examples) — iOS Dev Weekly · Issue 655 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `5th April 2024`
+  **NeKI brief:** Work on embedded Swift has been progressing for quite some time now, but you might be surprised at the range of very tiny devices it now runs on. I had only heard of the Raspberry Pi Pico from this list, but there are many more. Kuba Mracek fills us in on…
 - [Adwaita for Swift](https://github.com/AparokshaUI/adwaita-swift) — Fatbobman’s Swift Weekly · Issue 25 — Source repository · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
   **Published:** `2024-04-01T22:00:13.872Z`
   **NeKI brief:** Adwaita for Swift applies SwiftUI-like declarative ideas to GTK-based Linux applications. Use it when assessing how much view composition can be shared across Apple and Linux UI targets.
+- [AnandaModel](https://github.com/nixzhu/Ananda) — iOS Dev Tools · iOS Dev tools: Ducky Model Editor, LocalizApp, Brewer X — Source repository · Topics: Developer Tools · Foundation & Data Formats · Swift
+  **Published:** `2024-03-28T15:43:54.859Z`
+  **NeKI brief:** AnandaModel generates or represents Swift models from structured data. Follow its source for concrete Codable or model-generation behavior, while checking output compatibility and maintenance before integrating it.
 - [new Benchmarks Swift Package](https://github.com/ordo-one/package-benchmark) — iOS CI Newsletter · Issue 38 — Source repository · Topics: Performance · Swift · Swift Package Manager
   **Published:** `2024-03-24T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for new Benchmarks Swift Package, relevant to Performance and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -1704,12 +2814,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [yolov5](https://github.com/ultralytics/yolov5) — iOS Dev Weekly · Issue 653 — Source repository · Topics: Developer Tools · Swift
   **Published:** `22nd March 2024`
   **NeKI brief:** Presents yolov5 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
-- [Firefoo](https://www.firefoo.app/) — iOS Dev Tools · iOS Dev Tools: Skip, AppLayouts, Firefoo — Article · Topics: Developer Tools
+- [Firefoo](https://www.firefoo.app/) — iOS Dev Tools · iOS Dev Tools: Skip, AppLayouts, Firefoo - iOS Dev Tools — Article · Topics: Developer Tools
   **Published:** `2024-03-21T14:02:34.735Z`
   **NeKI brief:** Firefoo is a graphical Firestore client for browsing and editing data, running queries, importing or exporting JSON and CSV, and managing users. Use it for local data exploration and debugging without building ad-hoc admin screens.
 - [Concurrency Recipes](https://github.com/mattmassicotte/ConcurrencyRecipes) — iOS Dev Weekly · Issue 652 — Source repository · Topics: Concurrency · Developer Tools · Testing
   **Published:** `15th March 2024`
   **NeKI brief:** Collects practical Swift concurrency examples covering isolation, tasks, actors, and Sendable boundaries. Use the repository as a pattern library, adapting each recipe to current Swift 6 diagnostics and your app’s ownership model.
+- [Sonar](https://www.sonartasks.com/) — iOS Dev Tools · iOS Dev tools: Play, PullRequest, Sonar — Article · Topics: Developer Tools
+  **Published:** `2024-03-14T16:08:26.033Z`
+  **NeKI brief:** Sonar is a task or productivity utility. Follow its page for the concrete scheduling and organization workflow described there, while requiring additional technical evidence before treating it as developer guidance.
 - [strict concurrency for global variables](https://github.com/apple/swift-evolution/blob/main/proposals/0412-strict-concurrency-for-global-variables.md) — Fatbobman’s Swift Weekly · Issue 22 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2024-03-11T22:00:11.596Z`
   **NeKI brief:** The strict-concurrency proposal addresses global-variable isolation and data-race diagnostics. Follow it when auditing shared mutable state and deciding which globals need actor isolation, Sendable wrappers, or removal.
@@ -1731,6 +2844,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [the work he did with the Thread Sanitizer](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/issues/2321) — iOS Dev Weekly · Issue 651 — Source repository · Topics: Concurrency · Swift · Swift Package Manager
   **Published:** `8th March 2024`
   **NeKI brief:** Presents the work he did with the thread sanitizer for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [sanitiser switched on today](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/blob/1e36b0d7bbec844621ecef178773043fed80ea29/Makefile) — iOS Dev Weekly · Issue 651 — Source repository · Topics: Concurrency · Swift · Swift Package Manager
+  **Published:** `8th March 2024`
+  **NeKI brief:** I chatted about it with Sven, and he suspects that we’re in such good shape because of the work he did with the Thread Sanitizer from some concurrency issues we had last year. The Thread Sanitizer does a similar job to these strict concurrency checks but at…
+- [committed those changes](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/pull/2929) — iOS Dev Weekly · Issue 651 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `8th March 2024`
+  **NeKI brief:** Since switching it on didn’t add any warnings, I even committed those changes so we won’t accidentally introduce this class of error before Swift 6 arrives.
 - [SnapshotPreviews](https://github.com/EmergeTools/SnapshotPreviews-iOS) — Fatbobman’s Swift Weekly · Issue 21 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2024-03-04T22:00:16.297Z`
   **NeKI brief:** SnapshotPreviews-iOS provides a UIKit-oriented snapshot workflow for preview-like visual verification. Use it when UIKit screens need deterministic image comparisons alongside SwiftUI preview coverage.
@@ -1758,18 +2877,51 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift Algorithms](https://github.com/apple/swift-algorithms) — Fatbobman’s Swift Weekly · Issue 19 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2024-02-19T22:00:33.358Z`
   **NeKI brief:** Swift Algorithms packages focused sequence and collection operations that complement the standard library. Follow it when a transformation is common enough to reuse but specific enough not to justify an app-local implementation.
+- [Yori Mihalakopoulos](https://mastodon.naiveapps.com/@yori) — iOS Dev Weekly · Issue 648 — Article · Topics: Developer Tools
+  **Published:** `16th February 2024`
+  **NeKI brief:** The public Mastodon profile identifies Yori Mihalakopoulos and exposes the author's profile and published posts without authentication.
+- [A week on with a VisionPro](https://rhonabwy.com/2024/02/11/a-week-on-with-a-visionpro) — iOS Dev Weekly · Issue 648 — Article · Topics: Developer Tools · Spatial Computing
+  **Published:** `16th February 2024`
+  **NeKI brief:** Examines There are excellent reviews of the VisionPro “out there”, this post isn’t meant as another. It’s a record of my first experiences, thoughts, and scribbled n. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [🆕 GitHub-hosted macOS Sonoma runners are now available!](https://github.blog/changelog/2024-01-30-github-actions-macos-14-sonoma-is-now-available) — iOS CI Newsletter · Issue 35 — Article · Topics: Developer Tools · macOS & AppKit · Personal Essays
   **Published:** `2024-02-11T00:00:00.000Z`
   **NeKI brief:** Examines GitHub-hosted macOS Sonoma runners are now available! in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [🔐 More keys added to GitHub’s secret scanning](https://github.blog/changelog/2024-02-06-secret-scanning-adds-validity-checks-for-stripe-telegram-sendgrid-and-more) — iOS CI Newsletter · Issue 35 — Article · Topics: Developer Tools
   **Published:** `2024-02-11T00:00:00.000Z`
   **NeKI brief:** Examines More keys added to GitHub’s secret scanning in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [UIViewKit](https://github.com/Adobels/UIViewKit) — iOS Dev Tools · iOS Dev tools: UIViewKit, xScope, Iconic — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2024-02-08T16:15:56.765Z`
+  **NeKI brief:** UIViewKit is a GitHub UIKit-related library. Follow its source and README for concrete view-building abstractions, then compare its maintenance state and design choices with current UIKit APIs.
+- [[New Workshop] Mobile Crash Reporting & Debugging Best Practices](https://vpdae.com/redirect/r6fzsqg4ip6o1vuj3s41435thfl) — iOS Dev Tools · 🔨 Kaleidoscope, Judo, ScanTexter — Tutorial · Topics: Developer Tools
+  **Published:** `2024-02-01T17:46:16.580Z`
+  **NeKI brief:** This page promotes a workshop about mobile crash reporting and debugging practices. Follow it for concrete diagnostic topics if the material is accessible, but distinguish training promotion from the underlying technical resources.
+- [Fabula](https://github.com/jasudev/FabulaItemsProvider) — iOS Dev Tools · 🔨 Reveal, Fabula, AnimateText — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2024-01-25T16:38:45.891Z`
+  **NeKI brief:** FabulaItemsProvider supplies data or item-provider abstractions for Swift interfaces. Follow its source for concrete collection, loading, and state patterns, while checking concurrency and lifecycle behavior before adoption.
+- [AnimateText](https://github.com/jasudev/AnimateText) — iOS Dev Tools · 🔨 Reveal, Fabula, AnimateText — Source repository · Topics: Developer Tools
+  **Published:** `2024-01-25T16:38:45.891Z`
+  **NeKI brief:** AnimateText provides animated text effects for Apple-platform interfaces. Follow its source and examples for concrete timing, layout, and transition techniques, while checking accessibility and dynamic-type behavior.
+- [Kodemo/player](https://github.com/kodemoapp/player) — iOS Dev Tools · 🔨 RunCat, Porcupine, Kodemo — Source repository · Topics: Developer Tools
+  **Published:** `2024-01-18T17:05:12.058Z`
+  **NeKI brief:** Kodemo/player is a player component for interactive or step-based content. Follow its source for concrete playback, navigation, and content-model behavior, while verifying its embedding and supported web or native environments.
 - [🎓 GitHub Actions certifications](https://github.blog/2024-01-08-github-certifications-are-generally-available) — iOS CI Newsletter · Issue 33 — Article · Topics: Developer Tools
   **Published:** `2024-01-14T00:00:00.000Z`
   **NeKI brief:** Examines GitHub Actions certifications in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Setting](https://github.com/aheze/Setting) — iOS Dev Tools · 🔨 Setting, Core Data Lab, MonitorControl — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `2024-01-11T16:12:03.171Z`
+  **NeKI brief:** Setting is a SwiftUI-oriented settings component or library. Follow its source for concrete preference modeling and settings-screen composition, while checking persistence and platform behavior before adoption.
+- [MonitorControl](https://github.com/MonitorControl/MonitorControl) — iOS Dev Tools · 🔨 Setting, Core Data Lab, MonitorControl — Source repository · Topics: Developer Tools
+  **Published:** `2024-01-11T16:12:03.171Z`
+  **NeKI brief:** MonitorControl controls external-display brightness and related settings from macOS. Follow its source for concrete hardware-control and menu-bar integration, including the boundaries imposed by display protocols and permissions.
+- [hundreds of community members](https://github.com/daveverwer/iOSDevDirectory/pulls?q=is%3Apr+is%3Amerged) — iOS Dev Weekly · Issue 642 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `5th January 2024`
+  **NeKI brief:** Examines The iOS Dev Directory. Contribute to iOSDevDirectory/iOSDevDirectory development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [threading torture test](https://github.com/LucasVanDongen/ThreadTortureTests) — iOS Dev Weekly · Issue 642 — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `5th January 2024`
   **NeKI brief:** Presents threading torture test for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Micro](https://github.com/zyedidia/micro) — iOS Dev Tools · 🔨 Micro, Mackup, Multiliner — Source repository · Topics: Dependency Injection · Developer Tools
+  **Published:** `2024-01-04T15:45:44.353Z`
+  **NeKI brief:** Micro is a terminal-based text editor with cross-platform source code. Follow its repository for concrete editing, plugin, and terminal interaction behavior, while distinguishing its developer-tool workflow from iOS-specific guidance.
 - [Multiliner](https://github.com/aheze/Multiliner) — iOS Dev Tools · 🔨 Micro, Mackup, Multiliner — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2024-01-04T15:45:44.353Z`
   **NeKI brief:** Provides the public source repository for Multiliner. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
@@ -1779,6 +2931,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The Swift Package Index lives on the island of Swiftoria](https://anvaka.github.io/map-of-github) — iOS Dev Weekly · Issue 641 — Article · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `29th December 2023`
   **NeKI brief:** Presents the swift package index lives on the island of swiftoria for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Warp](https://www.warp.dev/) — iOS Dev Tools · 🔨 Wins, Bushel, Warp — Article · Topics: Developer Tools
+  **Published:** `2023-12-21T15:03:29.456Z`
+  **NeKI brief:** Warp is a modern terminal for developer workflows. Follow its product materials for concrete command, collaboration, and automation features, while checking shell, privacy, and platform integration behavior.
 - [⚙️ Configure your GitHub repositories using yaml files](https://www.roger.ml/p/syncing-github-repository-settings) — iOS CI Newsletter · Issue 31 — Article · Topics: Developer Tools
   **Published:** `2023-12-17T00:00:00.000Z`
   **NeKI brief:** Examines Configure your GitHub repositories using yaml files in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -1794,6 +2949,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [examples repository](https://github.com/ml-explore/mlx-examples) — iOS Dev Weekly · Issue 639 — Source repository · Topics: AI Development · Developer Tools
   **Published:** `8th December 2023`
   **NeKI brief:** Presents examples repository for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [transformer language models](https://github.com/ml-explore/mlx-examples/tree/main/transformer_lm) — iOS Dev Weekly · Issue 639 — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `8th December 2023`
+  **NeKI brief:** The examples repository shows more of what it’s capable of, with samples covering transformer language models, LLaMA, LoRA, Stable Diffusion, and OpenAI’s Whisper. There’s also a quick start guide and more documentation if you want to explore further.
+- [LoRA](https://github.com/ml-explore/mlx-examples/tree/main/lora) — iOS Dev Weekly · Issue 639 — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `8th December 2023`
+  **NeKI brief:** The examples repository shows more of what it’s capable of, with samples covering transformer language models, LLaMA, LoRA, Stable Diffusion, and OpenAI’s Whisper. There’s also a quick start guide and more documentation if you want to explore further.
+- [Stable Diffusion](https://github.com/ml-explore/mlx-examples/tree/main/stable_diffusion) — iOS Dev Weekly · Issue 639 — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `8th December 2023`
+  **NeKI brief:** The examples repository shows more of what it’s capable of, with samples covering transformer language models, LLaMA, LoRA, Stable Diffusion, and OpenAI’s Whisper. There’s also a quick start guide and more documentation if you want to explore further.
+- [OpenAI’s Whisper](https://github.com/ml-explore/mlx-examples/tree/main/whisper) — iOS Dev Weekly · Issue 639 — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `8th December 2023`
+  **NeKI brief:** The examples repository shows more of what it’s capable of, with samples covering transformer language models, LLaMA, LoRA, Stable Diffusion, and OpenAI’s Whisper. There’s also a quick start guide and more documentation if you want to explore further.
+- [documentation](https://ml-explore.github.io/mlx/build/html/index.html) — iOS Dev Weekly · Issue 639 — Article · Topics: AI Development · Cross-Platform & Web · Developer Tools
+  **Published:** `8th December 2023`
+  **NeKI brief:** The examples repository shows more of what it’s capable of, with samples covering transformer language models, LLaMA, LoRA, Stable Diffusion, and OpenAI’s Whisper. There’s also a quick start guide and more documentation if you want to explore further.
 - [Breadcrumbs](https://github.com/icanzilb/Breadcrumbs) — iOS Dev Weekly · Issue 639 — Source repository · Topics: Developer Tools
   **Published:** `8th December 2023`
   **NeKI brief:** Presents breadcrumbs for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -1803,12 +2973,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Know your tools](https://khorbushko.github.io/article/2023/11/26/Know-your-tools.html) — Fatbobman’s Swift Weekly · Issue 9 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2023-12-03T22:00:35.768Z`
   **NeKI brief:** Surveys the everyday tools and diagnostics that support Swift development and debugging. Use it as a checklist for improving feedback loops around builds, source inspection, runtime logs, and repeatable project maintenance.
+- [activity over on this repository has been frantic](https://github.com/mRs-/Black-Friday-Deals/pulls?q=is%3Apr) — iOS Dev Weekly · Issue 637 — Source repository · Topics: Developer Tools
+  **Published:** `24th November 2023`
+  **NeKI brief:** I hope everyone over the other side of the Atlantic who celebrates Thanksgiving had a great day yesterday, and what better way to celebrate Black Friday than to give some money to your local artisanal app developer or creator of developer tools? As with…
+- [trip back in time this weekend](https://github.com/zajo/appler) — iOS Dev Weekly · Issue 637 — Source repository · Topics: Developer Tools
+  **Published:** `24th November 2023`
+  **NeKI brief:** trip back in time this weekend. This link is retained as a technical reading lead for Apple-platform development.
+- [SVGView](https://github.com/exyte/SVGView) — iOS Dev Tools · 🔨 Raycast, Build Distro, SVGView — Source repository · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2023-11-23T16:19:32.692Z`
+  **NeKI brief:** SVGView renders SVG content in SwiftUI or Apple-platform interfaces. Follow its source for concrete parsing, layout, and rendering behavior, then evaluate SVG feature coverage and performance for the intended assets.
 - [Inferno](https://github.com/twostraws/Inferno) — Fatbobman’s Swift Weekly · Issue 7 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
   **Published:** `2023-11-20T22:20:48.455Z`
   **NeKI brief:** Inferno is a SwiftUI-focused learning and example repository from Paul Hudson. Useful as a code-reading route for modern view composition, provided examples are checked against the target SDK.
 - [ObservationBP](https://github.com/winddpan/ObservationBP) — Fatbobman’s Swift Weekly · Issue 7 — Source repository · Topics: AI Development · Developer Tools
   **Published:** `2023-11-20T22:20:48.455Z`
   **NeKI brief:** ObservationBP back-ports Swift's Observation model for projects that cannot yet use the native deployment baseline. Follow it when weighing compatibility against maintenance and behavioral differences from the current framework implementation.
+- [GitHub Universe keynote](https://youtu.be/NrQkdDVupQE) — iOS Dev Weekly · Issue 636 — Video · Topics: AI Development · Developer Tools
+  **Published:** `17th November 2023`
+  **NeKI brief:** Examines It’s a new age for GitHub. Join our CEO Thomas Dohmke and special guests for a stirring, high velocity keynote as we fundamentally redefine what it means to. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Copilot Workspace](https://youtu.be/NrQkdDVupQE?t=2627) — iOS Dev Weekly · Issue 636 — Video · Topics: AI Development · Developer Tools
+  **Published:** `17th November 2023`
+  **NeKI brief:** Examines It’s a new age for GitHub. Join our CEO Thomas Dohmke and special guests for a stirring, high velocity keynote as we fundamentally redefine what it means to. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [best README file](https://github.com/twostraws/Inferno/blob/main/README.md) — iOS Dev Weekly · Issue 636 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `17th November 2023`
+  **NeKI brief:** Seriously, though, this is a fantastic video that takes a genuinely approachable look at Metal fragment shaders for someone without prior Metal knowledge. Even better, it’s accompanied by a blog post and GitHub repository with possibly the best README file…
+- [CUBOTino](https://github.com/AndreaFavero71/CUBOTino_base_version) — iOS Dev Weekly · Issue 636 — Source repository · Topics: Developer Tools
+  **Published:** `17th November 2023`
+  **NeKI brief:** Examines CUBOTino base version: a Small, Simple, 3D Printed, Inexpensive Rubik's Cube Solver Robot - AndreaFavero71/CUBOTino_base_version. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [GitHub](https://github.com/GetStream/motionscape-app) — iOS Dev Tools · 🔨 MotionScape, XCTestParametrizedMacro, Swiftly — Source repository · Topics: Developer Tools
   **Published:** `2023-11-16T15:47:07.018Z`
   **NeKI brief:** MotionScape is an open-source SwiftUI animation playground that previews parameterized examples and exports selected settings as production-ready SwiftUI code. Use it to experiment with easing and timing values before hand-writing an animation implementation.
@@ -1821,9 +3012,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Let's xrOS](https://github.com/XRealityZone/Let-us-xrOS) — Fatbobman’s Swift Weekly · Issue 6 — Source repository · Topics: Developer Tools
   **Published:** `2023-11-13T22:20:44.462Z`
   **NeKI brief:** Let-us-xrOS collects examples and learning material for visionOS development. Use it as a practical discovery route for spatial APIs and project structure, then verify deployment requirements and framework behavior against Apple's documentation.
+- [EffectsLibrary](https://github.com/GetStream/effects-library) — iOS Dev Tools · 🔨 ASO, ToDoBar, EffectsLibrary — Source repository · Topics: Developer Tools
+  **Published:** `2023-11-09T14:17:10.440Z`
+  **NeKI brief:** EffectsLibrary is a collection of visual effects for Apple-platform interfaces. Follow its examples and source to inspect concrete animation or rendering techniques before adapting them to an application design system.
+- [Check out this tool!](https://github.com/GetStream/effects-library/tree/main) — iOS Dev Tools · 🔨 ASO, ToDoBar, EffectsLibrary — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `2023-11-09T14:17:10.440Z`
+  **NeKI brief:** This EffectsLibrary tree link points to the repository’s main source branch and examples. Follow it to inspect the concrete effect implementations, while treating the directory landing page itself as navigation rather than independent reading.
 - [https://github.com/thebrowsercompany/swift-winrt](https://github.com/thebrowsercompany/swift-winrt) — Fatbobman’s Swift Weekly · Issue 5 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `2023-11-06T22:30:15.675Z`
-  **NeKI brief:** swift-winrt generates Swift projections over Windows Runtime and its COM-based ABI. Use it to study cross-platform bindings, generated interop, and the boundary between Swift ergonomics and platform-specific runtime contracts.
+  **NeKI brief:** On another interesting turn of events, the browser Arc, fully developed using the Swift language, released its Windows version this week. What makes it interesting is that the tools they used are fully open-source and available on GitHub. Why not take a look…
 - [example](https://github.com/thebrowsercompany/windows-samples) — Fatbobman’s Swift Weekly · Issue 5 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `2023-11-06T22:30:15.675Z`
   **NeKI brief:** Collects Windows sample projects that accompany experiments with Swift and WinRT interoperability. Follow it for concrete API-binding and build examples, while keeping platform-specific assumptions isolated from portable Swift package code.
@@ -1836,25 +3033,49 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [creating a command line tool](https://www.swift.org/getting-started/cli-swiftpm) — iOS Dev Weekly · Issue 634 — Article · Topics: Developer Tools · Personal Essays · Swift
   **Published:** `3rd November 2023`
   **NeKI brief:** Uses SwiftPM’s executable-package workflow to build a command-line tool, providing a concrete starting point for scripts and developer utilities written in Swift.
-- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages) — iOS Dev Tools · 🔨 RocketSim, SwiftMessages, Dash — Source repository · Topics: Developer Tools · Swift · SwiftUI
+- [many more improvements](https://github.com/apple/swift-org-website/pull/354) — iOS Dev Weekly · Issue 634 — Source repository · Topics: Developer Tools · Personal Essays · Swift
+  **Published:** `3rd November 2023`
+  **NeKI brief:** The Swift.org website pull request records proposed improvements to the public Swift website and its implementation.
+- [Stellar](https://github.com/StellarTools/Stellar) — iOS Dev Weekly · Issue 634 — Source repository · Topics: CI/CD & Automation · Developer Tools · Swift
+  **Published:** `3rd November 2023`
+  **NeKI brief:** Examines Contribute to StellarTools/Stellar development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages) — iOS Dev Tools · 🔨 RocketSim, SwiftMessages, Dash - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2023-11-02T14:15:02.032Z`
   **NeKI brief:** SwiftMessages presents configurable in-app banners, cards, and modal messages using UIKit or SwiftUI. Use it when transient feedback needs queuing, layout control, and presentation styles beyond a system alert or toast.
+- [sample app](https://github.com/automerge/MeetingNotes) — iOS Dev Weekly · Issue 633 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `27th October 2023`
+  **NeKI brief:** Examines Talking of documentation, once you’ve read this post from Joseph Heck on CRDTs and how he has been helping out with bringing Automerge to Swift, check out the amazing documentation. I’d start with the five-minute quick s Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [SwiftHub](https://apps.apple.com/us/app/swifthub-learn-build-share/id1539940969) — iOS Dev Tools · 🔨 SwiftHub, WishKit, Presentify — Podcast · Topics: Developer Community & Business · Swift · Testing
+  **Published:** `2023-10-26T14:13:35.621Z`
+  **NeKI brief:** SwiftHub aggregates Swift articles, books, podcasts, documentation, videos, and community questions in one discovery app. Use it as a curated learning index, not as authoritative framework documentation.
 - [SwiftSyntax](https://github.com/apple/swift-syntax) — Fatbobman’s Swift Weekly · Issue 3 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2023-10-23T22:30:20.902Z`
   **NeKI brief:** SwiftSyntax provides the parsing and syntax-tree APIs behind Swift source tooling and macros. Use it as the canonical implementation route when a project must inspect or generate Swift code structurally.
+- [Debugging Your Way to App Store Success With Instabug](https://www.instabug.com/product/app-ratings-reviews) — iOS Dev Weekly · Issue 632 — Article · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `20th October 2023`
+  **NeKI brief:** Examines Luciq Platform | One SDK. Every signal. Every agent.. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [ObservationBP](https://github.com/onevcat/ObservationBP) — Fatbobman’s Swift Weekly · Issue 2 — Source repository · Topics: Developer Tools · Performance
   **Published:** `2023-10-16T22:30:04.937Z`
   **NeKI brief:** ObservationBP back-ports Swift's Observation model for projects with an older deployment baseline. Use it to examine compatibility trade-offs and implementation differences before choosing a back-port over native Observation or another state-management approach.
 - [Working With XcodeKit <> SwiftLeeds](https://digitalbunker.dev/swift-leeds-working-with-xcodekit) — Fatbobman’s Swift Weekly · Issue 2 — Article · Topics: Spatial Computing · Swift · Xcode
   **Published:** `2023-10-16T22:30:04.937Z`
   **NeKI brief:** Shows integrating XcodeKit source-editor extensions through `XCSourceEditorCommand`. Follow it when automating source transformations inside Xcode and deciding which editor context, selection, and completion behavior the extension must handle.
+- [samples in the repository](https://github.com/apple/swift-distributed-actors/tree/main/Samples) — iOS Dev Weekly · Issue 631 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `13th October 2023`
+  **NeKI brief:** Explains samples in the repository, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [more awaiting merging](https://github.com/apple/swift-distributed-actors/pull/1139) — iOS Dev Weekly · Issue 631 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `13th October 2023`
+  **NeKI brief:** Examines Peer-to-peer cluster implementation for Swift Distributed Actors - Another mini sample to show starting two processes and discovery by ktoso · Pull Request #1139 · apple/swift-dist. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [posted to the Swift Community Showcase](https://forums.swift.org/t/swift-chat-showcase-for-distributed-application/67803) — iOS Dev Weekly · Issue 631 — Article · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `13th October 2023`
+  **NeKI brief:** The page covers “posted to the Swift Community Showcase” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Configuring VSCode](https://www.bryanbraun.com/2023/08/10/things-i-wish-someone-would-have-told-me-about-configuring-vscode) — iOS Dev Weekly · Issue 631 — Article · Topics: Cross-Platform & Web · Developer Tools · Xcode
   **Published:** `13th October 2023`
   **NeKI brief:** Presents configuring vscode for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [or Swift](https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang) — iOS Dev Weekly · Issue 631 — Article · Topics: Cross-Platform & Web · Swift · Xcode
   **Published:** `13th October 2023`
   **NeKI brief:** Provides the Swift language extension for Visual Studio Code. Follow it when setting up language-server completion, diagnostics, and package workflows outside Xcode, while validating debugger and SDK limitations separately.
-- [FileKit](https://github.com/nvzqz/FileKit) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
+- [FileKit](https://github.com/nvzqz/FileKit) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit - iOS Dev Tools — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
   **Published:** `2023-10-12T15:37:25.698Z`
   **NeKI brief:** FileKit wraps Foundation file-system operations in expressive Swift types for paths, directories, and files. Use it for concise tooling or macOS utility code, while checking its maintenance and platform assumptions before making it a core dependency.
 - [摸鱼周报](https://github.com/zhangferry/iOSWeeklyLearning) — Fatbobman’s Swift Weekly · Issue 1 — Source repository · Topics: Developer Tools
@@ -1869,9 +3090,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🎉 M1 GitHub-hosted runners publicly available!](https://github.blog/changelog/2023-10-02-github-actions-apple-silicon-m1-macos-runners-are-now-available-in-public-beta) — iOS CI Newsletter · Issue 26 — Article · Topics: Developer Tools · macOS & AppKit
   **Published:** `2023-10-08T00:00:00.000Z`
   **NeKI brief:** Examines M1 GitHub-hosted runners publicly available! in the context of Developer Tools and macOS & AppKit. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Meet SwiftGodot](https://migueldeicaza.github.io/SwiftGodotDocs/tutorials/swiftgodot-tutorials) — iOS Dev Weekly · Issue 630 — Tutorial · Topics: Developer Tools · Swift
+  **Published:** `6th October 2023`
+  **NeKI brief:** They’re even used to create training/workshop material, which I didn’t expect.
 - [Building Reusable SwiftUI Components](https://peterfriese.github.io/Building-SwiftUI-Components-Tutorial/tutorials/tutorial-table-of-contents) — iOS Dev Weekly · Issue 630 — Tutorial · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `6th October 2023`
   **NeKI brief:** Presents building reusable swiftui components for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Keyboard Cowboy](https://zenangst.github.io/app/keyboardcowboy) — iOS Dev Tools · 🔨 Introducing ClyAppIcon, Keyboard Cowboy, ASO — Article · Topics: Developer Tools · Hardware & Devices
+  **Published:** `2023-10-05T14:01:05.650Z`
+  **NeKI brief:** Keyboard Cowboy provides keyboard-driven launcher and automation workflows for macOS. Follow its source or documentation for concrete shortcut, script, and application-control behavior, while reviewing permissions.
+- [Debugging Improvements in Swift 5.9](https://www.swift.org/blog/whats-new-swift-debugging-5.9) — iOS Dev Weekly · Issue 629 — Article · Topics: Developer Tools · Swift
+  **Published:** `29th September 2023`
+  **NeKI brief:** This post from Adrian Prantl, Augusto Noronha, and Dave Lee on the official Swift blog had me at the first subheading: “Faster variable inspection with p and po”, and it only got better from there. What a great set of improvements.
+- [example app](https://github.com/Data-swift/ManagedToDosApp) — iOS Dev Weekly · Issue 629 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `29th September 2023`
+  **NeKI brief:** The page covers “example app” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [ProfileMe](https://www.profileme.dev/) — iOS Dev Tools · Introducing Codeshare, Sensei, ProfileMe — Article · Topics: Developer Tools · Performance
+  **Published:** `2023-09-28T13:10:04.363Z`
+  **NeKI brief:** ProfileMe provides a profile or developer-presence page workflow. Follow it for concrete identity and portfolio presentation behavior, while distinguishing promotional context from technical resources.
 - [📦 Swift Package template](https://github.com/mattmassicotte/PackageTemplate) — iOS CI Newsletter · Issue 25 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2023-09-24T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for Swift Package template, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -1881,21 +3117,60 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [actions/checkout](https://github.com/actions/checkout) — iOS CI Newsletter · Issue 25 — Source repository · Topics: Developer Tools · Testing
   **Published:** `2023-09-24T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for @actions/checkout (v2), relevant to Developer Tools and Testing. Inspect its implementation, open issues, and release state before adopting the approach.
+- [vision document](https://github.com/apple/swift-testing/blob/main/Documentation/Vision.md) — iOS Dev Weekly · Issue 628 — Source repository · Topics: Developer Tools · Swift · Testing
+  **Published:** `22nd September 2023`
+  **NeKI brief:** Examines A modern, expressive testing package for Swift. Contribute to swiftlang/swift-testing development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [I18n Studio](https://github.com/i18n-studio/i18n-studio) — iOS Dev Tools · Introducing RemafoX, Statused, I18n Studio — Source repository · Topics: Developer Tools
+  **Published:** `2023-09-21T12:20:19.663Z`
+  **NeKI brief:** I18n Studio provides tooling for managing localization resources. Follow its source and workflow documentation for concrete string extraction, translation, and catalog handling, while verifying supported Xcode and localization formats.
 - [project](https://github.com/toph42/ExampleKit) — iOS Dev Weekly · Issue 627 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `15th September 2023`
   **NeKI brief:** Provides the ExampleKit source for embedding Swift libraries in iPad Swift Playgrounds; inspect its package layout when sharing reusable code with playground-based clients.
+- [iOS Security Suite](https://github.com/securing/IOSSecuritySuite) — iOS Dev Tools · Introducing iOS Security Suite, AspirinShot, Arkana — Source repository · Topics: Developer Tools · Security & Privacy · Swift
+  **Published:** `2023-09-14T12:30:13.346Z`
+  **NeKI brief:** iOS Security Suite collects runtime checks for common iOS security conditions. Follow its source for concrete jailbreak, debugger, and tampering-detection techniques, while treating bypass resistance and false positives as important limitations.
+- [AspirinShot](https://github.com/goodwhale/AspirinShot) — iOS Dev Tools · Introducing iOS Security Suite, AspirinShot, Arkana — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `2023-09-14T12:30:13.346Z`
+  **NeKI brief:** AspirinShot is a GitHub project for capturing or processing screenshots. Follow its README and source for concrete image-capture and output behavior, while checking supported platforms and automation constraints.
+- [Arkana](https://github.com/rogerluan/arkana) — iOS Dev Tools · Introducing iOS Security Suite, AspirinShot, Arkana — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `2023-09-14T12:30:13.346Z`
+  **NeKI brief:** Arkana generates or manages secrets and configuration for Swift projects. Follow its source for concrete build-time generation and storage behavior, while reviewing secret exposure and CI integration boundaries.
 - [⚡️ ETTrace: Faster performance debugging](https://swiftrocks.com/faster-performance-debugging-with-ettrace) — iOS CI Newsletter · Issue 24 — Article · Topics: Developer Tools · Performance · Swift
   **Published:** `2023-09-10T00:00:00.000Z`
   **NeKI brief:** Examines ETTrace: Faster performance debugging in the context of Developer Tools and Performance. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [guard](https://github.com/guard/guard) — iOS Dev Weekly · Issue 625 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `1st September 2023`
+  **NeKI brief:** The page covers “guard” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Co-authoring Git commits](https://dev.to/cassidoo/co-authoring-git-commits-3gin?ref=ioscodereview.com) — iOS Code Review · Issue 54 — Article · Topics: Developer Tools
   **Published:** `2023-08-31T14:20:05.000Z`
   **NeKI brief:** Examines Co-authoring Git commits in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Periphery](https://github.com/peripheryapp/periphery?ref=ioscodereview.com) — iOS Code Review · Issue 54 — Source repository · Topics: Developer Tools
   **Published:** `2023-08-31T14:20:05.000Z`
   **NeKI brief:** Periphery statically analyzes Swift projects to find unused declarations and code paths. Use its report to drive cleanup reviews in large codebases, but validate dynamic dispatch, reflection, and externally referenced symbols before removal.
+- [Eureka](https://github.com/xmartlabs/Eureka) — iOS Dev Tools · 🔨 Introducing SwiftLint, Eureka, SVProgressHUD — Source repository · Topics: Developer Tools
+  **Published:** `2023-08-31T12:20:37.440Z`
+  **NeKI brief:** Eureka provides a declarative form-building framework for iOS. Follow its source for concrete row, section, validation, and layout abstractions, then assess UIKit compatibility and maintenance for production use.
+- [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD) — iOS Dev Tools · 🔨 Introducing SwiftLint, Eureka, SVProgressHUD — Source repository · Topics: Developer Tools
+  **Published:** `2023-08-31T12:20:37.440Z`
+  **NeKI brief:** SVProgressHUD displays transient progress and status feedback in iOS applications. Follow its source for concrete overlay, animation, and lifecycle behavior, while checking whether its global presentation model fits the app architecture.
 - [Improve the build times of your SPM Packages and apps](https://mdb1.github.io/2023-08-18-improve-build-times-in-spm-packages-and-in-your-apps) — iOS Dev Weekly · Issue 624 — Article · Topics: Developer Tools · Swift · Xcode
   **Published:** `25th August 2023`
   **NeKI brief:** Explores Improve the build times of your SPM Packages and apps, focusing on this article from manu herrera has some great tips for. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Link to GitHub.](https://github.com/nsmet/omniprompt-gpt-mac-app) — iOS Dev Tools · 🔨 Introducing OmniPrompt, Xcodes, Rollbar — Source repository · Topics: Developer Tools
+  **Published:** `2023-08-24T13:00:52.825Z`
+  **NeKI brief:** Omniprompt GPT is a macOS application project for prompt or AI interaction. Follow its source for concrete UI, request, and provider integration, while verifying credentials, privacy, and current API assumptions.
+- [and yet…](https://github.com/apple/swift-argument-parser/blob/8f4d2753f0e4778c76d5f05ad16c74f707390531/Package.swift) — iOS Dev Weekly · Issue 623 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `18th August 2023`
+  **NeKI brief:** The Swift Argument Parser repository file defines the package manifest and its publicly readable package configuration.
+- [Charts](https://github.com/danielgindi/Charts) — iOS Dev Tools · 🔨 Introducing Charts, IQKeyboardManager, SDWebImage — Source repository · Topics: Developer Tools
+  **Published:** `2023-08-17T12:00:28.327Z`
+  **NeKI brief:** Charts provides charting components for Swift applications. Follow its source and examples for concrete data-series, axis, animation, and interaction patterns, then evaluate rendering and accessibility needs in the target product.
+- [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager) — iOS Dev Tools · 🔨 Introducing Charts, IQKeyboardManager, SDWebImage — Source repository · Topics: Developer Tools · Hardware & Devices
+  **Published:** `2023-08-17T12:00:28.327Z`
+  **NeKI brief:** IQKeyboardManager adjusts keyboard behavior and input-field visibility in iOS interfaces. Follow its source for concrete keyboard avoidance and scrolling techniques, while checking interaction with modern UIKit and SwiftUI layouts.
+- [SDWebImage](https://github.com/SDWebImage/SDWebImage) — iOS Dev Tools · 🔨 Introducing Charts, IQKeyboardManager, SDWebImage — Source repository · Topics: Concurrency · Developer Tools
+  **Published:** `2023-08-17T12:00:28.327Z`
+  **NeKI brief:** SDWebImage provides asynchronous image loading, caching, and decoding for Apple-platform applications. Follow its source for concrete pipeline and cache-extension points, then verify current format and concurrency support before adoption.
 - [🔁 Chxcode: a tool to easily manage Xcode versions](https://github.com/klaaspieter/chxcode) — iOS CI Newsletter · Issue 22 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `2023-08-13T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for Chxcode: a tool to easily manage Xcode versions, relevant to Developer Tools and Xcode. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -1905,16 +3180,37 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🔨 Create Pull Requests automatically using Fastlane](https://mdb1.github.io/2023-08-12-use-fastlane-to-create-prs) — iOS CI Newsletter · Issue 22 — Article · Topics: CI/CD & Automation · Developer Tools
   **Published:** `2023-08-13T00:00:00.000Z`
   **NeKI brief:** Examines Create Pull Requests automatically using Fastlane in the context of CI/CD & Automation and Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Kaleidoscope and Git](https://blog.kaleidoscope.app/2023/08/08/kaleidoscope-4-1-and-git) — iOS Dev Weekly · Issue 622 — Article · Topics: Developer Tools
+  **Published:** `11th August 2023`
+  **NeKI brief:** The release article explains Kaleidoscope 4.1's Git integration and the workflows it supports for comparing and reviewing changes.
 - [chat app](https://github.com/huggingface/swift-chat) — iOS Dev Weekly · Issue 622 — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `11th August 2023`
   **NeKI brief:** Provides a macOS demonstration app for swift-transformers, showing how the project can host local language-model interactions. It is a concrete repository to inspect when evaluating a Swift-native prototype for on-device or desktop model experimentation.
+- [SnapKit](https://github.com/SnapKit/SnapKit) — iOS Dev Tools · 🔨 Introducing SnapKit, SwiftyJSON, RxSwift — Source repository · Topics: Developer Tools
+  **Published:** `2023-08-10T11:11:05.792Z`
+  **NeKI brief:** SnapKit provides a Swift DSL for declaring Auto Layout constraints. Follow its source and examples for concrete constraint composition and update patterns, then compare its ergonomics with native anchors and current layout needs.
 - [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) — iOS Dev Tools · 🔨 Introducing SnapKit, SwiftyJSON, RxSwift — Source repository · Topics: Developer Tools · Swift
   **Published:** `2023-08-10T11:11:05.792Z`
   **NeKI brief:** Presents a concrete implementation of SwiftyJSON. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
-- [Link to GitHub.](https://github.com/mapbox/mapbox-maps-ios) — iOS Dev Tools · 🔨 Introducing Mapbox, Alamofire, RNCrypto — Source repository · Topics: Developer Tools · Maps & Location
+- [RxSwift](https://github.com/ReactiveX/RxSwift) — iOS Dev Tools · 🔨 Introducing SnapKit, SwiftyJSON, RxSwift — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2023-08-10T11:11:05.792Z`
+  **NeKI brief:** RxSwift provides reactive programming primitives for Swift, including observable streams, operators, and schedulers. Follow its source and documentation for concrete composition and cancellation patterns, while considering Swift concurrency trade-offs.
+- [TipKit Examples](https://github.com/jordibruin/TipKit-Examples) — iOS Dev Weekly · Issue 621 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `4th August 2023`
+  **NeKI brief:** The page covers “TipKit Examples” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [visionOS](https://github.com/jordibruin/visionOS-Examples) — iOS Dev Weekly · Issue 621 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `4th August 2023`
+  **NeKI brief:** If you’ve not checked out TipKit yet after last week’s link, then maybe this example repository from Jordi Bruin is the inspiration you need. It looks like he has example repositories for visionOS, the dynamic island, and Swift Charts, too!
+- [dynamic island](https://github.com/jordibruin/Dynamic-Islands) — iOS Dev Weekly · Issue 621 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `4th August 2023`
+  **NeKI brief:** The page covers “dynamic island” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Swift Charts](https://github.com/jordibruin/Swift-Charts-Examples) — iOS Dev Weekly · Issue 621 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `4th August 2023`
+  **NeKI brief:** Examines If you’ve not checked out TipKit yet after last week’s link, then maybe this example repository from Jordi Bruin is the inspiration you need. It looks like he has example repositories for visionOS, the dynamic island, an Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Link to GitHub.](https://github.com/mapbox/mapbox-maps-ios) — iOS Dev Tools · Introducing CodeScanner, Mapbox, Alamofire — Source repository · Topics: Developer Tools · Maps & Location
   **Published:** `2023-08-03T12:40:06.374Z`
   **NeKI brief:** Mapbox Maps SDK for iOS provides vector maps, annotations, styling, navigation-oriented capabilities, and offline regions. Use it when Apple MapKit’s data or customization is insufficient, accounting for tokens, licensing, and offline package management.
-- [RNCrypto](https://github.com/RNCryptor/RNCryptor) — iOS Dev Tools · 🔨 Introducing Mapbox, Alamofire, RNCrypto — Source repository · Topics: Developer Tools · Security & Privacy
+- [RNCrypto](https://github.com/RNCryptor/RNCryptor) — iOS Dev Tools · Introducing CodeScanner, Mapbox, Alamofire — Source repository · Topics: Developer Tools · Security & Privacy
   **Published:** `2023-08-03T12:40:06.374Z`
   **NeKI brief:** RNCryptor defines a cross-language encrypted-data format using AES-256-CBC, PBKDF2-derived keys, random salt and IV, plus HMAC. Use it when interoperable encrypted payloads are required, while handling keys separately from ciphertext storage.
 - [an article last year](https://blog.eidinger.info/xcode-133-supports-spm-binary-dependency-in-private-github-release) — iOS CI Newsletter · Issue 20 — Article · Topics: Developer Tools · Objective-C & Cocoa · Xcode
@@ -1929,6 +3225,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [highlight this PR](https://github.com/fastlane/fastlane/pull/20956) — iOS CI Newsletter · Issue 20 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
   **Published:** `2023-07-16T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for highlight this PR, relevant to App Distribution & Store Operations and CI/CD & Automation. Inspect its implementation, open issues, and release state before adopting the approach.
+- [swift-unidirectional-flow](https://github.com/mecid/swift-unidirectional-flow) — SwiftUI Weekly · SwiftUI Weekly - Issue #150 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2023-07-10T08:48:10.425Z`
+  **NeKI brief:** Explains Unidirectional flow implemented using the latest Swift Generics and Swift Concurrency features. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [LocationSimulator - Your On-Demand iOS Location Testing Suite](https://github.com/utmapp/UTM) — iOS Dev Tools · 🔨 Audio Alchemy & Virtual Ventures! — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
+  **Published:** `2023-07-06T14:06:48.701Z`
+  **NeKI brief:** UTM virtualizes or emulates operating systems on Apple platforms. Follow its source for concrete virtual-machine configuration, hardware acceleration, and device integration, while checking performance and supported guest systems.
 - [📦 This GitHub Action helps you keep SPM dependencies up to date!](https://github.com/MarcoEidinger/swift-package-dependencies-check) — iOS CI Newsletter · Issue 19 — Source repository · Topics: Dependency Injection · Developer Tools · Objective-C & Cocoa
   **Published:** `2023-07-02T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for This GitHub Action helps you keep SPM dependencies up to date!, relevant to Dependency Injection and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -1944,18 +3246,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [ETTrace](https://github.com/EmergeTools/ETTrace) — iOS CI Newsletter · Issue 19 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Performance
   **Published:** `2023-07-02T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for ETTrace, relevant to Developer Tools and Objective-C & Cocoa. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Featuring Maccy, Nuke, & Tuist](https://github.com/p0deje/Maccy) — iOS Dev Tools · 🔨 It's Clipboard Magic (and Other Stuff) — Source repository · Topics: Developer Tools · Security & Privacy
+  **Published:** `2023-06-29T13:51:11.661Z`
+  **NeKI brief:** Maccy is a macOS clipboard manager with local history and quick retrieval. Follow its source for concrete clipboard monitoring, persistence, and privacy behavior, while checking retention and permission boundaries.
 - [Nuke - Efficient Image Handling for Swift](https://github.com/tuist/tuist) — iOS Dev Tools · 🔨 It's Clipboard Magic (and Other Stuff) — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `2023-06-29T13:51:11.661Z`
   **NeKI brief:** Tuist declares Xcode projects, targets, dependencies, and automation in Swift manifests, then generates workspace artifacts. Use it to centralize large-project configuration and speed team onboarding, with generated files treated as derived output.
 - [GitHub Dependency Graph, Dependabot Alerts, and Advisory Database now support Swift advisories](https://github.blog/changelog/2023-06-19-dependency-graph-dependabot-alerts-and-advisory-database-now-support-swift-advisories) — iOS Dev Weekly · Issue 615 — Article · Topics: Developer Tools · Persistence & Synchronisation · Swift
   **Published:** `23rd June 2023`
   **NeKI brief:** Explores GitHub Dependency Graph, Dependabot Alerts, and Advisory Database now support Swift advisories, focusing on if you have worked with other languages, you’ve likely come. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [SkeletonView - Streamlined Placeholder Loading for iOS Apps](https://github.com/rxhanson/Rectangle) — iOS Dev Tools · 🔨 Elevate Swift Networking with Moya & More — Source repository · Topics: Developer Tools
+  **Published:** `2023-06-22T13:47:30.798Z`
+  **NeKI brief:** Rectangle is a macOS window-management utility for keyboard-driven snapping and resizing. Follow its source for concrete accessibility and window-placement integration, while checking current permissions and Spaces behavior.
 - [✍️ Fastlane 2.213.0: Run Xcode 14.3 with Rosetta](https://github.com/fastlane/fastlane/releases/tag/2.213.0) — iOS CI Newsletter · Issue 18 — Source repository · Topics: CI/CD & Automation · Developer Tools · Xcode
   **Published:** `2023-06-18T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for Fastlane 2.213.0: Run Xcode 14.3 with Rosetta, relevant to CI/CD & Automation and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Swift-Macros: A curated list of awesome Swift Macros](https://github.com/krzysztofzablocki/Swift-Macros) — iOS Dev Weekly · Issue 614 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
   **Published:** `16th June 2023`
   **NeKI brief:** Explores Swift-Macros: A curated list of awesome Swift Macros, focusing on the article discusses want to write something more detailed about. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Mirador](https://github.com/HyperARCo/Mirador) — iOS Dev Tools · 🔨 AR Madness with Some Mac Sprinkled in — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `2023-06-15T12:01:05.754Z`
+  **NeKI brief:** Mirador is an Apple-platform project for inspecting or presenting augmented-reality content. Follow its repository for concrete rendering and interaction code, while verifying device and framework requirements before adoption.
+- [The unofficial WWDC app](https://github.com/insidegui/WWDC) — iOS Dev Weekly · Issue 613 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games
+  **Published:** `9th June 2023`
+  **NeKI brief:** The official Developer app is excellent and gets better every year, but I reach for this independently developed app when I want to stream (or download) a WWDC video. So, I’d like to thank Gui Rambo and all the contributors for their work every year in…
+- [all the contributors](https://github.com/insidegui/WWDC/graphs/contributors) — iOS Dev Weekly · Issue 613 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games
+  **Published:** `9th June 2023`
+  **NeKI brief:** The official Developer app is excellent and gets better every year, but I reach for this independently developed app when I want to stream (or download) a WWDC video. So, I’d like to thank Gui Rambo and all the contributors for their work every year in…
 - [sample code](https://github.com/apple/sample-backyard-birds) — iOS Dev Weekly · Issue 613 — Source repository · Topics: Developer Community & Business · Developer Tools
   **Published:** `9th June 2023`
   **NeKI brief:** Explores sample code, focusing on the article discusses love this page from apple highlighting all the essential bits of documentation, articles, update summaries, key reference documentation, and. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -1974,6 +3291,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [❗️ Node 12 will no longer be allowed in GitHub Actions](https://github.blog/changelog/2023-05-04-github-actions-all-actions-will-run-on-node16-instead-of-node12) — iOS CI Newsletter · Issue 16 — Article · Topics: Developer Tools
   **Published:** `2023-05-21T00:00:00.000Z`
   **NeKI brief:** Examines Node 12 will no longer be allowed in GitHub Actions in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [React Native for macOS](https://microsoft.github.io/react-native-windows) — iOS Dev Weekly · Issue 609 — Article · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `12th May 2023`
+  **NeKI brief:** Examines Build native Windows apps with Javascript and React. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [official desktop showcase](https://microsoft.github.io/react-native-windows/resources-showcase) — iOS Dev Weekly · Issue 609 — Article · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `12th May 2023`
+  **NeKI brief:** The React Native for Windows showcase presents official desktop resources and examples for building Windows applications with the framework.
 - [Download free report](https://yo.bitrise.io/mobile-devops-assessment-report-2023-download.html) — iOS Code Review · Issue 48 — Article · Topics: Cross-Platform & Web · Developer Tools
   **Published:** `2023-05-11T12:53:06.000Z`
   **NeKI brief:** Examines Download free report in the context of Code Quality and Cross-Platform & Web. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -2001,6 +3324,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [one of my contributions which makes deliver’s verify_only option work out of the box again by using altool instead of the iTunes Transporter](https://github.com/fastlane/fastlane/pull/20738) — iOS CI Newsletter · Issue 14 — Source repository · Topics: CI/CD & Automation · Developer Tools
   **Published:** `2023-04-23T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for one of my contributions which makes deliver’s verify_only option work out of the box again by using altool…, relevant to CI/CD & Automation and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [1.4.0 release](https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.4.0) — iOS Dev Weekly · Issue 605 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `14th April 2023`
+  **NeKI brief:** I’ve written about Kotlin Multiplatform in the past, but what about Jetpack Compose, the declarative UI framework that looks and feels a lot like SwiftUI? JetBrains announced this week that the 1.4.0 release of their Compose Multiplatform UI Framework now…
+- [Filter Xcode’s Project Navigator to only show modified files](https://www.jessesquires.com/blog/2023/03/22/xcode-tip-filter-modified-files) — iOS Dev Weekly · Issue 605 — Article · Topics: Developer Tools · Xcode
+  **Published:** `14th April 2023`
+  **NeKI brief:** Examines Large Xcode projects can be difficult to navigate, especially when you are making a large change across a large number of files. Depending on how your projec. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [chatty](https://github.com/polpielladev/chatty-cli) — iOS CI Newsletter · Issue 13 — Source repository · Topics: Architecture · Developer Tools · Swift
   **Published:** `2023-04-09T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for chatty, relevant to Architecture and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -2028,6 +3357,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [GitHub webhooks](https://docs.github.com/en/webhooks-and-events/webhooks/about-webhooks) — iOS CI Newsletter · Issue 12 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `2023-03-26T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for GitHub webhooks, relevant to Developer Tools and Xcode. Inspect its implementation, open issues, and release state before adopting the approach.
+- [GoF design patterns](https://en.wikipedia.org/wiki/Design_Patterns) — iOS Dev Weekly · Issue 602 — Article · Topics: Developer Tools · Swift
+  **Published:** `24th March 2023`
+  **NeKI brief:** Examines Design Patterns - Wikipedia. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [The Command Line Is the GUI’s Future](http://ignorethecode.net/blog/2023/03/18/the_command_line_is_the_guis_future) — iOS Dev Weekly · Issue 602 — Article · Topics: Developer Tools
+  **Published:** `24th March 2023`
+  **NeKI brief:** The article explores the command line as a future interface and discusses how textual tools can complement graphical user interfaces.
+- [App Store Quirks](https://github.com/tramlinehq/store-quirks) — iOS Dev Weekly · Issue 602 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `24th March 2023`
+  **NeKI brief:** The GitHub repository documents App Store quirks and edge cases that developers may encounter when shipping applications.
+- [use ChatGPT](https://www.digitaltrends.com/mobile/how-to-replace-siri-with-chatgpt-iphone) — iOS Dev Weekly · Issue 601 — Article · Topics: AI Development · App Intents & System Surfaces · Developer Tools
+  **Published:** `17th March 2023`
+  **NeKI brief:** Presents use ChatGPT, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [CoreDataErrors.h as a gist on GitHub](https://gist.github.com/hishma/7cb505f94230ac7d7ed53d52a1e6dab6?ref=ioscodereview.com) — iOS Code Review · Issue 45 — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **Published:** `2023-03-16T13:58:41.000Z`
   **NeKI brief:** Provides the source and change history for CoreDataErrors.h as a gist on GitHub, relevant to Core Data and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -2040,6 +3381,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [version 1.3.0](https://github.com/RobotsAndPencils/xcodes/releases/tag/1.3.0) — iOS CI Newsletter · Issue 11 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Xcode
   **Published:** `2023-03-12T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for version 1.3.0, relevant to App Distribution & Store Operations and CI/CD & Automation. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Filtering debugger output in Xcode](https://www.jessesquires.com/blog/2023/03/02/xcode-tip-filter-console) — iOS Dev Weekly · Issue 600 — Article · Topics: Developer Tools · Xcode
+  **Published:** `10th March 2023`
+  **NeKI brief:** Examines When debugging a large project in Xcode that a large team works on, the console can get quite busy. Logs are everywhere! It can be difficult to sift through. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [it’s open-source](https://github.com/trozware/To-Day) — iOS Dev Weekly · Issue 600 — Source repository · Topics: Developer Tools
+  **Published:** `10th March 2023`
+  **NeKI brief:** Examines Simple daily todo checklist for Mac. Contribute to trozware/To-Day development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [documentation search look like](https://github.com/arc53/docsgpt) — iOS Dev Weekly · Issue 600 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `10th March 2023`
+  **NeKI brief:** Examines Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents. -. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Setting Up Different Environments in SwiftUI: Command Line Arguments and Build Configurations](https://holyswift.app/best-ways-to-set-up-environment-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #134 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2023-03-06T15:27:12.172Z`
+  **NeKI brief:** Explains Imagine you have a project that need to setup different configurations, base URL, config files etc, for different environments. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [Tipulator](https://github.com/Sophiestication/Tipulator) — iOS Dev Weekly · Issue 599 — Source repository · Topics: Developer Tools
+  **Published:** `3rd March 2023`
+  **NeKI brief:** Examines Contribute to Sophiestication/Tipulator development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Groceries](https://github.com/Sophiestication/Groceries) — iOS Dev Weekly · Issue 599 — Source repository · Topics: Developer Tools
+  **Published:** `3rd March 2023`
+  **NeKI brief:** The page covers “Groceries” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Source and font download](http://sensi.org/~svo/glasstty) — iOS Dev Weekly · Issue 599 — Article · Topics: Combine & Reactive Programming · Developer Tools · Xcode
+  **Published:** `3rd March 2023`
+  **NeKI brief:** Examines VT220 TrueType font. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Learn about SwiftUI view lifecycle](https://github.com/ole/swiftui-view-lifecycle?ref=ioscodereview.com) — iOS Code Review · Issue 44 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2023-03-02T12:48:03.000Z`
   **NeKI brief:** Provides the source and change history for Learn about SwiftUI view lifecycle, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -2076,6 +3438,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [GitHub’s documentation](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue) — iOS CI Newsletter · Issue 9 — Source repository · Topics: Developer Tools
   **Published:** `2023-02-12T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for GitHub’s documentation, relevant to Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [GFM supports tables](https://github.github.com/gfm) — iOS Dev Weekly · Issue 596 — Source repository · Topics: Developer Tools
+  **Published:** `10th February 2023`
+  **NeKI brief:** Examines GitHub Flavored Markdown Spec. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Embarcadero](https://github.com/social-squircle/Embarcadero) — iOS Dev Weekly · Issue 596 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `10th February 2023`
+  **NeKI brief:** Examines A community resource for finding custom SF Symbols and the people who make them - social-squircle/Embarcadero. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [this new repository](https://github.com/jeremieb/social-symbols) — iOS Dev Weekly · Issue 595 — Source repository · Topics: Developer Tools
+  **Published:** `3rd February 2023`
+  **NeKI brief:** Examines Logos as SF Symbols. Contribute to jeremieb/social-symbols development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [hello](https://hellosystem.github.io/docs) — iOS Dev Weekly · Issue 595 — Article · Topics: Developer Career & Practice · Developer Tools · Objective-C & Cocoa
+  **Published:** `3rd February 2023`
+  **NeKI brief:** Presents hello, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Improving linting speed](https://github.com/steven851007/SwiftLint_build_phase_example?ref=ioscodereview.com) — iOS Code Review · Issue 42 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `2023-02-02T14:07:19.000Z`
   **NeKI brief:** Provides the source and change history for Improving linting speed, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -2085,9 +3459,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [xcmonkey](https://github.com/alteral/xcmonkey) — iOS CI Newsletter · Issue 8 — Source repository · Topics: CI/CD & Automation · Developer Tools · Testing
   **Published:** `2023-01-29T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for xcmonkey, relevant to Developer Tools and Testing. Inspect its implementation, open issues, and release state before adopting the approach.
+- [using a self-hosted runner](https://docs.github.com/en/actions/hosting-your-own-runners/using-self-hosted-runners-in-a-workflow) — iOS Dev Weekly · Issue 594 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Personal Essays
+  **Published:** `27th January 2023`
+  **NeKI brief:** There are some good tips in this post from Marco Eidinger for keeping costs down when running GitHub Actions on private repositories, but the one I was surprised to see missing was using a self-hosted runner.
+- [this set of extracted icons](https://rknightuk.github.io/mac-30-font-svg) — iOS Dev Weekly · Issue 594 — Article · Topics: Developer Tools
+  **Published:** `27th January 2023`
+  **NeKI brief:** Examines Mac 30th Anniversary Icons in SVG format. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [defined in ours](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/blob/main/Makefile) — iOS Dev Weekly · Issue 592 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `13th January 2023`
+  **NeKI brief:** Explains defined in ours, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [Stress testing on iOS with xcmonkey](https://testableapple.com/note-36) — iOS Dev Weekly · Issue 592 — Article · Topics: Developer Tools · Testing
   **Published:** `13th January 2023`
   **NeKI brief:** Examines Stress testing iOS apps in the context of Testing. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [implement this suggestion](https://github.com/daveverwer/iOSDevDirectory/issues/686) — iOS Dev Weekly · Issue 591 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `6th January 2023`
+  **NeKI brief:** So, whether you’ve fully migrated to Mastodon or now split your time between multiple platforms, let people know where they can find you by opening a pull request that updates your entry in the blogs.json. Of course, if you haven’t yet added an entry for…
+- [Securely debugging your app in production](https://blog.sidetrack.app/debugging-in-production) — iOS Dev Weekly · Issue 591 — Article · Topics: Developer Tools
+  **Published:** `6th January 2023`
+  **NeKI brief:** The page covers “Securely debugging your app in production” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Ordered dictionary anyone?](https://github.com/apple/swift-collections?ref=ioscodereview.com) — iOS Code Review · Issue 40 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2023-01-05T13:13:42.000Z`
   **NeKI brief:** Provides the source and change history for Ordered dictionary anyone?, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -2106,6 +3495,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [GitHub issue about the availability of macOS 13 GitHub-hosted runners](https://github.com/actions/runner-images/issues/6426) — iOS CI Newsletter · Issue 5 — Source repository · Topics: Developer Tools
   **Published:** `2022-12-18T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for GitHub issue about the availability of macOS 13 GitHub-hosted runners, relevant to Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [companion GitHub repository](https://github.com/RevenueCat/storekit2-demo-app) — iOS Dev Weekly · Issue 589 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `16th December 2022`
+  **NeKI brief:** There are several things to mention about this StoreKit post from Josh Holtz. First, it’s on the RevenueCat blog but it doesn’t use their service. It covers implementing StoreKit subscriptions using only Apple’s APIs. Secondly, it’s comprehensive, with over…
 - [launch blog post](https://trycombine.com/posts/datatile-for-simulator-public-beta-on-testflight-now) — iOS Dev Weekly · Issue 587 — Article · Topics: App Distribution & Store Operations · Combine & Reactive Programming · Developer Tools
   **Published:** `2nd December 2022`
   **NeKI brief:** Explores launch blog post, focusing on the article discusses don’t know about you, but i still. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -2136,6 +3528,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How To Write The PERFECT Pull Request | Level Up Coding](https://levelup.gitconnected.com/how-to-write-the-perfect-pull-request-d044625ace98?gi=6a8f584c2877&ref=ioscodereview.com) — iOS Code Review · Issue 36 — Article · Topics: Developer Tools
   **Published:** `2022-11-04T13:07:52.000Z`
   **NeKI brief:** Walks through how To Write The PERFECT Pull Request | Level Up Coding, with practical context for Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [stable diffusion](https://github.com/CompVis/stable-diffusion) — iOS Dev Weekly · Issue 583 — Source repository · Topics: Developer Tools
+  **Published:** `4th November 2022`
+  **NeKI brief:** Examines A latent text-to-image diffusion model. Contribute to CompVis/stable-diffusion development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Update fastlane on your CI! 🚀](https://github.com/fastlane/fastlane/releases/tag/2.210.0) — iOS CI Newsletter · Issue 1 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
   **Published:** `2022-10-23T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for Update fastlane on your CI! 🚀, relevant to App Distribution & Store Operations and CI/CD & Automation. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -2148,99 +3543,282 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iTMSTransporter command line tool](https://github.com/fastlane/fastlane/issues/20371) — iOS CI Newsletter · Issue 1 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
   **Published:** `2022-10-23T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for iTMSTransporter command line tool, relevant to App Distribution & Store Operations and CI/CD & Automation. Inspect its implementation, open issues, and release state before adopting the approach.
+- [rake](https://github.com/ruby/rake) — iOS Dev Weekly · Issue 581 — Source repository · Topics: Developer Tools
+  **Published:** `21st October 2022`
+  **NeKI brief:** Examines A make-like build utility for Ruby. Contribute to ruby/rake development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [1](https://github.com/SwiftPackageIndex/UpdateImages) — iOS Dev Weekly · Issue 581 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `21st October 2022`
+  **NeKI brief:** That’s changed recently, and it’s primarily down to one Swift package, swift-argument-parser. I built two small command line tools for some behind-the-scenes work on the Swift Package Index recently (1, 2) and used argument parser for both.
+- [2](https://github.com/SwiftPackageIndex/UpdateCommunitySponsors) — iOS Dev Weekly · Issue 581 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `21st October 2022`
+  **NeKI brief:** Examines That’s changed recently, and it’s primarily down to one Swift package, swift-argument-parser. I built two small command line tools for some behind-the-scenes work on the Swift Package Index recently (1, 2) and used argum Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Swift’s various methods of printing to the console](https://www.swiftjectivec.com/swift-debug-print-print-dump-mirror-reflection) — iOS Dev Weekly · Issue 578 — Article · Topics: Developer Tools · Swift
+  **Published:** `30th September 2022`
+  **NeKI brief:** LLDB is a great tool, but there’s nothing wrong with a bit of “print debugging” from time to time. Did you know that print has some friends in Swift? Jordan Morgan has a thorough walkthrough of five different methods of printing data from your app.
+- [Swift for Android](https://github.com/apple/swift/blob/main/docs/Android.md) — iOS Dev Weekly · Issue 577 — Source repository · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Swift
+  **Published:** `23rd September 2022`
+  **NeKI brief:** Examines Yes, you can write Swift for Android, but I think it’s fair to say that JetBrains is promoting Kotlin as a language you can use with Apple platforms more than Apple is promoting Swift for Android development. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Senior SwiftUI Developer @ Confidential Client](https://gist.github.com/looking4talent/60a1e5bbcbc7e0783e31111a29dadbe4) — iOS Dev Weekly · Issue 577 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `23rd September 2022`
   **NeKI brief:** Explores Senior SwiftUI Developer @ Confidential Client, focusing on senior swiftui developer @ confidential client – help us migrate. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [The Swift Programming Language book](https://github.com/apple/swift-book) — iOS Dev Weekly · Issue 574 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2nd September 2022`
+  **NeKI brief:** The page covers “The Swift Programming Language book” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [swift-nio-imap](https://github.com/apple/swift-nio-imap) — iOS Dev Weekly · Issue 574 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2nd September 2022`
+  **NeKI brief:** The page covers “swift-nio-imap” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [open-sourced website](https://github.com/apple/swift-org-website) — iOS Dev Weekly · Issue 574 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2nd September 2022`
+  **NeKI brief:** Explains open-sourced website, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [Difference](https://github.com/krzysztofzablocki/Difference?ref=ioscodereview.com) — iOS Code Review · Issue 30 — Source repository · Topics: Developer Tools · Testing
   **Published:** `2022-08-25T11:13:00.000Z`
   **NeKI brief:** Provides the source and change history for the Difference library, relevant to Developer Tools and Foundation & Data Formats. Inspect its implementation, open issues, and release state before adopting the approach.
 - [The Lighter Swift Codegen for SQLite3](https://www.alwaysrightinstitute.com//lighter) — iOS Dev Weekly · Issue 572 — Article · Topics: Developer Tools · Persistence & Synchronisation · Swift
   **Published:** `19th August 2022`
   **NeKI brief:** Explores The Lighter Swift Codegen for SQLite3, focusing on there’s a lot going on in this post from helge. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [PyOxidizer](https://github.com/indygreg/PyOxidizer) — iOS Dev Weekly · Issue 571 — Source repository · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `12th August 2022`
+  **NeKI brief:** It wasn’t a huge announcement from this year’s WWDC, but the Notary API was a big deal for some sections of this community. Here’s Gregory Szorc talking about Robin Lambertz’s pull request to PyOxidizer that allows code signing and notarization from Linux. 👍
+- [huge library of optional ones](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins) — iOS Dev Weekly · Issue 571 — Source repository · Topics: Developer Tools
+  **Published:** `12th August 2022`
+  **NeKI brief:** Examines 🙃 A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew,. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [swift-evolution/0365-implicit-self-weak-capture.md · apple/swift-evolution · GitHub](https://github.com/apple/swift-evolution/blob/main/proposals/0365-implicit-self-weak-capture.md?ref=ioscodereview.com) — iOS Code Review · Issue 29 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2022-08-11T10:30:02.000Z`
   **NeKI brief:** Provides the source and change history for swift-evolution/0365-implicit-self-weak-capture.md · apple/swift-evolution · GitHub, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [SE-0269](https://github.com/apple/swift-evolution/blob/main/proposals/0269-implicit-self-explicit-capture.md?ref=ioscodereview.com) — iOS Code Review · Issue 29 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2022-08-11T10:30:02.000Z`
   **NeKI brief:** Provides the source and change history for SE-0269, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Cliffhanger](https://www.youtube.com/watch?v=2j18n9shdw8) — iOS Dev Weekly · Issue 570 — Video · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `5th August 2022`
+  **NeKI brief:** I’m no rock climber, but if Cliffhanger taught me anything, I know that climbing is a lot like using git! 😂 Every commit is a piton hammered into the rock face, and no matter how tricky your next move is, the rope attached to that last metal spike will catch…
+- [swift_po](https://github.com/kastiglione/swift_po) — iOS Dev Weekly · Issue 570 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `5th August 2022`
+  **NeKI brief:** Oleksii Nezhyborets has a valuable tip in this quick post about a bug in LLDB that needs no summary, as all the pertinent information is in the blog post’s title! If you’d like a version of po that works around the LLDB bug, he also links to swift_po from…
+- [Security Application Static Analysis applied to iOS and Gitlab CI](https://benoitpasquier.com/2022/07/security-application-static-analysis-applied-to-ios-and-gitlab-ci) — iOS Dev Weekly · Issue 570 — Article · Topics: Developer Tools · Security & Privacy
+  **Published:** `5th August 2022`
+  **NeKI brief:** Explains Security Application Static Analysis applied to iOS and Gitlab CI, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [mobsfscan](https://github.com/MobSF/mobsfscan) — iOS Dev Weekly · Issue 570 — Source repository · Topics: Developer Tools · Security & Privacy
+  **Published:** `5th August 2022`
+  **NeKI brief:** Do you do any automated security checking on your apps? In this article, Benoit Pasquier digs into adding mobsfscan from the MobSF Mobile Security Framework to his CI process.
+- [MobSF Mobile Security Framework](https://github.com/MobSF/Mobile-Security-Framework-MobSF) — iOS Dev Weekly · Issue 570 — Source repository · Topics: Developer Tools · Security & Privacy
+  **Published:** `5th August 2022`
+  **NeKI brief:** Presents MobSF Mobile Security Framework, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [OctoSQL](https://github.com/cube2222/octosql) — iOS Dev Weekly · Issue 570 — Source repository · Topics: Developer Tools
+  **Published:** `5th August 2022`
+  **NeKI brief:** Examines OctoSQL is a query tool that allows you to join, analyse and transform data from multiple databases and file formats using SQL. - cube2222/octosql. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Grid Trainer app](https://gist.github.com/swiftui-lab/723eb1277d59d9ae092455ac8196b8ba) — iOS Dev Weekly · Issue 569 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `29th July 2022`
   **NeKI brief:** Provides a small interactive Grid trainer for experimenting with SwiftUI grid alignment. It is useful as executable reference material when a grid’s row, column, alignment, or span behaviour is easier to learn by changing code than by reading API documentation.
+- [just an oversight](https://github.com/baguio/SwiftSafeURL/issues/3) — iOS Dev Weekly · Issue 569 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `29th July 2022`
+  **NeKI brief:** Examines Hello again! I noticed there's no license file included with this repository (and its dependency, too). Is that an oversight?. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Open your terminal from Xcode](https://blog.eidinger.info/open-your-terminal-from-xcode) — iOS Dev Weekly · Issue 567 — Article · Topics: Developer Tools · Objective-C & Cocoa · Xcode
+  **Published:** `15th July 2022`
+  **NeKI brief:** Presents Open your terminal from Xcode, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Jercy’s Awesome Xcode Behaviors repository](https://github.com/JeaSungLEE/Awesome-Xcode-Behaviors) — iOS Dev Weekly · Issue 567 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Xcode
+  **Published:** `15th July 2022`
+  **NeKI brief:** I hadn’t ever used a Custom Behaviour before reading this post from Marco Eidinger that covers some useful behaviour scripts from Jercy’s Awesome Xcode Behaviors repository. I instantly wanted to use the “Open in Terminal” script, but it didn’t behave quite…
+- [Every programmer should care about UI design](https://silverhammermba.github.io/blog/2022/07/10/ui) — iOS Dev Weekly · Issue 567 — Article · Topics: Developer Tools
+  **Published:** `15th July 2022`
+  **NeKI brief:** I’m going to sneak this article by Maxwell Anselm into the bottom of the Code section so that those who skip the Design section get tricked into reading it! 😂 It’s way more common for people working on iOS/macOS projects to care about design than with some…
 - [Stream](https://getstream.io/chat/sdk/swiftui) — iOS Dev Weekly · Issue 566 — Article · Topics: Developer Community & Business · Developer Tools · Swift
   **Published:** `8th July 2022`
   **NeKI brief:** Presents stream for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Augmented Reality Digital Lounge from WWDC22](https://yono.ai/articles/wwdc22-arkit-realitykit-usdz-digital-lounge) — iOS Dev Weekly · Issue 566 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Spatial Computing
+  **Published:** `8th July 2022`
+  **NeKI brief:** Summarizes the WWDC22 ARKit, RealityKit, and USDZ digital-lounge material and points to the related demonstrations. Useful for orienting an augmented-reality exploration before consulting the current ARKit and RealityKit documentation.
+- [Machine Learning](https://yono.ai/articles/wwdc22-machine-learning-digital-lounge) — iOS Dev Weekly · Issue 566 — Article · Topics: AI Development · Apple Platform Ecosystem · Developer Tools
+  **Published:** `8th July 2022`
+  **NeKI brief:** Summarizes the WWDC22 machine-learning digital-lounge material and its demonstrations. Useful as a compact orientation to the session topics before consulting Apple’s current machine-learning frameworks and documentation.
+- [this extension](https://github.com/alexanderweiss/nova-prettier) — iOS Dev Weekly · Issue 565 — Source repository · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `1st July 2022`
+  **NeKI brief:** Examines Prettier extension for Nova. Contribute to alexanderweiss/nova-prettier development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [X-SwiftFormat](https://github.com/ruiaureliano/X-SwiftFormat) — iOS Dev Weekly · Issue 565 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `1st July 2022`
   **NeKI brief:** Examines X-SwiftFormat, focusing on will xcode ever support native integration with swift-format? if i had to guess, i’d say it will but that it’s unlikely…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Purgeable Mac Apps](https://bitsplitting.org/2022/06/18/purgeable-mac-apps) — iOS Dev Weekly · Issue 564 — Article · Topics: Developer Tools
+  **Published:** `24th June 2022`
+  **NeKI brief:** Examines For months now, I have been scratching my head over a small but persistent number of "crash reports" affecting a few of my apps. The issue is most prevalent in MarsEdit,. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [A Picture is Worth 1000 Words](https://github.com/girliemac/a-picture-is-worth-a-1000-words) — iOS Dev Weekly · Issue 564 — Source repository · Topics: AI Development · Cross-Platform & Web · Developer Tools
+  **Published:** `24th June 2022`
+  **NeKI brief:** Wow. This repository! I saw a link to Tomomi Imura’s outstanding collection of sketch notes explaining everything from algorithms and data structures through machine learning to some web development and JavaScript tips. They may not appear immediately…
+- [algorithms and data structures](https://github.com/girliemac/a-picture-is-worth-a-1000-words/blob/main/algorithms) — iOS Dev Weekly · Issue 564 — Source repository · Topics: AI Development · Cross-Platform & Web · Developer Tools
+  **Published:** `24th June 2022`
+  **NeKI brief:** Presents algorithms and data structures, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [machine learning](https://github.com/girliemac/a-picture-is-worth-a-1000-words/blob/main/ml) — iOS Dev Weekly · Issue 564 — Source repository · Topics: AI Development · Cross-Platform & Web · Developer Tools
+  **Published:** `24th June 2022`
+  **NeKI brief:** Presents machine learning, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [web development and JavaScript tips](https://github.com/girliemac/a-picture-is-worth-a-1000-words/blob/main/webdev) — iOS Dev Weekly · Issue 564 — Source repository · Topics: AI Development · Cross-Platform & Web · Developer Tools
+  **Published:** `24th June 2022`
+  **NeKI brief:** Presents web development and JavaScript tips, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [recap of WWDC](https://beckyhansmeyer.com/2022/06/13/reflections-on-wwdc-2022) — iOS Dev Weekly · Issue 563 — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `17th June 2022`
+  **NeKI brief:** Examines A blog about Apple and indie iOS development using Swift and SwiftUI. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [SwiftUI Digital Lounge archive](https://midnight-beanie-ccb.notion.site/swiftui-lounge-wwdc22-e20094b91f074398ba395c3fa245e63d) — iOS Dev Weekly · Issue 563 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `17th June 2022`
   **NeKI brief:** Explores SwiftUI Digital Lounge archive, focusing on the digital lounges were great again this year, but they. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [open-source](https://github.com/WWDCNotes/Content) — iOS Dev Weekly · Issue 562 — Source repository · Topics: App Intents & System Surfaces · Apple Platform Ecosystem · Developer Tools
+  **Published:** `10th June 2022`
+  **NeKI brief:** Examines WWDCNotes.com content. Contribute to WWDCNotes/Content development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [CocoaDocs](https://github.com/CocoaPods/cocoadocs.org) — iOS Dev Weekly · Issue 561 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `3rd June 2022`
+  **NeKI brief:** The GitHub repository contains CocoaDocs, a project for generating and hosting documentation for Cocoa and Swift packages.
+- [A gitattributes template for Xcode projects](https://samwize.com/2022/05/27/gitattributes-templatefor-xcode-projects) — iOS Dev Weekly · Issue 561 — Article · Topics: Developer Tools · Xcode
+  **Published:** `3rd June 2022`
+  **NeKI brief:** Examines A gitattributes template for Xcode projects, specifying how files are to be diff and merged for pbxproj file format. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [consistent maintenance](https://github.com/parse-community/parse-server/graphs/contributors) — iOS Dev Weekly · Issue 560 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `27th May 2022`
+  **NeKI brief:** The README looked impressive and seemed to be primarily created by one person, Corey E Baker. I was curious, so I reached out to him, and he explained that his interest came out of wanting to sync some CareKit data through to Parse. The Parse server has…
+- [just look at that graph](https://github.com/parse-community/Parse-Swift/graphs/contributors) — iOS Dev Weekly · Issue 560 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `27th May 2022`
+  **NeKI brief:** The page covers “just look at that graph” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Paid Contributors Program](https://github.com/parse-community/Governance/blob/main/paid-contributors.md) — iOS Dev Weekly · Issue 560 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `27th May 2022`
+  **NeKI brief:** Examines Details about the leadership & decision making process for the Parse Community - Governance/paid-contributors.md at main · parse-community/Governance. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [vscode-swift](https://github.com/swift-server/vscode-swift) — iOS Dev Weekly · Issue 559 — Source repository · Topics: Developer Tools · Swift
   **Published:** `20th May 2022`
   **NeKI brief:** Explores vscode-swift, focusing on if you had told me five years ago that in 2022, writing swift in a javascript-based text editor from microsoft called visual. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Debug logging forever!](https://www.sicpers.info/2022/05/you-say-cave-dweller-debugging-i-say-debug-logging) — iOS Dev Weekly · Issue 557 — Article · Topics: Developer Tools
   **Published:** `6th May 2022`
   **NeKI brief:** Explores Debug logging forever!, focusing on a love letter to print debugging by graham lee. maybe. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [couldn’t agree more](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/blob/eea9b4d5fbf85893d3a5de71cc0c6bd8cbbbc8d6/FrontEnd/styles/colors.scss) — iOS Dev Weekly · Issue 556 — Source repository · Topics: Cross-Platform & Web · Swift · Swift Package Manager
+  **Published:** `29th April 2022`
+  **NeKI brief:** The repository file shows the Swift Package Index server's frontend color stylesheet at a specific revision, providing concrete source-level styling reference.
+- [major release](https://github.com/mapbox/mapbox-navigation-native-ios/commit/b648000b9f5d10df5c4401cd4732c30f122af4b9) — iOS Dev Weekly · Issue 555 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `22nd April 2022`
+  **NeKI brief:** Examines Contribute to mapbox/mapbox-navigation-native-ios development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [many before him](https://github.com/Quick/Quick/graphs/contributors) — iOS Dev Weekly · Issue 555 — Source repository · Topics: Developer Tools
+  **Published:** `22nd April 2022`
+  **NeKI brief:** Examines Open-source funding is often in the news recently, and it’s a massive problem for our industry. In his post, Jesse talks about taking over the project to unblock his team, but it’s clear that he already sees where that r Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [make dynamic wallpapers](https://github.com/rlxone/Equinox) — iOS Dev Weekly · Issue 555 — Source repository · Topics: Developer Tools
+  **Published:** `22nd April 2022`
+  **NeKI brief:** make dynamic wallpapers. This link is retained as a technical reading lead for Apple-platform development.
 - [CodableFirebase](https://github.com/alickbass/CodableFirebase?ref=ioscodereview.com) — iOS Code Review · Issue 21 — Source repository · Topics: Developer Tools · Foundation & Data Formats
   **Published:** `2022-04-21T11:21:14.000Z`
   **NeKI brief:** Provides the source and change history for CodableFirebase, relevant to Developer Tools and Foundation & Data Formats. Inspect its implementation, open issues, and release state before adopting the approach.
+- [with !! and friends](https://www.man7.org/linux/man-pages/man3/history.3.html) — iOS Dev Weekly · Issue 553 — Article · Topics: Combine & Reactive Programming · Cross-Platform & Web · Developer Tools
+  **Published:** `8th April 2022`
+  **NeKI brief:** Here’s a great Terminal tip from Presh Onyee. Combine this with !! and friends and you’ve got yourself a great recipe for saving lots of keypresses. 🚀
 - [Xcodes.app](https://github.com/RobotsAndPencils/XcodesApp) — iOS Dev Weekly · Issue 552 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Xcode
   **Published:** `1st April 2022`
   **NeKI brief:** Explores Xcodes.app, focusing on the last time i mentioned xcodes, i was still using xcinfo. that changed recently with some fantastic improvements to xcodes.app. especially in. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [latest release](https://github.com/RobotsAndPencils/XcodesApp/releases/tag/v1.3.1b11) — iOS Dev Weekly · Issue 552 — Source repository · Topics: Developer Tools · Testing · Xcode
   **Published:** `1st April 2022`
   **NeKI brief:** Explores latest release, focusing on the last time i mentioned xcodes, i was still using xcinfo. that changed recently with some fantastic improvements to xcodes.app. especially in. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Swift bugs are moving to GitHub Issues and we need your help](https://forums.swift.org/t/swift-bugs-are-moving-to-github-issues-and-we-need-your-help/56125) — iOS Dev Weekly · Issue 551 — Article · Topics: Developer Tools · Swift
+  **Published:** `25th March 2022`
+  **NeKI brief:** While the Swift project lives on GitHub, it always felt odd to use a JIRA instance for bugs. That’s all changing, but the Swift team needs your help to ensure a smooth transition. If you’ve ever filed a bug on the JIRA instance, ensure it stays attributed…
 - [tirelessly maintained since 2015](https://github.com/realm/SwiftLint/graphs/contributors) — iOS Dev Weekly · Issue 551 — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `25th March 2022`
   **NeKI brief:** Explores tirelessly maintained since 2015, focusing on the article discusses don’t link to swiftlint enough in this. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [code generation run via a GitHub Action](https://github.com/MortenGregersen/Bagbutik/actions/workflows/check-for-new-spec.yml) — iOS Dev Weekly · Issue 551 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `25th March 2022`
+  **NeKI brief:** This new package from Morten Gregersen is worth a look for two reasons. First, it’s an API client library for the App Store Connect API, and that’s always useful. However, what makes it unique is that it’s powered by code generation run via a GitHub Action…
 - [SE-0335](https://github.com/apple/swift-evolution/blob/main/proposals/0335-existential-any.md) — iOS Dev Weekly · Issue 550 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `18th March 2022`
   **NeKI brief:** Contains SE-0335, the proposal that makes existential type usage explicit with any. Consult it when modernizing protocol-typed APIs or interpreting Swift diagnostics, because it explains the language rationale, migration source changes, and intended semantic clarity.
+- [PulsePro is now open-source](https://github.com/kean/PulsePro) — iOS Dev Weekly · Issue 550 — Source repository · Topics: Developer Tools
+  **Published:** `18th March 2022`
+  **NeKI brief:** The GitHub repository contains PulsePro and makes its source code and documentation publicly available for inspection.
 - [SPI benchmark tool](https://github.com/SwiftPackageIndex/spi-benchmark) — iOS Dev Weekly · Issue 549 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `11th March 2022`
   **NeKI brief:** Explores SPI benchmark tool, focusing on what began as an experiment to test how fast our. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Manipulating in-flight networking requests and responses](https://tanaschita.com/20220307-manipulating-network-requests-and-responses-with-charles) — iOS Dev Weekly · Issue 549 — Article · Topics: Developer Tools · Networking · Personal Essays
+  **Published:** `11th March 2022`
+  **NeKI brief:** Examines Learn how to use Charles breakpoints tool to change network data and test your iOS application. The breakpoints tool lets us intercept and manipulate requests and responses before. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [playground demonstrating the changes](https://github.com/twostraws/whats-new-in-swift-5-6) — iOS Dev Weekly · Issue 548 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `4th March 2022`
+  **NeKI brief:** Here’s Paul Hudson with his regular look at the changes coming in Swift 5.6. Some of the changes introduced in this release are optional now, but their use becomes mandatory with Swift 6, so it’s worth being aware of what’s coming. The best way to learn…
+- [swift-add](https://github.com/subdigital/swift-add) — iOS Dev Weekly · Issue 546 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `18th February 2022`
+  **NeKI brief:** While I’m on the subject, I believe that Ben Scheirman is also streaming the development of swift-add (amongst other things) on Twitch.
+- [Profiling binary size on iOS using Bloaty](https://asifmohd.github.io/ios/2022/02/03/bloaty-ios-introduction.html) — iOS Dev Weekly · Issue 545 — Article · Topics: Cross-Platform & Web · Developer Tools · Performance
+  **Published:** `11th February 2022`
+  **NeKI brief:** Examines I’ve been using this tool called Bloaty McBloatface1 to attribute the contribution of each swift module or file to our app’s binary. And it has worked out really well for me, the C. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Bloaty McBloatface](https://github.com/google/bloaty) — iOS Dev Weekly · Issue 545 — Source repository · Topics: Developer Tools
+  **Published:** `11th February 2022`
+  **NeKI brief:** Presents Bloaty McBloatface, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [this document on ICU System Time Zones](https://unicode-org.github.io/icu/userguide/datetime) — iOS Dev Weekly · Issue 545 — Article · Topics: Developer Tools · Foundation & Data Formats
+  **Published:** `11th February 2022`
+  **NeKI brief:** Presents this document on ICU System Time Zones, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Hosting your Swift Library Docs on Github Pages](https://rhonabwy.com/2022/01/28/hosting-your-swift-library-docs-on-github-pages) — iOS Dev Weekly · Issue 544 — Article · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `4th February 2022`
   **NeKI brief:** Explores Hosting your Swift Library Docs on Github Pages, focusing on there’s so much good stuff in this post from joseph. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [swift-docc-plugin](https://github.com/apple/swift-docc-plugin) — iOS Dev Weekly · Issue 544 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `4th February 2022`
   **NeKI brief:** Explores swift-docc-plugin, focusing on there’s so much good stuff in this post from joseph heck. he begins by talking about the upcoming plugin changes to the. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Automate your dependency updates](https://blog.eidinger.info/automate-the-way-you-keep-up-with-dependency-changes-in-your-swift-package) — iOS Dev Weekly · Issue 543 — Article · Topics: Dependency Injection · Developer Tools · Objective-C & Cocoa
+  **Published:** `28th January 2022`
+  **NeKI brief:** Explains Automate your dependency updates, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [external build tools](https://github.com/apple/swift-evolution/blob/main/proposals/0303-swiftpm-extensible-build-tools.md) — iOS Dev Weekly · Issue 543 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `28th January 2022`
   **NeKI brief:** Examines SE-0303 – Package Manager Extensible Build Tools, focusing on so, i was delighted to come across se-0303 – package manager extensible build tools, currently in review. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Typos in Xcode – Never Again!](https://fbernutz.github.io/posts/2022-01-23-spelling-grammar-in-xcode?ref=ioscodereview.com) — iOS Code Review · Issue 15 — Article · Topics: Developer Tools · Xcode
   **Published:** `2022-01-27T11:57:44.000Z`
   **NeKI brief:** Examines Typos in Xcode – Never Again! in the context of Developer Tools and Xcode. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [made it available as open-source](https://github.com/iKenndac/xcode-streamdeck-plugin) — iOS Dev Weekly · Issue 541 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `14th January 2022`
+  **NeKI brief:** Presents made it available as open-source, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Swift command-line tools and GitHub workflows](https://blog.eidinger.info/use-a-swift-command-line-tool-in-a-github-workflow) — iOS Dev Weekly · Issue 541 — Article · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `14th January 2022`
+  **NeKI brief:** Examines Learn how to execute a Swift command-line tool in your CI/CD workflow for iOS and Swift development and how to cache its CLI to improve workflow speed. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [GitHub - russell-archer/StoreHelper](https://github.com/russell-archer/StoreHelper?ref=ioscodereview.com) — iOS Code Review · Issue 14 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
   **Published:** `2022-01-13T12:22:06.000Z`
   **NeKI brief:** Provides the source and change history for GitHub - russell-archer/StoreHelper, relevant to Developer Tools and Objective-C & Cocoa. Inspect its implementation, open issues, and release state before adopting the approach.
 - [GitHub - russell-archer/IAPDemo](https://github.com/russell-archer/IAPDemo?ref=ioscodereview.com) — iOS Code Review · Issue 14 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
   **Published:** `2022-01-13T12:22:06.000Z`
   **NeKI brief:** Provides the source and change history for GitHub - russell-archer/IAPDemo, relevant to Developer Tools and Objective-C & Cocoa. Inspect its implementation, open issues, and release state before adopting the approach.
+- [Monitoring HTTP Traffic with Instruments](https://www.raywenderlich.com/27390649-monitoring-http-traffic-with-instruments) — iOS Dev Weekly · Issue 537 — Article · Topics: Developer Tools · Performance · Security & Privacy
+  **Published:** `10th December 2021`
+  **NeKI brief:** The tutorial explains how to monitor an iOS application's HTTP traffic with Instruments and use the resulting data during network debugging.
 - [Github repo](https://github.com/nemecek-filip/CompositionalDiffablePlayground.ios?ref=ioscodereview.com) — iOS Code Review · Issue 13 — Source repository · Topics: Developer Tools
   **Published:** `2021-12-09T12:01:55.000Z`
   **NeKI brief:** Examines Compositional Diffable Collection View Playground, focusing on i’ve enjoyed filip němeček’s posts on collection views recently, but there have been so many that it’s been hard to know…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
 - [GitHub - pointfreeco/swift-identified-collections](https://github.com/pointfreeco/swift-identified-collections?ref=ioscodereview.com) — iOS Code Review · Issue 13 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2021-12-09T12:01:55.000Z`
   **NeKI brief:** Provides the source and change history for GitHub - pointfreeco/swift-identified-collections, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
+- [open-source](https://github.com/vedantapps/MultiScreenApp) — iOS Dev Weekly · Issue 536 — Source repository · Topics: Developer Tools
+  **Published:** `3rd December 2021`
+  **NeKI brief:** The page covers “open-source” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [#1228](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/issues/1228) — iOS Dev Weekly · Issue 535 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `26th November 2021`
+  **NeKI brief:** That experience permanently aligned me with Russ’s thinking, and I now err on the side of caution when releasing features. For example, there are two enhancements to search in the Swift Package Index (#1228 and #1320 specifically) in progress right now…
+- [#1320](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/issues/1320) — iOS Dev Weekly · Issue 535 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `26th November 2021`
+  **NeKI brief:** Examines We’re so close to this feature! @finestructure and I chatted through the last couple of bits this morning and here’s a list: Search should return multiple matches for authors from. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [GitHub - pointfreeco/swiftui-navigation: Tools for making SwiftUI navigation simpler, more ergonomic and more precise.](https://github.com/pointfreeco/swiftui-navigation?ref=ioscodereview.com) — iOS Code Review · Issue 12 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2021-11-25T12:50:15.000Z`
   **NeKI brief:** Provides the source and change history for GitHub - pointfreeco/swiftui-navigation: Tools for making SwiftUI navigation simpler, more ergonomic and more…, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
+- [guide to completing them](https://github.com/vanvoorden/TDD-Albums-II/wiki) — iOS Dev Weekly · Issue 534 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `19th November 2021`
+  **NeKI brief:** I love this set of exercises teaching TDD from Rick van Voorden. There’s a guide to completing them. If you’ve never attempted TDD, or if you’re new to unit testing, this is going to be a great place to start!
 - [SimulatorStatusMagic](https://github.com/shinydevelopment/SimulatorStatusMagic) — iOS Dev Weekly · Issue 533 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `12th November 2021`
   **NeKI brief:** Provides the Simulator Status Magic source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [open issues](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/issues) — iOS Dev Weekly · Issue 533 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `12th November 2021`
+  **NeKI brief:** Examines The Swift Package Index is the place to find and explore Swift packages - Issues · SwiftPackageIndex/SwiftPackageIndex-Server. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [new README](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/blob/main/README.md) — iOS Dev Weekly · Issue 533 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `12th November 2021`
   **NeKI brief:** The project README gives the high-level orientation for the Swift Package Index server codebase and its contribution surface. Use it before inspecting implementation details to understand the repository’s purpose, major components, and expected local development entry points.
 - [guide to setting up for local development](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/blob/main/LOCAL_DEVELOPMENT_SETUP.md) — iOS Dev Weekly · Issue 533 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `12th November 2021`
   **NeKI brief:** Documents the local-development setup for the Swift Package Index server, making its environment and workflow inspectable without inference. Useful as a concrete example of onboarding documentation for a nontrivial Swift service with repository-specific tooling and dependencies.
+- [set of discussion forums](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions) — iOS Dev Weekly · Issue 533 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `12th November 2021`
+  **NeKI brief:** So, this week, I did some re-organisation on the Swift Package Index project to get us into a better place to welcome all contributions from the smallest idea or bug report to complete pull requests. There’s a new README, an updated guide to setting up for…
 - [How to use GitHub Copilot with Swift](https://antran.app/2021/github_copilot_swift) — iOS Dev Weekly · Issue 532 — Article · Topics: AI Development · Developer Tools · Swift
   **Published:** `5th November 2021`
   **NeKI brief:** Explores How to use GitHub Copilot with Swift, focusing on i’ve not thought much about github copilot since i wrote. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [new extension API](http://github.com/raycast/extensions) — iOS Dev Weekly · Issue 531 — Source repository · Topics: Developer Community & Business · Developer Tools · Xcode
+  **Published:** `29th October 2021`
+  **NeKI brief:** Imagine being able to search and open recent Xcode projects, manage installed iOS simulators, and access developer documentation from one place. Sven Tiigi’s Raycast Xcode extension uses our new extension API to make all that possible. Of course, Raycast…
 - [Debugging on iOS 15 with Xcode 12](https://hybridcattt.com/blog/debugging-on-latest-ios-with-older-xcode) — iOS Dev Weekly · Issue 530 — Article · Topics: Developer Tools · Testing · Xcode
   **Published:** `22nd October 2021`
   **NeKI brief:** Explores Debugging on iOS 15 with Xcode 12, focusing on this time of year is always awkward with versions of. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [contributions guide](https://github.com/apple/swift-docc/blob/main/CONTRIBUTING.md) — iOS Dev Weekly · Issue 529 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `15th October 2021`
+  **NeKI brief:** Examines Documentation compiler that produces rich API reference documentation and interactive tutorials for your Swift framework or package. - swift-docc/CONTRIBUTING.md at main · swiftlan. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [GitHub - theoriginalbit/PreviewView: Make use of SwiftUI Previews for UIKit!](https://github.com/theoriginalbit/PreviewView?ref=ioscodereview.com) — iOS Code Review · Issue 9 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2021-10-14T13:09:40.000Z`
   **NeKI brief:** Provides the source and change history for GitHub - theoriginalbit/PreviewView: Make use of SwiftUI Previews for UIKit!, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -2262,30 +3840,81 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [change suggestions in PR comments](https://docs.github.com/en/github/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request?ref=ioscodereview.com) — iOS Code Review · Issue 1 — Source repository · Topics: Developer Tools
   **Published:** `2021-06-30T12:23:30.000Z`
   **NeKI brief:** Provides the source and change history for change suggestions in PR comments, relevant to Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
+- [collection of standalone tools](https://en.wikipedia.org/wiki/Interface_Builder) — iOS Dev Weekly · Issue 512 — Article · Topics: Developer Tools
+  **Published:** `18th June 2021`
+  **NeKI brief:** The reference page describes Interface Builder, its history, and its role as Apple's visual tool for constructing application interfaces.
 - [source code control tool of choice](https://www.git-tower.com/mac) — iOS Dev Weekly · Issue 512 — Article · Topics: Developer Tools · Xcode
   **Published:** `18th June 2021`
   **NeKI brief:** Explores source code control tool of choice, focusing on if apple had made this a standalone tool that worked. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [newly released macOS app](https://github.com/dennisbirch/simple-analytics-reader) — iOS Dev Weekly · Issue 510 — Source repository · Topics: Developer Tools
+  **Published:** `4th June 2021`
+  **NeKI brief:** Examines A macOS application for accessing the output of the SimpleAnalytics package on the desktop. - dennisbirch/simple-analytics-reader. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [soon include Swift](https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md) — iOS Dev Weekly · Issue 509 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `28th May 2021`
+  **NeKI brief:** The Swift Evolution proposal documents the design of async/await in Swift and the language changes needed to support structured asynchronous code.
+- [open-source](https://github.com/packagesdev/unexpectedly) — iOS Dev Weekly · Issue 509 — Source repository · Topics: Developer Tools
+  **Published:** `28th May 2021`
+  **NeKI brief:** The page covers “open-source” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [his gist](https://gist.github.com/vibrazy/16e0408b5be7be4df508e92e0cf9448b) — iOS Dev Weekly · Issue 508 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `21st May 2021`
   **NeKI brief:** Provides a small SwiftUI helper for avoiding repetitive hard-coded view-modifier values under conditional configuration. It is useful as a compact code sketch when state-dependent styling is becoming noisy and a local abstraction may improve readability.
 - [language support for Actors](https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md) — iOS Dev Weekly · Issue 507 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `14th May 2021`
   **NeKI brief:** Explores language support for Actors, focusing on one of the new features coming in swift 5.5 is. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Spending an Hour Removing an Rounded Corners from an Image View](https://swiftsenpai.com/development/i-spend-1-hour-remove-rounded-corners) — iOS Dev Weekly · Issue 507 — Article · Topics: Developer Tools · Swift
+  **Published:** `14th May 2021`
+  **NeKI brief:** I enjoyed this story from Lee Kah Seng on debugging a “simple” problem in an app he was working on. A great reminder that Interface Builder, while very powerful, can hide things from you.
 - [working on it](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/issues/1038) — iOS Dev Weekly · Issue 504 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `23rd April 2021`
   **NeKI brief:** Explores working on it, focusing on note: you’ll notice a full complement of failing builds on. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [open-source](https://github.com/Xcode-Tips/xcode-tips.github.io) — iOS Dev Weekly · Issue 500 — Source repository · Topics: Developer Tools · Hardware & Devices · Xcode
+  **Published:** `26th March 2021`
+  **NeKI brief:** Examines Community-run website for documenting Xcode Tips. Contribute to Xcode-Tips/xcode-tips.github.io development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Inspecting SwiftUI views](https://fivestars.blog/swiftui/inspecting-views.html) — iOS Dev Weekly · Issue 500 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `26th March 2021`
   **NeKI brief:** Examines Inspecting SwiftUI views, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [XcodeSpy targets Xcode developers](https://labs.sentinelone.com/new-macos-malware-xcodespy-targets-xcode-developers-with-eggshell-backdoor) — iOS Dev Weekly · Issue 499 — Article · Topics: Developer Tools · macOS & AppKit · Xcode
+  **Published:** `19th March 2021`
+  **NeKI brief:** The page covers “XcodeSpy targets Xcode developers” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Digging deeper into xcbuild: Rules and Tasks](https://asifmohd.github.io/ios/2021/03/11/xcbuild-debug-info.html) — iOS Dev Weekly · Issue 499 — Article · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `19th March 2021`
+  **NeKI brief:** Examines While debugging incremental builds for my work project. I came across this github gist by Daniel Dunbar who worked on the llbuild build engine for Swift and Xcode. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [this gist](https://gist.github.com/ddunbar/2dda0e836c855ea96759d1d05f086d69) — iOS Dev Weekly · Issue 499 — Source repository · Topics: Developer Tools
+  **Published:** `19th March 2021`
+  **NeKI brief:** Presents this gist, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [open-source too](https://github.com/inket/MacSymbolicator) — iOS Dev Weekly · Issue 498 — Source repository · Topics: Developer Tools
+  **Published:** `12th March 2021`
+  **NeKI brief:** Presents open-source too, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [discussion forums](https://github.com/MobileNativeFoundation/discussions/discussions) — iOS Dev Weekly · Issue 497 — Source repository · Topics: Developer Tools · Foundation & Data Formats
+  **Published:** `5th March 2021`
+  **NeKI brief:** There are plenty of individuals and small teams writing about their iOS development experiences, but it’s a little rarer for people to discuss the issues and challenges facing larger teams publicly. The project’s primary focus for today seems to be the…
+- [Kaleidoscope and the Xcode Debugger](https://blog.kaleidoscope.app/2021/02/22/xcode-debugger-integration) — iOS Dev Weekly · Issue 497 — Article · Topics: Developer Tools · Xcode
+  **Published:** `5th March 2021`
+  **NeKI brief:** Examines It was October 2018 when Christopher had the idea to integrate Kaleidoscope with lldb, the Xcode Debugger. Back then, he tweeted a gist that showed how to get this to work for his. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [source code](https://github.com/FranckNdame/swiftui.builds/tree/master/clubhouse) — iOS Dev Weekly · Issue 497 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `5th March 2021`
+  **NeKI brief:** Examines building cool stuff with swiftui. Contribute to FranckNdame/swiftui.builds development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [sample code](https://github.com/nemecek-filip/CompositionalDiffablePlayground.ios) — iOS Dev Weekly · Issue 496 — Source repository · Topics: Developer Tools
   **Published:** `26th February 2021`
   **NeKI brief:** Examines Compositional Diffable Collection View Playground, focusing on i’ve enjoyed filip němeček’s posts on collection views recently, but there have been so many that it’s been hard to know…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [Swift (was) for TensorFlow](https://github.com/tensorflow/swift) — iOS Dev Weekly · Issue 495 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `19th February 2021`
+  **NeKI brief:** The GitHub repository contains the historical Swift for TensorFlow project and its publicly readable source and documentation.
+- [Dive into CFRunLoop](https://suelan.github.io/2021/02/13/20210213-dive-into-runloop-ios) — iOS Dev Weekly · Issue 495 — Article · Topics: Developer Tools
+  **Published:** `19th February 2021`
+  **NeKI brief:** This post from RY Zheng is a fascinating look behind the scenes of the run loop. If you’ve always wondered, “Oh, I’ve heard of a run loop” but never dug any deeper, this will give you what you need. However, even if you’re a world expert on the subject…
 - [Injection4Xcode](https://github.com/johnno1962/InjectionIII) — iOS Dev Weekly · Issue 494 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `12th February 2021`
   **NeKI brief:** Examines Injection4Xcode, focusing on sometimes you read a technical book to learn a practical skill that you’ll directly use in the apps you work on, and…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Pulse](https://kean.blog/post/pulse) — iOS Dev Weekly · Issue 493 — Article · Topics: Developer Tools
+  **Published:** `5th February 2021`
+  **NeKI brief:** This new tool and library from Alex Grebenyuk looks great. It’s a network monitor, but in a similar way to Proxyman with Atlantis, there’s no need to worry about proxies. View the logs either on-device in your app, or via a macOS app. 👍
 - [and playground](https://github.com/twostraws/whats-new-in-swift-5-4) — iOS Dev Weekly · Issue 493 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `5th February 2021`
   **NeKI brief:** Examines and playground, focusing on the xcode 12.5 beta comes along with a beta of swift 5.4 too! it’s not quite async/await time yet, but that doesn’t mean…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
+- [Open-Source iOS & macOS Chat SDK](https://github.com/getstream/stream-chat-swift) — iOS Dev Weekly · Issue 492 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
+  **Published:** `29th January 2021`
+  **NeKI brief:** Explains Open-Source iOS & macOS Chat SDK, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [Who said we can’t unit test SwiftUI views?](https://nalexn.github.io/swiftui-unit-testing) — iOS Dev Weekly · Issue 492 — Article · Topics: Swift · SwiftUI · Testing
   **Published:** `29th January 2021`
   **NeKI brief:** Examines Who said we can't unit test SwiftUI views?, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
@@ -2295,6 +3924,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Profiling SwiftUI app using Instruments](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3N3aWZ0d2l0aG1hamlkLmNvbS8yMDIxLzAxLzIwL3Byb2ZpbGluZy1zd2lmdHVpLWFwcC11c2luZy1pbnN0cnVtZW50cy8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiJmNDMyNzc3Ny02M2Q2LTQ1MDQtOWVkMC1lYTgwYzM4ZmVlZDUiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiMjVjODkyZTUtYTM5OC00YWVmLWFkMWEtMzYzZTkzNWE1OGJhIiwiaWF0IjoxNjc0MDYyNjc5LjQ1OSwiaXNzIjoib3JjaGlkIn0.yFE0lXxlheNBniRXd2cVmx609ueoWFP89URqNlmr9lo) — SwiftUI Weekly · SwiftUI Weekly - Issue #43 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2021-01-26T13:13:48.000Z`
   **NeKI brief:** Uses Instruments to profile SwiftUI performance. Use it when a view-update or rendering problem needs measured call stacks and allocation evidence instead of intuition about declarative UI cost.
+- [Traits of a good accessible iOS app](https://dadederk.github.io/post/2021-01-21-01) — iOS Dev Weekly · Issue 491 — Article · Topics: Developer Tools
+  **Published:** `22nd January 2021`
+  **NeKI brief:** Examines You may know that you can configure a UI component with an accessibility label. The accessibility label is the name of the component. You can also configure an…. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [XcodeUpdates](https://github.com/art-divin/XcodeUpdates) — iOS Dev Weekly · Issue 489 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `8th January 2021`
+  **NeKI brief:** Are you tired of having to navigate through to the “More Downloads” section of the Apple developer site every time there’s a new release of Xcode? Yes, you could be using xcode-install, but if you were looking for something a bit richer, this new tool from…
+- [xcode-install](https://github.com/xcpretty/xcode-install) — iOS Dev Weekly · Issue 489 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `8th January 2021`
+  **NeKI brief:** Are you tired of having to navigate through to the “More Downloads” section of the Apple developer site every time there’s a new release of Xcode? Yes, you could be using xcode-install, but if you were looking for something a bit richer, this new tool from…
+- [pre-compiled version available](https://github.com/art-divin/XcodeUpdates/releases/tag/1.0.1-3) — iOS Dev Weekly · Issue 489 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `8th January 2021`
+  **NeKI brief:** Are you tired of having to navigate through to the “More Downloads” section of the Apple developer site every time there’s a new release of Xcode? Yes, you could be using xcode-install, but if you were looking for something a bit richer, this new tool from…
 - [AutomaticSettings](https://github.com/krzysztofzablocki/AutomaticSettings) — iOS Dev Weekly · Issue 489 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Graphics, Media & Games
   **Published:** `8th January 2021`
   **NeKI brief:** Examines AutomaticSettings, focusing on this new library from krzysztof zabłocki is interesting. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2313,6 +3954,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How to configure Xcode projects for different environments?](https://kocyigityunus.medium.com/how-to-configure-xcode-projects-for-different-environments-30b23ed44ee6) — iOS Dev Weekly · Issue 486 — Article · Topics: Developer Tools · Xcode
   **Published:** `11th December 2020`
   **NeKI brief:** Covers How to configure Xcode projects for different environments?, focusing on Swift tooling and build integration. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
+- [lowmad](https://github.com/bangerang/lowmad) — iOS Dev Weekly · Issue 486 — Source repository · Topics: Developer Tools
+  **Published:** `11th December 2020`
+  **NeKI brief:** Examines A command line tool for managing scripts and configurations in LLDB. - bangerang/lowmad. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Formatting](https://github.com/kean/Formatting) — iOS Dev Weekly · Issue 486 — Source repository · Topics: Developer Tools
+  **Published:** `11th December 2020`
+  **NeKI brief:** Examines Contribute to kean/Formatting development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Tribute](https://github.com/nicklockwood/Tribute) — iOS Dev Weekly · Issue 485 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
+  **Published:** `4th December 2020`
+  **NeKI brief:** Is this new tool from Nick Lockwood the greatest utility in the world, or is it just a … 😂 I was a big fan of how CocoaPods made it easy to keep your open-source attributions in order, but this tool isn’t tied to a specific dependency manager.
+- [pushed a fix](https://github.com/nicklockwood/Tribute/commit/e0e7cd076a8bfe000d7d2066f1c7ec2253787387) — iOS Dev Weekly · Issue 485 — Source repository · Topics: Developer Tools
+  **Published:** `4th December 2020`
+  **NeKI brief:** The GitHub commit page records a specific fix pushed to the Tribute project and exposes its code diff and review context.
+- [no idea](https://github.com/fastlane/fastlane/graphs/contributors) — iOS Dev Weekly · Issue 484 — Source repository · Topics: App Distribution & Store Operations · App Intents & System Surfaces · CI/CD & Automation
+  **Published:** `27th November 2020`
+  **NeKI brief:** Presents no idea, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [James Dempsey’s Build Settings Extractor](https://github.com/dempseyatgithub/BuildSettingExtractor) — iOS Dev Weekly · Issue 483 — Source repository · Topics: Concurrency · Developer Tools
   **Published:** `20th November 2020`
   **NeKI brief:** Examines James Dempsey’s Build Settings Extractor, focusing on i’ll push people to learn about xcconfig files at every opportunity, so i’m grateful for junda ong provided me with a…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
@@ -2322,24 +3978,66 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Ryo Aoyama’s extension to Playbook](https://github.com/playbook-ui/accessibility-snapshot-ios) — iOS Dev Weekly · Issue 483 — Source repository · Topics: Accessibility · Developer Tools · Testing
   **Published:** `20th November 2020`
   **NeKI brief:** Examines Ryo Aoyama’s extension to Playbook, focusing on this project from nick entin isn’t new, but i came across it recently via ryo aoyama’s extension to playbook, and it’s great. Use it as a focused research reference for related Apple-platform work, and verify version-specific details.
+- [What’s new in Periphery 2.0](https://github.com/peripheryapp/periphery/wiki/What%27s-new-in-Periphery-2.0) — iOS Dev Weekly · Issue 482 — Source repository · Topics: Developer Tools
+  **Published:** `13th November 2020`
+  **NeKI brief:** Examines A tool to identify unused code in Swift projects. Contribute to peripheryapp/periphery development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Debugging JSON Data in LLDB](https://soffes.blog/debugging-json-data-in-lldb) — iOS Dev Weekly · Issue 482 — Article · Topics: Developer Tools
+  **Published:** `13th November 2020`
+  **NeKI brief:** I liked this LLDB extension from Sam Soffes, and I think you’ll like it too if you ever work with JSON data in your apps.
 - [about Combine](https://heckj.github.io/swiftui-notes) — iOS Dev Weekly · Issue 482 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `13th November 2020`
   **NeKI brief:** Examines about Combine, offering practical guidance on networking and asynchronous reliability. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
 - [manifesto](https://gist.github.com/lattner/31ed37682ef1576b16bca1432ea9f782) — iOS Dev Weekly · Issue 481 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `6th November 2020`
   **NeKI brief:** Examines Chris proposed, focusing on like bill atkins, i too am keen to see swift get support for async/await style concurrency. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Atlantis](https://github.com/ProxymanApp/atlantis) — iOS Dev Weekly · Issue 481 — Source repository · Topics: Developer Tools · Security & Privacy
+  **Published:** `6th November 2020`
+  **NeKI brief:** I first wrote about Proxyman in Issue 448. It’s a network debugging tool in the same vein as Charles, and it’s lovely. There’s always an annoying step with these network debugging tools though. Setting up the proxy and trusting the certificate is a pain…
 - [GoSwifty](https://github.com/rsrbk/GoSwifty) — iOS Dev Weekly · Issue 479 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `23rd October 2020`
   **NeKI brief:** Examines GoSwifty, focusing on are you working on an app that’s transitioning from objective-c to swift? do you know what percentage of your code is in…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Swift Service Discovery](https://github.com/apple/swift-service-discovery) — iOS Dev Weekly · Issue 479 — Source repository · Topics: Developer Tools · Swift
   **Published:** `23rd October 2020`
   **NeKI brief:** Examines Swift Service Discovery, focusing on have you noticed that apple releasing a new swift open-source library is an almost weekly occurrence these days? 🎉 this…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Building GitHub Mobile](https://www.youtube.com/watch?v=nBsa5N1LZPk) — iOS Dev Weekly · Issue 479 — Video · Topics: Developer Community & Business · Developer Tools · Graphics, Media & Games
+  **Published:** `23rd October 2020`
+  **NeKI brief:** Examines Ryan Nystrom is a Director of Engineering at GitHub where he's supporting several teams building mobile and desktop apps. In this episode we discussed a broa. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [new YouTube channel](https://www.youtube.com/channel/UCN0yF6AaJmqiPYXDz0CDfxA) — iOS Dev Weekly · Issue 479 — Video · Topics: Developer Community & Business · Developer Tools · Graphics, Media & Games
+  **Published:** `23rd October 2020`
+  **NeKI brief:** This new YouTube channel from Sash Zats is great. It’s interviews with app builders, telling their stories. I enjoyed this episode with Ryan Nystrom talking about GitHub Mobile, and of course, GitHawk!
+- [GitHawk](https://github.com/GitHawkApp/GitHawk) — iOS Dev Weekly · Issue 479 — Source repository · Topics: Developer Community & Business · Developer Tools · Graphics, Media & Games
+  **Published:** `23rd October 2020`
+  **NeKI brief:** Examines The (second) best iOS app for GitHub. Contribute to GitHawkApp/GitHawk development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [new library](https://github.com/apple/swift-atomics) — iOS Dev Weekly · Issue 476 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2nd October 2020`
   **NeKI brief:** Examines new library, focusing on as karoy lorentey explains, this new library won’t solve all of your problems when writing asynchronous code. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [The future of the Swift Weekly Brief](https://basthomas.github.io/goodbye-swift-weekly) — iOS Dev Weekly · Issue 475 — Article · Topics: Developer Tools · Swift
+  **Published:** `25th September 2020`
+  **NeKI brief:** Examines ⚠️ Update, September 28, 2020 Kristaps Grinbergs will be taking over the newsletter with help from the community. The mailing list might go on a hiatus; we’re looking into ways of. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Never miss a terminal bell again](https://www.youtube.com/watch?v=uG8VpN6Z_YA) — iOS Dev Weekly · Issue 475 — Video · Topics: Developer Career & Practice · Developer Tools
+  **Published:** `25th September 2020`
+  **NeKI brief:** Examines With the Analog Terminal Bell, you'll never miss another terminal bell notification again! Go to analogterminalbell.com for more information. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [submitted as an iTerm pull request](https://github.com/gnachman/iTerm2/pull/428) — iOS Dev Weekly · Issue 475 — Source repository · Topics: Developer Tools
+  **Published:** `25th September 2020`
+  **NeKI brief:** Also, I love that this was submitted as an iTerm pull request, even if it was in jest.
 - [implementation of it](https://github.com/crafterm/swiftui-app-switcher) — iOS Dev Weekly · Issue 474 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `18th September 2020`
   **NeKI brief:** Examines implementation of it, focusing on the ios app switcher is a complex ui control but is all driven from a single drag gesture. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Linting licenses](https://felginep.github.io/2020-09-09/linting-licenses) — iOS Dev Weekly · Issue 473 — Article · Topics: Dependency Injection · Developer Tools · Objective-C & Cocoa
+  **Published:** `11th September 2020`
+  **NeKI brief:** Presents Linting licenses, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [ad_licenselint](https://github.com/faberNovel/ad_licenselint) — iOS Dev Weekly · Issue 473 — Source repository · Topics: Dependency Injection · Developer Tools · Objective-C & Cocoa
+  **Published:** `11th September 2020`
+  **NeKI brief:** Examines Lint the licenses for iOS projects. Contribute to faberNovel/ad_licenselint development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Porting @AppStorage to iOS 13](https://xavierlowmiller.github.io/blog/2020/09/04/iOS-13-AppStorage) — iOS Dev Weekly · Issue 473 — Article · Topics: Developer Tools
+  **Published:** `11th September 2020`
+  **NeKI brief:** Examines A couple of weeks ago, a few friends and I were out having beers. We told the barman to make sure our glasses are filled, and we’d figure the tap out later. After a while, somebody. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [UnofficialSandwiches](https://github.com/dempseyatgithub/UnofficialSandwiches) — iOS Dev Weekly · Issue 471 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `28th August 2020`
+  **NeKI brief:** The page covers “UnofficialSandwiches” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [BitBar](https://github.com/matryer/bitbar) — iOS Dev Weekly · Issue 470 — Source repository · Topics: Developer Tools · macOS & AppKit · Xcode
+  **Published:** `21st August 2020`
+  **NeKI brief:** Here’s an interesting little timewaster from Igor Kulman that adds up all the time that Xcode spends building during your day and displays it in your menu bar. The irony of this post is that if you do this, you’ll spend more time thinking about your build…
 - [Parma](https://github.com/dasautoooo/Parma) — iOS Dev Weekly · Issue 470 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
   **Published:** `21st August 2020`
   **NeKI brief:** Examines Parma, focusing on markdown rendering engine, using swiftui views? that sounds interesting! that’s what leonard chan has created here. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2355,24 +4053,57 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [macOS.swift](https://gist.github.com/jordansinger/72a05653dde9d182b4a5e24f9d19a106) — iOS Dev Weekly · Issue 466 — Source repository · Topics: Developer Tools · Performance · Swift
   **Published:** `24th July 2020`
   **NeKI brief:** Examines macOS.swift, focusing on i’ve been thoroughly enjoying jordan singer’s tweets recently, especially his experimentations with swiftui which he has…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Streamoji](https://github.com/getstream/streamoji) — iOS Dev Weekly · Issue 466 — Source repository · Topics: Developer Tools
+  **Published:** `24th July 2020`
+  **NeKI brief:** Examines :godmode: Custom emoji rendering library for iOS apps with support for GIF & still images - plug-in extension for UITextView - performance, cache ✅ - Made with 💘 by @GetStream. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [sample project](https://github.com/swiftui-lab/swiftui-hero-animations) — iOS Dev Weekly · Issue 465 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `17th July 2020`
   **NeKI brief:** Examines sample project, focusing on magic move in keynote is a fantastic feature, and with this year’s releases you now get magic move in your swiftui apps!…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [especially](https://github.com/facebook/facebook-ios-sdk/issues/1431) — iOS Dev Weekly · Issue 464 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `10th July 2020`
+  **NeKI brief:** Explains especially, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [great](https://github.com/facebook/facebook-ios-sdk/issues/1430) — iOS Dev Weekly · Issue 464 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `10th July 2020`
+  **NeKI brief:** Every day is a great day to remove (or advocate for the removal of) the Facebook SDK from your apps, but today is an especially… great… day… 🙄 How many times will Facebook get away with causing half the apps in the App Store to crash on startup? I linked to…
+- [day](https://github.com/facebook/facebook-ios-sdk/issues/1427) — iOS Dev Weekly · Issue 464 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `10th July 2020`
+  **NeKI brief:** The Facebook iOS SDK issue page records a public developer issue and its discussion about SDK behavior and integration.
+- [Meter](https://github.com/ChimeHQ/Meter) — iOS Dev Weekly · Issue 464 — Source repository · Topics: Developer Tools
+  **Published:** `10th July 2020`
+  **NeKI brief:** The GitHub repository contains Meter, an open-source developer project whose source and documentation are publicly inspectable.
 - [Difference](https://github.com/krzysztofzablocki/Difference) — iOS Dev Weekly · Issue 463 — Source repository · Topics: Developer Tools
   **Published:** `3rd July 2020`
   **NeKI brief:** Provides the source and change history for the Difference library, relevant to Developer Tools and Foundation & Data Formats. Inspect its implementation, open issues, and release state before adopting the approach.
 - [StoreKit Testing in Xcode](https://www.revenuecat.com/blog/storekit-testing-in-xcode) — iOS Dev Weekly · Issue 463 — Article · Topics: App Distribution & Store Operations · Testing · Xcode
   **Published:** `3rd July 2020`
   **NeKI brief:** Examines StoreKit Testing in Xcode, focusing on the building, debugging, and testing of storekit code is always stressful. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [browsing through your submissions](https://wwdc.github.io/2020) — iOS Dev Weekly · Issue 461 — Article · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `19th June 2020`
+  **NeKI brief:** The page is a public WWDC 2020 submissions index that lets readers browse developer projects and related submission information.
 - [HorizonCalendar](https://github.com/airbnb/HorizonCalendar) — iOS Dev Weekly · Issue 461 — Source repository · Topics: Developer Tools
   **Published:** `19th June 2020`
   **NeKI brief:** Examines HorizonCalendar, focusing on the author’s discussion of don’t link to a lot of ui libraries here as it so often ends up being easier to write your own ui code. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
+- [Making wrong code look wrong](https://silverhammermba.github.io/blog/2020/06/17/wrong-code) — iOS Dev Weekly · Issue 461 — Article · Topics: Developer Tools
+  **Published:** `19th June 2020`
+  **NeKI brief:** Are programming languages actually getting safer, and solving the problems that can plague older languages? I found this article by Max Anselm fascinating.
+- [this new open-source library](https://github.com/swift-server/swift-aws-lambda-runtime) — iOS Dev Weekly · Issue 460 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `12th June 2020`
+  **NeKI brief:** I’ve mentioned a few times that if Apple makes any moves towards a first-party Swift on the server framework that it’d make sense to start with “server functions” that run in iCloud somewhere. I’m not sure whether this new open-source library being part of…
 - [What Adding Dependencies Will Do To Your App in 2020](https://xavierlowmiller.github.io/blog/2020/06/04/Swift-Dependencies) — iOS Dev Weekly · Issue 460 — Article · Topics: Dependency Injection · Developer Tools · Swift
   **Published:** `12th June 2020`
   **NeKI brief:** Examines What Adding Dependencies Will Do To Your App in 2020, offering practical guidance on Swift engineering practice. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [zld](https://github.com/michaeleisel/zld) — iOS Dev Weekly · Issue 460 — Source repository · Topics: Developer Tools · Systems Programming
+  **Published:** `12th June 2020`
+  **NeKI brief:** Presents zld, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [RealityUI](https://github.com/maxxfrazer/RealityUI) — iOS Dev Weekly · Issue 460 — Source repository · Topics: Developer Tools
+  **Published:** `12th June 2020`
+  **NeKI brief:** Presents RealityUI, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Building a view debugger using SceneKit](https://www.youtube.com/watch?v=S6YN2Bsde_Q) — iOS Dev Weekly · Issue 459 — Video · Topics: Developer Tools · Graphics, Media & Games · Objective-C & Cocoa
   **Published:** `5th June 2020`
   **NeKI brief:** Examines Building a view debugger using SceneKit, focusing on at first glance, you might think the title of this talk from indragie karunaratne is a mistake… scenekit!? to build a…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details.
+- [list of blogs](https://github.com/daveverwer/iOSDevDirectory/blob/master/blogs.json) — iOS Dev Weekly · Issue 458 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `29th May 2020`
+  **NeKI brief:** Adrian Ross with another project based on the list of blogs that go to make the iOS Dev Directory. He’s exposing all of the content from the RSS feeds as searchable! 🚀 Would you like your content to be indexed by this search? You know what to do!
 - [Nuke 9](https://kean.github.io/post/nuke-9) — iOS Dev Weekly · Issue 457 — Article · Topics: Combine & Reactive Programming · Developer Tools · Swift
   **Published:** `22nd May 2020`
   **NeKI brief:** Covers Nuke 9, focusing on Swift and Apple-platform engineering practice. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
@@ -2382,60 +4113,180 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Making iOS Accessibility Testing Easy](https://cashapp.github.io/2020-05-20/making-ios-accessibility-testing-easy) — iOS Dev Weekly · Issue 457 — Article · Topics: Accessibility · Developer Tools · Testing
   **Published:** `22nd May 2020`
   **NeKI brief:** Covers Making iOS Accessibility Testing Easy, focusing on testing, diagnostics, and feedback quality. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
+- [Everything wrong with XCFrameworks](https://pyckamil.github.io/programming,/xcframework,/xcode/2020/05/09/everything-wrong-with-xcframeworks.html) — iOS Dev Weekly · Issue 456 — Article · Topics: Cross-Platform & Web · Developer Tools · Xcode
+  **Published:** `15th May 2020`
+  **NeKI brief:** Presents Everything wrong with XCFrameworks, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [EarlGrey](https://github.com/google/EarlGrey) — iOS Dev Weekly · Issue 456 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `15th May 2020`
+  **NeKI brief:** Presents EarlGrey, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [without their SDK](https://gist.github.com/ethanhuang13/70c27ea9b5eb53199bc67c3bc9d47b7b) — iOS Dev Weekly · Issue 455 — Source repository · Topics: Developer Tools
+  **Published:** `8th May 2020`
+  **NeKI brief:** UPDATE: Ethan Huang points out that it’s possible to allow Facebook login without their SDK. Although, Hal Lee followed up with information that it might be against their policies, so just be aware of that.
 - [example apps](https://github.com/pointfreeco/swift-composable-architecture/tree/master/Examples) — iOS Dev Weekly · Issue 455 — Source repository · Topics: Architecture · Objective-C & Cocoa · Testing
   **Published:** `8th May 2020`
   **NeKI brief:** Examines example apps, focusing on from a first look at this new architecture framework from brandon williams and stephen celis, i like it. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [DocTest](https://github.com/SwiftDocOrg/DocTest) — iOS Dev Weekly · Issue 454 — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `1st May 2020`
   **NeKI brief:** Examines DocTest, focusing on adding code samples into your documentation comments is a great way to show other developers how to use your api, but…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [see it to believe it](https://github.com/Impedimenta/Suitcase) — iOS Dev Weekly · Issue 454 — Source repository · Topics: Developer Tools
+  **Published:** `1st May 2020`
+  **NeKI brief:** Presents see it to believe it, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Spasibo](https://github.com/artemnovichkov/spasibo) — iOS Dev Weekly · Issue 453 — Source repository · Topics: Dependency Injection · Developer Tools
+  **Published:** `24th April 2020`
+  **NeKI brief:** How many dependencies does the app you work on have? Have you, or the company you work for considered helping to fund the development that supports those projects? Artem Novichkov’s new tool makes it easy to figure out which of your dependencies are open to…
+- [are open to receiving funding](https://help.github.com/en/github/administering-a-repository/displaying-a-sponsor-button-in-your-repository) — iOS Dev Weekly · Issue 453 — Source repository · Topics: Dependency Injection · Developer Tools
+  **Published:** `24th April 2020`
+  **NeKI brief:** How many dependencies does the app you work on have? Have you, or the company you work for considered helping to fund the development that supports those projects? Artem Novichkov’s new tool makes it easy to figure out which of your dependencies are open to…
+- [FLEX](https://github.com/Flipboard/FLEX) — iOS Dev Weekly · Issue 453 — Source repository · Topics: Developer Tools
+  **Published:** `24th April 2020`
+  **NeKI brief:** I first saw this back at NSConference in 2013 when Evan Doll gave his talk on their internal tools at Flipboard and this week it has been released for everyone to use as an open source library. Get quick access to all sorts of runtime view hierarchy…
+- [sample app](https://github.com/CrunchyBagel/TracePrivately) — iOS Dev Weekly · Issue 452 — Source repository · Topics: Developer Tools
+  **Published:** `17th April 2020`
+  **NeKI brief:** The page covers “sample app” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Nine41 library](https://github.com/jessesquires/Nine41) — iOS Dev Weekly · Issue 452 — Source repository · Topics: Developer Tools
+  **Published:** `17th April 2020`
+  **NeKI brief:** I linked to the Jesse Squires’ post on the new simctl command last week and I’m linking to his follow up post this week. Why? Well this week’s post brings automation in the form of this Nine41 script.
+- [ResilientDecoding](https://github.com/airbnb/ResilientDecoding) — iOS Dev Weekly · Issue 452 — Source repository · Topics: Developer Tools · Foundation & Data Formats
+  **Published:** `17th April 2020`
+  **NeKI brief:** Presents ResilientDecoding, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [CGAffineTransform and Auto Layout](https://dasdom.github.io//cgaffinetransform-and-auto-layout) — iOS Dev Weekly · Issue 452 — Article · Topics: Developer Tools
+  **Published:** `17th April 2020`
+  **NeKI brief:** The article explains how CGAffineTransform interacts with Auto Layout and demonstrates the resulting behavior when transforming iOS views.
+- [Metaballs](https://github.com/rnkyr/metaballs) — iOS Dev Weekly · Issue 451 — Source repository · Topics: Developer Tools
+  **Published:** `10th April 2020`
+  **NeKI brief:** Honestly, you’re unlikely to end up using this new library from Roman Kyrylenko, but that doesn’t mean it’s not worth linking to. The effect it produces is beautiful and fascinating, and that’s always worth a look.
+- [this article from John Gruber](https://daringfireball.net/2020/04/amazon_apple_prime_video) — iOS Dev Weekly · Issue 450 — Article · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `3rd April 2020`
+  **NeKI brief:** Discusses this article from John Gruber, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
 - [swift-format](https://github.com/apple/swift-format) — iOS Dev Weekly · Issue 450 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `3rd April 2020`
   **NeKI brief:** Examines swift-format, focusing on will xcode ever support native integration with swift-format? if i had to guess, i’d say it will but that it’s unlikely…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Playbook](https://github.com/playbook-ui/playbook-ios) — iOS Dev Weekly · Issue 450 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `3rd April 2020`
   **NeKI brief:** Examines Playbook, focusing on inspired by storybook, this swiftui library from ryo aoyama lets you develop, and test ui components in isolation from…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [SecurePropertyStorage](https://github.com/alexruperez/PropertyWrappers) — iOS Dev Weekly · Issue 450 — Source repository · Topics: Developer Tools · Persistence & Synchronisation · Security & Privacy
+  **Published:** `3rd April 2020`
+  **NeKI brief:** Discusses SecurePropertyStorage, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
+- [SourceKit for Safari](https://github.com/kishikawakatsumi/SourceKitForSafari) — iOS Dev Weekly · Issue 449 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `27th March 2020`
+  **NeKI brief:** What a very cool proof of concept from Kishikawa Katsumi. It’s a browser extension (Safari and Chrome) that’ll silently clone a GitHub repository locally and run SourceKit-LSP against it to provide quick help and navigation through Swift project source…
 - [swift-outdated](https://github.com/kiliankoe/swift-outdated) — iOS Dev Weekly · Issue 449 — Source repository · Topics: Dependency Injection · Swift · Swift Package Manager
   **Published:** `27th March 2020`
   **NeKI brief:** Examines swift-outdated, focusing on if you’re using the swift package manager, then kilian koe has a helpful little tool to quickly let you know if you’ve…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Proxyman](https://inessential.com/2020/03/19/proxyman) — iOS Dev Weekly · Issue 448 — Article · Topics: Developer Tools · Security & Privacy
+  **Published:** `20th March 2020`
+  **NeKI brief:** Brent Simmons talking about Proxyman. Like Brent, I value a well made native Mac app, and this is exactly that. It’s also trivial to configure, 👍 even set up of certificates for the simulator is just a single click. So good.
+- [Introducing FetchImage](https://kean.github.io/post/introducing-fetch-image) — iOS Dev Weekly · Issue 448 — Article · Topics: Developer Tools
+  **Published:** `20th March 2020`
+  **NeKI brief:** Along with every new UI technology comes the requirement to easily and quickly download, cache, and display images. 🍻 This component from Alexander Grebenyuk leverages Nuke, and has native support for low data mode too. Are you telling me I need to stop…
 - [UIAlertController with Function Builders](https://felginep.github.io/2020-03-10/uialertcontroller-function-builders) — iOS Dev Weekly · Issue 447 — Article · Topics: Developer Tools · Swift
   **Published:** `13th March 2020`
   **NeKI brief:** Examines UIAlertController with Function Builders, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
 - [ErrorAssertions](https://github.com/SlaunchaMan/ErrorAssertions) — iOS Dev Weekly · Issue 447 — Source repository · Topics: Developer Tools · Testing
   **Published:** `13th March 2020`
   **NeKI brief:** Examines ErrorAssertions, focusing on ever wish you could pass an error to assert, precondition, or fatalerror? what about writing tests that expect one of…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [NEXTSPACE](https://github.com/trunkmaster/nextspace) — iOS Dev Weekly · Issue 447 — Source repository · Topics: Developer Tools · Product Design
+  **Published:** `13th March 2020`
+  **NeKI brief:** The page covers “NEXTSPACE” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Swift Package Continuous Integration Guide](https://learningswift.brightdigit.com/swift-package-continuous-integration-guide) — iOS Dev Weekly · Issue 446 — Article · Topics: CI/CD & Automation · Swift · Swift Package Manager
   **Published:** `6th March 2020`
   **NeKI brief:** Examines Swift Package Continuous Integration Guide, offering practical guidance on Swift Package Manager integration. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
 - [Federico Zanetello’s ultimate guide to Swift executables](https://www.fivestars.blog//code/ultimate-guide-swift-executables.html) — iOS Dev Weekly · Issue 446 — Article · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `6th March 2020`
   **NeKI brief:** Examines the ultimate guide to Swift executables, offering practical guidance on Swift Package Manager integration. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [Gui Rambo’s take on using command line arguments in an iOS app](https://rambo.codes/posts/2020-03-01-writing-command-line-interfaces-for-ios-apps) — iOS Dev Weekly · Issue 446 — Article · Topics: Developer Tools · Swift
+  **Published:** `6th March 2020`
+  **NeKI brief:** While we’re on the subject of building command-line tools, if you’re in the mood then you might also want to read Federico Zanetello’s ultimate guide to Swift executables, and Gui Rambo’s take on using command line arguments in an iOS app.
+- [the documentation](https://github.com/davedelong/time/tree/master/Documentation) — iOS Dev Weekly · Issue 446 — Source repository · Topics: Developer Tools
+  **Published:** `6th March 2020`
+  **NeKI brief:** I’ve quite genuinely abandoned an idea for a side project once because of the amount of date and time maths that it involved. I decided my life would be happier if I just… didn’t. 😂 Dave DeLong is a much braver soul, and a better developer than me though!…
+- [MarkdownAttributedString](https://github.com/chockenberry/MarkdownAttributedString) — iOS Dev Weekly · Issue 445 — Source repository · Topics: Developer Tools
+  **Published:** `28th February 2020`
+  **NeKI brief:** The page covers “MarkdownAttributedString” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Poes](https://github.com/AvdLee/Poes) — iOS Dev Weekly · Issue 444 — Source repository · Topics: App Services & Extensions · Developer Tools · Testing
   **Published:** `21st February 2020`
   **NeKI brief:** Examines Poes, focusing on one of the best new features of xcode 11.4 is that the new simulator can easily test remote push notifications. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [SwiftPlaygroundsCLI](https://github.com/SvenTiigi/SwiftPlaygroundsCLI) — iOS Dev Weekly · Issue 443 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `14th February 2020`
+  **NeKI brief:** The page covers “SwiftPlaygroundsCLI” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [DefaultCodable](https://github.com/gonzalezreal/DefaultCodable) — iOS Dev Weekly · Issue 443 — Source repository · Topics: Developer Tools · Foundation & Data Formats
   **Published:** `14th February 2020`
   **NeKI brief:** Examines DefaultCodable, focusing on the author’s note that like this µpackage idea from guille gonzalez. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [this is five years old](https://github.com/tenonedesign/Finger-Massage) — iOS Dev Weekly · Issue 443 — Source repository · Topics: Developer Tools
+  **Published:** `14th February 2020`
+  **NeKI brief:** Examines A fun project to demonstrate how to actuate an Apple Force Touch trackpad. Of dubious practical benefit. - tenonedesign/Finger-Massage. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Sitrep](https://github.com/twostraws/Sitrep) — iOS Dev Weekly · Issue 442 — Source repository · Topics: Developer Tools
   **Published:** `7th February 2020`
   **NeKI brief:** Examines Sitrep, focusing on interested in what frameworks you’re importing? how many lines of code your biggest source file has? or how many classes,…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [URLFormat](https://github.com/ilyapuchka/URLFormat) — iOS Dev Weekly · Issue 442 — Source repository · Topics: Developer Tools
+  **Published:** `7th February 2020`
+  **NeKI brief:** I really like the idea of this new URL parsing and formatting library from Ilya Puchka. We do so much manipulation of URLs in virtually every app, and the code that we use to do it is rarely unified. It’s the perfect job for a library, like this one. 👍
+- [Two-way communication between an iOS WKWebView and a web page](https://diamantidis.github.io/2020/02/02/two-way-communication-between-ios-wkwebview-and-web-page) — iOS Dev Weekly · Issue 442 — Article · Topics: Developer Tools
+  **Published:** `7th February 2020`
+  **NeKI brief:** The great UIWebView removal is still rolling towards us, so if you haven’t yet purged it from your apps then this piece by Ioannis Diamantidis might get you where you need to be.
 - [swift-doc](https://github.com/SwiftDocOrg/swift-doc) — iOS Dev Weekly · Issue 441 — Source repository · Topics: Developer Tools · Swift
   **Published:** `31st January 2020`
   **NeKI brief:** Examines swift-doc, focusing on as mattt says when talking about the motivation behind building this we’ve been very lucky to have jazzy since the early…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Gala](https://github.com/finestructure/Gala) — iOS Dev Weekly · Issue 441 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `31st January 2020`
+  **NeKI brief:** Presents Gala, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Better logging with Emoji](https://atomicbird.com/blog/emoji-logging) — iOS Dev Weekly · Issue 441 — Article · Topics: Developer Tools
+  **Published:** `31st January 2020`
+  **NeKI brief:** Examines Apple’s developer tools provide a rich variety of debugging aids. Sometimes though, it’s useful to do things the old fashioned way. With debugging, this often means jus. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Sign in with Apple](https://benpackard.github.io/blog/2020-01-28-sign-in-with-apple) — iOS Dev Weekly · Issue 441 — Article · Topics: Developer Tools
+  **Published:** `31st January 2020`
+  **NeKI brief:** The article explains Sign in with Apple and discusses the implementation and identity considerations for developers.
 - [Fast build times for big Swift projects with barber](https://github.com/michaeleisel/barber) — iOS Dev Weekly · Issue 440 — Source repository · Topics: Developer Tools · Swift
   **Published:** `24th January 2020`
   **NeKI brief:** Examines Fast build times for big Swift projects with barber, focusing on there are two interesting things about this project from michael eisel. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [A breakpoint I cannot live without](https://dasdom.github.io//a-breakpoint-i-cannot-live-without) — iOS Dev Weekly · Issue 440 — Article · Topics: Developer Tools
+  **Published:** `24th January 2020`
+  **NeKI brief:** Dominik Hauser with another tip that means you’ll never have to write print("Entering MyAwesomeViewController") again. I really like this.
+- [that wasn’t really what I meant](https://github.com/richieshilton/UIColour) — iOS Dev Weekly · Issue 440 — Source repository · Topics: Developer Tools
+  **Published:** `24th January 2020`
+  **NeKI brief:** Examines UIColor/Color for English speakers. Contribute to richieshilton/UIColour development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Fira Code](https://github.com/tonsky/FiraCode) — iOS Dev Weekly · Issue 439 — Source repository · Topics: Developer Tools
+  **Published:** `17th January 2020`
+  **NeKI brief:** Examines Free monospaced font with programming ligatures. Contribute to tonsky/FiraCode development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Spek](https://github.com/onmyway133/Spek) — iOS Dev Weekly · Issue 439 — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `17th January 2020`
   **NeKI brief:** Examines Spek, focusing on this new bdd testing framework from khoa pham is implemented with swift 5.1 function builders and uses xctest assertions. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Continuous Integration Using GitHub Actions](https://andreaslydemann.com/continuous-integration-using-github-actions-for-ios-projects) — iOS Dev Weekly · Issue 438 — Article · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `10th January 2020`
+  **NeKI brief:** Examines Github Actions are finally publicly released! It’s an opportunity to easily enable continuous integration in your projects on GitHub, so here’s how you set it up for yo. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [this post from Jesse Squires](https://www.jessesquires.com/blog/selecting-an-xcode-version-on-github-ci) — iOS Dev Weekly · Issue 438 — Article · Topics: Developer Tools · Xcode
   **Published:** `10th January 2020`
   **NeKI brief:** Explains selecting an Xcode version in GitHub Actions, covering runner images and reproducible CI configuration. Compare its pinning strategy with your workflow, then verify currently supported macOS and Xcode combinations.
+- [Publish](https://github.com/JohnSundell/Publish) — iOS Dev Weekly · Issue 437 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `3rd January 2020`
+  **NeKI brief:** So, I’ve been eagerly awaiting John Sundell’s Swift based static site generator for a while, and just before the holidays he made the last part of it available. It consists of Publish, Plot, Ink, and Splash. I’m not someone who pines to write everything in…
+- [Plot](https://github.com/JohnSundell/Plot) — iOS Dev Weekly · Issue 437 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `3rd January 2020`
+  **NeKI brief:** Examines A DSL for writing type-safe HTML, XML and RSS in Swift. - JohnSundell/Plot. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Ink](https://github.com/JohnSundell/Ink) — iOS Dev Weekly · Issue 437 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `3rd January 2020`
+  **NeKI brief:** So, I’ve been eagerly awaiting John Sundell’s Swift based static site generator for a while, and just before the holidays he made the last part of it available. It consists of Publish, Plot, Ink, and Splash. I’m not someone who pines to write everything in…
+- [Splash](https://github.com/JohnSundell/Splash) — iOS Dev Weekly · Issue 437 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `3rd January 2020`
+  **NeKI brief:** Examines A fast, lightweight and flexible Swift syntax highlighter for blogs, tools and fun! - JohnSundell/Splash. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [SwiftGen](https://github.com/SwiftGen/SwiftGen) — iOS Dev Weekly · Issue 437 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `3rd January 2020`
+  **NeKI brief:** Examines The Swift code generator for your assets, storyboards, Localizable.strings, … — Get rid of all String-based APIs! - SwiftGen/SwiftGen. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [UBKAccessibilityKit](https://github.com/NAB/UBKAccessibilityKit) — iOS Dev Weekly · Issue 437 — Source repository · Topics: Accessibility · Developer Tools · Testing
   **Published:** `3rd January 2020`
   **NeKI brief:** Examines UBKAccessibilityKit, focusing on it’s typical, isn’t it? you wait years for a good accessibility testing framework and then two come along at once! 😂 this…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [new server-side frameworks for Swift continuing to pop up](https://github.com/amzn/smoke-framework) — iOS Dev Weekly · Issue 435 — Source repository · Topics: Developer Tools · Swift
   **Published:** `20th December 2019`
   **NeKI brief:** Examines Smoke Framework, focusing on first ibm, and now amazon with a new server-side swift framework. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Open in GitHub from Xcode](https://github.com/wojteklu/xcode-open-on-github) — iOS Dev Weekly · Issue 435 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `20th December 2019`
+  **NeKI brief:** This little tool from Wojtek Lukaszuk is cute. If your code is hosted on GitHub then just right-click anywhere in a source file and instantly get a sharable link to it. If you’re not using GitHub, it should be fairly easy to adapt to many other git…
+- [CodePecker](https://github.com/woshiccm/Pecker) — iOS Dev Weekly · Issue 435 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `20th December 2019`
+  **NeKI brief:** Examines CodePecker is a tool to detect unused Swift code. Contribute to woshiccm/Pecker development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [not quite up to date for Xcode 11](https://github.com/peripheryapp/periphery/issues/57) — iOS Dev Weekly · Issue 435 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `20th December 2019`
+  **NeKI brief:** Examines after installing from HomeBrew on Catalina 10.15.1, I get this error when I try to run periphery: Guessing it’s something to do with code signing?. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [continuously updated](https://github.com/heckj/swiftui-notes/commits/master) — iOS Dev Weekly · Issue 435 — Source repository · Topics: Combine & Reactive Programming · Developer Tools · Swift
   **Published:** `20th December 2019`
   **NeKI brief:** Examines continuously updated, focusing on joseph heck, author of the wonderful (and continuously updated) using combine book talking about throttle and debounce in…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2448,18 +4299,57 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Performance Battle: AnyView vs Group in SwiftUI](https://nalexn.github.io/anyview-vs-group) — iOS Dev Weekly · Issue 434 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `13th December 2019`
   **NeKI brief:** Examines Performance Battle: AnyView vs Group in SwiftUI, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [Git Client Tower is 50% off](https://www.git-tower.com/pricing) — iOS Dev Weekly · Issue 432 — Article · Topics: Developer Tools
+  **Published:** `29th November 2019`
+  **NeKI brief:** Examines Try Tower free for 30 days — visual Git client for Mac & Windows. Plans from $69/user/year for individuals and teams. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [CI for Swift Frameworks](https://kean.github.io/post/ci-for-frameworks) — iOS Dev Weekly · Issue 432 — Article · Topics: Developer Tools · Swift
+  **Published:** `29th November 2019`
+  **NeKI brief:** Examines Setting up Travis CI for a Swift framework. Ideas for the jobs, including SwiftLint validation, multiple environments, test suites, validating demo projects and packages. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [JustTweak](https://github.com/justeat/JustTweak) — iOS Dev Weekly · Issue 432 — Source repository · Topics: Developer Tools
+  **Published:** `29th November 2019`
+  **NeKI brief:** Examines JustTweak is a feature flagging framework for iOS apps. - GitHub - justeat/JustTweak: JustTweak is a feature flagging framework for iOS apps. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [SwiftUI Introspect](https://github.com/timbersoftware/SwiftUI-Introspect) — iOS Dev Weekly · Issue 432 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `29th November 2019`
   **NeKI brief:** Examines SwiftUI Introspect, focusing on terrible idea, and i love it. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [AQUI](https://github.com/AlanQuatermain/AQUI) — iOS Dev Weekly · Issue 432 — Source repository · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `29th November 2019`
   **NeKI brief:** Examines AQUI, focusing on jim dovey on how to make swiftui and core data play nicely together using his aqui library. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [ddcli](https://github.com/ddribin/ddcli) — iOS Dev Weekly · Issue 431 — Source repository · Topics: Developer Tools
+  **Published:** `22nd November 2019`
+  **NeKI brief:** The page covers “ddcli” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [manually curated packages](https://github.com/ZeeZide/SwiftPMCatalog/blob/develop/catalog-info.json) — iOS Dev Weekly · Issue 430 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `15th November 2019`
+  **NeKI brief:** Explains manually curated packages, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [How Swift Achieved Dynamic Linking Where Rust Couldn’t](https://gankra.github.io/blah/swift-abi) — iOS Dev Weekly · Issue 430 — Article · Topics: Developer Tools · Swift
+  **Published:** `15th November 2019`
+  **NeKI brief:** Explains How Swift Achieved Dynamic Linking Where Rust Couldn’t, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [open pull request](https://github.com/electron/electron/pull/20965/files) — iOS Dev Weekly · Issue 429 — Source repository · Topics: Developer Tools
+  **Published:** `8th November 2019`
+  **NeKI brief:** It’s hard to get a handle on exactly how widespread this issue is. It’s almost certainly the case that rejections for private API usage are from an automated tool, so it’s not the usual “just a human making a bad decision” problem. However, some Electron…
+- [A class-dump in 2019](https://www.youtube.com/watch?v=KCxXPhu3S7o) — iOS Dev Weekly · Issue 429 — Video · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `8th November 2019`
+  **NeKI brief:** Presents a class-dump workflow from 2019, useful for understanding how developers inspect compiled Apple-platform interfaces and runtime information. Treat the historical tooling details as version-specific and validate current alternatives before applying them.
+- [Advanced Apple Debugging & Reverse Engineering](https://store.raywenderlich.com/products/advanced-apple-debugging-and-reverse-engineering) — iOS Dev Weekly · Issue 429 — Article · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `8th November 2019`
+  **NeKI brief:** Introduces a practical book on Apple-platform debugging and reverse engineering, covering inspection techniques beyond ordinary source-level debugging. Useful as a structured learning route when diagnosing frameworks, binaries, and runtime behavior.
+- [xcdiff](https://github.com/bloomberg/xcdiff) — iOS Dev Weekly · Issue 428 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Xcode
+  **Published:** `1st November 2019`
+  **NeKI brief:** Examines Can you imagine a situation where you have two developers working on the same Xcode project file? If you work on a team, you almost certainly can! That’s where this tool from Marcin Iwanicki, Kassem Wridan, and Adam Khaz Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [JBCalendarDatePicker](https://github.com/joshbirnholz/JBCalendarDatePicker) — iOS Dev Weekly · Issue 428 — Source repository · Topics: Developer Tools
+  **Published:** `1st November 2019`
+  **NeKI brief:** I love this new UI component from Josh Birnholz. It’s a beautiful implementation of a date picker, but I really love that it was designed as a Catalyst component! I did wonder if we’d start seeing this happen, and sure enough…
 - [WaterfallGrid](https://github.com/paololeonardi/WaterfallGrid) — iOS Dev Weekly · Issue 428 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `1st November 2019`
   **NeKI brief:** Examines WaterfallGrid, focusing on the author’s discussion of linked to qgrid back in issue 414, but what if you need an irregular grid of content in your shiny new swiftui app?…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
 - [QGrid](https://github.com/Q-Mobile/QGrid) — iOS Dev Weekly · Issue 428 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `1st November 2019`
   **NeKI brief:** Examines QGrid, focusing on the author’s discussion of linked to qgrid back in issue 414, but what if you need an irregular grid of content in your shiny new swiftui app?…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
+- [View composition in SwiftUI](https://mecid.github.io/2019/10/30/view-composition-in-swiftui) — iOS Dev Weekly · Issue 428 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `1st November 2019`
+  **NeKI brief:** Containers in SwiftUI are limited to having only ten child views. This restriction can sound ugly, but I think it is awesome.
+- [Playground](https://github.com/JohnSundell/Playground) — iOS Dev Weekly · Issue 427 — Source repository · Topics: Developer Tools
+  **Published:** `25th October 2019`
+  **NeKI brief:** The page covers “Playground” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [SwiftUI Layout System](https://kean.github.io/post/swiftui-layout-system) — iOS Dev Weekly · Issue 427 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `25th October 2019`
   **NeKI brief:** Examines SwiftUI Layout System, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
@@ -2469,24 +4359,72 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [package source list](https://github.com/daveverwer/SwiftPMLibrary) — iOS Dev Weekly · Issue 425 — Source repository · Topics: Dependency Injection · Developer Tools · Swift
   **Published:** `11th October 2019`
   **NeKI brief:** Examines package source list, focusing on then, the swift dependency graph from adam fowler – a wonderful visualisation of package dependencies that doesn’t use…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [pull requests](https://github.com/daveverwer/SwiftPMLibrary/pulls?q=is%3Apr+is%3Aclosed) — iOS Dev Weekly · Issue 425 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `11th October 2019`
+  **NeKI brief:** Examines The canonical list of repositories indexed by the Swift Package Index - Pull requests · SwiftPackageIndex/PackageList. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [merged this huge one](https://github.com/daveverwer/SwiftPMLibrary/pull/104) — iOS Dev Weekly · Issue 425 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `11th October 2019`
+  **NeKI brief:** Plenty of people have also been submitting pull requests to add their packages, and I recently merged this huge one from Kyle Newsome which brought the total number of packages being indexed to over 3,400! 🚀
+- [change](https://github.com/apple/swift-evolution/blob/master/proposals/0255-omit-return.md) — iOS Dev Weekly · Issue 425 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `11th October 2019`
+  **NeKI brief:** Examines This maintains proposals for changes and user-visible enhancements to the Swift Programming Language. - swift-evolution/proposals/0255-omit-return.md at main · swiftlang/swift-evol. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [LLVS project](https://github.com/mentalfaculty/LLVS) — iOS Dev Weekly · Issue 424 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Persistence & Synchronisation
   **Published:** `4th October 2019`
   **NeKI brief:** Examines LLVS project, focusing on one topic that has been talked about consistently since wwdc is how core data (or any data persistence framework) will be…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [open source](https://github.com/rileytestut/AltStore) — iOS Dev Weekly · Issue 423 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Testing
+  **Published:** `27th September 2019`
+  **NeKI brief:** Examines AltStore is an alternative app store for non-jailbroken iOS devices. - altstoreio/AltStore. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Let’s Build a Regex Engine](http://kean.github.io/post/lets-build-regex) — iOS Dev Weekly · Issue 423 — Tutorial · Topics: Developer Community & Business · Developer Tools
+  **Published:** `27th September 2019`
+  **NeKI brief:** Alexander Grebenyuk with a fantastic series of posts on building a Regex engine. Of course, I’m not linking to this because I think you should use the resulting library, but because it’s a fascinating look into how it was built.
+- [the resulting library](https://github.com/kean/Regex) — iOS Dev Weekly · Issue 423 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `27th September 2019`
+  **NeKI brief:** Examines Open source regex engine. Contribute to kean/Regex development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [SwiftUI code that generates them](https://gist.github.com/chriseidhof/f1bfea3b26ed23c26f2b016a2d618ba4) — iOS Dev Weekly · Issue 423 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `27th September 2019`
   **NeKI brief:** Examines SwiftUI code that generates them, focusing on the author’s discussion of love it when an interesting tweet turns into a blog post, like this one from chris eidhof did this week. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [simple, but useful script](https://github.com/StatusQuo/spmready) — iOS Dev Weekly · Issue 421 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `13th September 2019`
+  **NeKI brief:** Examines Talking of the Swift Package Manager, Basti Humann has written a simple, but useful script which will take any project with a Podfile and check whether each pod has support for SPM. 👍 Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Accessibility in SwiftUI](https://mecid.github.io/2019/09/10/accessibility-in-swiftui) — iOS Dev Weekly · Issue 421 — Article · Topics: Accessibility · Swift · SwiftUI
   **Published:** `13th September 2019`
   **NeKI brief:** Examines Accessibility in SwiftUI, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [Fields](https://github.com/radianttap/Fields) — iOS Dev Weekly · Issue 420 — Source repository · Topics: Developer Tools
+  **Published:** `6th September 2019`
+  **NeKI brief:** You’ve almost certainly built a form in an iOS app before. It seems easy at first glance, right? It’s almost always more complex than you think though. Aleksandar Vacić takes us through some of the options in terms of third party libraries, but then proposes…
+- [written out explicitly for NewNewsWire](https://github.com/brentsimmons/NetNewsWire/blob/master/Technotes/DevelopmentAlphaBeta.md) — iOS Dev Weekly · Issue 420 — Source repository · Topics: Developer Tools
+  **Published:** `6th September 2019`
+  **NeKI brief:** What does beta mean to you? Here are some potential definitions from Brent Simmons, and I really love that they are written out explicitly for NewNewsWire. It’s an incredible commitment to quality above all else. 👍
 - [The Curious Case of the Core Data Crash](https://blog.iconfactory.com/2019/08/the-curious-case-of-the-core-data-crash) — iOS Dev Weekly · Issue 419 — Article · Topics: Concurrency · Core Data · Developer Tools
   **Published:** `30th August 2019`
   **NeKI brief:** Examines The Curious Case of the Core Data Crash, offering practical guidance on data modeling and persistence trade-offs. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [ZippyJSON](https://github.com/michaeleisel/ZippyJSON) — iOS Dev Weekly · Issue 419 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Performance
+  **Published:** `30th August 2019`
+  **NeKI brief:** NSJSONSerialization is probably fast enough for 99% of cases, and I’d recommend using it whenever possible. However, if you’re often parsing a lot of JSON then the performance wins in this library from Michael Eisel might be what you need.
 - [Puma](https://github.com/pumaswift/Puma) — iOS Dev Weekly · Issue 418 — Source repository · Topics: CI/CD & Automation · Developer Tools · Swift
   **Published:** `23rd August 2019`
   **NeKI brief:** Examines Puma, focusing on build utilities, written in pure swift (not that that really matters for build utilities) from khoa pham. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [ColoredConsole](https://github.com/jjrscott/ColoredConsole) — iOS Dev Weekly · Issue 418 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `23rd August 2019`
   **NeKI brief:** Examines ColoredConsole, focusing on relive the glory days of xcode 8 extensions with this really clever ligature hack from john scott. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Xcode 8 extensions](https://github.com/robbiehanson/XcodeColors) — iOS Dev Weekly · Issue 418 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `23rd August 2019`
+  **NeKI brief:** Examines Relive the glory days of Xcode 8 extensions with this really clever ligature hack from John Scott. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [The Comprehensive Guide to iOS Context Menus](https://kylebashour.com/posts/context-menu-guide) — iOS Dev Weekly · Issue 418 — Article · Topics: Developer Tools
+  **Published:** `23rd August 2019`
+  **NeKI brief:** Examines From nested menus to custom previews, use this guide to become a context menu wizard. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [sample code](https://github.com/kylebshr/context-menus) — iOS Dev Weekly · Issue 418 — Source repository · Topics: Developer Tools
+  **Published:** `23rd August 2019`
+  **NeKI brief:** Presents sample code, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [SwiftErrorHandler: Flexible library for handling Swift Errors](https://github.com/stefanrenne/SwiftErrorHandler) — iOS Dev Weekly · Issue 418 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `23rd August 2019`
+  **NeKI brief:** The GitHub repository contains SwiftErrorHandler, a flexible Swift library for handling and presenting errors.
+- [HackMan](https://github.com/Cosmo/HackMan) — iOS Dev Weekly · Issue 417 — Source repository · Topics: Developer Tools
+  **Published:** `16th August 2019`
+  **NeKI brief:** Examines 🤖🔜🤯 Stop writing boilerplate code yourself. Let hackman do it for you via the command line. - Cosmo/HackMan. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [CombineDataSources](https://github.com/combineopensource/CombineDataSources) — iOS Dev Weekly · Issue 417 — Source repository · Topics: Combine & Reactive Programming · Developer Tools
+  **Published:** `16th August 2019`
+  **NeKI brief:** The GitHub repository provides CombineDataSources, a library for driving table and collection views from Combine publishers.
 - [The Shape API in SwiftUI](https://mecid.github.io/2019/08/14/building-barchart-with-shape-api-in-swiftui) — iOS Dev Weekly · Issue 417 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `16th August 2019`
   **NeKI brief:** Examines The Shape API in SwiftUI, offering practical guidance on SwiftUI composition and layout behavior. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
@@ -2496,6 +4434,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [performance testing](https://github.com/quickbirdstudios/CombineRxSwiftPerformance/blob/master/Readme.md) — iOS Dev Weekly · Issue 416 — Source repository · Topics: Combine & Reactive Programming · Performance · Testing
   **Published:** `9th August 2019`
   **NeKI brief:** Examines performance testing, focusing on so much combine content this week! we’ll finish with stefan kofler taking a balanced look comparing rxswift to combine. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [SFSymbols Export](https://github.com/davedelong/sfsymbols) — iOS Dev Weekly · Issue 415 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `2nd August 2019`
+  **NeKI brief:** Examines Export the shapes in the SF Symbols font. Contribute to davedelong/sfsymbols development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Lickability Swift Best Practices Guide](https://github.com/Lickability/swift-best-practices) — iOS Dev Weekly · Issue 415 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2nd August 2019`
+  **NeKI brief:** Explains Lickability Swift Best Practices Guide, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [sample code](https://github.com/swiftingio/NFCWriter) — iOS Dev Weekly · Issue 414 — Source repository · Topics: Developer Tools · Swift
   **Published:** `26th July 2019`
   **NeKI brief:** Examines sample code, focusing on core nfc is getting a big upgrade in ios 13. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2511,12 +4455,45 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [RetroRampage](https://github.com/nicklockwood/RetroRampage) — iOS Dev Weekly · Issue 411 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
   **Published:** `5th July 2019`
   **NeKI brief:** Examines RetroRampage, focusing on finally with a welcome break from swiftui hot takes is this tutorial series from nick lockwood on how to implement a…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [test them out](https://github.com/FancyPixel/moby) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `28th June 2019`
+  **NeKI brief:** Examines A sample app to test out AHAP (Apple Haptic and Audio Pattern) files - FancyPixel/moby. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [ValidatedPropertyKit](https://github.com/SvenTiigi/ValidatedPropertyKit) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Developer Tools
+  **Published:** `28th June 2019`
+  **NeKI brief:** Examines Easily validate your Properties with Property Wrappers 👮 - SvenTiigi/ValidatedPropertyKit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Burritos](https://github.com/guillermomuntaner/Burritos) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Developer Tools
+  **Published:** `28th June 2019`
+  **NeKI brief:** The GitHub repository contains Burritos, an open-source Apple-platform project with publicly inspectable source code.
 - [this test](https://gist.github.com/mattgallagher/eaa5d3242d83360a52c45c9706479e34) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
   **Published:** `28th June 2019`
   **NeKI brief:** Examines this test, focusing on when i saw this tweet i did wonder whether we were going to find that the true cost of a great api was runtime…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [GRDBCombine](https://github.com/groue/GRDBCombine) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Developer Tools
+  **Published:** `28th June 2019`
+  **NeKI brief:** The GitHub repository provides GRDBCombine, integrating GRDB database observation with Combine publishers.
+- [example app](https://github.com/groue/GRDBCombine/blob/master/Documentation/Demo/README.md) — iOS Dev Weekly · Issue 410 — Source repository · Topics: Apple Platform Ecosystem · Combine & Reactive Programming · Developer Tools
+  **Published:** `28th June 2019`
+  **NeKI brief:** The repository README documents the GRDBCombine example app and shows how the library integrates GRDB database access with Combine.
 - [Building forms with SwiftUI](https://mecid.github.io/2019/06/19/building-forms-with-swiftui) — iOS Dev Weekly · Issue 409 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `21st June 2019`
   **NeKI brief:** Covers Building forms with SwiftUI, focusing on Apple UI composition and interaction design. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
+- [NFCPassportReader for iOS 13](https://github.com/AndyQ/NFCPassportReader) — iOS Dev Weekly · Issue 409 — Source repository · Topics: Developer Tools
+  **Published:** `21st June 2019`
+  **NeKI brief:** The page covers “NFCPassportReader for iOS 13” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [XCLogParser](https://github.com/spotify/XCLogParser) — iOS Dev Weekly · Issue 408 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Testing
+  **Published:** `14th June 2019`
+  **NeKI brief:** Examines Tool to parse Xcode and xcodebuild logs stored in the xcactivitylog format - MobileNativeFoundation/XCLogParser. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [MemeMaker](https://github.com/dempseyatgithub/MemeMaker) — iOS Dev Weekly · Issue 408 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `14th June 2019`
+  **NeKI brief:** The page covers “MemeMaker” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Panda](https://github.com/wordlessj/Panda) — iOS Dev Weekly · Issue 407 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `7th June 2019`
+  **NeKI brief:** You can’t use SwiftUI with apps that ship today, but that doesn’t mean there aren’t options that take the same declarative approach that are available right now. If you just can’t wait for September, let Belle Cooper tell you about Panda and Bamboo from…
+- [Bamboo](https://github.com/wordlessj/Bamboo) — iOS Dev Weekly · Issue 407 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `7th June 2019`
+  **NeKI brief:** You can’t use SwiftUI with apps that ship today, but that doesn’t mean there aren’t options that take the same declarative approach that are available right now. If you just can’t wait for September, let Belle Cooper tell you about Panda and Bamboo from…
+- [this library](https://github.com/piknotech/SFSafeSymbols) — iOS Dev Weekly · Issue 407 — Source repository · Topics: Developer Tools
+  **Published:** `7th June 2019`
+  **NeKI brief:** Also, check out this library from Frederick Pietschmann de-stringifies your usage of it. Finally, this site from Noah Gilmore is a great way to find the icon you need.
 - [Solving ambiguous constraints without rerunning your app](https://mar.codes/2019-05-28/Solving-ambiguous-constraints-without-rerunning-your-app) — iOS Dev Weekly · Issue 406 — Article · Topics: Developer Tools · Objective-C & Cocoa · Personal Essays
   **Published:** `31st May 2019`
   **NeKI brief:** Covers Solving ambiguous constraints without rerunning your app, focusing on Swift and Apple-platform engineering practice. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
@@ -2526,18 +4503,48 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [well documented](https://github.com/groue/GRDB.swift/blob/master/README.md) — iOS Dev Weekly · Issue 405 — Source repository · Topics: Developer Tools · Persistence & Synchronisation · Swift
   **Published:** `24th May 2019`
   **NeKI brief:** Examines well documented, focusing on the author’s note that hadn’t come across gwendal roué’s sqlite wrapper for swift until i saw the announcement of v4 this week. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [LoadingShimmer](https://github.com/jogendra/LoadingShimmer) — iOS Dev Weekly · Issue 405 — Source repository · Topics: Developer Tools
+  **Published:** `24th May 2019`
+  **NeKI brief:** Examines While still functional, peppering UIActivityIndicator views all over your app can make it look a little old and jaded. Placeholder content shading is the new hotness, and placeholder content that shimmers is 🔥🔥🔥! Want Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [far from complete](https://github.com/apple/swift/pull/24684) — iOS Dev Weekly · Issue 404 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `17th May 2019`
+  **NeKI brief:** Examines The Swift Programming Language. Contribute to swiftlang/swift development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [getting everywhere](https://github.com/wlisac/swift-on-balena) — iOS Dev Weekly · Issue 404 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `17th May 2019`
+  **NeKI brief:** Explains getting everywhere, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [Haptic feedback in iOS apps](https://mecid.github.io/2019/05/09/haptic-feedback-in-ios-apps) — iOS Dev Weekly · Issue 404 — Article · Topics: Developer Tools
+  **Published:** `17th May 2019`
+  **NeKI brief:** Examines Feedback helps people know what an app is doing, discover what they can do next, and understand the results of actions. This week I am going to talk about the Haptic Feedback Engin. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Type-safe tags in Swift](https://github.com/alexruperez/Tagging) — iOS Dev Weekly · Issue 404 — Source repository · Topics: Developer Tools · Swift
   **Published:** `17th May 2019`
   **NeKI brief:** Examines Type-safe tags in Swift, focusing on the author’s discussion of love it when blog posts and open source projects feed into each other. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [associated library](https://github.com/JohnSundell/Identity) — iOS Dev Weekly · Issue 404 — Source repository · Topics: Developer Tools · Swift
   **Published:** `17th May 2019`
   **NeKI brief:** Examines associated library, focusing on the author’s discussion of love it when blog posts and open source projects feed into each other. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Owl framework](https://github.com/malcommac/Owl) — iOS Dev Weekly · Issue 403 — Source repository · Topics: Developer Tools
+  **Published:** `10th May 2019`
+  **NeKI brief:** Then, I saw Daniele Margutti’s Owl framework for declaratively putting together table and collection views. It’s not the first framework of this type, and it most likely won’t be the last either! It’s comprehensive though, and is worth a look.
+- [Office Fabric UI for iOS](https://github.com/OfficeDev/ui-fabric-ios) — iOS Dev Weekly · Issue 403 — Source repository · Topics: Developer Tools
+  **Published:** `10th May 2019`
+  **NeKI brief:** The opening statement in the README might not sound too exciting…
+- [source for the app itself](https://github.com/twostraws/Unwrap) — iOS Dev Weekly · Issue 403 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `10th May 2019`
+  **NeKI brief:** There are so many reasons to link to this app from Paul Hudson. Maybe you’ll install it to learn Swift. 🤯 Maybe you’ll install it for the iMessage stickers (yes, the iOS Dev Weekly logo is in there). Or, maybe you’d rather look through the source for the app…
 - [In App visual debugger](https://github.com/indragiek/InAppViewDebugger) — iOS Dev Weekly · Issue 402 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Xcode
   **Published:** `3rd May 2019`
   **NeKI brief:** Examines In App visual debugger, focusing on it’s probably not too much of a hassle to have a mac connected to your app so you can use reveal or the built in xcode…. Use it as a focused research reference for related Apple-platform work, and.
+- [TORoundedButton](https://github.com/TimOliver/TORoundedButton) — iOS Dev Weekly · Issue 402 — Source repository · Topics: Developer Tools · Performance
+  **Published:** `3rd May 2019`
+  **NeKI brief:** Examines A high-performance button control with rounded corners for iOS. - TimOliver/TORoundedButton. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [NGUIButtonInsetsExample](https://github.com/noahsark769/NGUIButtonInsetsExample) — iOS Dev Weekly · Issue 402 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `3rd May 2019`
+  **NeKI brief:** Examines Talking of buttons, have you ever struggled to figure out the correct incantations to separate the text and image in a UIButton? Noah Gilmore struggled with this, so he built a test harness that makes this possible. 😂 Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [async/await](https://gist.github.com/lattner/429b9070918248274f25b714dcfc7619) — iOS Dev Weekly · Issue 402 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `3rd May 2019`
   **NeKI brief:** Examines async/await proposal, focusing on there has been plenty of speculation that language native concurrency will be a focus for a future release of swift. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [PanelKit](https://github.com/louisdh/panelkit) — iOS Dev Weekly · Issue 401 — Source repository · Topics: Developer Tools
+  **Published:** `26th April 2019`
+  **NeKI brief:** Examines A UI framework that enables panels on iOS. Contribute to louisdh/panelkit development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Markdown Playgrounds for Swift](https://github.com/objcio/markdown-playgrounds) — iOS Dev Weekly · Issue 400 — Source repository · Topics: Developer Tools · Swift
   **Published:** `19th April 2019`
   **NeKI brief:** Examines Markdown Playgrounds for Swift, focusing on while updating their advanced swift book, chris eidhof and florian kugler frequently found themselves needing to execute…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2550,144 +4557,504 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [simple playground example](https://github.com/timothymiko/swift-networking-examples) — iOS Dev Weekly · Issue 398 — Source repository · Topics: Dependency Injection · Developer Tools · Networking
   **Published:** `5th April 2019`
   **NeKI brief:** Examines simple playground example, focusing on i’ve said this a few times over the years but the reasons for using a third party networking library get fewer and fewer…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [Student submissions for the WWDC 2019 Scholarship](https://github.com/wwdc/2019) — iOS Dev Weekly · Issue 397 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `29th March 2019`
+  **NeKI brief:** Presents Student submissions for the WWDC 2019 Scholarship, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [AccessControlKitty](https://github.com/zoejessica/accesscontrolkitty) — iOS Dev Weekly · Issue 397 — Source repository · Topics: Developer Tools · Hardware & Devices · Xcode
+  **Published:** `29th March 2019`
+  **NeKI brief:** Examines Zoë Smith with the rarest of all mythical creatures, a useful Xcode source editor extension! 🦄 Install it, assign a few keyboard shortcuts and you’ll never need to type fileprivate again. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) — iOS Dev Weekly · Issue 397 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `29th March 2019`
+  **NeKI brief:** Examines CryptoSwift is a growing collection of standard and secure cryptographic algorithms implemented in Swift - krzyzanowskim/CryptoSwift. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [RoughSwift](https://github.com/onmyway133/RoughSwift) — iOS Dev Weekly · Issue 397 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `29th March 2019`
+  **NeKI brief:** Explains RoughSwift, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [over 190 community contributions](https://github.com/daveverwer/iOSDevDirectory/pulls?q=is%3Apr+is%3Aclosed) — iOS Dev Weekly · Issue 395 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `15th March 2019`
+  **NeKI brief:** I have a favour to ask! A couple of weeks ago I launched the iOS Dev Directory, an attempt to build a comprehensive list of blogs on iOS development. While it certainly had a great launch with over 85 pull requests merged and new sections being added for…
+- [Life in the slow lane](https://silverhammermba.github.io/blog/2019/03/12/slowlane) — iOS Dev Weekly · Issue 395 — Article · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `15th March 2019`
+  **NeKI brief:** The article reflects on software performance and the practical consequences of allowing applications or workflows to become slow.
+- [AbandonedStrings](https://github.com/ijoshsmith/abandoned-strings) — iOS Dev Weekly · Issue 395 — Source repository · Topics: Developer Tools
+  **Published:** `15th March 2019`
+  **NeKI brief:** Examines Command line program that detects unused resource strings in an iOS or OS X application. - ijoshsmith/abandoned-strings. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Conferences.digital](https://github.com/zagahr/Conferences.digital) — iOS Dev Weekly · Issue 395 — Source repository · Topics: Developer Community & Business · Developer Tools · Graphics, Media & Games
+  **Published:** `15th March 2019`
+  **NeKI brief:** Examines 👨‍💻Watch the latest and greatest conference videos on your Mac - GitHub - zagahr/Conferences.digital: 👨‍💻Watch the latest and greatest conference videos on your Mac. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Marzipanify](https://github.com/steventroughtonsmith/marzipanify) — iOS Dev Weekly · Issue 394 — Source repository · Topics: Developer Tools
+  **Published:** `8th March 2019`
+  **NeKI brief:** Marzipanify has been around for a while, but this week Steve kept himself very busy with three lengthy blog posts about it. Bringing iOS Apps to macOS Using Marzipanify, Making Marzipan Apps Sing, and Deeper Integration with Marzipan. The posts speak for…
+- [Automatic App Landing Page](https://github.com/emilbaehr/automatic-app-landing-page) — iOS Dev Weekly · Issue 394 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `8th March 2019`
+  **NeKI brief:** Need a quick and easy way to generate a simple landing page for your latest app? Emil Baehr has put together this great Jekyll theme for showing off your latest creation by grabbing metadata from the store. 👍
 - [UIView styling with functions](https://felginep.github.io/2019-02-19/uiview-styling-with-functions) — iOS Dev Weekly · Issue 393 — Article · Topics: Developer Tools
   **Published:** `1st March 2019`
   **NeKI brief:** Covers UIView styling with functions, focusing on Apple UI composition and interaction design. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
+- [Consent SDK](https://github.com/smartlook/ios-consent-sdk) — iOS Dev Weekly · Issue 393 — Source repository · Topics: Developer Tools
+  **Published:** `1st March 2019`
+  **NeKI brief:** Examines Configurable consent SDK for iOS. Contribute to smartlook/ios-consent-sdk development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [UIViewInvaders](https://github.com/JonoFrench/UIViewInvaders) — iOS Dev Weekly · Issue 393 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `1st March 2019`
+  **NeKI brief:** Examines Space Invaders, but created entirely out of UIView. - GitHub - JonoFrench/UIViewInvaders: Space Invaders, but created entirely out of UIView. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [well supported by GitHub](https://help.github.com/articles/about-required-commit-signing) — iOS Dev Weekly · Issue 392 — Source repository · Topics: Developer Tools
+  **Published:** `22nd February 2019`
+  **NeKI brief:** Presents well supported by GitHub, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [BinaryCodable](https://github.com/jverkoey/BinaryCodable) — iOS Dev Weekly · Issue 392 — Source repository · Topics: Developer Tools · Foundation & Data Formats
+  **Published:** `22nd February 2019`
+  **NeKI brief:** Examines Swift Codable-like interfaces for binary representations. - jverkoey/BinaryCodable. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Nantes](https://github.com/instacart/Nantes) — iOS Dev Weekly · Issue 392 — Source repository · Topics: Developer Tools
+  **Published:** `22nd February 2019`
+  **NeKI brief:** Examines Swift TTTAttributedLabel replacement. Contribute to instacart/Nantes development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [TTTAttributedLabel](https://github.com/TTTAttributedLabel/TTTAttributedLabel) — iOS Dev Weekly · Issue 392 — Source repository · Topics: Developer Tools
+  **Published:** `22nd February 2019`
+  **NeKI brief:** The GitHub repository contains TTTAttributedLabel, an open-source UILabel replacement supporting attributed strings and link interaction.
 - [xcodeproj](https://github.com/tuist/xcodeproj) — iOS Dev Weekly · Issue 391 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `15th February 2019`
   **NeKI brief:** Examines xcodeproj, focusing on back in issue 362 i linked to xcodegen, a way to generate your project files with yaml. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Custom View Controller Presentation Tips & Tricks](https://kylebashour.com/posts/custom-view-controller-presentation-tips) — iOS Dev Weekly · Issue 391 — Article · Topics: Developer Tools · UIKit
+  **Published:** `15th February 2019`
+  **NeKI brief:** The article gives practical tips and implementation considerations for presenting custom view controllers in iOS applications.
+- [Project-Specific Command Line Shortcuts with direnv](https://spin.atomicobject.com/2019/01/19/project-specific-cl-shortcuts) — iOS Dev Weekly · Issue 390 — Article · Topics: Developer Tools
+  **Published:** `8th February 2019`
+  **NeKI brief:** Shows how direnv can provide project-specific command-line shortcuts and environment configuration without polluting a global shell setup. Useful for making repeatable build and development commands local to a repository.
 - [Swinject in practice](https://felginep.github.io/2019-02-05/swinject-in-practice) — iOS Dev Weekly · Issue 390 — Article · Topics: Architecture · Dependency Injection · Developer Tools
   **Published:** `8th February 2019`
   **NeKI brief:** Examines Swinject in practice, offering practical guidance on Swift engineering practice. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
 - [check out](https://github.com/wibosco/CoreDataMigrationRevised-Example) — iOS Dev Weekly · Issue 390 — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **Published:** `8th February 2019`
   **NeKI brief:** Examines check out, focusing on comprehensive and well written look at the migration process for core data by william boles. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Pattern Matching with case let](https://mecid.github.io/2019/02/06/pattern-matching-with-case-let) — iOS Dev Weekly · Issue 390 — Article · Topics: Developer Tools · Swift
+  **Published:** `8th February 2019`
+  **NeKI brief:** If you’re just getting started with Swift, the pattern matching features of the language might have passed you by. Let Majid Jabrayilov bring you up to speed with this post.
+- [Capptivate](https://github.com/capptivateco/capptivate) — iOS Dev Weekly · Issue 389 — Source repository · Topics: Developer Tools
+  **Published:** `1st February 2019`
+  **NeKI brief:** Examines I’ve said many times before how I love sites like Pttrns, Mobile Patterns, and the sadly now defunct Capptivate. Well, here’s another one to add to the collection! Not just screenshots, not just animations, but full user Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Path.swift](https://github.com/mxcl/Path.swift) — iOS Dev Weekly · Issue 388 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Swift
   **Published:** `25th January 2019`
   **NeKI brief:** Examines Path.swift, focusing on the url/path manipulation methods in foundation have always been powerful, but also very verbose so this new wrapper…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [organise episodes](https://github.com/SwiftCommunityPodcast/podcast/issues) — iOS Dev Weekly · Issue 387 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `18th January 2019`
+  **NeKI brief:** A new podcast from John Sundell, Garric Nahapetian and Chris Lattner. The first episode takes a look at the birth of Swift, but the reason it made the news here is that they’re trying something new with the show. Instead of being the same format every week…
+- [swift-sh](https://github.com/mxcl/swift-sh) — iOS Dev Weekly · Issue 387 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `18th January 2019`
+  **NeKI brief:** Examines Can you imagine starting your week wanting to delete some tweets and ending it with a suggestion from Chris Lattner that your experiment might fit well into the compiler and being featured on NSHipster? Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Bagel](https://github.com/yagiz/Bagel) — iOS Dev Weekly · Issue 387 — Source repository · Topics: Developer Tools
+  **Published:** `18th January 2019`
+  **NeKI brief:** Presents Bagel, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [LayoutLoopHunter](https://github.com/rsrbk/LayoutLoopHunter) — iOS Dev Weekly · Issue 387 — Source repository · Topics: Developer Tools
+  **Published:** `18th January 2019`
+  **NeKI brief:** Infinite layout loops with Auto Layout aren’t incredibly common, but when they do crop up they are pretty disastrous. This post by Ruslan Serebriakov and the LayoutLoopHunter library that accompanies it are here to help you out when they do occur.
 - [It’s time to use Swift Package Manager](http://artsy.github.io/blog/2019/01/05/its-time-to-use-spm) — iOS Dev Weekly · Issue 386 — Article · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `11th January 2019`
   **NeKI brief:** Covers It's time to use Swift Package Manager, focusing on Swift tooling and build integration. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
+- [Quickly record video from the iOS Simulator](https://github.com/alexp2ad/record-ios-simulator) — iOS Dev Weekly · Issue 386 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Hardware & Devices
+  **Published:** `11th January 2019`
+  **NeKI brief:** The GitHub repository provides a tool for quickly recording video from the iOS Simulator, with publicly inspectable implementation and usage instructions.
+- [IPShortcut](https://github.com/Instapaper/IPShortcut) — iOS Dev Weekly · Issue 386 — Source repository · Topics: Developer Tools · Hardware & Devices
+  **Published:** `11th January 2019`
+  **NeKI brief:** Examines Easily setup shortcuts for tables and collections for iPad Smart Keyboards. - Instapaper/IPShortcut. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Connectivity](https://github.com/rwbutler/Connectivity) — iOS Dev Weekly · Issue 385 — Source repository · Topics: Developer Tools
+  **Published:** `4th January 2019`
+  **NeKI brief:** Presents Connectivity, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [library](https://github.com/radianttap/Coordinator) — iOS Dev Weekly · Issue 385 — Source repository · Topics: Developer Tools · Navigation & Deep Linking · UIKit
   **Published:** `4th January 2019`
   **NeKI brief:** Examines library, focusing on aleksandar vacić with a great post (and library) on how he has tried to integrated the coordinator pattern with uikit. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [DynamicJSON](https://github.com/saoudrizwan/DynamicJSON) — iOS Dev Weekly · Issue 385 — Source repository · Topics: Developer Tools
+  **Published:** `4th January 2019`
+  **NeKI brief:** Examines I remember when I learned Ruby there was a time where it seemed that every problem could be solved with method_missing. 😂 I do fear we may go down that route with @dynamicCallable and @dynamicMemberLookup a little over Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [being made official](https://github.com/apple/swift-evolution/blob/master/proposals/0235-add-result.md) — iOS Dev Weekly · Issue 385 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `4th January 2019`
+  **NeKI brief:** Result is being made official in Swift 5. To celebrate, Paul Hudson has written up an article all about it! 🚀
+- [code sample](https://github.com/TwoLivesLeft/Menu) — iOS Dev Weekly · Issue 385 — Source repository · Topics: Developer Tools
+  **Published:** `4th January 2019`
+  **NeKI brief:** Examines macOS style menus aren’t going to be a good fit for most apps, in fact I’d say that they are only going to be useful in a tiny number of apps. Codea is one of them though, and that’s what Simeon Saëns writes about here. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Shapeshift](https://github.com/JohnSundell/Shapeshift) — iOS Dev Weekly · Issue 383 — Source repository · Topics: Developer Tools · Swift
   **Published:** `21st December 2018`
   **NeKI brief:** Examines Shapeshift, focusing on how do you easily get swift code into the ipad version of swift playgrounds? john sundell figured this was a problem that…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Xgen](https://github.com/JohnSundell/Xgen) — iOS Dev Weekly · Issue 383 — Source repository · Topics: Developer Tools
+  **Published:** `21st December 2018`
+  **NeKI brief:** I looked at the code for this and wondered for a minute what I was missing as there is maybe 5 lines of actual code in the tool. That led me to his Xgen project though which I had no idea about!
 - [changing in Swift 5](https://github.com/apple/swift-evolution/blob/master/proposals/0228-fix-expressiblebystringinterpolation.md) — iOS Dev Weekly · Issue 383 — Source repository · Topics: Developer Tools · Swift
   **Published:** `21st December 2018`
   **NeKI brief:** Examines changing in Swift 5, focusing on string interpolation is changing in swift 5 and erica sadun has put together a three part blog post on the subject. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
+- [formatting attributed strings](http://alisoftware.github.io/swift/2018/12/16/swift5-stringinterpolation-part2) — iOS Dev Weekly · Issue 383 — Article · Topics: Developer Tools · Swift
+  **Published:** `21st December 2018`
+  **NeKI brief:** Examines Making your Swift code more fun 🎉, magical ✨ and crunchier 👌. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Connecting to WiFis is still an unsolved problem](https://github.com/KrauseFx/WiFiAuth) — iOS Dev Weekly · Issue 383 — Source repository · Topics: Developer Tools
+  **Published:** `21st December 2018`
+  **NeKI brief:** How does your app behave when it’s connected to a captive WiFi network that hasn’t authenticated yet? This proof of concept code from Felix Krause shows you how to cope with the situation so you can at least let your users know that they’re currently captive.
+- [this function](https://gist.github.com/khanlou/770c24d5141e52e117642c4b03498966) — iOS Dev Weekly · Issue 383 — Source repository · Topics: Developer Tools
+  **Published:** `21st December 2018`
+  **NeKI brief:** Examines Smallest N items in a sequence, with binary search improvements - Sequence+SmallestN.swift. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [MagazineLayout](https://github.com/airbnb/MagazineLayout) — iOS Dev Weekly · Issue 383 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `21st December 2018`
+  **NeKI brief:** The page covers “MagazineLayout” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [SwiftRewriter](https://github.com/inamiy/SwiftRewriter) — iOS Dev Weekly · Issue 382 — Source repository · Topics: Developer Tools · Swift
   **Published:** `14th December 2018`
   **NeKI brief:** Examines SwiftRewriter, focusing on first there was swiftformat (which is still very actively maintained!) but this week saw the first release of a new code…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [very actively maintained](https://github.com/nicklockwood/SwiftFormat/blob/9c008683c3b814a1ab9cd10bd3f6b29da34449bb/CHANGELOG.md) — iOS Dev Weekly · Issue 382 — Source repository · Topics: Developer Tools · Swift
   **Published:** `14th December 2018`
   **NeKI brief:** Examines very actively maintained, focusing on first there was swiftformat (which is still very actively maintained!) but this week saw the first release of a new code…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [CardPresentationController](https://github.com/radianttap/CardPresentationController) — iOS Dev Weekly · Issue 382 — Source repository · Topics: Developer Tools
+  **Published:** `14th December 2018`
+  **NeKI brief:** Examines Custom UIPresentationController which mimics the behavior of Apple Music UI - radianttap/CardPresentationController. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [working in the open](https://github.com/Microsoft/dotnet) — iOS Dev Weekly · Issue 381 — Source repository · Topics: Developer Tools
+  **Published:** `7th December 2018`
+  **NeKI brief:** No, you’re not subscribed to the wrong newsletter! 😂 I couldn’t let this announcement pass though. Microsoft have been working in the open for many years, but recently made their UI frameworks open source too. The cynical amongst you might argue that native…
 - [Xcode Comment Spell Checker](https://github.com/velyan/Comment-Spell-Checker) — iOS Dev Weekly · Issue 381 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `7th December 2018`
   **NeKI brief:** Examines Xcode Comment Spell Checker, focusing on the author’s discussion of think it’s safe to say that the “new” xcode extensions have been a disappointment, mainly due to the restriction of…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
 - [Xcode and LLDB Advanced Debugging](https://medium.com/@fadiderias/xcode-and-lldb-advanced-debugging-tutorial-part-1-31919aa149e0) — iOS Dev Weekly · Issue 380 — Tutorial · Topics: Developer Tools · Xcode
   **Published:** `30th November 2018`
   **NeKI brief:** Examines Xcode and LLDB Advanced Debugging, focusing on three part series of posts (part 1, part 2 and part 3) from fady derias which is sure to teach you a few things you…. Use it as a focused research reference for related Apple-platform work, and.
+- [it is now](https://github.com/daveverwer/iOSDevDirectory/commit/d6b31a6ac1c730ed45e9346680dbc1f8f01ac71e) — iOS Dev Weekly · Issue 380 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `30th November 2018`
+  **NeKI brief:** By the way, just a a quick reminder that the primary way that I source content is by reading the feeds from the iOS Dev Directory. If you write about iOS development or Swift, you know what to do! Kyle’s blog wasn’t listed previously, but it is now! 👍
+- [Attributed Strings with Style](https://felginep.github.io/2018-11-23/attributed-string-with-style) — iOS Dev Weekly · Issue 380 — Article · Topics: Developer Tools
+  **Published:** `30th November 2018`
+  **NeKI brief:** Presents Attributed Strings with Style, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [SourceKit-LSP](https://github.com/apple/sourcekit-lsp) — iOS Dev Weekly · Issue 379 — Source repository · Topics: Developer Tools · Personal Essays
+  **Published:** `23rd November 2018`
+  **NeKI brief:** Examines Here we go! SourceKit-LSP can now power code completion, quick help and a few other features in Visual Studio Code! Mattt walks us through the steps needed to get everything up and running. I tried this and it worked rea Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Daily Tips from the Swift world](https://github.com/MobileTipsters/Swift-Daily-Tips) — iOS Dev Weekly · Issue 379 — Source repository · Topics: Developer Tools · Swift
   **Published:** `23rd November 2018`
   **NeKI brief:** Examines Daily Tips from the Swift world, focusing on every time i see a project with “weekly” in the name, i think back to 2011 and remember thinking “how hard can it be to…. Use it as a focused research reference for related Apple-platform work.
 - [this library](https://github.com/airbnb/AloeStackView) — iOS Dev Weekly · Issue 376 — Source repository · Topics: Developer Tools · Testing
   **Published:** `2nd November 2018`
   **NeKI brief:** Examines this library, focusing on when uistackview isn’t quite enough and uitableview feels unwieldy for managing disparate collections of controls, where…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Pixel](https://github.com/muukii/Pixel) — iOS Dev Weekly · Issue 376 — Source repository · Topics: Developer Tools
+  **Published:** `2nd November 2018`
+  **NeKI brief:** The GitHub repository now points to Brightroom, an open-source image-editing project with publicly readable source and documentation.
+- [Apple Event Invite StickerPack](https://github.com/azzoor/AppleEventInviteStickerPack) — iOS Dev Weekly · Issue 376 — Source repository · Topics: Developer Tools
+  **Published:** `2nd November 2018`
+  **NeKI brief:** Examines Contribute to azzoor/AppleEventInviteStickerPack development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [don’t want them in source control](https://github.com/dxa4481/truffleHog) — iOS Dev Weekly · Issue 375 — Source repository · Topics: Developer Tools
   **Published:** `26th October 2018`
   **NeKI brief:** Examines don’t want them in source control, focusing on how do you share the api keys and other secrets that need to be present to get your projects built and shipped? obviously…. Use it as a focused research reference for related Apple-platform work, and verify.
+- [Drawsana](https://github.com/Asana/Drawsana) — iOS Dev Weekly · Issue 375 — Source repository · Topics: Developer Tools
+  **Published:** `26th October 2018`
+  **NeKI brief:** Examines By introducing Markup in iOS 12, Apple have set expectations of what users will be able to do with images they bring into your app. You can’t use Apple’s Markup tools directly, but you could use this library by Steve Lan Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [MVCTodo](https://github.com/davedelong/MVCTodo) — iOS Dev Weekly · Issue 375 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `26th October 2018`
+  **NeKI brief:** Examines A very simple "To Do" app to illustrate the principles from my "A Better MVC" talk - davedelong/MVCTodo. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [FloatingPanel](https://github.com/SCENEE/FloatingPanel) — iOS Dev Weekly · Issue 375 — Source repository · Topics: Developer Tools · Maps & Location · Objective-C & Cocoa
+  **Published:** `26th October 2018`
+  **NeKI brief:** Examines A clean and easy-to-use floating panel UI component for iOS - scenee/FloatingPanel. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Panels](https://github.com/antoniocasero/Panels) — iOS Dev Weekly · Issue 375 — Source repository · Topics: Developer Tools
+  **Published:** `26th October 2018`
+  **NeKI brief:** Presents Panels, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [watch face project](https://github.com/steventroughtonsmith/SpriteKitWatchFace) — iOS Dev Weekly · Issue 374 — Source repository · Topics: Developer Tools
+  **Published:** `19th October 2018`
+  **NeKI brief:** Examines SpriteKit-based faux analog watch face example for watchOS - steventroughtonsmith/SpriteKitWatchFace. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Sizes](https://github.com/marcosgriselli/Sizes) — iOS Dev Weekly · Issue 373 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Personal Essays
+  **Published:** `12th October 2018`
+  **NeKI brief:** Examines View your app on different device and font sizes . Contribute to marcosgriselli/Sizes development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [How to Extend LLDB to Provide a Better Debugging Experience](https://pspdfkit.com/blog/2018/how-to-extend-lldb-to-provide-a-better-debugging-experience) — iOS Dev Weekly · Issue 373 — Article · Topics: Developer Tools · Foundation & Data Formats
+  **Published:** `12th October 2018`
+  **NeKI brief:** The article explains how to extend LLDB with custom tooling to improve debugging workflows for developers.
+- [HapticTouchGestureRecognizer](https://github.com/getaaron/HapticTouchGestureRecognizer) — iOS Dev Weekly · Issue 373 — Source repository · Topics: Developer Tools
+  **Published:** `12th October 2018`
+  **NeKI brief:** From what I can gather, the “Haptic Touch” of the iPhone XR is simply a long press with a haptic tap at the end. If you want to implement it in your own apps, this gesture recogniser class from Aaron Brager will do exactly that for you.
 - [CSProgress](https://github.com/CharlesJS/CSProgress) — iOS Dev Weekly · Issue 372 — Source repository · Topics: Developer Tools · Performance · Personal Essays
   **Published:** `5th October 2018`
   **NeKI brief:** Examines CSProgress, focusing on it’s ironic that using nsprogress to report on your long running task might actually make it slower. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [BulletinBoard](https://github.com/alexaubry/BulletinBoard) — iOS Dev Weekly · Issue 371 — Source repository · Topics: Developer Tools
   **Published:** `28th September 2018`
   **NeKI brief:** Examines BulletinBoard, focusing on this library from alex aubry is lovely. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [SubtleVolume](https://github.com/andreamazz/SubtleVolume) — iOS Dev Weekly · Issue 371 — Source repository · Topics: Developer Tools
+  **Published:** `28th September 2018`
+  **NeKI brief:** If your app is one where adjusting the volume is something your users will commonly do, and you also display content in the centre of your screen, then the default volume UI can be a little… much. I like this replacement from Andrea Mazzini. The only point…
+- [Euclid library](https://github.com/timsearle/Euclid) — iOS Dev Weekly · Issue 370 — Source repository · Topics: Developer Tools
+  **Published:** `21st September 2018`
+  **NeKI brief:** As part of the discussion that happened on Twitter, Tim Searle bravely volunteered the readme from his Euclid library for a public critique. Hopefully it was an interesting thread if you want to give it a read.
 - [accompanying playground](https://github.com/twostraws/whats-new-in-swift-5-0) — iOS Dev Weekly · Issue 370 — Source repository · Topics: Developer Tools · Swift
   **Published:** `21st September 2018`
   **NeKI brief:** Examines accompanying playground, focusing on oh and if you’re wondering how swift 5.0 is shaping up so far, paul hudson has the jump on that with a post and…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [NSFWDetector: A NSFW detector with CoreML](https://github.com/lovoo/NSFWDetector) — iOS Dev Weekly · Issue 370 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `21st September 2018`
+  **NeKI brief:** As you might imagine, this was nearly the “And Finally…” link fo this week, but I can actually see this being potentially useful in all sorts of projects. As someone who once built an iOS game which allowed user uploaded photos, I wish this had existed…
+- [Inside AudioKit Synth One: A Brief Tour for Developers](https://audiokitpro.com/inside-audiokit-synth-one) — iOS Dev Weekly · Issue 370 — Article · Topics: Developer Tools
+  **Published:** `21st September 2018`
+  **NeKI brief:** Examines Here is a “brief” tour inside AudioKit’s Synth One for developers. A bit about AudioKit There are quite a few developers working on both AudioKit and Synth One right now. AudioKit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [AudioKit Synth](https://audiokitpro.com/synth) — iOS Dev Weekly · Issue 370 — Article · Topics: Developer Tools
+  **Published:** `21st September 2018`
+  **NeKI brief:** Examines AudioKit Synth One | AudioKit Pro. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [comprehensive open source audio app](https://github.com/AudioKit/AudioKitSynthOne) — iOS Dev Weekly · Issue 370 — Source repository · Topics: Developer Tools
+  **Published:** `21st September 2018`
+  **NeKI brief:** Examines I often link to open source apps in the hope that they’ll teach someone something about app development. One disadvantage of linking to a GitHub repository though is that there’s usually not much of a guide about how to Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [this little hack](https://gist.github.com/arturgrigor/10d25baf362cab984fc8c1093364ccfb) — iOS Dev Weekly · Issue 369 — Source repository · Topics: Developer Community & Business · Developer Tools · Objective-C & Cocoa
+  **Published:** `14th September 2018`
+  **NeKI brief:** Examines I’ve never been a big fan of disabling all warnings when importing a CocoaPod, so I was interested to see this little hack from Artur Grigor which allows specific warnings to be turned off for a pod. Of course, a better Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [What I Learned Making 5 ARKit Prototypes](https://medium.com/@nathangitter/what-i-learned-making-five-arkit-prototypes-7a30c0cd3956) — iOS Dev Weekly · Issue 369 — Article · Topics: Developer Tools · Spatial Computing
   **Published:** `14th September 2018`
   **NeKI brief:** Examines What I Learned Making 5 ARKit Prototypes, focusing on the author’s note that talked about some of nathan gitter’s arkit prototypes back in issue 362 so i was pleased to read this write up of his…. Use it as a focused research reference for related Apple-platform work.
+- [DataSourceKit](https://github.com/ishkawa/DataSourceKit) — iOS Dev Weekly · Issue 368 — Source repository · Topics: Developer Tools
+  **Published:** `7th September 2018`
+  **NeKI brief:** The table view data source delegate model is great for efficiency when hundreds of the same kind of cells are being used, but when you have lots of different types of cells managing the complexity of your table view controller can become challenging. This…
+- [Private properties in protocols](http://alisoftware.github.io/swift/protocols/2018/09/02/protocols-private-properties) — iOS Dev Weekly · Issue 368 — Article · Topics: Developer Tools · Swift
+  **Published:** `7th September 2018`
+  **NeKI brief:** Examines Making your Swift code more fun 🎉, magical ✨ and crunchier 👌. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [previous side projects](https://github.com/JohnSundell/Marathon) — iOS Dev Weekly · Issue 367 — Source repository · Topics: Developer Community & Business · Developer Tools
   **Published:** `31st August 2018`
   **NeKI brief:** Examines Marathon, focusing on we know that swift is intended to be usable as a scripting language, but there are some rough edges around actually using…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Surviving the App Store](https://github.com/amirrajan/survivingtheappstore) — iOS Dev Weekly · Issue 367 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Graphics, Media & Games
+  **Published:** `31st August 2018`
+  **NeKI brief:** Examines My book on getting to the #1 Spot in the App Store. Buy my games to support me. - amirrajan/survivingtheappstore. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Ryan Cash](https://github.com/amirrajan/survivingtheappstore/blob/master/manuscript/altos-adventure-interview.md) — iOS Dev Weekly · Issue 367 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Graphics, Media & Games
+  **Published:** `31st August 2018`
+  **NeKI brief:** The page covers “Ryan Cash” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Sam Barlow](https://github.com/amirrajan/survivingtheappstore/blob/master/manuscript/her-story-interview.md) — iOS Dev Weekly · Issue 367 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Graphics, Media & Games
+  **Published:** `31st August 2018`
+  **NeKI brief:** Examines My book on getting to the #1 Spot in the App Store. Buy my games to support me. - survivingtheappstore/manuscript/her-story-interview.md at master · amirrajan/survivingtheappstore. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Shaun Musgrave](https://github.com/amirrajan/survivingtheappstore/blob/master/manuscript/touch-arcade-interview.md) — iOS Dev Weekly · Issue 367 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Graphics, Media & Games
+  **Published:** `31st August 2018`
+  **NeKI brief:** This free ebook from Amir Rajan looks great. The first few chapters go through some tips and techniques for running an App Store game business, but then the book switches into transcripts of interviews with popular iOS game developers and others in the…
 - [swiff](https://github.com/agens-no/swiff) — iOS Dev Weekly · Issue 366 — Source repository · Topics: CI/CD & Automation · Developer Tools
   **Published:** `24th August 2018`
   **NeKI brief:** Examines swiff, focusing on this script from håvard fossli looks useful. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Validated](https://github.com/pointfreeco/swift-validated) — iOS Dev Weekly · Issue 366 — Source repository · Topics: Developer Tools · Swift
   **Published:** `24th August 2018`
   **NeKI brief:** Examines Validated, focusing on validated from brandon williams and stephen celis is a tiny library for collecting multiple errors together rather than…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Stateful view controller containment for iOS](https://github.com/formbound/StateViewController) — iOS Dev Weekly · Issue 366 — Source repository · Topics: Developer Tools
+  **Published:** `24th August 2018`
+  **NeKI brief:** The GitHub repository provides a stateful view-controller containment component for iOS and exposes its source and usage documentation.
+- [Schedule](https://github.com/jianstm/Schedule) — iOS Dev Weekly · Issue 366 — Source repository · Topics: Developer Tools
+  **Published:** `24th August 2018`
+  **NeKI brief:** Presents Schedule, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [playground](https://github.com/ra1028/DifferenceKit/blob/master/DifferenceKit.playground/Contents.swift) — iOS Dev Weekly · Issue 366 — Source repository · Topics: Developer Tools · Swift
   **Published:** `24th August 2018`
   **NeKI brief:** Examines playground, focusing on ryo aoyama with a library designed to work with performbatchupdates on table and collection views to allow fast…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [iOS Project Environment Setup](https://github.com/messeb/ios-project-env-setup) — iOS Dev Weekly · Issue 365 — Source repository · Topics: Developer Tools
+  **Published:** `17th August 2018`
+  **NeKI brief:** Sebastian Messeb with a great guide to a few different techniques for automating the setup of your projects on a new machine. As your apps grow in size/complexity, or if you work as part of a larger team you’ll want to look at putting something like this…
+- [Let it Rip](https://indiestack.com/2018/08/let-it-rip) — iOS Dev Weekly · Issue 365 — Article · Topics: Developer Tools
+  **Published:** `17th August 2018`
+  **NeKI brief:** Examines In the latest Mojave public beta, I noticed a foreboding warning in the console when I build and run FastScripts, my macOS scripting utility:FastScripts [...] is calling TIS/TSM in. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [xiblint](https://github.com/lyft/xiblint) — iOS Dev Weekly · Issue 364 — Source repository · Topics: Accessibility · Developer Tools · Swift
   **Published:** `10th August 2018`
   **NeKI brief:** Examines xiblint, focusing on swiftlint is a fantastic tool for keeping your code standards in check, but what about storyboards and xibs? with checks…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [knil](https://github.com/ethanhuang13/knil) — iOS Dev Weekly · Issue 364 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `10th August 2018`
+  **NeKI brief:** Examines Universal Links testing made easy. Contribute to ethanhuang13/knil development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [xcode-install](https://github.com/krausefx/xcode-install) — iOS Dev Weekly · Issue 364 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `10th August 2018`
   **NeKI brief:** Examines xcode-install, focusing on the author’s note that saw this tweet by felix krause this week and it seemed like a good idea to remind everyone that during this period of…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
+- [his new app](https://www.dropbox.com/s/atzhip7esxeszwt/Unwrap.mp4) — iOS Dev Weekly · Issue 364 — Article · Topics: Developer Tools · Swift
+  **Published:** `10th August 2018`
+  **NeKI brief:** I’ve been following Paul Hudson’s tweets about his new app for teaching Swift using his Swift in 60 seconds content. Yesterday saw him release the code to GitHub. This isn’t just a release of the content (although that is included), but a release of the app…
 - [Swift in 60 seconds](https://www.hackingwithswift.com/sixty) — iOS Dev Weekly · Issue 364 — Article · Topics: Developer Tools · Swift
   **Published:** `10th August 2018`
   **NeKI brief:** Explores Swift in 60 seconds in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [available on GitHub](https://github.com/nathangitter/fluid-interfaces) — iOS Dev Weekly · Issue 364 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `10th August 2018`
+  **NeKI brief:** Discusses available on GitHub, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
+- [ScrollingStackViewController](https://github.com/justeat/ScrollingStackViewController) — iOS Dev Weekly · Issue 364 — Source repository · Topics: Developer Tools
+  **Published:** `10th August 2018`
+  **NeKI brief:** After talking about stack views inside scroll views last week, Maciej Trybiło was kind enough to let me know about ScrollingStackViewController which packages the same technique up into a library. Just subclass ScrollingStackViewController and add your child…
 - [Charles](https://www.charlesproxy.com/documentation/ios) — iOS Dev Weekly · Issue 363 — Article · Topics: Developer Tools
   **Published:** `3rd August 2018`
   **NeKI brief:** Profiles Charles, a developer tool or product relevant to Apple-platform workflows. Evaluate its integration surface, operational costs, privacy implications, and fit for the current project, then verify supported SDKs and capabilities before adoption.
+- [DBDebugToolkit](https://github.com/dbukowski/DBDebugToolkit) — iOS Dev Weekly · Issue 362 — Source repository · Topics: Developer Tools
+  **Published:** `27th July 2018`
+  **NeKI brief:** The page covers “DBDebugToolkit” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [open source](https://github.com/ethanhuang13/ladybug) — iOS Dev Weekly · Issue 361 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `20th July 2018`
+  **NeKI brief:** Presents open source, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Brisk](https://github.com/br1sk/brisk) — iOS Dev Weekly · Issue 361 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `20th July 2018`
+  **NeKI brief:** Submitting radars is not exactly a smooth experience and having to do it through an old web interface is less than ideal. This macOS application by Keith Smiley attempts to simplify that. For lack of an official native app from Apple for submitting radars…
 - [battle tested networking library](https://github.com/twitter/ios-twitter-network-layer) — iOS Dev Weekly · Issue 361 — Source repository · Topics: Developer Community & Business · Networking · Testing
   **Published:** `20th July 2018`
   **NeKI brief:** Examines battle tested networking library, focusing on is this a networking library where every request only returns the first 280 characters of data? 🤣 no, of course it isn’t. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [SQL 2.0](https://github.com/vapor/sql/releases/tag/2.0.0) — iOS Dev Weekly · Issue 361 — Source repository · Topics: Developer Tools
+  **Published:** `20th July 2018`
+  **NeKI brief:** Examines *️⃣ Build SQL queries in Swift. Extensible, protocol-based design that supports DQL, DML, and DDL. - Release SQL 2.0.0 · vapor/sql-kit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [minimal](https://github.com/vapor/sql/blob/master/README.md) — iOS Dev Weekly · Issue 361 — Source repository · Topics: Developer Tools
+  **Published:** `20th July 2018`
+  **NeKI brief:** Examines *️⃣ Build SQL queries in Swift. Extensible, protocol-based design that supports DQL, DML, and DDL. - sql-kit/README.md at main · vapor/sql-kit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [FluentQuery](https://github.com/MihaelIsaev/FluentQuery) — iOS Dev Weekly · Issue 361 — Source repository · Topics: Developer Tools
+  **Published:** `20th July 2018`
+  **NeKI brief:** Examines 🗃 Powerful and easy to use Swift Query Builder for Vapor 3. - MihaelIsaev/FluentQuery. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Debugging on iOS With Unified Logging System](https://agostini.tech/2018/06/24/unified-logging-system) — iOS Dev Weekly · Issue 360 — Article · Topics: Developer Tools
+  **Published:** `13th July 2018`
+  **NeKI brief:** Examines Unified logging system in a relatively new logging mechanism that was introduced with iOS 10. It's blazingly fast and gives you a fine-grained control over your logs. In this. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Bartinter](https://github.com/MaximKotliar/Bartinter) — iOS Dev Weekly · Issue 359 — Source repository · Topics: Developer Tools
   **Published:** `6th July 2018`
   **NeKI brief:** Examines Bartinter, focusing on really nice idea from maxim kotliar. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Sica](https://github.com/cats-oss/Sica) — iOS Dev Weekly · Issue 359 — Source repository · Topics: Developer Tools
+  **Published:** `6th July 2018`
+  **NeKI brief:** I liked this simple, chainable, animation API from Taiki Suzuki. It’s not going to cope with every animation scenario but it does have simplicity on its side and there’s some good options in terms of timing functions. The API is clean and it’ll save you some…
 - [Money](https://github.com/Flight-School/Money) — iOS Dev Weekly · Issue 358 — Source repository · Topics: Developer Tools · Testing
   **Published:** `29th June 2018`
   **NeKI brief:** Examines Money, focusing on described as a precise, type-safe representation of a monetary amount in a given currency, this library is extracted from…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [StyledTextKit](http://github.com/GitHawkApp/StyledTextKit) — iOS Dev Weekly · Issue 357 — Source repository · Topics: Developer Tools · Maps & Location
+  **Published:** `22nd June 2018`
+  **NeKI brief:** Examines Declarative building and fast rendering attributed string library. - GitHawkApp/StyledTextKit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [MessengerKit](https://github.com/steve228uk/MessengerKit) — iOS Dev Weekly · Issue 357 — Source repository · Topics: Developer Tools
+  **Published:** `22nd June 2018`
+  **NeKI brief:** No, this isn’t anything to do with iOS 12! It’s just a good looking framework from Stephen Radford for building a Messages style conversation view. It looks good by default, but is also customisable (just don’t make it look like this!) 😂
+- [IAPKit framework](https://github.com/blackpixel/IAPKit) — iOS Dev Weekly · Issue 356 — Source repository · Topics: Developer Tools
+  **Published:** `15th June 2018`
+  **NeKI brief:** There’s more on free trials in this week’s Business & Marketing section below, but before we get to that, take a look at this article from Jamin Guy on the new IAPKit framework from Black Pixel. If you’re looking for a drop-in free trial system for your app…
 - [App Store Guidelines](https://gist.github.com/hongrich/260fc8c36aaed3f2a63c0612ba9fc910/revisions) — iOS Dev Weekly · Issue 355 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Spatial Computing
   **Published:** `8th June 2018`
   **NeKI brief:** Examines App Store Guidelines, focusing on but dave, what about all the other stuff from this week? what about the new app store guidelines, the swift 5 delay,…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
 - [Swift 5 delay](https://github.com/apple/swift-evolution/commit/de7727f7dcf7bbfdea6763a87f4c8c534f27406e) — iOS Dev Weekly · Issue 355 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
   **Published:** `8th June 2018`
   **NeKI brief:** Examines Swift 5 delay, focusing on but dave, what about all the other stuff from this week? what about the new app store guidelines, the swift 5 delay,…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
+- [iOS Messenger SDK](https://github.com/intercom/intercom-ios) — iOS Dev Weekly · Issue 355 — Source repository · Topics: Developer Career & Practice · Developer Tools · Graphics, Media & Games
+  **Published:** `8th June 2018`
+  **NeKI brief:** Hiring talented mobile engineers to develop our iOS Messenger SDK. Be part of the journey!
 - [git branch and clean/dirty status](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/daveverwer.zsh-theme) — iOS Dev Weekly · Issue 354 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Xcode
   **Published:** `1st June 2018`
   **NeKI brief:** Examines git branch and clean/dirty status, focusing on nice tip from marc palmer on including various information in your terminal prompt. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [this one is](https://github.com/ios-factor/ios-factor.com) — iOS Dev Weekly · Issue 354 — Source repository · Topics: Concurrency · Developer Tools
+  **Published:** `1st June 2018`
+  **NeKI brief:** The page covers “this one is” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Want to automatically build, test, and release your apps? Try App Center](https://www.youtube.com/watch?v=RDluKlJneZA) — iOS Dev Weekly · Issue 353 — Video · Topics: Developer Tools · Testing
   **Published:** `25th May 2018`
   **NeKI brief:** Examines Want to automatically build, test, and release your apps? Try App Center, focusing on from the creators of hockeyapp: ship better apps faster by connecting your app’s github repo and automating the rest!…. Use it as a focused research reference for related Apple-platform work.
 - [xcprojectlint: A security blanket for Xcode project files](https://github.com/americanexpress/xcprojectlint) — iOS Dev Weekly · Issue 353 — Source repository · Topics: Developer Tools · Security & Privacy · Xcode
   **Published:** `25th May 2018`
   **NeKI brief:** Examines xcprojectlint: A security blanket for Xcode project files, focusing on would you like to automate some consistency in your xcode project files with checks for settings defined at the project…. Use it as a focused research reference for related Apple-platform work, and verify version-specific.
+- [Trusting Popular SDKs](https://github.com/trusting-sdks/https) — iOS Dev Weekly · Issue 352 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `18th May 2018`
+  **NeKI brief:** The page covers “Trusting Popular SDKs” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [TensorFlow isn’t a permanent fork of Swift](https://forums.swift.org/t/swift-for-tensorflow-to-be-developed-on-tensorflow-branch-on-apple-swift-on-github/12595) — iOS Dev Weekly · Issue 352 — Article · Topics: Developer Tools · Swift
+  **Published:** `18th May 2018`
+  **NeKI brief:** I’m really pleased to see that the TensorFlow fork of Swift that used to live here is already back underneath the apple/swift repository on a tensorflow branch. This post by Ted Kremenek is a good summary of what’s going on, and very encouragingly includes…
+- [used to live here](https://github.com/google/swift) — iOS Dev Weekly · Issue 352 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `18th May 2018`
+  **NeKI brief:** Examines The Swift Programming Language. Contribute to google/swift development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [tensorflow branch](https://github.com/apple/swift/tree/tensorflow) — iOS Dev Weekly · Issue 352 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `18th May 2018`
+  **NeKI brief:** I’m really pleased to see that the TensorFlow fork of Swift that used to live here is already back underneath the apple/swift repository on a tensorflow branch. This post by Ted Kremenek is a good summary of what’s going on, and very encouragingly includes…
+- [iOS 95](https://github.com/Baddaboo/ClassicKit) — iOS Dev Weekly · Issue 352 — Source repository · Topics: Developer Tools
+  **Published:** `18th May 2018`
+  **NeKI brief:** The page covers “iOS 95” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Microsoft and GitHub Present: A Solution for Mobile CI](https://aka.ms/appcentermarketplace) — iOS Dev Weekly · Issue 351 — Article · Topics: CI/CD & Automation · Developer Tools · Testing
   **Published:** `11th May 2018`
   **NeKI brief:** Examines Microsoft and GitHub Present: A Solution for Mobile CI, focusing on automate the build-test-distribute process for your mobile projects in github. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [SwiftNIO](https://github.com/apple/swift-nio) — iOS Dev Weekly · Issue 351 — Source repository · Topics: Developer Tools · Swift
   **Published:** `11th May 2018`
   **NeKI brief:** Examines SwiftNIO, focusing on it’s great to see this major release from the vapor team and it’s encouraging to see that it’s been built on top of…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [CloudKitGDPR](https://github.com/arturgrigor/CloudKitGDPR) — iOS Dev Weekly · Issue 350 — Source repository · Topics: Developer Tools
+  **Published:** `4th May 2018`
+  **NeKI brief:** The GitHub repository contains CloudKitGDPR, a project addressing GDPR-related data handling with CloudKit.
 - [this Swift implementation](https://github.com/cgoldsby/LoginCritter) — iOS Dev Weekly · Issue 349 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
   **Published:** `27th April 2018`
   **NeKI brief:** Examines this Swift implementation, focusing on the author’s note that came across this ui experiment by darin senneff a couple of months ago, take a second to go and look at it before…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details.
+- [Compiler Optimizations, Compiling Optimally, and Whole Modules](https://gist.github.com/lsavino/38367f10c2d20aeec4f031610d2929b8) — iOS Dev Weekly · Issue 349 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `27th April 2018`
+  **NeKI brief:** This gist by Laura Savino can be summed up by simply saying “The Swift compiler is still very much in development”. 😂
+- [Making efficient use of libdispatch](https://gist.github.com/tclementdev/6af616354912b0347cdf6db159c37057) — iOS Dev Weekly · Issue 349 — Source repository · Topics: Concurrency · Developer Tools
+  **Published:** `27th April 2018`
+  **NeKI brief:** Examines Are you doing heavy work with GCD in your app? Originally based on this twitter thread it ended up as a more structured gist. You won’t need this if you’re just doing basic async work with GCD, but if you’re spinning out Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [this useful repository](https://github.com/jonreid/XcodeWarnings) — iOS Dev Weekly · Issue 348 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `20th April 2018`
   **NeKI brief:** Examines this useful repository, focusing on steve kalkwarf on why xcconfig files are wonderful, and why you should use them. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [WWDC 2018 Scholarship Submissions](https://wwdc.github.io/2018) — iOS Dev Weekly · Issue 347 — Article · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** The page is a public index of WWDC 2018 scholarship submissions and provides browsable information about the submitted projects.
+- [repo](https://github.com/wwdc/2018) — iOS Dev Weekly · Issue 347 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** Last week I linked to one of the WWDC 2018 scholarship submissions that had caught my eye and said I felt guilty about linking to just that one when I was sure there were so many other great submissions waiting to be discovered. So, I asked if there were any…
+- [2014](https://github.com/wwdc/2014) — iOS Dev Weekly · Issue 347 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** Examines A curated list of all the WWDC Submissions in one place - wwdc/2014. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [2015](https://github.com/wwdc/2015) — iOS Dev Weekly · Issue 347 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** Examines Last week I linked to one of the WWDC 2018 scholarship submissions that had caught my eye and said I felt guilty about linking to just that one when I was sure there were so many other great submissions waiting to be dis Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [2016](https://github.com/wwdc/2016) — iOS Dev Weekly · Issue 347 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** The page covers “2016” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [2017](https://github.com/wwdc/2017) — iOS Dev Weekly · Issue 347 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** Examines Student Submissions for the WWDC 2017 Scholarship - GitHub - wwdc/2017: Student Submissions for the WWDC 2017 Scholarship. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [latest release](https://github.com/realm/SwiftLint/releases/tag/0.25.1) — iOS Dev Weekly · Issue 347 — Source repository · Topics: Developer Community & Business · Swift · Testing
   **Published:** `13th April 2018`
   **NeKI brief:** Examines latest release, focusing on the author’s note that said a couple of weeks ago that i was going to link to some established, and well maintained frameworks and when i came…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [ShineUpdater: Enterprise app updates](https://github.com/EightyThreeCreative/ShineUpdater) — iOS Dev Weekly · Issue 347 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `13th April 2018`
+  **NeKI brief:** The GitHub repository provides ShineUpdater, a library for distributing enterprise application updates on Apple platforms.
+- [fastlane.ci](https://github.com/fastlane/ci/releases/tag/1.0.0.alpha.1) — iOS Dev Weekly · Issue 346 — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `6th April 2018`
+  **NeKI brief:** Records an early fastlane.ci release and its automation-project context. Useful for understanding the historical direction of iOS CI tooling, while current behavior requires maintained documentation.
+- [open source framework](https://github.com/hezi/Storytime) — iOS Dev Weekly · Issue 346 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `6th April 2018`
+  **NeKI brief:** Examines Storytime is a framework to parse and render Interface Builder Storyboard files. MIT Licensed - hezi/Storytime. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [MerchantKit](https://github.com/benjaminmayo/merchantkit) — iOS Dev Weekly · Issue 346 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `6th April 2018`
+  **NeKI brief:** Presents MerchantKit, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Visual Programming Language](https://github.com/NathanFlurry/VisualProgrammingLanguage) — iOS Dev Weekly · Issue 346 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `6th April 2018`
+  **NeKI brief:** Presents Visual Programming Language, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Do you miss the Home button?](https://github.com/nathangitter/HomeButton) — iOS Dev Weekly · Issue 346 — Source repository · Topics: Developer Tools
+  **Published:** `6th April 2018`
+  **NeKI brief:** Provides a concrete HomeButton repository for studying a home-button-style interaction or affordance. Useful as implementation material, with source age, compatibility, and licensing checked before reuse.
+- [awkward](https://www.charlesproxy.com/documentation/faqs/using-charles-from-an-iphone) — iOS Dev Weekly · Issue 345 — Tutorial · Topics: Developer Community & Business · Developer Tools · Personal Essays
+  **Published:** `30th March 2018`
+  **NeKI brief:** Charles is an essential part of any developer’s toolkit but of course until now it needed to be running on your Mac which was awkward for debugging iOS apps on a real device. That pain is now gone though! Just install a new root certificate, generated from…
 - [this library](https://github.com/dreymonde/Delegated) — iOS Dev Weekly · Issue 344 — Source repository · Topics: Developer Tools
   **Published:** `23rd March 2018`
   **NeKI brief:** Examines this library, focusing on i’m a little conflicted about this library from oleg dreyman. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Layout](https://github.com/schibsted/layout) — iOS Dev Weekly · Issue 344 — Source repository · Topics: Developer Tools
   **Published:** `23rd March 2018`
   **NeKI brief:** Examines Layout, focusing on nick lockwood on layout a new declarative ui framework released last week. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Comprehensive List of Open-Source iOS Apps](https://github.com/dkhamsing/open-source-ios-apps) — iOS Dev Weekly · Issue 343 — Source repository · Topics: Developer Tools
+  **Published:** `16th March 2018`
+  **NeKI brief:** I came across this via Peter Steinberger this week. It’s a really comprehensive list of open source iOS apps. Maintained by dkhamsing, it contains over 750 apps from all the iOS platforms covering a huge number genres.
+- [Solving a Mysterious Heap Corruption Crash](https://topologyeyewear.github.io/engineering-blog/2018/03/07/heap_corruption) — iOS Dev Weekly · Issue 342 — Article · Topics: Developer Tools
+  **Published:** `9th March 2018`
+  **NeKI brief:** Examines A while back, we noticed an increase in crashes in our app. The crashes were marked as heap corruption, which makes them hard to debug — the location given in the stack trace (if a. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Succulent](https://github.com/cactuslab/Succulent) — iOS Dev Weekly · Issue 341 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `2nd March 2018`
+  **NeKI brief:** Presents Succulent, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Repeat: Modern alternative to NSTimer in Swift](https://github.com/malcommac/Repeat) — iOS Dev Weekly · Issue 341 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2nd March 2018`
+  **NeKI brief:** The page covers “Repeat: Modern alternative to NSTimer in Swift” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [The Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) — iOS Dev Weekly · Issue 341 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Testing
+  **Published:** `2nd March 2018`
+  **NeKI brief:** Examines So the latest Unicode crash bug was fixed recently, and obviously Apple are going to take care of these on an operating system level. But do you test your apps with anything that’s not standard? Maybe you should give thi Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [ProvisionQL](https://github.com/ealeksandrov/ProvisionQL) — iOS Dev Weekly · Issue 340 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Performance
+  **Published:** `23rd February 2018`
+  **NeKI brief:** Examines Quick Look plugin for mobile apps and provisioning profiles - ealeksandrov/ProvisionQL. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Tomorrowland](https://github.com/kballard/Tomorrowland) — iOS Dev Weekly · Issue 340 — Source repository · Topics: Developer Tools
+  **Published:** `23rd February 2018`
+  **NeKI brief:** The page covers “Tomorrowland” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Edit Breakpoints in Xcode](https://medium.com/@iostechset/edit-breakpoints-in-xcode-a20b4e453598) — iOS Dev Weekly · Issue 338 — Article · Topics: App Intents & System Surfaces · Developer Tools · Xcode
   **Published:** `9th February 2018`
   **NeKI brief:** Examines Edit Breakpoints in Xcode, focusing on breakpoints are extremely powerful, but how many of us use them just to freeze the app and use the debugger? this article…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [Shallows](https://github.com/dreymonde/Shallows) — iOS Dev Weekly · Issue 338 — Source repository · Topics: Developer Tools
+  **Published:** `9th February 2018`
+  **NeKI brief:** In this post, Oleg Dreyman introduces Shallows, a simple caching library for iOS. I really like how this library hides so much of the implementation details so that you don’t have to worry about them. If you have caching needs in your app, definitely give…
+- [MessageViewController](https://github.com/GitHawkApp/MessageViewController) — iOS Dev Weekly · Issue 338 — Source repository · Topics: Developer Tools
+  **Published:** `9th February 2018`
+  **NeKI brief:** Ryan Nystrom open-sourced this project which makes customizing messaging interfaces much easier. With built-in support for versatile autocompletion, you too can bring a Slack-like name or emoji suggestion engine to your apps. MessageViewController’s…
+- [The Best Code](https://github.com/kelseyhightower/nocode) — iOS Dev Weekly · Issue 338 — Source repository · Topics: Developer Tools
+  **Published:** `9th February 2018`
+  **NeKI brief:** The Best Code. This link is retained as a technical reading lead for Apple-platform development.
 - [Promises by Google](https://github.com/google/promises) — iOS Dev Weekly · Issue 337 — Source repository · Topics: Concurrency · Developer Tools · Testing
   **Published:** `2nd February 2018`
   **NeKI brief:** Examines Promises by Google, focusing on the author’s note that recommend checking out promises if you hate the messiness that comes with nested async operations. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [AppFolder: 🗂](https://github.com/dreymonde/AppFolder) — iOS Dev Weekly · Issue 336 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `26th January 2018`
+  **NeKI brief:** Examines 🗂 Never use NSSearchPathForDirectoriesInDomains again - dreymonde/AppFolder. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Beak](https://github.com/yonaskolb/Beak) — iOS Dev Weekly · Issue 335 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `19th January 2018`
+  **NeKI brief:** Yes, you could write a command line tool in Swift or yes, you could write a script, but now there’s a 3rd option! Beak analyses a Swift file, finds public functions and lets you run them from the terminal. Looks pretty cool.
+- [write a script](https://github.com/blakemerryman/Swift-Scripts) — iOS Dev Weekly · Issue 335 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `19th January 2018`
+  **NeKI brief:** Examines Scripting with Swift, Apple's new programming language. - blakemerryman/Swift-Scripts. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [IBLinter](https://github.com/kateinoigakukun/IBLinter) — iOS Dev Weekly · Issue 335 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `19th January 2018`
+  **NeKI brief:** Think of this like SwiftLint for your XIB/storyboard files. I ran it past a couple of projects of mine and while it didn’t find any serious problems, that in itself is comforting! 👍 The included checks are fairly basic but I’m sure more will be added in the…
 - [evolution proposal](https://github.com/apple/swift-evolution/blob/master/proposals/0143-conditional-conformances.md) — iOS Dev Weekly · Issue 335 — Source repository · Topics: Developer Tools · Swift
   **Published:** `19th January 2018`
   **NeKI brief:** Examines evolution proposal, focusing on so planning for swift 4.1 is well underway now and this post by ben cohen brings us up to speed on some of the changes…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details.
+- [RSParser](https://github.com/brentsimmons/RSParser) — iOS Dev Weekly · Issue 335 — Source repository · Topics: Developer Tools
+  **Published:** `19th January 2018`
+  **NeKI brief:** The GitHub repository contains RSParser, an open-source parser project whose source code and documentation are publicly available.
 - [Slanted Layout](https://github.com/yacir/CollectionViewSlantedLayout) — iOS Dev Weekly · Issue 334 — Source repository · Topics: Developer Tools · Swift
   **Published:** `12th January 2018`
   **NeKI brief:** Examines Slanted Layout, focusing on fully configurable subclass of uicollectionviewlayout that allows the display of slanted cells. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2699,16 +5066,31 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines RxFlow, focusing on as reactive programming continues to become even more popular, we’re going to see even more ways that it can make writing…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [LSAnimator and CoreAnimator](https://github.com/Lision/LSAnimator) — iOS Dev Weekly · Issue 333 — Source repository · Topics: Concurrency · Developer Tools · Objective-C & Cocoa
   **Published:** `5th January 2018`
-  **NeKI brief:** Examines LSAnimator and CoreAnimator, focusing on chained animations are annoying to deal with using standard frameworks, and trying to add concurrency on top of this is…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+  **NeKI brief:** Provides chained animation utilities for iOS, including reusable animation composition around UIKit-style transitions. Inspect it when comparing abstractions that make sequential or concurrent visual effects easier to express.
 - [SwiftKotlin](https://github.com/angelolloqui/SwiftKotlin) — iOS Dev Weekly · Issue 332 — Source repository · Topics: Developer Tools · Swift
   **Published:** `22nd December 2017`
   **NeKI brief:** Examines SwiftKotlin, focusing on tool for converting swift code to kotlin. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [CollectionKit](https://github.com/SoySauceLab/CollectionKit) — iOS Dev Weekly · Issue 332 — Source repository · Topics: Developer Tools
+  **Published:** `22nd December 2017`
+  **NeKI brief:** Examines Reimagining UICollectionView. Contribute to SoySauceLab/CollectionKit development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Shiny](https://github.com/efremidze/Shiny) — iOS Dev Weekly · Issue 332 — Source repository · Topics: Developer Tools
+  **Published:** `22nd December 2017`
+  **NeKI brief:** The GitHub repository contains Shiny, an open-source Swift project with publicly readable source and documentation.
 - [Apple open-sources Turi Create](https://github.com/apple/turicreate) — iOS Dev Weekly · Issue 331 — Source repository · Topics: AI Development · Developer Tools
   **Published:** `15th December 2017`
   **NeKI brief:** Examines Apple open-sources Turi Create, focusing on by releasing turi create to the public, apple is making is easier than ever for people without a machine learning…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Twitter Kit](https://github.com/twitter/twitter-kit-ios) — iOS Dev Weekly · Issue 331 — Source repository · Topics: Developer Tools
+  **Published:** `15th December 2017`
+  **NeKI brief:** Twitter open-sourced the Twitter Kit SDK, which is the framework which third-party apps use to access Twitter content. Digging through the codebase, this repository looks like a great place to learn about best practices in API development – and Twitter is…
 - [Ease](https://github.com/roberthein/Ease) — iOS Dev Weekly · Issue 331 — Source repository · Topics: Developer Tools · UIKit
   **Published:** `15th December 2017`
   **NeKI brief:** Examines Ease, focusing on robert-hein hooijmans just released this animation framework which makes adding spring animations a breeze. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Smile to Unlock](https://github.com/rsrbk/SmileToUnlock) — iOS Dev Weekly · Issue 330 — Source repository · Topics: Developer Tools
+  **Published:** `8th December 2017`
+  **NeKI brief:** Smile to Unlock. This link is retained as a technical reading lead for Apple-platform development.
+- [Lona by Airbnb](https://github.com/airbnb/Lona) — iOS Dev Weekly · Issue 329 — Source repository · Topics: Developer Tools
+  **Published:** `1st December 2017`
+  **NeKI brief:** The page covers “Lona by Airbnb” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [IceCream](https://github.com/caiyue1993/IceCream) — iOS Dev Weekly · Issue 329 — Source repository · Topics: Developer Tools · Persistence & Synchronisation
   **Published:** `1st December 2017`
   **NeKI brief:** Examines IceCream, focusing on if you’ve been holding off on syncing your realm database with cloudkit thinking it requires a lot of work, well you’re…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2721,6 +5103,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Chronology](https://github.com/davedelong/Chronology) — iOS Dev Weekly · Issue 328 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Swift
   **Published:** `24th November 2017`
   **NeKI brief:** Examines Chronology, focusing on former apple software engineer and developer evangelist dave delong is taking on the challenge of creating a swifty date…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [on Github](https://github.com/malcommac/UIWindowTransitions) — iOS Dev Weekly · Issue 328 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `24th November 2017`
+  **NeKI brief:** Presents on Github, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Animoji Studio](https://github.com/insidegui/AnimojiStudio) — iOS Dev Weekly · Issue 327 — Source repository · Topics: Developer Tools
+  **Published:** `17th November 2017`
+  **NeKI brief:** Examines Make cute emoji videos with unlimited duration and share anywhere (iPhone X, XS and XS Max only!) - insidegui/AnimojiStudio. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Optimizing Swift Build Times](https://github.com/fastred/Optimizing-Swift-Build-Times) — iOS Dev Weekly · Issue 326 — Source repository · Topics: Developer Tools · Swift
   **Published:** `10th November 2017`
   **NeKI brief:** Examines Optimizing Swift Build Times, focusing on over the past 2 years, i’ve seen tons of great advice related to swift compile-time optimizations, spread across dozens…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2730,36 +5118,117 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Developer Tools for UI Debugging](https://medium.com/@dmytro.anokhin/overview-of-developer-tools-for-ui-debugging-122e4995f972) — iOS Dev Weekly · Issue 324 — Article · Topics: Developer Tools
   **Published:** `27th October 2017`
   **NeKI brief:** Examines Developer Tools for UI Debugging, focusing on dmytro anokhin with a great round up of all the tools that we have for debugging our apps. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Cards](https://github.com/PaoloCuscela/Cards) — iOS Dev Weekly · Issue 324 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `27th October 2017`
+  **NeKI brief:** Presents Cards, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Awesome Mobile Conferences](https://github.com/amobconf/awesome-mobile-conferences) — iOS Dev Weekly · Issue 323 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `20th October 2017`
+  **NeKI brief:** The GitHub repository contains a public database of mobile conferences and related event information.
+- [Chameleon](https://github.com/ViccAlexander/Chameleon) — iOS Dev Weekly · Issue 323 — Source repository · Topics: Developer Tools
+  **Published:** `20th October 2017`
+  **NeKI brief:** Support for colour (yes, with a u) in the iOS SDK has always been quite basic but this library by Vicc Alexander changes that. Just a quick look at the documentation tells you this is a comprehensive library. With support for everything from a better default…
+- [ViewAnimator](https://github.com/marcosgriselli/ViewAnimator) — iOS Dev Weekly · Issue 323 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `20th October 2017`
+  **NeKI brief:** The page covers “ViewAnimator” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Closures](https://github.com/vhesener/Closures) — iOS Dev Weekly · Issue 322 — Source repository · Topics: Developer Tools · UIKit
   **Published:** `13th October 2017`
   **NeKI brief:** Examines Closures, focusing on if you ever find uikit controls annoying to use thanks to their extensive uses of target-action or delegation, this is…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [On Fixing that NSNull Crasher in Overcast](http://inessential.com/2017/10/10/on_fixing_that_nsnull_crasher_in_overcas) — iOS Dev Weekly · Issue 322 — Article · Topics: Developer Tools
+  **Published:** `13th October 2017`
+  **NeKI brief:** Examines inessential: On Fixing that NSNull Crasher in Overcast. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Marketing for Engineers](https://github.com/LisaDziuba/Marketing-for-Engineers) — iOS Dev Weekly · Issue 321 — Source repository · Topics: Developer Tools
+  **Published:** `6th October 2017`
+  **NeKI brief:** What a fantastic resource from Lisa Dziuba with links to everything you could possibly need to help you market your app. It’s more than a simple list too (which with this many links would be overwhelming), it’s guided and commentated. What a valuable resource!
+- [Lifetime Tracker](https://github.com/krzysztofzablocki/LifetimeTracker) — iOS Dev Weekly · Issue 320 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Performance
+  **Published:** `29th September 2017`
+  **NeKI brief:** Examines Find retain cycles / memory leaks sooner. Contribute to krzysztofzablocki/LifetimeTracker development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [iOS Engineer - mid level / senior at ottonova in Munich - Germany](https://www.ottonova.de/jobs/ios-engineer) — iOS Dev Weekly · Issue 320 — Article · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `29th September 2017`
+  **NeKI brief:** Explains iOS Engineer - mid level / senior at ottonova in Munich - Germany, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [NotchKit](https://github.com/HarshilShah/NotchKit) — iOS Dev Weekly · Issue 319 — Source repository · Topics: Developer Tools
+  **Published:** `22nd September 2017`
+  **NeKI brief:** Examines To notch, or not to notch? That is the question every developer seems to be asking themselves and while some developers have gotten quite creative with the notch, others would rather pretend it doesn’t exist. If you’re p Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [quite creative with the notch](https://github.com/ZevEisenberg/ScrollSnake) — iOS Dev Weekly · Issue 319 — Source repository · Topics: Developer Tools
+  **Published:** `22nd September 2017`
+  **NeKI brief:** Examines What if scroll bars on the iPhone X worked like the game “Snake”? - ZevEisenberg/ScrollSnake. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [AudioKit 4](https://github.com/AudioKit/AudioKit/releases/tag/v4.0) — iOS Dev Weekly · Issue 319 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
   **Published:** `22nd September 2017`
   **NeKI brief:** Examines AudioKit 4, focusing on the author’s discussion of don’t think we’ve ever actually directly linked to audiokit before (although there was a video about it in issue 241)…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [XCAssetPacker](https://github.com/inquisitiveSoft/XCAssetPacker) — iOS Dev Weekly · Issue 317 — Source repository · Topics: Developer Tools
+  **Published:** `8th September 2017`
+  **NeKI brief:** Talking of old school flip book watchOS animations, if you’re still adding hundreds of files to asset catalogs manually then this tool by Harry Jordan is going to save you a lot of time. It’ll take a folder of images and automatically bring them into an…
 - [TvOSPinKeyboard](https://github.com/zattoo/tvospinkeyboard) — iOS Dev Weekly · Issue 317 — Source repository · Topics: Developer Tools · Hardware & Devices
   **Published:** `8th September 2017`
   **NeKI brief:** Examines TvOSPinKeyboard, focusing on so many tvos apps require pin authentication, but there is no standard view controller for developers to just plug in. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [open source](https://github.com/rnystrom/githawk) — iOS Dev Weekly · Issue 316 — Source repository · Topics: Developer Tools
+  **Published:** `1st September 2017`
+  **NeKI brief:** The page covers “open source” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [prototype](https://github.com/apple/swift/pull/11501) — iOS Dev Weekly · Issue 315 — Source repository · Topics: Concurrency · Developer Community & Business · Swift
   **Published:** `25th August 2017`
   **NeKI brief:** Examines prototype, focusing on there has been plenty of speculation that language native concurrency will be a focus for a future release of swift. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [DefaultsKit](https://github.com/nmdias/DefaultsKit) — iOS Dev Weekly · Issue 315 — Source repository · Topics: Developer Tools
+  **Published:** `25th August 2017`
+  **NeKI brief:** Examines Simple, Strongly Typed UserDefaults for iOS, macOS and tvOS - nmdias/DefaultsKit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Disk](https://github.com/saoudrizwan/Disk) — iOS Dev Weekly · Issue 314 — Source repository · Topics: Developer Tools · Foundation & Data Formats
+  **Published:** `18th August 2017`
+  **NeKI brief:** Now that JSON encoding/decoding is a solved problem let’s move the solution up the chain a bit? Disk is a new library from Saoud Rizwan which takes anything that can be stored with Codable, as well as images and other binary data and persists it to the ……
 - [ABI Stability Manifesto](https://github.com/apple/swift/blob/master/docs/ABIStabilityManifesto.md) — iOS Dev Weekly · Issue 313 — Source repository · Topics: Developer Tools · Swift
   **Published:** `11th August 2017`
   **NeKI brief:** Examines ABI Stability Manifesto, focusing on the swift team is no longer accepting proposals for swift 4, which will be released this fall, and is now looking toward…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
+- [ArcKit](https://github.com/sobri909/ArcKit) — iOS Dev Weekly · Issue 312 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `4th August 2017`
+  **NeKI brief:** Examines Location, motion, and activity recording framework for iOS - sobri909/LocoKit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Gemini](https://github.com/shoheiyokoyama/Gemini) — iOS Dev Weekly · Issue 312 — Source repository · Topics: Developer Tools
+  **Published:** `4th August 2017`
+  **NeKI brief:** Presents Gemini, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Queuer](https://github.com/FabrizioBrancati/Queuer) — iOS Dev Weekly · Issue 312 — Source repository · Topics: Concurrency · Developer Tools · Product Design
   **Published:** `4th August 2017`
   **NeKI brief:** Examines Queuer, focusing on built on top of operationqueue and gcd, queuer is a queue manager that makes it easy to create synchronous and…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [ARuler](https://github.com/duzexu/ARuler) — iOS Dev Weekly · Issue 310 — Source repository · Topics: Developer Tools · Spatial Computing
+  **Published:** `21st July 2017`
+  **NeKI brief:** Presents ARuler, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [User Breakpoints in Xcode](https://pspdfkit.com/blog/2017/user-breakpoints-in-xcode) — iOS Dev Weekly · Issue 309 — Article · Topics: Developer Tools · Xcode
   **Published:** `14th July 2017`
   **NeKI brief:** Explores User Breakpoints in Xcode in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [YapAnimator](https://github.com/yapstudios/YapAnimator) — iOS Dev Weekly · Issue 309 — Source repository · Topics: Developer Tools
+  **Published:** `14th July 2017`
+  **NeKI brief:** YapAnimator. This link is retained as a technical reading lead for Apple-platform development.
+- [LGButton](https://github.com/loregr/LGButton) — iOS Dev Weekly · Issue 308 — Source repository · Topics: Developer Tools
+  **Published:** `7th July 2017`
+  **NeKI brief:** LGButton takes away many of the pains in customizing button controls. Instead of playing around with layout constraints, custom views and CGLayers, drop this IBDesignable, fully-customizable control into Interface Builder and design it as you wish.
+- [Bluejay framework](https://github.com/steamclock/bluejay) — iOS Dev Weekly · Issue 308 — Source repository · Topics: Developer Tools
+  **Published:** `7th July 2017`
+  **NeKI brief:** This blog post is more than just an introduction to the Bluejay framework. It discusses how you should be willing to try different things and take on challenges you are not entirely comfortable with. For Allen Pike’s company, working on a Bluetooth app…
+- [iOS Developers and Tech Lead @ Hotels.com in London, UK](https://hcomios.github.io/jobs) — iOS Dev Weekly · Issue 308 — Article · Topics: Developer Tools · Graphics, Media & Games · Personal Essays
+  **Published:** `7th July 2017`
+  **NeKI brief:** Travel and tech. Swift and speed. Solving at scale. Join Hotels.com - voted best place to work in the UK.
 - [Why Core ML will not work for your app (most likely)](http://alexsosn.github.io/ml/2017/06/09/Core-ML-will-not-Work-for-Your-App.html) — iOS Dev Weekly · Issue 307 — Article · Topics: AI Development · Cross-Platform & Web · Developer Tools
   **Published:** `30th June 2017`
   **NeKI brief:** Explores Why Core ML will not work for your app (most likely) in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
 - [iOS 11 Code Examples](https://github.com/artemnovichkov/iOS-11-by-Examples) — iOS Dev Weekly · Issue 307 — Source repository · Topics: Developer Tools · Testing
   **Published:** `30th June 2017`
   **NeKI brief:** Examines iOS 11 Code Examples, focusing on if you’d like to play with the latest ios 11 apis, but don’t feel like reading the docs or rolling out your own mini…. Use it as a focused research reference for related Apple-platform work, and verify version-specific.
+- [Getting Started with Vision on iOS 11](https://github.com/jeffreybergier/Blog-Getting-Started-with-Vision) — iOS Dev Weekly · Issue 306 — Source repository · Topics: Developer Tools
+  **Published:** `23rd June 2017`
+  **NeKI brief:** Jeffrey Bergier with a great post on some initial experiments with the new Vision API. He talks about the capabilities of the framework and then sets up an example using object tracking. It’s amazing how easy the code is to get this all working. I can’t wait…
+- [Gagat](https://github.com/Boerworz/Gagat) — iOS Dev Weekly · Issue 305 — Source repository · Topics: Developer Tools
+  **Published:** `16th June 2017`
+  **NeKI brief:** I love the dark theme transitions in Tweetbot and Castro, and until now those animations were difficult to recreate. This great library makes it easy to add this type of animation to your own app. Although Gagat does not specify how to write your styling…
+- [Tiny Crayon](https://github.com/TinyCrayon/TinyCrayon-iOS-SDK) — iOS Dev Weekly · Issue 304 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `9th June 2017`
+  **NeKI brief:** If you’re looking for an easy-to-use library for image masking / quick eraser tools, then look no further. Not only is Tiny Crayon completely free, but the documentation is spot on. 👌🏼 You’ll find examples both in Swift and Objective-C. Definitely recommend…
 - [UIDebuggingInformationOverlay](http://ryanipete.com/blog/ios/swift/objective-c/uidebugginginformationoverlay) — iOS Dev Weekly · Issue 303 — Article · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `2nd June 2017`
   **NeKI brief:** Explores UIDebuggingInformationOverlay in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [CocoaDebugKit](https://github.com/Patrick-Kladek/CocoaDebugKit) — iOS Dev Weekly · Issue 303 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Xcode
+  **Published:** `2nd June 2017`
+  **NeKI brief:** Presents CocoaDebugKit, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [open-sourced](https://github.com/Kapeli/Dash-iOS) — iOS Dev Weekly · Issue 302 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `26th May 2017`
+  **NeKI brief:** Examines If you think back to October, Dash was removed due to alleged violations of the developer license agreement by an associated account. Apple did not change their decision, but the developer at Kapeli brought Dash back to Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [GoogleReporter](https://github.com/ksmandersen/GoogleReporter) — iOS Dev Weekly · Issue 302 — Source repository · Topics: Developer Tools · Security & Privacy
+  **Published:** `26th May 2017`
+  **NeKI brief:** Presents GoogleReporter, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [DeckTransition](https://github.com/HarshilShah/DeckTransition/blob/master/README.md) — iOS Dev Weekly · Issue 302 — Source repository · Topics: Developer Tools
   **Published:** `26th May 2017`
   **NeKI brief:** Examines DeckTransition, focusing on for those of you looking to add a transition like apple music’s or overcast’s now playing, here you go! 🙌 harshil shah’s…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2769,6 +5238,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Pastel 🎨](https://github.com/cruisediary/Pastel) — iOS Dev Weekly · Issue 301 — Source repository · Topics: Developer Tools
   **Published:** `19th May 2017`
   **NeKI brief:** Examines Pastel 🎨, focusing on seeing how flat colors have become quite popular over the years, i’m willing to bet that gradients will be the next big…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Better GitHub Searching 🔎](http://indiestack.com/2017/05/better-github-searching) — iOS Dev Weekly · Issue 301 — Article · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `19th May 2017`
+  **NeKI brief:** The article presents techniques for improving GitHub searches and finding relevant repositories and code more efficiently.
+- [The Average Mac Developer 👨🏻‍💻](https://www.git-tower.com/blog/average-developer-on-the-mac) — iOS Dev Weekly · Issue 301 — Article · Topics: Developer Career & Practice · Developer Tools
+  **Published:** `19th May 2017`
+  **NeKI brief:** Examines Over 7,000 web and software developers on the Mac took part in our survey - and helped us paint a picture of the "Average Developer on the Mac". Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [LicensePlist](https://github.com/mono0926/LicensePlist) — iOS Dev Weekly · Issue 300 — Source repository · Topics: Dependency Injection · Developer Tools · Objective-C & Cocoa
   **Published:** `12th May 2017`
   **NeKI brief:** Examines LicensePlist, focusing on most of us use open-source libraries, and most oss asks that a license be included in apps that use them. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2781,51 +5256,114 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [few other things](https://github.com/apple/swift-source-compat-suite) — iOS Dev Weekly · Issue 298 — Source repository · Topics: Developer Tools · Swift
   **Published:** `28th April 2017`
   **NeKI brief:** Examines few other things, focusing on well this is a little surprising! to ensure minimal source compatibility issues in future versions of swift, apple…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [TestDrive](https://github.com/JohnSundell/TestDrive) — iOS Dev Weekly · Issue 298 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
+  **Published:** `28th April 2017`
+  **NeKI brief:** Examines Quickly try out any Swift pod or framework in a playground - JohnSundell/TestDrive. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [BouncyLayout](https://github.com/roberthein/BouncyLayout) — iOS Dev Weekly · Issue 298 — Source repository · Topics: Developer Tools
+  **Published:** `28th April 2017`
+  **NeKI brief:** The page covers “BouncyLayout” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [new home](https://github.com/texturegroup/texture) — iOS Dev Weekly · Issue 297 — Source repository · Topics: Concurrency · Developer Tools
+  **Published:** `21st April 2017`
+  **NeKI brief:** Examines Smooth asynchronous user interfaces for iOS apps. Contribute to TextureGroup/Texture development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [150 issues](https://github.com/facebook/AsyncDisplayKit/issues) — iOS Dev Weekly · Issue 297 — Source repository · Topics: Concurrency · Developer Tools
+  **Published:** `21st April 2017`
+  **NeKI brief:** Examines Smooth asynchronous user interfaces for iOS apps. Contribute to facebookarchive/AsyncDisplayKit development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Quick Radar](https://github.com/amyworrall/QuickRadar) — iOS Dev Weekly · Issue 297 — Source repository · Topics: Developer Tools
+  **Published:** `21st April 2017`
+  **NeKI brief:** Submitting radars is not exactly a smooth experience and having to do it through an old web interface is less than ideal. This macOS application by Keith Smiley attempts to simplify that. For lack of an official native app from Apple for submitting radars…
 - [SquishButton](https://github.com/BalestraPatrick/SquishButton) — iOS Dev Weekly · Issue 297 — Source repository · Topics: Developer Tools
   **Published:** `21st April 2017`
   **NeKI brief:** Examines SquishButton, focusing on simply described as “a button that squishes when pressed”, this ui component made by patrick balestra is inspired by…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [An Illustrated History of iOS](https://www.git-tower.com/blog/history-of-ios) — iOS Dev Weekly · Issue 297 — Article · Topics: Developer Tools · Personal Essays
+  **Published:** `21st April 2017`
+  **NeKI brief:** Examines The iPhone was one of the most exciting new products of this millenia. But as amazing as the device may be, the real superstar is the software that drives it! Take a seat and enjoy. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [PersistentStorageSerializable](https://github.com/IvanRublev/PersistentStorageSerializable) — iOS Dev Weekly · Issue 296 — Source repository · Topics: Developer Tools · Swift
   **Published:** `14th April 2017`
   **NeKI brief:** Examines PersistentStorageSerializable, focusing on ivan rublev with a swift library that makes it easy to automatically serialize user preferences with userdefaults or a plist. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [fastlane](https://github.com/fastlane/fastlane) — iOS Dev Weekly · Issue 294 — Source repository · Topics: CI/CD & Automation · Developer Tools · Graphics, Media & Games
+  **Published:** `31st March 2017`
+  **NeKI brief:** Felix Krause, the creator of fastlane, on what he has learned from working on a massively successful open source project. Nobody creates a new repository on Github expecting it to grow in the way Felix’s has, but before you realize it, this talk may help you…
 - [Reverting SE-0025 and returning to Swift 2 access levels](https://github.com/apple/swift-evolution/blob/master/proposals/0159-fix-private-access-levels.md) — iOS Dev Weekly · Issue 293 — Source repository · Topics: Developer Tools · Swift
   **Published:** `24th March 2017`
   **NeKI brief:** Examines Reverting SE-0025 and returning to Swift 2 access levels, focusing on the proposal to introduce fileprivate was a controversial one at the time, and while it did get implemented, many of us…. Use it as a focused research reference for related Apple-platform work, and.
 - [proposal to introduce fileprivate](https://github.com/apple/swift-evolution/blob/master/proposals/0025-scoped-access-level.md) — iOS Dev Weekly · Issue 293 — Source repository · Topics: Developer Tools · Swift
   **Published:** `24th March 2017`
   **NeKI brief:** Examines proposal to introduce fileprivate, focusing on the proposal to introduce fileprivate was a controversial one at the time, and while it did get implemented, many of us…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
+- [GodEye](https://github.com/zixun/GodEye) — iOS Dev Weekly · Issue 293 — Source repository · Topics: Developer Tools
+  **Published:** `24th March 2017`
+  **NeKI brief:** Presents GodEye, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Transition](https://github.com/Touchwonders/Transition) — iOS Dev Weekly · Issue 293 — Source repository · Topics: Developer Tools
+  **Published:** `24th March 2017`
+  **NeKI brief:** I’ve written before about how the view controller transition APIs introduced with iOS 7 were not the triumph that they could have been and are always a little (and sometimes a lot) tricky to implement. This library simplifies things and separates out the…
+- [A Gameboy Emulator for the Apple Watch](https://github.com/gabrieloc/GIOVANNI) — iOS Dev Weekly · Issue 293 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `24th March 2017`
+  **NeKI brief:** Examines A Gameboy Emulator for the Apple Watch. Contribute to gabrieloc/GIOVANNI development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [iOS Continous integration: Xcode Server, Jenkins, Travis and fastlane](http://thebugcode.github.io/ios-continous-integration-choosing-a-build-server-and-tooling) — iOS Dev Weekly · Issue 292 — Article · Topics: CI/CD & Automation · Developer Tools · Xcode
   **Published:** `17th March 2017`
   **NeKI brief:** Profiles iOS Continous integration: Xcode Server, Jenkins, Travis and fastlane, a developer tool or product relevant to Apple-platform workflows. Evaluate its integration surface, operational costs, privacy implications, and fit for the current project, then verify supported SDKs and capabilities before adoption.
 - [UITableView ReverseExtension](https://github.com/marty-suzuki/ReverseExtension) — iOS Dev Weekly · Issue 292 — Source repository · Topics: Developer Tools
   **Published:** `17th March 2017`
   **NeKI brief:** Examines UITableView ReverseExtension, focusing on ever wanted to build a messaging view, or anything else where content comes in from the bottom instead of the top? just…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Spruce](https://github.com/willowtreeapps/spruce-ios) — iOS Dev Weekly · Issue 292 — Source repository · Topics: Developer Tools
+  **Published:** `17th March 2017`
+  **NeKI brief:** The GitHub repository contains Spruce, an iOS animation library for choreographing view animations with timing and sequencing.
+- [KiteKit](https://github.com/kitecomp/kitekit) — iOS Dev Weekly · Issue 291 — Source repository · Topics: Developer Tools
+  **Published:** `10th March 2017`
+  **NeKI brief:** This looks amazing! It’s a new animation and prototyping tool for macOS which looks to be very powerful. Not only can you quickly put together a simple animation but there’s in-app scripting and KiteKit which can bring your creations directly into your app…
 - [Pageboy](https://github.com/msaps/Pageboy) — iOS Dev Weekly · Issue 291 — Source repository · Topics: Developer Tools
   **Published:** `10th March 2017`
   **NeKI brief:** Examines Pageboy, focusing on merrick sapsford with a uipageviewcontroller replacement that solves some really common problems with the original class…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Attabench](https://github.com/lorentey/Attabench) — iOS Dev Weekly · Issue 290 — Source repository · Topics: Developer Tools
   **Published:** `3rd March 2017`
   **NeKI brief:** Examines Attabench, focusing on so you want to benchmark some code you’ve written, pop a couple of log statement in and output the time. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Twitter Image Pipeline](https://github.com/twitter/ios-twitter-image-pipeline) — iOS Dev Weekly · Issue 290 — Source repository · Topics: Developer Tools
+  **Published:** `3rd March 2017`
+  **NeKI brief:** Examines Twitter Image Pipeline is a robust and performant image loading and caching framework for iOS clients - twitter/ios-twitter-image-pipeline. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [UITextField-Navigation](https://github.com/T-Pham/UITextField-Navigation) — iOS Dev Weekly · Issue 290 — Source repository · Topics: Developer Tools
+  **Published:** `3rd March 2017`
+  **NeKI brief:** If you’ve ever done any macOS development you’ll be familiar with nextKeyView which lets the app define the “tab order” of fields in a view. This library aims to do something similar, but for iOS and with a UI that lives on the input accessory view. Probably…
 - [Guitar](https://github.com/ArtSabintsev/Guitar) — iOS Dev Weekly · Issue 290 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Swift
   **Published:** `3rd March 2017`
   **NeKI brief:** Examines Guitar, focusing on ever found the string class … lacking? arthur sabintsev has put together an extension library which already includes…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Spry](https://github.com/Quick/Spry) — iOS Dev Weekly · Issue 290 — Source repository · Topics: Developer Tools · Testing
   **Published:** `3rd March 2017`
   **NeKI brief:** Examines Spry, focusing on ever wanted to use nimble unit tests inside a playground? then spry will be what you’re looking for. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Macaw](https://github.com/exyte/macaw) — iOS Dev Weekly · Issue 290 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `3rd March 2017`
+  **NeKI brief:** Examines Powerful and easy-to-use vector graphics Swift library with SVG support - exyte/Macaw. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Swift 3 migration post mortem](https://mozilla-mobile.github.io/ios/firefox/swift/core/2017/02/22/migrating-to-swift-3.0.html) — iOS Dev Weekly · Issue 289 — Article · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `24th February 2017`
   **NeKI brief:** Explores Swift 3 migration post mortem in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [Swift Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md) — iOS Dev Weekly · Issue 289 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `24th February 2017`
+  **NeKI brief:** So ARC is baked directly into the core of Swift and I’d imagine we’re all pretty happy with that? I know that as an iOS developer I certainly am. But Swift is not just for writing iOS and macOS apps, it’s also designed as a systems language and that can…
+- [NextLevel: Rad Media Capture in Swift](https://github.com/NextLevel/NextLevel) — iOS Dev Weekly · Issue 289 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `24th February 2017`
+  **NeKI brief:** The page covers “NextLevel: Rad Media Capture in Swift” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [AnimatedCollectionViewLayout](https://github.com/KelvinJin/AnimatedCollectionViewLayout) — iOS Dev Weekly · Issue 288 — Source repository · Topics: Developer Tools
+  **Published:** `17th February 2017`
+  **NeKI brief:** Custom collection view transitions have been around for an age now, but if you just want a selection of pre-canned transitions between paged cells then you could definitely do worse than this very pretty set from Jin Wang.
+- [Retrospective: Swift at Artsy](http://artsy.github.io/blog/2017/02/05/Retrospective-Swift-at-Artsy) — iOS Dev Weekly · Issue 287 — Article · Topics: Developer Tools · Swift
+  **Published:** `13th February 2017`
+  **NeKI brief:** Examines Swift became public in June 2014, by August we had started using it in Artsy. By October, we had Swift in production channelling hundreds of th. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Hydra: Promises & Await](https://github.com/malcommac/Hydra) — iOS Dev Weekly · Issue 287 — Source repository · Topics: Developer Tools · Swift
   **Published:** `13th February 2017`
   **NeKI brief:** Examines Hydra: Promises & Await, focusing on daniele margutti with another promises library for swift. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [TinyConstraints](https://github.com/roberthein/TinyConstraints) — iOS Dev Weekly · Issue 287 — Source repository · Topics: Developer Tools · Swift
   **Published:** `13th February 2017`
   **NeKI brief:** Examines TinyConstraints, focusing on there are plenty of libraries for ios that add syntactic sugar to auto layout, so why link to this one? well it…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [bodymovin](https://github.com/bodymovin/bodymovin) — iOS Dev Weekly · Issue 286 — Source repository · Topics: Developer Tools
+  **Published:** `3rd February 2017`
+  **NeKI brief:** Examines Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/ - airbnb/lottie-web. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Guaka](https://github.com/oarrabi/Guaka) — iOS Dev Weekly · Issue 286 — Source repository · Topics: Developer Tools · Swift
   **Published:** `3rd February 2017`
   **NeKI brief:** Examines Guaka, focusing on swift is a great language for building command line tools, but there’s more to a command line tool than just the ability…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [quick demo app](https://github.com/steventroughtonsmith/AlternateIconTest) — iOS Dev Weekly · Issue 285 — Source repository · Topics: Developer Tools · Testing
   **Published:** `27th January 2017`
   **NeKI brief:** Examines quick demo app, focusing on more 10.3 changes! this is a slightly strange feature, but the new beta allows apps to include two icons and change…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Castaway: Build screencasts and video presentations](https://github.com/jamis/castaway) — iOS Dev Weekly · Issue 284 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `20th January 2017`
+  **NeKI brief:** Examines System for building screencasts and video presentations - jamis/castaway. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [SourceKittenSubl](https://github.com/Dan2552/SourceKittenSubl) — iOS Dev Weekly · Issue 284 — Source repository · Topics: Developer Community & Business · Developer Tools · Xcode
   **Published:** `20th January 2017`
   **NeKI brief:** Examines SourceKittenSubl, focusing on the text editing features of xcode sometimes leave you wanting more compared to some of the standalone editors like atom…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2835,30 +5373,87 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [distcc](https://github.com/distcc/distcc) — iOS Dev Weekly · Issue 283 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `13th January 2017`
   **NeKI brief:** Examines distcc, focusing on back before xcode 4.3 parallel builds was a feature built directly into xcode, but just because it’s not as easy as…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Mustard](https://github.com/mathewsanders/Mustard) — iOS Dev Weekly · Issue 283 — Source repository · Topics: Developer Tools
+  **Published:** `13th January 2017`
+  **NeKI brief:** Mathew Sanders with a small tokeniser that will help you out if you need something more than components separated by whitespace. There’s built in support for matching things like letters, digits and dates. Then, if you need, you can build a custom tokeniser…
 - [Injection for Xcode](https://github.com/johnno1962/injectionforxcode) — iOS Dev Weekly · Issue 282 — Source repository · Topics: Developer Tools · Personal Essays · Xcode
   **Published:** `6th January 2017`
   **NeKI brief:** Provides the Injection for Xcode source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [ODUIThreadGuard](https://github.com/olddonkey/ODUIThreadGuard) — iOS Dev Weekly · Issue 282 — Source repository · Topics: Developer Tools
+  **Published:** `6th January 2017`
+  **NeKI brief:** We all know not to access the UI from a background thread, but how do you know when you’re doing it? Wouldn’t it be nice to immediately be told that you’re doing it wrong? ODUIThreadGuard will automatically notify you and provide a call stack of where it…
 - [GDPerformanceView](https://github.com/dani-gavrilov/GDPerformanceView-Swift) — iOS Dev Weekly · Issue 282 — Source repository · Topics: Developer Tools · Performance · Swift
   **Published:** `6th January 2017`
   **NeKI brief:** Examines GDPerformanceView, focusing on can you tell the difference between 45fps animation in your app and 60fps? well, yes, you probably can 😀 but wouldn’t it…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Hero](https://github.com/lkzhao/Hero) — iOS Dev Weekly · Issue 282 — Source repository · Topics: Developer Tools
+  **Published:** `6th January 2017`
+  **NeKI brief:** Luke Zhao with a new view controller transitioning library that looks very impressive. Based around the Keynote concept of “Magic Move” this library makes it easy to animate element(s) of one view controller on to another. This is a simple solution to a…
+- [Traits](https://github.com/krzysztofzablocki/Traits) — iOS Dev Weekly · Issue 282 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `6th January 2017`
+  **NeKI brief:** A new library from Krzysztof Zabłocki for dynamically modifying your app at runtime, even supporting Injection (mentioned earlier in this issue). He’s also put together a blog post with some thoughts on the why and how of how this came to be developed.
+- [Android](https://github.com/kickstarter/android-oss) — iOS Dev Weekly · Issue 281 — Source repository · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `16th December 2016`
+  **NeKI brief:** Interesting news from the team at Kickstarter as they open sourced their mobile clients this week. There’s some information and history behind the decision in the post linked here, then plenty to learn from in the iOS and Android repositories.
 - [PlayAlways](https://github.com/insidegui/PlayAlways) — iOS Dev Weekly · Issue 281 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `16th December 2016`
   **NeKI brief:** Examines PlayAlways, focusing on guilherme rambo with a new xcode extension. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [XestiMonitors](https://github.com/eBardX/XestiMonitors) — iOS Dev Weekly · Issue 281 — Source repository · Topics: Developer Tools · UIKit
   **Published:** `16th December 2016`
   **NeKI brief:** Examines XestiMonitors, focusing on nsnotification code can be a little messy which is a problem that this library by j. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [AREK](https://github.com/ennioma/arek) — iOS Dev Weekly · Issue 281 — Source repository · Topics: Developer Tools
+  **Published:** `16th December 2016`
+  **NeKI brief:** Examines AREK is a clean and easy way to request any kind of iOS permission (with some nifty features 🤖) - ennioma/arek. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Overkill](https://github.com/krausefx/overkill) — iOS Dev Weekly · Issue 281 — Source repository · Topics: Developer Tools
+  **Published:** `16th December 2016`
+  **NeKI brief:** Examines Don't let iTunes interrupt your workflow 💥🎵 . Contribute to KrauseFx/overkill development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [TinyConsole](https://github.com/Cosmo/TinyConsole) — iOS Dev Weekly · Issue 280 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `9th December 2016`
+  **NeKI brief:** Ever wanted to see console output directly inside your app? At first I thought this might be a little gimmicky but I can actually see real world uses for apps that need to be tested in the field, or even in a field. 😁
 - [AsyncDisplayKit 2.0](https://github.com/facebook/AsyncDisplayKit/releases/tag/2.0) — iOS Dev Weekly · Issue 280 — Source repository · Topics: Concurrency · Developer Tools
   **Published:** `9th December 2016`
   **NeKI brief:** Examines AsyncDisplayKit 2.0, focusing on big changes if you’re using asyncdisplaykit, and from the stats in this post it appears that many people are as it’s…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [CwlSignal](https://github.com/mattgallagher/CwlSignal) — iOS Dev Weekly · Issue 280 — Source repository · Topics: Developer Tools
+  **Published:** `9th December 2016`
+  **NeKI brief:** Matt Gallagher with his recently released library CwlSignal for reactive programming. It’s also worth reading the accompanying introductory post which goes along with it. I especially enjoyed the section on the history.
+- [AWS iOS SDK](https://github.com/aws/aws-sdk-ios/tree/master/AWSLex) — iOS Dev Weekly · Issue 279 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `2nd December 2016`
+  **NeKI brief:** The page covers “AWS iOS SDK” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [RefactoratorApp](https://github.com/johnno1962/RefactoratorApp) — iOS Dev Weekly · Issue 279 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2nd December 2016`
   **NeKI brief:** Examines RefactoratorApp, focusing on it’s pretty clear that apple don’t see refactoring support for swift as any kind of priority in xcode, it’s been more…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Swift renaming plugin](https://github.com/johnno1962/Refactorator) — iOS Dev Weekly · Issue 279 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2nd December 2016`
   **NeKI brief:** Provides the Refactorator source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Snowflake](https://github.com/onmyway133/Snowflake) — iOS Dev Weekly · Issue 279 — Source repository · Topics: Combine & Reactive Programming · Developer Community & Business · Developer Tools
+  **Published:** `2nd December 2016`
+  **NeKI brief:** The page covers “Snowflake” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [StatefulViewController](https://github.com/aschuch/StatefulViewController) — iOS Dev Weekly · Issue 279 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `2nd December 2016`
+  **NeKI brief:** The page covers “StatefulViewController” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Jelly](https://github.com/SebastianBoldt/Jelly) — iOS Dev Weekly · Issue 279 — Source repository · Topics: Developer Tools
+  **Published:** `2nd December 2016`
+  **NeKI brief:** Presents Jelly, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [User Flows](https://abynim.github.io/UserFlows) — iOS Dev Weekly · Issue 279 — Article · Topics: Developer Tools
+  **Published:** `2nd December 2016`
+  **NeKI brief:** Examines Generate flow diagrams from Artboards in Sketch. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Understanding Data Race Detection by Implementing it in Swift](http://blog.benjamin-encz.de/post/understanding-data-race-detection-by-implementing-in-swift) — iOS Dev Weekly · Issue 278 — Article · Topics: Developer Tools · Swift
   **Published:** `25th November 2016`
   **NeKI brief:** Explores Understanding Data Race Detection by Implementing it in Swift in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [GitHub project](https://github.com/Ben-G/DataRaceDetector) — iOS Dev Weekly · Issue 278 — Source repository · Topics: Developer Tools
+  **Published:** `25th November 2016`
+  **NeKI brief:** Presents GitHub project, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [command line tool](https://github.com/Raizlabs/Eject) — iOS Dev Weekly · Issue 278 — Source repository · Topics: Developer Tools
+  **Published:** `25th November 2016`
+  **NeKI brief:** Examines An eject button for Interface Builder to generate swift code - Rightpoint/Eject. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Keyframes](https://github.com/facebookincubator/Keyframes) — iOS Dev Weekly · Issue 278 — Source repository · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `25th November 2016`
+  **NeKI brief:** Examines A library for converting Adobe AE shape based animations to a data format and playing it back on Android and iOS devices. - facebookarchive/Keyframes. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [swiftgd](https://github.com/twostraws/swiftgd) — iOS Dev Weekly · Issue 278 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `25th November 2016`
+  **NeKI brief:** If you’ve been doing any work the server with Swift you might be missing Core Graphics which is not available outside of macOS. Of course, there are other graphics libraries available, such as libgd and to help you out, Paul Hudson has wrapped this library…
+- [libgd](https://libgd.github.io/manuals/2.2.3/files/preamble-txt.html) — iOS Dev Weekly · Issue 278 — Tutorial · Topics: Cross-Platform & Web · Developer Community & Business · Developer Tools
+  **Published:** `25th November 2016`
+  **NeKI brief:** The page covers “libgd” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [GlueKit](https://github.com/lorentey/GlueKit) — iOS Dev Weekly · Issue 277 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `18th November 2016`
   **NeKI brief:** Examines GlueKit, focusing on do you miss kvo in swift? well this is going to be worth a look. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2868,24 +5463,63 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [PlaygroundTDD](https://github.com/WhiskerzAB/PlaygroundTDD) — iOS Dev Weekly · Issue 276 — Source repository · Topics: Developer Tools · Testing
   **Published:** `11th November 2016`
   **NeKI brief:** Examines PlaygroundTDD, focusing on chris schools and gabriel peart with a small library that adds a playgroundtestobserver to easily run your tests directly…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [The Touch Bar on your iPad](https://github.com/bikkelbroeders/TouchBarDemoApp) — iOS Dev Weekly · Issue 276 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Testing
+  **Published:** `11th November 2016`
+  **NeKI brief:** Examines Allows you to use your macOS Touch Bar from an iPad (through USB connection) or on-screen by pressing the Fn-key. - bikkelbroeders/TouchBarDemoApp. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [json2swift](https://github.com/ijoshsmith/json2swift) — iOS Dev Weekly · Issue 275 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `4th November 2016`
+  **NeKI brief:** Explains json2swift, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [CascadingTableDelegate](https://github.com/edopelawi/CascadingTableDelegate) — iOS Dev Weekly · Issue 275 — Source repository · Topics: Developer Tools
+  **Published:** `4th November 2016`
+  **NeKI brief:** Examines A no-nonsense way to write cleaner UITableViewDelegate and UITableViewDataSource in Swift. - edopelawi/CascadingTableDelegate. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [markdown parsers](https://github.com/indragiek/CocoaMarkdown) — iOS Dev Weekly · Issue 275 — Source repository · Topics: Dependency Injection · Developer Tools · Swift
   **Published:** `4th November 2016`
   **NeKI brief:** Examines markdown parsers, focusing on loïc lecrenier with a new markdown parser, written in pure swift 3. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [open source](https://github.com/hankinsoft/AppWage) — iOS Dev Weekly · Issue 275 — Source repository · Topics: App Distribution & Store Operations · Developer Community & Business · Developer Tools
+  **Published:** `4th November 2016`
+  **NeKI brief:** Examines Public issues tracker for AppWage app. Contribute to hankinsoft/AppWage development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Zewo](https://github.com/Zewo/Zewo) — iOS Dev Weekly · Issue 274 — Source repository · Topics: Developer Tools
+  **Published:** `28th October 2016`
+  **NeKI brief:** Examines Lightweight library for web server applications in Swift on macOS and Linux powered by coroutines. - Zewo/Zewo. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Macaw](https://github.com/exyte/Macaw) — iOS Dev Weekly · Issue 274 — Source repository · Topics: Developer Tools · Swift
   **Published:** `28th October 2016`
-  **NeKI brief:** Examines Macaw, focusing on this looks great. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+  **NeKI brief:** Examines Powerful and easy-to-use vector graphics Swift library with SVG support - exyte/Macaw. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Speeding up Development Build Times With Conditional dSYM Generation](http://holko.pl/2016/10/18/dsym-debug) — iOS Dev Weekly · Issue 273 — Article · Topics: Developer Tools
+  **Published:** `21st October 2016`
+  **NeKI brief:** Examines Arek Holko with a useful technique to speed up your simulator build times by conditionally disabling dSYM generation. As the simulator almost always has a debugger attached, I can’t really see a downside if you’re workin Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [FormValidator](https://github.com/ustwo/formvalidator-swift) — iOS Dev Weekly · Issue 273 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `21st October 2016`
+  **NeKI brief:** Super simple form validation based on regular expressions. Displaying the errors is still your responsibility (as it should be) but this looks like a great solution to a common problem from Shagun Madhikarmi and Aaron McTavish.
+- [Each](https://github.com/dalu93/Each) — iOS Dev Weekly · Issue 273 — Source repository · Topics: Developer Tools
+  **Published:** `21st October 2016`
+  **NeKI brief:** Timers are easy, but the API isn’t quite as smooth as it could be. I liked this small library from Luca D’Alberti which gives a much more usable interface on NSTimer.
 - [Plans for Swift 4.0](https://github.com/apple/swift-evolution/blob/master/README.md) — iOS Dev Weekly · Issue 272 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `14th October 2016`
   **NeKI brief:** Examines Plans for Swift 4.0, focusing on the swift evolution readme was updated this week with an outline of the release schedule, and priorities for version 4. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [action](https://github.com/apple/swift/pull/1442) — iOS Dev Weekly · Issue 272 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `14th October 2016`
   **NeKI brief:** Provides the pull request source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Autolayout breakpoints](http://nshint.io/blog/2015/08/17/autolayout-breakpoints) — iOS Dev Weekly · Issue 272 — Article · Topics: Developer Tools
+  **Published:** `14th October 2016`
+  **NeKI brief:** Explains Autolayout breakpoints, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [Import: Xcode extension to automatically add imports](https://github.com/markohlebar/Import) — iOS Dev Weekly · Issue 272 — Source repository · Topics: Concurrency · Developer Tools · Xcode
   **Published:** `14th October 2016`
   **NeKI brief:** Examines Import: Xcode extension to automatically add imports, focusing on let’s face it, there’s a definite lack of code assistance and refactoring tools in xcode, especially when writing swift. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against.
+- [IGListKit](https://github.com/instagram/IGListKit) — iOS Dev Weekly · Issue 272 — Source repository · Topics: Developer Tools
+  **Published:** `14th October 2016`
+  **NeKI brief:** Examines A data-driven UICollectionView framework for building fast and flexible lists. - Instagram/IGListKit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Typist: Small Swift UIKit keyboard manager for iOS apps](https://github.com/totocaster/Typist) — iOS Dev Weekly · Issue 271 — Source repository · Topics: Developer Tools · Hardware & Devices · Swift
   **Published:** `7th October 2016`
   **NeKI brief:** Examines Typist: Small Swift UIKit keyboard manager for iOS apps, focusing on this library from toto tvalavadze is kinda interesting. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Command Line Swift](http://www.russbishop.net/command-line-swift) — iOS Dev Weekly · Issue 270 — Article · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `30th September 2016`
+  **NeKI brief:** I think we’re all prone to write ourselves little tools to make our lives easier. In fact, the app I work on these days was a command line Ruby script for many years before it became a web app! I even considered writing it in Objective-C but decided against…
+- [CostumeKit](https://github.com/jakemarsh/CostumeKit) — iOS Dev Weekly · Issue 270 — Source repository · Topics: Developer Tools
+  **Published:** `30th September 2016`
+  **NeKI brief:** Examines Base types for theming an app. Contribute to jakemarsh/CostumeKit development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Why I’m not a React Native Developer](https://arielelkin.github.io/articles/why-im-not-a-react-native-developer) — iOS Dev Weekly · Issue 270 — Article · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `30th September 2016`
+  **NeKI brief:** Examines Why I'm not a React Native Developer. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [HubFramework: Spotify’s component-driven UI framework for iOS](https://github.com/spotify/HubFramework) — iOS Dev Weekly · Issue 270 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `30th September 2016`
   **NeKI brief:** Examines HubFramework: Spotify’s component-driven UI framework for iOS, focusing on talking of component based ui frameworks, this is brand new from spotify. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -2904,66 +5538,201 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Perform](https://github.com/thoughtbot/Perform) — iOS Dev Weekly · Issue 267 — Source repository · Topics: Architecture · Dependency Injection · Developer Tools
   **Published:** `9th September 2016`
   **NeKI brief:** Examines Perform, focusing on chris dzombak on the difficulties of dependency injection with view controllers. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Getting Ready for ATS Enforcement in 2017](https://nabla-c0d3.github.io/blog/2016/08/14/ats-enforced-2017) — iOS Dev Weekly · Issue 266 — Article · Topics: Developer Tools
+  **Published:** `2nd September 2016`
+  **NeKI brief:** Presents Getting Ready for ATS Enforcement in 2017, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [xcenv/xcenv](https://github.com/xcenv/xcenv) — iOS Dev Weekly · Issue 266 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `2nd September 2016`
   **NeKI brief:** Examines xcenv/xcenv, focusing on building from the command line with projects that require different versions of xcode to compile is a little painful. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [React Native at Artsy](http://artsy.github.io/blog/2016/08/15/React-Native-at-Artsy) — iOS Dev Weekly · Issue 266 — Article · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `2nd September 2016`
+  **NeKI brief:** Examines As the Artsy iOS app grew larger, we started hitting pain points: We want to support other future platforms such as Android without creatin. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [depcheck](https://github.com/wojteklu/depcheck) — iOS Dev Weekly · Issue 265 — Source repository · Topics: Dependency Injection · Developer Tools · Swift
   **Published:** `26th August 2016`
   **NeKI brief:** Examines depcheck, focusing on wojtek lukaszuk with a cute little tool that’ll analyse your swift project for class dependencies. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Relayout](https://github.com/stevestreza/Relayout) — iOS Dev Weekly · Issue 265 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Objective-C & Cocoa
+  **Published:** `26th August 2016`
+  **NeKI brief:** The page covers “Relayout” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [SPM documentation](https://github.com/apple/swift-package-manager/tree/master/Documentation) — iOS Dev Weekly · Issue 264 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `18th August 2016`
+  **NeKI brief:** The page covers “SPM documentation” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [PMHTTP](https://github.com/postmates/PMHTTP) — iOS Dev Weekly · Issue 264 — Source repository · Topics: Concurrency · Developer Tools · Testing
   **Published:** `18th August 2016`
   **NeKI brief:** Examines PMHTTP, focusing on kevin ballard with a new networking library written in swift but compatible with objective-c, pmhttp. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [PredicateEditor](https://github.com/arvindhsukumar/PredicateEditor) — iOS Dev Weekly · Issue 264 — Source repository · Topics: Developer Tools
+  **Published:** `18th August 2016`
+  **NeKI brief:** The page covers “PredicateEditor” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [StyleKit](https://github.com/146BC/StyleKit) — iOS Dev Weekly · Issue 264 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `18th August 2016`
+  **NeKI brief:** The GitHub repository provides StyleKit source code, a concrete open-source project that can be inspected and reused by developers.
 - [reference implementation](https://github.com/tomkowz/NetworkLayerExample) — iOS Dev Weekly · Issue 263 — Source repository · Topics: Architecture · Core Data · Developer Tools
   **Published:** `11th August 2016`
   **NeKI brief:** Examines reference implementation, focusing on tomasz szulc on building network architecture that isn’t dependent on any third party libraries, or any apple provided…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Make GitHub great again](https://github.com/k-nut/make_github_great_again/blob/master/README.md) — iOS Dev Weekly · Issue 263 — Source repository · Topics: Developer Tools
+  **Published:** `11th August 2016`
+  **NeKI brief:** Examines git commit -m “Honestly this is a tremendous commit message. I’ve been tremendously successful when committing code with this message.” Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [iOS Developer Podcasts](https://github.com/vermont42/Podcasts) — iOS Dev Weekly · Issue 262 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `5th August 2016`
+  **NeKI brief:** Examines A list of podcasts of interest to iOS developers and other habitués of the Apple ecosystem. - vermont42/Podcasts. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [AspectFillFaceAware](https://github.com/BeauNouvelle/AspectFillFaceAware) — iOS Dev Weekly · Issue 262 — Source repository · Topics: Developer Tools · Performance
   **Published:** `5th August 2016`
   **NeKI brief:** Examines AspectFillFaceAware, focusing on this might as well be called “profilepictureimageview”, but that’s no bad thing! if you need to display a photo of…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [NXDrawKit](https://github.com/Nicejinux/NXDrawKit) — iOS Dev Weekly · Issue 262 — Source repository · Topics: Developer Tools · Product Design
   **Published:** `5th August 2016`
   **NeKI brief:** Examines NXDrawKit, focusing on the author’s note that can see that with imessage apps now being a thing, that it might be the case that the ability to write with your…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
+- [ReactiveKit](https://github.com/ReactiveKit/ReactiveKit) — iOS Dev Weekly · Issue 262 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `5th August 2016`
+  **NeKI brief:** Examines A Swift Reactive Programming Kit. Contribute to DeclarativeHub/ReactiveKit development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Xcode Visual Memory Debugger](http://useyourloaf.com/blog/xcode-visual-memory-debugger) — iOS Dev Weekly · Issue 261 — Article · Topics: Developer Career & Practice · Developer Tools · Xcode
+  **Published:** `29th July 2016`
+  **NeKI brief:** Presents Xcode Visual Memory Debugger, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Writing High-Performance Swift Code](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst) — iOS Dev Weekly · Issue 261 — Source repository · Topics: Developer Tools · Performance · Swift
   **Published:** `29th July 2016`
   **NeKI brief:** Examines Writing High-Performance Swift Code, focusing on the author’s note that hadn’t come across this document before this week and while it’s targeted mainly at developers working on the swift…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Flux](https://github.com/facebook/flux) — iOS Dev Weekly · Issue 260 — Source repository · Topics: Developer Tools · Product Design
+  **Published:** `22nd July 2016`
+  **NeKI brief:** The page covers “Flux” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Official Swift Facebook SDK Beta](https://github.com/facebook/facebook-sdk-swift) — iOS Dev Weekly · Issue 260 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `22nd July 2016`
+  **NeKI brief:** Explains Official Swift Facebook SDK Beta, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [New stuff from WWDC 2016](https://gist.github.com/mackuba/e8fb4219c7ef611f47cdb66b93986d85) — iOS Dev Weekly · Issue 259 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `15th July 2016`
+  **NeKI brief:** Examines Kuba Suder with his annual list of everything that was announced at WWDC. When you look at it like this, I dare anyone to ask “What have Apple been doing since last year?” 😄 Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [FileKit: Simple and expressive file management in Swift](https://github.com/Dschee/FileKit) — iOS Dev Weekly · Issue 259 — Source repository · Topics: Developer Career & Practice · Developer Community & Business · Swift
+  **Published:** `15th July 2016`
+  **NeKI brief:** Examines Simple and expressive file management in Swift. Contribute to Jeehut/FileKit development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Code signing guides from fastlane](https://github.com/fastlane/fastlane/tree/master/fastlane/docs/Codesigning) — iOS Dev Weekly · Issue 258 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
   **Published:** `8th July 2016`
   **NeKI brief:** Examines Code signing guides from fastlane, focusing on felix krause with a set of guides covering all things code signing. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Preheat: Prefetching for UITableView and UICollectionView in iOS 9](https://github.com/kean/Preheat) — iOS Dev Weekly · Issue 258 — Source repository · Topics: Developer Tools
+  **Published:** `8th July 2016`
+  **NeKI brief:** I missed this when it first got released but if you’re looking for an iOS 9 compatible version of the new pre-fetching features of UICollectionView and UITableView, then you’re in luck. Alexander Grebenyuk put together this library which does exactly that.
+- [Iconic: Auto-generated icon font library for iOS](https://github.com/dzenbot/Iconic) — iOS Dev Weekly · Issue 257 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `1st July 2016`
+  **NeKI brief:** The GitHub repository contains Iconic, an open-source library for generating icon fonts for iOS applications.
 - [PSTModernizer](https://github.com/PSPDFKit-labs/PSTModernizer) — iOS Dev Weekly · Issue 257 — Source repository · Topics: Developer Community & Business · Developer Tools · UIKit
   **Published:** `1st July 2016`
   **NeKI brief:** Examines PSTModernizer, focusing on what do you do when find a bug in uikit? you file a radar of course! but then what? maybe you find a workaround and fix…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details.
+- [A quick list of overlooked announcements at WWDC 16](http://alisoftware.github.io/conferences/2016/06/20/ios-10-api-diff) — iOS Dev Weekly · Issue 256 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Developer Tools
+  **Published:** `24th June 2016`
+  **NeKI brief:** Examines Making your Swift code more fun 🎉, magical ✨ and crunchier 👌. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [SaveTheDot](https://github.com/JakeLin/SaveTheDot) — iOS Dev Weekly · Issue 256 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `24th June 2016`
+  **NeKI brief:** Examines Want a practical example of using the new UIViewPropertyAnimator API in iOS 10? Jake Lin has you covered with this small game based on it. 👾 Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [stops all unofficial plugins from working](https://github.com/alcatraz/Alcatraz/issues/475) — iOS Dev Weekly · Issue 255 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `17th June 2016`
   **NeKI brief:** Examines stops all unofficial plugins from working, focusing on xcode finally gets official extensions! i’ve never really been a big user of xcode plugins other than to quickly try them…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details.
+- [Interpolate](https://github.com/marmelroy/Interpolate) — iOS Dev Weekly · Issue 255 — Source repository · Topics: Developer Tools
+  **Published:** `17th June 2016`
+  **NeKI brief:** Roy Marmelstein with a new animation library focused on interactive animations. Create objects describing interpolations between values and then just pass in a percentage as your gesture recogniser (or any other trigger) runs. Really simple.
+- [Stellar](https://github.com/AugustRush/Stellar) — iOS Dev Weekly · Issue 255 — Source repository · Topics: Developer Tools
+  **Published:** `17th June 2016`
+  **NeKI brief:** Examines A fantastic Physical animation library for swift. Contribute to AugustRush/Stellar development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Transitions with IBAnimatable](https://github.com/JakeLin/IBAnimatable/blob/master/Documentation/Transitions.md) — iOS Dev Weekly · Issue 254 — Source repository · Topics: Developer Tools
+  **Published:** `10th June 2016`
+  **NeKI brief:** Examines Design and prototype customized UI, interaction, navigation, transition and animation for App Store ready Apps in Interface Builder with IBAnimatable. - IBAnimatable/Documentation/. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [IBAnimatable](https://github.com/JakeLin/IBAnimatable) — iOS Dev Weekly · Issue 254 — Source repository · Topics: Developer Tools
+  **Published:** `10th June 2016`
+  **NeKI brief:** The GitHub repository contains IBAnimatable, a library for configuring UIKit animations and transitions from Interface Builder and code.
+- [open source](https://github.com/decosoftware/deco-ide) — iOS Dev Weekly · Issue 253 — Source repository · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `3rd June 2016`
+  **NeKI brief:** If you’re getting started with React Native and looking for something more than just a standard text editor to assist you, this is worth a look. It’s early days and it’s a little buggy, but there’s a component library which will save you looking up the…
 - [Scrollable GraphView](https://github.com/philackm/Scrollable-GraphView) — iOS Dev Weekly · Issue 253 — Source repository · Topics: Developer Tools
   **Published:** `3rd June 2016`
   **NeKI brief:** Examines Scrollable GraphView, focusing on really, really pretty. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Code Coverage From the Command Line With Clang](https://alastairs-place.net/blog/2016/05/20/code-coverage-from-the-command-line-with-clang) — iOS Dev Weekly · Issue 252 — Article · Topics: Developer Tools · Systems Programming
+  **Published:** `27th May 2016`
+  **NeKI brief:** Examines Having searched the Internet several times to find out how to get coverage information out of clang, I ended up feeling rather confused. I’m sure I’m …. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Render: Swift and UIKit a la React](https://github.com/alexdrone/Render) — iOS Dev Weekly · Issue 252 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `27th May 2016`
   **NeKI brief:** Examines Render: Swift and UIKit a la React, focusing on if you like the concept of your ui being purely a function of your app’s state, but are not quite ready to go all in on…. Use it as a focused research reference for related.
 - [URL Pattern Matching](http://johnpatrickmorgan.github.io/2016/05/11/URLPatternMatching) — iOS Dev Weekly · Issue 252 — Article · Topics: Developer Tools · Navigation & Deep Linking
   **Published:** `27th May 2016`
   **NeKI brief:** Explores URL Pattern Matching in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [Beard Bash](http://www.loopinsight.com/2016/05/19/rsvp-for-the-beard-bash-2016-at-wwdc-now-open) — iOS Dev Weekly · Issue 251 — Article · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `20th May 2016`
+  **NeKI brief:** The post announces the Beard Bash event at WWDC and provides publicly readable event details.
+- [The Talk Show Live](https://daringfireball.net/thetalkshow) — iOS Dev Weekly · Issue 251 — Article · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `20th May 2016`
+  **NeKI brief:** Examines Daring Fireball: The Talk Show. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Statistics on SwiftPM package usage](https://github.com/czechboy0/swiftpm-packages-statistics) — iOS Dev Weekly · Issue 251 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `20th May 2016`
+  **NeKI brief:** It’s early days for stats like these as the Swift package manager is not yet officially released. However this list of the most popular packages and package authors is going to be something to watch as the package manager gets more adoption. Thanks to Honza…
 - [Pattern Matching](http://alisoftware.github.io/swift/pattern-matching/2016/03/27/pattern-matching-1) — iOS Dev Weekly · Issue 251 — Article · Topics: Developer Tools · Swift
   **Published:** `20th May 2016`
   **NeKI brief:** Explores Pattern Matching in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [2](http://alisoftware.github.io/swift/pattern-matching/2016/03/30/pattern-matching-2) — iOS Dev Weekly · Issue 251 — Article · Topics: Developer Tools · Swift
+  **Published:** `20th May 2016`
+  **NeKI brief:** Examines Making your Swift code more fun 🎉, magical ✨ and crunchier 👌. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [3](http://alisoftware.github.io/swift/pattern-matching/2016/04/24/pattern-matching-3) — iOS Dev Weekly · Issue 251 — Article · Topics: Developer Tools · Swift
+  **Published:** `20th May 2016`
+  **NeKI brief:** Examines Making your Swift code more fun 🎉, magical ✨ and crunchier 👌. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [4](http://alisoftware.github.io/swift/pattern-matching/2016/05/16/pattern-matching-4) — iOS Dev Weekly · Issue 251 — Article · Topics: Developer Tools · Swift
+  **Published:** `20th May 2016`
+  **NeKI brief:** Examines Making your Swift code more fun 🎉, magical ✨ and crunchier 👌. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Networking](https://github.com/3lvis/Networking) — iOS Dev Weekly · Issue 251 — Source repository · Topics: Developer Tools · Networking · Testing
   **Published:** `20th May 2016`
   **NeKI brief:** Examines Networking, focusing on new networking library from elvis nuñez which shipped a 1.0 this week. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [Tweaks](https://github.com/facebook/Tweaks) — iOS Dev Weekly · Issue 250 — Source repository · Topics: Developer Tools
   **Published:** `13th May 2016`
   **NeKI brief:** Provides the Tweaks source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [tool](https://github.com/theappbusiness/ConfigGenerator) — iOS Dev Weekly · Issue 249 — Source repository · Topics: Developer Tools
+  **Published:** `6th May 2016`
+  **NeKI brief:** Following up on the article I linked to last week about targeting multiple API environments, Sam Dods posted an alternative approach and a tool to help you manage it.
 - [has been fixed](https://github.com/apple/swift/commit/2cdd7d64e1e2add7bcfd5452d36e7f5fc6c86a03) — iOS Dev Weekly · Issue 249 — Source repository · Topics: Developer Tools · Performance · Swift
   **Published:** `6th May 2016`
   **NeKI brief:** Provides the has been fixed source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Xcode plugin](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode) — iOS Dev Weekly · Issue 249 — Source repository · Topics: Developer Tools · Performance · Xcode
+  **Published:** `6th May 2016`
+  **NeKI brief:** In the article I’m linking to here, Robert Gummesson has found some other performance hiccups (and workarounds) and also has a useful Xcode plugin for easily measuring compiler performance. If you’re experiencing slow build times on your project it might be…
+- [Git Sketch Plugin](https://github.com/mathieudutour/git-sketch-plugin) — iOS Dev Weekly · Issue 249 — Source repository · Topics: Developer Tools
+  **Published:** `6th May 2016`
+  **NeKI brief:** This looks fantastic. Mathieu Dutour has put together a Git client inside a Sketch plugin with support for branching, committing and pretty much everything else you’d need to do working with Sketch files in a Git repository.
+- [getting contributions](https://github.com/carekit-apple/CareKit/pulls) — iOS Dev Weekly · Issue 248 — Source repository · Topics: Developer Career & Practice · Developer Tools · Objective-C & Cocoa
+  **Published:** `29th April 2016`
+  **NeKI brief:** This week saw the release of CareKit, the partner to ResearchKit. While ResearchKit helps researchers gather data and manage content, CareKit is designed more to help patients with active management of their conditions. It’s available on GitHub right now and…
+- [speeding up the test suite](https://corner.squareup.com/2016/04/debugging-ios9-test-slowness.html) — iOS Dev Weekly · Issue 248 — Article · Topics: Cross-Platform & Web · Developer Tools · Testing
+  **Published:** `29th April 2016`
+  **NeKI brief:** Examines The Corner is Square's technical blog covering software engineering, APIs, data, open source and more. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [TabDrawer](https://github.com/winslowdibona/TabDrawer) — iOS Dev Weekly · Issue 248 — Source repository · Topics: Developer Tools
+  **Published:** `29th April 2016`
+  **NeKI brief:** Examines Contribute to winslowdibona/TabDrawer development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Design debugging](https://bjango.com/articles/designdebugging) — iOS Dev Weekly · Issue 248 — Article · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `29th April 2016`
+  **NeKI brief:** Debugging is a very familiar concept for developers, but not so much for designers. Marc Edwards gives us some insight into the techniques he’s come up with for debugging his designs. Really interesting.
 - [ImageButter](https://github.com/dollarshaveclub/ImageButter) — iOS Dev Weekly · Issue 247 — Source repository · Topics: Developer Tools · Graphics, Media & Games · UIKit
   **Published:** `22nd April 2016`
   **NeKI brief:** Provides the ImageButter source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [EasyPeasy: Auto Layout made easy](https://github.com/nakiostudio/EasyPeasy) — iOS Dev Weekly · Issue 246 — Source repository · Topics: Developer Tools
+  **Published:** `15th April 2016`
+  **NeKI brief:** The GitHub repository contains EasyPeasy, a Swift DSL that makes defining Auto Layout constraints more concise.
+- [TextAttributes: An easier way to compose attributed strings](https://github.com/delba/TextAttributes) — iOS Dev Weekly · Issue 246 — Source repository · Topics: Developer Tools
+  **Published:** `15th April 2016`
+  **NeKI brief:** Presents TextAttributes: An easier way to compose attributed strings, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [available on GitHub](https://github.com/fbsamples/f8app) — iOS Dev Weekly · Issue 246 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Testing
+  **Published:** `15th April 2016`
+  **NeKI brief:** Examines Source code of the official F8 app of 2017, powered by React Native and other Facebook open source projects. - fbsamples/f8app. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Using Xcode’s Schemes to run a subset of your tests](http://artsy.github.io/blog/2016/04/06/Testing-Schemes) — iOS Dev Weekly · Issue 245 — Article · Topics: Developer Tools · Testing · Xcode
   **Published:** `8th April 2016`
   **NeKI brief:** Explains Using Xcode’s Schemes to run a subset of your tests with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical.
 - [Using Git Hooks to prevent commiting test code](http://appventure.me/2016/04/04/prevent-accidental-test-code-commits) — iOS Dev Weekly · Issue 245 — Article · Topics: Developer Tools · Testing
   **Published:** `8th April 2016`
   **NeKI brief:** Explains Using Git Hooks to prevent commiting test code with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev.
+- [his proposal](https://github.com/apple/swift-evolution/blob/master/proposals/0058-objectivecbridgeable.md) — iOS Dev Weekly · Issue 245 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `8th April 2016`
+  **NeKI brief:** Russ Bishop with a post on his proposal for Swift classes to be able to expose an Objective-C friendly interface without having to affect the design of the Swift class. I also really like the notes at the end of the article about taking the time to write up…
+- [React Native for OS X](https://github.com/ptmt/react-native-desktop) — iOS Dev Weekly · Issue 244 — Source repository · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `1st April 2016`
+  **NeKI brief:** The page covers “React Native for OS X” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Dynamic Library Loading Performance in iOS 9.3](https://github.com/stepanhruda/dyld-image-loading-performance) — iOS Dev Weekly · Issue 243 — Source repository · Topics: Developer Tools · Performance
+  **Published:** `25th March 2016`
+  **NeKI brief:** Examines This repository originally started life as a sample project showing how slow dynamic libraries were to load. Seems like iOS 9.3 fixes the issue and now it’s a joyous thank you message to the team for fixing it. 🎉 Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Surprises with Swift Extensions](https://pspdfkit.com/blog/2016/surprises-with-swift-extensions) — iOS Dev Weekly · Issue 243 — Article · Topics: Developer Tools · Swift
+  **Published:** `25th March 2016`
+  **NeKI brief:** Examines Discover why Swift extensions on Objective-C classes still require prefixes and how to use @objc() to keep names clean in Swift while fixing runtime crashes. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Swift Weekly Brief](https://swiftweekly.github.io/issue-13) — iOS Dev Weekly · Issue 242 — Tutorial · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `18th March 2016`
+  **NeKI brief:** Examines Welcome to issue #13 of the weekly brief! This week Apple released beta 6 of iOS 9.3, watchOS 2.2, and OS X 10.11.4, with no new beta for Xcode 7.3 — the final release should be ge. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [PeekPop library](https://github.com/marmelroy/peekpop) — iOS Dev Weekly · Issue 242 — Source repository · Topics: Developer Tools
   **Published:** `18th March 2016`
   **NeKI brief:** Provides the PeekPop library source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -2973,24 +5742,60 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Code Injection for Xcode](http://artsy.github.io/blog/2016/03/05/iOS-Code-Injection) — iOS Dev Weekly · Issue 241 — Article · Topics: Developer Tools · Graphics, Media & Games · Xcode
   **Published:** `11th March 2016`
   **NeKI brief:** Explains Code Injection for Xcode with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [lolcommits](https://github.com/mroth/lolcommits) — iOS Dev Weekly · Issue 241 — Source repository · Topics: Developer Tools
+  **Published:** `11th March 2016`
+  **NeKI brief:** lolcommits. This link is retained as a technical reading lead for Apple-platform development.
 - [xcbuild](https://github.com/facebook/xcbuild) — iOS Dev Weekly · Issue 240 — Source repository · Topics: Developer Tools · Testing
   **Published:** `4th March 2016`
   **NeKI brief:** Provides the xcbuild source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [xctool](https://github.com/facebook/xctool) — iOS Dev Weekly · Issue 240 — Source repository · Topics: Developer Tools · Testing
   **Published:** `4th March 2016`
   **NeKI brief:** Provides the xctool source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [animation engine](https://github.com/storehouse/Advance) — iOS Dev Weekly · Issue 240 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `4th March 2016`
+  **NeKI brief:** The page covers “animation engine” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [WatchdogInspector](https://github.com/tapwork/WatchdogInspector) — iOS Dev Weekly · Issue 240 — Source repository · Topics: Developer Tools
+  **Published:** `4th March 2016`
+  **NeKI brief:** The GitHub repository contains WatchdogInspector, a tool for inspecting main-thread watchdog and responsiveness issues in iOS apps.
 - [Being Lazy](http://alisoftware.github.io/swift/2016/02/28/being-lazy) — iOS Dev Weekly · Issue 240 — Article · Topics: Developer Tools · Swift
   **Published:** `4th March 2016`
   **NeKI brief:** Explains Being Lazy with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [#selector](https://github.com/apple/swift-evolution/blob/master/proposals/0022-objc-selectors.md) — iOS Dev Weekly · Issue 239 — Source repository · Topics: Developer Tools · Swift · Testing
+  **Published:** `26th February 2016`
+  **NeKI brief:** What’s new the latest release of Swift 2.2? Russ Bishop has a good round up as always. I like the new Swift version availability checks and the removal of the ugly, C style __SOMETHING__ symbols. The new #selector functionality is also in this release which…
+- [Validated](https://github.com/Ben-G/Validated) — iOS Dev Weekly · Issue 239 — Source repository · Topics: Developer Tools
+  **Published:** `26th February 2016`
+  **NeKI brief:** Examines A Swift μ-Library for Somewhat Dependent Types. Contribute to Ben-G/Validated development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Kitura](https://github.com/IBM-Swift/Kitura) — iOS Dev Weekly · Issue 239 — Source repository · Topics: Developer Tools · Swift
   **Published:** `26th February 2016`
   **NeKI brief:** Provides the Kitura source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Swift Algorithm Club](https://github.com/hollance/swift-algorithm-club) — iOS Dev Weekly · Issue 239 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `26th February 2016`
+  **NeKI brief:** Examines Algorithms and data structures in Swift, with explanations! - kodecocodes/swift-algorithm-club. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [help with that](https://github.com/azzoor/WWDCTV) — iOS Dev Weekly · Issue 239 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games
+  **Published:** `26th February 2016`
+  **NeKI brief:** The page covers “help with that” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [simctl](https://github.com/plu/simctl) — iOS Dev Weekly · Issue 238 — Source repository · Topics: Developer Tools · Personal Essays · Testing
+  **Published:** `19th February 2016`
+  **NeKI brief:** If you’re running unit and UI tests on multiple simulator versions then it’s likely that your test suite is taking a long time to run. Not a great situation. Johannes Plunien has a project here that uses simctl and xctool to run tests in parallel without…
+- [open source](https://github.com/matthewpalmer/Charter) — iOS Dev Weekly · Issue 238 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `19th February 2016`
+  **NeKI brief:** Examines A Swift mailing list client for iPhone and iPad. Contribute to matthewpalmer/Charter development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [sample project](https://github.com/manuelmarcos/ribotTeamiOS-tvOS) — iOS Dev Weekly · Issue 238 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `19th February 2016`
+  **NeKI brief:** Examines This project shows how to make the most of an iOS & tvOS App - manuelmarcos/ribotTeamiOS-tvOS. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Vapor](https://github.com/tannernelson/vapor) — iOS Dev Weekly · Issue 238 — Source repository · Topics: Developer Tools · Personal Essays · Swift
   **Published:** `19th February 2016`
   **NeKI brief:** Provides the Vapor source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [community on GitHub](https://github.com/ResearchKit/ResearchKit) — iOS Dev Weekly · Issue 237 — Source repository · Topics: Developer Community & Business · Developer Tools · Objective-C & Cocoa
+  **Published:** `12th February 2016`
+  **NeKI brief:** The ResearchKit repository provides Apple's open-source framework for building research and health studies on iOS.
 - [CocoaPods plugin and CLI for generating Swift Playgrounds](https://github.com/neonichu/ThisCouldBeUsButYouPlaying) — iOS Dev Weekly · Issue 237 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `12th February 2016`
   **NeKI brief:** Provides the CocoaPods plugin and CLI for generating Swift Playgrounds source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [git blame-someone-else](https://github.com/jayphelps/git-blame-someone-else) — iOS Dev Weekly · Issue 237 — Source repository · Topics: Developer Tools
+  **Published:** `12th February 2016`
+  **NeKI brief:** Examines Blame someone else for your bad code. Contribute to jayphelps/git-blame-someone-else development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [1](https://github.com/apple/swift-evolution/blob/master/proposals/0005-objective-c-name-translation.md) — iOS Dev Weekly · Issue 236 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `5th February 2016`
   **NeKI brief:** Provides the 1 source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3000,21 +5805,78 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [3](https://github.com/apple/swift-evolution/blob/master/proposals/0023-api-guidelines.md) — iOS Dev Weekly · Issue 236 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `5th February 2016`
   **NeKI brief:** Swift Evolution proposal 0023 records the API Design Guidelines that shaped Swift naming and labeling. Use it as historical rationale when reviewing consistency in older Swift code.
+- [sample app](https://github.com/alltheflow/iCopyPasta) — iOS Dev Weekly · Issue 236 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `5th February 2016`
+  **NeKI brief:** Provides the iCopyPasta sample repository as an implementation reference for clipboard-related app structure. Useful for study, with source age, dependencies, and license checked before reuse.
+- [Interviewing, applying and getting your first job in iOS](http://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews) — iOS Dev Weekly · Issue 236 — Article · Topics: Developer Career & Practice · Developer Tools
+  **Published:** `5th February 2016`
+  **NeKI brief:** Examines When I was at the beginning of my career, my first developer job application was to a design agency who were doing Mac development too. It was pret. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [open source implementation](https://github.com/ParsePlatform/parse-server) — iOS Dev Weekly · Issue 235 — Source repository · Topics: Developer Tools
+  **Published:** `29th January 2016`
+  **NeKI brief:** Examines Parse Server for Node.js / Express. Contribute to parse-community/parse-server development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [associated library](https://github.com/linkedin/LayoutTest-iOS) — iOS Dev Weekly · Issue 235 — Source repository · Topics: Developer Tools · Testing
   **Published:** `29th January 2016`
-  **NeKI brief:** Provides the associated library source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+  **NeKI brief:** Provides an iOS library and examples for testing view layout code with unit tests. It is useful when making layout behavior executable and regression-testable instead of relying only on visual inspection.
+- [Actions](https://github.com/bjango/Bjango-Actions) — iOS Dev Weekly · Issue 235 — Source repository · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Developer Tools
+  **Published:** `29th January 2016`
+  **NeKI brief:** Examines A collection of Photoshop actions, Photoshop scripts, Hazel rules, macOS workflows and other random things for screen designers and developers. - bjango/Bjango-Actions. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [app icon template](https://github.com/bjango/Bjango-Templates) — iOS Dev Weekly · Issue 235 — Source repository · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Developer Tools
+  **Published:** `29th January 2016`
+  **NeKI brief:** Examines Big update to the design resources provided by Bjango this week. There’s not only an update to their Actions but also a brand new app icon template covering all of the Apple platforms (iOS, watchOS, tvOS, Mac) as well as Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Knuff](https://github.com/KnuffApp/Knuff) — iOS Dev Weekly · Issue 234 — Source repository · Topics: App Services & Extensions · Developer Tools · Testing
+  **Published:** `22nd January 2016`
+  **NeKI brief:** The GitHub repository contains Knuff, an open-source macOS utility for testing and sending Apple Push Notification service payloads.
+- [CoreDragon](https://github.com/nevyn/CoreDragon) — iOS Dev Weekly · Issue 233 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `15th January 2016`
+  **NeKI brief:** Examines [iOS/deprecated!] Stop using context menus. Drag and drop instead, even between apps! - nevyn/CoreDragon. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [couple of demo apps](https://github.com/nevyn/CoreDragon/tree/master/Examples) — iOS Dev Weekly · Issue 233 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `15th January 2016`
+  **NeKI brief:** Discusses couple of demo apps, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
+- [Spring](https://github.com/MengTo/Spring) — iOS Dev Weekly · Issue 233 — Source repository · Topics: Developer Tools
+  **Published:** `15th January 2016`
+  **NeKI brief:** Examines A library to simplify iOS animations in Swift. Contribute to MengTo/Spring development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Changeset](https://github.com/osteslag/Changeset) — iOS Dev Weekly · Issue 233 — Source repository · Topics: Developer Tools
+  **Published:** `15th January 2016`
+  **NeKI brief:** Examines Minimal edits from one collection to another. Contribute to osteslag/Changeset development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [SwiftAndroid](https://github.com/SwiftAndroid/swift/releases/tag/swiftandroid-2016-01-06) — iOS Dev Weekly · Issue 232 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
+  **Published:** `8th January 2016`
+  **NeKI brief:** Will you ever be able to write Android apps in Swift? I can’t imagine this becoming super popular (just like I don’t think that iOS apps written in Java would become popular if it were possible). However it’s an interesting experiment and there may be some…
 - [VWInstantRun](https://github.com/wangshengjia/VWInstantRun) — iOS Dev Weekly · Issue 232 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `8th January 2016`
   **NeKI brief:** Provides the VWInstantRun source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Common Proposals for Swift](https://github.com/apple/swift-evolution/blob/master/commonly_proposed.md) — iOS Dev Weekly · Issue 231 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `1st January 2016`
+  **NeKI brief:** Got an idea that you’re thinking about turning into a proposal for Swift? The team have put together a handy document with ideas that have been frequently suggested and rejected, along with a brief description of why. This is a great idea to reduce noise on…
+- [Filterpedia](https://github.com/FlexMonkey/Filterpedia) — iOS Dev Weekly · Issue 231 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `1st January 2016`
+  **NeKI brief:** The page covers “Filterpedia” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [PMKVObserver](https://github.com/postmates/PMKVObserver) — iOS Dev Weekly · Issue 231 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `1st January 2016`
   **NeKI brief:** Provides the PMKVObserver source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [contribute more](https://github.com/chriseidhof/pomotv) — iOS Dev Weekly · Issue 231 — Source repository · Topics: Developer Community & Business · Developer Tools · Graphics, Media & Games
+  **Published:** `1st January 2016`
+  **NeKI brief:** Examines New site dedicated to indexing conference talks and other videos from around the iOS and OS X development community. There’s already ~500 videos there, and you can contribute more to help build it into something even bet Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Accepted!](https://github.com/apple/swift-evolution/blob/master/proposals/0007-remove-c-style-for-loops.md) — iOS Dev Weekly · Issue 229 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `18th December 2015`
+  **NeKI brief:** The page covers “Accepted!” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Hacking Atom to create a Swift IDE](https://medium.com/@Aciid/hacking-atom-to-create-a-swift-ide-that-runs-on-linux-and-mac-c7d9520a0fac) — iOS Dev Weekly · Issue 229 — Article · Topics: Developer Tools · Product Design · Swift
   **Published:** `18th December 2015`
   **NeKI brief:** Explains Hacking Atom to create a Swift IDE with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly.
+- [SourceKittenDaemon](https://github.com/terhechte/SourceKittenDaemon) — iOS Dev Weekly · Issue 229 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `18th December 2015`
+  **NeKI brief:** Examines Swift Auto Completions for any Text Editor. Contribute to terhechte/SourceKittenDaemon development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [swiftenv](https://github.com/kylef/swiftenv) — iOS Dev Weekly · Issue 229 — Source repository · Topics: Developer Tools · Swift
   **Published:** `18th December 2015`
   **NeKI brief:** This source repository covers managing multiple installed Swift toolchains. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [Awesome Swift Education](https://github.com/hsavit1/Awesome-Swift-Education) — iOS Dev Weekly · Issue 229 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `18th December 2015`
+  **NeKI brief:** An extremely comprehensive list of everything you could possibly want to know about Swift. Blogs, books, quick references, presentations, videos, and a whole load of specific, categorised blog posts.
+- [notable pull requests](https://github.com/apple/swift-corelibs-foundation/pull/54) — iOS Dev Weekly · Issue 228 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Swift
+  **Published:** `11th December 2015`
+  **NeKI brief:** Examines The Foundation Project, providing core utilities, internationalization, and OS independence - NSJSONSerialization JSONObjectWithData: implementation by argon · Pull Request #54 · s. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [proposals](https://github.com/apple/swift-evolution/pull/26) — iOS Dev Weekly · Issue 228 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `11th December 2015`
+  **NeKI brief:** Jesse Squires is starting a weekly round up of what’s been happening with the Swift open source project. Looking at things like notable pull requests, proposals and other updates from the repositories and mailing lists. There’s so much activity at the moment…
 - [KZLinkedConsole](https://github.com/krzysztofzablocki/KZLinkedConsole) — iOS Dev Weekly · Issue 228 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `11th December 2015`
   **NeKI brief:** Provides the KZLinkedConsole source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3027,78 +5889,225 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [tackling the hard problems](https://github.com/apple/swift/pull/168/files) — iOS Dev Weekly · Issue 227 — Source repository · Topics: Developer Tools · Swift
   **Published:** `4th December 2015`
   **NeKI brief:** Provides the tackling the hard problems source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [current set of PRs](https://github.com/apple/swift/pulls) — iOS Dev Weekly · Issue 227 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `4th December 2015`
+  **NeKI brief:** The Swift repository pull-request page exposes the current public set of proposed Swift changes and their review context.
+- [discussion of plans and features for future releases](https://github.com/apple/swift-evolution) — iOS Dev Weekly · Issue 227 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `4th December 2015`
+  **NeKI brief:** The page covers “discussion of plans and features for future releases” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [contributor information](https://swift.org/contributing) — iOS Dev Weekly · Issue 227 — Article · Topics: Developer Tools · Personal Essays · Swift
+  **Published:** `4th December 2015`
+  **NeKI brief:** So here it is, Merry Christmas! The new home of the open source Swift project. Obviously you’ve got the GitHub repositories but you’ve also got binary distributions here for both Mac OS and also Linux. Instructions on how to set up and get it running…
+- [interview with Craig Federighi](http://arstechnica.com/apple/2015/12/craig-federighi-talks-open-source-swift-and-whats-coming-in-version-3-0) — iOS Dev Weekly · Issue 227 — Article · Topics: Developer Tools · Personal Essays · Swift
+  **Published:** `4th December 2015`
+  **NeKI brief:** Examines Swift is available under an Apache license, and source compatibility is coming soon. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Swift Foundation](https://github.com/apple/swift-corelibs-foundation) — iOS Dev Weekly · Issue 227 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Swift
+  **Published:** `4th December 2015`
+  **NeKI brief:** The final huge piece of news that accompanied yesterday’s release was that there is a Swift implementation of Foundation in progress and they are aiming for parity with Obj-C Foundation for the release of Swift 3. The goals of this are mainly focused around…
+- [Crayons](https://github.com/Sephiroth87/Crayons) — iOS Dev Weekly · Issue 227 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `4th December 2015`
+  **NeKI brief:** The GitHub repository contains Crayons, an open-source project with publicly available source code and developer documentation.
+- [BarTintColorOptimizer](https://github.com/IvanRublev/BarTintColorOptimizer) — iOS Dev Weekly · Issue 227 — Source repository · Topics: Developer Tools
+  **Published:** `4th December 2015`
+  **NeKI brief:** Ever tried to match an exact colour for an iOS navigation bar with transparency turned on? It’s frustrating, but this tool by Ivan Rublev might solve the issue. It only works well for lighter colours but could still save you some time.
 - [Netfox](https://github.com/kasketis/netfox) — iOS Dev Weekly · Issue 226 — Source repository · Topics: Developer Tools
   **Published:** `27th November 2015`
   **NeKI brief:** Provides the Netfox source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [LLDB-Is-It-Not](https://github.com/alloy/LLDB-Is-It-Not) — iOS Dev Weekly · Issue 226 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `27th November 2015`
   **NeKI brief:** Provides the LLDB-Is-It-Not source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Format](https://github.com/marmelroy/format) — iOS Dev Weekly · Issue 226 — Source repository · Topics: Developer Tools
+  **Published:** `27th November 2015`
+  **NeKI brief:** I linked to Roy Marmelstein’s PhoneNumberKit for formatting phone number data correctly a little while ago. Looks like he’s been busy recently and he’s now taken on formatting for numbers, addresses and colours. There’s also a write up on the library if you…
 - [Git Diff for Binary Property List Files](http://confusatory.org/post/133141617492/git-diff-for-binary-apple-property-list-files) — iOS Dev Weekly · Issue 225 — Article · Topics: Developer Tools
   **Published:** `20th November 2015`
   **NeKI brief:** Explains Git Diff for Binary Property List Files with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly.
 - [Reveal-In-Github for Xcode](https://github.com/lzwjava/Reveal-In-Github) — iOS Dev Weekly · Issue 224 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `13th November 2015`
   **NeKI brief:** Provides the Reveal-In-Github for Xcode source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [added support for Objective-C](https://github.com/realm/jazzy/pull/341) — iOS Dev Weekly · Issue 224 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `13th November 2015`
+  **NeKI brief:** Presents added support for Objective-C, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [MPParallaxView](https://github.com/DroidsOnRoids/MPParallaxView) — iOS Dev Weekly · Issue 224 — Source repository · Topics: Developer Tools · UIKit
   **Published:** `13th November 2015`
   **NeKI brief:** Provides the MPParallaxView source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [TVButton](https://github.com/marmelroy/TVButton) — iOS Dev Weekly · Issue 224 — Source repository · Topics: Developer Tools · UIKit
   **Published:** `13th November 2015`
   **NeKI brief:** Provides the TVButton source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [YYText](https://github.com/ibireme/YYText) — iOS Dev Weekly · Issue 224 — Source repository · Topics: Developer Tools
+  **Published:** `13th November 2015`
+  **NeKI brief:** The GitHub repository contains YYText, a text framework for rich text layout, display, and interaction on iOS.
+- [Voucher](https://github.com/rsattar/Voucher) — iOS Dev Weekly · Issue 224 — Source repository · Topics: Developer Tools
+  **Published:** `13th November 2015`
+  **NeKI brief:** I linked to an article on this subject last week, but this week Benny Wong has taken the idea one step further. His approach uses Bonjour and an existing iOS app to make the login process even smoother. Since the post was published Riz Sattar has also put…
+- [Instructions](https://github.com/ephread/Instructions) — iOS Dev Weekly · Issue 223 — Source repository · Topics: Developer Tools
+  **Published:** `6th November 2015`
+  **NeKI brief:** So last week I linked to an article on how replacing pages of scrollable instructions with a few coach marks might be a way to increase the success of getting users on boarded. This week, I happened to come across this library by Frédéric Maquin for easily…
+- [FixCode](https://github.com/neonichu/FixCode) — iOS Dev Weekly · Issue 223 — Source repository · Topics: Developer Tools
+  **Published:** `6th November 2015`
+  **NeKI brief:** Usually, the links in this section might give you a chuckle but you’re not coming here to find tools that are going to save you hours. This week is different, this is going to give you a laugh and save you time! 🎉
 - [SwiftGen](https://github.com/AliSoftware/SwiftGen?at=11lvzs&ct=ios+dev+tools) — iOS Dev Weekly · Issue 222 — Source repository · Topics: Developer Tools · Swift
   **Published:** `30th October 2015`
   **NeKI brief:** Provides the SwiftGen source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [Reachability.swift](https://github.com/ashleymills/Reachability.swift) — iOS Dev Weekly · Issue 222 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `30th October 2015`
   **NeKI brief:** Provides the Reachability.swift source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [running tests](https://github.com/fastlane/scan) — iOS Dev Weekly · Issue 221 — Source repository · Topics: CI/CD & Automation · Developer Tools · Personal Essays
+  **Published:** `23rd October 2015`
+  **NeKI brief:** Presents running tests, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Awesome Command Line](https://github.com/herrbischoff/awesome-osx-command-line) — iOS Dev Weekly · Issue 221 — Source repository · Topics: Developer Tools
+  **Published:** `23rd October 2015`
+  **NeKI brief:** The GitHub repository curates command-line tools and utilities for macOS, with publicly readable descriptions and links.
 - [UIDynamics, UIKit or OpenGL? 3 Types of iOS Animations for Star Wars](https://yalantis.com/blog/uidynamics-uikit-or-opengl-3-types-of-ios-animations-for-the-star-wars) — iOS Dev Weekly · Issue 221 — Article · Topics: Developer Tools · Graphics, Media & Games · UIKit
   **Published:** `23rd October 2015`
   **NeKI brief:** Explains UIDynamics UIKit or OpenGL 3 Types of iOS Animations for Star Wars with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is.
+- [GitHub project](https://github.com/Yalantis/StarWars.iOS) — iOS Dev Weekly · Issue 221 — Source repository · Topics: Developer Tools
+  **Published:** `23rd October 2015`
+  **NeKI brief:** Explains GitHub project, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [MVVM in Swift](http://artsy.github.io/blog/2015/09/24/mvvm-in-swift) — iOS Dev Weekly · Issue 221 — Article · Topics: Developer Tools · Swift
   **Published:** `23rd October 2015`
   **NeKI brief:** Explains MVVM in Swift with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [HorizonSDK](https://github.com/HorizonCamera/HorizonSDK-iOS) — iOS Dev Weekly · Issue 221 — Source repository · Topics: Developer Community & Business · Developer Tools · Graphics, Media & Games
+  **Published:** `23rd October 2015`
+  **NeKI brief:** Remember Horizon? It had a noble goal of eliminating vertical video syndrome. Great news is that now your app can also do the same as they’ve released their technology as an SDK. Of course it can record always horizontal video but also includes support for…
+- [full source code is included](https://github.com/FlexMonkey/3D-ReTouch) — iOS Dev Weekly · Issue 221 — Source repository · Topics: Developer Community & Business · Developer Tools
+  **Published:** `23rd October 2015`
+  **NeKI brief:** Simon Gladman is back again this week with more 3D Touch experiments. This time it’s an experimental UI for retouching photos using pressure to vary the intensity of whatever retouch effect you’re currently applying. Of course, full source code is included…
 - [Xcode Swift Snippets](https://github.com/Abizern/xcode-snippets) — iOS Dev Weekly · Issue 220 — Source repository · Topics: Core Data · Developer Tools · Xcode
   **Published:** `16th October 2015`
   **NeKI brief:** Provides the Xcode Swift Snippets source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [mattress](https://github.com/buzzfeed/mattress) — iOS Dev Weekly · Issue 220 — Source repository · Topics: Developer Tools
+  **Published:** `16th October 2015`
+  **NeKI brief:** Examines iOS Offline Caching for Web Content. Contribute to buzzfeed/mattress development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Volkswagen](https://github.com/cezheng/Volkswagen-Xcode) — iOS Dev Weekly · Issue 220 — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `16th October 2015`
+  **NeKI brief:** Examines Detects when your Xcode tests are being run in a CI server, and makes them pass:see_no_evil: - cezheng/Volkswagen-Xcode. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [SwiftGo](https://github.com/Zewo/SwiftGo) — iOS Dev Weekly · Issue 219 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `9th October 2015`
   **NeKI brief:** Provides the SwiftGo source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [libmill](https://github.com/sustrik/libmill) — iOS Dev Weekly · Issue 219 — Source repository · Topics: Concurrency · Developer Tools · Performance
   **Published:** `9th October 2015`
   **NeKI brief:** Provides the libmill source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [SBShortcutMenuSimulator](https://github.com/DeskConnect/SBShortcutMenuSimulator) — iOS Dev Weekly · Issue 218 — Source repository · Topics: Developer Tools
+  **Published:** `2nd October 2015`
+  **NeKI brief:** While the menu options in the iOS simulator for setting the “Force Touch Pressure” look so tempting, unfortunately they currently only work on watchOS. I’m sure that this will be addressed in a future release but until then, Conrad Kramer has put together…
+- [Blade](https://github.com/jondot/blade) — iOS Dev Weekly · Issue 218 — Source repository · Topics: Developer Tools
+  **Published:** `2nd October 2015`
+  **NeKI brief:** The GitHub repository contains Blade, an open-source developer tool with publicly readable implementation and documentation.
+- [sample project](https://github.com/jondot/blade-sample) — iOS Dev Weekly · Issue 218 — Source repository · Topics: Developer Tools
+  **Published:** `2nd October 2015`
+  **NeKI brief:** Examines It can be a pain resizing images ready for an asset catalog, only to have to repeat it every time you make a change. Blade automates the process and performs all of the resizing for you, just create definitions for what Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Async](https://github.com/duemunk/Async) — iOS Dev Weekly · Issue 218 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2nd October 2015`
   **NeKI brief:** Provides the Async source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [source has also been uploaded to GitHub](https://github.com/XcodeGhostSource/XcodeGhost) — iOS Dev Weekly · Issue 217 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Xcode
+  **Published:** `25th September 2015`
+  **NeKI brief:** The page covers “source has also been uploaded to GitHub” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [A Better Way to Automatically Merge Xcode Project Files](https://medium.com/@matto1990/a-better-way-to-automatically-merge-changes-in-your-xcode-project-files-3d83b3583fe4) — iOS Dev Weekly · Issue 217 — Article · Topics: Developer Tools · Xcode
   **Published:** `25th September 2015`
   **NeKI brief:** Explains A Better Way to Automatically Merge Xcode Project Files with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS.
+- [mergepbx](https://github.com/simonwagner/mergepbx) — iOS Dev Weekly · Issue 217 — Source repository · Topics: Developer Tools
+  **Published:** `25th September 2015`
+  **NeKI brief:** The page covers “mergepbx” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [BluetoothKit](https://github.com/rasmusth/BluetoothKit) — iOS Dev Weekly · Issue 217 — Source repository · Topics: Developer Tools · Swift
   **Published:** `25th September 2015`
   **NeKI brief:** Provides the BluetoothKit source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Blurable](https://github.com/FlexMonkey/Blurable) — iOS Dev Weekly · Issue 217 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `25th September 2015`
+  **NeKI brief:** The page covers “Blurable” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Automatically resolving pbxproj merge conflicts](http://roadfiresoftware.com/2015/09/automatically-resolving-git-merge-conflicts-in-xcodes-project-pbxproj) — iOS Dev Weekly · Issue 216 — Article · Topics: Developer Tools · Xcode
+  **Published:** `18th September 2015`
+  **NeKI brief:** Turns out there’s a reason that pbxproj files are actually quite easy to merge as the vast majority of situations will be where multiple people have added files/resources rather than modified settings. So why not just let git know that and let it do the…
 - [Watchdog](https://github.com/wojteklukaszuk/Watchdog) — iOS Dev Weekly · Issue 216 — Source repository · Topics: Developer Tools
   **Published:** `18th September 2015`
   **NeKI brief:** Provides the Watchdog source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [FBSimulatorControl](https://github.com/facebook/FBSimulatorControl) — iOS Dev Weekly · Issue 215 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `11th September 2015`
+  **NeKI brief:** Want to run tests on several iOS simulator versions at the same time? This new library by Facebook aims to make that possible. It supports iOS 7, 8 and 9 and should save you a load of time.
+- [DGRunkeeperSwitch](https://github.com/gontovnik/DGRunkeeperSwitch) — iOS Dev Weekly · Issue 215 — Source repository · Topics: Developer Tools
+  **Published:** `11th September 2015`
+  **NeKI brief:** Examines Runkeeper design switch control. Contribute to gontovnik/DGRunkeeperSwitch development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [NYSegmentedControl](https://github.com/nealyoung/NYSegmentedControl) — iOS Dev Weekly · Issue 215 — Source repository · Topics: Developer Tools
+  **Published:** `11th September 2015`
+  **NeKI brief:** Update: I had a quick note from Mike at Runkeeper saying the original inspiration was taken from NYSegmentedControl which is worth mentioning.
+- [available on GitHub](https://github.com/lindadong/swift-a-day) — iOS Dev Weekly · Issue 215 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `11th September 2015`
+  **NeKI brief:** The page covers “available on GitHub” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Locksmith](http://github.com/matthewpalmer/Locksmith) — iOS Dev Weekly · Issue 214 — Source repository · Topics: Developer Tools
+  **Published:** `4th September 2015`
+  **NeKI brief:** Matthew Palmer with some more thoughts on Protocol Oriented Programming after giving it a go in his Locksmith project.
+- [BonMot](https://github.com/Raizlabs/BonMot) — iOS Dev Weekly · Issue 213 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `28th August 2015`
+  **NeKI brief:** We have amazing control over typography on iOS and this talk by Zev Eisenberg is a great high level overview of what’s possible and how to implement it. He’s also working on BonMot which makes putting together attributed strings much easier, and that can…
+- [using identifiers](http://useyourloaf.com/blog/using-identifiers-to-debug-autolayout.html) — iOS Dev Weekly · Issue 212 — Article · Topics: Cross-Platform & Web · Developer Tools · Objective-C & Cocoa
+  **Published:** `21st August 2015`
+  **NeKI brief:** The article shows how identifiers can be used to debug Auto Layout constraints and locate the relevant views or constraints in an iOS interface.
 - [SafariAutoLoginTest](https://github.com/mackuba/SafariAutoLoginTest) — iOS Dev Weekly · Issue 212 — Source repository · Topics: Developer Tools · Testing
   **Published:** `21st August 2015`
   **NeKI brief:** Provides the SafariAutoLoginTest source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [WAAppRouting](https://github.com/Wasappli/WAAppRouting) — iOS Dev Weekly · Issue 212 — Source repository · Topics: Developer Tools · Navigation & Deep Linking
   **Published:** `21st August 2015`
   **NeKI brief:** Provides the WAAppRouting source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Thoughts on Swift 2 Errors](https://gist.github.com/nicklockwood/21495c2015fd2dda56cf) — iOS Dev Weekly · Issue 212 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **Published:** `21st August 2015`
+  **NeKI brief:** Examines Thoughts on Swift 2 Errors. GitHub Gist: instantly share code, notes, and snippets. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [1Password plugin](https://github.com/AgileBits/onepassword-app-extension) — iOS Dev Weekly · Issue 212 — Source repository · Topics: Developer Tools · Security & Privacy
+  **Published:** `21st August 2015`
+  **NeKI brief:** Examines 1Password Extension for iOS Apps. Contribute to agilebits/onepassword-app-extension development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [gym](https://github.com/fastlane/gym) — iOS Dev Weekly · Issue 211 — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `14th August 2015`
+  **NeKI brief:** The page covers “gym” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Shenzen](https://github.com/nomad/shenzhen) — iOS Dev Weekly · Issue 211 — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `14th August 2015`
+  **NeKI brief:** Mattt Thompson released a new version of Shenzhen this week, the utility for creating and uploading IPA archives to various services. The big news is that builds can now be uploaded directly to iTunes Connect using this tool. If you’re new to iOS development…
+- [Spacetime](https://github.com/facebookexperimental/spacetime) — iOS Dev Weekly · Issue 210 — Source repository · Topics: Developer Tools
+  **Published:** `7th August 2015`
+  **NeKI brief:** Interesting project from Facebook for splitting content into several different layers which can be positioned independently. I see this being used mainly for things like fancy transitions but I bet there are some more subtle uses as well. Worth checking out…
+- [Ji](https://github.com/honghaoz/Ji) — iOS Dev Weekly · Issue 210 — Source repository · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `7th August 2015`
+  **NeKI brief:** Remember XML? 😃 You might occasionally still come across a situation where you need to parse some. Actually, it’s more likely that you’ll need to consume the odd bit of HTML these days rather than XML. Luckily, this new library by Honghao Zhang does both and…
+- [FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage) — iOS Dev Weekly · Issue 209 — Source repository · Topics: Developer Tools
+  **Published:** `31st July 2015`
+  **NeKI brief:** There are a lot of image downloading and caching libraries out there but this new one from Pinterest is worth a look. The focus is on getting images displayed to the user as quickly as possible, including setting priorities for images, progressive JPEG…
+- [Pilot and Boarding](https://github.com/fastlane/pilot) — iOS Dev Weekly · Issue 208 — Source repository · Topics: CI/CD & Automation · Developer Tools · Testing
+  **Published:** `24th July 2015`
+  **NeKI brief:** Examines The best way to manage your TestFlight testers and builds from your terminal - fastlane-old/pilot. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Boarding](https://github.com/fastlane/boarding) — iOS Dev Weekly · Issue 208 — Source repository · Topics: CI/CD & Automation · Developer Tools · Testing
+  **Published:** `24th July 2015`
+  **NeKI brief:** Examines Instantly create a simple signup page for TestFlight beta testers - fastlane/boarding. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [ResponseDetective](https://github.com/netguru/ResponseDetective) — iOS Dev Weekly · Issue 208 — Source repository · Topics: Developer Tools · Networking
   **Published:** `24th July 2015`
   **NeKI brief:** Provides the ResponseDetective source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [New stuff from WWDC 2015](https://gist.github.com/mackuba/15994186a4f9d7da3137) — iOS Dev Weekly · Issue 206 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `10th July 2015`
+  **NeKI brief:** The public gist collects notes about new technologies and APIs announced at WWDC 2015.
 - [Address Sanitizer](https://mikeash.com/pyblog/friday-qa-2015-07-03-address-sanitizer.html) — iOS Dev Weekly · Issue 206 — Article · Topics: Apple Platform Ecosystem · Cross-Platform & Web · Developer Tools
   **Published:** `10th July 2015`
   **NeKI brief:** Explains Address Sanitizer with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
 - [Fighting Log Entropy](http://spin.atomicobject.com/2015/07/02/fight-logging-entropy) — iOS Dev Weekly · Issue 206 — Article · Topics: Developer Tools · Performance
   **Published:** `10th July 2015`
   **NeKI brief:** Explains Fighting Log Entropy with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [Accessing heart rate data with watchOS 2](https://github.com/coolioxlr/watchOS-2-heartrate) — iOS Dev Weekly · Issue 206 — Source repository · Topics: Developer Tools
+  **Published:** `10th July 2015`
+  **NeKI brief:** The page covers “Accessing heart rate data with watchOS 2” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [NotificationExtensionTest](https://github.com/hamzasood/NotificationExtensionTest) — iOS Dev Weekly · Issue 206 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Testing
+  **Published:** `10th July 2015`
+  **NeKI brief:** Animated GIF notifications for everyone! Hamza Sood has been digging around with an undocumented feature in El Capitan. Check out the demo video for a quick look at what’s possible. Note: This may never make it as a feature we can use, but it’s interesting…
 - [open source annotation server](https://github.com/Kapeli/Dash-Annotations) — iOS Dev Weekly · Issue 205 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `3rd July 2015`
   **NeKI brief:** Provides the open source annotation server source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [Xcode Plugin](https://github.com/omz/Dash-Plugin-for-Xcode) — iOS Dev Weekly · Issue 205 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `3rd July 2015`
   **NeKI brief:** Provides the Dash Plugin for Xcode source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Playing with UIDynamics in iOS 9](http://fancypixel.github.io/blog/2015/06/19/playing-with-uidynamics-in-ios-9) — iOS Dev Weekly · Issue 205 — Article · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `3rd July 2015`
+  **NeKI brief:** Explains Playing with UIDynamics in iOS 9, focusing on concrete animation mechanics and the implementation choices that shape UIKit interaction behavior.
+- [Dixie](https://github.com/Skyscanner/Dixie) — iOS Dev Weekly · Issue 205 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `3rd July 2015`
+  **NeKI brief:** Examines Dixie, turning chaos to your advantage. Contribute to Skyscanner/Dixie development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [GaugeKit](https://github.com/skywinder/GaugeKit) — iOS Dev Weekly · Issue 205 — Source repository · Topics: Developer Tools
+  **Published:** `3rd July 2015`
+  **NeKI brief:** Want to replicate the look of the Apple Watch/Activity app rings? This library from Petr Korolev should sort you out. It doesn’t do the fancy overlapping rings (as far as I can tell) but it’s an easy way to get that same kind of look and feel. Great support…
 - [XcodeServerSDK](https://github.com/czechboy0/XcodeServerSDK) — iOS Dev Weekly · Issue 204 — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `26th June 2015`
   **NeKI brief:** Provides the XcodeServerSDK source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3108,21 +6117,108 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [UI Testing with Xcode 7](https://medium.com/@larcus94/ui-testing-with-xcode-7-221d16bad276) — iOS Dev Weekly · Issue 204 — Article · Topics: Developer Tools · Testing · Xcode
   **Published:** `26th June 2015`
   **NeKI brief:** Explains UI Testing with Xcode 7 with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [ImagePickerSheetController](https://github.com/larcus94/ImagePickerSheetController) — iOS Dev Weekly · Issue 204 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
+  **Published:** `26th June 2015`
+  **NeKI brief:** Examines Replicate of the custom photo action sheet in iMessage - lerboe/ImagePickerSheetController. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [tests from the command line with XCTest](https://krausefx.com/blog/run-xcode-7-ui-tests-from-the-command-line) — iOS Dev Weekly · Issue 204 — Article · Topics: Developer Tools · Personal Essays · Testing
+  **Published:** `26th June 2015`
+  **NeKI brief:** The article explains how to run Xcode 7 UI tests from the command line with XCTest for automated iOS testing workflows.
+- [Valet](https://github.com/square/Valet) — iOS Dev Weekly · Issue 204 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Persistence & Synchronisation
+  **Published:** `26th June 2015`
+  **NeKI brief:** I’m really surprised that by iOS 9 we still don’t have a higher level API to Keychain. I actually had this saved just before WWDC but I postponed it, just in case it finally happened… Anyway, it didn’t so here you go. Yes, there are loads of these already…
+- [Introduction to App Development with Swift](https://swifteducation.github.io/teaching_app_development_with_swift) — iOS Dev Weekly · Issue 203 — Article · Topics: Developer Tools · Swift
+  **Published:** `19th June 2015`
+  **NeKI brief:** Examines Course materials for instructors teaching Swift. Engage students with a project-based curriculum, and guide students in creating iOS apps. Adopt projects and lesson plans to fit yo. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [UIStackView Playground](https://github.com/jstart/UIStackView-Playground) — iOS Dev Weekly · Issue 203 — Source repository · Topics: Developer Tools
+  **Published:** `19th June 2015`
+  **NeKI brief:** Feels like it’s been a while since we got a new UI control for inside apps (rather than extensions, today widgets, etc…) and it feels like UIStackView is going to be an important one. It’s not complex (which is a good thing) and I can see it quickly becoming…
+- [OAStackView](https://github.com/oarrabi/OAStackView) — iOS Dev Weekly · Issue 203 — Source repository · Topics: Developer Tools
+  **Published:** `19th June 2015`
+  **NeKI brief:** The page covers “OAStackView” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [iOS 9 UI Template for Sketch](https://github.com/philipamour/ios9-uikit) — iOS Dev Weekly · Issue 203 — Source repository · Topics: Developer Tools · UIKit
+  **Published:** `19th June 2015`
+  **NeKI brief:** Examines iOS 9 UIKit for Sketch. Contribute to philipamour/ios9-uikit development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [sigh](https://github.com/KrauseFx/sigh/releases/tag/1.0.0.beta5) — iOS Dev Weekly · Issue 202 — Source repository · Topics: CI/CD & Automation · Developer Tools
   **Published:** `12th June 2015`
   **NeKI brief:** Provides the sigh source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [DynamicColor](https://github.com/yannickl/DynamicColor) — iOS Dev Weekly · Issue 201 — Source repository · Topics: Developer Tools
+  **Published:** `5th June 2015`
+  **NeKI brief:** Examines Yet another extension to manipulate colors easily in Swift and SwiftUI - yannickl/DynamicColor. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [EasyAnimation](https://github.com/icanzilb/EasyAnimation) — iOS Dev Weekly · Issue 201 — Source repository · Topics: Developer Tools
+  **Published:** `5th June 2015`
+  **NeKI brief:** The page covers “EasyAnimation” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [project on Github](https://github.com/Produkt/RubberBandEffect) — iOS Dev Weekly · Issue 200 — Source repository · Topics: Developer Tools
+  **Published:** `29th May 2015`
+  **NeKI brief:** Examines Recreating Apple’s rubber band effect in Swift. Contribute to Produkt/RubberBandEffect development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [DKChainableAnimationKit](https://github.com/Draveness/DKChainableAnimationKit) — iOS Dev Weekly · Issue 199 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `22nd May 2015`
+  **NeKI brief:** I do love Core Animation, but it can be a little… long-winded. This library provides a shorthand syntax for many common animations along with the ability to chain them together. I hadn’t come across JHChainableAnimations before but this is a Swift port of…
+- [JHChainableAnimations](https://github.com/jhurray/JHChainableAnimations) — iOS Dev Weekly · Issue 199 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `22nd May 2015`
+  **NeKI brief:** Examines Easy to read and write chainable animations in Objective-C and Swift - jhurray/JHChainableAnimations. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [CleanroomLogger](https://github.com/emaloney/CleanroomLogger) — iOS Dev Weekly · Issue 198 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `15th May 2015`
   **NeKI brief:** Provides the CleanroomLogger source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Sparkler](https://github.com/mackuba/sparkler) — iOS Dev Weekly · Issue 198 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `15th May 2015`
+  **NeKI brief:** Presents Sparkler, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [WatchScreenshotMagic](https://github.com/Imperiopolis/WatchScreenshotMagic) — iOS Dev Weekly · Issue 198 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `15th May 2015`
+  **NeKI brief:** As you may remember, I’m a big fan of perfect status bars in App Store screenshots 😀 but until now there was no easy way to add one to a watch screenshot. Luckily this tool now exists and can remove the charging indicator, add the standard time of 10:09 and…
+- [FLXView](https://github.com/robb/FLXView) — iOS Dev Weekly · Issue 197 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `8th May 2015`
+  **NeKI brief:** Like SwiftBox, this is based on the Facebook implementation of flexbox. This time, Robert Böhnke has had a go at bringing this layout technology to Objective-C. Check out the included playground for an example of how it works.
+- [SwiftBox](https://github.com/joshaber/SwiftBox) — iOS Dev Weekly · Issue 197 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `8th May 2015`
+  **NeKI brief:** Like SwiftBox, this is based on the Facebook implementation of flexbox. This time, Robert Böhnke has had a go at bringing this layout technology to Objective-C. Check out the included playground for an example of how it works.
+- [flexbox](https://github.com/facebook/css-layout) — iOS Dev Weekly · Issue 197 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Objective-C & Cocoa
+  **Published:** `8th May 2015`
+  **NeKI brief:** Like SwiftBox, this is based on the Facebook implementation of flexbox. This time, Robert Böhnke has had a go at bringing this layout technology to Objective-C. Check out the included playground for an example of how it works.
+- [Response to recent security concerns in AFNetworking](https://gist.github.com/AlamofireSoftwareFoundation/f784f18f949b95ab733a) — iOS Dev Weekly · Issue 196 — Source repository · Topics: Developer Tools · Networking · Security & Privacy
+  **Published:** `1st May 2015`
+  **NeKI brief:** The gist contains a public response to security concerns in AFNetworking, documenting the maintainers' technical position and remediation context.
+- [on GitHub](https://github.com/researchkit/researchkit) — iOS Dev Weekly · Issue 194 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `17th April 2015`
+  **NeKI brief:** The ResearchKit repository provides Apple's open-source framework for building research and health studies on iOS.
+- [accepting pull requests](https://github.com/ResearchKit/ResearchKit/pulls?q=is%3Apr+is%3Aclosed) — iOS Dev Weekly · Issue 194 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `17th April 2015`
+  **NeKI brief:** Examines ResearchKit is an open source software framework that makes it easy to create apps for medical research or for other research projects. - Pull requests · ResearchKit/ResearchKit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [real work being done](https://github.com/ResearchKit/ResearchKit/pull/33) — iOS Dev Weekly · Issue 194 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `17th April 2015`
+  **NeKI brief:** Examines This is huge news. ResearchKit was promised as open source and I was amongst those who were a little sarcastic on the chances of it happening. However, it’s happened, and in spectacular style too. Hosted on GitHub and al Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [CocoaPods](https://github.com/ResearchKit/ResearchKit/pull/5) — iOS Dev Weekly · Issue 194 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `17th April 2015`
+  **NeKI brief:** The GitHub pull request documents an early ResearchKit change involving CocoaPods integration and provides publicly readable discussion and code context.
+- [Carthage](https://github.com/ResearchKit/ResearchKit/pull/7) — iOS Dev Weekly · Issue 194 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `17th April 2015`
+  **NeKI brief:** Examines It even looks like PRs for CocoaPods and Carthage support will be merged. How times have changed… Bravo Apple. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [SDWebImage](https://github.com/rs/SDWebImage) — iOS Dev Weekly · Issue 194 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `17th April 2015`
+  **NeKI brief:** Examines Asynchronous image downloader with cache support as a UIImageView category - SDWebImage/SDWebImage. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [WobbleView](https://github.com/inFullMobile/WobbleView) — iOS Dev Weekly · Issue 193 — Source repository · Topics: Developer Tools
+  **Published:** `10th April 2015`
+  **NeKI brief:** Presents WobbleView, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Sync](https://github.com/hyperoslo/Sync) — iOS Dev Weekly · Issue 193 — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **Published:** `10th April 2015`
   **NeKI brief:** Provides the Sync source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [DBPathRecognizer](https://github.com/didierbrun/DBPathRecognizer) — iOS Dev Weekly · Issue 193 — Source repository · Topics: Developer Tools
+  **Published:** `10th April 2015`
+  **NeKI brief:** This is a neat little library by Didier Brun, define some paths and have them automatically recognised. Obviously this isn’t going to be suitable for UI in every app but if you’re experimenting with more complex gestures than single path swipes you might…
+- [App Design on Yosemite](http://www.git-tower.com/blog/tower2-yosemite-design) — iOS Dev Weekly · Issue 193 — Article · Topics: Developer Tools
+  **Published:** `10th April 2015`
+  **NeKI brief:** The page covers “App Design on Yosemite” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [iOS Charts](https://github.com/danielgindi/ios-charts) — iOS Dev Weekly · Issue 192 — Source repository · Topics: Cross-Platform & Web · Developer Tools
   **Published:** `3rd April 2015`
   **NeKI brief:** Provides the iOS Charts source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) — iOS Dev Weekly · Issue 192 — Source repository · Topics: Cross-Platform & Web · Developer Tools
   **Published:** `3rd April 2015`
   **NeKI brief:** Provides the MPAndroidChart source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [SAHistoryNavigationViewController](https://github.com/szk-atmosphere/SAHistoryNavigationViewController) — iOS Dev Weekly · Issue 192 — Source repository · Topics: Developer Tools
+  **Published:** `3rd April 2015`
+  **NeKI brief:** Examines This is something a bit different. By doing a long tap on the back button in a navigation controller it opens up a iOS multitasking style view with the stack of controllers that you can scroll through and select to move Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [2.5.2 was released](https://github.com/AFNetworking/AFNetworking/releases/tag/2.5.2) — iOS Dev Weekly · Issue 191 — Source repository · Topics: Developer Tools · Networking
+  **Published:** `27th March 2015`
+  **NeKI brief:** Examines You should read the article for the full details but given how prevalent AFNetworking usage is this is something you should certainly pay attention to. Just a few hours ago version 2.5.2 was released which includes a fix Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Xcode Coverage](https://github.com/jonreid/XcodeCoverage) — iOS Dev Weekly · Issue 191 — Source repository · Topics: Developer Tools · Testing · Xcode
   **Published:** `27th March 2015`
   **NeKI brief:** Provides the Xcode Coverage source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3132,27 +6228,54 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [available publicly](https://github.com/facebook/react-native) — iOS Dev Weekly · Issue 191 — Source repository · Topics: Cross-Platform & Web · Developer Tools
   **Published:** `27th March 2015`
   **NeKI brief:** Provides the available publicly source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [AAWindow](https://github.com/aaronabentheuer/AAWindow) — iOS Dev Weekly · Issue 191 — Source repository · Topics: Developer Tools
+  **Published:** `27th March 2015`
+  **NeKI brief:** The GitHub repository contains AAWindow, an open-source window-related utility for Apple-platform development.
 - [XCActionBar](https://github.com/pdcgomes/XCActionBar) — iOS Dev Weekly · Issue 190 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `20th March 2015`
   **NeKI brief:** Provides the XCActionBar source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Hyper Form](https://github.com/hyperoslo/Form) — iOS Dev Weekly · Issue 189 — Source repository · Topics: Developer Tools
+  **Published:** `13th March 2015`
+  **NeKI brief:** Form from Hyper provides a way to build a form on iOS using JSON and this week 1.0 was released. This project looks to be very active and they have accomplished a huge amount with it. Worth checking out if you’re building any kind of data collection app.
 - [ReactKit](https://github.com/ReactKit/ReactKit) — iOS Dev Weekly · Issue 188 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `6th March 2015`
   **NeKI brief:** Provides the ReactKit source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa/pull/1382) — iOS Dev Weekly · Issue 188 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `6th March 2015`
   **NeKI brief:** Provides the ReactiveCocoa source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [MustOverride](https://github.com/nicklockwood/MustOverride) — iOS Dev Weekly · Issue 187 — Source repository · Topics: Developer Tools
+  **Published:** `27th February 2015`
+  **NeKI brief:** Really useful little project by Nick Lockwood, by specifying that a SUBCLASS_MUST_OVERRIDE in a method, the app will crash on startup which is much better than having to wait until the method is actually called.
 - [Awesome Swift](https://github.com/matteocrippa/awesome-swift) — iOS Dev Weekly · Issue 187 — Source repository · Topics: Developer Tools · Swift
   **Published:** `27th February 2015`
   **NeKI brief:** Provides the Awesome Swift source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [standard format](https://github.com/bayandin/awesome-awesomeness) — iOS Dev Weekly · Issue 187 — Source repository · Topics: Developer Tools · Swift
   **Published:** `27th February 2015`
   **NeKI brief:** Provides the standard format source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Awesome iOS](https://github.com/vsouza/awesome-ios) — iOS Dev Weekly · Issue 187 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `27th February 2015`
+  **NeKI brief:** Examines A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects - GitHub - vsouza/awesome-ios: A curated list of awesome iOS ecosystem, including Objective-C and. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [SwiftMoment](https://github.com/akosma/SwiftMoment) — iOS Dev Weekly · Issue 186 — Source repository · Topics: Developer Tools · Swift
   **Published:** `20th February 2015`
   **NeKI brief:** Provides the SwiftMoment source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [LLBSDMessaging](https://github.com/ddeville/LLBSDMessaging) — iOS Dev Weekly · Issue 185 — Source repository · Topics: Developer Tools
+  **Published:** `13th February 2015`
+  **NeKI brief:** Examines A very thorough overview of the state of interprocess communication (IPC) on iOS from Damien DeVille. This article is a must read for anyone using extensions. Damien has released LLBSDMessaging which allows true IPC on i Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [MMWormhole](https://github.com/mutualmobile/MMWormhole) — iOS Dev Weekly · Issue 185 — Source repository · Topics: Developer Tools
+  **Published:** `13th February 2015`
+  **NeKI brief:** The page covers “MMWormhole” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Logging Excessive Main Thread Blocking](https://gist.github.com/jspahrsummers/419266f5231832602bec) — iOS Dev Weekly · Issue 183 — Source repository · Topics: Developer Tools
+  **Published:** `30th January 2015`
+  **NeKI brief:** Examines A class for logging excessive blocking on the main thread - GHRunLoopWatchdog.h. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Luis Ascorbe’s conference list](https://github.com/Lascorbe/CocoaConferences) — iOS Dev Weekly · Issue 182 — Source repository · Topics: Developer Community & Business · Developer Tools · Objective-C & Cocoa
+  **Published:** `23rd January 2015`
+  **NeKI brief:** The page covers “Cocoa Conferences in 2014” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [KPRunEverywhereXcodePlugin](https://github.com/kitschpatrol/KPRunEverywhereXcodePlugin) — iOS Dev Weekly · Issue 181 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `16th January 2015`
   **NeKI brief:** Provides the KPRunEverywhereXcodePlugin source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [iOS Deeplink SDK](https://github.com/usebutton/ios-deeplink-sdk) — iOS Dev Weekly · Issue 181 — Source repository · Topics: Developer Tools · Navigation & Deep Linking
+  **Published:** `16th January 2015`
+  **NeKI brief:** Examines A splendid route-matching, block-based way to handle your deep links. - button/DeepLinkKit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [BigBrother](https://github.com/marcelofabri/BigBrother) — iOS Dev Weekly · Issue 180 — Source repository · Topics: Developer Tools · Networking · Objective-C & Cocoa
   **Published:** `9th January 2015`
   **NeKI brief:** Provides the BigBrother source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3162,9 +6285,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Harpy](https://github.com/ArtSabintsev/Harpy) — iOS Dev Weekly · Issue 180 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `9th January 2015`
   **NeKI brief:** Provides the Harpy source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [App Store and Digital Purchase Refunds](http://www.theverge.com/2014/12/30/7468573/apple-14-day-return-period-allowed-in-eu-countries) — iOS Dev Weekly · Issue 179 — Article · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `2nd January 2015`
+  **NeKI brief:** As I understood it, the existing 90 day returns policy for apps didn’t ask very many questions before granting a refund so I’m not sure this news is as huge as the media is making it out to be. Regardless, in the EU there is now a blanket, no questions asked…
+- [HLSpriteKit](https://github.com/hilogames/HLSpriteKit) — iOS Dev Weekly · Issue 177 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `19th December 2014`
+  **NeKI brief:** Examines SpriteKit scene and node subclasses, plus various utilities. - hilogames/HLSpriteKit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Debugging: A Case Study](http://www.objc.io/issue-19/debugging-case-study.html) — iOS Dev Weekly · Issue 176 — Article · Topics: Cross-Platform & Web · Developer Tools · Testing
   **Published:** `12th December 2014`
   **NeKI brief:** Explains Debugging A Case Study with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [Flipbook](https://github.com/frosty/Flipbook) — iOS Dev Weekly · Issue 174 — Source repository · Topics: Developer Tools
+  **Published:** `28th November 2014`
+  **NeKI brief:** One challenging piece of Watch development is going to be animations. With no support for animation on the watch outside of flip book style image sequences, apps are either going to be static or need to generate hundreds of images to achieve animation…
+- [sample project](https://github.com/atomicbird/iOS-Extension-Demo) — iOS Dev Weekly · Issue 174 — Source repository · Topics: Developer Tools
+  **Published:** `28th November 2014`
+  **NeKI brief:** The GitHub repository contains an iOS extension demonstration project with publicly readable sample source code.
+- [Creating Animations and Interactions with Physical Models](http://iamralpht.github.io/physics) — iOS Dev Weekly · Issue 174 — Article · Topics: Developer Tools
+  **Published:** `28th November 2014`
+  **NeKI brief:** Explains Creating Animations and Interactions with Physical Models, focusing on concrete animation mechanics and the implementation choices that shape UIKit interaction behavior.
 - [Working Copy](https://itunes.apple.com/us/app/working-copy/id896694807?mt=8) — iOS Dev Weekly · Issue 173 — Article · Topics: Developer Tools
   **Published:** `21st November 2014`
   **NeKI brief:** Explains Working Copy with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
@@ -3177,33 +6315,123 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [app is open source](https://github.com/artsy/eidolon) — iOS Dev Weekly · Issue 172 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `14th November 2014`
   **NeKI brief:** Provides the app is open source source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [SmudgeKit](https://github.com/Ideon/SmudgeKit) — iOS Dev Weekly · Issue 172 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `14th November 2014`
+  **NeKI brief:** Presents SmudgeKit, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [FrameIt](https://github.com/KrauseFx/frameit) — iOS Dev Weekly · Issue 172 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `14th November 2014`
+  **NeKI brief:** Examines Quickly put your screenshots into the right device frames - fastlane-old/frameit. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [KMCGeigerCounter](https://github.com/kconner/KMCGeigerCounter) — iOS Dev Weekly · Issue 172 — Source repository · Topics: Developer Tools
   **Published:** `14th November 2014`
   **NeKI brief:** Provides the KMCGeigerCounter source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Deliver](https://github.com/KrauseFx/deliver) — iOS Dev Weekly · Issue 171 — Source repository · Topics: Developer Tools · Localization
+  **Published:** `7th November 2014`
+  **NeKI brief:** Felix Krause with a tool which can completely manage the submission process for your app delivery to iTunes Connect, including uploading metadata, release notes, screenshots, keywords, localisations and everything else. It turns a potentially tedious task…
+- [ImageScout](https://github.com/kaishin/ImageScout) — iOS Dev Weekly · Issue 171 — Source repository · Topics: Developer Tools
+  **Published:** `7th November 2014`
+  **NeKI brief:** Reda Lemeden with an implementation of fastimage which downloads only enough of an image to determine the size and format information, then stops. This could save you a lot of bandwidth in your apps.
+- [KZPlayground](https://github.com/krzysztofzablocki/KZPlayground) — iOS Dev Weekly · Issue 169 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Objective-C & Cocoa
+  **Published:** `24th October 2014`
+  **NeKI brief:** The page covers “KZPlayground” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [SuperRecord](https://github.com/michaelarmstrong/SuperRecord) — iOS Dev Weekly · Issue 169 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `24th October 2014`
   **NeKI brief:** Provides the SuperRecord source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) — iOS Dev Weekly · Issue 169 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
   **Published:** `24th October 2014`
   **NeKI brief:** Provides the MagicalRecord source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [KZBootstrap](https://github.com/krzysztofzablocki/KZBootstrap) — iOS Dev Weekly · Issue 168 — Source repository · Topics: Developer Tools
+  **Published:** `17th October 2014`
+  **NeKI brief:** Krzysztof Zabłocki has open sourced his bootstrap iOS project this week. However, before you jump in with both feet I’m not completely convinced that iOS projects actually need a bootstrap. There are some good recommendations here though so what I would…
+- [SemverKit](https://github.com/nomothetis/SemverKit) — iOS Dev Weekly · Issue 167 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `10th October 2014`
+  **NeKI brief:** Examines Alexandros Salazar experiments with using Swift as a scripting language. It’s not quite ready for prime time yet but I wonder if this will catch on. He has also put together a couple of libraries to help with creating th Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [OptionKit](https://github.com/nomothetis/OptionKit) — iOS Dev Weekly · Issue 167 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `10th October 2014`
+  **NeKI brief:** Examines Option parsing in Swift. Contribute to nomothetis/OptionKit development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Cartography](https://github.com/robb/Cartography) — iOS Dev Weekly · Issue 167 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `10th October 2014`
+  **NeKI brief:** Examines A declarative Auto Layout DSL for Swift :iphone::triangular_ruler: - robb/Cartography. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [SwiftTask](https://github.com/ReactKit/SwiftTask) — iOS Dev Weekly · Issue 167 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `10th October 2014`
+  **NeKI brief:** Explains SwiftTask, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [FBAnnotationClustering](https://github.com/infinum/FBAnnotationClustering) — iOS Dev Weekly · Issue 165 — Source repository · Topics: Developer Tools
+  **Published:** `26th September 2014`
+  **NeKI brief:** Examines iOS library for clustering map notifications in an easy and performant way - infinum/FBAnnotationClustering. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [mogenerator 1.28](http://rentzsch.tumblr.com/post/97193911940/mogenerator-1-28) — iOS Dev Weekly · Issue 163 — Article · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `12th September 2014`
+  **NeKI brief:** Examines What's New: [NEW] --v2 argument. I wanted to enable ARC by default, but decided to take it a step further (while not breaking existing scripts). The new --v2 argument is basic. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Bjango Actions @3x](https://github.com/bjango/bjango-actions) — iOS Dev Weekly · Issue 163 — Source repository · Topics: Developer Tools
+  **Published:** `12th September 2014`
+  **NeKI brief:** Examines A collection of Photoshop actions, Photoshop scripts, Hazel rules, macOS workflows and other random things for screen designers and developers. - bjango/Bjango-Actions. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [The Terminal](http://furbo.org/2014/09/03/the-terminal) — iOS Dev Weekly · Issue 162 — Article · Topics: Developer Tools
+  **Published:** `5th September 2014`
+  **NeKI brief:** Discusses terminal-oriented development habits and the role of command-line tools in an Apple-platform workflow. Useful for reflecting on automation and repeatability around Xcode projects.
+- [British Invasion](https://github.com/mattt/BritishInvasion) — iOS Dev Weekly · Issue 161 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `29th August 2014`
+  **NeKI brief:** Examines Localise Your .m Files, For Queen And Country 🇬🇧. Contribute to mattt/BritishInvasion development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [GitHub Xcode Bot Builder](https://github.com/modcloth-labs/github-xcode-bot-builder) — iOS Dev Weekly · Issue 160 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `22nd August 2014`
   **NeKI brief:** Provides the GitHub Xcode Bot Builder source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Moya](https://github.com/AshFurrow/Moya) — iOS Dev Weekly · Issue 160 — Source repository · Topics: Developer Tools · Functional Programming · Objective-C & Cocoa
+  **Published:** `22nd August 2014`
+  **NeKI brief:** Examines Network abstraction layer written in Swift. Contribute to Moya/Moya development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [swiftz](https://github.com/maxpow4h/swiftz) — iOS Dev Weekly · Issue 160 — Source repository · Topics: Developer Tools · Functional Programming · Swift
+  **Published:** `22nd August 2014`
+  **NeKI brief:** Examines What do you get if you cross AlamoFire, ReactiveCocoa and functional programming concepts (using swiftz)? Ash Furrow is experimenting. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [175 deployments in a day](https://github.com/blog/1241-deploying-at-github) — iOS Dev Weekly · Issue 159 — Source repository · Topics: Developer Tools
+  **Published:** `15th August 2014`
+  **NeKI brief:** Examines Unlike web apps, it’s a little more time consuming to ship software on iOS (and other mobile platforms) and while 175 deployments in a day is definitely not what you should be aiming for, Klaas Pieter Annema puts the cas Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [GitDiff](https://github.com/johnno1962/GitDiff) — iOS Dev Weekly · Issue 157 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `1st August 2014`
   **NeKI brief:** Provides the GitDiff source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [AYVibrantButton](https://github.com/a1anyip/AYVibrantButton) — iOS Dev Weekly · Issue 157 — Source repository · Topics: Developer Tools
+  **Published:** `1st August 2014`
+  **NeKI brief:** The page covers “AYVibrantButton” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Tower 2](http://www.git-tower.com/blog/tower2-is-here) — iOS Dev Weekly · Issue 156 — Article · Topics: Developer Tools
+  **Published:** `25th July 2014`
+  **NeKI brief:** Examines Over 100,000 developers and designers are more productive with Tower - the most powerful Git client for Mac and Windows. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Revolved](https://github.com/Ciechan/Revolved) — iOS Dev Weekly · Issue 155 — Source repository · Topics: Developer Tools
+  **Published:** `18th July 2014`
+  **NeKI brief:** I always love having a poke around inside an app I didn’t write but it’s been a while since I came across a full app that’s been open sourced. This week Bartosz Ciechanowski open sourced his 3D playground app, Revolved and it’s a cracker. If you’re…
 - [How to break (and fix) the accessibility of a table view](https://gist.github.com/d-ronnqvist/3584ccf3379f9c318e4f) — iOS Dev Weekly · Issue 155 — Source repository · Topics: Accessibility · Developer Tools · Testing
   **Published:** `18th July 2014`
   **NeKI brief:** Provides the How to break and fix the accessibility of a table view source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current.
 - [Swift In Flux](https://github.com/ksm/SwiftInFlux) — iOS Dev Weekly · Issue 154 — Source repository · Topics: Developer Tools · Product Design · Swift
   **Published:** `11th July 2014`
   **NeKI brief:** Provides the Swift In Flux source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Aspects library](https://github.com/steipete/Aspects) — iOS Dev Weekly · Issue 154 — Source repository · Topics: Developer Tools
+  **Published:** `11th July 2014`
+  **NeKI brief:** Presents Aspects library, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Zen and the Art of the Objective-C Craftsmanship](https://github.com/objc-zen/objc-zen-book) — iOS Dev Weekly · Issue 154 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `11th July 2014`
+  **NeKI brief:** The page covers “Zen and the Art of the Objective-C Craftsmanship” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [QueryKit](https://github.com/kylef/QueryKit) — iOS Dev Weekly · Issue 153 — Source repository · Topics: Core Data · Developer Tools · Swift
   **Published:** `4th July 2014`
   **NeKI brief:** Provides the QueryKit source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [ZFRippleButton](https://github.com/zoonooz/ZFRippleButton) — iOS Dev Weekly · Issue 153 — Source repository · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `4th July 2014`
+  **NeKI brief:** Examines Custom UIButton effect inspired by Google Material Design - zoonooz/ZFRippleButton. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [TOMSMorphingLabel](https://github.com/TomKnig/TOMSMorphingLabel) — iOS Dev Weekly · Issue 152 — Source repository · Topics: Developer Tools
+  **Published:** `27th June 2014`
+  **NeKI brief:** Tom König with a very cute UILabel subclass which supports beautiful morphing between text values (including emoji 🎪). Much nicer than a simple swap if you are changing the text of a label.
+- [What’s New](https://github.com/mdznr/What-s-New) — iOS Dev Weekly · Issue 149 — Source repository · Topics: Developer Tools
+  **Published:** `6th June 2014`
+  **NeKI brief:** Since iOS 7 introduced silent, automatic updates to apps we have lost much of our ability to communicate with our users through release notes. Matt Zanchelli has taken a crack at the problem and produced this configurable “What’s New” screen. My only caution…
+- [Flappy Swift](https://github.com/fullstackio/FlappySwift) — iOS Dev Weekly · Issue 149 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `6th June 2014`
+  **NeKI brief:** Time from announcement to Flappy Swift was about 8 hours by my count…
+- [Synx](https://github.com/venmo/synx) — iOS Dev Weekly · Issue 148 — Source repository · Topics: Developer Tools
+  **Published:** `30th May 2014`
+  **NeKI brief:** Examines A command-line tool that reorganizes your Xcode project folder to match your Xcode groups - venmo/synx. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Popping](https://github.com/schneiderandre/popping) — iOS Dev Weekly · Issue 148 — Source repository · Topics: Developer Tools
   **Published:** `30th May 2014`
   **NeKI brief:** Provides the Popping source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [How Apple Cheats](http://marksands.github.io/2014/05/27/how-apple-cheats.html) — iOS Dev Weekly · Issue 148 — Article · Topics: Cross-Platform & Web · Developer Tools · Security & Privacy
+  **Published:** `30th May 2014`
+  **NeKI brief:** Examines It should be blindingly obvious, and expected, that Apple don’t play by the same rules that we have to (for example, sandboxing and all of their Mac apps) but I did like Mark Sands’ investigation into how iBooks & iTunes Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Orta’s WWDC party list](https://github.com/orta/wwdc_parties_2014/blob/master/README.md) — iOS Dev Weekly · Issue 147 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
+  **Published:** `23rd May 2014`
+  **NeKI brief:** The page covers “Orta’s WWDC party list” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [GitHub repository](https://github.com/albertodebortoli/ADBActors) — iOS Dev Weekly · Issue 147 — Source repository · Topics: Concurrency · Developer Tools · Objective-C & Cocoa
   **Published:** `23rd May 2014`
   **NeKI brief:** Provides the GitHub repository source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3213,6 +6441,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [GPL licensed](https://github.com/chrismiles/DynamicXray/blob/master/LICENSE.txt) — iOS Dev Weekly · Issue 146 — Source repository · Topics: Developer Tools · UIKit
   **Published:** `16th May 2014`
   **NeKI brief:** Provides the GPL licensed source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [check out the GitHub repository and run the example app](https://github.com/Ciechan/BCMeshTransformView) — iOS Dev Weekly · Issue 146 — Source repository · Topics: Developer Tools
+  **Published:** `16th May 2014`
+  **NeKI brief:** The page covers “check out the GitHub repository and run the example app” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [MTDActionSheet](https://github.com/myell0w/MTDActionSheet) — iOS Dev Weekly · Issue 146 — Source repository · Topics: Developer Tools
+  **Published:** `16th May 2014`
+  **NeKI brief:** Examines A customizable popover-based UIActionSheet replacement for the iPhone & iPad - myell0w/MTDActionSheet. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Three20](https://github.com/facebook/three20) — iOS Dev Weekly · Issue 144 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `2nd May 2014`
+  **NeKI brief:** Examines Three20 is an Objective-C library for iPhone developers - facebookarchive/three20. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [PromiseKit](https://github.com/mxcl/PromiseKit) — iOS Dev Weekly · Issue 143 — Source repository · Topics: Concurrency · Developer Tools
   **Published:** `25th April 2014`
   **NeKI brief:** Provides the PromiseKit source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3227,19 +6464,52 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Provides the BRFlabbyTable source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [YLGIFImage](https://github.com/liyong03/YLGIFImage) — iOS Dev Weekly · Issue 140 — Source repository · Topics: Developer Tools
   **Published:** `4th April 2014`
-  **NeKI brief:** Provides the YLGIFImage source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+  **NeKI brief:** Adds animated GIF image loading and playback support for iOS. Use it to study the trade-offs of decoding and rendering animated image frames when deciding how media should behave in a UIKit interface.
+- [OLImageView](https://github.com/ondalabs/OLImageView) — iOS Dev Weekly · Issue 140 — Source repository · Topics: Developer Tools
+  **Published:** `4th April 2014`
+  **NeKI brief:** Examines Animated GIFs implemented the right way. Contribute to dtorres/OLImageView development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [this alternate library](https://github.com/kongtomorrow/TunableSpec) — iOS Dev Weekly · Issue 139 — Source repository · Topics: Developer Tools
+  **Published:** `28th March 2014`
+  **NeKI brief:** Examines There is a famous story of Steve Jobs being given an early build of iOS which included sliders to tweak the parameters of the “wiggle” animation which plays when an app is about to be deleted. This new library from Faceb Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [DateTools](https://github.com/MatthewYork/DateTools) — iOS Dev Weekly · Issue 139 — Source repository · Topics: Developer Tools
+  **Published:** `28th March 2014`
+  **NeKI brief:** The page covers “DateTools” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [Xtrace](https://github.com/johnno1962/Xtrace) — iOS Dev Weekly · Issue 138 — Source repository · Topics: Developer Tools
   **Published:** `21st March 2014`
   **NeKI brief:** Provides the Xtrace source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Warnings Explained](https://github.com/boredzo/Warnings-xcconfig/wiki/Warnings-Explained) — iOS Dev Weekly · Issue 138 — Source repository · Topics: Developer Tools
+  **Published:** `21st March 2014`
+  **NeKI brief:** Examines Great post by Peter Hosey on which additional warnings he switches on, and why. I think we can all agree that there are certain warnings which are off by default which will not get in the way if switched on, however USE Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [RPJSONValidator](https://github.com/reygonzales/RPJSONValidator) — iOS Dev Weekly · Issue 138 — Source repository · Topics: Developer Tools
+  **Published:** `21st March 2014`
+  **NeKI brief:** Reynaldo Gonzales with a concise library to assist in validating JSON before allowing it into your precious objects. Simple but just like Transformer-DSL above, this has the potential to simplify lots of repetitive code in your models.
+- [Rubber Duck Debugging](http://en.wikipedia.org/wiki/Rubber_duck_debugging) — iOS Dev Weekly · Issue 138 — Article · Topics: Developer Tools
+  **Published:** `21st March 2014`
+  **NeKI brief:** Examines Rubber duck debugging - Wikipedia. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Flappy 2048](http://hczhcz.github.io/Flappy-2048) — iOS Dev Weekly · Issue 138 — Article · Topics: Developer Tools
+  **Published:** `21st March 2014`
+  **NeKI brief:** You know, I never meant for anyone to take my joke in Issue 133 seriously…
 - [Quick Look on UIViews](http://useyourloaf.com/blog/2014/03/12/xcode-debugger-quick-look.html) — iOS Dev Weekly · Issue 137 — Article · Topics: Cross-Platform & Web · Developer Tools · Xcode
   **Published:** `14th March 2014`
   **NeKI brief:** Explains Quick Look on UIViews with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [objc_designated_initializer](https://gist.github.com/steipete/9482253) — iOS Dev Weekly · Issue 137 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `14th March 2014`
+  **NeKI brief:** The concept of designated initialisers in Objective-C has been around forever but there has never been a way to indicate which initialiser was your designated one apart from in documentation (and who reads docs, right?). As Peter Steinberger notes, this…
+- [FXForms](https://github.com/nicklockwood/FXForms) — iOS Dev Weekly · Issue 136 — Source repository · Topics: Developer Tools
+  **Published:** `7th March 2014`
+  **NeKI brief:** Even with iOS 5’s Static Table Views, long and complex forms can still be a pain to build. Enter FXForms from Nick Lockwood which gives us a generic form view controller which takes any object that confirms to a protocol to define the types and property…
+- [Shimmer](https://github.com/facebook/Shimmer) — iOS Dev Weekly · Issue 136 — Source repository · Topics: Developer Tools
+  **Published:** `7th March 2014`
+  **NeKI brief:** Slide to unlock… The iconic label which introduced us all to the fact that the iPhone was really going to be a touch first device when it was unveiled in 2007. Now you get to easily add that same effect to every label in your app. Every. Single. Label… Go!
 - [Haneke](https://github.com/hpique/Haneke) — iOS Dev Weekly · Issue 136 — Source repository · Topics: Developer Tools · Networking · UIKit
   **Published:** `7th March 2014`
   **NeKI brief:** Provides the Haneke source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [StoryboardLint](https://github.com/jfahrenkrug/StoryboardLint) — iOS Dev Weekly · Issue 135 — Source repository · Topics: Developer Tools
   **Published:** `28th February 2014`
   **NeKI brief:** Provides the StoryboardLint source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [KVOController](https://github.com/facebook/KVOController) — iOS Dev Weekly · Issue 135 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `28th February 2014`
+  **NeKI brief:** Facebook are pushing out all sorts of great open source code recently and this KVO assistant class is no exception. The biggest benefit by far is block based observer callbacks but it also removes the requirement to explicitly remove observers and various…
 - [Learn by Doing with Code School](https://www.codeschool.com/paths/ios) — iOS Dev Weekly · Issue 134 — Tutorial · Topics: Cross-Platform & Web · Developer Community & Business · Developer Tools
   **Published:** `21st February 2014`
   **NeKI brief:** Explains Learn by Doing with Code School with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
@@ -3249,12 +6519,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [CCHMapClusterController](https://github.com/choefele/CCHMapClusterController) — iOS Dev Weekly · Issue 132 — Source repository · Topics: Developer Tools
   **Published:** `7th February 2014`
   **NeKI brief:** Provides the CCHMapClusterController source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Repairing Our Broken CocoaPods Specs Repository](http://blog.cocoapods.org/Repairing-Our-Broken-Specs-Repository) — iOS Dev Weekly · Issue 131 — Article · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `31st January 2014`
+  **NeKI brief:** Examines This is more of an interesting story about git rather than anything to do with CocoaPods but I found the dilemma interesting. Ultimately, they made exactly the right decision here given the nature of the content in the c Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [ImageOptim CLI](https://github.com/JamieMason/ImageOptim-CLI) — iOS Dev Weekly · Issue 131 — Source repository · Topics: Developer Tools
   **Published:** `31st January 2014`
   **NeKI brief:** Provides the ImageOptim CLI source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [Bolts](https://github.com/BoltsFramework/Bolts-iOS) — iOS Dev Weekly · Issue 131 — Source repository · Topics: Concurrency · Dependency Injection · Developer Tools
   **Published:** `31st January 2014`
   **NeKI brief:** Provides the Bolts source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [ACReuseQueue](https://github.com/acoomans/ACReuseQueue) — iOS Dev Weekly · Issue 131 — Source repository · Topics: Developer Tools
+  **Published:** `31st January 2014`
+  **NeKI brief:** Examines A queue to keep and reusing objects. Contribute to acoomans/ACReuseQueue development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [fui](https://github.com/dblock/fui) — iOS Dev Weekly · Issue 130 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `24th January 2014`
   **NeKI brief:** Provides the fui source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3264,36 +6540,66 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [UIImageView+FaceAwareFill](https://github.com/Julioacarrettoni/UIImageView_FaceAwareFill) — iOS Dev Weekly · Issue 129 — Source repository · Topics: Developer Tools · Graphics, Media & Games
   **Published:** `17th January 2014`
   **NeKI brief:** Provides the UIImageView+FaceAwareFill source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Custom SSL certificate with Charles Web Proxy](http://codeblog.shape.dk/blog/2014/01/06/custom-ssl-certificate-with-charles-web-proxy) — iOS Dev Weekly · Issue 128 — Article · Topics: Developer Tools · Security & Privacy
+  **Published:** `10th January 2014`
+  **NeKI brief:** Examines Update April 2015: The SSL proxy handling in Charles 3.10 has been improved so this guide is no longer necessary. Charles now creates a root SSL …. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [objc-run](https://github.com/iljaiwas/objc-run) — iOS Dev Weekly · Issue 128 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `10th January 2014`
   **NeKI brief:** Provides the objc-run source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Cocoa Conferences in 2014](https://github.com/Lascorbe/cocoaconferences) — iOS Dev Weekly · Issue 127 — Source repository · Topics: Developer Community & Business · Developer Tools · Objective-C & Cocoa
+  **Published:** `3rd January 2014`
+  **NeKI brief:** The page covers “Cocoa Conferences in 2014” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [EZAudio](https://github.com/syedhali/EZAudio) — iOS Dev Weekly · Issue 127 — Source repository · Topics: Developer Tools
   **Published:** `3rd January 2014`
   **NeKI brief:** Provides the EZAudio source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [SQKeyPath](https://gist.github.com/kyleve/8213806) — iOS Dev Weekly · Issue 127 — Source repository · Topics: Developer Tools · Macros & Metaprogramming
   **Published:** `3rd January 2014`
   **NeKI brief:** Provides the SQKeyPath source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Objective-C RegEx Categories](https://github.com/bendytree/Objective-C-RegEx-Categories) — iOS Dev Weekly · Issue 127 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `3rd January 2014`
+  **NeKI brief:** I’m not usually a fan of categories designed to reduce the verbosity of Objective-C but NSRegularExpression is one where I would consider a reduction valuable. These categories by Josh Wright look to be a step in the right direction.
+- [Silhouette](https://github.com/fraserhess/silhouette) — iOS Dev Weekly · Issue 127 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `3rd January 2014`
+  **NeKI brief:** Examines Sparkle profiling for the Mac App Store. Contribute to fraserhess/silhouette development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [XCPretty](https://github.com/mneorr/XCPretty) — iOS Dev Weekly · Issue 124 — Source repository · Topics: Developer Tools · Testing · Xcode
   **Published:** `13th December 2013`
   **NeKI brief:** Provides the XCPretty source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [MessageBarManager](https://github.com/terryworona/MessageBarManager) — iOS Dev Weekly · Issue 124 — Source repository · Topics: Developer Tools
+  **Published:** `13th December 2013`
+  **NeKI brief:** Terry Worona with a very attractive implementation of a non modal alert message view for iOS 7. Support for tapping to dismiss or optionally perform a callback and several different styles. Worth looking at if you are looking to remove some UIAlertView…
+- [FastCoding](https://github.com/nicklockwood/FastCoding) — iOS Dev Weekly · Issue 124 — Source repository · Topics: Developer Tools
+  **Published:** `13th December 2013`
+  **NeKI brief:** Examines Nick Lockwood with a new set of serialisation/deserialisation classes. Support is included for bootstrapping seed data and also pointers/references to other objects with an aliasing feature. Looks really good. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Mensa](https://github.com/jordanekay/Mensa) — iOS Dev Weekly · Issue 124 — Source repository · Topics: Developer Tools
+  **Published:** `13th December 2013`
+  **NeKI brief:** Examines 🤓 Smart, modern table and collection views on iOS. Contribute to jordanekay/Mensa development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [APIClient](https://github.com/klaaspieter/APIClient) — iOS Dev Weekly · Issue 124 — Source repository · Topics: Dependency Injection · Developer Tools · Navigation & Deep Linking
   **Published:** `13th December 2013`
   **NeKI brief:** Provides the APIClient source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [SDCAlertView](https://github.com/Scott90/SDCAlertView) — iOS Dev Weekly · Issue 122 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `29th November 2013`
   **NeKI brief:** Provides the SDCAlertView source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Debugging a Live Saturn V](http://www.zamiang.com/posts/2013/10/13/red-team) — iOS Dev Weekly · Issue 122 — Article · Topics: Developer Tools
+  **Published:** `29th November 2013`
+  **NeKI brief:** Examines Writing and photos by Brennan Moore. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [NHBalancedFlowLayout](https://github.com/njdehoog/NHBalancedFlowLayout) — iOS Dev Weekly · Issue 120 — Source repository · Topics: Developer Tools
   **Published:** `15th November 2013`
   **NeKI brief:** Provides the NHBalancedFlowLayout source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [Brushes](https://github.com/sprang/Brushes) — iOS Dev Weekly · Issue 120 — Source repository · Topics: Developer Tools
   **Published:** `15th November 2013`
   **NeKI brief:** Provides the Brushes source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [MSDynamicsDrawerViewController](https://github.com/monospacecollective/MSDynamicsDrawerViewController) — iOS Dev Weekly · Issue 120 — Source repository · Topics: Developer Tools
+  **Published:** `15th November 2013`
+  **NeKI brief:** How about a swipe out “drawer” view controller with all the playfulness of UI Dynamics integrated right into it to give it that iOS 7 shine? Well Eric Horacek has released a library this week which does exactly that. It looks to be well documented and…
+- [RBBAnimation](https://github.com/robb/RBBAnimation) — iOS Dev Weekly · Issue 119 — Source repository · Topics: Developer Tools
+  **Published:** `8th November 2013`
+  **NeKI brief:** Robert Böhnke with a new layer based animation library which includes a replacement for CASpringAnimation along with a few other useful classes. Worth a look if you are looking for something like animate…usingSpringWithDamping at the layer level.
 - [Inkpad](https://github.com/sprang/Inkpad) — iOS Dev Weekly · Issue 119 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Testing
   **Published:** `8th November 2013`
   **NeKI brief:** Provides the Inkpad source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [BeaconEmitter](https://github.com/lgaches/BeaconEmitter) — iOS Dev Weekly · Issue 119 — Source repository · Topics: Developer Tools · Testing
   **Published:** `8th November 2013`
-  **NeKI brief:** Provides the BeaconEmitter source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+  **NeKI brief:** Provides macOS code for emitting iBeacon advertisements, based on CoreBluetooth-style beacon behavior. It is useful when prototyping proximity signals or testing beacon consumers without dedicated beacon hardware.
 - [OvershareKit](https://github.com/overshare/overshare-kit) — iOS Dev Weekly · Issue 118 — Source repository · Topics: Developer Tools
   **Published:** `1st November 2013`
   **NeKI brief:** Provides the OvershareKit source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3303,6 +6609,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iOS Snapshot Test Case](https://github.com/facebook/ios-snapshot-test-case) — iOS Dev Weekly · Issue 117 — Source repository · Topics: Developer Tools · Testing · Xcode
   **Published:** `25th October 2013`
   **NeKI brief:** Provides the iOS Snapshot Test Case source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [FastImageCache](https://github.com/path/FastImageCache) — iOS Dev Weekly · Issue 117 — Source repository · Topics: Developer Tools
+  **Published:** `25th October 2013`
+  **NeKI brief:** Presents FastImageCache, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Handlebars for Objective-C](https://github.com/fotonauts/handlebars-objc) — iOS Dev Weekly · Issue 116 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `18th October 2013`
   **NeKI brief:** Provides the Handlebars for Objective-C source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3312,6 +6621,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Xcode 5 Plugin Template](https://github.com/kattrali/Xcode5-Plugin-Template) — iOS Dev Weekly · Issue 114 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `4th October 2013`
   **NeKI brief:** Provides the Xcode 5 Plugin Template source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [JazzHands](https://github.com/IFTTT/JazzHands) — iOS Dev Weekly · Issue 114 — Source repository · Topics: Developer Tools
+  **Published:** `4th October 2013`
+  **NeKI brief:** The GitHub repository contains JazzHands, an interactive animation framework for building scroll-driven iOS interfaces.
+- [SDScreenshotCapture](https://github.com/shinydevelopment/SDScreenshotCapture) — iOS Dev Weekly · Issue 113 — Source repository · Topics: Developer Tools
+  **Published:** `27th September 2013`
+  **NeKI brief:** The page covers “SDScreenshotCapture” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [LLDB-QuickLook](https://github.com/ryanolsonk/LLDB-QuickLook) — iOS Dev Weekly · Issue 112 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Xcode
   **Published:** `20th September 2013`
   **NeKI brief:** Provides the LLDB-QuickLook source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3324,15 +6639,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [UIKitLegacyDetector](https://gist.github.com/steipete/6526860) — iOS Dev Weekly · Issue 111 — Source repository · Topics: Developer Tools · Personal Essays · UIKit
   **Published:** `13th September 2013`
   **NeKI brief:** Provides the UIKitLegacyDetector source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [JNWCollectionView](https://github.com/jwilling/JNWCollectionView) — iOS Dev Weekly · Issue 111 — Source repository · Topics: Developer Tools
+  **Published:** `13th September 2013`
+  **NeKI brief:** Examines Customizable and performant collection view for the Mac. - jwilling/JNWCollectionView. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [FMPSD](https://github.com/ccgus/fmpsd) — iOS Dev Weekly · Issue 110 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `6th September 2013`
   **NeKI brief:** Provides the FMPSD source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [iOS7Colors](https://github.com/claaslange/iOS7Colors) — iOS Dev Weekly · Issue 110 — Source repository · Topics: Developer Tools
+  **Published:** `6th September 2013`
+  **NeKI brief:** Remember all those standard colours that Apple talked about during the iOS 7 keynote? Well, Claas Lange has been kind enough to pop them all into a category for us.
 - [FXBlurView](https://github.com/nicklockwood/FXBlurView) — iOS Dev Weekly · Issue 109 — Source repository · Topics: Developer Tools
   **Published:** `30th August 2013`
   **NeKI brief:** Provides the FXBlurView source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [AGAsyncTestHelper](https://github.com/hfossli/AGAsyncTestHelper) — iOS Dev Weekly · Issue 109 — Source repository · Topics: Concurrency · Developer Tools · Testing
   **Published:** `30th August 2013`
   **NeKI brief:** Provides the AGAsyncTestHelper source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [XYPieChart](https://github.com/xyfeng/XYPieChart) — iOS Dev Weekly · Issue 109 — Source repository · Topics: Developer Tools
+  **Published:** `30th August 2013`
+  **NeKI brief:** Very pretty, simple, animated pie chart component from XY Feng.
 - [IGHTMLQuery](https://github.com/siuying/IGHTMLQuery) — iOS Dev Weekly · Issue 108 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Testing
   **Published:** `23rd August 2013`
   **NeKI brief:** Provides the IGHTMLQuery source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3342,6 +6666,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [ReactiveCocoa 2](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/CHANGELOG.md) — iOS Dev Weekly · Issue 108 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `23rd August 2013`
   **NeKI brief:** Provides the ReactiveCocoa 2 source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [OSNavigationController](https://github.com/nicklockwood/OSNavigationController) — iOS Dev Weekly · Issue 107 — Source repository · Topics: Developer Tools
+  **Published:** `16th August 2013`
+  **NeKI brief:** The page covers “OSNavigationController” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [SDMMobileDevice](https://github.com/samdmarshall/SDMMobileDevice) — iOS Dev Weekly · Issue 107 — Source repository · Topics: Developer Tools · Security & Privacy
+  **Published:** `16th August 2013`
+  **NeKI brief:** The GitHub repository contains SDMMobileDevice, an open-source project for interacting with mobile-device services on Apple platforms.
+- [Verbal Expressions](https://github.com/VerbalExpressions/JSVerbalExpressions) — iOS Dev Weekly · Issue 106 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `9th August 2013`
+  **NeKI brief:** Readable regular expressions? When do we get an Objective-C port?
 - [iOS Blur](https://github.com/JagCesar/iOS-blur) — iOS Dev Weekly · Issue 105 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · UIKit
   **Published:** `2nd August 2013`
   **NeKI brief:** Provides the iOS Blur source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3351,12 +6684,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Masonry](https://github.com/cloudkite/Masonry) — iOS Dev Weekly · Issue 104 — Source repository · Topics: Developer Tools · Persistence & Synchronisation
   **Published:** `26th July 2013`
   **NeKI brief:** Provides the Masonry source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Butter](https://github.com/ButterKit/Butter) — iOS Dev Weekly · Issue 104 — Source repository · Topics: Developer Tools
+  **Published:** `26th July 2013`
+  **NeKI brief:** Examines A big shot of epicness for AppKit. It's time to put a jetpack on your tricycle. - ButterKit/Butter. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Objective-C Generics](https://github.com/tomersh/Objective-C-Generics) — iOS Dev Weekly · Issue 103 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Objective-C & Cocoa
   **Published:** `19th July 2013`
   **NeKI brief:** Provides the Objective-C Generics source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [WWDC Sample Code Downloader](https://github.com/jfahrenkrug/WWDC-Downloader) — iOS Dev Weekly · Issue 100 — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games
   **Published:** `28th June 2013`
   **NeKI brief:** Provides the WWDC Sample Code Downloader source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Pull Request #832](https://github.com/facebook/three20/pull/832) — iOS Dev Weekly · Issue 100 — Source repository · Topics: Developer Tools
+  **Published:** `28th June 2013`
+  **NeKI brief:** Examines Three20 is an Objective-C library for iPhone developers - remove all sources and update README by diederich · Pull Request #832 · facebookarchive/three20. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [iOS Artwork Extractor](https://github.com/0xced/iOS-Artwork-Extractor) — iOS Dev Weekly · Issue 99 — Source repository · Topics: Concurrency · Developer Tools · Xcode
   **Published:** `21st June 2013`
   **NeKI brief:** Provides the iOS Artwork Extractor source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3372,6 +6711,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [FlatUIKit](https://github.com/Grouper/FlatUIKit) — iOS Dev Weekly · Issue 95 — Source repository · Topics: Developer Tools · UIKit
   **Published:** `24th May 2013`
   **NeKI brief:** Provides the FlatUIKit source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [UIImageViewModeScaleAspect](https://github.com/VivienCormier/UIImageViewModeScaleAspect) — iOS Dev Weekly · Issue 95 — Source repository · Topics: Developer Tools
+  **Published:** `24th May 2013`
+  **NeKI brief:** The GitHub repository provides a UIImageView helper for controlling scale-aspect presentation behavior in iOS.
 - [UbiquityStoreManager](http://lhunath.github.io/UbiquityStoreManager) — iOS Dev Weekly · Issue 94 — Article · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **Published:** `17th May 2013`
   **NeKI brief:** Explains UbiquityStoreManager with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
@@ -3387,48 +6729,117 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Alcatraz](http://mneorr.github.io/Alcatraz) — iOS Dev Weekly · Issue 91 — Article · Topics: Developer Tools · Xcode
   **Published:** `26th April 2013`
   **NeKI brief:** Explains Alcatraz with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
+- [TMCache](https://github.com/tumblr/TMCache) — iOS Dev Weekly · Issue 91 — Source repository · Topics: Developer Tools
+  **Published:** `26th April 2013`
+  **NeKI brief:** Open source, well documented, block based disk and memory cache library from Justin Ouellette of Tumblr, looks pretty good to me.
+- [StringScore](https://github.com/thetron/StringScore) — iOS Dev Weekly · Issue 90 — Source repository · Topics: Developer Tools
+  **Published:** `19th April 2013`
+  **NeKI brief:** Examines StringScore is an Objective-C library which provides super fast fuzzy string matching/scoring. Based on the JavaScript library of the same name. - thetron/StringScore. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [iOS UI Templates for Sketch](https://github.com/nvk/sketch-ios) — iOS Dev Weekly · Issue 90 — Source repository · Topics: Developer Tools
+  **Published:** `19th April 2013`
+  **NeKI brief:** A repository of over 15 iOS template files with various bits of iOS UI, all built for Sketch compiled by Rodolfo Novak. An extremely useful resource if you are using Sketch for mockups, which I am.
 - [Logging with Xcode Breakpoints](http://furbo.org/2013/04/11/logging-with-xcode-breakpoints) — iOS Dev Weekly · Issue 89 — Article · Topics: Developer Tools · Xcode
   **Published:** `12th April 2013`
   **NeKI brief:** Explains Logging with Xcode Breakpoints with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
 - [AGi18n](https://github.com/angelolloqui/AGi18n) — iOS Dev Weekly · Issue 87 — Source repository · Topics: Developer Tools · Localization
   **Published:** `29th March 2013`
   **NeKI brief:** Provides the AGi18n source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [StaticDataTableViewController](https://github.com/xelvenone/StaticDataTableViewController) — iOS Dev Weekly · Issue 87 — Source repository · Topics: Developer Tools
+  **Published:** `29th March 2013`
+  **NeKI brief:** Examines Enables animated hide/show of static cells and sections - peterpaulis/StaticDataTableViewController. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Glimpse](https://github.com/wess/Glimpse) — iOS Dev Weekly · Issue 87 — Source repository · Topics: Developer Tools · Foundation & Data Formats · Graphics, Media & Games
+  **Published:** `29th March 2013`
+  **NeKI brief:** Examines UIView recording library. Contribute to wess/Glimpse development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [ADNKit](https://github.com/joeldev/ADNKit) — iOS Dev Weekly · Issue 86 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `22nd March 2013`
   **NeKI brief:** Provides the ADNKit source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [JSErrorStackTrace](https://github.com/JaviSoto/JSErrorStackTrace) — iOS Dev Weekly · Issue 86 — Source repository · Topics: Developer Tools
   **Published:** `22nd March 2013`
   **NeKI brief:** Provides the JSErrorStackTrace source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [BlockTypeDescription](https://github.com/conradev/BlockTypeDescription) — iOS Dev Weekly · Issue 86 — Source repository · Topics: Developer Tools
+  **Published:** `22nd March 2013`
+  **NeKI brief:** Presents BlockTypeDescription, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [AGGeometryKit](https://github.com/hfossli/AGGeometryKit) — iOS Dev Weekly · Issue 85 — Source repository · Topics: Developer Tools
   **Published:** `15th March 2013`
   **NeKI brief:** Provides the AGGeometryKit source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [iOSVideoCameraMultiStitch](https://github.com/carsonmcdonald/iOSVideoCameraMultiStitchExample) — iOS Dev Weekly · Issue 85 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `15th March 2013`
+  **NeKI brief:** Carson McDonald with some code for recording a “Vine” style multi-section video clip including an asset stitching class which could come in useful for all sorts of stuff. Let the Vine clones flow.
 - [UISS](https://github.com/robertwijas/UISS) — iOS Dev Weekly · Issue 84 — Source repository · Topics: Developer Community & Business · Developer Tools · UIKit
   **Published:** `8th March 2013`
   **NeKI brief:** Provides the UISS source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [SVPulsingAnnotationView](https://github.com/samvermette/SVPulsingAnnotationView) — iOS Dev Weekly · Issue 84 — Source repository · Topics: Developer Tools
+  **Published:** `8th March 2013`
+  **NeKI brief:** Sam Vermette with a nice imageless version of the radiating map pin control seen in MapKit. It’s always nice to see artwork source files included in a project like this and in this case they are PaintCode files which is great if you want to customise the…
+- [PJTernarySearchTree](https://github.com/peakji/PJTernarySearchTree) — iOS Dev Weekly · Issue 84 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `8th March 2013`
+  **NeKI brief:** Yichao Ji with an implementation of a ternary search tree in Objective-C. As mentioned in the readme for the project this makes a great companion to HTAutocompleteTextField which was mentioned back in Issue 79 of iOS Dev Weekly.
+- [Wolfpack](https://github.com/justin/wolfpack) — iOS Dev Weekly · Issue 84 — Source repository · Topics: Developer Tools
+  **Published:** `8th March 2013`
+  **NeKI brief:** Justin Williams with a work in progress project to build composite image filters by specifying “recipes” in JSON. This should make it significantly easier to add that must have Hipstamatic inspired filter to your app. Quite an interesting name for the…
+- [News Apps Style Guide](https://github.com/propublica/guides/blob/master/news-apps.md) — iOS Dev Weekly · Issue 84 — Source repository · Topics: Developer Tools
+  **Published:** `8th March 2013`
+  **NeKI brief:** This is an interesting one, a set of documents published by Scott Klein of ProPublica with a set of guidelines for presenting information in their apps. This is obviously focused on a “news” app but I think there are a couple of benefits of reading through…
+- [THIn](https://github.com/th-in-gs/THIn) — iOS Dev Weekly · Issue 83 — Source repository · Topics: Developer Tools
+  **Published:** `1st March 2013`
+  **NeKI brief:** The GitHub repository contains THIn, an open-source developer project with publicly inspectable source code.
 - [Xamarin Studio](http://blog.xamarin.com/announcing-xamarin-2.0) — iOS Dev Weekly · Issue 82 — Article · Topics: Developer Tools · Graphics, Media & Games
   **Published:** `22nd February 2013`
   **NeKI brief:** Explains Xamarin Studio with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
 - [RXCollections](https://github.com/robrix/RXCollections) — iOS Dev Weekly · Issue 82 — Source repository · Topics: Developer Tools
   **Published:** `22nd February 2013`
   **NeKI brief:** Provides the RXCollections source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [ABCalendarPicker](https://github.com/k06a/ABCalendarPicker) — iOS Dev Weekly · Issue 82 — Source repository · Topics: Developer Tools
+  **Published:** `22nd February 2013`
+  **NeKI brief:** Examines Fully configurable iOS calendar UI component with multiple layouts and smooth animations. - k06a/ABCalendarPicker. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Getting rid of “Open With” duplicates](http://www.leancrew.com/all-this/2013/02/getting-rid-of-open-with-duplicates) — iOS Dev Weekly · Issue 82 — Article · Topics: Developer Tools
+  **Published:** `22nd February 2013`
+  **NeKI brief:** Examines If you develop for OS X then I am sure you will be familiar with this problem but even if you don’t then it is likely that you have seen multiple copies of apps appear on the Open With menu over time. This quick bash ali Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [iOS Runtime Headers](https://github.com/nst/iOS-Runtime-Headers) — iOS Dev Weekly · Issue 81 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `15th February 2013`
+  **NeKI brief:** I have been aware of this for a little while now but I don’t think I have ever linked to it. Nicolas Seriot keeps a wonderful resource of always up to date exports of the current iOS framework headers, both public and private. This is a useful resource to…
 - [SCStringsUtility](https://github.com/stefanceriu/SCStringsUtility) — iOS Dev Weekly · Issue 80 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `8th February 2013`
   **NeKI brief:** Provides the SCStringsUtility source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Visualising CATransform3D](https://github.com/honcheng/CATransform3D-Test) — iOS Dev Weekly · Issue 80 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `8th February 2013`
+  **NeKI brief:** Ever wondered how all of the parameters in a CATransform3D affect it visually? I know I have. This small test app by Muh Hon Cheng is a great way to visualise a transform and learn more about how the parameters work by experimenting with them live.
+- [HTAutocompleteTextField](https://github.com/hoteltonight/HTAutocompleteTextField) — iOS Dev Weekly · Issue 79 — Source repository · Topics: Developer Tools · Persistence & Synchronisation
+  **Published:** `1st February 2013`
+  **NeKI brief:** The GitHub repository contains HTAutocompleteTextField, a UIKit text-field component that provides autocomplete behavior for iOS.
 - [Hookshot](https://github.com/Cue/hookshot) — iOS Dev Weekly · Issue 78 — Source repository · Topics: Developer Tools · Performance
   **Published:** `25th January 2013`
   **NeKI brief:** Provides the Hookshot source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [RETrimControl](https://github.com/romaonthego/RETrimControl) — iOS Dev Weekly · Issue 78 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `25th January 2013`
+  **NeKI brief:** Examines iOS audio trim control, similar to the one seen in default iPhone Voice Memos app. - romaonthego/RETrimControl. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [UncrustifyX](https://github.com/ryanmaxwell/UncrustifyX) — iOS Dev Weekly · Issue 77 — Source repository · Topics: Developer Tools
+  **Published:** `18th January 2013`
+  **NeKI brief:** Examines Uncrustify utility and documentation browser for Mac OS X - ryanmaxwell/UncrustifyX. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Halving size of iPad app with ImageOptim+ImageAlpha](http://imageoptim.com/tweetbot.html) — iOS Dev Weekly · Issue 76 — Article · Topics: Cross-Platform & Web · Developer Tools · Xcode
   **Published:** `11th January 2013`
   **NeKI brief:** Explains Halving size of iPad app with ImageOptim+ImageAlpha with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly.
+- [JPNG](https://github.com/nicklockwood/JPNG) — iOS Dev Weekly · Issue 76 — Source repository · Topics: Developer Tools
+  **Published:** `11th January 2013`
+  **NeKI brief:** The GitHub repository contains JPNG, a library for working with JPEG-compressed PNG images in Apple-platform applications.
 - [GIKPopoverBackgroundView](https://github.com/GiK/GIKPopoverBackgroundView) — iOS Dev Weekly · Issue 76 — Source repository · Topics: Developer Tools
   **Published:** `11th January 2013`
   **NeKI brief:** Provides the GIKPopoverBackgroundView source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [TKRoundedView](https://github.com/mapedd/TKRoundedView) — iOS Dev Weekly · Issue 76 — Source repository · Topics: Developer Tools
+  **Published:** `11th January 2013`
+  **NeKI brief:** Examines Rounded Corners Without Images. Contribute to mapedd/TKRoundedView development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [RecordMyScreen](https://github.com/coolstar/RecordMyScreen) — iOS Dev Weekly · Issue 75 — Source repository · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `4th January 2013`
+  **NeKI brief:** Examines Record the display even on non-jailbroken iPhones. - coolstar/RecordMyScreen. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [BCGenieEffect](https://github.com/Ciechan/BCGenieEffect) — iOS Dev Weekly · Issue 75 — Source repository · Topics: Developer Tools
   **Published:** `4th January 2013`
   **NeKI brief:** Provides the BCGenieEffect source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [DLIntrospection](https://github.com/garnett/DLIntrospection) — iOS Dev Weekly · Issue 75 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `4th January 2013`
   **NeKI brief:** Provides the DLIntrospection source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Transformifier](https://github.com/erwinmaza/Transformifier) — iOS Dev Weekly · Issue 73 — Source repository · Topics: Developer Tools
+  **Published:** `21st December 2012`
+  **NeKI brief:** This is a great idea. Struggling to get those 3D transforms looking right in your app? Erwin Mazariegos has developed an in-app 3D transformation tweaking tool which can be added to any CALayer and allows tweaking of the CATransform3D. There is a demo app…
 - [Slash](https://github.com/chrisdevereux/Slash) — iOS Dev Weekly · Issue 73 — Source repository · Topics: Developer Tools · Product Design
   **Published:** `21st December 2012`
   **NeKI brief:** Provides the Slash source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3441,6 +6852,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [jsbindings](https://github.com/zynga/jsbindings) — iOS Dev Weekly · Issue 72 — Source repository · Topics: Developer Tools · Observation & State Management
   **Published:** `14th December 2012`
   **NeKI brief:** Provides the jsbindings source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Git: Twelve Curated Tips And Workflows From The Trenches](http://durdn.com/blog/2012/12/05/git-12-curated-git-tips-and-workflows) — iOS Dev Weekly · Issue 71 — Article · Topics: Developer Tools
+  **Published:** `7th December 2012`
+  **NeKI brief:** This practical collection presents Git commands and workflows for inspecting, organizing, and recovering work in real repositories. It is useful for iOS teams that need safer everyday history management beyond a minimal add-commit-push routine.
+- [UI Screen Shooter](https://github.com/jonathanpenn/ui-screen-shooter) — iOS Dev Weekly · Issue 71 — Source repository · Topics: Developer Tools · Localization · Performance
+  **Published:** `7th December 2012`
+  **NeKI brief:** Jonathan Penn with a interesting use of Instruments and UIAutomation. Write a script to navigate through your app and take screenshots at the appropriate places. Then run the script for all resolutions and localisations. This will be a huge timesaver if you…
 - [NUI](https://github.com/tombenner/nui) — iOS Dev Weekly · Issue 71 — Source repository · Topics: Accessibility · Developer Tools
   **Published:** `7th December 2012`
   **NeKI brief:** Provides the NUI source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3453,12 +6870,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Flags: very useful when debugging with Instruments](http://invasivecode.tumblr.com/post/18677362251/flags-very-useful-when-debugging-with) — iOS Dev Weekly · Issue 70 — Article · Topics: Developer Tools · Performance
   **Published:** `30th November 2012`
   **NeKI brief:** Explains Flags very useful when debugging with Instruments with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly.
+- [libextobjc](https://github.com/jspahrsummers/libextobjc) — iOS Dev Weekly · Issue 70 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `30th November 2012`
+  **NeKI brief:** Examines A Cocoa library to extend the Objective-C programming language. - jspahrsummers/libextobjc. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [UICollectionViewWaterfallLayout](https://github.com/chiahsien/UICollectionViewWaterfallLayout) — iOS Dev Weekly · Issue 69 — Source repository · Topics: Developer Tools
   **Published:** `23rd November 2012`
   **NeKI brief:** Provides the UICollectionViewWaterfallLayout source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [RNTextStatistics](https://github.com/rnystrom/RNTextStatistics) — iOS Dev Weekly · Issue 69 — Source repository · Topics: Developer Tools
   **Published:** `23rd November 2012`
   **NeKI brief:** Provides the RNTextStatistics source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [MASPreferences](https://github.com/shpakovski/MASPreferences) — iOS Dev Weekly · Issue 69 — Source repository · Topics: Developer Tools
+  **Published:** `23rd November 2012`
+  **NeKI brief:** Examines Modern implementation of the Preferences window for OS X apps, used in TextMate, GitBox and Mou: - cocoabits/MASPreferences. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [MSCachedAsyncViewDrawing](https://github.com/mindsnacks/MSCachedAsyncViewDrawing) — iOS Dev Weekly · Issue 68 — Source repository · Topics: Concurrency · Developer Tools · Graphics, Media & Games
   **Published:** `16th November 2012`
   **NeKI brief:** Provides the MSCachedAsyncViewDrawing source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3492,9 +6915,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SKBounceAnimation](https://github.com/khanlou/SKBounceAnimation) — iOS Dev Weekly · Issue 61 — Source repository · Topics: Developer Tools · Graphics, Media & Games
   **Published:** `28th September 2012`
   **NeKI brief:** Provides the SKBounceAnimation source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Remote Packet Capture for iOS devices](http://useyourloaf.com/blog/2012/02/07/remote-packet-capture-for-ios-devices.html) — iOS Dev Weekly · Issue 60 — Article · Topics: Cross-Platform & Web · Developer Tools · Networking
+  **Published:** `21st September 2012`
+  **NeKI brief:** Examines Continuing the networking theme Keith Harrison on examining network data from a real device on your Mac using a remote virtual interface rather than a proxy. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [PSTCollectionView](https://github.com/steipete/PSTCollectionView) — iOS Dev Weekly · Issue 60 — Source repository · Topics: Developer Tools
   **Published:** `21st September 2012`
   **NeKI brief:** Provides the PSTCollectionView source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [OpenSSL build script for iOS](https://github.com/st3fan/ios-openssl) — iOS Dev Weekly · Issue 60 — Source repository · Topics: Developer Tools
+  **Published:** `21st September 2012`
+  **NeKI brief:** The page covers “OpenSSL build script for iOS” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [MiniXcode](https://github.com/Daij-Djan/MiniXcode) — iOS Dev Weekly · Issue 59 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `14th September 2012`
   **NeKI brief:** Provides the MiniXcode source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3504,6 +6933,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swizzled UIImage imageNamed for iPhone 5](https://gist.github.com/3711077) — iOS Dev Weekly · Issue 59 — Source repository · Topics: Developer Tools
   **Published:** `14th September 2012`
   **NeKI brief:** Provides the Swizzled UIImage imageNamed for iPhone 5 source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [CargoBay](https://github.com/mattt/CargoBay) — iOS Dev Weekly · Issue 59 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `14th September 2012`
+  **NeKI brief:** The page covers “CargoBay” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Beware of the Sorrell: Gambling For Kids: A How To Guide](http://www.bewareofthesorrell.com/2012/09/gambling-for-kids-how-to-guide.html) — iOS Dev Weekly · Issue 59 — Article · Topics: App Distribution & Store Operations · Cross-Platform & Web · Developer Tools
+  **Published:** `14th September 2012`
+  **NeKI brief:** Examines It’s easy to think that the questionable tactic of targeting digital goods and In-App purchases at kids is a new phenomenon but Mark Sorrell reminds us that this has been going on for a long time and that maybe what we n Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [SkyLab](https://github.com/mattt/SkyLab) — iOS Dev Weekly · Issue 58 — Source repository · Topics: Developer Tools · Testing
   **Published:** `7th September 2012`
   **NeKI brief:** Provides the SkyLab source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3522,9 +6957,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [FilterKit](https://github.com/eklipse2k8/FilterKit) — iOS Dev Weekly · Issue 53 — Source repository · Topics: Developer Tools
   **Published:** `3rd August 2012`
   **NeKI brief:** Provides the FilterKit source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [FutureFolio - Design of a Content Creation Tool](http://www.youtube.com/watch?v=ajgM9ZE0wGc) — iOS Dev Weekly · Issue 53 — Video · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `3rd August 2012`
+  **NeKI brief:** Paul Hudson of Future publishing talks about their iPad app which they use to build their digital publications. This is a slightly unusual link for here as this is pretty much a training video on how to use this app but I found it a fascinating look at how…
 - [EasyTweet](https://github.com/amazingsyco/EasyTweet) — iOS Dev Weekly · Issue 51 — Source repository · Topics: Developer Tools
   **Published:** `20th July 2012`
   **NeKI brief:** Provides the EasyTweet source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Cupertino](https://github.com/mattt/cupertino) — iOS Dev Weekly · Issue 50 — Source repository · Topics: Developer Tools · Security & Privacy
+  **Published:** `13th July 2012`
+  **NeKI brief:** A command line interface for iTunes Connect? Mattt Thompson has put together this Ruby gem which can currently list/add/remove your UDIDs, certificates and Application IDs but from the look of the documentation there is much more planned. I wonder if the…
 - [Debugging Core Data Objects](http://furbo.org/2012/06/28/debugging-core-data-objects) — iOS Dev Weekly · Issue 48 — Article · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **Published:** `29th June 2012`
   **NeKI brief:** Explains Debugging Core Data Objects with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
@@ -3537,6 +6978,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Circle](https://github.com/mikeash/Circle) — iOS Dev Weekly · Issue 46 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `15th June 2012`
   **NeKI brief:** Provides the Circle source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Log All Messages in Objective-C](https://coderwall.com/p/7mopeq) — iOS Dev Weekly · Issue 45 — Article · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `8th June 2012`
+  **NeKI brief:** Examines A protip by bontojr about simulator, debug, mac, iphone, and objective-c. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Facebook iOS SDK - OverTheAir2012 REMIX](https://github.com/hiddenmemory/facebook-ios-sdk) — iOS Dev Weekly · Issue 45 — Source repository · Topics: Developer Tools
+  **Published:** `8th June 2012`
+  **NeKI brief:** Chris Ross, Kieran Gutteridge and a few others started this tweaking of the iOS SDK for Facebook at a hack day last weekend with the admirable goal of making a more usable SDK to work with Facebook on the iOS platform. It is possible that this could be…
 - [UIImage imageNamed: from anywhere](https://github.com/appsandwich/UIImage-ASImage) — iOS Dev Weekly · Issue 44 — Source repository · Topics: Developer Tools
   **Published:** `1st June 2012`
   **NeKI brief:** Provides the UIImage imageNamed from anywhere source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3546,6 +6993,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [ReactiveCocoa for a better world](https://github.com/blog/1107-reactivecocoa-for-a-better-world) — iOS Dev Weekly · Issue 41 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `11th May 2012`
   **NeKI brief:** Provides the ReactiveCocoa for a better world source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Twitter Text](https://github.com/twitter/twitter-text-objc) — iOS Dev Weekly · Issue 41 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `11th May 2012`
+  **NeKI brief:** Twitter have released an official port of their text handling libraries for Objective-C this week. If you are interacting with data from Twitter at all then I would imagine this library is going to come in very handy.
+- [OPEventTracker](https://github.com/mbrandonw/OPEventTracker) — iOS Dev Weekly · Issue 40 — Source repository · Topics: Developer Tools
+  **Published:** `4th May 2012`
+  **NeKI brief:** Examines The simplest way to answer the question: "Are there any UI events taking place right now?" - mbrandonw/OPEventTracker. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [SVPullToRefresh](https://github.com/samvermette/SVPullToRefresh) — iOS Dev Weekly · Issue 39 — Source repository · Topics: Developer Tools
   **Published:** `27th April 2012`
   **NeKI brief:** Provides the SVPullToRefresh source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3573,9 +7026,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [NYXImagesKit](https://github.com/Nyx0uf/NYXImagesKit) — iOS Dev Weekly · Issue 31 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `2nd March 2012`
   **NeKI brief:** Provides the NYXImagesKit source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [MOOMaskedIconView](https://github.com/peyton/MOOMaskedIconView) — iOS Dev Weekly · Issue 30 — Source repository · Topics: Developer Tools
+  **Published:** `24th February 2012`
+  **NeKI brief:** Examines Photoshop layer styles for iOS icons. Stop maintaining a separate file for each color, resolution, and style. - peyton/MOOMaskedIconView. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [GPUImage](https://github.com/BradLarson/GPUImage) — iOS Dev Weekly · Issue 29 — Source repository · Topics: Developer Tools · Graphics, Media & Games
   **Published:** `17th February 2012`
   **NeKI brief:** Provides the GPUImage source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [KSCrypto](https://github.com/karelia/KSCrypto) — iOS Dev Weekly · Issue 29 — Source repository · Topics: Developer Tools
+  **Published:** `17th February 2012`
+  **NeKI brief:** Examines Contribute to karelia/KSCrypto development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Creating iOS Static Frameworks](https://github.com/jverkoey/iOS-Framework) — iOS Dev Weekly · Issue 28 — Source repository · Topics: Developer Tools
+  **Published:** `10th February 2012`
+  **NeKI brief:** The page covers “Creating iOS Static Frameworks” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [UIImage Sprite Additions](https://github.com/r3econ/UIImage-Sprite-Additions) — iOS Dev Weekly · Issue 28 — Source repository · Topics: Developer Tools
   **Published:** `10th February 2012`
   **NeKI brief:** Provides the UIImage Sprite Additions source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3597,12 +7059,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Debuggery](https://github.com/rustle/Debuggery) — iOS Dev Weekly · Issue 19 — Source repository · Topics: Developer Tools
   **Published:** `9th December 2011`
   **NeKI brief:** Provides the Debuggery source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [QuadCurveMenu](https://github.com/levey/QuadCurveMenu) — iOS Dev Weekly · Issue 19 — Source repository · Topics: Developer Tools
+  **Published:** `9th December 2011`
+  **NeKI brief:** 朱建刚 with an implementation of the beautiful Path radial menu control.
 - [GMGridView](https://github.com/gmoledina/GMGridView) — iOS Dev Weekly · Issue 18 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
   **Published:** `2nd December 2011`
   **NeKI brief:** Provides the GMGridView source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [SVProgressHUD](https://github.com/samvermette/SVProgressHUD) — iOS Dev Weekly · Issue 18 — Source repository · Topics: Developer Tools
+  **Published:** `2nd December 2011`
+  **NeKI brief:** Presents SVProgressHUD, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [The inevitable frustration of 1★ reviews on Android](https://skitch.com/daveverwer/gc7dy/path-android-market) — iOS Dev Weekly · Issue 18 — Article · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `2nd December 2011`
+  **NeKI brief:** I really don’t want to bash Android in this email but when investigating to see if I could get a glimpse of the Path UI for Android yesterday I was immediately struck by the negative reviews left on the marketplace being primarily related to different screen…
 - [Uncrustify Automator Services](https://github.com/tonyarnold/Xcode-4-Uncrustify-Automator-Services) — iOS Dev Weekly · Issue 17 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `25th November 2011`
   **NeKI brief:** Provides the Uncrustify Automator Services source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [The Sketchbook of Susan Kare](http://blogs.plos.org/neurotribes/2011/11/22/the-sketchbook-of-susan-kare-the-artist-who-gave-computing-a-human-face) — iOS Dev Weekly · Issue 17 — Article · Topics: Developer Tools
+  **Published:** `25th November 2011`
+  **NeKI brief:** Presents The Sketchbook of Susan Kare, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Who Will Survive the Digital Tsunami?](http://www.gamesbrief.com/2011/11/who-will-survive-the-digital-tsunami) — iOS Dev Weekly · Issue 17 — Article · Topics: Developer Tools · Graphics, Media & Games
+  **Published:** `25th November 2011`
+  **NeKI brief:** Nicholas Lovell with a look at the iOS games market and I can’t help but agree with his conclusions.
+- [NSLogger](https://github.com/fpillet/NSLogger) — iOS Dev Weekly · Issue 16 — Source repository · Topics: Developer Tools
+  **Published:** `18th November 2011`
+  **NeKI brief:** The page covers “NSLogger” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [PSPushPopPressView](https://github.com/steipete/PSPushPopPressView) — iOS Dev Weekly · Issue 16 — Source repository · Topics: Developer Tools
   **Published:** `18th November 2011`
   **NeKI brief:** Provides the PSPushPopPressView source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3615,9 +7095,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [HGPageScrollView](https://github.com/100grams/HGPageScrollView) — iOS Dev Weekly · Issue 9 — Source repository · Topics: Developer Tools
   **Published:** `30th September 2011`
   **NeKI brief:** Provides the HGPageScrollView source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Apple, Apps, Appeals, & Appeasement: the Story of Drift](http://generalspecificity.com/2011/09/27/apple-apps-appeals-and-appeasement.html) — iOS Dev Weekly · Issue 9 — Article · Topics: Cross-Platform & Web · Developer Tools · Product Design
+  **Published:** `30th September 2011`
+  **NeKI brief:** Examines This 11.13 clause is really harming the user experience of apps like this github gist client (not to mention Kindle and the like). I really hope Apple are able to make changes to their terms soon to make this kind of app Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [CocoaPods](https://github.com/CocoaPods/CocoaPods) — iOS Dev Weekly · Issue 8 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `23rd September 2011`
+  **NeKI brief:** Presents CocoaPods, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [DCIntrospect](https://github.com/domesticcatsoftware/DCIntrospect) — iOS Dev Weekly · Issue 7 — Source repository · Topics: Developer Tools
   **Published:** `16th September 2011`
   **NeKI brief:** Provides the DCIntrospect source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Git Is Simpler Than You Think](http://nfarina.com/post/9868516270/git-is-simpler) — iOS Dev Weekly · Issue 6 — Article · Topics: Developer Tools
+  **Published:** `9th September 2011`
+  **NeKI brief:** Describes a team’s transition from Subversion to Git through concrete confusion around status, patching, and three-way merges. Useful for explaining Git’s workflow model to developers coming from centralized version control.
 - [Xcode 4 Colour Themes](https://github.com/jbrennan/xcode4themes) — iOS Dev Weekly · Issue 5 — Source repository · Topics: Developer Tools · Xcode
   **Published:** `2nd September 2011`
   **NeKI brief:** Provides the Xcode 4 Colour Themes source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3627,12 +7116,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [UIDevice+UniqueIdentifier](https://github.com/gekitz/UIDevice-with-UniqueIdentifier-for-iOS-5) — iOS Dev Weekly · Issue 4 — Source repository · Topics: Developer Community & Business · Developer Tools
   **Published:** `26th August 2011`
   **NeKI brief:** Provides the UIDevice+UniqueIdentifier source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Core Animation Demos](https://github.com/bobmccune/Core-Animation-Demos) — iOS Dev Weekly · Issue 4 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Objective-C & Cocoa
+  **Published:** `26th August 2011`
+  **NeKI brief:** Presents Core Animation Demos, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [QuickDialog](https://github.com/escoz/QuickDialog) — iOS Dev Weekly · Issue 3 — Source repository · Topics: Developer Tools
   **Published:** `19th August 2011`
   **NeKI brief:** Provides the QuickDialog source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [Make Keychain as easy to use as NSUserDefaults](https://github.com/carlbrown/PDKeychainBindingsController) — iOS Dev Weekly · Issue 2 — Source repository · Topics: Developer Tools · Persistence & Synchronisation · Security & Privacy
   **Published:** `12th August 2011`
   **NeKI brief:** Provides the Make Keychain as easy to use as NSUserDefaults source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Remember/Forget](https://github.com/danielctull/Remember-Forget) — iOS Dev Weekly · Issue 2 — Source repository · Topics: Developer Tools · Objective-C & Cocoa
+  **Published:** `12th August 2011`
+  **NeKI brief:** The GitHub repository contains Remember-Forget, an open-source developer project with publicly inspectable source code.
+- [Xcode Snippet Management](https://github.com/lukeredpath/xcodesnippets) — iOS Dev Weekly · Issue 1 — Source repository · Topics: Developer Career & Practice · Developer Tools · Xcode
+  **Published:** `5th August 2011`
+  **NeKI brief:** Examines A command-line utility for managing Xcode 4 code snippets - lukeredpath/xcodesnippets. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Paul Hudson’s Swift and SwiftUI skills](https://github.com/twostraws/swiftui-agent-skill) — Not only Swift · Issue 98 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **NeKI brief:** Provides a reusable SwiftUI-focused agent skill with guidance for generating and reviewing views. Useful as a concrete prompt and workflow artifact when evaluating AI-assisted UI composition, accessibility, and maintainability in a project.
 - [Firebase skills](https://github.com/firebase/agent-skills) — Not only Swift · Issue 98 — Source repository · Topics: Developer Tools · Swift · SwiftUI
@@ -3643,6 +7141,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Provides an adapter that exposes Claude through APIs shaped like Apple’s Foundation Models framework. Use the source to compare provider substitution and compatibility boundaries while accounting separately for cloud authentication, data transfer, latency, and cost.
 - [Foundation Models framework utilities](https://github.com/apple/foundation-models-utilities) — Not only Swift · Issue 98 — Source repository · Topics: AI Development · Developer Tools · Foundation & Data Formats
   **NeKI brief:** Apple’s experimental utilities repository collects emerging patterns for Foundation Models applications. Use it to inspect concrete helpers and examples, while treating the package as exploratory material whose APIs and production guarantees may still change.
+- [Alt-Tab window switching for macOS](https://go.peterfriese.dev/alt-tab-window-switching?s=newsletter&t=ext) — Not only Swift · Issue 97 — Article · Topics: AI Development · Developer Tools
+  **NeKI brief:** Covers a macOS utility for switching between windows rather than only applications. It is useful as a small productivity-tool reference for developers working across Xcode, simulators, terminals, and documentation.
 - [Pickle Rick Extension](https://github.com/galz10/pickle-rick-extension) — Not only Swift · Issue 96 — Source repository · Topics: Developer Tools · Swift
   **NeKI brief:** Provides the public source repository for Pickle Rick Extension. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
 - [Greenlight: Pre-submission compliance scanner for the Apple App Store](https://github.com/RevylAI/greenlight) — Not only Swift · Issue 96 — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
@@ -3679,22 +7179,44 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** This source repository covers a minimal GPT implementation for understanding language-model mechanics. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Play](https://youtube.com/watch?v=bCz3Pc041ME) — Not only Swift · Issue 93 — Video · Topics: Developer Tools
   **NeKI brief:** Coordinates multiple Antigravity agents through Git worktrees while refactoring a SwiftUI tagging interface and adding batched Firestore deletion. The session exposes planning, parallel review, merge, and compatibility decisions in a real codebase.
+- [swift-desktopia](https://github.com/sgade/swift-desktopia) — Not only Swift · Issue 93 — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** Provides the Swift Desktopia project as source code for building desktop-oriented Swift software. Inspect its implementation when evaluating reusable patterns for macOS app structure and platform integration.
 - [agent-device](https://github.com/callstackincubator/agent-device) — Not only Swift · Issue 93 — Source repository · Topics: AI Development · Developer Tools · Xcode
   **NeKI brief:** This source repository covers controlling iOS and Android devices from AI agents. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [Textream - Live Teleprompter for macOS](https://blog.fka.dev/textream) — Not only Swift · Issue 93 — Article · Topics: Developer Tools
+  **NeKI brief:** Introduces Textream, a native macOS live teleprompter for displaying text while presenting or recording. It is a concrete example of a focused desktop utility and its presentation-oriented interaction model.
+- [Frontend Slides](https://github.com/zarazhangrui/frontend-slides) — Not only Swift · Issue 93 — Source repository · Topics: Developer Tools
+  **NeKI brief:** Provides Frontend Slides as an open-source project for creating presentation content with web technologies. Review the repository when evaluating source-backed approaches to programmatic slide authoring and rendering.
+- [OpenRunde](https://github.com/lauridskern/open-runde) — Not only Swift · Issue 93 — Source repository · Topics: Developer Tools
+  **NeKI brief:** Provides OpenRunde, a soft, rounded variant of the Inter typeface. The repository is useful when evaluating a readable, open-source UI font for Apple-platform interfaces while keeping the font's licensing and distribution in view.
 - [DebugSwift: A Toolkit to Make Debugging iOS Applications Easier](https://github.com/DebugSwift/DebugSwift) — Not only Swift · Issue 92 — Source repository · Topics: AI Development · Developer Tools · Swift
   **NeKI brief:** This source repository covers debugging iOS applications with a dedicated Swift toolkit. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [collection of tools and utilities for Swift and SwiftUI development](https://github.com/hmlongco/Runes) — Not only Swift · Issue 92 — Source repository · Topics: Combine & Reactive Programming · Concurrency · Swift
   **NeKI brief:** This source repository covers reusable Swift and SwiftUI extensions and modifiers. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [MCP CLI + Skill](https://github.com/philschmid/mcp-cli) — Not only Swift · Issue 92 — Source repository · Topics: AI Development · Developer Tools · Product Design
   **NeKI brief:** This source repository covers a lightweight CLI and skill for interacting with MCP servers. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [on GitHub](https://github.com/ZackAkil/immersive-language-learning-with-live-api) — Not only Swift · Issue 92 — Source repository · Topics: Developer Tools
+  **NeKI brief:** A GitHub project for an immersive language-learning experience built with the Live API. It is useful as a concrete reference for combining realtime model interaction, conversational practice, and an application-shaped learning flow.
 - [The Humbling Math of Health AI: Why ChatGPT Can’t Grade Your Heart Yet](https://be-curious-not-judgmental.com/2026/01/26/the-humbling-math-of-health-ai-why-chatgpt-cant-grade-your-heart-yet) — Not only Swift · Issue 92 — Article · Topics: AI Development · Developer Tools
   **NeKI brief:** This article covers why health-AI answers require statistical humility and evidence. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [GitHub](https://github.com/dbreunig/whenwords) — Not only Swift · Issue 92 — Source repository · Topics: AI Development · Developer Tools · Testing
+  **NeKI brief:** A small open-source project from David Breunig that explores a focused words-and-time interaction. The repository is useful for examining how a compact application organizes its domain model, interface behavior, and implementation around a narrow idea.
 - [gt](https://github.com/melonamin/gt) — Not only Swift · Issue 92 — Source repository · Topics: Developer Tools · Swift
   **NeKI brief:** This source repository covers managing Git worktrees from a macOS menu bar. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [available on GitHub](https://github.com/pbakaus/impeccable) — Not only Swift · Issue 92 — Source repository · Topics: AI Development · Developer Tools
+  **NeKI brief:** A collection of practical frontend design guidance and tools from Paul Bakaus. It gives developers concrete heuristics for improving interface hierarchy, spacing, typography, and visual polish when building a product UI.
+- [Never forget a skill: Capture learnings on the fly](https://gist.github.com/jediahkatz/e528631580cc42dd5b8092aa7f162851) — Not only Swift · Issue 91 — Source repository · Topics: Developer Tools
+  **NeKI brief:** A focused code gist by Jed H. Katz containing a small, directly inspectable implementation example. It is useful as a compact reference for understanding the technique shown in the surrounding developer discussion and for adapting the code to a project.
+- [available on GitHub](https://github.com/martinwoodward/todohub) — Not only Swift · Issue 91 — Source repository · Topics: Developer Tools
+  **NeKI brief:** An open-source TodoHub project by Martin Woodward. The repository provides a concrete example of structuring a task-focused application, including its domain concepts and the code needed to connect the user-facing workflow with the underlying implementation.
+- [Jules Companion: A native home for Google's agent](https://github.com/simpsoka/jules-companion) — Not only Swift · Issue 91 — Source repository · Topics: AI Development · Concurrency · Developer Tools
+  **NeKI brief:** Jules Companion is a native application that provides a home for Google's Jules coding agent. The repository is a concrete reference for integrating an agent-oriented workflow into a native app and for examining the project structure behind that experience.
 - [Trees: Effortless Git worktrees in your menu bar](https://github.com/afterxleep/trees) — Not only Swift · Issue 91 — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
   **NeKI brief:** This source repository covers macOS menu-bar management for Git worktrees. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [last week’s livestream](https://www.youtube.com/watch?v=Z-KB7gOnE_E) — Not only Swift · Issue 90 — Video · Topics: AI Development · Developer Tools · Swift
   **NeKI brief:** Live-codes a Firestore tagging model and SwiftUI feature with Gemini CLI and Antigravity, including a flawed generated schema, permission failures, and human-guided debugging. Useful for observing both acceleration and supervision costs in agentic development.
+- [GitHub](https://github.com/kbroose/stash) — Not only Swift · Issue 90 — Source repository · Topics: Developer Tools
+  **NeKI brief:** Stash is an open-source Pocket-style application composed of a Chrome extension, a web app, and an iOS Shortcut. The repository offers a concrete example of coordinating a small cross-surface product and connecting its reading workflow across those components.
 - [Finally understand Swift concurrency](https://fuckingapproachableswiftconcurrency.com/en) — Not only Swift · Issue 89 — Article · Topics: Concurrency · Developer Tools · Swift
   **NeKI brief:** This article covers Swift concurrency through an approachable learning guide. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [SKILL.md](https://github.com/pepicrft/fuckingapproachableswiftconcurrency/blob/main/src/SKILL.md) — Not only Swift · Issue 89 — Source repository · Topics: Concurrency · Developer Tools · Swift
@@ -3709,6 +7231,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Discusses Why you should stop stashing and use worktrees in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
 - [bjesus/pipet: Swiss-army tool for scraping and extracting data from online assets, made for hackers](https://github.com/bjesus/pipet) — Not only Swift · Issue 88 — Source repository · Topics: AI Development · Developer Tools
   **NeKI brief:** This source repository covers a command-line scraper for extracting online assets. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [tobi/try: fresh directories for every vibe](https://github.com/tobi/try) — Not only Swift · Issue 88 — Source repository · Topics: Developer Tools
+  **NeKI brief:** Try is an open-source command-line tool for quickly discovering and launching small web projects and tools. Its repository is a concrete reference for organizing a searchable catalogue and a low-friction workflow for trying software directly from the terminal.
+- [Firebase AI quickstart iOS: Integrating ConversationKit](https://github.com/firebase/quickstart-ios/tree/peterfriese/integrate-conversationkit/firebaseai) — Not only Swift · Issue 86 — Source repository · Topics: AI Development · Developer Tools
+  **NeKI brief:** This Firebase quickstart branch integrates ConversationKit into an iOS Firebase AI sample. It provides concrete Swift code for wiring a conversational interface to Firebase AI services and is useful as a starting point for comparing the SDK integration and app structure.
 - [this branch on the repository](https://github.com/firebase/quickstart-ios/tree/peterfriese/firebase-ai-quickstart-refresh/firebaseai) — Not only Swift · Issue 86 — Source repository · Topics: AI Development · Developer Tools
   **NeKI brief:** This source repository covers Firebase AI examples for an iOS quickstart branch. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [ActionMenu](https://github.com/peterfriese/ActionMenu) — Not only Swift · Issue 86 — Source repository · Topics: Developer Tools · Swift · SwiftUI

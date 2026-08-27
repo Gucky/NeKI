@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.createwithswift.com/](https://www.createwithswift.com/)
-- Last collected: `2026-08-05T08:56:37Z`
+- Last collected: `2026-08-27T19:22:09Z`
 - Indexed entries: **71**
 
 ## [Issue 118](https://www.createwithswift.com/weekly-newsletter-issue-118)
@@ -22,7 +22,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning?ref=createwithswift.com) — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
   **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.
 - [SwiftUI @ContentBuilder - Faster Type Checking in Xcode 27](https://www.sagarunagar.com/blog/swiftui-contentbuilder-xcode-27?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI · Xcode
-  **NeKI brief:** Explains Xcode 27’s SwiftUI ContentBuilder unification and how it reduces result-builder type-checking work while retaining older deployment targets. It is useful when large view expressions compile slowly or custom builders duplicate SwiftUI’s behavior.
+  **NeKI brief:** Sagar explores SwiftUI’s ContentBuilder, showing how its unified builder model reduces type-checking overhead, improves compiler performance for complex view hierarchies, and simplifies building reusable SwiftUI APIs.
 - [iOS 27: UIBarMinimizationControl navigation bar during scroll in UIKitAnton’s SubstackAnton’s Substack](https://antongubarenko.substack.com/p/ios-27-uibarminimization) — Article · Topics: SwiftUI · UIKit
   **NeKI brief:** Separates UIKit navigation-bar minimisation into trigger, restoration, and safe-area decisions, then compares the corresponding SwiftUI toolbar behaviour. The examples are useful for replacing custom scroll-offset handling while the iOS 27 API remains beta.
 
@@ -55,8 +55,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Issue 116 curates accessibility and concurrency practice: Voice Control naming, Dynamic Type layout, and checked versus unsafe continuations, alongside a workout-log product example. Use it to route readers toward accessible SwiftUI and safer callback-to-async migration decisions.
 
 **Selected links:**
+- [10 Tips for Building iOS Apps That Handle Dynamic Type Well](https://mobilea11y.com/blog/good-dynamic-type?ref=createwithswift.com) — Article · Topics: Accessibility · Swift · SwiftUI
+  **NeKI brief:** Rob shares practical guidelines for building Dynamic Type-friendly SwiftUI interfaces, covering adaptive layouts, scalable UI elements, and thoughtful tradeoffs for larger accessibility text sizes.
 - [Continuation vs CheckedContinuation vs UnsafeContinuation in Swift](https://livsycode.com/swift/continuation-vs-checkedcontinuation-vs-unsafecontinuation-in-swift?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
-  **NeKI brief:** Compares continuation variants for moving callback APIs to async/await and clarifies their appropriate boundaries.
+  **NeKI brief:** Artem dives deep into Continuation API, showing how it differs from CheckedContinuation and UnsafeContinuation, and when each is the right tool for bridging callback-based code to async/await.
+- [Voice Control](https://wesleydegroot.nl/blog/voice-control?ref=createwithswift.com) — Article · Topics: Accessibility · Swift · SwiftUI
+  **NeKI brief:** Wesley explores Voice Control support in SwiftUI, covering how accessibility labels, input labels, and thoughtful control naming enable reliable Voice Control interactions.
 
 ## [Issue 115](https://www.createwithswift.com/weekly-newsletter-issue-115)
 
@@ -69,6 +73,14 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Issue 115 connects updated Apple Figma kits with Image Playground sheets, dependency-stable custom bindings, crossFade navigation, and adaptable sheets. It is a focused reading queue for translating current design resources into performant SwiftUI interactions.
 
 **Selected links:**
+- [Image Playground Sheet in SwiftUI](https://livsycode.com/swiftui/image-playground-sheet-in-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Artem shows how to present Apple’s Image Playground experience in SwiftUI using the new sheet-based API, handling image generation, user interaction, and the generated results.
+- [SwiftUI .crossFade Navigation Transition in iOS 27](https://www.sagarunagar.com/blog/swiftui-crossfade-navigation-transition?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Sagar explores SwiftUI’s new crossFade navigation transition, showing how to apply it and when it’s a better fit than zoom transitions for smooth, context-independent navigation.
+- [https://www.figma.com/community/file/1651309003795292092/ios-and-ipados-27](https://www.figma.com/community/file/1651309003795292092/ios-and-ipados-27?ref=createwithswift.com) — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **NeKI brief:** Apple has updated its official Figma UI kits for iOS, iPadOS, and macOS 27, giving designers and developers a refreshed set of components, styles, materials, and templates that reflect the latest platform updates. The new kits are useful for creating more…
+- [https://www.figma.com/community/file/1651309434229735362/macos-27](https://www.figma.com/community/file/1651309434229735362/macos-27?ref=createwithswift.com) — Article · Topics: Developer Community & Business · macOS & AppKit · Swift
+  **NeKI brief:** https://www.figma.com/community/file/1651309434229735362/macos-27. This link is retained as a technical reading lead for Apple-platform development.
 - [Custom bindings in SwiftUI: closures vs subscripts](https://nilcoalescing.com/blog/CustomBindingsInSwiftUIClosuresVsSubscripts?ref=createwithswift.com) — Article · Topics: Observation & State Management · Swift · SwiftUI
   **NeKI brief:** Compares closure-based and subscript-based custom Bindings in SwiftUI, including how each expresses read and write access. Use it when designing reusable bindings and choosing an approach that keeps transformations clear, composable, and maintainable.
 
@@ -83,10 +95,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Issue 114 surveys SwiftUI-adjacent practice through Play's prototyping acquisition, view-owned loading state, iOS 27 submission requirements, and Liquid Glass modifier ordering. Use it to route current design-to-code and platform-migration investigations without treating commentary as API authority.
 
 **Selected links:**
+- [Apple Acquires Award-Winning App ‘Play’In February, Apple notified the European Commission that it would be acquiring certain assets from and have the right to hire certain employees from Rabbit 3 Times, the company behind the award-winning app design tool Play. The notification was published on the European Commission’s website this week, following a four-month waiting period. Play was a Mac and iPhone app that allowed designers to prototype iPhone app interfaces using Apple’s SwiftUI frameworks, and then send them to Xcode.MacRumorsJoe Rossignol](https://www.macrumors.com/2026/06/29/apple-acquires-award-winning-app-play?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI · Xcode
+  **NeKI brief:** Play helped designers and developers create interactive app prototypes across Mac and iPhone, then bring those ideas closer to Xcode. That makes the acquisition especially notable. Play sat in a fascinating space between design, prototyping, and SwiftUI…
 - [iOS 27 SDK: 3 Major Requirements That Might Break Your App](https://blog.makwanbk.com/ios-27-sdk-3-major-requirements-that-migh-break-your-app?ref=createwithswift.com) — Article · Topics: App Distribution & Store Operations · Liquid Glass · Swift
-  **NeKI brief:** Summarizes three iOS 27 SDK requirements that may surface during an upgrade. Use it as a migration checklist for build and runtime audits, then verify each requirement against Apple's release documentation.
+  **NeKI brief:** Makwan highlights three iOS 27 SDK requirements that could break older apps or block App Store submission: UIScene support, the new launch screen requirement, and the end of the Liquid Glass compatibility opt-out.
 - [Rotating Liquid Glass in SwiftUI without breaking the shape](https://livsycode.com/swiftui/liquid-glass-rotating?ref=createwithswift.com) — Article · Topics: Liquid Glass · Swift · SwiftUI
-  **NeKI brief:** Demonstrates rotating Liquid Glass content while preserving the effect's shape and visual continuity. Use it when animated controls or cards distort during transforms and you need a compositing-aware SwiftUI implementation.
+  **NeKI brief:** Artem explains how modifier order affects rotated Liquid Glass views in SwiftUI, and why applying rotation after the glass effect can break the intended shape instead of rotating the effect cleanly with the content.
 
 ## [Issue 113](https://www.createwithswift.com/weekly-newsletter-issue-113)
 
@@ -102,9 +116,11 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [AsyncImage improvements in iOS 27](https://nilcoalescing.com/blog/AsyncImageImprovementsInSwiftUIOnIOS27?ref=createwithswift.com) — Article · Topics: Concurrency · Swift · SwiftUI
   **NeKI brief:** Covers iOS 27 AsyncImage improvements for loading behavior and presentation. Useful when replacing custom image loaders, while checking cache, cancellation, and failure semantics against the deployment target.
 - [_UIPortalView: From Live Mirroring to Liquid Glass-Style Effects](https://livsycode.com/uikit/exploring-_uiportalview-live-view-replication-without-copying-or-snapshots?ref=createwithswift.com) — Article · Topics: Graphics, Media & Games · Liquid Glass · UIKit
-  **NeKI brief:** Explores UIKit's UIPortalView for live view replication without copying or taking snapshots. Follow it when evaluating mirrored or glass-like effects and when deciding how rendering, hierarchy, interaction, and performance constraints affect the design.
+  **NeKI brief:** Artem dives deep on how the private UIKit _UIPortalView mirrors live view content without duplicating view hierarchies or taking snapshots, using it as a window into how UIKit, Core Animation, and Liquid Glass-style effects compose live UI at the rendering…
+- [Actors in Swift: The Problem They Solve and How it Works](https://www.swiftdifferently.com/blog/swift/concurrency/how-actors-work?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Omar explains why Swift actors exist, how actor isolation protects shared mutable state, and what happens under the hood.
 - [SwiftUI's new item based presentations in iOS 27](https://www.sagarunagar.com/blog/swiftui-item-based-alert-confirmation-dialog?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Explains item-driven SwiftUI alerts and confirmation dialogs, where an optional identifiable value selects the presented content. Useful for eliminating Boolean presentation races and associating destructive actions with the correct model item.
+  **NeKI brief:** Sagar covers iOS 27’s new item-based alerts and confirmation dialogs in SwiftUI, where optional item or error state can drive presentation directly without extra Boolean flags or synchronization bugs.
 
 ## [Issue 112](https://www.createwithswift.com/weekly-newsletter-issue-112)
 
@@ -118,11 +134,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [iOS 27, Your App, and SiriHow do we think about Siri AI with iOS 27? Here’s how to make the most of new APIs.Jordan MorganJordan Morgan](https://www.swiftjectivec.com/siri-ai-for-ios027?ref=createwithswift.com) — Article · Topics: AI Development · App Intents & System Surfaces · Swift
-  **NeKI brief:** Discusses how iOS 27's Siri and AI changes affect app integration through App Intents and system surfaces. Use it to identify intent-driven opportunities, then validate availability and interaction rules in Apple's documentation.
+  **NeKI brief:** Jordan explains how iOS 27’s new Siri intelligence can work with your app’s data, covering AppEntity, app schemas, and APIs that help Siri understand and act on what’s currently on screen.
 - [New SwiftUI APIs for reordering and drag and drop on iOS 27](https://nilcoalescing.com/blog/NewSwiftUIAPIsForReorderingAndDragAndDropOniOS27?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Explores iOS 27 reorder and drag-container APIs for SwiftUI collections. Useful for implementing movable content with explicit drop configuration instead of manually translating gesture coordinates.
+- [Adaptive TabView Layouts with .tabViewStyle(.sidebarAdaptable) in SwiftUI](https://livsycode.com/swiftui/adaptive-tabview-layouts-with-tabviewstyle-sidebaradaptable-in-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Artem shows how `.tabViewStyle(.sidebarAdaptable) helps SwiftUI apps adapt navigation across iPhone and iPad, switching from a bottom tab bar to a sidebar-style layout without building separate navigation structures.
 - [SwiftUI's New .prominent Tab in iOS 27 Is Not a Floating Action Button](https://www.sagarunagar.com/blog/swiftui-prominent-tab-is-not-a-floating-action-button?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Clarifies the prominent tab role in iOS 26 and why it is navigation hierarchy rather than a generic floating action button. Useful for avoiding misleading tab-bar designs.
+  **NeKI brief:** Sagar shares why SwiftUI’s new .prominent tab role should be used to highlight important destinations, not as a replacement for floating action buttons, toolbar actions, or “add” buttons.
 
 ## [Issue 110](https://www.createwithswift.com/weekly-newsletter-issue-110)
 
@@ -136,9 +154,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Task Names in Swift ConcurrencyName Swift tasks for clearer debugging and profilingArtem Novichkov](https://artemnovichkov.com/blog/task-names-in-swift-concurrency?ref=createwithswift.com) — Article · Topics: Concurrency · Performance · Swift
-  **NeKI brief:** Explains naming tasks in Swift concurrency and how names aid debugging and observability. Follow it when tracing asynchronous work, while keeping names descriptive and avoiding assumptions that labels change scheduling, isolation, or cancellation semantics.
-- [Enabling Haptic Feedback with sensoryFeedback in SwiftUI – SerialCoder.dev](https://serialcoder.dev/text-tutorials/swiftui/enabling-haptic-feedback-with-sensoryfeedback-in-swiftui?ref=createwithswift.com) — Tutorial · Topics: Swift · SwiftUI
-  **NeKI brief:** Demonstrates SwiftUI haptic feedback through sensoryFeedback. Use it when tying tactile responses to meaningful state transitions, and review platform availability, user settings, frequency, and accessibility so feedback remains helpful rather than noisy.
+  **NeKI brief:** Artem explains Swift Concurrency task names, showing how to label Task, Task.detached, task groups, and SwiftUI .task calls so they’re easier to identify in LLDB, Instruments, and logs.
 - [Core Data + Observation: From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model?ref=createwithswift.com) — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
 
@@ -156,7 +172,11 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Working with the Keychain in iOS](https://tanaschita.com/ios-keychain-secure-data-storage?ref=createwithswift.com) — Article · Topics: Persistence & Synchronisation · Security & Privacy · Swift
   **NeKI brief:** Explains storing sensitive iOS data in Keychain and the accessibility choices that affect availability. Use it when designing credential persistence, selecting protection classes, and separating secrets from ordinary app storage.
 - [A floating card using safeAreaBarBuilding a floating card component using iOS 26’s safeAreaBar with an iOS 18 fallbackCodakuma](https://codakuma.com/floating-safe-area-bar?ref=createwithswift.com) — Article · Topics: Combine & Reactive Programming · Swift · SwiftUI
-  **NeKI brief:** Creates a floating bar with SwiftUI’s safeAreaBar modifier, keeping controls attached to safe-area edges as content scrolls. Useful for persistent actions or playback controls without manual inset calculations and overlay hit-testing.
+  **NeKI brief:** Shaun shows how to build a reusable floating bottom card in SwiftUI using safeAreaBar on iOS 26, with an iOS 18 fallback that combines safeAreaInset, material, and a gradient fade to keep scrolling content readable behind it.
+- [Who’s Going to WWDC26?Add your flights • See who’s coming](https://flighty.app/wwdc26?ref=createwithswift.com) — Article · Topics: Apple Platform Ecosystem · Developer Community & Business · Swift
+  **NeKI brief:** As every year, Flighty is bringing back its community map so you can add your flights, see who’s flying in from around the world, and maybe even spot a few familiar faces on your route!
+- [Swift Task Lifecycle Management - Structured vs Unstructured Concurrency](https://www.sagarunagar.com/blog/swift-task-lifecycle-management?ref=createwithswift.com) — Article · Topics: Concurrency · Developer Career & Practice · Swift
+  **NeKI brief:** Sagar explains Swift task lifecycle management by comparing structured and unstructured concurrency, showing how choices like async let, TaskGroup, SwiftUI’s .task, Task, and Task.detached affect cancellation, errors, memory, and UI.
 
 ## [Issue 108](https://www.createwithswift.com/weekly-newsletter-issue-108)
 
@@ -171,8 +191,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Modern SwiftUI APIs for programmatic scrolling](https://nilcoalescing.com/blog/ModernSwiftUIAPIsForProgrammaticScrolling?ref=createwithswift.com) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
   **NeKI brief:** Uses modern SwiftUI scrolling APIs to observe visible items, target positions, and programmatic movement. Useful for replacing preference-key workarounds with typed scroll coordination.
+- [From WebView to CoreText: Building a Native EPUB Reader for iOS](https://chang-jui-lin.github.io/Yuedu-reader/2026/05/20/from-webview-to-coretext?ref=createwithswift.com) — Article · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **NeKI brief:** Chang-Jui shares the journey behind Yuedu Reader, an open source EPUB reader for iOS, and why supporting CJK vertical writing made a custom CoreText rendering engine unavoidable.
 - [Deprecating your own convenience API](https://swiftwithmajid.com/2026/05/19/deprecating-your-own-convenience-api?ref=createwithswift.com) — Article · Topics: Swift
   **NeKI brief:** Explains deprecating a convenience API with migration messages and replacement paths. Use it when evolving an internal or public Swift interface while keeping callers compiling and making the preferred alternative discoverable.
+- [Beer with Swift - WWDC26 Special Edition](https://luma.com/y95acvdw?ref=createwithswift.com) — Article · Topics: Apple Platform Ecosystem · Swift
+  **NeKI brief:** Don’t miss the chance to keep the excitement going beyond the mothership, join us around Cupertino on the 9th of June for a special WWDC26 edition of our Create Beer with Swift! This is your chance to connect with fellow Swift enthusiasts, discuss Apple's…
 
 ## [Issue 107](https://www.createwithswift.com/weekly-newsletter-issue-107)
 
@@ -185,8 +209,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Issue 107 combines macOS toolbar customization and fixedSize layout diagnosis with layered iOS performance analysis. Its links also cover whether structured or unstructured tasks own cancellation, errors, memory, and UI lifetime.
 
 **Selected links:**
+- [A guide to macOS window toolbar styles in SwiftUI](https://nilcoalescing.com/blog/AGuideToMacOSToolbarStylesInSwiftUI?ck_subscriber_id=2978342081) — Article · Topics: Combine & Reactive Programming · Swift · SwiftUI
+  **NeKI brief:** Natalia covers all the modifiers you need to customize the macOS window toolbar in SwiftUI, from layout styles to title and background visibility.
 - [How to Think About Performance in iOS](https://livsycode.com/best-practices/how-to-think-about-performance-in-ios?ref=createwithswift.com) — Article · Topics: Architecture · Graphics, Media & Games · Performance
-  **NeKI brief:** Frames iOS performance as a measurement and prioritization problem rather than a collection of tricks. Follow it when planning investigations, connecting user-visible symptoms to traces, and choosing fixes that improve the actual bottleneck.
+  **NeKI brief:** Artem walks through iOS performance as a layered system covering metrics, architecture, UI rendering, networking, caching, memory, and CPU behavior.
+- [Finally found a use case for .fixedSize](https://www.swiftdifferently.com/blog/swiftui/fixedsize-usecase?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Omar explains how .fixedSize(horizontal: false, vertical: true) solves a tricky card height layout problem in a horizontal scroll view.
 
 ## [Issue 60](https://www.createwithswift.com/weekly-newsletter-issue-60)
 
@@ -199,6 +227,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Routes readers to Apple's Develop in Swift machine-learning tutorials for iOS and complements them with local community activity and current project links. Useful for finding a structured starting point for evaluating Apple framework-based ML capabilities in an app.
 
 **Selected links:**
+- [Demystifying Picture in Picture on iOSA deep dive into using PiP mode.Artem Novichkov](https://www.artemnovichkov.com/blog/demystifying-picture-in-picture-on-ios?ref=createwithswift.com) — Article · Topics: Foundation & Data Formats · Graphics, Media & Games · Swift
+  **NeKI brief:** Artem provides a practical guide for implementing Picture in Picture (PiP) functionality in iOS apps from setting up a camera feed using UIKit and AVFoundation, configuring the capture session, and enabling PiP mode.
 - [SwiftData Predicates For Parent RelationshipsHow do you write SwiftData predicates to query for parent relationships.Use Your Loaf - iOS Development News & Tips](https://useyourloaf.com/blog/swiftdata-predicates-for-parent-relationships?ref=createwithswift.com) — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **NeKI brief:** Builds a #Predicate over an optional SwiftData relationship by comparing the parent’s persistentModelID, then extends the pattern to multiple parent IDs. This is useful when CloudKit-compatible optional relationships must still support parameterized child queries.
 - [Working with Xcode configuration files](https://tanaschita.com/xcode-configuration-files?ref=createwithswift.com) — Article · Topics: Swift · Xcode
@@ -215,12 +245,18 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Uses Swift 6.1 as a release checkpoint and highlights community explanation of its practical improvements, alongside current platform reading. It helps teams identify language changes worth evaluating while keeping release summaries distinct from validated migration requirements for a codebase.
 
 **Selected links:**
-- [Handling App Lifecycle In SwiftUI With scenePhase - SerialCoder.devSerialCoder.dev](https://serialcoder.dev/text-tutorials/swiftui/handling-app-lifecycle-in-swiftui-with-scenephase?ref=createwithswift.com) — Tutorial · Topics: Swift · SwiftUI
-  **NeKI brief:** Examines Handling App Lifecycle In SwiftUI With scenePhase, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [Mela](https://9to5mac.com/2025/05/01/apple-app-store-guidelines-external-links?ref=createwithswift.com) — Article · Topics: App Distribution & Store Operations · Swift
+  **NeKI brief:** In response to this update, major developers are already making adjustments to their apps and prominent players are sharing resources or updating their guides to allow users to purchase or subscribe to content outside of the App Store in the US storefront.
+- [The Underground Wrapper Scene10 SwiftUI Property Wrappers and Values You Probably Don’t Know… But ShouldCaptain SwiftUIDanny Bolella](https://captainswiftui.substack.com/p/the-underground-wrapper-scene?ref=createwithswift.com) — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **NeKI brief:** Danny explores lesser-known SwiftUI property wrappers beyond the commonly used @State, @Binding, and @ObservedObject, sharing some of his favorites.
 - [What’s new in Swift 6.1?Trailing commas in lists, metatype key paths, diagnostic groups, and more.Hacking with SwiftPaul Hudson twostraws](https://www.hackingwithswift.com/articles/276/whats-new-in-swift-6-1?ref=createwithswift.com) — Article · Topics: Developer Community & Business · Swift
   **NeKI brief:** Summarizes Swift 6.1 language and concurrency additions with migration context. Useful as a release index before evaluating compiler diagnostics and standard-library changes in an existing codebase.
 - [SwiftUI Label and Button Style View Modifiers](https://useyourloaf.com/blog/swiftui-label-and-button-style-view-modifiers?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Shows convenient SwiftUI extensions around Label and Button styles. Use it to centralize repeated control styling without duplicating modifier chains across feature views.
+- [Three Indie Marketing Tips from my Deep Dish 2025 Talk](https://www.swiftjectivec.com/three-key-takeaways-from-my-deep-dish-swift-talk-on-indie-marketing?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Jordan shares the three tips for effective marketing strategies for Indie app developers from his recent Deep Dish Swift 2025 talk.
+- [Silvio](https://gloria.social/@rizzi?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Developed by Silvio with a clean, intuitive interface, the app makes gathering and preserving all your favorite recipes easy. Whether you import from websites, scan your grandparents' stained recipe cards with OCR, or follow new dishes through RSS feeds from…
 
 ## [Issue 58](https://www.createwithswift.com/weekly-newsletter-issue-58)
 
@@ -233,6 +269,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Centers accessibility as a product responsibility and pairs that theme with community material on mobile design impact, map overlays, and Metal shader work. Useful for bringing inclusion into routine engineering and design review instead of treating it as an occasional compliance task.
 
 **Selected links:**
+- [Fostering An Accessibility Culture — Smashing MagazineWhile there’s no definitive playbook for building an accessibility culture, Dani shares lessons from his experience in shaping it through habits rather than mandates.Smashing MagazineDaniel Devesa Derksen-Staats](https://www.smashingmagazine.com/2025/04/fostering-accessibility-culture?ref=createwithswift.com) — Article · Topics: Accessibility · Swift
+  **NeKI brief:** In his recent article, Daniel presents a compelling argument for this shift, showing his journey and demonstrating how even small, consistent practices can foster a culture where inclusion becomes an inherent part of everyday workflows.
 - [Using singletons in Swift 6](https://www.donnywals.com/using-singletons-in-swift-6?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
   **NeKI brief:** Revisits singleton state under Swift 6 concurrency checking, including isolation and Sendable implications. Useful for deciding whether a shared instance is safe or should become an injected actor-owned dependency.
 - [Why Conditional View Modifiers are a Bad IdeaA SwiftUI anti-pattern](https://www.objc.io/blog/2021/08/24/conditional-view-modifiers?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
@@ -249,12 +287,14 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Combines Xcode's possible AI evolution with concrete community leads on building MCP servers in Swift and profiling a SwiftUI app with Instruments. It is a useful bridge between toolchain discussion and actionable investigation of automation and performance workflows.
 
 **Selected links:**
+- [article](https://swiftrocks.com/how-im-using-ai-for-software-engineering?ref=createwithswift.com) — Article · Topics: AI Development · Apple Platform Ecosystem · Swift
+  **NeKI brief:** Welcome to this week's edition of our newsletter.With WWDC25 one week closer, the community is continuing to buzz with hopes and ideas for the future of developer tools. Fatbobman shares his vision for the evolution of Xcode, where AI remains a recurring…
 - [Using Instruments to profile a SwiftUI app](https://www.donnywals.com/using-instruments-to-profile-a-swiftui-app?ref=createwithswift.com) — Article · Topics: Performance · Swift · SwiftUI
   **NeKI brief:** Profiles a SwiftUI app with Instruments to connect view updates and runtime cost to measured workloads. Useful for replacing assumptions about rendering performance with trace evidence.
 - [his vision for the evolution of Xcode](https://fatbobman.com/en/posts/my-hopes-for-xcode?ref=createwithswift.com) — Article · Topics: Swift · Xcode
   **NeKI brief:** Argues for six directions in Xcode's evolution, including stronger Swift Package Manager support, better project organization, a more open plugin model, AI tooling, and cloud services.
 - [Creating MCP Servers in SwiftLearn how to create a Model Context Protocol server in SwiftArtem Novichkov](https://www.artemnovichkov.com/blog/creating-mcp-servers-in-swift?ref=createwithswift.com) — Article · Topics: AI Development · Swift
-  **NeKI brief:** Presents Creating MCP Servers in Swift, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Artem explains how to create an MCP server (Model Context Protocol) that can be used to connect LLMs model with the tools that we use everyday using the Swift programming language.
 
 ## [Issue 56](https://www.createwithswift.com/weekly-newsletter-issue-56)
 
@@ -268,7 +308,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [How to inspect .ipa files and secure your iOS app from common mistakesImprove your app security with 3 simple rulesArtem Novichkov](https://www.artemnovichkov.com/blog/how-to-inspect-ipa-files?ref=createwithswift.com) — Article · Topics: Security & Privacy · Swift
-  **NeKI brief:** Shows how to inspect an IPA archive for packaging details and common security mistakes. Use it during release audits to examine embedded assets, metadata, and bundled resources before distribution.
+  **NeKI brief:** In this original article, Artem provides a comprehensive guide on examining the contents of iOS application packages (.ipa files) and highlights common security pitfalls to avoid.
 - [SwiftUI Alert Guide + Code Examples](https://www.avanderlee.com/swiftui/swiftui-alert-presenting?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Builds SwiftUI alerts from state, including dynamic messages, multiple actions, and reusable error presentation. The patterns clarify how presentation state should be modeled so alerts do not race with view updates.
 - [WWDC25 wishesThe World Wide Developers Conference, the largest event in the Apple development world, is just around the corner. Today, I’m excited to share my wishes for the upcoming WWDC 25, which is expected to be unveiled in two months.Swift with MajidMajid Jabrayilov](https://swiftwithmajid.com/2025/04/08/wwdc25-wishes?ref=createwithswift.com) — Article · Topics: AI Development · Apple Platform Ecosystem · Swift
@@ -276,7 +316,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Text concatenation vs Text interpolation in SwiftUI](https://nilcoalescing.com/blog/TextConcatenationVsTextInterpolationInSwiftUI?ref=createwithswift.com) — Article · Topics: Localization · Swift · SwiftUI
   **NeKI brief:** Contrasts concatenating Text views with interpolating values into localized strings. Useful for preserving localization and formatting semantics when constructing styled SwiftUI copy.
 - [Swift 6.1 ReleasedSwift 6.1 is now available!Swift.orgApple Inc.](https://www.swift.org/blog/swift-6.1-released?ref=createwithswift.com) — Article · Topics: Developer Community & Business · Graphics, Media & Games · Swift
-  **NeKI brief:** Summarizes the Swift 6.1 release and its ecosystem changes. Use it as a starting point for compiler or package upgrades, verifying source compatibility, concurrency diagnostics, and platform support against the toolchain you actually ship.
+  **NeKI brief:** The community has already shared some excellent insights. If you’re looking to dive deeper, we highly recommend checking out this video by Vincent!
 
 ## [Issue 55](https://www.createwithswift.com/weekly-newsletter-issue-55)
 
@@ -290,7 +330,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Swiftdata Architecture Patterns And PracticesBlog about iOS development and musings on technologyAzamSharpMohammad Azam](https://azamsharp.com/2025/03/28/swiftdata-architecture-patterns-and-practices.html?ref=createwithswift.com) — Article · Topics: Architecture · Objective-C & Cocoa · Swift
-  **NeKI brief:** Explains Swiftdata Architecture Patterns And Practices, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Using a practical example, Mohammad shows how to build scalable SwiftData apps in SwiftUI, covering model structure, business logic, DTOs, testing, previews, CloudKit integration, and strategies to future-proof your architecture.
 - [Documenting your code with DocC](https://swiftwithmajid.com/2025/04/01/documenting-your-code-with-docc?ref=createwithswift.com) — Article · Topics: Accessibility · Swift · Xcode
   **NeKI brief:** Uses DocC to document modular Swift packages, where separate targets need navigable symbols and tutorials. The workflow turns documentation into a distributable module artifact, making API contracts discoverable instead of relying on repository context.
 - [Modern URL construction in Swift](https://www.swiftbysundell.com/articles/modern-url-construction-in-swift?ref=createwithswift.com) — Article · Topics: Foundation & Data Formats · Swift
@@ -298,7 +338,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Implementing Task timeout with Swift Concurrency](https://www.donnywals.com/implementing-task-timeout-with-swift-concurrency?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
   **NeKI brief:** A timeout races work against a sleeping task and cancels the loser, giving structured callers a bounded result; cancellation only works if the operation cooperatively checks it.
 - [ModelActor is Just Weird](https://www.massicotte.org/model-actor?ref=createwithswift.com) — Article · Topics: Concurrency · Swift · SwiftData
-  **NeKI brief:** Explains ModelActor is Just Weird, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** In this article, Matt shows his journey in understanding how the ModelActor protocol and how Swift Data deals with concurrency in the system.
 
 ## [Issue 54](https://www.createwithswift.com/weekly-newsletter-issue-54)
 
@@ -311,10 +351,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Uses the newly announced developer event as a planning checkpoint and pairs it with community material on mobile-design impact, SwiftUI map overlays, and Metal shader parameters. It helps schedule learning and announcement triage without presenting event speculation as API fact.
 
 **Selected links:**
+- [Custom transition for fullScreenCover in SwiftUI](https://livsycode.com/swiftui/custom-transition-for-fullscreencover-in-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Artem shows how to implement custom transitions for fullScreenCover in SwiftUI with visual examples, for more dynamic and visually appealing full-screen presentations.
 - [SwiftUI Default Scroll Anchor](https://useyourloaf.com/blog/swiftui-default-scroll-anchor?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Configures a default scroll anchor so newly inserted or resized content settles at a chosen edge. Useful for chat and feed layouts where preserving the visible context matters.
 - [The Simple Life(cycle) of a SwiftUI View in 2025Revisiting an Elementary Topic... Half a Decade LaterCaptain SwiftUIDanny Bolella](https://captainswiftui.substack.com/p/the-simple-lifecycle-of-a-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Describes the lifecycle of a SwiftUI view from identity through evaluation and disappearance. Useful for placing initialization, side effects, and cleanup where their timing matches actual view lifetime.
+  **NeKI brief:** Danny dives deep into the revisited SwiftUI View Lifecycle, explaining how views behave, update, and clean up in modern SwiftUI.
 - [Await multiple async tasks in Swift](https://swiftwithmajid.com/2025/03/24/awaiting-multiple-async-tasks-in-swift?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
   **NeKI brief:** Explains Swift async let for concurrently starting multiple child tasks and awaiting their results. Use it when parallel work has fixed structure and needs clear cancellation and error propagation.
 
@@ -328,10 +370,6 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Curates community reading around Siri and App Intents, SwiftUI, and Vision Framework work, while retaining links on sustainable mobile design, map overlays, and Metal shaders. A useful scan for teams identifying adjacent platform areas to investigate with primary documentation.
 
-**Selected links:**
-- [Exploring The LabeledContent View In SwiftUI - SerialCoder.devSerialCoder.dev](https://serialcoder.dev/text-tutorials/swiftui/exploring-the-labeledcontent-view-in-swiftui?ref=createwithswift.com) — Tutorial · Topics: Swift · SwiftUI
-  **NeKI brief:** Explores LabeledContent for pairing values with descriptive labels in SwiftUI. Useful for settings, metadata, and inspector rows that need consistent semantics and platform styling without hand-built HStacks.
-
 ## [Issue 52](https://www.createwithswift.com/weekly-newsletter-issue-52)
 
 - Published: `2025-03-14T17:00:20.000Z`
@@ -344,7 +382,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Rendering Pixel Art with SwiftUI](https://twocentstudios.com/2025/03/10/pixel-art-swift-ui?ref=createwithswift.com) — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
-  **NeKI brief:** Presents Rendering Pixel Art with SwiftUI, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Chris explores how to display pixel art crisply in SwiftUI, ensuring sharp edges without unwanted blurring for game assets but also for low-resolution graphics.
 - [Custom environment values in SwiftUI](https://nilcoalescing.com/blog/CustomEnvironmentValuesInSwiftUI?ref=createwithswift.com) — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
   **NeKI brief:** Compares the pre-Xcode 16 pattern for defining SwiftUI environment keys with the @Entry macro, then shows how values flow through a view hierarchy.
 - [SwiftUI Performance - How to use UIKit](https://swiftwithmajid.com/2025/03/04/swiftui-performance-how-to-use-uikit?ref=createwithswift.com) — Article · Topics: Performance · Swift · SwiftUI
@@ -368,7 +406,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Designing a custom lazy list in SwiftUI with better performance](https://nilcoalescing.com/blog/CustomLazyListInSwiftUI?ref=createwithswift.com) — Article · Topics: Performance · Swift · SwiftUI
   **NeKI brief:** Constructs a custom lazy list to control virtualization and layout beyond List's built-in behavior. Useful when custom scrolling visuals or cell composition require more control than standard list styles provide.
 - [Synchronous Work](https://www.massicotte.org/synchronous-work?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
-  **NeKI brief:** Explains Synchronous Work, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Matt delves into the trade-offs between synchronous and asynchronous execution, emphasizing the importance of understanding when and how to use each approach effectively, highlighting the trade-offs between efficiency and complexity when deciding whether to…
 - [Understanding the Bindable property wrapper in SwiftUI](https://tanaschita.com/swiftui-observation-bindable?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Clarifies that an @Observable model can be read directly by a child view, but a child needing writable bindings must introduce @Bindable around that model. The wrapper exposes projected properties such as $model.name without reverting to ObservableObject ownership patterns.
 
@@ -383,12 +421,16 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Marks the newsletter's first fifty issues while curating community reading on the environmental cost of mobile design, iOS 26 map overlays, and configurable Metal shaders. It serves as a retrospective routing point rather than a framework tutorial or release note.
 
 **Selected links:**
+- [Music recognition with ShazamKitBring music recognition to your apps with ShazamKitArtem Novichkov](https://www.artemnovichkov.com/blog/music-recognition-with-shazam-kit?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Artem shows how to integrate ShazamKit into iOS apps, explaining the setup process, microphone permissions, and implementation of music recognition using SHManagedSession and SHLibrary, along with practical SwiftUI examples for displaying recognized songs.
 - [Quick guide on home screen quick actions for SwiftUI](https://tanaschita.com/ios-home-screen-quick-actions?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Implements Home Screen quick actions in SwiftUI. Use it when a shortcut should launch directly into an app task while keeping scene activation and routing state explicit.
 - [What's new in Swift 6.1?](https://www.donnywals.com/whats-new-in-swift-6-1?ref=createwithswift.com) — Article · Topics: Swift
   **NeKI brief:** Summarizes the smaller Swift 6.1 release in Xcode 16.3, including TaskGroup behavior and imported-member visibility changes.
 - [Animatable Protocol: Taming Unruly SwiftUI Animations](https://fatbobman.com/en/posts/animatable-protocol-taming-unruly-swiftui-animation?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Uses Animatable to control interpolation of custom SwiftUI values. Use it when a complex view animates discontinuously and needs a deliberate animatable-data representation.
+- [An Ode to Swift Enums: The View Models That Could](https://www.swiftjectivec.com/swift-enums-as-lighweight-view-models?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Jordan discusses utilizing Swift enumerations as lightweight view models in iOS development, illustrating how enums can manage related values efficiently and emphasizing enums’ versatility beyond traditional uses.
 
 ## [Issue 49](https://www.createwithswift.com/weekly-newsletter-issue-49)
 
@@ -403,8 +445,6 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Swift 6: What’s New and How to Migrate](https://www.avanderlee.com/concurrency/swift-6-migrating-xcode-projects-packages?ref=createwithswift.com) — Article · Topics: Concurrency · Swift · Xcode
   **NeKI brief:** Explains the goals and major changes of Swift 6 and lays out an incremental migration path for Xcode projects and Swift packages.
-- [Presenting and Managing Expandable Sections in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/presenting-and-managing-expandable-sections-in-swiftui?ref=createwithswift.com) — Tutorial · Topics: Swift · SwiftUI
-  **NeKI brief:** Builds expandable SwiftUI sections with disclosure state and animated content. Useful for settings and FAQ interfaces where row identity, accessibility labels, and collapsed content behavior must remain consistent.
 - [Yielding and debouncing in Swift Concurrency](https://swiftwithmajid.com/2025/02/18/yielding-and-debouncing-in-swift-concurrency?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
   **NeKI brief:** Explains yielding and debouncing techniques with Swift concurrency, showing how tasks can cooperate and suppress redundant work. Follow it for search, input, or event pipelines where cancellation, scheduling fairness, and latest-value behavior must be explicit.
 
@@ -423,6 +463,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Explains provisional notification authorization, which delivers quietly before a full permission prompt. Use it when an app can demonstrate notification value without interrupting first-run onboarding.
 - [Mastering SwiftUI Scrolling: Implementing Custom Paging](https://fatbobman.com/en/posts/mastering-swiftui-scrolling-implementing-custom-paging?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Implements custom SwiftUI paging behavior for scrolling content. Use it when system paging is insufficient and snapping, offsets, and selection state require coordinated control.
+- [Speculative Spatial Design Canvas](https://imaginaryinstitute.gumroad.com/l/speculative-spatial-design-canvas?ref=createwithswift.com) — Article · Topics: Spatial Computing · Swift
+  **NeKI brief:** This pivotal update introduces groundbreaking advancements to the Spatial Enablers Framework and the Spatial Computing Education Matrix, empowering you to unlock new immersive learning and design dimensions.
 - [Task Cancellation in Swift Concurrency](https://swiftwithmajid.com/2025/02/11/task-cancellation-in-swift-concurrency?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
   **NeKI brief:** Demonstrates cooperative task cancellation in Swift, including checking cancellation and stopping asynchronous work promptly. Useful for preventing stale network or search results from continuing after a view disappears.
 
@@ -438,13 +480,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [The Next Chapter in Swift Build TechnologiesSwift continues to grow in popularity as a cross-platform language supporting a wide variety of use cases, with support on a variety of embedded devices, form factors that encompass wearables to server, and a wide variety of operating systems. As Swift expands, there’s value in investing in matching cross-platform build tools that provide a powerful, consistent, and flexible experience across the ecosystem.Swift.orgApple Inc.](https://www.swift.org/blog/the-next-chapter-in-swift-build-technologies?ref=createwithswift.com) — Article · Topics: Concurrency · Cross-Platform & Web · Swift
-  **NeKI brief:** Discusses the direction of Swift build technologies and tooling. Use it for ecosystem context when planning build-system work, but keep implementation decisions grounded in the current Swift Package Manager and Xcode documentation.
+  **NeKI brief:** This commitment led Apple to open-sourcing Swift Build, a build engine that offers a comprehensive set of build rules for constructing Swift projects.
 - [GitHub - swiftlang/swift-build: A high-level build system based on llbuild, used by Xcode, Swift Playground, and the Swift Package ManagerA high-level build system based on llbuild, used by Xcode, Swift Playground, and the Swift Package Manager - swiftlang/swift-buildGitHubswiftlang](https://github.com/swiftlang/swift-build?ref=createwithswift.com) — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
-  **NeKI brief:** Swift Build is the open-sourced build engine behind Xcode and SwiftPM convergence work. Follow it when assessing build-graph architecture, toolchain behavior, and future migration implications for projects that currently rely on opaque Xcode builds.
+  **NeKI brief:** This commitment led Apple to open-sourcing Swift Build, a build engine that offers a comprehensive set of build rules for constructing Swift projects.
 - [Drawing maps with Swift Charts](https://www.artemnovichkov.com/blog/drawing-maps-with-swift-charts?ref=createwithswift.com) — Article · Topics: Maps & Location · Swift
-  **NeKI brief:** Uses Swift Charts to draw map-like visualizations from coordinate data. Useful for plotting paths or geographic series when a chart is sufficient and a full map renderer would add unnecessary complexity.
+  **NeKI brief:** Artem shows how developers merge location-based data with the Swift Chart framework to create insightful data visualizations.
 - [Mastering TaskGroups in Swift](https://swiftwithmajid.com/2025/02/04/mastering-task-groups-in-swift?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
   **NeKI brief:** Uses task groups to fan out dynamic child work, collect results, and propagate cancellation. Useful for concurrent aggregation where the number of operations is known only at runtime.
+- [Understand Photo Storage Model on Apple’s Photos app and PhotosKit](https://juniperphoton.substack.com/p/understand-photo-storage-model-on?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Weichao provides an in-depth look at how photos are stored and managed on iOS, particularly focusing the PHAsset class provided by the PhotosKit framework.
 
 ## [Issue 46](https://www.createwithswift.com/weekly-newsletter-issue-46)
 
@@ -460,7 +504,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Learn to debug iOS features that require app start from external actions in Xcode](https://tanaschita.com/xcode-debugging-app-restart?ref=createwithswift.com) — Article · Topics: Developer Tools · Navigation & Deep Linking · Xcode
   **NeKI brief:** Uses Xcode's wait-for-executable scheme option to attach the debugger when deep links, universal links, quick actions, or other external events launch the app.
 - [Filtering SwiftData Models Using Enum](https://azamsharp.com/2025/01/23/filtering-swiftdata-models-using-enum.html?ref=createwithswift.com) — Article · Topics: Cross-Platform & Web · Swift · SwiftData
-  **NeKI brief:** Examines Filtering SwiftData Models Using Enum, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+  **NeKI brief:** Azam explains how to filter SwiftData models using enum values, overcoming query limitations with raw values, while providing code examples and highlighting enums’ benefits.
 - [SwiftUI Button Image When Pressed](https://useyourloaf.com/blog/swiftui-button-image-when-pressed?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Uses SwiftUI state and button styles to swap or animate an image while a button is pressed. Useful for immediate tactile feedback without manually tracking touch events.
 
@@ -494,7 +538,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Solving “Main actor-isolated property can not be referenced from a Sendable closure” in Swift](https://www.donnywals.com/solving-main-actor-isolated-property-can-not-be-referenced-from-a-sendable-closure-in-swift?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
   **NeKI brief:** Diagnoses the compiler error caused by accessing main-actor-isolated state from a Sendable closure and presents isolation-aware fixes. Use it when migrating Swift concurrency code, choosing capture strategies, and preserving actor boundaries rather than silencing diagnostics.
 - [How a new Xcode 16 feature helped my work project eliminate 66,000 lines of code](https://blog.makwanbk.com/how-one-new-xcode-feature-helped-my-work-project-eliminate-66k-lines-of-code?ref=createwithswift.com) — Article · Topics: Swift · Xcode
-  **NeKI brief:** Describes how an Xcode feature removed substantial generated or repetitive code from a production project. Use it to identify automation opportunities while checking the migration cost and generated-source boundaries.
+  **NeKI brief:** Makwan highlights how Xcode 16’s buildable folders helped streamline the author’s team project while exploring its impact and trade-offs.
 - [Add launch at login setting to a macOS app](https://nilcoalescing.com/blog/LaunchAtLoginSetting?ref=createwithswift.com) — Article · Topics: Swift
   **NeKI brief:** Demonstrates registering a macOS app as a login item with SMAppService. Use it to implement an explicit launch-at-login setting while keeping user control and system preferences aligned.
 
@@ -526,6 +570,14 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Collects iOS 18 dark and tinted app-icon preparation with a SwiftUI Sign in with Apple integration. Use it to review Home Screen asset variants and authentication entry points together, while keeping icon rendering validation and credential lifecycle handling as separate implementation concerns.
 
+**Selected links:**
+- [Our Releases](https://imaginaryinstitute.gumroad.com/l/speculative-spatial-design-canvas?layout=profile&ref=createwithswift.com) — Article · Topics: Performance · Swift
+  **NeKI brief:** Our team of creatives has also released 5 projects this year that we’re incredibly proud of. Some to guide, some to explore and some just for fun. If you missed any of them, they’re available for download:
+- [Desina02](https://www.desina.it/ospiti/imaginary-institute?ref=createwithswift.com) — Article · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Desina02, DesignFAO, iOSDevUK, Swift Conf, Swift Heroes, Swift Leeds
+- [Swift Heroes](https://swiftheroes.com/swiftheroes-2024/speaker/LJWKMQ?ref=createwithswift.com) — Article · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Desina02, DesignFAO, iOSDevUK, Swift Conf, Swift Heroes, Swift Leeds
+
 ## [Issue 41](https://www.createwithswift.com/weekly-newsletter-issue-41)
 
 - Published: `2024-12-20T16:00:23.000Z`
@@ -538,13 +590,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Xcode Library customization with SPM plugin](https://www.artemnovichkov.com/blog/xcode-library-customization-with-spm-plugin?ref=createwithswift.com) — Article · Topics: Swift · Swift Package Manager · Xcode
-  **NeKI brief:** Presents Xcode Library customization with SPM plugin, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Artem explains how to customize the Xcode Library by using a Swift Package Manager demonstrating how to automate the discovery and addition of reusable UI components, such as views and modifiers, to the library.
 - [Introducing UIGestureRecognizerRepresentable protocol in SwiftUI](https://swiftwithmajid.com/2024/12/17/introducing-uigesturerecognizerrepresentable-protocol-in-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI · UIKit
   **NeKI brief:** Introduces UIGestureRecognizerRepresentable as a focused bridge for UIKit gesture recognizers in SwiftUI. It preserves recognizer-specific behavior without wrapping an entire view controller, while coordinator updates remain essential for delegate-driven state.
 - [SwiftUI Button: Custom Styles, Variants, and Best Practices](https://www.avanderlee.com/swiftui/swiftui-button-styles?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Builds reusable ButtonStyle implementations and shows how role, pressed state, and environment values influence rendering. It helps centralize interaction design while retaining SwiftUI’s accessibility and hit-testing behavior.
 - [Noncopyable types in Swift](https://nilcoalescing.com/blog/NoncopyableTypesInSwift?ref=createwithswift.com) — Article · Topics: Swift
   **NeKI brief:** Explains noncopyable Swift types and ownership restrictions. Use it when a resource must have unique lifetime semantics and accidental copying would be invalid or expensive.
+- [Basic Apple Guy](https://basicappleguy.com/basicappleblog/ugly-christmas-sweater-wallpapers-mac-edition?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Check out these festive Ugly Christmas Sweater Wallpapers (Mac Edition) from Basic Apple Guy to help you complete the Christmas decoration of your Apple devices! 🎄 We’ll be back with our next newsletter next week, and after that, we’ll kick off the new year…
 
 ## [Issue 40](https://www.createwithswift.com/weekly-newsletter-issue-40)
 
@@ -557,8 +611,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Routes to SwiftUI Form selection patterns, including choosing values through controls suited to the data model. It is useful when a settings or data-entry screen needs a typed selection contract; keep the selected value, validation, and persistence boundary explicit.
 
 **Selected links:**
+- [Creating ML models with Create ML](https://www.artemnovichkov.com/blog/create-ml?ref=createwithswift.com) — Article · Topics: AI Development · Swift
+  **NeKI brief:** Artem show how to build custom machine learning models for iOS using Create ML, with a practical example of creating a multilingual sentiment analyzer with no extensive coding required.
 - [Concurrency Step-by-Step: Reading from Storage](https://www.massicotte.org/step-by-step-reading-from-storage?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
-  **NeKI brief:** Explains Concurrency Step-by-Step: Reading from Storage, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Matt offers a step-by-step guide to handling concurrent data storage operations in Swift, focusing on common challenges and best practices explaining how to properly manage data access across different threads while maintaining type safety.
 - [How to change your app's business model from paid to freemium using StoreKit](https://www.polpiella.dev/paid-app-to-freemium?ref=createwithswift.com) — Article · Topics: App Distribution & Store Operations · Swift
   **NeKI brief:** Shows changing an app's business model from paid upfront to freemium using StoreKit's AppTransaction API. Follow it when planning migration logic and entitlement checks, then verify transaction semantics, customer communication, and App Store policy requirements.
 - [Understanding opaque types in Swift](https://tanaschita.com/swift-opaque-types?ref=createwithswift.com) — Article · Topics: Swift
@@ -578,11 +634,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [SwiftUI matched geometry effect in a custom segmented control](https://nilcoalescing.com/blog/CustomSegmentedControlWithMatchedGeometryEffect?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI · Testing
   **NeKI brief:** Builds a segmented control with matchedGeometryEffect so the selection indicator moves between segments. Useful for coordinated SwiftUI transitions while keeping selection state separate from animation identity.
 - [Mastering TextEditor in SwiftUI: Features, Limitations, and Tips](https://www.artemnovichkov.com/blog/mastering-text-editor-in-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Reviews TextEditor capabilities, styling constraints, and editing behavior in SwiftUI. Useful for designing robust multiline input while accounting for focus, scrolling, and platform differences.
+  **NeKI brief:** Artem explores in depth the SwiftUI’s TextEditor view. It covers essential features, its limitations, and offers practical tips for effective implementation.
 - [Text field enhancements in SwiftUI](https://swiftwithmajid.com/2024/12/03/text-field-enhancements-in-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Covers newer SwiftUI TextField capabilities. Use it when text input needs richer editing behavior, formatting, or platform integration beyond a basic bound string.
 - [make coding fun](https://forums.swift.org/t/advent-of-code-2024/76301?ref=createwithswift.com) — Article · Topics: Swift
-  **NeKI brief:** Uses Advent of Code 2024 as a practical reference for Apple-platform development, surfacing implementation constraints and workflow trade-offs worth checking before applying the idea in production code.
+  **NeKI brief:** make coding fun. This link is retained as a technical reading lead for Apple-platform development.
+- [official website](https://www.naoenomoto.com/works/mist?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** You can discover the full story and inspiration behind MIST on the official website, where the creative process and unique vision are detailed.
 
 ## [Issue 38](https://www.createwithswift.com/weekly-newsletter-issue-38)
 
@@ -596,7 +654,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Time-Based View Updates in SwiftUI](https://digitalbunker.dev/time-based-view-updates-in-swiftui?ref=createwithswift.com) — Article · Topics: Developer Tools · Swift · SwiftUI
-  **NeKI brief:** Presents Time-Based View Updates in SwiftUI, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** In this article Aryaman shares how to use the TimeLineView container to programmatically update a SwiftUI View following a specific schedule.
 - [Supporting universal links in a SwiftUI application](https://tanaschita.com/ios-universal-links-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI · Xcode
   **NeKI brief:** Universal Links connect web URLs to SwiftUI navigation through associated domains and application callbacks. Follow it to trace website, entitlement and routing configuration as one end-to-end contract.
 - [The power of previews in Xcode](https://swiftwithmajid.com/2024/11/26/the-power-of-previews-in-xcode?ref=createwithswift.com) — Article · Topics: Developer Career & Practice · Swift · Xcode
@@ -615,8 +673,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Updating your apps with silent push notifications](https://www.donnywals.com/updating-your-apps-with-silent-push-notifications?ref=createwithswift.com) — Article · Topics: App Services & Extensions · Swift · Testing
   **NeKI brief:** Silent pushes can request background refresh without user interruption, but delivery is best-effort and needs a fallback for stale app data.
+- [Integrating Live Activity and Dynamic Island in iOS: A Complete Guide](https://canopas.com/integrating-live-activity-and-dynamic-island-in-i-os-a-complete-guide?ref=createwithswift.com) — Article · Topics: App Services & Extensions · Swift
+  **NeKI brief:** In this first part of a two articles series, Radhika covers in detail the essentials of Live Activities and Dynamic Island showing the setting up, updating, and ending process of an activity.
 - [Deep Dive into Environment in SwiftUI](https://azamsharp.com/2024/11/18/deep-dive-into-environment-in-swiftui.html?ref=createwithswift.com) — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
-  **NeKI brief:** Explains SwiftUI environment propagation, custom keys, and dependency lookup. Useful for deciding which shared services belong in environment values versus explicit initializer parameters.
+  **NeKI brief:** Mohammad describes in detail the SwiftUI’s environment explaining how it facilitates the sharing of state across views. It begins by exploring the scope and injection of environment objects within the view hierarchy, delves into their behavior during view…
+- [did you know that you can create screensavers with Swift??????](https://digitalbunker.dev/creating-a-macos-screensaver-in-swiftui?ref=createwithswift.com) — Article · Topics: Developer Tools · macOS & AppKit · Swift
+  **NeKI brief:** And as a curiosity... did you know that you can create screensavers with Swift??????
 
 ## [Issue 36](https://www.createwithswift.com/weekly-newsletter-issue-36)
 
@@ -648,7 +710,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [How to Use URLSession with Async/Await for Network Requests in Swift](https://www.avanderlee.com/concurrency/urlsession-async-await-network-requests-in-swift?ref=createwithswift.com) — Article · Topics: Concurrency · Networking · Swift
   **NeKI brief:** Builds URLSession requests with async/await, HTTP validation, decoding, and typed error handling without third-party networking frameworks. The sequence provides a concrete baseline for deciding where retries and cancellation belong.
 - [Exploring SwiftUI: Playing with Image Playground](https://www.rudrank.com/exploring-swiftui-image-playground?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Presents Exploring SwiftUI Image Playground, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Rudrank explores the new Image Playground feature which enables customizable image generation directly within SwiftUI apps.
+- [A new home for Pixelmator - Pixelmator BlogToday we have some important news to share: the Pixelmator Team plans to join Apple.Pixelmator BlogPixelmator Team](https://www.pixelmator.com/blog/2024/11/01/a-new-home-for-pixelmator?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Pixelmator, the popular image editing app, has signed an agreement to be acquired by Apple, now pending regulatory approval.Is this move a hint at a future where creative professionals may have a fully integrated, Apple-first alternative to Adobe’s suite—one…
 
 ## [Issue 34](https://www.createwithswift.com/weekly-newsletter-issue-34)
 
@@ -663,12 +727,14 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Introducing Swift Testing. Basics.](https://swiftwithmajid.com/2024/10/22/introducing-swift-testing-basics?ref=createwithswift.com) — Article · Topics: Macros & Metaprogramming · Swift · Testing
   **NeKI brief:** Introduces Swift Testing's test declarations, expectations, and setup model. Useful as a migration starting point when replacing XCTest boilerplate while keeping behavioral assertions readable.
+- [Custom Views in UIMenu](https://sebvidal.com/blog/custom-views-in-uimenu?ref=createwithswift.com) — Article · Topics: App Distribution & Store Operations · Swift
+  **NeKI brief:** Seb discusses how to use private APIs in UIMenu on iOS, providing code examples for creating interactive custom menu elements and headers. Even if using these undocumented APIs in apps can lead to App Store rejections, this article remains an interesting read.
 - [Improve your app's UX with SwiftUI's task view modifier](https://peterfriese.dev/blog/2024/delay-task-modifier?ref=createwithswift.com) — Article · Topics: Product Design · Swift · SwiftUI
   **NeKI brief:** Implements a delayed task modifier that cancels prior work when the input changes. Useful for debounced search and validation, where task identity and cancellation prevent stale results.
+- [a public repository](https://github.com/edvilme/What-Word?ref=createwithswift.com) — Source repository · Topics: Accessibility · Developer Tools · Swift
+  **NeKI brief:** This project highlights how advanced device features can significantly enhance accessibility for people with communication challenges. The project is currently a work in progress, and a public repository is available to show how some of the app features are…
 - [Word??](https://github.blog/changelog/2024-10-29-github-copilot-code-completion-in-xcode-is-now-available-in-public-preview?ref=createwithswift.com) — Article · Topics: AI Development · Developer Tools · Swift
-  **NeKI brief:** Records GitHub Copilot code completion becoming available in Xcode public preview, including the integration’s scope at that point. Useful historical release context when evaluating Xcode-native AI completion capabilities against current tooling and team policy.
-- [Understanding actors in Swift](https://tanaschita.com/swift-actors-basics?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
-  **NeKI brief:** Introduces Swift actors as protection for shared mutable state and data races. It is a concise route into actor isolation, useful for developers beginning a concurrency migration who need to understand the problem before applying annotations mechanically.
+  **NeKI brief:** Word??. This link is retained as a technical reading lead for Apple-platform development.
 
 ## [Issue 33](https://www.createwithswift.com/weekly-newsletter-issue-33)
 
@@ -696,6 +762,16 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Pairs Apple Pay's evolving product surface with a focused Natural Language example: use NLEmbedding to compare semantic distance and explore synonyms. It is a useful reading bundle when assessing text similarity features while keeping payment-product announcements separate from API decisions.
 
+**Selected links:**
+- [Kavsoft](https://www.youtube.com/@Kavsoft?ref=createwithswift.com) — Video · Topics: Swift · SwiftUI
+  **NeKI brief:** Kavsoft presents a clean and intuitive onboarding implementation that utilizes the same style as native iOS apps, making it both familiar and effective for users.
+- [How to keep Date’s microseconds precision in Swift](https://augmentedcode.io/2024/09/23/how-to-keep-dates-microseconds-precision-in-swift?ref=createwithswift.com) — Article · Topics: Foundation & Data Formats · Swift
+  **NeKI brief:** In this article, Toomas explains how to maintain microsecond precision when working with Date and DateFormatter objects in Swift.
+- [ID cards to everyone's wallets](https://learn.wallet.apple/id?ref=createwithswift.com) — Article · Topics: Developer Tools · Swift
+  **NeKI brief:** Apple Pay recently turned 10 years old. The service that promised to revolutionize digital payments has evolved over time and expanded into other offshoots such as Tap to Pay and Tap to Cash.
+- [Mango Baby](https://machinelearning.apple.com/research/depth-pro?ref=createwithswift.com) — Article · Topics: Objective-C & Cocoa · Swift
+  **NeKI brief:** Mango Baby. This link is retained as a technical reading lead for Apple-platform development.
+
 ## [Issue 31](https://www.createwithswift.com/weekly-newsletter-issue-31)
 
 - Published: `2024-10-11T15:30:29.000Z`
@@ -710,11 +786,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [UserDefaults and Observation in SwiftUI: How to Achieve Precise Responsiveness](https://fatbobman.com/en/posts/userdefaults-and-observation?ref=createwithswift.com) — Article · Topics: Observation & State Management · Swift · SwiftUI
   **NeKI brief:** Observation does not automatically make UserDefaults changes precise inside SwiftUI. The @ObservableDefaults approach bridges key reads and writes into tracked properties, avoiding broad invalidation while retaining UserDefaults persistence semantics.
 - [ObservableDefaults library](https://github.com/fatbobman/ObservableDefaults?ref=createwithswift.com) — Source repository · Topics: Developer Tools · Observation & State Management · Swift
-  **NeKI brief:** ObservableDefaults bridges UserDefaults-backed values into SwiftUI observation. Use it when app settings need reactive updates while retaining UserDefaults persistence and predictable key-level storage.
+  **NeKI brief:** Fatbobman explores the challenges of integrating UserDefaults with the new Observation framework and introduces the ObservableDefaults library, a custom solution that allows properties to react to external changes in real-time while reducing unnecessary view…
+- [Kavsoft](https://www.youtube.com/@Kavsoft?ref=createwithswift.com) — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **NeKI brief:** Kavsoft presents a clean and intuitive onboarding implementation that utilizes the same style as native iOS apps, making it both familiar and effective for users.
 - [How to listen for property changes in an @Observable class using AsyncStreams](https://www.polpiella.dev/observable-property-changes?ref=createwithswift.com) — Article · Topics: Concurrency · Observation & State Management · Swift
   **NeKI brief:** AsyncStream can bridge Observation changes into an async consumer, replacing ObservableObject publishers while preserving cancellation and backpressure decisions. The comparison clarifies when a stream should be scoped to a task and when direct observation is simpler.
 - [Beware UserDefaults: a tale of hard to find bugs, and lost data](https://christianselig.com/2024/10/beware-userdefaults?ref=createwithswift.com) — Article · Topics: Persistence & Synchronisation · Swift
-  **NeKI brief:** Presents beware userdefaults: a tale of hard to find bugs, and lost data for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Christian discusses unexpected and hard-to-debug issues developers might encounter when using UserDefaults suggesting possible solutions.
 
 ## [Issue 30](https://www.createwithswift.com/weekly-newsletter-issue-30)
 
@@ -727,6 +805,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Curates RealityKit physics-joint samples with SwiftUI color mixing, spatial app-icon depth, and immersive-space construction. Use it to identify follow-up material for physical simulation and spatial presentation, keeping experimental sample exploration separate from a production architecture or availability decision.
 
 **Selected links:**
+- [Kavsoft](https://www.youtube.com/@Kavsoft?ref=createwithswift.com) — Video · Topics: Graphics, Media & Games · Swift · Xcode
+  **NeKI brief:** Kavsoft presents a clean and intuitive onboarding implementation that utilizes the same style as native iOS apps, making it both familiar and effective for users.
+- [Implementing Shared With You in SwiftUI](https://digitalbunker.dev/shared-with-you?ref=createwithswift.com) — Article · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Aryaman explains in detail how to implement Shared with You, a feature introduced in iOS 16 that allows users to view content shared via Messages directly within the app.
 - [SwiftUI Environment](https://nilcoalescing.com/blog/SwiftUIEnvironment?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Explains environment propagation and dependency lookup in SwiftUI. Useful for deciding which shared values belong in environment keys versus explicit view inputs.
 
@@ -744,11 +826,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [How to build a Safari extension with SwiftUI](https://www.polpiella.dev/safari-extensions-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Builds a Safari extension with SwiftUI and the Safari extension APIs, covering message exchange between content and host contexts. Useful for keeping extension UI declarative while respecting process boundaries.
 - [The Memory Leak: An Xcode Detective Story](https://www.emergetools.com/blog/posts/the-memory-leak-an-xcode-detective-story?ref=createwithswift.com) — Article · Topics: Swift · Xcode
-  **NeKI brief:** Presents an xcode detective story for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Jacob describes how he tracked down a memory leak that caused a double navigation bug in an iOS app providing a detailed breakdown of the bug and the process he went through to resolve it.
 - [Mastering container views in SwiftUI. Basics.](https://swiftwithmajid.com/2024/09/24/mastering-container-views-in-swiftui-basics?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Introduces SwiftUI container APIs for reading and arranging child content without flattening it into ad-hoc tuples. The pattern enables reusable layout primitives, but generic content shape and customization points need deliberate limits.
 - [Introduction to Communication Patterns in SwiftUI](https://azamsharp.com/2024/09/22/introduction-to-communication-patterns-in-swiftui.html?ref=createwithswift.com) — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
-  **NeKI brief:** Compares communication patterns between SwiftUI views, including bindings, callbacks, and shared state. Useful for choosing data-flow direction while keeping feature interfaces testable.
+  **NeKI brief:** Mohammad explores different ways for SwiftUI views to communicate, such as closures, bindings, and @Environment objects through practical examples and discussing the pros and cons of each method.
+- [GitHub - swiftlang/swift-javaContribute to swiftlang/swift-java development by creating an account on GitHub.GitHubswiftlang](https://github.com/swiftlang/swift-java?ref=createwithswift.com) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** The Swift team has open-sourced early work on Swift/Java interoperability. The project includes JavaKit and jextract-swift, allowing Swift to use Java libraries and Java to call Swift. It's an early prototype aimed at expanding Swift's versatility across…
 
 ## [Issue 28](https://www.createwithswift.com/weekly-newsletter-issue-28)
 
@@ -760,6 +844,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Curates visionOS windows and volumes, iPhone Camera Control, and Xcode 16 tool updates after the annual OS releases. Use it to route release-era evaluation toward spatial scene architecture, hardware interaction, and developer-tool adoption instead of treating the newsletter as a compatibility reference.
 
+**Selected links:**
+- [Spatial Interaction Playgrounds for visionOS](https://imaginaryinstitute.gumroad.com/l/spatialinteractionsplaygrounds?ref=createwithswift.com) — Tutorial · Topics: Swift
+  **NeKI brief:** They have made the project used to demonstrate the concepts covered in the workshop on our Gumroad page. You can download it for free and have access to the complete source code, which is extensively commented on to support you in starting to develop your…
+- [Exploring Core Graphics: Extract Prominent and Unique Colors from UIImage](https://www.rudrank.com/exploring-core-graphics-extract-prominent-unique-colors-uiimage?ref=createwithswift.com) — Article · Topics: Graphics, Media & Games · Swift
+  **NeKI brief:** Rudrank Riyam shows how he used Core Graphics to extract the prominent and unique colors from an image so you can use them to create effects like the mesh gradient on Apple Music.
+
 ## [Issue 27](https://www.createwithswift.com/weekly-newsletter-issue-27)
 
 - Published: `2024-09-16T07:30:39.000Z`
@@ -769,6 +859,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Published this week · From the community · Habit Tracker
 
 **NeKI brief:** Uses introductory visionOS samples as entry points for SwiftUI shapes, RealityKit entities, multiple windows, volumes, and immersive spaces, while featuring Translation availability checks. Follow it when scoping a spatial prototype and deciding which supported language pairs can reach a translation workflow.
+
+**Selected links:**
+- [Kavsoft](https://www.youtube.com/@Kavsoft?ref=createwithswift.com) — Video · Topics: Swift · SwiftUI
+  **NeKI brief:** Kavsoft presents a clean and intuitive onboarding implementation that utilizes the same style as native iOS apps, making it both familiar and effective for users.
 
 ## [Issue 26](https://www.createwithswift.com/weekly-newsletter-issue-26)
 
@@ -781,8 +875,16 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Links Apple Intelligence action resources with Vision barcode recognition, visionOS healthcare context, SF Symbol motion, and SwiftUI hover patterns. Use it to explore where system actions and visual recognition can support a task flow, while validating privacy, availability, and domain constraints separately.
 
 **Selected links:**
+- [Global Sheets Pattern in SwiftUI](https://azamsharp.com/2024/08/18/global-sheets-pattern-swiftui.html?ref=createwithswift.com) — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
+  **NeKI brief:** Mohammad Azam discusses how to simplify sheet management for apps that require multiple sheets across different screens by centralizing their logic.
 - [Custom hover effects in SwiftUI](https://swiftwithmajid.com/2024/09/03/custom-hover-effects-in-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Uses SwiftUI hover-effect APIs to customize pointer or visionOS focus feedback instead of layering gesture hacks. Effects should communicate targeting without stealing interaction, and platform availability must be isolated in the view design.
+- [Storing two types in the same variable using Either](https://www.swiftwithvincent.com/blog/storing-two-types-in-the-same-variable-using-either?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Vincent shows you how to handle heterogeneous data by using the Either enum allowing a variable to store values of two different types.
+- [Speculative Spatial Canvas Updates](https://imaginaryinstitute.gumroad.com/l/speculative-spatial-design-canvas?ref=createwithswift.com) — Article · Topics: Swift · Testing
+  **NeKI brief:** This pivotal update introduces groundbreaking advancements to the Spatial Enablers Framework and the Spatial Computing Education Matrix, empowering you to unlock new immersive learning and design dimensions.
+- [an article](https://blog.viditb.com/action-centered-design?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** an article. This link is retained as a technical reading lead for Apple-platform development.
 - [Animating SF Symbols on iOS 18](https://www.donnywals.com/animating-sf-symbols-on-ios-18?ref=createwithswift.com) — Article · Topics: Swift
   **NeKI brief:** Uses iOS 18 SF Symbol animation APIs to express state changes through semantic symbol effects. Useful for lightweight feedback that remains aligned with the symbol's meaning and accessibility labels.
 
@@ -803,6 +905,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** SwiftData stores Codable structs and enums through generated persistence representations, which affects predicates, migrations, and queryability. The examples expose where convenient model types become opaque storage and when a normalized property is safer.
 - [Tracking geometry changes in SwiftUI](https://swiftwithmajid.com/2024/08/13/tracking-geometry-changes-in-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Uses SwiftUI's geometry-change APIs to observe layout movement without a UIKit bridge. The focused callback is preferable to constantly rebuilding on preference changes, but geometry remains tied to the view's coordinate-space and layout timing.
+- [GitHub repository](https://github.com/knotbin/memento?ref=createwithswift.com) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** It is important to highlight that the project is open source and you can follow its development on its GitHub repository.
 
 ## [Issue 24](https://www.createwithswift.com/weekly-newsletter-issue-24)
 
@@ -815,8 +919,16 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Routes readers to RealityView rendering across Apple platforms and Translation framework sessions in SwiftUI, with complementary DocC, mesh-gradient, and image-tiling reading. Use it to separate spatial content setup, language availability, documentation, and visual composition into focused follow-up topics.
 
 **Selected links:**
+- [Kavsoft](https://www.youtube.com/@Kavsoft?ref=createwithswift.com) — Video · Topics: Swift · SwiftUI
+  **NeKI brief:** Kavsoft presents a clean and intuitive onboarding implementation that utilizes the same style as native iOS apps, making it both familiar and effective for users.
+- [Exploring SwiftUI: Animating MeshGradient on Text in iOS 18](https://www.rudrank.com/exploring-swiftui-animating-meshgradient-text-ios-18?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Rudrank experimented with the new MeshGradient released in iOS18. In this article he shows how to animate and mask it on a text.
 - [How to Tile Images in SwiftUI](https://fatbobman.com/en/posts/how-to-tile-images-in-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Builds a tiled image effect by controlling repeat geometry and clipping in SwiftUI. Useful for backgrounds and texture-like surfaces where repeatedly scaling one bitmap would lose the intended visual rhythm.
+- [Checker](https://blog.viditb.com/action-centered-design?ref=createwithswift.com) — Article · Topics: Product Design · Swift
+  **NeKI brief:** an article. This link is retained as a technical reading lead for Apple-platform development.
+- [the interest form](https://airtable.com/appdaAgCSYdwA8wch/shruZ80n2BqwLHbO1?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Let us know if you are interested in participating by filling out the interest form!
 
 ## [Issue 23](https://www.createwithswift.com/weekly-newsletter-issue-23)
 
@@ -830,9 +942,13 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Using @DebugDescription in Xcode 16](https://digitalbunker.dev/debug-description-macro-xcode-16?ref=createwithswift.com) — Article · Topics: Developer Tools · Macros & Metaprogramming · Xcode
-  **NeKI brief:** Presents using @debugdescription in xcode 16 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Aryaman shows you how to create clear and informative debug output for your custom types using both the CustomDebugStringConvertible protocol and @DebugDescription macro.
+- [Kavsoft](https://www.youtube.com/@Kavsoft?ref=createwithswift.com) — Video · Topics: Swift · SwiftUI
+  **NeKI brief:** Kavsoft presents a clean and intuitive onboarding implementation that utilizes the same style as native iOS apps, making it both familiar and effective for users.
+- [Create with Swift - Napoli Meetup](https://airtable.com/appdaAgCSYdwA8wch/shruZ80n2BqwLHbO1?ref=createwithswift.com) — Article · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Let us know if you are interested in participating by filling out the interest form!
 - [Async await in Swift: The Full Toolkit](https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
-  **NeKI brief:** Presents the full async/await toolkit for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Jacob explains various concurrency tools available in Swift including both theoretical explanations and practical examples to demonstrate how and when to use them.
 - [Customizing the appearance of symbol images in SwiftUI](https://nilcoalescing.com/blog/CustomizingTheAppearanceOfSymbolImagesInSwiftUI?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Demonstrates SwiftUI symbol rendering modes, palettes, and hierarchical styles. Useful for making SF Symbols communicate emphasis and state without exporting separate tinted assets.
 
@@ -848,11 +964,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Blend Modes in SwiftUI](https://digitalbunker.dev/blend-modes-in-swiftui?ref=createwithswift.com) — Article · Topics: Developer Tools · Swift · SwiftUI
-  **NeKI brief:** Presents a concrete implementation of Blend Modes in SwiftUI. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
+  **NeKI brief:** Aryaman explores the different blend modes available in SwiftUI, showing visual examples, explaining their purposes, and demonstrating how to implement them in SwiftUI.
 - [List or LazyVStack: Choosing the Right Lazy Container in SwiftUI](https://fatbobman.com/en/posts/list-or-lazyvstack?ref=createwithswift.com) — Article · Topics: Performance · Swift · SwiftUI
   **NeKI brief:** List and LazyVStack both defer row creation, but differ in recycling, platform behavior, system affordances, and measurement costs. The comparison gives a practical choice matrix instead of assuming one lazy container is universally faster.
-- [A Summary Of How To Pass Data To SwiftUI Environment](https://serialcoder.dev/text-tutorials/swiftui/a-summary-of-how-to-pass-data-to-swiftui-environment?ref=createwithswift.com) — Tutorial · Topics: Objective-C & Cocoa · Swift · SwiftUI
-  **NeKI brief:** Summarizes passing dependencies through SwiftUI environment values and custom keys. Useful for comparing environment injection with explicit data flow in reusable views.
 - [Mastering ScrollView in SwiftUI. Scroll Visibility](https://swiftwithmajid.com/2024/07/16/mastering-scrollview-in-swiftui-scroll-visibility?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Uses onScrollTargetVisibilityChange and onScrollVisibilityChange to react to visible identifiers or individual view visibility. These APIs support lazy loading and playback policies, but visibility thresholds and scroll target configuration determine what counts as visible.
 - [Why macOS Development is Perfect for Indie DevelopersLearn from the experiences of a successful macOS app developer and gain the confidence to dive into creating your own Mac applications.SwiftLeeAntoine van der Lee](https://www.avanderlee.com/swiftui/macos-development-powerful-utilities?ref=createwithswift.com) — Article · Topics: macOS & AppKit · Swift · SwiftUI
@@ -875,6 +989,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Uses scroll-phase callbacks to distinguish tracking, deceleration, and idle states in SwiftUI. That state machine supports responsive effects or deferred work, but expensive reactions should be gated so every phase update stays cheap.
 - [Check if your app has a newer version on the App Store using Swift](https://www.polpiella.dev/newer-version-lookup?ref=createwithswift.com) — Article · Topics: App Distribution & Store Operations · Swift
   **NeKI brief:** Checking the App Store for a newer version compares the store's semantic version against the installed bundle version, then turns that result into an optional user prompt. The workflow must tolerate network failure and avoid interrupting normal launches.
+- [available on GitHub](https://github.com/joogps/Glur?ref=createwithswift.com) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** In the app description, the developer Johnny explains that a glur is a type of visual effect that adds a Gaussian blur and that's exactly what the glur app does. It applies a progressive blur to images, and you can adjust parameters such as radius, offset…
 
 ## [Issue 20](https://www.createwithswift.com/template-weekly-newsletter-issue-20)
 
@@ -889,6 +1005,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Mastering the Swift Testing Framework](https://fatbobman.com/en/posts/mastering-the-swift-testing-framework?ref=createwithswift.com) — Article · Topics: Apple Platform Ecosystem · Swift · Testing
   **NeKI brief:** Swift Testing replaces XCTest's class-and-method conventions with traits, parameterized cases, and expression-based expectations. The walkthrough is valuable for mapping setup, discovery, and failure reporting onto a modern Swift-native test suite.
+- [Kavsoft](https://www.youtube.com/@Kavsoft?ref=createwithswift.com) — Video · Topics: Swift · SwiftUI
+  **NeKI brief:** Kavsoft presents a clean and intuitive onboarding implementation that utilizes the same style as native iOS apps, making it both familiar and effective for users.
 
 ## [Issue 19](https://www.createwithswift.com/template-weekly-newsletter-issue-19)
 
@@ -923,6 +1041,10 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** TextRenderer exposes per-run layout and drawing so SwiftUI text can animate custom effects without replacing the text engine. The techniques help separate typographic measurement from visual decoration when diagnosing clipping or baseline drift.
 - [Free, on-device translations with the Swift Translation API](https://www.polpiella.dev/swift-translation-api?ref=createwithswift.com) — Article · Topics: Apple Platform Ecosystem · Swift
   **NeKI brief:** Uses Apple's translation APIs from Swift to request and present translated content. Useful for designing language workflows that handle availability, user consent, and asynchronous translation results explicitly.
+- [WWDC Notes](https://wwdcnotes.github.io/WWDCNotes/documentation/wwdcnotes/wwdc24?ref=createwithswift.com) — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **NeKI brief:** We are still looking into this year's WWDC which was jam-packed with exciting announcements and innovative new features and frameworks.
+- [contributing](https://wwdcnotes.github.io/WWDCNotes/documentation/wwdcnotes/contributing?ref=createwithswift.com) — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **NeKI brief:** We are still looking into this year's WWDC which was jam-packed with exciting announcements and innovative new features and frameworks.
 - [Use cases for self, Self and Self.self in Swift](https://nilcoalescing.com/blog/UseCasesForSelfInSwift?ref=createwithswift.com) — Article · Topics: Swift
   **NeKI brief:** Self, self, and Self.self refer to different type, instance, and metatype contexts in Swift. The examples are useful for diagnosing generic factory code and avoiding accidental dynamic dispatch or instance capture.
 
@@ -963,6 +1085,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Swift Package Manager framework creation in Xcode](https://www.avanderlee.com/swift/creating-swift-package-manager-framework?ref=createwithswift.com) — Article · Topics: Swift · Swift Package Manager · Xcode
   **NeKI brief:** Creates a Swift package in Xcode and covers Package.swift configuration, platform requirements, dependencies, and local development-package workflows.
+- [Kavsoft](https://www.youtube.com/@Kavsoft?ref=createwithswift.com) — Video · Topics: Swift
+  **NeKI brief:** Kavsoft presents a clean and intuitive onboarding implementation that utilizes the same style as native iOS apps, making it both familiar and effective for users.
+- [Bad practice: not using a ButtonStyle](https://www.swiftwithvincent.com/blog/bad-practice-not-using-a-buttonstyle?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Vincent explains the importance of using ButtonStyle to customize button appearances for code reusability and readability.
 
 ## [Issue 15](https://www.createwithswift.com/template-weekly-newsletter-issue-15)
 
@@ -979,6 +1105,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Defines custom SwiftUI environment keys and values for shared dependencies or configuration. Useful when a value should flow through a view tree while remaining overridable in previews and tests.
 - [Jogo](https://www.avanderlee.com/swift/chatgpt-code-generation-prompts?ref=createwithswift.com) — Article · Topics: AI Development · Swift
   **NeKI brief:** Presents five prompt patterns for generating Swift code, then stresses supplying context, constraints, and tests so output can be reviewed. Useful as a practical checklist for making AI-assisted coding reproducible rather than speculative.
+- [Speculative Spatial Canvas Updates](https://imaginaryinstitute.gumroad.com/l/speculative-spatial-design-canvas?ref=createwithswift.com) — Article · Topics: Graphics, Media & Games · Spatial Computing · Swift
+  **NeKI brief:** This pivotal update introduces groundbreaking advancements to the Spatial Enablers Framework and the Spatial Computing Education Matrix, empowering you to unlock new immersive learning and design dimensions.
 - [Scenes types in a SwiftUI Mac app](https://nilcoalescing.com/blog/ScenesTypesInASwiftUIMacApp?ref=createwithswift.com) — Article · Topics: macOS & AppKit · Swift · SwiftUI
   **NeKI brief:** Compares SwiftUI scene types for macOS applications, including windows, menus, and settings. Useful for choosing lifecycle and presentation boundaries before adding imperative AppKit plumbing.
 - [Removing components from a Date in Swift](https://www.polpiella.dev/removing-information-from-a-date-in-swift?ref=createwithswift.com) — Article · Topics: Swift
@@ -1031,12 +1159,18 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Routes developers to Apple's Pathways resource collection and Figma templates, useful for finding structured learning material and design assets without treating either as a substitute for implementation guidance.
 
 **Selected links:**
+- [Speculative Spatial Canvas](https://imaginaryinstitute.gumroad.com/l/speculative-spatial-design-canvas?ref=createwithswift.com) — Tutorial · Topics: Product Design · Spatial Computing · Swift
+  **NeKI brief:** This pivotal update introduces groundbreaking advancements to the Spatial Enablers Framework and the Spatial Computing Education Matrix, empowering you to unlock new immersive learning and design dimensions.
 - [Creating Settings Screen in SwiftUI With AppStorage](https://holyswift.app/using-userdefaults-to-persist-in-swiftui?ref=createwithswift.com) — Article · Topics: Persistence & Synchronisation · Swift · SwiftUI
-  **NeKI brief:** Shows persisting SwiftUI settings with AppStorage and UserDefaults. Useful for small preferences whose lifetime should survive launches without introducing a database model.
+  **NeKI brief:** Leonardo discusses how to use the AppStorage property wrapper in SwiftUI to create a persistent user settings screen and include best practices for managing data efficiently.
 - [How to localize plurals with Localizable.stringsdict files in iOS](https://tanaschita.com/ios-plurals-localization-strictdict?ref=createwithswift.com) — Article · Topics: Localization · Swift
   **NeKI brief:** Localizable.stringsdict handles plural variants through locale-aware rules. Follow it when maintaining older localization resources, avoiding concatenated fragments that fail in languages with different grammatical categories.
+- [Using your Personal Voice (along with system and novelty voices) in an iOS app](https://bendodson.com/weblog/2024/04/03/using-your-personal-voice-in-an-ios-app?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Ben provides a comprehensive guide on how to use the AVSpeechSynthesizer to implement various voice options, including system, novelty, and the user's personal voice.
 - [Inspectors in SwiftUI](https://swiftwithmajid.com/2024/04/30/inspectors-in-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Introduces SwiftUI inspectors as adaptive panels for editing or inspecting selected content on supported platforms. The pattern keeps secondary controls contextual, while size, presentation, and platform availability require graceful fallbacks.
+- [design templates for Figma](https://www.figma.com/@apple?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** design templates for Figma. This link is retained as a technical reading lead for Apple-platform development.
 
 ## [Issue 11](https://www.createwithswift.com/weekly-newsletter-issue-11)
 
@@ -1055,8 +1189,10 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** SwiftUI's Binding initializer can project an optional model value into a non-optional control only while the source exists. The pattern keeps editing code simple, but the view must define what happens when the optional becomes nil.
 - [Xcode Bookmarks](https://useyourloaf.com/blog/xcode-bookmarks?ref=createwithswift.com) — Article · Topics: Swift · Xcode
   **NeKI brief:** Explains Xcode 15 bookmarks for retaining source annotations and saved search queries as navigable project references.
+- [fully developed using the Swift](https://www.theverge.com/2024/4/30/24144183/arc-browser-windows-launch-features-availability?ref=createwithswift.com) — Article · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **NeKI brief:** On another interesting turn of events, the browser Arc, fully developed using the Swift language, released its Windows version this week. What makes it interesting is that the tools they used are fully open-source and available on GitHub. Why not take a look…
 - [fully open-source and available on GitHub](https://github.com/thebrowsercompany/swift-winrt?ref=createwithswift.com) — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
-  **NeKI brief:** swift-winrt generates Swift projections over Windows Runtime and its COM-based ABI. Use it to study cross-platform bindings, generated interop, and the boundary between Swift ergonomics and platform-specific runtime contracts.
+  **NeKI brief:** On another interesting turn of events, the browser Arc, fully developed using the Swift language, released its Windows version this week. What makes it interesting is that the tools they used are fully open-source and available on GitHub. Why not take a look…
 
 ## [Issue 10](https://www.createwithswift.com/weekly-newsletter-issue-10)
 
@@ -1069,6 +1205,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Uses Apple's Let Loose event announcement as a product-platform watchpoint, helping developers separate hardware-event expectations from confirmed SDK changes, release notes, and later documentation.
 
 **Selected links:**
+- [Speculative Spatial Canvas](https://imaginaryinstitute.gumroad.com/l/speculative-spatial-design-canvas?ref=createwithswift.com) — Article · Topics: Spatial Computing · Swift
+  **NeKI brief:** This pivotal update introduces groundbreaking advancements to the Spatial Enablers Framework and the Spatial Computing Education Matrix, empowering you to unlock new immersive learning and design dimensions.
 - [Content margins in SwiftUI](https://swiftwithmajid.com/2024/04/23/content-margins-in-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Explains SwiftUI content margins as a separate layout tool from the safe area, showing where margin modifiers place content and how that distinction affects edge-to-edge screens.
 
@@ -1087,6 +1225,10 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Builds a bar chart with Swift Charts by mapping model values to BarMark and configuring axes, labels, and styling. Useful as a concrete starting point for data-driven chart views.
 - [Get started with StoreKit 2 for iOS](https://tanaschita.com/20231002-storekit-2-overview?ref=createwithswift.com) — Article · Topics: App Distribution & Store Operations · Swift
   **NeKI brief:** StoreKit 2 product loading and purchases are introduced through async APIs and verified transactions. Follow it to separate entitlement state from paywall UI and to keep verification on the trusted path.
+- [Workshop: Creating Apps for visionOS](https://www.eventbrite.it/e/creating-apps-for-visionos-tickets-859327330177?aff=oddtdtcreator&ref=createwithswift.com) — Tutorial · Topics: Spatial Computing · Swift
+  **NeKI brief:** The one-day workshop will happen in Naples, Italy on the 25th of May and will only have 10 spots available.
+- [look at the event page with the detailed program of the workshop](https://www.eventbrite.it/e/creating-apps-for-visionos-tickets-859327330177?ref=createwithswift.com) — Tutorial · Topics: Spatial Computing · Swift
+  **NeKI brief:** If you want to know more about this opportunity, have a look at the event page with the detailed program of the workshop and answers to the most common questions.
 
 ## [Issue 8](https://www.createwithswift.com/weekly-newsletter-issue-8)
 
@@ -1103,6 +1245,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Connects local-notification payloads to SwiftUI navigation so a tap can open a specific feature or screen. The workflow separates notification delivery from route interpretation, which keeps deep links testable and avoids hard-coded presentation in handlers.
 - [Getting Started With Observation Framework in SwiftUI](https://www.avanderlee.com/swiftui/identifiable-protocol-object-identifier?ref=createwithswift.com) — Tutorial · Topics: Observation & State Management · Swift · SwiftUI
   **NeKI brief:** Compares stable model identifiers with ObjectIdentifier-based identity in SwiftUI. Useful for understanding how ForEach diffing behaves and why identity must remain stable when rows are updated or reordered.
+- [SwiftHeroes](https://swiftheroes.com/2024?ref=createwithswift.com) — Article · Topics: Apple Platform Ecosystem · Swift
+  **NeKI brief:** Next week Flora Damiano will present “Crafting Better App Icons” at SwiftHeroes in Turin, Italy. She will share her process and insights on creating app icons for various Apple platforms.
 
 ## [Issue 7](https://www.createwithswift.com/weekly-newsletter-issue-7)
 
@@ -1139,6 +1283,10 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Builds a searchable map component with MapKit and SwiftUI's iOS 17 APIs, connecting query results to map annotations. Useful for prototyping location search while evaluating state flow, selection, and map camera updates.
 - [Apple Developer](https://www.youtube.com/@AppleDeveloper/playlists?ref=createwithswift.com) — Video · Topics: AI Development · Swift
   **NeKI brief:** Records Apple DeveloperHello and welcome to the official Apple Developer YouTube channel.YouTube as a visual walkthrough relevant to Apple Platform Ecosystem and Graphics, Media & Games. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
+- [Workshop: Creating Apps for visionOS](https://www.eventbrite.it/e/creating-apps-for-visionos-tickets-859327330177?aff=oddtdtcreator&ref=createwithswift.com) — Tutorial · Topics: Spatial Computing · Swift
+  **NeKI brief:** The one-day workshop will happen in Naples, Italy on the 25th of May and will only have 10 spots available.
+- [look at the event page with the detailed program of the workshop](https://www.eventbrite.it/e/creating-apps-for-visionos-tickets-859327330177?ref=createwithswift.com) — Tutorial · Topics: Spatial Computing · Swift
+  **NeKI brief:** If you want to know more about this opportunity, have a look at the event page with the detailed program of the workshop and answers to the most common questions.
 
 ## [Issue 5](https://www.createwithswift.com/weekly-newsletter-issue-5)
 
@@ -1155,6 +1303,10 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Walks through optional binding, map/flatMap, nil coalescing, and optional chaining with contrasting examples. Useful for choosing explicit failure handling instead of piling force unwraps into production code.
 - [Global actors in Swift](https://swiftwithmajid.com/2024/03/12/global-actors-in-swift?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
   **NeKI brief:** Explains global actors as a way to serialize access across multiple types, extending actor isolation beyond one instance. This is appropriate for shared domains such as UI state, but overuse can turn unrelated work into a needless serialization bottleneck.
+- [Workshop: Creating Apps for visionOS](https://www.eventbrite.it/e/creating-apps-for-visionos-tickets-859327330177?aff=oddtdtcreator&ref=createwithswift.com) — Tutorial · Topics: Spatial Computing · Swift
+  **NeKI brief:** The one-day workshop will happen in Naples, Italy on the 25th of May and will only have 10 spots available.
+- [look at the event page with the detailed program of the workshop](https://www.eventbrite.it/e/creating-apps-for-visionos-tickets-859327330177?ref=createwithswift.com) — Tutorial · Topics: Spatial Computing · Swift
+  **NeKI brief:** If you want to know more about this opportunity, have a look at the event page with the detailed program of the workshop and answers to the most common questions.
 
 ## [Issue 4 · 2024-03-15](https://www.createwithswift.com/weekly-newsletter-issue-4)
 
@@ -1167,6 +1319,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Collects early Vision Pro review perspectives after one month of real-world use, useful for product teams evaluating spatial-computing assumptions, comfort, and practical adoption rather than API mechanics.
 
 **Selected links:**
+- [providing support for tracking expenses on Apple payment services](https://techcrunch.com/2024/03/06/apple-releases-a-new-api-to-fetch-transactions-from-apple-card-and-apple-cash?guccounter=2&ref=createwithswift.com) — Article · Topics: App Distribution & Store Operations · Swift
+  **NeKI brief:** Also, did you notice that Apple has been releasing updates in many of their services, APIs and technologies this month? From providing support for tracking expenses on Apple payment services with FinanceKit to updates to App Store Connect and also news about…
+- [updates to App Store Connect](https://9to5mac.com/2024/03/05/apple-rolls-out-new-analytics-data-for-developers-through-app-store-connect?ref=createwithswift.com) — Article · Topics: App Distribution & Store Operations · Swift
+  **NeKI brief:** Also, did you notice that Apple has been releasing updates in many of their services, APIs and technologies this month? From providing support for tracking expenses on Apple payment services with FinanceKit to updates to App Store Connect and also news about…
+- [news about the next generation of CarPlay](https://www.macrumors.com/2024/03/13/apple-next-generation-carplay-recap?ref=createwithswift.com) — Article · Topics: App Distribution & Store Operations · Swift
+  **NeKI brief:** Also, did you notice that Apple has been releasing updates in many of their services, APIs and technologies this month? From providing support for tracking expenses on Apple payment services with FinanceKit to updates to App Store Connect and also news about…
 - [Everything you need to know about Swift 5.10](https://www.donnywals.com/everything-you-need-to-know-about-swift-5-10?ref=createwithswift.com) — Article · Topics: Concurrency · Swift
   **NeKI brief:** Surveys Swift 5.10 language and concurrency changes with practical migration context. Useful as a release overview when maintaining projects across compiler and SDK transitions.
 
@@ -1183,6 +1341,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [released Swift 5.10](https://www.swift.org/blog/swift-5.10-released?ref=createwithswift.com) — Article · Topics: Swift · Testing · Xcode
   **NeKI brief:** Summarises What's new in Swift 5.10 for Swift. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
+- [Tundsdev channel on YouTube](https://www.youtube.com/@tundsdev/videos?ref=createwithswift.com) — Video · Topics: Graphics, Media & Games · Swift · SwiftData
+  **NeKI brief:** Lately, anytime someone asks us about how to start learning Swift Data the first thing that comes to mind is tundsdev YouTube channel.
 
 ## [Issue 2](https://www.createwithswift.com/weekly-newsletter-issue-2)
 
@@ -1200,7 +1360,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Extensions in Swift: How and when to use them](https://www.avanderlee.com/swift/extensions?ref=createwithswift.com) — Article · Topics: Swift
   **NeKI brief:** Shows extensions for grouping protocol conformances and related behavior while warning against hiding core state or creating oversized catch-all files. Useful for deciding when an extension improves cohesion versus scattering implementation.
 - [post](https://forums.swift.org/t/swift-6-0-release-process/70220?ref=createwithswift.com) — Article · Topics: Swift
-  **NeKI brief:** The Swift 6 release-process discussion records how toolchains, proposals, and release milestones are coordinated. Use it to understand version timing and migration planning rather than treating a release label as a complete compatibility guarantee.
+  **NeKI brief:** post. This link is retained as a technical reading lead for Apple-platform development.
+- [Mastering Model3D View](https://imaginaryinstitute.gumroad.com/l/speculative-spatial-design-canvas?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** This pivotal update introduces groundbreaking advancements to the Spatial Enablers Framework and the Spatial Computing Education Matrix, empowering you to unlock new immersive learning and design dimensions.
 
 ## [Issue 1](https://www.createwithswift.com/create-with-swift-newsletter-issue-1)
 
@@ -1215,3 +1377,5 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Introducing SwiftUI on visionOS](https://swiftwithmajid.com/2024/01/23/introducing-swiftui-on-visionOS?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Maps SwiftUI scene and layout concepts onto visionOS, where windows and spatial presentation differ from iPhone screens. Start with platform scenes and ornaments, keeping content adaptive instead of assuming a single rectangular viewport.
+- [Show interest](https://airtable.com/appdaAgCSYdwA8wch/pagdvF6N67x9wYCHu/form?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Show interest. This link is retained as a technical reading lead for Apple-platform development.

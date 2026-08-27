@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.avanderlee.com/](https://www.avanderlee.com/)
-- Last collected: `2026-08-05T08:05:51Z`
+- Last collected: `2026-08-27T19:22:09Z`
 - Indexed entries: **366**
 
 - [How to free up Xcode disk space safely with an AI Agent - SwiftLee](https://www.avanderlee.com/ai-development/how-to-free-up-xcode-disk-space-safely-with-an-ai-agent)
@@ -509,7 +509,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [App Preview Videos Capturing using the Xcode simulator - SwiftLee](https://www.avanderlee.com/workflow/capture-ios-simulator-video-app-preview)
   **Published:** `2024-02-04T12:26:16+00:00`
   **Topics:** Concurrency · Swift · Xcode
-  **NeKI brief:** Uses Simulator recording and command-line tooling to capture App Store preview footage, with steps for device framing and clean output. Useful for repeatable marketing captures without a physical-device camera rig.
+  **NeKI brief:** Examines Create App Preview videos using App Store Connect's required specifications without the need of conversions using tools like ffmpeg. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Status bar overrides in the iOS Simulator](https://www.avanderlee.com/workflow/status-bar-overrides-in-the-ios-simulator)
   **Published:** `2024-01-30T08:23:21+00:00`
   **Topics:** Concurrency · Swift

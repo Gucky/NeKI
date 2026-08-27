@@ -3,9 +3,37 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://sarunw.com/posts/](https://sarunw.com/posts/)
-- Last collected: `2026-07-22T21:58:56Z`
-- Indexed entries: **443**
+- Last collected: `2026-08-27T13:26:05Z`
+- Indexed entries: **450**
 
+- [Private properties no longer break the memberwise initializer in Swift 6.4 | Sarunw](https://sarunw.com/posts/exclude-private-properties-from-memberwise-initializer)
+  **Published:** `2026-08-27`
+  **Topics:** Macros & Metaprogramming · Swift
+  **NeKI brief:** Explains SE-0502’s Swift 6.4 change that excludes initialized private stored properties from a synthesized memberwise initializer. It also identifies extension initializer collisions and the macro/property-wrapper motivation, helping teams plan source-compatible migration.
+- [How to declare a memberwise initializer in a Swift extension | Sarunw](https://sarunw.com/posts/same-file-memberwise-initializer-extensions)
+  **Published:** `2026-08-25`
+  **Topics:** Macros & Metaprogramming · Swift
+  **NeKI brief:** Walks through SE-0546’s same-file-extension rule for declaring a struct’s memberwise initializer, including which signature replaces the synthesized initializer. Useful for keeping custom construction separate while retaining synthesized ergonomics, but validate availability against the selected Swift language mode.
+- [How to fix "The frame rate of your app video preview is too high" error | Sarunw](https://sarunw.com/posts/how-to-fix-the-frame-rate-of-your-app-video-preview-is-too-high)
+  **Published:** `2026-08-24`
+  **Topics:** App Distribution & Store Operations
+  **NeKI brief:** Explains why 60 fps or variable-frame-rate screen recordings can be rejected and supplies an ffmpeg conversion to a constant 30 fps stream. Useful with the companion checks for exact dimensions, audio presence, duration, and supported encoding.
+- [How to fix app preview wrong resolution error in App Store Connect | Sarunw](https://sarunw.com/posts/how-to-fix-app-preview-wrong-resolution)
+  **Published:** `2026-08-24`
+  **Topics:** App Distribution & Store Operations
+  **NeKI brief:** Lists the required per-slot preview pixel sizes and explains why raw device recordings fail. Gives an ffmpeg scaling and padding workflow so conversion targets the selected App Store Connect slot instead of merely matching an aspect ratio.
+- [How to fix app preview video that is too long or too short | Sarunw](https://sarunw.com/posts/how-to-fix-app-preview-too-long-or-too-short)
+  **Published:** `2026-08-24`
+  **Topics:** App Distribution & Store Operations
+  **NeKI brief:** Shows how to calculate and trim previews to the 15–30-second App Store Connect window with QuickTime or ffmpeg, preserving an otherwise valid export. Treat duration as an independent validation constraint, not a substitute for format or device checks.
+- [How to fix app preview stuck on "Processing" in App Store Connect | Sarunw](https://sarunw.com/posts/how-to-fix-app-preview-stuck-processing-app-store-connect)
+  **Published:** `2026-08-24`
+  **Topics:** App Distribution & Store Operations
+  **NeKI brief:** Provides a diagnostic order for previews that upload but remain Processing: exact device dimensions, constant 30 fps or lower, audio, 15–30 second duration, accepted codec/container, then browser or Apple-side causes. Includes ffprobe inspection.
+- [How to fix "Your app preview contains unsupported or corrupted audio" error | Sarunw](https://sarunw.com/posts/how-to-fix-app-preview-contains-unsupported-or-corrupted-audio)
+  **Published:** `2026-08-24`
+  **Topics:** App Distribution & Store Operations
+  **NeKI brief:** Explains that Simulator recordings often have no audio stream although App Store Connect requires one. Provides ffmpeg steps to add a silent audio track, separating this validation failure from codec, duration, resolution, and upload problems.
 - [Animating number changes in SwiftUI | Sarunw](https://sarunw.com/posts/animating-number-changes-in-swiftui)
   **Published:** `2023-11-15`
   **Topics:** Swift · SwiftUI

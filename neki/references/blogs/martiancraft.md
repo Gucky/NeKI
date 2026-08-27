@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://martiancraft.com/blog/](https://martiancraft.com/blog/)
-- Last collected: `2026-07-22T21:49:38Z`
+- Last collected: `2026-08-27T19:22:09Z`
 - Indexed entries: **117**
 
 - [Vibe Coding vs. Engineering](https://martiancraft.com/blog/2026/07/vibe-coding-vs-engineering)
@@ -224,13 +224,13 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** The article examines how API key proliferation increases configuration, rotation, and security failure modes. It is useful when auditing mobile integrations for centralized secrets handling and least-privilege service boundaries.
 - [Designing Better Notifications](https://martiancraft.com/blog/2018/04/designing-better-notifications)
   **Topics:** App Services & Extensions · Product Design
-  **NeKI brief:** Notification design is treated as a constrained interaction surface: communicate context quickly, offer meaningful actions, and avoid turning alerts into noise. The guidance helps audit payload content and user interruption cost.
+  **NeKI brief:** I think it’d be great of iOS were to learn more about when, and what kind of notifications that we value but in the absence of that there’s also things we can do as app developers.
 - [Notification Handling on WatchKit](https://martiancraft.com/blog/2018/02/notification-handling-on-watchkit)
   **Topics:** App Services & Extensions · Apple Platform Ecosystem · UIKit
   **NeKI brief:** WatchKit notifications are treated as a primary interaction surface, with actionable content and concise context rather than miniature app screens. The demo-oriented guidance helps validate payload handling across local and push notification paths.
 - [Handling Storyboard Merge Conflicts](https://martiancraft.com/blog/2018/02/handling-storyboard-merge-conflicts)
   **Topics:** Developer Tools · UIKit
-  **NeKI brief:** Storyboard XML conflicts are resolved by understanding scene and constraint identifiers, then checking the rendered graph rather than blindly accepting textual hunks. The workflow reduces broken navigation and Auto Layout relationships after parallel UI edits.
+  **NeKI brief:** Explains Handling Storyboard Merge Conflicts, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [Seven Deadly Signs That Your Software Project is in Hell](https://martiancraft.com/blog/2017/12/deadly-signs)
   **Topics:** Architecture
   **NeKI brief:** Seven project failure signals connect unclear ownership, changing scope, and weak feedback loops to predictable delivery problems. The checklist helps technical leads diagnose process causes before adding more engineers or tooling.
@@ -248,13 +248,13 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** HEIF combines more efficient image compression with containers that can preserve richer image data than older formats. Apple platform support changes an app's import/export decisions: account for compatibility fallbacks before treating the new default as universally shareable.
 - [Using SpriteKit to create custom watchOS loading animations](https://martiancraft.com/blog/2017/09/spritekit-tutorial)
   **Topics:** Graphics, Media & Games
-  **NeKI brief:** Embed an SKScene in a watchOS interface controller to create a loading animation when standard watch controls lack the required motion. Separating scene construction from controller hookup keeps rendering behavior contained and makes the animation reusable.
+  **NeKI brief:** In the first two versions of watchOS, animations were limited to cycling through images like a flip book. Then, watchOS 3 added SpriteKit and SceneKit support allowing more complex, dynamic animations. Cory Bohon demonstrates how SpriteKit and the scene…
 - [Xcode 9's Manual Provisioning Changes](https://martiancraft.com/blog/2017/07/manual-provisioning)
   **Topics:** Performance · Swift · Xcode
   **NeKI brief:** Xcode 9 manual signing requires an explicit team, profile, and certificate selection, yet Xcode may still request missing certificates. Treat manual provisioning as a controlled configuration workflow and verify portal assets whenever signing behavior looks automatic.
 - [Demystifying iOS Provisioning Part 2: Creating and assigning certificates and profiles](https://martiancraft.com/blog/2017/07/demystifying-provisioning-part2)
   **Topics:** Performance · Xcode
-  **NeKI brief:** Create App IDs, development or distribution certificates, registered devices, and profiles in dependency order, then assign the result to Xcode schemes. Diagnosing signing failures becomes tractable once each generated credential is tied to its intended build path.
+  **NeKI brief:** In part two of his two-part series, Cory Bohon covers in detail the process of creating and assigning certificates and signing an app. If you’re new to iOS development or want a recap of the basics, also check out part one! 😃
 - [Asset Catalog Changes in Xcode 9](https://martiancraft.com/blog/2017/06/xcode9-assets)
   **Topics:** Swift · Xcode
   **NeKI brief:** Use Xcode 9 asset-catalog options to retain vector source data and define named colors alongside images. Those metadata choices move resolution and appearance decisions into the catalog, reducing scattered runtime image and color handling.
@@ -269,16 +269,16 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Run short, cross-functional exploration sessions with a fixed timebox, shared clarifications, and a deliberately unusual constraint. Treat the prototype as a learning vehicle rather than shippable code, then capture reusable interaction and implementation lessons.
 - [Demystifying iOS Provisioning Part 1: Profiles, Certificates, and Xcode (oh my!)](https://martiancraft.com/blog/2017/05/demystifying-ios-provisioning-part1)
   **Topics:** Performance · Xcode
-  **NeKI brief:** Provisioning links an app identifier, certificate, and profile so Apple can authorize a specific signed build on its permitted targets. Understanding those separate credentials clarifies when Xcode-managed signing is helpful and when teams need explicit control.
+  **NeKI brief:** Examines In part two of his two-part series, Cory Bohon covers in detail the process of creating and assigning certificates and signing an app. If you’re new to iOS development or want a recap of the basics, also check out part o Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Going Without the Flow - Exploring Collection View Layouts](https://martiancraft.com/blog/2017/05/collection-view-layouts)
   **Topics:** Performance · Swift · Xcode
-  **NeKI brief:** A custom UICollectionViewLayout calculates attributes rather than forcing every design through flow layout. Decoration views, floating elements, and self-sizing cells each require deliberate invalidation and sizing rules to prevent layout code from becoming brittle.
+  **NeKI brief:** Examines Master the art of building complex UICollectionView layouts with expert insights and practical examples. Explore the intricacies of custom layouts, decoration views, and self-sizin. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Staying Competitive with App Updates](https://martiancraft.com/blog/2017/04/app-updates)
   **Topics:** App Distribution & Store Operations · Developer Career & Practice · Foundation & Data Formats
-  **NeKI brief:** Keep mobile apps current through regular, scoped releases that combine platform compatibility work, defect fixes, and dependency maintenance. Frequent updates constrain technical debt and make urgent fixes smaller, safer, and easier to validate than long-delayed catch-up projects.
+  **NeKI brief:** Examines how frequent app updates can sustain competitiveness. Follow it for concrete release, feedback, and iteration strategy, while treating business claims as contextual rather than technical guidance.
 - [Analyzing Third Party Libraries](https://martiancraft.com/blog/2017/04/analyzing-third-party-libraries)
   **Topics:** Dependency Injection
-  **NeKI brief:** Evaluate third-party libraries against a build-versus-adopt baseline: identify capability gained, maintenance and replacement cost, platform-update lag, bug ownership, and exit path. Accept a dependency only when its concrete benefit outweighs the technical debt and integration lock-in.
+  **NeKI brief:** The article analyzes the risks and benefits of third-party libraries and discusses security and maintenance concerns for applications.
 - [The Geometry of Stars](https://martiancraft.com/blog/2017/03/geometry-of-stars)
   **Topics:** Product Design
   **NeKI brief:** Construct a star path from circles, triangles, and pentagon geometry instead of raster artwork, keeping size and sharpness independent of image assets. The trigonometric model makes points and radii adjustable while preserving a consistent visual shape.
@@ -296,7 +296,7 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Build durable programming skill by matching data structures and algorithms to constraints, mastering debugger and IDE workflows, and learning adjacent disciplines. Treat language features as tools, then use tests and profiling to validate trade-offs rather than memorizing recipes.
 - [Why porting an iOS design to Android will not work](https://martiancraft.com/blog/2016/05/porting-ios-design-to-andoid)
   **Topics:** Product Design
-  **NeKI brief:** Port product intent across platforms, not an iOS screen hierarchy verbatim. Android navigation, controls, animation, and sharing conventions require native adaptation; copying familiar iOS patterns can make an otherwise functional app feel incorrect to Android users.
+  **NeKI brief:** Explains why directly porting an iOS design to Android can fail across platform conventions. Follow it for concrete cross-platform design trade-offs and platform-specific interaction reasoning.
 - [Migrating from iOS to Mac — Part I: App Anatomy](https://martiancraft.com/blog/2016/05/ios-to-mac-1)
   **Topics:** Swift
   **NeKI brief:** Moving an iOS app to macOS means learning AppKit, Mac project structure, input and window conventions, and sandboxing rather than merely recompiling Swift. The platform shift changes interface anatomy and lifecycle assumptions from the start.
@@ -305,7 +305,7 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Connect a Siri Remote to the tvOS Simulator to exercise focus and remote input while debugging without a tethered device. Simulator interaction should still be checked against hardware, but it shortens the feedback loop for navigation behavior.
 - [What is the Apple Watch good for?](https://martiancraft.com/blog/2016/04/apple-watch-good)
   **Topics:** App Intents & System Surfaces · Xcode
-  **NeKI brief:** Design wearable interactions around immediate notifications, compact current information, or one fast action. Surface the primary task on launch and defer navigation-heavy workflows to the phone, where screen space and latency make them less frustrating.
+  **NeKI brief:** Richard Turton takes his turn at defining what makes a good watch app. There’s been a few of these posts now and there’s definitely a consensus in the conclusions and yet still my watch remains virtually unused for anything other than the core functionality…
 - [The Force Quit Fallacy](https://martiancraft.com/blog/2016/02/force-quit-2)
   **Topics:** App Intents & System Surfaces · Xcode
   **NeKI brief:** iOS normally suspends backgrounded apps without executing code, so removing them from the switcher rarely improves battery life and makes relaunch costlier. Force-quit only to recover a misbehaving app; let the system reclaim suspended processes.
@@ -314,7 +314,7 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Swift can wrap Core Data's dynamic @NSManaged accessors with custom, expressive computed APIs while preserving Objective-C compatibility. Put validation and type conversion at that boundary, and automate repetitive accessor generation only after the model contract is clear.
 - [Arriving at San Francisco](https://martiancraft.com/blog/2015/10/san-francisco-part-2)
   **Topics:** Apple Platform Ecosystem
-  **NeKI brief:** San Francisco uses size-specific optical cuts, tracking, and numeric variants to preserve legibility. Prefer system typography so the platform selects appropriate metrics; when rendering dense data or animated values, choose tabular figures deliberately.
+  **NeKI brief:** Examines Discover the evolution of Apple. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Living the Live Photos Dream](https://martiancraft.com/blog/2015/09/live-photos)
   **Topics:** Apple Platform Ecosystem
   **NeKI brief:** Live Photos combine still imagery with short motion and audio, enabling effects adjacent to cinemagraphs. Product experiments must account for capture, editing, and playback constraints rather than assuming a static-image pipeline can represent the richer media.

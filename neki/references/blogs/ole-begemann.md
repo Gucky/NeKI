@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://oleb.net/blog/](https://oleb.net/blog/)
-- Last collected: `2026-07-22T21:58:56Z`
+- Last collected: `2026-08-27T19:22:09Z`
 - Indexed entries: **186**
 
 - [Use 'git mv' to record filename case changes in Git – Ole Begemann](https://oleb.net/2025/git-mv-case-change)
@@ -413,15 +413,15 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Putting the Physics Into Measurements and Units – Ole Begemann](https://oleb.net/blog/2016/07/unitproduct)
   **Published:** `2016-07-29T14:25:00Z`
   **Topics:** Dependency Injection · Swift
-  **NeKI brief:** Multiplying typed quantities needs a representation for compound units, otherwise arithmetic loses dimensional meaning. The article develops that type-level composition and its trade-off against Foundation's runtime conversion model.
+  **NeKI brief:** Examines A generic, declarative solution for expressing dependencies between physical quantities in Swift. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Measurements and Units in Foundation – Ole Begemann](https://oleb.net/blog/2016/07/measurements-and-units)
   **Published:** `2016-07-28T18:11:00Z`
   **Topics:** Foundation & Data Formats
-  **NeKI brief:** Foundation Measurement combines a numeric value with a Unit, enabling conversion at API boundaries instead of manual scale factors. The article explains when runtime unit flexibility outweighs a static type-level encoding.
+  **NeKI brief:** Examines An introduction to the new measurements and units family of types in Foundation in iOS 10 and macOS 10.12. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Swift 3 – Ole Begemann](https://oleb.net/blog/2016/06/swift-3)
   **Published:** `2016-06-27T16:28:00Z`
   **Topics:** Swift
-  **NeKI brief:** Swift 3's redesign emphasizes API naming and consistency across the standard library, making migration more than syntax replacement. The overview helps identify behavioral source changes that deserve focused regression tests.
+  **NeKI brief:** Over the last couple of years I’ve speculated several times on whether Apple would make a more Swift friendly replacement for UIKit. I think WWDC this year showed us the last piece of the puzzle that’s been creeping up on us for a while now. Why re-engineer…
 - [Ellen Shapiro: Outside In – Using UI Tests to Start Improving Your App – Ole Begemann](https://oleb.net/blog/2016/06/ellen-shapiro-ui-testing)
   **Published:** `2016-06-06T13:14:00Z`
   **Topics:** Testing
@@ -461,7 +461,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [How to Use updateConstraints – Ole Begemann](https://oleb.net/blog/2015/08/how-to-use-updateconstraints)
   **Published:** `2015-08-31T21:53:00Z`
   **Topics:** Apple Platform Ecosystem · Foundation & Data Formats · UIKit
-  **NeKI brief:** updateConstraints is the right hook for changing constraint definitions, while layout passes should not continually recreate them. The article maps Auto Layout work to lifecycle phases and prevents feedback-loop performance issues.
+  **NeKI brief:** Presents How to Use updateConstraints, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Swift Compiler Diagnostics – Ole Begemann](https://oleb.net/blog/2015/08/swift-compiler-diagnostics)
   **Published:** `2015-08-10T17:56:00Z`
   **Topics:** Swift · Xcode
@@ -513,7 +513,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [iPhone 6 Plus Pixel Peeping – Ole Begemann](https://oleb.net/blog/2014/11/iphone-6-plus-screen)
   **Published:** `2014-11-20T00:13:00Z`
   **Topics:** UIKit
-  **NeKI brief:** Pixel-density analysis distinguishes rendered points, native pixels, and display scaling so screenshots are interpreted correctly. The investigation is useful when visual bugs depend on device-specific rasterization.
+  **NeKI brief:** Presents iPhone 6 Plus Pixel Peeping, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
 - [Backblaze Review – Ole Begemann](https://oleb.net/blog/2014/10/backblaze)
   **Published:** `2014-10-15T15:45:00Z`
   **Topics:** Persistence & Synchronisation
@@ -569,7 +569,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Understanding UIScrollView – Ole Begemann](https://oleb.net/blog/2014/04/understanding-uiscrollview)
   **Published:** `2014-04-30T17:12:00Z`
   **Topics:** UIKit
-  **NeKI brief:** Reconstructs a minimal UIScrollView while explaining UIKit coordinate systems, bounds, frame, contentOffset, and contentSize, making the geometry and scrolling mechanics easier to reason about in nested layouts.
+  **NeKI brief:** The article explains UIScrollView behavior and offers practical guidance for understanding scrolling and layout in iOS interfaces.
 - [NSProgress – Ole Begemann](https://oleb.net/blog/2014/03/nsprogress)
   **Published:** `2014-03-12T22:55:00Z`
   **Topics:** Apple Platform Ecosystem · Product Design

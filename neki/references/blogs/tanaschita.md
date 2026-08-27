@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://tanaschita.com/](https://tanaschita.com/)
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed entries: **188**
+- Last collected: `2026-08-27T13:26:05Z`
+- Indexed entries: **189**
 
 - [Understanding Xcode targets, schemes and build configurations](https://tanaschita.com/xcode-targets-schemes)
   **Topics:** Xcode
@@ -186,6 +186,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [How to manage app lifecycle events in SwiftUI](https://tanaschita.com/swiftui-app-lifecycle-events)
   **Topics:** Swift · SwiftUI
   **NeKI brief:** Observes scenePhase changes to react to background and active transitions, making lifecycle work explicit while avoiding assumptions that a view callback represents the whole app.
+- [Presenting alerts and confirmation dialogs from identifiable data in SwiftUI](https://tanaschita.com/swiftui-alert-identifiable-data)
+  **Topics:** Swift · SwiftUI
+  **NeKI brief:** Shows iOS 27's `item:` overloads for `alert` and `confirmationDialog`, where one optional `Identifiable` value simultaneously controls presentation and supplies the selected model. This removes coupled Boolean/item state and clears the selection automatically on dismissal.
 - [How to store images in SwiftData](https://tanaschita.com/swiftdata-store-images)
   **Topics:** Persistence & Synchronisation · Swift · SwiftData
   **NeKI brief:** Uses SwiftData's externalStorage attribute for larger image payloads, trading inline persistence convenience for a more appropriate storage layout and fetch footprint.

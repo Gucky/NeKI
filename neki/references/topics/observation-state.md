@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Observation, bindings, view state, data flow, and state-management trade-offs.
 
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed links shown: **216**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **232**
 
 ## Direct-source reading
 
@@ -453,6 +453,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [withContinuousObservation in Swift](https://livsycode.com/swift/withcontinuousobservation-in-swift) — SwiftLee Weekly · Issue 338 — Article · Topics: Observation & State Management · Swift
+  **Published:** `2026-08-25T14:06:16.000Z`
+  **NeKI brief:** Explains iOS 27’s withContinuousObservation(options:apply:) for non-View consumers that must re-register dependencies after each change, contrasting it with one-shot withObservationTracking.
+- [SwiftTUI: Building Terminal Interfaces the SwiftUI Way](https://l.fatbobman.com/w0150-8) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-08-24T12:03:48.210Z`
+  **NeKI brief:** Provides a beta Swift framework that maps SwiftUI-style views, state, focus, gestures, layout, and animation onto terminal cells. It supports native macOS, Linux, and Windows binaries plus browser/WASI and native-host variants, with partial redraws and TTY-free frame testing.
 - [The Anatomy of a Reusable SwiftUI View](https://alexanderweiss.dev/blog/2026-07-12-the-anatomy-of-a-reusable-swiftui-view) — iOS Dev Weekly · Issue 759 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `17th July 2026`
   **NeKI brief:** Examines how SwiftUI view responsibilities, inputs, and composition boundaries affect reuse. Useful when extracting components that remain readable, previewable, and stable under changing state.
@@ -473,7 +479,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
 - [Why Your @Observable Class init Runs Multiple Times in SwiftUI?](https://livsycode.com/swiftui/why-your-observable-class-init-runs-multiple-times-in-swiftui) — Those Who Swift · Issue 255 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2026-02-25`
-  **NeKI brief:** Investigates why an @Observable class initializer can run repeatedly in SwiftUI. Follow it when diagnosing ownership and identity mistakes, checking observation lifetime, view reconstruction, and the distinction between initialization and persistent model state.
+  **NeKI brief:** Artem explains why a SwiftUI @Observable class’s initializer can run multiple times, how SwiftUI recreates view structs and re-evaluates default @State values, and how to avoid unintended repeated work.
 - [SwiftUI Foundations: Build Great Apps Q&A](https://antongubarenko.substack.com/p/swiftui-foundations-build-great-apps) — Those Who Swift · Issue 254 — Article · Topics: Foundation & Data Formats · Swift · SwiftUI
   **Published:** `2026-02-18`
   **NeKI brief:** Examines SwiftUI Foundations: Build Great Apps Q&A, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -507,24 +513,57 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [We Need to Talk About Observation](https://jaredsinclair.com/2025/09/10/observation.html) — Those Who Swift · Issue 232 — Article · Topics: Cross-Platform & Web · Developer Career & Practice · Observation & State Management
   **Published:** `2025-09-17`
   **NeKI brief:** Explains We Need to Talk About Observation, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [We Need to Talk About Observation](https://l.fatbobman.com/w0102-01) — Fatbobman’s Swift Weekly · Issue 102 — Article · Topics: Combine & Reactive Programming · Observation & State Management
+  **Published:** `2025-09-15T12:03:30.479Z`
+  **NeKI brief:** Challenges common assumptions about Swift Observation and its runtime behavior. Follow it when auditing observable state propagation, invalidation boundaries, and the differences between conceptual model ownership and what a framework actually tracks.
+- [AppKitUI](https://l.fatbobman.com/w0102-08) — Fatbobman’s Swift Weekly · Issue 102 — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **Published:** `2025-09-15T12:03:30.479Z`
+  **NeKI brief:** Provides an AppKit UI toolkit that simplifies creating and managing NSView content with Swift. Follow it when evaluating reusable macOS UI abstractions that complement SwiftUI without hiding AppKit ownership and lifecycle details.
+- [SBSObservation: A Swift Observation Framework Compatible with iOS 12](https://l.fatbobman.com/w0100-08) — Fatbobman’s Swift Weekly · Issue 100 — Article · Topics: Observation & State Management · Performance · Swift
+  **Published:** `2025-09-01T12:03:36.183Z`
+  **NeKI brief:** Provides a small Swift-macro observation framework for UIKit applications that manages observation lifetimes automatically. Follow it when comparing macro-based observation with manual notification cleanup in projects supporting older iOS versions.
+- [similar implementation](https://l.fatbobman.com/w0100-09) — Fatbobman’s Swift Weekly · Issue 100 — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **Published:** `2025-09-01T12:03:36.183Z`
+  **NeKI brief:** Provides an open-source observation implementation inspired by SwiftUI’s model, useful for studying how observable state can be reconstructed outside Apple’s framework. Follow it for experimental architecture comparison, not API compatibility guarantees.
 - [SwiftPostgresClient](https://github.com/willtemperley/swift-postgres-client) — iOS Dev Tools · iOS Dev Tools: XCFolder, Mocking Star, SwiftPostgresClient — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-07-24T17:41:16.681Z`
   **NeKI brief:** swift-postgres-client supplies a pure-Swift PostgreSQL client, exposing database connectivity without requiring a C driver wrapper. Useful for evaluating async database access in Swift services while checking pooling, TLS, and query-lifecycle needs.
 - [Apple's open-sourced Async Algorithms framework](https://github.com/apple/swift-async-algorithms) — SwiftLee Weekly · Issue 272 — Source repository · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `2025-05-20T14:12:58.000Z`
   **NeKI brief:** swift-async-algorithms adds reusable asynchronous sequence operators and utilities for Swift concurrency. Use it when async/await code needs throttling, merging, buffering, or other stream composition without reintroducing a full Combine pipeline.
+- [AsyncExtensions](https://github.com/sideeffect-io/AsyncExtensions) — SwiftLee Weekly · Issue 272 — Source repository · Topics: Combine & Reactive Programming · Concurrency · Developer Tools
+  **Published:** `2025-05-20T14:12:58.000Z`
+  **NeKI brief:** Points to AsyncExtensions, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [SE-475: Transactional Observation of Values](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0475-observed.md) — SwiftLee Weekly · Issue 272 — Source repository · Topics: Combine & Reactive Programming · Developer Tools · Swift
   **Published:** `2025-05-20T14:12:58.000Z`
   **NeKI brief:** Provides the public source repository for SE-0475. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
 - [Chris Eidhof](https://m.objc.io/@chris) — Fatbobman’s Swift Weekly · Issue 83 — Article · Topics: Developer Career & Practice · Swift · SwiftUI
   **Published:** `2025-05-12T12:02:48.422Z`
   **NeKI brief:** Presents chris eidhof for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [The Underground Wrapper Scene10 SwiftUI Property Wrappers and Values You Probably Don’t Know… But ShouldCaptain SwiftUIDanny Bolella](https://captainswiftui.substack.com/p/the-underground-wrapper-scene?ref=createwithswift.com) — Create with Swift · Issue 59 — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **Published:** `2025-05-02T15:00:54.000Z`
+  **NeKI brief:** Danny explores lesser-known SwiftUI property wrappers beyond the commonly used @State, @Binding, and @ObservedObject, sharing some of his favorites.
+- [How SwiftUI Tracks UI Changes With @Observable (Behind the Scenes)](https://www.youtube.com/watch?v=nw3dnrik9vQ) — Those Who Swift · Issue 211 — Video · Topics: Observation & State Management · Swift · SwiftUI
+  **Published:** `2025-04-24`
+  **NeKI brief:** Reviews How SwiftUI Tracks UI Changes With @Observable (Behind the Scenes). Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [SwiftUI Craftsmanship: State Management](https://captainswiftui.substack.com/p/swiftui-craftsmanship-state-management) — Those Who Swift · Issue 208 — Article · Topics: Developer Career & Practice · Swift · SwiftUI
+  **Published:** `2025-04-02`
+  **NeKI brief:** Examines state-management craftsmanship in SwiftUI. Useful for checking ownership, data flow, and observable boundaries before a view hierarchy accumulates implicit dependencies.
 - [UserDefaults and Observation in SwiftUI: How to Achieve Precise Responsiveness](https://itnext.io/userdefaults-and-observation-in-swiftui-how-to-achieve-precise-responsiveness-2bd8bda1568e) — Those Who Swift · Issue 205 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2025-03-12`
   **NeKI brief:** Examines UserDefaults and Observation in SwiftUI: How to Achieve Precise Responsiveness, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [Understanding the Bindable property wrapper in SwiftUI](https://tanaschita.com/swiftui-observation-bindable?ref=createwithswift.com) — Create with Swift · Issue 51 — Article · Topics: Swift · SwiftUI
   **Published:** `2025-03-07T16:16:53.000Z`
   **NeKI brief:** Clarifies that an @Observable model can be read directly by a child view, but a child needing writable bindings must introduce @Bindable around that model. The wrapper exposes projected properties such as $model.name without reverting to ObservableObject ownership patterns.
+- [Using SwiftGodot: Godot on iPad](https://youtu.be/irVRaTj0SGU) — iOS Dev Weekly · Issue 688 — Video · Topics: Graphics, Media & Games · Observation & State Management · Swift
+  **Published:** `22nd November 2024`
+  **NeKI brief:** Examines Bringing Godot to the iPad has been a fabulous and fun adventure.In this talk I will discuss both the technical challenges imposed by the platform as well as. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Swift bindings](https://github.com/migueldeicaza/SwiftGodot) — iOS Dev Weekly · Issue 688 — Source repository · Topics: Developer Tools · Observation & State Management · Swift
+  **Published:** `22nd November 2024`
+  **NeKI brief:** I’ve been curious about Godot for a long time now. I got even more curious when Miguel de Icaza started working on Swift bindings for it. If you’re also curious then you should watch him giving this presentation from GodotCon 2024. I did, and thoroughly…
+- [GodotCon 2024](https://conference.godotengine.org/2024) — iOS Dev Weekly · Issue 688 — Article · Topics: Developer Community & Business · Graphics, Media & Games · Observation & State Management
+  **Published:** `22nd November 2024`
+  **NeKI brief:** Examines GodotCon Berlin October 12-13. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Secrets to Success With @MainActor](https://www.hackingwithswift.com/quick-start/concurrency/how-to-use-mainactor-to-run-code-on-the-main-queue?ref=ioscodereview.com) — iOS Code Review · Issue 73 — Article · Topics: App Services & Extensions · Concurrency · Observation & State Management
   **Published:** `2024-11-20T11:14:23.000Z`
   **NeKI brief:** Examines this article by Paul Hudson in the context of Concurrency and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -533,22 +572,19 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Shows how Xcode 16's @Previewable macro supplies local mutable state so SwiftUI previews can exercise views that require bindings.
 - [@ObservableDefaults](https://github.com/fatbobman/ObservableDefaults) — Fatbobman’s Swift Weekly · Issue 53 — Source repository · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2024-10-14T12:03:14.201Z`
-  **NeKI brief:** ObservableDefaults bridges UserDefaults-backed values into SwiftUI observation. Use it when app settings need reactive updates while retaining UserDefaults persistence and predictable key-level storage.
+  **NeKI brief:** Fatbobman explores the challenges of integrating UserDefaults with the new Observation framework and introduces the ObservableDefaults library, a custom solution that allows properties to react to external changes in real-time while reducing unnecessary view…
 - [UserDefaults and Observation in SwiftUI: How to Achieve Precise Responsiveness](https://fatbobman.com/en/posts/userdefaults-and-observation?ref=createwithswift.com) — Create with Swift · Issue 31 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2024-10-11T15:30:29.000Z`
   **NeKI brief:** Observation does not automatically make UserDefaults changes precise inside SwiftUI. The @ObservableDefaults approach bridges key reads and writes into tracked properties, avoiding broad invalidation while retaining UserDefaults persistence semantics.
 - [ObservableDefaults library](https://github.com/fatbobman/ObservableDefaults?ref=createwithswift.com) — Create with Swift · Issue 31 — Source repository · Topics: Developer Tools · Observation & State Management · Swift
   **Published:** `2024-10-11T15:30:29.000Z`
-  **NeKI brief:** ObservableDefaults bridges UserDefaults-backed values into SwiftUI observation. Use it when app settings need reactive updates while retaining UserDefaults persistence and predictable key-level storage.
+  **NeKI brief:** Fatbobman explores the challenges of integrating UserDefaults with the new Observation framework and introduces the ObservableDefaults library, a custom solution that allows properties to react to external changes in real-time while reducing unnecessary view…
 - [How to listen for property changes in an @Observable class using AsyncStreams](https://www.polpiella.dev/observable-property-changes?ref=createwithswift.com) — Create with Swift · Issue 31 — Article · Topics: Concurrency · Observation & State Management · Swift
   **Published:** `2024-10-11T15:30:29.000Z`
   **NeKI brief:** AsyncStream can bridge Observation changes into an async consumer, replacing ObservableObject publishers while preserving cancellation and backpressure decisions. The comparison clarifies when a stream should be scoped to a task and when direct observation is simpler.
 - [Introduction to Communication Patterns in SwiftUI](https://azamsharp.com/2024/09/22/introduction-to-communication-patterns-in-swiftui.html?ref=createwithswift.com) — Create with Swift · Issue 29 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `2024-09-27T15:10:02.000Z`
-  **NeKI brief:** Compares communication patterns between SwiftUI views, including bindings, callbacks, and shared state. Useful for choosing data-flow direction while keeping feature interfaces testable.
-- [A Summary Of How To Pass Data To SwiftUI Environment](https://serialcoder.dev/text-tutorials/swiftui/a-summary-of-how-to-pass-data-to-swiftui-environment) — SwiftUI Weekly · SwiftUI Weekly - Issue #193 — Tutorial · Topics: Developer Career & Practice · Swift · SwiftUI
-  **Published:** `2024-07-08T08:54:13.719Z`
-  **NeKI brief:** Summarizes passing dependencies through SwiftUI environment values and custom keys. Useful for comparing environment injection with explicit data flow in reusable views.
+  **NeKI brief:** Mohammad explores different ways for SwiftUI views to communicate, such as closures, bindings, and @Environment objects through practical examples and discussing the pros and cons of each method.
 - [The Composable Architecture (TCA)](https://github.com/pointfreeco/swift-composable-architecture) — Fatbobman’s Swift Weekly · Issue 30 — Source repository · Topics: Architecture · Composable Architecture · Objective-C & Cocoa
   **Published:** `2024-05-06T12:01:46.954Z`
   **NeKI brief:** The Composable Architecture structures feature state, actions, reducers, dependencies, and tests around explicit unidirectional flow. Use the repository and migration material to evaluate operational trade-offs before adopting or upgrading TCA in a production app.
@@ -561,9 +597,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Unit Test the Observation FrameworkMake your iOS 17 view models rock-solidJacob’s Tech TavernJacob Bartlett](https://jacobbartlett.substack.com/p/unit-test-the-observation-framework) — iOS Code Review · Issue 66 — Article · Topics: Combine & Reactive Programming · Observation & State Management · Testing
   **Published:** `2024-03-18T13:34:21.000Z`
   **NeKI brief:** Examines Unit Test the Observation FrameworkMake your iOS 17 view models rock-solidJacob’s Tech TavernJacob Bartlett in the context of Combine & Reactive Programming and Observation & State Management. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Using the New Observation Framework to Network Monitoring in SwiftUI](https://holyswift.app/how-to-monitor-network-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #177 — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **Published:** `2024-02-26T08:21:15.312Z`
+  **NeKI brief:** Explains Today we will talk about NWPathMonitor. You can use this object to read the network status, which network you are using and more. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Comparing @Observable to ObservableObjects](https://www.donnywals.com/comparing-observable-to-observableobjects) — SwiftUI Weekly · SwiftUI Weekly - Issue #176 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2024-02-12T08:54:16.360Z`
   **NeKI brief:** Examines Have you tried Observation framework? in the context of Observation & State Management. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [StoreKit 2 Tutorial with Swift UI](https://superwall.com/blog/make-a-swiftui-app-with-in-app-purchases-and-subscriptions-using-storekit-2) — SwiftUI Weekly · SwiftUI Weekly - Issue #176 — Tutorial · Topics: App Distribution & Store Operations · Swift · SwiftUI
+  **Published:** `2024-02-12T08:54:16.360Z`
+  **NeKI brief:** Explains With Swift and the new Observation framework, setting up subscriptions for your iOS app is easier than ever. We'll show you how from beginning to end. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Flora Damiano](https://www.behance.net/FloraDamiano) — Fatbobman’s Swift Weekly · Issue 15 — Article · Topics: Macros & Metaprogramming · Observation & State Management · Swift
   **Published:** `2024-01-15T22:00:34.609Z`
   **NeKI brief:** Flora Damiano's portfolio showcases visual and interaction design work. Use it as a design reference when discussing visual language, illustration, and product presentation rather than as an engineering source.
@@ -582,6 +624,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Migrating Ice Cubes to the Observation framework](https://dimillian.medium.com/migrating-ice-cubes-to-the-swiftui-observation-framework-821f90deebee) — iOS Dev Weekly · Issue 628 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `22nd September 2023`
   **NeKI brief:** Details a real migration from ObservableObject to Observation in Ice Cubes, exposing the state-model and compatibility changes involved in a production SwiftUI app.
+- [Migrating to the Observation framework in SwiftUI](https://tanaschita.com/20230807-migrating-to-observation) — SwiftUI Weekly · SwiftUI Weekly - Issue #154 — Article · Topics: Apple Platform Ecosystem · Macros & Metaprogramming · Swift
+  **Published:** `2023-08-08T03:29:42.397Z`
+  **NeKI brief:** Explains Introduced at WWDC23, Observation is a new Swift framework for tracking changes of properties. It uses the new macro system in Swift to transform Swift types to observable objects. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [SwiftUI Data Flow in 2023](https://troz.net/post/2023/swiftui-data-flow-2023) — iOS Dev Weekly · Issue 617 — Article · Topics: Developer Career & Practice · Swift · SwiftUI
   **Published:** `7th July 2023`
   **NeKI brief:** Presents a concrete implementation of SwiftUI Data Flow 2023. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
@@ -609,6 +654,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Pass Data Between Views with SwiftUI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL2xlYXJuYXBwbWFraW5nLmNvbS9wYXNzLWRhdGEtYmV0d2Vlbi12aWV3cy1zd2lmdHVpLWhvdy10by8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiJmYjdhOWIwMi05ZmIyLTQxYmQtOWE0ZS0zNGNjYmMzMjNmNDEiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiMDg1YWFlNzgtZjRkZC00OTU1LTgwMDYtNDJmYjBjNzEyY2E0IiwiaWF0IjoxNjc0MDYyNjc4LjQxOSwiaXNzIjoib3JjaGlkIn0.KzVZKR_YP_qh4MqxWhd3sEBAT-A1BIVJE-LJtoUxcOE) — SwiftUI Weekly · SwiftUI Weekly - Issue #47 — Tutorial · Topics: Product Design · Swift · SwiftUI
   **Published:** `2021-02-23T19:43:19.000Z`
   **NeKI brief:** Compares SwiftUI techniques for passing values and bindings between views. Follow it when selecting one-way data, two-way mutation, or shared observable state for a particular ownership relationship.
+- [The Warlock of Firetop Mountain](https://en.wikipedia.org/wiki/The_Warlock_of_Firetop_Mountain) — iOS Dev Weekly · Issue 492 — Article · Topics: Observation & State Management
+  **Published:** `29th January 2021`
+  **NeKI brief:** I love what Paul Hudson has done with this post. He’s created a “choose your own adventure” style guide to the various property wrappers. Will you go left to find a @Binding, or right and accidentally face The Warlock of Firetop Mountain? 😱
 - [SwiftUI patterns: @Bindings](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL2ZpdmVzdGFycy5ibG9nL3N3aWZ0dWkvc3dpZnR1aS1wYXR0ZXJucy1iaW5kaW5ncy5odG1sP3V0bV9jYW1wYWlnbj0lMjBTd2lmdFVJJTIwV2Vla2x5JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1SZXZ1ZSUyMG5ld3NsZXR0ZXIiLCJwb3N0X2lkIjoiZjQzMjc3NzctNjNkNi00NTA0LTllZDAtZWE4MGMzOGZlZWQ1IiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6IjI1Yzg5MmU1LWEzOTgtNGFlZi1hZDFhLTM2M2U5MzVhNThiYSIsImlhdCI6MTY3NDA2MjY3OS40NTksImlzcyI6Im9yY2hpZCJ9.VLZGw91JCdjf5JQ53J3emP3PShSceBSMPRXHzIC-ydM) — SwiftUI Weekly · SwiftUI Weekly - Issue #43 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2021-01-26T13:13:48.000Z`
   **NeKI brief:** Explains SwiftUI Binding patterns for exposing controlled mutable state to child views. Use it to separate ownership from editing capability and avoid introducing shared state where a projection is enough.

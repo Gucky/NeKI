@@ -3,8 +3,28 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.swiftwithmajid.com/archive](https://weekly.swiftwithmajid.com/archive)
-- Last collected: `2026-08-12T21:02:47Z`
-- Indexed entries: **213**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed entries: **214**
+
+## [SwiftUI Weekly - Issue #240](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-240)
+
+- Published: `2026-08-24T08:23:25.923Z`
+
+**Topics:** Performance · Swift · SwiftUI
+
+**NeKI brief:** Collects five SwiftUI implementation leads on phase animation, concentric corner geometry, scroll-view swipe actions, ContentBuilder type-checking, and layout changes that respond to available space.
+
+**Selected links:**
+- [Responding to geometry changes in SwiftUI](https://nilcoalescing.com/blog/RespondingToGeometryChangesInSwiftUI) — Article · Topics: Performance · Swift · SwiftUI
+  **NeKI brief:** Uses onGeometryChange to derive only the layout metric an interface needs, then updates state when that Equatable value changes. This limits feedback and invalidation while adapting SwiftUI content to available space.
+- [ContentBuilder Explained: The Secret Behind SwiftUI's Type-Checking Speedup](https://fatbobman.com/en/posts/contentbuilder-explained) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Dissects ContentBuilder as a separation between content construction and protocol-specific validation, then benchmarks the resulting type-checking gains. It also explains where the pattern helps shared SwiftUI APIs and where it is not a cure-all.
+- [Creating multi-step animations with PhaseAnimator in SwiftUI](https://nilcoalescing.com/blog/PhaseAnimationsInSwiftUI) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Builds ordered SwiftUI animation sequences with PhaseAnimator, using phase values and per-phase transitions for repeating motion and event-triggered runs. The examples clarify when phase-based state is simpler than coordinating several independent animations.
+- [SwiftUI concentricCornerRadii in iOS 27](https://www.sagarunagar.com/blog/swiftui-concentriccornerradii-ios-27) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains GeometryProxy's concentricCornerRadii APIs for retrieving container-derived per-corner values in local coordinates, including nil handling and when custom Canvas or Path drawing needs those values instead of ConcentricRectangle.
+- [Adding swipe actions to any SwiftUI scroll view](https://tanaschita.com/swiftui-scrollview-swipe-actions) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Demonstrates swipeActionsContainer for adding contextual swipe controls to content inside ScrollView rather than List. The example clarifies container placement and the interaction boundary of the newer SwiftUI modifier.
 
 ## [SwiftUI Weekly - Issue #239](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-239)
 
@@ -68,7 +88,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [New SwiftUI APIs for reordering and drag and drop on iOS 27](https://nilcoalescing.com/blog/NewSwiftUIAPIsForReorderingAndDragAndDropOniOS27) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Explores iOS 27 reorder and drag-container APIs for SwiftUI collections. Useful for implementing movable content with explicit drop configuration instead of manually translating gesture coordinates.
 - [SwiftUI's new item based presentations in iOS 27](https://www.sagarunagar.com/blog/swiftui-item-based-alert-confirmation-dialog) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Explains item-driven SwiftUI alerts and confirmation dialogs, where an optional identifiable value selects the presented content. Useful for eliminating Boolean presentation races and associating destructive actions with the correct model item.
+  **NeKI brief:** Sagar covers iOS 27’s new item-based alerts and confirmation dialogs in SwiftUI, where optional item or error state can drive presentation directly without extra Boolean flags or synchronization bugs.
 - [SwiftUI: Observable macro under the hood](https://www.nsvasilev.com/posts/swiftui-observable-macro) — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
   **NeKI brief:** Peels back SwiftUI’s Observable macro expansion, showing the generated observation machinery behind an @Observable model. Useful when diagnosing tracking behavior, deciding which properties need observation, or explaining macro-generated code to a team.
 
@@ -84,7 +104,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Navigation transition updates in SwiftUI on iOS 27](https://nilcoalescing.com/blog/SwiftUINavigationTransitionUpdatesIniOS27) — Article · Topics: Architecture · Swift · SwiftUI
   **NeKI brief:** Covers iOS 27 navigation transition updates and how destination transitions participate in the navigation stack. Useful when aligning custom transitions with system navigation state.
 - [SwiftUI's New .prominent Tab in iOS 27 Is Not a Floating Action Button](https://www.sagarunagar.com/blog/swiftui-prominent-tab-is-not-a-floating-action-button) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Clarifies the prominent tab role in iOS 26 and why it is navigation hierarchy rather than a generic floating action button. Useful for avoiding misleading tab-bar designs.
+  **NeKI brief:** Sagar shares why SwiftUI’s new .prominent tab role should be used to highlight important destinations, not as a replacement for floating action buttons, toolbar actions, or “add” buttons.
 
 ## [SwiftUI Weekly - Issue #234](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-234)
 
@@ -100,7 +120,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [ContentUnavailableView in SwiftUI](https://www.sagarunagar.com/blog/contentunavailableview-swiftui) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Demonstrates ContentUnavailableView for empty, failed, or unavailable SwiftUI states with labels and actions. Useful for standardizing placeholder screens while preserving semantic messaging and a clear recovery path.
 - [A floating card using safeAreaBar](https://codakuma.com/floating-safe-area-bar) — Article
-  **NeKI brief:** Creates a floating bar with SwiftUI’s safeAreaBar modifier, keeping controls attached to safe-area edges as content scrolls. Useful for persistent actions or playback controls without manual inset calculations and overlay hit-testing.
+  **NeKI brief:** Shaun shows how to build a reusable floating bottom card in SwiftUI using safeAreaBar on iOS 26, with an iOS 18 fallback that combines safeAreaInset, material, and a gradient fade to keep scrolling content readable behind it.
 
 ## [SwiftUI Weekly - Issue #233](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-233)
 
@@ -109,14 +129,14 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Topics:** App Services & Extensions · Architecture · Swift · SwiftUI
 
 **Selected links:**
-- [Formatting Values in SwiftUI Text and TextField](https://serialcoder.dev/text-tutorials/swiftui/formatting-values-in-swiftui-text-and-textfield) — Tutorial · Topics: Architecture · Swift · SwiftUI
-  **NeKI brief:** Explains formatting values in SwiftUI Text and TextField using format styles and bindings. Useful for locale-aware display and editing of numbers or dates while keeping model values typed and validation predictable.
 - [SwiftUI: @State under the hood](https://www.nsvasilev.com/posts/swiftui-state) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Explores SwiftUI @State storage and its relationship to view identity and lifetime. Useful for diagnosing resets, deciding which state belongs in a view, and explaining why a local mutation survives recomputation.
 - [3 Key Strategies to Make SwiftUI Views More Reusable](https://matteomanferdini.com/swiftui-reusable-views) — Article · Topics: App Services & Extensions · Swift · SwiftUI
   **NeKI brief:** Presents three concrete strategies for making SwiftUI views reusable, from extracting components to controlling dependencies and state. Useful when reducing duplication without hiding feature-specific behavior behind overly generic abstractions.
 - [Scheduling and handling background app refresh in SwiftUI](https://nilcoalescing.com/blog/SchedulingAndHandlingBackgroundAppRefreshInSwiftUI) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Shows how a SwiftUI app enables, schedules, handles, and tests background refresh work using Background Tasks and backgroundTask(_:action:).
+- [Make a SwiftUI Toolbar Customizable](https://swiftdevjournal.com/posts/make-swiftui-toolbar-customizable) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains Text view in SwiftUI is probably the most used view by every developer, as presenting content is a fundamental part of making an app. Usually we display String values, and we also read String values in text fields too. B Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #232](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-232)
 
@@ -130,7 +150,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Previewing SwiftUI views in both dark and light mode](https://peterringset.dev/articles/light-and-dark-preview) — Article · Topics: Concurrency · Swift · SwiftUI
   **NeKI brief:** Demonstrates previewing SwiftUI views in both light and dark color schemes with representative content. Useful for catching contrast, asset, and layout failures before device testing, especially in reusable components.
 - [Checking accessibility with SwiftUI Previews](https://mobilea11y.com/blog/swiftui-preview-testing) — Article · Topics: Maps & Location · Swift · SwiftUI
-  **NeKI brief:** Uses SwiftUI previews as an accessibility testing surface, checking labels, traits, and contrast across representative states. Useful for finding VoiceOver regressions early without waiting for a full UI-test suite.
+  **NeKI brief:** Rob shows how SwiftUI Previews can be used as a lightweight accessibility testing tool, letting you quickly inspect UI variations before testing on a device.
 - [Building a draggable bottom sheet in SwiftUI](https://tanaschita.com/swiftui-draggable-bottom-sheet) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Builds a draggable SwiftUI bottom sheet with gesture state, detents, and snapping decisions. Useful for custom interaction when system sheets do not expose the required presentation behavior.
 
@@ -179,8 +199,6 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [How to use SwiftUI Coordinators to communicate with UIKit](https://tanaschita.com/swiftui-coordinators) — Article · Topics: Swift · SwiftUI · UIKit
   **NeKI brief:** Uses DataScannerViewController to show how UIViewControllerRepresentable.Coordinator receives UIKit delegate callbacks and sends results back to SwiftUI, making the coordinator boundary concrete for delegate-driven integrations.
-- [Morphing Sheets Out of Buttons in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/morphing-sheets-out-of-buttons-in-swiftui) — Tutorial · Topics: Apple Platform Ecosystem · Swift · SwiftUI
-  **NeKI brief:** Demonstrates morphing a SwiftUI button into sheet content using matched visual state and presentation transitions. Useful for building expressive modal affordances while keeping trigger state, accessibility, and dismissal behavior explicit.
 - [Advanced NavigationStack Patterns in SwiftUI](https://buczel.com/blog/swift-navigation-stack-patterns) — Article · Topics: Navigation & Deep Linking · Swift · SwiftUI
   **NeKI brief:** Presents advanced NavigationStack patterns for typed routes, destinations, and path state. Useful for structuring nested flows and deep links when direct NavigationLink composition no longer provides sufficient control or testability.
 - [Making SwiftUI Buttons with Equal Widths](https://www.neilmacy.co.uk/blog/swiftui-button-equal-sizing) — Article · Topics: Swift · SwiftUI
@@ -220,9 +238,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Introducing FabBar: The Liquid Glass Tab Bar I Wish Apple Made](https://ryanashcraft.com/introducing-fabbar) — Article · Topics: Liquid Glass · Swift · SwiftUI
   **NeKI brief:** Introduces FabBar, a custom Liquid Glass tab-bar implementation with prominent actions and visual effects. Useful for studying custom navigation chrome, while weighing platform conventions, accessibility, and maintenance against system TabView behavior.
 - [Designing a Scalable App-Wide Theming System in SwiftUI](https://www.sagarunagar.com/blog/app-wide-theming-swiftui) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Builds an app-wide SwiftUI theming system around reusable colors, typography, and style tokens. Useful for centralizing design decisions and testing appearance variants without scattering literal values across feature views.
+  **NeKI brief:** Sagar shows how to implement app-wide theming in SwiftUI by defining centralized color and style systems, using custom environment keys and extensions so your UI can adapt easily to different themes with consistency.
 - [Emptiness in SwiftUI](https://captainswiftui.substack.com/p/emptiness-in-swiftui) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Reflects on empty states in SwiftUI and the design meaning of showing no content. Useful for turning absence into deliberate loading, unavailable, or recovery UI rather than leaving screens visually ambiguous.
+  **NeKI brief:** Danny explores how SwiftUI represents and handles emptiness in UI examining types like EmptyView, EmptyModifier, and ContentUnavailableView, when to use them, and how they help you express absent or unavailable content.
 - [Migrating an iOS app from Paid up Front to Freemium](https://www.donnywals.com/migrating-an-ios-app-from-paid-up-front-to-freemium) — Article · Topics: App Distribution & Store Operations
   **NeKI brief:** Documents the product and StoreKit decisions involved in moving an app from paid-up-front to freemium. Useful as business migration context, not as a universal monetization prescription.
 
@@ -275,10 +293,10 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Summarizes a Meet with Apple performance session spanning power use, Foundation Models response latency, SwiftUI responsiveness, and Snap's diagnostic tools. Useful as a map of optimization areas before consulting the corresponding primary guidance.
 - [SwiftUI Architecture: Structure Views for Reusability and Clarity](https://www.avanderlee.com/swiftui/swiftui-architecture-structure-views-for-reusability-and-clarity) — Article · Topics: Architecture · Swift · SwiftUI
   **NeKI brief:** Refactors oversized SwiftUI view bodies by extracting responsibilities, choosing stable data flow, and isolating reusable components. The examples make the trade-off between abstraction and readable composition concrete for growing screens.
-- [Zooming With The Magnify Gesture in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/zooming-with-the-magnify-gesture-in-swiftui) — Tutorial · Topics: Swift · SwiftUI
-  **NeKI brief:** Implements pinch-to-zoom in SwiftUI with MagnifyGesture and accumulated scale state. Useful for image or canvas interactions that need bounded zoom, gesture continuity, and predictable reset behavior.
 - [ScrollView snapping in SwiftUI](https://nilcoalescing.com/blog/ScrollViewSnappingInSwiftUI) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Configures SwiftUI scroll target behavior and snapping so items settle at deliberate positions. Useful for carousels and paged content without implementing custom drag-end calculations.
+- [Optimize Your App’s Speed and Efficiency: Q&A](https://antongubarenko.substack.com/p/optimize-your-apps-speed-and-efficiency?r=21t43r&triedRedirect=true) — Article
+  **NeKI brief:** Presents an optimization Q&A focused on diagnosing and improving app speed with an Apple-team perspective. Useful as a checklist of performance questions before choosing a narrow code-level optimization.
 
 ## [SwiftUI Weekly - Issue #223](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-223)
 
@@ -292,7 +310,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Why a custom ViewModifier is often useless](https://www.swiftwithvincent.com/blog/why-a-custom-viewmodifier-is-often-useless) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Argues that many custom ViewModifiers add indirection without clarifying behavior, and shows when direct composition is better. Useful for reviewing SwiftUI abstractions against readability, reuse, and discoverable call-site intent.
 - [Tunable, physics-driven motion primitives for SwiftUI](https://github.com/roberthein/kinetics) — Source repository · Topics: Concurrency · Swift · SwiftUI
-  **NeKI brief:** Provides tunable, physics-driven motion primitives for SwiftUI, including configurable springs and dynamics. Useful for experimenting with reusable interactive animations while inspecting API ergonomics, cancellation, and performance in real screens.
+  **NeKI brief:** Kinetics is an Apple-platform project related to motion or animation behavior. Follow its source for concrete timing, physics, or interaction techniques, while verifying framework and performance assumptions.
 - [When SwiftUI automatically applies the glass look and when it doesn’t](https://tanaschita.com/swiftui-glass-auto-apply) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Explains when SwiftUI automatically applies Liquid Glass and when explicit modifiers are required. Useful for diagnosing inconsistent material appearance across containers and platform contexts.
 - [Add a Close button to SwiftUI modals on iOS 26](https://nilcoalescing.com/blog/AddACloseButtonToSwiftUIModalsOnIOS26) — Article · Topics: Swift · SwiftUI
@@ -313,6 +331,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Introduces ConcentricRectangle for corners that follow the system's concentric geometry. Useful for iOS 26 surfaces that need nested cards and containers to align with platform visual language.
 - [Perception 2.0: An updated back-port of Swift’s Observation framework](https://www.pointfree.co/blog/posts/180-perception-2-0-an-updated-back-port-of-swift-s-observation-framework) — Article · Topics: Apple Platform Ecosystem · Observation & State Management · Swift
   **NeKI brief:** Explains Perception 2.0 as a back-port of Swift Observation for older deployment targets. Useful when sharing modern observation patterns while an application cannot yet require iOS 17.
+- [Perception](http://github.com/pointfreeco/swift-perception) — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **NeKI brief:** Provides Point-Free's backport of Swift observation capabilities for deployment targets that predate the newer Observation framework. Useful when sharing modern observable-model patterns across older OS versions.
 
 ## [SwiftUI Weekly - Issue #221](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-221)
 
@@ -327,8 +347,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Shows iOS and iPadOS 26 SwiftUI search enhancements for placement, suggestions, and presentation. Useful for modernizing search flows without rebuilding the search field and toolbar integration.
 - [SwiftUI: Scrollview tracking offset/items](https://antongubarenko.substack.com/p/swiftui-scrollview-tracking-offsetitems) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Demonstrates tracking ScrollView offsets and visible items with modern SwiftUI APIs. Useful for scroll-aware headers, pagination, and deferred effects without relying on fragile preference-key geometry plumbing.
-- [Providing Multiple Accent Colors in SwiftUI Apps](https://serialcoder.dev/text-tutorials/swiftui/providing-multiple-accent-colors-in-swiftui-apps) — Tutorial · Topics: Swift · SwiftUI
-  **NeKI brief:** Shows how to provide multiple accent colors in a SwiftUI app and select them through state or settings. Useful for appearance customization while preserving semantic styling and consistent behavior across scenes.
 - [Creating amazing loading animations with SF Symbols.](https://danielsaidi.com/blog/2025/06/19/creating-amazing-loading-animations-with-sf-symbols) — Article
   **NeKI brief:** Creates loading animations from SF Symbols using symbol effects and state-driven timing. Useful for lightweight progress feedback that remains scalable and semantic instead of relying on bespoke raster animation assets.
 
@@ -360,7 +378,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Using WebKit to load web content in SwiftUI](https://www.artemnovichkov.com/blog/using-webkit-to-load-web-content-in-swiftui) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Integrates WebKit content loading with SwiftUI through UIViewRepresentable and a coordinator. Useful for controlled web content, navigation state, and lifecycle handling in hybrid screens.
+  **NeKI brief:** Artem explores the new WebView and WebPage APIs demonstrating how to integrate web views, handle loading states, and save content as snapshots, all with SwiftUI.
 - [Designing custom UI with Liquid Glass on iOS 26](https://www.donnywals.com/designing-custom-ui-with-liquid-glass-on-ios-26) — Article · Topics: Liquid Glass
   **NeKI brief:** Explores custom Liquid Glass composition on iOS 26, including grouping and material boundaries. Useful for matching the system visual language without treating every translucent surface as interchangeable.
 - [Attribute graph](https://chris.eidhof.nl/presentations/attribute-graph) — Article
@@ -381,6 +399,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Examines iOS 26 tab bars under Liquid Glass and the behavior of prominent tab presentation. Useful for designing navigation that respects new system hierarchy and interaction expectations.
 - [Escape from Tutorial Hell](https://sarahreichelt.gumroad.com/l/iqdry/nuy8ey0) — Tutorial · Topics: Swift · SwiftUI
   **NeKI brief:** Offers a SwiftUI learning resource focused on practical interface construction and concepts. Useful as structured study material when a team needs shared foundations before tackling advanced layout or state-management topics.
+- [State of the Union: What I Took Away](https://yaacoub.github.io/articles/swift-tip/state-of-the-union-what-i-took-away) — Article · Topics: Apple Platform Ecosystem · Developer Tools · Swift
+  **NeKI brief:** Distills the author's practical takeaways from Apple's Platforms State of the Union at WWDC25. Useful for quickly identifying platform changes worth following up in a SwiftUI or Apple-platform product roadmap.
 - [Overlapping Views in SwiftUI with zIndex](https://serialcoder.dev/text-tutorials/swiftui/overlapping-views-in-swiftui-with-zindex) — Tutorial · Topics: Swift · SwiftUI
   **NeKI brief:** Demonstrates overlapping SwiftUI views with zIndex and stack composition. Useful for cards, badges, and layered controls where rendering order and hit testing must stay predictable.
 - [Stretchy header in SwiftUI with visualEffect()](https://nilcoalescing.com/blog/StretchyHeaderInSwiftUI) — Article · Topics: Swift · SwiftUI
@@ -399,6 +419,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Collects ViewBuilder techniques for conditional composition, custom containers, and readable APIs. Useful when designing result-builder-based components without hiding state or type constraints.
 - [SwiftUI in 2025: Forget MVVM](https://dimillian.medium.com/swiftui-in-2025-forget-mvvm-262ff2bbd2ed) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Challenges defaulting to MVVM in modern SwiftUI and discusses state-driven alternatives. Useful for comparing architectural ceremony against feature complexity before introducing view models solely by convention.
+- [IcySky](https://github.com/Dimillian/IcySky/blob/main/App/IcySkyApp.swift) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** Explains It’s 2025, and I’m still getting asked the same question: “Where are your ViewModels?” Every time I share this opinion or code from my open-source projects like my BlueSky client, IcySky, or even the Medium iOS app, deve Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Understanding toolbars in SwiftUI](https://tanaschita.com/swiftui-toolbars-guide) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Surveys SwiftUI toolbar placement, roles, and item composition across platforms. Useful for avoiding platform-specific placement surprises and keeping actions discoverable in navigation bars.
 - [The evolution of native engineering at Tripadvisor: Part 1](https://medium.com/tripadvisor/the-evolution-of-native-engineering-at-tripadvisor-part-1-577cc0e36ec8) — Article · Topics: Architecture · Composable Architecture · Concurrency
@@ -465,6 +487,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Examines SwiftUI rendering and scrolling costs behind Why Your SwiftUI App Is Slower Than You Think. Use it to identify identity, layout, and update-frequency risks before measuring regressions with Instruments on representative devices.
 - [Free mobile payments SDK by Square](https://fnf.dev/4lkI0hT) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Promotes Square's mobile payments SDK for integrating payment acceptance into an iOS app. Useful as a discovery link when evaluating payment capabilities, while separately checking SDK availability, compliance, pricing, and production support.
+- [The Underground Wrapper Scene](https://captainswiftui.substack.com/p/the-underground-wrapper-scene?triedRedirect=true) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Surveys lesser-known SwiftUI property wrappers and values that influence state, environment, and view behavior. Useful for discovering built-in tools before introducing custom wrappers or additional observable plumbing.
 
 ## [SwiftUI Weekly - Issue #213](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-213)
 
@@ -516,7 +540,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Clean Up Your Sheet API](https://medium.com/@jpmtech/clean-up-your-sheet-api-7763b796cd94) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Proposes a cleaner API for presenting SwiftUI sheets through typed state and centralized routing. Useful for reducing boolean presentation flags and making modal destinations easier to test and extend.
 - [The Simple Life(cycle) of a SwiftUI View in 2025](https://captainswiftui.substack.com/p/the-simple-lifecycle-of-a-swiftui) — Article · Topics: Swift · SwiftUI · UIKit
-  **NeKI brief:** Describes the lifecycle of a SwiftUI view from identity through evaluation and disappearance. Useful for placing initialization, side effects, and cleanup where their timing matches actual view lifetime.
+  **NeKI brief:** Danny dives deep into the revisited SwiftUI View Lifecycle, explaining how views behave, update, and clean up in modern SwiftUI.
 - [The Composable Architecture: How Architectural Design Decisions Influence Performance](https://www.swiftyplace.com/blog/the-composable-architecture-performance) — Article · Topics: Architecture · Objective-C & Cocoa · Performance
   **NeKI brief:** Examines performance implications of The Composable Architecture in SwiftUI, including reducer and view update costs. Useful for measuring architectural overhead in realistic workloads rather than assuming framework use is free or prohibitive.
 - [SwiftUI Default Scroll Anchor](https://useyourloaf.com/blog/swiftui-default-scroll-anchor) — Article · Topics: Swift · SwiftUI
@@ -533,8 +557,6 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Refactoring my SwiftUI Navigation Layer to follow the Coordinator Pattern](https://www.tiagohenriques.dev/blog/swiftui-refactor-navigation-layer-using-coordinator-pattern) — Article · Topics: Concurrency · Swift · SwiftUI
   **NeKI brief:** Refactors a SwiftUI navigation layer toward the Coordinator pattern, separating route orchestration from views. Useful for deep-link handling and feature composition when NavigationStack state is spreading across screens.
-- [Exploring The LabeledContent View In SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/exploring-the-labeledcontent-view-in-swiftui) — Tutorial · Topics: Swift · SwiftUI
-  **NeKI brief:** Explores LabeledContent for pairing values with descriptive labels in SwiftUI. Useful for settings, metadata, and inspector rows that need consistent semantics and platform styling without hand-built HStacks.
 - [Picker in SwiftUI explained with code examples](https://www.avanderlee.com/swiftui/picker-styles-color) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Demonstrates Picker bindings and style choices such as menu, segmented, wheel, and navigation-link presentations. It connects control style to platform context and option count instead of only changing appearance.
 - [Placing UI components within the Safe Area Inset](https://www.createwithswift.com/placing-ui-components-within-the-safe-area-inset) — Article · Topics: Swift · SwiftUI
@@ -573,8 +595,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Walks through a SwiftUI macOS menu-bar utility, including scene configuration and status-item presentation. Useful for small persistent tools that should avoid a conventional document window.
 - [How to use SceneDelegate in SwiftUI](https://tanaschita.com/swiftui-scenedelegate) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Bridges scene lifecycle behavior into SwiftUI through a scene delegate integration. Useful when an application still needs UIKit lifecycle hooks for notifications, deep links, or window coordination.
-- [Presenting and Managing Expandable Sections in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/presenting-and-managing-expandable-sections-in-swiftui) — Tutorial · Topics: Product Design · Swift · SwiftUI
-  **NeKI brief:** Builds expandable SwiftUI sections with disclosure state and animated content. Useful for settings and FAQ interfaces where row identity, accessibility labels, and collapsed content behavior must remain consistent.
 
 ## [SwiftUI Weekly - Issue #207](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-207)
 
@@ -586,7 +606,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Drawing maps with Swift Charts](https://www.artemnovichkov.com/blog/drawing-maps-with-swift-charts) — Article · Topics: Maps & Location · Swift
-  **NeKI brief:** Uses Swift Charts to draw map-like visualizations from coordinate data. Useful for plotting paths or geographic series when a chart is sufficient and a full map renderer would add unnecessary complexity.
+  **NeKI brief:** Artem shows how developers merge location-based data with the Swift Chart framework to create insightful data visualizations.
 - [Understanding SwiftUI Preferences](https://peterfriese.dev/blog/2025/swiftui-preferences-swift6) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
   **NeKI brief:** Explains SwiftUI Preferences as an upward data channel from child views to ancestors, with Swift 6 examples. It is useful for designing reusable components that report measurements or actions without tight parent-child coupling.
 - [Show a popover on iPhone in SwiftUI](https://nilcoalescing.com/blog/PopoverOniPhoneInSwiftUI) — Article · Topics: Swift · SwiftUI
@@ -649,6 +669,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Shows modern ways to obtain a SwiftUI view's size without GeometryReader. Useful for reducing layout coupling when a component needs measurements for adaptive presentation.
 - [SwiftUI Charts Plotting Functions](https://useyourloaf.com/blog/swiftui-charts-plotting-functions) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Plots mathematical functions with Swift Charts by generating sampled data and mapping it to marks. Useful for technical visualizations where the chart is derived from a formula rather than stored measurements.
+- [Eight Fun SwiftUI Details in my Practice Planner](https://www.swiftjectivec.com/eight-fun-swiftui-details-in-practice-planner) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains Here are eight little SwiftUI nuggets from the feature that I think turned out to be something worth sharing. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #203](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-203)
 
@@ -660,11 +682,11 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **Selected links:**
 - [Deep Dive into Environment in SwiftUI](https://azamsharp.com/2024/11/18/deep-dive-into-environment-in-swiftui.html) — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
-  **NeKI brief:** Explains SwiftUI environment propagation, custom keys, and dependency lookup. Useful for deciding which shared services belong in environment values versus explicit initializer parameters.
+  **NeKI brief:** Mohammad describes in detail the SwiftUI’s environment explaining how it facilitates the sharing of state across views. It begins by exploring the scope and injection of environment objects within the view hierarchy, delves into their behavior during view…
 - [Preview SwiftUI views with bindings using @Previewable](https://nilcoalescing.com/blog/PreviewSwiftUIViewsWithBindings) — Article · Topics: Observation & State Management · Swift · SwiftUI
   **NeKI brief:** Shows how Xcode 16's @Previewable macro supplies local mutable state so SwiftUI previews can exercise views that require bindings.
 - [Mastering TextEditor in SwiftUI: Features, Limitations, and Tips](https://www.artemnovichkov.com/blog/mastering-text-editor-in-swiftui) — Article · Topics: Swift · SwiftUI
-  **NeKI brief:** Reviews TextEditor capabilities, styling constraints, and editing behavior in SwiftUI. Useful for designing robust multiline input while accounting for focus, scrolling, and platform differences.
+  **NeKI brief:** Artem explores in depth the SwiftUI’s TextEditor view. It covers essential features, its limitations, and offers practical tips for effective implementation.
 - [Understanding SwiftUI's View Update Mechanism: Starting from a TimelineView Update Issue](https://fatbobman.com/en/posts/understanding-swiftui-view-update-mechanism) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Builds a mental model for SwiftUI body evaluation, dependency tracking, and rendering updates. Useful when investigating redundant recomputation or assuming every state change redraws the entire hierarchy.
 - [How to identify data in Lists and ForEach in SwiftUI](https://tanaschita.com/swiftui-identifiable) — Article · Topics: Swift · SwiftUI
@@ -687,6 +709,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Shows how custom font modifiers can centralize typography while preserving Dynamic Type and environment behavior. Useful for design-system APIs that should express semantic text roles rather than repeat font construction.
 - [Conditional SwiftUI Accessibility Labels](https://useyourloaf.com/blog/conditional-swiftui-accessibility-labels) — Article · Topics: Accessibility · Swift · SwiftUI
   **NeKI brief:** Shows conditionally composing SwiftUI accessibility labels when a view's meaning changes with state. This avoids announcing stale or contradictory text and keeps the spoken contract aligned with what the control currently does.
+- [Measuring View Visibility Percentage in SwiftUI Using PreferenceKeys](https://holyswift.app/measuring-view-visibility-percentage-in-swiftui-using-preferencekeys) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains This looks like a hard challenge to take and don’t take me wrong, is not easy either. We will need to understand a lot of small concepts but don’t worry we will present every little step one at a time. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #201](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-201)
 
@@ -705,6 +729,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Explains environment propagation and dependency lookup in SwiftUI. Useful for deciding which shared values belong in environment keys versus explicit view inputs.
 - [Improve your app's UX with SwiftUI's task view modifier](https://peterfriese.dev/blog/2024/delay-task-modifier) — Article · Topics: Concurrency · Swift · SwiftUI
   **NeKI brief:** Implements a delayed task modifier that cancels prior work when the input changes. Useful for debounced search and validation, where task identity and cancellation prevent stale results.
+- [Understanding TextRenderer to Animate Words](https://www.rudrank.com/exploring-swiftui-textrenderer-to-animate-words) — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **NeKI brief:** Explains This protocol helps to replace the default text view rendering behaviour and helps you to customise how SwiftUI text is drawn for an entire view tree. Just typing that out felt cool. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #200](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-200)
 
@@ -720,7 +746,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Insetting Scrollable Views’ Content With contentMargins In SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/insetting-scrollable-views-content-with-contentmargins-in-swiftui) — Tutorial · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **NeKI brief:** Demonstrates contentMargins for insetting ScrollView content in SwiftUI. Useful for consistent readable edges and indicator placement without spacer-based layout hacks.
 - [Introduction to Communication Patterns in SwiftUI](https://azamsharp.com/2024/09/22/introduction-to-communication-patterns-in-swiftui.html) — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
-  **NeKI brief:** Compares communication patterns between SwiftUI views, including bindings, callbacks, and shared state. Useful for choosing data-flow direction while keeping feature interfaces testable.
+  **NeKI brief:** Mohammad explores different ways for SwiftUI views to communicate, such as closures, bindings, and @Environment objects through practical examples and discussing the pros and cons of each method.
 - [Using the zoom navigation transition in SwiftUI](https://www.createwithswift.com/using-the-zoom-navigation-transition-in-swiftui) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Implements the zoom navigation transition to connect source and destination content across a SwiftUI navigation path. Useful for spatial continuity when presenting detail views from thumbnails.
 
@@ -741,6 +767,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Walks through integrating Stream's chat SDK into an iOS app, including message UI and networking. Useful as an implementation reference when evaluating managed real-time messaging.
 - [SwiftUI Previewable Macro](https://useyourloaf.com/blog/swiftui-previewable-macro) — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
   **NeKI brief:** Uses the Previewable macro to create mutable preview state without manually declaring State wrappers. Useful for interactive previews that exercise editing and selection flows quickly.
+- [Create Custom Visual Effects with SwiftUI](https://yaacoub.github.io/articles/swift-tip/create-custom-visual-effects-with-swiftui-wwdc24) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **NeKI brief:** Summarizes the WWDC24 SwiftUI additions for building custom visual effects and highlights the APIs that enable richer rendering. Useful when evaluating platform-provided effect composition before adopting lower-level graphics techniques.
 - [Animating SF Symbols on iOS 18](https://www.donnywals.com/animating-sf-symbols-on-ios-18) — Article
   **NeKI brief:** Uses iOS 18 SF Symbol animation APIs to express state changes through semantic symbol effects. Useful for lightweight feedback that remains aligned with the symbol's meaning and accessibility labels.
 
@@ -828,7 +856,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Creating advanced hover effects in visionOS](https://www.createwithswift.com/creating-advanced-hover-effects-in-visionos) — Article · Topics: Spatial Computing · Swift
   **NeKI brief:** Creates advanced hover effects for visionOS by combining pointer focus with SwiftUI visual transformations. Useful for spatial interfaces where depth and emphasis must respond to gaze or hand targeting.
 - [Blend Modes in SwiftUI](https://digitalbunker.dev/blend-modes-in-swiftui) — Article · Topics: Developer Tools · Swift · SwiftUI
-  **NeKI brief:** Presents a concrete implementation of Blend Modes in SwiftUI. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
+  **NeKI brief:** Aryaman explores the different blend modes available in SwiftUI, showing visual examples, explaining their purposes, and demonstrating how to implement them in SwiftUI.
 - [List or LazyVStack: Choosing the Right Lazy Container in SwiftUI](https://itnext.io/list-or-lazyvstack-choosing-the-right-lazy-container-in-swiftui-27f5b8272dae) — Article · Topics: Performance · Swift · SwiftUI
   **NeKI brief:** Compares List and LazyVStack across styling, virtualization, and behavior. Useful for selecting a scrolling container based on interaction requirements rather than default convenience.
 - [Using PreviewModifier to build a previewing environment](https://www.donnywals.com/using-previewmodifier-to-build-a-previewing-environment) — Article · Topics: Xcode
@@ -847,10 +875,10 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Explains Animatable and AnimatablePair for custom SwiftUI interpolation. Useful when building shape or geometry animations whose intermediate values need precise control.
 - [SwiftUI can be a bit... eager](https://www.attributedstrings.com/swiftui-can-be-a-bit-eager) — Article · Topics: Foundation & Data Formats · Swift · SwiftUI
   **NeKI brief:** Investigates cases where SwiftUI evaluates views or work eagerly. Useful for diagnosing unexpected initialization, expensive computations, and lifecycle assumptions in declarative hierarchies.
-- [A Summary Of How To Pass Data To SwiftUI Environment](https://serialcoder.dev/text-tutorials/swiftui/a-summary-of-how-to-pass-data-to-swiftui-environment) — Tutorial · Topics: Developer Career & Practice · Swift · SwiftUI
-  **NeKI brief:** Summarizes passing dependencies through SwiftUI environment values and custom keys. Useful for comparing environment injection with explicit data flow in reusable views.
 - [Laying out views with ContainerRelativeFrame in SwiftUI](https://www.youtube.com/watch?v=DudvesMYAAY) — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **NeKI brief:** Demonstrates ContainerRelativeFrame layouts in SwiftUI. Useful for sizing content relative to scroll containers and creating adaptive, platform-aware compositions.
+- [State of in-app subscriptions 2024](https://adapty.io/reports/state-of-in-app-subscriptions-2024) — Article · Topics: App Distribution & Store Operations · Swift · SwiftUI
+  **NeKI brief:** Collects current subscription-market benchmarks and growth metrics for mobile apps. Useful for framing pricing, conversion, retention, and monetization decisions with industry data rather than app-level intuition alone.
 
 ## [SwiftUI Weekly - Issue #192](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-192)
 
@@ -929,6 +957,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Builds a partial bottom sheet in SwiftUI with drag and presentation behavior. Useful for lightweight modal flows when system sheet detents need custom interaction.
 - [Do NOT init State externally in SwiftUI](https://samwize.com/2024/05/08/do-not-init-state-externally-in-swiftui-view) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Explains the state-ownership behavior behind Do NOT init State externally in SwiftUI. Use it to distinguish initialization, bindings, and view identity so updates remain predictable across SwiftUI recomputation and navigation.
+- [Bad practice: not using a ButtonStyle](https://www.swiftwithvincent.com/blog/bad-practice-not-using-a-buttonstyle) — Article · Topics: Swift
+  **NeKI brief:** Vincent explains the importance of using ButtonStyle to customize button appearances for code reusability and readability.
 
 ## [SwiftUI Weekly - Issue #188](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-188)
 
@@ -988,7 +1018,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Mastering the containerRelativeFrame Modifier in SwiftUI](https://fatbobman.com/en/posts/mastering-the-containerrelativeframe-modifier-in-swiftui) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **NeKI brief:** Examines containerRelativeFrame sizing against the enclosing container rather than the immediate parent. Useful for predictable adaptive cards, paging layouts, and safe-area-aware dimensions.
 - [Creating Settings Screen in SwiftUI With AppStorage](https://holyswift.app/using-userdefaults-to-persist-in-swiftui) — Article · Topics: Persistence & Synchronisation · Swift · SwiftUI
-  **NeKI brief:** Shows persisting SwiftUI settings with AppStorage and UserDefaults. Useful for small preferences whose lifetime should survive launches without introducing a database model.
+  **NeKI brief:** Leonardo discusses how to use the AppStorage property wrapper in SwiftUI to create a persistent user settings screen and include best practices for managing data efficiently.
 
 ## [SwiftUI Weekly - Issue #185](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-185)
 
@@ -1007,6 +1037,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Reflects on three years using TCA at team scale, emphasizing its learning curve, release churn, migration cost, reducer growth, and platform impedance. Useful when weighing TCA's testing and composition benefits against organizational complexity.
 - [TCA](https://github.com/pointfreeco/swift-composable-architecture) — Source repository · Topics: Architecture · Composable Architecture · Objective-C & Cocoa
   **NeKI brief:** The Composable Architecture structures feature state, actions, reducers, dependencies, and tests around explicit unidirectional flow. Use the repository and migration material to evaluate operational trade-offs before adopting or upgrading TCA in a production app.
+- [Concurrency in Swift 6: SE-0418](https://www.massicotte.org/concurrency-swift-6-se-0418) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Explains This is a dense proposal, covering a lot of tricky stuff around the relationships between functions, key paths, and sendability. I’m going to go out on a limb here and say that the changes here won’t affect the majority Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #184](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-184)
 
@@ -1017,6 +1049,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Reading
 
 **Selected links:**
+- [Hot Reloading In SwiftUI](https://dasdom.dev/hot-reloading-in-swiftui) — Article · Topics: Swift · SwiftUI · Xcode
+  **NeKI brief:** Discusses hot reloading as a response to slow or unreliable SwiftUI previews. Useful for weighing faster feedback loops during view development against the complexity and limits of runtime injection tools.
+- [How to Mirror Any View in SwiftUI?](https://holyswift.app/how-to-invert-any-view-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains Hallo vrienden en familie, Leo hier. Today, we will talk about how to invert or mirror any view in SwiftUI. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [In-Depth Exploration of Overlay and Background Modifiers in SwiftUI](https://fatbobman.com/en/posts/in-depth-exploration-of-overlay-and-background-modifiers-in-swiftui) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Compares SwiftUI overlay and background modifiers with ZStack, explaining their layout relationships and suitable use cases. Use it when attaching decoration or measuring content while preserving the intended parent-child geometry.
 - [SwiftUI Pie Charts](https://useyourloaf.com/blog/swiftui-pie-charts) — Article · Topics: Swift · SwiftUI
@@ -1051,6 +1087,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Creating Shapes from SVG in a SwiftUI app](https://www.createwithswift.com/creating-shapes-from-svg-in-a-swiftui-app) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Shows how to turn SVG path data into scalable SwiftUI Shape implementations rather than raster assets. Use it when importing vector artwork and deciding how path parsing, fills, strokes, and resizing should be handled.
+- [Exploring SwiftUI: HStack and VStack with Zero Spacing](https://www.rudrank.com/exploring-swiftui-hstack-and-vstack-with-zero-spacing) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains In SwiftUI, VStack and HStack components help in arranging views vertically and horizontally. However, their default spacing can vary across different operating systems, catering to each platform's specific needs. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #181](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-180-e74)
 
@@ -1067,6 +1105,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Compares stable model identifiers with ObjectIdentifier-based identity in SwiftUI. Useful for understanding how ForEach diffing behaves and why identity must remain stable when rows are updated or reordered.
 - [How to avoid using AnyView in SwiftUI](https://tanaschita.com/swiftui-how-to-avoid-using-anyview) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Shows alternatives to AnyView through generics, builders, and conditional composition. Useful for preserving static view types and avoiding type erasure where it would obscure layout or performance.
+- [Number Text Animation in SwiftUI with contentTransition](https://holyswift.app/how-to-animate-text-in-swiftui-using-contenttransition) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains You have a text label that the number changes throughout some conditions. You want to animate that change and should be really smooth. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [In Search of a Smooth Scroll](https://byla.lt/posts/in-search-of-smooth-scroll) — Article · Topics: Objective-C & Cocoa
   **NeKI brief:** Examines SwiftUI rendering and scrolling costs behind In Search of a Smooth Scroll. Use it to identify identity, layout, and update-frequency risks before measuring regressions with Instruments on representative devices.
 
@@ -1117,6 +1157,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Reading · Videos
 
 **Selected links:**
+- [How to use VariadicView, SwiftUI's Private View API](https://www.emergetools.com/blog/posts/how-to-use-variadic-view) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains SwiftUI has an undocumented system for interacting with collections of View types known as VariadicView. The enum _VariadicView is the entry point to this system, which includes other types like _VariadicView_MultiViewRo Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [How to delay an animation in SwiftUI](https://tanaschita.com/20240226-delay-swiftui-animation) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Shows delaying a SwiftUI animation by combining state changes with an explicit animation delay. Use it for staged appearances or timed UI transitions, while keeping cancellation and repeated-trigger behavior predictable.
 - [An Introduction to Isolation in Swift](https://www.massicotte.org/intro-to-isolation) — Tutorial · Topics: Concurrency · Developer Community & Business · Swift
@@ -1136,6 +1178,16 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Customizable component APIs, Observation networking, NWPathMonitor, and Swift isolation make this issue useful for designing reusable SwiftUI boundaries. Research it when model updates depend on connectivity and actor isolation must remain explicit.
 
+**Selected links:**
+- [Making Customizable SwiftUI Components](https://otbivnoe.ru/2024/02/25/Making-Customizable-SwiftUI-Components.html) — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
+  **NeKI brief:** Explains In this article, we’re going to explore different ways of creating customizable components in SwifUI. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [Using the New Observation Framework to Network Monitoring in SwiftUI](https://holyswift.app/how-to-monitor-network-in-swiftui) — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **NeKI brief:** Explains Today we will talk about NWPathMonitor. You can use this object to read the network status, which network you are using and more. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [Opening hyperlinks in SwiftUI](https://augmentedcode.io/2024/02/12/opening-hyperlinks-in-swiftui) — Article · Topics: Swift · SwiftUI · UIKit
+  **NeKI brief:** Compares the mechanics of opening links from SwiftUI content with the more involved UILabel/UIKit path. Useful when deciding how link interaction should hand off to the system browser while preserving SwiftUI composition.
+- [SwiftUI Got Isolation Wrong](https://www.massicotte.org/swiftui-isolation) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains The discussion is really centered around isolation and how the isolation inheritance rules can be challenging to reason about. But, what I couldn’t get over was that SwiftUI was used as the main source of examples. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+
 ## [SwiftUI Weekly - Issue #176](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-176)
 
 - Published: `2024-02-12T08:54:16.360Z`
@@ -1145,10 +1197,14 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Reading · Videos
 
 **Selected links:**
+- [StoreKit 2 Tutorial with Swift UI](https://superwall.com/blog/make-a-swiftui-app-with-in-app-purchases-and-subscriptions-using-storekit-2) — Tutorial · Topics: App Distribution & Store Operations · Swift · SwiftUI
+  **NeKI brief:** Explains With Swift and the new Observation framework, setting up subscriptions for your iOS app is easier than ever. We'll show you how from beginning to end. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Automating SwiftUI Accessibility Audits in Xcode 15](https://holyswift.app/xcode-15-new-feature-streamlined-accessibility-audits) — Article · Topics: Accessibility · Swift · Xcode
   **NeKI brief:** Examines Finding SwiftUI accessibility issues automatically in the context of Accessibility and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Comparing @Observable to ObservableObjects](https://www.donnywals.com/comparing-observable-to-observableobjects) — Article · Topics: Observation & State Management · Swift · SwiftUI
   **NeKI brief:** Examines Have you tried Observation framework? in the context of Observation & State Management. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Exploring visionOS: hoverEffect](https://www.rudrank.com/exploring-visionos-hovereffect) — Article · Topics: Graphics, Media & Games · Spatial Computing
+  **NeKI brief:** Explains I am updating my app, Gradient Game for Apple Vision Pro, which looks amazing on a beautiful glass background and a chef kiss interaction when dragging sliders. The goal is to make the interaction with the elements feel Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Create an animated transition with Matched Geometry Effect in SwiftUI](https://www.createwithswift.com/create-an-animated-transition-with-matched-geometry-effect-in-swiftui) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Builds an animated SwiftUI transition with matchedGeometryEffect, linking corresponding elements across view states. Use it to coordinate shared-element motion while checking stable identifiers, namespaces, and layout changes across containers.
 - [RevenueCat's SDK](https://www.revenuecat.com/docs) — Article
@@ -1167,6 +1223,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Explains visionOS volumes as containers for inspectable 3D content viewed from multiple perspectives. Follow it when choosing between windows and volumes and when structuring immersive RealityKit content inside a SwiftUI app.
 - [ScrollView Bounce Behavior configuration in SwiftUI](https://www.avanderlee.com/swiftui/scrollview-bounce-behavior) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Configures ScrollView bounce independently per axis with the modern scrollBounceBehavior modifier. Useful when nested or horizontally paged layouts need controlled elasticity without globally disabling expected scrolling physics.
+- [Scroll transition effects in iOS 17](https://swdevnotes.com/swift/2024/scroll-transition-effects-in-ios-17) — Article · Topics: Swift
+  **NeKI brief:** Explains Apple added scroll transition effects in iOS 17 that allow items behavior to be animated as they scroll into and out of view. There are a number of attributes that can be modified such as size, visibility as well as rota Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [RevenueCat's SDK](https://www.revenuecat.com/docs) — Article
   **NeKI brief:** RevenueCat's SDK documentation describes configuring products, purchases, entitlements, and customer subscription state in an app. Follow it when prototyping StoreKit-backed subscriptions, while checking platform versions, receipt behavior, and current App Store rules before shipping.
 
@@ -1181,6 +1239,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Lazy grids, launch-state modeling, one-way bindings, and SwiftUI composition patterns cover scalable collection screens. Follow it to choose grid containers deliberately and keep startup transitions and child data flow predictable.
 
 **Selected links:**
+- [Unfuddling the SwiftUI Alignment Guide API](https://benscheirman.com/2024/01/swiftui-alignment-guide.html) — Article · Topics: Code Quality · Swift · SwiftUI
+  **NeKI brief:** Clarifies SwiftUI's alignment-guide API and the mental model behind custom alignment. Useful when nested layout requirements make default stacks insufficient and alignment closures otherwise become trial and error.
+- [SwiftUI LazyVGrid & LazyHGrid: Implementing Grid Collection Views](https://www.swiftyplace.com/blog/swiftui-lazyvgrid-and-lazyhgrid) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains Diving into SwiftUI’s LazyVGrid and LazyHGrid, you can create intricate grid layouts that are both efficient and visually appealing. Unlike a typical grid view, LazyVGrid and LazyHGrid offer more dynamic and flexible way Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [An Approach to Handling App Launch States in SwiftUI](https://scottsmithdev.com/an-approach-to-handling-app-launch-states-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains Let's explore how we can show specific Views for different launch states while your SwiftUI app is opening & loading up. Giving users an awesome experience every time, and making your code super easy to maintain and foll Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [SwiftUI State monitoring](https://blog.thomasdurand.fr/story/2023-10-21-how-not-to-monitor-swiftui-state) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Examines How (not) to monitor SwiftUI @State in the context of Observation & State Management and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 
@@ -1197,6 +1261,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Explores Asynchronous SwiftUI buttons with concrete Swift concurrency examples. Follow it to reason about isolation, cancellation, and Sendable boundaries, then verify availability and diagnostics against current Swift documentation.
 - [@Observable Macro performance increase over ObservableObject](https://www.avanderlee.com/swiftui/observable-macro-performance-increase-observableobject) — Article · Topics: Macros & Metaprogramming · Observation & State Management · Performance
   **NeKI brief:** Compares the Observation framework's @Observable macro with ObservableObject, focusing on property-level tracking and view invalidation. The measurements and migration examples explain why fewer unnecessary updates can improve SwiftUI performance.
+- [Is MVVM Dead in SwiftUI?](https://azamsharp.com/2024/01/09/is-mvvm-dead-in-swiftui.html) — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
+  **NeKI brief:** Examines whether conventional MVVM adds value in SwiftUI and argues for simpler placement of view-specific logic. Useful as an architecture trade-off discussion when deciding how much indirection a SwiftUI feature actually needs.
 - [Perception: A back-port of @Observable](https://www.pointfree.co/blog/posts/129-perception-a-back-port-of-observable) — Article · Topics: Observation & State Management · Swift
   **NeKI brief:** Introduces Perception as a back-port of Swift Observation for older deployment targets. Useful when sharing observation-based SwiftUI architecture before the application can require iOS 17.
 
@@ -1211,6 +1277,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [SwiftUI Binding Tips](https://chris.eidhof.nl/post/swiftui-binding-tricks) — Article · Topics: Observation & State Management · Swift · SwiftUI
   **NeKI brief:** Shows how dynamic member lookup and small transformations can make SwiftUI bindings easier to adapt. Use it when deriving focused bindings such as an inverted Boolean without repetitive closure code.
+- [Using Identifiable in SwiftUI](https://blog.eidinger.info/using-identifiable-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains Identifiable and ObjectIdentifier through SwiftUI List examples. Useful for reasoning about stable identity, diffing, and row updates when presenting reference-backed model objects in collections.
 - [RevenueCat's SDK](https://www.revenuecat.com/docs) — Article
   **NeKI brief:** RevenueCat's SDK documentation describes configuring products, purchases, entitlements, and customer subscription state in an app. Follow it when prototyping StoreKit-backed subscriptions, while checking platform versions, receipt behavior, and current App Store rules before shipping.
 
@@ -1305,6 +1373,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Reading
 
 **Selected links:**
+- [Interactive pie chart in SwiftUI](https://augmentedcode.io/2023/10/30/interactive-pie-chart-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Builds an interactive Swift Charts pie chart whose selected SectorMark changes visual emphasis. Useful for connecting chart selection state to focused visual feedback in data-driven SwiftUI interfaces.
 - [Backport SwiftUI modifiers](https://alejandromp.com/blog/backport-swiftui-modifiers) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Presents a concrete implementation of Backport SwiftUI modifiers. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
 - [Advanced SwiftUI Animations – Part 7: PhaseAnimator](https://swiftui-lab.com/swiftui-animations-part7) — Article · Topics: Swift · SwiftUI
@@ -1325,6 +1395,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Compares SwiftUI ContentUnavailableView with UIKit’s UIContentUnavailableConfiguration, showing how labels, descriptions, actions, and state-driven updates produce consistent empty, error, and no-results screens.
 - [How (not) to monitor SwiftUI @State](https://blog.thomasdurand.fr/story/2023-10-21-how-not-to-monitor-swiftui-state) — Article · Topics: Observation & State Management · Swift · SwiftUI
   **NeKI brief:** Examines How (not) to monitor SwiftUI @State in the context of Observation & State Management and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Tap Gesture vs Button](https://david.y4ng.fr/tap-gesture-vs-button) — Article · Topics: Swift · SwiftUI · UIKit
+  **NeKI brief:** Compares tap gestures with Button for SwiftUI interaction and explains why the semantic control is usually the better choice. Useful when balancing gesture composition, accessibility, hit testing, and action behavior.
 - [Apple’s use of Swift and SwiftUI in iOS 17](https://blog.timac.org/2023/1019-state-of-swift-and-swiftui-ios17) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Reviews Swift and SwiftUI changes around iOS 17 with implementation context. Use it to orient migration work and identify which new APIs affect deployment targets or existing view architecture.
 
@@ -1373,6 +1445,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Reading · Videos
 
 **Selected links:**
+- [The Future of Accessing User Location in SwiftUI](https://holyswift.app/the-new-way-to-get-current-user-location-in-swiftu-tutorial) — Tutorial · Topics: Concurrency · Swift · SwiftUI
+  **NeKI brief:** Explains Apple “recently” launched the async/await and a lot of old APIs are migrating to this new way of receiving asynchronous updates. Apple then released the AsyncSequence which is a way to continuously listen to an async str Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [RevenueCat](https://www.revenuecat.com/docs) — Article
   **NeKI brief:** RevenueCat's SDK documentation describes configuring products, purchases, entitlements, and customer subscription state in an app. Follow it when prototyping StoreKit-backed subscriptions, while checking platform versions, receipt behavior, and current App Store rules before shipping.
 
@@ -1404,6 +1478,14 @@ Third-party source index. It provides source attribution and routing metadata, n
 
 **NeKI brief:** Widget container backgrounds, macOS help menus, StateObject versus ObservedObject, and keyboard types address platform integration and ownership. The issue helps prevent model recreation while tuning input behavior across Apple platforms.
 
+**Selected links:**
+- [Discovering All SwiftUI TextField Keyboard Types](https://holyswift.app/discovering-all-swiftui-textfield-keyboard-types) — Article · Topics: Hardware & Devices · Swift · SwiftUI
+  **NeKI brief:** Explains You are using SwiftUI in your new app and you need to choose the right keyboard for your TextField. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [Adding a Help Menu to a SwiftUI App](https://www.swiftdevjournal.com/adding-a-help-menu-to-a-swiftui-app) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains When you create and run a SwiftUI Mac app project, the Help menu has a menu item named AppName Help, where AppName is the name of your app. If you choose that menu item, an alert opens saying help isn’t available for the Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [Understanding Container Background for Widget in iOS 17](https://swiftsenpai.com/development/widget-container-background) — Article · Topics: Swift
+  **NeKI brief:** Explains In the upcoming iOS 17 update, Apple once again expanded the use of widgets, making them available in more places, including the iPad lock screen and iPhone standby mode. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+
 ## [SwiftUI Weekly - Issue #159](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-159)
 
 - Published: `2023-09-11T10:23:27.802Z`
@@ -1415,6 +1497,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [SwiftUI Sensory Feedback](https://useyourloaf.com/blog/swiftui-sensory-feedback) — Article · Topics: Swift · SwiftUI · UIKit
   **NeKI brief:** Demonstrates SwiftUI sensory feedback and its trigger conditions for haptic responses. Useful for tying feedback to meaningful state transitions while respecting platform availability.
+- [Animating with PhaseAnimator in SwiftUI](https://augmentedcode.io/2023/09/04/animating-with-phaseanimator-in-swiftui) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **NeKI brief:** Introduces PhaseAnimator for driving a view through a sequence of animation phases. Useful when an interaction needs repeatable multi-step motion with phase-specific values rather than one undifferentiated animation.
 
 ## [SwiftUI Weekly - Issue #158](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-158)
 
@@ -1429,6 +1513,10 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Presents a concrete implementation of Enabling drag reordering in SwiftUI lazy grids and stacks. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
 - [How To Visualize The Safe Area](https://chris.eidhof.nl/post/visualize-swiftui-safe-area) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Shows a visual technique for revealing SwiftUI safe-area boundaries and the effect of ignoring them. Use it when diagnosing why a view does or does not extend to screen edges.
+- [Exploring the new Preview Macro with SwiftUI and UIKit](https://holyswift.app/exploring-the-new-preview-macro-with-swiftui-and-uikit) — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
+  **NeKI brief:** Explains Imagine that you have several view configurations and you want to know how they look in very specific scenarios. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [Showing a SwiftUI sheet from a Mac Menu](https://www.swiftdevjournal.com/showing-a-swiftui-sheet-from-a-mac-menu) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains Most articles on showing sheets in SwiftUI apps show an example of a button with a .sheet modifier that shows the sheet. But if you try to apply the example to a menu in a Mac app. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #157](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-157)
 
@@ -1439,6 +1527,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Reading · Videos
 
 **NeKI brief:** StoreKit 2 SubscriptionStoreView, paginated Lists, MapKit integration, and iOS 17 ScrollView changes form a practical feature set. Research it when building subscription surfaces or large, map-backed collections with modern SwiftUI APIs.
+
+**Selected links:**
+- [How to implement pagination with SwiftUI's List view](https://tanaschita.com/20230828-pagination-in-swiftui-list) — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **NeKI brief:** Explains Pagination is a common technique when displaying a large set of data in lists or grids allowing users to navigate through the data efficiently. By loading and rendering a limited number of items at a time, pagination min Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #156](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-156)
 
@@ -1451,6 +1543,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Building a searchable map with SwiftUI and MapKit](https://www.polpiella.dev/mapkit-and-swiftui-searchable-map) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
   **NeKI brief:** Builds a searchable map component with MapKit and SwiftUI's iOS 17 APIs, connecting query results to map annotations. Useful for prototyping location search while evaluating state flow, selection, and map camera updates.
+- [Push Notifications in SwiftUI](https://alexanderweiss.dev/blog/2023-08-13-push-notification-in-swiftui) — Article · Topics: App Services & Extensions · Swift · SwiftUI
+  **NeKI brief:** Walks through integrating push-notification handling in an otherwise pure SwiftUI application. Useful for connecting authorization, device registration, and notification delivery to an app's SwiftUI lifecycle.
+- [Examples of animating SF symbols in SwiftUI](https://augmentedcode.io/2023/08/21/examples-of-animating-sf-symbols-in-swiftui) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **NeKI brief:** Demonstrates the SF Symbols animation presets introduced for SwiftUI, including appearance, emphasis, and replacement effects. Useful when choosing a semantic symbol animation that communicates state without custom artwork.
 
 ## [SwiftUI Weekly - Issue #155](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-155)
 
@@ -1463,6 +1559,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Delightful SwiftUI image drag & drop for a macOS app](https://www.polpiella.dev/qreate-drag-and-drop) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Implements native image drag-and-drop for a macOS SwiftUI app, handling dropped data and integrating it into an editing workflow. Useful when designing desktop interactions that accept Finder assets without custom pasteboard plumbing.
+- [Adaptative Views That Fit Anywhere in SwiftUI](https://holyswift.app/adaptative-views-that-fit-anywhere-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains You are given a layout that has a view that needs to behave differently depending on the frame it was inserted. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #154](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-154)
 
@@ -1477,6 +1575,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Applies a simple Metal shader to SwiftUI text using the shader-related view modifiers introduced with WWDC 2023. A compact first example for learning how ShaderLibrary effects connect SwiftUI views to custom Metal code.
 - [MapKit for SwiftUI](https://useyourloaf.com/blog/mapkit-for-swiftui) — Article · Topics: Maps & Location · Swift · SwiftUI
   **NeKI brief:** Surveys the more SwiftUI-friendly MapKit API introduced in iOS 17, including map content and interaction configuration. Useful when replacing representable-based maps and checking which camera or annotation behaviors are now declarative.
+- [Migrating to the Observation framework in SwiftUI](https://tanaschita.com/20230807-migrating-to-observation) — Article · Topics: Apple Platform Ecosystem · Macros & Metaprogramming · Swift
+  **NeKI brief:** Explains Introduced at WWDC23, Observation is a new Swift framework for tracking changes of properties. It uses the new macro system in Swift to transform Swift types to observable objects. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [ContentUnavailableView in SwiftUI](https://sarunw.com/posts/content-unavailable-view-in-swiftui) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Introduces ContentUnavailableView for representing empty or unavailable states in SwiftUI on iOS 17. Useful for standardizing search, loading-failure, and no-content screens with system-consistent messaging and actions.
 
@@ -1497,6 +1597,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** The Composable Architecture structures feature state, actions, reducers, dependencies, and tests around explicit unidirectional flow. Use the repository and migration material to evaluate operational trade-offs before adopting or upgrading TCA in a production app.
 - [SwiftData Saving Changes](https://useyourloaf.com/blog/swiftdata-saving-changes) — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **NeKI brief:** Explains when SwiftData persists model mutations and how explicit saves interact with the model context. Useful for avoiding assumptions about durability after background or lifecycle-driven updates.
+- [Animating Carrousel Transitions in SwiftUI](https://holyswift.app/animating-carrousel-transitions-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains You were asked to create a carrousel where views transition very smoothly between each other. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #152](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-152)
 
@@ -1507,6 +1609,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Reading · Videos
 
 **NeKI brief:** Swift Charts selection, push-notification options, NavigationStack hero animation, and a Thread-inspired interface connect data visualization with navigation. Use it to study selection state and animated transitions without coupling screens to imperative callbacks.
+
+**Selected links:**
+- [Push Notifications Options in SwiftUI](https://holyswift.app/push-notifications-options-in-swiftui) — Article · Topics: App Services & Extensions · Swift · SwiftUI
+  **NeKI brief:** Explains You want to know all the push notification options types in the iOS environment and how to use them with SwiftUI. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [Thread's iOS Interface in SwiftUI](https://www.swiftjectivec.com/meta-threads-ios-interface-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains In my previous snip, I used a cheeky Threads knockoff interface to demonstrate the subject matter. It occurred to me how crazy it is that I could even do this. SwiftUI has done away with so much work that used to be perv Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #151](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-151)
 
@@ -1537,6 +1645,14 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Reading · Code · Videos
 
 **Selected links:**
+- [swift-unidirectional-flow](https://github.com/mecid/swift-unidirectional-flow) — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **NeKI brief:** Explains Unidirectional flow implemented using the latest Swift Generics and Swift Concurrency features. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [How to create a custom reusable toolbar in SwiftUI](https://tanaschita.com/20230703-reusable-toolbar-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains Learn how to abstract a SwiftUI toolbar into a component. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [Hotfixing widgets for iOS 17: containerBackground + padding](https://nemecek.be/blog/192/hotfixing-widgets-for-ios-17-containerbackground-padding) — Article · Topics: Xcode
+  **NeKI brief:** Explains If you built your app that has Home Screen widgets with Xcode 15 you might notice they are broken now. Apple has introduced some big changes to widgets that you need to take into account. One issue is that instead of you Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [Difference Between Implicit and Explicit Animations in SwiftUI](https://holyswift.app/difference-between-implicit-and-explicit-animations-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains You are trying to animate a view but some parts keep jumping around while other animate correctly. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Migrating to Observable](https://useyourloaf.com/blog/migrating-to-observable) — Article
   **NeKI brief:** Presents a focused migration from ObservableObject to the Observation framework's @Observable model. Useful for identifying property-wrapper and ownership changes in an incremental SwiftUI modernization.
 
@@ -1615,6 +1731,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [What’s new in Swift 5.9?](https://www.hackingwithswift.com/articles/258/whats-new-in-swift-5-9) — Article · Topics: Concurrency · Macros & Metaprogramming · Swift
   **NeKI brief:** Summarizes Swift 5.9 features including macros and parameter packs with migration context. Useful as a language-version index before adopting individual syntax in production code.
+- [An Introduction to Grids in SwiftUI](https://cctplus.dev/an-introduction-to-grids-in-swiftui) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **NeKI brief:** Introduces SwiftUI grids as adaptive layout primitives for dynamic content and changing device sizes. Useful when a collection needs responsive rows and columns instead of a manually composed stack layout.
 - [Using compositing group for unifying shapes within buttons in SwiftUI](https://nilcoalescing.com/blog/CompositingGroupInButtons) — Article · Topics: App Distribution & Store Operations · Objective-C & Cocoa · Swift
   **NeKI brief:** Explains how compositingGroup changes rendering and hit behavior in styled SwiftUI buttons. Useful when effects, masks, and backgrounds produce unexpected visual or interaction results.
 - [Glassfy](https://eu1.hubs.ly/H01-5vC0) — Article
@@ -1649,6 +1767,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Using Layout protocol to align explicitly positioned views in SwiftUI](https://nilcoalescing.com/blog/AnchoredPositionInSwiftUI) — Tutorial · Topics: Swift · SwiftUI
   **NeKI brief:** Demonstrates anchored positioning for placing SwiftUI content relative to a point or anchor. Useful for overlays and callouts that should follow layout geometry without manual offsets.
+- [This Window Is Leaking](https://byla.lt/posts/this-window-is-leaking) — Article · Topics: macOS & AppKit · Swift · SwiftUI
+  **NeKI brief:** Diagnoses a macOS SwiftUI window leak caused by replacing an NSWindowDelegate without restoring the original delegate. Useful when bridging AppKit window customization into SwiftUI and tracking lifecycle ownership.
 - [Glassfy](https://eu1.hubs.ly/H01-5vC0) — Article
   **NeKI brief:** Links to Glassfy's service for managing in-app purchases, paywalls, and backend subscription work. Useful as a product integration lead when comparing hosted monetization infrastructure, SDK coverage, and vendor dependency against StoreKit-first designs.
 
@@ -1683,6 +1803,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Export SwiftUI views as images in macOS](https://www.polpiella.dev/how-to-save-swiftui-views-as-images-in-macos) — Article · Topics: macOS & AppKit · Swift · SwiftUI
   **NeKI brief:** Shows exporting SwiftUI views as images on macOS, using a QR-code editing workflow as the concrete case. Useful for implementing reliable snapshot export while separating rendering configuration from file-writing concerns.
+- [Tips and Tricks for Using ContainerRelativeShape in SwiftUI](https://holyswift.app/containerrelativeshape-swiftui-tutorial) — Tutorial · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains Imagine that your designer wants you to design a component that has several rounded corner layers. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [SwiftUI Open and Save Panels](https://www.swiftdevjournal.com/swiftui-open-and-save-panels) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains SwiftUI has .fileImporter and .fileExporter modifiers to let people choose files to open and save. Apply the modifier to a SwiftUI view, such as a button or a menu item. The .fileImporter and .fileExporter modifiers are Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #140](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-140)
 
@@ -1715,6 +1839,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [SwiftUI Form Styling](https://sarunw.com/posts/swiftui-form-styling) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Shows how SwiftUI Form styling follows the platform’s List behavior: use tint and foregroundColor for controls, hide the scroll background before applying a custom color, and put listRowBackground on sections or row content rather than the Form itself.
+- [Swift Concurrency Quick Start](https://dev.srdanstanic.com/swift-concurrency-quick-start) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Provides a condensed entry point into Swift concurrency concepts for developers starting with async work. Useful for orienting task, async/await, and structured-concurrency terminology before deeper production design.
 
 ## [SwiftUI Weekly - Issue #138](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-138)
 
@@ -1737,6 +1863,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** News · Reading · Videos
 
 **Selected links:**
+- [SwiftUI rendering pitfalls](https://swiftunwrap.com/article/swiftui-rendering-pitfalls) — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **NeKI brief:** Explains Mastering SwiftUI rendering cycle is not easy and it's common to face issues with it such as having your views rendering too often or not rendering at all while some state changed. In this article we'll focus on the seco Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Swift 5.8 Released!](https://www.swift.org/blog/swift-5.8-released) — Article · Topics: Swift
   **NeKI brief:** Presents a concrete implementation of Swift 5.8 Released!. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
 
@@ -1751,6 +1879,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Can ChatGPT write better SwiftUI code than you?](https://www.youtube.com/watch?v=dxxCPdcMcFw) — Video · Topics: Graphics, Media & Games · Swift · SwiftUI
   **NeKI brief:** Explores Can ChatGPT write better SwiftUI code than you?, focusing on there are a great many blog posts and youtube videos. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [From Concept to Code: Strategies for Planning Animations in SwiftUI](https://holyswift.app/animating-masks-in-swiftui-creating-a-old-school-tv-turn-off-animation) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains In this section, we’ll dive into what is the process that I use to create my own animations. Is this the best? For sure it is not, but it works for me. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [How Blither uses the coordinator pattern and SwiftUI together](http://chesstris.com/2023/03/23/how-blither-uses-the-coordinator-pattern-and-swiftui-together) — Article · Topics: Graphics, Media & Games · Navigation & Deep Linking · Swift
+  **NeKI brief:** Shows how a coordinator can keep SwiftUI game screens focused by moving navigation and supporting-screen flow out of the view. Useful when a small app needs clearer separation without introducing a heavy architecture.
 - [Using foregroundColor(), foregroundStyle() or tint() to set text color in SwiftUI](https://nilcoalescing.com/blog/ForegroundColorStyleAndTintInSwiftUI) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Compares SwiftUI's `foregroundStyle`, `foregroundColor`, `tint`, AttributedString attributes, and text-rendering options. Use it when choosing between semantic hierarchy, control accenting, gradients, and advanced per-run text styling.
 
@@ -1763,8 +1895,16 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Reading · Videos
 
 **Selected links:**
+- [SwiftUI Toolbar: Everything You Need to Know](https://holyswift.app/how-to-create-toolbar-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains In this article, we will explore a lot about the SwiftUI Toolbar API. The toolbar is very very important for SwiftUI navigation and not only navigation but also static views. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Handling status bar color scheme and visibility in SwiftUI](https://danielsaidi.com/blog/2023/03/14/handling-status-bar-color-scheme-and-visibility-in-swiftui) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Presents a concrete implementation of Handling status bar color scheme and visibility in SwiftUI. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
+- [offset tracking](https://danielsaidi.com/blog/2023/02/06/adding-scroll-offset-tracking-to-a-swiftui-scroll-view) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains how to observe and propagate a SwiftUI scroll view's offset for custom layout behavior. Useful when headers, toolbars, or effects need scroll-position information that the standard container does not expose directly.
+- [sticky](https://danielsaidi.com/blog/2023/02/09/adding-a-sticky-header-to-a-swiftui-scroll-view) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Builds a sticky-header effect for a SwiftUI scroll view by combining scroll offset information with view positioning. Useful for sectioned content that must retain contextual controls while the user scrolls.
+- [Blendmode trick: SwiftUI reverse mask](https://www.magnuskahr.dk/posts/2023/03/blendmode-trick-swiftui-reverse-mask) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains SwiftUI has the mask(alignment:_:) modifier that masks the view using the alpha channel of the given view. The reverse function is not part of SwiftUI though, but can easely be made using a blendmode trick. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 
 ## [SwiftUI Weekly - Issue #135 · 2023-03-13](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-135)
 
@@ -1777,6 +1917,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [SwiftUI Tables Quick Guide](https://useyourloaf.com/blog/swiftui-tables-quick-guide) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** A practical Table guide covering Identifiable rows, column key paths, single or multiple selection, and KeyPathComparator sorting. It also flags platform caveats: tables suit macOS and iPadOS, while compact iPhone layouts collapse toward a list.
+- [How to Change the Background Color of Navigation Bars in all iOS versions?](https://holyswift.app/how-to-change-the-background-color-of-navigation-bars-in-all-ios-versions) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains Today we will explore how to customize the navigation bar in SwiftUI. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [Downloading Data in SwiftUI with URLSession and async/await](https://matteomanferdini.com/swift-urlsession) — Article · Topics: Concurrency · Networking · Swift
+  **NeKI brief:** Explains Many modern iOS apps are connected to the internet. When you need to download or upload data, URLSession is the solution. Together with other types, URLSession not only transfers data over a network but also groups trans Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [What's new in Swift 5.8](https://www.hackingwithswift.com/articles/256/whats-new-in-swift-5-8) — Article · Topics: Swift
   **NeKI brief:** Surveys Swift 5.8 language and tooling changes, including macros groundwork and compiler behavior. Follow it as historical migration context when maintaining packages across Swift 5.x toolchains.
 
@@ -1791,6 +1935,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [Building Large-Scale Apps with SwiftUI: A Guide to Modular Architecture](https://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html) — Article · Topics: Architecture · Swift · SwiftUI
   **NeKI brief:** Explores Building Large Scale Apps with SwiftUI, focusing on i’m not going to try to summarise this post from. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Setting Up Different Environments in SwiftUI: Command Line Arguments and Build Configurations](https://holyswift.app/best-ways-to-set-up-environment-in-swiftui) — Article · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Explains Imagine you have a project that need to setup different configurations, base URL, config files etc, for different environments. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [The difference between List and LazyVStack](https://dimillian.medium.com/swiftui-the-difference-between-list-and-lazyvstack-3d5eeaccb156) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
   **NeKI brief:** Compares List with LazyVStack through the rendering, scrolling, and interaction behaviour that makes them different despite similar output. Follow it before replacing one with the other in a performance-sensitive screen or a layout needing list-specific capabilities.
 - [SwiftUI's .task modifier](https://alexanderweiss.dev/blog/2023-03-05-swiftui-task-modifier) — Article · Topics: Swift · SwiftUI
@@ -1807,6 +1953,10 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [SwiftUI views versus modifiers](https://www.swiftbysundell.com/articles/swiftui-views-versus-modifiers) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Compares extracting SwiftUI behavior as a View versus a ViewModifier. Both can structure, style, and own state; the useful deciding question is conceptual hierarchy—use modifiers when the change is styling, not a new structural component.
+- [Creating Animations with SwiftUI’s Mask View Modifier](https://holyswift.app/how-to-use-mask-in-swiftui-with-animation) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains We will explore the Mask API, which is really straightforward because has only one parameter. Then we will create a simple example just applying opacity to a view, then we will explore how we can use a mask to create cus Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
+- [Keyframe animations in SwiftUI](https://arturgruchala.com/key-frame-animations-in-swiftui) — Article · Topics: Swift · SwiftUI · UIKit
+  **NeKI brief:** Explains how SwiftUI keyframe animations can express staged motion when ordinary implicit animation is too limited. Useful for evaluating animation timing and sequencing without falling back to UIKit animation machinery.
 - [Arbitrary SwiftUI Linear Gradient Rotation](https://www.david-smith.org/blog/2023/02/22/design-notes-24) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Works through rotating a SwiftUI linear gradient at arbitrary angles without relying on an oversized rotated layer. It is a focused rendering technique for gradients that need predictable geometry, smooth animation, and less accidental clipping.
 
@@ -1827,6 +1977,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Reads keyboard modifier flags in SwiftUI commands and gestures. Useful for macOS and iPad keyboard workflows where the same action changes with Command, Option, Shift, or Control.
 - [What's new in Xcode 14.3 and iOS 16.4](https://sarunw.com/posts/whats-new-in-xcode-14_3-and-ios-16_4) — Article · Topics: Xcode
   **NeKI brief:** Summarizes Xcode 14.3 and iOS 16.4 changes relevant to SwiftUI development. Useful as a versioned route into SDK additions and toolchain behavior when maintaining older deployment targets.
+- [The Art of Sequential Animations in SwiftUI: Tips, Tricks, and Examples](https://holyswift.app/how-to-do-sequential-animations-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains You want to animate your view sequentialy. First one, view then, another one and then the final one. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [The making of Ice Cubes, an open source, SwiftUI Mastodon client.](https://dimillian.medium.com/the-making-of-ice-cubes-an-open-source-swiftui-mastodon-client-45ebea5cf6b6) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Presents a concrete implementation of The making of Ice Cubes, an open source, SwiftUI Mastodon client. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
 
@@ -1839,10 +1991,16 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Reading · Videos
 
 **Selected links:**
+- [Adding a stretchable and sticky header to a SwiftUI ScrollView](https://danielsaidi.com/blog/2023/02/09/adding-a-sticky-header-to-a-swiftui-scroll-view) — Article · Topics: Combine & Reactive Programming · Swift · SwiftUI
+  **NeKI brief:** Builds a sticky-header effect for a SwiftUI scroll view by combining scroll offset information with view positioning. Useful for sectioned content that must retain contextual controls while the user scrolls.
 - [SwiftUI Environment Tips](https://chris.eidhof.nl/post/swiftui-environment-tips) — Tutorial · Topics: Swift · SwiftUI
   **NeKI brief:** Examines SwiftUI environment design with attention to precise dependency tracking and avoiding unnecessary updates. Use it when passing shared styles or configuration through a view tree.
+- [A Beginner’s Guide to Styling Components in SwiftUI](https://holyswift.app/a-beginners-guide-to-styling-components-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains Hallo vrienden en collega’s, Leo hier. Today we will learn the best way to styling components in SwiftUI, especially with ButtonStyle. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Timer in SwiftUI](https://sarunw.com/posts/timer-in-swiftui) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Explains periodic SwiftUI work with Timer.publish and onReceive, including main-run-loop scheduling and autoconnect. Cancellation stops the upstream connection; resuming requires recreating the published timer, typically by storing it in State.
+- [SwiftUI Multi-data type chart](https://paulpeelen.com/MultiTypeChart) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains In iOS 16 Apple introduced Swift Charts, which makes generating beautiful charts both quick and easy. Although creating a line chart in Swift Charts using SwiftUI is not all to difficult, making one with two different da Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Build for free today](https://eu1.hubs.ly/H01-5vC0) — Article
   **NeKI brief:** Links to Glassfy's service for managing in-app purchases, paywalls, and backend subscription work. Useful as a product integration lead when comparing hosted monetization infrastructure, SDK coverage, and vendor dependency against StoreKit-first designs.
 
@@ -1881,6 +2039,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Reports production SwiftUI performance problems and the remedies used to diagnose them. Useful as a field-tested checklist for investigating rendering cost, navigation behavior, and architectural friction beyond small sample projects.
 - [Container Pattern in SwiftUI](https://azamsharp.com/2023/01/24/introduction-to-container-pattern.html) — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **NeKI brief:** Introduces the SwiftUI container pattern for separating screen composition from data-loading and coordination responsibilities. Useful when extracting feature-level dependencies without turning view bodies into implicit service locators.
+- [Search](https://kean.blog/post/pulse-search) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **NeKI brief:** Explains Starting with iOS 15, SwiftUI supports search thanks to the new .searchable modifier. It was also extended with the support for tokens in iOS 16 which was exactly what I was waiting for. For me, it was a perfect opportun Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Modern SwiftUI](https://www.pointfree.co/blog/posts/99-modern-swiftui) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Presents a modern SwiftUI architecture built around state, bindings, and composition rather than imperative view controllers. Useful as a conceptual reference when simplifying older SwiftUI code.
 - [The Nested Observables Problem in SwiftUI](https://holyswift.app/how-to-solve-observable-object-problem) — Article · Topics: Swift · SwiftUI
@@ -1899,6 +2059,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Selected links:**
 - [How to use SwiftUI in Storyboard using UIHostingController subclass](https://sarunw.com/posts/swiftui-view-in-uikit-using-uihostingcontroller-subclass) — Article · Topics: Swift · SwiftUI · UIKit
   **NeKI brief:** Shows a custom UIHostingController subclass for placing SwiftUI in storyboard positions where IBSegueAction is unavailable, such as an initial controller, navigation root, or tab. The subclass fixes its generic root view and implements init(coder:).
+- [How to create Sound Wave Animation with TimelineView and Canvas in SwiftUI](https://holyswift.app/how-to-create-animation-with-swiftui-canvas-timelineview) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains The TimelineView is very straightforward and a great addition to iOS 15, it is just a view that updates according to a preset scheduler that you can provide. This scheduler can be fixed dates in the future, or a simple a Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Swift Package String Localization](https://useyourloaf.com/blog/swift-package-string-localization) — Article · Topics: Localization · Swift · Swift Package Manager
   **NeKI brief:** Recaps Swift Package localization requirements: use Swift tools 5.3 or newer, declare defaultLocalization, add each language’s .lproj resources under the target, and load keys from Bundle.module. Mixed app/package locales may require CFBundleAllowMixedLocalizations.
 - [Modern SwiftUI: Parent-child communication](https://www.pointfree.co/blog/posts/94-modern-swiftui-parent-child-communication) — Article · Topics: Swift · SwiftUI
@@ -1915,6 +2077,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Reading · Video
 
 **Selected links:**
+- [5 Techniques to Effortlessly Send Data from UIKit to SwiftUI](https://holyswift.app/best-way-to-send-data-from-uikit-to-swiftui) — Article · Topics: Swift · SwiftUI · UIKit
+  **NeKI brief:** Explains Hallo vrienden en vijanden, Leo hier. Today we will explore something important while migrating to SwiftUI with a previous UIKit code base, which is how to send data from UIKit to SwiftUI. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [How to Hide Navigation bar in SwiftUI](https://sarunw.com/posts/hide-navigation-bar-in-swiftui) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Explains hiding SwiftUI navigation bars per destination. Older code uses navigationBarHidden; iOS 16 replaces it with toolbar(.hidden, for: .navigationBar). The modifier belongs on the content view, and pushed destinations need their own policy.
 - [Understanding basic animations in SwiftUI](https://tanaschita.com/20230116-animations-in-swiftui) — Article · Topics: Swift · SwiftUI
@@ -1938,7 +2102,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [How to change SwiftUI Button Size](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3NhcnVudy5jb20vcG9zdHMvc3dpZnR1aS1idXR0b24tc2l6ZS8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiJjZmM5ZTE2MC02YWY1LTRlMWUtOGI1OS0zZGNmZmRkNTVhYmQiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiMDU5Zjc1ZDEtOGJlYy00ZGY3LWEwMzAtMjQ1NTIzYWE3Y2I1IiwiaWF0IjoxNjc0MDYyNTU2LjgyMSwiaXNzIjoib3JjaGlkIn0.KG-o2QTt9nJ6oOZfi5U1rzqI3hFdw3vrr1eim6rJHS8) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Controls SwiftUI button sizing through labels, frames, and styles, clarifying which layer should own hit-target expansion versus visual dimensions.
 - [Spot the differences, merge in seconds](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL2thbGVpZG9zY29wZS5hcHAvP3V0bV9jYW1wYWlnbj0lMjBTd2lmdFVJJTIwV2Vla2x5JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1SZXZ1ZSUyMG5ld3NsZXR0ZXIiLCJwb3N0X2lkIjoiY2ZjOWUxNjAtNmFmNS00ZTFlLThiNTktM2RjZmZkZDU1YWJkIiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6IjA1OWY3NWQxLThiZWMtNGRmNy1hMDMwLTI0NTUyM2FhN2NiNSIsImlhdCI6MTY3NDA2MjU1Ni44MjEsImlzcyI6Im9yY2hpZCJ9.S7BcU-pcGYFSQyo6yYRrC_9wF3kwo5_D-bQzQz_0ae8) — Article · Topics: Product Design · Swift · SwiftUI
-  **NeKI brief:** Presents Kaleidoscope, a visual diff and merge application for comparing files and folders. It is useful when reviewing SwiftUI snapshot changes or generated project assets, making unintended visual or textual regressions easier to isolate.
+  **NeKI brief:** Kaleidoscope compares files and folders with visual diffs and merge tools. Follow it for a concrete code-review and change-inspection workflow, while checking repository, encoding, and conflict-resolution behavior.
 
 ## [SwiftUI Weekly - Issue #125](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-125)
 

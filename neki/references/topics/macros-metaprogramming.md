@@ -4,11 +4,17 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Macros, compiler plugins, generated code, and metaprogramming techniques.
 
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed links shown: **156**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **167**
 
 ## Direct-source reading
 
+- [Private properties no longer break the memberwise initializer in Swift 6.4 | Sarunw](https://sarunw.com/posts/exclude-private-properties-from-memberwise-initializer) — Sarunw · article catalogue
+  **Published:** `2026-08-27`
+  **NeKI brief:** Explains SE-0502’s Swift 6.4 change that excludes initialized private stored properties from a synthesized memberwise initializer. It also identifies extension initializer collisions and the macro/property-wrapper motivation, helping teams plan source-compatible migration.
+- [How to declare a memberwise initializer in a Swift extension | Sarunw](https://sarunw.com/posts/same-file-memberwise-initializer-extensions) — Sarunw · article catalogue
+  **Published:** `2026-08-25`
+  **NeKI brief:** Walks through SE-0546’s same-file-extension rule for declaring a struct’s memberwise initializer, including which signature replaces the synthesized initializer. Useful for keeping custom construction separate while retaining synthesized ergonomics, but validate availability against the selected Swift language mode.
 - [Swift Metaprogramming: Writing Code that Inspects Itself | Kodeco](https://www.kodeco.com/52631262-swift-metaprogramming-writing-code-that-inspects-itself) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Uses Mirror reflection to inspect Swift values at runtime, then connects that mechanism to reducing repetitive conformance and serialization code. The useful boundary is that reflection can discover structure, but does not replace explicit compile-time guarantees.
@@ -281,9 +287,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
-- [Active ReviewSE-0539Enable Macros to Grant `self` Access for Property Initializers](https://github.com/apple/swift-evolution/blob/main/proposals/0539-self-access-for-property-initializers.md) — SwiftLee Weekly · Issue 335 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
-  **Published:** `2026-08-04T14:04:01.000Z`
+- [Returned For RevisionSE-0539Enable Macros to Grant `self` Access for Property Initializers](https://github.com/apple/swift-evolution/blob/main/proposals/0539-self-access-for-property-initializers.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
+  **Published:** `2026-08-25T14:06:16.000Z`
   **NeKI brief:** Proposal SE-0539 explores allowing attached macros to grant controlled self access during property initialization. Follow it when macro-generated storage needs enclosing-instance context, while checking review status and initialization-safety constraints before relying on the feature.
+- [The State macro in Xcode 27](https://blakecrosley.com/blog/state-macro-xcode-27) — iOS Dev Weekly · Issue 764 — Article · Topics: Macros & Metaprogramming · Performance · Xcode
+  **Published:** `21st August 2026`
+  **NeKI brief:** Audits Xcode 27’s macro-backed `@State` migration, separating source-compatibility build failures from unchanged initialization semantics. It gives concrete search patterns and fixes for declaration-plus-initializer assignments, private memberwise initializers, generic inference, and macro-composition edge cases.
+- [A Change of State](https://www.createchsol.com/blog/2026-08-12-a-change-of-state.html) — Those Who Swift · Issue 280 — Article · Topics: Cross-Platform & Web · Macros & Metaprogramming · Swift
+  **Published:** `2026-08-19T20:31:22.272Z`
+  **NeKI brief:** Discusses a change-of-state problem in a software-development context. The piece is relevant as an engineering design note because state transitions are where UI, persistence, and asynchronous work most often need explicit coordination.
+- [RejectedSE-0533Generating synchronous overloads of `async` functions with a macro](https://github.com/apple/swift-evolution/blob/main/proposals/0533-reasync-macros.md) — SwiftLee Weekly · Issue 323 — Source repository · Topics: Architecture · Concurrency · Swift
+  **Published:** `2026-07-21T14:05:55.000Z`
+  **NeKI brief:** Records RejectedSE-0533Generating synchronous overloads of `async` functions with a macro, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Splitting Large SwiftUI Views in the Apple's way](https://emredegirmenci.substack.com/p/splitting-large-swiftui-views-in) — SwiftUI Weekly · SwiftUI Weekly - Issue #238 — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
   **Published:** `2026-07-13T20:46:02.053Z`
   **NeKI brief:** Explains Apple's own decomposition techniques for splitting large SwiftUI views, including state and builder boundaries. Useful for reducing oversized bodies while keeping data flow explicit, previewable, and understandable to teammates.
@@ -307,7 +322,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Swift 6.2 infers a default actor for otherwise unmarked declarations, reducing annotations but exposing actor-boundary errors in macros and mixed-isolation code. This is useful when auditing migration diagnostics and deciding where explicit isolation remains necessary.
 - [Why Your @Observable Class init() Runs Multiple Times in SwiftUI](https://livsycode.com/swiftui/why-your-observable-class-init-runs-multiple-times-in-swiftui) — SwiftLee Weekly · Issue 312 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2026-02-24T15:08:55.000Z`
-  **NeKI brief:** Investigates why an @Observable class initializer can run repeatedly in SwiftUI. Follow it when diagnosing ownership and identity mistakes, checking observation lifetime, view reconstruction, and the distinction between initialization and persistent model state.
+  **NeKI brief:** Artem explains why a SwiftUI @Observable class’s initializer can run multiple times, how SwiftUI recreates view structs and re-evaluates default @State values, and how to avoid unintended repeated work.
 - [Swon](https://github.com/keeshux/swon) — iOS Dev Tools · iOS Dev Tools: ObjectBox, RIB, Swon — Source repository · Topics: Developer Tools · Foundation & Data Formats · Macros & Metaprogramming
   **Published:** `2025-12-04T17:28:54.311Z`
   **NeKI brief:** SWON uses Swift macros to generate JSON initializers for value types without Codable or Foundation, backed by cJSON and targeting Apple, Linux, Windows, and embedded environments. It is useful when minimizing runtime and framework dependencies in data parsing.
@@ -323,6 +338,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Leo Dion](https://c.im/@leogdion) — iOS Dev Weekly · Issue 729 — Article · Topics: Macros & Metaprogramming · Testing
   **Published:** `3rd October 2025`
   **NeKI brief:** Presents leo dion for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Macrowave](https://macrowave.co/) — iOS Dev Tools · iOS Dev Tools: Kinetics, Simulator Manager, PartialJSON — Article · Topics: Macros & Metaprogramming
+  **Published:** `2025-09-18T19:16:43.486Z`
+  **NeKI brief:** Macrowave is a Mac utility or developer product page. Follow it for the concrete workflow described there, while requiring current documentation before assigning a more specific technical routing brief.
+- [Swift Bharat](https://www.swiftbharat.org/) — iOS Dev Tools · iOS Dev Tools: Kinetics, Simulator Manager, PartialJSON — Article · Topics: Macros & Metaprogramming · Swift
+  **Published:** `2025-09-18T19:16:43.486Z`
+  **NeKI brief:** Swift Bharat is an Apple-platform developer community or resource page. Follow it for concrete Swift learning and community material, while distinguishing editorial resources from event or promotional content.
+- [Discussion on SwiftData’s ModelActor](https://l.fatbobman.com/w0100-04) — Fatbobman’s Swift Weekly · Issue 100 — Article · Topics: Concurrency · Swift · SwiftData
+  **Published:** `2025-09-01T12:03:36.183Z`
+  **NeKI brief:** Examines why SwiftData’s ModelActor can feel surprising and where its isolation model complicates persistence design. Follow it when reviewing actor boundaries, model-container ownership, and concurrency assumptions in SwiftData code.
 - [Swift Macros in the Wild: Building Reusable SwiftUI Views with @expression](https://medium.com/%40wesleymatlock/swift-macros-in-the-wild-building-reusable-swiftui-views-with-expression-99a321b54693) — Those Who Swift · Issue 223 — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
   **Published:** `2025-07-16`
   **NeKI brief:** Examines Swift Macros in the Wild: Building Reusable SwiftUI Views with @expression, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -335,6 +359,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Automatic SwiftUI View Tracing with Swift Macros](https://medium.com/@alexandercohen/how-we-built-a-swift-macro-that-automatically-wraps-any-swiftui-view-no-more-manual-f5761376f923) — SwiftLee Weekly · Issue 274 — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
   **Published:** `2025-06-03T14:11:29.000Z`
   **NeKI brief:** Presents Automatic SwiftUI View Tracing with Swift Macros, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [How SwiftUI Tracks UI Changes With @Observable (Behind the Scenes)](https://www.youtube.com/watch?v=nw3dnrik9vQ) — Those Who Swift · Issue 211 — Video · Topics: Observation & State Management · Swift · SwiftUI
+  **Published:** `2025-04-24`
+  **NeKI brief:** Reviews How SwiftUI Tracks UI Changes With @Observable (Behind the Scenes). Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [Modern URL construction in Swift](https://www.swiftbysundell.com/articles/modern-url-construction-in-swift?ref=createwithswift.com) — Create with Swift · Issue 55 — Article · Topics: Foundation & Data Formats · Swift
   **Published:** `2025-04-04T15:49:40.000Z`
   **NeKI brief:** Builds URLs with modern Foundation components rather than string concatenation. Use it when paths, query items, and percent encoding must remain correct under optional or user-provided values.
@@ -385,10 +412,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Provides the source and change history for new macro-based open-source proof of concept Swift package, relevant to Macros & Metaprogramming and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
 - [Using @DebugDescription in Xcode 16](https://digitalbunker.dev/debug-description-macro-xcode-16?ref=createwithswift.com) — Create with Swift · Issue 23 — Article · Topics: Developer Tools · Macros & Metaprogramming · Xcode
   **Published:** `2024-07-26T15:00:26.000Z`
-  **NeKI brief:** Presents using @debugdescription in xcode 16 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Aryaman shows you how to create clear and informative debug output for your custom types using both the CustomDebugStringConvertible protocol and @DebugDescription macro.
 - [Using @DebugDescription in Xcode 16](https://digitalbunker.dev/debug-description-macro-xcode-16) — iOS Dev Weekly · Issue 671 — Article · Topics: Developer Tools · Macros & Metaprogramming · Xcode
   **Published:** `26th July 2024`
-  **NeKI brief:** Presents using @debugdescription in xcode 16 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Aryaman shows you how to create clear and informative debug output for your custom types using both the CustomDebugStringConvertible protocol and @DebugDescription macro.
 - [Xcode 16’s Entry macro](https://www.donnywals.com/adding-values-to-the-swiftui-environment-with-xcode-16s-entry-macro) — iOS Dev Weekly · Issue 670 — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
   **Published:** `19th July 2024`
   **NeKI brief:** Presents xcode 16’s entry macro for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -419,12 +446,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Read the blog post to see what's new.](https://www.swift.org/blog/swift-5.9-released?ref=ioscodereview.com) — iOS Code Review · Issue 55 — Article · Topics: Macros & Metaprogramming · Swift · Systems Programming
   **Published:** `2023-09-19T13:32:36.000Z`
   **NeKI brief:** Summarises Read the blog post to see what's new for Macros & Metaprogramming and Swift. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
+- [Exploring the new Preview Macro with SwiftUI and UIKit](https://holyswift.app/exploring-the-new-preview-macro-with-swiftui-and-uikit) — SwiftUI Weekly · SwiftUI Weekly - Issue #158 — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
+  **Published:** `2023-09-04T10:38:25.949Z`
+  **NeKI brief:** Explains Imagine that you have several view configurations and you want to know how they look in very specific scenarios. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Introducing ObservableConverter](https://lickability.com/blog/introducing-observableconverter) — iOS Dev Weekly · Issue 624 — Article · Topics: Macros & Metaprogramming · Swift
   **Published:** `25th August 2023`
   **NeKI brief:** Explores Introducing ObservableConverter, focusing on apple has a well-written guide and some sample code for migrating from the observable object protocol to the new observable macro, but. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
 - [Automating Memory Leak Detection with XCTest](https://qualitycoding.org/swift-memory-leak-detection-xctest) — iOS Dev Weekly · Issue 623 — Article · Topics: Macros & Metaprogramming · Swift · Testing
   **Published:** `18th August 2023`
   **NeKI brief:** Explores Automating Memory Leak Detection with XCTest, focusing on what a clever technique written up by dan torres for. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [Migrating to the Observation framework in SwiftUI](https://tanaschita.com/20230807-migrating-to-observation) — SwiftUI Weekly · SwiftUI Weekly - Issue #154 — Article · Topics: Apple Platform Ecosystem · Macros & Metaprogramming · Swift
+  **Published:** `2023-08-08T03:29:42.397Z`
+  **NeKI brief:** Explains Introduced at WWDC23, Observation is a new Swift framework for tracking changes of properties. It uses the new macro system in Swift to transform Swift types to observable objects. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Swift Macros](https://www.youtube.com/playlist?list=PLlc_rDuPW0Y2Z2T1Dv-je_fG1ZQyIhehi) — iOS Dev Weekly · Issue 620 — Video · Topics: Graphics, Media & Games · Macros & Metaprogramming · Swift
   **Published:** `28th July 2023`
   **NeKI brief:** Explores Swift Macros, focusing on if you have 20 minutes free, you could do worse things with it than to join daniel steinberg as he brings his. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.

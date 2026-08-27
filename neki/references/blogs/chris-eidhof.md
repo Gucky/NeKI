@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://chris.eidhof.nl/archive/](https://chris.eidhof.nl/archive/)
-- Last collected: `2026-07-22T21:49:38Z`
+- Last collected: `2026-08-27T19:22:09Z`
 - Indexed entries: **244**
 
 - [Working for the man — Chris Eidhof](https://chris.eidhof.nl/post/working-for-the-man)
@@ -119,7 +119,7 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Demonstrates Swift and C interoperability by wrapping qsort and handling C function pointers. Use it to understand low-level bridging patterns, while checking modern compiler syntax and safety rules.
 - [Swift Analytics — Chris Eidhof](https://chris.eidhof.nl/post/swift-analytics)
   **Topics:** Swift
-  **NeKI brief:** Compares functions, structs, enums, and protocols as ways to model analytics events in Swift. Use it to evaluate how much type structure an analytics layer actually needs.
+  **NeKI brief:** Chris Eidhof’s Swift analytics post explores collecting and reasoning about application measurements. Follow it for concrete instrumentation ideas, while verifying privacy and modern telemetry constraints independently.
 - [Survivorship bias — Chris Eidhof](https://chris.eidhof.nl/post/survivorship-bias)
   **Topics:** Developer Career & Practice
   **NeKI brief:** A personal entrepreneurship reflection on responsibility, visible success, and the risk of survivorship bias. Use it as perspective on independent work rather than evidence that one career model is generally superior.
@@ -269,7 +269,7 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Introduces monads through compact Swift examples in an attempt to make the functional-programming concept less mysterious. It is useful for conceptual orientation, with language syntax and idioms that may now be dated.
 - [A Micro Auto Layout DSL — Chris Eidhof](https://chris.eidhof.nl/post/micro-autolayout-dsl)
   **Topics:** Swift
-  **NeKI brief:** Builds a very small Auto Layout helper layer to reduce repetitive constraint code without adopting a large dependency. Use it as an example of a deliberately narrow internal DSL and reassess it against current layout APIs.
+  **NeKI brief:** Examines I side with Chris that relying on too many third-party libraries can lead to issues down the road, however, I still use a few. In fact, over at Polly, we use SnapKit and we absolutely love it. With that said, it’s always Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Met In The App Store — Chris Eidhof](https://chris.eidhof.nl/post/met-in-the-app-store)
   **Topics:** Product Design
   **NeKI brief:** A product-diary entry about submitting Met 1.0 and completing the final steps before release. It provides indie-shipping context rather than reusable App Store submission instructions.

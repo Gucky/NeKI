@@ -3,7 +3,7 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.cocoawithlove.com/archive/](https://www.cocoawithlove.com/archive/)
-- Last collected: `2026-07-22T21:58:56Z`
+- Last collected: `2026-08-27T19:22:09Z`
 - Indexed entries: **199**
 
 - [Training an LLM in Swift, Part 2: macOS built-in frameworks | Cocoa with Love](https://www.cocoawithlove.com/blog/macos-ml-frameworks.html)
@@ -181,7 +181,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Presenting unanticipated errors to users | Cocoa with Love](https://www.cocoawithlove.com/blog/2016/04/14/error-recovery-attempter.html)
   **Published:** `2016-04-14`
   **Topics:** Swift
-  **NeKI brief:** Unexpected Cocoa errors are routed through an explicit recovery attempter, separating user-facing remediation from low-level failure detection and preserving a fallback for unknown cases.
+  **NeKI brief:** Presenting errors to users is one of the trickiest things to get right in any app. Matt Gallagher follows up his previous article and this time takes a look at what to do when the user needs to be notified.
 - [Indent with tabs or spaces? I wish I didn't need to know. | Cocoa with Love](https://www.cocoawithlove.com/blog/2016/04/01/neither-tabs-nor-spaces.html)
   **Published:** `2016-04-01`
   **Topics:** Swift
@@ -189,11 +189,11 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Breaking Swift with reference counted structs | Cocoa with Love](https://www.cocoawithlove.com/blog/2016/03/27/on-delete.html)
   **Published:** `2016-03-27`
   **Topics:** Swift
-  **NeKI brief:** Reference-counted structs can perform deallocation work through hidden heap storage, but this breaks value-type expectations and makes copying and destruction order part of the API contract.
+  **NeKI brief:** Examines Matt Gallagher digs into the weeds of Swift structs and reference counting. It’s pretty obvious that you should never use some of the techniques in this article, but it makes an interesting read and you’ll definitely lea Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Errors: unexpected, composite, non-pure, external. | Cocoa with Love](https://www.cocoawithlove.com/blog/2016/03/17/non-pure-errors.html)
   **Published:** `2016-03-17`
   **Topics:** Testing
-  **NeKI brief:** Errors are classified by purity, composition, and external origin, helping decide whether recovery belongs near the cause or at a broader application boundary.
+  **NeKI brief:** Presenting errors to users is one of the trickiest things to get right in any app. Matt Gallagher follows up his previous article and this time takes a look at what to do when the user needs to be notified.
 - [Gathering system information in Swift with sysctl | Cocoa with Love](https://www.cocoawithlove.com/blog/2016/03/08/swift-wrapper-for-sysctl.html)
   **Published:** `2016-03-08`
   **Topics:** Swift

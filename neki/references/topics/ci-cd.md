@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Continuous integration, delivery pipelines, build automation, and release operations.
 
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed links shown: **185**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **229**
 
 ## Direct-source reading
 
@@ -89,6 +89,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🚀 Set up iOS CI/CD on Azure DevOps](https://brightinventions.pl/blog/first-ios-ci-in-azure-devops) — iOS CI Newsletter · Issue 81 — Article · Topics: CI/CD & Automation
   **Published:** `2025-11-24T00:00:00.000Z`
   **NeKI brief:** Examines Set up iOS CI/CD on Azure DevOps in the context of CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Building Closed-Source Binaries With GitHub Actions](https://danielsaidi.com/blog/2025/11/09/building-closed-source-binaries-with-github-actions) — Those Who Swift · Issue 240 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-11-12`
+  **NeKI brief:** Describes building closed-source binaries with GitHub Actions. Useful for designing reproducible distribution pipelines while keeping source private and making signing, artifacts, and release inputs explicit.
 - [Level up your iOS CI/CD: top tips for success](https://bitrise.io/whitepapers/level-up-your-ios-game-tips-for-speeding-up-your-continuous-integration) — iOS CI Newsletter · Issue 80 — Article · Topics: CI/CD & Automation · Graphics, Media & Games
   **Published:** `2025-11-10T00:00:00.000Z`
   **NeKI brief:** Discusses Save Time on Every Build and Test Run in a public developer resource. Use it to compare the author's concrete workflow and trade-offs with your project constraints, and verify any platform-specific claims against current primary documentation.
@@ -104,6 +107,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🎥 Speed up your CI/CD pipelines with Selective Testing](https://www.youtube.com/watch?v=U1fJQRbq-TY) — iOS CI Newsletter · Issue 79 — Video · Topics: CI/CD & Automation · Swift · Testing
   **Published:** `2025-11-02T00:00:00.000Z`
   **NeKI brief:** Records Speed up your CI/CD pipelines with Selective Testing as a visual walkthrough relevant to CI/CD & Automation and Swift. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
+- [Jeff Verkoeyen](https://www.threads.com/@featherless) — iOS Dev Weekly · Issue 732 — Article · Topics: Developer Tools
+  **Published:** `24th October 2025`
+  **NeKI brief:** Jeff Verkoeyen recently decided to see how much it would cost to add CI to his Sidecar app. GitHub Actions is great for the first 3,000 minutes per month, unless you’re using macOS runners, in which case the allowance is 300 minutes. 😬 The other options…
+- [Beyond QA: Mobile Testing Strategies](https://mobilesystemdesign.substack.com/p/beyond-qa-mobile-testing-strategies) — Those Who Swift · Issue 236 — Article · Topics: CI/CD & Automation · Testing
+  **Published:** `2025-10-15`
+  **NeKI brief:** Discusses mobile testing strategies beyond conventional QA. Useful for combining exploratory, automated, and production-signal approaches when assessing confidence in an iOS release.
 - [Run your entire CI/CD pipeline in AWS](https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-m4-and-m4-pro-mac-instances) — iOS CI Newsletter · Issue 78 — Article · Topics: CI/CD & Automation · Performance · Testing
   **Published:** `2025-10-13T00:00:00.000Z`
   **NeKI brief:** Examines Run your entire CI/CD pipeline in AWS in the context of CI/CD & Automation and Performance. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -131,6 +140,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [⚠️ Node 20 will soon be deprecated on GitHub Actions](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners) — iOS CI Newsletter · Issue 75 — Article · Topics: Developer Tools
   **Published:** `2025-09-21T00:00:00.000Z`
   **NeKI brief:** Examines Node 20 will soon be deprecated on GitHub Actions in the context of Developer Tools. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Swift-Build GitHub Action](https://l.fatbobman.com/w0102-07) — Fatbobman’s Swift Weekly · Issue 102 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2025-09-15T12:03:30.479Z`
+  **NeKI brief:** Provides a GitHub Action for building and testing Swift packages across platforms. Follow it when setting up matrix-based package validation and comparing CI workflows for Linux, macOS, and other supported targets.
 - [detailed introduction](https://brightdigit.com/tutorials/swift-build) — Fatbobman’s Swift Weekly · Issue 102 — Tutorial · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-09-15T12:03:30.479Z`
   **NeKI brief:** Explains using the swift-build GitHub Action to run Swift Package Manager builds and tests on macOS and Linux. Use it as a compact cross-platform CI starting point before adding caching, matrices, or release artifacts.
@@ -140,6 +152,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🧰 Automating Swift binary releases using GitHub Actions](https://www.ioscoffeebreak.com/issue/issue58) — iOS CI Newsletter · Issue 74 — Article · Topics: Developer Tools · Swift
   **Published:** `2025-09-10T00:00:00.000Z`
   **NeKI brief:** Summarises Automating Swift binary releases using GitHub Actions for Developer Tools and Swift. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
+- [Automating Swift Binary Releases Using GitHub Actions](https://l.fatbobman.com/w0101-04) — Fatbobman’s Swift Weekly · Issue 101 — Article · Topics: Developer Tools · Swift
+  **Published:** `2025-09-08T12:03:42.721Z`
+  **NeKI brief:** Shows how GitHub Actions can build and publish Swift command-line tools automatically when a new tag is pushed. Follow it when designing a release pipeline with reproducible triggers, artifact generation, and package distribution steps.
 - [What Is a Mobile Platform Engineer](https://mobilesystemdesign.substack.com/p/what-is-a-mobile-platform-engineer) — Those Who Swift · Issue 225 — Article · Topics: Architecture · CI/CD & Automation · Performance
   **Published:** `2025-08-07`
   **NeKI brief:** Examines What Is a Mobile Platform Engineer, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -161,6 +176,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🧪 How to run Unit Tests on CI/CD](https://nowham.dev/posts/github_actions_unit_tests) — iOS CI Newsletter · Issue 71 — Article · Topics: CI/CD & Automation · Developer Tools · Testing
   **Published:** `2025-06-30T00:00:00.000Z`
   **NeKI brief:** Walks through how to run Unit Tests on CI/CD, with practical context for CI/CD & Automation and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [The Evolution of Mobile CI: Navigating the Shift to Infrastructure‑as‑a‑Service](https://tuist.dev/blog/2025/06/18/mobile-ci) — Those Who Swift · Issue 220 — Article · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `2025-06-25`
+  **NeKI brief:** Describes the evolution of mobile CI toward infrastructure services. Useful for comparing reproducibility, scaling, and operational ownership when designing an iOS build pipeline.
 - [Essential xcodebuild Commands for iOS Developers](https://medium.com/@awasthi027.ashish/essential-xcodebuild-commands-for-ios-developers-9ff101783ce2) — Those Who Swift · Issue 195 — Article · Topics: CI/CD & Automation · Objective-C & Cocoa · Xcode
   **Published:** `2025-06-18`
   **NeKI brief:** Examines Essential xcodebuild Commands for iOS Developers, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -173,6 +191,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🪝How to use Git Hooks for iOS projects](https://nowham.dev/posts/git_hooks) — iOS CI Newsletter · Issue 68 — Article · Topics: CI/CD & Automation · Developer Tools
   **Published:** `2025-05-18T00:00:00.000Z`
   **NeKI brief:** Walks through how to use Git Hooks for iOS projects, with practical context for CI/CD & Automation and Developer Tools. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [Are You Overlooking Mobile CI/CD Security?](https://appcircle.io/whitepapers/enhancing-mobile-ci-cd-security) — SwiftLee Weekly · Issue 270 — Article · Topics: CI/CD & Automation · Security & Privacy
+  **Published:** `2025-05-06T14:02:39.000Z`
+  **NeKI brief:** Discusses Are You Overlooking Mobile CI/CD Security?, extracting concrete engineering practices and trade-offs that Apple-platform developers can apply when evaluating this workflow.
 - [🎥 FREE Webinar: Automating Multiplatform App Releases](https://streamyard.com/watch/BwQ2t4Q5aCkk) — iOS CI Newsletter · Issue 67 — Article · Topics: Apple Platform Ecosystem · CI/CD & Automation
   **Published:** `2025-05-04T00:00:00.000Z`
   **NeKI brief:** Summarises FREE Webinar: Automating Multiplatform App Releases for Apple Platform Ecosystem and CI/CD & Automation. Use it to identify the relevant changes and follow its primary links before relying on version-sensitive details.
@@ -215,6 +236,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🚀 How to build an iOS app using fastlane](https://nowham.dev/posts/build_app_with_fastlane) — iOS CI Newsletter · Issue 64 — Article · Topics: CI/CD & Automation
   **Published:** `2025-03-23T00:00:00.000Z`
   **NeKI brief:** Walks through how to build an iOS app using fastlane, with practical context for CI/CD & Automation. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
+- [Scalable Continuous Integration for iOS | Swift Heroes Talk](https://www.youtube.com/watch?v=gy5ZHcDj4tE) — Those Who Swift · Issue 205 — Video · Topics: CI/CD & Automation · Swift
+  **Published:** `2025-03-12`
+  **NeKI brief:** Reviews Scalable Continuous Integration for iOS | Swift Heroes Talk. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [XCFolder](https://github.com/ZhgChgLi/XCFolder) — Fatbobman’s Swift Weekly · Issue 74 — Source repository · Topics: CI/CD & Automation · Developer Career & Practice · Xcode
   **Published:** `2025-03-10T12:03:47.395Z`
   **NeKI brief:** XCFolder converts Xcode's virtual groups into real directories, aligning project structure with filesystem-based generators such as Tuist and XcodeGen. Useful for reducing project-file drift while planning a source-tree migration.
@@ -242,6 +266,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🛸 Emerge tools CLI is available](https://www.emergetools.com/blog/posts/the-emerge-cli) — iOS CI Newsletter · Issue 62 — Article · Topics: CI/CD & Automation
   **Published:** `2025-02-23T00:00:00.000Z`
   **NeKI brief:** Examines Emerge tools CLI is available in the context of CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [SwiftUI Navigation: View If Needed](https://www.joshholtz.com/blog/2025/02/08/swiftui-navigation-view-if-needed) — Those Who Swift · Issue 201 — Article · Topics: CI/CD & Automation · Swift · SwiftUI
+  **Published:** `2025-02-12`
+  **NeKI brief:** Discusses SwiftUI navigation behavior and when a view is needed. Useful for reviewing navigation structure and avoiding accidental destination creation or state lifetime problems.
 - [🧪 Advanced tips to use fastlane like a pro](https://nowham.dev/posts/intermediate_fastlane) — iOS CI Newsletter · Issue 59 — Article · Topics: CI/CD & Automation
   **Published:** `2025-01-13T00:00:00.000Z`
   **NeKI brief:** Examines Advanced tips to use fastlane like a pro in the context of CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -302,6 +329,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🧰 Releasing Swift Binaries with GitHub Actions](https://swifttoolkit.dev/posts/releasing-with-gh-actions) — iOS CI Newsletter · Issue 48 — Article · Topics: Developer Tools · Product Design · Swift
   **Published:** `2024-08-11T00:00:00.000Z`
   **NeKI brief:** Examines Releasing Swift Binaries with GitHub Actions in the context of Developer Tools and Product Design. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Answer: Codemagic CI/CD](https://codemagic.io/ios-continuous-integration) — iOS Dev Tools · iOS Dev Tools: AnimationPlanner, Xcode-Kotlin, React-native-vision-camera — Article · Topics: CI/CD & Automation
+  **Published:** `2024-08-01T16:50:45.265Z`
+  **NeKI brief:** Codemagic CI/CD documents cloud automation for building, testing, signing, and delivering iOS applications. Follow it for a concrete mobile-release pipeline and compare its configuration model with the project’s own signing requirements.
 - [Line](https://line.me/en) — iOS CI Newsletter · Issue 47 — Article · Topics: CI/CD & Automation · Swift · Testing
   **Published:** `2024-07-28T00:00:00.000Z`
   **NeKI brief:** Examines Line in the context of CI/CD & Automation and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -383,6 +413,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [⭐️ Stellar: The idea of Swift replacement for Fastlane](https://albertodebortoli.com/2023/10/29/the-idea-of-a-fastlane-replacement) — iOS CI Newsletter · Issue 28 — Article · Topics: CI/CD & Automation · Swift
   **Published:** `2023-11-05T00:00:00.000Z`
   **NeKI brief:** Examines Stellar: The idea of Swift replacement for Fastlane in the context of CI/CD & Automation and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [Stellar](https://github.com/StellarTools/Stellar) — iOS Dev Weekly · Issue 634 — Source repository · Topics: CI/CD & Automation · Developer Tools · Swift
+  **Published:** `3rd November 2023`
+  **NeKI brief:** Examines Contribute to StellarTools/Stellar development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [🔐 1Password + CI/CD](https://blog.1password.com/1password-service-accounts) — iOS CI Newsletter · Issue 27 — Article · Topics: CI/CD & Automation · Security & Privacy
   **Published:** `2023-10-22T00:00:00.000Z`
   **NeKI brief:** Examines 1Password + CI/CD in the context of CI/CD & Automation and Security & Privacy. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -503,6 +536,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [xcmonkey](https://github.com/alteral/xcmonkey) — iOS CI Newsletter · Issue 8 — Source repository · Topics: CI/CD & Automation · Developer Tools · Testing
   **Published:** `2023-01-29T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for xcmonkey, relevant to Developer Tools and Testing. Inspect its implementation, open issues, and release state before adopting the approach.
+- [using a self-hosted runner](https://docs.github.com/en/actions/hosting-your-own-runners/using-self-hosted-runners-in-a-workflow) — iOS Dev Weekly · Issue 594 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Personal Essays
+  **Published:** `27th January 2023`
+  **NeKI brief:** There are some good tips in this post from Marco Eidinger for keeping costs down when running GitHub Actions on private repositories, but the one I was surprised to see missing was using a self-hosted runner.
 - [New version of Bitrise Insights is out!](https://bitrise.io/blog/post/insights-v2-is-here-and-heres-what-to-expect) — iOS CI Newsletter · Issue 6 — Article · Topics: CI/CD & Automation
   **Published:** `2023-01-01T00:00:00.000Z`
   **NeKI brief:** Examines New version of Bitrise Insights is out! in the context of CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -527,9 +563,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The world’s first virtualized M1 CI/CD environment on Bitrise](https://www.bitrise.io/m1-preregister) — iOS Dev Weekly · Issue 538 — Article · Topics: CI/CD & Automation · Performance · Testing
   **Published:** `17th December 2021`
   **NeKI brief:** Explores The world’s first virtualized M1 CI/CD environment on Bitrise, focusing on optimized for speed, stability, and extensibility. the performance of apple. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [How does Homebrew work with Rosetta on M1 machines?](https://www.youtube.com/watch?v=EG-K5n20_HQ) — iOS Dev Weekly · Issue 531 — Video · Topics: CI/CD & Automation · Graphics, Media & Games
+  **Published:** `29th October 2021`
+  **NeKI brief:** You probably don’t need as elaborate a brew setup as Josh Holtz does, being the lead maintainer of fastlane, but that doesn’t mean you won’t learn plenty from this half-hour video and associated blog post. I learned plenty about Rosetta from watching this…
+- [associated blog post](https://www.joshholtz.com/blog/2021/10/27/joshs-m1-development-environemnt.html) — iOS Dev Weekly · Issue 531 — Article · Topics: CI/CD & Automation · Cross-Platform & Web · Graphics, Media & Games
+  **Published:** `29th October 2021`
+  **NeKI brief:** Examines This is the setup I’m using on my M1 Mac (and Rosetta) to handle homebrew, zsh, Ruby and python version managers. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Automating App Store Screenshots](https://lickability.com/blog/automating-app-store-screenshots-with-fastlane-and-swiftui) — iOS Dev Weekly · Issue 519 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation · Localization
+  **Published:** `6th August 2021`
+  **NeKI brief:** Whenever I mention using fastlane’s snapshot tool for App Store screenshots, I justify it by saying it’ll save you time if you have “ten screenshots for every device type in different localisations”. In reality, even if you have just two screenshots in one…
+- [fastlane and the Upcoming Two-Step/Two-Factor Enforcement](https://www.joshholtz.com/blog/2021/02/17/apples-2fa-with-fastlane.html) — iOS Dev Weekly · Issue 495 — Article · Topics: CI/CD & Automation · Concurrency · Cross-Platform & Web
+  **Published:** `19th February 2021`
+  **NeKI brief:** Examines Preface. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [no idea](https://github.com/fastlane/fastlane/graphs/contributors) — iOS Dev Weekly · Issue 484 — Source repository · Topics: App Distribution & Store Operations · App Intents & System Surfaces · CI/CD & Automation
+  **Published:** `27th November 2020`
+  **NeKI brief:** Presents no idea, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Managing Version Numbers with Fastlane](https://benscheirman.com/2020/10/managing-version-numbers-with-fastlane) — iOS Dev Weekly · Issue 479 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation
+  **Published:** `23rd October 2020`
+  **NeKI brief:** Choosing how to increment your app’s version number is one thing, but remembering all the steps to get a release out of the door is another! How many times have you forgotten to increment the version number before an App Store Connect upload? Or maybe you…
 - [Swift Package Continuous Integration Guide](https://learningswift.brightdigit.com/swift-package-continuous-integration-guide) — iOS Dev Weekly · Issue 446 — Article · Topics: CI/CD & Automation · Swift · Swift Package Manager
   **Published:** `6th March 2020`
   **NeKI brief:** Examines Swift Package Continuous Integration Guide, offering practical guidance on Swift Package Manager integration. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [Continuous Integration Using GitHub Actions](https://andreaslydemann.com/continuous-integration-using-github-actions-for-ios-projects) — iOS Dev Weekly · Issue 438 — Article · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `10th January 2020`
+  **NeKI brief:** Examines Github Actions are finally publicly released! It’s an opportunity to easily enable continuous integration in your projects on GitHub, so here’s how you set it up for yo. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [this post from Jesse Squires](https://www.jessesquires.com/blog/selecting-an-xcode-version-on-github-ci) — iOS Dev Weekly · Issue 438 — Article · Topics: Developer Tools · Xcode
   **Published:** `10th January 2020`
   **NeKI brief:** Explains selecting an Xcode version in GitHub Actions, covering runner images and reproducible CI configuration. Compare its pinning strategy with your workflow, then verify currently supported macOS and Xcode combinations.
@@ -539,30 +596,105 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Puma](https://github.com/pumaswift/Puma) — iOS Dev Weekly · Issue 418 — Source repository · Topics: CI/CD & Automation · Developer Tools · Swift
   **Published:** `23rd August 2019`
   **NeKI brief:** Examines Puma, focusing on build utilities, written in pure swift (not that that really matters for build utilities) from khoa pham. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Continuous Integration](http://khanlou.com/2019/07/continuous-integration) — iOS Dev Weekly · Issue 413 — Article · Topics: CI/CD & Automation · Personal Essays · Testing
+  **Published:** `19th July 2019`
+  **NeKI brief:** Examines Khanlou | Continuous Integration. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Life in the slow lane](https://silverhammermba.github.io/blog/2019/03/12/slowlane) — iOS Dev Weekly · Issue 395 — Article · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `15th March 2019`
+  **NeKI brief:** The article reflects on software performance and the practical consequences of allowing applications or workflows to become slow.
+- [Ending my fastlane chapter](https://krausefx.com/blog/ending-my-fastlane-chapter) — iOS Dev Weekly · Issue 391 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Community & Business
+  **Published:** `15th February 2019`
+  **NeKI brief:** The page covers “Ending my fastlane chapter” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [actual documentation for the feature](https://docs.fastlane.tools/actions/capture_ios_screenshots) — iOS Dev Weekly · Issue 387 — Article · Topics: CI/CD & Automation · Objective-C & Cocoa
+  **Published:** `18th January 2019`
+  **NeKI brief:** Examines capture_ios_screenshots - fastlane docs. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Continuous Delivery for your profile picture](https://krausefx.com/blog/continuous-delivery-for-your-profile-picture) — iOS Dev Weekly · Issue 385 — Article · Topics: CI/CD & Automation · Performance
+  **Published:** `4th January 2019`
+  **NeKI brief:** The article describes an automated continuous-delivery workflow for generating and deploying a profile picture.
+- [Automate your library releases with Fastlane](https://mar.codes/2018-11-14/Automate-open-source-libraries-releases-with-fastlane) — iOS Dev Weekly · Issue 381 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation · Objective-C & Cocoa
+  **Published:** `7th December 2018`
+  **NeKI brief:** It’s easy to forget that fastlane can automate much more than code signing and App Store releases. What about using it to release new versions of open source libraries you maintain to CocoaPods? Marcos Griselli shows us how.
 - [swiff](https://github.com/agens-no/swiff) — iOS Dev Weekly · Issue 366 — Source repository · Topics: CI/CD & Automation · Developer Tools
   **Published:** `24th August 2018`
   **NeKI brief:** Examines swiff, focusing on this script from håvard fossli looks useful. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Build Incrementation Techniques for iOS Apps](http://shashikantjagtap.net/build-incrementation-techniques-for-ios-release-train) — iOS Dev Weekly · Issue 353 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation
+  **Published:** `25th May 2018`
+  **NeKI brief:** Presents build-incrementation techniques for an iOS release train. Follow it for concrete versioning and CI release workflow ideas, while checking current Xcode and App Store requirements.
 - [Microsoft and GitHub Present: A Solution for Mobile CI](https://aka.ms/appcentermarketplace) — iOS Dev Weekly · Issue 351 — Article · Topics: CI/CD & Automation · Developer Tools · Testing
   **Published:** `11th May 2018`
   **NeKI brief:** Examines Microsoft and GitHub Present: A Solution for Mobile CI, focusing on automate the build-test-distribute process for your mobile projects in github. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Capture video of the iOS Simulator with simctl](http://www.avanderlee.com/workflow/capture-ios-simulator-video-app-preview) — iOS Dev Weekly · Issue 351 — Article · Topics: CI/CD & Automation · Graphics, Media & Games · Xcode
+  **Published:** `11th May 2018`
+  **NeKI brief:** Examines Create App Preview videos using App Store Connect's required specifications without the need of conversions using tools like ffmpeg. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [fastlane.ci](https://github.com/fastlane/ci/releases/tag/1.0.0.alpha.1) — iOS Dev Weekly · Issue 346 — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `6th April 2018`
+  **NeKI brief:** Records an early fastlane.ci release and its automation-project context. Useful for understanding the historical direction of iOS CI tooling, while current behavior requires maintained documentation.
+- [Write fastlane configurations in Swift](https://docs.fastlane.tools/getting-started/ios/fastlane-swift) — iOS Dev Weekly · Issue 331 — Article · Topics: CI/CD & Automation · Swift
+  **Published:** `15th December 2017`
+  **NeKI brief:** This change seemed inevitable – you can now write your Fastfile in Swift, for those of us without experience writing Ruby! 🎉 While this is currently in beta, I’m looking forward to Fastlane.swift to become feature-complete. This is going to make these tools…
+- [Automating Your App’s Release Process Using fastlane](https://m.youtube.com/watch?v=scfOk5SgrKU) — iOS Dev Weekly · Issue 325 — Video · Topics: CI/CD & Automation · Graphics, Media & Games
+  **Published:** `3rd November 2017`
+  **NeKI brief:** I have not used fastlane for my own projects yet, but I don’t know why – it seems to make things better in so many ways. In this talk, Felix Krause and Josh Liebowitz discuss how to use fastlane to make releasing new app versions a breeze.
 - [Snapshot now supports multiple concurrent simulators](http://fabric.io/blog/2017/8/29/fastlane-snapshot-supports-multiple-concurrent-simulators) — iOS Dev Weekly · Issue 316 — Article · Topics: CI/CD & Automation · Xcode
   **Published:** `1st September 2017`
   **NeKI brief:** Explores Snapshot now supports multiple concurrent simulators in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [Introducing fastlane precheck](https://fabric.io/blog/introducing-fastlane-precheck) — iOS Dev Weekly · Issue 307 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation
+  **Published:** `30th June 2017`
+  **NeKI brief:** Ah fastlane, what would we do without it? 🎉 Precheck is a wonderful App Store metadata checker that’ll make sure you don’t fall foul of some of the the most common reasons for a first rejection. Looks great! ✅
 - [one of our events](https://www.buddybuild.com/blog/buddybuild-events-at-wwdc17) — iOS Dev Weekly · Issue 303 — Article · Topics: Apple Platform Ecosystem · CI/CD & Automation · Testing
   **Published:** `2nd June 2017`
   **NeKI brief:** Explores one of our events in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [fastlane](https://github.com/fastlane/fastlane) — iOS Dev Weekly · Issue 294 — Source repository · Topics: CI/CD & Automation · Developer Tools · Graphics, Media & Games
+  **Published:** `31st March 2017`
+  **NeKI brief:** Felix Krause, the creator of fastlane, on what he has learned from working on a massively successful open source project. Nobody creates a new repository on Github expecting it to grow in the way Felix’s has, but before you realize it, this talk may help you…
 - [iOS Continous integration: Xcode Server, Jenkins, Travis and fastlane](http://thebugcode.github.io/ios-continous-integration-choosing-a-build-server-and-tooling) — iOS Dev Weekly · Issue 292 — Article · Topics: CI/CD & Automation · Developer Tools · Xcode
   **Published:** `17th March 2017`
   **NeKI brief:** Profiles iOS Continous integration: Xcode Server, Jenkins, Travis and fastlane, a developer tool or product relevant to Apple-platform workflows. Evaluate its integration surface, operational costs, privacy implications, and fit for the current project, then verify supported SDKs and capabilities before adoption.
 - [Code signing guides from fastlane](https://github.com/fastlane/fastlane/tree/master/fastlane/docs/Codesigning) — iOS Dev Weekly · Issue 258 — Source repository · Topics: App Distribution & Store Operations · CI/CD & Automation · Developer Tools
   **Published:** `8th July 2016`
   **NeKI brief:** Examines Code signing guides from fastlane, focusing on felix krause with a set of guides covering all things code signing. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Introducing fastlane plugins](https://fabric.io/blog/introducing-fastlane-plugins) — iOS Dev Weekly · Issue 257 — Article · Topics: CI/CD & Automation
+  **Published:** `1st July 2016`
+  **NeKI brief:** Examines Discover Firebase, Google’s mobile and web app development platform that helps developers build apps and games that users will love. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [CocoaPods and Capital One](http://blog.cocoapods.org/Capital-One) — iOS Dev Weekly · Issue 222 — Article · Topics: CI/CD & Automation · Developer Community & Business · Objective-C & Cocoa
+  **Published:** `30th October 2015`
+  **NeKI brief:** This announcement describes Capital One sponsoring CocoaPods development and distinguishes project support from product promotion. It is useful historical context for how critical open-source infrastructure can receive sustainable funding from companies that depend on it.
+- [fastlane is now part of Fabric](https://krausefx.com/blog/fastlane-is-now-part-of-fabric) — iOS Dev Weekly · Issue 221 — Article · Topics: CI/CD & Automation
+  **Published:** `23rd October 2015`
+  **NeKI brief:** The wonderful fastlane project had a big announcement this week, it’s now part of Twitter’s Fabric suite. The great news is that this means it will get plenty of dedicated development time which it will continue to need to keep up with a constantly moving…
+- [running tests](https://github.com/fastlane/scan) — iOS Dev Weekly · Issue 221 — Source repository · Topics: CI/CD & Automation · Developer Tools · Personal Essays
+  **Published:** `23rd October 2015`
+  **NeKI brief:** Presents running tests, providing concrete engineering context that Apple-platform developers can use when evaluating the described technique or workflow.
+- [Thoughts on iOS build tools](https://krausefx.com/blog/ios-tools) — iOS Dev Weekly · Issue 211 — Article · Topics: CI/CD & Automation
+  **Published:** `14th August 2015`
+  **NeKI brief:** Examines Up until now you had 2 good ways to build and sign your application from the command line:. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [gym](https://github.com/fastlane/gym) — iOS Dev Weekly · Issue 211 — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `14th August 2015`
+  **NeKI brief:** The page covers “gym” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Shenzen](https://github.com/nomad/shenzhen) — iOS Dev Weekly · Issue 211 — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `14th August 2015`
+  **NeKI brief:** Mattt Thompson released a new version of Shenzhen this week, the utility for creating and uploading IPA archives to various services. The big news is that builds can now be uploaded directly to iTunes Connect using this tool. If you’re new to iOS development…
+- [Pilot and Boarding](https://github.com/fastlane/pilot) — iOS Dev Weekly · Issue 208 — Source repository · Topics: CI/CD & Automation · Developer Tools · Testing
+  **Published:** `24th July 2015`
+  **NeKI brief:** Examines The best way to manage your TestFlight testers and builds from your terminal - fastlane-old/pilot. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Boarding](https://github.com/fastlane/boarding) — iOS Dev Weekly · Issue 208 — Source repository · Topics: CI/CD & Automation · Developer Tools · Testing
+  **Published:** `24th July 2015`
+  **NeKI brief:** Examines Instantly create a simple signup page for TestFlight beta testers - fastlane/boarding. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [thoughts on automation](https://krausefx.com/blog/letting-computers-do-the-hard-work) — iOS Dev Weekly · Issue 208 — Article · Topics: CI/CD & Automation · Testing
+  **Published:** `24th July 2015`
+  **NeKI brief:** The page covers “thoughts on automation” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
 - [sigh](https://github.com/KrauseFx/sigh/releases/tag/1.0.0.beta5) — iOS Dev Weekly · Issue 202 — Source repository · Topics: CI/CD & Automation · Developer Tools
   **Published:** `12th June 2015`
   **NeKI brief:** Provides the sigh source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Fastlane 1.0](https://krausefx.com/blog/fastlane-10) — iOS Dev Weekly · Issue 197 — Article · Topics: CI/CD & Automation
+  **Published:** `8th May 2015`
+  **NeKI brief:** The fastlane suite of tools has been around for a while now but this week Felix Krause shipped 1.0. The release includes OS X support, better documentation, auto update and a few other smaller features and bug fixes. Even if you don’t want to automate an…
 - [Unofficial iTunes Connect API Docs](https://github.com/fastlane/itc-api-docs) — iOS Dev Weekly · Issue 191 — Source repository · Topics: CI/CD & Automation · Developer Tools
   **Published:** `27th March 2015`
   **NeKI brief:** Provides the Unofficial iTunes Connect API Docs source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [Continuous Integration With Xcode Server](http://useyourloaf.com/blog/2014/11/02/continuous-integration-with-xcode-server.html) — iOS Dev Weekly · Issue 171 — Article · Topics: CI/CD & Automation · Cross-Platform & Web · Xcode
   **Published:** `7th November 2014`
   **NeKI brief:** A historical Xcode Server CI setup guide showing how bots, integrations, and signing fit together. It is useful for understanding the pre-Xcode-Cloud workflow and its operational constraints.
+- [Stop Sucking At Build Environments](http://blog.sudeium.com/2013/10/24/stop-sucking-at-build-environments) — iOS Dev Weekly · Issue 136 — Article · Topics: CI/CD & Automation
+  **Published:** `7th March 2014`
+  **NeKI brief:** Alex Garibay on the state of automating builds and continuous integration for iOS projects (Spoiler: Not much good news). However he then turns the post all positive by going through best practices for getting your project into the best possible state for…

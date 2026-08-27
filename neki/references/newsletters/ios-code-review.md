@@ -3,8 +3,32 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://ioscodereview.com/](https://ioscodereview.com/)
-- Last collected: `2026-08-06T08:26:12Z`
-- Indexed entries: **83**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed entries: **84**
+
+## [Issue 84](https://ioscodereview.com/issues/issue-84-swiftuis-hidden-orphan-switch-toolbars-get-priorities-and-media-intelligence-in-ios-27)
+
+- Published: `2026-08-20T05:35:08.000Z`
+
+**Topics:** App Distribution & Store Operations · Concurrency · macOS & AppKit · Swift · SwiftUI · UIKit
+
+**Sections:** SwiftUI Text: Orphan Control (iOS 16+) · SwiftUI Toolbars: Set Your Priorities (iOS 27+) · Media Intelligence (iOS 27+)
+
+**NeKI brief:** Links private SwiftUI Text orphan control, adaptive toolbar prioritization, Media Intelligence, Sendable migration and Instruments profiling, while flagging the App Review and physical-device boundaries that affect their use.
+
+**Selected links:**
+- [July digest](https://www.swift.org/blog/whats-new-in-swift-july-2026?ref=ioscodereview.com) — Article · Topics: Concurrency · Objective-C & Cocoa · Swift
+  **NeKI brief:** Summarizes July activity across Swift releases, evolution, tooling and community workgroups, providing a routing overview rather than a single API tutorial.
+- [Sendable and @Sendable closures explained with code examples](https://www.avanderlee.com/swift/sendable-protocol-closures?ref=ioscodereview.com) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Explains Sendable and @Sendable closures as compiler contracts for values crossing concurrency domains, with examples of structs, classes, and captured state. It identifies why seemingly harmless captures trigger diagnostics and how to redesign them safely.
+- [Using Top Functions Mode in Instruments to Quickly Find the Slowest Code](https://swiftdevjournal.com/posts/top-functions?ref=ioscodereview.com) — Article · Topics: Performance · Swift
+  **NeKI brief:** Shows how Instruments' Top Functions mode reorders Time Profiler or CPU Profiler samples by self weight, then relates the result to the flame graph. It offers a faster first pass for locating genuinely expensive functions.
+- [Controlling Orphans in SwiftUI Text](https://fatbobman.com/en/posts/controlling-orphans-in-swiftui-text?ref=ioscodereview.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Investigates SwiftUI Text's automatic orphan avoidance and an undocumented avoidsOrphans control, while warning that relying on the hidden API carries compatibility and review risk.
+- [Adaptive SwiftUI toolbars in iOS 27](https://nilcoalescing.com/blog/AdaptiveSwiftUIToolbarsInIOS27?ref=ioscodereview.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains iOS 27 toolbar visibility priorities, explicit overflow placement, trailing-edge pinning and navigation-bar minimization so important actions survive compact layouts.
+- [iOS 27: Media Intelligence Framework](https://antongubarenko.substack.com/p/ios-27-media-intelligence-framework) — Article
+  **NeKI brief:** Introduces iOS 27’s Media Intelligence framework for analysing video and grouping detected faces, including the need for a physical device. Use it as an implementation lead while confirming supported media, privacy behavior, and final SDK availability.
 
 ## [Issue 83](https://ioscodereview.com/issues/issue-83-liquid-glass-goes-mandatory-foundation-models-opens-up-and-non-modal-panels-in-swiftui)
 
@@ -154,7 +178,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Swift.orgSwift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.Swift.orgApple Inc.](https://www.swift.org/install/windows?ref=ioscodereview.com) — Article · Topics: Cross-Platform & Web · Objective-C & Cocoa · Swift
   **NeKI brief:** Examines Swift.orgSwift is a general-purpose programming language built using a modern approach to safety, performance… in the context of Cross-Platform & Web and Objective-C & Cocoa. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Checking accessibility with SwiftUI Previews](https://mobilea11y.com/blog/swiftui-preview-testing?ref=ioscodereview.com) — Article · Topics: Accessibility · Swift · SwiftUI
-  **NeKI brief:** Uses SwiftUI previews as an accessibility testing surface, checking labels, traits, and contrast across representative states. Useful for finding VoiceOver regressions early without waiting for a full UI-test suite.
+  **NeKI brief:** Rob shows how SwiftUI Previews can be used as a lightweight accessibility testing tool, letting you quickly inspect UI variations before testing on a device.
 - [Swift Student Challenge winners](https://9to5mac.com/2026/05/07/apple-highlights-four-swift-student-challenge-apps-ahead-of-wwdc-2026?ref=ioscodereview.com) — Article · Topics: AI Development · Apple Platform Ecosystem · Swift
   **NeKI brief:** Examines Swift Student Challenge winners in the context of AI Development and Apple Platform Ecosystem. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Previewing SwiftUI views in both dark and light mode](https://peterringset.dev/articles/light-and-dark-preview?ref=ioscodereview.com) — Article · Topics: Swift · SwiftUI
@@ -216,7 +240,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Building a design system at Genius Scan | Swift by SundellAn example of how to approach the task of building a design system for an app, by focusing on creating an initial set of reusable components that can be tweaked using the SwiftUI environment.Swift by Sundell](https://www.swiftbysundell.com/articles/building-a-design-system-at-genius-scan?ref=ioscodereview.com) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Describes building a shared design system with reusable components, tokens, and constraints at Genius Scan. Useful for connecting SwiftUI component reuse to product consistency and team-scale maintenance.
 - [Swift](https://www.swift.org/blog/swift-6.2-released?ref=ioscodereview.com) — Article · Topics: Concurrency · Swift
-  **NeKI brief:** Swift 6.2's release announcement provides the authoritative overview of language and toolchain changes. Use it to plan adoption boundaries and match compiler behavior to the released version.
+  **NeKI brief:** Swift 6.2 is here with improvements that make coding smoother and faster. It delivers improved performance, faster build times, enhanced tools, and early WebAssembly support, making Swift easier and more reliable for developers.
 - [Fatbobman's Swift Weekly](https://fatbobman.com/en/posts/default-actor-isolation?ref=ioscodereview.com) — Article · Topics: Concurrency · Swift
   **NeKI brief:** Swift 6.2 infers a default actor for otherwise unmarked declarations, reducing annotations but exposing actor-boundary errors in macros and mixed-isolation code. This is useful when auditing migration diagnostics and deciding where explicit isolation remains necessary.
 

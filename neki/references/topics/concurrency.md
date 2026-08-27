@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift concurrency, async/await, actors, Sendable, tasks, cancellation, and diagnostics.
 
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed links shown: **1132**
+- Last collected: `2026-08-27T19:22:09Z`
+- Indexed links shown: **1228**
 
 ## Direct-source reading
 
@@ -749,7 +749,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Uses @ScaledMetric to scale custom dimensions with the user's Dynamic Type setting, alongside text styles. Useful when controls and spacing need accessibility scaling without manually observing size categories.
 - [App Preview Videos Capturing using the Xcode simulator - SwiftLee](https://www.avanderlee.com/workflow/capture-ios-simulator-video-app-preview) — Antoine van der Lee articles · article catalogue
   **Published:** `2024-02-04T12:26:16+00:00`
-  **NeKI brief:** Uses Simulator recording and command-line tooling to capture App Store preview footage, with steps for device framing and clean output. Useful for repeatable marketing captures without a physical-device camera rig.
+  **NeKI brief:** Examines Create App Preview videos using App Store Connect's required specifications without the need of conversions using tools like ffmpeg. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Status bar overrides in the iOS Simulator](https://www.avanderlee.com/workflow/status-bar-overrides-in-the-ios-simulator) — Antoine van der Lee articles · article catalogue
   **Published:** `2024-01-30T08:23:21+00:00`
   **NeKI brief:** Configures Simulator status-bar overrides so time, battery, and connectivity appear deterministic in screenshots and recordings. Useful for producing consistent UI evidence and App Store imagery across capture runs.
@@ -2260,6 +2260,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Handling CoreBluetooth Timeouts and Task Cancellation Correctly](https://l.fatbobman.com/w0150-2) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Concurrency
+  **Published:** `2026-08-24T12:03:48.210Z`
+  **NeKI brief:** Explains wrapping CoreBluetooth delegate callbacks in Swift concurrency while resolving timeout, cancellation, and concurrent-completion races. It distinguishes cancelling a Swift task from ending the underlying Bluetooth operation and uses ArcBLEKit to demonstrate a safer API design.
+- [ArcBLEKit](https://github.com/ilawsonlu/ArcBLEKit) — Fatbobman’s Swift Weekly · Issue 150 — Source repository · Topics: Concurrency · Developer Tools · Objective-C & Cocoa
+  **Published:** `2026-08-24T12:03:48.210Z`
+  **NeKI brief:** Provides a zero-dependency Swift Concurrency package for BLE central apps on iOS 14 and macOS 11 onward. Its cancellable scanning, connection, GATT, notification, timeout, reconnect, and write-backpressure APIs show how to contain CoreBluetooth delegate complexity.
+- [Sendable and @Sendable closures explained with code examples](https://www.avanderlee.com/swift/sendable-protocol-closures?ref=ioscodereview.com) — iOS Code Review · Issue 84 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-08-20T05:35:08.000Z`
+  **NeKI brief:** Explains Sendable and @Sendable closures as compiler contracts for values crossing concurrency domains, with examples of structs, classes, and captured state. It identifies why seemingly harmless captures trigger diagnostics and how to redesign them safely.
+- [July digest](https://www.swift.org/blog/whats-new-in-swift-july-2026?ref=ioscodereview.com) — iOS Code Review · Issue 84 — Article · Topics: Concurrency · Objective-C & Cocoa · Swift
+  **Published:** `2026-08-20T05:35:08.000Z`
+  **NeKI brief:** Summarizes July activity across Swift releases, evolution, tooling and community workgroups, providing a routing overview rather than a single API tutorial.
 - [iOS 26: Data Detector](https://l.fatbobman.com/w0149-02) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: Concurrency · Swift
   **Published:** `2026-08-17T12:03:38.576Z`
   **NeKI brief:** Shows how the Swift-native DataDetector replaces NSTextCheckingResult-style branching with typed matches for links, contacts, calendar events, addresses, and other semantic objects. The examples make the migration from NSDataDetector concrete.
@@ -2292,13 +2304,16 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Introduces BLESwift and a companion CLI as async/await interfaces over CoreBluetooth’s delegate model. Use it to study actor ownership, asynchronous discovery, cancellation, and testable Bluetooth workflows before replacing an existing delegate implementation.
 - [Continuation vs CheckedContinuation vs UnsafeContinuation](https://livsycode.com/swift/continuation-vs-checkedcontinuation-vs-unsafecontinuation-in-swift) — Those Who Swift · Issue 276 — Article · Topics: Concurrency · Swift
   **Published:** `2026-07-22T20:01:13.378Z`
-  **NeKI brief:** Compares continuation variants for moving callback APIs to async/await and clarifies their appropriate boundaries.
+  **NeKI brief:** Artem dives deep into Continuation API, showing how it differs from CheckedContinuation and UnsafeContinuation, and when each is the right tool for bridging callback-based code to async/await.
 - [Swift Actors Explained with Real Examples](https://www.swiftbyrahul.com/posts/SwiftActorsExplainedWithRealExamples) — Those Who Swift · Issue 276 — Article · Topics: Concurrency · Swift
   **Published:** `2026-07-22T20:01:13.378Z`
   **NeKI brief:** Explains actor isolation as serialized access to mutable state, contrasting it with locks, semaphores, and dispatch queues through practical examples. Follow it when deciding whether a shared resource should become actor-owned and where calls must suspend.
+- [RejectedSE-0533Generating synchronous overloads of `async` functions with a macro](https://github.com/apple/swift-evolution/blob/main/proposals/0533-reasync-macros.md) — SwiftLee Weekly · Issue 323 — Source repository · Topics: Architecture · Concurrency · Swift
+  **Published:** `2026-07-21T14:05:55.000Z`
+  **NeKI brief:** Records RejectedSE-0533Generating synchronous overloads of `async` functions with a macro, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Continuation vs CheckedContinuation vs UnsafeContinuation in Swift](https://livsycode.com/swift/continuation-vs-checkedcontinuation-vs-unsafecontinuation-in-swift?ref=createwithswift.com) — Create with Swift · Issue 116 — Article · Topics: Concurrency · Swift
   **Published:** `2026-07-17T15:00:19.000Z`
-  **NeKI brief:** Compares continuation variants for moving callback APIs to async/await and clarifies their appropriate boundaries.
+  **NeKI brief:** Artem dives deep into Continuation API, showing how it differs from CheckedContinuation and UnsafeContinuation, and when each is the right tool for bridging callback-based code to async/await.
 - [SE-0526: withDeadline](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0526-deadline.md?ref=ioscodereview.com) — iOS Code Review · Issue 82 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-07-14T19:04:53.000Z`
   **NeKI brief:** Provides the source and change history for SE-0526: withDeadline, relevant to Concurrency and Developer Tools. Inspect its implementation, open issues, and release state before adopting the approach.
@@ -2320,9 +2335,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [patch-swift](https://github.com/patch-release/patch-swift) — Fatbobman’s Swift Weekly · Issue 142 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-06-29T12:03:26.222Z`
   **NeKI brief:** patch-swift explores compiling Swift to WebAssembly and hot-updating views through dynamic replacement and serializable descriptions. Use it to study the toolchain and runtime constraints behind a SwiftUI-like web update model.
+- [Actors in Swift: The Problem They Solve and How it Works](https://www.swiftdifferently.com/blog/swift/concurrency/how-actors-work?ref=createwithswift.com) — Create with Swift · Issue 113 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-06-27T18:12:28.000Z`
+  **NeKI brief:** Omar explains why Swift actors exist, how actor isolation protects shared mutable state, and what happens under the hood.
 - [AsyncImage improvements in iOS 27](https://nilcoalescing.com/blog/AsyncImageImprovementsInSwiftUIOnIOS27?ref=createwithswift.com) — Create with Swift · Issue 113 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2026-06-27T18:12:28.000Z`
   **NeKI brief:** Covers iOS 27 AsyncImage improvements for loading behavior and presentation. Useful when replacing custom image loaders, while checking cache, cancellation, and failure semantics against the deployment target.
+- [Actors In Swift: The Problem They Solve And How It Works](https://www.swiftdifferently.com/blog/swift/concurrency/how-actors-work) — Those Who Swift · Issue 272 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-06-24`
+  **NeKI brief:** Omar explains why Swift actors exist, how actor isolation protects shared mutable state, and what happens under the hood.
 - [Async Cleanup In defer With Swift 6.4](https://livsycode.com/swift/async-cleanup-in-defer-with-swift-6-4) — Those Who Swift · Issue 271 — Article · Topics: Concurrency · Swift
   **Published:** `2026-06-18`
   **NeKI brief:** Explains asynchronous cleanup in defer with Swift 6.4. Follow it when resource release itself must await work, and verify execution order, cancellation behavior, and toolchain support before introducing async cleanup into production paths.
@@ -2337,22 +2358,31 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** The Swift HTTP API proposal explores a common foundation for HTTP types and behavior across client and server libraries. Use it to track interoperable networking direction before committing a new cross-library adapter.
 - [Task Names in Swift ConcurrencyName Swift tasks for clearer debugging and profilingArtem Novichkov](https://artemnovichkov.com/blog/task-names-in-swift-concurrency?ref=createwithswift.com) — Create with Swift · Issue 110 — Article · Topics: Concurrency · Performance · Swift
   **Published:** `2026-06-06T14:00:23.000Z`
-  **NeKI brief:** Explains naming tasks in Swift concurrency and how names aid debugging and observability. Follow it when tracing asynchronous work, while keeping names descriptive and avoiding assumptions that labels change scheduling, isolation, or cancellation semantics.
+  **NeKI brief:** Artem explains Swift Concurrency task names, showing how to label Task, Task.detached, task groups, and SwiftUI .task calls so they’re easier to identify in LLDB, Instruments, and logs.
 - [Stateless Actors](https://www.massicotte.org/stateless-actors) — iOS Dev Weekly · Issue 753 — Article · Topics: Concurrency · Swift
   **Published:** `5th June 2026`
   **NeKI brief:** Examines stateless actors and what remains useful about actor isolation when no mutable state is stored. Follow it when choosing concurrency boundaries, distinguishing synchronization guarantees from mere type organization and measuring whether an actor adds real value.
 - [Task Names In Swift Concurrency](https://artemnovichkov.com/blog/task-names-in-swift-concurrency) — Those Who Swift · Issue 269 — Article · Topics: Concurrency · Performance · Swift
   **Published:** `2026-06-04`
-  **NeKI brief:** Explains naming tasks in Swift concurrency and how names aid debugging and observability. Follow it when tracing asynchronous work, while keeping names descriptive and avoiding assumptions that labels change scheduling, isolation, or cancellation semantics.
+  **NeKI brief:** Artem explains Swift Concurrency task names, showing how to label Task, Task.detached, task groups, and SwiftUI .task calls so they’re easier to identify in LLDB, Instruments, and logs.
+- [How Do You Build A Mutex That Works With Async/Await?](https://www.swiftdifferently.com/blog/swift/concurrency/how-do-you-build-a-mutex-that-works-with-async-await) — Those Who Swift · Issue 269 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-06-04`
+  **NeKI brief:** Builds a mutex that works with async/await. Useful for comparing synchronous locking with actor-based isolation and avoiding blocking the cooperative concurrency runtime.
+- [Reactive Frameworks Vs Async/Await Vs AsyncAlgorithms](https://livsycode.com/best-practices/reactive-is-no-longer-the-default-in-swift) — Those Who Swift · Issue 269 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-06-04`
+  **NeKI brief:** Compares reactive frameworks with async/await and AsyncAlgorithms. Useful for reviewing whether a stream-processing dependency still fits a project’s concurrency model and maintenance constraints.
 - [Enter Sandman Mode: Three Months Inside Xcode 26.3’s Agentic Coding](https://medium.com/@wesleymatlock/enter-sandman-mode-three-months-inside-xcode-26-3s-agentic-coding-cbe67ce46df9) — Those Who Swift · Issue 269 — Article · Topics: AI Development · Concurrency · Xcode
   **Published:** `2026-06-04`
   **NeKI brief:** Examines Enter Sandman Mode: Three Months Inside Xcode 26.3’s Agentic Coding, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
-- [Enabling Haptic Feedback With](https://serialcoder.dev/text-tutorials/swiftui/enabling-haptic-feedback-with-sensoryfeedback-in-swiftui) — Those Who Swift · Issue 269 — Tutorial · Topics: AI Development · Swift · SwiftUI
-  **Published:** `2026-06-04`
-  **NeKI brief:** Demonstrates SwiftUI haptic feedback through sensoryFeedback. Use it when tying tactile responses to meaningful state transitions, and review platform availability, user settings, frequency, and accessibility so feedback remains helpful rather than noisy.
 - [Using Xcode Instruments to optimize Swift Concurrency CodeExplore how Xcode Instruments can help you analyze, debug, and optimize your code for better app performance.SwiftLeeAntoine van der Lee](https://www.avanderlee.com/concurrency/using-xcode-instruments-to-optimize-swift-concurrency-code?ref=ioscodereview.com) — iOS Code Review · Issue 79 — Article · Topics: Concurrency · Performance · Swift
   **Published:** `2026-06-01T16:27:14.000Z`
   **NeKI brief:** Uses Instruments’ concurrency and time-based views to correlate task execution with latency, then validates a change with a second recording. The workflow is a practical guard against optimizing async code from source inspection alone.
+- [Swift Task Lifecycle Management - Structured vs Unstructured Concurrency](https://www.sagarunagar.com/blog/swift-task-lifecycle-management?ref=createwithswift.com) — Create with Swift · Issue 109 — Article · Topics: Concurrency · Developer Career & Practice · Swift
+  **Published:** `2026-05-29T16:00:08.000Z`
+  **NeKI brief:** Sagar explains Swift task lifecycle management by comparing structured and unstructured concurrency, showing how choices like async let, TaskGroup, SwiftUI’s .task, Task, and Task.detached affect cancellation, errors, memory, and UI.
+- [Swift Task Lifecycle Management - Structured vs Unstructured Concurrency](https://www.sagarunagar.com/blog/swift-task-lifecycle-management) — Those Who Swift · Issue 268 — Article · Topics: Concurrency · Developer Career & Practice · Swift
+  **Published:** `2026-05-27`
+  **NeKI brief:** Sagar explains Swift task lifecycle management by comparing structured and unstructured concurrency, showing how choices like async let, TaskGroup, SwiftUI’s .task, Task, and Task.detached affect cancellation, errors, memory, and UI.
 - [Modern Isn’t A Value. Fit Is.](https://www.swiftdifferently.com/blog/system-desgin/modern-isnot-a-value-fit-Is) — Those Who Swift · Issue 268 — Article · Topics: Architecture · Concurrency · Objective-C & Cocoa
   **Published:** `2026-05-27`
   **NeKI brief:** Argues that modern APIs are not automatically the right fit for every product or codebase. Use it as an architecture prompt: weigh compatibility, team understanding, migration cost, and user value before adopting a newer framework pattern.
@@ -2370,13 +2400,19 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Builds a protocol-driven SwiftUI networking stack with a Sendable API client, typed errors, endpoints, services, dependency injection, and preview mocks. The architectural discussion clarifies boundaries between view models, services, and concurrency isolation.
 - [Actors Vs Queues Vs Locks In Swift](https://livsycode.com/best-practices/actors-vs-queues-vs-locks-in-swift) — Those Who Swift · Issue 265 — Article · Topics: Concurrency · Swift
   **Published:** `2026-05-06`
-  **NeKI brief:** Compares actors, dispatch queues, and locks as synchronization tools in Swift. Use it when selecting a concurrency primitive by ownership, reentrancy, contention, and migration constraints rather than by modernity alone.
+  **NeKI brief:** Artem compares actors, queues, and locks in Swift, showing when each is useful for safely synchronizing shared state and what trade-offs they bring.
 - [Swift Concurrency: One await, Two Actors: A Runtime Trace](https://adjoe.io/company/engineer-blog/swift-concurrency-await-runtime-trace-executor-hops) — Those Who Swift · Issue 265 — Article · Topics: Concurrency · Objective-C & Cocoa · Swift
   **Published:** `2026-05-06`
   **NeKI brief:** Traces how an await can move execution between actors and executors at runtime. Follow it when diagnosing latency or unexpected scheduling, using Instruments or logs to validate hops instead of inferring behavior from source order alone.
 - [Swift Concurrency Agent Skill](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill) — SwiftLee Weekly · Issue 322 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-05-05T14:09:40.000Z`
   **NeKI brief:** Provides focused agent guidance for Swift concurrency work. Use it to give coding agents project-relevant rules around isolation, Sendable boundaries, and async tests before they propose or edit concurrent Swift code.
+- [Q&A: Swift Concurrency - Formatted](https://antongubarenko.substack.com/p/q-and-a-swift-concurrency-formatted) — Those Who Swift · Issue 264 — Article · Topics: Concurrency · Objective-C & Cocoa · Swift
+  **Published:** `2026-04-29`
+  **NeKI brief:** Answers practical Swift concurrency questions with formatted examples. Useful for comparing isolation, task structure, and compiler behavior against a concrete implementation rather than applying concurrency rules without checking their context.
+- [Concurrency Step-By-Step: Designing Protocols](https://www.massicotte.org/step-by-step-designing-protocols) — Those Who Swift · Issue 264 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-04-29`
+  **NeKI brief:** Matt walks you through designing Swift protocols under Swift concurrency, explaining how choices like async requirements, nonisolated, and more specific constraints can make protocols safer and easier.
 - [Previewing SwiftUI views in both dark and light mode](https://peterringset.dev/articles/light-and-dark-preview) — SwiftUI Weekly · SwiftUI Weekly - Issue #232 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2026-04-27T08:30:04.557Z`
   **NeKI brief:** Demonstrates previewing SwiftUI views in both light and dark color schemes with representative content. Useful for catching contrast, asset, and layout failures before device testing, especially in reusable components.
@@ -2386,6 +2422,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [A Small SwiftUI Warning and a Long Journey to Understand It](https://alejandromp.com/development/blog/a-small-swiftui-warning-and-a-long-journey-to-understand-it) — SwiftLee Weekly · Issue 320 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2026-04-21T14:11:27.000Z`
   **NeKI brief:** Traces a seemingly minor SwiftUI warning back through view updates and concurrency interactions. Use it as a diagnostic case study for following framework diagnostics to their underlying data-flow cause instead of suppressing them.
+- [Mutex In Swift - Protecting Shared Mutable State With Locks](https://www.sagarunagar.com/blog/swift-mutex-shared-mutable-state) — Those Who Swift · Issue 261 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-04-08`
+  **NeKI brief:** Explains Swift Mutex for protecting shared mutable state. Useful for comparing synchronous locking with actors and choosing coordination primitives deliberately.
 - [Thread Vs Queue Vs Actor Executor In Swift: Interview Essentials](https://livsycode.com/swift/thread-vs-queue-vs-actor) — Those Who Swift · Issue 260 — Article · Topics: Concurrency · Swift
   **Published:** `2026-04-01`
   **NeKI brief:** Compares threads, queues, and actor executors for Swift concurrency reasoning. Follow it when explaining execution models or debugging ordering, while distinguishing conceptual scheduling from the guarantees provided by structured concurrency and isolation.
@@ -2395,6 +2434,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [I Refactored 3 Apps In A Year. Here’s What I Actually Learned](https://kubamilcarz.medium.com/i-refactored-3-apps-in-a-year-heres-what-i-actually-learned-bc519ba33bb1?source=rss-b30973e2bd56------2) — Those Who Swift · Issue 259 — Article · Topics: Architecture · Concurrency · Objective-C & Cocoa
   **Published:** `2026-03-26`
   **NeKI brief:** Examines I Refactored 3 Apps In A Year. Here’s What I Actually Learned, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [Swift Concurrency Explained With Matt Massicotte](https://www.youtube.com/watch?v=cUu0M5ewpPM) — Those Who Swift · Issue 259 — Video · Topics: Concurrency · Swift
+  **Published:** `2026-03-26`
+  **NeKI brief:** Reviews Swift Concurrency Explained With Matt Massicotte. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [ImplementedSE-0493Support `async` calls in `defer` bodies](https://github.com/apple/swift-evolution/blob/main/proposals/0493-defer-async.md) — SwiftLee Weekly · Issue 316 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-03-24T15:03:10.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0493Support `async` calls in `defer` bodies. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -2409,7 +2451,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Shows how Swift 6.2 default actor isolation changes unannotated code and how to opt into it during migration. The examples clarify the convenience gained and the explicit Sendable or nonisolated work still required.
 - [Swift](https://www.swift.org/blog/swift-6.2-released?ref=ioscodereview.com) — iOS Code Review · Issue 75 — Article · Topics: Concurrency · Swift
   **Published:** `2026-03-17T06:28:33.000Z`
-  **NeKI brief:** Swift 6.2's release announcement provides the authoritative overview of language and toolchain changes. Use it to plan adoption boundaries and match compiler behavior to the released version.
+  **NeKI brief:** Swift 6.2 is here with improvements that make coding smoother and faster. It delivers improved performance, faster build times, enhanced tools, and early WebAssembly support, making Swift easier and more reliable for developers.
 - [Fatbobman's Swift Weekly](https://fatbobman.com/en/posts/default-actor-isolation?ref=ioscodereview.com) — iOS Code Review · Issue 75 — Article · Topics: Concurrency · Swift
   **Published:** `2026-03-17T06:28:33.000Z`
   **NeKI brief:** Swift 6.2 infers a default actor for otherwise unmarked declarations, reducing annotations but exposing actor-boundary errors in macros and mixed-isolation code. This is useful when auditing migration diagnostics and deciding where explicit isolation remains necessary.
@@ -2428,12 +2470,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Testing Event Streams](https://www.massicotte.org/blog/testing-event-stream) — Those Who Swift · Issue 255 — Article · Topics: Concurrency · Testing
   **Published:** `2026-02-25`
   **NeKI brief:** Explains Testing with Event Streams, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [PicoClaw](https://github.com/sipeed/picoclaw) — iOS Dev Tools · iOS Dev Tools: FRTMProxy, LLM Checker, PicoClaw — Source repository · Topics: AI Development · Concurrency · Developer Tools
+  **Published:** `2026-02-19T20:00:59.741Z`
+  **NeKI brief:** PicoClaw is a compact project for AI or edge-device workflows. Follow its source for concrete model, tool, and runtime integration, while verifying hardware, provider, and privacy requirements before adoption.
+- [nanobot](https://github.com/HKUDS/nanobot) — iOS Dev Tools · iOS Dev Tools: FRTMProxy, LLM Checker, PicoClaw — Source repository · Topics: AI Development · Concurrency · Developer Tools
+  **Published:** `2026-02-19T20:00:59.741Z`
+  **NeKI brief:** nanobot is a compact project for building an AI or automation bot. Follow its source and README to inspect the concrete agent loop, tool integration, and runtime assumptions before relying on it.
 - [Swift Concurrency from Zero to Hero](https://swiftology.io/articles/swift-concurrency-zero-to-hero) — iOS Dev Weekly · Issue 743 — Article · Topics: AI Development · Concurrency · Swift
   **Published:** `13th February 2026`
   **NeKI brief:** Explores Swift Concurrency from Zero to Hero with concrete Swift concurrency examples. Follow it to reason about isolation, cancellation, and Sendable boundaries, then verify availability and diagnostics against current Swift documentation.
 - [Core Data](https://github.com/AvdLee/Core-Data-Agent-Skill) — Fatbobman’s Swift Weekly · Issue 121 — Source repository · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-02-02T12:03:11.621Z`
   **NeKI brief:** Provides focused agent guidance for Core Data tasks. Use it to constrain an agent around contexts, threading, migrations, and persistence boundaries before it modifies an existing Core Data stack.
+- [Commander](https://commanderai.app/) — iOS Dev Tools · iOS Dev Tools: Bullseye, Commander, InAppPurchaseKit — Article · Topics: AI Development · Concurrency · Developer Tools
+  **Published:** `2026-01-29T21:12:37.433Z`
+  **NeKI brief:** Commander is a macOS utility that exposes actions and workflows from a keyboard-oriented command interface. Follow it for a concrete productivity pattern centered on searchable commands and rapid app control.
 - [Swift Actors: Common Pitfalls and How to Avoid Them](https://www.fractal-dev.com/blog/swift-actors-pitfalls?lang=en) — Those Who Swift · Issue 251 — Article · Topics: Concurrency · Foundation & Data Formats · Swift
   **Published:** `2026-01-28`
   **NeKI brief:** Catalogues common Swift actor pitfalls, including reentrancy and isolation misunderstandings. Use it when reviewing actor-based designs, pairing each warning with compiler diagnostics, tests, and a clear model of which state is actually protected.
@@ -2454,10 +2505,19 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** This article covers Swift concurrency through an approachable learning guide. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Swift Concurrency](https://www.swift.org/blog/swift-6.2-released) — Those Who Swift · Issue 246 — Article · Topics: Concurrency · Product Design · Swift
   **Published:** `2025-12-24`
-  **NeKI brief:** Swift 6.2's release announcement provides the authoritative overview of language and toolchain changes. Use it to plan adoption boundaries and match compiler behavior to the released version.
+  **NeKI brief:** Swift 6.2 is here with improvements that make coding smoother and faster. It delivers improved performance, faster build times, enhanced tools, and early WebAssembly support, making Swift easier and more reliable for developers.
+- [Non-Sendable First Design](https://www.massicotte.org/blog/non-sendable-first-design) — SwiftLee Weekly · Issue 303 — Article · Topics: Concurrency · Swift
+  **Published:** `2025-12-23T15:06:56.000Z`
+  **NeKI brief:** Matt argues for designing Swift code around non-Sendable types by default, introducing Sendable and actors only when crossing isolation boundaries to keep concurrency simpler and more intentional.
 - [swift-openapi-generator](https://github.com/apple/swift-openapi-generator) — Fatbobman’s Swift Weekly · Issue 115 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-12-15T12:01:14.054Z`
   **NeKI brief:** Generates type-safe Swift client and server interfaces from OpenAPI descriptions, separating schema-driven transport code from application logic. Use it when a REST contract should drive refactors and reduce manual endpoint decoding.
+- [ThreadCommissionerKit](https://github.com/phil-margetson/ThreadCommissionerKit) — iOS Dev Tools · iOS Dev Tools: Price Localize App, Swift AI SDK, ThreadCommissionerKit — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-12-11T17:45:25.072Z`
+  **NeKI brief:** ThreadCommissionerKit provides Swift support for Thread or connected-device workflows. Follow its source for concrete commissioning, network, and device-state APIs, while verifying hardware and platform requirements.
+- [What Settings Should You Use for Swift Concurrency?](https://www.massicotte.org/blog/what-settings) — Those Who Swift · Issue 244 — Article · Topics: Concurrency · Performance · Swift
+  **Published:** `2025-12-11`
+  **NeKI brief:** Asks which settings to use for Swift concurrency. Useful for auditing compiler and language-mode choices during migration and matching diagnostics to the project’s intended safety level.
 - [Journey to Swift 6 and Strict Concurrency](https://calcopilot.app/blog/posts/swift-6-and-strict-concurrency) — Those Who Swift · Issue 244 — Article · Topics: AI Development · Concurrency · Swift
   **Published:** `2025-12-11`
   **NeKI brief:** Examines Journey to Swift 6 and Strict Concurrency, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -2484,43 +2544,91 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines Swift Concurrency Part 2, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [Concurrency Step-by-Step: Conforming to Protocols](https://www.massicotte.org/step-by-step-conforming-to-protocols) — Those Who Swift · Issue 238 — Article · Topics: Concurrency · Swift
   **Published:** `2025-10-29`
-  **NeKI brief:** Examines Concurrency Step-by-Step: Conforming to Protocols, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+  **NeKI brief:** Matt offers a walkthrough in organizing protocol requirements and extensions especially under concurrency by explaining how and when to isolate protocol conformances, solve isolation mismatches and apply proven best practices for robust, actor-aware code.
 - [AsyncBroadcastSequence](https://forums.swift.org/t/swift-async-algorithms-proposal-broadcast-previously-shared/61210) — Fatbobman’s Swift Weekly · Issue 108 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `2025-10-27T12:02:17.397Z`
   **NeKI brief:** Proposes AsyncBroadcastSequence for sharing async values among consumers with cached history, backpressure, and lifecycle policy. Follow it when one producer must fan out events without reimplementing a Combine-style relay.
 - [AsyncCombine](https://github.com/will-lumley/AsyncCombine) — Fatbobman’s Swift Weekly · Issue 108 — Source repository · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `2025-10-27T12:02:17.397Z`
   **NeKI brief:** AsyncCombine bridges familiar Combine-style concepts into Swift concurrency, including relay-like state sharing. Use it to compare an interim async stream abstraction with the proposed AsyncBroadcastSequence and choose explicit buffering semantics.
+- [Don't make this mistake with a TaskGroup](https://www.swiftwithvincent.com/blog/dont-make-this-mistake-with-a-taskgroup) — SwiftLee Weekly · Issue 294 — Article · Topics: Concurrency · Swift
+  **Published:** `2025-10-21T14:13:02.000Z`
+  **NeKI brief:** Explains Don't make this mistake with a TaskGroup, focusing on the underlying Swift or Apple-platform mechanism and the implementation trade-offs relevant to production code.
 - [Tunable, physics-driven motion primitives for SwiftUI](https://github.com/roberthein/kinetics) — SwiftUI Weekly · SwiftUI Weekly - Issue #223 — Source repository · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2025-10-20T15:15:23.773Z`
-  **NeKI brief:** Provides tunable, physics-driven motion primitives for SwiftUI, including configurable springs and dynamics. Useful for experimenting with reusable interactive animations while inspecting API ergonomics, cancellation, and performance in real screens.
+  **NeKI brief:** Kinetics is an Apple-platform project related to motion or animation behavior. Follow its source for concrete timing, physics, or interaction techniques, while verifying framework and performance assumptions.
+- [Purchase here.](https://a.co/d/eTPTooh) — Those Who Swift · Issue 236 — Tutorial · Topics: Concurrency · Developer Community & Business · Testing
+  **Published:** `2025-10-15`
+  **NeKI brief:** Routes to a purchase page rather than technical reading. Useful only as a commercial lead, not as a knowledge-index source.
 - [Cultivated Task Cancellation](https://macguru.dev/cultivated-task-cancellation) — SwiftLee Weekly · Issue 293 — Article · Topics: Concurrency · Swift
   **Published:** `2025-10-14T14:14:22.000Z`
   **NeKI brief:** Explains Cultivated Task Cancellation, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [AsyncLifetime](https://github.com/nonameplum/AsyncLifetime) — iOS Dev Tools · iOS Dev Tools: SwiftGitX, AsyncLifetime, Navigator — Source repository · Topics: Concurrency · Developer Career & Practice · Developer Tools
+  **Published:** `2025-10-09T16:31:37.747Z`
+  **NeKI brief:** AsyncLifetime provides Swift abstractions for asynchronous resource lifetimes. Follow its source for concrete cancellation, cleanup, and ownership semantics, then assess how they interact with Swift concurrency in the target project.
+- [AsyncItemProvider - Timing-Safe Async Loading](https://l.fatbobman.com/w0105-08) — Fatbobman’s Swift Weekly · Issue 105 — Article · Topics: Concurrency
+  **Published:** `2025-10-06T12:03:37.161Z`
+  **NeKI brief:** Provides a Swift Concurrency interface for NSItemProvider. Follow it when bridging callback-based item loading into async workflows while keeping cancellation, type conversion, and provider failure behavior visible.
 - [AsyncSequence for Real-Time APIs](https://medium.com/@wesleymatlock/asyncsequence-for-real-time-apis-from-legacy-polling-to-swift-6-elegance-c2b8139c21e0) — Those Who Swift · Issue 234 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `2025-10-01`
   **NeKI brief:** Examines AsyncSequence for Real-Time APIs, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [What is Approachable Concurrency in Xcode 26?](https://www.youtube.com/watch?v=-YPXrXD6sqE) — Those Who Swift · Issue 234 — Video · Topics: Concurrency · Swift · Xcode
+  **Published:** `2025-10-01`
+  **NeKI brief:** Reviews What is Approachable Concurrency in Xcode 26?. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
+- [Zettelkasten for Programmers: Processing Swift Actor Usage Advice in Depth](https://l.fatbobman.com/w0103-02) — Fatbobman’s Swift Weekly · Issue 103 — Article · Topics: Concurrency · Swift
+  **Published:** `2025-09-22T12:03:29.428Z`
+  **NeKI brief:** Uses a Zettelkasten-style reading of Swift actor guidance to extract concurrency lessons and caveats. Follow it when comparing actor recommendations critically and turning broad advice into explicit isolation decisions for a codebase.
+- [Should you opt-in to Swift 6.2's Main Actor isolation?](https://l.fatbobman.com/w0102-02) — Fatbobman’s Swift Weekly · Issue 102 — Article · Topics: Concurrency · Swift
+  **Published:** `2025-09-15T12:03:30.479Z`
+  **NeKI brief:** Explains Swift 6.2’s main-actor isolation changes and the compiler option that makes default isolation more explicit. Follow it when planning concurrency migrations and measuring how UI isolation affects existing nonisolated code.
 - [When should you use an actor?](https://www.massicotte.org/actors) — iOS Dev Weekly · Issue 726 — Article · Topics: Concurrency · Swift
   **Published:** `12th September 2025`
-  **NeKI brief:** Examines when actors are the right concurrency boundary rather than treating them as a default replacement for every mutable type. Follow it for the trade-offs around isolation, shared state, and choosing a model that makes concurrency easier to reason about.
+  **NeKI brief:** Matt explores when actors are the right tool in Swift, explaining their unique isolation domain capabilities, why this protection mechanism matters for concurrent programming and outlining the specific conditions that make them the optimal choice.
 - [Using MainActor.assumeIsolated to Solve Legacy API Compatibility Issues with Swift 6](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-0101?publication_id=843693&post_id=173061745&isFreemail=true&r=21t43r&triedRedirect=true) — Those Who Swift · Issue 231 — Article · Topics: Concurrency · Swift
   **Published:** `2025-09-10`
   **NeKI brief:** Examines Using MainActor.assumeIsolated to Solve Legacy API Compatibility Issues with Swift 6, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
 - [Active ReviewSE-0490Environment Constrained Shared Libraries](https://github.com/apple/swift-evolution/blob/main/proposals/0490-environment-constrained-shared-libraries.md) — SwiftLee Weekly · Issue 288 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-09-09T18:49:30.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Returned For RevisionSE-0490Environment Constrained Shared Libraries. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [When should you use an actor?](https://l.fatbobman.com/w0101-01) — Fatbobman’s Swift Weekly · Issue 101 — Article · Topics: Concurrency · Swift
+  **Published:** `2025-09-08T12:03:42.721Z`
+  **NeKI brief:** Explains when Swift actors are appropriate for protecting shared mutable state and when they add unnecessary isolation. Follow it to distinguish data-race safety from broader architectural questions about ownership, synchronization, and performance.
+- [Subprocess](https://l.fatbobman.com/w0101-07) — Fatbobman’s Swift Weekly · Issue 101 — Article · Topics: Concurrency · Cross-Platform & Web · Swift
+  **Published:** `2025-09-08T12:03:42.721Z`
+  **NeKI brief:** Provides Swift Subprocess as a cross-platform package for spawning processes from Swift. Follow it when replacing platform-specific process-launch code and reviewing argument handling, output capture, and portability requirements.
+- [curved edges](https://furbo.org/2025/08/17/liquid-glass-why) — iOS Dev Weekly · Issue 725 — Article · Topics: Concurrency
+  **Published:** `5th September 2025`
+  **NeKI brief:** Explores why Liquid Glass matters in Apple-platform UI. Useful for evaluating visual-system changes in terms of hierarchy, interaction, and platform behavior rather than decoration alone.
+- [What’s New in Swift 6.2 (Beyond Concurrency Updates)](https://www.youtube.com/watch?v=0hI_4OWN31o) — Those Who Swift · Issue 230 — Video · Topics: Concurrency · Swift
+  **Published:** `2025-09-03`
+  **NeKI brief:** Reviews What’s New in Swift 6.2 (Beyond Concurrency Updates). Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [Debugging Swift Concurrency: "Am I on the Main Actor?" (Not the Main Thread)](https://www.swiftyplace.com/blog/debugging-swift-concurrency) — SwiftLee Weekly · Issue 287 — Article · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-09-02T14:17:18.000Z`
   **NeKI brief:** Explains how to determine whether Swift code runs on the MainActor rather than merely the main thread. Use it to diagnose isolation mistakes and validate actor assumptions during concurrency debugging.
+- [Pragma Conference](https://www.pragmaconference.com/speakers.html) — SwiftLee Weekly · Issue 287 — Article · Topics: Concurrency · Cross-Platform & Web · Developer Community & Business
+  **Published:** `2025-09-02T14:17:18.000Z`
+  **NeKI brief:** Describes Pragma Conference, providing the event-specific information needed to identify its Apple-platform community context.
+- [Discussion on SwiftData’s ModelActor](https://l.fatbobman.com/w0100-04) — Fatbobman’s Swift Weekly · Issue 100 — Article · Topics: Concurrency · Swift · SwiftData
+  **Published:** `2025-09-01T12:03:36.183Z`
+  **NeKI brief:** Examines why SwiftData’s ModelActor can feel surprising and where its isolation model complicates persistence design. Follow it when reviewing actor boundaries, model-container ownership, and concurrency assumptions in SwiftData code.
 - [CoreDataEvolution](https://github.com/fatbobman/CoreDataEvolution) — Fatbobman’s Swift Weekly · Issue 100 — Source repository · Topics: Concurrency · Core Data · Persistence & Synchronisation
   **Published:** `2025-09-01T12:03:36.183Z`
   **NeKI brief:** CoreDataEvolution experiments with bringing ModelActor-like concurrency structure to Core Data. Use it when modernizing a Core Data stack while retaining its model and store, especially to centralize context ownership and serialized mutations.
+- [Remote’s Global Life-Work Balance Index 2025](https://remote.com/resources/research/global-life-work-balance-index) — Those Who Swift · Issue 228 — Article · Topics: Concurrency · Objective-C & Cocoa
+  **Published:** `2025-08-20`
+  **NeKI brief:** Presents a global work-life balance index. Useful as organizational context, not as a technical Apple-platform source.
 - [How to Work with SwiftData in the Background in Swift 6](https://www.natashatherobot.com/p/swiftdata-background-swift-6) — Those Who Swift · Issue 228 — Article · Topics: AI Development · Swift · SwiftData
   **Published:** `2025-08-20`
   **NeKI brief:** Explains How to Work with SwiftData in the Background in Swift 6, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [Swift Sendable: A Practical Guide to Safer Concurrency](https://medium.com/@himalimarasinghe/swift-sendable-a-practical-guide-to-safer-concurrency-88826e44fd6c) — Those Who Swift · Issue 228 — Article · Topics: Concurrency · Swift
   **Published:** `2025-08-20`
   **NeKI brief:** Examines Swift Sendable: A Practical Guide to Safer Concurrency, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
+- [Nonisolated Functions Become Nonsending by Default in Swift 6.2](https://docs.swift.org/compiler/documentation/diagnostics/nonisolated-nonsending-by-default) — Those Who Swift · Issue 228 — Article · Topics: Concurrency · Swift
+  **Published:** `2025-08-20`
+  **NeKI brief:** Documents Swift 6.2’s change making nonisolated functions nonsending by default. Useful for auditing concurrency diagnostics and understanding which isolation or sending annotations must change during migration.
+- [3 Swift Concurrency Challenges from the Last 2 Weeks](https://twocentstudios.com/2025/08/12/3-swift-concurrency-challenges-from-the-last-2-weeks) — Those Who Swift · Issue 227 — Article · Topics: Concurrency · Swift
+  **Published:** `2025-08-13`
+  **NeKI brief:** Presents practical Swift concurrency challenges. Useful for testing isolation, cancellation, and task structure against realistic code rather than relying on simplified examples.
 - [Valkey](https://github.com/valkey-io/valkey) — Fatbobman’s Swift Weekly · Issue 97 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-08-11T12:04:06.619Z`
   **NeKI brief:** Valkey is a BSD-licensed, Redis-compatible high-performance key-value store forked from Redis 7.2.4. Use it when server-side caching or queues need Redis protocol compatibility without the later Redis licensing model.
@@ -2533,9 +2641,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [apple/swift-async-algorithms: Async Algorithms for Swift](https://github.com/apple/swift-async-algorithms) — SwiftLee Weekly · Issue 283 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-08-05T17:17:03.000Z`
   **NeKI brief:** swift-async-algorithms adds reusable asynchronous sequence operators and utilities for Swift concurrency. Use it when async/await code needs throttling, merging, buffering, or other stream composition without reintroducing a full Combine pipeline.
-- [SwiftUI for Mac 2025](https://troz.net/post/2025/swiftui-mac-2025) — iOS Dev Weekly · Issue 720 — Article · Topics: Concurrency · Swift · SwiftUI
-  **Published:** `1st August 2025`
-  **NeKI brief:** Presents SwiftUI for Mac 2025, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [Swift Concurrency Course](https://www.avanderlee.com/swift-concurrency-course-swift-6-migration) — iOS Dev Weekly · Issue 720 — Tutorial · Topics: Concurrency · Developer Community & Business · Swift
   **Published:** `1st August 2025`
   **NeKI brief:** Presents swift concurrency course for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
@@ -2559,13 +2664,25 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for Active ReviewSE-0466Control default actor isolation inference. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
 - [Using WebKit to Load Web Content in SwiftUI](https://www.artemnovichkov.com/blog/using-webkit-to-load-web-content-in-swiftui) — Those Who Swift · Issue 222 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2025-07-10`
-  **NeKI brief:** Integrates WebKit content loading with SwiftUI through UIViewRepresentable and a coordinator. Useful for controlled web content, navigation state, and lifecycle handling in hybrid screens.
+  **NeKI brief:** Artem explores the new WebView and WebPage APIs demonstrating how to integrate web views, handle loading states, and save content as snapshots, all with SwiftUI.
+- [Diagnostics](https://github.com/wetransfer/diagnostics) — SwiftLee Weekly · Issue 278 — Source repository · Topics: Concurrency · Developer Community & Business · Swift
+  **Published:** `2025-07-01T14:14:53.000Z`
+  **NeKI brief:** Points to Diagnostics, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
+- [NIOFileSystem](https://github.com/apple/swift-nio/tree/main/Sources/NIOFileSystem) — SwiftLee Weekly · Issue 278 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-07-01T14:14:53.000Z`
+  **NeKI brief:** Points to NIOFileSystem, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
+- [this thread](https://forums.swift.org/t/task-safe-way-to-write-a-file-asynchronously/54639) — SwiftLee Weekly · Issue 278 — Article · Topics: Concurrency · Swift
+  **Published:** `2025-07-01T14:14:53.000Z`
+  **NeKI brief:** Discusses this thread, extracting concrete engineering practices and trade-offs that Apple-platform developers can apply when evaluating this workflow.
 - [📦 How to set up a Swift Package registry](https://albertodebortoli.com/2025/06/06/how-to-setup-a-swift-package-registry-in-artifactory) — iOS CI Newsletter · Issue 71 — Article · Topics: Concurrency · Swift · Swift Package Manager
   **Published:** `2025-06-30T00:00:00.000Z`
   **NeKI brief:** Walks through how to set up a Swift Package registry, with practical context for Concurrency and Swift. Use it when implementing the workflow, while checking current tool and platform versions before copying the setup.
 - [what you’re looking for](https://www.massicotte.org/default-isolation-swift-6_2) — iOS Dev Weekly · Issue 715 — Article · Topics: Concurrency · Swift · Xcode
   **Published:** `20th June 2025`
   **NeKI brief:** Explains Default isolation with Swift 6.2, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [Task Closure Lifecycle in Swift Explained (vs Regular Closures)](https://www.youtube.com/watch?v=_0r7VL69l7I) — Those Who Swift · Issue 217 — Video · Topics: Concurrency · Graphics, Media & Games · Swift
+  **Published:** `2025-06-18`
+  **NeKI brief:** Reviews Task Closure Lifecycle in Swift Explained (vs Regular Closures). Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
 - [ImplementedSE-0468`Hashable` conformance for `Async(Throwing)Stream.Continuation`](https://github.com/apple/swift-evolution/blob/main/proposals/0468-async-stream-continuation-hashable-conformance.md) — SwiftLee Weekly · Issue 276 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-06-17T14:10:56.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0468`Hashable` conformance for `Async(Throwing)Stream.Continuation`. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -2578,6 +2695,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0471Improved Custom SerialExecutor isolation checking for Concurrency Runtime](https://github.com/apple/swift-evolution/blob/main/proposals/0471-SerialExecutor-isIsolated.md) — SwiftLee Weekly · Issue 272 — Source repository · Topics: App Services & Extensions · Swift · Testing
   **Published:** `2025-05-20T14:12:58.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0471Improved Custom SerialExecutor isolation checking for Concurrency Runtime. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [AsyncExtensions](https://github.com/sideeffect-io/AsyncExtensions) — SwiftLee Weekly · Issue 272 — Source repository · Topics: Combine & Reactive Programming · Concurrency · Developer Tools
+  **Published:** `2025-05-20T14:12:58.000Z`
+  **NeKI brief:** Points to AsyncExtensions, an open-source implementation or issue with concrete code and discussion that can inform Apple-platform development decisions.
 - [Building a Serial Task Executor in Swift](https://iosdevlibrary.com/building-a-serial-task-executor-in-swift) — Those Who Swift · Issue 214 — Article · Topics: Concurrency · Swift
   **Published:** `2025-05-15`
   **NeKI brief:** Builds a serial task executor in Swift for ordering asynchronous work. Use it when a feature needs one-at-a-time execution, checking cancellation, failure propagation, fairness, and actor isolation instead of relying on incidental task ordering.
@@ -2587,6 +2707,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [ImplementedSE-0461Run nonisolated async functions on the caller's actor by default](https://github.com/apple/swift-evolution/blob/main/proposals/0461-async-function-isolation.md) — SwiftLee Weekly · Issue 271 — Source repository · Topics: Concurrency · Swift · Testing
   **Published:** `2025-05-13T09:07:48.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0461Run nonisolated async functions on the caller's actor by default. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Active ReviewSE-0484Allow Additional Arguments to `@dynamicMemberLookup` Subscripts](https://github.com/apple/swift-evolution/blob/main/proposals/0484-allow-additional-args-to-dynamicmemberlookup-subscripts.md) — SwiftLee Weekly · Issue 271 — Source repository · Topics: Concurrency · Swift · Testing
+  **Published:** `2025-05-13T09:07:48.000Z`
+  **NeKI brief:** Records Active ReviewSE-0484Allow Additional Arguments to `@dynamicMemberLookup` Subscripts, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Start a free 14-day trial ->](https://teams.rocketsim.app/signup/trial) — SwiftLee Weekly · Issue 271 — Tutorial · Topics: Concurrency · Developer Community & Business · Swift
   **Published:** `2025-05-13T09:07:48.000Z`
   **NeKI brief:** Introduces Start a free 14-day trial -> as a developer resource or service relevant to Swift and Apple-platform work. Use it to assess the stated workflow or offering, checking scope, pricing, access requirements, and technical fit before relying on it.
@@ -2617,6 +2740,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI Alert Guide + Code Examples](https://www.avanderlee.com/swiftui/swiftui-alert-presenting?ref=createwithswift.com) — Create with Swift · Issue 56 — Article · Topics: Swift · SwiftUI
   **Published:** `2025-04-11T15:33:31.000Z`
   **NeKI brief:** Builds SwiftUI alerts from state, including dynamic messages, multiple actions, and reusable error presentation. The patterns clarify how presentation state should be modeled so alerts do not race with view updates.
+- [Server-Side Swift… Served From The Client-Side](https://captainswiftui.substack.com/p/server-side-swift-served-from-the) — Those Who Swift · Issue 209 — Article · Topics: Concurrency · Swift · SwiftUI
+  **Published:** `2025-04-09`
+  **NeKI brief:** Explores serving server-side Swift concepts from a client-side Swift perspective. Useful for understanding where shared language helps and where deployment, networking, and runtime boundaries remain distinct.
 - [Working With The task Modifier In SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/working-with-the-task-modifier-in-swiftui) — Those Who Swift · Issue 209 — Tutorial · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2025-04-09`
   **NeKI brief:** Examines Working With The task Modifier In SwiftUI, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
@@ -2628,10 +2754,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** A timeout races work against a sleeping task and cancels the loser, giving structured callers a bounded result; cancellation only works if the operation cooperatively checks it.
 - [ModelActor is Just Weird](https://www.massicotte.org/model-actor?ref=createwithswift.com) — Create with Swift · Issue 55 — Article · Topics: Concurrency · Swift · SwiftData
   **Published:** `2025-04-04T15:49:40.000Z`
-  **NeKI brief:** Explains ModelActor is Just Weird, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** In this article, Matt shows his journey in understanding how the ModelActor protocol and how Swift Data deals with concurrency in the system.
 - [Swift 6.1 Released](https://www.swift.org/blog/swift-6.1-released) — iOS Dev Weekly · Issue 706 — Article · Topics: Concurrency · Objective-C & Cocoa · Swift
   **Published:** `4th April 2025`
-  **NeKI brief:** Summarizes the Swift 6.1 release and its ecosystem changes. Use it as a starting point for compiler or package upgrades, verifying source compatibility, concurrency diagnostics, and platform support against the toolchain you actually ship.
+  **NeKI brief:** The community has already shared some excellent insights. If you’re looking to dive deeper, we highly recommend checking out this video by Vincent!
 - [Does AsyncStream Replace Combine? No.](https://levelup.gitconnected.com/does-asyncstream-replace-combine-a4fc091a8175) — Those Who Swift · Issue 208 — Article · Topics: Combine & Reactive Programming · Concurrency · Developer Tools
   **Published:** `2025-04-02`
   **NeKI brief:** This article covers the boundary between AsyncStream and Combine. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
@@ -2640,7 +2766,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains Swift async let for concurrently starting multiple child tasks and awaiting their results. Use it when parallel work has fixed structure and needs clear cancellation and error propagation.
 - [ModelActor is Just Weird](https://www.massicotte.org/model-actor) — Those Who Swift · Issue 207 — Article · Topics: Concurrency · Swift · SwiftData
   **Published:** `2025-03-28`
-  **NeKI brief:** Explains ModelActor is Just Weird, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** In this article, Matt shows his journey in understanding how the ModelActor protocol and how Swift Data deals with concurrency in the system.
 - [Refactoring my SwiftUI Navigation Layer to follow the Coordinator Pattern](https://www.tiagohenriques.dev/blog/swiftui-refactor-navigation-layer-using-coordinator-pattern) — SwiftLee Weekly · Issue 263 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2025-03-18T15:01:58.000Z`
   **NeKI brief:** Refactors a SwiftUI navigation layer toward the Coordinator pattern, separating route orchestration from views. Useful for deep-link handling and feature composition when NavigationStack state is spreading across screens.
@@ -2650,12 +2776,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0462Task Priority Escalation APIs](https://github.com/apple/swift-evolution/blob/main/proposals/0462-task-priority-escalation-apis.md) — SwiftLee Weekly · Issue 263 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2025-03-18T15:01:58.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for ImplementedSE-0462Task Priority Escalation APIs. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
+- [Active ReviewSE-0467MutableSpan and MutableRawSpan: delegate mutations of contiguous memory](https://github.com/apple/swift-evolution/blob/main/proposals/0467-MutableSpan.md) — SwiftLee Weekly · Issue 263 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-03-18T15:01:58.000Z`
+  **NeKI brief:** Records ImplementedSE-0467MutableSpan and MutableRawSpan: delegate mutations of contiguous memory, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
+- [Active ReviewSE-0469Task Naming](https://github.com/apple/swift-evolution/blob/main/proposals/0469-task-names.md) — SwiftLee Weekly · Issue 263 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-03-18T15:01:58.000Z`
+  **NeKI brief:** Records ImplementedSE-0469Task Naming, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [Synchronous Work](https://www.massicotte.org/synchronous-work) — SwiftLee Weekly · Issue 262 — Article · Topics: Concurrency · Swift
   **Published:** `2025-03-11T15:01:20.000Z`
-  **NeKI brief:** Explains Synchronous Work, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Matt delves into the trade-offs between synchronous and asynchronous execution, emphasizing the importance of understanding when and how to use each approach effectively, highlighting the trade-offs between efficiency and complexity when deciding whether to…
 - [Synchronous Work](https://www.massicotte.org/synchronous-work?ref=createwithswift.com) — Create with Swift · Issue 51 — Article · Topics: Concurrency · Swift
   **Published:** `2025-03-07T16:16:53.000Z`
-  **NeKI brief:** Explains Synchronous Work, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Matt delves into the trade-offs between synchronous and asynchronous execution, emphasizing the importance of understanding when and how to use each approach effectively, highlighting the trade-offs between efficiency and complexity when deciding whether to…
+- [a new thread on the Swift Forums](https://forums.swift.org/t/so-is-task-unstructured-or-what/78111) — SwiftLee Weekly · Issue 261 — Article · Topics: Concurrency · Swift
+  **Published:** `2025-03-04T15:16:50.000Z`
+  **NeKI brief:** Discusses a new thread on the Swift Forums, extracting concrete engineering practices and trade-offs that Apple-platform developers can apply when evaluating this workflow.
+- [SE-461 Run nonisolated async functions on the caller's actor by default](https://github.com/swiftlang/swift-evolution/blob/e56820b8eaeb5441ad4b0a4e0132eb501729f291/proposals/0461-async-function-isolation.md) — SwiftLee Weekly · Issue 261 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2025-03-04T15:16:50.000Z`
+  **NeKI brief:** Records SE-461 Run nonisolated async functions on the caller's actor by default, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
 - [sample code](https://github.com/artemnovichkov/ShazamKitExample) — Fatbobman’s Swift Weekly · Issue 73 — Source repository · Topics: Concurrency · Developer Career & Practice · Developer Tools
   **Published:** `2025-03-04T01:25:29.647Z`
   **NeKI brief:** ShazamKitExample demonstrates music recognition with ShazamKit's modern async APIs. Use it to trace recognition-result flow without manually coordinating AVAudioEngine callbacks, then adapt audio capture and permissions to the product's needs.
@@ -2668,12 +2806,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Yielding and debouncing in Swift Concurrency](https://swiftwithmajid.com/2025/02/18/yielding-and-debouncing-in-swift-concurrency?ref=createwithswift.com) — Create with Swift · Issue 49 — Article · Topics: Concurrency · Swift
   **Published:** `2025-02-21T16:30:25.000Z`
   **NeKI brief:** Explains yielding and debouncing techniques with Swift concurrency, showing how tasks can cooperate and suppress redundant work. Follow it for search, input, or event pipelines where cancellation, scheduling fairness, and latest-value behavior must be explicit.
+- [Introducing gRPC Swift 2](https://www.swift.org/blog/grpc-swift-2) — Those Who Swift · Issue 202 — Article · Topics: Concurrency · Swift
+  **Published:** `2025-02-19`
+  **NeKI brief:** Introduces gRPC Swift 2. Useful for evaluating generated client/server boundaries, transport choices, and compatibility when adopting gRPC in a Swift service or app.
 - [Task Cancellation in Swift Concurrency](https://swiftwithmajid.com/2025/02/11/task-cancellation-in-swift-concurrency?ref=createwithswift.com) — Create with Swift · Issue 4 — Article · Topics: Concurrency · Swift
   **Published:** `2025-02-14T16:00:59.000Z`
   **NeKI brief:** Demonstrates cooperative task cancellation in Swift, including checking cancellation and stopping asynchronous work promptly. Useful for preventing stale network or search results from continuing after a view disappears.
 - [The Next Chapter in Swift Build TechnologiesSwift continues to grow in popularity as a cross-platform language supporting a wide variety of use cases, with support on a variety of embedded devices, form factors that encompass wearables to server, and a wide variety of operating systems. As Swift expands, there’s value in investing in matching cross-platform build tools that provide a powerful, consistent, and flexible experience across the ecosystem.Swift.orgApple Inc.](https://www.swift.org/blog/the-next-chapter-in-swift-build-technologies?ref=createwithswift.com) — Create with Swift · Issue 47 — Article · Topics: Concurrency · Cross-Platform & Web · Swift
   **Published:** `2025-02-07T16:00:24.000Z`
-  **NeKI brief:** Discusses the direction of Swift build technologies and tooling. Use it for ecosystem context when planning build-system work, but keep implementation decisions grounded in the current Swift Package Manager and Xcode documentation.
+  **NeKI brief:** This commitment led Apple to open-sourcing Swift Build, a build engine that offers a comprehensive set of build rules for constructing Swift projects.
 - [Mastering TaskGroups in Swift](https://swiftwithmajid.com/2025/02/04/mastering-task-groups-in-swift?ref=createwithswift.com) — Create with Swift · Issue 47 — Article · Topics: Concurrency · Swift
   **Published:** `2025-02-07T16:00:24.000Z`
   **NeKI brief:** Uses task groups to fan out dynamic child work, collect results, and propagate cancellation. Useful for concurrent aggregation where the number of operations is known only at runtime.
@@ -2686,9 +2827,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Solving “Main actor-isolated property can not be referenced from a Sendable closure” in Swift](https://www.donnywals.com/solving-main-actor-isolated-property-can-not-be-referenced-from-a-sendable-closure-in-swift?ref=createwithswift.com) — Create with Swift · Issue 44 — Article · Topics: Concurrency · Swift
   **Published:** `2025-01-17T16:05:04.000Z`
   **NeKI brief:** Diagnoses the compiler error caused by accessing main-actor-isolated state from a Sendable closure and presents isolation-aware fixes. Use it when migrating Swift concurrency code, choosing capture strategies, and preserving actor boundaries rather than silencing diagnostics.
+- [Migrating from the Outside in](https://www.massicotte.org/outside-in-migration) — Those Who Swift · Issue 197 — Article · Topics: Concurrency · Personal Essays · Swift
+  **Published:** `2025-01-17`
+  **NeKI brief:** Explores an outside-in migration approach. Useful for planning incremental architectural change from user-facing behavior inward while keeping intermediate states testable and shippable.
 - [Adopting Swift 6 across the app codebase](https://swiftwithmajid.com/2025/01/07/adopting-swift6-across-the-app-codebase?ref=createwithswift.com) — Create with Swift · Issue 43 — Article · Topics: Concurrency · Swift
   **Published:** `2025-01-10T16:30:02.000Z`
   **NeKI brief:** Describes a staged approach to adopting Swift 6 across an existing app, including strict concurrency diagnostics and incremental remediation. Useful for planning migration work by ownership boundary, measuring warning debt, and keeping delivery possible during the transition.
+- [Tabnine](https://www.tabnine.com/) — iOS Dev Tools · iOS Dev Tools: Finch, Swift-mod, Nimble — Article · Topics: AI Development · Concurrency · Testing
+  **Published:** `2025-01-02T17:37:26.914Z`
+  **NeKI brief:** Tabnine provides AI-assisted code completion and developer productivity tooling. Follow its materials for concrete editor and model-assisted workflows, while checking privacy, provider, and code-handling boundaries.
 - [SwiftUI Button: Custom Styles, Variants, and Best Practices](https://www.avanderlee.com/swiftui/swiftui-button-styles?ref=createwithswift.com) — Create with Swift · Issue 41 — Article · Topics: Swift · SwiftUI
   **Published:** `2024-12-20T16:00:23.000Z`
   **NeKI brief:** Builds reusable ButtonStyle implementations and shows how role, pressed state, and environment values influence rendering. It helps centralize interaction design while retaining SwiftUI’s accessibility and hit-testing behavior.
@@ -2700,19 +2847,28 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** The approachable-concurrency vision frames migration barriers and proposed defaults for making isolation easier to adopt. Use it to connect compiler diagnostics and project settings with a staged Swift 6 concurrency rollout.
 - [Concurrency Step-by-Step: Reading from Storage](https://www.massicotte.org/step-by-step-reading-from-storage?ref=createwithswift.com) — Create with Swift · Issue 40 — Article · Topics: Concurrency · Swift
   **Published:** `2024-12-13T16:30:39.000Z`
-  **NeKI brief:** Explains Concurrency Step-by-Step: Reading from Storage, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Matt offers a step-by-step guide to handling concurrent data storage operations in Swift, focusing on common challenges and best practices explaining how to properly manage data access across different threads while maintaining type safety.
+- [platform channels](https://docs.flutter.dev/platform-integration/platform-channels) — iOS Dev Weekly · Issue 691 — Article · Topics: Concurrency · Cross-Platform & Web · Swift
+  **Published:** `13th December 2024`
+  **NeKI brief:** “One thing I really want to drive home is that this is not rocket science. I’ve not done anything half as clever as the Swift team has with C++ and Java interoperability. FlutterSwift is just a few thousand lines of structured concurrency glue around Flutter…
 - [Be careful wrapping a throwing function in a Task](https://www.swiftwithvincent.com/blog/be-careful-wrapping-a-throwing-function-in-a-task) — SwiftLee Weekly · Issue 249 — Article · Topics: Concurrency · Swift
   **Published:** `2024-12-10T13:47:59.000Z`
   **NeKI brief:** Explains Be careful wrapping a throwing function in a Task, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
 - [Concurrency Step-by-Step: Reading from Storage](https://www.massicotte.org/step-by-step-reading-from-storage) — iOS Dev Weekly · Issue 690 — Article · Topics: Concurrency
   **Published:** `6th December 2024`
-  **NeKI brief:** Explains Concurrency Step-by-Step: Reading from Storage, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+  **NeKI brief:** Matt offers a step-by-step guide to handling concurrent data storage operations in Swift, focusing on common challenges and best practices explaining how to properly manage data access across different threads while maintaining type safety.
 - [SwiftLee](https://www.avanderlee.com/swift-testing/require-macro?ref=ioscodereview.com) — iOS Code Review · Issue 74 — Article · Topics: Macros & Metaprogramming · Swift · Testing
   **Published:** `2024-12-04T11:30:50.000Z`
   **NeKI brief:** Explains #require as Swift Testing’s throwing precondition for setup and optional unwrapping, contrasting its fail-fast behavior with #expect and showing how failure messages retain useful source context.
 - [MacWhisper: Transcribe audio files into text with OpenAI](https://goodsnooze.gumroad.com/l/macwhisper) — SwiftLee Weekly · Issue 248 — Article · Topics: AI Development · Concurrency · Swift
   **Published:** `2024-12-03T14:26:41.000Z`
   **NeKI brief:** Explains MacWhisper: Transcribe audio files into text with OpenAI, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
+- [That's possible!](https://getsponsy.com/my/swiftlee-weekly-newsletter) — SwiftLee Weekly · Issue 248 — Article · Topics: Concurrency · Swift
+  **Published:** `2024-12-03T14:26:41.000Z`
+  **NeKI brief:** Discusses get your link in front of my audience, providing concrete engineering context that Apple-platform developers can use when evaluating the referenced workflow.
+- [Find out in this interview I've had with Firm24](https://www.firm24.com/ondernemersverhalen/swiftlee) — SwiftLee Weekly · Issue 248 — Article · Topics: Concurrency · Swift
+  **Published:** `2024-12-03T14:26:41.000Z`
+  **NeKI brief:** Discusses Find out in this interview I've had with Firm24, providing concrete engineering context that Apple-platform developers can use when evaluating the referenced workflow.
 - [Secrets to Success With @MainActor](https://www.hackingwithswift.com/quick-start/concurrency/how-to-use-mainactor-to-run-code-on-the-main-queue?ref=ioscodereview.com) — iOS Code Review · Issue 73 — Article · Topics: App Services & Extensions · Concurrency · Observation & State Management
   **Published:** `2024-11-20T11:14:23.000Z`
   **NeKI brief:** Examines this article by Paul Hudson in the context of Concurrency and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -2731,15 +2887,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [How to Use URLSession with Async/Await for Network Requests in Swift](https://www.avanderlee.com/concurrency/urlsession-async-await-network-requests-in-swift?ref=createwithswift.com) — Create with Swift · Issue 35 — Article · Topics: Concurrency · Networking · Swift
   **Published:** `2024-11-08T16:05:59.000Z`
   **NeKI brief:** Builds URLSession requests with async/await, HTTP validation, decoding, and typed error handling without third-party networking frameworks. The sequence provides a concrete baseline for deciding where retries and cancellation belong.
-- [Understanding actors in Swift](https://tanaschita.com/swift-actors-basics) — iOS Dev Weekly · Issue 686 — Article · Topics: Concurrency · Swift
-  **Published:** `8th November 2024`
-  **NeKI brief:** Introduces Swift actors as protection for shared mutable state and data races. It is a concise route into actor isolation, useful for developers beginning a concurrency migration who need to understand the problem before applying annotations mechanically.
 - [Problematic Patterns in Swift Concurrency](https://www.massicotte.org/problematic-patterns) — SwiftLee Weekly · Issue 244 — Article · Topics: Concurrency · Swift
   **Published:** `2024-11-05T21:06:10.000Z`
   **NeKI brief:** Explains Problematic Patterns in Swift Concurrency, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
-- [Understanding actors in Swift](https://tanaschita.com/swift-actors-basics?ref=createwithswift.com) — Create with Swift · Issue 34 — Article · Topics: Concurrency · Swift
-  **Published:** `2024-11-01T19:30:40.000Z`
-  **NeKI brief:** Introduces Swift actors as protection for shared mutable state and data races. It is a concise route into actor isolation, useful for developers beginning a concurrency migration who need to understand the problem before applying annotations mechanically.
 - [How to listen for property changes in an @Observable class using AsyncStreams](https://www.polpiella.dev/observable-property-changes?ref=createwithswift.com) — Create with Swift · Issue 31 — Article · Topics: Concurrency · Observation & State Management · Swift
   **Published:** `2024-10-11T15:30:29.000Z`
   **NeKI brief:** AsyncStream can bridge Observation changes into an async consumer, replacing ObservableObject publishers while preserving cancellation and backpressure decisions. The comparison clarifies when a stream should be scoped to a task and when direct observation is simpler.
@@ -2766,13 +2916,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Presents non-sendable types are cool too you know for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
 - [The Full Async/Await Toolkit](https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit) — iOS Dev Weekly · Issue 672 — Article · Topics: Concurrency · Swift
   **Published:** `2nd August 2024`
-  **NeKI brief:** Presents the full async/await toolkit for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Jacob explains various concurrency tools available in Swift including both theoretical explanations and practical examples to demonstrate how and when to use them.
 - [Quick and Nimble](https://github.com/Quick/Nimble) — iOS CI Newsletter · Issue 47 — Source repository · Topics: AI Development · Concurrency · Testing
   **Published:** `2024-07-28T00:00:00.000Z`
   **NeKI brief:** Provides the public source repository for Nimble. Inspect its implementation, examples, and issue history to evaluate integration boundaries and maintenance trade-offs before depending on it in an Apple-platform project.
 - [Async await in Swift: The Full Toolkit](https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com) — Create with Swift · Issue 23 — Article · Topics: Concurrency · Swift
   **Published:** `2024-07-26T15:00:26.000Z`
-  **NeKI brief:** Presents the full async/await toolkit for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+  **NeKI brief:** Jacob explains various concurrency tools available in Swift including both theoretical explanations and practical examples to demonstrate how and when to use them.
 - [Why macOS Development is Perfect for Indie DevelopersLearn from the experiences of a successful macOS app developer and gain the confidence to dive into creating your own Mac applications.SwiftLeeAntoine van der Lee](https://www.avanderlee.com/swiftui/macos-development-powerful-utilities?ref=createwithswift.com) — Create with Swift · Issue 22 — Article · Topics: macOS & AppKit · Swift · SwiftUI
   **Published:** `2024-07-19T16:00:03.000Z`
   **NeKI brief:** Describes macOS utility opportunities, lifecycle differences, and distribution considerations learned from shipping indie apps. It is useful for evaluating a Mac companion product where desktop capabilities can justify a separate target.
@@ -2830,6 +2980,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Refactoring to TipKit from AppStorage and Custom Views](https://www.swiftjectivec.com/refactoring-tipkit-swiftui-from-appstorage) — iOS Dev Weekly · Issue 661 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `17th May 2024`
   **NeKI brief:** Presents refactoring to tipkit from appstorage and custom views for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [Concurrency in Swift 6: SE-0418](https://www.massicotte.org/concurrency-swift-6-se-0418) — SwiftUI Weekly · SwiftUI Weekly - Issue #185 — Article · Topics: Concurrency · Swift
+  **Published:** `2024-05-06T13:22:31.904Z`
+  **NeKI brief:** Explains This is a dense proposal, covering a lot of tricky stuff around the relationships between functions, key paths, and sendability. I’m going to go out on a limb here and say that the changes here won’t affect the majority Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Automerge Swift](https://github.com/automerge/automerge-swift) — Fatbobman’s Swift Weekly · Issue 30 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2024-05-06T12:01:46.954Z`
   **NeKI brief:** Automerge Swift brings CRDT-based document synchronization to Swift. Use it when offline-first collaboration requires mergeable edits and conflict resolution rather than last-write-wins persistence.
@@ -2893,6 +3046,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [the work he did with the Thread Sanitizer](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/issues/2321) — iOS Dev Weekly · Issue 651 — Source repository · Topics: Concurrency · Swift · Swift Package Manager
   **Published:** `8th March 2024`
   **NeKI brief:** Presents the work he did with the thread sanitizer for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [sanitiser switched on today](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/blob/1e36b0d7bbec844621ecef178773043fed80ea29/Makefile) — iOS Dev Weekly · Issue 651 — Source repository · Topics: Concurrency · Swift · Swift Package Manager
+  **Published:** `8th March 2024`
+  **NeKI brief:** I chatted about it with Sven, and he suspects that we’re in such good shape because of the work he did with the Thread Sanitizer from some concurrency issues we had last year. The Thread Sanitizer does a similar job to these strict concurrency checks but at…
 - [An Introduction to Isolation in Swift](https://www.massicotte.org/intro-to-isolation) — SwiftUI Weekly · SwiftUI Weekly - Issue #178 — Tutorial · Topics: Concurrency · Developer Community & Business · Swift
   **Published:** `2024-03-04T12:24:09.172Z`
   **NeKI brief:** Explores An Introduction to Isolation in Swift with concrete Swift concurrency examples. Follow it to reason about isolation, cancellation, and Sendable boundaries, then verify availability and diagnostics against current Swift documentation.
@@ -2932,6 +3088,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Distributing Work Between Actors](https://jackmorris.xyz/posts/2023/11/06/distributing-work-between-actors) — iOS Dev Weekly · Issue 636 — Article · Topics: Concurrency · Persistence & Synchronisation
   **Published:** `17th November 2023`
   **NeKI brief:** Presents distributing work between actors for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [samples in the repository](https://github.com/apple/swift-distributed-actors/tree/main/Samples) — iOS Dev Weekly · Issue 631 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `13th October 2023`
+  **NeKI brief:** Explains samples in the repository, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [more awaiting merging](https://github.com/apple/swift-distributed-actors/pull/1139) — iOS Dev Weekly · Issue 631 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `13th October 2023`
+  **NeKI brief:** Examines Peer-to-peer cluster implementation for Swift Distributed Actors - Another mini sample to show starting two processes and discovery by ktoso · Pull Request #1139 · apple/swift-dist. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Demystifying AttributeGraph Behind SwiftUI](https://kyleye.top/posts/demystify-attributegraph-1) — Fatbobman’s Swift Weekly · Issue 1 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2023-10-09T14:00:25.178Z`
   **NeKI brief:** Investigates SwiftUI update behavior through AttributeGraph internals and debugging observations. Use it to form performance hypotheses about dependency propagation, while treating the implementation details as private and version-sensitive rather than supported API.
@@ -2941,19 +3103,31 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [【详细攻略】用英国公司注册苹果开发者账号](https://blog.imjp.uk/uk-apple-dev) — Fatbobman’s Swift Weekly · Issue 1 — Article · Topics: Concurrency
   **Published:** `2023-10-09T14:00:25.178Z`
   **NeKI brief:** Describes registering an Apple Developer account through a UK company structure. Use it only as administrative context when evaluating account setup; verify current enrollment, identity, tax, and legal requirements with Apple and relevant authorities.
+- [The Future of Accessing User Location in SwiftUI](https://holyswift.app/the-new-way-to-get-current-user-location-in-swiftu-tutorial) — SwiftUI Weekly · SwiftUI Weekly - Issue #162 — Tutorial · Topics: Concurrency · Swift · SwiftUI
+  **Published:** `2023-10-02T11:07:38.791Z`
+  **NeKI brief:** Explains Apple “recently” launched the async/await and a lot of old APIs are migrating to this new way of receiving asynchronous updates. Apple then released the AsyncSequence which is a way to continuously listen to an async str Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [Crossing the Boundary](https://www.massicotte.org/crossing-the-boundary) — iOS Dev Weekly · Issue 629 — Article · Topics: Concurrency · Swift
   **Published:** `29th September 2023`
   **NeKI brief:** Presents crossing the boundary for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
+- [SDWebImage](https://github.com/SDWebImage/SDWebImage) — iOS Dev Tools · 🔨 Introducing Charts, IQKeyboardManager, SDWebImage — Source repository · Topics: Concurrency · Developer Tools
+  **Published:** `2023-08-17T12:00:28.327Z`
+  **NeKI brief:** SDWebImage provides asynchronous image loading, caching, and decoding for Apple-platform applications. Follow its source for concrete pipeline and cache-extension points, then verify current format and concurrency support before adoption.
 - [A refactoring story](https://qualitycoding.org/refactoring-cleaning-mess?ref=ioscodereview.com) — iOS Code Review · Issue 53 — Article · Topics: Concurrency
   **Published:** `2023-08-17T11:03:56.000Z`
   **NeKI brief:** Examines A refactoring story in the context of Concurrency. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [RxSwift](https://github.com/ReactiveX/RxSwift) — iOS Dev Tools · 🔨 Introducing SnapKit, SwiftyJSON, RxSwift — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2023-08-10T11:11:05.792Z`
+  **NeKI brief:** RxSwift provides reactive programming primitives for Swift, including observable streams, operators, and schedulers. Follow its source and documentation for concrete composition and cancellation patterns, while considering Swift concurrency trade-offs.
+- [swift-unidirectional-flow](https://github.com/mecid/swift-unidirectional-flow) — SwiftUI Weekly · SwiftUI Weekly - Issue #150 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2023-07-10T08:48:10.425Z`
+  **NeKI brief:** Explains Unidirectional flow implemented using the latest Swift Generics and Swift Concurrency features. Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [View vs View modifier?](https://www.swiftbysundell.com/articles/swiftui-views-versus-modifiers?ref=ioscodereview.com) — iOS Code Review · Issue 52 — Article · Topics: Swift · SwiftUI
   **Published:** `2023-07-06T18:35:01.000Z`
   **NeKI brief:** Compares extracting SwiftUI behavior as a View versus a ViewModifier. Both can structure, style, and own state; the useful deciding question is conceptual hierarchy—use modifiers when the change is styling, not a new structural component.
-- [Featuring XcodeGen, Factory, & Swinject](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? — Source repository · Topics: Concurrency · Swift · Xcode
+- [Featuring XcodeGen, Factory, & Swinject](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? - iOS Dev Tools — Source repository · Topics: Concurrency · Swift · Xcode
   **Published:** `2023-06-01T12:01:55.488Z`
   **NeKI brief:** XcodeGen generates Xcode projects from a declarative YAML or JSON specification. Use it to make targets, build settings, schemes, and dependencies reviewable text, avoiding fragile manual edits to project.pbxproj files.
-- [Factory - A New Dawn for Swift and SwiftUI Dependency Injection](https://github.com/Swinject/Swinject) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? — Source repository · Topics: Architecture · Dependency Injection · Swift
+- [Factory - A New Dawn for Swift and SwiftUI Dependency Injection](https://github.com/Swinject/Swinject) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? - iOS Dev Tools — Source repository · Topics: Architecture · Dependency Injection · Swift
   **Published:** `2023-06-01T12:01:55.488Z`
   **NeKI brief:** Swinject resolves object graphs through registered factories and supports scopes such as transient or container lifetime. Use it to compare explicit dependency composition with container-based injection, especially around runtime resolution failures and test overrides.
 - [Implementing reachability](https://www.avanderlee.com/swift/optimizing-network-reachability?ref=ioscodereview.com) — iOS Code Review · Issue 47 — Article · Topics: Networking · Swift
@@ -2962,6 +3136,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Discover how @MainActor works](https://www.swiftwithvincent.com/blog/discover-how-main-actor-works-in-swift) — SwiftUI Weekly · SwiftUI Weekly - Issue #140 — Article · Topics: Concurrency · Swift
   **Published:** `2023-04-25T07:37:25.660Z`
   **NeKI brief:** Explains MainActor isolation, executor scheduling, and why UI-facing Swift code belongs on the main actor. Useful when reviewing async SwiftUI code for accidental data races, unnecessary hops, or blocked responsiveness.
+- [Swift Concurrency Quick Start](https://dev.srdanstanic.com/swift-concurrency-quick-start) — SwiftUI Weekly · SwiftUI Weekly - Issue #139 — Article · Topics: Concurrency · Swift
+  **Published:** `2023-04-17T14:01:12.627Z`
+  **NeKI brief:** Provides a condensed entry point into Swift concurrency concepts for developers starting with async work. Useful for orienting task, async/await, and structured-concurrency terminology before deeper production design.
+- [Downloading Data in SwiftUI with URLSession and async/await](https://matteomanferdini.com/swift-urlsession) — SwiftUI Weekly · SwiftUI Weekly - Issue #135 — Article · Topics: Concurrency · Networking · Swift
+  **Published:** `2023-03-13T10:48:39.427Z`
+  **NeKI brief:** Explains Many modern iOS apps are connected to the internet. When you need to download or upload data, URLSession is the solution. Together with other types, URLSession not only transfers data over a network but also groups trans Useful when implementing this SwiftUI concern and comparing the page's concrete API and layout choices with the requirements of a production interface.
 - [TaskGroup error handling in Swift](https://augmentedcode.io/2023/03/06/taskgroup-error-handling-in-swift) — iOS Dev Weekly · Issue 600 — Article · Topics: Concurrency · Swift
   **Published:** `10th March 2023`
   **NeKI brief:** Explores TaskGroup error handling in Swift, focusing on task groups in swift’s async/await support are a fantastic tool,. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -2971,6 +3151,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Efficiently Managing Multiple Async Tasks in SwiftUI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL2hvbHlzd2lmdC5hcHAvZWZmaWNpZW50bHktbWFuYWdpbmctbXVsdGlwbGUtYXN5bmMtdGFza3MtaW4tc3dpZnR1aS8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiJjZmM5ZTE2MC02YWY1LTRlMWUtOGI1OS0zZGNmZmRkNTVhYmQiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiMDU5Zjc1ZDEtOGJlYy00ZGY3LWEwMzAtMjQ1NTIzYWE3Y2I1IiwiaWF0IjoxNjc0MDYyNTU2LjgyMSwiaXNzIjoib3JjaGlkIn0.HZzGOwzhoPo69a-J0S_8WKXHvIGOrH2bNN_LiZNPSQY) — SwiftUI Weekly · SwiftUI Weekly - Issue #126 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2022-12-26T08:42:03.000Z`
   **NeKI brief:** Explores coordinating multiple asynchronous operations from a SwiftUI view, including task lifetime and result handling. Useful for dashboards or detail screens that must combine independent loads while respecting cancellation and view identity.
+- [Balance Stability, Performance, and Feature Development with Instabug](https://www.instabug.com/product/app-performance-monitoring) — iOS Dev Weekly · Issue 587 — Article · Topics: Concurrency · Performance
+  **Published:** `2nd December 2022`
+  **NeKI brief:** Discusses Balance Stability, Performance, and Feature Development with Instabug, connecting the concrete app-design or engineering decision to practical considerations for Apple-platform developers.
 - [Development Assets in Xcode to enrich SwiftUI Previews](https://www.avanderlee.com/xcode/development-assets-preview-catalog?ref=ioscodereview.com) — iOS Code Review · Issue 38 — Article · Topics: Swift · SwiftUI · Xcode
   **Published:** `2022-12-01T13:37:36.000Z`
   **NeKI brief:** Shows development asset catalogs providing preview-only resources and sample data without shipping them in production. This keeps SwiftUI previews rich while controlling bundle contents.
@@ -3013,6 +3196,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Wikipedia](https://en.wikipedia.org/wiki/Code_refactoring?ref=ioscodereview.com) — iOS Code Review · Issue 21 — Article · Topics: Concurrency
   **Published:** `2022-04-21T11:21:14.000Z`
   **NeKI brief:** Examines Wikipedia in the context of Concurrency. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+- [few months later](https://www.swift.org/blog/crypto) — iOS Dev Weekly · Issue 552 — Article · Topics: Concurrency · Swift
+  **Published:** `1st April 2022`
+  **NeKI brief:** The Swift.org post discusses Swift Crypto and its relationship to the broader Swift ecosystem, providing technical background on cryptographic APIs.
 - [Introducing Swift Async Algorithms](https://www.swift.org/blog/swift-async-algorithms) — iOS Dev Weekly · Issue 552 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `1st April 2022`
   **NeKI brief:** Explores Introducing Swift Async Algorithms, focusing on the article discusses mentioned it briefly in this week’s comment,. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -3058,6 +3244,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [accompanying blog post](https://swiftbysundell.com/articles/async-and-concurrent-forEach-and-map) — iOS Dev Weekly · Issue 533 — Article · Topics: Concurrency · Swift
   **Published:** `12th November 2021`
   **NeKI brief:** Builds asynchronous and concurrent variants of forEach and map, exposing the choices hidden by familiar collection APIs. Follow it when processing independent work concurrently and you need to reason about ordering, task lifetime, error propagation, and back pressure.
+- [Refactoring an app to use the latest SwiftUI and async/await](https://www.youtube.com/watch?v=U3tKbUX_UVA) — iOS Dev Weekly · Issue 532 — Video · Topics: Concurrency · Graphics, Media & Games · Swift
+  **Published:** `5th November 2021`
+  **NeKI brief:** Examines In this video, we are going to update the MovieDB App that we have built last year with the initial release of SwiftUI on iOS 13.#swiftui #ios15 #iosdevelopm. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Modern Concurrency in Swift](https://www.raywenderlich.com/books/modern-concurrency-in-swift) — iOS Dev Weekly · Issue 532 — Article · Topics: Concurrency · Swift · Testing
+  **Published:** `5th November 2021`
+  **NeKI brief:** Provides a structured learning route for modern Swift concurrency, including tasks, actors, and isolation. Useful for organizing a migration or study plan alongside current Swift documentation.
 - [Distributed actors in Swift](https://swift.org/blog/distributed-actors) — iOS Dev Weekly · Issue 531 — Article · Topics: Concurrency · Swift
   **Published:** `29th October 2021`
   **NeKI brief:** Explores Distributed actors in Swift, focusing on did you think that swift’s concurrency features were complete? konrad. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -3070,6 +3262,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [1](https://bugs.swift.org/browse/SR-15225) — iOS Dev Weekly · Issue 527 — Article · Topics: Concurrency · Swift
   **Published:** `1st October 2021`
   **NeKI brief:** Explores 1, focusing on it’s hard to say how widespread or severe the issues (1, 2, and 3) in this thread are, but if you’re using. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [2](https://bugs.swift.org/browse/SR-15241) — iOS Dev Weekly · Issue 527 — Article · Topics: Concurrency · Swift
+  **Published:** `1st October 2021`
+  **NeKI brief:** It’s hard to say how widespread or severe the issues (1, 2, and 3) in this thread are, but if you’re using the new concurrency features in Swift 5.5 and see stack corruption, you’ll want to read this.
+- [3](https://bugs.swift.org/browse/SR-15240) — iOS Dev Weekly · Issue 527 — Article · Topics: Concurrency · Swift
+  **Published:** `1st October 2021`
+  **NeKI brief:** Examines Previous ID SR-15240 Radar rdar://problem/83635955 Original Reporter @Kelvin13 Type Bug Status Resolved Resolution Done Environment $ swiftc --version Swift version 5.6-dev (LLVM a. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Thread.sleep() and Task.sleep()](https://trycombine.com/posts/thread-task-sleep) — iOS Dev Weekly · Issue 527 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `1st October 2021`
   **NeKI brief:** Explores Thread.sleep() and Task.sleep(), focusing on it used to be a safe bet to stick to. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -3115,12 +3313,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Getting Started with async/await in SwiftUI](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3BldGVyZnJpZXNlLmRldi9zd2lmdHVpLWNvbmN1cnJlbmN5LWVzc2VudGlhbHMtcGFydDEvP3V0bV9jYW1wYWlnbj0lMjBTd2lmdFVJJTIwV2Vla2x5JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1SZXZ1ZSUyMG5ld3NsZXR0ZXIiLCJwb3N0X2lkIjoiMzZjZjViY2ItZjA1Ny00MzdhLTlmNzYtYzA0NDU3NGFkMmI3IiwicHVibGljYXRpb25faWQiOiI3OTQ4ZWE2NS1jYjZlLTRjZDUtOTcyYy0zMWY4YzZkNmNkYTQiLCJ2aXNpdF90b2tlbiI6ImVjMmY1MWE2LWUxY2MtNDFhYy04YTE4LWRkMTdkMTExOGY2MCIsImlhdCI6MTY3NDA2MjY3Ny4wNjEsImlzcyI6Im9yY2hpZCJ9.6Ti6EtUakdORyaUjvr0Y0E9Y7NLJETJnd6ddAaFzkgI) — SwiftUI Weekly · SwiftUI Weekly - Issue #66 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2021-07-06T10:24:10.000Z`
   **NeKI brief:** Introduces async/await in SwiftUI with task-based asynchronous work and result handling. Follow it when replacing callback code and deciding where view-triggered work should start, cancel, and update state.
+- [async/await is available on older releases](http://www.alwaysrightinstitute.com//jsc-async-await) — iOS Dev Weekly · Issue 512 — Tutorial · Topics: Concurrency · Developer Community & Business
+  **Published:** `18th June 2021`
+  **NeKI brief:** Examines The secret Apple doesn’t want you to know about: It has been shipping an async/await runtime for years. Let’s have a look on how to use it from within Swift!. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [SwiftUI List Bindings - Behind the Scenes](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3BldGVyZnJpZXNlLmRldi9zd2lmdHVpLWxpc3QtaXRlbS1iaW5kaW5ncy1iZWhpbmQtdGhlLXNjZW5lcy8_dXRtX2NhbXBhaWduPSUyMFN3aWZ0VUklMjBXZWVrbHkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPVJldnVlJTIwbmV3c2xldHRlciIsInBvc3RfaWQiOiI5ODU0MmZlMy05ZTlmLTRmZjgtOTljMC00NDg3NTczYmQ2NDIiLCJwdWJsaWNhdGlvbl9pZCI6Ijc5NDhlYTY1LWNiNmUtNGNkNS05NzJjLTMxZjhjNmQ2Y2RhNCIsInZpc2l0X3Rva2VuIjoiZTBkMTY3OTItMWZmNS00YTIxLTk4NGMtNGU5NDE4YjlhMzllIiwiaWF0IjoxNjc0MDYyNjc3LjAxLCJpc3MiOiJvcmNoaWQifQ.cVZAeLciuou9hqP3-whh96OkazPcGkriDvNEXgvfY4c) — SwiftUI Weekly · SwiftUI Weekly - Issue #63 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2021-06-14T22:35:11.000Z`
   **NeKI brief:** Explains how SwiftUI list bindings derive writable access to collection elements. Use it when editing rows in place and when diagnosing identity or mutation behavior in ForEach-driven forms.
+- [The Future of Combine](https://benscheirman.com/2021/06/async-await-and-the-future-of-combine) — iOS Dev Weekly · Issue 511 — Article · Topics: Combine & Reactive Programming · Concurrency
+  **Published:** `11th June 2021`
+  **NeKI brief:** The article examines how Swift async/await changes the future role and design of Apple's Combine framework.
 - [AsyncImage in SwiftUI](https://serialcoder.dev/text-tutorials/swiftui/asyncimage-in-swiftui) — iOS Dev Weekly · Issue 511 — Tutorial · Topics: Concurrency · Swift · SwiftUI
   **Published:** `11th June 2021`
   **NeKI brief:** Explores AsyncImage in SwiftUI, focusing on since the earliest days of ios development, we’ve been writing. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
+- [soon include Swift](https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md) — iOS Dev Weekly · Issue 509 — Source repository · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `28th May 2021`
+  **NeKI brief:** The Swift Evolution proposal documents the design of async/await in Swift and the language changes needed to support structured asynchronous code.
 - [Swift Actors: A Practical Example](https://trycombine.com/posts/swift-actors) — iOS Dev Weekly · Issue 507 — Article · Topics: Combine & Reactive Programming · Concurrency · Swift
   **Published:** `14th May 2021`
   **NeKI brief:** Explores Swift Actors: A Practical Example, focusing on one of the new features coming in swift 5.5 is. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
@@ -3136,6 +3343,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [follow-up post](https://inessential.com/2021/03/21/benefits_of_netnewswires_threading_model) — iOS Dev Weekly · Issue 500 — Article · Topics: Concurrency · Networking
   **Published:** `26th March 2021`
   **NeKI brief:** Explores the benefits of NetNewsWire's threading model, connecting queue choices with responsive UI and safe data access. Use it to review actor or dispatch boundaries, then verify historical SDK assumptions before production use.
+- [this post from Alex Grebenyuk](https://kean.blog/post/concurrency) — iOS Dev Weekly · Issue 500 — Article · Topics: Concurrency
+  **Published:** `26th March 2021`
+  **NeKI brief:** On the same subject, I also enjoyed this post from Alex Grebenyuk, which covers the “until absolutely necessary.” part of what I said above. 👍
+- [fastlane and the Upcoming Two-Step/Two-Factor Enforcement](https://www.joshholtz.com/blog/2021/02/17/apples-2fa-with-fastlane.html) — iOS Dev Weekly · Issue 495 — Article · Topics: CI/CD & Automation · Concurrency · Cross-Platform & Web
+  **Published:** `19th February 2021`
+  **NeKI brief:** Examines Preface. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [and playground](https://github.com/twostraws/whats-new-in-swift-5-4) — iOS Dev Weekly · Issue 493 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `5th February 2021`
   **NeKI brief:** Examines and playground, focusing on the xcode 12.5 beta comes along with a beta of swift 5.4 too! it’s not quite async/await time yet, but that doesn’t mean…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current.
@@ -3163,6 +3376,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [manifesto](https://gist.github.com/lattner/31ed37682ef1576b16bca1432ea9f782) — iOS Dev Weekly · Issue 481 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `6th November 2020`
   **NeKI brief:** Examines Chris proposed, focusing on like bill atkins, i too am keen to see swift get support for async/await style concurrency. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [actors and actor isolation](https://forums.swift.org/t/concurrency-actors-actor-isolation/41613) — iOS Dev Weekly · Issue 481 — Article · Topics: Concurrency · Swift
+  **Published:** `6th November 2020`
+  **NeKI brief:** Explains actors and actor isolation, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
+- [interoperate with Objective-C](https://forums.swift.org/t/concurrency-interoperability-with-objective-c/41616) — iOS Dev Weekly · Issue 481 — Article · Topics: Concurrency · Objective-C & Cocoa · Swift
+  **Published:** `6th November 2020`
+  **NeKI brief:** Discusses the interoperability boundary between Swift concurrency and Objective-C APIs, including the challenges of importing asynchronous behavior. Useful for anticipating migration issues when modern Swift code calls legacy Objective-C interfaces.
+- [asynchronous functions](https://forums.swift.org/t/concurrency-asynchronous-functions/41619) — iOS Dev Weekly · Issue 481 — Article · Topics: Concurrency · Swift
+  **Published:** `6th November 2020`
+  **NeKI brief:** Examines Hi, folks. Central to the overall Swift concurrency effort is the ability to directly express what we call asynchronous functions . An asynchronous function still returns a result. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [structured concurrency](https://forums.swift.org/t/concurrency-structured-concurrency/41622) — iOS Dev Weekly · Issue 481 — Article · Topics: Concurrency · Swift
+  **Published:** `6th November 2020`
+  **NeKI brief:** Explains structured concurrency, focusing on the concrete iOS or Swift implementation technique and the trade-offs relevant to production applications.
 - [Introducing Swift Atomics](https://swift.org/blog/swift-atomics) — iOS Dev Weekly · Issue 476 — Article · Topics: Concurrency · Swift
   **Published:** `2nd October 2020`
   **NeKI brief:** Examines Introducing Swift Atomics, focusing on as karoy lorentey explains, this new library won’t solve all of your problems when writing asynchronous code. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -3181,12 +3406,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The Curious Case of the Core Data Crash](https://blog.iconfactory.com/2019/08/the-curious-case-of-the-core-data-crash) — iOS Dev Weekly · Issue 419 — Article · Topics: Concurrency · Core Data · Developer Tools
   **Published:** `30th August 2019`
   **NeKI brief:** Examines The Curious Case of the Core Data Crash, offering practical guidance on data modeling and persistence trade-offs. Apply its examples to compare choices and spot edge cases, then verify historical SDK assumptions before production use.
+- [What to Expect From Marzipan](https://blog.iconfactory.com/2019/05/what-to-expect-from-marzipan) — iOS Dev Weekly · Issue 403 — Article · Topics: Concurrency
+  **Published:** `10th May 2019`
+  **NeKI brief:** The best thing I read this week was this piece by Craig Hockenberry. I’m going to butcher together a quote here which I think sums it up perfectly.
 - [Downloading files asynchronously and sequentially](https://fluffy.es/download-files-sequentially) — iOS Dev Weekly · Issue 403 — Article · Topics: Concurrency
   **Published:** `10th May 2019`
   **NeKI brief:** Covers Downloading files asynchronously and sequentially, focusing on networking and asynchronous reliability. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
 - [async/await](https://gist.github.com/lattner/429b9070918248274f25b714dcfc7619) — iOS Dev Weekly · Issue 402 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `3rd May 2019`
   **NeKI brief:** Examines async/await proposal, focusing on there has been plenty of speculation that language native concurrency will be a focus for a future release of swift. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Dark Mode and CSS](https://blog.iconfactory.com/2018/10/dark-mode-and-css) — iOS Dev Weekly · Issue 375 — Article · Topics: Concurrency · Cross-Platform & Web
+  **Published:** `26th October 2018`
+  **NeKI brief:** I know we’re straying quite far from iOS development with this article from Craig Hockenberry. But, you all have web sites to market your apps, and people look at those web sites on macOS in Dark Mode. Justified! 😂
+- [Refactoring Massive App Delegate](http://www.vadimbulavin.com/refactoring-massive-app-delegate) — iOS Dev Weekly · Issue 364 — Article · Topics: Concurrency
+  **Published:** `10th August 2018`
+  **NeKI brief:** Examines App delegate connects your app and the system and is usually considered to be the core of every iOS project. The common tendency is that it keeps growing as the development goes, g. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [this one is](https://github.com/ios-factor/ios-factor.com) — iOS Dev Weekly · Issue 354 — Source repository · Topics: Concurrency · Developer Tools
+  **Published:** `1st June 2018`
+  **NeKI brief:** The page covers “this one is” for Apple-platform development or software practice. Follow it for the concrete subject and examples presented there, while verifying version-sensitive details and implementation assumptions against current primary documentation.
+- [Making efficient use of libdispatch](https://gist.github.com/tclementdev/6af616354912b0347cdf6db159c37057) — iOS Dev Weekly · Issue 349 — Source repository · Topics: Concurrency · Developer Tools
+  **Published:** `27th April 2018`
+  **NeKI brief:** Examines Are you doing heavy work with GCD in your app? Originally based on this twitter thread it ended up as a more structured gist. You won’t need this if you’re just doing basic async work with GCD, but if you’re spinning out Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Craig Hockenberry’s article](https://blog.iconfactory.com/2018/03/a-lot-can-happen-in-a-decade) — iOS Dev Weekly · Issue 342 — Article · Topics: Concurrency
+  **Published:** `9th March 2018`
+  **NeKI brief:** Last year was the 10 year anniversary of the iPhone, and this year it’s been 10 years since our world as developers changed with the release of the iPhone SDK. I’m sure you’ve read Craig Hockenberry’s article by now as it’s been widely shared, but it’s a…
 - [SwiftNIO - Event-driven network application framework](https://github.com/apple/swift-nio) — iOS Dev Weekly · Issue 341 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2nd March 2018`
   **NeKI brief:** Examines SwiftNIO, focusing on it’s great to see this major release from the vapor team and it’s encouraging to see that it’s been built on top of…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -3198,7 +3441,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Examines Promises by Google, focusing on the author’s note that recommend checking out promises if you hate the messiness that comes with nested async operations. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
 - [LSAnimator and CoreAnimator](https://github.com/Lision/LSAnimator) — iOS Dev Weekly · Issue 333 — Source repository · Topics: Concurrency · Developer Tools · Objective-C & Cocoa
   **Published:** `5th January 2018`
-  **NeKI brief:** Examines LSAnimator and CoreAnimator, focusing on chained animations are annoying to deal with using standard frameworks, and trying to add concurrency on top of this is…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+  **NeKI brief:** Provides chained animation utilities for iOS, including reusable animation composition around UIKit-style transitions. Inspect it when comparing abstractions that make sequential or concurrent visual effects easier to express.
+- [Staying Focused with an App Mission Statement](http://beckyhansmeyer.com/2017/10/26/staying-focused-with-an-app-mission-statement) — iOS Dev Weekly · Issue 325 — Article · Topics: Concurrency
+  **Published:** `3rd November 2017`
+  **NeKI brief:** Feature creep and other factors lead to a lack of focus in many apps – some mature, some new. Becky Hansmeyer’s proposed solution: create a mission statement to keep you on track.
 - [Using the factory pattern to avoid shared state 🏭](https://www.swiftbysundell.com/posts/using-the-factory-pattern-to-avoid-shared-state-in-swift) — iOS Dev Weekly · Issue 317 — Article · Topics: Concurrency · Swift
   **Published:** `8th September 2017`
   **NeKI brief:** Explores Using the factory pattern to avoid shared state 🏭 in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
@@ -3208,6 +3454,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [prototype](https://github.com/apple/swift/pull/11501) — iOS Dev Weekly · Issue 315 — Source repository · Topics: Concurrency · Developer Community & Business · Swift
   **Published:** `25th August 2017`
   **NeKI brief:** Examines prototype, focusing on there has been plenty of speculation that language native concurrency will be a focus for a future release of swift. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Actor model](https://en.wikipedia.org/wiki/Actor_model) — iOS Dev Weekly · Issue 315 — Tutorial · Topics: Concurrency · Developer Community & Business · Swift
+  **Published:** `25th August 2017`
+  **NeKI brief:** There has been plenty of speculation that language native concurrency will be a focus for a future release of Swift. So when Chris Lattner publishes a manifesto on the topic you’ll want to make sure you read it. Of course, it talks about the recent…
 - [Queuer](https://github.com/FabrizioBrancati/Queuer) — iOS Dev Weekly · Issue 312 — Source repository · Topics: Concurrency · Developer Tools · Product Design
   **Published:** `4th August 2017`
   **NeKI brief:** Examines Queuer, focusing on built on top of operationqueue and gcd, queuer is a queue manager that makes it easy to create synchronous and…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -3223,6 +3472,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Apple Open-Sourcing the Swift Toolchain](https://lists.swift.org/pipermail/swift-dev/Week-of-Mon-20170605/004751.html) — iOS Dev Weekly · Issue 305 — Article · Topics: Concurrency · Cross-Platform & Web · Swift
   **Published:** `16th June 2017`
   **NeKI brief:** Examines Apple Open-Sourcing the Swift Toolchain, focusing on ted kremenek lays out apple’s plans to open-source parts of the swift toolchain, including the new refactoring engine. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [new home](https://github.com/texturegroup/texture) — iOS Dev Weekly · Issue 297 — Source repository · Topics: Concurrency · Developer Tools
+  **Published:** `21st April 2017`
+  **NeKI brief:** Examines Smooth asynchronous user interfaces for iOS apps. Contribute to TextureGroup/Texture development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [150 issues](https://github.com/facebook/AsyncDisplayKit/issues) — iOS Dev Weekly · Issue 297 — Source repository · Topics: Concurrency · Developer Tools
+  **Published:** `21st April 2017`
+  **NeKI brief:** Examines Smooth asynchronous user interfaces for iOS apps. Contribute to facebookarchive/AsyncDisplayKit development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [Using protocol compositon for dependency injection](http://merowing.info/2017/04/using-protocol-compositon-for-dependency-injection) — iOS Dev Weekly · Issue 297 — Article · Topics: Architecture · Dependency Injection · Testing
   **Published:** `21st April 2017`
   **NeKI brief:** Explores Using protocol compositon for dependency injection in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
@@ -3232,12 +3487,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Refactoring Slow and Steady](http://robnapier.net/refactoring) — iOS Dev Weekly · Issue 288 — Article · Topics: Concurrency
   **Published:** `17th February 2017`
   **NeKI brief:** Explores Refactoring Slow and Steady in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [what you should never do](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i) — iOS Dev Weekly · Issue 288 — Article · Topics: Concurrency
+  **Published:** `17th February 2017`
+  **NeKI brief:** There is a very old, and very famous blog post from Joel Spolsky that states that the “single worst strategic mistake that any software company can make” is to rewrite an app from scratch.
 - [Refactoring singleton usage in Swift](http://www.jessesquires.com/refactoring-singletons-in-swift) — iOS Dev Weekly · Issue 288 — Article · Topics: Concurrency · Swift
   **Published:** `17th February 2017`
   **NeKI brief:** Explores Refactoring singleton usage in Swift in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
 - [AsyncDisplayKit 2.0](https://github.com/facebook/AsyncDisplayKit/releases/tag/2.0) — iOS Dev Weekly · Issue 280 — Source repository · Topics: Concurrency · Developer Tools
   **Published:** `9th December 2016`
   **NeKI brief:** Examines AsyncDisplayKit 2.0, focusing on big changes if you’re using asyncdisplaykit, and from the stats in this post it appears that many people are as it’s…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [migration guide](http://asyncdisplaykit.org/docs/adoption-guide-2-0-beta1.html) — iOS Dev Weekly · Issue 280 — Article · Topics: Concurrency · Cross-Platform & Web
+  **Published:** `9th December 2016`
+  **NeKI brief:** Examines Texture. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
 - [RefactoratorApp](https://github.com/johnno1962/RefactoratorApp) — iOS Dev Weekly · Issue 279 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2nd December 2016`
   **NeKI brief:** Examines RefactoratorApp, focusing on it’s pretty clear that apple don’t see refactoring support for swift as any kind of priority in xcode, it’s been more…. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
@@ -3256,6 +3517,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [PMHTTP](https://github.com/postmates/PMHTTP) — iOS Dev Weekly · Issue 264 — Source repository · Topics: Concurrency · Developer Tools · Testing
   **Published:** `18th August 2016`
   **NeKI brief:** Examines PMHTTP, focusing on kevin ballard with a new networking library written in swift but compatible with objective-c, pmhttp. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [pretty complicated](https://infinitediaries.net/how-to-fix-ios-9-x-safarimail-link-bug) — iOS Dev Weekly · Issue 244 — Article · Topics: Concurrency
+  **Published:** `1st April 2016`
+  **NeKI brief:** The unfortunate part of the bug is that once you’d run into it, fixing it was pretty complicated. Ben Collier has a good write up of the possible causes of the problem and it looks like it was a combination of factors, rather than purely the large…
+- [possible causes of the problem](https://bencollier.net/2016/03/unable-to-open-links-in-safari-mail-or-messages-on-ios-9-3) — iOS Dev Weekly · Issue 244 — Article · Topics: Concurrency
+  **Published:** `1st April 2016`
+  **NeKI brief:** Examines The unfortunate part of the bug is that once you’d run into it, fixing it was pretty complicated. Ben Collier has a good write up of the possible causes of the problem and it looks like it was a combination of factors, r Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Why Swift guard Should Be Avoided](https://medium.com/swift-programming/why-swift-guard-should-be-avoided-484cfc2603c5) — iOS Dev Weekly · Issue 231 — Article · Topics: Concurrency · Swift
   **Published:** `1st January 2016`
   **NeKI brief:** Explains Why Swift guard Should Be Avoided with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
@@ -3271,6 +3538,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Async](https://github.com/duemunk/Async) — iOS Dev Weekly · Issue 218 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2nd October 2015`
   **NeKI brief:** Provides the Async source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [designing Twitterrific for the watch](http://blog.iconfactory.com/2015/04/twitterrific-for-apple-watch) — iOS Dev Weekly · Issue 198 — Article · Topics: Concurrency · Objective-C & Cocoa
+  **Published:** `15th May 2015`
+  **NeKI brief:** Examines What would a Twitter app look like on the watch? Looks like you’ll be able to find out on the 24th. Ged Maheux explains some of the design decisions that went into the process. Instead of a timeline (the phone is much be Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [Same Tests, Different Class](http://indiestack.com/2015/01/same-tests-different-class) — iOS Dev Weekly · Issue 182 — Article · Topics: Concurrency · Networking · Testing
   **Published:** `23rd January 2015`
   **NeKI brief:** Explains Same Tests Different Class with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly reference.
@@ -3289,6 +3559,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [PromiseKit](https://github.com/mxcl/PromiseKit) — iOS Dev Weekly · Issue 143 — Source repository · Topics: Concurrency · Developer Tools
   **Published:** `25th April 2014`
   **NeKI brief:** Provides the PromiseKit source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Part two of the talk is also online here](http://vimeo.com/90642682) — iOS Dev Weekly · Issue 140 — Video · Topics: Concurrency · Graphics, Media & Games · Objective-C & Cocoa
+  **Published:** `4th April 2014`
+  **NeKI brief:** Chris Eidhof with a collection of tips and tricks on asynchronous programming from Cocoaheads Kiev recently. Part two of the talk is also online here.
 - [Bolts](https://github.com/BoltsFramework/Bolts-iOS) — iOS Dev Weekly · Issue 131 — Source repository · Topics: Concurrency · Dependency Injection · Developer Tools
   **Published:** `31st January 2014`
   **NeKI brief:** Provides the Bolts source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3298,12 +3571,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Callbacks as our Generations’ Go To Statement](http://tirania.org/blog/archive/2013/Aug-15.html) — iOS Dev Weekly · Issue 107 — Article · Topics: Concurrency · Cross-Platform & Web · Objective-C & Cocoa
   **Published:** `16th August 2013`
   **NeKI brief:** Explains Callbacks as our Generations’ Go To Statement with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly.
+- [xScope Mirror for iOS 7](http://design.iconfactory.com/xscope-mirror-for-ios-7) — iOS Dev Weekly · Issue 107 — Article · Topics: Concurrency
+  **Published:** `16th August 2013`
+  **NeKI brief:** I love when people publish iterations of a new icon design and I couldn’t resist linking to this one from Iconfactory. Follow the design of the iOS 7 icon for xScope Mirror’s icon through 5 versions ending in a beautiful icon which fits beautifully into the…
 - [iOS Artwork Extractor](https://github.com/0xced/iOS-Artwork-Extractor) — iOS Dev Weekly · Issue 99 — Source repository · Topics: Concurrency · Developer Tools · Xcode
   **Published:** `21st June 2013`
   **NeKI brief:** Provides the iOS Artwork Extractor source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
 - [MSCachedAsyncViewDrawing](https://github.com/mindsnacks/MSCachedAsyncViewDrawing) — iOS Dev Weekly · Issue 68 — Source repository · Topics: Concurrency · Developer Tools · Graphics, Media & Games
   **Published:** `16th November 2012`
   **NeKI brief:** Provides the MSCachedAsyncViewDrawing source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [My Top 5 Factors for iOS Contracting Success](http://www.escortmissions.com/blog/2012/6/10/my-top-5-factors-for-ios-contracting-success.html) — iOS Dev Weekly · Issue 46 — Article · Topics: Concurrency · Cross-Platform & Web · Developer Career & Practice
+  **Published:** `15th June 2012`
+  **NeKI brief:** Examines A solid list of tips for those of you just starting out as independent or freelance developers from Carl Brown although I would say that any developer should be doing most of these. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
 - [UIKit Artwork Extractor](https://github.com/0xced/UIKit-Artwork-Extractor) — iOS Dev Weekly · Issue 35 — Source repository · Topics: Concurrency · Developer Tools · UIKit
   **Published:** `30th March 2012`
   **NeKI brief:** Provides the UIKit Artwork Extractor source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
@@ -3319,8 +3598,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Provides a code-review checklist for deciding whether SwiftUI extraction should become a subview, a builder, or remain local. Use the deep link as the actionable companion to the article’s broader decomposition argument.
 - [flatMapLatest in swift-async-algorithms](https://github.com/apple/swift-async-algorithms/releases/tag/1.1.3) — Not only Swift · Issue 95 — Source repository · Topics: Concurrency · Swift · Testing
   **NeKI brief:** Explores flatMapLatest in swift-async-algorithms with concrete Swift concurrency examples. Follow it to reason about isolation, cancellation, and Sendable boundaries, then verify availability and diagnostics against current Swift documentation.
-- [Modularizing Swift Apps with SPM](https://kylebrowning.com/posts/modularizing-swift-apps-with-spm) — Not only Swift · Issue 95 — Article · Topics: Architecture · Swift · Swift Package Manager
-  **NeKI brief:** Presents a concrete implementation of Modularizing Swift Apps with SPM. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
 - [SwiftUI-Agent-Skill: Expert reviews for your codebase](https://github.com/twostraws/SwiftUI-Agent-Skill) — Not only Swift · Issue 95 — Source repository · Topics: Composable Architecture · Swift · SwiftUI
   **NeKI brief:** Provides a reusable SwiftUI-focused agent skill with guidance for generating and reviewing views. Useful as a concrete prompt and workflow artifact when evaluating AI-assisted UI composition, accessibility, and maintainability in a project.
 - [Designing Swift Errors for an SDK](https://nonstrict.eu/blog/2026/designing-swift-errors-for-an-sdk) — Not only Swift · Issue 93 — Article · Topics: Concurrency · Swift
@@ -3329,10 +3606,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** This source repository covers reusable Swift and SwiftUI extensions and modifiers. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [The Secret to Buttery Smooth SwiftUI](https://www.swiftdifferently.com/blog/swiftui/swiftui-performance-article) — Not only Swift · Issue 92 — Article · Topics: Concurrency · Swift · SwiftUI
   **NeKI brief:** Explores practical causes of sluggish SwiftUI rendering and techniques for reducing unnecessary work. Useful as a performance checklist before profiling view identity, expensive body computations, and state-driven update frequency with Instruments.
+- [Jules Companion: A native home for Google's agent](https://github.com/simpsoka/jules-companion) — Not only Swift · Issue 91 — Source repository · Topics: AI Development · Concurrency · Developer Tools
+  **NeKI brief:** Jules Companion is a native application that provides a home for Google's Jules coding agent. The repository is a concrete reference for integrating an agent-oriented workflow into a native app and for examining the project structure behind that experience.
 - [SKILL.md](https://github.com/pepicrft/fuckingapproachableswiftconcurrency/blob/main/src/SKILL.md) — Not only Swift · Issue 89 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **NeKI brief:** This source repository covers the accompanying AGENTS skill source for the concurrency guide. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [English version for humans](https://github.com/pepicrft/fuckingapproachableswiftconcurrency/blob/main/src/en/index.md) — Not only Swift · Issue 89 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **NeKI brief:** This source repository covers the human-readable source of the concurrency guide. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
+- [join my livestream](https://www.youtube.com/watch?v=1OJe57kDf3Y) — Not only Swift · Issue 88 — Video · Topics: Concurrency · Swift
+  **NeKI brief:** This livestream explores adding AsyncSequence support to Firebase. The recording provides a concrete implementation discussion around asynchronous streams and their integration with Firebase APIs in Swift applications.
+- [since I last did a livestream](https://www.youtube.com/watch?v=jxootvtpEZ8&list=PLsnLd2esiGRTmfGZcZMnEy6hkBHXBH_en&index=2) — Not only Swift · Issue 88 — Video · Topics: Concurrency
+  **NeKI brief:** This livestream focuses on Firebase and AsyncStream usage in Swift. It provides a concrete walkthrough of asynchronous event delivery and the practical considerations when connecting stream-based Swift code to Firebase workflows.
+- [Play](https://youtube.com/watch?v=1OJe57kDf3Y) — Not only Swift · Issue 88 — Video · Topics: Concurrency
+  **NeKI brief:** This livestream explores adding AsyncSequence support to Firebase. The recording provides a concrete implementation discussion around asynchronous streams and their integration with Firebase APIs in Swift applications.
 - [Swift Error Handling Done Right: Overcoming the Objective-C Error Legacy](https://www.fline.dev/swift-error-handling-done-right-overcoming-the-objective-c-error-legacy) — Not only Swift · Issue 80 — Article · Topics: Concurrency · Objective-C & Cocoa · Swift
   **NeKI brief:** Presents a concrete implementation of Swift Error Handling Done Right: Overcoming the Objective-C Error Legacy. Use it to compare API choices, state and layout trade-offs, and testing implications before adapting the pattern to a production Apple-platform codebase.
 - [Building a MCP Server in Swift](https://adamwulf.me/2025/03/building-a-mcp-server-in-swift) — Not only Swift · Issue 78 — Article · Topics: AI Development · Combine & Reactive Programming · Swift
