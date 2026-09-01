@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://tanaschita.com/](https://tanaschita.com/)
-- Last collected: `2026-08-27T13:26:05Z`
-- Indexed entries: **189**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed entries: **190**
 
 - [Understanding Xcode targets, schemes and build configurations](https://tanaschita.com/xcode-targets-schemes)
   **Topics:** Xcode
@@ -87,6 +87,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Understanding toolbars in SwiftUI](https://tanaschita.com/swiftui-toolbars-guide)
   **Topics:** Swift · SwiftUI
   **NeKI brief:** Surveys SwiftUI toolbar placement, roles, and item composition across platforms. Useful for avoiding platform-specific placement surprises and keeping actions discoverable in navigation bars.
+- [Managing toolbar visibility and overflow in SwiftUI](https://tanaschita.com/swiftui-toolbar-visibility-overflow)
+  **Topics:** Swift · SwiftUI
+  **NeKI brief:** Shows how SwiftUI toolbar actions can be prioritized, pinned, or moved into overflow as available space changes. Use it to reason about action hierarchy and compact layouts, then confirm iOS availability before adopting newer APIs.
 - [Understanding structural identity in SwiftUI](https://tanaschita.com/swiftui-structural-identity)
   **Topics:** Swift · SwiftUI
   **NeKI brief:** Explains how SwiftUI uses view type and hierarchy position as structural identity to decide what persists and redraws. Follow it when conditional branches unexpectedly reset state or trigger more updates than expected.

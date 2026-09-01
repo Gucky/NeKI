@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** MapKit, Core Location, geographic data, geocoding, and location-aware apps.
 
-- Last collected: `2026-08-27T19:22:09Z`
+- Last collected: `2026-09-01T10:14:10Z`
 - Indexed links shown: **58**
 
 ## Direct-source reading
@@ -119,7 +119,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Apple’s use of AppKit, Catalyst, Swift and SwiftUI in macOS Sonoma](https://blog.timac.org/2023/1128-state-of-appkit-catalyst-swift-swiftui-mac) — Fatbobman’s Swift Weekly · Issue 9 — Article · Topics: macOS & AppKit · Swift · SwiftUI
   **Published:** `2023-12-03T22:00:35.768Z`
   **NeKI brief:** Surveys AppKit, Catalyst, Swift, and SwiftUI capabilities on macOS, highlighting interoperability boundaries. Useful for choosing a platform strategy when an app spans native macOS and shared UI code.
-- [Link to GitHub.](https://github.com/mapbox/mapbox-maps-ios) — iOS Dev Tools · Introducing CodeScanner, Mapbox, Alamofire — Source repository · Topics: Developer Tools · Maps & Location
+- [Link to GitHub.](https://github.com/mapbox/mapbox-maps-ios) — iOS Dev Tools · 🔨 Introducing Mapbox, Alamofire, RNCrypto — Source repository · Topics: Developer Tools · Maps & Location
   **Published:** `2023-08-03T12:40:06.374Z`
   **NeKI brief:** Mapbox Maps SDK for iOS provides vector maps, annotations, styling, navigation-oriented capabilities, and offline regions. Use it when Apple MapKit’s data or customization is insufficient, accounting for tokens, licensing, and offline package management.
 - [👀 Uploading link maps to Emerge](https://www.roger.ml/p/emerge-linkmaps) — iOS CI Newsletter · Issue 18 — Article · Topics: Maps & Location · Performance

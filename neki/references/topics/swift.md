@@ -4,11 +4,20 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Language features, standard-library use, compiler behaviour, and Swift evolution.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **7984**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **7999**
 
 ## Direct-source reading
 
+- [Beta Preview: LazyState](https://www.pointfree.co/blog/posts/223-beta-preview-lazystate) — Point-Free · article catalogue
+  **Published:** `2026-08-31T00:00:00Z`
+  **NeKI brief:** Previews the LazyState macro for lazily creating stateful reference values from parent inputs once per view identity. It replaces optional-state and onAppear workarounds, but is a beta, member-only API rather than a platform contract.
+- [How to set a default value in Swift string interpolation | Sarunw](https://sarunw.com/posts/default-value-in-string-interpolation) — Sarunw · article catalogue
+  **Published:** `2026-08-29`
+  **NeKI brief:** Explains SE-0477's default interpolation argument for optional values, including generic optionals, lazy fallback evaluation, and back-deployment. It is useful for readable user-facing fallback text without manually unwrapping each value.
+- [How to use raw identifiers in Swift | Sarunw](https://sarunw.com/posts/how-to-use-raw-identifiers-in-swift) — Sarunw · article catalogue
+  **Published:** `2026-08-28`
+  **NeKI brief:** Explains Swift 6.2 raw identifiers, which use backticks to retain a keyword or otherwise conflicting external name. Use it when interoperation or generated APIs require an exact identifier while keeping call sites explicit.
 - [Private properties no longer break the memberwise initializer in Swift 6.4 | Sarunw](https://sarunw.com/posts/exclude-private-properties-from-memberwise-initializer) — Sarunw · article catalogue
   **Published:** `2026-08-27`
   **NeKI brief:** Explains SE-0502’s Swift 6.4 change that excludes initialized private stored properties from a synthesized memberwise initializer. It also identifies extension initializer collisions and the macro/property-wrapper motivation, helping teams plan source-compatible migration.
@@ -12082,6 +12091,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Defines both bridge directions: UIViewRepresentable updates a UIKit view from SwiftUI state, UIViewControllerRepresentable embeds controllers, and UIHostingController puts SwiftUI into UIKit. The make/update lifecycle is the key boundary for keeping ownership and state synchronization explicit.
 - [Understanding toolbars in SwiftUI](https://tanaschita.com/swiftui-toolbars-guide) — Tanaschita · article catalogue
   **NeKI brief:** Surveys SwiftUI toolbar placement, roles, and item composition across platforms. Useful for avoiding platform-specific placement surprises and keeping actions discoverable in navigation bars.
+- [Managing toolbar visibility and overflow in SwiftUI](https://tanaschita.com/swiftui-toolbar-visibility-overflow) — Tanaschita · article catalogue
+  **NeKI brief:** Shows how SwiftUI toolbar actions can be prioritized, pinned, or moved into overflow as available space changes. Use it to reason about action hierarchy and compact layouts, then confirm iOS availability before adopting newer APIs.
 - [Understanding structural identity in SwiftUI](https://tanaschita.com/swiftui-structural-identity) — Tanaschita · article catalogue
   **NeKI brief:** Explains how SwiftUI uses view type and hierarchy position as structural identity to decide what persists and redraws. Follow it when conditional branches unexpectedly reset state or trigger more updates than expected.
 - [How to use SceneDelegate in SwiftUI](https://tanaschita.com/swiftui-scenedelegate) — Tanaschita · article catalogue
@@ -12653,12 +12664,39 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Why Swift is introducing a warning for weak captures within nested closures](https://l.fatbobman.com/w0151-01) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Developer Career & Practice · Swift
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Explains why nested closure capture lists can still retain an object strongly through an outer closure, and why Swift is adding a warning for that pattern. Use it to review ownership intentionally rather than adding weak captures mechanically.
+- [Building an accessible calendar chart with Swift Charts](https://l.fatbobman.com/w0151-04) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Accessibility · Developer Tools · Swift
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Builds a calendar-style Swift Charts visualization with attention to accessible representation of repeated weekdays and chart data. Use it when visual density must remain understandable to assistive technologies.
+- [Swift Charts Beyond the Basics](https://books.nilcoalescing.com/swift-charts-beyond-the-basics) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Swift
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Introduces a book on advanced Swift Charts work. It is a reading-resource lead rather than a precise API reference.
+- [Consuming SKIE Flows in SwiftUI](https://l.fatbobman.com/w0151-06) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Explains consuming Kotlin Flow values in SwiftUI through SKIE when Kotlin Multiplatform owns shared business logic. It is useful for examining bridging and observation boundaries between the two ecosystems.
+- [Preview Dynamic Island presentations in your app with JindoKit](https://openswiftuiproject.org/blog/preview-dynamic-island-presentations-with-jindokit) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Describes using JindoKit to render expanded, compact, and minimal Dynamic Island states in a SwiftUI view. It can support preview workflows, but does not replace device or WidgetKit validation.
+- [Protecting SwiftUI Views with Authentication](https://azamsharp.com/2026/08/22/protecting-swiftui-views-with-authentication.html) — iOS Dev Weekly · Issue 765 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
+  **Published:** `28th August 2026`
+  **NeKI brief:** Shows how to protect SwiftUI views behind an authentication boundary. The topic connects view composition with session state, making it useful for deciding where authenticated routing and access checks belong in a SwiftUI application.
+- [similar topic](https://swiftology.io/articles/tydd-part-3) — iOS Dev Weekly · Issue 765 — Article · Topics: Developer Community & Business · Swift
+  **Published:** `28th August 2026`
+  **NeKI brief:** Continues a Swift-focused technical article series. Use it as a reading lead and verify its assumptions against the current language and SDK versions.
+- [Dynamically Setting Accessibility Content in SwiftUI](https://www.basbroek.nl/multiple-custom-contents-swiftui) — iOS Dev Weekly · Issue 765 — Article · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `28th August 2026`
+  **NeKI brief:** Shows a model-driven workaround for applying multiple accessibility custom-content pairs in SwiftUI. Validate the resulting VoiceOver experience in the target app because the approach compensates for a missing builder-style API.
+- [Some things are never truly lost - How git recovered two weeks of deleted work](https://danielsaidi.com/blog/2026/08/27/some-things-are-never-truly-lost) — iOS Dev Weekly · Issue 765 — Article · Topics: AI Development · Concurrency · Developer Tools
+  **Published:** `28th August 2026`
+  **NeKI brief:** Recounts recovering a force-pushed, reset branch by locating its old tip in the local reflog and restoring a branch reference. It is a practical reminder that recovery depends on local object retention and should be paired with normal backup and remote protection.
+- [It’s falling out of orbit 🌠](https://512pixels.net/2026/08/nasas-swift-observatory-telescope-doomed-for-destruction) — iOS Dev Weekly · Issue 765 — Article · Topics: Swift
+  **Published:** `28th August 2026`
+  **NeKI brief:** Uses the Swift telescope news as a brief science-and-name coincidence. It is not related to the Swift programming language.
 - [Wally 7](https://danielsaidi.com/blog/2026/08/20/wally-7) — Those Who Swift · Issue 281 — Article · Topics: Swift · SwiftData
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Announces Wally 7, a major release of Daniel Saidi's native iOS app, with a new data store and additional features. The release is useful as a concrete example of evolving a long-lived Apple-platform app while replacing foundational persistence infrastructure.
-- [Protecting SwiftUI Views With Authentication](https://azamsharp.com/2026/08/22/protecting-swiftui-views-with-authentication.html) — Those Who Swift · Issue 281 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
-  **Published:** `2026-08-26T20:38:31.643Z`
-  **NeKI brief:** Shows how to protect SwiftUI views behind an authentication boundary. The topic connects view composition with session state, making it useful for deciding where authenticated routing and access checks belong in a SwiftUI application.
 - [Empty States in SwiftUI with ContentUnavailableView](https://kylebrowning.com/posts/swiftui-empty-states-contentunavailableview) — Those Who Swift · Issue 281 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Compares the ContentUnavailableView initializers and shows how to build reusable SwiftUI empty states for search, errors, and offline conditions. The approach reduces repeated per-screen placeholder logic while keeping each state understandable to users.
@@ -12944,13 +12982,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The Anatomy of a Reusable SwiftUI View](https://alexanderweiss.dev/blog/2026-07-12-the-anatomy-of-a-reusable-swiftui-view) — iOS Dev Weekly · Issue 759 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `17th July 2026`
   **NeKI brief:** Examines how SwiftUI view responsibilities, inputs, and composition boundaries affect reuse. Useful when extracting components that remain readable, previewable, and stable under changing state.
-- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** MistKit packages CloudKit Web Services access for server-side Swift and command-line tools, separating backend automation from Apple's client frameworks. Useful when a service needs CloudKit data without running inside an iOS app.
-- [Swift Scribe](https://github.com/FluidInference/swift-scribe) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Swift
+- [Swift Scribe](https://github.com/FluidInference/swift-scribe) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Swift Scribe combines local microphone transcription with on-device summarization on current Apple OS releases, without external dependencies. Useful for evaluating a privacy-preserving speech pipeline and its deployment-version constraints.
-- [Swift Rockies](https://swiftrockies.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Article · Topics: Product Design · Swift
+- [Swift Rockies](https://swiftrockies.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Product Design · Swift
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Swift Rockies is an Apple-platform developer conference page. It is event promotion rather than technical reading and should normally be excluded from the knowledge index.
 - [FoundationModelsKit](https://divyaravidev.substack.com/p/introducing-foundationmodelskit-production) — Those Who Swift · Issue 275 — Article · Topics: AI Development · Foundation & Data Formats · Swift
@@ -13370,28 +13408,28 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [killed SwiftUI](https://blog.jacobstechtavern.com/p/my-secret-plot-to-kill-swiftui) — iOS Dev Weekly · Issue 753 — Article · Topics: Swift · SwiftUI · UIKit
   **Published:** `5th June 2026`
   **NeKI brief:** Examines SwiftUI’s perceived limitations and practical alternatives through a deliberately provocative argument. Useful for surfacing trade-offs and failure cases, not for adopting a blanket framework verdict.
-- [SwiftINI](https://github.com/jaywcjlove/SwiftINI) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [SwiftINI](https://github.com/jaywcjlove/SwiftINI) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** SwiftINI parses and serializes INI configuration files in Swift, providing a small format-specific layer instead of treating configuration as untyped text. Useful for command-line tools or legacy settings that need round-tripping.
-- [Tokens4Breakfast](https://www.tokens4breakfast.app/) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Article · Topics: AI Development · App Distribution & Store Operations · Swift
+- [Tokens4Breakfast](https://www.tokens4breakfast.app/) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Article · Topics: AI Development · App Distribution & Store Operations · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Tokens4Breakfast presents a developer or AI-oriented product workflow. Follow it for concrete token or usage-management behavior, while verifying service integrations, limits, and privacy before adoption.
-- [Vibedock](https://vibedock.dev/) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Article · Topics: AI Development · Swift
+- [Vibedock](https://vibedock.dev/) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Article · Topics: AI Development · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Vibedock is a developer-oriented product for organizing AI-assisted coding workflows. Use it as a discovery lead when comparing agent workspaces, and verify supported providers, project isolation, and data-handling policies before relying on it.
-- [Windows Terminal](https://github.com/microsoft/terminal) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift
+- [Windows Terminal](https://github.com/microsoft/terminal) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Windows Terminal combines modern terminal tabs, panes, profiles, and rendering with the original Windows console host. Useful as a cross-platform terminal reference when agent or build workflows span Windows environments.
-- [SwiftBar](https://github.com/swiftbar/SwiftBar) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
+- [SwiftBar](https://github.com/swiftbar/SwiftBar) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** SwiftBar turns shell scripts into macOS menu-bar items, using script output to define labels, menus, and refresh behavior. Useful for lightweight developer dashboards without building a dedicated native status application.
-- [DockDoor](https://github.com/ejbills/DockDoor) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift
+- [DockDoor](https://github.com/ejbills/DockDoor) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** DockDoor adds macOS window peeking, alternate-tab behavior, and related desktop navigation enhancements. Useful for examining how a menu-bar utility can improve window switching while staying outside application code.
-- [Open Caffeine](https://github.com/sapsaldog/open-caffeine) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
+- [Open Caffeine](https://github.com/sapsaldog/open-caffeine) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Open Caffeine prevents a Mac from sleeping through a small menu-bar control. Useful for inspecting a minimal, reversible power-management utility used during long builds, demos, or unattended local jobs.
-- [BarDict](https://github.com/TokinoyuushaLink/BarDict) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Hardware & Devices · Objective-C & Cocoa
+- [BarDict](https://github.com/TokinoyuushaLink/BarDict) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Hardware & Devices · Objective-C & Cocoa
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** BarDict is a macOS menu-bar dictionary application supporting MDX and MDD resources. Useful for evaluating offline dictionary lookup and packaged language assets in a compact AppKit-style utility.
 - [Task Names In Swift Concurrency](https://artemnovichkov.com/blog/task-names-in-swift-concurrency) — Those Who Swift · Issue 269 — Article · Topics: Concurrency · Performance · Swift
@@ -16487,10 +16525,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Navigation View If Needed](https://www.joshholtz.com/blog/2025/02/08/swiftui-navigation-view-if-needed.html) — iOS Dev Weekly · Issue 699 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `14th February 2025`
   **NeKI brief:** Presents SwiftUI - Navigation View If Needed, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
-- [Mint](https://github.com/yonaskolb/Mint) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [Mint](https://github.com/yonaskolb/Mint) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Mint installs and runs Swift Package Manager command-line tools at project-pinned versions. Use it to make generators, linters, and other developer executables reproducible without committing their binaries or relying on globally installed versions.
-- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Source repository · Topics: Architecture · Composable Architecture · Swift
+- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Architecture · Composable Architecture · Swift
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Giffy is a sample iOS application that combines SwiftUI, The Composable Architecture, and Swinject-based dependency injection. Use it to inspect how those architectural pieces are wired together in a small, runnable project.
 - [SwiftUI Navigation: View If Needed](https://www.joshholtz.com/blog/2025/02/08/swiftui-navigation-view-if-needed) — Those Who Swift · Issue 201 — Article · Topics: CI/CD & Automation · Swift · SwiftUI
@@ -18035,7 +18073,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Complementing Unit Tests with Performance Checks](https://www.swift.org/blog/benchmarks) — iOS Dev Weekly · Issue 653 — Article · Topics: Performance · Swift · Testing
   **Published:** `22nd March 2024`
   **NeKI brief:** Presents complementing unit tests with performance checks for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
-- [AppLayouts](https://www.applayouts.com/) — iOS Dev Tools · iOS Dev Tools: Skip, AppLayouts, Firefoo - iOS Dev Tools — Article · Topics: Swift · SwiftUI
+- [AppLayouts](https://www.applayouts.com/) — iOS Dev Tools · iOS Dev Tools: Skip, AppLayouts, Firefoo — Article · Topics: Swift · SwiftUI
   **Published:** `2024-03-21T14:02:34.735Z`
   **NeKI brief:** Provides a catalogue of reusable app layout patterns and interface examples. Use it to compare navigation, content hierarchy, and responsive composition ideas before designing a SwiftUI or UIKit screen.
 - [How to build a draggable bottom sheet with a scroll view in SwiftUI](https://tanaschita.com/20240311-draggable-sheet-with-scroll-view) — SwiftUI Weekly · SwiftUI Weekly - Issue #179 — Article · Topics: Maps & Location · Swift · SwiftUI
@@ -18518,7 +18556,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Stellar](https://github.com/StellarTools/Stellar) — iOS Dev Weekly · Issue 634 — Source repository · Topics: CI/CD & Automation · Developer Tools · Swift
   **Published:** `3rd November 2023`
   **NeKI brief:** Examines Contribute to StellarTools/Stellar development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
-- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages) — iOS Dev Tools · 🔨 RocketSim, SwiftMessages, Dash - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · SwiftUI
+- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages) — iOS Dev Tools · 🔨 RocketSim, SwiftMessages, Dash — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2023-11-02T14:15:02.032Z`
   **NeKI brief:** SwiftMessages presents configurable in-app banners, cards, and modal messages using UIKit or SwiftUI. Use it when transient feedback needs queuing, layout control, and presentation styles beyond a system alert or toast.
 - [Interactive pie chart in SwiftUI](https://augmentedcode.io/2023/10/30/interactive-pie-chart-in-swiftui) — SwiftUI Weekly · SwiftUI Weekly - Issue #166 — Article · Topics: Swift · SwiftUI
@@ -18605,10 +18643,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [silicon](https://arun.is/blog/apple-mirage) — iOS Dev Weekly · Issue 631 — Article · Topics: Apple Platform Ecosystem · Developer Career & Practice · Swift
   **Published:** `13th October 2023`
   **NeKI brief:** Examines A short photoessay about my visit to a new permanent art installation at Apple Park. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
-- [Trace](https://www.trace.zip/) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit - iOS Dev Tools — Article · Topics: Swift · SwiftUI
+- [Trace](https://www.trace.zip/) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit — Article · Topics: Swift · SwiftUI
   **Published:** `2023-10-12T15:37:25.698Z`
   **NeKI brief:** Trace lets designers and developers generate SwiftUI code, preview it on the web, and interact with those previews. Use it to explore rapid UI prototyping, then validate generated code for architecture, accessibility, and SDK compatibility.
-- [FileKit](https://github.com/nvzqz/FileKit) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit - iOS Dev Tools — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
+- [FileKit](https://github.com/nvzqz/FileKit) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
   **Published:** `2023-10-12T15:37:25.698Z`
   **NeKI brief:** FileKit wraps Foundation file-system operations in expressive Swift types for paths, directories, and files. Use it for concise tooling or macOS utility code, while checking its maintenance and platform assumptions before making it a core dependency.
 - [Running Code When Your View Appears](https://chris.eidhof.nl/post/swiftui-on-appear-vs-task?ref=ioscodereview.com) — iOS Code Review · Issue 57 — Article · Topics: Personal Essays · Swift · SwiftUI
@@ -18995,7 +19033,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using Upcoming Feature Flags](https://www.swift.org/blog/using-upcoming-feature-flags) — iOS Dev Weekly · Issue 612 — Article · Topics: Swift
   **Published:** `2nd June 2023`
   **NeKI brief:** Explores Using Upcoming Feature Flags, focusing on just sneaking in on the official swift blog before all. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
-- [Featuring XcodeGen, Factory, & Swinject](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? - iOS Dev Tools — Source repository · Topics: Concurrency · Swift · Xcode
+- [Featuring XcodeGen, Factory, & Swinject](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? — Source repository · Topics: Concurrency · Swift · Xcode
   **Published:** `2023-06-01T12:01:55.488Z`
   **NeKI brief:** XcodeGen generates Xcode projects from a declarative YAML or JSON specification. Use it to make targets, build settings, schemes, and dependencies reviewable text, avoiding fragile manual edits to project.pbxproj files.
 - [Glassfy](https://eu1.hubs.ly/H01-5vC0) — SwiftUI Weekly · SwiftUI Weekly - Issue #144 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Swift
@@ -23231,6 +23269,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Flappy Swift](https://github.com/fullstackio/FlappySwift) — iOS Dev Weekly · Issue 149 — Source repository · Topics: Developer Tools · Swift
   **Published:** `6th June 2014`
   **NeKI brief:** Time from announcement to Flappy Swift was about 8 hours by my count…
+- [iOSDevUK](https://go.peterfriese.dev/iosdevuk-2026-issue-103?s=web&t=ext) — Not only Swift · Issue 103 — Tutorial · Topics: AI Development · Developer Community & Business · Swift
+  **NeKI brief:** Routes to the iOSDevUK conference and workshop programme. Treat it as community-event discovery rather than technical implementation guidance.
+- [SwiftUI data dependencies and their effect on view updates](https://go.peterfriese.dev/swiftui-data-dependencies-and-their-effect-on-view-updates?s=web&t=ext) — Not only Swift · Issue 103 — Article · Topics: Dependency Injection · Swift · SwiftUI
+  **NeKI brief:** Explains how SwiftUI view updates follow the data read during body evaluation, helping distinguish a genuine dependency from unrelated model changes. Use it when reducing unnecessary invalidation or making data flow explicit.
 - [No spoilers, Sherlock! Building a book Q&A using on-device AI (Code, Commit, Deploy, Repeat S2E1)](https://go.peterfriese.dev/firebase-no-spoilers-sherlock-book-qa?s=web&t=ext) — Not only Swift · Issue 102 — Article · Topics: AI Development · Swift · SwiftUI
   **NeKI brief:** A live coding episode that builds a spoiler-aware book question-and-answer companion with on-device AI. Useful for seeing a complete product-shaped prompt and context workflow rather than an isolated model-API demonstration.
 - [SwiftUI's ContentBuilder explained](https://go.peterfriese.dev/swiftui-contentbuilder-explained?s=web&t=ext) — Not only Swift · Issue 101 — Article · Topics: AI Development · Swift · SwiftUI

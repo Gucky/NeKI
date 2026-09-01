@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Macros, compiler plugins, generated code, and metaprogramming techniques.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **167**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **168**
 
 ## Direct-source reading
 
+- [Beta Preview: LazyState](https://www.pointfree.co/blog/posts/223-beta-preview-lazystate) — Point-Free · article catalogue
+  **Published:** `2026-08-31T00:00:00Z`
+  **NeKI brief:** Previews the LazyState macro for lazily creating stateful reference values from parent inputs once per view identity. It replaces optional-state and onAppear workarounds, but is a beta, member-only API rather than a platform contract.
 - [Private properties no longer break the memberwise initializer in Swift 6.4 | Sarunw](https://sarunw.com/posts/exclude-private-properties-from-memberwise-initializer) — Sarunw · article catalogue
   **Published:** `2026-08-27`
   **NeKI brief:** Explains SE-0502’s Swift 6.4 change that excludes initialized private stored properties from a synthesized memberwise initializer. It also identifies extension initializer collisions and the macro/property-wrapper motivation, helping teams plan source-compatible migration.

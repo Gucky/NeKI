@@ -3,8 +3,38 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.fatbobman.com/archive](https://weekly.fatbobman.com/archive)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **150**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed entries: **151**
+
+## [Issue 151](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-151)
+
+- Published: `2026-08-31T12:01:53.025Z`
+
+**Topics:** App Intents & System Surfaces · App Services & Extensions · Developer Tools · macOS & AppKit · Swift · SwiftUI
+
+**Sections:** Just a Few Keystrokes · 📢 Sponsor Fatbobman’s Swift Weekly · Recent Recommendations
+
+**NeKI brief:** Collects Swift closure-capture diagnostics, realistic background-task scheduling, accessible Swift Charts, direct macOS distribution, and Kotlin Multiplatform to SwiftUI bridging. Treat the issue as curated discovery rather than normative guidance.
+
+**Selected links:**
+- [Building an accessible calendar chart with Swift Charts](https://l.fatbobman.com/w0151-04) — Article · Topics: Accessibility · Developer Tools · Swift
+  **NeKI brief:** Builds a calendar-style Swift Charts visualization with attention to accessible representation of repeated weekdays and chart data. Use it when visual density must remain understandable to assistive technologies.
+- [JindoKit: Preview Dynamic Island presentations in your app](https://l.fatbobman.com/w0151-08) — Article · Topics: App Services & Extensions · Developer Tools · Xcode
+  **NeKI brief:** Introduces JindoKit for previewing Dynamic Island presentations in ordinary SwiftUI views. Use it to explore presentation states while validating the result against actual WidgetKit behaviour.
+- [Consuming SKIE Flows in SwiftUI](https://l.fatbobman.com/w0151-06) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains consuming Kotlin Flow values in SwiftUI through SKIE when Kotlin Multiplatform owns shared business logic. It is useful for examining bridging and observation boundaries between the two ecosystems.
+- [Preview Dynamic Island presentations in your app with JindoKit](https://openswiftuiproject.org/blog/preview-dynamic-island-presentations-with-jindokit) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Describes using JindoKit to render expanded, compact, and minimal Dynamic Island states in a SwiftUI view. It can support preview workflows, but does not replace device or WidgetKit validation.
+- [Swift Charts Beyond the Basics](https://books.nilcoalescing.com/swift-charts-beyond-the-basics) — Article · Topics: Swift
+  **NeKI brief:** Introduces a book on advanced Swift Charts work. It is a reading-resource lead rather than a precise API reference.
+- [Mac App Direct Distribution, DMG Signing & Notarization Guide](https://l.fatbobman.com/w0151-05) — Article · Topics: App Distribution & Store Operations
+  **NeKI brief:** Walks through direct macOS distribution with Developer ID signing, DMG creation, notarization, stapling, and Gatekeeper validation. Use it as a release-process checklist while verifying current Apple requirements.
+- [Why Swift is introducing a warning for weak captures within nested closures](https://l.fatbobman.com/w0151-01) — Article · Topics: Developer Career & Practice · Swift
+  **NeKI brief:** Explains why nested closure capture lists can still retain an object strongly through an outer closure, and why Swift is adding a warning for that pattern. Use it to review ownership intentionally rather than adding weak captures mechanically.
+- [Running iOS Background Tasks Reliably](https://l.fatbobman.com/w0151-02) — Article · Topics: App Services & Extensions · Personal Essays
+  **NeKI brief:** Documents the practical unreliability of iOS background-task scheduling and the value of telemetry from real devices. It helps separate a submitted BGTask request from any assumption that work will run on a fixed schedule.
+- [Sarunw’s How-to Series Returns](https://l.fatbobman.com/w0151-07) — Article · Topics: Apple Platform Ecosystem
+  **NeKI brief:** Notes Sarunw's return to publishing practical Apple-platform articles. It is source-news context rather than an implementation guide.
 
 ## [Issue 150](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-150)
 

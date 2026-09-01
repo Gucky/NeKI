@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** System-integrated app capabilities including extensions, notifications, widgets, App Clips, background execution, and shared activities.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **74**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **77**
 
 ## Direct-source reading
 
@@ -56,6 +56,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Running iOS Background Tasks Reliably](https://l.fatbobman.com/w0151-02) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Services & Extensions · Personal Essays
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Documents the practical unreliability of iOS background-task scheduling and the value of telemetry from real devices. It helps separate a submitted BGTask request from any assumption that work will run on a fixed schedule.
+- [JindoKit: Preview Dynamic Island presentations in your app](https://l.fatbobman.com/w0151-08) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Services & Extensions · Developer Tools · Xcode
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Introduces JindoKit for previewing Dynamic Island presentations in ordinary SwiftUI views. Use it to explore presentation states while validating the result against actual WidgetKit behaviour.
+- [Preview Dynamic Island presentations in your app with JindoKit](https://openswiftuiproject.org/blog/preview-dynamic-island-presentations-with-jindokit) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Describes using JindoKit to render expanded, compact, and minimal Dynamic Island states in a SwiftUI view. It can support preview workflows, but does not replace device or WidgetKit validation.
 - [Running iOS Background Tasks Reliably, Part 1](https://calcopilot.app/blog/posts/running-ios-background-tasks-reliably-part1) — Those Who Swift · Issue 281 — Article · Topics: AI Development · App Services & Extensions · Personal Essays
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Documents lessons learned while pursuing reliable iOS background-task execution in iOS 26. The article focuses on the practical reliability gap between scheduling background work and getting it to run consistently, which is useful when designing refresh and deferred-processing workflows.

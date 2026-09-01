@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Profiling, Instruments, rendering cost, launch time, memory, and runtime efficiency.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **508**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **509**
 
 ## Direct-source reading
 
@@ -678,6 +678,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [JoltPhysics](https://github.com/EvgenijLutz/JoltPhysics) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Provides a Swift-facing package around the Jolt C++ physics engine for real-time simulation. Assess native dependency, determinism, and supported-platform trade-offs before making it an app dependency.
 - [iOS 27: StateReporter](https://antongubarenko.substack.com/p/ios-27-statereporter) — Those Who Swift · Issue 281 — Article · Topics: Performance
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Introduces iOS 27 StateReporting for attaching concise application-state transitions and metadata to MetricKit diagnostics, helping connect hangs or hitches to the user activity that preceded them.
@@ -1128,7 +1131,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [to read the full release notes](https://github.com/actions/upload-artifact/blob/main/README.md) — iOS CI Newsletter · Issue 31 — Source repository · Topics: Developer Tools · Performance
   **Published:** `2023-12-17T00:00:00.000Z`
   **NeKI brief:** Provides the source and change history for to read the full release notes, relevant to Developer Tools and Performance. Inspect its implementation, open issues, and release state before adopting the approach.
-- [Mobile Developer at Match Profiler](https://www.buscojobs.pt/mobile-developer-m-f-remote-ID-16716072) — iOS Dev Tools · 🔨 Codye, DisplayBuddy, Backup Status - iOS Dev Tools — Article · Topics: Performance
+- [Mobile Developer at Match Profiler](https://www.buscojobs.pt/mobile-developer-m-f-remote-ID-16716072) — iOS Dev Tools · 🔨 Codye, DisplayBuddy, Backup Status — Article · Topics: Performance
   **Published:** `2023-12-07T16:16:37.261Z`
   **NeKI brief:** This Buscojobs listing advertises a remote mobile-developer role. Use it as a time-sensitive hiring lead, verifying employer identity, location, contract terms, technology expectations, and application status directly with the recruiting organization.
 - [Alternative to Spacer](https://david.y4ng.fr/the-alternative-to-swiftui-spacer?ref=ioscodereview.com) — iOS Code Review · Issue 60 — Article · Topics: Performance · Swift · SwiftUI

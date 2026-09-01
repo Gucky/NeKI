@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** C/C++, assembly, linking, allocators, memory layout, and systems tooling relevant to Apple platforms.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **70**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **71**
 
 ## Direct-source reading
 
@@ -49,6 +49,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [JoltPhysics](https://github.com/EvgenijLutz/JoltPhysics) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Provides a Swift-facing package around the Jolt C++ physics engine for real-time simulation. Assess native dependency, determinism, and supported-platform trade-offs before making it an app dependency.
 - [tswift: A Lightweight Swift Runtime Built with Rust](https://l.fatbobman.com/w0146-06) — Fatbobman’s Swift Weekly · Issue 146 — Article · Topics: Dependency Injection · Objective-C & Cocoa · Swift
   **Published:** `2026-07-27T12:04:26.788Z`
   **NeKI brief:** The tswift repository experiments with a lightweight Swift environment for the browser backed by Rust. Use it to inspect which language and runtime pieces are required for portable execution, without assuming parity with Apple’s production toolchain.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Intents, App Shortcuts, Siri, Spotlight, widgets, controls, and related system surfaces.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **132**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **134**
 
 ## Direct-source reading
 
@@ -200,6 +200,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [JindoKit: Preview Dynamic Island presentations in your app](https://l.fatbobman.com/w0151-08) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Services & Extensions · Developer Tools · Xcode
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Introduces JindoKit for previewing Dynamic Island presentations in ordinary SwiftUI views. Use it to explore presentation states while validating the result against actual WidgetKit behaviour.
+- [Preview Dynamic Island presentations in your app with JindoKit](https://openswiftuiproject.org/blog/preview-dynamic-island-presentations-with-jindokit) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Describes using JindoKit to render expanded, compact, and minimal Dynamic Island states in a SwiftUI view. It can support preview workflows, but does not replace device or WidgetKit validation.
 - [iOS 27, Your App, and Siri](https://www.swiftjectivec.com/siri-ai-for-ios027) — SwiftLee Weekly · Issue 329 — Article · Topics: AI Development · App Intents & System Surfaces · Swift
   **Published:** `2026-06-23T14:07:47.000Z`
   **NeKI brief:** Jordan explains how iOS 27’s new Siri intelligence can work with your app’s data, covering AppEntity, app schemas, and APIs that help Siri understand and act on what’s currently on screen.

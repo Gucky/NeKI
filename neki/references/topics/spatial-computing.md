@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** visionOS, Apple Vision Pro, AR, VR, and spatial interaction.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **101**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **102**
 
 ## Direct-source reading
 
@@ -70,6 +70,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Apple Vision Pro and Software Layoffs](https://mjtsai.com/blog/2026/08/24/apple-vision-pro-and-software-layoffs) — iOS Dev Weekly · Issue 765 — Article · Topics: Spatial Computing
+  **Published:** `28th August 2026`
+  **NeKI brief:** Collects commentary on Vision Pro-related software layoffs. Use it as ecosystem context, not as a technical assessment of visionOS or an employment forecast.
 - [KSCrash](https://github.com/kstenerud/KSCrash) — iOS Dev Tools · iOS Dev Tools: Appllama, KSCrash, Reely — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
   **Published:** `2026-08-20T16:31:57.620Z`
   **NeKI brief:** KSCrash is a mature iOS/macOS crash-reporting library that captures native crashes and turns them into reports for later symbolication or delivery. It is useful when comparing in-process crash capture with hosted crash-reporting SDK trade-offs.

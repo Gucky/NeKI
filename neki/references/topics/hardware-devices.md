@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple hardware, peripherals, device setup, and physical-computing context.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **84**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **85**
 
 ## Direct-source reading
 
@@ -55,6 +55,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Capsomnia](https://capsomnia.com/) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Article · Topics: AI Development · Personal Essays
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Presents a macOS utility that prevents sleep when the laptop lid is closed. Consider power, thermal, and security implications before using it to keep development processes running.
 - [Sapphire](https://sapphire-app.tech/) — iOS Dev Tools · iOS Dev Tools: Appllama, KSCrash, Reely — Article
   **Published:** `2026-08-20T16:31:57.620Z`
   **NeKI brief:** Repurposes the MacBook notch for current activity and productivity surfaces, including an automation-oriented agent feature. Use it as a native macOS interaction-design reference; evaluate its automation permissions independently.
@@ -70,7 +73,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [PawPause](https://miladsafarzadeh1.github.io/PawPause-mac) — iOS Dev Tools · iOS Dev Tools: Footprint, ZMarkupParser, Lettera — Article · Topics: Developer Tools · Hardware & Devices · macOS & AppKit
   **Published:** `2026-06-18T16:02:35.381Z`
   **NeKI brief:** PawPause is a macOS utility for encouraging breaks or managing screen habits. Follow it for a concrete reminder and productivity workflow, rather than as framework implementation guidance.
-- [BarDict](https://github.com/TokinoyuushaLink/BarDict) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Hardware & Devices · Objective-C & Cocoa
+- [BarDict](https://github.com/TokinoyuushaLink/BarDict) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Hardware & Devices · Objective-C & Cocoa
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** BarDict is a macOS menu-bar dictionary application supporting MDX and MDD resources. Useful for evaluating offline dictionary lookup and packaged language assets in a compact AppKit-style utility.
 - [MacPane](https://github.com/Gigaxel/macpane) — iOS Dev Tools · iOS Dev Tools: MacPane, Livable, Sherlock — Source repository · Topics: Accessibility · Developer Tools · Hardware & Devices

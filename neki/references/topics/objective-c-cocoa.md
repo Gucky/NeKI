@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Objective-C language/runtime, Cocoa and Foundation-era APIs, and historical Mac/iOS implementation techniques.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **1137**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **1140**
 
 ## Direct-source reading
 
+- [The Spend Stack Revival | Swiftjective-C](https://swiftjectivec.com/The-Spend-Stack-Revival) — Swiftjective-C · article catalogue
+  **Published:** `2026-08-31T00:00:00-05:00`
+  **NeKI brief:** Revisits the modernization of an older Objective-C app with GRDB and CKSyncEngine, and outlines a possible optional cloud-sync layer. It is an indie-maintenance case study, not a prescriptive migration recipe.
 - [Elasticsearch in Vapor: Getting Started | Kodeco](https://www.kodeco.com/9813028-elasticsearch-in-vapor-getting-started) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** This Vapor example connects a server to a locally Dockerized Elasticsearch instance and indexes recipe documents, useful for understanding the boundary between request handling and search storage.
@@ -468,6 +471,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Xcode Tools Documentation](https://github.com/artemnovichkov/xcode-tools-docs) — iOS Dev Weekly · Issue 765 — Source repository · Topics: Architecture · Developer Tools · Xcode
+  **Published:** `28th August 2026`
+  **NeKI brief:** Collects missing or hard-to-find Xcode command-line and tool documentation in an inspectable repository, useful for discovering a workflow before validating it against Apple’s current documentation.
 - [A Framework to Make Decisions Faster as a Lead Software Engineer](https://mfaani.com/posts/career/a-framework-to-make-decisions-faster-as-a-lead-software-engineer) — Those Who Swift · Issue 281 — Article · Topics: Developer Career & Practice · Objective-C & Cocoa
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Presents a decision-making framework for lead software engineers who must act quickly under pressure. Its focus is on structuring incomplete information and trade-offs so technical leadership decisions become faster and more deliberate.
@@ -525,10 +531,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Active ReviewSE-0538Disconnected](https://github.com/apple/swift-evolution/blob/main/proposals/0538-disconnected.md) — SwiftLee Weekly · Issue 323 — Source repository · Topics: Architecture · Developer Tools · Swift
   **Published:** `2026-07-21T14:05:55.000Z`
   **NeKI brief:** Records Active ReviewSE-0538Disconnected, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
-- [Swift Scribe](https://github.com/FluidInference/swift-scribe) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Swift
+- [Swift Scribe](https://github.com/FluidInference/swift-scribe) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Swift Scribe combines local microphone transcription with on-device summarization on current Apple OS releases, without external dependencies. Useful for evaluating a privacy-preserving speech pipeline and its deployment-version constraints.
-- [Mimer](https://mimer.hasanjafri.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Article · Topics: Objective-C & Cocoa · Product Design
+- [Mimer](https://mimer.hasanjafri.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Objective-C & Cocoa · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Mimer is a macOS utility or developer tool. Follow its page and source for the concrete workflow and integration surface it provides, while verifying supported platforms and maintenance.
 - [Foundation Models in iOS 27: Tool-Calling Control](https://blakecrosley.com/blog/foundation-models-tool-calling-ios-27) — Those Who Swift · Issue 275 — Article · Topics: AI Development · Foundation & Data Formats · Objective-C & Cocoa
@@ -567,7 +573,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Fatbobman](https://fatbobman.com/en/about) — iOS Dev Weekly · Issue 753 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `5th June 2026`
   **NeKI brief:** Presents fatbobman for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
-- [BarDict](https://github.com/TokinoyuushaLink/BarDict) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Hardware & Devices · Objective-C & Cocoa
+- [BarDict](https://github.com/TokinoyuushaLink/BarDict) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Hardware & Devices · Objective-C & Cocoa
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** BarDict is a macOS menu-bar dictionary application supporting MDX and MDD resources. Useful for evaluating offline dictionary lookup and packaged language assets in a compact AppKit-style utility.
 - [MacRumors + 2](https://www.macrumors.com/2026/05/18/apple-design-award-finalists-2026?ref=ioscodereview.com) — iOS Code Review · Issue 79 — Article · Topics: Architecture · Composable Architecture · Testing
@@ -1086,10 +1092,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift on Android Community Workgroup](https://forums.swift.org/t/swift-on-android-working-group/77780) — Fatbobman’s Swift Weekly · Issue 71 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
   **Published:** `2025-02-17T23:25:21.639Z`
   **NeKI brief:** Tracks the Swift on Android working group's scope and coordination. Use it to distinguish language/runtime portability from UIKit availability when assessing a shared Swift codebase for Android targets.
-- [Starview](https://indiegoodies.com/starview) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Article · Topics: App Distribution & Store Operations · Objective-C & Cocoa
+- [Starview](https://indiegoodies.com/starview) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Article · Topics: App Distribution & Store Operations · Objective-C & Cocoa
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Starview is a developer-oriented utility or product page. Follow it for the concrete workflow it presents, while verifying supported platforms, implementation details, and maintenance before treating it as technical reading.
-- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Source repository · Topics: Architecture · Composable Architecture · Swift
+- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Architecture · Composable Architecture · Swift
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Giffy is a sample iOS application that combines SwiftUI, The Composable Architecture, and Swinject-based dependency injection. Use it to inspect how those architectural pieces are wired together in a small, runnable project.
 - [🍎 Running Xcode in unsupported macOS versions](https://marcelvoss.com/2025/tricking-xcode-into-running-on-an-unsupported-macos) — iOS CI Newsletter · Issue 61 — Article · Topics: Apple Platform Ecosystem · Personal Essays · Xcode
@@ -3222,6 +3228,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Marco’s post on software patents](http://ignorethecode.net/blog/2011/08/11/why_software_patents_are_not_fixable) — iOS Dev Weekly · Issue 2 — Article · Topics: Objective-C & Cocoa
   **Published:** `12th August 2011`
   **NeKI brief:** I can’t imagine a weekly round up these days that doesn’t include a story about software patents. Apple seems to be insisting on getting involved with the Lodsys patent cases. Good news. You might also want to check out Marco’s post on software patents from…
+- [How AI text watermarking works](https://go.peterfriese.dev/ai-how-ai-text-watermarking-works?s=web&t=ext) — Not only Swift · Issue 103 — Article · Topics: AI Development · Objective-C & Cocoa
+  **NeKI brief:** Explains the probabilistic idea behind AI text watermarking and why detection depends on generated-token distributions. Treat it as conceptual background, not a guarantee of provenance or authorship.
 - [MAD-SLIP](https://go.peterfriese.dev/slip-programming-language-on?s=newsletter&t=ext) — Not only Swift · Issue 99 — Article · Topics: Objective-C & Cocoa
   **NeKI brief:** Provides background on SLIP, the list-processing system embedded into languages such as MAD and used by ELIZA. Read it to understand the data structures available to the original program rather than judging it through modern language assumptions.
 - [Finding Eliza team](https://go.peterfriese.dev/finding-eliza-team?s=newsletter&t=ext) — Not only Swift · Issue 99 — Article · Topics: Objective-C & Cocoa

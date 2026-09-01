@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.swiftjectivec.com/allposts](https://www.swiftjectivec.com/allposts)
-- Last collected: `2026-08-27T13:26:05Z`
-- Indexed entries: **201**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed entries: **202**
 
+- [The Spend Stack Revival | Swiftjective-C](https://swiftjectivec.com/The-Spend-Stack-Revival)
+  **Published:** `2026-08-31T00:00:00-05:00`
+  **Topics:** Developer Community & Business · Objective-C & Cocoa · Persistence & Synchronisation
+  **NeKI brief:** Revisits the modernization of an older Objective-C app with GRDB and CKSyncEngine, and outlines a possible optional cloud-sync layer. It is an indie-maintenance case study, not a prescriptive migration recipe.
 - [Introducing Indie Walks | Swiftjective-C](https://swiftjectivec.com/Introducing-Indie-Walks)
   **Published:** `2026-08-24T00:00:00-05:00`
   **Topics:** Developer Community & Business

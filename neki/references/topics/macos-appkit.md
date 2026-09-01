@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** macOS app lifecycle, menu-bar apps, Cocoa, and AppKit integration.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **535**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **537**
 
 ## Direct-source reading
 
@@ -113,6 +113,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Mac App Direct Distribution, DMG Signing & Notarization Guide](https://l.fatbobman.com/w0151-05) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Distribution & Store Operations
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Walks through direct macOS distribution with Developer ID signing, DMG creation, notarization, stapling, and Gatekeeper validation. Use it as a release-process checklist while verifying current Apple requirements.
+- [Hotspot Meter](https://hotspot-meter.loam.sk/) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Article · Topics: macOS & AppKit
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Presents a macOS menu-bar utility for tracking Wi-Fi and hotspot usage. It is a product-discovery lead rather than networking API guidance.
 - [DynamicNotch: Building Polished Notch and Screen-Edge Interactions for macOS](https://l.fatbobman.com/w0150-7) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Swift · Swift Package Manager · SwiftUI
   **Published:** `2026-08-24T12:03:48.210Z`
   **NeKI brief:** Offers a macOS Swift package for notch-aware SwiftUI surfaces and AppKit-backed floating edge windows. It centralizes clipping, hit testing, safe-area and multi-display geometry, placement, and compact-notch reservations while leaving product state and interaction policy to the host app.
@@ -149,13 +155,13 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Working with Xcode on CI](https://l.fatbobman.com/w0146-02) — Fatbobman’s Swift Weekly · Issue 146 — Article · Topics: Objective-C & Cocoa · Xcode
   **Published:** `2026-07-27T12:04:26.788Z`
   **NeKI brief:** Explains provisioning Xcode on macOS CI, selecting versions with DEVELOPER_DIR, running first-launch setup, and installing simulator or Metal components. It also documents authentication and stale-toolchain trade-offs that prevent a completely hands-off installer.
-- [Swift Scribe](https://github.com/FluidInference/swift-scribe) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Swift
+- [Swift Scribe](https://github.com/FluidInference/swift-scribe) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Swift Scribe combines local microphone transcription with on-device summarization on current Apple OS releases, without external dependencies. Useful for evaluating a privacy-preserving speech pipeline and its deployment-version constraints.
-- [cmux](https://github.com/manaflow-ai/cmux) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Product Design
+- [cmux](https://github.com/manaflow-ai/cmux) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: AI Development · Developer Tools · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** cmux is a Ghostty-based macOS terminal organized around vertical tabs, notifications, and programmable agent workflows. Useful for evaluating a terminal layout that keeps multiple coding-agent sessions visible and actionable.
-- [WhatCable](https://www.whatcable.uk/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Article · Topics: macOS & AppKit · Product Design
+- [WhatCable](https://www.whatcable.uk/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: macOS & AppKit · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** WhatCable is a developer utility or product page. Follow it for the concrete workflow and integration surface described there, while requiring further technical evidence before adoption.
 - [5 biggest Liquid Glass changes in iOS 27 and macOS 27](https://www.cultofmac.com/news/liquid-glass-changes-ios-27-macos-27) — Those Who Swift · Issue 275 — Article · Topics: Liquid Glass · macOS & AppKit
@@ -254,16 +260,16 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [QuickCal](https://github.com/BrianB-22/quickcal) — iOS Dev Tools · iOS Dev Tools: Promptberry, SolidLikeARock, MLX Swift LM — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
   **Published:** `2026-06-11T16:01:47.008Z`
   **NeKI brief:** QuickCal is a GitHub project for fast calendar entry or scheduling workflows. Follow its source and README to inspect the concrete interaction and integration surface before treating it as a maintained dependency.
-- [Sparkle 2](https://github.com/sparkle-project/Sparkle) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools
+- [Sparkle 2](https://github.com/sparkle-project/Sparkle) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Sparkle provides signed software-update delivery for macOS applications, including feed handling and installer integration. Useful for studying a mature update channel and the security responsibilities around release signatures and keys.
-- [SwiftBar](https://github.com/swiftbar/SwiftBar) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
+- [SwiftBar](https://github.com/swiftbar/SwiftBar) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** SwiftBar turns shell scripts into macOS menu-bar items, using script output to define labels, menus, and refresh behavior. Useful for lightweight developer dashboards without building a dedicated native status application.
-- [DockDoor](https://github.com/ejbills/DockDoor) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift
+- [DockDoor](https://github.com/ejbills/DockDoor) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** DockDoor adds macOS window peeking, alternate-tab behavior, and related desktop navigation enhancements. Useful for examining how a menu-bar utility can improve window switching while staying outside application code.
-- [Open Caffeine](https://github.com/sapsaldog/open-caffeine) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
+- [Open Caffeine](https://github.com/sapsaldog/open-caffeine) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Open Caffeine prevents a Mac from sleeping through a small menu-bar control. Useful for inspecting a minimal, reversible power-management utility used during long builds, demos, or unattended local jobs.
 - [TongueType](https://tonguetype.app/) — iOS Dev Tools · iOS Dev Tools: GQLSwift, ScreenPlace, BuildWatch — Article · Topics: AI Development · App Distribution & Store Operations · Personal Essays

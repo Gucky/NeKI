@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** UIKit view controllers, controls, lifecycle, and interoperability with SwiftUI.
 
-- Last collected: `2026-08-27T19:22:09Z`
+- Last collected: `2026-09-01T10:14:10Z`
 - Indexed links shown: **735**
 
 ## Direct-source reading
@@ -1894,7 +1894,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Unfuddling the SwiftUI Alignment Guide API](https://benscheirman.com/2024/01/swiftui-alignment-guide.html) — SwiftUI Weekly · SwiftUI Weekly - Issue #174 — Article · Topics: Code Quality · Swift · SwiftUI
   **Published:** `2024-01-22T13:02:05.973Z`
   **NeKI brief:** Clarifies SwiftUI's alignment-guide API and the mental model behind custom alignment. Useful when nested layout requirements make default stacks insufficient and alignment closures otherwise become trial and error.
-- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages) — iOS Dev Tools · 🔨 RocketSim, SwiftMessages, Dash - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · SwiftUI
+- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages) — iOS Dev Tools · 🔨 RocketSim, SwiftMessages, Dash — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2023-11-02T14:15:02.032Z`
   **NeKI brief:** SwiftMessages presents configurable in-app banners, cards, and modal messages using UIKit or SwiftUI. Use it when transient feedback needs queuing, layout control, and presentation styles beyond a system alert or toast.
 - [Tap Gesture vs Button](https://david.y4ng.fr/tap-gesture-vs-button) — SwiftUI Weekly · SwiftUI Weekly - Issue #165 — Article · Topics: Swift · SwiftUI · UIKit

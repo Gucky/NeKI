@@ -3,8 +3,39 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://peterfriese.dev/newsletter/](https://peterfriese.dev/newsletter/)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **27**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed entries: **28**
+
+## [Issue 103](https://peterfriese.dev/newsletter/issues/103)
+
+
+**Topics:** AI Development · Dependency Injection · Developer Community & Business · Swift · SwiftUI · Testing
+
+**Sections:** Not only Swift · SwiftUI · SwiftUI data dependencies and their effect on view updates
+
+**NeKI brief:** Combines agent-worktree practice, SwiftUI data-dependency analysis, App Attest and DeviceCheck reading, and current tools. It is a curated starting point; each linked source needs its own technical validation.
+
+**Selected links:**
+- [iOSDevUK](https://go.peterfriese.dev/iosdevuk-2026-issue-103?s=web&t=ext) — Tutorial · Topics: AI Development · Developer Community & Business · Swift
+  **NeKI brief:** Routes to the iOSDevUK conference and workshop programme. Treat it as community-event discovery rather than technical implementation guidance.
+- [SwiftUI data dependencies and their effect on view updates](https://go.peterfriese.dev/swiftui-data-dependencies-and-their-effect-on-view-updates?s=web&t=ext) — Article · Topics: Dependency Injection · Swift · SwiftUI
+  **NeKI brief:** Explains how SwiftUI view updates follow the data read during body evaluation, helping distinguish a genuine dependency from unrelated model changes. Use it when reducing unnecessary invalidation or making data flow explicit.
+- [Why Normal People Aren’t Using AI Agents](https://go.peterfriese.dev/ai-why-normal-people-arent-using-ai-agents?s=web&t=ext) — Article · Topics: AI Development · Testing
+  **NeKI brief:** Discusses why AI-agent products can remain hard for ordinary users to adopt. Use it as product-design context, not as evidence for a particular agent capability.
+- [How AI text watermarking works](https://go.peterfriese.dev/ai-how-ai-text-watermarking-works?s=web&t=ext) — Article · Topics: AI Development · Objective-C & Cocoa
+  **NeKI brief:** Explains the probabilistic idea behind AI text watermarking and why detection depends on generated-token distributions. Treat it as conceptual background, not a guarantee of provenance or authorship.
+- [Ordinary Abundance](https://go.peterfriese.dev/fun-ordinary-abundance?s=web&t=ext) — Article
+  **NeKI brief:** Shares a non-technical personal reading lead. It is kept as newsletter context rather than an implementation source.
+- [DeviceCheck and App Attest: Stopping Fraud in iOS Apps](https://go.peterfriese.dev/firebase-devicecheck-and-app-attest-stopping-fraud?s=web&t=ext) — Tutorial · Topics: Testing
+  **NeKI brief:** Compares DeviceCheck and App Attest as server-verified signals for mitigating abuse in an iOS app. Use it to frame the client, backend, and risk-model boundaries before treating either mechanism as a complete fraud solution.
+- [Arsh](https://dev.to/arshtechpro) — Tutorial · Topics: Testing
+  **NeKI brief:** Identifies the author profile linked from the newsletter rather than a specific technical article. It is attribution and not a standalone implementation source.
+- [How I write with AI](https://go.peterfriese.dev/ai-how-i-write-with-ai?s=web&t=ext) — Article · Topics: AI Development
+  **NeKI brief:** Describes an AI-assisted writing workflow that retains the author's judgement and voice. It is useful when defining review boundaries around generated content.
+- [Blogging with (actual) paper](https://go.peterfriese.dev/tools-blogging-with-actual-paper?s=web&t=ext) — Article
+  **NeKI brief:** Explores a deliberately physical, paper-based blogging workflow. It is a personal tooling perspective rather than Apple-platform engineering guidance.
+- [OpenLogi](https://go.peterfriese.dev/tools-openlogi?s=web&t=ext) — Article
+  **NeKI brief:** Introduces OpenLogi as an open-source alternative discovered through the newsletter. Evaluate its privacy, interoperability, and maintenance fit before adopting it in a workflow.
 
 ## [Issue 102](https://peterfriese.dev/newsletter/issues/102)
 

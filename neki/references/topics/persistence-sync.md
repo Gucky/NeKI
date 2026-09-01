@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Local storage, CloudKit, databases, caching, keychain use, and synchronisation.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **638**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **639**
 
 ## Direct-source reading
 
+- [The Spend Stack Revival | Swiftjective-C](https://swiftjectivec.com/The-Spend-Stack-Revival) — Swiftjective-C · article catalogue
+  **Published:** `2026-08-31T00:00:00-05:00`
+  **NeKI brief:** Revisits the modernization of an older Objective-C app with GRDB and CKSyncEngine, and outlines a possible optional cloud-sync layer. It is an indie-maintenance case study, not a prescriptive migration recipe.
 - [Type-safe JSON and JSONB in StructuredQueries](https://www.pointfree.co/blog/posts/220-type-safe-json-and-jsonb-in-structuredqueries) — Point-Free · article catalogue
   **Published:** `2026-08-03T00:00:00Z`
   **NeKI brief:** Introduces StructuredQueries 0.35 support for SQLite JSON and JSONB columns, key-path-based extraction and mutation, and json_each collection queries. The examples show where binary storage improves efficiency while preserving compile-time schema checks.
@@ -1233,7 +1236,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Syncing SwiftData with a custom backend using HistoryObserver](https://azamsharp.com/2026/07/16/syncing-swiftdata-with-a-custom-backend-using-historyobserver.html) — iOS Dev Weekly · Issue 760 — Article · Topics: Networking · Persistence & Synchronisation · SwiftData
   **Published:** `24th July 2026`
   **NeKI brief:** Builds a one-way synchronisation pipeline from SwiftData HistoryObserver transactions to a REST backend. Persisting the last processed transaction token avoids duplicate uploads; server-to-client changes remain a separate responsibility.
-- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** MistKit packages CloudKit Web Services access for server-side Swift and command-line tools, separating backend automation from Apple's client frameworks. Useful when a service needs CloudKit data without running inside an iOS app.
 - [Keeping SwiftData behind a boundary](https://tanaschita.com/swiftdata-persistence-boundaries?ref=ioscodereview.com) — iOS Code Review · Issue 82 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData

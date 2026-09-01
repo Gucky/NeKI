@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Git, command-line work, debugging, automation, and practical developer workflows.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **2446**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **2456**
 
 ## Direct-source reading
 
@@ -102,6 +102,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Building an accessible calendar chart with Swift Charts](https://l.fatbobman.com/w0151-04) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Accessibility · Developer Tools · Swift
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Builds a calendar-style Swift Charts visualization with attention to accessible representation of repeated weekdays and chart data. Use it when visual density must remain understandable to assistive technologies.
+- [JindoKit: Preview Dynamic Island presentations in your app](https://l.fatbobman.com/w0151-08) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Services & Extensions · Developer Tools · Xcode
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Introduces JindoKit for previewing Dynamic Island presentations in ordinary SwiftUI views. Use it to explore presentation states while validating the result against actual WidgetKit behaviour.
+- [Xcode Tools Documentation](https://github.com/artemnovichkov/xcode-tools-docs) — iOS Dev Weekly · Issue 765 — Source repository · Topics: Architecture · Developer Tools · Xcode
+  **Published:** `28th August 2026`
+  **NeKI brief:** Collects missing or hard-to-find Xcode command-line and tool documentation in an inspectable repository, useful for discovering a workflow before validating it against Apple’s current documentation.
+- [Some things are never truly lost - How git recovered two weeks of deleted work](https://danielsaidi.com/blog/2026/08/27/some-things-are-never-truly-lost) — iOS Dev Weekly · Issue 765 — Article · Topics: AI Development · Concurrency · Developer Tools
+  **Published:** `28th August 2026`
+  **NeKI brief:** Recounts recovering a force-pushed, reset branch by locating its old tip in the local reflog and restoring a branch reference. It is a practical reminder that recovery depends on local object retention and should be paired with normal backup and remote protection.
+- [JoltPhysics](https://github.com/EvgenijLutz/JoltPhysics) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Provides a Swift-facing package around the Jolt C++ physics engine for real-time simulation. Assess native dependency, determinism, and supported-platform trade-offs before making it an app dependency.
+- [asc-cli](https://github.com/tddworks/asc-cli) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Provides a command-line interface for App Store Connect workflows such as builds, TestFlight, releases, subscriptions, and screenshots. Treat its structured output as an automation integration point while protecting credentials and release authority.
+- [Xtend](https://getxtend.com/) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Article · Topics: Developer Tools · Xcode
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Presents a mobile companion for accessing a Mac development environment, including remote Simulator and build workflows. Evaluate latency, security, and device-control boundaries before relying on it for development work.
+- [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Provides a reusable agent skill intended to spot and revise AI-like writing patterns. Use it as a style-review aid while keeping human editorial judgement in control.
+- [LogoCreator](https://github.com/Nutlope/logocreator) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Provides an open-source AI logo-generation project. Treat generated branding as a draft that still needs originality, trademark, accessibility, and product-review checks.
+- [AIUsage](https://github.com/sylearn/AIUsage) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Provides a dashboard for tracking AI subscriptions, quotas, and costs. Evaluate credential handling and data exposure before connecting personal or team accounts.
 - [AI Wanted to Give Up. The Human Didn’t.](https://fatbobman.com/en/weekly/issue-150) — Those Who Swift · Issue 281 — Article · Topics: AI Development · Developer Tools · Persistence & Synchronisation
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Curates Apple-platform topics including AI delegation, Swift Package Registry, CoreBluetooth concurrency, CloudKit, and OCR mapping. It serves as a source map to several implementation discussions, with each linked article requiring its own technical evaluation.
@@ -225,16 +255,16 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Active ReviewSE-0538Disconnected](https://github.com/apple/swift-evolution/blob/main/proposals/0538-disconnected.md) — SwiftLee Weekly · Issue 323 — Source repository · Topics: Architecture · Developer Tools · Swift
   **Published:** `2026-07-21T14:05:55.000Z`
   **NeKI brief:** Records Active ReviewSE-0538Disconnected, clarifying the proposed Swift language or standard-library mechanism and the compatibility implications developers should consider.
-- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** MistKit packages CloudKit Web Services access for server-side Swift and command-line tools, separating backend automation from Apple's client frameworks. Useful when a service needs CloudKit data without running inside an iOS app.
-- [Swift Scribe](https://github.com/FluidInference/swift-scribe) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Swift
+- [Swift Scribe](https://github.com/FluidInference/swift-scribe) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Swift Scribe combines local microphone transcription with on-device summarization on current Apple OS releases, without external dependencies. Useful for evaluating a privacy-preserving speech pipeline and its deployment-version constraints.
-- [cmux](https://github.com/manaflow-ai/cmux) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Product Design
+- [cmux](https://github.com/manaflow-ai/cmux) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: AI Development · Developer Tools · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** cmux is a Ghostty-based macOS terminal organized around vertical tabs, notifications, and programmable agent workflows. Useful for evaluating a terminal layout that keeps multiple coding-agent sessions visible and actionable.
-- [agent-browser](https://github.com/vercel-labs/agent-browser) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: Developer Tools · Product Design
+- [agent-browser](https://github.com/vercel-labs/agent-browser) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: Developer Tools · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** agent-browser exposes browser automation through a CLI designed for AI agents, giving scripts navigation, interaction, and inspection primitives. Useful for comparing deterministic command workflows with bespoke browser-control integrations.
 - [Swift Bits: My Top Xcode CI Environment Variables](https://antongubarenko.substack.com/p/swift-bits-my-top-xcode-ci-environment) — Those Who Swift · Issue 275 — Article · Topics: Developer Tools · Swift · Xcode
@@ -405,28 +435,28 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftTUI](https://snopia.net/en/blog/introducing-swifttui) — iOS Dev Weekly · Issue 753 — Article · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `5th June 2026`
   **NeKI brief:** Presents swifttui for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
-- [Simtime](https://github.com/MobAI-App/simtime) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Personal Essays
+- [Simtime](https://github.com/MobAI-App/simtime) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: AI Development · Developer Tools · Personal Essays
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Simtime changes the wall clock perceived by an already-running iOS Simulator app, supporting freeze, jump, scale, and reset without rebuilding. Useful for deterministic testing of time-dependent UI, caches, and scheduled work.
-- [Sparkle 2](https://github.com/sparkle-project/Sparkle) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools
+- [Sparkle 2](https://github.com/sparkle-project/Sparkle) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Sparkle provides signed software-update delivery for macOS applications, including feed handling and installer integration. Useful for studying a mature update channel and the security responsibilities around release signatures and keys.
-- [SwiftINI](https://github.com/jaywcjlove/SwiftINI) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [SwiftINI](https://github.com/jaywcjlove/SwiftINI) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** SwiftINI parses and serializes INI configuration files in Swift, providing a small format-specific layer instead of treating configuration as untyped text. Useful for command-line tools or legacy settings that need round-tripping.
-- [Windows Terminal](https://github.com/microsoft/terminal) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift
+- [Windows Terminal](https://github.com/microsoft/terminal) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Windows Terminal combines modern terminal tabs, panes, profiles, and rendering with the original Windows console host. Useful as a cross-platform terminal reference when agent or build workflows span Windows environments.
-- [SwiftBar](https://github.com/swiftbar/SwiftBar) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
+- [SwiftBar](https://github.com/swiftbar/SwiftBar) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** SwiftBar turns shell scripts into macOS menu-bar items, using script output to define labels, menus, and refresh behavior. Useful for lightweight developer dashboards without building a dedicated native status application.
-- [DockDoor](https://github.com/ejbills/DockDoor) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift
+- [DockDoor](https://github.com/ejbills/DockDoor) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** DockDoor adds macOS window peeking, alternate-tab behavior, and related desktop navigation enhancements. Useful for examining how a menu-bar utility can improve window switching while staying outside application code.
-- [Open Caffeine](https://github.com/sapsaldog/open-caffeine) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
+- [Open Caffeine](https://github.com/sapsaldog/open-caffeine) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Open Caffeine prevents a Mac from sleeping through a small menu-bar control. Useful for inspecting a minimal, reversible power-management utility used during long builds, demos, or unattended local jobs.
-- [BarDict](https://github.com/TokinoyuushaLink/BarDict) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Hardware & Devices · Objective-C & Cocoa
+- [BarDict](https://github.com/TokinoyuushaLink/BarDict) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Hardware & Devices · Objective-C & Cocoa
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** BarDict is a macOS menu-bar dictionary application supporting MDX and MDD resources. Useful for evaluating offline dictionary lookup and packaged language assets in a compact AppKit-style utility.
 - [Apple’s Hidden AI: Unlock Foundation Models on Your Mac with Apfel](https://www.youtube.com/watch?v=KlCqHP32c8M) — Those Who Swift · Issue 269 — Video · Topics: AI Development · Developer Tools · Foundation & Data Formats
@@ -2073,10 +2103,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Cool Terminal Things I’ve Found Recently](https://www.neilmacy.co.uk/blog/some-cool-terminal-things) — iOS Dev Weekly · Issue 699 — Article · Topics: Developer Tools
   **Published:** `14th February 2025`
   **NeKI brief:** This is a great set of Terminal tips and tricks from Neil Macy. The one that stuck for me was Atuin, which has already saved me from many keypresses on the up arrow key. 🎉
-- [Mint](https://github.com/yonaskolb/Mint) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [Mint](https://github.com/yonaskolb/Mint) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Mint installs and runs Swift Package Manager command-line tools at project-pinned versions. Use it to make generators, linters, and other developer executables reproducible without committing their binaries or relying on globally installed versions.
-- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Source repository · Topics: Architecture · Composable Architecture · Swift
+- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Architecture · Composable Architecture · Swift
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Giffy is a sample iOS application that combines SwiftUI, The Composable Architecture, and Swinject-based dependency injection. Use it to inspect how those architectural pieces are wired together in a small, runnable project.
 - [VS Code extension for Swift update](https://www.swift.org/blog/vscode-swift-2) — Those Who Swift · Issue 201 — Article · Topics: Developer Tools · Swift · Swift Package Manager
@@ -2502,7 +2532,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [XcodeSelectiveTesting](https://github.com/mikeger/XcodeSelectiveTesting) — iOS Dev Tools · iOS Dev Tools: UItesting.tools, XcodeSelectiveTesting, Suborbital — Source repository · Topics: Developer Tools · Testing · Xcode
   **Published:** `2024-09-19T13:14:54.513Z`
   **NeKI brief:** Provides the source and change history for XcodeSelectiveTesting, relevant to Architecture and Testing. Inspect its implementation, open issues, and release state before adopting the approach.
-- [Retcon](https://retcon.app/) — iOS Dev Tools · iOS Dev Tools: Retcon, Jack, ImpressKit - iOS Dev Tools — Article · Topics: Developer Tools
+- [Retcon](https://retcon.app/) — iOS Dev Tools · iOS Dev Tools: Retcon, Jack, ImpressKit — Article · Topics: Developer Tools
   **Published:** `2024-09-12T15:24:58.073Z`
   **NeKI brief:** Retcon is a macOS Git client focused on fast, visually clear history rewriting. Use it to inspect an alternative workflow for interactive commit editing, while keeping repository safety, collaboration, and recoverability explicit.
 - [Create Custom Visual Effects with SwiftUI](https://yaacoub.github.io/articles/swift-tip/create-custom-visual-effects-with-swiftui-wwdc24) — SwiftUI Weekly · SwiftUI Weekly - Issue #199 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
@@ -2574,7 +2604,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [one specific app](https://github.com/rileytestut/Delta) — iOS Dev Weekly · Issue 674 — Source repository · Topics: Developer Tools · Testing
   **Published:** `16th August 2024`
   **NeKI brief:** The GitHub repository contains Delta, an open-source iOS emulator project with publicly readable source and project documentation.
-- [Nuke](https://github.com/kean/Nuke) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen - iOS Dev Tools — Source repository · Topics: Developer Career & Practice · Developer Tools
+- [Nuke](https://github.com/kean/Nuke) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen — Source repository · Topics: Developer Career & Practice · Developer Tools
   **Published:** `2024-08-15T18:31:01.455Z`
   **NeKI brief:** Nuke provides image loading, caching, processing, and prefetching for Apple platforms, with UIKit and SwiftUI integrations. Use it when remote-image behavior needs explicit cache policy, progressive rendering, or processing pipelines beyond a minimal loader.
 - [https://gitbook.swiftgg.team/swift](https://gitbook.swiftgg.team/swift) — Fatbobman’s Swift Weekly · Issue 44 — Article · Topics: Developer Tools · Swift
@@ -2814,7 +2844,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [yolov5](https://github.com/ultralytics/yolov5) — iOS Dev Weekly · Issue 653 — Source repository · Topics: Developer Tools · Swift
   **Published:** `22nd March 2024`
   **NeKI brief:** Presents yolov5 for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
-- [Firefoo](https://www.firefoo.app/) — iOS Dev Tools · iOS Dev Tools: Skip, AppLayouts, Firefoo - iOS Dev Tools — Article · Topics: Developer Tools
+- [Firefoo](https://www.firefoo.app/) — iOS Dev Tools · iOS Dev Tools: Skip, AppLayouts, Firefoo — Article · Topics: Developer Tools
   **Published:** `2024-03-21T14:02:34.735Z`
   **NeKI brief:** Firefoo is a graphical Firestore client for browsing and editing data, running queries, importing or exporting JSON and CSV, and managing users. Use it for local data exploration and debugging without building ad-hoc admin screens.
 - [Concurrency Recipes](https://github.com/mattmassicotte/ConcurrencyRecipes) — iOS Dev Weekly · Issue 652 — Source repository · Topics: Concurrency · Developer Tools · Testing
@@ -3039,7 +3069,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Stellar](https://github.com/StellarTools/Stellar) — iOS Dev Weekly · Issue 634 — Source repository · Topics: CI/CD & Automation · Developer Tools · Swift
   **Published:** `3rd November 2023`
   **NeKI brief:** Examines Contribute to StellarTools/Stellar development by creating an account on GitHub. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
-- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages) — iOS Dev Tools · 🔨 RocketSim, SwiftMessages, Dash - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · SwiftUI
+- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages) — iOS Dev Tools · 🔨 RocketSim, SwiftMessages, Dash — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2023-11-02T14:15:02.032Z`
   **NeKI brief:** SwiftMessages presents configurable in-app banners, cards, and modal messages using UIKit or SwiftUI. Use it when transient feedback needs queuing, layout control, and presentation styles beyond a system alert or toast.
 - [sample app](https://github.com/automerge/MeetingNotes) — iOS Dev Weekly · Issue 633 — Source repository · Topics: Developer Tools · Swift
@@ -3075,7 +3105,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [or Swift](https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang) — iOS Dev Weekly · Issue 631 — Article · Topics: Cross-Platform & Web · Swift · Xcode
   **Published:** `13th October 2023`
   **NeKI brief:** Provides the Swift language extension for Visual Studio Code. Follow it when setting up language-server completion, diagnostics, and package workflows outside Xcode, while validating debugger and SDK limitations separately.
-- [FileKit](https://github.com/nvzqz/FileKit) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit - iOS Dev Tools — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
+- [FileKit](https://github.com/nvzqz/FileKit) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
   **Published:** `2023-10-12T15:37:25.698Z`
   **NeKI brief:** FileKit wraps Foundation file-system operations in expressive Swift types for paths, directories, and files. Use it for concise tooling or macOS utility code, while checking its maintenance and platform assumptions before making it a core dependency.
 - [摸鱼周报](https://github.com/zhangferry/iOSWeeklyLearning) — Fatbobman’s Swift Weekly · Issue 1 — Source repository · Topics: Developer Tools
@@ -3207,10 +3237,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift Charts](https://github.com/jordibruin/Swift-Charts-Examples) — iOS Dev Weekly · Issue 621 — Source repository · Topics: Developer Tools · Swift
   **Published:** `4th August 2023`
   **NeKI brief:** Examines If you’ve not checked out TipKit yet after last week’s link, then maybe this example repository from Jordi Bruin is the inspiration you need. It looks like he has example repositories for visionOS, the dynamic island, an Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
-- [Link to GitHub.](https://github.com/mapbox/mapbox-maps-ios) — iOS Dev Tools · Introducing CodeScanner, Mapbox, Alamofire — Source repository · Topics: Developer Tools · Maps & Location
+- [Link to GitHub.](https://github.com/mapbox/mapbox-maps-ios) — iOS Dev Tools · 🔨 Introducing Mapbox, Alamofire, RNCrypto — Source repository · Topics: Developer Tools · Maps & Location
   **Published:** `2023-08-03T12:40:06.374Z`
   **NeKI brief:** Mapbox Maps SDK for iOS provides vector maps, annotations, styling, navigation-oriented capabilities, and offline regions. Use it when Apple MapKit’s data or customization is insufficient, accounting for tokens, licensing, and offline package management.
-- [RNCrypto](https://github.com/RNCryptor/RNCryptor) — iOS Dev Tools · Introducing CodeScanner, Mapbox, Alamofire — Source repository · Topics: Developer Tools · Security & Privacy
+- [RNCrypto](https://github.com/RNCryptor/RNCryptor) — iOS Dev Tools · 🔨 Introducing Mapbox, Alamofire, RNCrypto — Source repository · Topics: Developer Tools · Security & Privacy
   **Published:** `2023-08-03T12:40:06.374Z`
   **NeKI brief:** RNCryptor defines a cross-language encrypted-data format using AES-256-CBC, PBKDF2-derived keys, random salt and IV, plus HMAC. Use it when interoperable encrypted payloads are required, while handling keys separately from ciphertext storage.
 - [an article last year](https://blog.eidinger.info/xcode-133-supports-spm-binary-dependency-in-private-github-release) — iOS CI Newsletter · Issue 20 — Article · Topics: Developer Tools · Objective-C & Cocoa · Xcode

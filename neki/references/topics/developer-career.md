@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Career development, workplace practice, communication, learning, leadership, and sustainable engineering habits.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **252**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **253**
 
 ## Direct-source reading
 
@@ -236,6 +236,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Why Swift is introducing a warning for weak captures within nested closures](https://l.fatbobman.com/w0151-01) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Developer Career & Practice · Swift
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Explains why nested closure capture lists can still retain an object strongly through an outer closure, and why Swift is adding a warning for that pattern. Use it to review ownership intentionally rather than adding weak captures mechanically.
 - [A Framework to Make Decisions Faster as a Lead Software Engineer](https://mfaani.com/posts/career/a-framework-to-make-decisions-faster-as-a-lead-software-engineer) — Those Who Swift · Issue 281 — Article · Topics: Developer Career & Practice · Objective-C & Cocoa
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Presents a decision-making framework for lead software engineers who must act quickly under pressure. Its focus is on structuring incomplete information and trade-offs so technical leadership decisions become faster and more deliberate.
@@ -428,10 +431,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Esper](https://www.vpdae.com/redirect/g0q866nbc8o2ddve465d6hb0442) — iOS Dev Tools · iOS Dev Tools: FreemiumKit, PR Focus, Swift Testing — Article · Topics: Developer Career & Practice
   **Published:** `2024-08-22T19:06:22.711Z`
   **NeKI brief:** This VPDAE page presents Esper, a device-management product. Follow it for concrete fleet administration and deployment capabilities, while treating product claims and availability as vendor-specific context.
-- [Nuke](https://github.com/kean/Nuke) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen - iOS Dev Tools — Source repository · Topics: Developer Career & Practice · Developer Tools
+- [Nuke](https://github.com/kean/Nuke) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen — Source repository · Topics: Developer Career & Practice · Developer Tools
   **Published:** `2024-08-15T18:31:01.455Z`
   **NeKI brief:** Nuke provides image loading, caching, processing, and prefetching for Apple platforms, with UIKit and SwiftUI integrations. Use it when remote-image behavior needs explicit cache policy, progressive rendering, or processing pipelines beyond a minimal loader.
-- [XcodeGen](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen - iOS Dev Tools — Source repository · Topics: Developer Career & Practice · Developer Tools · Xcode
+- [XcodeGen](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen — Source repository · Topics: Developer Career & Practice · Developer Tools · Xcode
   **Published:** `2024-08-15T18:31:01.455Z`
   **NeKI brief:** XcodeGen generates Xcode projects from a declarative YAML or JSON specification. Use it to make targets, build settings, schemes, and dependencies reviewable text, avoiding fragile manual edits to project.pbxproj files.
 - [Looking for an App Center Alternative?](https://bitrise.io/resources/compare/app-center) — iOS Dev Weekly · Issue 672 — Article · Topics: App Distribution & Store Operations · Developer Career & Practice · Testing
@@ -491,7 +494,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [silicon](https://arun.is/blog/apple-mirage) — iOS Dev Weekly · Issue 631 — Article · Topics: Apple Platform Ecosystem · Developer Career & Practice · Swift
   **Published:** `13th October 2023`
   **NeKI brief:** Examines A short photoessay about my visit to a new permanent art installation at Apple Park. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
-- [FileKit](https://github.com/nvzqz/FileKit) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit - iOS Dev Tools — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
+- [FileKit](https://github.com/nvzqz/FileKit) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit — Source repository · Topics: Developer Career & Practice · Developer Tools · Swift
   **Published:** `2023-10-12T15:37:25.698Z`
   **NeKI brief:** FileKit wraps Foundation file-system operations in expressive Swift types for paths, directories, and files. Use it for concise tooling or macOS utility code, while checking its maintenance and platform assumptions before making it a core dependency.
 - [Singularity achieved](https://www.monkeyuser.com/2023/deprecated) — iOS Dev Weekly · Issue 628 — Article · Topics: Developer Career & Practice

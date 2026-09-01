@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Rendering, GPU work, image/audio/video processing, computer vision, and game-development techniques.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **877**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **878**
 
 ## Direct-source reading
 
@@ -440,6 +440,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [JoltPhysics](https://github.com/EvgenijLutz/JoltPhysics) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Provides a Swift-facing package around the Jolt C++ physics engine for real-time simulation. Assess native dependency, determinism, and supported-platform trade-offs before making it an app dependency.
 - [Reely](https://getreely.co/) — iOS Dev Tools · iOS Dev Tools: Appllama, KSCrash, Reely — Article · Topics: AI Development · Graphics, Media & Games
   **Published:** `2026-08-20T16:31:57.620Z`
   **NeKI brief:** Produces app-launch and promotional video from a screenshot, screen recording, or prompt, avoiding a separate capture and editing session. Use it to evaluate agent-assisted marketing asset generation and its visual-review requirements.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple Intelligence, Foundation Models, ML, generative-AI workflows, and developer tooling.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **414**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **416**
 
 ## Direct-source reading
 
@@ -264,12 +264,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [agentic skill](https://youtu.be/rAvlt9Dvgbo?si=SUHzOy3YLZ3m-N-j&t=855) — iOS Dev Weekly · Issue 765 — Video · Topics: AI Development · Xcode
+  **Published:** `28th August 2026`
+  **NeKI brief:** Links to a video segment about Apple-platform agentic skills. Treat it as a discovery lead and verify tool behaviour against current primary documentation.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — iOS Dev Weekly · Issue 765 — Article · Topics: AI Development · Xcode
+  **Published:** `28th August 2026`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
 - [Running iOS Background Tasks Reliably, Part 1](https://calcopilot.app/blog/posts/running-ios-background-tasks-reliably-part1) — Those Who Swift · Issue 281 — Article · Topics: AI Development · App Services & Extensions · Personal Essays
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Documents lessons learned while pursuing reliable iOS background-task execution in iOS 26. The article focuses on the practical reliability gap between scheduling background work and getting it to run consistently, which is useful when designing refresh and deferred-processing workflows.
-- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — SwiftLee Weekly · Issue 337 — Article · Topics: AI Development · Testing · Xcode
-  **Published:** `2026-08-18T14:06:21.000Z`
-  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
 - [Headless Xcode: From Prompt to Simulator with MCP](https://l.fatbobman.com/w0149-01) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: AI Development · Xcode
   **Published:** `2026-08-17T12:03:38.576Z`
   **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
@@ -378,10 +381,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Michael Tsai](https://mjtsai.com/blog/2026/06/03/wwdc-2026-wish-lists) — iOS Dev Weekly · Issue 753 — Article · Topics: AI Development · Apple Platform Ecosystem · Developer Community & Business
   **Published:** `5th June 2026`
   **NeKI brief:** Examines Michael Tsai - Blog - WWDC 2026 Wish Lists. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
-- [Tokens4Breakfast](https://www.tokens4breakfast.app/) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Article · Topics: AI Development · App Distribution & Store Operations · Swift
+- [Tokens4Breakfast](https://www.tokens4breakfast.app/) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Article · Topics: AI Development · App Distribution & Store Operations · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Tokens4Breakfast presents a developer or AI-oriented product workflow. Follow it for concrete token or usage-management behavior, while verifying service integrations, limits, and privacy before adoption.
-- [Vibedock](https://vibedock.dev/) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Article · Topics: AI Development · Swift
+- [Vibedock](https://vibedock.dev/) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Article · Topics: AI Development · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Vibedock is a developer-oriented product for organizing AI-assisted coding workflows. Use it as a discovery lead when comparing agent workspaces, and verify supported providers, project isolation, and data-handling policies before relying on it.
 - [Enter Sandman Mode: Three Months Inside Xcode 26.3’s Agentic Coding](https://medium.com/@wesleymatlock/enter-sandman-mode-three-months-inside-xcode-26-3s-agentic-coding-cbe67ce46df9) — Those Who Swift · Issue 269 — Article · Topics: AI Development · Concurrency · Xcode
@@ -1038,6 +1041,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Machine Learning for everyone](http://machinethink.net/blog/ios-11-machine-learning-for-everyone) — iOS Dev Weekly · Issue 305 — Article · Topics: AI Development · Graphics, Media & Games
   **Published:** `16th June 2017`
   **NeKI brief:** Explores Machine Learning for everyone in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [iOSDevUK](https://go.peterfriese.dev/iosdevuk-2026-issue-103?s=web&t=ext) — Not only Swift · Issue 103 — Tutorial · Topics: AI Development · Developer Community & Business · Swift
+  **NeKI brief:** Routes to the iOSDevUK conference and workshop programme. Treat it as community-event discovery rather than technical implementation guidance.
 - [Headless Xcode: From Prompt to Simulator with MCP](https://go.peterfriese.dev/ai-headless-xcode-from-prompt-to-simulator-with-mcp?s=web&t=ext) — Not only Swift · Issue 102 — Article · Topics: AI Development · Xcode
   **NeKI brief:** Shows how Xcode 27’s headless MCP server can be enabled, registered per project, and combined with exported Xcode skills. The walkthrough creates files, builds, renders SwiftUI previews, and verifies simulator interaction while retaining per-agent permission approval.
 - [XcodeBuildMCP](https://go.peterfriese.dev/xcodebuildmcp?s=web&t=ext) — Not only Swift · Issue 102 — Article · Topics: AI Development · Xcode

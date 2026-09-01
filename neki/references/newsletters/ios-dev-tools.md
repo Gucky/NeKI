@@ -3,8 +3,42 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevtools.substack.com/archive](https://iosdevtools.substack.com/archive)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **165**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed entries: **166**
+
+## [iOS Dev Tools: JoltPhysics, asc-cli, Xtend](https://iosdevtools.substack.com/p/ios-dev-tools-joltphysics-asc-cli)
+
+- Published: `2026-08-27T20:30:45.555Z`
+
+**Topics:** App Distribution & Store Operations · Developer Tools · Graphics, Media & Games · macOS & AppKit · Swift · Testing
+
+**Sections:** JoltPhysics · asc-cli · Xtend
+
+**NeKI brief:** Curates a Swift wrapper for a physics engine, an App Store Connect CLI, and a mobile Mac-development companion. Use it as a tool-discovery round-up, then assess each tool's security, maturity, and project fit.
+
+**Selected links:**
+- [asc-cli](https://github.com/tddworks/asc-cli) — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
+  **NeKI brief:** Provides a command-line interface for App Store Connect workflows such as builds, TestFlight, releases, subscriptions, and screenshots. Treat its structured output as an automation integration point while protecting credentials and release authority.
+- [AIUsage](https://github.com/sylearn/AIUsage) — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
+  **NeKI brief:** Provides a dashboard for tracking AI subscriptions, quotas, and costs. Evaluate credential handling and data exposure before connecting personal or team accounts.
+- [Xtend](https://getxtend.com/) — Article · Topics: Developer Tools · Xcode
+  **NeKI brief:** Presents a mobile companion for accessing a Mac development environment, including remote Simulator and build workflows. Evaluate latency, security, and device-control boundaries before relying on it for development work.
+- [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) — Source repository · Topics: AI Development · Developer Tools
+  **NeKI brief:** Provides a reusable agent skill intended to spot and revise AI-like writing patterns. Use it as a style-review aid while keeping human editorial judgement in control.
+- [Capsomnia](https://capsomnia.com/) — Article · Topics: AI Development · Personal Essays
+  **NeKI brief:** Presents a macOS utility that prevents sleep when the laptop lid is closed. Consider power, thermal, and security implications before using it to keep development processes running.
+- [JoltPhysics](https://github.com/EvgenijLutz/JoltPhysics) — Source repository · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **NeKI brief:** Provides a Swift-facing package around the Jolt C++ physics engine for real-time simulation. Assess native dependency, determinism, and supported-platform trade-offs before making it an app dependency.
+- [LogoCreator](https://github.com/Nutlope/logocreator) — Source repository · Topics: AI Development · Developer Tools
+  **NeKI brief:** Provides an open-source AI logo-generation project. Treat generated branding as a draft that still needs originality, trademark, accessibility, and product-review checks.
+- [code.talks](https://codetalks.com/) — Article
+  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
+- [Hotspot Meter](https://hotspot-meter.loam.sk/) — Article · Topics: macOS & AppKit
+  **NeKI brief:** Presents a macOS menu-bar utility for tracking Wi-Fi and hotspot usage. It is a product-discovery lead rather than networking API guidance.
+- [HealthyNotch](https://healthynotch.com/) — Article
+  **NeKI brief:** Presents a macOS notch utility for wellness reminders. It is a product-discovery lead rather than a technical implementation source.
+- [Islet](https://getislet.com/) — Article
+  **NeKI brief:** Presents a macOS Dynamic-Island-style utility with media and system HUD interactions. It is product-design inspiration, not an Apple UI contract.
 
 ## [iOS Dev Tools: Appllama, KSCrash, Reely](https://iosdevtools.substack.com/p/ios-dev-tools-appllama-kscrash-reely)
 
@@ -98,7 +132,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Keepresso](https://keepresso.com/) — Article · Topics: AI Development
   **NeKI brief:** Keeps macOS awake through timed sessions, process and network triggers, closed-display operation and automation leases, including an MCP interface for long-running agent jobs.
 
-## [iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools](https://iosdevtools.substack.com/p/ios-dev-tools-mistkit-swift-scribe)
+## [iOS Dev Tools: MistKit, Swift Scribe, cmux](https://iosdevtools.substack.com/p/ios-dev-tools-mistkit-swift-scribe)
 
 - Published: `2026-07-16T16:45:11.086Z`
 
@@ -276,7 +310,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Swift Rockies](https://swiftrockies.com/) — Article · Topics: Swift
   **NeKI brief:** Swift Rockies is an Apple-platform developer conference page. It is event promotion rather than technical reading and should normally be excluded from the knowledge index.
 
-## [iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools](https://iosdevtools.substack.com/p/ios-dev-tools-simtime-sparkle-2-swiftini)
+## [iOS Dev Tools: Simtime, Sparkle 2, SwiftINI](https://iosdevtools.substack.com/p/ios-dev-tools-simtime-sparkle-2-swiftini)
 
 - Published: `2026-06-04T17:01:58.905Z`
 
@@ -2006,7 +2040,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Swift Heroes](https://swiftheroes.com/2025) — Article · Topics: Swift
   **NeKI brief:** Swift Heroes 2025 is a conference resource for Swift developers. Use its talks and programme to discover community approaches to language, frameworks, architecture, and tooling.
 
-## [iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools](https://iosdevtools.substack.com/p/ios-dev-tools-starview-mint-giffy)
+## [iOS Dev Tools: Starview, Mint, Giffy](https://iosdevtools.substack.com/p/ios-dev-tools-starview-mint-giffy)
 
 - Published: `2025-02-13T18:15:48.650Z`
 
@@ -2480,7 +2514,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [PragmaConf](https://pragmaconference.com/) — Article · Topics: Developer Community & Business
   **NeKI brief:** Provides the Pragmaconference event hub for talks and community sessions about Apple development. Use it to discover practitioner perspectives and verify session details before relying on a conference presentation.
 
-## [iOS Dev Tools: Retcon, Jack, ImpressKit - iOS Dev Tools](https://iosdevtools.substack.com/p/ios-dev-tools-retcon-jack-impresskit)
+## [iOS Dev Tools: Retcon, Jack, ImpressKit](https://iosdevtools.substack.com/p/ios-dev-tools-retcon-jack-impresskit)
 
 - Published: `2024-09-12T15:24:58.073Z`
 
@@ -2560,7 +2594,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [PR Focus](https://prfocus.app/) — Article · Topics: Developer Tools
   **NeKI brief:** PR Focus provides a workflow for monitoring or organizing pull requests. Follow it for concrete review-status and notification behavior, while checking provider integrations and permission scope.
 
-## [iOS Dev Tools: Nuke, dataFude, XcodeGen - iOS Dev Tools](https://iosdevtools.substack.com/p/ios-dev-tools-nuke-datafude-xcodegen)
+## [iOS Dev Tools: Nuke, dataFude, XcodeGen](https://iosdevtools.substack.com/p/ios-dev-tools-nuke-datafude-xcodegen)
 
 - Published: `2024-08-15T18:31:01.455Z`
 
@@ -2926,7 +2960,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Ducky Model Editor](https://apps.apple.com/us/app/ducky-model-editor/id1525505933) — Article
   **NeKI brief:** Ducky infers JSON Schema and model types for Swift Codable, Kotlin, Dart, Go, and Protocol Buffers, with customization options. Follow it for a concrete model-generation workflow from example payloads.
 
-## [iOS Dev Tools: Skip, AppLayouts, Firefoo - iOS Dev Tools](https://iosdevtools.substack.com/p/ios-dev-tools-skip-applayouts-firefoo)
+## [iOS Dev Tools: Skip, AppLayouts, Firefoo](https://iosdevtools.substack.com/p/ios-dev-tools-skip-applayouts-firefoo)
 
 - Published: `2024-03-21T14:02:34.735Z`
 
@@ -3156,7 +3190,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Mackup](https://github.com/lra/mackup) — Source repository · Topics: Developer Tools
   **NeKI brief:** Mackup backs up and restores application configuration files across machines. Follow its source for concrete file-selection, synchronization, and restore behavior, while reviewing conflict and privacy implications before use.
 
-## [🔨 Quicktype, RapidAPI, Kintsugi - iOS Dev Tools](https://iosdevtools.substack.com/p/quicktype-rapidapi-kintsugi)
+## [🔨 Quicktype, RapidAPI, Kintsugi](https://iosdevtools.substack.com/p/quicktype-rapidapi-kintsugi)
 
 - Published: `2023-12-28T14:58:37.485Z`
 
@@ -3228,7 +3262,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Senior iOS Developer at Zendesk](https://jobs.zendesk.com/us/en/job/ZENDUSR25055EXTERNALENUS/Senior-iOS-Developer-Mobile-Apps-SDKs) — Article
   **NeKI brief:** This Zendesk listing describes a senior iOS developer role involving mobile apps and SDKs. It is recruitment material rather than technical reading and should normally remain excluded from the knowledge index.
 
-## [🔨 Codye, DisplayBuddy, Backup Status - iOS Dev Tools](https://iosdevtools.substack.com/p/codye-displaybuddy-backup-status)
+## [🔨 Codye, DisplayBuddy, Backup Status](https://iosdevtools.substack.com/p/codye-displaybuddy-backup-status)
 
 - Published: `2023-12-07T16:16:37.261Z`
 
@@ -3334,7 +3368,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Bitrise](https://bitrise.io/learn/modas-health-check) — Article
   **NeKI brief:** Examines Take the 6-question Health Check in the context of Code Quality and Developer Community & Business. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 
-## [🔨 RocketSim, SwiftMessages, Dash - iOS Dev Tools](https://iosdevtools.substack.com/p/rocketsim-swiftmessages-dash)
+## [🔨 RocketSim, SwiftMessages, Dash](https://iosdevtools.substack.com/p/rocketsim-swiftmessages-dash)
 
 - Published: `2023-11-02T14:15:02.032Z`
 
@@ -3392,7 +3426,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Bezel](https://getbezel.app/) — Article
   **NeKI brief:** Bezel mirrors an iPhone or iPad screen onto a Mac with a device-frame presentation. Follow it for a concrete device-preview and demonstration workflow during UI review or recording.
 
-## [🔨 Introducing Trace, Boop, FileKit - iOS Dev Tools](https://iosdevtools.substack.com/p/introducing-trace-boop-filekit)
+## [🔨 Introducing Trace, Boop, FileKit](https://iosdevtools.substack.com/p/introducing-trace-boop-filekit)
 
 - Published: `2023-10-12T15:37:25.698Z`
 
@@ -3572,7 +3606,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Technical Lead at HLCTech](https://www.hcltech.com/jobs/technical-lead-29) — Article · Topics: Testing
   **NeKI brief:** This HCLTech page advertises a technical-lead job opportunity. It is recruitment material rather than technical reading and should normally be excluded from the knowledge index.
 
-## [Introducing CodeScanner, Mapbox, Alamofire](https://iosdevtools.substack.com/p/mapbox-alamofire-rncrypto)
+## [🔨 Introducing Mapbox, Alamofire, RNCrypto](https://iosdevtools.substack.com/p/mapbox-alamofire-rncrypto)
 
 - Published: `2023-08-03T12:40:06.374Z`
 
@@ -3688,7 +3722,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Introspect for SwiftUI - Unleashing the Power of UIKit and AppKit in SwiftUI](https://github.com/intitni/CopilotForXcode) — Source repository · Topics: Swift · SwiftUI · UIKit
   **NeKI brief:** Describes Copilot for Xcode, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
 
-## [🔨 Xcode Mastery & Updated Strategy? - iOS Dev Tools](https://iosdevtools.substack.com/p/master-xcode-harness-swift-dependency)
+## [🔨 Xcode Mastery & Updated Strategy?](https://iosdevtools.substack.com/p/master-xcode-harness-swift-dependency)
 
 - Published: `2023-06-01T12:01:55.488Z`
 

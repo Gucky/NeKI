@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Dependency injection, test seams, service composition, and dependency management.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **191**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **192**
 
 ## Direct-source reading
 
@@ -372,7 +372,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift Testing Challenge: Can You Refactor This?](https://www.mobiledevdiary.com/posts/swift-testing-challange-can-you-refactor-this) — Those Who Swift · Issue 211 — Article · Topics: Concurrency · Swift · Testing
   **Published:** `2025-04-24`
   **NeKI brief:** Examines Swift Testing Challenge: Can You Refactor This?, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
-- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Source repository · Topics: Architecture · Composable Architecture · Swift
+- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Architecture · Composable Architecture · Swift
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Giffy is a sample iOS application that combines SwiftUI, The Composable Architecture, and Swinject-based dependency injection. Use it to inspect how those architectural pieces are wired together in a small, runnable project.
 - [Debugging An Undebuggable App](https://bryce.co/undebuggable) — SwiftLee Weekly · Issue 256 — Article · Topics: Dependency Injection · Developer Tools
@@ -429,7 +429,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [on Youtube](https://www.youtube.com/playlist?list=PLbKJc0NMPDrB29Ir8q8ABVOyJJZzkUwEN&ref=ioscodereview.com) — iOS Code Review · Issue 51 — Video · Topics: Dependency Injection
   **Published:** `2023-06-22T13:14:57.000Z`
   **NeKI brief:** Records on Youtube as a visual walkthrough relevant to Dependency Injection. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
-- [Featuring XcodeGen, Factory, & Swinject](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? - iOS Dev Tools — Source repository · Topics: Concurrency · Swift · Xcode
+- [Featuring XcodeGen, Factory, & Swinject](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? — Source repository · Topics: Concurrency · Swift · Xcode
   **Published:** `2023-06-01T12:01:55.488Z`
   **NeKI brief:** XcodeGen generates Xcode projects from a declarative YAML or JSON specification. Use it to make targets, build settings, schemes, and dependencies reviewable text, avoiding fragile manual edits to project.pbxproj files.
 - [On the new Point-Free swift-dependencies library](https://alejandromp.com/blog/on-the-new-pointfree-swift-dependencies) — iOS Dev Weekly · Issue 592 — Article · Topics: Dependency Injection · Swift
@@ -564,6 +564,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Dependency Graph Tool for iOS Projects](http://jomnius.blogspot.com/2012/01/dependency-graph-tool-for-ios-projects.html) — iOS Dev Weekly · Issue 24 — Article · Topics: Cross-Platform & Web · Dependency Injection · Objective-C & Cocoa
   **Published:** `13th January 2012`
   **NeKI brief:** Examines Jouni Miettunen has been playing with (and fixing) with a visualisation tool for Objective-C project dependencies. I haven’t had a chance to play with it yet but it looks like fun. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [SwiftUI data dependencies and their effect on view updates](https://go.peterfriese.dev/swiftui-data-dependencies-and-their-effect-on-view-updates?s=web&t=ext) — Not only Swift · Issue 103 — Article · Topics: Dependency Injection · Swift · SwiftUI
+  **NeKI brief:** Explains how SwiftUI view updates follow the data read during body evaluation, helping distinguish a genuine dependency from unrelated model changes. Use it when reducing unnecessary invalidation or making data flow explicit.
 - [Using Model Context Protocol in iOS apps](https://www.artemnovichkov.com/blog/using-model-context-protocol-in-ios-apps) — Not only Swift · Issue 81 — Article · Topics: AI Development · Architecture · Dependency Injection
   **NeKI brief:** Artem continues exploring the Model Context Protocol (MCP) to facilitate interaction between AI models and external tools or data sources, this time showing how to access HealthKit data through the Claude API.
 - [Resolver](https://github.com/hmlongco/Resolver) — Not only Swift · Issue 77 — Source repository · Topics: Architecture · Swift · SwiftUI

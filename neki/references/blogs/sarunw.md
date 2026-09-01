@@ -3,9 +3,17 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://sarunw.com/posts/](https://sarunw.com/posts/)
-- Last collected: `2026-08-27T13:26:05Z`
-- Indexed entries: **450**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed entries: **452**
 
+- [How to set a default value in Swift string interpolation | Sarunw](https://sarunw.com/posts/default-value-in-string-interpolation)
+  **Published:** `2026-08-29`
+  **Topics:** Swift
+  **NeKI brief:** Explains SE-0477's default interpolation argument for optional values, including generic optionals, lazy fallback evaluation, and back-deployment. It is useful for readable user-facing fallback text without manually unwrapping each value.
+- [How to use raw identifiers in Swift | Sarunw](https://sarunw.com/posts/how-to-use-raw-identifiers-in-swift)
+  **Published:** `2026-08-28`
+  **Topics:** Swift
+  **NeKI brief:** Explains Swift 6.2 raw identifiers, which use backticks to retain a keyword or otherwise conflicting external name. Use it when interoperation or generated APIs require an exact identifier while keeping call sites explicit.
 - [Private properties no longer break the memberwise initializer in Swift 6.4 | Sarunw](https://sarunw.com/posts/exclude-private-properties-from-memberwise-initializer)
   **Published:** `2026-08-27`
   **Topics:** Macros & Metaprogramming · Swift

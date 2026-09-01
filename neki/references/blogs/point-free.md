@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.pointfree.co/blog](https://www.pointfree.co/blog)
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed entries: **157**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed entries: **158**
 
+- [Beta Preview: LazyState](https://www.pointfree.co/blog/posts/223-beta-preview-lazystate)
+  **Published:** `2026-08-31T00:00:00Z`
+  **Topics:** Macros & Metaprogramming · Observation & State Management · Swift · SwiftUI
+  **NeKI brief:** Previews the LazyState macro for lazily creating stateful reference values from parent inputs once per view identity. It replaces optional-state and onAppear workarounds, but is a beta, member-only API rather than a platform contract.
 - [Announcing: Episode Search](https://www.pointfree.co/blog/posts/222-announcing-episode-search)
   **Published:** `2026-08-18T00:00:00Z`
   **Topics:** Developer Community & Business

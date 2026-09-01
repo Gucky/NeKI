@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** URLSession, HTTP, GraphQL, WebSockets, API clients, and network reliability.
 
-- Last collected: `2026-08-27T19:22:09Z`
+- Last collected: `2026-09-01T10:14:10Z`
 - Indexed links shown: **279**
 
 ## Direct-source reading
@@ -632,10 +632,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Get](https://github.com/kean/Get) — iOS Dev Tools · iOS Dev Tools: Pow, Maccy, Pulse — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Networking
   **Published:** `2024-04-25T13:41:52.260Z`
   **NeKI brief:** Get provides Swift networking or HTTP abstractions. Follow its source for concrete request, response, and cancellation behavior, then compare its concurrency and error model with the application’s networking layer.
-- [Quicktype](https://quicktype.io/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi - iOS Dev Tools — Article
+- [Quicktype](https://quicktype.io/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi — Article
   **Published:** `2023-12-28T14:58:37.485Z`
   **NeKI brief:** Quicktype converts JSON, schemas, or GraphQL into typed models and serializers for many languages. Use it to bootstrap data-model code from representative payloads, then review naming, optionality, validation, and generated-code ownership before committing it.
-- [RapidAPI](https://paw.cloud/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi - iOS Dev Tools — Article · Topics: Networking · Testing
+- [RapidAPI](https://paw.cloud/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi — Article · Topics: Networking · Testing
   **Published:** `2023-12-28T14:58:37.485Z`
   **NeKI brief:** Paw is a macOS REST client for composing, testing, and documenting HTTP requests. Use it as historical API-workflow context and compare with maintained tooling before adoption.
 - [Introducing Swift HTTP Types](https://www.swift.org/blog/introducing-swift-http-types) — iOS Dev Weekly · Issue 618 — Article · Topics: Networking · Swift

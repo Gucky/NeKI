@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Personal and reflective writing from developer authors that does not make a technical claim.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **226**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **229**
 
 ## Direct-source reading
 
@@ -86,6 +86,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Running iOS Background Tasks Reliably](https://l.fatbobman.com/w0151-02) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Services & Extensions · Personal Essays
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Documents the practical unreliability of iOS background-task scheduling and the value of telemetry from real devices. It helps separate a submitted BGTask request from any assumption that work will run on a fixed schedule.
+- [Capsomnia](https://capsomnia.com/) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Article · Topics: AI Development · Personal Essays
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Presents a macOS utility that prevents sleep when the laptop lid is closed. Consider power, thermal, and security implications before using it to keep development processes running.
 - [Running iOS Background Tasks Reliably, Part 1](https://calcopilot.app/blog/posts/running-ios-background-tasks-reliably-part1) — Those Who Swift · Issue 281 — Article · Topics: AI Development · App Services & Extensions · Personal Essays
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Documents lessons learned while pursuing reliable iOS background-task execution in iOS 26. The article focuses on the practical reliability gap between scheduling background work and getting it to run consistently, which is useful when designing refresh and deferred-processing workflows.
@@ -101,7 +107,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Lidless](https://github.com/nghialuong/Lidless) — iOS Dev Tools · iOS Dev Tools: TourKit, MockingKit, MemoryMap — Source repository · Topics: Developer Tools · macOS & AppKit · Personal Essays
   **Published:** `2026-07-09T16:30:20.398Z`
   **NeKI brief:** Lidless keeps a Mac running with its lid closed, targeting unattended coding-agent workflows from the menu bar. Useful for evaluating laptop clamshell automation while considering thermal, power, and security trade-offs.
-- [Simtime](https://github.com/MobAI-App/simtime) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Personal Essays
+- [Simtime](https://github.com/MobAI-App/simtime) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: AI Development · Developer Tools · Personal Essays
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Simtime changes the wall clock perceived by an already-running iOS Simulator app, supporting freeze, jump, scale, and reset without rebuilding. Useful for deterministic testing of time-dependent UI, caches, and scheduled work.
 - [TongueType](https://tonguetype.app/) — iOS Dev Tools · iOS Dev Tools: GQLSwift, ScreenPlace, BuildWatch — Article · Topics: AI Development · App Distribution & Store Operations · Personal Essays
@@ -209,7 +215,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Master Mobile Monitoring SwiftUI Apps](https://www.datadoghq.com/resources/mobile-monitoring-best-practices-b) — SwiftLee Weekly · Issue 259 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `2025-02-18T15:10:59.000Z`
   **NeKI brief:** Presents Master Mobile Monitoring SwiftUI Apps, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
-- [Mint](https://github.com/yonaskolb/Mint) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [Mint](https://github.com/yonaskolb/Mint) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Mint installs and runs Swift Package Manager command-line tools at project-pinned versions. Use it to make generators, linters, and other developer executables reproducible without committing their binaries or relying on globally installed versions.
 - [🍎 Running Xcode in unsupported macOS versions](https://marcelvoss.com/2025/tricking-xcode-into-running-on-an-unsupported-macos) — iOS CI Newsletter · Issue 61 — Article · Topics: Apple Platform Ecosystem · Personal Essays · Xcode
@@ -644,6 +650,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Parse](http://gigaom.com/2011/08/08/parse) — iOS Dev Weekly · Issue 2 — Article · Topics: Personal Essays
   **Published:** `12th August 2011`
   **NeKI brief:** It may be too early to link to this but if it does what it promises then this could be a neat way of getting a server back end up and running quickly for your iOS apps. The site itself is in private beta at the moment but you can see an interview with the…
+- [iOSDevUK](https://go.peterfriese.dev/iosdevuk-2026-issue-103?s=web&t=ext) — Not only Swift · Issue 103 — Tutorial · Topics: AI Development · Developer Community & Business · Swift
+  **NeKI brief:** Routes to the iOSDevUK conference and workshop programme. Treat it as community-event discovery rather than technical implementation guidance.
 - [How we rebuilt Next.js with AI in one week](https://blog.cloudflare.com/vinext) — Not only Swift · Issue 96 — Article · Topics: AI Development · Personal Essays
   **NeKI brief:** This article covers rebuilding Next.js with AI over a one-week experiment. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
 - [Steve Faulkner](https://blog.cloudflare.com/author/steve-faulkner) — Not only Swift · Issue 96 — Article · Topics: AI Development · Personal Essays

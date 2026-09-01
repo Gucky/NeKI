@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Unit, UI, Swift Testing, XCTest, test design, and test automation.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **1302**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **1307**
 
 ## Direct-source reading
 
@@ -1676,6 +1676,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [anticipated foldable iPhone](https://www.macrumors.com/2026/08/23/apple-foldable-iphone-early-tester-thoughts) — iOS Dev Weekly · Issue 765 — Article · Topics: Testing
+  **Published:** `28th August 2026`
+  **NeKI brief:** Reports early discussion of a foldable iPhone form factor. Use it only as industry context while waiting for Apple hardware specifications and SDK guidance.
+- [asc-cli](https://github.com/tddworks/asc-cli) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Provides a command-line interface for App Store Connect workflows such as builds, TestFlight, releases, subscriptions, and screenshots. Treat its structured output as an automation integration point while protecting credentials and release authority.
 - [🎥 Using an automation to generate promotional assets](https://thosewhoswift.substack.com/p/devs-for-devs-from-xcuitest-to-promo) — iOS CI Newsletter · Issue 92 — Article · Topics: Swift · Testing
   **Published:** `2026-08-23T00:00:00.000Z`
   **NeKI brief:** Treats App Store screenshots and promo videos as reproducible build output: launch exact SwiftUI state, operate capture through XCUITest, compose in Remotion, and verify inputs with manifests and hashes.
@@ -2690,10 +2696,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🥉 A new approach to testing in Swift](https://forums.swift.org/t/a-new-approach-to-testing-in-swift/67425) — iOS CI Newsletter · Issue 32 — Article · Topics: Macros & Metaprogramming · Swift · Testing
   **Published:** `2023-12-31T00:00:00.000Z`
   **NeKI brief:** Examines A new macro-based approach to testing in Swift in the context of Macros & Metaprogramming and Swift. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
-- [Online tool](https://app.quicktype.io/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi - iOS Dev Tools — Article · Topics: Testing
+- [Online tool](https://app.quicktype.io/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi — Article · Topics: Testing
   **Published:** `2023-12-28T14:58:37.485Z`
   **NeKI brief:** Quicktype's web application provides quick model-generation experiments, while its CLI supports generation inside projects. Use it for a fast first pass over JSON payloads, then reproduce and review the result through a pinned local workflow.
-- [RapidAPI](https://paw.cloud/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi - iOS Dev Tools — Article · Topics: Networking · Testing
+- [RapidAPI](https://paw.cloud/) — iOS Dev Tools · 🔨 Quicktype, RapidAPI, Kintsugi — Article · Topics: Networking · Testing
   **Published:** `2023-12-28T14:58:37.485Z`
   **NeKI brief:** Paw is a macOS REST client for composing, testing, and documenting HTTP requests. Use it as historical API-workflow context and compare with maintained tooling before adoption.
 - [Bushel](https://getbushel.app/) — iOS Dev Tools · 🔨 Wins, Bushel, Warp — Article · Topics: Testing
@@ -2753,7 +2759,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Introducing Insights](https://revealapp.com/news/introducing-insights-and-new-pricing) — iOS Dev Weekly · Issue 632 — Article · Topics: Accessibility · Testing
   **Published:** `20th October 2023`
   **NeKI brief:** Reveal has some big news for their app and a significant step forward for proactive accessibility testing. I think the key point from their announcement is this:
-- [Senior iOS Developer at Xgrid](https://www.xgrid.co/open-positions?jobId=WrsuE00eyuJ8) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit - iOS Dev Tools — Article · Topics: Testing
+- [Senior iOS Developer at Xgrid](https://www.xgrid.co/open-positions?jobId=WrsuE00eyuJ8) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit — Article · Topics: Testing
   **Published:** `2023-10-12T15:37:25.698Z`
   **NeKI brief:** This Xgrid careers link advertises a specific open position. Use it as a hiring lead, verifying the role, location, contract, technology expectations, and current availability directly through Xgrid’s official recruitment process.
 - [Demystifying AttributeGraph Behind SwiftUI](https://kyleye.top/posts/demystify-attributegraph-1) — Fatbobman’s Swift Weekly · Issue 1 — Article · Topics: Concurrency · Swift · SwiftUI
@@ -3866,6 +3872,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iOS Integration Testing](http://corner.squareup.com/2011/07/ios-integration-testing.html) — iOS Dev Weekly · Issue 1 — Article · Topics: Cross-Platform & Web · Testing
   **Published:** `5th August 2011`
   **NeKI brief:** Explains iOS Integration Testing, focusing on the concrete UIKit or iOS implementation technique and the trade-offs relevant to production apps.
+- [DeviceCheck and App Attest: Stopping Fraud in iOS Apps](https://go.peterfriese.dev/firebase-devicecheck-and-app-attest-stopping-fraud?s=web&t=ext) — Not only Swift · Issue 103 — Tutorial · Topics: Testing
+  **NeKI brief:** Compares DeviceCheck and App Attest as server-verified signals for mitigating abuse in an iOS app. Use it to frame the client, backend, and risk-model boundaries before treating either mechanism as a complete fraud solution.
+- [Arsh](https://dev.to/arshtechpro) — Not only Swift · Issue 103 — Tutorial · Topics: Testing
+  **NeKI brief:** Identifies the author profile linked from the newsletter rather than a specific technical article. It is attribution and not a standalone implementation source.
+- [Why Normal People Aren’t Using AI Agents](https://go.peterfriese.dev/ai-why-normal-people-arent-using-ai-agents?s=web&t=ext) — Not only Swift · Issue 103 — Article · Topics: AI Development · Testing
+  **NeKI brief:** Discusses why AI-agent products can remain hard for ordinary users to adopt. Use it as product-design context, not as evidence for a particular agent capability.
 - [SwiftUI's ContentBuilder explained](https://go.peterfriese.dev/swiftui-contentbuilder-explained?s=web&t=ext) — Not only Swift · Issue 101 — Article · Topics: AI Development · Swift · SwiftUI
   **NeKI brief:** Explains how SwiftUI’s ContentBuilder separates result construction from validation through conditional-conformance structure, reducing type-checking work. Benchmarks connect this compiler design to practical builder performance, making it useful when diagnosing complex conditional SwiftUI content.
 - [How Generative and Agentic AI shift concern from technical debt to cognitive debt](http://margaretstorey.com/blog/2026/02/09/cognitive-debt) — Not only Swift · Issue 96 — Article · Topics: AI Development · Testing

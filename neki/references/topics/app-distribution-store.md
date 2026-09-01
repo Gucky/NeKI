@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Store delivery, TestFlight, StoreKit commerce, signing, review, releases, and monetisation workflows.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **612**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **615**
 
 ## Direct-source reading
 
@@ -148,6 +148,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Mac App Direct Distribution, DMG Signing & Notarization Guide](https://l.fatbobman.com/w0151-05) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Distribution & Store Operations
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Walks through direct macOS distribution with Developer ID signing, DMG creation, notarization, stapling, and Gatekeeper validation. Use it as a release-process checklist while verifying current Apple requirements.
+- [asc-cli](https://github.com/tddworks/asc-cli) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Provides a command-line interface for App Store Connect workflows such as builds, TestFlight, releases, subscriptions, and screenshots. Treat its structured output as an automation integration point while protecting credentials and release authority.
+- [AIUsage](https://github.com/sylearn/AIUsage) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: AI Development · App Distribution & Store Operations · Developer Tools
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Provides a dashboard for tracking AI subscriptions, quotas, and costs. Evaluate credential handling and data exposure before connecting personal or team accounts.
 - [More Incredible Tales of App Store Curation](https://lapcatsoftware.com/articles/2026/8/9.html) — Those Who Swift · Issue 281 — Article · Topics: App Distribution & Store Operations · Cross-Platform & Web
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Examines Apple App Store curation through concrete examples of review and editorial treatment. It provides product and distribution context for developers whose release strategy depends on App Store visibility, rather than describing an implementation technique.
@@ -202,7 +211,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [❓ WWDC26: App Store Connect Group Lab](https://www.youtube.com/watch?v=QPWPgSjg9Kc) — iOS CI Newsletter · Issue 89 — Video · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
   **Published:** `2026-06-17T00:00:00.000Z`
   **NeKI brief:** Records WWDC26: App Store Connect Group Lab as a visual walkthrough relevant to App Distribution & Store Operations and Apple Platform Ecosystem. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
-- [Tokens4Breakfast](https://www.tokens4breakfast.app/) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Article · Topics: AI Development · App Distribution & Store Operations · Swift
+- [Tokens4Breakfast](https://www.tokens4breakfast.app/) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Article · Topics: AI Development · App Distribution & Store Operations · Swift
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** Tokens4Breakfast presents a developer or AI-oriented product workflow. Follow it for concrete token or usage-management behavior, while verifying service integrations, limits, and privacy before adoption.
 - [TongueType](https://tonguetype.app/) — iOS Dev Tools · iOS Dev Tools: GQLSwift, ScreenPlace, BuildWatch — Article · Topics: AI Development · App Distribution & Store Operations · Personal Essays
@@ -493,7 +502,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [this](https://www.gamedeveloper.com/business/steam-suddenly-banned-in-vietnam) — iOS Dev Weekly · Issue 699 — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games
   **Published:** `14th February 2025`
   **NeKI brief:** Examines Valve. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
-- [Starview](https://indiegoodies.com/starview) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Article · Topics: App Distribution & Store Operations · Objective-C & Cocoa
+- [Starview](https://indiegoodies.com/starview) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Article · Topics: App Distribution & Store Operations · Objective-C & Cocoa
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Starview is a developer-oriented utility or product page. Follow it for the concrete workflow it presents, while verifying supported platforms, implementation details, and maintenance before treating it as technical reading.
 - [this great conference talk from GodotCon](https://youtu.be/irVRaTj0SGU) — iOS Dev Weekly · Issue 697 — Video · Topics: Developer Community & Business · Graphics, Media & Games · Testing

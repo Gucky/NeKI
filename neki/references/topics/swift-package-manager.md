@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift packages, manifests, plugins, dependency resolution, and package distribution.
 
-- Last collected: `2026-08-27T19:22:09Z`
+- Last collected: `2026-09-01T10:14:10Z`
 - Indexed links shown: **317**
 
 ## Direct-source reading
@@ -322,7 +322,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Foundation Models Utilities](https://livsycode.com/swift/foundation-models-utilities?ref=createwithswift.com) — Create with Swift · Issue 117 — Article · Topics: AI Development · Swift · Swift Package Manager
   **Published:** `2026-07-24T15:00:34.000Z`
   **NeKI brief:** Surveys Apple's experimental Foundation Models Utilities package: hosted Chat Completions models, transcript dropping, rolling windows, summarisation, and runtime-loaded skills. It also makes the context-loss and platform-version trade-offs explicit before these patterns stabilise.
-- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [MistKit](https://github.com/brightdigit/MistKit) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** MistKit packages CloudKit Web Services access for server-side Swift and command-line tools, separating backend automation from Apple's client frameworks. Useful when a service needs CloudKit data without running inside an iOS app.
 - [TourKit](https://github.com/rampatra/TourKit) — iOS Dev Tools · iOS Dev Tools: TourKit, MockingKit, MemoryMap — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
@@ -340,7 +340,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [MLX Swift LM](https://github.com/ml-explore/mlx-swift-lm) — iOS Dev Tools · iOS Dev Tools: Promptberry, SolidLikeARock, MLX Swift LM — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-06-11T16:01:47.008Z`
   **NeKI brief:** MLX Swift LM provides Swift APIs for running machine-learning language models on Apple platforms. Follow its source for concrete model loading and inference workflows, while checking memory, hardware, and model-format requirements.
-- [SwiftINI](https://github.com/jaywcjlove/SwiftINI) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [SwiftINI](https://github.com/jaywcjlove/SwiftINI) — iOS Dev Tools · iOS Dev Tools: Simtime, Sparkle 2, SwiftINI — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-06-04T17:01:58.905Z`
   **NeKI brief:** SwiftINI parses and serializes INI configuration files in Swift, providing a small format-specific layer instead of treating configuration as untyped text. Useful for command-line tools or legacy settings that need round-tripping.
 - [GQLSwift](https://github.com/BaherTamer/GQLSwift) — iOS Dev Tools · iOS Dev Tools: GQLSwift, ScreenPlace, BuildWatch — Source repository · Topics: Developer Tools · Swift
@@ -535,7 +535,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Simple Modularization Setup for a New App](https://www.manu.show/2025-02-27-simple-modularization-setup) — Those Who Swift · Issue 204 — Article · Topics: Architecture · Swift · Swift Package Manager
   **Published:** `2025-03-05`
   **NeKI brief:** Examines Simple Modularization Setup for a New App, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.
-- [Mint](https://github.com/yonaskolb/Mint) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+- [Mint](https://github.com/yonaskolb/Mint) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Mint installs and runs Swift Package Manager command-line tools at project-pinned versions. Use it to make generators, linters, and other developer executables reproducible without committing their binaries or relying on globally installed versions.
 - [VS Code extension for Swift update](https://www.swift.org/blog/vscode-swift-2) — Those Who Swift · Issue 201 — Article · Topics: Developer Tools · Swift · Swift Package Manager

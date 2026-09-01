@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** WWDC and platform announcements, Apple ecosystem context, compatibility history, and release-overview reading.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **652**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **653**
 
 ## Direct-source reading
 
@@ -739,6 +739,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Sarunw’s How-to Series Returns](https://l.fatbobman.com/w0151-07) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Apple Platform Ecosystem
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Notes Sarunw's return to publishing practical Apple-platform articles. It is source-news context rather than an implementation guide.
 - [Amethyst Vein: An Open-Source, Cross-Platform Local Persistence Framework with SwiftData-Style APIs](https://l.fatbobman.com/w0150-6) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Cross-Platform & Web · Swift · SwiftData
   **Published:** `2026-08-24T12:03:48.210Z`
   **NeKI brief:** Presents Vein, an open-source local-first ORM with SwiftData-like macros, model containers, queries, migrations, and a SQLite/SQLCipher backend across Apple platforms, Linux, Android, and Windows. Use it to assess a shared Swift persistence layer rather than assuming SwiftData portability.

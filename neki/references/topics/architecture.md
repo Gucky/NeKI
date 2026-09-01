@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Application boundaries, modularity, state ownership, dependency direction, and design trade-offs.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **360**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **361**
 
 ## Direct-source reading
 
@@ -618,6 +618,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Xcode Tools Documentation](https://github.com/artemnovichkov/xcode-tools-docs) — iOS Dev Weekly · Issue 765 — Source repository · Topics: Architecture · Developer Tools · Xcode
+  **Published:** `28th August 2026`
+  **NeKI brief:** Collects missing or hard-to-find Xcode command-line and tool documentation in an inspectable repository, useful for discovering a workflow before validating it against Apple’s current documentation.
 - [Preventing Transitive Swift Imports with Bazel](https://adincebic.com/2026/08/23/preventing-transitive-swift-imports-with.html) — Those Who Swift · Issue 281 — Article · Topics: Architecture · Cross-Platform & Web · Swift
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Explains how permissive transitive Swift imports let a module use dependencies it did not declare directly, and presents Bazel-oriented ways to prevent that leakage. Explicit dependency ownership improves build reasoning and reduces accidental coupling between modules.
@@ -804,7 +807,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Hex](https://github.com/kitlangton/Hex) — iOS Dev Tools · iOS Dev Tools: PrettyPrintedJSON, LinksKit, Hex — Source repository · Topics: Architecture · Composable Architecture · Developer Tools
   **Published:** `2025-02-27T16:23:55.746Z`
   **NeKI brief:** Hex provides Swift utilities or UI for hexadecimal data and representation. Follow its source for concrete conversion and formatting behavior, while checking byte-order, validation, and platform integration details.
-- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy - iOS Dev Tools — Source repository · Topics: Architecture · Composable Architecture · Swift
+- [Giffy](https://github.com/uwaisalqadri/Giffy) — iOS Dev Tools · iOS Dev Tools: Starview, Mint, Giffy — Source repository · Topics: Architecture · Composable Architecture · Swift
   **Published:** `2025-02-13T18:15:48.650Z`
   **NeKI brief:** Giffy is a sample iOS application that combines SwiftUI, The Composable Architecture, and Swinject-based dependency injection. Use it to inspect how those architectural pieces are wired together in a small, runnable project.
 - [project](https://github.com/arrinal/ios-clean-architecture-project) — Fatbobman’s Swift Weekly · Issue 67 — Source repository · Topics: Architecture · Objective-C & Cocoa · Swift
@@ -894,7 +897,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [A Layered Approach to Mobile App Security](https://www.guardsquare.com/defense-in-depth-layered-approach-to-mobile-app-security) — iOS Dev Weekly · Issue 612 — Article · Topics: Architecture · Objective-C & Cocoa · Security & Privacy
   **Published:** `2nd June 2023`
   **NeKI brief:** Explores A Layered Approach to Mobile App Security, focusing on developers are being called on to reevaluate their mobile application. Follow it to assess the approach and trade-offs before applying it in a current Swift or Apple-platform project.
-- [Featuring XcodeGen, Factory, & Swinject](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? - iOS Dev Tools — Source repository · Topics: Concurrency · Swift · Xcode
+- [Featuring XcodeGen, Factory, & Swinject](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? — Source repository · Topics: Concurrency · Swift · Xcode
   **Published:** `2023-06-01T12:01:55.488Z`
   **NeKI brief:** XcodeGen generates Xcode projects from a declarative YAML or JSON specification. Use it to make targets, build settings, schemes, and dependencies reviewable text, avoiding fragile manual edits to project.pbxproj files.
 - [chatty](https://github.com/polpielladev/chatty-cli) — iOS CI Newsletter · Issue 13 — Source repository · Topics: Architecture · Developer Tools · Swift

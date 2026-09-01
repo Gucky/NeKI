@@ -3,8 +3,42 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevweekly.com/issues/](https://iosdevweekly.com/issues/)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **760**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed entries: **761**
+
+## [Issue 765](https://iosdevweekly.com/issues/765)
+
+- Published: `28th August 2026`
+
+**Topics:** AI Development · Developer Community & Business · Developer Tools · Swift · SwiftUI · Xcode
+
+**Sections:** Comment · News
+
+**NeKI brief:** Collects an Embedded Swift 6.4 update, a beta-era headless Xcode MCP workflow, and practical SwiftUI patterns for authentication and dynamically supplied accessibility content. It also highlights a SwiftUI-shaped terminal UI framework and a concrete Git-reflog recovery case.
+
+**Selected links:**
+- [Xcode Tools Documentation](https://github.com/artemnovichkov/xcode-tools-docs) — Source repository · Topics: Architecture · Developer Tools · Xcode
+  **NeKI brief:** Collects missing or hard-to-find Xcode command-line and tool documentation in an inspectable repository, useful for discovering a workflow before validating it against Apple’s current documentation.
+- [Protecting SwiftUI Views with Authentication](https://azamsharp.com/2026/08/22/protecting-swiftui-views-with-authentication.html) — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
+  **NeKI brief:** Shows how to protect SwiftUI views behind an authentication boundary. The topic connects view composition with session state, making it useful for deciding where authenticated routing and access checks belong in a SwiftUI application.
+- [Dynamically Setting Accessibility Content in SwiftUI](https://www.basbroek.nl/multiple-custom-contents-swiftui) — Article · Topics: Accessibility · Swift · SwiftUI
+  **NeKI brief:** Shows a model-driven workaround for applying multiple accessibility custom-content pairs in SwiftUI. Validate the resulting VoiceOver experience in the target app because the approach compensates for a missing builder-style API.
+- [agentic skill](https://youtu.be/rAvlt9Dvgbo?si=SUHzOy3YLZ3m-N-j&t=855) — Video · Topics: AI Development · Xcode
+  **NeKI brief:** Links to a video segment about Apple-platform agentic skills. Treat it as a discovery lead and verify tool behaviour against current primary documentation.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — Article · Topics: AI Development · Xcode
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [similar topic](https://swiftology.io/articles/tydd-part-3) — Article · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Continues a Swift-focused technical article series. Use it as a reading lead and verify its assumptions against the current language and SDK versions.
+- [Some things are never truly lost - How git recovered two weeks of deleted work](https://danielsaidi.com/blog/2026/08/27/some-things-are-never-truly-lost) — Article · Topics: AI Development · Concurrency · Developer Tools
+  **NeKI brief:** Recounts recovering a force-pushed, reset branch by locating its old tip in the local reflog and restoring a branch reference. It is a practical reminder that recovery depends on local object retention and should be paired with normal backup and remote protection.
+- [anticipated foldable iPhone](https://www.macrumors.com/2026/08/23/apple-foldable-iphone-early-tester-thoughts) — Article · Topics: Testing
+  **NeKI brief:** Reports early discussion of a foldable iPhone form factor. Use it only as industry context while waiting for Apple hardware specifications and SDK guidance.
+- [Apple Vision Pro and Software Layoffs](https://mjtsai.com/blog/2026/08/24/apple-vision-pro-and-software-layoffs) — Article · Topics: Spatial Computing
+  **NeKI brief:** Collects commentary on Vision Pro-related software layoffs. Use it as ecosystem context, not as a technical assessment of visionOS or an employment forecast.
+- [It’s falling out of orbit 🌠](https://512pixels.net/2026/08/nasas-swift-observatory-telescope-doomed-for-destruction) — Article · Topics: Swift
+  **NeKI brief:** Uses the Swift telescope news as a brief science-and-name coincidence. It is not related to the Swift programming language.
+- [free M6 upgrade](https://9to5mac.com/2026/08/26/apple-upgrading-recent-mac-mini-orders-to-m6-m5-pro-models-for-free) — Article
+  **NeKI brief:** Reports a hardware-order upgrade anecdote. It is market news, not a dependable platform compatibility or procurement source.
 
 ## [Issue 764](https://iosdevweekly.com/issues/764)
 

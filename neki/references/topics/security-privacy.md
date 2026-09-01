@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Privacy, credentials, secure configuration, encryption, sandboxing, and application security.
 
-- Last collected: `2026-08-27T19:22:09Z`
+- Last collected: `2026-09-01T10:14:10Z`
 - Indexed links shown: **213**
 
 ## Direct-source reading
@@ -365,7 +365,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [🎉 GitHub’s CodeQL and Dependabot now support Swift](https://blog.eidinger.info/github-embraces-swift-and-provides-code-analysis-security-alerts-and-dependency-updates-for-swift-projects) — iOS CI Newsletter · Issue 22 — Article · Topics: Developer Tools · Security & Privacy · Swift
   **Published:** `2023-08-13T00:00:00.000Z`
   **NeKI brief:** Examines GitHub’s CodeQL and Dependabot now support Swift in the context of Developer Tools and Security & Privacy. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
-- [RNCrypto](https://github.com/RNCryptor/RNCryptor) — iOS Dev Tools · Introducing CodeScanner, Mapbox, Alamofire — Source repository · Topics: Developer Tools · Security & Privacy
+- [RNCrypto](https://github.com/RNCryptor/RNCryptor) — iOS Dev Tools · 🔨 Introducing Mapbox, Alamofire, RNCrypto — Source repository · Topics: Developer Tools · Security & Privacy
   **Published:** `2023-08-03T12:40:06.374Z`
   **NeKI brief:** RNCryptor defines a cross-language encrypted-data format using AES-256-CBC, PBKDF2-derived keys, random salt and IV, plus HMAC. Use it when interoperable encrypted payloads are required, while handling keys separately from ciphertext storage.
 - [Featuring Maccy, Nuke, & Tuist](https://github.com/p0deje/Maccy) — iOS Dev Tools · 🔨 It's Clipboard Magic (and Other Stuff) — Source repository · Topics: Developer Tools · Security & Privacy

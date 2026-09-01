@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Observation, bindings, view state, data flow, and state-management trade-offs.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **232**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **233**
 
 ## Direct-source reading
 
+- [Beta Preview: LazyState](https://www.pointfree.co/blog/posts/223-beta-preview-lazystate) — Point-Free · article catalogue
+  **Published:** `2026-08-31T00:00:00Z`
+  **NeKI brief:** Previews the LazyState macro for lazily creating stateful reference values from parent inputs once per view identity. It replaces optional-state and onAppear workarounds, but is a beta, member-only API rather than a platform contract.
 - [Responding to geometry changes in SwiftUI](https://nilcoalescing.com/blog/RespondingToGeometryChangesInSwiftUI) — Nil Coalescing · article catalogue
   **Published:** `2026-08-17`
   **NeKI brief:** Uses onGeometryChange to derive only the layout metric an interface needs, then updates state when that Equatable value changes. This limits feedback and invalidation while adapting SwiftUI content to available space.

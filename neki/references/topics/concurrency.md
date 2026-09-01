@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift concurrency, async/await, actors, Sendable, tasks, cancellation, and diagnostics.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **1228**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **1229**
 
 ## Direct-source reading
 
@@ -2260,6 +2260,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Some things are never truly lost - How git recovered two weeks of deleted work](https://danielsaidi.com/blog/2026/08/27/some-things-are-never-truly-lost) — iOS Dev Weekly · Issue 765 — Article · Topics: AI Development · Concurrency · Developer Tools
+  **Published:** `28th August 2026`
+  **NeKI brief:** Recounts recovering a force-pushed, reset branch by locating its old tip in the local reflog and restoring a branch reference. It is a practical reminder that recovery depends on local object retention and should be paired with normal backup and remote protection.
 - [Handling CoreBluetooth Timeouts and Task Cancellation Correctly](https://l.fatbobman.com/w0150-2) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Concurrency
   **Published:** `2026-08-24T12:03:48.210Z`
   **NeKI brief:** Explains wrapping CoreBluetooth delegate callbacks in Swift concurrency while resolving timeout, cancellation, and concurrent-completion races. It distinguishes cancelling a Swift task from ending the underlying Bluetooth operation and uses ArcBLEKit to demonstrate a safer API design.
@@ -3124,10 +3127,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [View vs View modifier?](https://www.swiftbysundell.com/articles/swiftui-views-versus-modifiers?ref=ioscodereview.com) — iOS Code Review · Issue 52 — Article · Topics: Swift · SwiftUI
   **Published:** `2023-07-06T18:35:01.000Z`
   **NeKI brief:** Compares extracting SwiftUI behavior as a View versus a ViewModifier. Both can structure, style, and own state; the useful deciding question is conceptual hierarchy—use modifiers when the change is styling, not a new structural component.
-- [Featuring XcodeGen, Factory, & Swinject](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? - iOS Dev Tools — Source repository · Topics: Concurrency · Swift · Xcode
+- [Featuring XcodeGen, Factory, & Swinject](https://github.com/yonaskolb/XcodeGen) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? — Source repository · Topics: Concurrency · Swift · Xcode
   **Published:** `2023-06-01T12:01:55.488Z`
   **NeKI brief:** XcodeGen generates Xcode projects from a declarative YAML or JSON specification. Use it to make targets, build settings, schemes, and dependencies reviewable text, avoiding fragile manual edits to project.pbxproj files.
-- [Factory - A New Dawn for Swift and SwiftUI Dependency Injection](https://github.com/Swinject/Swinject) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? - iOS Dev Tools — Source repository · Topics: Architecture · Dependency Injection · Swift
+- [Factory - A New Dawn for Swift and SwiftUI Dependency Injection](https://github.com/Swinject/Swinject) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? — Source repository · Topics: Architecture · Dependency Injection · Swift
   **Published:** `2023-06-01T12:01:55.488Z`
   **NeKI brief:** Swinject resolves object graphs through registered factories and supports scopes such as transient or container lifetime. Use it to compare explicit dependency composition with container-based injection, especially around runtime resolution failures and test overrides.
 - [Implementing reachability](https://www.avanderlee.com/swift/optimizing-network-reachability?ref=ioscodereview.com) — iOS Code Review · Issue 47 — Article · Topics: Networking · Swift

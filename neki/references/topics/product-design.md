@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App product, visual design, UX, branding, and design-to-code process.
 
-- Last collected: `2026-08-27T19:22:09Z`
+- Last collected: `2026-09-01T10:14:10Z`
 - Indexed links shown: **282**
 
 ## Direct-source reading
@@ -194,28 +194,28 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Amethyst Vein: An Open-Source, Cross-Platform Local Persistence Framework with SwiftData-Style APIs](https://l.fatbobman.com/w0150-6) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Cross-Platform & Web · Swift · SwiftData
   **Published:** `2026-08-24T12:03:48.210Z`
   **NeKI brief:** Presents Vein, an open-source local-first ORM with SwiftData-like macros, model containers, queries, migrations, and a SQLite/SQLCipher backend across Apple platforms, Linux, Android, and Windows. Use it to assess a shared Swift persistence layer rather than assuming SwiftData portability.
-- [cmux](https://github.com/manaflow-ai/cmux) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: AI Development · Developer Tools · Product Design
+- [cmux](https://github.com/manaflow-ai/cmux) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: AI Development · Developer Tools · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** cmux is a Ghostty-based macOS terminal organized around vertical tabs, notifications, and programmable agent workflows. Useful for evaluating a terminal layout that keeps multiple coding-agent sessions visible and actionable.
-- [agent-browser](https://github.com/vercel-labs/agent-browser) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Source repository · Topics: Developer Tools · Product Design
+- [agent-browser](https://github.com/vercel-labs/agent-browser) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Source repository · Topics: Developer Tools · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** agent-browser exposes browser automation through a CLI designed for AI agents, giving scripts navigation, interaction, and inspection primitives. Useful for comparing deterministic command workflows with bespoke browser-control integrations.
-- [IAXT](https://iaxt.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Article · Topics: AI Development · Product Design
+- [IAXT](https://iaxt.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: AI Development · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** IAXT presents software and product-development services around AI-enabled applications. Use it as a discovery lead for implementation partners, while verifying capabilities, pricing, and technical claims directly before choosing a vendor.
-- [WhatCable](https://www.whatcable.uk/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Article · Topics: macOS & AppKit · Product Design
+- [WhatCable](https://www.whatcable.uk/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: macOS & AppKit · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** WhatCable is a developer utility or product page. Follow it for the concrete workflow and integration surface described there, while requiring further technical evidence before adoption.
-- [Mimer](https://mimer.hasanjafri.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Article · Topics: Objective-C & Cocoa · Product Design
+- [Mimer](https://mimer.hasanjafri.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Objective-C & Cocoa · Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Mimer is a macOS utility or developer tool. Follow its page and source for the concrete workflow and integration surface it provides, while verifying supported platforms and maintenance.
-- [CaffeineTimer](https://vigodlabs.com/caffeine) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Article · Topics: Product Design
+- [CaffeineTimer](https://vigodlabs.com/caffeine) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** CaffeineTimer prevents a Mac from entering idle or sleep state during long-running tasks. Follow it for a concrete menu-bar utility workflow, while checking power, thermal, and policy implications before use.
-- [Swift Rockies](https://swiftrockies.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Article · Topics: Product Design · Swift
+- [Swift Rockies](https://swiftrockies.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Product Design · Swift
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Swift Rockies is an Apple-platform developer conference page. It is event promotion rather than technical reading and should normally be excluded from the knowledge index.
-- [code.talks](https://codetalks.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux - iOS Dev Tools — Article · Topics: Product Design
+- [code.talks](https://codetalks.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Product Design
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Promptberry](https://github.com/onmyway133/Promptberry) — iOS Dev Tools · iOS Dev Tools: Promptberry, SolidLikeARock, MLX Swift LM — Source repository · Topics: Developer Tools · Product Design · Swift

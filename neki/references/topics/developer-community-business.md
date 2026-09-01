@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Developer conferences, publications, courses, podcasts, membership, sponsorship, and community business news.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **675**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **678**
 
 ## Direct-source reading
 
+- [The Spend Stack Revival | Swiftjective-C](https://swiftjectivec.com/The-Spend-Stack-Revival) — Swiftjective-C · article catalogue
+  **Published:** `2026-08-31T00:00:00-05:00`
+  **NeKI brief:** Revisits the modernization of an older Objective-C app with GRDB and CKSyncEngine, and outlines a possible optional cloud-sync layer. It is an indie-maintenance case study, not a prescriptive migration recipe.
 - [Introducing Indie Walks | Swiftjective-C](https://swiftjectivec.com/Introducing-Indie-Walks) — Swiftjective-C · article catalogue
   **Published:** `2026-08-24T00:00:00-05:00`
   **NeKI brief:** Announces a concise, ongoing video-journal series about independent iOS practice, including revenue, web-to-app work, and balancing side projects with parenting. It is a source-format and community-development update rather than technical implementation guidance.
@@ -135,6 +138,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [similar topic](https://swiftology.io/articles/tydd-part-3) — iOS Dev Weekly · Issue 765 — Article · Topics: Developer Community & Business · Swift
+  **Published:** `28th August 2026`
+  **NeKI brief:** Continues a Swift-focused technical article series. Use it as a reading lead and verify its assumptions against the current language and SDK versions.
 - [What's New in Swift: July 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-july-2026) — Those Who Swift · Issue 279 — Article · Topics: Developer Community & Business · Swift
   **Published:** `2026-08-12T20:30:39.583Z`
   **NeKI brief:** Summarizes July activity across Swift releases, evolution, tooling and community workgroups, providing a routing overview rather than a single API tutorial.
@@ -1974,6 +1980,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iOS devs put out a call to unite against Lodsys, other patent trolls](http://arstechnica.com/apple/news/2011/08/ios-devs-put-out-a-call-to-unite-against-lodsys-other-patent-trolls.ars) — iOS Dev Weekly · Issue 1 — Podcast · Topics: Developer Community & Business
   **Published:** `5th August 2011`
   **NeKI brief:** Examines Independent and big-name developers alike are being bullied by patent trolls …. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [iOSDevUK](https://go.peterfriese.dev/iosdevuk-2026-issue-103?s=web&t=ext) — Not only Swift · Issue 103 — Tutorial · Topics: AI Development · Developer Community & Business · Swift
+  **NeKI brief:** Routes to the iOSDevUK conference and workshop programme. Treat it as community-event discovery rather than technical implementation guidance.
 - [MiniKotlin](https://go.peterfriese.dev/minikotlin?s=newsletter&t=ext) — Not only Swift · Issue 99 — Tutorial · Topics: Developer Community & Business · Swift
   **NeKI brief:** Introduces a from-scratch Kotlin-to-WebAssembly compiler written in C and compiled to WebAssembly itself. The project is useful comparative reading for browser-hosted language tooling, multi-file compilation, and entirely client-side execution.
 - [IDE](https://go.peterfriese.dev/minikotlin-studio?s=newsletter&t=ext) — Not only Swift · Issue 99 — Tutorial · Topics: Developer Community & Business · Swift

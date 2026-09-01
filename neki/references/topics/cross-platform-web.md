@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Cross-platform, Android, Flutter, web, and interoperability work adjacent to Apple-platform development.
 
-- Last collected: `2026-08-27T19:22:09Z`
+- Last collected: `2026-09-01T10:14:10Z`
 - Indexed links shown: **670**
 
 ## Direct-source reading
@@ -111,12 +111,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Protecting SwiftUI Views with Authentication](https://azamsharp.com/2026/08/22/protecting-swiftui-views-with-authentication.html) — iOS Dev Weekly · Issue 765 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
+  **Published:** `28th August 2026`
+  **NeKI brief:** Shows how to protect SwiftUI views behind an authentication boundary. The topic connects view composition with session state, making it useful for deciding where authenticated routing and access checks belong in a SwiftUI application.
 - [More Incredible Tales of App Store Curation](https://lapcatsoftware.com/articles/2026/8/9.html) — Those Who Swift · Issue 281 — Article · Topics: App Distribution & Store Operations · Cross-Platform & Web
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Examines Apple App Store curation through concrete examples of review and editorial treatment. It provides product and distribution context for developers whose release strategy depends on App Store visibility, rather than describing an implementation technique.
-- [Protecting SwiftUI Views With Authentication](https://azamsharp.com/2026/08/22/protecting-swiftui-views-with-authentication.html) — Those Who Swift · Issue 281 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
-  **Published:** `2026-08-26T20:38:31.643Z`
-  **NeKI brief:** Shows how to protect SwiftUI views behind an authentication boundary. The topic connects view composition with session state, making it useful for deciding where authenticated routing and access checks belong in a SwiftUI application.
 - [The Curious Case of the Missing SwiftUI Clicks](https://damian.fyi/swift/2026/08/16/curious-case-of-missing-click.html) — Those Who Swift · Issue 281 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Investigates a missing SwiftUI click in the context of a searchable, on-device timeline app. The debugging story highlights how gesture targets and view composition can diverge from the visual hierarchy, a useful reminder when diagnosing apparently inactive controls.
@@ -684,7 +684,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [and beyond](https://blog.persistent.info/2024/03/infinite-mac-nextstep.html) — iOS Dev Weekly · Issue 655 — Article · Topics: Cross-Platform & Web
   **Published:** `5th April 2024`
   **NeKI brief:** Examines persistent.info: Infinite Mac: Turning To The Dark Side. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
-- [Skip](https://skip.tools/) — iOS Dev Tools · iOS Dev Tools: Skip, AppLayouts, Firefoo - iOS Dev Tools — Article · Topics: Cross-Platform & Web · Xcode
+- [Skip](https://skip.tools/) — iOS Dev Tools · iOS Dev Tools: Skip, AppLayouts, Firefoo — Article · Topics: Cross-Platform & Web · Xcode
   **Published:** `2024-03-21T14:02:34.735Z`
   **NeKI brief:** Skip is an Xcode plugin that translates a shared iOS app codebase for Android delivery. Use it when evaluating a cross-platform workflow that retains Swift and Xcode, while validating platform-specific UI and API boundaries.
 - [Making Customizable SwiftUI Components](https://otbivnoe.ru/2024/02/25/Making-Customizable-SwiftUI-Components.html) — SwiftUI Weekly · SwiftUI Weekly - Issue #177 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
@@ -744,7 +744,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Configuring VSCode](https://www.bryanbraun.com/2023/08/10/things-i-wish-someone-would-have-told-me-about-configuring-vscode) — iOS Dev Weekly · Issue 631 — Article · Topics: Cross-Platform & Web · Developer Tools · Xcode
   **Published:** `13th October 2023`
   **NeKI brief:** Presents configuring vscode for Apple-platform developers, highlighting the implementation approach and practical trade-offs. Use it as a focused starting point, then verify APIs, versions, and operational constraints against your project and current documentation.
-- [Boop](https://boop.okat.best/) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit - iOS Dev Tools — Article · Topics: Cross-Platform & Web
+- [Boop](https://boop.okat.best/) — iOS Dev Tools · 🔨 Introducing Trace, Boop, FileKit — Article · Topics: Cross-Platform & Web
   **Published:** `2023-10-12T15:37:25.698Z`
   **NeKI brief:** Boop is a small macOS utility page from OKatBest. Follow it to inspect the product’s concrete interaction and positioning, while requiring further page evidence before treating it as a substantive technical resource.
 - [Core Data Lab and SwiftData](https://betamagic.nl/news/2023/2023_03.html) — iOS Dev Weekly · Issue 628 — Article · Topics: Core Data · Cross-Platform & Web · Persistence & Synchronisation

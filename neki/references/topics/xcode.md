@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Xcode, builds, signing, debugging, tooling, CI, and developer workflows.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **1421**
+- Last collected: `2026-09-01T10:14:10Z`
+- Indexed links shown: **1425**
 
 ## Direct-source reading
 
@@ -1980,6 +1980,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [JindoKit: Preview Dynamic Island presentations in your app](https://l.fatbobman.com/w0151-08) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Services & Extensions · Developer Tools · Xcode
+  **Published:** `2026-08-31T12:01:53.025Z`
+  **NeKI brief:** Introduces JindoKit for previewing Dynamic Island presentations in ordinary SwiftUI views. Use it to explore presentation states while validating the result against actual WidgetKit behaviour.
+- [agentic skill](https://youtu.be/rAvlt9Dvgbo?si=SUHzOy3YLZ3m-N-j&t=855) — iOS Dev Weekly · Issue 765 — Video · Topics: AI Development · Xcode
+  **Published:** `28th August 2026`
+  **NeKI brief:** Links to a video segment about Apple-platform agentic skills. Treat it as a discovery lead and verify tool behaviour against current primary documentation.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — iOS Dev Weekly · Issue 765 — Article · Topics: AI Development · Xcode
+  **Published:** `28th August 2026`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [Xcode Tools Documentation](https://github.com/artemnovichkov/xcode-tools-docs) — iOS Dev Weekly · Issue 765 — Source repository · Topics: Architecture · Developer Tools · Xcode
+  **Published:** `28th August 2026`
+  **NeKI brief:** Collects missing or hard-to-find Xcode command-line and tool documentation in an inspectable repository, useful for discovering a workflow before validating it against Apple’s current documentation.
+- [Xtend](https://getxtend.com/) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Article · Topics: Developer Tools · Xcode
+  **Published:** `2026-08-27T20:30:45.555Z`
+  **NeKI brief:** Presents a mobile companion for accessing a Mac development environment, including remote Simulator and build workflows. Evaluate latency, security, and device-control boundaries before relying on it for development work.
 - [Translation Sub-Agents Go Brrrrrrrr](https://cuteios.dev/2026/08/17/localizations-translations) — Those Who Swift · Issue 281 — Article · Topics: Localization · Xcode
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Describes an app-localization workflow that uses translation sub-agents to take over repetitive translation work. The article is useful for evaluating where automation can support localization while keeping terminology and final language quality under developer control.
@@ -1995,9 +2010,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using Top Functions Mode in Instruments to Quickly Find the Slowest Code](https://swiftdevjournal.com/posts/top-functions) — Those Who Swift · Issue 280 — Article · Topics: Performance · Swift · Xcode
   **Published:** `2026-08-19T20:31:22.272Z`
   **NeKI brief:** Shows how Instruments' Top Functions mode reorders Time Profiler or CPU Profiler samples by self weight, then relates the result to the flame graph. It offers a faster first pass for locating genuinely expensive functions.
-- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — SwiftLee Weekly · Issue 337 — Article · Topics: AI Development · Testing · Xcode
-  **Published:** `2026-08-18T14:06:21.000Z`
-  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
 - [Headless Xcode: From Prompt to Simulator with MCP](https://l.fatbobman.com/w0149-01) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: AI Development · Xcode
   **Published:** `2026-08-17T12:03:38.576Z`
   **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
@@ -2706,10 +2718,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI for Mac 2024](https://troz.net/post/2024/swiftui-mac-2024) — iOS Dev Weekly · Issue 675 — Article · Topics: Swift · SwiftUI · Xcode
   **Published:** `23rd August 2024`
   **NeKI brief:** Reviews SwiftUI for macOS in 2024, including windowing, menus, and platform-specific controls. Useful for auditing which shared views need deliberate Mac adaptations.
-- [NSSpain XII 2024](https://ti.to/nsspain/2024) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen - iOS Dev Tools — Article · Topics: Xcode
+- [NSSpain XII 2024](https://ti.to/nsspain/2024) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen — Article · Topics: Xcode
   **Published:** `2024-08-15T18:31:01.455Z`
   **NeKI brief:** NSSpain XII 2024 is a conference event page. It is event promotion rather than technical reading and should normally be excluded from the knowledge index.
-- [PragmaConf](https://pragmaconference.com/) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen - iOS Dev Tools — Article · Topics: Developer Community & Business · Xcode
+- [PragmaConf](https://pragmaconference.com/) — iOS Dev Tools · iOS Dev Tools: Nuke, dataFude, XcodeGen — Article · Topics: Developer Community & Business · Xcode
   **Published:** `2024-08-15T18:31:01.455Z`
   **NeKI brief:** Provides the Pragmaconference event hub for talks and community sessions about Apple development. Use it to discover practitioner perspectives and verify session details before relying on a conference presentation.
 - [Xcode-Kotlin](https://github.com/touchlab/xcode-kotlin) — iOS Dev Tools · iOS Dev Tools: AnimationPlanner, Xcode-Kotlin, React-native-vision-camera — Source repository · Topics: Developer Tools · Xcode
@@ -2823,7 +2835,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [📹 Automatically generating release notes using Xcode Cloud](https://www.youtube.com/watch?v=ZBoBCCV5VQ8%3Futm_campaign%3DiOS+CI+Newsletter%26utm_medium%3Dweb%26utm_source%3DiOS+CI+Newsletter+Issue+40%26utm_content%3Dapr_21_24) — iOS CI Newsletter · Issue 40 — Video · Topics: Developer Community & Business · Graphics, Media & Games · Xcode
   **Published:** `2024-04-21T00:00:00.000Z`
   **NeKI brief:** Records Automatically generating release notes using Xcode Cloud as a visual walkthrough relevant to Developer Community & Business and Graphics, Media & Games. Use it to inspect the demonstrated workflow, then verify version-specific details with current primary sources.
-- [Skip](https://skip.tools/) — iOS Dev Tools · iOS Dev Tools: Skip, AppLayouts, Firefoo - iOS Dev Tools — Article · Topics: Cross-Platform & Web · Xcode
+- [Skip](https://skip.tools/) — iOS Dev Tools · iOS Dev Tools: Skip, AppLayouts, Firefoo — Article · Topics: Cross-Platform & Web · Xcode
   **Published:** `2024-03-21T14:02:34.735Z`
   **NeKI brief:** Skip is an Xcode plugin that translates a shared iOS app codebase for Android delivery. Use it when evaluating a cross-platform workflow that retains Swift and Xcode, while validating platform-specific UI and API boundaries.
 - [🚨 Errors while archiving an app with Firebase and Xcode 15.3](https://github.com/firebase/firebase-ios-sdk/issues/12441) — iOS CI Newsletter · Issue 37 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Xcode
@@ -2886,7 +2898,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Missing Xcode run test buttons](https://paul-samuels.com/blog/2023/10/24/missing-xcode-run-test-buttons) — iOS Dev Weekly · Issue 635 — Article · Topics: Testing · Xcode
   **Published:** `10th November 2023`
   **NeKI brief:** Troubleshoots missing Xcode Run and Test controls by tracing scheme and project configuration, a focused diagnostic checklist for broken local test workflows.
-- [RocketSim](https://www.rocketsim.app/) — iOS Dev Tools · 🔨 RocketSim, SwiftMessages, Dash - iOS Dev Tools — Article · Topics: Xcode
+- [RocketSim](https://www.rocketsim.app/) — iOS Dev Tools · 🔨 RocketSim, SwiftMessages, Dash — Article · Topics: Xcode
   **Published:** `2023-11-02T14:15:02.032Z`
   **NeKI brief:** RocketSim extends Xcode Simulator workflows with recordings, screenshots, UI inspection, network monitoring, and accessibility-oriented tooling. Use it when repetitive manual simulator evidence gathering is slowing development, while keeping its project integration scoped.
 - [🪠 Automated memory leak detection on CI/CD](https://levelup.gitconnected.com/automating-memory-leak-detection-with-ci-integration-for-ios-380f08a55f0b) — iOS CI Newsletter · Issue 27 — Article · Topics: CI/CD & Automation · Developer Tools · Xcode
@@ -2991,7 +3003,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Copilot for Xcode - Integrated AI Code Assistance](https://github.com/pointfreeco/swiftui-navigation) — iOS Dev Tools · 🔨 Swift Power Unleashed & More AI — Source repository · Topics: AI Development · Developer Tools · Xcode
   **Published:** `2023-06-08T13:48:24.016Z`
   **NeKI brief:** Provides the source and change history for GitHub - pointfreeco/swiftui-navigation: Tools for making SwiftUI navigation simpler, more ergonomic and more…, relevant to Developer Tools and Swift. Inspect its implementation, open issues, and release state before adopting the approach.
-- [XcodeGen - Swift-based Automation with Command Line Ease](https://github.com/hmlongco/Factory) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? - iOS Dev Tools — Source repository · Topics: Developer Tools · Swift · Xcode
+- [XcodeGen - Swift-based Automation with Command Line Ease](https://github.com/hmlongco/Factory) — iOS Dev Tools · 🔨 Xcode Mastery & Updated Strategy? — Source repository · Topics: Developer Tools · Swift · Xcode
   **Published:** `2023-06-01T12:01:55.488Z`
   **NeKI brief:** Factory is a Swift dependency-injection container using property wrappers and scoped registrations for SwiftUI and UIKit. Use it when dependency overrides must be concise in previews and tests, while keeping registration ownership visible.
 - [Apple Intelligence](https://bitsplitting.org/2023/05/25/apple-intelligence) — iOS Dev Weekly · Issue 611 — Article · Topics: AI Development · Xcode
