@@ -4,11 +4,20 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Local storage, CloudKit, databases, caching, keychain use, and synchronisation.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **639**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **644**
 
 ## Direct-source reading
 
+- [Our WWDC 26 series is now free](https://www.pointfree.co/blog/posts/226-our-wwdc-26-series-is-now-free) — Point-Free · article catalogue
+  **Published:** `2026-09-06T00:00:00Z`
+  **NeKI brief:** Routes to a now-free ten-episode series covering new SwiftUI state and alert APIs, UIKit navigation, and SwiftData comparisons with SQLiteData. Verify each technique against its target SDK and library version.
+- [Last Month in Point-Free: August](https://www.pointfree.co/blog/posts/225-last-month-in-point-free-august) — Point-Free · article catalogue
+  **Published:** `2026-09-04T00:00:00Z`
+  **NeKI brief:** Summarizes August releases across Point-Free libraries, including structured JSON queries, collation, Dependencies preview traits, and package renaming. Use it to identify migrations or features before consulting each library's release documentation.
+- [SwiftData - Optimization Starts with Modeling](https://fatbobman.com/en/posts/swiftdata-optimization-starts-with-modeling) — Fatbobman · article catalogue
+  **Published:** `2026-09-02T14:00:00.000Z`
+  **NeKI brief:** Explains why large SwiftData rows can stall lists when fetching also materializes their stored values. It advocates separating heavy payloads during modeling so ordinary list queries load only the data they need.
 - [The Spend Stack Revival | Swiftjective-C](https://swiftjectivec.com/The-Spend-Stack-Revival) — Swiftjective-C · article catalogue
   **Published:** `2026-08-31T00:00:00-05:00`
   **NeKI brief:** Revisits the modernization of an older Objective-C app with GRDB and CKSyncEngine, and outlines a possible optional cloud-sync layer. It is an indie-maintenance case study, not a prescriptive migration recipe.
@@ -1200,6 +1209,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [CoreDataBrowser: Quickly Inspect Local Data in the Simulator](https://l.fatbobman.com/w0152-08) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Core Data · Developer Tools · Persistence & Synchronisation
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Introduces a Simulator utility for inspecting Core Data stores and pairs its App Store listing with public source. Evaluate schema safety and whether inspection can remain read-only for production-like data.
+- [Hoy](https://gethoy.app/) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Article · Topics: Personal Essays
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Uses iCloud for direct file sharing between people from a native macOS app. Evaluate recipient workflow, retention, account requirements, and privacy before adopting it for team asset exchange.
 - [Wally 7](https://danielsaidi.com/blog/2026/08/20/wally-7) — Those Who Swift · Issue 281 — Article · Topics: Swift · SwiftData
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Announces Wally 7, a major release of Daniel Saidi's native iOS app, with a new data store and additional features. The release is useful as a concrete example of evolving a long-lived Apple-platform app while replacing foundational persistence infrastructure.

@@ -2,7 +2,7 @@
 
 Frequently linked domains from the selected newsletters. Frequency is only a discovery signal; do not treat this list as a recommendation or quality rating.
 
-- Last collected: `2026-09-01T10:14:10Z`
+- Last collected: `2026-09-09T21:39:11Z`
 
 - `0xced.blogspot.co.at` — 1 collected links
 - `37signals.com` — 1 collected links
@@ -111,7 +111,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `arielelkin.github.io` — 1 collected links
 - `arstechnica.com` — 15 collected links
 - `artandscienceofcoding.com` — 2 collected links
-- `artemnovichkov.com` — 12 collected links
+- `artemnovichkov.com` — 13 collected links
 - `artiomgramatin.github.io` — 1 collected links
 - `artsandculture.google.com` — 1 collected links
 - `artsy.github.io` — 8 collected links
@@ -137,7 +137,8 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `augmentedcode.io` — 20 collected links
 - `aws.amazon.com` — 8 collected links
 - `ay8s.com` — 1 collected links
-- `azamsharp.com` — 31 collected links
+- `ayman3000.github.io` — 1 collected links
+- `azamsharp.com` — 33 collected links
 - `azure.microsoft.com` — 3 collected links
 - `backlinko.com` — 1 collected links
 - `bananabin.app` — 1 collected links
@@ -231,7 +232,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `blog.kapeli.com` — 11 collected links
 - `blog.kevinzhow.com` — 1 collected links
 - `blog.krzyzanowskim.com` — 5 collected links
-- `blog.kulman.sk` — 6 collected links
+- `blog.kulman.sk` — 7 collected links
 - `blog.lescapadou.com` — 2 collected links
 - `blog.lickability.com` — 1 collected links
 - `blog.makwanbk.com` — 4 collected links
@@ -398,7 +399,6 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `coderexmachina.medium.com` — 1 collected links
 - `coderwall.com` — 2 collected links
 - `codesheriff.blogspot.co.il` — 1 collected links
-- `codetalks.com` — 1 collected links
 - `codeworkshop.net` — 2 collected links
 - `codexbar.app` — 1 collected links
 - `coenttb.com` — 1 collected links
@@ -549,7 +549,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `elementscompiler.com` — 1 collected links
 - `emilkowal.ski` — 1 collected links
 - `emptytheory.com` — 1 collected links
-- `emredegirmenci.substack.com` — 2 collected links
+- `emredegirmenci.substack.com` — 3 collected links
 - `en.wikipedia.org` — 48 collected links
 - `en.zhgchg.li` — 1 collected links
 - `endel.io` — 1 collected links
@@ -578,7 +578,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `fabric.io` — 5 collected links
 - `fancypixel.github.io` — 1 collected links
 - `faq.sealedabstract.com` — 1 collected links
-- `fatbobman.com` — 71 collected links
+- `fatbobman.com` — 72 collected links
 - `fatbobman.medium.com` — 1 collected links
 - `fbernutz.github.io` — 1 collected links
 - `featherless.design` — 1 collected links
@@ -588,6 +588,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `fichek.com` — 2 collected links
 - `filerenamerai.com` — 1 collected links
 - `files.littlebird.com.au` — 1 collected links
+- `finddiskkiller.com` — 1 collected links
 - `finestructure.co` — 4 collected links
 - `fireball.studio` — 1 collected links
 - `firebase.blog` — 2 collected links
@@ -607,7 +608,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `flyingmeat.com` — 2 collected links
 - `fnf.dev` — 1 collected links
 - `forums.developer.apple.com` — 3 collected links
-- `forums.swift.org` — 96 collected links
+- `forums.swift.org` — 97 collected links
 - `fosdem.org` — 3 collected links
 - `fractal-dev.com` — 1 collected links
 - `frafra077.github.io` — 1 collected links
@@ -632,6 +633,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `getbushel.app` — 1 collected links
 - `getcarina.com` — 1 collected links
 - `getcriticly.app` — 1 collected links
+- `gethoy.app` — 1 collected links
 - `getislet.com` — 1 collected links
 - `getjuicy.app` — 1 collected links
 - `getpicasso.com` — 1 collected links
@@ -643,12 +645,12 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `gigaom.com` — 2 collected links
 - `gigliwood.com` — 1 collected links
 - `gingerlabs.com` — 1 collected links
-- `gioscalzo.com` — 1 collected links
+- `gioscalzo.com` — 2 collected links
 - `gist.github.com` — 35 collected links
 - `git-scm.com` — 1 collected links
 - `gitbook.swiftgg.team` — 1 collected links
 - `github.blog` — 42 collected links
-- `github.com` — 1824 collected links
+- `github.com` — 1836 collected links
 - `github.github.com` — 1 collected links
 - `gizmodo.com` — 2 collected links
 - `gjinprelvukaj.github.io` — 1 collected links
@@ -660,7 +662,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `go.clerk.com` — 1 collected links
 - `go.macstadium.com` — 1 collected links
 - `go.mobileatscale.com` — 1 collected links
-- `go.peterfriese.dev` — 55 collected links
+- `go.peterfriese.dev` — 63 collected links
 - `go.posthog.com` — 7 collected links
 - `go.thoughtleaders.io` — 2 collected links
 - `godotengine.org` — 1 collected links
@@ -859,9 +861,9 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `kunat.dev` — 1 collected links
 - `kurrytran.blogspot.com` — 1 collected links
 - `kylebashour.com` — 2 collected links
-- `kylebrowning.com` — 4 collected links
+- `kylebrowning.com` — 5 collected links
 - `kyleye.top` — 2 collected links
-- `l.fatbobman.com` — 97 collected links
+- `l.fatbobman.com` — 105 collected links
 - `l10ngenie.com` — 1 collected links
 - `label.live` — 1 collected links
 - `labs.sentinelone.com` — 1 collected links
@@ -897,7 +899,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `littlebigdetails.com` — 2 collected links
 - `littlebitesofcocoa.com` — 16 collected links
 - `littlebitesofcocoa.tumblr.com` — 1 collected links
-- `livsycode.com` — 60 collected links
+- `livsycode.com` — 62 collected links
 - `llvm.org` — 3 collected links
 - `lmnt.me` — 5 collected links
 - `localizapp.dimitrigiani.com` — 1 collected links
@@ -1056,7 +1058,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `nick.zoic.org` — 1 collected links
 - `nickharris.wordpress.com` — 1 collected links
 - `nightingaledvs.com` — 1 collected links
-- `nilcoalescing.com` — 141 collected links
+- `nilcoalescing.com` — 146 collected links
 - `nilsou.com` — 1 collected links
 - `nixzhu.dev` — 1 collected links
 - `noahgilmore.com` — 6 collected links
@@ -1088,6 +1090,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `onefoottsunami.com` — 1 collected links
 - `onemorething.typeform.com` — 1 collected links
 - `onevcat.com` — 1 collected links
+- `onkeiki.com` — 1 collected links
 - `onmyway133.com` — 8 collected links
 - `open-vsx.org` — 1 collected links
 - `open.substack.com` — 6 collected links
@@ -1232,6 +1235,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `robots.thoughtbot.com` — 3 collected links
 - `rodschmidt.com` — 3 collected links
 - `rogueamoeba.com` — 3 collected links
+- `roland.leth.ro` — 1 collected links
 - `rollbar.com` — 1 collected links
 - `roman.pt` — 1 collected links
 - `ronnierocha.dev` — 1 collected links
@@ -1242,6 +1246,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `rudrank.blog` — 2 collected links
 - `rudrank.com` — 3 collected links
 - `runme.dev` — 1 collected links
+- `runnerkit.app` — 1 collected links
 - `russ.app` — 1 collected links
 - `russbishop.net` — 2 collected links
 - `rustyshelf.org` — 1 collected links
@@ -1249,7 +1254,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `ryanipete.com` — 1 collected links
 - `s.sudre.free.fr` — 1 collected links
 - `sachachua.com` — 1 collected links
-- `sagarunagar.com` — 1 collected links
+- `sagarunagar.com` — 2 collected links
 - `sahandnayebaziz.org` — 1 collected links
 - `sakunlabs.com` — 1 collected links
 - `samcurry.net` — 1 collected links
@@ -1258,7 +1263,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `sandofsky.com` — 1 collected links
 - `sapphire-app.tech` — 1 collected links
 - `sarahreichelt.gumroad.com` — 3 collected links
-- `sarunw.com` — 42 collected links
+- `sarunw.com` — 46 collected links
 - `satwiktungala.com` — 1 collected links
 - `scoopland.wpengine.com` — 1 collected links
 - `scottberrevoets.com` — 1 collected links
@@ -1402,7 +1407,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `swiftunboxed.com` — 2 collected links
 - `swiftunwrap.com` — 3 collected links
 - `swiftweekly.github.io` — 2 collected links
-- `swiftwithmajid.com` — 135 collected links
+- `swiftwithmajid.com` — 136 collected links
 - `swiftyfinch.github.io` — 1 collected links
 - `swiftylaun.ch` — 1 collected links
 - `swiftylion.com` — 1 collected links
@@ -1411,7 +1416,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `takingnotes.co` — 1 collected links
 - `talk.objc.io` — 6 collected links
 - `tamulaitis.lt` — 1 collected links
-- `tanaschita.com` — 122 collected links
+- `tanaschita.com` — 123 collected links
 - `tapadoo.com` — 3 collected links
 - `tapfame.com` — 1 collected links
 - `tart.run` — 1 collected links
@@ -1469,6 +1474,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `tonguetype.app` — 1 collected links
 - `tonsky.me` — 5 collected links
 - `toot.community` — 1 collected links
+- `toplify.app` — 1 collected links
 - `topologyeyewear.github.io` — 1 collected links
 - `touchlab.co` — 3 collected links
 - `translatekit.app` — 1 collected links
@@ -1588,7 +1594,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.atomicbird.com` — 7 collected links
 - `www.attributedstrings.com` — 1 collected links
 - `www.aura-technologies.co` — 1 collected links
-- `www.avanderlee.com` — 94 collected links
+- `www.avanderlee.com` — 95 collected links
 - `www.avclub.com` — 1 collected links
 - `www.basbroek.nl` — 10 collected links
 - `www.bbc.co.uk` — 2 collected links
@@ -1689,7 +1695,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.elkraneo.com` — 8 collected links
 - `www.emergetools.com` — 19 collected links
 - `www.enekoalonso.com` — 1 collected links
-- `www.engadget.com` — 1 collected links
+- `www.engadget.com` — 2 collected links
 - `www.engineersneedart.com` — 1 collected links
 - `www.equinux.com` — 1 collected links
 - `www.escortmissions.com` — 3 collected links
@@ -1753,7 +1759,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.iamsim.me` — 1 collected links
 - `www.ibabbleon.com` — 1 collected links
 - `www.ibm.com` — 1 collected links
-- `www.iclarified.com` — 1 collected links
+- `www.iclarified.com` — 2 collected links
 - `www.icloud.com` — 1 collected links
 - `www.icodeblog.com` — 1 collected links
 - `www.idev101.com` — 1 collected links
@@ -1849,7 +1855,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.myappconverter.com` — 2 collected links
 - `www.naoenomoto.com` — 1 collected links
 - `www.napkin.ai` — 1 collected links
-- `www.natashatherobot.com` — 5 collected links
+- `www.natashatherobot.com` — 6 collected links
 - `www.nearinfinity.com` — 1 collected links
 - `www.neglectedpotential.com` — 7 collected links
 - `www.neilmacy.co.uk` — 5 collected links
@@ -1868,7 +1874,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.nutrient.io` — 1 collected links
 - `www.nypost.com` — 1 collected links
 - `www.nytimes.com` — 1 collected links
-- `www.objc.io` — 32 collected links
+- `www.objc.io` — 33 collected links
 - `www.oculus.com` — 1 collected links
 - `www.offnotes.org` — 1 collected links
 - `www.omnigroup.com` — 8 collected links
@@ -1888,7 +1894,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.plausible.coop` — 3 collected links
 - `www.pluralsight.com` — 1 collected links
 - `www.pocketgamer.biz` — 2 collected links
-- `www.pointfree.co` — 44 collected links
+- `www.pointfree.co` — 45 collected links
 - `www.polidea.com` — 2 collected links
 - `www.politepix.com` — 1 collected links
 - `www.polpiella.dev` — 83 collected links
@@ -1954,11 +1960,11 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `www.studioneat.com` — 1 collected links
 - `www.stuff.tv` — 1 collected links
 - `www.sunsetlakesoftware.com` — 2 collected links
-- `www.swift.org` — 110 collected links
+- `www.swift.org` — 111 collected links
 - `www.swiftable.co` — 1 collected links
 - `www.swiftbharat.org` — 1 collected links
 - `www.swiftbyrahul.com` — 1 collected links
-- `www.swiftbysundell.com` — 80 collected links
+- `www.swiftbysundell.com` — 81 collected links
 - `www.swiftcommunitypodcast.org` — 1 collected links
 - `www.swiftdevjournal.com` — 4 collected links
 - `www.swiftdifferently.com` — 14 collected links
@@ -2068,7 +2074,7 @@ Frequently linked domains from the selected newsletters. Frequency is only a dis
 - `yono.ai` — 2 collected links
 - `youmind.com` — 1 collected links
 - `youtu.be` — 74 collected links
-- `youtube.com` — 25 collected links
+- `youtube.com` — 26 collected links
 - `yvz.fr` — 1 collected links
 - `zeezide.com` — 1 collected links
 - `zenangst.github.io` — 1 collected links

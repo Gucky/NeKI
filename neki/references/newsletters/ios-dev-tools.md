@@ -3,8 +3,40 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevtools.substack.com/archive](https://iosdevtools.substack.com/archive)
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed entries: **166**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **167**
+
+## [iOS Dev Tools: Baguette, SwiftMocking, Toplify](https://iosdevtools.substack.com/p/ios-dev-tools-baguette-swiftmocking)
+
+- Published: `2026-09-03T17:14:44.570Z`
+
+**Topics:** Developer Tools · macOS & AppKit · Personal Essays · Swift · Testing · Xcode
+
+**Sections:** Baguette · SwiftMocking · Toplify
+
+**NeKI brief:** Surveys headless Simulator control, macro-based Swift mocking, App Store ranking alerts, and a wider set of Mac and iOS tools. Evaluate permissions, maintenance, and platform compatibility for each product independently.
+
+**Selected links:**
+- [Virtual Mac on iPad](https://github.com/nfzerox/VirtualMacOniPad) — Source repository · Topics: Developer Tools · Personal Essays · Xcode
+  **NeKI brief:** Describes running macOS and desktop tools on specific older M-series iPads and iPadOS versions. Treat it as an experimental compatibility project with substantial security, support, and device-version constraints.
+- [SwiftMocking](https://github.com/DanielCardonaRojas/swift-mocking) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** Implements a compact Swift mocking library with macros and parameter packs to generate test doubles. Evaluate macro diagnostics, concurrency behavior, and API coverage before replacing hand-written fakes.
+- [parameter packs](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0393-parameter-packs.md) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** Defines value and type parameter packs using each and repeat, enabling variadic generic functions without fixed overload limits or type erasure. The proposal is implemented from Swift 5.9.
+- [RunnerKit](https://runnerkit.app/) — Article · Topics: macOS & AppKit · Xcode
+  **NeKI brief:** Provides saved Xcode build and launch configurations through a macOS menu-bar app and CLI, with logs for repeatable runs. Compare its automation and credential model with existing project tooling.
+- [Naseem](https://ayman3000.github.io/naseem-app) — Article · Topics: AI Development · Developer Tools · Swift
+  **NeKI brief:** Presents a native macOS agent that can use local or hosted models to run commands, edit files, automate apps, and drive Simulator behind approval gates. Review its permission and secret boundaries first.
+- [Keiki](https://onkeiki.com/) — Article · Topics: AI Development
+  **NeKI brief:** Offers hosted conversational agents across messaging, email, and team chat with rapid setup. Evaluate data handling, model configuration, channel permissions, and operational ownership before connecting customer conversations.
+- [FindDiskKiller](https://finddiskkiller.com/en) — Article · Topics: AI Development
+  **NeKI brief:** Combines process-level disk I/O, session attribution, file activity, drive health, and guided cleanup in a macOS workspace. Use it to gather evidence before deleting build or agent data.
+- [Baguette](https://github.com/tddworks/baguette) — Source repository · Topics: Developer Tools
+  **NeKI brief:** Provides headless Apple Simulator control with streaming, 3D models, touch and multi-finger input, and multi-device operation. Review host permissions and protocol stability before using it in automated test infrastructure.
+- [Toplify](https://toplify.app/) — Article · Topics: App Distribution & Store Operations
+  **NeKI brief:** Tracks App Store ranking changes for iOS and Mac apps across countries and emits milestone alerts. Assess data freshness, account requirements, and notification noise before relying on it for product monitoring.
+- [Hoy](https://gethoy.app/) — Article · Topics: Personal Essays
+  **NeKI brief:** Uses iCloud for direct file sharing between people from a native macOS app. Evaluate recipient workflow, retention, account requirements, and privacy before adopting it for team asset exchange.
 
 ## [iOS Dev Tools: JoltPhysics, asc-cli, Xtend](https://iosdevtools.substack.com/p/ios-dev-tools-joltphysics-asc-cli)
 
@@ -31,8 +63,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Provides a Swift-facing package around the Jolt C++ physics engine for real-time simulation. Assess native dependency, determinism, and supported-platform trade-offs before making it an app dependency.
 - [LogoCreator](https://github.com/Nutlope/logocreator) — Source repository · Topics: AI Development · Developer Tools
   **NeKI brief:** Provides an open-source AI logo-generation project. Treat generated branding as a draft that still needs originality, trademark, accessibility, and product-review checks.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Hotspot Meter](https://hotspot-meter.loam.sk/) — Article · Topics: macOS & AppKit
   **NeKI brief:** Presents a macOS menu-bar utility for tracking Wi-Fi and hotspot usage. It is a product-discovery lead rather than networking API guidance.
 - [HealthyNotch](https://healthynotch.com/) — Article
@@ -57,8 +87,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Lets teams inspect onboarding, paywall, and other UI flows from top-grossing iOS apps through a large screen library. Use it for product and UX research while treating observed competitor behaviour as context, not a product prescription.
 - [KSCrash](https://github.com/kstenerud/KSCrash) — Source repository · Topics: Apple Platform Ecosystem · Developer Tools
   **NeKI brief:** KSCrash is a mature iOS/macOS crash-reporting library that captures native crashes and turns them into reports for later symbolication or delivery. It is useful when comparing in-process crash capture with hosted crash-reporting SDK trade-offs.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Macshot](https://macshot.io/) — Article · Topics: Graphics, Media & Games
   **NeKI brief:** Open-source macOS capture utility for annotated screenshots, recordings, scrolling capture, OCR, and uploads. It is useful for inspecting a native developer-facing capture workflow and its annotation feature set.
 - [Abendrot](https://abendrot.app/) — Article · Topics: Objective-C & Cocoa
@@ -91,8 +119,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Provides a macOS menu-bar route to simulator app containers, bundles, Documents, UserDefaults, and App Groups, plus cleanup of unavailable runtimes. It removes repeated CoreSimulator UUID hunting from inspection and disk-maintenance workflows.
 - [Breva](https://apps.apple.com/us/app/breva-breathing-focus/id6787697531) — Article
   **NeKI brief:** Combines visual, audio, and adjustable haptic pacing for short breathing sessions on Apple devices. Screen-awake and hold-to-unlock behavior show how the app protects an active guided session from interruption.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [MailTwin](https://www.mailtwin.ai/) — Article · Topics: AI Development
   **NeKI brief:** Profiles writing style separately per Apple Mail account and sends prompts directly from the Mac to a chosen provider, including on-device options. Its permission, BYOK, audit-log, and provider-failover details help assess privacy and operational trade-offs.
 - [Pocket Screen](https://labs.toybird.com/apps/pocket-screen) — Article · Topics: Graphics, Media & Games
@@ -125,8 +151,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Combines display, battery, fan, cleanup, activity and Xcode-derived-data controls in an open-source native macOS menu-bar toolkit with bilingual documentation.
 - [UseReserve](https://usereserve.app/) — Article
   **NeKI brief:** Shows remaining Codex and Claude usage limits in a lightweight macOS menu-bar app, with read-only local access, stale-reading indicators and no storage of credentials or message content.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Those Who Swift](https://thosewhoswift.substack.com/) — Article · Topics: Swift
   **NeKI brief:** Those Who Swift is a newsletter covering Swift and Apple-platform development. Use it for curated community perspectives and links, then follow cited primary documentation or source repositories before applying technical recommendations.
 - [Keepresso](https://keepresso.com/) — Article · Topics: AI Development
@@ -151,8 +175,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Swift Scribe combines local microphone transcription with on-device summarization on current Apple OS releases, without external dependencies. Useful for evaluating a privacy-preserving speech pipeline and its deployment-version constraints.
 - [cmux](https://github.com/manaflow-ai/cmux) — Source repository · Topics: AI Development · Developer Tools · Product Design
   **NeKI brief:** cmux is a Ghostty-based macOS terminal organized around vertical tabs, notifications, and programmable agent workflows. Useful for evaluating a terminal layout that keeps multiple coding-agent sessions visible and actionable.
-- [code.talks](https://codetalks.com/) — Article · Topics: Product Design
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [WhatCable](https://www.whatcable.uk/) — Article · Topics: macOS & AppKit · Product Design
   **NeKI brief:** WhatCable is a developer utility or product page. Follow it for the concrete workflow and integration surface described there, while requiring further technical evidence before adoption.
 - [Mimer](https://mimer.hasanjafri.com/) — Article · Topics: Objective-C & Cocoa · Product Design
@@ -185,8 +207,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** QuotaWarmer monitors Claude Code and Codex CLI quota windows from a macOS menu bar app and sends scheduled warmups. Useful for examining automation around rate-limit windows, with clear policy and account-usage implications.
 - [Quay](https://abhi.am/quay) — Article · Topics: Developer Tools · macOS & AppKit
   **NeKI brief:** Quay is a macOS utility from Kumar Abhishek; follow the product page to inspect its stated workflow and positioning as a focused developer tool rather than an implementation article or framework reference.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Peeku](https://apps.apple.com/app/peeku-presence-coach/id6773651327) — Article · Topics: Graphics, Media & Games
   **NeKI brief:** Peeku combines menu-bar break reminders with optional camera-based walk-away detection and screen-saver activation. Follow it for a concrete macOS utility design involving periodic prompts, presence sensing, and privacy-sensitive local processing.
 - [Swift Rockies](https://swiftrockies.com/) — Article · Topics: Swift
@@ -211,8 +231,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** OpenUsage presents subscription and usage information in an open-source desktop utility, helping users see where recurring services are being consumed. Useful as a reference for local usage aggregation and transparent cost awareness.
 - [BLEUnlock](https://github.com/ts1/BLEUnlock) — Source repository · Topics: Developer Tools · macOS & AppKit
   **NeKI brief:** BLEUnlock uses Bluetooth LE proximity devices such as an iPhone or Apple Watch to lock and unlock a Mac. Useful for studying a practical CoreBluetooth-to-macOS security workflow and its trust-boundary limitations.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [SideScreen](https://www.sidescreen.dev/) — Article · Topics: Cross-Platform & Web
   **NeKI brief:** SideScreen extends a Mac workspace across an iPad or other display. Follow it for concrete multi-display and window-management behavior, while checking network, performance, and permission requirements.
 - [Amnesia](https://www.vidursaini.com/amnesia) — Article · Topics: macOS & AppKit
@@ -243,8 +261,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Claude Cap is a GitHub project for capturing or managing Claude-related development activity. Follow its source and README for concrete automation hooks, while verifying its current API and permission requirements.
 - [Vorssaint](https://github.com/vorssaint/vorssaint-utils) — Source repository · Topics: Developer Career & Practice · Developer Tools · macOS & AppKit
   **NeKI brief:** Vorssaint-utils provides reusable utilities for Swift or Apple-platform development. Follow its source and tests for concrete helper behavior, then evaluate API stability, naming, and supported Swift versions before adoption.
-- [code.talks](https://codetalks.com/) — Article · Topics: Swift
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [RemindMe](https://github.com/samirpatil2000/remindme) — Source repository · Topics: Developer Tools · Swift
   **NeKI brief:** RemindMe is a Swift or Apple-platform reminder utility. Follow its source for concrete scheduling, notification, and persistence behavior, while verifying authorization and lifecycle handling before adoption.
 - [Reef](https://github.com/gouwsxander/Reef) — Source repository · Topics: Developer Tools
@@ -271,8 +287,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Drafty is a writing workspace designed to help turn rough ideas into organized text. It is relevant as a lightweight product-writing tool, but evaluate its export, privacy, and collaboration behavior before adopting it for project documentation.
 - [Headroom](https://headroom.walls.sh/) — Article · Topics: macOS & AppKit
   **NeKI brief:** Headroom is a macOS utility that surfaces available system memory and related pressure information. Use it while investigating resource-heavy development workflows, treating its readings as an operational aid rather than a replacement for Instruments.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Quakpit](https://quakpit.app/) — Article · Topics: macOS & AppKit
   **NeKI brief:** Quakpit is a macOS utility or developer product page. Follow it for the concrete workflow and integration surface described there, while requiring additional evidence before relying on its technical behavior.
 - [Swift Rockies](https://swiftrockies.com/) — Article · Topics: Swift
@@ -301,8 +315,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Offsend is a GitHub project for sending or transferring content. Follow its README and source to inspect the concrete workflow, protocol, and platform assumptions before treating it as a maintained dependency.
 - [QuickCal](https://github.com/BrianB-22/quickcal) — Source repository · Topics: Developer Tools · macOS & AppKit · Swift
   **NeKI brief:** QuickCal is a GitHub project for fast calendar entry or scheduling workflows. Follow its source and README to inspect the concrete interaction and integration surface before treating it as a maintained dependency.
-- [code.talks](https://codetalks.com/) — Article · Topics: Swift
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Napkin](https://www.napkin.ai/) — Article · Topics: AI Development · Swift
   **NeKI brief:** Napkin turns ideas or text into visual diagrams and explanatory graphics. Follow it for concrete visual-authoring workflows, while treating generated output and product claims as context rather than implementation guidance.
 - [MenuBarShelf](https://menubarshelf.talkiplanet.com/) — Article · Topics: macOS & AppKit · Swift
@@ -333,8 +345,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Open Caffeine prevents a Mac from sleeping through a small menu-bar control. Useful for inspecting a minimal, reversible power-management utility used during long builds, demos, or unattended local jobs.
 - [BarDict](https://github.com/TokinoyuushaLink/BarDict) — Source repository · Topics: Developer Tools · Hardware & Devices · Objective-C & Cocoa
   **NeKI brief:** BarDict is a macOS menu-bar dictionary application supporting MDX and MDD resources. Useful for evaluating offline dictionary lookup and packaged language assets in a compact AppKit-style utility.
-- [code.talks](https://codetalks.com/) — Article · Topics: Swift
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Windows Terminal](https://github.com/microsoft/terminal) — Source repository · Topics: Developer Tools · Swift
   **NeKI brief:** Windows Terminal combines modern terminal tabs, panes, profiles, and rendering with the original Windows console host. Useful as a cross-platform terminal reference when agent or build workflows span Windows environments.
 - [DockDoor](https://github.com/ejbills/DockDoor) — Source repository · Topics: Developer Tools · Swift
@@ -369,8 +379,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Swift Rockies is an Apple-platform developer conference page. It is event promotion rather than technical reading and should normally be excluded from the knowledge index.
 - [Leaf](https://satwiktungala.com/apps) — Article
   **NeKI brief:** Leaf is a macOS utility or developer-focused application from Satwik Tungala. Follow its page for the concrete workflow described there, while requiring further technical evidence before adoption.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Invcly](https://invcly.com/) — Article
   **NeKI brief:** Invcly is a product or utility page for invoice and business workflows. Follow it for concrete freelancer-oriented operations, while distinguishing its commercial functionality from Apple-platform development guidance.
 - [ScreenPlace](https://www.designtech.so/screenplace) — Article
@@ -391,8 +399,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Livable is a Swift or Apple-platform project with a focused developer workflow. Follow its README and source to identify the concrete API and problem it solves, then verify maintenance and platform assumptions.
 - [Slideshot](https://slideshot.ai/) — Article · Topics: AI Development · Graphics, Media & Games
   **NeKI brief:** Slideshot AI generates or assists with presentation slides. Follow it for concrete content-to-slide workflows, while checking export formats, data handling, and limitations before use.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [TongueType](https://tonguetype.app/) — Article · Topics: App Distribution & Store Operations
   **NeKI brief:** TongueType is a text or typing utility for macOS. Follow its page for concrete input and productivity interactions, while requiring additional technical evidence before treating it as developer guidance.
 - [Rainbow](https://jorviksoftware.cc/utilities/rainbowapple) — Article · Topics: macOS & AppKit
@@ -423,8 +429,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** This Bitrise session registration page covers techniques for improving iOS build speed with Xcode 26 compilation caching. Use it to discover CI optimization guidance, then validate recommendations against the project’s toolchain and measured build traces.
 - [Linker](https://linker.appmac.fr/) — Article · Topics: Hardware & Devices · Systems Programming
   **NeKI brief:** Linker is a macOS utility for working with links or navigation. Follow its page for concrete URL-handling and menu-bar behavior, while checking supported workflows and current platform compatibility.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Northstar](https://www.gonorthstar.io/) — Article · Topics: App Distribution & Store Operations
   **NeKI brief:** Northstar combines App Store keyword opportunity scores, competitor metadata and review tracking, App Store Connect synchronization, and an MCP server for LLM-assisted optimization. It is useful when researching an auditable alternative to ad-hoc ASO spreadsheets.
 - [Ezscreenshots](https://ezscreenshots.com/) — Article · Topics: App Distribution & Store Operations
@@ -459,8 +463,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** AscBuddy positions itself as an App Store Connect workflow tool for optimizing, launching, and growing apps. Follow it for a concrete release-and-growth workflow, while separating its product claims from Apple’s own documentation.
 - [Breaks](https://gjinprelvukaj.github.io/Breaks) — Article · Topics: AI Development · Developer Tools
   **NeKI brief:** Breaks presents a macOS utility for scheduling or encouraging work breaks. Follow it for a concrete reminder and menu-bar interaction pattern, rather than as framework or implementation documentation.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [TextSniper](https://textsniper.app/) — Article · Topics: Developer Tools
   **NeKI brief:** TextSniper extracts text from screen regions using OCR. Follow it for a concrete macOS capture-to-text workflow, while checking language support, local processing, and privacy behavior.
 - [Tella](https://www.tella.com/) — Article · Topics: Graphics, Media & Games
@@ -491,8 +493,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** KIF provides an integration-testing framework for iOS interfaces. Follow its source for concrete user-action, synchronization, and assertion patterns, while checking compatibility with current XCTest and accessibility behavior.
 - [Just10](https://github.com/zunguyen/Just10) — Source repository · Topics: Developer Tools · macOS & AppKit
   **NeKI brief:** Just10 is a Swift or Apple-platform developer project. Follow its repository for the concrete problem, API shape, and usage examples, while verifying supported platforms and maintenance before adoption.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [AeroSpace (Beta)](https://github.com/nikitabobko/AeroSpace) — Source repository · Topics: Developer Tools
   **NeKI brief:** AeroSpace is a tiling window manager for macOS. Follow its source for concrete workspace, keyboard, and window-placement behavior, while checking configuration and compatibility with current system APIs.
 - [MonthBar](https://month.bar/) — Article · Topics: macOS & AppKit
@@ -523,8 +523,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** MakLock provides a macOS locking or security utility. Follow its source for concrete system-integration and state-transition behavior, while checking permissions and failure handling before relying on it for device protection.
 - [CC Usage Bar](https://github.com/lionhylra/cc-usage-bar) — Source repository · Topics: Developer Tools
   **NeKI brief:** CC Usage Bar presents usage or quota information in a macOS status-bar interface. Follow its source for concrete monitoring and menu-bar integration, while verifying which service APIs and credentials it requires.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Cut App Store Fees on Every Subscription You Sell](https://web2wave.com/) — Article · Topics: App Distribution & Store Operations
   **NeKI brief:** Web2Wave promotes a service for reducing App Store fees on subscriptions. It is commercial monetization guidance rather than technical implementation reading and should normally be excluded from the knowledge index.
 - [Swift Rockies](https://swiftrockies.com/) — Article · Topics: Swift
@@ -549,8 +547,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Claude Account Switcher manages multiple Claude Code and Codex CLI accounts from a Mac menu bar, showing usage and switching at limits. Useful for studying credential-profile separation and the operational risks of automated account changes.
 - [Pica](https://github.com/onmyway133/pica) — Source repository · Topics: Developer Tools
   **NeKI brief:** Pica discovers Claude Code agents, skills, commands, hooks, and rules in GitHub repositories or local paths, then offers interactive copy or symlink installation at local or global scope. It helps inspect and curate agent tooling without manual file copying.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [AppLayouts](https://www.applayouts.com/) — Article · Topics: Developer Community & Business
   **NeKI brief:** Provides a catalogue of reusable app layout patterns and interface examples. Use it to compare navigation, content hierarchy, and responsive composition ideas before designing a SwiftUI or UIKit screen.
 - [See Where Your App Ranks in the App Store](https://bitrise.io/resources/tools/app-navigator) — Article · Topics: App Distribution & Store Operations
@@ -581,8 +577,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Swift Rockies is an Apple-platform developer conference page. It is event promotion rather than technical reading and should normally be excluded from the knowledge index.
 - [MAU Vegas](https://mauvegas.com/) — Article
   **NeKI brief:** MAU Vegas is a Mac community or event page. It is community promotion rather than technical reading and should normally be excluded from the knowledge index.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Pippin](https://github.com/acrollet/pippin) — Source repository · Topics: Developer Tools
   **NeKI brief:** Pippin is a Swift or Apple-platform developer project. Follow its README and source to inspect the concrete problem it solves, public API, and integration assumptions before treating it as a dependency.
 - [Developer Icons](https://xandemon.github.io/developer-icons/icons/All) — Article · Topics: Developer Tools
@@ -605,8 +599,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Superset is a developer tool or platform project. Follow its README and source for the concrete workflow, API surface, and integration assumptions, then assess maintenance before using it as a dependency.
 - [Claude Usage Monitor](https://github.com/theDanButuc/Claude-Usage-Monitor) — Source repository · Topics: AI Development · Developer Tools
   **NeKI brief:** Claude Usage Monitor tracks usage information for Claude-related workflows. Follow its source for concrete accounting and display behavior, while checking service endpoints, authentication, and data-handling assumptions.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Mole](https://github.com/tw93/Mole) — Source repository · Topics: Developer Tools
   **NeKI brief:** Mole is a macOS system-cleaning and maintenance utility. Follow its source for concrete discovery and cleanup behavior, while treating deletion safeguards, permissions, and recoverability as security-sensitive.
 - [Swift Rockies](https://swiftrockies.com/) — Article · Topics: Swift
@@ -631,8 +623,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Dispatched provides an application or automation workflow for dispatching tasks or messages. Follow its page for concrete integration behavior, while verifying supported services and operational limits.
 - [Claudoscope](https://claudoscope.com/) — Article
   **NeKI brief:** Claudoscope presents a macOS utility for inspecting and managing Claude-related activity. Follow it for a concrete developer-tool workflow around AI-assisted workspaces, while requiring further technical documentation before treating its implementation as established guidance.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [lil agents](https://lilagents.xyz/) — Article · Topics: AI Development
   **NeKI brief:** lil agents presents a project for small AI agents or automation workflows. Follow it for concrete orchestration and tool-use ideas, while verifying runtime, provider, and privacy assumptions before adoption.
 - [Swift Rockies](https://swiftrockies.com/) — Article · Topics: Swift
@@ -655,8 +645,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Web2Wave promotes services for mobile-app subscription monetization. It is commercial growth material rather than technical implementation reading and should normally be excluded from the knowledge index.
 - [CoreDataBrowser](https://github.com/kyletaylor94/CoreDataBrowser) — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **NeKI brief:** CoreDataBrowser provides tooling for browsing Core Data stores. Follow its source for concrete persistence inspection and debugging workflows, while checking schema, migration, and read/write safety boundaries.
-- [code.talks](https://codetalks.com/) — Article
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Petal](https://github.com/Aayush9029/petal) — Source repository · Topics: Developer Tools
   **NeKI brief:** Petal is a GitHub project offering an Apple-platform developer implementation. Follow its source and README to inspect the concrete API shape, supported platform, and integration trade-offs before using it as a dependency.
 - [NothingHere](https://solee0524.github.io/NothingHere) — Article · Topics: Developer Tools

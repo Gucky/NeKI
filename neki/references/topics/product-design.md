@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App product, visual design, UX, branding, and design-to-code process.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **282**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **283**
 
 ## Direct-source reading
 
@@ -191,6 +191,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Phil Schiller reportedly steps down as Apple's App Store and product event chief](https://www.engadget.com/2247924/phil-schiller-reportedly-steps-down-as-apple-app-store-and-product-event-chief) — iOS Dev Weekly · Issue 766 — Article · Topics: AI Development · App Distribution & Store Operations · Product Design
+  **Published:** `4th September 2026`
+  **NeKI brief:** Reports an App Store leadership change while Phil Schiller remains an Apple Fellow. Use it as organizational context only; it does not establish a change to review policy or developer contracts.
+- [Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, and macOS.](https://github.com/xtool-org/xtool) — iOS Dev Weekly · Issue 766 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Product Design
+  **Published:** `4th September 2026`
+  **NeKI brief:** Builds and deploys iOS applications through SwiftPM on macOS, Linux, and Windows as an alternative toolchain path. Evaluate signing, SDK provenance, debugging, and App Store workflow coverage before adoption.
 - [Amethyst Vein: An Open-Source, Cross-Platform Local Persistence Framework with SwiftData-Style APIs](https://l.fatbobman.com/w0150-6) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Cross-Platform & Web · Swift · SwiftData
   **Published:** `2026-08-24T12:03:48.210Z`
   **NeKI brief:** Presents Vein, an open-source local-first ORM with SwiftData-like macros, model containers, queries, migrations, and a SQLite/SQLCipher backend across Apple platforms, Linux, Android, and Windows. Use it to assess a shared Swift persistence layer rather than assuming SwiftData portability.
@@ -215,9 +221,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Swift Rockies](https://swiftrockies.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Product Design · Swift
   **Published:** `2026-07-16T16:45:11.086Z`
   **NeKI brief:** Swift Rockies is an Apple-platform developer conference page. It is event promotion rather than technical reading and should normally be excluded from the knowledge index.
-- [code.talks](https://codetalks.com/) — iOS Dev Tools · iOS Dev Tools: MistKit, Swift Scribe, cmux — Article · Topics: Product Design
-  **Published:** `2026-07-16T16:45:11.086Z`
-  **NeKI brief:** code.talks is a developer conference in Hamburg, repeatedly listed by iOS Dev Tools with its November dates. Use it as a discovery point for speakers, sessions, and community discussion, not as implementation documentation.
 - [Promptberry](https://github.com/onmyway133/Promptberry) — iOS Dev Tools · iOS Dev Tools: Promptberry, SolidLikeARock, MLX Swift LM — Source repository · Topics: Developer Tools · Product Design · Swift
   **Published:** `2026-06-11T16:01:47.008Z`
   **NeKI brief:** Promptberry is a GitHub project for prompt or AI-assisted developer workflows. Follow its source for concrete prompt composition and integration behavior, while verifying providers, credentials, and privacy boundaries.

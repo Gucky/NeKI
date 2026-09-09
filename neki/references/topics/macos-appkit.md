@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** macOS app lifecycle, menu-bar apps, Cocoa, and AppKit integration.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **537**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **542**
 
 ## Direct-source reading
 
@@ -113,6 +113,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [AI-Accelerated Mobile Development: Lessons from My NSLondon Talk](https://gioscalzo.com/blog/ai-accelerated-mobile-development-nslondon) — Those Who Swift · Issue 283 — Article · Topics: AI Development · Security & Privacy
+  **Published:** `2026-09-09T20:05:48.711Z`
+  **NeKI brief:** Compares two agent-built mobile app experiments and identifies the explanation, coordination, and verification still required from the developer. It is evidence about orchestration limits rather than autonomous-delivery claims.
+- [Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, and macOS.](https://github.com/xtool-org/xtool) — iOS Dev Weekly · Issue 766 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Product Design
+  **Published:** `4th September 2026`
+  **NeKI brief:** Builds and deploys iOS applications through SwiftPM on macOS, Linux, and Windows as an alternative toolchain path. Evaluate signing, SDK provenance, debugging, and App Store workflow coverage before adoption.
+- [Naseem](https://ayman3000.github.io/naseem-app) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Article · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Presents a native macOS agent that can use local or hosted models to run commands, edit files, automate apps, and drive Simulator behind approval gates. Review its permission and secret boundaries first.
+- [RunnerKit](https://runnerkit.app/) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Article · Topics: macOS & AppKit · Xcode
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Provides saved Xcode build and launch configurations through a macOS menu-bar app and CLI, with logs for repeatable runs. Compare its automation and credential model with existing project tooling.
+- [FindDiskKiller](https://finddiskkiller.com/en) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Article · Topics: AI Development
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Combines process-level disk I/O, session attribution, file activity, drive health, and guided cleanup in a macOS workspace. Use it to gather evidence before deleting build or agent data.
 - [Mac App Direct Distribution, DMG Signing & Notarization Guide](https://l.fatbobman.com/w0151-05) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Distribution & Store Operations
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Walks through direct macOS distribution with Developer ID signing, DMG creation, notarization, stapling, and Gatekeeper validation. Use it as a release-process checklist while verifying current Apple requirements.

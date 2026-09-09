@@ -3,8 +3,42 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.fatbobman.com/archive](https://weekly.fatbobman.com/archive)
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed entries: **151**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **152**
+
+## [Issue 152](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-152)
+
+- Published: `2026-09-07T12:03:43.098Z`
+
+**Topics:** Core Data · Objective-C & Cocoa · Persistence & Synchronisation · Swift · SwiftData · SwiftUI
+
+**Sections:** When the Mac mini’s Price Is No Longer Mini · 📢 Sponsor Fatbobman’s Swift Weekly · Original
+
+**NeKI brief:** Collects Swift project updates, Embedded Swift and multiplatform experiments, Simulator Bluetooth work, SwiftUI reordering, Swift Charts, and Core Data inspection tools. Treat each linked implementation as a separate compatibility decision.
+
+**Selected links:**
+- [Reorder all the things in SwiftUI](https://l.fatbobman.com/w0152-06) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **NeKI brief:** Shows drag-to-reorder behavior for SwiftUI lists, stacks, grids, and custom layouts. Use it to compare container-specific mechanics and interaction feedback rather than assuming List's move support generalizes everywhere.
+- [CoreDataBrowser: Quickly Inspect Local Data in the Simulator](https://l.fatbobman.com/w0152-08) — Article · Topics: Core Data · Developer Tools · Persistence & Synchronisation
+  **NeKI brief:** Introduces a Simulator utility for inspecting Core Data stores and pairs its App Store listing with public source. Evaluate schema safety and whether inspection can remain read-only for production-like data.
+- [source code is publicly available](https://github.com/kyletaylor94/CoreDataBrowser) — Source repository · Topics: Core Data · Objective-C & Cocoa · Persistence & Synchronisation
+  **NeKI brief:** CoreDataBrowser provides tooling for browsing Core Data stores. Follow its source for concrete persistence inspection and debugging workflows, while checking schema, migration, and read/write safety boundaries.
+- [Building a sunburst diagram in Swift Charts](https://l.fatbobman.com/w0152-07) — Article · Topics: Objective-C & Cocoa · Swift
+  **NeKI brief:** Builds a hierarchical sunburst visualization as nested Swift Charts sectors, aligning child angles with their parent groups. It is useful when choosing data normalization, angular marks, labels, and interaction for multilevel proportions.
+- [OpenSwiftUI on ESP32-C3](https://l.fatbobman.com/w0152-03) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **NeKI brief:** Demonstrates an Embedded Swift experiment that runs OpenSwiftUI-style measured stacks and button-driven state updates on an ESP32-C3. Treat it as a constrained-platform prototype rather than general SwiftUI compatibility.
+- [Multiplatform Swift, with C++ dependencies via XCFramework, apt and vcpkg](https://l.fatbobman.com/w0152-04) — Article · Topics: Dependency Injection · Swift · Systems Programming
+  **NeKI brief:** Builds one Swift package around a C++ dependency across macOS, Linux, and Windows using XCFramework, apt, and vcpkg respectively. It exposes the packaging trade-offs behind a nominally shared API.
+- [BLESwift 2.0](https://github.com/kylebrowning/BLESwift) — Source repository · Topics: Developer Tools · Swift · Testing
+  **NeKI brief:** Provides Swift 6.2 async and actor-isolated CoreBluetooth APIs, AsyncSequence scanning, typed GATT operations, multicast notifications, background restoration, and Simulator transport. Check supported Apple platforms and real-device parity before adoption.
+- [The End of Swift Talk](https://l.fatbobman.com/w0152-01) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains why objc.io ended Swift Talk after 500 episodes while retaining the existing catalogue. It is useful as community and resource-lifecycle context, not as a technical migration guide.
+- [What’s new in Swift: August 2026 Edition](https://l.fatbobman.com/w0152-02) — Article · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Rounds up August 2026 Swift work across web and Windows support, Embedded Swift, package registries, testing proposals, and ownership-oriented language changes. Use the digest to locate primary project discussions and proposals.
+- [Iterable](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0516-borrowing-sequence.md) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** Introduces Iterable for borrowing, potentially throwing iteration over noncopyable or nonescapable values. Its Span-based iterator addresses cases that Sequence cannot model without copying or consuming elements.
+- [Connecting two iOS simulators over BLE](https://l.fatbobman.com/w0152-05) — Article · Topics: Swift · Testing
+  **NeKI brief:** Works around the Simulator's missing CoreBluetooth transport by connecting two simulated apps through host-side BLESwift support. Evaluate how the test path differs from real radios, permissions, restoration, and timing.
 
 ## [Issue 151](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-151)
 

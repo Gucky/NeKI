@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.swiftjectivec.com/allposts](https://www.swiftjectivec.com/allposts)
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed entries: **202**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **203**
 
+- [iPhone Duo: First Developer Good-to-Knows | Swiftjective-C](https://swiftjectivec.com/iPhone-Duo-First-Developer-Good-to-Knows)
+  **Published:** `2026-09-09T00:00:00-05:00`
+  **Topics:** Swift
+  **NeKI brief:** Summarizes early dual-screen adaptation guidance around size classes, asymmetric safe areas, hinge-aware effects, multitasking, toolbar overflow, and camera behavior. Treat it as preparatory reading until the referenced SDK details are stable.
 - [The Spend Stack Revival | Swiftjective-C](https://swiftjectivec.com/The-Spend-Stack-Revival)
   **Published:** `2026-08-31T00:00:00-05:00`
   **Topics:** Developer Community & Business · Objective-C & Cocoa · Persistence & Synchronisation

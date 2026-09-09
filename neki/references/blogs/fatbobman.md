@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://fatbobman.com/en/posts/](https://fatbobman.com/en/posts/)
-- Last collected: `2026-08-27T13:26:05Z`
-- Indexed entries: **235**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **236**
 
+- [SwiftData - Optimization Starts with Modeling](https://fatbobman.com/en/posts/swiftdata-optimization-starts-with-modeling)
+  **Published:** `2026-09-02T14:00:00.000Z`
+  **Topics:** Core Data · Persistence & Synchronisation · Swift · SwiftData
+  **NeKI brief:** Explains why large SwiftData rows can stall lists when fetching also materializes their stored values. It advocates separating heavy payloads during modeling so ordinary list queries load only the data they need.
 - [From Using AI to Delegating Work to AI (Part 2) - What I Mean by Delegability](https://fatbobman.com/en/posts/from-using-ai-to-delegating-work-to-ai-2)
   **Published:** `2026-08-19T14:00:00.000Z`
   **Topics:** AI Development

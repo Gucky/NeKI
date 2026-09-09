@@ -3,8 +3,32 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevweekly.com/issues/](https://iosdevweekly.com/issues/)
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed entries: **761**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **762**
+
+## [Issue 766](https://iosdevweekly.com/issues/766)
+
+- Published: `4th September 2026`
+
+**Topics:** App Distribution & Store Operations · Cross-Platform & Web · Developer Community & Business · Performance · Product Design · Swift
+
+**Sections:** Comment · News
+
+**NeKI brief:** Combines Apple leadership news with practical reading on nested weak captures, scene-relative UIKit geometry, lighter Simulator processes, and cross-platform SwiftPM deployment. The linked tools require separate safety and support evaluation.
+
+**Selected links:**
+- [Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, and macOS.](https://github.com/xtool-org/xtool) — Source repository · Topics: Cross-Platform & Web · Developer Tools · Product Design
+  **NeKI brief:** Builds and deploys iOS applications through SwiftPM on macOS, Linux, and Windows as an alternative toolchain path. Evaluate signing, SDK provenance, debugging, and App Store workflow coverage before adoption.
+- [Phil Schiller reportedly steps down as Apple's App Store and product event chief](https://www.engadget.com/2247924/phil-schiller-reportedly-steps-down-as-apple-app-store-and-product-event-chief) — Article · Topics: AI Development · App Distribution & Store Operations · Product Design
+  **NeKI brief:** Reports an App Store leadership change while Phil Schiller remains an Apple Fellow. Use it as organizational context only; it does not establish a change to review policy or developer contracts.
+- [4x Simulator performance with this one weird trick](https://github.com/MobAI-App/simslim) — Source repository · Topics: AI Development · Developer Tools · Performance
+  **NeKI brief:** Disables selected background daemons inside Simulator runtimes to reduce memory and run more devices per Mac. Treat its speed claims as workload-specific and review service side effects before CI use.
+- [Why Swift is introducing a warning for weak captures within nested closures](https://www.swiftbysundell.com/articles/warning-for-nested-weak-self-closure-captures) — Article · Topics: Swift
+  **NeKI brief:** Explains a new diagnostic for nested closures where an outer strong capture can defeat an inner weak self capture. Use it to reason about the complete closure chain rather than mechanically adding weak references.
+- [Effective Geometry: Layout Without `UIScreen.main`](https://livsycode.com/uikit/effective-geometry-layout-without-uiscreen-main) — Article · Topics: UIKit
+  **NeKI brief:** Explains why UIScreen.main is wrong for resizable and multi-display UIKit windows, and uses UIWindowScene effective geometry plus change callbacks instead. Useful for migrating layout assumptions to scene-relative space.
+- [Swift Talk podcast ends after 500 episodes](https://www.objc.io/blog/2026/09/04/the-end-of-swift-talk) — Podcast · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Marks the conclusion of Swift Talk after 500 episodes and explains how existing videos remain available. It is community-history and catalogue context rather than a new implementation tutorial.
 
 ## [Issue 765](https://iosdevweekly.com/issues/765)
 

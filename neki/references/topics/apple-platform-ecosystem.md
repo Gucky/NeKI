@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** WWDC and platform announcements, Apple ecosystem context, compatibility history, and release-overview reading.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **653**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **655**
 
 ## Direct-source reading
 
@@ -739,6 +739,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [OpenSwiftUI on ESP32-C3](https://l.fatbobman.com/w0152-03) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Demonstrates an Embedded Swift experiment that runs OpenSwiftUI-style measured stacks and button-driven state updates on an ESP32-C3. Treat it as a constrained-platform prototype rather than general SwiftUI compatibility.
+- [Reorder all the things in SwiftUI](https://l.fatbobman.com/w0152-06) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Shows drag-to-reorder behavior for SwiftUI lists, stacks, grids, and custom layouts. Use it to compare container-specific mechanics and interaction feedback rather than assuming List's move support generalizes everywhere.
 - [Sarunw’s How-to Series Returns](https://l.fatbobman.com/w0151-07) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Apple Platform Ecosystem
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Notes Sarunw's return to publishing practical Apple-platform articles. It is source-news context rather than an implementation guide.

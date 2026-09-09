@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Core Data models, fetching, migration, concurrency, and persistence behaviour.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **286**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **288**
 
 ## Direct-source reading
 
+- [SwiftData - Optimization Starts with Modeling](https://fatbobman.com/en/posts/swiftdata-optimization-starts-with-modeling) — Fatbobman · article catalogue
+  **Published:** `2026-09-02T14:00:00.000Z`
+  **NeKI brief:** Explains why large SwiftData rows can stall lists when fetching also materializes their stored values. It advocates separating heavy payloads during modeling so ordinary list queries load only the data they need.
 - [Core Data with SwiftUI Tutorial: Getting Started | Kodeco](https://www.kodeco.com/9335365-core-data-with-swiftui-tutorial-getting-started) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** The starter app wires Core Data into SwiftUI through @State, @Environment, and @FetchRequest, illustrating the view-to-persistence data flow in the older SwiftUI model API.
@@ -595,6 +598,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [CoreDataBrowser: Quickly Inspect Local Data in the Simulator](https://l.fatbobman.com/w0152-08) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Core Data · Developer Tools · Persistence & Synchronisation
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Introduces a Simulator utility for inspecting Core Data stores and pairs its App Store listing with public source. Evaluate schema safety and whether inspection can remain read-only for production-like data.
+- [source code is publicly available](https://github.com/kyletaylor94/CoreDataBrowser) — Fatbobman’s Swift Weekly · Issue 152 — Source repository · Topics: Core Data · Objective-C & Cocoa · Persistence & Synchronisation
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** CoreDataBrowser provides tooling for browsing Core Data stores. Follow its source for concrete persistence inspection and debugging workflows, while checking schema, migration, and read/write safety boundaries.
 - [Core Data + Observation: From Property-Level Reactivity to a Freer Mental Model](https://fatbobman.com/en/posts/core-data-observation-freer-mental-model?ref=createwithswift.com) — Create with Swift · Issue 110 — Article · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-06-06T14:00:23.000Z`
   **NeKI brief:** Explains how Core Data observation shifts from property-level change tracking toward a broader data-flow model, clarifying where SwiftUI invalidation and persistence boundaries meet.
@@ -607,9 +616,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Core Data Evolution](https://github.com/fatbobman/CoreDataEvolution) — Fatbobman’s Swift Weekly · Issue 128 — Source repository · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-03-23T12:02:22.360Z`
   **NeKI brief:** CoreDataEvolution experiments with bringing ModelActor-like concurrency structure to Core Data. Use it when modernizing a Core Data stack while retaining its model and store, especially to centralize context ownership and serialized mutations.
-- [CoreDataBrowser](https://github.com/kyletaylor94/CoreDataBrowser) — iOS Dev Tools · iOS Dev Tools: web2wave, CoreDataBrowser, DataStoreKit — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
-  **Published:** `2026-03-19T17:30:50.047Z`
-  **NeKI brief:** CoreDataBrowser provides tooling for browsing Core Data stores. Follow its source for concrete persistence inspection and debugging workflows, while checking schema, migration, and read/write safety boundaries.
 - [Apple Doesn’t Show SwiftData iCloud Sync Status — So Let’s Build One](https://azamsharp.com/2026/03/16/swiftdata-icloud-sync-status.html) — Those Who Swift · Issue 258 — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
   **Published:** `2026-03-18`
   **NeKI brief:** Azam shows how to build a simple sync status monitor for SwiftData, giving users meaningful feedback on what's happening behind the scenes while their data syncs with iCloud.

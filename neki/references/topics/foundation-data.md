@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Foundation APIs, dates, text, Unicode, serialization, and data formats.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **204**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **205**
 
 ## Direct-source reading
 
@@ -83,6 +83,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Working With Images Using Foundation Models](https://azamsharp.com/2026/09/06/working-with-images-using-foundation-models.html) — SwiftLee Weekly · Issue 340 — Article · Topics: AI Development · Cross-Platform & Web · Foundation & Data Formats
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Demonstrates passing image input into Apple's Foundation Models workflows and combining visual context with generated output. Confirm supported formats, resource costs, and model availability for the target OS.
 - [NSTextTable in Swift](https://livsycode.com/uikit/nstexttable-in-swift) — Those Who Swift · Issue 281 — Article · Topics: Swift · UIKit
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Introduces NSTextTable and NSTextTableBlock in UIKit for creating tables inside NSAttributedString, now available to iOS developers in the iOS 27 SDK. It distinguishes rich-text tables from UITableView and shows when the text model is the appropriate layout layer.

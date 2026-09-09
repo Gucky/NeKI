@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.swiftbysundell.com/archive/](https://www.swiftbysundell.com/archive/)
-- Last collected: `2026-08-04T16:05:07Z`
-- Indexed entries: **482**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **483**
 
+- [Why Swift is introducing a warning for weak captures within nested closures | Swift by Sundell](https://www.swiftbysundell.com/articles/warning-for-nested-weak-self-closure-captures)
+  **Published:** `2026-08-30`
+  **Topics:** Swift
+  **NeKI brief:** Explains a new diagnostic for nested closures where an outer strong capture can defeat an inner weak self capture. Use it to reason about the complete closure chain rather than mechanically adding weak references.
 - [Swift protocols and the main actor | Swift by Sundell](https://www.swiftbysundell.com/articles/swift-protocols-and-the-main-actor)
   **Published:** `2026-07-31`
   **Topics:** Concurrency · Swift

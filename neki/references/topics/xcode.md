@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Xcode, builds, signing, debugging, tooling, CI, and developer workflows.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **1425**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **1434**
 
 ## Direct-source reading
 
@@ -1980,15 +1980,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, and macOS.](https://github.com/xtool-org/xtool) — iOS Dev Weekly · Issue 766 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Product Design
+  **Published:** `4th September 2026`
+  **NeKI brief:** Builds and deploys iOS applications through SwiftPM on macOS, Linux, and Windows as an alternative toolchain path. Evaluate signing, SDK provenance, debugging, and App Store workflow coverage before adoption.
+- [Virtual Mac on iPad](https://github.com/nfzerox/VirtualMacOniPad) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Source repository · Topics: Developer Tools · Personal Essays · Xcode
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Describes running macOS and desktop tools on specific older M-series iPads and iPadOS versions. Treat it as an experimental compatibility project with substantial security, support, and device-version constraints.
+- [RunnerKit](https://runnerkit.app/) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Article · Topics: macOS & AppKit · Xcode
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Provides saved Xcode build and launch configurations through a macOS menu-bar app and CLI, with logs for repeatable runs. Compare its automation and credential model with existing project tooling.
+- [Headless Xcode: From Prompt To Simulator With MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — Those Who Swift · Issue 282 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [Uploading To TestFlight From The Command Line](https://kylebrowning.com/posts/uploading-to-testflight-from-the-command-line) — Those Who Swift · Issue 282 — Article · Topics: App Distribution & Store Operations · Developer Tools · Testing
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Walks through archiving, exporting, and uploading an iOS build with xcodebuild and Apple's command-line tools without Fastlane. Verify the current upload utility, signing, and authentication requirements before scripting releases.
+- [Fix Sluggish SwiftUI Previews Instantly With Static Mock Data](https://sagarunagar.com/blog/fix-sluggish-xcode-swiftui-previews-mock-data) — Those Who Swift · Issue 282 — Article · Topics: Swift · SwiftUI · Xcode
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Uses protocol-backed static mock data to keep SwiftUI previews from waiting on production services or expensive model setup. The pattern improves iteration when preview dependencies remain deterministic and isolated.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp?ref=ioscodereview.com) — iOS Code Review · Issue 85 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-09-01T18:37:07.000Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [The Xcode 27 Agent Skills](https://livsycode.com/best-practices/the-xcode-27-agent-skills?ref=ioscodereview.com) — iOS Code Review · Issue 85 — Article · Topics: Xcode
+  **Published:** `2026-09-01T18:37:07.000Z`
+  **NeKI brief:** Explains the purpose and layout of Xcode 27's exported agent skills and how reusable instructions shape tool use and constraints. Verify the installation and invocation details against the current Xcode release.
 - [JindoKit: Preview Dynamic Island presentations in your app](https://l.fatbobman.com/w0151-08) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Services & Extensions · Developer Tools · Xcode
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Introduces JindoKit for previewing Dynamic Island presentations in ordinary SwiftUI views. Use it to explore presentation states while validating the result against actual WidgetKit behaviour.
 - [agentic skill](https://youtu.be/rAvlt9Dvgbo?si=SUHzOy3YLZ3m-N-j&t=855) — iOS Dev Weekly · Issue 765 — Video · Topics: AI Development · Xcode
   **Published:** `28th August 2026`
   **NeKI brief:** Links to a video segment about Apple-platform agentic skills. Treat it as a discovery lead and verify tool behaviour against current primary documentation.
-- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — iOS Dev Weekly · Issue 765 — Article · Topics: AI Development · Xcode
-  **Published:** `28th August 2026`
-  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
 - [Xcode Tools Documentation](https://github.com/artemnovichkov/xcode-tools-docs) — iOS Dev Weekly · Issue 765 — Source repository · Topics: Architecture · Developer Tools · Xcode
   **Published:** `28th August 2026`
   **NeKI brief:** Collects missing or hard-to-find Xcode command-line and tool documentation in an inspectable repository, useful for discovering a workflow before validating it against Apple’s current documentation.
@@ -4194,6 +4215,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Xcode Snippet Management](https://github.com/lukeredpath/xcodesnippets) — iOS Dev Weekly · Issue 1 — Source repository · Topics: Developer Career & Practice · Developer Tools · Xcode
   **Published:** `5th August 2011`
   **NeKI brief:** Examines A command-line utility for managing Xcode 4 code snippets - lukeredpath/xcodesnippets. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Conditional Breakpoints in Xcode - Debug Specific States Faster](https://go.peterfriese.dev/swift-conditional-breakpoints-xcode?s=web&t=ext) — Not only Swift · Issue 104 — Article · Topics: Developer Community & Business · Swift · Xcode
+  **NeKI brief:** Shows how Xcode breakpoint conditions pause only when a Swift expression matches a target state. Use it to reduce debugger noise while keeping conditions cheap and side-effect free.
+- [Corner Concentricity in SwiftUI on iOS 26](https://go.peterfriese.dev/swiftui-concentric-rectangle?s=web&t=ext) — Not only Swift · Issue 104 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Demonstrates iOS 26 ConcentricRectangle and containerShape for aligning nested SwiftUI corners with their container. Check availability and visual results across sizes before replacing explicit radii.
 - [Headless Xcode: From Prompt to Simulator with MCP](https://go.peterfriese.dev/ai-headless-xcode-from-prompt-to-simulator-with-mcp?s=web&t=ext) — Not only Swift · Issue 102 — Article · Topics: AI Development · Xcode
   **NeKI brief:** Shows how Xcode 27’s headless MCP server can be enabled, registered per project, and combined with exported Xcode skills. The walkthrough creates files, builds, renders SwiftUI previews, and verifies simulator interaction while retaining per-agent permission approval.
 - [XcodeBuildMCP](https://go.peterfriese.dev/xcodebuildmcp?s=web&t=ext) — Not only Swift · Issue 102 — Article · Topics: AI Development · Xcode

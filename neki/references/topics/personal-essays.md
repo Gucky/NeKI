@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Personal and reflective writing from developer authors that does not make a technical claim.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **229**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **231**
 
 ## Direct-source reading
 
@@ -86,6 +86,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Virtual Mac on iPad](https://github.com/nfzerox/VirtualMacOniPad) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Source repository · Topics: Developer Tools · Personal Essays · Xcode
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Describes running macOS and desktop tools on specific older M-series iPads and iPadOS versions. Treat it as an experimental compatibility project with substantial security, support, and device-version constraints.
+- [Hoy](https://gethoy.app/) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Article · Topics: Personal Essays
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Uses iCloud for direct file sharing between people from a native macOS app. Evaluate recipient workflow, retention, account requirements, and privacy before adopting it for team asset exchange.
 - [Running iOS Background Tasks Reliably](https://l.fatbobman.com/w0151-02) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Services & Extensions · Personal Essays
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Documents the practical unreliability of iOS background-task scheduling and the value of telemetry from real devices. It helps separate a submitted BGTask request from any assumption that work will run on a fixed schedule.

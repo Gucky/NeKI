@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.avanderlee.com/](https://www.avanderlee.com/)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **366**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **367**
 
+- [The iOS Simulator Inside Cursor, Claude Code, and Codex - SwiftLee](https://www.avanderlee.com/ai-development/the-ios-simulator-inside-cursor-claude-code-and-codex)
+  **Published:** `2026-09-07T13:07:15+00:00`
+  **Topics:** AI Development · Concurrency · Performance · Swift
+  **NeKI brief:** Shows how keeping a live iOS Simulator beside an agentic editor shortens the prompt, run, and review loop for interface work. It also frames visual inspection and performance evidence as continuing developer responsibilities.
 - [How to free up Xcode disk space safely with an AI Agent - SwiftLee](https://www.avanderlee.com/ai-development/how-to-free-up-xcode-disk-space-safely-with-an-ai-agent)
   **Published:** `2026-07-27T08:34:16+00:00`
   **Topics:** AI Development · Developer Tools · Xcode

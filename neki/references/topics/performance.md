@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Profiling, Instruments, rendering cost, launch time, memory, and runtime efficiency.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **509**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **511**
 
 ## Direct-source reading
 
+- [The iOS Simulator Inside Cursor, Claude Code, and Codex - SwiftLee](https://www.avanderlee.com/ai-development/the-ios-simulator-inside-cursor-claude-code-and-codex) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-09-07T13:07:15+00:00`
+  **NeKI brief:** Shows how keeping a live iOS Simulator beside an agentic editor shortens the prompt, run, and review loop for interface work. It also frames visual inspection and performance evidence as continuing developer responsibilities.
 - [ContentBuilder Explained - The Secret Behind SwiftUI's Type-Checking Speedup](https://fatbobman.com/en/posts/contentbuilder-explained) — Fatbobman · article catalogue
   **Published:** `2026-08-12T14:00:00.000Z`
   **NeKI brief:** Dissects ContentBuilder as a separation between content construction and protocol-specific validation, then benchmarks the resulting type-checking gains. It also explains where the pattern helps shared SwiftUI APIs and where it is not a cure-all.
@@ -678,6 +681,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [4x Simulator performance with this one weird trick](https://github.com/MobAI-App/simslim) — iOS Dev Weekly · Issue 766 — Source repository · Topics: AI Development · Developer Tools · Performance
+  **Published:** `4th September 2026`
+  **NeKI brief:** Disables selected background daemons inside Simulator runtimes to reduce memory and run more devices per Mac. Treat its speed claims as workload-specific and review service side effects before CI use.
 - [JoltPhysics](https://github.com/EvgenijLutz/JoltPhysics) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: Developer Tools · Graphics, Media & Games · Performance
   **Published:** `2026-08-27T20:30:45.555Z`
   **NeKI brief:** Provides a Swift-facing package around the Jolt C++ physics engine for real-time simulation. Assess native dependency, determinism, and supported-platform trade-offs before making it an app dependency.

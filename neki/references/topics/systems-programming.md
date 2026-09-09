@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** C/C++, assembly, linking, allocators, memory layout, and systems tooling relevant to Apple platforms.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **71**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **72**
 
 ## Direct-source reading
 
@@ -49,6 +49,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Multiplatform Swift, with C++ dependencies via XCFramework, apt and vcpkg](https://l.fatbobman.com/w0152-04) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Dependency Injection · Swift · Systems Programming
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Builds one Swift package around a C++ dependency across macOS, Linux, and Windows using XCFramework, apt, and vcpkg respectively. It exposes the packaging trade-offs behind a nominally shared API.
 - [JoltPhysics](https://github.com/EvgenijLutz/JoltPhysics) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: Developer Tools · Graphics, Media & Games · Performance
   **Published:** `2026-08-27T20:30:45.555Z`
   **NeKI brief:** Provides a Swift-facing package around the Jolt C++ physics engine for real-time simulation. Assess native dependency, determinism, and supported-platform trade-offs before making it an app dependency.

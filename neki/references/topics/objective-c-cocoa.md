@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Objective-C language/runtime, Cocoa and Foundation-era APIs, and historical Mac/iOS implementation techniques.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **1140**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **1143**
 
 ## Direct-source reading
 
@@ -471,6 +471,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Building a sunburst diagram in Swift Charts](https://l.fatbobman.com/w0152-07) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Objective-C & Cocoa · Swift
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Builds a hierarchical sunburst visualization as nested Swift Charts sectors, aligning child angles with their parent groups. It is useful when choosing data normalization, angular marks, labels, and interaction for multilevel proportions.
+- [CoreDataBrowser: Quickly Inspect Local Data in the Simulator](https://l.fatbobman.com/w0152-08) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Core Data · Developer Tools · Persistence & Synchronisation
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Introduces a Simulator utility for inspecting Core Data stores and pairs its App Store listing with public source. Evaluate schema safety and whether inspection can remain read-only for production-like data.
+- [source code is publicly available](https://github.com/kyletaylor94/CoreDataBrowser) — Fatbobman’s Swift Weekly · Issue 152 — Source repository · Topics: Core Data · Objective-C & Cocoa · Persistence & Synchronisation
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** CoreDataBrowser provides tooling for browsing Core Data stores. Follow its source for concrete persistence inspection and debugging workflows, while checking schema, migration, and read/write safety boundaries.
 - [Xcode Tools Documentation](https://github.com/artemnovichkov/xcode-tools-docs) — iOS Dev Weekly · Issue 765 — Source repository · Topics: Architecture · Developer Tools · Xcode
   **Published:** `28th August 2026`
   **NeKI brief:** Collects missing or hard-to-find Xcode command-line and tool documentation in an inspectable repository, useful for discovering a workflow before validating it against Apple’s current documentation.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Intents, App Shortcuts, Siri, Spotlight, widgets, controls, and related system surfaces.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **134**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **138**
 
 ## Direct-source reading
 
@@ -200,6 +200,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Teaching Siri to talk about your favorite walks in Walk Mate](https://emredegirmenci.substack.com/p/ios-27-app-intents-journey) — SwiftLee Weekly · Issue 340 — Article · Topics: App Intents & System Surfaces
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Builds App Intents that let Siri query and discuss a walking app's saved content. Use it to examine entity modeling and conversational surfaces, then verify iOS 27 API details independently.
+- [AcceptedSE-0540Default Target Settings](https://github.com/apple/swift-evolution/blob/main/proposals/0540-default-target-settings.md) — SwiftLee Weekly · Issue 340 — Source repository · Topics: App Intents & System Surfaces · Developer Tools · Swift
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Adds package-level default settings that apply across SwiftPM targets while allowing target-specific additions or overrides. It reduces repeated manifest flags, especially for packages adopting upcoming language features.
+- [ImplementedSE-0541Flexible Swift/C Interoperability for Packages](https://github.com/apple/swift-evolution/blob/main/proposals/0541-flexible-swift-c-interoperability-for-packages.md) — SwiftLee Weekly · Issue 340 — Source repository · Topics: App Intents & System Surfaces · Developer Tools · Swift
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Proposes mixed Swift and C-family sources in SwiftPM targets, bridging-header manifest support and sounder generated-header consumption for package interoperability.
+- [Active ReviewSE-0548resignRemoteID for remote distributed actor references](https://github.com/apple/swift-evolution/blob/main/proposals/0548-resign-remote-id.md) — SwiftLee Weekly · Issue 340 — Source repository · Topics: App Intents & System Surfaces · Concurrency · Swift
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Adds resignRemoteID so a DistributedActorSystem can observe deinitialization of remote actor references and release connection-related resources. The default no-op preserves existing implementations while balancing repeated references per ID.
 - [JindoKit: Preview Dynamic Island presentations in your app](https://l.fatbobman.com/w0151-08) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Services & Extensions · Developer Tools · Xcode
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Introduces JindoKit for previewing Dynamic Island presentations in ordinary SwiftUI views. Use it to explore presentation states while validating the result against actual WidgetKit behaviour.

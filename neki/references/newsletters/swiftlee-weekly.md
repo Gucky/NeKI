@@ -3,8 +3,64 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://newsletter.avanderlee.com/posts](https://newsletter.avanderlee.com/posts)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **98**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **100**
+
+## [Issue 340](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-340)
+
+- Published: `2026-09-08T14:05:49.000Z`
+
+**Topics:** AI Development · App Intents & System Surfaces · Foundation & Data Formats · Swift · SwiftUI · Testing
+
+**Sections:** SwiftLee Weekly by Antoine van der Lee · The iOS Simulator Inside Cursor, Claude Code, and Codex · Mobile apps now drive core revenue
+
+**NeKI brief:** Curates agent-integrated Simulator workflows, Simulator memory reduction, Swift Charts, image input for Foundation Models, App Intents, Codable diagnostics, and current Swift Evolution proposals. Review tool permissions and proposal status separately.
+
+**Selected links:**
+- [ImplementedSE-0541Flexible Swift/C Interoperability for Packages](https://github.com/apple/swift-evolution/blob/main/proposals/0541-flexible-swift-c-interoperability-for-packages.md) — Source repository · Topics: App Intents & System Surfaces · Developer Tools · Swift
+  **NeKI brief:** Proposes mixed Swift and C-family sources in SwiftPM targets, bridging-header manifest support and sounder generated-header consumption for package interoperability.
+- [Working With Images Using Foundation Models](https://azamsharp.com/2026/09/06/working-with-images-using-foundation-models.html) — Article · Topics: AI Development · Cross-Platform & Web · Foundation & Data Formats
+  **NeKI brief:** Demonstrates passing image input into Apple's Foundation Models workflows and combining visual context with generated output. Confirm supported formats, resource costs, and model availability for the target OS.
+- [AcceptedSE-0540Default Target Settings](https://github.com/apple/swift-evolution/blob/main/proposals/0540-default-target-settings.md) — Source repository · Topics: App Intents & System Surfaces · Developer Tools · Swift
+  **NeKI brief:** Adds package-level default settings that apply across SwiftPM targets while allowing target-specific additions or overrides. It reduces repeated manifest flags, especially for packages adopting upcoming language features.
+- [Active ReviewSE-0548resignRemoteID for remote distributed actor references](https://github.com/apple/swift-evolution/blob/main/proposals/0548-resign-remote-id.md) — Source repository · Topics: App Intents & System Surfaces · Concurrency · Swift
+  **NeKI brief:** Adds resignRemoteID so a DistributedActorSystem can observe deinitialization of remote actor references and release connection-related resources. The default no-op preserves existing implementations while balancing repeated references per ID.
+- [Building a sunburst diagram in Swift Charts](https://nilcoalescing.com/blog/BuildingASunburstDiagramInSwiftCharts) — Article · Topics: Swift
+  **NeKI brief:** Builds a hierarchical sunburst visualization as nested Swift Charts sectors, aligning child angles with their parent groups. It is useful when choosing data normalization, angular marks, labels, and interaction for multilevel proportions.
+- [CLI and Agent Skill](https://www.rocketsim.app/docs/features/agentic-development/agent-skill) — Article · Topics: AI Development
+  **NeKI brief:** Documents Agent Skill, focusing on an iOS Simulator workflow and the concrete debugging or testing decisions it enables for Apple-platform development.
+- [MobAI-App/simslim: Run more iOS simulators on one Mac by disabling background daemons](https://github.com/MobAI-App/simslim) — Source repository · Topics: AI Development · Developer Tools
+  **NeKI brief:** Disables selected background daemons inside Simulator runtimes to reduce memory and run more devices per Mac. Treat its speed claims as workload-specific and review service side effects before CI use.
+- [Codable errors are finally readable in Swift 6.3](https://sarunw.com/posts/readable-codable-errors) — Article · Topics: Foundation & Data Formats · Swift
+  **NeKI brief:** Shows the concise Swift 6.3 descriptions for DecodingError and EncodingError, including coding paths and underlying context. It notes remaining caveats so improved diagnostics are not mistaken for custom user-facing error handling.
+- [Teaching Siri to talk about your favorite walks in Walk Mate](https://emredegirmenci.substack.com/p/ios-27-app-intents-journey) — Article · Topics: App Intents & System Surfaces
+  **NeKI brief:** Builds App Intents that let Siri query and discuss a walking app's saved content. Use it to examine entity modeling and conversational surfaces, then verify iOS 27 API details independently.
+
+## [Issue 339](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-339)
+
+- Published: `2026-09-01T14:08:57.000Z`
+
+**Topics:** Accessibility · Dependency Injection · Performance · Swift · SwiftUI · Xcode
+
+**Sections:** SwiftLee Weekly by Antoine van der Lee · MVVM in SwiftUI: Using view models without overengineering · Does Xcode Instruments Feel Too Intimidating?
+
+**NeKI brief:** Curates SwiftUI data-dependency and MVVM discussions, nested weak-capture diagnostics, accessibility custom content, string interpolation defaults, and Swift Evolution changes. It is a compact map to several distinct language and UI decisions.
+
+**Selected links:**
+- [SwiftUI data dependencies and their effect on view updates](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates) — Article · Topics: Dependency Injection · Swift · SwiftUI
+  **NeKI brief:** Distinguishes how stored inputs, State, Binding, environment values, Observable models, and ObservableObject subscriptions trigger SwiftUI updates. Use it to diagnose invalidation from actual body reads rather than wrapper names alone.
+- [Why Swift is introducing a warning for weak captures within nested closures](https://www.swiftbysundell.com/articles/warning-for-nested-weak-self-closure-captures) — Article · Topics: Swift · Xcode
+  **NeKI brief:** Explains a new diagnostic for nested closures where an outer strong capture can defeat an inner weak self capture. Use it to reason about the complete closure chain rather than mechanically adding weak references.
+- [Dynamically Setting Accessibility Custom Content Pairs in SwiftUI](https://www.basbroek.nl/multiple-custom-contents-swiftui) — Article · Topics: Accessibility · Swift · SwiftUI
+  **NeKI brief:** Shows a model-driven workaround for applying multiple accessibility custom-content pairs in SwiftUI. Validate the resulting VoiceOver experience in the target app because the approach compensates for a missing builder-style API.
+- [Active ReviewSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
+- [How to set a default value in Swift string interpolation](https://sarunw.com/posts/default-value-in-string-interpolation) — Article · Topics: Swift
+  **NeKI brief:** Explains SE-0477's default interpolation argument for optional values, including generic optionals, lazy fallback evaluation, and back-deployment. It is useful for readable user-facing fallback text without manually unwrapping each value.
+- [AcceptedSE-0544Mutation and consumption in non-`Copyable` type `deinit`s](https://github.com/apple/swift-evolution/blob/main/proposals/0544-mutate-or-consume-in-deinit.md) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** Allows a noncopyable type's deinit to mutate or consume stored fields for resource cleanup while still forbidding mutation or consumption of self as a whole, avoiding resurrection and recursive destruction hazards.
+- [Private properties no longer break the memberwise initializer in Swift 6.4](https://sarunw.com/posts/exclude-private-properties-from-memberwise-initializer) — Article · Topics: Swift
+  **NeKI brief:** Explains SE-0502’s Swift 6.4 change that excludes initialized private stored properties from a synthesized memberwise initializer. It also identifies extension initializer collisions and the macro/property-wrapper motivation, helping teams plan source-compatible migration.
 
 ## [Issue 338](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-338-1)
 

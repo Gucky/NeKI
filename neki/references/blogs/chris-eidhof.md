@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://chris.eidhof.nl/archive/](https://chris.eidhof.nl/archive/)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **244**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **245**
 
 - [Working for the man — Chris Eidhof](https://chris.eidhof.nl/post/working-for-the-man)
   **Topics:** Developer Career & Practice
@@ -378,6 +378,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Freeform blogging — Chris Eidhof](https://chris.eidhof.nl/post/freeform-blogging)
   **Topics:** Developer Career & Practice
   **NeKI brief:** A personal note about publishing shorter, less polished thoughts without optimizing every post for reach or permanence. It is useful as a writing-practice perspective rather than developer guidance.
+- [Four Ways to Shake — Chris Eidhof](https://chris.eidhof.nl/post/four-ways-to-shake)
+  **Topics:** Swift · SwiftUI
+  **NeKI brief:** Compares four SwiftUI shake-animation implementations and shows how their mechanics affect composition, interruption, and visual smoothness. It is useful for understanding animation behavior instead of treating equivalent-looking code as interchangeable.
 - [FormatStyle Guide — Chris Eidhof](https://chris.eidhof.nl/post/format-style-guide)
   **Topics:** Swift · SwiftUI
   **NeKI brief:** Introduces an interactive browser-based guide to Swift Foundation FormatStyle APIs, implemented with WebAssembly. Use the linked guide for quickly comparing formatting capabilities and verify availability against current Foundation documentation.

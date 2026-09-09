@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** URLSession, HTTP, GraphQL, WebSockets, API clients, and network reliability.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **279**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **280**
 
 ## Direct-source reading
 
@@ -521,6 +521,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Building A Reusable HTTP Client In Swift With async/await](https://azamsharp.com/2026/08/29/building-a-reusable-http-client-in-swift.html) — Those Who Swift · Issue 282 — Article · Topics: Concurrency · Networking · Swift
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Builds an async Swift HTTP client around request construction, typed decoding, and reusable error handling. Use it to evaluate dependency boundaries and testability rather than adopting one universal networking layer.
 - [How to stream SSE with URLSession in Swift](https://onmyway133.com/posts/how-to-stream-sse-with-urlsession-in-swift) — Those Who Swift · Issue 280 — Article · Topics: AI Development · Networking · Swift
   **Published:** `2026-08-19T20:31:22.272Z`
   **NeKI brief:** Builds a Server-Sent Events client from URLSession.bytes, first parsing data lines and then handling multi-field events through AsyncStream. The progression is useful for lightweight LLM token streaming without a separate dependency.

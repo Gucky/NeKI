@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Unit, UI, Swift Testing, XCTest, test design, and test automation.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **1307**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **1314**
 
 ## Direct-source reading
 
@@ -1676,6 +1676,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [What's New in Swift: August 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-august-2026) — Those Who Swift · Issue 283 — Article · Topics: Swift · Testing
+  **Published:** `2026-09-09T20:05:48.711Z`
+  **NeKI brief:** Rounds up August 2026 Swift work across web and Windows support, Embedded Swift, package registries, testing proposals, and ownership-oriented language changes. Use the digest to locate primary project discussions and proposals.
+- [Connecting two iOS simulators over BLE](https://l.fatbobman.com/w0152-05) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Swift · Testing
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Works around the Simulator's missing CoreBluetooth transport by connecting two simulated apps through host-side BLESwift support. Evaluate how the test path differs from real radios, permissions, restoration, and timing.
+- [BLESwift 2.0](https://github.com/kylebrowning/BLESwift) — Fatbobman’s Swift Weekly · Issue 152 — Source repository · Topics: Developer Tools · Swift · Testing
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Provides Swift 6.2 async and actor-isolated CoreBluetooth APIs, AsyncSequence scanning, typed GATT operations, multicast notifications, background restoration, and Simulator transport. Check supported Apple platforms and real-device parity before adoption.
+- [Naseem](https://ayman3000.github.io/naseem-app) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Article · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Presents a native macOS agent that can use local or hosted models to run commands, edit files, automate apps, and drive Simulator behind approval gates. Review its permission and secret boundaries first.
+- [Building A Reusable HTTP Client In Swift With async/await](https://azamsharp.com/2026/08/29/building-a-reusable-http-client-in-swift.html) — Those Who Swift · Issue 282 — Article · Topics: Concurrency · Networking · Swift
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Builds an async Swift HTTP client around request construction, typed decoding, and reusable error handling. Use it to evaluate dependency boundaries and testability rather than adopting one universal networking layer.
+- [Uploading To TestFlight From The Command Line](https://kylebrowning.com/posts/uploading-to-testflight-from-the-command-line) — Those Who Swift · Issue 282 — Article · Topics: App Distribution & Store Operations · Developer Tools · Testing
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Walks through archiving, exporting, and uploading an iOS build with xcodebuild and Apple's command-line tools without Fastlane. Verify the current upload utility, signing, and authentication requirements before scripting releases.
 - [anticipated foldable iPhone](https://www.macrumors.com/2026/08/23/apple-foldable-iphone-early-tester-thoughts) — iOS Dev Weekly · Issue 765 — Article · Topics: Testing
   **Published:** `28th August 2026`
   **NeKI brief:** Reports early discussion of a foldable iPhone form factor. Use it only as industry context while waiting for Apple hardware specifications and SDK guidance.
@@ -3872,6 +3890,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iOS Integration Testing](http://corner.squareup.com/2011/07/ios-integration-testing.html) — iOS Dev Weekly · Issue 1 — Article · Topics: Cross-Platform & Web · Testing
   **Published:** `5th August 2011`
   **NeKI brief:** Explains iOS Integration Testing, focusing on the concrete UIKit or iOS implementation technique and the trade-offs relevant to production apps.
+- [Pangram](https://go.peterfriese.dev/pangram?s=web&t=ext) — Not only Swift · Issue 104 — Article · Topics: AI Development · Testing
+  **NeKI brief:** Presents a commercial detector for text attributed to major generative models. Use it only as one probabilistic signal because detector claims do not establish provenance or author intent.
 - [DeviceCheck and App Attest: Stopping Fraud in iOS Apps](https://go.peterfriese.dev/firebase-devicecheck-and-app-attest-stopping-fraud?s=web&t=ext) — Not only Swift · Issue 103 — Tutorial · Topics: Testing
   **NeKI brief:** Compares DeviceCheck and App Attest as server-verified signals for mitigating abuse in an iOS app. Use it to frame the client, backend, and risk-model boundaries before treating either mechanism as a complete fraud solution.
 - [Arsh](https://dev.to/arshtechpro) — Not only Swift · Issue 103 — Tutorial · Topics: Testing

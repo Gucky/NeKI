@@ -3,8 +3,37 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://peterfriese.dev/newsletter/](https://peterfriese.dev/newsletter/)
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed entries: **28**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **29**
+
+## [Issue 104](https://peterfriese.dev/newsletter/issues/104)
+
+
+**Topics:** AI Development · Developer Community & Business · Developer Tools · Swift · SwiftUI · Xcode
+
+**Sections:** Not only Swift · Swift · SwiftMusic: Declarative Music in Swift
+
+**NeKI brief:** Pairs Swift and SwiftUI techniques with a broader examination of AI-written text, detection tools, context rollover, and an agent-security incident. Use the technical links independently from the issue's editorial AI theme.
+
+**Selected links:**
+- [Conditional Breakpoints in Xcode - Debug Specific States Faster](https://go.peterfriese.dev/swift-conditional-breakpoints-xcode?s=web&t=ext) — Article · Topics: Developer Community & Business · Swift · Xcode
+  **NeKI brief:** Shows how Xcode breakpoint conditions pause only when a Swift expression matches a target state. Use it to reduce debugger noise while keeping conditions cheap and side-effect free.
+- [Corner Concentricity in SwiftUI on iOS 26](https://go.peterfriese.dev/swiftui-concentric-rectangle?s=web&t=ext) — Article · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Demonstrates iOS 26 ConcentricRectangle and containerShape for aligning nested SwiftUI corners with their container. Check availability and visual results across sizes before replacing explicit radii.
+- [Play](https://youtube.com/watch?v=GWXCCBsOMSg) — Video · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Demonstrates the narrated trance composition produced with SwiftMusic. It is useful as an output example for the linked library, while the repository remains the implementation source.
+- [Pangram](https://go.peterfriese.dev/pangram?s=web&t=ext) — Article · Topics: AI Development · Testing
+  **NeKI brief:** Presents a commercial detector for text attributed to major generative models. Use it only as one probabilistic signal because detector claims do not establish provenance or author intent.
+- [SwiftMusic: Declarative Music in Swift](https://go.peterfriese.dev/swift-swiftmusic?s=web&t=ext) — Article · Topics: Swift
+  **NeKI brief:** Provides a Swift package for declarative musical patterns, events, and live-updating state. Use the examples to inspect timing and composition semantics before treating it as an audio-engine abstraction.
+- [The Revolt of the Reader](https://go.peterfriese.dev/ai-revolt-of-the-reader?s=web&t=ext) — Article · Topics: AI Development
+  **NeKI brief:** Argues that readers notice and reject unedited AI prose, focusing on trust and the publishing relationship. Use it as editorial context for maintaining human judgement and accountable authorship.
+- [Humanizer: Remove Signs of AI Writing](https://go.peterfriese.dev/ai-humanizer?s=web&t=ext) — Article · Topics: AI Development
+  **NeKI brief:** Provides an agent skill that detects and revises recognizable AI-writing patterns. Treat it as a review aid, not proof of human authorship or a substitute for substantive editing.
+- [Posthorse: Fresh Context, Same Journey](https://go.peterfriese.dev/ai-posthorse-context?s=web&t=ext) — Article · Topics: AI Development
+  **NeKI brief:** Adds context-window rollover, durable notes, and history recovery to a Pi coding-agent fork without relying on summaries. Evaluate its state and recovery model before trusting long-running work continuity.
+- [Hard Fork: The A.I. Mob That Attacked Hugging Face](https://go.peterfriese.dev/ai-hard-fork-huggingface?s=web&t=ext) — Article · Topics: AI Development
+  **NeKI brief:** Discusses reports about an agent attack involving Hugging Face and examines investigators' message-board and reasoning traces. Use it as incident commentary alongside the underlying METR and Redwood reports.
 
 ## [Issue 103](https://peterfriese.dev/newsletter/issues/103)
 

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift packages, manifests, plugins, dependency resolution, and package distribution.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **317**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **320**
 
 ## Direct-source reading
 
@@ -304,6 +304,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, and macOS.](https://github.com/xtool-org/xtool) — iOS Dev Weekly · Issue 766 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Product Design
+  **Published:** `4th September 2026`
+  **NeKI brief:** Builds and deploys iOS applications through SwiftPM on macOS, Linux, and Windows as an alternative toolchain path. Evaluate signing, SDK provenance, debugging, and App Store workflow coverage before adoption.
+- [SE-0541: Flexible Swift/C Interoperability For Packages](https://forums.swift.org/t/accepted-se-0541-flexible-swift-c-interoperability-for-packages/89183) — Those Who Swift · Issue 282 — Article · Topics: Developer Community & Business · Swift · Swift Package Manager
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Records the Ecosystem Steering Group's acceptance of SE-0541 after a positive review. Follow the linked proposal for the mixed-source-target, bridging-header, and generated-header details rather than treating the announcement as the specification.
+- [Active ReviewSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — SwiftLee Weekly · Issue 339 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2026-09-01T14:08:57.000Z`
+  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
 - [DynamicNotch: Building Polished Notch and Screen-Edge Interactions for macOS](https://l.fatbobman.com/w0150-7) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Swift · Swift Package Manager · SwiftUI
   **Published:** `2026-08-24T12:03:48.210Z`
   **NeKI brief:** Offers a macOS Swift package for notch-aware SwiftUI surfaces and AppKit-backed floating edge windows. It centralizes clipping, hit testing, safe-area and multi-display geometry, placement, and compact-notch reservations while leaving product state and interaction policy to the host app.

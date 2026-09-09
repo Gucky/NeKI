@@ -3,9 +3,17 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.pointfree.co/blog](https://www.pointfree.co/blog)
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed entries: **158**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **160**
 
+- [Our WWDC 26 series is now free](https://www.pointfree.co/blog/posts/226-our-wwdc-26-series-is-now-free)
+  **Published:** `2026-09-06T00:00:00Z`
+  **Topics:** Persistence & Synchronisation · Swift · SwiftData · SwiftUI · UIKit
+  **NeKI brief:** Routes to a now-free ten-episode series covering new SwiftUI state and alert APIs, UIKit navigation, and SwiftData comparisons with SQLiteData. Verify each technique against its target SDK and library version.
+- [Last Month in Point-Free: August](https://www.pointfree.co/blog/posts/225-last-month-in-point-free-august)
+  **Published:** `2026-09-04T00:00:00Z`
+  **Topics:** Dependency Injection · Persistence & Synchronisation
+  **NeKI brief:** Summarizes August releases across Point-Free libraries, including structured JSON queries, collation, Dependencies preview traits, and package renaming. Use it to identify migrations or features before consulting each library's release documentation.
 - [Beta Preview: LazyState](https://www.pointfree.co/blog/posts/223-beta-preview-lazystate)
   **Published:** `2026-08-31T00:00:00Z`
   **Topics:** Macros & Metaprogramming · Observation & State Management · Swift · SwiftUI

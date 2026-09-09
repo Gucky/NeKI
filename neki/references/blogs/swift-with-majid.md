@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://swiftwithmajid.com/archive/](https://swiftwithmajid.com/archive/)
-- Last collected: `2026-07-22T21:58:56Z`
-- Indexed entries: **300**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **301**
 
+- [Building AI features using Foundation Models. Multimodal input. | Swift with Majid](https://swiftwithmajid.com/2026/09/01/building-ai-features-using-foundation-models-multimodal-input)
+  **Published:** `2026-09-01T00:00:00+00:00`
+  **Topics:** AI Development · Swift
+  **NeKI brief:** Demonstrates image input with the Foundation Models framework and connects it to structured generation and tool-driven workflows. Check model availability, prompt limits, and privacy behavior for the target OS before adoption.
 - [Taking control of toolbar items in SwiftUI | Swift with Majid](https://swiftwithmajid.com/2026/06/23/taking-control-of-toolbar-items-in-swiftui)
   **Published:** `2026-06-23T00:00:00+00:00`
   **Topics:** Swift · SwiftUI

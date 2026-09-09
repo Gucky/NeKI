@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Observation, bindings, view state, data flow, and state-management trade-offs.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **233**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **236**
 
 ## Direct-source reading
 
+- [SwiftUI data dependencies and their effect on view updates](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-03`
+  **NeKI brief:** Distinguishes how stored inputs, State, Binding, environment values, Observable models, and ObservableObject subscriptions trigger SwiftUI updates. Use it to diagnose invalidation from actual body reads rather than wrapper names alone.
 - [Beta Preview: LazyState](https://www.pointfree.co/blog/posts/223-beta-preview-lazystate) — Point-Free · article catalogue
   **Published:** `2026-08-31T00:00:00Z`
   **NeKI brief:** Previews the LazyState macro for lazily creating stateful reference values from parent inputs once per view identity. It replaces optional-state and onAppear workarounds, but is a beta, member-only API rather than a platform contract.
@@ -456,6 +459,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Multiplatform Swift, with C++ dependencies via XCFramework, apt and vcpkg](https://l.fatbobman.com/w0152-04) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Dependency Injection · Swift · Systems Programming
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Builds one Swift package around a C++ dependency across macOS, Linux, and Windows using XCFramework, apt, and vcpkg respectively. It exposes the packaging trade-offs behind a nominally shared API.
+- [SwiftUI data dependencies and their effect on view updates](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates?ref=ioscodereview.com) — iOS Code Review · Issue 85 — Article · Topics: Dependency Injection · Swift · SwiftUI
+  **Published:** `2026-09-01T18:37:07.000Z`
+  **NeKI brief:** Distinguishes how stored inputs, State, Binding, environment values, Observable models, and ObservableObject subscriptions trigger SwiftUI updates. Use it to diagnose invalidation from actual body reads rather than wrapper names alone.
 - [withContinuousObservation in Swift](https://livsycode.com/swift/withcontinuousobservation-in-swift) — SwiftLee Weekly · Issue 338 — Article · Topics: Observation & State Management · Swift
   **Published:** `2026-08-25T14:06:16.000Z`
   **NeKI brief:** Explains iOS 27’s withContinuousObservation(options:apply:) for non-View consumers that must re-register dependencies after each change, contrasting it with one-shot withObservationTracking.

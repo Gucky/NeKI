@@ -3,9 +3,17 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/)
-- Last collected: `2026-08-27T13:26:05Z`
-- Indexed entries: **218**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **220**
 
+- [Building a sunburst diagram in Swift Charts](https://nilcoalescing.com/blog/BuildingASunburstDiagramInSwiftCharts)
+  **Published:** `2026-09-04`
+  **Topics:** Swift
+  **NeKI brief:** Builds a hierarchical sunburst visualization as nested Swift Charts sectors, aligning child angles with their parent groups. It is useful when choosing data normalization, angular marks, labels, and interaction for multilevel proportions.
+- [SwiftUI data dependencies and their effect on view updates](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates)
+  **Published:** `2026-09-03`
+  **Topics:** Dependency Injection · Observation & State Management · Swift · SwiftUI
+  **NeKI brief:** Distinguishes how stored inputs, State, Binding, environment values, Observable models, and ObservableObject subscriptions trigger SwiftUI updates. Use it to diagnose invalidation from actual body reads rather than wrapper names alone.
 - [Building an accessible calendar chart with Swift Charts](https://nilcoalescing.com/blog/BuildingAnAccessibleCalendarInSwiftCharts)
   **Published:** `2026-08-27`
   **Topics:** Accessibility · Swift

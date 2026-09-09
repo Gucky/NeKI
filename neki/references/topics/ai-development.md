@@ -4,11 +4,17 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple Intelligence, Foundation Models, ML, generative-AI workflows, and developer tooling.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **416**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **421**
 
 ## Direct-source reading
 
+- [The iOS Simulator Inside Cursor, Claude Code, and Codex - SwiftLee](https://www.avanderlee.com/ai-development/the-ios-simulator-inside-cursor-claude-code-and-codex) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-09-07T13:07:15+00:00`
+  **NeKI brief:** Shows how keeping a live iOS Simulator beside an agentic editor shortens the prompt, run, and review loop for interface work. It also frames visual inspection and performance evidence as continuing developer responsibilities.
+- [Building AI features using Foundation Models. Multimodal input. | Swift with Majid](https://swiftwithmajid.com/2026/09/01/building-ai-features-using-foundation-models-multimodal-input) — Swift with Majid · article catalogue
+  **Published:** `2026-09-01T00:00:00+00:00`
+  **NeKI brief:** Demonstrates image input with the Foundation Models framework and connects it to structured generation and tool-driven workflows. Check model availability, prompt limits, and privacy behavior for the target OS before adoption.
 - [From Using AI to Delegating Work to AI (Part 2) - What I Mean by Delegability](https://fatbobman.com/en/posts/from-using-ai-to-delegating-work-to-ai-2) — Fatbobman · article catalogue
   **Published:** `2026-08-19T14:00:00.000Z`
   **NeKI brief:** Defines delegability through a deterministic runtime, durable task records, isolated contexts, and explicit handoffs. It clarifies why models may assess actions but cannot infer authorization, and where policy should constrain state-changing work.
@@ -264,12 +270,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Working With Images Using Foundation Models](https://azamsharp.com/2026/09/06/working-with-images-using-foundation-models.html) — SwiftLee Weekly · Issue 340 — Article · Topics: AI Development · Cross-Platform & Web · Foundation & Data Formats
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Demonstrates passing image input into Apple's Foundation Models workflows and combining visual context with generated output. Confirm supported formats, resource costs, and model availability for the target OS.
+- [CLI and Agent Skill](https://www.rocketsim.app/docs/features/agentic-development/agent-skill) — SwiftLee Weekly · Issue 340 — Article · Topics: AI Development
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Documents Agent Skill, focusing on an iOS Simulator workflow and the concrete debugging or testing decisions it enables for Apple-platform development.
+- [Naseem](https://ayman3000.github.io/naseem-app) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Article · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Presents a native macOS agent that can use local or hosted models to run commands, edit files, automate apps, and drive Simulator behind approval gates. Review its permission and secret boundaries first.
+- [Headless Xcode: From Prompt To Simulator With MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — Those Who Swift · Issue 282 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp?ref=ioscodereview.com) — iOS Code Review · Issue 85 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-09-01T18:37:07.000Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
 - [agentic skill](https://youtu.be/rAvlt9Dvgbo?si=SUHzOy3YLZ3m-N-j&t=855) — iOS Dev Weekly · Issue 765 — Video · Topics: AI Development · Xcode
   **Published:** `28th August 2026`
   **NeKI brief:** Links to a video segment about Apple-platform agentic skills. Treat it as a discovery lead and verify tool behaviour against current primary documentation.
-- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — iOS Dev Weekly · Issue 765 — Article · Topics: AI Development · Xcode
-  **Published:** `28th August 2026`
-  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
 - [Running iOS Background Tasks Reliably, Part 1](https://calcopilot.app/blog/posts/running-ios-background-tasks-reliably-part1) — Those Who Swift · Issue 281 — Article · Topics: AI Development · App Services & Extensions · Personal Essays
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Documents lessons learned while pursuing reliable iOS background-task execution in iOS 26. The article focuses on the practical reliability gap between scheduling background work and getting it to run consistently, which is useful when designing refresh and deferred-processing workflows.
@@ -423,9 +441,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [CLI](https://www.rocketsim.app/docs/features/agentic-development/rocketsim-cli) — SwiftLee Weekly · Issue 322 — Article · Topics: AI Development · Testing
   **Published:** `2026-05-05T14:09:40.000Z`
   **NeKI brief:** Explains CLI, focusing on an implementation idea, workflow, or trade-off for Swift and Apple-platform development. Use it to investigate the stated topic and compare its approach with the current SDK, toolchain, and project constraints.
-- [Agent Skill](https://www.rocketsim.app/docs/features/agentic-development/agent-skill) — SwiftLee Weekly · Issue 322 — Article · Topics: AI Development · Testing
-  **Published:** `2026-05-05T14:09:40.000Z`
-  **NeKI brief:** Documents Agent Skill, focusing on an iOS Simulator workflow and the concrete debugging or testing decisions it enables for Apple-platform development.
 - [overwhelmed with AI slop to the point of shutting down bug bounties](https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty) — iOS Dev Weekly · Issue 748 — Article · Topics: AI Development
   **Published:** `17th April 2026`
   **NeKI brief:** The post explains why the curl project ended its bug bounty programme in response to overwhelming low-quality AI-generated reports.

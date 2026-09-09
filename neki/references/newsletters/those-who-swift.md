@@ -3,8 +3,104 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://thosewhoswift.substack.com/archive](https://thosewhoswift.substack.com/archive)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **89**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **93**
+
+## [Issue 283](https://thosewhoswift.substack.com/p/those-who-swift-issue-283)
+
+- Published: `2026-09-09T20:05:48.711Z`
+
+**Topics:** AI Development · App Distribution & Store Operations · Foundation & Data Formats · macOS & AppKit · Swift · SwiftUI
+
+**Sections:** Those Who Swift · Those Who Swift - Issue 283 · Weekly note ✏️
+
+**NeKI brief:** Curates adaptive UIKit and SwiftUI layout, SwiftData modeling, language and Codable updates, Foundation Models image input, Core Data modularization, agent tooling, and community news. Verify proposal and SDK status independently.
+
+**Selected links:**
+- [MVVM in SwiftUI: Using View Models Without Overengineering](https://www.avanderlee.com/swiftui/mvvm-architectural-coding-pattern-to-structure-views) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **NeKI brief:** Separates SwiftUI view rendering from observable view-model state and actions, while discussing when that indirection helps testing and when it adds ceremony. Useful for choosing MVVM boundaries in larger view hierarchies.
+- [Building AI Features Using Foundation Models: Multimodal Input](https://swiftwithmajid.com/2026/09/01/building-ai-features-using-foundation-models-multimodal-input) — Article · Topics: AI Development · Foundation & Data Formats · Swift
+  **NeKI brief:** Demonstrates image input with the Foundation Models framework and connects it to structured generation and tool-driven workflows. Check model availability, prompt limits, and privacy behavior for the target OS before adoption.
+- [Managing Toolbar Visibility and Overflow in SwiftUI](https://tanaschita.com/swiftui-toolbar-visibility-overflow) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Shows how SwiftUI toolbar actions can be prioritized, pinned, or moved into overflow as available space changes. Use it to reason about action hierarchy and compact layouts, then confirm iOS availability before adopting newer APIs.
+- [AI-Accelerated Mobile Development: Lessons from My NSLondon Talk](https://gioscalzo.com/blog/ai-accelerated-mobile-development-nslondon) — Article · Topics: AI Development · Security & Privacy
+  **NeKI brief:** Compares two agent-built mobile app experiments and identifies the explanation, coordination, and verification still required from the developer. It is evidence about orchestration limits rather than autonomous-delivery claims.
+- [Building a Sunburst Diagram in Swift Charts](https://nilcoalescing.com/blog/BuildingASunburstDiagramInSwiftCharts) — Article · Topics: Objective-C & Cocoa · Swift
+  **NeKI brief:** Builds a hierarchical sunburst visualization as nested Swift Charts sectors, aligning child angles with their parent groups. It is useful when choosing data normalization, angular marks, labels, and interaction for multilevel proportions.
+- [SwiftData: Optimization Starts with Modeling](https://fatbobman.com/en/posts/swiftdata-optimization-starts-with-modeling) — Article · Topics: Persistence & Synchronisation · Swift · SwiftData
+  **NeKI brief:** Explains why large SwiftData rows can stall lists when fetching also materializes their stored values. It advocates separating heavy payloads during modeling so ordinary list queries load only the data they need.
+- [The End of Swift Talk](https://www.objc.io/blog/2026/09/04/the-end-of-swift-talk) — Article · Topics: Graphics, Media & Games · Objective-C & Cocoa · Swift
+  **NeKI brief:** Marks the conclusion of Swift Talk after 500 episodes and explains how existing videos remain available. It is community-history and catalogue context rather than a new implementation tutorial.
+- [Why Pi Is My AI Coding Harness](https://blog.kulman.sk/pi-is-now-my-ai-harness) — Article · Topics: AI Development
+  **NeKI brief:** Explains using Pi as a stable command-line harness while swapping underlying AI models, preserving tools, extensions, and instructions. Useful for separating workflow investment from model-provider experiments.
+- [What's New in Swift: August 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-august-2026) — Article · Topics: Swift · Testing
+  **NeKI brief:** Rounds up August 2026 Swift work across web and Windows support, Embedded Swift, package registries, testing proposals, and ownership-oriented language changes. Use the digest to locate primary project discussions and proposals.
+- [Codable Errors Are Finally Readable in Swift 6.3](https://sarunw.com/posts/readable-codable-errors) — Article · Topics: Foundation & Data Formats · Swift
+  **NeKI brief:** Shows the concise Swift 6.3 descriptions for DecodingError and EncodingError, including coding paths and underlying context. It notes remaining caveats so improved diagnostics are not mistaken for custom user-facing error handling.
+- [Effective Geometry: Layout Without UIScreen.main](https://livsycode.com/uikit/effective-geometry-layout-without-uiscreen-main) — Article · Topics: UIKit
+  **NeKI brief:** Explains why UIScreen.main is wrong for resizable and multi-display UIKit windows, and uses UIWindowScene effective geometry plus change callbacks instead. Useful for migrating layout assumptions to scene-relative space.
+
+## [Devs for Devs: Domain, Data, Presentation - What Clean Architecture Actually Buys You on iOS](https://thosewhoswift.substack.com/p/devs-for-devs-domain-data-presentation)
+
+- Published: `2026-09-06T19:31:02.382Z`
+
+**Topics:** Architecture · Cross-Platform & Web · Developer Tools · Objective-C & Cocoa · Security & Privacy · Swift
+
+**Sections:** Those Who Swift · Why Bother Splitting into Three Layers at All · Start With the Domain Layer, and Keep It Pure
+
+**NeKI brief:** Argues for explicit domain, data, and presentation boundaries in iOS apps, with repositories as facades and use cases added only when they earn their abstraction. It also discusses modules and composition roots.
+
+## [Issue 282](https://thosewhoswift.substack.com/p/those-who-swift-issue-282)
+
+- Published: `2026-09-02T21:05:28.721Z`
+
+**Topics:** Accessibility · Networking · Swift · SwiftUI · Testing · Xcode
+
+**Sections:** Those Who Swift · Those Who Swift - Issue 282 · Weekly note ✏️
+
+**NeKI brief:** Curates SwiftUI ownership and invalidation, Git recovery, headless Xcode, Swift language updates, networking, accessibility, preview performance, and agent workflows. Each link supplies a separate implementation or practice decision.
+
+**Selected links:**
+- [SwiftUI Data Dependencies And Their Effect On View Updates](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates) — Article · Topics: Dependency Injection · Swift · SwiftUI
+  **NeKI brief:** Distinguishes how stored inputs, State, Binding, environment values, Observable models, and ObservableObject subscriptions trigger SwiftUI updates. Use it to diagnose invalidation from actual body reads rather than wrapper names alone.
+- [Building A Reusable HTTP Client In Swift With async/await](https://azamsharp.com/2026/08/29/building-a-reusable-http-client-in-swift.html) — Article · Topics: Concurrency · Networking · Swift
+  **NeKI brief:** Builds an async Swift HTTP client around request construction, typed decoding, and reusable error handling. Use it to evaluate dependency boundaries and testability rather than adopting one universal networking layer.
+- [Dynamically Setting Accessibility Custom Content Pairs In SwiftUI](https://www.basbroek.nl/multiple-custom-contents-swiftui) — Article · Topics: Accessibility · Swift · SwiftUI
+  **NeKI brief:** Shows a model-driven workaround for applying multiple accessibility custom-content pairs in SwiftUI. Validate the resulting VoiceOver experience in the target app because the approach compensates for a missing builder-style API.
+- [Uploading To TestFlight From The Command Line](https://kylebrowning.com/posts/uploading-to-testflight-from-the-command-line) — Article · Topics: App Distribution & Store Operations · Developer Tools · Testing
+  **NeKI brief:** Walks through archiving, exporting, and uploading an iOS build with xcodebuild and Apple's command-line tools without Fastlane. Verify the current upload utility, signing, and authentication requirements before scripting releases.
+- [Fix Sluggish SwiftUI Previews Instantly With Static Mock Data](https://sagarunagar.com/blog/fix-sluggish-xcode-swiftui-previews-mock-data) — Article · Topics: Swift · SwiftUI · Xcode
+  **NeKI brief:** Uses protocol-backed static mock data to keep SwiftUI previews from waiting on production services or expensive model setup. The pattern improves iteration when preview dependencies remain deterministic and isolated.
+- [SE-0541: Flexible Swift/C Interoperability For Packages](https://forums.swift.org/t/accepted-se-0541-flexible-swift-c-interoperability-for-packages/89183) — Article · Topics: Developer Community & Business · Swift · Swift Package Manager
+  **NeKI brief:** Records the Ecosystem Steering Group's acceptance of SE-0541 after a positive review. Follow the linked proposal for the mixed-source-target, bridging-header, and generated-header details rather than treating the announcement as the specification.
+- [Headless Xcode: From Prompt To Simulator With MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp) — Article · Topics: AI Development · Xcode
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [Trailing Commas Beyond Arrays In Swift 6.1](https://sarunw.com/posts/trailing-comma-in-swift) — Article · Topics: Code Quality · Swift
+  **NeKI brief:** Catalogues Swift 6.1 trailing-comma support across parameters, tuples, generics, capture lists, and other declarations, while identifying unsupported and single-element cases. The main benefit is cleaner multiline diffs.
+- [Building An Accessible Calendar Chart With Swift Charts](https://nilcoalescing.com/blog/BuildingAnAccessibleCalendarInSwiftCharts) — Article · Topics: Accessibility · Swift
+  **NeKI brief:** Builds a month-style Swift Charts calendar that combines daily values with VoiceOver-friendly labels and summaries. It shows how chart marks, axis choices, and accessible descriptions can preserve an at-a-glance visual while making the same data understandable without sight.
+- [@StateObject Vs. @ObservedObject: The Differences Explained](https://www.avanderlee.com/swiftui/stateobject-observedobject-differences) — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **NeKI brief:** Contrasts @StateObject's view-owned lifetime with @ObservedObject's externally owned reference. The distinction prevents model recreation during SwiftUI redraws and clarifies which view constructs observable state.
+- [Beta Preview: LazyState](https://www.pointfree.co/blog/posts/223-beta-preview-lazystate) — Article · Topics: Apple Platform Ecosystem · Macros & Metaprogramming · Swift
+  **NeKI brief:** Previews the LazyState macro for lazily creating stateful reference values from parent inputs once per view identity. It replaces optional-state and onAppear workarounds, but is a beta, member-only API rather than a platform contract.
+- [Claude Code Rules, Hooks And Skills, And How I Set Mine Up](https://roland.leth.ro/blog/tech/claude-code-rules-hooks-and-skills-and-how-i-set-mine-up) — Article · Topics: AI Development
+  **NeKI brief:** Separates Claude Code rules, hooks, and skills by responsibility and shows a personal organization for each. Use it to compare reusable instruction scope, deterministic automation, and contextual loading.
+- [Some Things Are Never Truly Lost](https://danielsaidi.com/blog/2026/08/27/some-things-are-never-truly-lost) — Article · Topics: Developer Tools
+  **NeKI brief:** Recounts recovering a force-pushed, reset branch by locating its old tip in the local reflog and restoring a branch reference. It is a practical reminder that recovery depends on local object retention and should be paired with normal backup and remote protection.
+- [Why Swift Is Introducing A Warning For Weak Captures Within Nested Closures](https://www.swiftbysundell.com/articles/warning-for-nested-weak-self-closure-captures) — Article · Topics: Swift
+  **NeKI brief:** Explains a new diagnostic for nested closures where an outer strong capture can defeat an inner weak self capture. Use it to reason about the complete closure chain rather than mechanically adding weak references.
+- [Getting Into Flow With AI Coding](https://www.natashatherobot.com/p/flow-ai-coding) — Article · Topics: AI Development
+  **NeKI brief:** Describes preserving flow during AI-assisted coding by keeping the next task ready while an agent works. It is a personal workflow perspective whose effectiveness depends on review load and task boundaries.
+
+## [Devs for Devs: From AI-Generated Code to AI-Assisted Engineering](https://thosewhoswift.substack.com/p/devs-for-devs-from-ai-generated-code)
+
+- Published: `2026-08-31T18:00:40.807Z`
+
+**Topics:** Cross-Platform & Web · Developer Tools · Security & Privacy · Swift
+
+**Sections:** Those Who Swift · The Problem with Just Accepting the Output · The Loop I Built Instead
+
+**NeKI brief:** Describes replacing passive acceptance of generated code with an iterative loop of constraints, tests, review, and corrective prompts. It is a workflow perspective on retaining engineering judgement during agent-assisted implementation.
 
 ## [Issue 281](https://thosewhoswift.substack.com/p/those-who-swift-issue-281)
 

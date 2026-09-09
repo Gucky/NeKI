@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** UIKit view controllers, controls, lifecycle, and interoperability with SwiftUI.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **735**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **737**
 
 ## Direct-source reading
 
+- [Our WWDC 26 series is now free](https://www.pointfree.co/blog/posts/226-our-wwdc-26-series-is-now-free) — Point-Free · article catalogue
+  **Published:** `2026-09-06T00:00:00Z`
+  **NeKI brief:** Routes to a now-free ten-episode series covering new SwiftUI state and alert APIs, UIKit navigation, and SwiftData comparisons with SQLiteData. Verify each technique against its target SDK and library version.
 - [Tracking value sources to prevent recursive SwiftUI updates](https://nilcoalescing.com/blog/TrackingValueSourcesToPreventRecursiveSwiftUIUpdates) — Nil Coalescing · article catalogue
   **Published:** `2026-08-04`
   **NeKI brief:** Tags binding writes with a custom SwiftUI transaction value so wrapped text views can recognise their own updates. This avoids repeated large-string comparisons, redundant layout and cursor jumps in UITextView or NSTextView representables.
@@ -1666,6 +1669,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Effective Geometry: Layout Without UIScreen.main](https://livsycode.com/uikit/effective-geometry-layout-without-uiscreen-main) — Those Who Swift · Issue 283 — Article · Topics: UIKit
+  **Published:** `2026-09-09T20:05:48.711Z`
+  **NeKI brief:** Explains why UIScreen.main is wrong for resizable and multi-display UIKit windows, and uses UIWindowScene effective geometry plus change callbacks instead. Useful for migrating layout assumptions to scene-relative space.
 - [NSTextTable in Swift](https://livsycode.com/uikit/nstexttable-in-swift) — Those Who Swift · Issue 281 — Article · Topics: Swift · UIKit
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Introduces NSTextTable and NSTextTableBlock in UIKit for creating tables inside NSAttributedString, now available to iOS developers in the iOS 27 SDK. It distinguishes rich-text tables from UITableView and shows when the text model is the appropriate layout layer.

@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift concurrency, async/await, actors, Sendable, tasks, cancellation, and diagnostics.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **1229**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **1232**
 
 ## Direct-source reading
 
+- [The iOS Simulator Inside Cursor, Claude Code, and Codex - SwiftLee](https://www.avanderlee.com/ai-development/the-ios-simulator-inside-cursor-claude-code-and-codex) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-09-07T13:07:15+00:00`
+  **NeKI brief:** Shows how keeping a live iOS Simulator beside an agentic editor shortens the prompt, run, and review loop for interface work. It also frames visual inspection and performance evidence as continuing developer responsibilities.
 - [Swift protocols and the main actor | Swift by Sundell](https://www.swiftbysundell.com/articles/swift-protocols-and-the-main-actor) — Swift by Sundell · article catalogue
   **Published:** `2026-07-31`
   **NeKI brief:** Compares isolating an entire protocol with isolating individual requirements. The examples expose how conformance placement can affect a type's actor isolation and why requirement-level annotations give custom actors a more flexible boundary.
@@ -2260,6 +2263,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Active ReviewSE-0548resignRemoteID for remote distributed actor references](https://github.com/apple/swift-evolution/blob/main/proposals/0548-resign-remote-id.md) — SwiftLee Weekly · Issue 340 — Source repository · Topics: App Intents & System Surfaces · Concurrency · Swift
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Adds resignRemoteID so a DistributedActorSystem can observe deinitialization of remote actor references and release connection-related resources. The default no-op preserves existing implementations while balancing repeated references per ID.
+- [Building A Reusable HTTP Client In Swift With async/await](https://azamsharp.com/2026/08/29/building-a-reusable-http-client-in-swift.html) — Those Who Swift · Issue 282 — Article · Topics: Concurrency · Networking · Swift
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Builds an async Swift HTTP client around request construction, typed decoding, and reusable error handling. Use it to evaluate dependency boundaries and testability rather than adopting one universal networking layer.
 - [Some things are never truly lost - How git recovered two weeks of deleted work](https://danielsaidi.com/blog/2026/08/27/some-things-are-never-truly-lost) — iOS Dev Weekly · Issue 765 — Article · Topics: AI Development · Concurrency · Developer Tools
   **Published:** `28th August 2026`
   **NeKI brief:** Recounts recovering a force-pushed, reset branch by locating its old tip in the local reflog and restoring a branch reference. It is a practical reminder that recovery depends on local object retention and should be paired with normal backup and remote protection.

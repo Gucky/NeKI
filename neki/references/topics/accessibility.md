@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** VoiceOver, Dynamic Type, interaction accessibility, and inclusive interface design.
 
-- Last collected: `2026-09-01T10:14:10Z`
+- Last collected: `2026-09-09T21:39:11Z`
 - Indexed links shown: **241**
 
 ## Direct-source reading
@@ -417,12 +417,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Dynamically Setting Accessibility Custom Content Pairs In SwiftUI](https://www.basbroek.nl/multiple-custom-contents-swiftui) — Those Who Swift · Issue 282 — Article · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Shows a model-driven workaround for applying multiple accessibility custom-content pairs in SwiftUI. Validate the resulting VoiceOver experience in the target app because the approach compensates for a missing builder-style API.
 - [Building an accessible calendar chart with Swift Charts](https://l.fatbobman.com/w0151-04) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Accessibility · Developer Tools · Swift
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Builds a calendar-style Swift Charts visualization with attention to accessible representation of repeated weekdays and chart data. Use it when visual density must remain understandable to assistive technologies.
-- [Dynamically Setting Accessibility Content in SwiftUI](https://www.basbroek.nl/multiple-custom-contents-swiftui) — iOS Dev Weekly · Issue 765 — Article · Topics: Accessibility · Swift · SwiftUI
-  **Published:** `28th August 2026`
-  **NeKI brief:** Shows a model-driven workaround for applying multiple accessibility custom-content pairs in SwiftUI. Validate the resulting VoiceOver experience in the target app because the approach compensates for a missing builder-style API.
 - [Recording VoiceOver on iOS & macOS](https://www.basbroek.nl/recording-voiceover) — Those Who Swift · Issue 280 — Article · Topics: Accessibility · Testing
   **Published:** `2026-08-19T20:31:22.272Z`
   **NeKI brief:** Explains why iOS screen recording captures VoiceOver directly and how macOS needs virtual audio routing, illustrated with Loopback. The workflow produces clean accessibility demonstrations without recording speakers or room noise.

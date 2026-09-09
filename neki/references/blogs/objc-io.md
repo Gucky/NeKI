@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.objc.io/blog/archive](https://www.objc.io/blog/archive)
-- Last collected: `2026-07-22T21:58:56Z`
-- Indexed entries: **92**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **93**
 
+- [The End of Swift Talk · objc.io](https://www.objc.io/blog/2026/09/04/the-end-of-swift-talk)
+  **Published:** `2026-9-4`
+  **Topics:** Swift
+  **NeKI brief:** Marks the conclusion of Swift Talk after 500 episodes and explains how existing videos remain available. It is community-history and catalogue context rather than a new implementation tutorial.
 - [Transitions in SwiftUI · objc.io](https://www.objc.io/blog/2022/04/14/transitions)
   **Published:** `2022-4-14`
   **Topics:** Swift · SwiftUI

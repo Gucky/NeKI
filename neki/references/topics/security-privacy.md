@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Privacy, credentials, secure configuration, encryption, sandboxing, and application security.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **213**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **214**
 
 ## Direct-source reading
 
@@ -74,6 +74,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [AI-Accelerated Mobile Development: Lessons from My NSLondon Talk](https://gioscalzo.com/blog/ai-accelerated-mobile-development-nslondon) — Those Who Swift · Issue 283 — Article · Topics: AI Development · Security & Privacy
+  **Published:** `2026-09-09T20:05:48.711Z`
+  **NeKI brief:** Compares two agent-built mobile app experiments and identifies the explanation, coordination, and verification still required from the developer. It is evidence about orchestration limits rather than autonomous-delivery claims.
 - [Detecting (Evil) Dylibs](https://objective-see.org/blog/blog_0x89.html) — SwiftLee Weekly · Issue 338 — Article · Topics: Cross-Platform & Web · Security & Privacy
   **Published:** `2026-08-25T14:06:16.000Z`
   **NeKI brief:** Surveys static, runtime, and load-time enumeration of dynamic libraries as a basis for detecting dylib-based attacks on modern macOS, including the limits of current mitigations.

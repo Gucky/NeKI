@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://tanaschita.com/](https://tanaschita.com/)
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed entries: **190**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **191**
 
 - [Understanding Xcode targets, schemes and build configurations](https://tanaschita.com/xcode-targets-schemes)
   **Topics:** Xcode
@@ -465,6 +465,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Understanding backpressure in Combine - efficient data handling in Swift](https://tanaschita.com/combine-back-pressure)
   **Topics:** Swift
   **NeKI brief:** Combine backpressure lets a subscriber control demand instead of accepting unlimited values. The article is useful for high-volume streams, where demand strategy and buffering determine memory and responsiveness.
+- [Getting started with Live Activities in SwiftUI](https://tanaschita.com/activitykit-live-activities-swiftui)
+  **Topics:** Swift · SwiftUI
+  **NeKI brief:** Walks through an ActivityKit model, widget presentation for the Lock Screen and Dynamic Island, and activity lifecycle updates. Use it to connect shared attributes with UI regions before adding remote-update complexity.
 - [How to use TipKit to create tool tips in SwiftUI](https://tanaschita.com/20240304-tipkit-feature-hints)
   **Topics:** Swift · SwiftUI
   **NeKI brief:** Introduces TipKit feature hints and rules for surfacing contextual education in SwiftUI. Useful for replacing custom onboarding flags with system-managed tip eligibility and dismissal state.

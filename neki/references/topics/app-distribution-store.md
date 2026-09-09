@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Store delivery, TestFlight, StoreKit commerce, signing, review, releases, and monetisation workflows.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **615**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **618**
 
 ## Direct-source reading
 
@@ -148,6 +148,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Phil Schiller reportedly steps down as Apple's App Store and product event chief](https://www.engadget.com/2247924/phil-schiller-reportedly-steps-down-as-apple-app-store-and-product-event-chief) — iOS Dev Weekly · Issue 766 — Article · Topics: AI Development · App Distribution & Store Operations · Product Design
+  **Published:** `4th September 2026`
+  **NeKI brief:** Reports an App Store leadership change while Phil Schiller remains an Apple Fellow. Use it as organizational context only; it does not establish a change to review policy or developer contracts.
+- [Toplify](https://toplify.app/) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Article · Topics: App Distribution & Store Operations
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Tracks App Store ranking changes for iOS and Mac apps across countries and emits milestone alerts. Assess data freshness, account requirements, and notification noise before relying on it for product monitoring.
+- [Uploading To TestFlight From The Command Line](https://kylebrowning.com/posts/uploading-to-testflight-from-the-command-line) — Those Who Swift · Issue 282 — Article · Topics: App Distribution & Store Operations · Developer Tools · Testing
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Walks through archiving, exporting, and uploading an iOS build with xcodebuild and Apple's command-line tools without Fastlane. Verify the current upload utility, signing, and authentication requirements before scripting releases.
 - [Mac App Direct Distribution, DMG Signing & Notarization Guide](https://l.fatbobman.com/w0151-05) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: App Distribution & Store Operations
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Walks through direct macOS distribution with Developer ID signing, DMG creation, notarization, stapling, and Gatekeeper validation. Use it as a release-process checklist while verifying current Apple requirements.

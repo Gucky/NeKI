@@ -4,11 +4,17 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Dependency injection, test seams, service composition, and dependency management.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **192**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **196**
 
 ## Direct-source reading
 
+- [Last Month in Point-Free: August](https://www.pointfree.co/blog/posts/225-last-month-in-point-free-august) — Point-Free · article catalogue
+  **Published:** `2026-09-04T00:00:00Z`
+  **NeKI brief:** Summarizes August releases across Point-Free libraries, including structured JSON queries, collation, Dependencies preview traits, and package renaming. Use it to identify migrations or features before consulting each library's release documentation.
+- [SwiftUI data dependencies and their effect on view updates](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-03`
+  **NeKI brief:** Distinguishes how stored inputs, State, Binding, environment values, Observable models, and ObservableObject subscriptions trigger SwiftUI updates. Use it to diagnose invalidation from actual body reads rather than wrapper names alone.
 - [CocoaPods Tutorial for Swift: Getting Started | Kodeco](https://www.kodeco.com/7076593-cocoapods-tutorial-for-swift-getting-started) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** The CocoaPods guide explains dependency installation, Podfiles and integration into Swift projects. Use it to understand the generated workspace and build-setting consequences when maintaining legacy dependencies alongside Swift Package Manager.
@@ -303,6 +309,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Multiplatform Swift, with C++ dependencies via XCFramework, apt and vcpkg](https://l.fatbobman.com/w0152-04) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Dependency Injection · Swift · Systems Programming
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Builds one Swift package around a C++ dependency across macOS, Linux, and Windows using XCFramework, apt, and vcpkg respectively. It exposes the packaging trade-offs behind a nominally shared API.
+- [SwiftUI data dependencies and their effect on view updates](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates?ref=ioscodereview.com) — iOS Code Review · Issue 85 — Article · Topics: Dependency Injection · Swift · SwiftUI
+  **Published:** `2026-09-01T18:37:07.000Z`
+  **NeKI brief:** Distinguishes how stored inputs, State, Binding, environment values, Observable models, and ObservableObject subscriptions trigger SwiftUI updates. Use it to diagnose invalidation from actual body reads rather than wrapper names alone.
 - [Preventing Transitive Swift Imports with Bazel](https://adincebic.com/2026/08/23/preventing-transitive-swift-imports-with.html) — Those Who Swift · Issue 281 — Article · Topics: Architecture · Cross-Platform & Web · Swift
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Explains how permissive transitive Swift imports let a module use dependencies it did not declare directly, and presents Bazel-oriented ways to prevent that leakage. Explicit dependency ownership improves build reasoning and reduces accidental coupling between modules.

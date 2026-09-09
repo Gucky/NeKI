@@ -4,11 +4,23 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** SwiftUI views, layout, rendering, animation, interaction, and platform adaptation.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **3230**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **3243**
 
 ## Direct-source reading
 
+- [Why some Swift types only appear when you import two modules | Sarunw](https://sarunw.com/posts/swift-cross-import-overlay) — Sarunw · article catalogue
+  **Published:** `2026-09-09`
+  **NeKI brief:** Explains why APIs such as Map, PhotosPicker, and WebView appear only when two related modules are imported. Use it to recognize cross-import overlays when declarations seem absent from their apparent framework.
+- [SwiftUI has a native WebView in iOS 26 | Sarunw](https://sarunw.com/posts/swiftui-native-webview) — Sarunw · article catalogue
+  **Published:** `2026-09-08`
+  **NeKI brief:** Introduces SwiftUI's native WebView and WebPage APIs for loading, navigation state, progress, and modifiers. It also identifies cases that still require lower-level WebKit integration instead of a blanket wrapper replacement.
+- [Our WWDC 26 series is now free](https://www.pointfree.co/blog/posts/226-our-wwdc-26-series-is-now-free) — Point-Free · article catalogue
+  **Published:** `2026-09-06T00:00:00Z`
+  **NeKI brief:** Routes to a now-free ten-episode series covering new SwiftUI state and alert APIs, UIKit navigation, and SwiftData comparisons with SQLiteData. Verify each technique against its target SDK and library version.
+- [SwiftUI data dependencies and their effect on view updates](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-03`
+  **NeKI brief:** Distinguishes how stored inputs, State, Binding, environment values, Observable models, and ObservableObject subscriptions trigger SwiftUI updates. Use it to diagnose invalidation from actual body reads rather than wrapper names alone.
 - [Beta Preview: LazyState](https://www.pointfree.co/blog/posts/223-beta-preview-lazystate) — Point-Free · article catalogue
   **Published:** `2026-08-31T00:00:00Z`
   **NeKI brief:** Previews the LazyState macro for lazily creating stateful reference values from parent inputs once per view identity. It replaces optional-state and onAppear workarounds, but is a beta, member-only API rather than a platform contract.
@@ -5356,6 +5368,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Core Data is connected to SwiftUI through managed contexts, fetch requests and model updates. Follow it to examine observation boundaries, especially where view-driven mutations need validation and background persistence.
 - [How to delay server requests for user's search query with SwiftUI and Combine](https://tanaschita.com/combine-swiftui-search-query-debounce) — Tanaschita · article catalogue
   **NeKI brief:** Combine debounce delays search requests until input settles, reducing server load and result churn. Follow it to coordinate cancellation and latest-query wins semantics rather than allowing stale responses to replace newer results.
+- [Getting started with Live Activities in SwiftUI](https://tanaschita.com/activitykit-live-activities-swiftui) — Tanaschita · article catalogue
+  **NeKI brief:** Walks through an ActivityKit model, widget presentation for the Lock Screen and Dynamic Island, and activity lifecycle updates. Use it to connect shared attributes with UI regions before adding remote-update complexity.
 - [How to use TipKit to create tool tips in SwiftUI](https://tanaschita.com/20240304-tipkit-feature-hints) — Tanaschita · article catalogue
   **NeKI brief:** Introduces TipKit feature hints and rules for surfacing contextual education in SwiftUI. Useful for replacing custom onboarding flags with system-managed tip eligibility and dismissal state.
 - [How to delay an animation in SwiftUI](https://tanaschita.com/20240226-delay-swiftui-animation) — Tanaschita · article catalogue
@@ -5490,6 +5504,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Reflects on moving from code-built iOS interfaces toward more effective use of Interface Builder after learning its workflow and constraints. Use it as historical UIKit-tooling perspective; the specific tools and trade-offs predate modern SwiftUI development.
 - [When Matched Geometry Effect Doesn't Work — Chris Eidhof](https://chris.eidhof.nl/post/matched-geometry-effect) — Chris Eidhof · article catalogue
   **NeKI brief:** Investigates a SwiftUI matched-geometry transition that behaves unexpectedly and traces the result to declaration order. It is useful when building a mental model for matchedGeometryEffect and diagnosing apparently incorrect animations.
+- [Four Ways to Shake — Chris Eidhof](https://chris.eidhof.nl/post/four-ways-to-shake) — Chris Eidhof · article catalogue
+  **NeKI brief:** Compares four SwiftUI shake-animation implementations and shows how their mechanics affect composition, interruption, and visual smoothness. It is useful for understanding animation behavior instead of treating equivalent-looking code as interchangeable.
 - [FormatStyle Guide — Chris Eidhof](https://chris.eidhof.nl/post/format-style-guide) — Chris Eidhof · article catalogue
   **NeKI brief:** Introduces an interactive browser-based guide to Swift Foundation FormatStyle APIs, implemented with WebAssembly. Use the linked guide for quickly comparing formatting capabilities and verify availability against current Foundation documentation.
 - [Deep Understanding while using LLMs — Chris Eidhof](https://chris.eidhof.nl/post/deep-understanding-while-using-llms) — Chris Eidhof · article catalogue
@@ -5569,6 +5585,27 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [The End of Swift Talk](https://l.fatbobman.com/w0152-01) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Explains why objc.io ended Swift Talk after 500 episodes while retaining the existing catalogue. It is useful as community and resource-lifecycle context, not as a technical migration guide.
+- [OpenSwiftUI on ESP32-C3](https://l.fatbobman.com/w0152-03) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Demonstrates an Embedded Swift experiment that runs OpenSwiftUI-style measured stacks and button-driven state updates on an ESP32-C3. Treat it as a constrained-platform prototype rather than general SwiftUI compatibility.
+- [Reorder all the things in SwiftUI](https://l.fatbobman.com/w0152-06) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Shows drag-to-reorder behavior for SwiftUI lists, stacks, grids, and custom layouts. Use it to compare container-specific mechanics and interaction feedback rather than assuming List's move support generalizes everywhere.
+- [Dynamically Setting Accessibility Custom Content Pairs In SwiftUI](https://www.basbroek.nl/multiple-custom-contents-swiftui) — Those Who Swift · Issue 282 — Article · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Shows a model-driven workaround for applying multiple accessibility custom-content pairs in SwiftUI. Validate the resulting VoiceOver experience in the target app because the approach compensates for a missing builder-style API.
+- [Fix Sluggish SwiftUI Previews Instantly With Static Mock Data](https://sagarunagar.com/blog/fix-sluggish-xcode-swiftui-previews-mock-data) — Those Who Swift · Issue 282 — Article · Topics: Swift · SwiftUI · Xcode
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Uses protocol-backed static mock data to keep SwiftUI previews from waiting on production services or expensive model setup. The pattern improves iteration when preview dependencies remain deterministic and isolated.
+- [Building adaptive SwiftUI layouts with containerRelativeFrame()](https://nilcoalescing.com/blog/BuildingAdaptiveSwiftUILayoutsWithContainerRelativeFrame?ref=ioscodereview.com) — iOS Code Review · Issue 85 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-01T18:37:07.000Z`
+  **NeKI brief:** Shows how containerRelativeFrame() sizes and positions SwiftUI content relative to its container, making layouts adapt cleanly across split views, navigation surfaces, and different window sizes.
+- [SwiftUI data dependencies and their effect on view updates](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates?ref=ioscodereview.com) — iOS Code Review · Issue 85 — Article · Topics: Dependency Injection · Swift · SwiftUI
+  **Published:** `2026-09-01T18:37:07.000Z`
+  **NeKI brief:** Distinguishes how stored inputs, State, Binding, environment values, Observable models, and ObservableObject subscriptions trigger SwiftUI updates. Use it to diagnose invalidation from actual body reads rather than wrapper names alone.
 - [Consuming SKIE Flows in SwiftUI](https://l.fatbobman.com/w0151-06) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Swift · SwiftUI
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Explains consuming Kotlin Flow values in SwiftUI through SKIE when Kotlin Multiplatform owns shared business logic. It is useful for examining bridging and observation boundaries between the two ecosystems.
@@ -5578,9 +5615,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Protecting SwiftUI Views with Authentication](https://azamsharp.com/2026/08/22/protecting-swiftui-views-with-authentication.html) — iOS Dev Weekly · Issue 765 — Article · Topics: Cross-Platform & Web · Swift · SwiftUI
   **Published:** `28th August 2026`
   **NeKI brief:** Shows how to protect SwiftUI views behind an authentication boundary. The topic connects view composition with session state, making it useful for deciding where authenticated routing and access checks belong in a SwiftUI application.
-- [Dynamically Setting Accessibility Content in SwiftUI](https://www.basbroek.nl/multiple-custom-contents-swiftui) — iOS Dev Weekly · Issue 765 — Article · Topics: Accessibility · Swift · SwiftUI
-  **Published:** `28th August 2026`
-  **NeKI brief:** Shows a model-driven workaround for applying multiple accessibility custom-content pairs in SwiftUI. Validate the resulting VoiceOver experience in the target app because the approach compensates for a missing builder-style API.
 - [Empty States in SwiftUI with ContentUnavailableView](https://kylebrowning.com/posts/swiftui-empty-states-contentunavailableview) — Those Who Swift · Issue 281 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Compares the ContentUnavailableView initializers and shows how to build reusable SwiftUI empty states for search, errors, and offline conditions. The approach reduces repeated per-screen placeholder logic while keeping each state understandable to users.
@@ -9346,6 +9380,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Typist: Small Swift UIKit keyboard manager for iOS apps](https://github.com/totocaster/Typist) — iOS Dev Weekly · Issue 271 — Source repository · Topics: Developer Tools · Hardware & Devices · Swift
   **Published:** `7th October 2016`
   **NeKI brief:** Examines Typist: Small Swift UIKit keyboard manager for iOS apps, focusing on this library from toto tvalavadze is kinda interesting. Use it as a focused research reference for related Apple-platform work, and verify version-specific details against current documentation.
+- [Corner Concentricity in SwiftUI on iOS 26](https://go.peterfriese.dev/swiftui-concentric-rectangle?s=web&t=ext) — Not only Swift · Issue 104 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Demonstrates iOS 26 ConcentricRectangle and containerShape for aligning nested SwiftUI corners with their container. Check availability and visual results across sizes before replacing explicit radii.
 - [SwiftUI data dependencies and their effect on view updates](https://go.peterfriese.dev/swiftui-data-dependencies-and-their-effect-on-view-updates?s=web&t=ext) — Not only Swift · Issue 103 — Article · Topics: Dependency Injection · Swift · SwiftUI
   **NeKI brief:** Explains how SwiftUI view updates follow the data read during body evaluation, helping distinguish a genuine dependency from unrelated model changes. Use it when reducing unnecessary invalidation or making data flow explicit.
 - [No spoilers, Sherlock! Building a book Q&A using on-device AI (Code, Commit, Deploy, Repeat S2E1)](https://go.peterfriese.dev/firebase-no-spoilers-sherlock-book-qa?s=web&t=ext) — Not only Swift · Issue 102 — Article · Topics: AI Development · Swift · SwiftUI

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Developer conferences, publications, courses, podcasts, membership, sponsorship, and community business news.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **678**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **682**
 
 ## Direct-source reading
 
@@ -138,6 +138,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [What’s new in Swift: August 2026 Edition](https://l.fatbobman.com/w0152-02) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Developer Community & Business · Swift
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Rounds up August 2026 Swift work across web and Windows support, Embedded Swift, package registries, testing proposals, and ownership-oriented language changes. Use the digest to locate primary project discussions and proposals.
+- [SE-0541: Flexible Swift/C Interoperability For Packages](https://forums.swift.org/t/accepted-se-0541-flexible-swift-c-interoperability-for-packages/89183) — Those Who Swift · Issue 282 — Article · Topics: Developer Community & Business · Swift · Swift Package Manager
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Records the Ecosystem Steering Group's acceptance of SE-0541 after a positive review. Follow the linked proposal for the mixed-source-target, bridging-header, and generated-header details rather than treating the announcement as the specification.
 - [similar topic](https://swiftology.io/articles/tydd-part-3) — iOS Dev Weekly · Issue 765 — Article · Topics: Developer Community & Business · Swift
   **Published:** `28th August 2026`
   **NeKI brief:** Continues a Swift-focused technical article series. Use it as a reading lead and verify its assumptions against the current language and SDK versions.
@@ -1980,6 +1986,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iOS devs put out a call to unite against Lodsys, other patent trolls](http://arstechnica.com/apple/news/2011/08/ios-devs-put-out-a-call-to-unite-against-lodsys-other-patent-trolls.ars) — iOS Dev Weekly · Issue 1 — Podcast · Topics: Developer Community & Business
   **Published:** `5th August 2011`
   **NeKI brief:** Examines Independent and big-name developers alike are being bullied by patent trolls …. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Play](https://youtube.com/watch?v=GWXCCBsOMSg) — Not only Swift · Issue 104 — Video · Topics: Developer Community & Business · Swift
+  **NeKI brief:** Demonstrates the narrated trance composition produced with SwiftMusic. It is useful as an output example for the linked library, while the repository remains the implementation source.
+- [Conditional Breakpoints in Xcode - Debug Specific States Faster](https://go.peterfriese.dev/swift-conditional-breakpoints-xcode?s=web&t=ext) — Not only Swift · Issue 104 — Article · Topics: Developer Community & Business · Swift · Xcode
+  **NeKI brief:** Shows how Xcode breakpoint conditions pause only when a Swift expression matches a target state. Use it to reduce debugger noise while keeping conditions cheap and side-effect free.
 - [iOSDevUK](https://go.peterfriese.dev/iosdevuk-2026-issue-103?s=web&t=ext) — Not only Swift · Issue 103 — Tutorial · Topics: AI Development · Developer Community & Business · Swift
   **NeKI brief:** Routes to the iOSDevUK conference and workshop programme. Treat it as community-event discovery rather than technical implementation guidance.
 - [MiniKotlin](https://go.peterfriese.dev/minikotlin?s=newsletter&t=ext) — Not only Swift · Issue 99 — Tutorial · Topics: Developer Community & Business · Swift

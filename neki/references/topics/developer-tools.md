@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Git, command-line work, debugging, automation, and practical developer workflows.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **2456**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed links shown: **2472**
 
 ## Direct-source reading
 
@@ -102,6 +102,60 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [MobAI-App/simslim: Run more iOS simulators on one Mac by disabling background daemons](https://github.com/MobAI-App/simslim) — SwiftLee Weekly · Issue 340 — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Disables selected background daemons inside Simulator runtimes to reduce memory and run more devices per Mac. Treat its speed claims as workload-specific and review service side effects before CI use.
+- [AcceptedSE-0540Default Target Settings](https://github.com/apple/swift-evolution/blob/main/proposals/0540-default-target-settings.md) — SwiftLee Weekly · Issue 340 — Source repository · Topics: App Intents & System Surfaces · Developer Tools · Swift
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Adds package-level default settings that apply across SwiftPM targets while allowing target-specific additions or overrides. It reduces repeated manifest flags, especially for packages adopting upcoming language features.
+- [ImplementedSE-0541Flexible Swift/C Interoperability for Packages](https://github.com/apple/swift-evolution/blob/main/proposals/0541-flexible-swift-c-interoperability-for-packages.md) — SwiftLee Weekly · Issue 340 — Source repository · Topics: App Intents & System Surfaces · Developer Tools · Swift
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Proposes mixed Swift and C-family sources in SwiftPM targets, bridging-header manifest support and sounder generated-header consumption for package interoperability.
+- [Active ReviewSE-0548resignRemoteID for remote distributed actor references](https://github.com/apple/swift-evolution/blob/main/proposals/0548-resign-remote-id.md) — SwiftLee Weekly · Issue 340 — Source repository · Topics: App Intents & System Surfaces · Concurrency · Swift
+  **Published:** `2026-09-08T14:05:49.000Z`
+  **NeKI brief:** Adds resignRemoteID so a DistributedActorSystem can observe deinitialization of remote actor references and release connection-related resources. The default no-op preserves existing implementations while balancing repeated references per ID.
+- [Iterable](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0516-borrowing-sequence.md) — Fatbobman’s Swift Weekly · Issue 152 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Introduces Iterable for borrowing, potentially throwing iteration over noncopyable or nonescapable values. Its Span-based iterator addresses cases that Sequence cannot model without copying or consuming elements.
+- [BLESwift 2.0](https://github.com/kylebrowning/BLESwift) — Fatbobman’s Swift Weekly · Issue 152 — Source repository · Topics: Developer Tools · Swift · Testing
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Provides Swift 6.2 async and actor-isolated CoreBluetooth APIs, AsyncSequence scanning, typed GATT operations, multicast notifications, background restoration, and Simulator transport. Check supported Apple platforms and real-device parity before adoption.
+- [CoreDataBrowser: Quickly Inspect Local Data in the Simulator](https://l.fatbobman.com/w0152-08) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Core Data · Developer Tools · Persistence & Synchronisation
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** Introduces a Simulator utility for inspecting Core Data stores and pairs its App Store listing with public source. Evaluate schema safety and whether inspection can remain read-only for production-like data.
+- [source code is publicly available](https://github.com/kyletaylor94/CoreDataBrowser) — Fatbobman’s Swift Weekly · Issue 152 — Source repository · Topics: Core Data · Objective-C & Cocoa · Persistence & Synchronisation
+  **Published:** `2026-09-07T12:03:43.098Z`
+  **NeKI brief:** CoreDataBrowser provides tooling for browsing Core Data stores. Follow its source for concrete persistence inspection and debugging workflows, while checking schema, migration, and read/write safety boundaries.
+- [Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, and macOS.](https://github.com/xtool-org/xtool) — iOS Dev Weekly · Issue 766 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Product Design
+  **Published:** `4th September 2026`
+  **NeKI brief:** Builds and deploys iOS applications through SwiftPM on macOS, Linux, and Windows as an alternative toolchain path. Evaluate signing, SDK provenance, debugging, and App Store workflow coverage before adoption.
+- [Baguette](https://github.com/tddworks/baguette) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Source repository · Topics: Developer Tools
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Provides headless Apple Simulator control with streaming, 3D models, touch and multi-finger input, and multi-device operation. Review host permissions and protocol stability before using it in automated test infrastructure.
+- [SwiftMocking](https://github.com/DanielCardonaRojas/swift-mocking) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Implements a compact Swift mocking library with macros and parameter packs to generate test doubles. Evaluate macro diagnostics, concurrency behavior, and API coverage before replacing hand-written fakes.
+- [parameter packs](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0393-parameter-packs.md) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Defines value and type parameter packs using each and repeat, enabling variadic generic functions without fixed overload limits or type erasure. The proposal is implemented from Swift 5.9.
+- [Naseem](https://ayman3000.github.io/naseem-app) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Article · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Presents a native macOS agent that can use local or hosted models to run commands, edit files, automate apps, and drive Simulator behind approval gates. Review its permission and secret boundaries first.
+- [Virtual Mac on iPad](https://github.com/nfzerox/VirtualMacOniPad) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Source repository · Topics: Developer Tools · Personal Essays · Xcode
+  **Published:** `2026-09-03T17:14:44.570Z`
+  **NeKI brief:** Describes running macOS and desktop tools on specific older M-series iPads and iPadOS versions. Treat it as an experimental compatibility project with substantial security, support, and device-version constraints.
+- [Some Things Are Never Truly Lost](https://danielsaidi.com/blog/2026/08/27/some-things-are-never-truly-lost) — Those Who Swift · Issue 282 — Article · Topics: Developer Tools
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Recounts recovering a force-pushed, reset branch by locating its old tip in the local reflog and restoring a branch reference. It is a practical reminder that recovery depends on local object retention and should be paired with normal backup and remote protection.
+- [Uploading To TestFlight From The Command Line](https://kylebrowning.com/posts/uploading-to-testflight-from-the-command-line) — Those Who Swift · Issue 282 — Article · Topics: App Distribution & Store Operations · Developer Tools · Testing
+  **Published:** `2026-09-02T21:05:28.721Z`
+  **NeKI brief:** Walks through archiving, exporting, and uploading an iOS build with xcodebuild and Apple's command-line tools without Fastlane. Verify the current upload utility, signing, and authentication requirements before scripting releases.
+- [AcceptedSE-0544Mutation and consumption in non-`Copyable` type `deinit`s](https://github.com/apple/swift-evolution/blob/main/proposals/0544-mutate-or-consume-in-deinit.md) — SwiftLee Weekly · Issue 339 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-09-01T14:08:57.000Z`
+  **NeKI brief:** Allows a noncopyable type's deinit to mutate or consume stored fields for resource cleanup while still forbidding mutation or consumption of self as a whole, avoiding resurrection and recursive destruction hazards.
+- [Active ReviewSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — SwiftLee Weekly · Issue 339 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `2026-09-01T14:08:57.000Z`
+  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
 - [Building an accessible calendar chart with Swift Charts](https://l.fatbobman.com/w0151-04) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Accessibility · Developer Tools · Swift
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Builds a calendar-style Swift Charts visualization with attention to accessible representation of repeated weekdays and chart data. Use it when visual density must remain understandable to assistive technologies.
@@ -111,9 +165,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Xcode Tools Documentation](https://github.com/artemnovichkov/xcode-tools-docs) — iOS Dev Weekly · Issue 765 — Source repository · Topics: Architecture · Developer Tools · Xcode
   **Published:** `28th August 2026`
   **NeKI brief:** Collects missing or hard-to-find Xcode command-line and tool documentation in an inspectable repository, useful for discovering a workflow before validating it against Apple’s current documentation.
-- [Some things are never truly lost - How git recovered two weeks of deleted work](https://danielsaidi.com/blog/2026/08/27/some-things-are-never-truly-lost) — iOS Dev Weekly · Issue 765 — Article · Topics: AI Development · Concurrency · Developer Tools
-  **Published:** `28th August 2026`
-  **NeKI brief:** Recounts recovering a force-pushed, reset branch by locating its old tip in the local reflog and restoring a branch reference. It is a practical reminder that recovery depends on local object retention and should be paired with normal backup and remote protection.
 - [JoltPhysics](https://github.com/EvgenijLutz/JoltPhysics) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: Developer Tools · Graphics, Media & Games · Performance
   **Published:** `2026-08-27T20:30:45.555Z`
   **NeKI brief:** Provides a Swift-facing package around the Jolt C++ physics engine for real-time simulation. Assess native dependency, determinism, and supported-platform trade-offs before making it an app dependency.
@@ -195,9 +246,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0535Add CLI for editing global mirrors configuration](https://github.com/apple/swift-evolution/blob/main/proposals/0535-global-mirrors-configuration-cli.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-08-11T14:07:13.000Z`
   **NeKI brief:** Adds a --global option to SwiftPM's mirror configuration commands so user-wide mirrors can be viewed and edited outside a package directory without changing existing local behavior.
-- [Active ReviewSE-0541Flexible Swift/C Interoperability for Packages](https://github.com/apple/swift-evolution/blob/main/proposals/0541-flexible-swift-c-interoperability-for-packages.md) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Developer Tools · Swift · SwiftUI
-  **Published:** `2026-08-11T14:07:13.000Z`
-  **NeKI brief:** Proposes mixed Swift and C-family sources in SwiftPM targets, bridging-header manifest support and sounder generated-header consumption for package interoperability.
 - [My Swift Concurrency Agent Skill should already work](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill/releases/tag/2.2.0) — SwiftLee Weekly · Issue 336 — Source repository · Topics: Concurrency · Developer Tools · Swift
   **Published:** `2026-08-11T14:07:13.000Z`
   **NeKI brief:** Updates the Swift concurrency skill with approachable-concurrency settings, Xcode defaults and SendableMetatype guidance while adopting the Agent Plugins 1.0 portable package format.
@@ -690,9 +738,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Core Data Evolution](https://github.com/fatbobman/CoreDataEvolution) — Fatbobman’s Swift Weekly · Issue 128 — Source repository · Topics: Core Data · Persistence & Synchronisation · Swift
   **Published:** `2026-03-23T12:02:22.360Z`
   **NeKI brief:** CoreDataEvolution experiments with bringing ModelActor-like concurrency structure to Core Data. Use it when modernizing a Core Data stack while retaining its model and store, especially to centralize context ownership and serialized mutations.
-- [CoreDataBrowser](https://github.com/kyletaylor94/CoreDataBrowser) — iOS Dev Tools · iOS Dev Tools: web2wave, CoreDataBrowser, DataStoreKit — Source repository · Topics: Core Data · Developer Tools · Persistence & Synchronisation
-  **Published:** `2026-03-19T17:30:50.047Z`
-  **NeKI brief:** CoreDataBrowser provides tooling for browsing Core Data stores. Follow its source for concrete persistence inspection and debugging workflows, while checking schema, migration, and read/write safety boundaries.
 - [DataStoreKit](https://github.com/asymbas/datastorekit) — iOS Dev Tools · iOS Dev Tools: web2wave, CoreDataBrowser, DataStoreKit — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Persistence & Synchronisation
   **Published:** `2026-03-19T17:30:50.047Z`
   **NeKI brief:** DataStoreKit provides Swift persistence abstractions for storing application data. Follow its source and tests for concrete serialization, caching, and lifecycle semantics, then compare them with the project’s existing persistence layer.
@@ -7161,6 +7206,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Xcode Snippet Management](https://github.com/lukeredpath/xcodesnippets) — iOS Dev Weekly · Issue 1 — Source repository · Topics: Developer Career & Practice · Developer Tools · Xcode
   **Published:** `5th August 2011`
   **NeKI brief:** Examines A command-line utility for managing Xcode 4 code snippets - lukeredpath/xcodesnippets. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Corner Concentricity in SwiftUI on iOS 26](https://go.peterfriese.dev/swiftui-concentric-rectangle?s=web&t=ext) — Not only Swift · Issue 104 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Demonstrates iOS 26 ConcentricRectangle and containerShape for aligning nested SwiftUI corners with their container. Check availability and visual results across sizes before replacing explicit radii.
 - [Paul Hudson’s Swift and SwiftUI skills](https://github.com/twostraws/swiftui-agent-skill) — Not only Swift · Issue 98 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **NeKI brief:** Provides a reusable SwiftUI-focused agent skill with guidance for generating and reviewing views. Useful as a concrete prompt and workflow artifact when evaluating AI-assisted UI composition, accessibility, and maintainability in a project.
 - [Firebase skills](https://github.com/firebase/agent-skills) — Not only Swift · Issue 98 — Source repository · Topics: Developer Tools · Swift · SwiftUI

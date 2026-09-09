@@ -3,9 +3,45 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://sarunw.com/posts/](https://sarunw.com/posts/)
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed entries: **452**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **461**
 
+- [Existential any in Swift, and when it becomes required | Sarunw](https://sarunw.com/posts/existential-any-in-swift)
+  **Published:** `2026-09-10`
+  **Topics:** Swift
+  **NeKI brief:** Clarifies what the any keyword makes explicit about existential storage, where Swift's migration currently stands, and how to enable diagnostics early. It also distinguishes existential use from generic alternatives.
+- [Why some Swift types only appear when you import two modules | Sarunw](https://sarunw.com/posts/swift-cross-import-overlay)
+  **Published:** `2026-09-09`
+  **Topics:** Swift · SwiftUI
+  **NeKI brief:** Explains why APIs such as Map, PhotosPicker, and WebView appear only when two related modules are imported. Use it to recognize cross-import overlays when declarations seem absent from their apparent framework.
+- [SwiftUI has a native WebView in iOS 26 | Sarunw](https://sarunw.com/posts/swiftui-native-webview)
+  **Published:** `2026-09-08`
+  **Topics:** Swift · SwiftUI
+  **NeKI brief:** Introduces SwiftUI's native WebView and WebPage APIs for loading, navigation state, progress, and modifiers. It also identifies cases that still require lower-level WebKit integration instead of a blanket wrapper replacement.
+- [Codable errors are finally readable in Swift 6.3 | Sarunw](https://sarunw.com/posts/readable-codable-errors)
+  **Published:** `2026-09-04`
+  **Topics:** Swift
+  **NeKI brief:** Shows the concise Swift 6.3 descriptions for DecodingError and EncodingError, including coding paths and underlying context. It notes remaining caveats so improved diagnostics are not mistaken for custom user-facing error handling.
+- [Typed throws in Swift 6 | Sarunw](https://sarunw.com/posts/typed-throws-in-swift)
+  **Published:** `2026-09-03`
+  **Topics:** Swift
+  **NeKI brief:** Explains typed throws syntax, exhaustive catch behavior, and its relationship to rethrows. It also argues for retaining untyped throws when callers do not benefit from a stable, closed error contract.
+- [Trailing commas beyond arrays in Swift 6.1 | Sarunw](https://sarunw.com/posts/trailing-comma-in-swift)
+  **Published:** `2026-09-02`
+  **Topics:** Swift
+  **NeKI brief:** Catalogues Swift 6.1 trailing-comma support across parameters, tuples, generics, capture lists, and other declarations, while identifying unsupported and single-element cases. The main benefit is cleaner multiline diffs.
+- [How to use if and switch as expressions in Swift | Sarunw](https://sarunw.com/posts/if-and-switch-expressions)
+  **Published:** `2026-09-01`
+  **Topics:** Swift
+  **NeKI brief:** Shows how Swift if and switch expressions produce values, including required else branches, independently inferred branch types, and the single-expression limitation. Useful for replacing mutable setup without obscuring control flow.
+- [How to add cases to a public enum without breaking your API | Sarunw](https://sarunw.com/posts/nonexhaustive-enums-in-swift)
+  **Published:** `2026-08-31`
+  **Topics:** Swift
+  **NeKI brief:** Explains how the proposed nonexhaustive enum attribute lets libraries add public cases while requiring external switches to retain an unknown-case path. It also notes that adopting the attribute is itself source-breaking.
+- [How to declare a fixed-size array in Swift | Sarunw](https://sarunw.com/posts/fixed-size-array-in-swift)
+  **Published:** `2026-08-30`
+  **Topics:** Swift
+  **NeKI brief:** Introduces Swift 6.2 InlineArray syntax, where element count participates in the type, and highlights indexing and API limitations that differ from Array. Useful for evaluating fixed-storage trade-offs before adopting it.
 - [How to set a default value in Swift string interpolation | Sarunw](https://sarunw.com/posts/default-value-in-string-interpolation)
   **Published:** `2026-08-29`
   **Topics:** Swift

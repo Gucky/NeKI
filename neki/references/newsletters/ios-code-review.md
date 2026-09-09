@@ -3,8 +3,30 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://ioscodereview.com/](https://ioscodereview.com/)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **84**
+- Last collected: `2026-09-09T21:39:11Z`
+- Indexed entries: **85**
+
+## [Issue 85](https://ioscodereview.com/issues/issue-85-xcode-goes-headless-ios-27-leaves-foldable-fingerprints-and-adaptive-layouts-for-real-this-time)
+
+- Published: `2026-09-01T18:37:07.000Z`
+
+**Topics:** AI Development · macOS & AppKit · Swift · SwiftUI · UIKit · Xcode
+
+**Sections:** Xcode 27: A Headless MCP Server (Xcode 27+) · iOS 27: The Foldable Clues Keep Piling Up (iOS 27 beta 7) · SwiftUI: Adaptive Layouts with containerRelativeFrame() (iOS 17+)
+
+**NeKI brief:** Routes to headless Xcode and exported agent-skill workflows, adaptive SwiftUI layout guidance, data-dependency analysis, and foldable-device reporting. Separate the reproducible engineering material from the hardware speculation.
+
+**Selected links:**
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp?ref=ioscodereview.com) — Article · Topics: AI Development · Xcode
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [Building adaptive SwiftUI layouts with containerRelativeFrame()](https://nilcoalescing.com/blog/BuildingAdaptiveSwiftUILayoutsWithContainerRelativeFrame?ref=ioscodereview.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Shows how containerRelativeFrame() sizes and positions SwiftUI content relative to its container, making layouts adapt cleanly across split views, navigation surfaces, and different window sizes.
+- [SwiftUI data dependencies and their effect on view updates](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates?ref=ioscodereview.com) — Article · Topics: Dependency Injection · Swift · SwiftUI
+  **NeKI brief:** Distinguishes how stored inputs, State, Binding, environment values, Observable models, and ObservableObject subscriptions trigger SwiftUI updates. Use it to diagnose invalidation from actual body reads rather than wrapper names alone.
+- [The Xcode 27 Agent Skills](https://livsycode.com/best-practices/the-xcode-27-agent-skills?ref=ioscodereview.com) — Article · Topics: Xcode
+  **NeKI brief:** Explains the purpose and layout of Xcode 27's exported agent skills and how reusable instructions shape tool use and constraints. Verify the installation and invocation details against the current Xcode release.
+- [Apple Left Foldable iPhone Clues Throughout iOS 27](https://www.iclarified.com/101168/apple-left-foldable-iphone-clues-throughout-ios-27?ref=ioscodereview.com) — Article
+  **NeKI brief:** Reports beta strings for fold state, hinge angle, and multiple displays as evidence of possible foldable hardware support. Treat the interpretation as rumor until Apple publishes device and SDK contracts.
 
 ## [Issue 84](https://ioscodereview.com/issues/issue-84-swiftuis-hidden-orphan-switch-toolbars-get-priorities-and-media-intelligence-in-ios-27)
 
