@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://fatbobman.com/en/posts/](https://fatbobman.com/en/posts/)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **236**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed entries: **237**
 
+- [From pbxproj to xcproj - Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj)
+  **Published:** `2026-09-17T14:30:00.000Z`
+  **Topics:** Developer Tools · Xcode
+  **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
 - [SwiftData - Optimization Starts with Modeling](https://fatbobman.com/en/posts/swiftdata-optimization-starts-with-modeling)
   **Published:** `2026-09-02T14:00:00.000Z`
   **Topics:** Core Data · Persistence & Synchronisation · Swift · SwiftData

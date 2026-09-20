@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Dependency injection, test seams, service composition, and dependency management.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **196**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **197**
 
 ## Direct-source reading
 
@@ -309,6 +309,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Action Runner: An iOS Architecture for Isolating Business Logic](https://ivanthinking.net/2026/09/15/action-runner-ios-architecture) — Those Who Swift · Issue 284 — Article · Topics: Architecture · Dependency Injection · Objective-C & Cocoa
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Presents an Action and RunnableAction architecture that moves business logic out of SwiftUI views and oversized controllers, using a shared RunContext to make dependencies explicit and reduce circular coordination.
 - [Multiplatform Swift, with C++ dependencies via XCFramework, apt and vcpkg](https://l.fatbobman.com/w0152-04) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Dependency Injection · Swift · Systems Programming
   **Published:** `2026-09-07T12:03:43.098Z`
   **NeKI brief:** Builds one Swift package around a C++ dependency across macOS, Linux, and Windows using XCFramework, apt, and vcpkg respectively. It exposes the packaging trade-offs behind a nominally shared API.

@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Unit, UI, Swift Testing, XCTest, test design, and test automation.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **1314**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **1319**
 
 ## Direct-source reading
 
+- [Moving from XCTest to Swift Testing | Kodeco](https://www.kodeco.com/53560697-moving-from-xctest-to-swift-testing) — Kodeco / Ray Wenderlich archive · article catalogue
+  **Published:** `2026-09-20`
+  **NeKI brief:** Guides an XCTest-to-Swift-Testing migration through translated assertions, suite structure, parameterized tests, traits, and Xcode's coding-agent assistance. Useful for planning an incremental conversion rather than a wholesale rewrite.
 - [How to Test iOS Apps in Different Time Zones on a Physical iPhone - SwiftLee](https://www.avanderlee.com/xcode/ios-time-zone-testing-physical-iphone) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-07-20T12:27:42+00:00`
   **NeKI brief:** Compares ways to validate time-sensitive app behavior on a physical iPhone, including automatic time-zone handling and simulated location changes.
@@ -1676,6 +1679,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [XCRunway](https://xcrunway.app/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: Testing · Xcode
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Provides a native Xcode Cloud client for iPhone, iPad, and Mac that can start workflows, monitor progress, inspect tests and logs, and download artifacts while keeping API credentials in Keychain.
+- [Sagar Unagar](https://l.fatbobman.com/w0153-09) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Testing
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Condenses Apple's iPhone Duo design guidance into size-class adaptation, side-mounted system bars, fold displacement, safe areas, and split or overlay arrangement containers.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp?ref=createwithswift.com) — Create with Swift · Issue 119 — Article · Topics: AI Development · Swift · Xcode
+  **Published:** `2026-09-11T16:00:59.000Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [macOS Tahoe silently sabotaged the login keychain](https://lapcatsoftware.com/articles/2026/9/4.html) — iOS Dev Weekly · Issue 767 — Article · Topics: Cross-Platform & Web · Persistence & Synchronisation · Security & Privacy
+  **Published:** `11th September 2026`
+  **NeKI brief:** Investigates macOS Tahoe and Golden Gate login-keychain encryption tied to the Secure Enclave, showing why copied keychain files cannot be unlocked on another Mac and what that means for backup assumptions.
 - [What's New in Swift: August 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-august-2026) — Those Who Swift · Issue 283 — Article · Topics: Swift · Testing
   **Published:** `2026-09-09T20:05:48.711Z`
   **NeKI brief:** Rounds up August 2026 Swift work across web and Windows support, Embedded Swift, package registries, testing proposals, and ownership-oriented language changes. Use the digest to locate primary project discussions and proposals.

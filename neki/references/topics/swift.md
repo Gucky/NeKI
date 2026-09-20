@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Language features, standard-library use, compiler behaviour, and Swift evolution.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **8045**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **8079**
 
 ## Direct-source reading
 
@@ -12722,6 +12722,111 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Reusable SwiftUI Previews with PreviewModifier](https://livsycode.com/swiftui/reusable-swiftui-previews-with-previewmodifier?ref=createwithswift.com) — Create with Swift · Issue 120 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-18T16:00:51.000Z`
+  **NeKI brief:** Shows how PreviewModifier centralizes mock services, sample data, and in-memory ModelContainer setup so multiple SwiftUI previews can reuse one prepared environment without duplicating configuration code.
+- [Designing for iPhone Duo - HIG Guide in 5 Minutes](https://www.sagarunagar.com/blog/iphone-duo-human-interface-guidelines?ref=createwithswift.com) — Create with Swift · Issue 120 — Article · Topics: Swift
+  **Published:** `2026-09-18T16:00:51.000Z`
+  **NeKI brief:** Condenses Apple's iPhone Duo guidance into size-class adaptation, side-mounted bars, fold displacement, safe regions, and ArrangementView split or overlay containers, with emphasis on designing for space rather than enumerating poses.
+- [Building a sunburst diagram in Swift Charts](https://nilcoalescing.com/blog/BuildingASunburstDiagramInSwiftCharts?ref=createwithswift.com) — Create with Swift · Issue 120 — Article · Topics: Accessibility · Objective-C & Cocoa · Swift
+  **Published:** `2026-09-18T16:00:51.000Z`
+  **NeKI brief:** Builds a hierarchical sunburst visualization as nested Swift Charts sectors, aligning child angles with their parent groups. It is useful when choosing data normalization, angular marks, labels, and interaction for multilevel proportions.
+- [fullcoverage](https://github.com/Shadester/fullcoverage) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Implements a Swift command-line tool that reads Xcode xcresult bundles and produces multi-file HTML coverage reports with line, branch, function, per-file, and aggregate views.
+- [Swift 6.4 Released](https://www.swift.org/blog/swift-6.4-released) — iOS Dev Weekly · Issue 768 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `18th September 2026`
+  **NeKI brief:** Summarises Swift 6.4 across language, concurrency, testing, SwiftPM and Swift Build, debugging, interoperability, WebAssembly, Android, Embedded Swift, and noncopyable data structures. Use its proposal links to investigate individual changes.
+- [iPhone Duo: First Developer Good-to-Knows](https://www.swiftjectivec.com/iphone-duo-first-developer-good-to-knows) — Those Who Swift · Issue 284 — Article · Topics: Graphics, Media & Games · Swift
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Summarises Apple's six iPhone Duo developer videos around adaptive layouts, vertical system bars, safe areas, cameras, multitasking, multiple displays, and hinge-aware interactions, providing a short first-pass checklist.
+- [iPhone Duo for iOS Developers: What Actually Changes in Your Swift Code](https://dev.to/arshtechpro/iphone-duo-for-ios-developers-what-actually-changes-in-your-swift-code-5gc5) — Those Who Swift · Issue 284 — Article · Topics: Swift
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Walks through the concrete SwiftUI changes for iPhone Duo, including size classes, reserved regions, fold-aware layouts, and ArrangementView, with code-oriented examples of how an existing interface can adapt.
+- [Native is now the future of mobile at Shopify](https://shopify.engineering/back-to-native) — Those Who Swift · Issue 284 — Article · Topics: AI Development · Cross-Platform & Web · Swift
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Explains why Shopify is moving its mobile apps from React Native back to Swift and Kotlin: coding agents changed native-development economics while platform-specific UI and capabilities increased the value of direct SDK access.
+- [New Hashable conformances in Swift 6.4](https://livsycode.com/swift/new-hashable-conformances-in-swift-6-4?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Swift
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Details the Swift 6.4 Hashable conformances added by SE-0514 and SE-0523 for Dictionary.Keys, CollectionOfOne, EmptyCollection, and UnownedTaskExecutor, including the source-compatibility consequence for custom conformances.
+- [Debugging: Smaller dSYMs and a Task Tree in LLDB (Swift 6.3 / 6.4)](https://www.swift.org/blog/module-tracking-in-debug-info?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Developer Tools · Swift
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Explains Swift 6.3 and 6.4 module tracking in debug information, including more precise LLDB module loading, smaller dSYM bundles, and task-tree inspection for debugging structured concurrency.
+- [iPhone Duo: ArrangementView (iOS 27.1 SDK, beta coming later this month)](https://livsycode.com/swiftui/building-iphone-duo-layouts-with-arrangementview?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Shows how ArrangementView describes a relationship between two SwiftUI regions and lets the system choose split or overlay presentation, including navigation ownership and fold-aware behavior on iPhone Duo.
+- [iPhone Duo: First Developer Good-to-Knows](https://swiftjectivec.com/iPhone-Duo-First-Developer-Good-to-Knows?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Graphics, Media & Games · Swift
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Summarizes early dual-screen adaptation guidance around size classes, asymmetric safe areas, hinge-aware effects, multitasking, toolbar overflow, and camera behavior. Treat it as preparatory reading until the referenced SDK details are stable.
+- [SwiftUI toolbars](https://mjtsai.com/blog/2026/09/08/swiftui-toolbars?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Collects practical limitations and migration observations for customizable SwiftUI toolbars on macOS, especially stable identifiers, NSToolbar bridging, and the absence of a customizable ToolbarItemGroup equivalent.
+- [ViewThatFits](https://www.natashatherobot.com/p/swiftui-viewthatfits?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Uses ViewThatFits to choose between compact and expanded SwiftUI layouts at larger Dynamic Type sizes, showing a small adaptive technique that can improve accessibility without hard-coded size-category branching.
+- [Getting started with Live Activities in SwiftUI](https://tanaschita.com/activitykit-live-activities-swiftui?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: App Services & Extensions · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Walks through an ActivityKit model, widget presentation for the Lock Screen and Dynamic Island, and activity lifecycle updates. Use it to connect shared attributes with UI regions before adding remote-update complexity.
+- [Building a sunburst diagram in Swift Charts](https://nilcoalescing.com/blog/BuildingASunburstDiagramInSwiftCharts?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Builds a hierarchical sunburst visualization as nested Swift Charts sectors, aligning child angles with their parent groups. It is useful when choosing data normalization, angular marks, labels, and interaction for multilevel proportions.
+- [SwiftData: Optimization Starts with Modeling](https://fatbobman.com/en/posts/swiftdata-optimization-starts-with-modeling?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftData
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Explains why large SwiftData rows can stall lists when fetching also materializes their stored values. It advocates separating heavy payloads during modeling so ordinary list queries load only the data they need.
+- [Godot with Swift](https://massicotte.org/blog/experimenting-with-godot?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Reflects on returning to game development with Godot, covering the engine and editor model, GDScript trade-offs, rapid iteration, and the differences a Swift developer encounters when moving beyond native Apple tooling.
+- [ImplementedSE-0543InlineArray: Hashable](https://github.com/apple/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md) — SwiftLee Weekly · Issue 341 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-09-15T14:09:49.000Z`
+  **NeKI brief:** Proposes conditional Equatable and Hashable conformances for InlineArray when its elements qualify, using elementwise equality and hashing every element with linear complexity.
+- [Module Tracking in Swift Debug Info](https://l.fatbobman.com/w0153-01) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Swift
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Explains Swift 6.3 and 6.4 module tracking in debug information, including more precise LLDB module loading, smaller dSYM bundles, and task-tree inspection for debugging structured concurrency.
+- [New Hashable conformances in Swift 6.4](https://l.fatbobman.com/w0153-02) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Swift
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Details the Swift 6.4 Hashable conformances added by SE-0514 and SE-0523 for Dictionary.Keys, CollectionOfOne, EmptyCollection, and UnownedTaskExecutor, including the source-compatibility consequence for custom conformances.
+- [How to list big models cheaply: Vein vs SwiftData](https://l.fatbobman.com/w0153-03) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Performance · Swift · SwiftData
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Benchmarks large-list behavior in Vein against SwiftData, focusing on initial fetch time, memory use, and lazy field loading. Useful for evaluating how persistence-model shape affects rendering cost.
+- [Vein](https://github.com/amethystsoft/vein) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Swift · SwiftData
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Implements a cross-platform declarative database inspired by SwiftData, with lazy field loading designed to reduce initial fetch cost and memory pressure for large models and long lists.
+- [Abstracting SwiftUI state with scopes](https://l.fatbobman.com/w0153-06) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Develops a scoped approach to SwiftUI state that combines local values, environment dependencies, and observable models while remaining controllable from previews, navigation flows, and external callers.
+- [ScopedState](https://github.com/auramagi/swift-scoped-state) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Implements statically declared SwiftUI state scopes that connect local view state to external observable sources while supporting controlled setup for previews, navigation, and testing.
+- [SwiftUI iPhone Duo Skill](https://github.com/FloWritesCode/fwc-swiftui-skills/tree/main/skills/swiftui-iphone-duo) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Packages Apple's iPhone Duo layout and API guidance into a coding-agent skill covering adaptive SwiftUI, system bars, fold regions, and current SDK limitations. Useful as implementation context that still needs primary-source verification.
+- [Artem Mirzabekian](https://l.fatbobman.com/w0153-11) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Introduces ArrangementView for expressing the relationship between two SwiftUI content regions so the system can choose split or overlay presentation based on space and fold geometry.
+- [SwiftMusic: Declaring Music in Swift](https://l.fatbobman.com/w0153-12) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Introduces SwiftMusic's declarative model for patterns, sounds, result builders, modifiers, beat-domain events, and render plans. It clarifies that audio output and editing remain responsibilities of the host application.
+- [MusicPlaygournd](https://github.com/1amageek/MusicPlaygournd) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Provides a native macOS live editor built on SwiftMusic, demonstrating how a host can turn declarative music events and render plans into an interactive composition and playback environment.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp?ref=createwithswift.com) — Create with Swift · Issue 119 — Article · Topics: AI Development · Swift · Xcode
+  **Published:** `2026-09-11T16:00:59.000Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [Building AI features using Foundation Models. Multimodal input.](https://swiftwithmajid.com/2026/09/01/building-ai-features-using-foundation-models-multimodal-input?ref=createwithswift.com) — Create with Swift · Issue 119 — Article · Topics: AI Development · Foundation & Data Formats · Swift
+  **Published:** `2026-09-11T16:00:59.000Z`
+  **NeKI brief:** Demonstrates image input with the Foundation Models framework and connects it to structured generation and tool-driven workflows. Check model availability, prompt limits, and privacy behavior for the target OS before adoption.
+- [SwiftUI concentricCornerRadii in iOS 27](https://www.sagarunagar.com/blog/swiftui-concentriccornerradii-ios-27?ref=createwithswift.com) — Create with Swift · Issue 119 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-11T16:00:59.000Z`
+  **NeKI brief:** Explains GeometryProxy's concentricCornerRadii APIs for retrieving container-derived per-corner values in local coordinates, including nil handling and when custom Canvas or Path drawing needs those values instead of ConcentricRectangle.
+- [six engineers, twelve weeks](https://shopify.engineering/shop-app-migration) — iOS Dev Weekly · Issue 767 — Article · Topics: Cross-Platform & Web · Swift
+  **Published:** `11th September 2026`
+  **NeKI brief:** Details how six engineers migrated Shopify's Shop app from React Native to Swift and Kotlin in twelve weeks, including AI-assisted translation, compatibility layers, staged rollout, and measurements used to manage risk.
+- [New Hashable conformances in Swift 6.4](https://livsycode.com/swift/new-hashable-conformances-in-swift-6-4) — iOS Dev Weekly · Issue 767 — Article · Topics: Swift
+  **Published:** `11th September 2026`
+  **NeKI brief:** Details the Swift 6.4 Hashable conformances added by SE-0514 and SE-0523 for Dictionary.Keys, CollectionOfOne, EmptyCollection, and UnownedTaskExecutor, including the source-compatibility consequence for custom conformances.
+- [FWC SwiftUI Skills](https://github.com/FloWritesCode/fwc-swiftui-skills) — iOS Dev Tools · iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-10T16:30:53.656Z`
+  **NeKI brief:** Collects installable agent skills for modern SwiftUI work, including iPhone Duo, current SDK guidance, and framework-specific review instructions. Inspect the individual skill boundaries before adopting them in an agent setup.
 - [What's New in Swift: August 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-august-2026) — Those Who Swift · Issue 283 — Article · Topics: Swift · Testing
   **Published:** `2026-09-09T20:05:48.711Z`
   **NeKI brief:** Rounds up August 2026 Swift work across web and Windows support, Embedded Swift, package registries, testing proposals, and ownership-oriented language changes. Use the digest to locate primary project discussions and proposals.
@@ -12845,9 +12950,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Returned For RevisionSE-0539Enable Macros to Grant `self` Access for Property Initializers](https://github.com/apple/swift-evolution/blob/main/proposals/0539-self-access-for-property-initializers.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
   **Published:** `2026-08-25T14:06:16.000Z`
   **NeKI brief:** Proposal SE-0539 explores allowing attached macros to grant controlled self access during property initialization. Follow it when macro-generated storage needs enclosing-instance context, while checking review status and initialization-safety constraints before relying on the feature.
-- [AcceptedSE-0543InlineArray: Hashable](https://github.com/apple/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Swift
-  **Published:** `2026-08-25T14:06:16.000Z`
-  **NeKI brief:** Proposes conditional Equatable and Hashable conformances for InlineArray when its elements qualify, using elementwise equality and hashing every element with linear complexity.
 - [Active ReviewSE-0546Same-file memberwise initializer extensions](https://github.com/apple/swift-evolution/blob/main/proposals/0546-memberwise-init-extensions.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-08-25T14:06:16.000Z`
   **NeKI brief:** Specifies SE-0546, which permits a same-file extension to declare a memberwise initializer with broader access. It defines the matching rules and explains how an explicit initializer interacts with synthesis, helping library authors expose stable construction APIs without changing ABI behavior.

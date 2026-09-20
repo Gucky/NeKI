@@ -3,8 +3,50 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.fatbobman.com/archive](https://weekly.fatbobman.com/archive)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **152**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed entries: **153**
+
+## [Issue 153](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-153)
+
+- Published: `2026-09-14T12:04:34.663Z`
+
+**Topics:** App Distribution & Store Operations · Graphics, Media & Games · Persistence & Synchronisation · Swift · SwiftData · SwiftUI
+
+**Sections:** The Opportunities and Challenges of iPhone Duo · 📢 Sponsor Fatbobman’s Swift Weekly · Recent Recommendations
+
+**NeKI brief:** Assesses iPhone Duo's native-development opportunity and cross-platform adaptation pressure, then curates Swift 6.4 debugging and Hashable changes, SwiftData scaling, screenshot automation, scoped state, SwiftMusic, and Homebrew 7.
+
+**Selected links:**
+- [How to list big models cheaply: Vein vs SwiftData](https://l.fatbobman.com/w0153-03) — Article · Topics: Performance · Swift · SwiftData
+  **NeKI brief:** Benchmarks large-list behavior in Vein against SwiftData, focusing on initial fetch time, memory use, and lazy field loading. Useful for evaluating how persistence-model shape affects rendering cost.
+- [Vein](https://github.com/amethystsoft/vein) — Source repository · Topics: Developer Tools · Swift · SwiftData
+  **NeKI brief:** Implements a cross-platform declarative database inspired by SwiftData, with lazy field loading designed to reduce initial fetch cost and memory pressure for large models and long lists.
+- [SwiftUI iPhone Duo Skill](https://github.com/FloWritesCode/fwc-swiftui-skills/tree/main/skills/swiftui-iphone-duo) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Packages Apple's iPhone Duo layout and API guidance into a coding-agent skill covering adaptive SwiftUI, system bars, fold regions, and current SDK limitations. Useful as implementation context that still needs primary-source verification.
+- [SwiftMusic: Declaring Music in Swift](https://l.fatbobman.com/w0153-12) — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **NeKI brief:** Introduces SwiftMusic's declarative model for patterns, sounds, result builders, modifiers, beat-domain events, and render plans. It clarifies that audio output and editing remain responsibilities of the host application.
+- [Abstracting SwiftUI state with scopes](https://l.fatbobman.com/w0153-06) — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **NeKI brief:** Develops a scoped approach to SwiftUI state that combines local values, environment dependencies, and observable models while remaining controllable from previews, navigation flows, and external callers.
+- [ScopedState](https://github.com/auramagi/swift-scoped-state) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Implements statically declared SwiftUI state scopes that connect local view state to external observable sources while supporting controlled setup for previews, navigation, and testing.
+- [MusicPlaygournd](https://github.com/1amageek/MusicPlaygournd) — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **NeKI brief:** Provides a native macOS live editor built on SwiftMusic, demonstrating how a host can turn declarative music events and render plans into an interactive composition and playback environment.
+- [Module Tracking in Swift Debug Info](https://l.fatbobman.com/w0153-01) — Article · Topics: Swift
+  **NeKI brief:** Explains Swift 6.3 and 6.4 module tracking in debug information, including more precise LLDB module loading, smaller dSYM bundles, and task-tree inspection for debugging structured concurrency.
+- [Artem Mirzabekian](https://l.fatbobman.com/w0153-11) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Introduces ArrangementView for expressing the relationship between two SwiftUI content regions so the system can choose split or overlay presentation based on space and fold geometry.
+- [Florian Schweizer](https://l.fatbobman.com/w0153-07) — Article
+  **NeKI brief:** Argues that iPhone Duo adaptation should begin with available space and native adaptive containers rather than device detection, while documenting current simulator and SDK limits for testing fold-specific behavior.
+- [New Hashable conformances in Swift 6.4](https://l.fatbobman.com/w0153-02) — Article · Topics: Swift
+  **NeKI brief:** Details the Swift 6.4 Hashable conformances added by SE-0514 and SE-0523 for Dictionary.Keys, CollectionOfOne, EmptyCollection, and UnownedTaskExecutor, including the source-compatibility consequence for custom conformances.
+- [Transition or ContentTransition](https://l.fatbobman.com/w0153-05) — Article · Topics: Objective-C & Cocoa
+  **NeKI brief:** Distinguishes SwiftUI transition, which animates insertion and removal, from contentTransition, which animates changes inside a stable view. Its examples make the hierarchy-versus-content decision concrete.
+- [Sagar Unagar](https://l.fatbobman.com/w0153-09) — Article · Topics: Testing
+  **NeKI brief:** Condenses Apple's iPhone Duo design guidance into size-class adaptation, side-mounted system bars, fold displacement, safe areas, and split or overlay arrangement containers.
+- [Jordan Morgan](https://l.fatbobman.com/w0153-10) — Article · Topics: Graphics, Media & Games
+  **NeKI brief:** Summarises Apple's iPhone Duo developer talks across adaptive layouts, system bars, safe areas, cameras, multiple displays, and multitasking, providing a quick route into the topics most apps need first.
+- [Homebrew 7: The Release That Says Goodbye to Intel](https://l.fatbobman.com/w0153-13) — Article
+  **NeKI brief:** Reviews Homebrew 7's faster installs, stronger sandboxing, vulnerability database, native macOS app, support-tier changes, and end of macOS Catalina support, including implications for Intel Macs and CI environments.
 
 ## [Issue 152](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-152)
 

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Store delivery, TestFlight, StoreKit commerce, signing, review, releases, and monetisation workflows.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **618**
+- Last collected: `2026-09-20T08:55:28Z`
+- Indexed links shown: **625**
 
 ## Direct-source reading
 
@@ -148,6 +148,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Spek](https://spek.app/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: App Distribution & Store Operations · Objective-C & Cocoa
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Uses App Store Connect credentials to research keywords and competitors, draft localized metadata, and track ranking or visibility across markets. Useful for evaluating agent-assisted ASO workflows and their account-access boundary.
+- [pen.dev](https://www.pen.dev/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: AI Development · App Distribution & Store Operations
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Combines an editable design canvas with multiple hosted or subscription-backed AI models, MCP, WebMCP, and CLI connections so agents can generate interface ideas that remain manually refinable and exportable to code.
+- [GitHub](https://github.com/jacobsapps/OpenBundle) — iOS Dev Weekly · Issue 768 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `18th September 2026`
+  **NeKI brief:** Provides the open-source Bundle Investigator behind OpenBundle, enabling inspection of IPA contents and bundle-size contributors. Useful when the implementation and local-analysis mechanics matter beyond the hosted interface.
+- [Tools](https://wwdc.jacobstechtavern.com/openbundle) — iOS Dev Weekly · Issue 768 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `18th September 2026`
+  **NeKI brief:** Runs OpenBundle analysis locally in the browser to inspect an IPA or ZIP, attribute bundle size, compare reports, and export results without uploading application binaries.
+- [In-House Over-the-Air Localizations in a Modular iOS App](https://albertodebortoli.com/2026/09/08/inover-the-air-localizations-in-a-modular-ios-app) — Those Who Swift · Issue 284 — Article · Topics: App Distribution & Store Operations · Architecture · Localization
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Describes an over-the-air localization system that downloads resource-bundle-shaped content so Foundation still handles locale fallback, regional variants, and plurals. It covers modular ownership, validation, rollout, and failure recovery.
+- [iPhone Duo for Developers: The 1.42 Problem and the SDK Gap](https://blakecrosley.com/blog/iphone-duo-for-developers) — iOS Dev Weekly · Issue 767 — Article · Topics: App Distribution & Store Operations
+  **Published:** `11th September 2026`
+  **NeKI brief:** Derives iPhone Duo's point dimensions and unusual aspect ratio from App Store screenshot specifications, then connects them to display shapes, Split View, Touch ID, SDK timing, and Apple's developer sessions.
+- [ShotSmith](https://shotsmith.netlify.app/) — iOS Dev Tools · iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith — Article · Topics: App Distribution & Store Operations · Cross-Platform & Web
+  **Published:** `2026-09-10T16:30:53.656Z`
+  **NeKI brief:** Offers a local browser editor for App Store screenshots with device frames, backgrounds, captions, multi-slide layouts, fixed export presets, PNG or ZIP output, and offline project backups.
+- [Helm for App Store Connect](https://helm-app.com/changelog/helm-ios-feedback) — iOS CI Newsletter · Issue 93 — Article · Topics: App Distribution & Store Operations
+  **Published:** `2026-09-10T00:00:00.000Z`
+  **NeKI brief:** Describes Helm 2.3.1's iOS workflow for opening TestFlight screenshot and crash feedback and turning it into tasks, plus macOS support for updated social-media age-rating declarations and new model choices.
 - [Phil Schiller reportedly steps down as Apple's App Store and product event chief](https://www.engadget.com/2247924/phil-schiller-reportedly-steps-down-as-apple-app-store-and-product-event-chief) — iOS Dev Weekly · Issue 766 — Article · Topics: AI Development · App Distribution & Store Operations · Product Design
   **Published:** `4th September 2026`
   **NeKI brief:** Reports an App Store leadership change while Phil Schiller remains an Apple Fellow. Use it as organizational context only; it does not establish a change to review policy or developer contracts.
@@ -187,9 +211,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Understanding code signing and provisioning in iOS](https://tanaschita.com/ios-code-signing-provisioning?ref=createwithswift.com) — Create with Swift · Issue 118 — Article · Topics: App Distribution & Store Operations · Performance · Security & Privacy
   **Published:** `2026-08-01T15:00:04.000Z`
   **NeKI brief:** Code signing and provisioning connect certificates, profiles, entitlements, and bundle identifiers. The guide is useful for diagnosing build and distribution failures by separating identity, capability, and installation concerns.
-- [❓ New Age Rating Declaration Questions in App Store Connect](https://helm-app.com/changelog/helm-ios-feedback) — iOS CI Newsletter · Issue 91 — Article · Topics: App Distribution & Store Operations
-  **Published:** `2026-07-28T00:00:00.000Z`
-  **NeKI brief:** Examines New Age Rating Declaration Questions in App Store Connect in the context of App Distribution & Store Operations. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [Apple just improved TestFlight for users with a lot of beta apps](https://9to5mac.com/2026/07/21/apple-just-improved-testflight-for-users-with-a-lot-of-beta-apps) — iOS Dev Weekly · Issue 760 — Article · Topics: App Distribution & Store Operations
   **Published:** `24th July 2026`
   **NeKI brief:** Records TestFlight 4.3's new app search on iPhone and Mac and an apparent expansion of previously tested apps. Useful as release context for beta-heavy workflows, not as an implementation or API reference.

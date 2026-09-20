@@ -4,11 +4,38 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** SwiftUI views, layout, rendering, animation, interaction, and platform adaptation.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **3243**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **3268**
 
 ## Direct-source reading
 
+- [How native SwiftUI controls look different in iOS 26 | Sarunw](https://sarunw.com/posts/swiftui-native-controls-ios-26) — Sarunw · article catalogue
+  **Published:** `2026-09-19`
+  **NeKI brief:** Visually compares native SwiftUI buttons, toggles, pickers, sliders, toolbars, tab bars, and sheets before and after the iOS 26 redesign, separating automatic appearance changes from app-controlled behavior.
+- [SwiftUI Liquid Glass - Regular vs Clear | Sarunw](https://sarunw.com/posts/glass-effect-regular-vs-clear) — Sarunw · article catalogue
+  **Published:** `2026-09-18`
+  **NeKI brief:** Compares regular and clear SwiftUI Liquid Glass variants, including their different foreground-color behavior and the contrast conditions that should guide which material is appropriate.
+- [Diagnosing ForEach performance issues in SwiftUI lazy containers](https://nilcoalescing.com/blog/DiagnosingForEachPerformanceIssuesInSwiftUILazyContainers) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-16`
+  **NeKI brief:** Shows how to enable SwiftUI's ForEach slow-path diagnostic, interpret variable-view-count warnings in List and lazy containers, and restructure conditional or multi-view row content so lazy reuse stays predictable.
+- [Sheets and fold avoidance on iPhone Duo | Sarunw](https://sarunw.com/posts/sheets-and-fold-avoidance-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-15`
+  **NeKI brief:** Explains how sheets and system components adapt around iPhone Duo's division and occlusion regions in different poses, showing where automatic fold avoidance helps and where layouts still need review.
+- [LazyState 1.0: Now available to everyone](https://www.pointfree.co/blog/posts/228-lazystate-1-0-now-available-to-everyone) — Point-Free · article catalogue
+  **Published:** `2026-09-14T00:00:00Z`
+  **NeKI brief:** Introduces LazyState 1.0 for SwiftUI models whose initial value depends on parent data, explaining why the State macro solves inline lazy initialization but not dynamically constructed state.
+- [Adapting content for iPhone Duo | Sarunw](https://sarunw.com/posts/adapting-content-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-14`
+  **NeKI brief:** Demonstrates content strategies for iPhone Duo's asymmetric displays: using different inner and outer presentations, separating media from controls across the fold, and keeping important content clear of reserved regions.
+- [Adapting controls for iPhone Duo | Sarunw](https://sarunw.com/posts/adapting-controls-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-13`
+  **NeKI brief:** Explains how navigation bars, toolbars, and tab bars move to a vertical edge on iPhone Duo, including which items belong there and how the system handles overflow.
+- [Adapting your app for iPhone Duo | Sarunw](https://sarunw.com/posts/adapting-your-app-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-12`
+  **NeKI brief:** Introduces the six iPhone Duo poses and shows how size classes, layout margins, and safe-area insets provide the first layer of adaptive behavior before adopting Duo-specific APIs.
+- [Backward compatibility on iPhone Duo | Sarunw](https://sarunw.com/posts/backward-compatibility-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-11`
+  **NeKI brief:** Compares how existing apps behave on iPhone Duo when built with pre-iOS 27, iOS 27, and iOS 27.1 SDKs, clarifying what the system adapts automatically and when new APIs become available.
 - [Why some Swift types only appear when you import two modules | Sarunw](https://sarunw.com/posts/swift-cross-import-overlay) — Sarunw · article catalogue
   **Published:** `2026-09-09`
   **NeKI brief:** Explains why APIs such as Map, PhotosPicker, and WebView appear only when two related modules are imported. Use it to recognize cross-import overlays when declarations seem absent from their apparent framework.
@@ -5272,6 +5299,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Bridges scene lifecycle behavior into SwiftUI through a scene delegate integration. Useful when an application still needs UIKit lifecycle hooks for notifications, deep links, or window coordination.
 - [How to create a custom reusable toolbar in SwiftUI](https://tanaschita.com/swiftui-reusable-toolbar) — Tanaschita · article catalogue
   **NeKI brief:** Builds a reusable SwiftUI toolbar component while keeping actions and state explicit. Useful for design systems that need consistent toolbar composition across screens and platforms.
+- [Building responsive and reliable search in SwiftUI](https://tanaschita.com/swiftui-responsive-race-free-debounce-search) — Tanaschita · article catalogue
+  **NeKI brief:** Builds debounced SwiftUI search with task cancellation and query identity checks, preventing slow obsolete requests from overwriting newer results without introducing Combine.
 - [How to present a local HTML file in SwiftUI](https://tanaschita.com/swiftui-present-local-html-files) — Tanaschita · article catalogue
   **NeKI brief:** Compares iOS 26's native WebView/WebPage path for bundled HTML—including local assets and preprocessing—with the older WKWebView UIViewRepresentable wrapper for iOS 14+. Choose the path by deployment target and by whether the page needs load control or HTML mutation.
 - [Migrating to the Observation framework in SwiftUI](https://tanaschita.com/swiftui-observation-migrating-to-observation) — Tanaschita · article catalogue
@@ -5516,6 +5545,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Compares key-path-derived SwiftUI bindings with manually constructed Binding(get:set:) values and explains behavioral differences that affect view updates and animation. Use it when diagnosing custom-binding surprises rather than assuming both forms are interchangeable.
 - [Presentation: Attribute Graph — Chris Eidhof](https://chris.eidhof.nl/post/attribute-graph-presentation) — Chris Eidhof · article catalogue
   **NeKI brief:** Collects a talk, edited transcript, and references explaining the author's mental model of SwiftUI's AttributeGraph. Use it to develop hypotheses about SwiftUI behavior, while treating the internal-mechanics account as non-authoritative.
+- [Animations in the SwiftUI Field Guide — Chris Eidhof](https://chris.eidhof.nl/post/animations-in-the-field-guide) — Chris Eidhof · article catalogue
+  **NeKI brief:** Explains how the interactive SwiftUI Field Guide gained animation support by adding transitions, transactions, and frame-by-frame interpolation to its TypeScript reimplementation. Useful for understanding SwiftUI animation semantics through a deliberately small model.
 - [Agentic Coding — Chris Eidhof](https://chris.eidhof.nl/post/agentic-coding) — Chris Eidhof · article catalogue
   **NeKI brief:** Reports experiments using coding agents for SwiftUI work, including productive feedback loops, surprising failures, and tasks that still require a strong mental model. Use it to shape an agent-assisted workflow without treating the observations as universal benchmarks.
 - [Weeknotes № 47 — Chris Eidhof](https://chris.eidhof.nl/post/2024-47) — Chris Eidhof · article catalogue
@@ -5585,6 +5616,48 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Reusable SwiftUI Previews with PreviewModifier](https://livsycode.com/swiftui/reusable-swiftui-previews-with-previewmodifier?ref=createwithswift.com) — Create with Swift · Issue 120 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-18T16:00:51.000Z`
+  **NeKI brief:** Shows how PreviewModifier centralizes mock services, sample data, and in-memory ModelContainer setup so multiple SwiftUI previews can reuse one prepared environment without duplicating configuration code.
+- [SwiftUI: Debounced Search Without Stale Results (iOS 15+)](https://tanaschita.com/swiftui-responsive-race-free-debounce-search?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Builds debounced SwiftUI search with task cancellation and query identity checks, preventing slow obsolete requests from overwriting newer results without introducing Combine.
+- [iPhone Duo: ArrangementView (iOS 27.1 SDK, beta coming later this month)](https://livsycode.com/swiftui/building-iphone-duo-layouts-with-arrangementview?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Shows how ArrangementView describes a relationship between two SwiftUI regions and lets the system choose split or overlay presentation, including navigation ownership and fold-aware behavior on iPhone Duo.
+- [SwiftUI toolbars](https://mjtsai.com/blog/2026/09/08/swiftui-toolbars?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Collects practical limitations and migration observations for customizable SwiftUI toolbars on macOS, especially stable identifiers, NSToolbar bridging, and the absence of a customizable ToolbarItemGroup equivalent.
+- [ViewThatFits](https://www.natashatherobot.com/p/swiftui-viewthatfits?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Uses ViewThatFits to choose between compact and expanded SwiftUI layouts at larger Dynamic Type sizes, showing a small adaptive technique that can improve accessibility without hard-coded size-category branching.
+- [Getting started with Live Activities in SwiftUI](https://tanaschita.com/activitykit-live-activities-swiftui?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: App Services & Extensions · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Walks through an ActivityKit model, widget presentation for the Lock Screen and Dynamic Island, and activity lifecycle updates. Use it to connect shared attributes with UI regions before adding remote-update complexity.
+- [Godot with Swift](https://massicotte.org/blog/experimenting-with-godot?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Reflects on returning to game development with Godot, covering the engine and editor model, GDScript trade-offs, rapid iteration, and the differences a Swift developer encounters when moving beyond native Apple tooling.
+- [Abstracting SwiftUI state with scopes](https://l.fatbobman.com/w0153-06) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Develops a scoped approach to SwiftUI state that combines local values, environment dependencies, and observable models while remaining controllable from previews, navigation flows, and external callers.
+- [ScopedState](https://github.com/auramagi/swift-scoped-state) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Implements statically declared SwiftUI state scopes that connect local view state to external observable sources while supporting controlled setup for previews, navigation, and testing.
+- [SwiftUI iPhone Duo Skill](https://github.com/FloWritesCode/fwc-swiftui-skills/tree/main/skills/swiftui-iphone-duo) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Packages Apple's iPhone Duo layout and API guidance into a coding-agent skill covering adaptive SwiftUI, system bars, fold regions, and current SDK limitations. Useful as implementation context that still needs primary-source verification.
+- [Artem Mirzabekian](https://l.fatbobman.com/w0153-11) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Introduces ArrangementView for expressing the relationship between two SwiftUI content regions so the system can choose split or overlay presentation based on space and fold geometry.
+- [SwiftMusic: Declaring Music in Swift](https://l.fatbobman.com/w0153-12) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Introduces SwiftMusic's declarative model for patterns, sounds, result builders, modifiers, beat-domain events, and render plans. It clarifies that audio output and editing remain responsibilities of the host application.
+- [SwiftUI concentricCornerRadii in iOS 27](https://www.sagarunagar.com/blog/swiftui-concentriccornerradii-ios-27?ref=createwithswift.com) — Create with Swift · Issue 119 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-11T16:00:59.000Z`
+  **NeKI brief:** Explains GeometryProxy's concentricCornerRadii APIs for retrieving container-derived per-corner values in local coordinates, including nil handling and when custom Canvas or Path drawing needs those values instead of ConcentricRectangle.
+- [FWC SwiftUI Skills](https://github.com/FloWritesCode/fwc-swiftui-skills) — iOS Dev Tools · iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-10T16:30:53.656Z`
+  **NeKI brief:** Collects installable agent skills for modern SwiftUI work, including iPhone Duo, current SDK guidance, and framework-specific review instructions. Inspect the individual skill boundaries before adopting them in an agent setup.
 - [The End of Swift Talk](https://l.fatbobman.com/w0152-01) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Swift · SwiftUI
   **Published:** `2026-09-07T12:03:43.098Z`
   **NeKI brief:** Explains why objc.io ended Swift Talk after 500 episodes while retaining the existing catalogue. It is useful as community and resource-lifecycle context, not as a technical migration guide.

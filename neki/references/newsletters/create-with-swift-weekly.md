@@ -3,8 +3,46 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.createwithswift.com/](https://www.createwithswift.com/)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **71**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed entries: **73**
+
+## [Issue 120](https://www.createwithswift.com/weekly-newsletter-issue-120)
+
+- Published: `2026-09-18T16:00:51.000Z`
+
+**Topics:** Accessibility · Graphics, Media & Games · Objective-C & Cocoa · Swift · SwiftUI · Xcode
+
+**Sections:** RevenueCat Shipaton IRL × Naples - by Create with Swift · The Community · Cibby
+
+**NeKI brief:** Pairs Xcode 27.2's JSON project format with reusable PreviewModifier previews, iPhone Duo design guidance, and Swift Charts sunburst diagrams, alongside the publication's own community and design articles.
+
+**Selected links:**
+- [Building a sunburst diagram in Swift Charts](https://nilcoalescing.com/blog/BuildingASunburstDiagramInSwiftCharts?ref=createwithswift.com) — Article · Topics: Accessibility · Objective-C & Cocoa · Swift
+  **NeKI brief:** Builds a hierarchical sunburst visualization as nested Swift Charts sectors, aligning child angles with their parent groups. It is useful when choosing data normalization, angular marks, labels, and interaction for multilevel proportions.
+- [From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj?ref=createwithswift.com) — Article · Topics: Swift · Xcode
+  **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
+- [Designing for iPhone Duo - HIG Guide in 5 Minutes](https://www.sagarunagar.com/blog/iphone-duo-human-interface-guidelines?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Condenses Apple's iPhone Duo guidance into size-class adaptation, side-mounted bars, fold displacement, safe regions, and ArrangementView split or overlay containers, with emphasis on designing for space rather than enumerating poses.
+- [Reusable SwiftUI Previews with PreviewModifier](https://livsycode.com/swiftui/reusable-swiftui-previews-with-previewmodifier?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Shows how PreviewModifier centralizes mock services, sample data, and in-memory ModelContainer setup so multiple SwiftUI previews can reuse one prepared environment without duplicating configuration code.
+
+## [Issue 119](https://www.createwithswift.com/weekly-newsletter-issue-119)
+
+- Published: `2026-09-11T16:00:59.000Z`
+
+**Topics:** AI Development · Graphics, Media & Games · Objective-C & Cocoa · Swift · SwiftUI · Xcode
+
+**Sections:** RevenueCat Shipaton IRL x Naples - by Create with Swift · The Community · ARC-24
+
+**NeKI brief:** Curates headless Xcode and MCP workflows, multimodal Foundation Models input, and SwiftUI concentric corner radii alongside the publication's own community, environmental-design, MapKit overlay, and Metal-shader pieces.
+
+**Selected links:**
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp?ref=createwithswift.com) — Article · Topics: AI Development · Swift · Xcode
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [Building AI features using Foundation Models. Multimodal input.](https://swiftwithmajid.com/2026/09/01/building-ai-features-using-foundation-models-multimodal-input?ref=createwithswift.com) — Article · Topics: AI Development · Foundation & Data Formats · Swift
+  **NeKI brief:** Demonstrates image input with the Foundation Models framework and connects it to structured generation and tool-driven workflows. Check model availability, prompt limits, and privacy behavior for the target OS before adoption.
+- [SwiftUI concentricCornerRadii in iOS 27](https://www.sagarunagar.com/blog/swiftui-concentriccornerradii-ios-27?ref=createwithswift.com) — Article · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Explains GeometryProxy's concentricCornerRadii APIs for retrieving container-derived per-corner values in local coordinates, including nil handling and when custom Canvas or Path drawing needs those values instead of ConcentricRectangle.
 
 ## [Issue 118](https://www.createwithswift.com/weekly-newsletter-issue-118)
 

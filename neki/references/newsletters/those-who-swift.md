@@ -3,8 +3,58 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://thosewhoswift.substack.com/archive](https://thosewhoswift.substack.com/archive)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **93**
+- Last collected: `2026-09-20T08:49:34Z`
+- Indexed entries: **95**
+
+## [Issue 284](https://thosewhoswift.substack.com/p/those-who-swift-issue-284)
+
+- Published: `2026-09-17T06:08:23.173Z`
+
+**Topics:** App Distribution & Store Operations · Architecture · Concurrency · Swift · Testing · Xcode
+
+**Sections:** Those Who Swift · Those Who Swift - Issue 284 · Weekly note ✏️
+
+**NeKI brief:** Frames iPhone Duo adoption as a risk decision: improve generally adaptive layouts now, but keep hinge- and beta-specific work flexible. It pairs that advice with current Duo, architecture, localization, vision, and testing reading.
+
+**Selected links:**
+- [Native is now the future of mobile at Shopify](https://shopify.engineering/back-to-native) — Article · Topics: AI Development · Cross-Platform & Web · Swift
+  **NeKI brief:** Explains why Shopify is moving its mobile apps from React Native back to Swift and Kotlin: coding agents changed native-development economics while platform-specific UI and capabilities increased the value of direct SDK access.
+- [Moving from XCTest to Swift Testing](https://www.kodeco.com/53560697-moving-from-xctest-to-swift-testing) — Article · Topics: Swift · Testing
+  **NeKI brief:** Guides an XCTest-to-Swift-Testing migration through translated assertions, suite structure, parameterized tests, traits, and Xcode's coding-agent assistance. Useful for planning an incremental conversion rather than a wholesale rewrite.
+- [Action Runner: An iOS Architecture for Isolating Business Logic](https://ivanthinking.net/2026/09/15/action-runner-ios-architecture) — Article · Topics: Architecture · Dependency Injection · Objective-C & Cocoa
+  **NeKI brief:** Presents an Action and RunnableAction architecture that moves business logic out of SwiftUI views and oversized controllers, using a shared RunContext to make dependencies explicit and reduce circular coordination.
+- [In-House Over-the-Air Localizations in a Modular iOS App](https://albertodebortoli.com/2026/09/08/inover-the-air-localizations-in-a-modular-ios-app) — Article · Topics: App Distribution & Store Operations · Architecture · Localization
+  **NeKI brief:** Describes an over-the-air localization system that downloads resource-bundle-shaped content so Foundation still handles locale fallback, regional variants, and plurals. It covers modular ownership, validation, rollout, and failure recovery.
+- [LazyState 1.0: Now Available to Everyone](https://www.pointfree.co/blog/posts/228-lazystate-1-0-now-available-to-everyone) — Article · Topics: Macros & Metaprogramming · Swift · SwiftUI
+  **NeKI brief:** Introduces LazyState 1.0 for SwiftUI models whose initial value depends on parent data, explaining why the State macro solves inline lazy initialization but not dynamically constructed state.
+- [Object Tracking Updates in visionOS 27 and iOS 27](https://vision.engineer/posts/object-tracking-updates-in-visionOS-27-and-iOS-27) — Article · Topics: Accessibility · Combine & Reactive Programming · Spatial Computing
+  **NeKI brief:** Tests iOS 27 and visionOS 27 object-tracking improvements through an open-source accessibility demo that combines iPhone capture with Vision Pro, documenting higher-frame-rate tracking and reduced earlier limitations.
+- [iPhone Duo for Developers: The 1.42 Problem and the SDK Gap](https://blakecrosley.com/blog/iphone-duo-for-developers) — Article · Topics: Xcode
+  **NeKI brief:** Derives iPhone Duo's point dimensions and unusual aspect ratio from App Store screenshot specifications, then connects them to display shapes, Split View, Touch ID, SDK timing, and Apple's developer sessions.
+- [iPhone Duo for iOS Developers: What Actually Changes in Your Swift Code](https://dev.to/arshtechpro/iphone-duo-for-ios-developers-what-actually-changes-in-your-swift-code-5gc5) — Article · Topics: Swift
+  **NeKI brief:** Walks through the concrete SwiftUI changes for iPhone Duo, including size classes, reserved regions, fold-aware layouts, and ArrangementView, with code-oriented examples of how an existing interface can adapt.
+- [Designing for iPhone Duo: The HIG Guide in 5 Minutes](https://www.sagarunagar.com/blog/iphone-duo-human-interface-guidelines) — Article · Topics: Concurrency
+  **NeKI brief:** Condenses Apple's iPhone Duo guidance into size-class adaptation, side-mounted bars, fold displacement, safe regions, and ArrangementView split or overlay containers, with emphasis on designing for space rather than enumerating poses.
+- [iPhone Duo: First Developer Good-to-Knows](https://www.swiftjectivec.com/iphone-duo-first-developer-good-to-knows) — Article · Topics: Graphics, Media & Games · Swift
+  **NeKI brief:** Summarises Apple's six iPhone Duo developer videos around adaptive layouts, vertical system bars, safe areas, cameras, multitasking, multiple displays, and hinge-aware interactions, providing a short first-pass checklist.
+- [How Much Should Developers Invest in iPhone Duo?](https://samwize.com/2026/09/14/how-much-should-developers-invest-in-iphone-duo) — Article · Topics: Concurrency
+  **NeKI brief:** Balances iPhone Duo's substantial layout and testing work against projected adoption, helping teams decide how deeply to optimize beyond baseline adaptive behavior during the device's first year.
+- [What Apple's September 2026 Event Means for Developers](https://dev.to/javaskr/what-apples-september-2026-event-means-for-developers-3pnk) — Article · Topics: AI Development
+  **NeKI brief:** Interprets Apple's September 2026 hardware announcements for developers, connecting the A20 Pro, on-device AI, iPhone Duo, AirPods, and Watch changes to likely application and platform opportunities.
+- [When Intuition Lies: Lessons from a CSV Parser](https://www.danielemargutti.com/en/2026/09/14/csv-parser-twenty-seconds) — Article · Topics: Performance
+  **NeKI brief:** Profiles a 260 MB, 5.6-million-row CSV parser whose apparent I/O problem is dominated by string allocation. The measurements show how intuitive implementations can hide memory and CPU costs.
+- [iOS 27: CrashReportExtension Framework](https://antongubarenko.substack.com/p/ios-27-crashreportextension-framework) — Article
+  **NeKI brief:** Introduces iOS 27's CrashReportExtension as a system-managed process for inspecting a crashed app, avoiding unsafe analysis inside signal handlers. It outlines extension setup, process inspection, report construction, and privacy boundaries.
+
+## [Devs for Devs: A Working App Is Only the Beginning](https://thosewhoswift.substack.com/p/devs-for-devs-a-working-app-is-only)
+
+- Published: `2026-09-13T20:31:02.138Z`
+
+**Topics:** Cross-Platform & Web · Developer Tools · Security & Privacy · Swift
+
+**Sections:** Those Who Swift · Beyond the Happy Path · More Than Working Code
+
+**NeKI brief:** Argues that correct features are only the start of a finished app, using visual hierarchy, familiar iOS patterns, first-use observation, and product polish to reduce the gap between developer knowledge and user understanding.
 
 ## [Issue 283](https://thosewhoswift.substack.com/p/those-who-swift-issue-283)
 

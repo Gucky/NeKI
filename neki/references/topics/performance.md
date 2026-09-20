@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Profiling, Instruments, rendering cost, launch time, memory, and runtime efficiency.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **511**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **515**
 
 ## Direct-source reading
 
+- [Diagnosing ForEach performance issues in SwiftUI lazy containers](https://nilcoalescing.com/blog/DiagnosingForEachPerformanceIssuesInSwiftUILazyContainers) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-16`
+  **NeKI brief:** Shows how to enable SwiftUI's ForEach slow-path diagnostic, interpret variable-view-count warnings in List and lazy containers, and restructure conditional or multi-view row content so lazy reuse stays predictable.
 - [The iOS Simulator Inside Cursor, Claude Code, and Codex - SwiftLee](https://www.avanderlee.com/ai-development/the-ios-simulator-inside-cursor-claude-code-and-codex) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-09-07T13:07:15+00:00`
   **NeKI brief:** Shows how keeping a live iOS Simulator beside an agentic editor shortens the prompt, run, and review loop for interface work. It also frames visual inspection and performance evidence as continuing developer responsibilities.
@@ -681,6 +684,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [When Intuition Lies: Lessons from a CSV Parser](https://www.danielemargutti.com/en/2026/09/14/csv-parser-twenty-seconds) — Those Who Swift · Issue 284 — Article · Topics: Performance
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Profiles a 260 MB, 5.6-million-row CSV parser whose apparent I/O problem is dominated by string allocation. The measurements show how intuitive implementations can hide memory and CPU costs.
+- [How to list big models cheaply: Vein vs SwiftData](https://l.fatbobman.com/w0153-03) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Performance · Swift · SwiftData
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Benchmarks large-list behavior in Vein against SwiftData, focusing on initial fetch time, memory use, and lazy field loading. Useful for evaluating how persistence-model shape affects rendering cost.
+- [Vein](https://github.com/amethystsoft/vein) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Swift · SwiftData
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Implements a cross-platform declarative database inspired by SwiftData, with lazy field loading designed to reduce initial fetch cost and memory pressure for large models and long lists.
 - [4x Simulator performance with this one weird trick](https://github.com/MobAI-App/simslim) — iOS Dev Weekly · Issue 766 — Source repository · Topics: AI Development · Developer Tools · Performance
   **Published:** `4th September 2026`
   **NeKI brief:** Disables selected background daemons inside Simulator runtimes to reduce memory and run more devices per Mac. Treat its speed claims as workload-specific and review service side effects before CI use.

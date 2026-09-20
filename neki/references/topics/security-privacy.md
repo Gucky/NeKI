@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Privacy, credentials, secure configuration, encryption, sandboxing, and application security.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **214**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **216**
 
 ## Direct-source reading
 
@@ -74,6 +74,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Apple Reference Image: A New Approach for Verified Photography](https://security.apple.com/blog/apple-reference-image) — iOS Dev Weekly · Issue 768 — Article · Topics: Graphics, Media & Games · Security & Privacy
+  **Published:** `18th September 2026`
+  **NeKI brief:** Describes Apple's opt-in Reference Image mode for producing sensor-originated, securely timestamped photographs with verifiable provenance. Follow it for the threat model and cryptographic design behind authenticity checks.
+- [macOS Tahoe silently sabotaged the login keychain](https://lapcatsoftware.com/articles/2026/9/4.html) — iOS Dev Weekly · Issue 767 — Article · Topics: Cross-Platform & Web · Persistence & Synchronisation · Security & Privacy
+  **Published:** `11th September 2026`
+  **NeKI brief:** Investigates macOS Tahoe and Golden Gate login-keychain encryption tied to the Secure Enclave, showing why copied keychain files cannot be unlocked on another Mac and what that means for backup assumptions.
 - [AI-Accelerated Mobile Development: Lessons from My NSLondon Talk](https://gioscalzo.com/blog/ai-accelerated-mobile-development-nslondon) — Those Who Swift · Issue 283 — Article · Topics: AI Development · Security & Privacy
   **Published:** `2026-09-09T20:05:48.711Z`
   **NeKI brief:** Compares two agent-built mobile app experiments and identifies the explanation, coordination, and verification still required from the developer. It is evidence about orchestration limits rather than autonomous-delivery claims.

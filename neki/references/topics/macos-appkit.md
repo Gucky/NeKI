@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** macOS app lifecycle, menu-bar apps, Cocoa, and AppKit integration.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **542**
+- Last collected: `2026-09-20T08:55:28Z`
+- Indexed links shown: **548**
 
 ## Direct-source reading
 
@@ -113,6 +113,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [OpenClip](https://www.getopenclip.app/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: AI Development · Hardware & Devices
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Provides an open-source macOS floating action bar for selected text, combining built-in transformations, calculations, translation, scripts, keyboard shortcuts, and more than one hundred extensions without switching apps.
+- [Swift 6.4 Released](https://www.swift.org/blog/swift-6.4-released) — iOS Dev Weekly · Issue 768 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `18th September 2026`
+  **NeKI brief:** Summarises Swift 6.4 across language, concurrency, testing, SwiftPM and Swift Build, debugging, interoperability, WebAssembly, Android, Embedded Swift, and noncopyable data structures. Use its proposal links to investigate individual changes.
+- [Homebrew 7: The Release That Says Goodbye to Intel](https://l.fatbobman.com/w0153-13) — Fatbobman’s Swift Weekly · Issue 153 — Article
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Reviews Homebrew 7's faster installs, stronger sandboxing, vulnerability database, native macOS app, support-tier changes, and end of macOS Catalina support, including implications for Intel Macs and CI environments.
+- [macOS Tahoe silently sabotaged the login keychain](https://lapcatsoftware.com/articles/2026/9/4.html) — iOS Dev Weekly · Issue 767 — Article · Topics: Cross-Platform & Web · Persistence & Synchronisation · Security & Privacy
+  **Published:** `11th September 2026`
+  **NeKI brief:** Investigates macOS Tahoe and Golden Gate login-keychain encryption tied to the Secure Enclave, showing why copied keychain files cannot be unlocked on another Mac and what that means for backup assumptions.
+- [Shortap](https://shortap.app/) — iOS Dev Tools · iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith — Article
+  **Published:** `2026-09-10T16:30:53.656Z`
+  **NeKI brief:** Adds configurable physical tap gestures to supported MacBooks, mapping left- or right-side single, double, and triple taps to built-in actions or Apple Shortcuts.
+- [Helm for App Store Connect](https://helm-app.com/changelog/helm-ios-feedback) — iOS CI Newsletter · Issue 93 — Article · Topics: App Distribution & Store Operations
+  **Published:** `2026-09-10T00:00:00.000Z`
+  **NeKI brief:** Describes Helm 2.3.1's iOS workflow for opening TestFlight screenshot and crash feedback and turning it into tasks, plus macOS support for updated social-media age-rating declarations and new model choices.
 - [AI-Accelerated Mobile Development: Lessons from My NSLondon Talk](https://gioscalzo.com/blog/ai-accelerated-mobile-development-nslondon) — Those Who Swift · Issue 283 — Article · Topics: AI Development · Security & Privacy
   **Published:** `2026-09-09T20:05:48.711Z`
   **NeKI brief:** Compares two agent-built mobile app experiments and identifies the explanation, coordination, and verification still required from the developer. It is evidence about orchestration limits rather than autonomous-delivery claims.

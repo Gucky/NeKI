@@ -3,8 +3,42 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://ioscodereview.com/](https://ioscodereview.com/)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **85**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed entries: **86**
+
+## [Issue 87](https://ioscodereview.com/issues/issue-87-ios-27-ships-xcode-agents-get-hands-and-arrangementview-for-the-duo)
+
+- Published: `2026-09-15T17:33:22.000Z`
+
+**Topics:** Developer Community & Business · Graphics, Media & Games · Objective-C & Cocoa · Swift · SwiftUI · Xcode
+
+**Sections:** From the Community! · iOS 27 and Xcode 27 Are Final (iOS 27.0 / Xcode 27, stable) · Xcode 27: Agents Can Now Run Your App (Xcode 27, stable)
+
+**NeKI brief:** Curates the stable iOS and Xcode 27 releases, agent-driven app execution, Swift 6.4 Hashable and debugger changes, race-free SwiftUI search, iPhone Duo layouts, and a concise set of related tools and articles.
+
+**Selected links:**
+- [Building a sunburst diagram in Swift Charts](https://nilcoalescing.com/blog/BuildingASunburstDiagramInSwiftCharts?ref=ioscodereview.com) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **NeKI brief:** Builds a hierarchical sunburst visualization as nested Swift Charts sectors, aligning child angles with their parent groups. It is useful when choosing data normalization, angular marks, labels, and interaction for multilevel proportions.
+- [Debugging: Smaller dSYMs and a Task Tree in LLDB (Swift 6.3 / 6.4)](https://www.swift.org/blog/module-tracking-in-debug-info?ref=ioscodereview.com) — Article · Topics: Developer Tools · Swift
+  **NeKI brief:** Explains Swift 6.3 and 6.4 module tracking in debug information, including more precise LLDB module loading, smaller dSYM bundles, and task-tree inspection for debugging structured concurrency.
+- [SwiftUI: Debounced Search Without Stale Results (iOS 15+)](https://tanaschita.com/swiftui-responsive-race-free-debounce-search?ref=ioscodereview.com) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **NeKI brief:** Builds debounced SwiftUI search with task cancellation and query identity checks, preventing slow obsolete requests from overwriting newer results without introducing Combine.
+- [iPhone Duo: ArrangementView (iOS 27.1 SDK, beta coming later this month)](https://livsycode.com/swiftui/building-iphone-duo-layouts-with-arrangementview?ref=ioscodereview.com) — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **NeKI brief:** Shows how ArrangementView describes a relationship between two SwiftUI regions and lets the system choose split or overlay presentation, including navigation ownership and fold-aware behavior on iPhone Duo.
+- [SwiftUI toolbars](https://mjtsai.com/blog/2026/09/08/swiftui-toolbars?ref=ioscodereview.com) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **NeKI brief:** Collects practical limitations and migration observations for customizable SwiftUI toolbars on macOS, especially stable identifiers, NSToolbar bridging, and the absence of a customizable ToolbarItemGroup equivalent.
+- [ViewThatFits](https://www.natashatherobot.com/p/swiftui-viewthatfits?ref=ioscodereview.com) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **NeKI brief:** Uses ViewThatFits to choose between compact and expanded SwiftUI layouts at larger Dynamic Type sizes, showing a small adaptive technique that can improve accessibility without hard-coded size-category branching.
+- [Getting started with Live Activities in SwiftUI](https://tanaschita.com/activitykit-live-activities-swiftui?ref=ioscodereview.com) — Article · Topics: App Services & Extensions · Swift · SwiftUI
+  **NeKI brief:** Walks through an ActivityKit model, widget presentation for the Lock Screen and Dynamic Island, and activity lifecycle updates. Use it to connect shared attributes with UI regions before adding remote-update complexity.
+- [SwiftData: Optimization Starts with Modeling](https://fatbobman.com/en/posts/swiftdata-optimization-starts-with-modeling?ref=ioscodereview.com) — Article · Topics: Objective-C & Cocoa · Swift · SwiftData
+  **NeKI brief:** Explains why large SwiftData rows can stall lists when fetching also materializes their stored values. It advocates separating heavy payloads during modeling so ordinary list queries load only the data they need.
+- [Godot with Swift](https://massicotte.org/blog/experimenting-with-godot?ref=ioscodereview.com) — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **NeKI brief:** Reflects on returning to game development with Godot, covering the engine and editor model, GDScript trade-offs, rapid iteration, and the differences a Swift developer encounters when moving beyond native Apple tooling.
+- [iPhone Duo: First Developer Good-to-Knows](https://swiftjectivec.com/iPhone-Duo-First-Developer-Good-to-Knows?ref=ioscodereview.com) — Article · Topics: Graphics, Media & Games · Swift
+  **NeKI brief:** Summarizes early dual-screen adaptation guidance around size classes, asymmetric safe areas, hinge-aware effects, multitasking, toolbar overflow, and camera behavior. Treat it as preparatory reading until the referenced SDK details are stable.
+- [New Hashable conformances in Swift 6.4](https://livsycode.com/swift/new-hashable-conformances-in-swift-6-4?ref=ioscodereview.com) — Article · Topics: Swift
+  **NeKI brief:** Details the Swift 6.4 Hashable conformances added by SE-0514 and SE-0523 for Dictionary.Keys, CollectionOfOne, EmptyCollection, and UnownedTaskExecutor, including the source-compatibility consequence for custom conformances.
 
 ## [Issue 85](https://ioscodereview.com/issues/issue-85-xcode-goes-headless-ios-27-leaves-foldable-fingerprints-and-adaptive-layouts-for-real-this-time)
 

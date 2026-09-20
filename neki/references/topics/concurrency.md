@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift concurrency, async/await, actors, Sendable, tasks, cancellation, and diagnostics.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **1232**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **1236**
 
 ## Direct-source reading
 
@@ -2194,6 +2194,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Maps SwiftUI async work to its trigger: task starts and automatically cancels work with view identity, Task handles button actions, and refreshable integrates pull-to-refresh. This separation helps avoid launching lifecycle work from synchronous view construction.
 - [How to manage view lifecycle events in SwiftUI](https://tanaschita.com/swiftui-view-lifecycle-events) — Tanaschita · article catalogue
   **NeKI brief:** Explains SwiftUI lifecycle callbacks such as task, onAppear, and onDisappear and their execution behavior. Follow it when attaching loading or cleanup work without accidentally duplicating effects across view identity changes.
+- [Building responsive and reliable search in SwiftUI](https://tanaschita.com/swiftui-responsive-race-free-debounce-search) — Tanaschita · article catalogue
+  **NeKI brief:** Builds debounced SwiftUI search with task cancellation and query identity checks, preventing slow obsolete requests from overwriting newer results without introducing Combine.
 - [Cancelling async tasks in SwiftUI](https://tanaschita.com/swiftui-cancel-async-work) — Tanaschita · article catalogue
   **NeKI brief:** Shows task and task(id:) cancellation in SwiftUI, emphasizing view lifetime as the cancellation boundary and preventing stale asynchronous results from updating disappeared screens.
 - [Building a reusable API client with URLSession in Swift](https://tanaschita.com/swift-urlsession) — Tanaschita · article catalogue
@@ -2263,6 +2265,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [How Much Should Developers Invest in iPhone Duo?](https://samwize.com/2026/09/14/how-much-should-developers-invest-in-iphone-duo) — Those Who Swift · Issue 284 — Article · Topics: Concurrency
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Balances iPhone Duo's substantial layout and testing work against projected adoption, helping teams decide how deeply to optimize beyond baseline adaptive behavior during the device's first year.
+- [Designing for iPhone Duo: The HIG Guide in 5 Minutes](https://www.sagarunagar.com/blog/iphone-duo-human-interface-guidelines) — Those Who Swift · Issue 284 — Article · Topics: Concurrency
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Condenses Apple's iPhone Duo guidance into size-class adaptation, side-mounted bars, fold displacement, safe regions, and ArrangementView split or overlay containers, with emphasis on designing for space rather than enumerating poses.
+- [SwiftUI: Debounced Search Without Stale Results (iOS 15+)](https://tanaschita.com/swiftui-responsive-race-free-debounce-search?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Builds debounced SwiftUI search with task cancellation and query identity checks, preventing slow obsolete requests from overwriting newer results without introducing Combine.
 - [Active ReviewSE-0548resignRemoteID for remote distributed actor references](https://github.com/apple/swift-evolution/blob/main/proposals/0548-resign-remote-id.md) — SwiftLee Weekly · Issue 340 — Source repository · Topics: App Intents & System Surfaces · Concurrency · Swift
   **Published:** `2026-09-08T14:05:49.000Z`
   **NeKI brief:** Adds resignRemoteID so a DistributedActorSystem can observe deinitialization of remote actor references and release connection-related resources. The default no-op preserves existing implementations while balancing repeated references per ID.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Core Data models, fetching, migration, concurrency, and persistence behaviour.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **288**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **289**
 
 ## Direct-source reading
 
@@ -598,6 +598,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [SwiftData: Optimization Starts with Modeling](https://fatbobman.com/en/posts/swiftdata-optimization-starts-with-modeling?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftData
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Explains why large SwiftData rows can stall lists when fetching also materializes their stored values. It advocates separating heavy payloads during modeling so ordinary list queries load only the data they need.
 - [CoreDataBrowser: Quickly Inspect Local Data in the Simulator](https://l.fatbobman.com/w0152-08) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Core Data · Developer Tools · Persistence & Synchronisation
   **Published:** `2026-09-07T12:03:43.098Z`
   **NeKI brief:** Introduces a Simulator utility for inspecting Core Data stores and pairs its App Store listing with public source. Evaluate schema safety and whether inspection can remain read-only for production-like data.

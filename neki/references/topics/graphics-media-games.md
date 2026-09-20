@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Rendering, GPU work, image/audio/video processing, computer vision, and game-development techniques.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **878**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **883**
 
 ## Direct-source reading
 
@@ -440,6 +440,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Apple Reference Image: A New Approach for Verified Photography](https://security.apple.com/blog/apple-reference-image) — iOS Dev Weekly · Issue 768 — Article · Topics: Graphics, Media & Games · Security & Privacy
+  **Published:** `18th September 2026`
+  **NeKI brief:** Describes Apple's opt-in Reference Image mode for producing sensor-originated, securely timestamped photographs with verifiable provenance. Follow it for the threat model and cryptographic design behind authenticity checks.
+- [iPhone Duo: First Developer Good-to-Knows](https://www.swiftjectivec.com/iphone-duo-first-developer-good-to-knows) — Those Who Swift · Issue 284 — Article · Topics: Graphics, Media & Games · Swift
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Summarises Apple's six iPhone Duo developer videos around adaptive layouts, vertical system bars, safe areas, cameras, multitasking, multiple displays, and hinge-aware interactions, providing a short first-pass checklist.
+- [iPhone Duo: ArrangementView (iOS 27.1 SDK, beta coming later this month)](https://livsycode.com/swiftui/building-iphone-duo-layouts-with-arrangementview?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Shows how ArrangementView describes a relationship between two SwiftUI regions and lets the system choose split or overlay presentation, including navigation ownership and fold-aware behavior on iPhone Duo.
+- [Jordan Morgan](https://l.fatbobman.com/w0153-10) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Graphics, Media & Games
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Summarises Apple's iPhone Duo developer talks across adaptive layouts, system bars, safe areas, cameras, multiple displays, and multitasking, providing a quick route into the topics most apps need first.
+- [MusicPlaygournd](https://github.com/1amageek/MusicPlaygournd) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Provides a native macOS live editor built on SwiftMusic, demonstrating how a host can turn declarative music events and render plans into an interactive composition and playback environment.
 - [JoltPhysics](https://github.com/EvgenijLutz/JoltPhysics) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Source repository · Topics: Developer Tools · Graphics, Media & Games · Performance
   **Published:** `2026-08-27T20:30:45.555Z`
   **NeKI brief:** Provides a Swift-facing package around the Jolt C++ physics engine for real-time simulation. Assess native dependency, determinism, and supported-platform trade-offs before making it an app dependency.

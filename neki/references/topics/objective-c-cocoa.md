@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Objective-C language/runtime, Cocoa and Foundation-era APIs, and historical Mac/iOS implementation techniques.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **1143**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **1151**
 
 ## Direct-source reading
 
@@ -471,6 +471,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Spek](https://spek.app/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: App Distribution & Store Operations · Objective-C & Cocoa
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Uses App Store Connect credentials to research keywords and competitors, draft localized metadata, and track ranking or visibility across markets. Useful for evaluating agent-assisted ASO workflows and their account-access boundary.
+- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Source repository · Topics: AI Development · Developer Tools · Objective-C & Cocoa
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Turns source code or documentation into an interactive knowledge graph that coding agents can explore and query. Useful for evaluating repository-understanding workflows across Codex, Claude Code, Cursor, Copilot, and Gemini CLI.
+- [Action Runner: An iOS Architecture for Isolating Business Logic](https://ivanthinking.net/2026/09/15/action-runner-ios-architecture) — Those Who Swift · Issue 284 — Article · Topics: Architecture · Dependency Injection · Objective-C & Cocoa
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Presents an Action and RunnableAction architecture that moves business logic out of SwiftUI views and oversized controllers, using a shared RunContext to make dependencies explicit and reduce circular coordination.
+- [SwiftUI toolbars](https://mjtsai.com/blog/2026/09/08/swiftui-toolbars?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Collects practical limitations and migration observations for customizable SwiftUI toolbars on macOS, especially stable identifiers, NSToolbar bridging, and the absence of a customizable ToolbarItemGroup equivalent.
+- [ViewThatFits](https://www.natashatherobot.com/p/swiftui-viewthatfits?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Uses ViewThatFits to choose between compact and expanded SwiftUI layouts at larger Dynamic Type sizes, showing a small adaptive technique that can improve accessibility without hard-coded size-category branching.
+- [Godot with Swift](https://massicotte.org/blog/experimenting-with-godot?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Reflects on returning to game development with Godot, covering the engine and editor model, GDScript trade-offs, rapid iteration, and the differences a Swift developer encounters when moving beyond native Apple tooling.
+- [Transition or ContentTransition](https://l.fatbobman.com/w0153-05) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Objective-C & Cocoa
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Distinguishes SwiftUI transition, which animates insertion and removal, from contentTransition, which animates changes inside a stable view. Its examples make the hierarchy-versus-content decision concrete.
+- [Claude Code rules, hooks and skills, and how I set mine up](https://roland.leth.ro/blog/tech/claude-code-rules-hooks-and-skills-and-how-i-set-mine-up) — iOS Dev Weekly · Issue 767 — Article · Topics: Objective-C & Cocoa
+  **Published:** `11th September 2026`
+  **NeKI brief:** Separates Claude Code rules, hooks, and skills by responsibility and shows a personal organization for each. Use it to compare reusable instruction scope, deterministic automation, and contextual loading.
 - [Building a sunburst diagram in Swift Charts](https://l.fatbobman.com/w0152-07) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Objective-C & Cocoa · Swift
   **Published:** `2026-09-07T12:03:43.098Z`
   **NeKI brief:** Builds a hierarchical sunburst visualization as nested Swift Charts sectors, aligning child angles with their parent groups. It is useful when choosing data normalization, angular marks, labels, and interaction for multilevel proportions.

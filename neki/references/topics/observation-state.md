@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Observation, bindings, view state, data flow, and state-management trade-offs.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **236**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **239**
 
 ## Direct-source reading
 
+- [LazyState 1.0: Now available to everyone](https://www.pointfree.co/blog/posts/228-lazystate-1-0-now-available-to-everyone) — Point-Free · article catalogue
+  **Published:** `2026-09-14T00:00:00Z`
+  **NeKI brief:** Introduces LazyState 1.0 for SwiftUI models whose initial value depends on parent data, explaining why the State macro solves inline lazy initialization but not dynamically constructed state.
 - [SwiftUI data dependencies and their effect on view updates](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates) — Nil Coalescing · article catalogue
   **Published:** `2026-09-03`
   **NeKI brief:** Distinguishes how stored inputs, State, Binding, environment values, Observable models, and ObservableObject subscriptions trigger SwiftUI updates. Use it to diagnose invalidation from actual body reads rather than wrapper names alone.
@@ -459,6 +462,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Abstracting SwiftUI state with scopes](https://l.fatbobman.com/w0153-06) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Observation & State Management · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Develops a scoped approach to SwiftUI state that combines local values, environment dependencies, and observable models while remaining controllable from previews, navigation flows, and external callers.
+- [ScopedState](https://github.com/auramagi/swift-scoped-state) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Implements statically declared SwiftUI state scopes that connect local view state to external observable sources while supporting controlled setup for previews, navigation, and testing.
 - [Multiplatform Swift, with C++ dependencies via XCFramework, apt and vcpkg](https://l.fatbobman.com/w0152-04) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Dependency Injection · Swift · Systems Programming
   **Published:** `2026-09-07T12:03:43.098Z`
   **NeKI brief:** Builds one Swift package around a C++ dependency across macOS, Linux, and Windows using XCFramework, apt, and vcpkg respectively. It exposes the packaging trade-offs behind a nominally shared API.

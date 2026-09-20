@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Application boundaries, modularity, state ownership, dependency direction, and design trade-offs.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **361**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **363**
 
 ## Direct-source reading
 
@@ -618,6 +618,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Action Runner: An iOS Architecture for Isolating Business Logic](https://ivanthinking.net/2026/09/15/action-runner-ios-architecture) — Those Who Swift · Issue 284 — Article · Topics: Architecture · Dependency Injection · Objective-C & Cocoa
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Presents an Action and RunnableAction architecture that moves business logic out of SwiftUI views and oversized controllers, using a shared RunContext to make dependencies explicit and reduce circular coordination.
+- [In-House Over-the-Air Localizations in a Modular iOS App](https://albertodebortoli.com/2026/09/08/inover-the-air-localizations-in-a-modular-ios-app) — Those Who Swift · Issue 284 — Article · Topics: App Distribution & Store Operations · Architecture · Localization
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Describes an over-the-air localization system that downloads resource-bundle-shaped content so Foundation still handles locale fallback, regional variants, and plurals. It covers modular ownership, validation, rollout, and failure recovery.
 - [Xcode Tools Documentation](https://github.com/artemnovichkov/xcode-tools-docs) — iOS Dev Weekly · Issue 765 — Source repository · Topics: Architecture · Developer Tools · Xcode
   **Published:** `28th August 2026`
   **NeKI brief:** Collects missing or hard-to-find Xcode command-line and tool documentation in an inspectable repository, useful for discovering a workflow before validating it against Apple’s current documentation.

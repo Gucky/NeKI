@@ -3,9 +3,65 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://sarunw.com/posts/](https://sarunw.com/posts/)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **461**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed entries: **475**
 
+- [Build Siri experiences across apps, Part 1: Onscreen Awareness | Sarunw](https://sarunw.com/posts/build-siri-experiences-across-apps-part-1-onscreen-awareness)
+  **Published:** `2026-09-20`
+  **Topics:** App Intents & System Surfaces
+  **NeKI brief:** Shows how to associate visible SwiftUI content with App Entities through NSUserActivity or view annotations, allowing Siri to resolve phrases such as 'this' against what the user currently sees.
+- [How native SwiftUI controls look different in iOS 26 | Sarunw](https://sarunw.com/posts/swiftui-native-controls-ios-26)
+  **Published:** `2026-09-19`
+  **Topics:** Liquid Glass · SwiftUI
+  **NeKI brief:** Visually compares native SwiftUI buttons, toggles, pickers, sliders, toolbars, tab bars, and sheets before and after the iOS 26 redesign, separating automatic appearance changes from app-controlled behavior.
+- [SwiftUI Liquid Glass - Regular vs Clear | Sarunw](https://sarunw.com/posts/glass-effect-regular-vs-clear)
+  **Published:** `2026-09-18`
+  **Topics:** Liquid Glass · SwiftUI
+  **NeKI brief:** Compares regular and clear SwiftUI Liquid Glass variants, including their different foreground-color behavior and the contrast conditions that should guide which material is appropriate.
+- [The new JSON project format in Xcode 27.2 | Sarunw](https://sarunw.com/posts/xcode-json-project-format-xcproj)
+  **Published:** `2026-09-17`
+  **Topics:** Developer Tools · Xcode
+  **NeKI brief:** Walks through Xcode 27.2's project.xcproj JSON structure, conversion workflow, compatibility limits, and merge-oriented benefits, helping teams judge when to move away from project.pbxproj.
+- [Build intelligent Siri experiences, Part 2: Actions | Sarunw](https://sarunw.com/posts/build-intelligent-siri-experiences-part-2-actions)
+  **Published:** `2026-09-17`
+  **Topics:** App Intents & System Surfaces
+  **NeKI brief:** Connects app actions to Siri through assistant schemas, showing how App Intents conform to schema-defined intents and how supported domains determine which actions the system can understand and invoke.
+- [Build intelligent Siri experiences, Part 1: App Entities | Sarunw](https://sarunw.com/posts/build-intelligent-siri-experiences-with-app-schemas)
+  **Published:** `2026-09-16`
+  **Topics:** App Intents & System Surfaces
+  **NeKI brief:** Introduces assistant schemas and App Entities for Siri, covering content contribution, entity resolution, searchable indexing, and the limits that determine which in-app concepts can participate in system experiences.
+- [Sheets and fold avoidance on iPhone Duo | Sarunw](https://sarunw.com/posts/sheets-and-fold-avoidance-on-iphone-duo)
+  **Published:** `2026-09-15`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Explains how sheets and system components adapt around iPhone Duo's division and occlusion regions in different poses, showing where automatic fold avoidance helps and where layouts still need review.
+- [Adapting content for iPhone Duo | Sarunw](https://sarunw.com/posts/adapting-content-for-iphone-duo)
+  **Published:** `2026-09-14`
+  **Topics:** Hardware & Devices · Product Design · SwiftUI
+  **NeKI brief:** Demonstrates content strategies for iPhone Duo's asymmetric displays: using different inner and outer presentations, separating media from controls across the fold, and keeping important content clear of reserved regions.
+- [Adapting controls for iPhone Duo | Sarunw](https://sarunw.com/posts/adapting-controls-for-iphone-duo)
+  **Published:** `2026-09-13`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Explains how navigation bars, toolbars, and tab bars move to a vertical edge on iPhone Duo, including which items belong there and how the system handles overflow.
+- [How to export Xcode agent skills with xcrun | Sarunw](https://sarunw.com/posts/export-xcode-agent-skills)
+  **Published:** `2026-09-12`
+  **Topics:** AI Development · Developer Tools · Xcode
+  **NeKI brief:** Documents the xcrun command for exporting Xcode 27's bundled agent skills to another directory, including a fallback when the active developer directory does not expose the agent subcommand.
+- [Adapting your app for iPhone Duo | Sarunw](https://sarunw.com/posts/adapting-your-app-for-iphone-duo)
+  **Published:** `2026-09-12`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Introduces the six iPhone Duo poses and shows how size classes, layout margins, and safe-area insets provide the first layer of adaptive behavior before adopting Duo-specific APIs.
+- [iPhone Duo design principles | Sarunw](https://sarunw.com/posts/design-for-iphone-duo)
+  **Published:** `2026-09-11`
+  **Topics:** Hardware & Devices · Product Design
+  **NeKI brief:** Summarises Apple's iPhone Duo design guidance across closed, open, folded, tabletop, and tent poses, emphasizing side-mounted controls, fold avoidance, asymmetric content, and effective use of the inner display.
+- [Backward compatibility on iPhone Duo | Sarunw](https://sarunw.com/posts/backward-compatibility-on-iphone-duo)
+  **Published:** `2026-09-11`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Compares how existing apps behave on iPhone Duo when built with pre-iOS 27, iOS 27, and iOS 27.1 SDKs, clarifying what the system adapts automatically and when new APIs become available.
+- [A guide to Apple's iPhone Duo Tech Talks | Sarunw](https://sarunw.com/posts/iphone-duo-tech-talks)
+  **Published:** `2026-09-10`
+  **Topics:** Hardware & Devices
+  **NeKI brief:** Maps Apple's six iPhone Duo Tech Talks to design, compatibility, adaptive layouts, scenes, hinge behavior, and cameras, helping developers choose the sessions relevant to their app's adaptation work.
 - [Existential any in Swift, and when it becomes required | Sarunw](https://sarunw.com/posts/existential-any-in-swift)
   **Published:** `2026-09-10`
   **Topics:** Swift

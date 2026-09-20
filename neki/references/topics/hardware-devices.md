@@ -4,11 +4,32 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple hardware, peripherals, device setup, and physical-computing context.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **85**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **97**
 
 ## Direct-source reading
 
+- [Sheets and fold avoidance on iPhone Duo | Sarunw](https://sarunw.com/posts/sheets-and-fold-avoidance-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-15`
+  **NeKI brief:** Explains how sheets and system components adapt around iPhone Duo's division and occlusion regions in different poses, showing where automatic fold avoidance helps and where layouts still need review.
+- [Adapting content for iPhone Duo | Sarunw](https://sarunw.com/posts/adapting-content-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-14`
+  **NeKI brief:** Demonstrates content strategies for iPhone Duo's asymmetric displays: using different inner and outer presentations, separating media from controls across the fold, and keeping important content clear of reserved regions.
+- [Adapting controls for iPhone Duo | Sarunw](https://sarunw.com/posts/adapting-controls-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-13`
+  **NeKI brief:** Explains how navigation bars, toolbars, and tab bars move to a vertical edge on iPhone Duo, including which items belong there and how the system handles overflow.
+- [Adapting your app for iPhone Duo | Sarunw](https://sarunw.com/posts/adapting-your-app-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-12`
+  **NeKI brief:** Introduces the six iPhone Duo poses and shows how size classes, layout margins, and safe-area insets provide the first layer of adaptive behavior before adopting Duo-specific APIs.
+- [iPhone Duo design principles | Sarunw](https://sarunw.com/posts/design-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-11`
+  **NeKI brief:** Summarises Apple's iPhone Duo design guidance across closed, open, folded, tabletop, and tent poses, emphasizing side-mounted controls, fold avoidance, asymmetric content, and effective use of the inner display.
+- [Backward compatibility on iPhone Duo | Sarunw](https://sarunw.com/posts/backward-compatibility-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-11`
+  **NeKI brief:** Compares how existing apps behave on iPhone Duo when built with pre-iOS 27, iOS 27, and iOS 27.1 SDKs, clarifying what the system adapts automatically and when new APIs become available.
+- [A guide to Apple's iPhone Duo Tech Talks | Sarunw](https://sarunw.com/posts/iphone-duo-tech-talks) — Sarunw · article catalogue
+  **Published:** `2026-09-10`
+  **NeKI brief:** Maps Apple's six iPhone Duo Tech Talks to design, compatibility, adaptive layouts, scenes, hinge behavior, and cameras, helping developers choose the sessions relevant to their app's adaptation work.
 - [Dev Workspaces: Omar Elsayed - iOS Dev Tools](https://iosdev.tools/blog/dev-workspaces-omar-elsayed) — iOS Dev Tools Blog · article catalogue
   **Published:** `2026-03-31T08:15:09+00:00`
   **NeKI brief:** Surveys Omar Elsayed’s development workspace, including daily hardware, software, and working habits. Use it to compare practical setup choices without treating one developer’s configuration as prescriptive.
@@ -55,6 +76,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [OpenClip](https://www.getopenclip.app/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: AI Development · Hardware & Devices
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Provides an open-source macOS floating action bar for selected text, combining built-in transformations, calculations, translation, scripts, keyboard shortcuts, and more than one hundred extensions without switching apps.
+- [Notchling](https://notchling.zopcloud.zop.dev/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Presents a small macOS notch companion that doubles as a drag-and-drop file shelf and weather glance, illustrating a lightweight use of permanently visible display cutout space.
+- [PostBox](https://postbox.sh/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Turns the MacBook notch into a drag-and-drop publishing surface that adapts one caption and export for multiple social platforms. Useful for evaluating local creator-workflow automation and cross-network posting claims.
+- [Fide Island](https://fideisland.it.com/) — iOS Dev Tools · iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith — Article
+  **Published:** `2026-09-10T16:30:53.656Z`
+  **NeKI brief:** Turns the MacBook notch into a local-first control surface for media, notes, translation, calendar, files, clipboard history, and quick tools, illustrating one approach to reclaiming persistent display-cutout space.
+- [Shortap](https://shortap.app/) — iOS Dev Tools · iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith — Article
+  **Published:** `2026-09-10T16:30:53.656Z`
+  **NeKI brief:** Adds configurable physical tap gestures to supported MacBooks, mapping left- or right-side single, double, and triple taps to built-in actions or Apple Shortcuts.
 - [Capsomnia](https://capsomnia.com/) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Article · Topics: AI Development · Personal Essays
   **Published:** `2026-08-27T20:30:45.555Z`
   **NeKI brief:** Presents a macOS utility that prevents sleep when the laptop lid is closed. Consider power, thermal, and security implications before using it to keep development processes running.

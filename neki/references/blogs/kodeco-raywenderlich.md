@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.kodeco.com/archive](https://www.kodeco.com/archive)
-- Last collected: `2026-07-22T21:58:56Z`
-- Indexed entries: **1052**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed entries: **1053**
 
+- [Moving from XCTest to Swift Testing | Kodeco](https://www.kodeco.com/53560697-moving-from-xctest-to-swift-testing)
+  **Published:** `2026-09-20`
+  **Topics:** Testing · Xcode
+  **NeKI brief:** Guides an XCTest-to-Swift-Testing migration through translated assertions, suite structure, parameterized tests, traits, and Xcode's coding-agent assistance. Useful for planning an incremental conversion rather than a wholesale rewrite.
 - [CloudKit JS Tutorial for iOS | Kodeco](https://www.kodeco.com/997-cloudkit-js-tutorial-for-ios)
   **Published:** `2026-07-17`
   **Topics:** Persistence & Synchronisation

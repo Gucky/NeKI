@@ -4,11 +4,23 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Xcode, builds, signing, debugging, tooling, CI, and developer workflows.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **1434**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **1447**
 
 ## Direct-source reading
 
+- [Moving from XCTest to Swift Testing | Kodeco](https://www.kodeco.com/53560697-moving-from-xctest-to-swift-testing) — Kodeco / Ray Wenderlich archive · article catalogue
+  **Published:** `2026-09-20`
+  **NeKI brief:** Guides an XCTest-to-Swift-Testing migration through translated assertions, suite structure, parameterized tests, traits, and Xcode's coding-agent assistance. Useful for planning an incremental conversion rather than a wholesale rewrite.
+- [From pbxproj to xcproj - Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj) — Fatbobman · article catalogue
+  **Published:** `2026-09-17T14:30:00.000Z`
+  **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
+- [The new JSON project format in Xcode 27.2 | Sarunw](https://sarunw.com/posts/xcode-json-project-format-xcproj) — Sarunw · article catalogue
+  **Published:** `2026-09-17`
+  **NeKI brief:** Walks through Xcode 27.2's project.xcproj JSON structure, conversion workflow, compatibility limits, and merge-oriented benefits, helping teams judge when to move away from project.pbxproj.
+- [How to export Xcode agent skills with xcrun | Sarunw](https://sarunw.com/posts/export-xcode-agent-skills) — Sarunw · article catalogue
+  **Published:** `2026-09-12`
+  **NeKI brief:** Documents the xcrun command for exporting Xcode 27's bundled agent skills to another directory, including a fallback when the active developer directory does not expose the agent subcommand.
 - [How to free up Xcode disk space safely with an AI Agent - SwiftLee](https://www.avanderlee.com/ai-development/how-to-free-up-xcode-disk-space-safely-with-an-ai-agent) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-07-27T08:34:16+00:00`
   **NeKI brief:** Presents an audit-first Xcode cleanup skill that inventories Derived Data, simulators, runtimes, archives, and caches with stable evidence before itemised approval. It preserves distributed archives, revalidates candidates, and separates recoverable trash moves from irreversible simulator operations.
@@ -1980,6 +1992,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj?ref=createwithswift.com) — Create with Swift · Issue 120 — Article · Topics: Swift · Xcode
+  **Published:** `2026-09-18T16:00:51.000Z`
+  **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
+- [fullcoverage](https://github.com/Shadester/fullcoverage) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Implements a Swift command-line tool that reads Xcode xcresult bundles and produces multi-file HTML coverage reports with line, branch, function, per-file, and aggregate views.
+- [XCRunway](https://xcrunway.app/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: Testing · Xcode
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Provides a native Xcode Cloud client for iPhone, iPad, and Mac that can start workflows, monitor progress, inspect tests and logs, and download artifacts while keeping API credentials in Keychain.
+- [xcode-project-format](https://github.com/apple/xcode-project-format) — iOS Dev Weekly · Issue 768 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `18th September 2026`
+  **NeKI brief:** Provides Apple's Swift library for reading, writing, and manipulating Xcode's JSON-based project.xcproj files. Use it to inspect the format's actual schema and supported transformations rather than reverse-engineering generated JSON.
+- [iPhone Duo for Developers: The 1.42 Problem and the SDK Gap](https://blakecrosley.com/blog/iphone-duo-for-developers) — Those Who Swift · Issue 284 — Article · Topics: Xcode
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Derives iPhone Duo's point dimensions and unusual aspect ratio from App Store screenshot specifications, then connects them to display shapes, Split View, Touch ID, SDK timing, and Apple's developer sessions.
+- [iOS Simulator Browser Preview for Codex, Claude, and Cursor](https://www.rocketsim.app/blog/ios-simulator-browser-preview) — SwiftLee Weekly · Issue 341 — Article · Topics: Accessibility · Xcode
+  **Published:** `2026-09-15T14:09:49.000Z`
+  **NeKI brief:** Shows RocketSim's browser-based live view of an iOS Simulator used by a coding agent, including user takeover, accessibility-element inspection, and converting visual feedback into implementation context.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp?ref=createwithswift.com) — Create with Swift · Issue 119 — Article · Topics: AI Development · Swift · Xcode
+  **Published:** `2026-09-11T16:00:59.000Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [FWC SwiftUI Skills](https://github.com/FloWritesCode/fwc-swiftui-skills) — iOS Dev Tools · iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-10T16:30:53.656Z`
+  **NeKI brief:** Collects installable agent skills for modern SwiftUI work, including iPhone Duo, current SDK guidance, and framework-specific review instructions. Inspect the individual skill boundaries before adopting them in an agent setup.
+- [🔨 Visualize Xcode’s build timeline using Tuist](https://github.com/tuist/tuist/pull/12963) — iOS CI Newsletter · Issue 93 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `2026-09-10T00:00:00.000Z`
+  **NeKI brief:** Adds Xcode build-timeline visualization to Tuist's server workflow, exposing build activity in a form intended to reveal scheduling and duration bottlenecks. The pull request shows the implementation and review discussion.
 - [Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, and macOS.](https://github.com/xtool-org/xtool) — iOS Dev Weekly · Issue 766 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Product Design
   **Published:** `4th September 2026`
   **NeKI brief:** Builds and deploys iOS applications through SwiftPM on macOS, Linux, and Windows as an alternative toolchain path. Evaluate signing, SDK provenance, debugging, and App Store workflow coverage before adoption.

@@ -3,8 +3,28 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.ioscinewsletter.com/](https://www.ioscinewsletter.com/)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **89**
+- Last collected: `2026-09-20T08:55:28Z`
+- Indexed entries: **90**
+
+## [Issue 93](https://ioscinewsletter.com/issues/93)
+
+- Published: `2026-09-10T00:00:00.000Z`
+
+**Topics:** AI Development · App Distribution & Store Operations · CI/CD & Automation · Performance · Testing · Xcode
+
+**Sections:** Stay up to date with the latest iOS CI/CD news
+
+**NeKI brief:** Collects CI/CD updates on scalable Mac runners, App Store submission feedback, GitHub secret blocking, Tuist build-timeline visualization, and using an iOS Simulator inside agentic coding tools.
+
+**Selected links:**
+- [🔨 Visualize Xcode’s build timeline using Tuist](https://github.com/tuist/tuist/pull/12963) — Source repository · Topics: Developer Tools · Xcode
+  **NeKI brief:** Adds Xcode build-timeline visualization to Tuist's server workflow, exposing build activity in a form intended to reveal scheduling and duration bottlenecks. The pull request shows the implementation and review discussion.
+- [🤖 The iOS Simulator in Cursor, Claude Code and Codex](https://www.avanderlee.com/ai-development/the-ios-simulator-inside-cursor-claude-code-and-codex) — Article · Topics: AI Development · Performance
+  **NeKI brief:** Shows how keeping a live iOS Simulator beside an agentic editor shortens the prompt, run, and review loop for interface work. It also frames visual inspection and performance evidence as continuing developer responsibilities.
+- [Helm for App Store Connect](https://helm-app.com/changelog/helm-ios-feedback) — Article · Topics: App Distribution & Store Operations
+  **NeKI brief:** Describes Helm 2.3.1's iOS workflow for opening TestFlight screenshot and crash feedback and turning it into tasks, plus macOS support for updated social-media age-rating declarations and new model choices.
+- [🔐 Block merging PRs that contain secrets](https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging) — Article · Topics: Developer Tools
+  **NeKI brief:** Explains GitHub's repository-ruleset option for blocking pull-request merges when secret scanning finds an unresolved alert, and distinguishes the merge-time rule from push protection.
 
 ## [Issue 92](https://ioscinewsletter.com/issues/92)
 
@@ -42,7 +62,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [🚨 Bitrise is retiring its Xcode 26 edge stacks](https://bitrise.io/blog/post/xcode-26-edge-stack-removal) — Article · Topics: CI/CD & Automation · Xcode
   **NeKI brief:** Examines Bitrise is retiring its Xcode 26 edge stacks in the context of CI/CD & Automation and Xcode. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
 - [❓ New Age Rating Declaration Questions in App Store Connect](https://helm-app.com/changelog/helm-ios-feedback) — Article · Topics: App Distribution & Store Operations
-  **NeKI brief:** Examines New Age Rating Declaration Questions in App Store Connect in the context of App Distribution & Store Operations. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
+  **NeKI brief:** Describes Helm 2.3.1's iOS workflow for opening TestFlight screenshot and crash feedback and turning it into tasks, plus macOS support for updated social-media age-rating declarations and new model choices.
 
 ## [Issue 90](https://ioscinewsletter.com/issues/90)
 

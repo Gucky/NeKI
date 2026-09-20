@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** URLSession, HTTP, GraphQL, WebSockets, API clients, and network reliability.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **280**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **282**
 
 ## Direct-source reading
 
@@ -492,6 +492,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** An event-driven HTTP server can assign connection I/O and parsing to queues, but must retain per-client state, apply backpressure, and serialize each connection’s protocol transitions.
 - [Manipulating networking requests and responses with Charles](https://tanaschita.com/tools-charles-proxy-manipulating-network-requests-and-responses) — Tanaschita · article catalogue
   **NeKI brief:** Uses Charles Breakpoints to intercept a matched request or response, edit its payload, and release the modified data to the app. This creates deterministic tests for malformed, missing, or unexpected server values without changing the production endpoint.
+- [Building responsive and reliable search in SwiftUI](https://tanaschita.com/swiftui-responsive-race-free-debounce-search) — Tanaschita · article catalogue
+  **NeKI brief:** Builds debounced SwiftUI search with task cancellation and query identity checks, preventing slow obsolete requests from overwriting newer results without introducing Combine.
 - [Building a reusable API client with URLSession in Swift](https://tanaschita.com/swift-urlsession) — Tanaschita · article catalogue
   **NeKI brief:** Builds a small async URLSession API client that centralises request construction, status-code validation and JSON decoding. Configuration injection and cancellation handling show how to keep feature endpoints concise without hiding transport failures.
 - [GraphQL essentials for iOS development](https://tanaschita.com/graphql-essentials-for-ios) — Tanaschita · article catalogue
@@ -521,6 +523,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [SwiftUI: Debounced Search Without Stale Results (iOS 15+)](https://tanaschita.com/swiftui-responsive-race-free-debounce-search?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Builds debounced SwiftUI search with task cancellation and query identity checks, preventing slow obsolete requests from overwriting newer results without introducing Combine.
 - [Building A Reusable HTTP Client In Swift With async/await](https://azamsharp.com/2026/08/29/building-a-reusable-http-client-in-swift.html) — Those Who Swift · Issue 282 — Article · Topics: Concurrency · Networking · Swift
   **Published:** `2026-09-02T21:05:28.721Z`
   **NeKI brief:** Builds an async Swift HTTP client around request construction, typed decoding, and reusable error handling. Use it to evaluate dependency boundaries and testability rather than adopting one universal networking layer.

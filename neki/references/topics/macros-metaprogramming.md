@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Macros, compiler plugins, generated code, and metaprogramming techniques.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **168**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **169**
 
 ## Direct-source reading
 
+- [LazyState 1.0: Now available to everyone](https://www.pointfree.co/blog/posts/228-lazystate-1-0-now-available-to-everyone) — Point-Free · article catalogue
+  **Published:** `2026-09-14T00:00:00Z`
+  **NeKI brief:** Introduces LazyState 1.0 for SwiftUI models whose initial value depends on parent data, explaining why the State macro solves inline lazy initialization but not dynamically constructed state.
 - [Beta Preview: LazyState](https://www.pointfree.co/blog/posts/223-beta-preview-lazystate) — Point-Free · article catalogue
   **Published:** `2026-08-31T00:00:00Z`
   **NeKI brief:** Previews the LazyState macro for lazily creating stateful reference values from parent inputs once per view identity. It replaces optional-state and onAppear workarounds, but is a beta, member-only API rather than a platform contract.

@@ -4,11 +4,20 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Intents, App Shortcuts, Siri, Spotlight, widgets, controls, and related system surfaces.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **138**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **141**
 
 ## Direct-source reading
 
+- [Build Siri experiences across apps, Part 1: Onscreen Awareness | Sarunw](https://sarunw.com/posts/build-siri-experiences-across-apps-part-1-onscreen-awareness) — Sarunw · article catalogue
+  **Published:** `2026-09-20`
+  **NeKI brief:** Shows how to associate visible SwiftUI content with App Entities through NSUserActivity or view annotations, allowing Siri to resolve phrases such as 'this' against what the user currently sees.
+- [Build intelligent Siri experiences, Part 2: Actions | Sarunw](https://sarunw.com/posts/build-intelligent-siri-experiences-part-2-actions) — Sarunw · article catalogue
+  **Published:** `2026-09-17`
+  **NeKI brief:** Connects app actions to Siri through assistant schemas, showing how App Intents conform to schema-defined intents and how supported domains determine which actions the system can understand and invoke.
+- [Build intelligent Siri experiences, Part 1: App Entities | Sarunw](https://sarunw.com/posts/build-intelligent-siri-experiences-with-app-schemas) — Sarunw · article catalogue
+  **Published:** `2026-09-16`
+  **NeKI brief:** Introduces assistant schemas and App Entities for Siri, covering content contribution, entity resolution, searchable indexing, and the limits that determine which in-app concepts can participate in system experiences.
 - [iOS 10 by Tutorials: 11 Chapters Now Available! | Kodeco](https://www.kodeco.com/946-ios-10-by-tutorials-11-chapters-now-available) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Publication update for an early-access iOS 10 book, identifying new coverage of Xcode 8 editor extensions, SiriKit, and speech recognition rather than presenting a standalone tutorial.
@@ -200,8 +209,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
-- [Teaching Siri to talk about your favorite walks in Walk Mate](https://emredegirmenci.substack.com/p/ios-27-app-intents-journey) — SwiftLee Weekly · Issue 340 — Article · Topics: App Intents & System Surfaces
-  **Published:** `2026-09-08T14:05:49.000Z`
+- [Teaching Siri to talk about your favorite walks in Walk Mate](https://emredegirmenci.substack.com/p/ios-27-app-intents-journey) — iOS Dev Weekly · Issue 767 — Article · Topics: AI Development · App Intents & System Surfaces
+  **Published:** `11th September 2026`
   **NeKI brief:** Builds App Intents that let Siri query and discuss a walking app's saved content. Use it to examine entity modeling and conversational surfaces, then verify iOS 27 API details independently.
 - [AcceptedSE-0540Default Target Settings](https://github.com/apple/swift-evolution/blob/main/proposals/0540-default-target-settings.md) — SwiftLee Weekly · Issue 340 — Source repository · Topics: App Intents & System Surfaces · Developer Tools · Swift
   **Published:** `2026-09-08T14:05:49.000Z`

@@ -3,8 +3,60 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevweekly.com/issues/](https://iosdevweekly.com/issues/)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **762**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed entries: **764**
+
+## [Issue 768](https://iosdevweekly.com/issues/768)
+
+- Published: `18th September 2026`
+
+**Topics:** App Distribution & Store Operations · Developer Tools · Liquid Glass · Performance · Swift · Xcode
+
+**Sections:** Comment · News
+
+**NeKI brief:** Covers Xcode's JSON project format, Swift 6.4, SwiftUI ForEach slow-path diagnostics, verified-camera imagery, app-size analysis with OpenBundle, and issue-triage tooling for mobile teams.
+
+**Selected links:**
+- [Swift 6.4 Released](https://www.swift.org/blog/swift-6.4-released) — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **NeKI brief:** Summarises Swift 6.4 across language, concurrency, testing, SwiftPM and Swift Build, debugging, interoperability, WebAssembly, Android, Embedded Swift, and noncopyable data structures. Use its proposal links to investigate individual changes.
+- [Diagnosing ForEach performance issues in SwiftUI lazy containers](https://nilcoalescing.com/blog/DiagnosingForEachPerformanceIssuesInSwiftUILazyContainers) — Article · Topics: Performance · Swift · SwiftUI
+  **NeKI brief:** Shows how to enable SwiftUI's ForEach slow-path diagnostic, interpret variable-view-count warnings in List and lazy containers, and restructure conditional or multi-view row content so lazy reuse stays predictable.
+- [xcode-project-format](https://github.com/apple/xcode-project-format) — Source repository · Topics: Developer Tools · Xcode
+  **NeKI brief:** Provides Apple's Swift library for reading, writing, and manipulating Xcode's JSON-based project.xcproj files. Use it to inspect the format's actual schema and supported transformations rather than reverse-engineering generated JSON.
+- [GitHub](https://github.com/jacobsapps/OpenBundle) — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **NeKI brief:** Provides the open-source Bundle Investigator behind OpenBundle, enabling inspection of IPA contents and bundle-size contributors. Useful when the implementation and local-analysis mechanics matter beyond the hosted interface.
+- [Tools](https://wwdc.jacobstechtavern.com/openbundle) — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **NeKI brief:** Runs OpenBundle analysis locally in the browser to inspect an IPA or ZIP, attribute bundle size, compare reports, and export results without uploading application binaries.
+- [Apple Reference Image: A New Approach for Verified Photography](https://security.apple.com/blog/apple-reference-image) — Article · Topics: Graphics, Media & Games · Security & Privacy
+  **NeKI brief:** Describes Apple's opt-in Reference Image mode for producing sensor-originated, securely timestamped photographs with verifiable provenance. Follow it for the threat model and cryptographic design behind authenticity checks.
+
+## [Issue 767](https://iosdevweekly.com/issues/767)
+
+- Published: `11th September 2026`
+
+**Topics:** App Intents & System Surfaces · macOS & AppKit · Persistence & Synchronisation · Security & Privacy · Swift · Testing
+
+**Sections:** Comment · News
+
+**NeKI brief:** Curates Shopify's return to native mobile development, early iPhone Duo preparation, over-the-air localization architecture, Swift 6.4 Hashable changes, Siri integration, agent configuration, and a macOS login-keychain regression.
+
+**Selected links:**
+- [Native is now the future of mobile at Shopify](https://shopify.engineering/back-to-native) — Article · Topics: Cross-Platform & Web · Swift
+  **NeKI brief:** Explains why Shopify is moving its mobile apps from React Native back to Swift and Kotlin: coding agents changed native-development economics while platform-specific UI and capabilities increased the value of direct SDK access.
+- [six engineers, twelve weeks](https://shopify.engineering/shop-app-migration) — Article · Topics: Cross-Platform & Web · Swift
+  **NeKI brief:** Details how six engineers migrated Shopify's Shop app from React Native to Swift and Kotlin in twelve weeks, including AI-assisted translation, compatibility layers, staged rollout, and measurements used to manage risk.
+- [In-House Over-the-Air Localizations in a Modular iOS App](https://albertodebortoli.com/2026/09/08/inover-the-air-localizations-in-a-modular-ios-app) — Article · Topics: Architecture · Localization
+  **NeKI brief:** Describes an over-the-air localization system that downloads resource-bundle-shaped content so Foundation still handles locale fallback, regional variants, and plurals. It covers modular ownership, validation, rollout, and failure recovery.
+- [Teaching Siri to talk about your favorite walks in Walk Mate](https://emredegirmenci.substack.com/p/ios-27-app-intents-journey) — Article · Topics: AI Development · App Intents & System Surfaces
+  **NeKI brief:** Builds App Intents that let Siri query and discuss a walking app's saved content. Use it to examine entity modeling and conversational surfaces, then verify iOS 27 API details independently.
+- [macOS Tahoe silently sabotaged the login keychain](https://lapcatsoftware.com/articles/2026/9/4.html) — Article · Topics: Cross-Platform & Web · Persistence & Synchronisation · Security & Privacy
+  **NeKI brief:** Investigates macOS Tahoe and Golden Gate login-keychain encryption tied to the Secure Enclave, showing why copied keychain files cannot be unlocked on another Mac and what that means for backup assumptions.
+- [New Hashable conformances in Swift 6.4](https://livsycode.com/swift/new-hashable-conformances-in-swift-6-4) — Article · Topics: Swift
+  **NeKI brief:** Details the Swift 6.4 Hashable conformances added by SE-0514 and SE-0523 for Dictionary.Keys, CollectionOfOne, EmptyCollection, and UnownedTaskExecutor, including the source-compatibility consequence for custom conformances.
+- [Claude Code rules, hooks and skills, and how I set mine up](https://roland.leth.ro/blog/tech/claude-code-rules-hooks-and-skills-and-how-i-set-mine-up) — Article · Topics: Objective-C & Cocoa
+  **NeKI brief:** Separates Claude Code rules, hooks, and skills by responsibility and shows a personal organization for each. Use it to compare reusable instruction scope, deterministic automation, and contextual loading.
+- [iPhone Duo for Developers: The 1.42 Problem and the SDK Gap](https://blakecrosley.com/blog/iphone-duo-for-developers) — Article · Topics: App Distribution & Store Operations
+  **NeKI brief:** Derives iPhone Duo's point dimensions and unusual aspect ratio from App Store screenshot specifications, then connects them to display shapes, Split View, Touch ID, SDK timing, and Apple's developer sessions.
 
 ## [Issue 766](https://iosdevweekly.com/issues/766)
 

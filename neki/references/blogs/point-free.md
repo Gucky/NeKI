@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.pointfree.co/blog](https://www.pointfree.co/blog)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **160**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed entries: **161**
 
+- [LazyState 1.0: Now available to everyone](https://www.pointfree.co/blog/posts/228-lazystate-1-0-now-available-to-everyone)
+  **Published:** `2026-09-14T00:00:00Z`
+  **Topics:** Macros & Metaprogramming · Observation & State Management · SwiftUI
+  **NeKI brief:** Introduces LazyState 1.0 for SwiftUI models whose initial value depends on parent data, explaining why the State macro solves inline lazy initialization but not dynamically constructed state.
 - [Our WWDC 26 series is now free](https://www.pointfree.co/blog/posts/226-our-wwdc-26-series-is-now-free)
   **Published:** `2026-09-06T00:00:00Z`
   **Topics:** Persistence & Synchronisation · Swift · SwiftData · SwiftUI · UIKit

@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Continuous integration, delivery pipelines, build automation, and release operations.
 
-- Last collected: `2026-08-27T19:22:09Z`
+- Last collected: `2026-09-20T08:49:34Z`
 - Indexed links shown: **229**
 
 ## Direct-source reading

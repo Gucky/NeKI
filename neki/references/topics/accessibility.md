@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** VoiceOver, Dynamic Type, interaction accessibility, and inclusive interface design.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **241**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **243**
 
 ## Direct-source reading
 
@@ -417,6 +417,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Object Tracking Updates in visionOS 27 and iOS 27](https://vision.engineer/posts/object-tracking-updates-in-visionOS-27-and-iOS-27) — Those Who Swift · Issue 284 — Article · Topics: Accessibility · Combine & Reactive Programming · Spatial Computing
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Tests iOS 27 and visionOS 27 object-tracking improvements through an open-source accessibility demo that combines iPhone capture with Vision Pro, documenting higher-frame-rate tracking and reduced earlier limitations.
+- [iOS Simulator Browser Preview for Codex, Claude, and Cursor](https://www.rocketsim.app/blog/ios-simulator-browser-preview) — SwiftLee Weekly · Issue 341 — Article · Topics: Accessibility · Xcode
+  **Published:** `2026-09-15T14:09:49.000Z`
+  **NeKI brief:** Shows RocketSim's browser-based live view of an iOS Simulator used by a coding agent, including user takeover, accessibility-element inspection, and converting visual feedback into implementation context.
 - [Dynamically Setting Accessibility Custom Content Pairs In SwiftUI](https://www.basbroek.nl/multiple-custom-contents-swiftui) — Those Who Swift · Issue 282 — Article · Topics: Accessibility · Swift · SwiftUI
   **Published:** `2026-09-02T21:05:28.721Z`
   **NeKI brief:** Shows a model-driven workaround for applying multiple accessibility custom-content pairs in SwiftUI. Validate the resulting VoiceOver experience in the target app because the approach compensates for a missing builder-style API.

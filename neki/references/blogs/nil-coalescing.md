@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **220**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed entries: **221**
 
+- [Diagnosing ForEach performance issues in SwiftUI lazy containers](https://nilcoalescing.com/blog/DiagnosingForEachPerformanceIssuesInSwiftUILazyContainers)
+  **Published:** `2026-09-16`
+  **Topics:** Performance · SwiftUI
+  **NeKI brief:** Shows how to enable SwiftUI's ForEach slow-path diagnostic, interpret variable-view-count warnings in List and lazy containers, and restructure conditional or multi-view row content so lazy reuse stays predictable.
 - [Building a sunburst diagram in Swift Charts](https://nilcoalescing.com/blog/BuildingASunburstDiagramInSwiftCharts)
   **Published:** `2026-09-04`
   **Topics:** Swift

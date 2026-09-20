@@ -3,8 +3,68 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevtools.substack.com/archive](https://iosdevtools.substack.com/archive)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **167**
+- Last collected: `2026-09-20T08:49:34Z`
+- Indexed entries: **169**
+
+## [iOS Dev Tools: fullcoverage, XCRunway, Spek](https://iosdevtools.substack.com/p/ios-dev-tools-fullcoverage-xcrunway)
+
+- Published: `2026-09-18T06:41:54.696Z`
+
+**Topics:** AI Development · App Distribution & Store Operations · Hardware & Devices · Swift · Testing · Xcode
+
+**Sections:** fullcoverage · XCRunway · Spek
+
+**NeKI brief:** Profiles fullcoverage for xcresult-based HTML coverage reports, XCRunway for running Xcode schemes from the menu bar, and Spek for translating UI designs into structured implementation context, plus several smaller developer utilities.
+
+**Selected links:**
+- [fullcoverage](https://github.com/Shadester/fullcoverage) — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
+  **NeKI brief:** Implements a Swift command-line tool that reads Xcode xcresult bundles and produces multi-file HTML coverage reports with line, branch, function, per-file, and aggregate views.
+- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) — Source repository · Topics: AI Development · Developer Tools · Objective-C & Cocoa
+  **NeKI brief:** Turns source code or documentation into an interactive knowledge graph that coding agents can explore and query. Useful for evaluating repository-understanding workflows across Codex, Claude Code, Cursor, Copilot, and Gemini CLI.
+- [XCRunway](https://xcrunway.app/) — Article · Topics: Testing · Xcode
+  **NeKI brief:** Provides a native Xcode Cloud client for iPhone, iPad, and Mac that can start workflows, monitor progress, inspect tests and logs, and download artifacts while keeping API credentials in Keychain.
+- [Spek](https://spek.app/) — Article · Topics: App Distribution & Store Operations · Objective-C & Cocoa
+  **NeKI brief:** Uses App Store Connect credentials to research keywords and competitors, draft localized metadata, and track ranking or visibility across markets. Useful for evaluating agent-assisted ASO workflows and their account-access boundary.
+- [OpenClip](https://www.getopenclip.app/) — Article · Topics: AI Development · Hardware & Devices
+  **NeKI brief:** Provides an open-source macOS floating action bar for selected text, combining built-in transformations, calculations, translation, scripts, keyboard shortcuts, and more than one hundred extensions without switching apps.
+- [pen.dev](https://www.pen.dev/) — Article · Topics: AI Development · App Distribution & Store Operations
+  **NeKI brief:** Combines an editable design canvas with multiple hosted or subscription-backed AI models, MCP, WebMCP, and CLI connections so agents can generate interface ideas that remain manually refinable and exportable to code.
+- [Tidy](https://greene-squares.github.io/tidy-releases) — Article · Topics: Developer Tools
+  **NeKI brief:** Introduces a macOS utility that rewrites selected text in any app using on-device Apple Intelligence, with separate grammar and de-slopping shortcuts. Useful when evaluating privacy-preserving system-wide writing workflows.
+- [Notchling](https://notchling.zopcloud.zop.dev/) — Article
+  **NeKI brief:** Presents a small macOS notch companion that doubles as a drag-and-drop file shelf and weather glance, illustrating a lightweight use of permanently visible display cutout space.
+- [PostBox](https://postbox.sh/) — Article
+  **NeKI brief:** Turns the MacBook notch into a drag-and-drop publishing surface that adapts one caption and export for multiple social platforms. Useful for evaluating local creator-workflow automation and cross-network posting claims.
+
+## [iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith](https://iosdevtools.substack.com/p/ios-dev-tools-fwc-swiftui-skills)
+
+- Published: `2026-09-10T16:30:53.656Z`
+
+**Topics:** AI Development · Hardware & Devices · macOS & AppKit · Swift · SwiftUI · Testing
+
+**Sections:** FWC SwiftUI Skills · Unvibe · ShotSmith
+
+**NeKI brief:** Profiles an iPhone Duo SwiftUI agent-skill collection, Unvibe's contextual code-learning overlay, and ShotSmith's App Store screenshot workflow, with additional Mac utilities and repositories for developer productivity.
+
+**Selected links:**
+- [FWC SwiftUI Skills](https://github.com/FloWritesCode/fwc-swiftui-skills) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Collects installable agent skills for modern SwiftUI work, including iPhone Duo, current SDK guidance, and framework-specific review instructions. Inspect the individual skill boundaries before adopting them in an agent setup.
+- [Codenotch](https://github.com/vinzdg/codenotch) — Source repository · Topics: AI Development · Developer Tools
+  **NeKI brief:** Implements a native macOS notch utility that displays usage limits and working, completed, or waiting states for Claude Code, Cursor, Codex, and Antigravity without keeping their full interfaces visible.
+- [Unvibe](https://unvibe.site/) — Article · Topics: AI Development
+  **NeKI brief:** Places explanations of selected code beside Cursor, VS Code, or a terminal, then adds saved notes and recall quizzes. It targets developer understanding of AI-generated code rather than further code generation.
+- [Listen Orb](https://www.listenorb.com/) — Article · Topics: AI Development
+  **NeKI brief:** Provides push-to-talk macOS dictation at the current cursor, custom vocabulary, and voice-driven edits of selected text using the user's own OpenAI or xAI key, with explicit review before submission.
+- [ShotSmith](https://shotsmith.netlify.app/) — Article · Topics: App Distribution & Store Operations · Cross-Platform & Web
+  **NeKI brief:** Offers a local browser editor for App Store screenshots with device frames, backgrounds, captions, multi-slide layouts, fixed export presets, PNG or ZIP output, and offline project backups.
+- [CapMeter](https://apps.apple.com/us/app/capmeter-quota-for-claude/id6792936410?mt=12) — Article
+  **NeKI brief:** Tracks Claude usage, burn rate, projected limit time, alerts, and history from the macOS menu bar without an API key or separate sign-in, helping users plan work before a session quota interrupts it.
+- [Mossy](https://heymossy.com/) — Article
+  **NeKI brief:** Presents a non-blocking macOS break reminder as a desktop plant that wilts during long work sessions and offers short user-authored stretches, with no account or tracking requirement.
+- [Fide Island](https://fideisland.it.com/) — Article
+  **NeKI brief:** Turns the MacBook notch into a local-first control surface for media, notes, translation, calendar, files, clipboard history, and quick tools, illustrating one approach to reclaiming persistent display-cutout space.
+- [Shortap](https://shortap.app/) — Article
+  **NeKI brief:** Adds configurable physical tap gestures to supported MacBooks, mapping left- or right-side single, double, and triple taps to built-in actions or Apple Shortcuts.
 
 ## [iOS Dev Tools: Baguette, SwiftMocking, Toplify](https://iosdevtools.substack.com/p/ios-dev-tools-baguette-swiftmocking)
 

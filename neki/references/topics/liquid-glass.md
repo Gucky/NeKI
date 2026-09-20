@@ -4,11 +4,17 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Liquid Glass design, hierarchy, scrolling, and component adaptation on current Apple platforms.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **91**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **93**
 
 ## Direct-source reading
 
+- [How native SwiftUI controls look different in iOS 26 | Sarunw](https://sarunw.com/posts/swiftui-native-controls-ios-26) — Sarunw · article catalogue
+  **Published:** `2026-09-19`
+  **NeKI brief:** Visually compares native SwiftUI buttons, toggles, pickers, sliders, toolbars, tab bars, and sheets before and after the iOS 26 redesign, separating automatic appearance changes from app-controlled behavior.
+- [SwiftUI Liquid Glass - Regular vs Clear | Sarunw](https://sarunw.com/posts/glass-effect-regular-vs-clear) — Sarunw · article catalogue
+  **Published:** `2026-09-18`
+  **NeKI brief:** Compares regular and clear SwiftUI Liquid Glass variants, including their different foreground-color behavior and the contrast conditions that should guide which material is appropriate.
 - [Liquid Glass - A Field Guide to UIKit Compatibility Pitfalls](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls) — Fatbobman · article catalogue
   **Published:** `2026-07-29T14:00:00.000Z`
   **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.

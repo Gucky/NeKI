@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Cross-platform, Android, Flutter, web, and interoperability work adjacent to Apple-platform development.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **674**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **679**
 
 ## Direct-source reading
 
@@ -111,6 +111,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [fullcoverage](https://github.com/Shadester/fullcoverage) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Implements a Swift command-line tool that reads Xcode xcresult bundles and produces multi-file HTML coverage reports with line, branch, function, per-file, and aggregate views.
+- [Native is now the future of mobile at Shopify](https://shopify.engineering/back-to-native) — Those Who Swift · Issue 284 — Article · Topics: AI Development · Cross-Platform & Web · Swift
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Explains why Shopify is moving its mobile apps from React Native back to Swift and Kotlin: coding agents changed native-development economics while platform-specific UI and capabilities increased the value of direct SDK access.
+- [six engineers, twelve weeks](https://shopify.engineering/shop-app-migration) — iOS Dev Weekly · Issue 767 — Article · Topics: Cross-Platform & Web · Swift
+  **Published:** `11th September 2026`
+  **NeKI brief:** Details how six engineers migrated Shopify's Shop app from React Native to Swift and Kotlin in twelve weeks, including AI-assisted translation, compatibility layers, staged rollout, and measurements used to manage risk.
+- [macOS Tahoe silently sabotaged the login keychain](https://lapcatsoftware.com/articles/2026/9/4.html) — iOS Dev Weekly · Issue 767 — Article · Topics: Cross-Platform & Web · Persistence & Synchronisation · Security & Privacy
+  **Published:** `11th September 2026`
+  **NeKI brief:** Investigates macOS Tahoe and Golden Gate login-keychain encryption tied to the Secure Enclave, showing why copied keychain files cannot be unlocked on another Mac and what that means for backup assumptions.
+- [ShotSmith](https://shotsmith.netlify.app/) — iOS Dev Tools · iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith — Article · Topics: App Distribution & Store Operations · Cross-Platform & Web
+  **Published:** `2026-09-10T16:30:53.656Z`
+  **NeKI brief:** Offers a local browser editor for App Store screenshots with device frames, backgrounds, captions, multi-slide layouts, fixed export presets, PNG or ZIP output, and offline project backups.
 - [Working With Images Using Foundation Models](https://azamsharp.com/2026/09/06/working-with-images-using-foundation-models.html) — SwiftLee Weekly · Issue 340 — Article · Topics: AI Development · Cross-Platform & Web · Foundation & Data Formats
   **Published:** `2026-09-08T14:05:49.000Z`
   **NeKI brief:** Demonstrates passing image input into Apple's Foundation Models workflows and combining visual context with generated output. Confirm supported formats, resource costs, and model availability for the target OS.

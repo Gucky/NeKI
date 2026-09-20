@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** visionOS, Apple Vision Pro, AR, VR, and spatial interaction.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **102**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **103**
 
 ## Direct-source reading
 
@@ -70,6 +70,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Object Tracking Updates in visionOS 27 and iOS 27](https://vision.engineer/posts/object-tracking-updates-in-visionOS-27-and-iOS-27) — Those Who Swift · Issue 284 — Article · Topics: Accessibility · Combine & Reactive Programming · Spatial Computing
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Tests iOS 27 and visionOS 27 object-tracking improvements through an open-source accessibility demo that combines iPhone capture with Vision Pro, documenting higher-frame-rate tracking and reduced earlier limitations.
 - [Apple Vision Pro and Software Layoffs](https://mjtsai.com/blog/2026/08/24/apple-vision-pro-and-software-layoffs) — iOS Dev Weekly · Issue 765 — Article · Topics: Spatial Computing
   **Published:** `28th August 2026`
   **NeKI brief:** Collects commentary on Vision Pro-related software layoffs. Use it as ecosystem context, not as a technical assessment of visionOS or an employment forecast.

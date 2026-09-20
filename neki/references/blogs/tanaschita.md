@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://tanaschita.com/](https://tanaschita.com/)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **191**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed entries: **192**
 
 - [Understanding Xcode targets, schemes and build configurations](https://tanaschita.com/xcode-targets-schemes)
   **Topics:** Xcode
@@ -102,6 +102,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [How to create a custom reusable toolbar in SwiftUI](https://tanaschita.com/swiftui-reusable-toolbar)
   **Topics:** Swift · SwiftUI
   **NeKI brief:** Builds a reusable SwiftUI toolbar component while keeping actions and state explicit. Useful for design systems that need consistent toolbar composition across screens and platforms.
+- [Building responsive and reliable search in SwiftUI](https://tanaschita.com/swiftui-responsive-race-free-debounce-search)
+  **Topics:** Concurrency · Networking · SwiftUI
+  **NeKI brief:** Builds debounced SwiftUI search with task cancellation and query identity checks, preventing slow obsolete requests from overwriting newer results without introducing Combine.
 - [How to present a local HTML file in SwiftUI](https://tanaschita.com/swiftui-present-local-html-files)
   **Topics:** Swift · SwiftUI
   **NeKI brief:** Compares iOS 26's native WebView/WebPage path for bundled HTML—including local assets and preprocessing—with the older WKWebView UIViewRepresentable wrapper for iOS 14+. Choose the path by deployment target and by whether the page needs load control or HTML mutation.

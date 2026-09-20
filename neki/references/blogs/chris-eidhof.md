@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://chris.eidhof.nl/archive/](https://chris.eidhof.nl/archive/)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **245**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed entries: **246**
 
 - [Working for the man — Chris Eidhof](https://chris.eidhof.nl/post/working-for-the-man)
   **Topics:** Developer Career & Practice
@@ -471,6 +471,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Presentation: Attribute Graph — Chris Eidhof](https://chris.eidhof.nl/post/attribute-graph-presentation)
   **Topics:** Developer Community & Business · Swift · SwiftUI
   **NeKI brief:** Collects a talk, edited transcript, and references explaining the author's mental model of SwiftUI's AttributeGraph. Use it to develop hypotheses about SwiftUI behavior, while treating the internal-mechanics account as non-authoritative.
+- [Animations in the SwiftUI Field Guide — Chris Eidhof](https://chris.eidhof.nl/post/animations-in-the-field-guide)
+  **Topics:** SwiftUI
+  **NeKI brief:** Explains how the interactive SwiftUI Field Guide gained animation support by adding transitions, transactions, and frame-by-frame interpolation to its TypeScript reimplementation. Useful for understanding SwiftUI animation semantics through a deliberately small model.
 - [Analyzing a MySQL database with R — Chris Eidhof](https://chris.eidhof.nl/post/analyzing-a-mysql-database-with-r)
   **Topics:** Persistence & Synchronisation · Testing
   **NeKI brief:** Demonstrates connecting R to a MySQL database and analyzing soccer-transfer data on macOS. It is a historical data-analysis tutorial outside NeKI's main Apple-development focus, with setup details likely outdated.

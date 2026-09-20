@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** String Catalogs, pluralization, translation resources, and localizable app content.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **29**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **30**
 
 ## Direct-source reading
 
@@ -19,6 +19,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [In-House Over-the-Air Localizations in a Modular iOS App](https://albertodebortoli.com/2026/09/08/inover-the-air-localizations-in-a-modular-ios-app) — Those Who Swift · Issue 284 — Article · Topics: App Distribution & Store Operations · Architecture · Localization
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Describes an over-the-air localization system that downloads resource-bundle-shaped content so Foundation still handles locale fallback, regional variants, and plurals. It covers modular ownership, validation, rollout, and failure recovery.
 - [Translation Sub-Agents Go Brrrrrrrr](https://cuteios.dev/2026/08/17/localizations-translations) — Those Who Swift · Issue 281 — Article · Topics: Localization · Xcode
   **Published:** `2026-08-26T20:38:31.643Z`
   **NeKI brief:** Describes an app-localization workflow that uses translation sub-agents to take over repetitive translation work. The article is useful for evaluating where automation can support localization while keeping terminology and final language quality under developer control.

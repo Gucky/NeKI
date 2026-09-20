@@ -3,8 +3,28 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://newsletter.avanderlee.com/posts](https://newsletter.avanderlee.com/posts)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **100**
+- Last collected: `2026-09-20T08:49:34Z`
+- Indexed entries: **101**
+
+## [Issue 341](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-341)
+
+- Published: `2026-09-15T14:09:49.000Z`
+
+**Topics:** CI/CD & Automation · Developer Community & Business · Graphics, Media & Games · Swift · SwiftUI · Xcode
+
+**Sections:** SwiftLee Weekly by Antoine van der Lee · SwiftUI Agent Skill: Install and use with AI coding tools · Fastlane alternative - Codemagic CLI tools
+
+**NeKI brief:** Rounds up SwiftUI agent skills, Codemagic's Fastlane alternative, iPhone Duo developer resources, a native migration case study, Duo adaptation guidance, and browser-visible iOS Simulator previews for coding agents.
+
+**Selected links:**
+- [iOS Simulator Browser Preview for Codex, Claude, and Cursor](https://www.rocketsim.app/blog/ios-simulator-browser-preview) — Article · Topics: Accessibility · Xcode
+  **NeKI brief:** Shows RocketSim's browser-based live view of an iOS Simulator used by a coding agent, including user takeover, accessibility-element inspection, and converting visual feedback into implementation context.
+- [ImplementedSE-0543InlineArray: Hashable](https://github.com/apple/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** Proposes conditional Equatable and Hashable conformances for InlineArray when its elements qualify, using elementwise equality and hashing every element with linear complexity.
+- [We built an app inside Instagram, then sold it](https://sage.me/mindie) — Article
+  **NeKI brief:** Recounts building, reviewing, operating, and eventually selling Mindie, an Instagram-linked paid-photo product. The story exposes App Store review friction, creator economics, rapid iteration, and the emotional trade-offs of an acquisition.
+- [Adapting your app for iPhone Duo](https://sarunw.com/posts/adapting-your-app-for-iphone-duo) — Article · Topics: Graphics, Media & Games
+  **NeKI brief:** Introduces the six iPhone Duo poses and shows how size classes, layout margins, and safe-area insets provide the first layer of adaptive behavior before adopting Duo-specific APIs.
 
 ## [Issue 340](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-340)
 

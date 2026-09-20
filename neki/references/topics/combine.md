@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Combine publishers, subscribers, operators, and reactive-programming techniques.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **150**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **151**
 
 ## Direct-source reading
 
@@ -61,6 +61,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Object Tracking Updates in visionOS 27 and iOS 27](https://vision.engineer/posts/object-tracking-updates-in-visionOS-27-and-iOS-27) — Those Who Swift · Issue 284 — Article · Topics: Accessibility · Combine & Reactive Programming · Spatial Computing
+  **Published:** `2026-09-17T06:08:23.173Z`
+  **NeKI brief:** Tests iOS 27 and visionOS 27 object-tracking improvements through an open-source accessibility demo that combines iPhone capture with Vision Pro, documenting higher-frame-rate tracking and reduced earlier limitations.
 - [MacTools](https://mactools.ggbond.app/) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Article · Topics: Combine & Reactive Programming · Developer Career & Practice
   **Published:** `2026-08-06T16:00:49.980Z`
   **NeKI brief:** Combines display, battery, fan, cleanup, activity and Xcode-derived-data controls in an open-source native macOS menu-bar toolkit with bilingual documentation.

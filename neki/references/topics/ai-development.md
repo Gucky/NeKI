@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple Intelligence, Foundation Models, ML, generative-AI workflows, and developer tooling.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **421**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **427**
 
 ## Direct-source reading
 
+- [How to export Xcode agent skills with xcrun | Sarunw](https://sarunw.com/posts/export-xcode-agent-skills) — Sarunw · article catalogue
+  **Published:** `2026-09-12`
+  **NeKI brief:** Documents the xcrun command for exporting Xcode 27's bundled agent skills to another directory, including a fallback when the active developer directory does not expose the agent subcommand.
 - [The iOS Simulator Inside Cursor, Claude Code, and Codex - SwiftLee](https://www.avanderlee.com/ai-development/the-ios-simulator-inside-cursor-claude-code-and-codex) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-09-07T13:07:15+00:00`
   **NeKI brief:** Shows how keeping a live iOS Simulator beside an agentic editor shortens the prompt, run, and review loop for interface work. It also frames visual inspection and performance evidence as continuing developer responsibilities.
@@ -270,6 +273,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [pen.dev](https://www.pen.dev/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: AI Development · App Distribution & Store Operations
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Combines an editable design canvas with multiple hosted or subscription-backed AI models, MCP, WebMCP, and CLI connections so agents can generate interface ideas that remain manually refinable and exportable to code.
+- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Source repository · Topics: AI Development · Developer Tools · Objective-C & Cocoa
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Turns source code or documentation into an interactive knowledge graph that coding agents can explore and query. Useful for evaluating repository-understanding workflows across Codex, Claude Code, Cursor, Copilot, and Gemini CLI.
+- [Headless Xcode: From Prompt to Simulator with MCP](https://artemnovichkov.com/blog/headless-xcode-from-prompt-to-simulator-with-mcp?ref=createwithswift.com) — Create with Swift · Issue 119 — Article · Topics: AI Development · Swift · Xcode
+  **Published:** `2026-09-11T16:00:59.000Z`
+  **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.
+- [Building AI features using Foundation Models. Multimodal input.](https://swiftwithmajid.com/2026/09/01/building-ai-features-using-foundation-models-multimodal-input?ref=createwithswift.com) — Create with Swift · Issue 119 — Article · Topics: AI Development · Foundation & Data Formats · Swift
+  **Published:** `2026-09-11T16:00:59.000Z`
+  **NeKI brief:** Demonstrates image input with the Foundation Models framework and connects it to structured generation and tool-driven workflows. Check model availability, prompt limits, and privacy behavior for the target OS before adoption.
+- [Codenotch](https://github.com/vinzdg/codenotch) — iOS Dev Tools · iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-09-10T16:30:53.656Z`
+  **NeKI brief:** Implements a native macOS notch utility that displays usage limits and working, completed, or waiting states for Claude Code, Cursor, Codex, and Antigravity without keeping their full interfaces visible.
 - [Working With Images Using Foundation Models](https://azamsharp.com/2026/09/06/working-with-images-using-foundation-models.html) — SwiftLee Weekly · Issue 340 — Article · Topics: AI Development · Cross-Platform & Web · Foundation & Data Formats
   **Published:** `2026-09-08T14:05:49.000Z`
   **NeKI brief:** Demonstrates passing image input into Apple's Foundation Models workflows and combining visual context with generated output. Confirm supported formats, resource costs, and model availability for the target OS.

@@ -4,11 +4,17 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App product, visual design, UX, branding, and design-to-code process.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **283**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **286**
 
 ## Direct-source reading
 
+- [Adapting content for iPhone Duo | Sarunw](https://sarunw.com/posts/adapting-content-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-14`
+  **NeKI brief:** Demonstrates content strategies for iPhone Duo's asymmetric displays: using different inner and outer presentations, separating media from controls across the fold, and keeping important content clear of reserved regions.
+- [iPhone Duo design principles | Sarunw](https://sarunw.com/posts/design-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-11`
+  **NeKI brief:** Summarises Apple's iPhone Duo design guidance across closed, open, folded, tabletop, and tent poses, emphasizing side-mounted controls, fold avoidance, asymmetric content, and effective use of the inner display.
 - [AppScreens: Fast, Localized App Store Screenshots - iOS Dev Tools](https://iosdev.tools/blog/appscreens) — iOS Dev Tools Blog · article catalogue
   **Published:** `2026-02-15T20:00:00+00:00`
   **NeKI brief:** Profiles AppScreens as fast, Localized App Store Screenshots. Use it when evaluating whether this tool or package fits an Apple-platform development, testing, or delivery workflow.
@@ -191,6 +197,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Swift 6.4 Released](https://www.swift.org/blog/swift-6.4-released) — iOS Dev Weekly · Issue 768 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `18th September 2026`
+  **NeKI brief:** Summarises Swift 6.4 across language, concurrency, testing, SwiftPM and Swift Build, debugging, interoperability, WebAssembly, Android, Embedded Swift, and noncopyable data structures. Use its proposal links to investigate individual changes.
 - [Phil Schiller reportedly steps down as Apple's App Store and product event chief](https://www.engadget.com/2247924/phil-schiller-reportedly-steps-down-as-apple-app-store-and-product-event-chief) — iOS Dev Weekly · Issue 766 — Article · Topics: AI Development · App Distribution & Store Operations · Product Design
   **Published:** `4th September 2026`
   **NeKI brief:** Reports an App Store leadership change while Phil Schiller remains an Apple Fellow. Use it as organizational context only; it does not establish a change to review policy or developer contracts.

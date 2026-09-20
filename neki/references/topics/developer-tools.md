@@ -4,11 +4,20 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Git, command-line work, debugging, automation, and practical developer workflows.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **2472**
+- Last collected: `2026-09-20T08:49:34Z`
+- Indexed links shown: **2492**
 
 ## Direct-source reading
 
+- [From pbxproj to xcproj - Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj) — Fatbobman · article catalogue
+  **Published:** `2026-09-17T14:30:00.000Z`
+  **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
+- [The new JSON project format in Xcode 27.2 | Sarunw](https://sarunw.com/posts/xcode-json-project-format-xcproj) — Sarunw · article catalogue
+  **Published:** `2026-09-17`
+  **NeKI brief:** Walks through Xcode 27.2's project.xcproj JSON structure, conversion workflow, compatibility limits, and merge-oriented benefits, helping teams judge when to move away from project.pbxproj.
+- [How to export Xcode agent skills with xcrun | Sarunw](https://sarunw.com/posts/export-xcode-agent-skills) — Sarunw · article catalogue
+  **Published:** `2026-09-12`
+  **NeKI brief:** Documents the xcrun command for exporting Xcode 27's bundled agent skills to another directory, including a fallback when the active developer directory does not expose the agent subcommand.
 - [The Skills Conundrum | Swiftjective-C](https://swiftjectivec.com/The-Skills-Conundrum) — Swiftjective-C · article catalogue
   **Published:** `2026-08-10T00:00:00-05:00`
   **NeKI brief:** Describes a Git-repository workflow for synchronizing personal and third-party agent skills across harnesses and multiple Macs through dedicated push, pull and npx-update skills.
@@ -102,6 +111,60 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj?ref=createwithswift.com) — Create with Swift · Issue 120 — Article · Topics: Swift · Xcode
+  **Published:** `2026-09-18T16:00:51.000Z`
+  **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
+- [fullcoverage](https://github.com/Shadester/fullcoverage) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Implements a Swift command-line tool that reads Xcode xcresult bundles and produces multi-file HTML coverage reports with line, branch, function, per-file, and aggregate views.
+- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Source repository · Topics: AI Development · Developer Tools · Objective-C & Cocoa
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Turns source code or documentation into an interactive knowledge graph that coding agents can explore and query. Useful for evaluating repository-understanding workflows across Codex, Claude Code, Cursor, Copilot, and Gemini CLI.
+- [Tidy](https://greene-squares.github.io/tidy-releases) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: Developer Tools
+  **Published:** `2026-09-18T06:41:54.696Z`
+  **NeKI brief:** Introduces a macOS utility that rewrites selected text in any app using on-device Apple Intelligence, with separate grammar and de-slopping shortcuts. Useful when evaluating privacy-preserving system-wide writing workflows.
+- [xcode-project-format](https://github.com/apple/xcode-project-format) — iOS Dev Weekly · Issue 768 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `18th September 2026`
+  **NeKI brief:** Provides Apple's Swift library for reading, writing, and manipulating Xcode's JSON-based project.xcproj files. Use it to inspect the format's actual schema and supported transformations rather than reverse-engineering generated JSON.
+- [Swift 6.4 Released](https://www.swift.org/blog/swift-6.4-released) — iOS Dev Weekly · Issue 768 — Article · Topics: Developer Tools · Swift · Swift Package Manager
+  **Published:** `18th September 2026`
+  **NeKI brief:** Summarises Swift 6.4 across language, concurrency, testing, SwiftPM and Swift Build, debugging, interoperability, WebAssembly, Android, Embedded Swift, and noncopyable data structures. Use its proposal links to investigate individual changes.
+- [GitHub](https://github.com/jacobsapps/OpenBundle) — iOS Dev Weekly · Issue 768 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `18th September 2026`
+  **NeKI brief:** Provides the open-source Bundle Investigator behind OpenBundle, enabling inspection of IPA contents and bundle-size contributors. Useful when the implementation and local-analysis mechanics matter beyond the hosted interface.
+- [Debugging: Smaller dSYMs and a Task Tree in LLDB (Swift 6.3 / 6.4)](https://www.swift.org/blog/module-tracking-in-debug-info?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Developer Tools · Swift
+  **Published:** `2026-09-15T17:33:22.000Z`
+  **NeKI brief:** Explains Swift 6.3 and 6.4 module tracking in debug information, including more precise LLDB module loading, smaller dSYM bundles, and task-tree inspection for debugging structured concurrency.
+- [ImplementedSE-0543InlineArray: Hashable](https://github.com/apple/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md) — SwiftLee Weekly · Issue 341 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-09-15T14:09:49.000Z`
+  **NeKI brief:** Proposes conditional Equatable and Hashable conformances for InlineArray when its elements qualify, using elementwise equality and hashing every element with linear complexity.
+- [Vein](https://github.com/amethystsoft/vein) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Swift · SwiftData
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Implements a cross-platform declarative database inspired by SwiftData, with lazy field loading designed to reduce initial fetch cost and memory pressure for large models and long lists.
+- [ScopedState](https://github.com/auramagi/swift-scoped-state) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Implements statically declared SwiftUI state scopes that connect local view state to external observable sources while supporting controlled setup for previews, navigation, and testing.
+- [SwiftUI iPhone Duo Skill](https://github.com/FloWritesCode/fwc-swiftui-skills/tree/main/skills/swiftui-iphone-duo) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Packages Apple's iPhone Duo layout and API guidance into a coding-agent skill covering adaptive SwiftUI, system bars, fold regions, and current SDK limitations. Useful as implementation context that still needs primary-source verification.
+- [MusicPlaygournd](https://github.com/1amageek/MusicPlaygournd) — Fatbobman’s Swift Weekly · Issue 153 — Source repository · Topics: Developer Tools · Graphics, Media & Games · Swift
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Provides a native macOS live editor built on SwiftMusic, demonstrating how a host can turn declarative music events and render plans into an interactive composition and playback environment.
+- [SwiftUI concentricCornerRadii in iOS 27](https://www.sagarunagar.com/blog/swiftui-concentriccornerradii-ios-27?ref=createwithswift.com) — Create with Swift · Issue 119 — Article · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-11T16:00:59.000Z`
+  **NeKI brief:** Explains GeometryProxy's concentricCornerRadii APIs for retrieving container-derived per-corner values in local coordinates, including nil handling and when custom Canvas or Path drawing needs those values instead of ConcentricRectangle.
+- [FWC SwiftUI Skills](https://github.com/FloWritesCode/fwc-swiftui-skills) — iOS Dev Tools · iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-09-10T16:30:53.656Z`
+  **NeKI brief:** Collects installable agent skills for modern SwiftUI work, including iPhone Duo, current SDK guidance, and framework-specific review instructions. Inspect the individual skill boundaries before adopting them in an agent setup.
+- [Codenotch](https://github.com/vinzdg/codenotch) — iOS Dev Tools · iOS Dev Tools: FWC SwiftUI Skills, Unvibe, ShotSmith — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-09-10T16:30:53.656Z`
+  **NeKI brief:** Implements a native macOS notch utility that displays usage limits and working, completed, or waiting states for Claude Code, Cursor, Codex, and Antigravity without keeping their full interfaces visible.
+- [🔐 Block merging PRs that contain secrets](https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging) — iOS CI Newsletter · Issue 93 — Article · Topics: Developer Tools
+  **Published:** `2026-09-10T00:00:00.000Z`
+  **NeKI brief:** Explains GitHub's repository-ruleset option for blocking pull-request merges when secret scanning finds an unresolved alert, and distinguishes the merge-time rule from push protection.
+- [🔨 Visualize Xcode’s build timeline using Tuist](https://github.com/tuist/tuist/pull/12963) — iOS CI Newsletter · Issue 93 — Source repository · Topics: Developer Tools · Xcode
+  **Published:** `2026-09-10T00:00:00.000Z`
+  **NeKI brief:** Adds Xcode build-timeline visualization to Tuist's server workflow, exposing build activity in a form intended to reveal scheduling and duration bottlenecks. The pull request shows the implementation and review discussion.
 - [MobAI-App/simslim: Run more iOS simulators on one Mac by disabling background daemons](https://github.com/MobAI-App/simslim) — SwiftLee Weekly · Issue 340 — Source repository · Topics: AI Development · Developer Tools
   **Published:** `2026-09-08T14:05:49.000Z`
   **NeKI brief:** Disables selected background daemons inside Simulator runtimes to reduce memory and run more devices per Mac. Treat its speed claims as workload-specific and review service side effects before CI use.
@@ -189,9 +252,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Returned For RevisionSE-0539Enable Macros to Grant `self` Access for Property Initializers](https://github.com/apple/swift-evolution/blob/main/proposals/0539-self-access-for-property-initializers.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
   **Published:** `2026-08-25T14:06:16.000Z`
   **NeKI brief:** Proposal SE-0539 explores allowing attached macros to grant controlled self access during property initialization. Follow it when macro-generated storage needs enclosing-instance context, while checking review status and initialization-safety constraints before relying on the feature.
-- [AcceptedSE-0543InlineArray: Hashable](https://github.com/apple/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Swift
-  **Published:** `2026-08-25T14:06:16.000Z`
-  **NeKI brief:** Proposes conditional Equatable and Hashable conformances for InlineArray when its elements qualify, using elementwise equality and hashing every element with linear complexity.
 - [Active ReviewSE-0546Same-file memberwise initializer extensions](https://github.com/apple/swift-evolution/blob/main/proposals/0546-memberwise-init-extensions.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-08-25T14:06:16.000Z`
   **NeKI brief:** Specifies SE-0546, which permits a same-file extension to declare a memberwise initializer with broader access. It defines the matching rules and explains how an explicit initializer interacts with synthesis, helping library authors expose stable construction APIs without changing ABI behavior.

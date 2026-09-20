@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** WWDC and platform announcements, Apple ecosystem context, compatibility history, and release-overview reading.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **655**
+- Last collected: `2026-09-20T08:45:09Z`
+- Indexed links shown: **657**
 
 ## Direct-source reading
 
@@ -739,6 +739,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Tools](https://wwdc.jacobstechtavern.com/openbundle) — iOS Dev Weekly · Issue 768 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
+  **Published:** `18th September 2026`
+  **NeKI brief:** Runs OpenBundle analysis locally in the browser to inspect an IPA or ZIP, attribute bundle size, compare reports, and export results without uploading application binaries.
+- [SwiftMusic: Declaring Music in Swift](https://l.fatbobman.com/w0153-12) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
+  **Published:** `2026-09-14T12:04:34.663Z`
+  **NeKI brief:** Introduces SwiftMusic's declarative model for patterns, sounds, result builders, modifiers, beat-domain events, and render plans. It clarifies that audio output and editing remain responsibilities of the host application.
 - [OpenSwiftUI on ESP32-C3](https://l.fatbobman.com/w0152-03) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **Published:** `2026-09-07T12:03:43.098Z`
   **NeKI brief:** Demonstrates an Embedded Swift experiment that runs OpenSwiftUI-style measured stacks and button-driven state updates on an ESP32-C3. Treat it as a constrained-platform prototype rather than general SwiftUI compatibility.
