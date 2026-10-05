@@ -4,11 +4,47 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** SwiftUI views, layout, rendering, animation, interaction, and platform adaptation.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **3268**
+- Last collected: `2026-10-05T06:41:52Z`
+- Indexed links shown: **3303**
 
 ## Direct-source reading
 
+- [Toolbar overflow and visibility priority on iPhone Duo | Sarunw](https://sarunw.com/posts/toolbar-overflow-and-visibility-priority-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-10-05`
+  **NeKI brief:** Compares default toolbar overflow with task-focused compression on iPhone Duo, then covers a shared overflow menu, visibility priorities, and when to disable vertical bars. Useful for ordering controls under constrained space.
+- [Adapt custom toolbar views for iPhone Duo | Sarunw](https://sarunw.com/posts/adapt-custom-toolbar-views-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-10-04`
+  **NeKI brief:** Explains how custom SwiftUI and UIKit toolbar views opt into a vertical bar, adapt to fixed width, and read the vertical edge. Includes legibility checks for Reduce Transparency backgrounds.
+- [Presenting SwiftUI sheets on iPhone Duo](https://nilcoalescing.com/blog/PresentingSwiftUISheetsOnIPhoneDuo) — Nil Coalescing · article catalogue
+  **Published:** `2026-10-04`
+  **NeKI brief:** Shows how SwiftUI sheets and their toolbars adapt across iPhone Duo displays and fold positions. Explores presentationPlacement, toolbar arrangement, and a beta issue where a large detent restored expected trailing-sheet behavior.
+- [How to change line height in SwiftUI | Sarunw](https://sarunw.com/posts/swiftui-line-height) — Sarunw · article catalogue
+  **Published:** `2026-10-03`
+  **NeKI brief:** Compares SwiftUI lineHeight options using baseline spacing, font metrics, and larger text. Shows why fixed point heights can clip or fail to scale with Dynamic Type and how multiple-based spacing behaves.
+- [Letting AI See SwiftUI - Xcode Preview MCP in Practice — Pitfalls and Hopes](https://fatbobman.com/en/posts/letting-ai-see-swiftui) — Fatbobman · article catalogue
+  **Published:** `2026-09-30T14:00:00.000Z`
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-28`
+  **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
+- [Configuring SwiftUI toolbars on iPhone Duo](https://nilcoalescing.com/blog/ConfiguringSwiftUIToolbarsOnIPhoneDuo) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-24`
+  **NeKI brief:** Explains how standard SwiftUI containers adapt navigation, tabs, and toolbar actions into iPhone Duo's vertical bar, then covers item axis behavior and visibility priority. Useful for checking controls that overflow or need a custom representation.
+- [ArrangementView - Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange) — Fatbobman · article catalogue
+  **Published:** `2026-09-23T14:00:00.000Z`
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
+- [Prepare toolbar items for a vertical bar | Sarunw](https://sarunw.com/posts/prepare-toolbar-items-for-a-vertical-bar) — Sarunw · article catalogue
+  **Published:** `2026-09-23`
+  **NeKI brief:** Explains how toolbar item metadata determines symbol or text presentation in a vertical bar, and how axis behavior can override the default. Useful when a custom control looks right horizontally but fails in the side bar.
+- [iPhone Duo Simulator: Testing and optimizing your SwiftUI app - SwiftLee](https://www.avanderlee.com/swiftui/iphone-duo-simulator) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-09-22T10:14:40+00:00`
+  **NeKI brief:** Walks through testing a SwiftUI app in the iPhone Duo simulator, including window resizing, adaptive layout, vertical controls, and hinge behavior. Use it to build a device-specific inspection checklist, then verify individual APIs against the installed SDK.
+- [Backporting SwiftUI APIs | Swift with Majid](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis) — Swift with Majid · article catalogue
+  **Published:** `2026-09-22T00:00:00+00:00`
+  **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.
+- [Opt in to vertical bars on iPhone Duo | Sarunw](https://sarunw.com/posts/opt-in-to-vertical-bars-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-22`
+  **NeKI brief:** Identifies which SwiftUI containers receive an iPhone Duo vertical bar and how their controls are ordered. Useful for auditing an existing navigation structure before customizing individual toolbar items.
 - [How native SwiftUI controls look different in iOS 26 | Sarunw](https://sarunw.com/posts/swiftui-native-controls-ios-26) — Sarunw · article catalogue
   **Published:** `2026-09-19`
   **NeKI brief:** Visually compares native SwiftUI buttons, toggles, pickers, sliders, toolbars, tab bars, and sheets before and after the iOS 26 redesign, separating automatic appearance changes from app-controlled behavior.
@@ -5616,6 +5652,75 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Letting AI See SwiftUI: Xcode Preview MCP in Practice](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
+  **Published:** `2026-10-03T10:58:55.000Z`
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: Graphics, Media & Games · SwiftUI
+  **Published:** `2026-10-03T10:58:55.000Z`
+  **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
+- [Backporting SwiftUI APIs](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: Hardware & Devices · SwiftUI
+  **Published:** `2026-10-03T10:58:55.000Z`
+  **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.
+- [Little stories on my journey to making Xarra as accessible as possible](https://accessibilityupto11.com/post/2026-09-24-01) — iOS Dev Weekly · Issue 770 — Article · Topics: Accessibility · SwiftUI
+  **Published:** `2nd October 2026`
+  **NeKI brief:** Uses Xarra to explain reading versus speech access, multilingual utterances, configurable word highlighting, and SwiftUI accessibility limitations. Useful as a case study in testing several interaction modes with real content.
+- [iPhone Duo for iOS Developers: What Actually Changes in Your Swift Code](https://go.peterfriese.dev/swift-iphone-duo-what-changes-in-swift-code?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: Hardware & Devices · SwiftUI · UIKit
+  **Published:** `2026-10-02`
+  **NeKI brief:** Surveys iPhone Duo changes to scenes, window sizing, asymmetric safe areas, and hinge-aware layouts with Swift examples. Use it as a checklist, then verify API behavior against the current SDK and device.
+- [Swift Pieces: Free SwiftUI Component Library for iOS](https://go.peterfriese.dev/swiftui-swiftpieces?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: Product Design · SwiftUI
+  **Published:** `2026-10-02`
+  **NeKI brief:** Offers individual SwiftUI components, installation tooling, and examples of motion, haptics, and Dynamic Type. Useful for inspecting a copy-in component library and its accessibility claims before adopting pieces.
+- [Building Fold-Aware Layouts with ArrangementView in SwiftUI](https://bleepingswift.com/blog/arrangementview-swiftui-iphone-duo) — Those Who Swift · Issue 286 — Article · Topics: Swift · SwiftUI · UIKit
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Demonstrates ArrangementView split and overlay styles, sizing, and fold-aware rearrangement, alongside the UIKit counterpart. Useful for deciding whether a two-part screen fits the container's primary-secondary model.
+- [What minimumScaleFactor trades away in SwiftUI](https://salari.dev/writing/what-minimum-scale-factor-trades-away-in-swiftui) — Those Who Swift · Issue 286 — Article · Topics: Concurrency · Swift · SwiftUI
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Measures how independently shrinking SwiftUI text with minimumScaleFactor can disturb neighboring typography and Dynamic Type hierarchy. Useful when a compact label seems to fit but no longer reads consistently across sizes.
+- [Swipe Actions Beyond Lists in SwiftUI](https://serialcoder.dev/swiftui/swipe-actions-beyond-lists-in-swiftui) — Those Who Swift · Issue 286 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Applies SwiftUI's swipeActionsContainer to items in a grid, extending the familiar swipe-action interaction beyond List. Useful for checking gesture discoverability and layout behavior in a different container.
+- [SwiftUI Charts: Dynamic Masking](https://antongubarenko.substack.com/p/swiftui-charts-dynamic-masking) — Those Who Swift · Issue 286 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Uses a moving mask over Swift Charts to keep values before a selected point prominent while dimming the remainder. The technique preserves the full dataset and avoids rebuilding chart marks for each interaction.
+- [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Article · Topics: Graphics, Media & Games · SwiftUI
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
+- [Ronnie W.](https://l.fatbobman.com/w0155-08) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Investigates macOS 27 toolbar regrouping when ToolbarSpacer no longer separates controls as expected. Useful for diagnosing navigation-island placement and checking whether a customizable toolbar needs explicit item identities.
+- [SwiftFairy: A SwiftUI Review Tool That Keeps Agents from Forgetting What They’ve Read](https://l.fatbobman.com/w0155-13) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: AI Development · Swift · SwiftUI
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Introduces SwiftFairy's local MCP review of agent-written Swift and SwiftUI, with line-specific findings and repair guidance. Useful as a concrete static-review workflow while keeping build and runtime validation separate.
+- [iPhone Duo Simulator: Testing and optimizing your SwiftUI app](https://www.avanderlee.com/swiftui/iphone-duo-simulator?ref=createwithswift.com) — Create with Swift · Issue 121 — Article · Topics: Swift · SwiftUI · Testing
+  **Published:** `2026-09-25T16:09:07.000Z`
+  **NeKI brief:** Walks through testing a SwiftUI app in the iPhone Duo simulator, including window resizing, adaptive layout, vertical controls, and hinge behavior. Use it to build a device-specific inspection checklist, then verify individual APIs against the installed SDK.
+- [ArrangementView: Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange?ref=createwithswift.com) — Create with Swift · Issue 121 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-25T16:09:07.000Z`
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
+- [Configuring SwiftUI toolbars on iPhone Duo](https://nilcoalescing.com/blog/ConfiguringSwiftUIToolbarsOnIPhoneDuo?ref=createwithswift.com) — Create with Swift · Issue 121 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-25T16:09:07.000Z`
+  **NeKI brief:** Explains how standard SwiftUI containers adapt navigation, tabs, and toolbar actions into iPhone Duo's vertical bar, then covers item axis behavior and visibility priority. Useful for checking controls that overflow or need a custom representation.
+- [Configuring SwiftUI toolbars on iPhone Duo](https://nilcoalescing.com/blog/ConfiguringSwiftUIToolbarsOnIPhoneDuo?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Explains how standard SwiftUI containers adapt navigation, tabs, and toolbar actions into iPhone Duo's vertical bar, then covers item axis behavior and visibility priority. Useful for checking controls that overflow or need a custom representation.
+- [Sheets and fold avoidance on iPhone Duo](https://sarunw.com/posts/sheets-and-fold-avoidance-on-iphone-duo?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Explains how sheets and system components adapt around iPhone Duo's division and occlusion regions in different poses, showing where automatic fold avoidance helps and where layouts still need review.
+- [ArrangementView: Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
+- [SwiftUI: Backport the Duo APIs Without Raising Your Deployment Target (Swift 6.4, iOS 26+)](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article · Topics: Hardware & Devices · SwiftUI
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.
+- [Diagnosing ForEach performance issues in SwiftUI lazy containers](https://nilcoalescing.com/blog/DiagnosingForEachPerformanceIssuesInSwiftUILazyContainers?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article · Topics: Performance · Swift · SwiftUI
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Shows how to enable SwiftUI's ForEach slow-path diagnostic, interpret variable-view-count warnings in List and lazy containers, and restructure conditional or multi-view row content so lazy reuse stays predictable.
+- [SwiftFairy](https://tools.nilcoalescing.com/swiftfairy) — iOS Dev Tools · iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown — Article · Topics: Code Quality · Performance · Swift
+  **Published:** `2026-09-24T16:20:24.417Z`
+  **NeKI brief:** SwiftFairy runs local MCP checks on Swift and SwiftUI code and returns targeted findings for coding agents. Useful for inspecting the actual tool offering behind the team's introduction article and its static-review scope.
+- [How SwiftUI animation works](https://l.fatbobman.com/w0154-03) — Fatbobman’s Swift Weekly · Issue 154 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-21T12:01:38.360Z`
+  **NeKI brief:** Traces SwiftUI animation from state changes through transactions and sampled values to Core Animation presentation, using OpenSwiftUI as an explanatory implementation. Useful when debugging interruption and frame updates beyond the surface animation modifier.
 - [Reusable SwiftUI Previews with PreviewModifier](https://livsycode.com/swiftui/reusable-swiftui-previews-with-previewmodifier?ref=createwithswift.com) — Create with Swift · Issue 120 — Article · Topics: Swift · SwiftUI
   **Published:** `2026-09-18T16:00:51.000Z`
   **NeKI brief:** Shows how PreviewModifier centralizes mock services, sample data, and in-memory ModelContainer setup so multiple SwiftUI previews can reuse one prepared environment without duplicating configuration code.

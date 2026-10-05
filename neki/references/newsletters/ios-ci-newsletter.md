@@ -3,8 +3,32 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.ioscinewsletter.com/](https://www.ioscinewsletter.com/)
-- Last collected: `2026-09-20T08:55:28Z`
-- Indexed entries: **90**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **91**
+
+## [Issue 94](https://ioscinewsletter.com/issues/94)
+
+- Published: `2026-09-30T00:00:00.000Z`
+
+**Topics:** Accessibility · CI/CD & Automation · Developer Tools · Swift · Testing · Xcode
+
+**Sections:** Stay up to date with the latest iOS CI/CD news
+
+**NeKI brief:** Examines small manual CI tasks that can be automated, then links runner-version enforcement, generated SDK pull requests, build-performance measurement, and accessibility audits. Useful for reviewing operational friction in an iOS delivery pipeline.
+
+**Selected links:**
+- [opens a pull request for us](https://github.com/AvdLee/appstoreconnect-swift-sdk/pull/349) — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **NeKI brief:** Shows an automated App Store Connect SDK specification update as a concrete pull request. Useful for seeing the generated diff and review boundary in a workflow that checks upstream API specs and proposes changes.
+- [🧚 SwiftFairy reviews Swift code for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy) — Article · Topics: AI Development · Code Quality · Swift
+  **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
+- [⏱️ Measure the build you ship](https://en.kou-works.jp/blog/debug-build-performance-trap) — Article · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **NeKI brief:** Compares a camera app's slow Vision processing under Xcode's Debug configuration with smooth TestFlight behavior. Useful for distinguishing debugger overhead from release performance before optimizing a frame pipeline.
+- [🔎 Catch accessibility issues with XCTest](https://tanaschita.com/ios-accessibility-automated-audits) — Article · Topics: Accessibility · Testing
+  **NeKI brief:** Adds XCTest accessibility audits to a SwiftUI UI test to catch missing descriptions, contrast problems, and clipped text. Useful for establishing automated coverage while still checking interactions that require manual assistive-technology testing.
+- [📁 Xcode projects get a new JSON format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj) — Article · Topics: Xcode
+  **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
+- [🚨 GitHub is enforcing minimum versions for self-hosted runners](https://github.blog/changelog/2026-09-28-self-hosted-runner-version-enforcement-date-has-moved) — Article · Topics: Developer Tools
+  **NeKI brief:** Records the revised GitHub Actions minimum-version enforcement date for self-hosted runners. Useful as dated operational context for CI teams that must monitor runner registration and upgrade policies.
 
 ## [Issue 93](https://ioscinewsletter.com/issues/93)
 

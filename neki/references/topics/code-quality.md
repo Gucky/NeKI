@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Maintainability, API design, correctness, code review, and engineering quality.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **51**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed links shown: **55**
 
 ## Direct-source reading
 
+- [Introducing SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-27`
+  **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
 - [Debugging Notes on Two SwiftUI Animation Bugs](https://fatbobman.com/en/posts/debugging-notes-on-two-swiftui-animation-bugs) — Fatbobman · article catalogue
   **Published:** `2026-07-01T14:00:00.000Z`
   **NeKI brief:** Uses two concrete SwiftUI animation failures to show how declarative animation can obscure causality. Follow it when a transition or state-driven animation misbehaves and you need diagnostic observations that reveal the framework behaviour rather than only a workaround.
@@ -33,6 +36,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Introducing SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Article · Topics: Code Quality · Swift · SwiftUI
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
+- [SwiftFairy: A SwiftUI Review Tool That Keeps Agents from Forgetting What They’ve Read](https://l.fatbobman.com/w0155-13) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: AI Development · Swift · SwiftUI
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Introduces SwiftFairy's local MCP review of agent-written Swift and SwiftUI, with line-specific findings and repair guidance. Useful as a concrete static-review workflow while keeping build and runtime validation separate.
+- [SwiftFairy](https://tools.nilcoalescing.com/swiftfairy) — iOS Dev Tools · iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown — Article · Topics: Code Quality · Performance · Swift
+  **Published:** `2026-09-24T16:20:24.417Z`
+  **NeKI brief:** SwiftFairy runs local MCP checks on Swift and SwiftUI code and returns targeted findings for coding agents. Useful for inspecting the actual tool offering behind the team's introduction article and its static-review scope.
 - [The iOS Testing Strategy Agent Skill](https://livsycode.com/best-practices/the-ios-testing-strategy-agent-skill) — Those Who Swift · Issue 278 — Article · Topics: AI Development · Code Quality · Testing
   **Published:** `2026-08-05T20:00:46.292Z`
   **NeKI brief:** Presents an agent skill that starts test design from behavior, risk, and observable outcomes rather than one test file per type. It chooses boundaries and doubles by determinism, execution time, maintenance cost, and the confidence each layer adds.

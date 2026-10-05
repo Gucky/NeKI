@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** macOS app lifecycle, menu-bar apps, Cocoa, and AppKit integration.
 
-- Last collected: `2026-09-20T08:55:28Z`
-- Indexed links shown: **548**
+- Last collected: `2026-10-02T23:36:48Z`
+- Indexed links shown: **556**
 
 ## Direct-source reading
 
@@ -113,6 +113,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Window Sweaters: A macOS App That Dresses Your Windows in Knitted Borders](https://go.peterfriese.dev/fun-window-sweaters?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-02`
+  **NeKI brief:** Shares the source for a macOS menu-bar app that draws knitted borders around windows. Useful as an inspectable AppKit desktop experiment with implementation, build, and installation material.
+- [TempCat](https://voprexlabs.com/tempcat) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Article
+  **Published:** `2026-10-01T17:02:01.317Z`
+  **NeKI brief:** TempCat assigns expiry times to files as they enter Downloads and later moves them to Trash. Useful for assessing a reversible, per-file alternative to periodic blanket cleanup.
+- [Ronnie W.](https://l.fatbobman.com/w0155-08) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Investigates macOS 27 toolbar regrouping when ToolbarSpacer no longer separates controls as expected. Useful for diagnosing navigation-island placement and checking whether a customizable toolbar needs explicit item identities.
+- [SwiftFairy: A SwiftUI Review Tool That Keeps Agents from Forgetting What They’ve Read](https://l.fatbobman.com/w0155-13) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: AI Development · Swift · SwiftUI
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Introduces SwiftFairy's local MCP review of agent-written Swift and SwiftUI, with line-specific findings and repair guidance. Useful as a concrete static-review workflow while keeping build and runtime validation separate.
+- [SwiftFairy](https://tools.nilcoalescing.com/swiftfairy) — iOS Dev Tools · iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown — Article · Topics: Code Quality · Performance · Swift
+  **Published:** `2026-09-24T16:20:24.417Z`
+  **NeKI brief:** SwiftFairy runs local MCP checks on Swift and SwiftUI code and returns targeted findings for coding agents. Useful for inspecting the actual tool offering behind the team's introduction article and its static-review scope.
+- [PinkDown](https://github.com/3xian/PinkDown) — iOS Dev Tools · iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown — Source repository · Topics: Developer Tools
+  **Published:** `2026-09-24T16:20:24.417Z`
+  **NeKI brief:** PinkDown provides a fast split-pane Markdown editor and live preview on macOS and Windows, built in Rust. Useful for comparing a desktop file editor with browser-based Markdown workspaces.
+- [Prompty](https://choterifa.site/prompty) — iOS Dev Tools · iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown — Article · Topics: macOS & AppKit
+  **Published:** `2026-09-24T16:20:24.417Z`
+  **NeKI brief:** Prompty stores prompts in a Mac menu-bar library, previews them, and expands a selected prompt through a global shortcut. Useful for evaluating reusable prompt workflows outside a coding agent's own history.
+- [FileBridge](https://filebridge.dev/) — iOS Dev Tools · iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown — Article
+  **Published:** `2026-09-24T16:20:24.417Z`
+  **NeKI brief:** FileBridge combines local and remote folders in a native dual-pane Mac file manager and saves reusable workspaces. Useful for evaluating repeatable file-transfer layouts across storage services.
 - [OpenClip](https://www.getopenclip.app/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: AI Development · Hardware & Devices
   **Published:** `2026-09-18T06:41:54.696Z`
   **NeKI brief:** Provides an open-source macOS floating action bar for selected text, combining built-in transformations, calculations, translation, scripts, keyboard shortcuts, and more than one hundred extensions without switching apps.

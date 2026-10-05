@@ -3,8 +3,34 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://peterfriese.dev/newsletter/](https://peterfriese.dev/newsletter/)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **29**
+- Last collected: `2026-10-02T23:36:48Z`
+- Indexed entries: **30**
+
+## [Issue 105](https://peterfriese.dev/newsletter/issues/105)
+
+- Published: `2026-10-02`
+
+**Topics:** AI Development · Developer Community & Business · Foundation & Data Formats · macOS & AppKit · Swift · SwiftUI
+
+**Sections:** Not only Swift · What I am working on · Getting Started with System One Models in Swift
+
+**NeKI brief:** Introduces fast structured decision models in Swift, then gathers iPhone Duo code changes, Foundation Models multimodal input, SwiftUI components, an HIG agent skill, and AI-assisted writing. Treat vendor performance claims as claims to verify.
+
+**Selected links:**
+- [iPhone Duo for iOS Developers: What Actually Changes in Your Swift Code](https://go.peterfriese.dev/swift-iphone-duo-what-changes-in-swift-code?s=web&t=ext) — Article · Topics: Hardware & Devices · SwiftUI · UIKit
+  **NeKI brief:** Surveys iPhone Duo changes to scenes, window sizing, asymmetric safe areas, and hinge-aware layouts with Swift examples. Use it as a checklist, then verify API behavior against the current SDK and device.
+- [Apple Human Interface Guidelines for Agents](https://go.peterfriese.dev/swiftui-hig-agent-skills?s=web&t=ext) — Article · Topics: AI Development · Developer Tools · Product Design
+  **NeKI brief:** Packages selected Apple HIG material into agent-readable references and a Duo adaptation workflow. Useful for inspecting its source mapping and update process before allowing generated interface advice to guide implementation.
+- [How To Write With An LLM](https://go.peterfriese.dev/ai-how-to-write-with-an-llm?s=web&t=ext) — Article · Topics: AI Development · Developer Community & Business
+  **NeKI brief:** Proposes writing the first draft yourself and using an LLM for critique and copyediting. Useful as an editorial workflow for preserving author voice while catching structural and clarity problems.
+- [Swift Pieces: Free SwiftUI Component Library for iOS](https://go.peterfriese.dev/swiftui-swiftpieces?s=web&t=ext) — Article · Topics: Product Design · SwiftUI
+  **NeKI brief:** Offers individual SwiftUI components, installation tooling, and examples of motion, haptics, and Dynamic Type. Useful for inspecting a copy-in component library and its accessibility claims before adopting pieces.
+- [Window Sweaters: A macOS App That Dresses Your Windows in Knitted Borders](https://go.peterfriese.dev/fun-window-sweaters?s=web&t=ext) — Article · Topics: Graphics, Media & Games · macOS & AppKit
+  **NeKI brief:** Shares the source for a macOS menu-bar app that draws knitted borders around windows. Useful as an inspectable AppKit desktop experiment with implementation, build, and installation material.
+- [TypeSafe’s Jev](https://go.peterfriese.dev/introducing-system-one-models-and-jev?s=web&t=ext) — Article · Topics: AI Development
+  **NeKI brief:** Presents TypeSafe’s Jev as a fast model for typed, bounded decisions rather than generated prose. Useful for understanding the vendor’s architecture and calibration claims before measuring them against a real workflow.
+- [interactive System One explainer](https://go.peterfriese.dev/system-one-explainer?s=web&t=ext) — Article · Topics: AI Development
+  **NeKI brief:** Explains bounded probabilistic decisions through interactive examples and a Jev workflow. Useful for separating fast model predictions from subsequent validation and for questioning where deterministic checks still belong.
 
 ## [Issue 104](https://peterfriese.dev/newsletter/issues/104)
 

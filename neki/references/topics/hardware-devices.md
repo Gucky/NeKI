@@ -4,11 +4,44 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple hardware, peripherals, device setup, and physical-computing context.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **97**
+- Last collected: `2026-10-05T06:41:52Z`
+- Indexed links shown: **118**
 
 ## Direct-source reading
 
+- [Toolbar overflow and visibility priority on iPhone Duo | Sarunw](https://sarunw.com/posts/toolbar-overflow-and-visibility-priority-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-10-05`
+  **NeKI brief:** Compares default toolbar overflow with task-focused compression on iPhone Duo, then covers a shared overflow menu, visibility priorities, and when to disable vertical bars. Useful for ordering controls under constrained space.
+- [Adapt custom toolbar views for iPhone Duo | Sarunw](https://sarunw.com/posts/adapt-custom-toolbar-views-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-10-04`
+  **NeKI brief:** Explains how custom SwiftUI and UIKit toolbar views opt into a vertical bar, adapt to fixed width, and read the vertical edge. Includes legibility checks for Reduce Transparency backgrounds.
+- [Presenting SwiftUI sheets on iPhone Duo](https://nilcoalescing.com/blog/PresentingSwiftUISheetsOnIPhoneDuo) — Nil Coalescing · article catalogue
+  **Published:** `2026-10-04`
+  **NeKI brief:** Shows how SwiftUI sheets and their toolbars adapt across iPhone Duo displays and fold positions. Explores presentationPlacement, toolbar arrangement, and a beta issue where a large detent restored expected trailing-sheet behavior.
+- [Adjusting the hinge angle in the iPhone Duo simulator](https://nilcoalescing.com/blog/AdjustingTheHingeAngleInTheIPhoneDuoSimulator) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-27`
+  **NeKI brief:** Shows how holding Option reveals the hinge-angle slider in the Xcode 27.1 iPhone Duo simulator. The continuous angle control helps inspect layouts between the standard open and folded presets.
+- [Configuring SwiftUI toolbars on iPhone Duo](https://nilcoalescing.com/blog/ConfiguringSwiftUIToolbarsOnIPhoneDuo) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-24`
+  **NeKI brief:** Explains how standard SwiftUI containers adapt navigation, tabs, and toolbar actions into iPhone Duo's vertical bar, then covers item axis behavior and visibility priority. Useful for checking controls that overflow or need a custom representation.
+- [ArrangementView - Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange) — Fatbobman · article catalogue
+  **Published:** `2026-09-23T14:00:00.000Z`
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
+- [Prepare toolbar items for a vertical bar | Sarunw](https://sarunw.com/posts/prepare-toolbar-items-for-a-vertical-bar) — Sarunw · article catalogue
+  **Published:** `2026-09-23`
+  **NeKI brief:** Explains how toolbar item metadata determines symbol or text presentation in a vertical bar, and how axis behavior can override the default. Useful when a custom control looks right horizontally but fails in the side bar.
+- [iPhone Duo Simulator: Testing and optimizing your SwiftUI app - SwiftLee](https://www.avanderlee.com/swiftui/iphone-duo-simulator) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-09-22T10:14:40+00:00`
+  **NeKI brief:** Walks through testing a SwiftUI app in the iPhone Duo simulator, including window resizing, adaptive layout, vertical controls, and hinge behavior. Use it to build a device-specific inspection checklist, then verify individual APIs against the installed SDK.
+- [Backporting SwiftUI APIs | Swift with Majid](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis) — Swift with Majid · article catalogue
+  **Published:** `2026-09-22T00:00:00+00:00`
+  **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.
+- [Opt in to vertical bars on iPhone Duo | Sarunw](https://sarunw.com/posts/opt-in-to-vertical-bars-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-09-22`
+  **NeKI brief:** Identifies which SwiftUI containers receive an iPhone Duo vertical bar and how their controls are ordered. Useful for auditing an existing navigation structure before customizing individual toolbar items.
+- [Early Design Explorations for iPhone Duo Layouts | Swiftjective-C](https://swiftjectivec.com/Early-Design-Explorations-for-iPhone-Duo-Layouts) — Swiftjective-C · article catalogue
+  **Published:** `2026-09-21T00:00:00-05:00`
+  **NeKI brief:** Shows early Elite Hoops layout sketches for open, closed, and folded iPhone Duo poses. The design exercise explores how existing content can expand into new space without gating core features by device.
 - [Sheets and fold avoidance on iPhone Duo | Sarunw](https://sarunw.com/posts/sheets-and-fold-avoidance-on-iphone-duo) — Sarunw · article catalogue
   **Published:** `2026-09-15`
   **NeKI brief:** Explains how sheets and system components adapt around iPhone Duo's division and occlusion regions in different poses, showing where automatic fold avoidance helps and where layouts still need review.
@@ -76,6 +109,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Backporting SwiftUI APIs](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: Hardware & Devices · SwiftUI
+  **Published:** `2026-10-03T10:58:55.000Z`
+  **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.
+- [iPhone Duo for iOS Developers: What Actually Changes in Your Swift Code](https://go.peterfriese.dev/swift-iphone-duo-what-changes-in-swift-code?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: Hardware & Devices · SwiftUI · UIKit
+  **Published:** `2026-10-02`
+  **NeKI brief:** Surveys iPhone Duo changes to scenes, window sizing, asymmetric safe areas, and hinge-aware layouts with Swift examples. Use it as a checklist, then verify API behavior against the current SDK and device.
+- [SuperCmd](https://supercmd.sh/en) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Article · Topics: AI Development · Hardware & Devices · Swift
+  **Published:** `2026-10-01T17:02:01.317Z`
+  **NeKI brief:** SuperCmd combines a native Swift launcher with clipboard history, window management, snippets, and agents. Useful for comparing a keyboard-driven Mac workflow against plugin-heavy launcher setups.
+- [iPhone Duo Simulator: Testing and optimizing your SwiftUI app](https://www.avanderlee.com/swiftui/iphone-duo-simulator?ref=createwithswift.com) — Create with Swift · Issue 121 — Article · Topics: Swift · SwiftUI · Testing
+  **Published:** `2026-09-25T16:09:07.000Z`
+  **NeKI brief:** Walks through testing a SwiftUI app in the iPhone Duo simulator, including window resizing, adaptive layout, vertical controls, and hinge behavior. Use it to build a device-specific inspection checklist, then verify individual APIs against the installed SDK.
+- [ArrangementView: Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange?ref=createwithswift.com) — Create with Swift · Issue 121 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-25T16:09:07.000Z`
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
+- [Configuring SwiftUI toolbars on iPhone Duo](https://nilcoalescing.com/blog/ConfiguringSwiftUIToolbarsOnIPhoneDuo?ref=createwithswift.com) — Create with Swift · Issue 121 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-25T16:09:07.000Z`
+  **NeKI brief:** Explains how standard SwiftUI containers adapt navigation, tabs, and toolbar actions into iPhone Duo's vertical bar, then covers item axis behavior and visibility priority. Useful for checking controls that overflow or need a custom representation.
+- [Configuring SwiftUI toolbars on iPhone Duo](https://nilcoalescing.com/blog/ConfiguringSwiftUIToolbarsOnIPhoneDuo?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Explains how standard SwiftUI containers adapt navigation, tabs, and toolbar actions into iPhone Duo's vertical bar, then covers item axis behavior and visibility priority. Useful for checking controls that overflow or need a custom representation.
+- [Sheets and fold avoidance on iPhone Duo](https://sarunw.com/posts/sheets-and-fold-avoidance-on-iphone-duo?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Explains how sheets and system components adapt around iPhone Duo's division and occlusion regions in different poses, showing where automatic fold avoidance helps and where layouts still need review.
+- [ArrangementView: Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
+- [SwiftUI: Backport the Duo APIs Without Raising Your Deployment Target (Swift 6.4, iOS 26+)](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article · Topics: Hardware & Devices · SwiftUI
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.
 - [OpenClip](https://www.getopenclip.app/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: AI Development · Hardware & Devices
   **Published:** `2026-09-18T06:41:54.696Z`
   **NeKI brief:** Provides an open-source macOS floating action bar for selected text, combining built-in transformations, calculations, translation, scripts, keyboard shortcuts, and more than one hundred extensions without switching apps.

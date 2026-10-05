@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Application boundaries, modularity, state ownership, dependency direction, and design trade-offs.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **363**
+- Last collected: `2026-10-02T23:36:48Z`
+- Indexed links shown: **369**
 
 ## Direct-source reading
 
+- [ArrangementView - Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange) — Fatbobman · article catalogue
+  **Published:** `2026-09-23T14:00:00.000Z`
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
 - [Introducing Advanced iOS App Architecture | Kodeco](https://www.kodeco.com/8477-introducing-advanced-ios-app-architecture) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Outlines a comparative advanced-architecture curriculum, including MVVM-oriented organization and case-study application. Useful as a routing lead when evaluating how presentation state, dependencies, and feature boundaries change across architecture styles rather than treating a pattern name as a design decision.
@@ -618,6 +621,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Firebase Analytics crash after sdk-exp response](https://github.com/firebase/firebase-ios-sdk/issues/16728) — iOS Dev Weekly · Issue 770 — Source repository · Topics: Architecture · Developer Tools
+  **Published:** `2nd October 2026`
+  **NeKI brief:** Tracks a production Firebase Analytics crash after an sdk-exp response, including timestamps, affected apps, and the resolution discussion. Useful as primary incident evidence when evaluating remote configuration and SDK dependency risk.
+- [Built to Last](https://lucas.love/blog/built-to-last) — iOS Dev Weekly · Issue 770 — Article · Topics: Architecture · Product Design
+  **Published:** `2nd October 2026`
+  **NeKI brief:** Argues for software that retains its core utility when accounts, subscriptions, and third-party APIs disappear. Useful as an architectural perspective on offline capability and long-term ownership of user data.
+- [Little Memory 2.0: Moving 15 years of memories off my servers](https://ivanthinking.net/2026/09/22/little-memory-2.0-moving-15-years-of-memories-off-my-servers) — Those Who Swift · Issue 286 — Article · Topics: Architecture · Objective-C & Cocoa · Security & Privacy
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Describes rebuilding a long-running journal app around local storage and iCloud sync, moving private entries off the author's servers. Useful for examining an indie app's data-ownership and migration choices.
+- [ArrangementView: Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange?ref=createwithswift.com) — Create with Swift · Issue 121 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-09-25T16:09:07.000Z`
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
+- [ArrangementView: Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
 - [Action Runner: An iOS Architecture for Isolating Business Logic](https://ivanthinking.net/2026/09/15/action-runner-ios-architecture) — Those Who Swift · Issue 284 — Article · Topics: Architecture · Dependency Injection · Objective-C & Cocoa
   **Published:** `2026-09-17T06:08:23.173Z`
   **NeKI brief:** Presents an Action and RunnableAction architecture that moves business logic out of SwiftUI views and oversized controllers, using a shared RunContext to make dependencies explicit and reduce circular coordination.

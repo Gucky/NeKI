@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Macros, compiler plugins, generated code, and metaprogramming techniques.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **169**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed links shown: **170**
 
 ## Direct-source reading
 
@@ -293,6 +293,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [What's New in Vapor 5 Beta](https://blog.vapor.codes/posts/whats-new-in-vapor-5-beta) — SwiftLee Weekly · Issue 342 — Article · Topics: Macros & Metaprogramming · Personal Essays
+  **Published:** `2026-09-22T14:09:31.000Z`
+  **NeKI brief:** Walks through Vapor 5 beta's revised APIs, Swift HTTP Types integration, service lifecycle, configuration, and experimental route macros. Useful for estimating migration work beyond the headline release announcement.
 - [Returned For RevisionSE-0539Enable Macros to Grant `self` Access for Property Initializers](https://github.com/apple/swift-evolution/blob/main/proposals/0539-self-access-for-property-initializers.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
   **Published:** `2026-08-25T14:06:16.000Z`
   **NeKI brief:** Proposal SE-0539 explores allowing attached macros to grant controlled self access during property initialization. Follow it when macro-generated storage needs enclosing-instance context, while checking review status and initialization-safety constraints before relying on the feature.

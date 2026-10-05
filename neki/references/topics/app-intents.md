@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Intents, App Shortcuts, Siri, Spotlight, widgets, controls, and related system surfaces.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **141**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed links shown: **144**
 
 ## Direct-source reading
 
+- [Build Siri experiences across apps, Part 2: Content Transfer | Sarunw](https://sarunw.com/posts/build-siri-experiences-across-apps-part-2-content-transfer) — Sarunw · article catalogue
+  **Published:** `2026-09-21`
+  **NeKI brief:** Extends onscreen App Entity awareness into cross-app content transfer through Transferable and IntentValueRepresentation. The receiving app decides whether shared content identifies an existing entity or should become a new one.
 - [Build Siri experiences across apps, Part 1: Onscreen Awareness | Sarunw](https://sarunw.com/posts/build-siri-experiences-across-apps-part-1-onscreen-awareness) — Sarunw · article catalogue
   **Published:** `2026-09-20`
   **NeKI brief:** Shows how to associate visible SwiftUI content with App Entities through NSUserActivity or view annotations, allowing Siri to resolve phrases such as 'this' against what the user currently sees.
@@ -209,6 +212,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Build Siri experiences across apps, Part 1: Onscreen Awareness](https://sarunw.com/posts/build-siri-experiences-across-apps-part-1-onscreen-awareness?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Article · Topics: AI Development · App Intents & System Surfaces
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Shows how to associate visible SwiftUI content with App Entities through NSUserActivity or view annotations, allowing Siri to resolve phrases such as 'this' against what the user currently sees.
+- [Build Siri experiences across apps, Part 2: Content Transfer](https://sarunw.com/posts/build-siri-experiences-across-apps-part-2-content-transfer?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Article · Topics: AI Development · App Intents & System Surfaces
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Extends onscreen App Entity awareness into cross-app content transfer through Transferable and IntentValueRepresentation. The receiving app decides whether shared content identifies an existing entity or should become a new one.
 - [Teaching Siri to talk about your favorite walks in Walk Mate](https://emredegirmenci.substack.com/p/ios-27-app-intents-journey) — iOS Dev Weekly · Issue 767 — Article · Topics: AI Development · App Intents & System Surfaces
   **Published:** `11th September 2026`
   **NeKI brief:** Builds App Intents that let Siri query and discuss a walking app's saved content. Use it to examine entity modeling and conversational surfaces, then verify iOS 27 API details independently.

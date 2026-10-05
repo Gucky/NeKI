@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Objective-C language/runtime, Cocoa and Foundation-era APIs, and historical Mac/iOS implementation techniques.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **1151**
+- Last collected: `2026-10-02T13:43:36Z`
+- Indexed links shown: **1155**
 
 ## Direct-source reading
 
@@ -471,6 +471,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Deployment Target Conditional Compilation](https://forums.swift.org/t/se-0554-deployment-target-conditional-compilation/89822) — Those Who Swift · Issue 286 — Article · Topics: Objective-C & Cocoa · Swift
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Hosts review of compile-time conditions based on a deployment target, including syntax and cross-platform questions. Useful for evaluating a proposed way to remove unavailable code paths during compilation.
+- [What minimumScaleFactor trades away in SwiftUI](https://salari.dev/writing/what-minimum-scale-factor-trades-away-in-swiftui) — Those Who Swift · Issue 286 — Article · Topics: Concurrency · Swift · SwiftUI
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Measures how independently shrinking SwiftUI text with minimumScaleFactor can disturb neighboring typography and Dynamic Type hierarchy. Useful when a compact label seems to fit but no longer reads consistently across sizes.
+- [Little Memory 2.0: Moving 15 years of memories off my servers](https://ivanthinking.net/2026/09/22/little-memory-2.0-moving-15-years-of-memories-off-my-servers) — Those Who Swift · Issue 286 — Article · Topics: Architecture · Objective-C & Cocoa · Security & Privacy
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Describes rebuilding a long-running journal app around local storage and iCloud sync, moving private entries off the author's servers. Useful for examining an indie app's data-ownership and migration choices.
+- [SE-0504: Task Cancellation Shields](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0504-task-cancellation-shields.md?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Defines Swift task cancellation shields for cleanup that must finish despite a cancelled parent task. The proposal details child-task propagation, cancellation handlers, and the difference between hiding cancellation temporarily and undoing it.
 - [Spek](https://spek.app/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: App Distribution & Store Operations · Objective-C & Cocoa
   **Published:** `2026-09-18T06:41:54.696Z`
   **NeKI brief:** Uses App Store Connect credentials to research keywords and competitors, draft localized metadata, and track ranking or visibility across markets. Useful for evaluating agent-assisted ASO workflows and their account-access boundary.

@@ -3,9 +3,29 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/)
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed entries: **221**
+- Last collected: `2026-10-05T06:41:52Z`
+- Indexed entries: **226**
 
+- [Presenting SwiftUI sheets on iPhone Duo](https://nilcoalescing.com/blog/PresentingSwiftUISheetsOnIPhoneDuo)
+  **Published:** `2026-10-04`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Shows how SwiftUI sheets and their toolbars adapt across iPhone Duo displays and fold positions. Explores presentationPlacement, toolbar arrangement, and a beta issue where a large detent restored expected trailing-sheet behavior.
+- [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts)
+  **Published:** `2026-09-28`
+  **Topics:** Graphics, Media & Games · SwiftUI
+  **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
+- [Introducing SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy)
+  **Published:** `2026-09-27`
+  **Topics:** AI Development · Code Quality · Developer Tools
+  **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
+- [Adjusting the hinge angle in the iPhone Duo simulator](https://nilcoalescing.com/blog/AdjustingTheHingeAngleInTheIPhoneDuoSimulator)
+  **Published:** `2026-09-27`
+  **Topics:** Hardware & Devices · Xcode
+  **NeKI brief:** Shows how holding Option reveals the hinge-angle slider in the Xcode 27.1 iPhone Duo simulator. The continuous angle control helps inspect layouts between the standard open and folded presets.
+- [Configuring SwiftUI toolbars on iPhone Duo](https://nilcoalescing.com/blog/ConfiguringSwiftUIToolbarsOnIPhoneDuo)
+  **Published:** `2026-09-24`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Explains how standard SwiftUI containers adapt navigation, tabs, and toolbar actions into iPhone Duo's vertical bar, then covers item axis behavior and visibility priority. Useful for checking controls that overflow or need a custom representation.
 - [Diagnosing ForEach performance issues in SwiftUI lazy containers](https://nilcoalescing.com/blog/DiagnosingForEachPerformanceIssuesInSwiftUILazyContainers)
   **Published:** `2026-09-16`
   **Topics:** Performance · SwiftUI

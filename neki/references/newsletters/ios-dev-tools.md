@@ -3,8 +3,70 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevtools.substack.com/archive](https://iosdevtools.substack.com/archive)
-- Last collected: `2026-09-20T08:49:34Z`
-- Indexed entries: **169**
+- Last collected: `2026-10-02T13:43:36Z`
+- Indexed entries: **171**
+
+## [iOS Dev Tools: DuoShot, App Availability, Asoly](https://iosdevtools.substack.com/p/ios-dev-tools-duoshot-app-availability)
+
+- Published: `2026-10-01T17:02:01.317Z`
+
+**Topics:** AI Development · App Distribution & Store Operations · Combine & Reactive Programming · Objective-C & Cocoa · Swift · Testing
+
+**Sections:** Let Agents Pick Up Mobile Issues Proactively! · DuoShot · App Availability
+
+**NeKI brief:** Surveys DuoShot artwork generation, cross-country app availability checks, and App Store keyword tracking. Useful for comparing small launch and distribution tools with different privacy, account, and paid-feature boundaries.
+
+**Selected links:**
+- [Obsidian Mind](https://github.com/breferrari/obsidian-mind) — Source repository · Topics: AI Development · Developer Tools
+  **NeKI brief:** Connects coding agents to an Obsidian vault that stores session notes, links, and indexes across runs. Useful for evaluating persistent context workflows and inspecting how hooks decide what the agent records.
+- [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) — Source repository · Topics: AI Development · Developer Career & Practice
+  **NeKI brief:** Provides a local Claude Code workflow for evaluating job postings, tailoring a CV, drafting letters, and interview preparation. Useful as an inspectable example of agent-assisted career work with user-owned files.
+- [SuperCmd](https://supercmd.sh/en) — Article · Topics: AI Development · Hardware & Devices · Swift
+  **NeKI brief:** SuperCmd combines a native Swift launcher with clipboard history, window management, snippets, and agents. Useful for comparing a keyboard-driven Mac workflow against plugin-heavy launcher setups.
+- [DuoShot](https://ryuamarines-tools.vercel.app/trends/iphone-duo/duoshot) — Article · Topics: Combine & Reactive Programming
+  **NeKI brief:** DuoShot combines inner- and outer-display iPhone Duo screenshots into a launch image locally in the browser. Useful for preparing simple marketing artwork while checking that the generic frames are not official device imagery.
+- [App Availability](https://appavailability.com/) — Article · Topics: App Distribution & Store Operations
+  **NeKI brief:** Checks app listings, ratings, reviews, and chart positions across App Store and Google Play countries. Useful for spotting storefront availability gaps; the free anonymous report covers a limited number of countries.
+- [Asoly](https://getasoly.com/) — Article · Topics: App Distribution & Store Operations
+  **NeKI brief:** Asoly researches App Store search terms, suggests metadata placement, and tracks keyword rank by country from a native Mac app. Useful for assessing store optimization workflows and their data limits before paying for broader tracking.
+- [ActionClip](https://actionclip.app/) — Article · Topics: AI Development
+  **NeKI brief:** ActionClip puts translation, rewriting, copying, and custom actions in macOS text-selection workflows, with local or connected AI options. Useful when comparing selection-based automation with a separate launcher or editor extension.
+- [Compositor](https://github.com/robbietilton/Compositor) — Source repository · Topics: Developer Tools
+  **NeKI brief:** An open-source Mac image editor centered on compositing and pixel-accurate post-processing, with an Xcode project available for modification. Useful for assessing a native alternative to general-purpose image tools.
+- [Orbl](https://www.orbl.app/) — Article
+  **NeKI brief:** Orbl turns the Mac wallpaper into an on-device dashboard for time, weather, focus, system status, and business metrics. Useful as an example of ambient information that avoids a separate app window.
+- [TempCat](https://voprexlabs.com/tempcat) — Article
+  **NeKI brief:** TempCat assigns expiry times to files as they enter Downloads and later moves them to Trash. Useful for assessing a reversible, per-file alternative to periodic blanket cleanup.
+
+## [iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown](https://iosdevtools.substack.com/p/ios-dev-tools-swiftfairy-itspaint)
+
+- Published: `2026-09-24T16:20:24.417Z`
+
+**Topics:** AI Development · Code Quality · macOS & AppKit · Swift · Systems Programming · Testing
+
+**Sections:** Let Agents Pick Up Mobile Issues Proactively! · SwiftFairy · ItsPaint
+
+**NeKI brief:** Surveys a local SwiftUI code reviewer, screenshot-markup and raster tools, Markdown editing, and several Mac workflow utilities. Useful as a dated directory of product pages and inspectable repositories.
+
+**Selected links:**
+- [SwiftFairy](https://tools.nilcoalescing.com/swiftfairy) — Article · Topics: Code Quality · Performance · Swift
+  **NeKI brief:** SwiftFairy runs local MCP checks on Swift and SwiftUI code and returns targeted findings for coding agents. Useful for inspecting the actual tool offering behind the team's introduction article and its static-review scope.
+- [QuotaTempo](https://ishikawa.co/en/products/quotatempo) — Article
+  **NeKI brief:** QuotaTempo displays weekly Codex and Claude capacity against an even-use target in the Mac menu bar. Useful for seeing remaining allowance in context rather than interpreting a raw percentage alone.
+- [QuoPeek](https://luicono.com/) — Article
+  **NeKI brief:** QuoPeek monitors remaining Codex usage from the Mac menu bar, refreshes it automatically, and alerts before quota runs low. Useful for comparing lightweight usage visibility with a full account page.
+- [ItsPaint](https://github.com/joshlin2201/itspaint) — Source repository · Topics: Developer Tools
+  **NeKI brief:** ItsPaint is a free Mac painting and screenshot-markup app whose UI-free PaintKit engine is also packaged for Swift reuse. Useful when reviewing native annotation workflows or the underlying raster code.
+- [PinkDown](https://github.com/3xian/PinkDown) — Source repository · Topics: Developer Tools
+  **NeKI brief:** PinkDown provides a fast split-pane Markdown editor and live preview on macOS and Windows, built in Rust. Useful for comparing a desktop file editor with browser-based Markdown workspaces.
+- [Prompty](https://choterifa.site/prompty) — Article · Topics: macOS & AppKit
+  **NeKI brief:** Prompty stores prompts in a Mac menu-bar library, previews them, and expands a selected prompt through a global shortcut. Useful for evaluating reusable prompt workflows outside a coding agent's own history.
+- [Blinker](https://apps.apple.com/in/app/blinker-focus-without-strain/id6753800447) — Article · Topics: Systems Programming
+  **NeKI brief:** Blinker presents timed blink and break reminders with configurable animations based on the 20-20-20 routine. Useful as an example of a low-interruption screen-time aid rather than a developer API resource.
+- [FileBridge](https://filebridge.dev/) — Article
+  **NeKI brief:** FileBridge combines local and remote folders in a native dual-pane Mac file manager and saves reusable workspaces. Useful for evaluating repeatable file-transfer layouts across storage services.
+- [ShyGlass](https://shyglass.app/) — Article
+  **NeKI brief:** ShyGlass uses supported AirPods head tracking to blur a Mac display when the wearer looks away and clear it on return. Useful as a concrete privacy-screen interaction with hardware support limits.
 
 ## [iOS Dev Tools: fullcoverage, XCRunway, Spek](https://iosdevtools.substack.com/p/ios-dev-tools-fullcoverage-xcrunway)
 

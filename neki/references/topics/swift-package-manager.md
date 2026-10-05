@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift packages, manifests, plugins, dependency resolution, and package distribution.
 
-- Last collected: `2026-09-20T08:45:09Z`
+- Last collected: `2026-10-02T13:36:35Z`
 - Indexed links shown: **321**
 
 ## Direct-source reading
@@ -304,8 +304,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
-- [Swift 6.4 Released](https://www.swift.org/blog/swift-6.4-released) — iOS Dev Weekly · Issue 768 — Article · Topics: Developer Tools · Swift · Swift Package Manager
-  **Published:** `18th September 2026`
+- [Swift 6.4 Released](https://www.swift.org/blog/swift-6.4-released) — Those Who Swift · Issue 285 — Article · Topics: Swift · Systems Programming
+  **Published:** `2026-09-23T21:06:47.068Z`
   **NeKI brief:** Summarises Swift 6.4 across language, concurrency, testing, SwiftPM and Swift Build, debugging, interoperability, WebAssembly, Android, Embedded Swift, and noncopyable data structures. Use its proposal links to investigate individual changes.
 - [Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, and macOS.](https://github.com/xtool-org/xtool) — iOS Dev Weekly · Issue 766 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Product Design
   **Published:** `4th September 2026`

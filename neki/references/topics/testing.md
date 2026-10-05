@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Unit, UI, Swift Testing, XCTest, test design, and test automation.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **1319**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed links shown: **1331**
 
 ## Direct-source reading
 
@@ -1616,6 +1616,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Uses Charles Breakpoints to intercept a matched request or response, edit its payload, and release the modified data to the app. This creates deterministic tests for malformed, missing, or unexpected server values without changing the production endpoint.
 - [Getting started with UI Testing for SwiftUI](https://tanaschita.com/testing-ui-swiftui-xctest-framework) — Tanaschita · article catalogue
   **NeKI brief:** Demonstrates UI testing SwiftUI applications with XCTest, including accessibility-driven queries and interaction assertions. Useful for testing user-visible behavior without coupling tests to implementation details.
+- [Parameterized tests and test organization with Swift Testing](https://tanaschita.com/testing-swift-testing-parameterized-tests) — Tanaschita · article catalogue
+  **NeKI brief:** Replaces repetitive test functions with parameterized cases and organizes a larger suite through nested suites and tags. Useful when the same behavior must be checked across many inputs without losing individual failure reporting.
+- [Developer guide on Swift Testing for iOS](https://tanaschita.com/testing-swift-testing-overview) — Tanaschita · article catalogue
+  **NeKI brief:** Introduces Swift Testing's test functions, expectations, traits, and suites, then compares migration choices from XCTest. Useful as an orientation for organizing new tests before adopting more advanced parameterization.
 - [How to unit test async/await functions in Swift](https://tanaschita.com/testing-swift-async-await) — Tanaschita · article catalogue
   **NeKI brief:** Demonstrates that XCTest methods can be marked async and await asynchronous work directly, eliminating manual XCTestExpectation bookkeeping. Throwing functions use try in the test, making success and failure paths explicit while keeping the test focused on returned behavior.
 - [Testing remote iOS push notifications in a simulator with simctl](https://tanaschita.com/testing-remote-push-notifications-in-ios-simulator) — Tanaschita · article catalogue
@@ -1638,6 +1642,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Explains alternate associated-domains mode for development and testing. Use it when universal-link or web-credential configuration must point at a non-production environment without changing the application's primary entitlement design.
 - [Essential VoiceOver gestures for iOS - a quick guide to testing app accessibility](https://tanaschita.com/ios-accessibility-voiceover-gestures) — Tanaschita · article catalogue
   **NeKI brief:** Catalogues essential VoiceOver gestures and a quick toggle workflow for testing. It is useful for establishing a repeatable manual pass that checks focus order and activation instead of relying only on simulator screenshots.
+- [Automating accessibility audits for SwiftUI apps with XCTest](https://tanaschita.com/ios-accessibility-automated-audits) — Tanaschita · article catalogue
+  **NeKI brief:** Adds XCTest accessibility audits to a SwiftUI UI test to catch missing descriptions, contrast problems, and clipped text. Useful for establishing automated coverage while still checking interactions that require manual assistive-technology testing.
 - [How to intercept and edit a server response with Proxyman for iOS](https://tanaschita.com/20230918-proxyman-how-to-change-request) — Tanaschita · article catalogue
   **NeKI brief:** Proxyman breakpoint rules intercept and edit responses to exercise client edge cases. It is useful for testing error and empty states, provided interception remains confined to development traffic and credentials.
 - [How to automate taking screenshots with fastlane for iOS](https://tanaschita.com/20230724-fastlane-screenshots-ios) — Tanaschita · article catalogue
@@ -1679,6 +1685,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Stop Sleeping: Deterministic Tests for Concurrent Swift Code](https://raska.io/blog/testing-concurrent-code) — Those Who Swift · Issue 286 — Article · Topics: Swift · Testing
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Builds deterministic tests for concurrent Swift code with spies that coordinate success, failure, timeout, and cancellation paths. Useful when sleep-based timing makes an asynchronous test suite flaky.
+- [McKinley: The SF Symbols Editor Apple Never Built](https://amerpie.lol/2026/09/08/mckinley-the-sf-symbols-editor.html) — Those Who Swift · Issue 286 — Article · Topics: Cross-Platform & Web · Graphics, Media & Games · Testing
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Tests McKinley as a Mac editor for custom SF Symbols weights, scales, and export rules, noting both strengths and rough edges. Useful when evaluating symbol-authoring tools through an independent hands-on account.
+- [iPhone Duo Group Lab - Q&A](https://antongubarenko.substack.com/p/iphone-duo-group-lab-q-and-a) — iOS Code Review · Issue 89 — Article · Topics: Accessibility · Testing
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Organizes Apple engineers' iPhone Duo group-lab answers by practical questions about layout, fold poses, vertical controls, windows, accessibility, and testing. Useful for locating edge cases to verify in the current SDK.
+- [iPhone Duo Group Lab 2 - Q&A](https://antongubarenko.substack.com/p/iphone-duo-group-lab-2-q-and-a) — iOS Code Review · Issue 89 — Article · Topics: Accessibility · Testing
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Continues the iPhone Duo group-lab Q&A with further questions on adaptive layout, system components, camera regions, and tooling. Useful for planning focused device-pose checks after the initial overview.
+- [⏱️ Measure the build you ship](https://en.kou-works.jp/blog/debug-build-performance-trap) — iOS CI Newsletter · Issue 94 — Article · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-09-30T00:00:00.000Z`
+  **NeKI brief:** Compares a camera app's slow Vision processing under Xcode's Debug configuration with smooth TestFlight behavior. Useful for distinguishing debugger overhead from release performance before optimizing a frame pipeline.
+- [tried](https://github.com/Alex-Ozun/swift-effect) — iOS Dev Weekly · Issue 769 — Source repository · Topics: Developer Tools · Swift · Testing
+  **Published:** `25th September 2026`
+  **NeKI brief:** Swift Effect models I/O and other side effects behind effect handlers so behavior can be replaced in tests without restructuring the whole app. Useful for evaluating explicit effect control in concurrent code.
+- [hinge](https://github.com/artemnovichkov/hinge?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Hinge sets an iPhone Duo simulator fold angle from the command line by compiling and caching a small helper. Useful for scripted pose checks when Device Hub's manual slider is insufficient.
+- [Michael Tsai - Blog - Jumping to 27.2Jumping to 27.2Michael J. Tsai](https://mjtsai.com/blog/2026/09/17/jumping-to-27-2?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article · Topics: Testing · Xcode
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Explains Apple's unusual iOS 27.2 beta numbering alongside the iPhone Duo's 27.1 release path. Useful as dated release context when interpreting SDK and TestFlight compatibility during the transition.
+- [Compressing images and PDFs from the Finder context menu](https://danielsaidi.com/blog/2026/09/15/using-automator-workflows-to-compress-images-and-pdfs) — Those Who Swift · Issue 285 — Article · Topics: Testing
+  **Published:** `2026-09-23T21:06:47.068Z`
+  **NeKI brief:** Creates Finder Quick Actions for compressing images and PDFs locally through Automator. Useful for replacing repeated web uploads with a one-click file workflow while retaining control over the output.
 - [XCRunway](https://xcrunway.app/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: Testing · Xcode
   **Published:** `2026-09-18T06:41:54.696Z`
   **NeKI brief:** Provides a native Xcode Cloud client for iPhone, iPad, and Mac that can start workflows, monitor progress, inspect tests and logs, and download artifacts while keeping API credentials in Keychain.

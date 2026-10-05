@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Combine publishers, subscribers, operators, and reactive-programming techniques.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **151**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed links shown: **152**
 
 ## Direct-source reading
 
@@ -61,6 +61,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [DuoShot](https://ryuamarines-tools.vercel.app/trends/iphone-duo/duoshot) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Article · Topics: Combine & Reactive Programming
+  **Published:** `2026-10-01T17:02:01.317Z`
+  **NeKI brief:** DuoShot combines inner- and outer-display iPhone Duo screenshots into a launch image locally in the browser. Useful for preparing simple marketing artwork while checking that the generic frames are not official device imagery.
 - [Object Tracking Updates in visionOS 27 and iOS 27](https://vision.engineer/posts/object-tracking-updates-in-visionOS-27-and-iOS-27) — Those Who Swift · Issue 284 — Article · Topics: Accessibility · Combine & Reactive Programming · Spatial Computing
   **Published:** `2026-09-17T06:08:23.173Z`
   **NeKI brief:** Tests iOS 27 and visionOS 27 object-tracking improvements through an open-source accessibility demo that combines iPhone capture with Vision Pro, documenting higher-frame-rate tracking and reduced earlier limitations.

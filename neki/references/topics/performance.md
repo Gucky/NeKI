@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Profiling, Instruments, rendering cost, launch time, memory, and runtime efficiency.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **515**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed links shown: **520**
 
 ## Direct-source reading
 
+- [Iterative data loading in Swift | Swift with Majid](https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift) — Swift with Majid · article catalogue
+  **Published:** `2026-09-29T00:00:00+00:00`
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
 - [Diagnosing ForEach performance issues in SwiftUI lazy containers](https://nilcoalescing.com/blog/DiagnosingForEachPerformanceIssuesInSwiftUILazyContainers) — Nil Coalescing · article catalogue
   **Published:** `2026-09-16`
   **NeKI brief:** Shows how to enable SwiftUI's ForEach slow-path diagnostic, interpret variable-view-count warnings in List and lazy containers, and restructure conditional or multi-view row content so lazy reuse stays predictable.
@@ -661,6 +664,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Combine debounce delays search requests until input settles, reducing server load and result churn. Follow it to coordinate cancellation and latest-query wins semantics rather than allowing stale responses to replace newer results.
 - [Introduction to Combine for iOS developers with RxSwift experience](https://tanaschita.com/combine-for-rxswift-devs) — Tanaschita · article catalogue
   **NeKI brief:** This RxSwift-to-Combine comparison maps concepts such as publishers, operators and cancellables across frameworks. Follow it during migration to identify semantic differences instead of performing a mechanical name replacement.
+- [Why You Should Care About Green Coding](https://martiancraft.com/blog/2026/09/why-you-should-care-about-green-coding) — MartianCraft · article catalogue
+  **NeKI brief:** Connects unnecessary background work and inefficient computation to battery drain, heat, and perceived app quality. Useful when prioritizing performance work by device and user impact rather than treating energy use as an abstract metric.
 - [WWDC26 Recap: Siri Grows Up, Apple Intelligence Goes Everywhere, and Agents Move into Xcode](https://martiancraft.com/blog/2026/06/wwdc-26-recap-siri-grows-up-apple-intelligence-goes-everywhere-and-agents-move-Into-xcode) — MartianCraft · article catalogue
   **NeKI brief:** Summarizes WWDC26 changes across Siri, Apple Intelligence, and agentic Xcode workflows, connecting platform announcements to practical development consequences. Use it as a map of topics to verify in the corresponding Apple sessions and documentation.
 - [Nailing Accessibility in Your iOS Apps: Going Beyond Compliance](https://martiancraft.com/blog/2025/06/nailing-accessibility) — MartianCraft · article catalogue
@@ -684,6 +689,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [⏱️ Measure the build you ship](https://en.kou-works.jp/blog/debug-build-performance-trap) — iOS CI Newsletter · Issue 94 — Article · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-09-30T00:00:00.000Z`
+  **NeKI brief:** Compares a camera app's slow Vision processing under Xcode's Debug configuration with smooth TestFlight behavior. Useful for distinguishing debugger overhead from release performance before optimizing a frame pipeline.
+- [Diagnosing ForEach performance issues in SwiftUI lazy containers](https://nilcoalescing.com/blog/DiagnosingForEachPerformanceIssuesInSwiftUILazyContainers?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article · Topics: Performance · Swift · SwiftUI
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Shows how to enable SwiftUI's ForEach slow-path diagnostic, interpret variable-view-count warnings in List and lazy containers, and restructure conditional or multi-view row content so lazy reuse stays predictable.
+- [SwiftFairy](https://tools.nilcoalescing.com/swiftfairy) — iOS Dev Tools · iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown — Article · Topics: Code Quality · Performance · Swift
+  **Published:** `2026-09-24T16:20:24.417Z`
+  **NeKI brief:** SwiftFairy runs local MCP checks on Swift and SwiftUI code and returns targeted findings for coding agents. Useful for inspecting the actual tool offering behind the team's introduction article and its static-review scope.
 - [When Intuition Lies: Lessons from a CSV Parser](https://www.danielemargutti.com/en/2026/09/14/csv-parser-twenty-seconds) — Those Who Swift · Issue 284 — Article · Topics: Performance
   **Published:** `2026-09-17T06:08:23.173Z`
   **NeKI brief:** Profiles a 260 MB, 5.6-million-row CSV parser whose apparent I/O problem is dominated by string allocation. The measurements show how intuitive implementations can hide memory and CPU costs.

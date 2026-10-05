@@ -3,9 +3,33 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://sarunw.com/posts/](https://sarunw.com/posts/)
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed entries: **475**
+- Last collected: `2026-10-05T06:41:52Z`
+- Indexed entries: **481**
 
+- [Toolbar overflow and visibility priority on iPhone Duo | Sarunw](https://sarunw.com/posts/toolbar-overflow-and-visibility-priority-on-iphone-duo)
+  **Published:** `2026-10-05`
+  **Topics:** Hardware & Devices · SwiftUI · UIKit
+  **NeKI brief:** Compares default toolbar overflow with task-focused compression on iPhone Duo, then covers a shared overflow menu, visibility priorities, and when to disable vertical bars. Useful for ordering controls under constrained space.
+- [Adapt custom toolbar views for iPhone Duo | Sarunw](https://sarunw.com/posts/adapt-custom-toolbar-views-for-iphone-duo)
+  **Published:** `2026-10-04`
+  **Topics:** Hardware & Devices · SwiftUI · UIKit
+  **NeKI brief:** Explains how custom SwiftUI and UIKit toolbar views opt into a vertical bar, adapt to fixed width, and read the vertical edge. Includes legibility checks for Reduce Transparency backgrounds.
+- [How to change line height in SwiftUI | Sarunw](https://sarunw.com/posts/swiftui-line-height)
+  **Published:** `2026-10-03`
+  **Topics:** Accessibility · SwiftUI
+  **NeKI brief:** Compares SwiftUI lineHeight options using baseline spacing, font metrics, and larger text. Shows why fixed point heights can clip or fail to scale with Dynamic Type and how multiple-based spacing behaves.
+- [Prepare toolbar items for a vertical bar | Sarunw](https://sarunw.com/posts/prepare-toolbar-items-for-a-vertical-bar)
+  **Published:** `2026-09-23`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Explains how toolbar item metadata determines symbol or text presentation in a vertical bar, and how axis behavior can override the default. Useful when a custom control looks right horizontally but fails in the side bar.
+- [Opt in to vertical bars on iPhone Duo | Sarunw](https://sarunw.com/posts/opt-in-to-vertical-bars-on-iphone-duo)
+  **Published:** `2026-09-22`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Identifies which SwiftUI containers receive an iPhone Duo vertical bar and how their controls are ordered. Useful for auditing an existing navigation structure before customizing individual toolbar items.
+- [Build Siri experiences across apps, Part 2: Content Transfer | Sarunw](https://sarunw.com/posts/build-siri-experiences-across-apps-part-2-content-transfer)
+  **Published:** `2026-09-21`
+  **Topics:** App Intents & System Surfaces
+  **NeKI brief:** Extends onscreen App Entity awareness into cross-app content transfer through Transferable and IntentValueRepresentation. The receiving app decides whether shared content identifies an existing entity or should become a new one.
 - [Build Siri experiences across apps, Part 1: Onscreen Awareness | Sarunw](https://sarunw.com/posts/build-siri-experiences-across-apps-part-1-onscreen-awareness)
   **Published:** `2026-09-20`
   **Topics:** App Intents & System Surfaces

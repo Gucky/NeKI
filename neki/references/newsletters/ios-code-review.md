@@ -3,8 +3,84 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://ioscodereview.com/](https://ioscodereview.com/)
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed entries: **86**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **88**
+
+## [Issue 89](https://ioscodereview.com/issues/issue-89-a-code-reviewer-for-your-agent-siri-reads-your-screen-and-swifts-cancellation-shield)
+
+- Published: `2026-09-30T17:47:06.000Z`
+
+**Topics:** Accessibility · App Intents & System Surfaces · macOS & AppKit · Swift · SwiftUI · Xcode
+
+**Sections:** Xcode 27.2 Beta 2: Code Coverage for Agents and a Few Traps (Xcode 27.2 beta 2) · SwiftFairy: A SwiftUI Reviewer for Your Coding Agent (macOS 26+, Apple silicon) · App Intents: Make Your Screen Readable by Siri AI (iOS 26+ APIs, Siri AI in…
+
+**NeKI brief:** Connects Xcode agent coverage, SwiftFairy review, Siri onscreen content transfer, task cancellation shields, and iPhone Duo lab answers. Useful as a dated route to the underlying tools, proposals, and implementation examples.
+
+**Selected links:**
+- [Introducing SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy?ref=ioscodereview.com) — Article · Topics: Code Quality · Swift · SwiftUI
+  **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
+- [SE-0504: Task Cancellation Shields](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0504-task-cancellation-shields.md?ref=ioscodereview.com) — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **NeKI brief:** Defines Swift task cancellation shields for cleanup that must finish despite a cancelled parent task. The proposal details child-task propagation, cancellation handlers, and the difference between hiding cancellation temporarily and undoing it.
+- [Build Siri experiences across apps, Part 1: Onscreen Awareness](https://sarunw.com/posts/build-siri-experiences-across-apps-part-1-onscreen-awareness?ref=ioscodereview.com) — Article · Topics: AI Development · App Intents & System Surfaces
+  **NeKI brief:** Shows how to associate visible SwiftUI content with App Entities through NSUserActivity or view annotations, allowing Siri to resolve phrases such as 'this' against what the user currently sees.
+- [Build Siri experiences across apps, Part 2: Content Transfer](https://sarunw.com/posts/build-siri-experiences-across-apps-part-2-content-transfer?ref=ioscodereview.com) — Article · Topics: AI Development · App Intents & System Surfaces
+  **NeKI brief:** Extends onscreen App Entity awareness into cross-app content transfer through Transferable and IntentValueRepresentation. The receiving app decides whether shared content identifies an existing entity or should become a new one.
+- [SwiftUI Charts: Dynamic Masking](https://antongubarenko.substack.com/p/swiftui-charts-dynamic-masking) — Article · Topics: Accessibility · Swift · SwiftUI
+  **NeKI brief:** Uses a moving mask over Swift Charts to keep values before a selected point prominent while dimming the remainder. The technique preserves the full dataset and avoids rebuilding chart marks for each interaction.
+- [SE-0549](https://forums.swift.org/t/review-se-0549-package-manager-http-proxy-configuration/89513?ref=ioscodereview.com) — Article · Topics: AI Development · Developer Tools · Swift
+  **NeKI brief:** Hosts review of Swift Package Manager HTTP proxy configuration, including questions about command and environment behavior. Useful for following the proposed network-configuration contract and its implementation concerns.
+- [iPhone Duo Group Lab - Q&A](https://antongubarenko.substack.com/p/iphone-duo-group-lab-q-and-a) — Article · Topics: Accessibility · Testing
+  **NeKI brief:** Organizes Apple engineers' iPhone Duo group-lab answers by practical questions about layout, fold poses, vertical controls, windows, accessibility, and testing. Useful for locating edge cases to verify in the current SDK.
+- [iPhone Duo Group Lab 2 - Q&A](https://antongubarenko.substack.com/p/iphone-duo-group-lab-2-q-and-a) — Article · Topics: Accessibility · Testing
+  **NeKI brief:** Continues the iPhone Duo group-lab Q&A with further questions on adaptive layout, system components, camera regions, and tooling. Useful for planning focused device-pose checks after the initial overview.
+- [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts?ref=ioscodereview.com) — Article · Topics: Graphics, Media & Games · SwiftUI
+  **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
+- [It's Over](https://www.swiftjectivec.com/Its-Over?ref=ioscodereview.com) — Article · Topics: AI Development · Swift
+  **NeKI brief:** Reflects on how agent-assisted code generation changes the daily work and identity of a software engineer. Useful as a dated personal perspective on adaptation, not as evidence that one development workflow has replaced all others.
+- [Fatbobman's Swift Weekly #155](https://fatbobman.com/en/weekly/issue-155?ref=ioscodereview.com) — Article · Topics: AI Development · Swift
+  **NeKI brief:** Curates early iPhone Duo adaptation, Swift 6.4 concurrency, background-task reliability, and Xcode MCP implementation reading. Useful as a dated route to several technical perspectives and their original sources.
+- [SE-0551](https://forums.swift.org/t/se-0551-span-over-a-single-value/89715?ref=ioscodereview.com) — Article · Topics: AI Development · Swift
+  **NeKI brief:** Hosts the Swift Evolution review of a Span view over one value, with discussion of the proposed API shape and use cases. Useful for tracing design questions while the proposal is under review.
+- [SE-0550](https://forums.swift.org/t/se-0550-nosanitize-attribute-for-functions/89593?ref=ioscodereview.com) — Article · Topics: AI Development · Swift
+  **NeKI brief:** Collects review feedback on a proposed function attribute for disabling selected sanitizer instrumentation. Useful for examining scope, naming, and diagnostic trade-offs before treating the proposal as language behavior.
+- [SE-0546: Same-file memberwise initializer extensions](https://forums.swift.org/t/se-0546-same-file-memberwise-initializer-extensions/89120?ref=ioscodereview.com) — Article · Topics: Swift
+  **NeKI brief:** Records Swift Evolution review of same-file memberwise initializer extensions, including feedback on generated initializer scope and language fit. Useful for understanding the design discussion before relying on a proposal as shipped behavior.
+
+## [Issue 88](https://ioscodereview.com/issues/issue-88-your-project-file-goes-json-the-duo-simulator-lands-and-toolbars-turn-sideways)
+
+- Published: `2026-09-24T17:39:07.000Z`
+
+**Topics:** App Distribution & Store Operations · macOS & AppKit · Swift · SwiftUI · Testing · Xcode
+
+**Sections:** Xcode 27.2 Beta: Your Project File Is Now JSON (Xcode 27.2 beta) · From the Community! · Xcode 27.1 Beta: The iPhone Duo Simulator (Xcode 27.1 beta / iOS 27.1 SDK, beta)
+
+**NeKI brief:** Covers Xcode's proposed JSON project format, the first iPhone Duo simulator beta, vertical toolbar adaptation, SwiftUI performance, and crash reporting. Useful as a dated checklist for code review across simultaneous SDK changes.
+
+**Selected links:**
+- [hinge](https://github.com/artemnovichkov/hinge?ref=ioscodereview.com) — Source repository · Topics: Developer Tools · Testing · Xcode
+  **NeKI brief:** Hinge sets an iPhone Duo simulator fold angle from the command line by compiling and caching a small helper. Useful for scripted pose checks when Device Hub's manual slider is insufficient.
+- [From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj?ref=ioscodereview.com) — Article · Topics: AI Development · Xcode
+  **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
+- [Michael Tsai - Blog - Jumping to 27.2Jumping to 27.2Michael J. Tsai](https://mjtsai.com/blog/2026/09/17/jumping-to-27-2?ref=ioscodereview.com) — Article · Topics: Testing · Xcode
+  **NeKI brief:** Explains Apple's unusual iOS 27.2 beta numbering alongside the iPhone Duo's 27.1 release path. Useful as dated release context when interpreting SDK and TestFlight compatibility during the transition.
+- [SwiftUI: Backport the Duo APIs Without Raising Your Deployment Target (Swift 6.4, iOS 26+)](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis?ref=ioscodereview.com) — Article · Topics: Hardware & Devices · SwiftUI
+  **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.
+- [Diagnosing ForEach performance issues in SwiftUI lazy containers](https://nilcoalescing.com/blog/DiagnosingForEachPerformanceIssuesInSwiftUILazyContainers?ref=ioscodereview.com) — Article · Topics: Performance · Swift · SwiftUI
+  **NeKI brief:** Shows how to enable SwiftUI's ForEach slow-path diagnostic, interpret variable-view-count warnings in List and lazy containers, and restructure conditional or multi-view row content so lazy reuse stays predictable.
+- [iOS 27: CrashReportExtension Framework](https://antongubarenko.substack.com/p/ios-27-crashreportextension-framework) — Article · Topics: Swift
+  **NeKI brief:** Introduces iOS 27's CrashReportExtension as a system-managed process for inspecting a crashed app, avoiding unsafe analysis inside signal handlers. It outlines extension setup, process inspection, report construction, and privacy boundaries.
+- [Configuring SwiftUI toolbars on iPhone Duo](https://nilcoalescing.com/blog/ConfiguringSwiftUIToolbarsOnIPhoneDuo?ref=ioscodereview.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains how standard SwiftUI containers adapt navigation, tabs, and toolbar actions into iPhone Duo's vertical bar, then covers item axis behavior and visibility priority. Useful for checking controls that overflow or need a custom representation.
+- [Early Design Explorations for iPhone Duo Layouts](https://www.swiftjectivec.com/Early-Design-Explorations-for-iPhone-Duo-Layouts?ref=ioscodereview.com) — Article · Topics: Swift
+  **NeKI brief:** Shows early Elite Hoops layout sketches for open, closed, and folded iPhone Duo poses. The design exercise explores how existing content can expand into new space without gating core features by device.
+- [iPhone Duo by Examples](https://github.com/artemnovichkov/iPhone-Duo-by-Examples?ref=ioscodereview.com) — Source repository · Topics: Developer Tools
+  **NeKI brief:** Provides runnable SwiftUI examples for hinge state, reserved regions, ArrangementView, and vertical toolbars in the iPhone Duo simulator. Useful for isolating one new API before adapting an existing screen.
+- [Sheets and fold avoidance on iPhone Duo](https://sarunw.com/posts/sheets-and-fold-avoidance-on-iphone-duo?ref=ioscodereview.com) — Article
+  **NeKI brief:** Explains how sheets and system components adapt around iPhone Duo's division and occlusion regions in different poses, showing where automatic fold avoidance helps and where layouts still need review.
+- [ArrangementView: Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange?ref=ioscodereview.com) — Article
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
+- [Vapor 5 beta](https://blog.vapor.codes/posts/vapor-5-beta?ref=ioscodereview.com) — Article
+  **NeKI brief:** Announces the first Vapor 5 beta after extensive architectural work and links to the detailed change guide. Useful for identifying release scope before testing server-side Swift code against the new major version.
 
 ## [Issue 87](https://ioscodereview.com/issues/issue-87-ios-27-ships-xcode-agents-get-hands-and-arrangementview-for-the-duo)
 

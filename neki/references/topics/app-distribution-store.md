@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Store delivery, TestFlight, StoreKit commerce, signing, review, releases, and monetisation workflows.
 
-- Last collected: `2026-09-20T08:55:28Z`
-- Indexed links shown: **625**
+- Last collected: `2026-10-02T23:36:48Z`
+- Indexed links shown: **631**
 
 ## Direct-source reading
 
@@ -148,6 +148,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [App Availability](https://appavailability.com/) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Article · Topics: App Distribution & Store Operations
+  **Published:** `2026-10-01T17:02:01.317Z`
+  **NeKI brief:** Checks app listings, ratings, reviews, and chart positions across App Store and Google Play countries. Useful for spotting storefront availability gaps; the free anonymous report covers a limited number of countries.
+- [Asoly](https://getasoly.com/) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Article · Topics: App Distribution & Store Operations
+  **Published:** `2026-10-01T17:02:01.317Z`
+  **NeKI brief:** Asoly researches App Store search terms, suggests metadata placement, and tracks keyword rank by country from a native Mac app. Useful for assessing store optimization workflows and their data limits before paying for broader tracking.
+- [opens a pull request for us](https://github.com/AvdLee/appstoreconnect-swift-sdk/pull/349) — iOS CI Newsletter · Issue 94 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `2026-09-30T00:00:00.000Z`
+  **NeKI brief:** Shows an automated App Store Connect SDK specification update as a concrete pull request. Useful for seeing the generated diff and review boundary in a workflow that checks upstream API specs and proposes changes.
+- [⏱️ Measure the build you ship](https://en.kou-works.jp/blog/debug-build-performance-trap) — iOS CI Newsletter · Issue 94 — Article · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-09-30T00:00:00.000Z`
+  **NeKI brief:** Compares a camera app's slow Vision processing under Xcode's Debug configuration with smooth TestFlight behavior. Useful for distinguishing debugger overhead from release performance before optimizing a frame pipeline.
+- [hinge](https://github.com/artemnovichkov/hinge?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Hinge sets an iPhone Duo simulator fold angle from the command line by compiling and caching a small helper. Useful for scripted pose checks when Device Hub's manual slider is insufficient.
+- [Michael Tsai - Blog - Jumping to 27.2Jumping to 27.2Michael J. Tsai](https://mjtsai.com/blog/2026/09/17/jumping-to-27-2?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article · Topics: Testing · Xcode
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Explains Apple's unusual iOS 27.2 beta numbering alongside the iPhone Duo's 27.1 release path. Useful as dated release context when interpreting SDK and TestFlight compatibility during the transition.
 - [Spek](https://spek.app/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: App Distribution & Store Operations · Objective-C & Cocoa
   **Published:** `2026-09-18T06:41:54.696Z`
   **NeKI brief:** Uses App Store Connect credentials to research keywords and competitors, draft localized metadata, and track ranking or visibility across markets. Useful for evaluating agent-assisted ASO workflows and their account-access boundary.
@@ -1041,7 +1059,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Every day is a great day to remove (or advocate for the removal of) the Facebook SDK from your apps, but today is an especially… great… day… 🙄 How many times will Facebook get away with causing half the apps in the App Store to crash on startup? I linked to…
 - [day](https://github.com/facebook/facebook-ios-sdk/issues/1427) — iOS Dev Weekly · Issue 464 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
   **Published:** `10th July 2020`
-  **NeKI brief:** The Facebook iOS SDK issue page records a public developer issue and its discussion about SDK behavior and integration.
+  **NeKI brief:** Records the July 2020 Facebook iOS SDK startup crash in FBSDKRestrictiveDataFilterManager, with production crash counts and the affected SDK version. Useful as a concrete precedent for remotely triggered third-party SDK failures.
 - [this post by Gui Rambo](https://rambo.codes/posts/2020-05-07-the-big-facebook-crash) — iOS Dev Weekly · Issue 464 — Article · Topics: App Distribution & Store Operations
   **Published:** `10th July 2020`
   **NeKI brief:** Analyzes the 2020 Facebook crash and how third-party SDK dependencies can amplify failure across apps. Useful for dependency-risk reviews, especially when deciding which external components deserve isolation, monitoring, or rapid removal paths.

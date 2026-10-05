@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.swiftbysundell.com/archive/](https://www.swiftbysundell.com/archive/)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **483**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **484**
 
+- [Using Swift’s ‘some’ keyword beyond SwiftUI | Swift by Sundell](https://www.swiftbysundell.com/articles/using-swifts-some-keyword-beyond-swiftui)
+  **Published:** `2026-09-30`
+  **Topics:** Swift
+  **NeKI brief:** Uses opaque result types to hide complex concrete generic return types while preserving a single underlying type. The examples show where some improves API boundaries outside SwiftUI and where ordinary protocol values behave differently.
 - [Why Swift is introducing a warning for weak captures within nested closures | Swift by Sundell](https://www.swiftbysundell.com/articles/warning-for-nested-weak-self-closure-captures)
   **Published:** `2026-08-30`
   **Topics:** Swift

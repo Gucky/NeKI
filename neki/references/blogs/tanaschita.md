@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://tanaschita.com/](https://tanaschita.com/)
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed entries: **192**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **195**
 
 - [Understanding Xcode targets, schemes and build configurations](https://tanaschita.com/xcode-targets-schemes)
   **Topics:** Xcode
@@ -48,6 +48,12 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Getting started with UI Testing for SwiftUI](https://tanaschita.com/testing-ui-swiftui-xctest-framework)
   **Topics:** Swift · SwiftUI · Testing · Xcode
   **NeKI brief:** Demonstrates UI testing SwiftUI applications with XCTest, including accessibility-driven queries and interaction assertions. Useful for testing user-visible behavior without coupling tests to implementation details.
+- [Parameterized tests and test organization with Swift Testing](https://tanaschita.com/testing-swift-testing-parameterized-tests)
+  **Topics:** Testing
+  **NeKI brief:** Replaces repetitive test functions with parameterized cases and organizes a larger suite through nested suites and tags. Useful when the same behavior must be checked across many inputs without losing individual failure reporting.
+- [Developer guide on Swift Testing for iOS](https://tanaschita.com/testing-swift-testing-overview)
+  **Topics:** Testing
+  **NeKI brief:** Introduces Swift Testing's test functions, expectations, traits, and suites, then compares migration choices from XCTest. Useful as an orientation for organizing new tests before adopting more advanced parameterization.
 - [How to unit test async/await functions in Swift](https://tanaschita.com/testing-swift-async-await)
   **Topics:** Concurrency · Swift · Testing
   **NeKI brief:** Demonstrates that XCTest methods can be marked async and await asynchronous work directly, eliminating manual XCTestExpectation bookkeeping. Throwing functions use try in the test, making success and failure paths explicit while keeping the test focused on returned behavior.
@@ -423,6 +429,9 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Supporting sufficient contrast accessibility with Xcode's Color Contrast Calculator](https://tanaschita.com/ios-accessibility-contrast)
   **Topics:** Accessibility · Xcode
   **NeKI brief:** Demonstrates Xcode's Color Contrast Calculator for checking foreground/background combinations. Use it as a concrete visual-QA step for text and controls, especially where custom palette choices may fail low-vision contrast needs.
+- [Automating accessibility audits for SwiftUI apps with XCTest](https://tanaschita.com/ios-accessibility-automated-audits)
+  **Topics:** Accessibility · Testing
+  **NeKI brief:** Adds XCTest accessibility audits to a SwiftUI UI test to catch missing descriptions, contrast problems, and clipped text. Useful for establishing automated coverage while still checking interactions that require manual assistive-technology testing.
 - [GraphQL essentials for iOS development](https://tanaschita.com/graphql-essentials-for-ios)
   **Topics:** Networking
   **NeKI brief:** GraphQL essentials frames schema, queries and selected fields from an iOS client perspective. The key trade-off is flexible payload shape versus client and server schema coordination, especially as queries become feature-specific.

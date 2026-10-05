@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** C/C++, assembly, linking, allocators, memory layout, and systems tooling relevant to Apple platforms.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **72**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed links shown: **74**
 
 ## Direct-source reading
 
@@ -49,6 +49,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Blinker](https://apps.apple.com/in/app/blinker-focus-without-strain/id6753800447) — iOS Dev Tools · iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown — Article · Topics: Systems Programming
+  **Published:** `2026-09-24T16:20:24.417Z`
+  **NeKI brief:** Blinker presents timed blink and break reminders with configurable animations based on the 20-20-20 routine. Useful as an example of a low-interruption screen-time aid rather than a developer API resource.
+- [Swift 6.4 Released](https://www.swift.org/blog/swift-6.4-released) — Those Who Swift · Issue 285 — Article · Topics: Swift · Systems Programming
+  **Published:** `2026-09-23T21:06:47.068Z`
+  **NeKI brief:** Summarises Swift 6.4 across language, concurrency, testing, SwiftPM and Swift Build, debugging, interoperability, WebAssembly, Android, Embedded Swift, and noncopyable data structures. Use its proposal links to investigate individual changes.
 - [Multiplatform Swift, with C++ dependencies via XCFramework, apt and vcpkg](https://l.fatbobman.com/w0152-04) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Dependency Injection · Swift · Systems Programming
   **Published:** `2026-09-07T12:03:43.098Z`
   **NeKI brief:** Builds one Swift package around a C++ dependency across macOS, Linux, and Windows using XCFramework, apt, and vcpkg respectively. It exposes the packaging trade-offs behind a nominally shared API.

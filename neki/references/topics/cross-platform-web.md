@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Cross-platform, Android, Flutter, web, and interoperability work adjacent to Apple-platform development.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **679**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed links shown: **681**
 
 ## Direct-source reading
 
@@ -111,6 +111,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [McKinley: The SF Symbols Editor Apple Never Built](https://amerpie.lol/2026/09/08/mckinley-the-sf-symbols-editor.html) — Those Who Swift · Issue 286 — Article · Topics: Cross-Platform & Web · Graphics, Media & Games · Testing
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Tests McKinley as a Mac editor for custom SF Symbols weights, scales, and export rules, noting both strengths and rough edges. Useful when evaluating symbol-authoring tools through an independent hands-on account.
+- [Enriched Markdown: Cross-Platform Markdown Rendering and Editing Without a WebView](https://l.fatbobman.com/w0154-08) — Fatbobman’s Swift Weekly · Issue 154 — Article · Topics: Cross-Platform & Web · Graphics, Media & Games
+  **Published:** `2026-09-21T12:01:38.360Z`
+  **NeKI brief:** Enriched Markdown renders and edits rich text with native platform components while retaining Markdown output, including a Swift SDK for iOS. Useful when weighing a native editor against a WebView-based approach.
 - [fullcoverage](https://github.com/Shadester/fullcoverage) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `2026-09-18T06:41:54.696Z`
   **NeKI brief:** Implements a Swift command-line tool that reads Xcode xcresult bundles and produces multi-file HTML coverage reports with line, branch, function, per-file, and aggregate views.

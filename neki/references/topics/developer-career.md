@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Career development, workplace practice, communication, learning, leadership, and sustainable engineering habits.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **253**
+- Last collected: `2026-10-02T13:43:36Z`
+- Indexed links shown: **256**
 
 ## Direct-source reading
 
+- [It’s Over | Swiftjective-C](https://swiftjectivec.com/Its-Over) — Swiftjective-C · article catalogue
+  **Published:** `2026-09-26T00:00:00-05:00`
+  **NeKI brief:** Reflects on how agent-assisted code generation changes the daily work and identity of a software engineer. Useful as a dated personal perspective on adaptation, not as evidence that one development workflow has replaced all others.
 - [Introducing... The Tech Tavern Roadmap 🗺️](https://blog.jacobstechtavern.com/p/introducing-the-tech-tavern-roadmap) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2026-08-04T15:03:11.764Z`
   **NeKI brief:** Organises more than three years of iOS writing into experience-based learning paths for foundations, senior-level practice and internals. Follow the roadmap when choosing a coherent progression through the publication instead of searching its archive article by article.
@@ -236,6 +239,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Source repository · Topics: AI Development · Developer Career & Practice
+  **Published:** `2026-10-01T17:02:01.317Z`
+  **NeKI brief:** Provides a local Claude Code workflow for evaluating job postings, tailoring a CV, drafting letters, and interview preparation. Useful as an inspectable example of agent-assisted career work with user-owned files.
+- [It’s Over](https://www.swiftjectivec.com/its-over) — SwiftLee Weekly · Issue 343 — Article · Topics: Developer Career & Practice · Swift
+  **Published:** `2026-09-29T14:08:15.000Z`
+  **NeKI brief:** Reflects on how agent-assisted code generation changes the daily work and identity of a software engineer. Useful as a dated personal perspective on adaptation, not as evidence that one development workflow has replaced all others.
 - [Why Swift is introducing a warning for weak captures within nested closures](https://l.fatbobman.com/w0151-01) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Developer Career & Practice · Swift
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Explains why nested closure capture lists can still retain an object strongly through an outer closure, and why Swift is adding a warning for that pattern. Use it to review ownership intentionally rather than adding weak captures mechanically.

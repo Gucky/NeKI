@@ -3,9 +3,17 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://swiftwithmajid.com/archive/](https://swiftwithmajid.com/archive/)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **301**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **303**
 
+- [Iterative data loading in Swift | Swift with Majid](https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift)
+  **Published:** `2026-09-29T00:00:00+00:00`
+  **Topics:** Concurrency · Health Apps · Performance
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
+- [Backporting SwiftUI APIs | Swift with Majid](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis)
+  **Published:** `2026-09-22T00:00:00+00:00`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.
 - [Building AI features using Foundation Models. Multimodal input. | Swift with Majid](https://swiftwithmajid.com/2026/09/01/building-ai-features-using-foundation-models-multimodal-input)
   **Published:** `2026-09-01T00:00:00+00:00`
   **Topics:** AI Development · Swift

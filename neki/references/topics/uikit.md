@@ -4,11 +4,17 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** UIKit view controllers, controls, lifecycle, and interoperability with SwiftUI.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **737**
+- Last collected: `2026-10-05T06:41:52Z`
+- Indexed links shown: **741**
 
 ## Direct-source reading
 
+- [Toolbar overflow and visibility priority on iPhone Duo | Sarunw](https://sarunw.com/posts/toolbar-overflow-and-visibility-priority-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-10-05`
+  **NeKI brief:** Compares default toolbar overflow with task-focused compression on iPhone Duo, then covers a shared overflow menu, visibility priorities, and when to disable vertical bars. Useful for ordering controls under constrained space.
+- [Adapt custom toolbar views for iPhone Duo | Sarunw](https://sarunw.com/posts/adapt-custom-toolbar-views-for-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-10-04`
+  **NeKI brief:** Explains how custom SwiftUI and UIKit toolbar views opt into a vertical bar, adapt to fixed width, and read the vertical edge. Includes legibility checks for Reduce Transparency backgrounds.
 - [Our WWDC 26 series is now free](https://www.pointfree.co/blog/posts/226-our-wwdc-26-series-is-now-free) — Point-Free · article catalogue
   **Published:** `2026-09-06T00:00:00Z`
   **NeKI brief:** Routes to a now-free ten-episode series covering new SwiftUI state and alert APIs, UIKit navigation, and SwiftData comparisons with SQLiteData. Verify each technique against its target SDK and library version.
@@ -1669,6 +1675,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [iPhone Duo for iOS Developers: What Actually Changes in Your Swift Code](https://go.peterfriese.dev/swift-iphone-duo-what-changes-in-swift-code?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: Hardware & Devices · SwiftUI · UIKit
+  **Published:** `2026-10-02`
+  **NeKI brief:** Surveys iPhone Duo changes to scenes, window sizing, asymmetric safe areas, and hinge-aware layouts with Swift examples. Use it as a checklist, then verify API behavior against the current SDK and device.
+- [Building Fold-Aware Layouts with ArrangementView in SwiftUI](https://bleepingswift.com/blog/arrangementview-swiftui-iphone-duo) — Those Who Swift · Issue 286 — Article · Topics: Swift · SwiftUI · UIKit
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Demonstrates ArrangementView split and overlay styles, sizing, and fold-aware rearrangement, alongside the UIKit counterpart. Useful for deciding whether a two-part screen fits the container's primary-secondary model.
 - [Effective Geometry: Layout Without UIScreen.main](https://livsycode.com/uikit/effective-geometry-layout-without-uiscreen-main) — Those Who Swift · Issue 283 — Article · Topics: UIKit
   **Published:** `2026-09-09T20:05:48.711Z`
   **NeKI brief:** Explains why UIScreen.main is wrong for resizable and multi-display UIKit windows, and uses UIWindowScene effective geometry plus change callbacks instead. Useful for migrating layout assumptions to scene-relative space.

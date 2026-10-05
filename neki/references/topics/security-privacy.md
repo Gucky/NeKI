@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Privacy, credentials, secure configuration, encryption, sandboxing, and application security.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **216**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed links shown: **217**
 
 ## Direct-source reading
 
@@ -74,6 +74,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Little Memory 2.0: Moving 15 years of memories off my servers](https://ivanthinking.net/2026/09/22/little-memory-2.0-moving-15-years-of-memories-off-my-servers) — Those Who Swift · Issue 286 — Article · Topics: Architecture · Objective-C & Cocoa · Security & Privacy
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Describes rebuilding a long-running journal app around local storage and iCloud sync, moving private entries off the author's servers. Useful for examining an indie app's data-ownership and migration choices.
 - [Apple Reference Image: A New Approach for Verified Photography](https://security.apple.com/blog/apple-reference-image) — iOS Dev Weekly · Issue 768 — Article · Topics: Graphics, Media & Games · Security & Privacy
   **Published:** `18th September 2026`
   **NeKI brief:** Describes Apple's opt-in Reference Image mode for producing sensor-originated, securely timestamped photographs with verifiable provenance. Follow it for the threat model and cryptographic design behind authenticity checks.

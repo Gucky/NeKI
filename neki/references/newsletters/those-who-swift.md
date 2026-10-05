@@ -3,8 +3,116 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://thosewhoswift.substack.com/archive](https://thosewhoswift.substack.com/archive)
-- Last collected: `2026-09-20T08:49:34Z`
-- Indexed entries: **95**
+- Last collected: `2026-10-05T06:44:56Z`
+- Indexed entries: **100**
+
+## [Devs for Devs: You Are Valuable, Act Like It.](https://thosewhoswift.substack.com/p/devs-for-devs-you-are-valuable-act)
+
+- Published: `2026-10-04T20:18:34.617Z`
+
+**Topics:** Developer Career & Practice · Personal Essays
+
+**Sections:** Those Who Swift · The Battle of the Mind · How I Choose
+
+**NeKI brief:** A developer’s personal account of protecting time for family and focused indie work while shipping apps around a full-time job. Useful as career perspective on priorities and commitment, not implementation guidance.
+
+## [Issue 286](https://thosewhoswift.substack.com/p/those-who-swift-issue-286)
+
+- Published: `2026-09-30T20:30:56.651Z`
+
+**Topics:** Concurrency · Objective-C & Cocoa · Swift · SwiftUI · Testing · Xcode
+
+**Sections:** Those Who Swift · Those Who Swift - Issue 286 · Weekly note ✏️
+
+**NeKI brief:** Uses the iPhone Duo beta to question centered-layout assumptions, then gathers fold-aware UI, Swift concurrency proposals, chart masking, and tooling perspectives. Useful for comparing several independent adaptation approaches.
+
+**Selected links:**
+- [iPhone Duo Simulator: Testing and optimizing your SwiftUI app](https://www.avanderlee.com/swiftui/iphone-duo-simulator) — Article · Topics: Swift · SwiftUI · Testing
+  **NeKI brief:** Walks through testing a SwiftUI app in the iPhone Duo simulator, including window resizing, adaptive layout, vertical controls, and hinge behavior. Use it to build a device-specific inspection checklist, then verify individual APIs against the installed SDK.
+- [Building Fold-Aware Layouts with ArrangementView in SwiftUI](https://bleepingswift.com/blog/arrangementview-swiftui-iphone-duo) — Article · Topics: Swift · SwiftUI · UIKit
+  **NeKI brief:** Demonstrates ArrangementView split and overlay styles, sizing, and fold-aware rearrangement, alongside the UIKit counterpart. Useful for deciding whether a two-part screen fits the container's primary-secondary model.
+- [Making Xcode and agents share incremental builds](https://sergdort.github.io/xcode-agent-incremental-builds) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Investigates duplicated build work when an agent builds through XcodeBuildMCP and a developer then switches to Xcode. Useful for understanding shared build directories and the conditions needed for incremental reuse.
+- [Using Swift's 'some' keyword beyond SwiftUI](https://www.swiftbysundell.com/articles/using-swifts-some-keyword-beyond-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Uses opaque result types to hide complex concrete generic return types while preserving a single underlying type. The examples show where some improves API boundaries outside SwiftUI and where ordinary protocol values behave differently.
+- [Deployment Target Conditional Compilation](https://forums.swift.org/t/se-0554-deployment-target-conditional-compilation/89822) — Article · Topics: Objective-C & Cocoa · Swift
+  **NeKI brief:** Hosts review of compile-time conditions based on a deployment target, including syntax and cross-platform questions. Useful for evaluating a proposed way to remove unavailable code paths during compilation.
+- [Stop Sleeping: Deterministic Tests for Concurrent Swift Code](https://raska.io/blog/testing-concurrent-code) — Article · Topics: Swift · Testing
+  **NeKI brief:** Builds deterministic tests for concurrent Swift code with spies that coordinate success, failure, timeout, and cancellation paths. Useful when sleep-based timing makes an asynchronous test suite flaky.
+- [Swipe Actions Beyond Lists in SwiftUI](https://serialcoder.dev/swiftui/swipe-actions-beyond-lists-in-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Applies SwiftUI's swipeActionsContainer to items in a grid, extending the familiar swipe-action interaction beyond List. Useful for checking gesture discoverability and layout behavior in a different container.
+- [SwiftUI Charts: Dynamic Masking](https://antongubarenko.substack.com/p/swiftui-charts-dynamic-masking) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Uses a moving mask over Swift Charts to keep values before a selected point prominent while dimming the remainder. The technique preserves the full dataset and avoids rebuilding chart marks for each interaction.
+- [What minimumScaleFactor trades away in SwiftUI](https://salari.dev/writing/what-minimum-scale-factor-trades-away-in-swiftui) — Article · Topics: Concurrency · Swift · SwiftUI
+  **NeKI brief:** Measures how independently shrinking SwiftUI text with minimumScaleFactor can disturb neighboring typography and Dynamic Type hierarchy. Useful when a compact label seems to fit but no longer reads consistently across sizes.
+- [McKinley: The SF Symbols Editor Apple Never Built](https://amerpie.lol/2026/09/08/mckinley-the-sf-symbols-editor.html) — Article · Topics: Cross-Platform & Web · Graphics, Media & Games · Testing
+  **NeKI brief:** Tests McKinley as a Mac editor for custom SF Symbols weights, scales, and export rules, noting both strengths and rough edges. Useful when evaluating symbol-authoring tools through an independent hands-on account.
+- [Little Memory 2.0: Moving 15 years of memories off my servers](https://ivanthinking.net/2026/09/22/little-memory-2.0-moving-15-years-of-memories-off-my-servers) — Article · Topics: Architecture · Objective-C & Cocoa · Security & Privacy
+  **NeKI brief:** Describes rebuilding a long-running journal app around local storage and iCloud sync, moving private entries off the author's servers. Useful for examining an indie app's data-ownership and migration choices.
+- [Xcode 27.1 Beta: Your App in the iPhone Duo Simulator](https://blakecrosley.com/blog/xcode-27-1-beta-iphone-duo-simulator) — Article · Topics: Xcode
+  **NeKI brief:** Inspects the Xcode 27.1 beta iPhone Duo simulator, SDK APIs, display profiles, and behavior by pose. Useful as dated empirical notes for planning checks, with device behavior still requiring current validation.
+- [This Filename Breaks iOS, And That's Boring Now](https://www.youtube.com/watch?v=Dt4o7hz0B60) — Video · Topics: AI Development · Graphics, Media & Games
+  **NeKI brief:** Investigates an iOS image-rendering bug tied to particular filenames and IBHashImageName, then reflects on the value of detailed debugging writeups in an AI-assisted workflow. Useful as a technical case study with commentary.
+- [Task Identity](https://forums.swift.org/t/se-0553-task-identity/89728) — Article · Topics: Swift
+  **NeKI brief:** Collects Swift Evolution review of task identity and questions about observable task IDs across concurrency helpers. Useful for understanding debugging motivation and potential semantic constraints before adoption.
+- [This Week in Swift x AI](https://www.natashatherobot.com/p/this-week-in-swift-x-ai-sep25) — Article · Topics: AI Development
+  **NeKI brief:** Rounds up recent Swift and iOS AI work, including coding review tools, small decision models, and device interaction ideas. Useful as a dated set of leads to inspect individually.
+
+## [Devs for Devs: Opening In-App Search from Siri with App Intents in iOS 27](https://thosewhoswift.substack.com/p/devs-for-devs-opening-in-app-search)
+
+- Published: `2026-09-27T20:01:22.051Z`
+
+**Topics:** App Intents & System Surfaces · Cross-Platform & Web · Objective-C & Cocoa · Personal Essays · Security & Privacy · Swift
+
+**Sections:** Those Who Swift · Prefer a System Schema When One Fits · Running the Intent in the App
+
+**NeKI brief:** Shows an App Intents route from Siri's search request into an app's own search UI, including schema choice and warm-versus-cold launch handling. Useful for keeping the intent thin while the app owns result presentation.
+
+## [Issue 285](https://thosewhoswift.substack.com/p/those-who-swift-issue-285)
+
+- Published: `2026-09-23T21:06:47.068Z`
+
+**Topics:** App Intents & System Surfaces · Developer Tools · Graphics, Media & Games · Swift · SwiftUI · Testing
+
+**Sections:** Those Who Swift · Those Who Swift - Issue 285 · Weekly note ✏️
+
+**NeKI brief:** Frames Swift 6.4, debugging metadata, and app-size investigation as examples of debuggability work, then curates BLE simulator testing, Picture in Picture diagnostics, and agent workflow reading. Useful as a dated source map.
+
+**Selected links:**
+- [Swift 6.4 Released](https://www.swift.org/blog/swift-6.4-released) — Article · Topics: Swift · Systems Programming
+  **NeKI brief:** Summarises Swift 6.4 across language, concurrency, testing, SwiftPM and Swift Build, debugging, interoperability, WebAssembly, Android, Embedded Swift, and noncopyable data structures. Use its proposal links to investigate individual changes.
+- [Module Tracking in Swift Debug Info](https://www.swift.org/blog/module-tracking-in-debug-info) — Article · Topics: Developer Tools · Swift
+  **NeKI brief:** Explains Swift 6.3 and 6.4 module tracking in debug information, including more precise LLDB module loading, smaller dSYM bundles, and task-tree inspection for debugging structured concurrency.
+- [Backporting SwiftUI APIs](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis) — Article · Topics: Hardware & Devices · SwiftUI
+  **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.
+- [Diagnosing ForEach performance issues in SwiftUI lazy containers](https://nilcoalescing.com/blog/DiagnosingForEachPerformanceIssuesInSwiftUILazyContainers) — Article · Topics: Performance · Swift · SwiftUI
+  **NeKI brief:** Shows how to enable SwiftUI's ForEach slow-path diagnostic, interpret variable-view-count warnings in List and lazy containers, and restructure conditional or multi-view row content so lazy reuse stays predictable.
+- [From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj) — Article · Topics: Xcode
+  **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
+- [Build Siri experiences across apps, Part 1: Onscreen Awareness](https://sarunw.com/posts/build-siri-experiences-across-apps-part-1-onscreen-awareness) — Article · Topics: App Intents & System Surfaces
+  **NeKI brief:** Shows how to associate visible SwiftUI content with App Entities through NSUserActivity or view annotations, allowing Siri to resolve phrases such as 'this' against what the user currently sees.
+- [My terminal-native setup for parallel coding agents](https://blog.kulman.sk/terminal-native-setup-for-parallel-coding-agents) — Article · Topics: Developer Tools · Personal Essays
+  **NeKI brief:** Describes a parallel-agent setup based on Ghostty, Git worktrees, a terminal multiplexer, and remote access. Useful for comparing concrete isolation and review mechanics when several agents share a repository.
+- [Parameterized tests and test organization with Swift Testing](https://tanaschita.com/testing-swift-testing-parameterized-tests) — Article · Topics: Swift · Testing
+  **NeKI brief:** Replaces repetitive test functions with parameterized cases and organizes a larger suite through nested suites and tags. Useful when the same behavior must be checked across many inputs without losing individual failure reporting.
+- [Fun with AI](https://troz.net/post/2026/fun-with-ai) — Article · Topics: AI Development
+  **NeKI brief:** Reflects on using Claude during a web redesign and on where AI assistance helped or complicated the work. Useful as a personal workflow account from an Apple-platform developer.
+- [Compressing images and PDFs from the Finder context menu](https://danielsaidi.com/blog/2026/09/15/using-automator-workflows-to-compress-images-and-pdfs) — Article · Topics: Testing
+  **NeKI brief:** Creates Finder Quick Actions for compressing images and PDFs locally through Automator. Useful for replacing repeated web uploads with a one-click file workflow while retaining control over the output.
+- [Connecting two iOS simulators over BLE](https://kylebrowning.com/posts/ble-between-two-simulators) — Article
+  **NeKI brief:** Demonstrates BLESwift connecting two iOS simulators through a simulator transport because CoreBluetooth itself reports unsupported there. Useful for testing discovery and streaming flows without physical Bluetooth hardware.
+- [isPictureInPicturePossible was true and PiP still wouldn’t start](https://mcmizzle.com/blog/pip-wont-start-avkit-1001) — Article
+  **NeKI brief:** Diagnoses a Picture in Picture start failure where availability was true but an off-screen AVPlayerLayer triggered an AVKit delegate error. Useful for checking view visibility and delegate reporting before assuming a timing problem.
+
+## [Devs for Devs: Being a Good Developer Isn’t Enough to Build Your Own Product](https://thosewhoswift.substack.com/p/devs-for-devs-being-a-good-developer)
+
+- Published: `2026-09-20T20:30:41.574Z`
+
+**Topics:** App Distribution & Store Operations · Cross-Platform & Web · Graphics, Media & Games · Security & Privacy · Swift
+
+**Sections:** Those Who Swift · It Started With Technology — but Technology Wasn’t the Product · The Technical Trap: Making the Product Better Instead of Getting It Into…
+
+**NeKI brief:** A guest account of shifting an indie product from technical refinement toward audience, distribution, and positioning. Useful for understanding how product decisions can matter more than adding another feature.
 
 ## [Issue 284](https://thosewhoswift.substack.com/p/those-who-swift-issue-284)
 

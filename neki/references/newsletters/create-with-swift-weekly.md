@@ -3,8 +3,46 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.createwithswift.com/](https://www.createwithswift.com/)
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed entries: **73**
+- Last collected: `2026-10-05T06:44:56Z`
+- Indexed entries: **75**
+
+## [Issue 122](https://www.createwithswift.com/weekly-newsletter-issue-122)
+
+- Published: `2026-10-03T10:58:55.000Z`
+
+**Topics:** AI Development · Graphics, Media & Games · Hardware & Devices · SwiftUI · Xcode
+
+**Sections:** The Community · Nachoz · Small Choices, Big Impact: The Environmental Cost of Mobile Design Decisions
+
+**NeKI brief:** Highlights an early iPhone Duo music prototype, then routes to Xcode Preview MCP, Swift Charts hexagonal heatmaps, and backported SwiftUI APIs. Also profiles an indie media app and a local design talk.
+
+**Selected links:**
+- [Letting AI See SwiftUI: Xcode Preview MCP in Practice](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=createwithswift.com) — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts?ref=createwithswift.com) — Article · Topics: Graphics, Media & Games · SwiftUI
+  **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
+- [Backporting SwiftUI APIs](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis?ref=createwithswift.com) — Article · Topics: Hardware & Devices · SwiftUI
+  **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.
+
+## [Issue 121](https://www.createwithswift.com/weekly-newsletter-issue-121)
+
+- Published: `2026-09-25T16:09:07.000Z`
+
+**Topics:** Combine & Reactive Programming · Graphics, Media & Games · Swift · SwiftUI · Testing · Xcode
+
+**Sections:** Napoli Developer Meetup #10 · The Community · Tinker
+
+**NeKI brief:** Collects early iPhone Duo simulator and layout reading after the Xcode 27.1 beta, alongside Swift Charts material. Useful as a dated route to several independent implementation perspectives and the publisher's own weekly articles.
+
+**Selected links:**
+- [SwiftUI Charts: Dynamic MaskingMasking the chart rightAnton’s SubstackAnton Gubarenko](https://antongubarenko.substack.com/p/swiftui-charts-dynamic-masking) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Uses a moving mask over Swift Charts to keep values before a selected point prominent while dimming the remainder. The technique preserves the full dataset and avoids rebuilding chart marks for each interaction.
+- [Configuring SwiftUI toolbars on iPhone Duo](https://nilcoalescing.com/blog/ConfiguringSwiftUIToolbarsOnIPhoneDuo?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains how standard SwiftUI containers adapt navigation, tabs, and toolbar actions into iPhone Duo's vertical bar, then covers item axis behavior and visibility priority. Useful for checking controls that overflow or need a custom representation.
+- [iPhone Duo Simulator: Testing and optimizing your SwiftUI app](https://www.avanderlee.com/swiftui/iphone-duo-simulator?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI · Testing
+  **NeKI brief:** Walks through testing a SwiftUI app in the iPhone Duo simulator, including window resizing, adaptive layout, vertical controls, and hinge behavior. Use it to build a device-specific inspection checklist, then verify individual APIs against the installed SDK.
+- [ArrangementView: Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
 
 ## [Issue 120](https://www.createwithswift.com/weekly-newsletter-issue-120)
 

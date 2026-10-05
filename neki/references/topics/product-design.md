@@ -4,11 +4,17 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App product, visual design, UX, branding, and design-to-code process.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **286**
+- Last collected: `2026-10-02T23:36:48Z`
+- Indexed links shown: **292**
 
 ## Direct-source reading
 
+- [10k MRR in the Most Boring Way Possible | Swiftjective-C](https://swiftjectivec.com/10k-MRR-in-the-Most-Boring-Way-Possible) — Swiftjective-C · article catalogue
+  **Published:** `2026-09-30T00:00:00-05:00`
+  **NeKI brief:** Reflects on reaching a recurring-revenue milestone through repeated product support and incremental improvements. Useful as a developer-business perspective on retention and steady operations rather than a technical growth formula.
+- [Early Design Explorations for iPhone Duo Layouts | Swiftjective-C](https://swiftjectivec.com/Early-Design-Explorations-for-iPhone-Duo-Layouts) — Swiftjective-C · article catalogue
+  **Published:** `2026-09-21T00:00:00-05:00`
+  **NeKI brief:** Shows early Elite Hoops layout sketches for open, closed, and folded iPhone Duo poses. The design exercise explores how existing content can expand into new space without gating core features by device.
 - [Adapting content for iPhone Duo | Sarunw](https://sarunw.com/posts/adapting-content-for-iphone-duo) — Sarunw · article catalogue
   **Published:** `2026-09-14`
   **NeKI brief:** Demonstrates content strategies for iPhone Duo's asymmetric displays: using different inner and outer presentations, separating media from controls across the fold, and keeping important content clear of reserved regions.
@@ -84,6 +90,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [New Site Design, Now Proudly Serving Static HTML – Ole Begemann](https://oleb.net/blog/2011/02/new-site-design-now-proudly-serving-static-html) — Ole Begemann · article catalogue
   **Published:** `2011-02-27T22:50:00Z`
   **NeKI brief:** Describes a static-site publishing pipeline: author Markdown with metadata, compile and preview locally, commit to Git, then deploy generated output with rsync. The exact Nanoc/TextMate stack is historical, but the separation of source, build, preview, and deployment remains clear.
+- [Why You Should Care About Green Coding](https://martiancraft.com/blog/2026/09/why-you-should-care-about-green-coding) — MartianCraft · article catalogue
+  **NeKI brief:** Connects unnecessary background work and inefficient computation to battery drain, heat, and perceived app quality. Useful when prioritizing performance work by device and user impact rather than treating energy use as an abstract metric.
 - [Learning From My Mistakes](https://martiancraft.com/blog/2025/07/learning-from-my-mistakes) — MartianCraft · article catalogue
   **NeKI brief:** The retrospective turns delivery mistakes into process adjustments, useful for identifying repeatable safeguards while keeping conclusions grounded in one team's experience.
 - [Mobile-First Design Principles](https://martiancraft.com/blog/2024/11/mobile-first-design-principles) — MartianCraft · article catalogue
@@ -197,6 +205,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Built to Last](https://lucas.love/blog/built-to-last) — iOS Dev Weekly · Issue 770 — Article · Topics: Architecture · Product Design
+  **Published:** `2nd October 2026`
+  **NeKI brief:** Argues for software that retains its core utility when accounts, subscriptions, and third-party APIs disappear. Useful as an architectural perspective on offline capability and long-term ownership of user data.
+- [Swift Pieces: Free SwiftUI Component Library for iOS](https://go.peterfriese.dev/swiftui-swiftpieces?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: Product Design · SwiftUI
+  **Published:** `2026-10-02`
+  **NeKI brief:** Offers individual SwiftUI components, installation tooling, and examples of motion, haptics, and Dynamic Type. Useful for inspecting a copy-in component library and its accessibility claims before adopting pieces.
+- [Apple Human Interface Guidelines for Agents](https://go.peterfriese.dev/swiftui-hig-agent-skills?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: AI Development · Developer Tools · Product Design
+  **Published:** `2026-10-02`
+  **NeKI brief:** Packages selected Apple HIG material into agent-readable references and a Duo adaptation workflow. Useful for inspecting its source mapping and update process before allowing generated interface advice to guide implementation.
 - [Swift 6.4 Released](https://www.swift.org/blog/swift-6.4-released) — iOS Dev Weekly · Issue 768 — Article · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `18th September 2026`
   **NeKI brief:** Summarises Swift 6.4 across language, concurrency, testing, SwiftPM and Swift Build, debugging, interoperability, WebAssembly, Android, Embedded Swift, and noncopyable data structures. Use its proposal links to investigate individual changes.

@@ -3,9 +3,17 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.avanderlee.com/](https://www.avanderlee.com/)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **367**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **369**
 
+- [How to reduce token usage in Claude Code, Codex, and Cursor - SwiftLee](https://www.avanderlee.com/ai-development/reduce-token-usage-claude-code-codex-cursor)
+  **Published:** `2026-09-28T12:48:10+00:00`
+  **Topics:** AI Development · Developer Tools
+  **NeKI brief:** Analyzes agent session traces to identify repeated context and costly tool patterns, then applies concise operating rules and a hook to reduce token use. Useful for measuring agent workflow changes rather than guessing from a single prompt.
+- [iPhone Duo Simulator: Testing and optimizing your SwiftUI app - SwiftLee](https://www.avanderlee.com/swiftui/iphone-duo-simulator)
+  **Published:** `2026-09-22T10:14:40+00:00`
+  **Topics:** Hardware & Devices · SwiftUI · Xcode
+  **NeKI brief:** Walks through testing a SwiftUI app in the iPhone Duo simulator, including window resizing, adaptive layout, vertical controls, and hinge behavior. Use it to build a device-specific inspection checklist, then verify individual APIs against the installed SDK.
 - [The iOS Simulator Inside Cursor, Claude Code, and Codex - SwiftLee](https://www.avanderlee.com/ai-development/the-ios-simulator-inside-cursor-claude-code-and-codex)
   **Published:** `2026-09-07T13:07:15+00:00`
   **Topics:** AI Development · Concurrency · Performance · Swift

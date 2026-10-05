@@ -4,11 +4,20 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Git, command-line work, debugging, automation, and practical developer workflows.
 
-- Last collected: `2026-09-20T08:49:34Z`
-- Indexed links shown: **2492**
+- Last collected: `2026-10-05T06:41:52Z`
+- Indexed links shown: **2521**
 
 ## Direct-source reading
 
+- [Letting AI See SwiftUI - Xcode Preview MCP in Practice — Pitfalls and Hopes](https://fatbobman.com/en/posts/letting-ai-see-swiftui) — Fatbobman · article catalogue
+  **Published:** `2026-09-30T14:00:00.000Z`
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [How to reduce token usage in Claude Code, Codex, and Cursor - SwiftLee](https://www.avanderlee.com/ai-development/reduce-token-usage-claude-code-codex-cursor) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-09-28T12:48:10+00:00`
+  **NeKI brief:** Analyzes agent session traces to identify repeated context and costly tool patterns, then applies concise operating rules and a hook to reduce token use. Useful for measuring agent workflow changes rather than guessing from a single prompt.
+- [Introducing SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-27`
+  **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
 - [From pbxproj to xcproj - Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj) — Fatbobman · article catalogue
   **Published:** `2026-09-17T14:30:00.000Z`
   **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
@@ -111,6 +120,90 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Letting AI See SwiftUI: Xcode Preview MCP in Practice](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
+  **Published:** `2026-10-03T10:58:55.000Z`
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [Firebase Analytics crash after sdk-exp response](https://github.com/firebase/firebase-ios-sdk/issues/16728) — iOS Dev Weekly · Issue 770 — Source repository · Topics: Architecture · Developer Tools
+  **Published:** `2nd October 2026`
+  **NeKI brief:** Tracks a production Firebase Analytics crash after an sdk-exp response, including timestamps, affected apps, and the resolution discussion. Useful as primary incident evidence when evaluating remote configuration and SDK dependency risk.
+- [Facebook iOS SDK remote configuration outage](https://github.com/facebook/facebook-ios-sdk/issues/1427) — iOS Dev Weekly · Issue 770 — Source repository · Topics: Developer Tools
+  **Published:** `2nd October 2026`
+  **NeKI brief:** Records the July 2020 Facebook iOS SDK startup crash in FBSDKRestrictiveDataFilterManager, with production crash counts and the affected SDK version. Useful as a concrete precedent for remotely triggered third-party SDK failures.
+- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — iOS Dev Weekly · Issue 770 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2nd October 2026`
+  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
+- [Apple Human Interface Guidelines for Agents](https://go.peterfriese.dev/swiftui-hig-agent-skills?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: AI Development · Developer Tools · Product Design
+  **Published:** `2026-10-02`
+  **NeKI brief:** Packages selected Apple HIG material into agent-readable references and a Duo adaptation workflow. Useful for inspecting its source mapping and update process before allowing generated interface advice to guide implementation.
+- [Obsidian Mind](https://github.com/breferrari/obsidian-mind) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-01T17:02:01.317Z`
+  **NeKI brief:** Connects coding agents to an Obsidian vault that stores session notes, links, and indexes across runs. Useful for evaluating persistent context workflows and inspecting how hooks decide what the agent records.
+- [Compositor](https://github.com/robbietilton/Compositor) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Source repository · Topics: Developer Tools
+  **Published:** `2026-10-01T17:02:01.317Z`
+  **NeKI brief:** An open-source Mac image editor centered on compositing and pixel-accurate post-processing, with an Xcode project available for modification. Useful for assessing a native alternative to general-purpose image tools.
+- [Making Xcode and agents share incremental builds](https://sergdort.github.io/xcode-agent-incremental-builds) — Those Who Swift · Issue 286 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Investigates duplicated build work when an agent builds through XcodeBuildMCP and a developer then switches to Xcode. Useful for understanding shared build directories and the conditions needed for incremental reuse.
+- [Introducing SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Article · Topics: Code Quality · Swift · SwiftUI
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
+- [SE-0504: Task Cancellation Shields](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0504-task-cancellation-shields.md?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Source repository · Topics: Developer Tools · Objective-C & Cocoa · Swift
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Defines Swift task cancellation shields for cleanup that must finish despite a cancelled parent task. The proposal details child-task propagation, cancellation handlers, and the difference between hiding cancellation temporarily and undoing it.
+- [SE-0549](https://forums.swift.org/t/review-se-0549-package-manager-http-proxy-configuration/89513?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Article · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Hosts review of Swift Package Manager HTTP proxy configuration, including questions about command and environment behavior. Useful for following the proposed network-configuration contract and its implementation concerns.
+- [opens a pull request for us](https://github.com/AvdLee/appstoreconnect-swift-sdk/pull/349) — iOS CI Newsletter · Issue 94 — Source repository · Topics: App Distribution & Store Operations · Developer Tools · Swift
+  **Published:** `2026-09-30T00:00:00.000Z`
+  **NeKI brief:** Shows an automated App Store Connect SDK specification update as a concrete pull request. Useful for seeing the generated diff and review boundary in a workflow that checks upstream API specs and proposes changes.
+- [🚨 GitHub is enforcing minimum versions for self-hosted runners](https://github.blog/changelog/2026-09-28-self-hosted-runner-version-enforcement-date-has-moved) — iOS CI Newsletter · Issue 94 — Article · Topics: Developer Tools
+  **Published:** `2026-09-30T00:00:00.000Z`
+  **NeKI brief:** Records the revised GitHub Actions minimum-version enforcement date for self-hosted runners. Useful as dated operational context for CI teams that must monitor runner registration and upgrade policies.
+- [⏱️ Measure the build you ship](https://en.kou-works.jp/blog/debug-build-performance-trap) — iOS CI Newsletter · Issue 94 — Article · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-09-30T00:00:00.000Z`
+  **NeKI brief:** Compares a camera app's slow Vision processing under Xcode's Debug configuration with smooth TestFlight behavior. Useful for distinguishing debugger overhead from release performance before optimizing a frame pipeline.
+- [AcceptedSE-0546Same-file memberwise initializer extensions](https://github.com/apple/swift-evolution/blob/main/proposals/0546-memberwise-init-extensions.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2026-09-29T14:08:15.000Z`
+  **NeKI brief:** Specifies SE-0546, which permits a same-file extension to declare a memberwise initializer with broader access. It defines the matching rules and explains how an explicit initializer interacts with synthesis, helping library authors expose stable construction APIs without changing ABI behavior.
+- [Active ReviewSE-0551`Span` over a single value](https://github.com/apple/swift-evolution/blob/main/proposals/0551-span-of-one.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2026-09-29T14:08:15.000Z`
+  **NeKI brief:** Proposes borrowing a single value as Span or MutableSpan, with raw-byte variants, without copying into CollectionOfOne. Useful when adapting values to span-taking APIs, including noncopyable values.
+- [Active ReviewSE-0552Rounding of `Float.pi`](https://github.com/apple/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2026-09-29T14:08:15.000Z`
+  **NeKI brief:** Proposes allowing FloatingPoint.pi to use nearest rounding instead of always rounding toward zero, with a corresponding Float.pi change. Useful for reviewing numerical-compatibility effects before the language decision is final.
+- [Active ReviewSE-0553Task Identity](https://github.com/apple/swift-evolution/blob/main/proposals/0553-task-identity.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
+  **Published:** `2026-09-29T14:08:15.000Z`
+  **NeKI brief:** Proposes a cheap process-unique Task.ID for tracing, structured logs, and profilers across suspension points. Useful for evaluating always-on task attribution without relying on pointer identity or expensive closure-based inspection.
+- [tried](https://github.com/Alex-Ozun/swift-effect) — iOS Dev Weekly · Issue 769 — Source repository · Topics: Developer Tools · Swift · Testing
+  **Published:** `25th September 2026`
+  **NeKI brief:** Swift Effect models I/O and other side effects behind effect handlers so behavior can be replaced in tests without restructuring the whole app. Useful for evaluating explicit effect control in concurrent code.
+- [From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
+- [hinge](https://github.com/artemnovichkov/hinge?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Hinge sets an iPhone Duo simulator fold angle from the command line by compiling and caching a small helper. Useful for scripted pose checks when Device Hub's manual slider is insufficient.
+- [iPhone Duo by Examples](https://github.com/artemnovichkov/iPhone-Duo-by-Examples?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Source repository · Topics: Developer Tools
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Provides runnable SwiftUI examples for hinge state, reserved regions, ArrangementView, and vertical toolbars in the iPhone Duo simulator. Useful for isolating one new API before adapting an existing screen.
+- [ItsPaint](https://github.com/joshlin2201/itspaint) — iOS Dev Tools · iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown — Source repository · Topics: Developer Tools
+  **Published:** `2026-09-24T16:20:24.417Z`
+  **NeKI brief:** ItsPaint is a free Mac painting and screenshot-markup app whose UI-free PaintKit engine is also packaged for Swift reuse. Useful when reviewing native annotation workflows or the underlying raster code.
+- [PinkDown](https://github.com/3xian/PinkDown) — iOS Dev Tools · iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown — Source repository · Topics: Developer Tools
+  **Published:** `2026-09-24T16:20:24.417Z`
+  **NeKI brief:** PinkDown provides a fast split-pane Markdown editor and live preview on macOS and Windows, built in Rust. Useful for comparing a desktop file editor with browser-based Markdown workspaces.
+- [Module Tracking in Swift Debug Info](https://www.swift.org/blog/module-tracking-in-debug-info) — Those Who Swift · Issue 285 — Article · Topics: Developer Tools · Swift
+  **Published:** `2026-09-23T21:06:47.068Z`
+  **NeKI brief:** Explains Swift 6.3 and 6.4 module tracking in debug information, including more precise LLDB module loading, smaller dSYM bundles, and task-tree inspection for debugging structured concurrency.
+- [My terminal-native setup for parallel coding agents](https://blog.kulman.sk/terminal-native-setup-for-parallel-coding-agents) — Those Who Swift · Issue 285 — Article · Topics: Developer Tools · Personal Essays
+  **Published:** `2026-09-23T21:06:47.068Z`
+  **NeKI brief:** Describes a parallel-agent setup based on Ghostty, Git worktrees, a terminal multiplexer, and remote access. Useful for comparing concrete isolation and review mechanics when several agents share a repository.
+- [Active ReviewSE-0550@noSanitize attribute for functions](https://github.com/apple/swift-evolution/blob/main/proposals/0550-nosanitize-attribute.md) — SwiftLee Weekly · Issue 342 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-09-22T14:09:31.000Z`
+  **NeKI brief:** Proposes a function-level noSanitize attribute and a sanitized compilation condition so selected sanitizer instrumentation can be disabled deliberately. Useful for reviewing false-positive and performance cases alongside the inlining constraints.
+- [Hinge: Set the Duo Simulator’s Fold Angle from the Command Line](https://l.fatbobman.com/w0154-07) — Fatbobman’s Swift Weekly · Issue 154 — Article · Topics: Developer Tools · Xcode
+  **Published:** `2026-09-21T12:01:38.360Z`
+  **NeKI brief:** Hinge exposes an iPhone Duo simulator fold-angle control to scripts and coding agents where simctl and devicectl do not provide one. Its small compiled helper supports repeatable pose testing beyond manual Device Hub interaction.
 - [From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj?ref=createwithswift.com) — Create with Swift · Issue 120 — Article · Topics: Swift · Xcode
   **Published:** `2026-09-18T16:00:51.000Z`
   **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
@@ -252,9 +345,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Returned For RevisionSE-0539Enable Macros to Grant `self` Access for Property Initializers](https://github.com/apple/swift-evolution/blob/main/proposals/0539-self-access-for-property-initializers.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Macros & Metaprogramming · Swift
   **Published:** `2026-08-25T14:06:16.000Z`
   **NeKI brief:** Proposal SE-0539 explores allowing attached macros to grant controlled self access during property initialization. Follow it when macro-generated storage needs enclosing-instance context, while checking review status and initialization-safety constraints before relying on the feature.
-- [Active ReviewSE-0546Same-file memberwise initializer extensions](https://github.com/apple/swift-evolution/blob/main/proposals/0546-memberwise-init-extensions.md) — SwiftLee Weekly · Issue 338 — Source repository · Topics: Developer Tools · Swift
-  **Published:** `2026-08-25T14:06:16.000Z`
-  **NeKI brief:** Specifies SE-0546, which permits a same-file extension to declare a memberwise initializer with broader access. It defines the matching rules and explains how an explicit initializer interacts with synthesis, helping library authors expose stable construction APIs without changing ABI behavior.
 - [ArcBLEKit](https://github.com/ilawsonlu/ArcBLEKit) — Fatbobman’s Swift Weekly · Issue 150 — Source repository · Topics: Concurrency · Developer Tools · Objective-C & Cocoa
   **Published:** `2026-08-24T12:03:48.210Z`
   **NeKI brief:** Provides a zero-dependency Swift Concurrency package for BLE central apps on iOS 14 and macOS 11 onward. Its cancellable scanning, connection, GATT, notification, timeout, reconnect, and write-backpressure APIs show how to contain CoreBluetooth delegate complexity.
@@ -4200,9 +4290,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [great](https://github.com/facebook/facebook-ios-sdk/issues/1430) — iOS Dev Weekly · Issue 464 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
   **Published:** `10th July 2020`
   **NeKI brief:** Every day is a great day to remove (or advocate for the removal of) the Facebook SDK from your apps, but today is an especially… great… day… 🙄 How many times will Facebook get away with causing half the apps in the App Store to crash on startup? I linked to…
-- [day](https://github.com/facebook/facebook-ios-sdk/issues/1427) — iOS Dev Weekly · Issue 464 — Source repository · Topics: App Distribution & Store Operations · Developer Tools
-  **Published:** `10th July 2020`
-  **NeKI brief:** The Facebook iOS SDK issue page records a public developer issue and its discussion about SDK behavior and integration.
 - [Meter](https://github.com/ChimeHQ/Meter) — iOS Dev Weekly · Issue 464 — Source repository · Topics: Developer Tools
   **Published:** `10th July 2020`
   **NeKI brief:** The GitHub repository contains Meter, an open-source developer project whose source and documentation are publicly inspectable.

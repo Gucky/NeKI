@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift concurrency, async/await, actors, Sendable, tasks, cancellation, and diagnostics.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **1236**
+- Last collected: `2026-10-02T23:34:56Z`
+- Indexed links shown: **1239**
 
 ## Direct-source reading
 
+- [Iterative data loading in Swift | Swift with Majid](https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift) — Swift with Majid · article catalogue
+  **Published:** `2026-09-29T00:00:00+00:00`
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
 - [The iOS Simulator Inside Cursor, Claude Code, and Codex - SwiftLee](https://www.avanderlee.com/ai-development/the-ios-simulator-inside-cursor-claude-code-and-codex) — Antoine van der Lee articles · article catalogue
   **Published:** `2026-09-07T13:07:15+00:00`
   **NeKI brief:** Shows how keeping a live iOS Simulator beside an agentic editor shortens the prompt, run, and review loop for interface work. It also frames visual inspection and performance evidence as continuing developer responsibilities.
@@ -2265,6 +2268,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [withTaskCancellationShield: Swift 6.4 new feature](https://www.swiftdifferently.com/blog/swift/concurrency/with-task-cancellation-shield) — iOS Dev Weekly · Issue 770 — Article · Topics: Concurrency · Swift
+  **Published:** `2nd October 2026`
+  **NeKI brief:** Walks through Swift 6.4 withTaskCancellationShield and cleanup that must continue after task cancellation. Use the examples to examine cancellation boundaries and ensure protected work remains deliberately scoped.
+- [What minimumScaleFactor trades away in SwiftUI](https://salari.dev/writing/what-minimum-scale-factor-trades-away-in-swiftui) — Those Who Swift · Issue 286 — Article · Topics: Concurrency · Swift · SwiftUI
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Measures how independently shrinking SwiftUI text with minimumScaleFactor can disturb neighboring typography and Dynamic Type hierarchy. Useful when a compact label seems to fit but no longer reads consistently across sizes.
 - [How Much Should Developers Invest in iPhone Duo?](https://samwize.com/2026/09/14/how-much-should-developers-invest-in-iphone-duo) — Those Who Swift · Issue 284 — Article · Topics: Concurrency
   **Published:** `2026-09-17T06:08:23.173Z`
   **NeKI brief:** Balances iPhone Duo's substantial layout and testing work against projected adoption, helping teams decide how deeply to optimize beyond baseline adaptive behavior during the device's first year.

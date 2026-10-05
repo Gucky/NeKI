@@ -3,8 +3,66 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://newsletter.avanderlee.com/posts](https://newsletter.avanderlee.com/posts)
-- Last collected: `2026-09-20T08:49:34Z`
-- Indexed entries: **101**
+- Last collected: `2026-10-02T13:43:36Z`
+- Indexed entries: **103**
+
+## [Issue 343](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-343)
+
+- Published: `2026-09-29T14:08:15.000Z`
+
+**Topics:** Code Quality · Developer Community & Business · Developer Tools · Swift · SwiftUI · Xcode
+
+**Sections:** SwiftLee Weekly by Antoine van der Lee · How to reduce token usage in Claude Code, Codex, and Cursor · Run cloud agents with Xcode on real Apple Silicon
+
+**NeKI brief:** Collects agent-workflow efficiency, SwiftFairy, SF Symbols automation, an iPhone Duo lab Q&A, and recent Swift Evolution proposals. Useful for following the linked experiments and language discussions individually.
+
+**Selected links:**
+- [The lag was the debugger](https://en.kou-works.jp/blog/debug-build-performance-trap) — Article · Topics: Developer Tools · Performance · Personal Essays
+  **NeKI brief:** Compares a camera app's slow Vision processing under Xcode's Debug configuration with smooth TestFlight behavior. Useful for distinguishing debugger overhead from release performance before optimizing a frame pipeline.
+- [Introducing SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy) — Article · Topics: Code Quality · Swift · SwiftUI
+  **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
+- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
+- [AcceptedSE-0546Same-file memberwise initializer extensions](https://github.com/apple/swift-evolution/blob/main/proposals/0546-memberwise-init-extensions.md) — Source repository · Topics: AI Development · Developer Tools · Swift
+  **NeKI brief:** Specifies SE-0546, which permits a same-file extension to declare a memberwise initializer with broader access. It defines the matching rules and explains how an explicit initializer interacts with synthesis, helping library authors expose stable construction APIs without changing ABI behavior.
+- [Active ReviewSE-0551`Span` over a single value](https://github.com/apple/swift-evolution/blob/main/proposals/0551-span-of-one.md) — Source repository · Topics: AI Development · Developer Tools · Swift
+  **NeKI brief:** Proposes borrowing a single value as Span or MutableSpan, with raw-byte variants, without copying into CollectionOfOne. Useful when adapting values to span-taking APIs, including noncopyable values.
+- [Active ReviewSE-0552Rounding of `Float.pi`](https://github.com/apple/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md) — Source repository · Topics: AI Development · Developer Tools · Swift
+  **NeKI brief:** Proposes allowing FloatingPoint.pi to use nearest rounding instead of always rounding toward zero, with a corresponding Float.pi change. Useful for reviewing numerical-compatibility effects before the language decision is final.
+- [Active ReviewSE-0553Task Identity](https://github.com/apple/swift-evolution/blob/main/proposals/0553-task-identity.md) — Source repository · Topics: AI Development · Developer Tools · Swift
+  **NeKI brief:** Proposes a cheap process-unique Task.ID for tracing, structured logs, and profilers across suspension points. Useful for evaluating always-on task attribution without relying on pointer identity or expensive closure-based inspection.
+- [It’s Over](https://www.swiftjectivec.com/its-over) — Article · Topics: Developer Career & Practice · Swift
+  **NeKI brief:** Reflects on how agent-assisted code generation changes the daily work and identity of a software engineer. Useful as a dated personal perspective on adaptation, not as evidence that one development workflow has replaced all others.
+- [“From App Idea to 10K MRR”](https://www.youtube.com/playlist?list=PLg4qABgFp_nRYMtGFdXz8sUeXb2IDxdPL) — Video · Topics: Graphics, Media & Games
+  **NeKI brief:** Documents building and launching an open-source app toward $10K monthly recurring revenue, including releases, App Store review, crashes, growth, pricing, and technical decisions. Useful for connecting product milestones with implementation trade-offs.
+- [iPhone Duo Group Lab - Q&A](https://antongubarenko.substack.com/p/iphone-duo-group-lab-q-and-a) — Article
+  **NeKI brief:** Organizes Apple engineers' iPhone Duo group-lab answers by practical questions about layout, fold poses, vertical controls, windows, accessibility, and testing. Useful for locating edge cases to verify in the current SDK.
+
+## [Issue 342](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-342)
+
+- Published: `2026-09-22T14:09:31.000Z`
+
+**Topics:** AI Development · Developer Community & Business · Swift · SwiftUI · Testing · Xcode
+
+**Sections:** SwiftLee Weekly by Antoine van der Lee · iPhone Duo Simulator: Testing and optimizing your SwiftUI app · Run cloud agents with Xcode on real Apple Silicon
+
+**NeKI brief:** Collects early iPhone Duo simulator, vertical-toolbar, and layout reading alongside Vapor 5 and Xcode project-format changes. Useful as a dated route from device adaptation to adjacent Swift tooling updates.
+
+**Selected links:**
+- [What's New in Vapor 5 Beta](https://blog.vapor.codes/posts/whats-new-in-vapor-5-beta) — Article · Topics: Macros & Metaprogramming · Personal Essays
+  **NeKI brief:** Walks through Vapor 5 beta's revised APIs, Swift HTTP Types integration, service lifecycle, configuration, and experimental route macros. Useful for estimating migration work beyond the headline release announcement.
+- [The new JSON project format in Xcode 27.2](https://sarunw.com/posts/xcode-json-project-format-xcproj) — Article · Topics: Xcode
+  **NeKI brief:** Walks through Xcode 27.2's project.xcproj JSON structure, conversion workflow, compatibility limits, and merge-oriented benefits, helping teams judge when to move away from project.pbxproj.
+- [Configuring SwiftUI toolbars on iPhone Duo](https://nilcoalescing.com/blog/ConfiguringSwiftUIToolbarsOnIPhoneDuo) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Explains how standard SwiftUI containers adapt navigation, tabs, and toolbar actions into iPhone Duo's vertical bar, then covers item axis behavior and visibility priority. Useful for checking controls that overflow or need a custom representation.
+- [Active ReviewSE-0550@noSanitize attribute for functions](https://github.com/apple/swift-evolution/blob/main/proposals/0550-nosanitize-attribute.md) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** Proposes a function-level noSanitize attribute and a sanitized compilation condition so selected sanitizer instrumentation can be disabled deliberately. Useful for reviewing false-positive and performance cases alongside the inlining constraints.
+- [Early Design Explorations for iPhone Duo Layouts](https://www.swiftjectivec.com/early-design-explorations-for-iphone-duo-layouts) — Article · Topics: Swift
+  **NeKI brief:** Shows early Elite Hoops layout sketches for open, closed, and folded iPhone Duo poses. The design exercise explores how existing content can expand into new space without gating core features by device.
+- [RocketSim's capturing feature](https://www.rocketsim.app/docs/features/capturing/screenshots) — Article · Topics: Graphics, Media & Games
+  **NeKI brief:** Documents RocketSim's simulator and device screenshot capture, including bezels, backgrounds, and App Store Connect sizing. Useful for checking whether an existing capture workflow handles unusual device shapes such as iPhone Duo.
+- [What I Use for iPhone App Development in 2026](https://mattbraun.co/blog/what-i-use-for-iphone-dev-in-2026) — Article
+  **NeKI brief:** Lists a working iPhone developer's everyday Mac and iOS tools with reasons for each choice. Useful as a dated workflow comparison rather than a universal setup recommendation.
 
 ## [Issue 341](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-341)
 

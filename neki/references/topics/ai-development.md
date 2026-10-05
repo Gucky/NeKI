@@ -4,11 +4,20 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple Intelligence, Foundation Models, ML, generative-AI workflows, and developer tooling.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **427**
+- Last collected: `2026-10-05T06:41:52Z`
+- Indexed links shown: **448**
 
 ## Direct-source reading
 
+- [Letting AI See SwiftUI - Xcode Preview MCP in Practice — Pitfalls and Hopes](https://fatbobman.com/en/posts/letting-ai-see-swiftui) — Fatbobman · article catalogue
+  **Published:** `2026-09-30T14:00:00.000Z`
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [How to reduce token usage in Claude Code, Codex, and Cursor - SwiftLee](https://www.avanderlee.com/ai-development/reduce-token-usage-claude-code-codex-cursor) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-09-28T12:48:10+00:00`
+  **NeKI brief:** Analyzes agent session traces to identify repeated context and costly tool patterns, then applies concise operating rules and a hook to reduce token use. Useful for measuring agent workflow changes rather than guessing from a single prompt.
+- [Introducing SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-27`
+  **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
 - [How to export Xcode agent skills with xcrun | Sarunw](https://sarunw.com/posts/export-xcode-agent-skills) — Sarunw · article catalogue
   **Published:** `2026-09-12`
   **NeKI brief:** Documents the xcrun command for exporting Xcode 27's bundled agent skills to another directory, including a fallback when the active developer directory does not expose the agent subcommand.
@@ -222,6 +231,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Shows training a Create ML model and integrating its output into an iOS app. Follow it when routing dataset preparation, model export, and on-device inference responsibilities across the development workflow.
 - [Developer guide on machine learning for iOS with Core ML](https://tanaschita.com/20230313-machine-learning-ios-core-ml) — Tanaschita · article catalogue
   **NeKI brief:** Provides an introductory path from basic machine-learning concepts to loading and using Core ML models in iOS. Follow it when onboarding to the model-consumption boundary, but treat current API and deployment details as version-sensitive.
+- [Getting started with System One models in Swift](https://peterfriese.dev/blog/2026/system-one-models-intro) — Peter Friese articles · article catalogue
+  **NeKI brief:** Introduces a small decision model used from Swift alongside Apple's Foundation Models APIs. It frames deterministic, low-latency question answering as a separate choice from generative output and shows how to integrate the model into an app.
 - [Apple Foundation Models: Hybrid AI with Dynamic Profiles](https://peterfriese.dev/blog/2026/hybrid-ai-apple-foundation-models-gemini) — Peter Friese articles · article catalogue
   **NeKI brief:** Uses Foundation Models dynamic profiles to choose between an on-device model and Gemini through Firebase AI Logic. The design makes privacy, capability, availability, and network trade-offs explicit at the request-routing boundary.
 - [Agentic Coding in Xcode with Gemini CLI](https://peterfriese.dev/blog/2026/agentic-coding-xcode-geminicli) — Peter Friese articles · article catalogue
@@ -273,6 +284,60 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Letting AI See SwiftUI: Xcode Preview MCP in Practice](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
+  **Published:** `2026-10-03T10:58:55.000Z`
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — iOS Dev Weekly · Issue 770 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2nd October 2026`
+  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
+- [TypeSafe’s Jev](https://go.peterfriese.dev/introducing-system-one-models-and-jev?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: AI Development
+  **Published:** `2026-10-02`
+  **NeKI brief:** Presents TypeSafe’s Jev as a fast model for typed, bounded decisions rather than generated prose. Useful for understanding the vendor’s architecture and calibration claims before measuring them against a real workflow.
+- [Apple Human Interface Guidelines for Agents](https://go.peterfriese.dev/swiftui-hig-agent-skills?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: AI Development · Developer Tools · Product Design
+  **Published:** `2026-10-02`
+  **NeKI brief:** Packages selected Apple HIG material into agent-readable references and a Duo adaptation workflow. Useful for inspecting its source mapping and update process before allowing generated interface advice to guide implementation.
+- [interactive System One explainer](https://go.peterfriese.dev/system-one-explainer?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: AI Development
+  **Published:** `2026-10-02`
+  **NeKI brief:** Explains bounded probabilistic decisions through interactive examples and a Jev workflow. Useful for separating fast model predictions from subsequent validation and for questioning where deterministic checks still belong.
+- [How To Write With An LLM](https://go.peterfriese.dev/ai-how-to-write-with-an-llm?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: AI Development · Developer Community & Business
+  **Published:** `2026-10-02`
+  **NeKI brief:** Proposes writing the first draft yourself and using an LLM for critique and copyediting. Useful as an editorial workflow for preserving author voice while catching structural and clarity problems.
+- [ActionClip](https://actionclip.app/) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Article · Topics: AI Development
+  **Published:** `2026-10-01T17:02:01.317Z`
+  **NeKI brief:** ActionClip puts translation, rewriting, copying, and custom actions in macOS text-selection workflows, with local or connected AI options. Useful when comparing selection-based automation with a separate launcher or editor extension.
+- [Obsidian Mind](https://github.com/breferrari/obsidian-mind) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Source repository · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-01T17:02:01.317Z`
+  **NeKI brief:** Connects coding agents to an Obsidian vault that stores session notes, links, and indexes across runs. Useful for evaluating persistent context workflows and inspecting how hooks decide what the agent records.
+- [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Source repository · Topics: AI Development · Developer Career & Practice
+  **Published:** `2026-10-01T17:02:01.317Z`
+  **NeKI brief:** Provides a local Claude Code workflow for evaluating job postings, tailoring a CV, drafting letters, and interview preparation. Useful as an inspectable example of agent-assisted career work with user-owned files.
+- [This Week in Swift x AI](https://www.natashatherobot.com/p/this-week-in-swift-x-ai-sep25) — Those Who Swift · Issue 286 — Article · Topics: AI Development
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Rounds up recent Swift and iOS AI work, including coding review tools, small decision models, and device interaction ideas. Useful as a dated set of leads to inspect individually.
+- [This Filename Breaks iOS, And That's Boring Now](https://www.youtube.com/watch?v=Dt4o7hz0B60) — Those Who Swift · Issue 286 — Video · Topics: AI Development · Graphics, Media & Games
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Investigates an iOS image-rendering bug tied to particular filenames and IBHashImageName, then reflects on the value of detailed debugging writeups in an AI-assisted workflow. Useful as a technical case study with commentary.
+- [Introducing SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Article · Topics: Code Quality · Swift · SwiftUI
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
+- [Part 1](https://calcopilot.app/blog/posts/running-ios-background-tasks-reliably-part1) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: AI Development · App Services & Extensions · Personal Essays
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Documents lessons learned while pursuing reliable iOS background-task execution in iOS 26. The article focuses on the practical reliability gap between scheduling background work and getting it to run consistently, which is useful when designing refresh and deferred-processing workflows.
+- [Dissecting Xcode 27’s mcpbridge: Apple Skipped swift-sdk and Built Its Own MCP Stack](https://l.fatbobman.com/w0155-04) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: AI Development · Swift · Xcode
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Examines Xcode 27 MCP bridge binaries and proposes a three-process architecture with a JSON-RPC front end, XPC backend, and layered permission checks. Treat the reverse-engineered findings as implementation evidence, not a public API contract.
+- [SwiftFairy: A SwiftUI Review Tool That Keeps Agents from Forgetting What They’ve Read](https://l.fatbobman.com/w0155-13) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: AI Development · Swift · SwiftUI
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Introduces SwiftFairy's local MCP review of agent-written Swift and SwiftUI, with line-specific findings and repair guidance. Useful as a concrete static-review workflow while keeping build and runtime validation separate.
+- [Making Xcode and agents share incremental builds](https://sergdort.github.io/xcode-agent-incremental-builds) — iOS Dev Weekly · Issue 769 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `25th September 2026`
+  **NeKI brief:** Investigates duplicated build work when an agent builds through XcodeBuildMCP and a developer then switches to Xcode. Useful for understanding shared build directories and the conditions needed for incremental reuse.
+- [Fun with AI](https://troz.net/post/2026/fun-with-ai) — Those Who Swift · Issue 285 — Article · Topics: AI Development
+  **Published:** `2026-09-23T21:06:47.068Z`
+  **NeKI brief:** Reflects on using Claude during a web redesign and on where AI assistance helped or complicated the work. Useful as a personal workflow account from an Apple-platform developer.
+- [How we built Devin’s Mac](https://l.fatbobman.com/w0154-01) — Fatbobman’s Swift Weekly · Issue 154 — Article · Topics: AI Development
+  **Published:** `2026-09-21T12:01:38.360Z`
+  **NeKI brief:** Describes the virtualized macOS infrastructure behind Devin's cloud agent, including how remote machines can compile and exercise Apple-platform apps. Useful for understanding permissions, simulator access, and feedback loops that local agents take for granted.
 - [pen.dev](https://www.pen.dev/) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Article · Topics: AI Development · App Distribution & Store Operations
   **Published:** `2026-09-18T06:41:54.696Z`
   **NeKI brief:** Combines an editable design canvas with multiple hosted or subscription-backed AI models, MCP, WebMCP, and CLI connections so agents can generate interface ideas that remain manually refinable and exportable to code.
@@ -306,9 +371,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [agentic skill](https://youtu.be/rAvlt9Dvgbo?si=SUHzOy3YLZ3m-N-j&t=855) — iOS Dev Weekly · Issue 765 — Video · Topics: AI Development · Xcode
   **Published:** `28th August 2026`
   **NeKI brief:** Links to a video segment about Apple-platform agentic skills. Treat it as a discovery lead and verify tool behaviour against current primary documentation.
-- [Running iOS Background Tasks Reliably, Part 1](https://calcopilot.app/blog/posts/running-ios-background-tasks-reliably-part1) — Those Who Swift · Issue 281 — Article · Topics: AI Development · App Services & Extensions · Personal Essays
-  **Published:** `2026-08-26T20:38:31.643Z`
-  **NeKI brief:** Documents lessons learned while pursuing reliable iOS background-task execution in iOS 26. The article focuses on the practical reliability gap between scheduling background work and getting it to run consistently, which is useful when designing refresh and deferred-processing workflows.
 - [Headless Xcode: From Prompt to Simulator with MCP](https://l.fatbobman.com/w0149-01) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: AI Development · Xcode
   **Published:** `2026-08-17T12:03:38.576Z`
   **NeKI brief:** Walks through Xcode 27's xcrun mcp-server, its separate service and project permission gates, exported Apple agent skills, headless previews, and simulator verification. It also identifies the beta tooling and administrator-account constraints.

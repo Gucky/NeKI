@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** VoiceOver, Dynamic Type, interaction accessibility, and inclusive interface design.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **243**
+- Last collected: `2026-10-02T23:36:48Z`
+- Indexed links shown: **249**
 
 ## Direct-source reading
 
+- [How to change line height in SwiftUI | Sarunw](https://sarunw.com/posts/swiftui-line-height) — Sarunw · article catalogue
+  **Published:** `2026-10-03`
+  **NeKI brief:** Compares SwiftUI lineHeight options using baseline spacing, font metrics, and larger text. Shows why fixed point heights can clip or fail to scale with Dynamic Type and how multiple-based spacing behaves.
 - [Building an accessible calendar chart with Swift Charts](https://nilcoalescing.com/blog/BuildingAnAccessibleCalendarInSwiftCharts) — Nil Coalescing · article catalogue
   **Published:** `2026-08-27`
   **NeKI brief:** Builds a month-style Swift Charts calendar that combines daily values with VoiceOver-friendly labels and summaries. It shows how chart marks, axis choices, and accessible descriptions can preserve an at-a-glance visual while making the same data understandable without sight.
@@ -396,6 +399,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Covers Dynamic Type support in SwiftUI, including scalable text and layout testing at accessibility sizes. Follow it when fixed frames or custom typography undermine the user's selected reading scale.
 - [Supporting sufficient contrast accessibility with Xcode's Color Contrast Calculator](https://tanaschita.com/ios-accessibility-contrast) — Tanaschita · article catalogue
   **NeKI brief:** Demonstrates Xcode's Color Contrast Calculator for checking foreground/background combinations. Use it as a concrete visual-QA step for text and controls, especially where custom palette choices may fail low-vision contrast needs.
+- [Automating accessibility audits for SwiftUI apps with XCTest](https://tanaschita.com/ios-accessibility-automated-audits) — Tanaschita · article catalogue
+  **NeKI brief:** Adds XCTest accessibility audits to a SwiftUI UI test to catch missing descriptions, contrast problems, and clipped text. Useful for establishing automated coverage while still checking interactions that require manual assistive-technology testing.
 - [WWDC 2025 Recap: A Unified Platform, a New Era of Apple OSs, and Smarter Developer Tools](https://martiancraft.com/blog/2025/06/wwdc-2025) — MartianCraft · article catalogue
   **NeKI brief:** Connects WWDC25 platform changes—Liquid Glass, unified OS releases, iPad multitasking, and Xcode intelligence—to app teams' migration concerns. Use it for orientation, then check each availability and behavior detail in Apple's session material.
 - [Nailing Accessibility in Your iOS Apps: Going Beyond Compliance](https://martiancraft.com/blog/2025/06/nailing-accessibility) — MartianCraft · article catalogue
@@ -417,6 +422,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Little stories on my journey to making Xarra as accessible as possible](https://accessibilityupto11.com/post/2026-09-24-01) — iOS Dev Weekly · Issue 770 — Article · Topics: Accessibility · SwiftUI
+  **Published:** `2nd October 2026`
+  **NeKI brief:** Uses Xarra to explain reading versus speech access, multilingual utterances, configurable word highlighting, and SwiftUI accessibility limitations. Useful as a case study in testing several interaction modes with real content.
+- [iPhone Duo Group Lab - Q&A](https://antongubarenko.substack.com/p/iphone-duo-group-lab-q-and-a) — iOS Code Review · Issue 89 — Article · Topics: Accessibility · Testing
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Organizes Apple engineers' iPhone Duo group-lab answers by practical questions about layout, fold poses, vertical controls, windows, accessibility, and testing. Useful for locating edge cases to verify in the current SDK.
+- [iPhone Duo Group Lab 2 - Q&A](https://antongubarenko.substack.com/p/iphone-duo-group-lab-2-q-and-a) — iOS Code Review · Issue 89 — Article · Topics: Accessibility · Testing
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Continues the iPhone Duo group-lab Q&A with further questions on adaptive layout, system components, camera regions, and tooling. Useful for planning focused device-pose checks after the initial overview.
+- [SwiftUI Charts: Dynamic Masking](https://antongubarenko.substack.com/p/swiftui-charts-dynamic-masking) — iOS Code Review · Issue 89 — Article · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Uses a moving mask over Swift Charts to keep values before a selected point prominent while dimming the remainder. The technique preserves the full dataset and avoids rebuilding chart marks for each interaction.
 - [Object Tracking Updates in visionOS 27 and iOS 27](https://vision.engineer/posts/object-tracking-updates-in-visionOS-27-and-iOS-27) — Those Who Swift · Issue 284 — Article · Topics: Accessibility · Combine & Reactive Programming · Spatial Computing
   **Published:** `2026-09-17T06:08:23.173Z`
   **NeKI brief:** Tests iOS 27 and visionOS 27 object-tracking improvements through an open-source accessibility demo that combines iPhone capture with Vision Pro, documenting higher-frame-rate tracking and reduced earlier limitations.

@@ -3,9 +3,21 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.swiftjectivec.com/allposts](https://www.swiftjectivec.com/allposts)
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed entries: **203**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **206**
 
+- [10k MRR in the Most Boring Way Possible | Swiftjective-C](https://swiftjectivec.com/10k-MRR-in-the-Most-Boring-Way-Possible)
+  **Published:** `2026-09-30T00:00:00-05:00`
+  **Topics:** Developer Community & Business · Product Design
+  **NeKI brief:** Reflects on reaching a recurring-revenue milestone through repeated product support and incremental improvements. Useful as a developer-business perspective on retention and steady operations rather than a technical growth formula.
+- [It’s Over | Swiftjective-C](https://swiftjectivec.com/Its-Over)
+  **Published:** `2026-09-26T00:00:00-05:00`
+  **Topics:** Developer Career & Practice · Personal Essays
+  **NeKI brief:** Reflects on how agent-assisted code generation changes the daily work and identity of a software engineer. Useful as a dated personal perspective on adaptation, not as evidence that one development workflow has replaced all others.
+- [Early Design Explorations for iPhone Duo Layouts | Swiftjective-C](https://swiftjectivec.com/Early-Design-Explorations-for-iPhone-Duo-Layouts)
+  **Published:** `2026-09-21T00:00:00-05:00`
+  **Topics:** Hardware & Devices · Product Design
+  **NeKI brief:** Shows early Elite Hoops layout sketches for open, closed, and folded iPhone Duo poses. The design exercise explores how existing content can expand into new space without gating core features by device.
 - [iPhone Duo: First Developer Good-to-Knows | Swiftjective-C](https://swiftjectivec.com/iPhone-Duo-First-Developer-Good-to-Knows)
   **Published:** `2026-09-09T00:00:00-05:00`
   **Topics:** Swift

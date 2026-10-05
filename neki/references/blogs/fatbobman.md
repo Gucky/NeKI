@@ -3,9 +3,17 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://fatbobman.com/en/posts/](https://fatbobman.com/en/posts/)
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed entries: **237**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **239**
 
+- [Letting AI See SwiftUI - Xcode Preview MCP in Practice — Pitfalls and Hopes](https://fatbobman.com/en/posts/letting-ai-see-swiftui)
+  **Published:** `2026-09-30T14:00:00.000Z`
+  **Topics:** AI Development · Developer Tools · SwiftUI · Xcode
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [ArrangementView - Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange)
+  **Published:** `2026-09-23T14:00:00.000Z`
+  **Topics:** Architecture · Hardware & Devices · SwiftUI
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
 - [From pbxproj to xcproj - Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj)
   **Published:** `2026-09-17T14:30:00.000Z`
   **Topics:** Developer Tools · Xcode

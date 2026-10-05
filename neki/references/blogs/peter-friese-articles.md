@@ -3,9 +3,12 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://peterfriese.dev/](https://peterfriese.dev/)
-- Last collected: `2026-08-18T15:49:52Z`
-- Indexed entries: **43**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **44**
 
+- [Getting started with System One models in Swift](https://peterfriese.dev/blog/2026/system-one-models-intro)
+  **Topics:** AI Development · Swift
+  **NeKI brief:** Introduces a small decision model used from Swift alongside Apple's Foundation Models APIs. It frames deterministic, low-latency question answering as a separate choice from generative output and shows how to integrate the model into an app.
 - [Apple Foundation Models: Hybrid AI with Dynamic Profiles](https://peterfriese.dev/blog/2026/hybrid-ai-apple-foundation-models-gemini)
   **Topics:** AI Development · Networking
   **NeKI brief:** Uses Foundation Models dynamic profiles to choose between an on-device model and Gemini through Firebase AI Logic. The design makes privacy, capability, availability, and network trade-offs explicit at the request-routing boundary.

@@ -3,9 +3,12 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://martiancraft.com/blog/](https://martiancraft.com/blog/)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **117**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **118**
 
+- [Why You Should Care About Green Coding](https://martiancraft.com/blog/2026/09/why-you-should-care-about-green-coding)
+  **Topics:** Performance · Product Design
+  **NeKI brief:** Connects unnecessary background work and inefficient computation to battery drain, heat, and perceived app quality. Useful when prioritizing performance work by device and user impact rather than treating energy use as an abstract metric.
 - [Vibe Coding vs. Engineering](https://martiancraft.com/blog/2026/07/vibe-coding-vs-engineering)
   **Topics:** AI Development
   **NeKI brief:** Contrasts fast AI-assisted prototyping with the engineering work needed to understand, secure, and maintain the resulting system. The article is a useful checklist for deciding where review, testing, and human ownership remain essential.

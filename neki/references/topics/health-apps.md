@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Health-focused app development projects and personal health-data software.
 
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed links shown: **13**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed links shown: **14**
 
 ## Direct-source reading
 
+- [Iterative data loading in Swift | Swift with Majid](https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift) — Swift with Majid · article catalogue
+  **Published:** `2026-09-29T00:00:00+00:00`
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
 - [Five Years Since the Transplant](https://fatbobman.com/en/posts/5th-anniversary-of-kidney-transplant) — Fatbobman · article catalogue
   **Published:** `2023-05-31T00:20:00.000Z`
   **NeKI brief:** The anniversary essay is personal rather than technical, but its account of long-term recovery offers context on how lived constraints shape sustainable project and work decisions.

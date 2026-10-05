@@ -3,8 +3,72 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.fatbobman.com/archive](https://weekly.fatbobman.com/archive)
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed entries: **153**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **155**
+
+## [Issue 155](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-155)
+
+- Published: `2026-09-28T12:02:23.259Z`
+
+**Topics:** AI Development · Graphics, Media & Games · macOS & AppKit · Swift · SwiftUI · Xcode
+
+**Sections:** The Month iPhone Duo Gives Developers · 📢 Sponsor Fatbobman’s Swift Weekly · Original
+
+**NeKI brief:** Frames the short iPhone Duo preparation window around simulator limits and real-device feedback, then collects Swift concurrency, background-task, Xcode MCP, and drawing-tool reading. Useful for planning first-pass adaptation without overfitting to simulated hardware.
+
+**Selected links:**
+- [Dissecting Xcode 27’s mcpbridge: Apple Skipped swift-sdk and Built Its Own MCP Stack](https://l.fatbobman.com/w0155-04) — Article · Topics: AI Development · Swift · Xcode
+  **NeKI brief:** Examines Xcode 27 MCP bridge binaries and proposes a three-process architecture with a JSON-RPC front end, XPC backend, and layered permission checks. Treat the reverse-engineered findings as implementation evidence, not a public API contract.
+- [SwiftFairy: A SwiftUI Review Tool That Keeps Agents from Forgetting What They’ve Read](https://l.fatbobman.com/w0155-13) — Article · Topics: AI Development · Swift · SwiftUI
+  **NeKI brief:** Introduces SwiftFairy's local MCP review of agent-written Swift and SwiftUI, with line-specific findings and repair guidance. Useful as a concrete static-review workflow while keeping build and runtime validation separate.
+- [Part 1](https://calcopilot.app/blog/posts/running-ios-background-tasks-reliably-part1) — Article · Topics: AI Development · App Services & Extensions · Personal Essays
+  **NeKI brief:** Documents lessons learned while pursuing reliable iOS background-task execution in iOS 26. The article focuses on the practical reliability gap between scheduling background work and getting it to run consistently, which is useful when designing refresh and deferred-processing workflows.
+- [withTaskCancellationShield: Swift 6.4 new feature](https://l.fatbobman.com/w0155-02) — Article · Topics: Swift
+  **NeKI brief:** Explains Swift 6.4 task cancellation shields for cleanup that must continue despite an already-cancelled task, then examines availability on older OS versions. Useful for separating cancellation state from the lifetime of required finalization work.
+- [Running iOS Background Tasks Reliably, Part 2](https://l.fatbobman.com/w0155-03) — Article · Topics: App Services & Extensions · Personal Essays
+  **NeKI brief:** Describes a wake-ping worker added after BGTaskScheduler activity declined when an app went unopened. The case study shows the reliability and privacy trade-offs of prompting background sync from outside the device.
+- [Ronnie W.](https://l.fatbobman.com/w0155-08) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Investigates macOS 27 toolbar regrouping when ToolbarSpacer no longer separates controls as expected. Useful for diagnosing navigation-island placement and checking whether a customizable toolbar needs explicit item identities.
+- [PaintKit: A Swift Raster Drawing and Image Processing Engine](https://l.fatbobman.com/w0155-12) — Article · Topics: Graphics, Media & Games · Swift
+  **NeKI brief:** Presents PaintKit, the Swift raster engine extracted from ItsPaint, with drawing, blending, selections, undo, text, and image encoding. Useful for assessing a reusable native drawing core independently of the app interface.
+- [Anton Gubarenko](https://l.fatbobman.com/w0155-09) — Article · Topics: Graphics, Media & Games
+  **NeKI brief:** Collects Apple engineers' answers from an iPhone Duo group lab on poses, responsive layout, vertical bars, accessibility, and testing. Useful as a question-led route to platform guidance that still needs checking against current Apple documentation.
+- [Part 2](https://l.fatbobman.com/w0155-10) — Article · Topics: Graphics, Media & Games
+  **NeKI brief:** Continues the iPhone Duo group-lab questions with answers about adaptive layouts, fold postures, windows, camera occlusion, and simulator tooling. Useful for checking edge cases that a single open-versus-closed layout test can miss.
+- [Apple Watch brings distributed system headaches to your app](https://l.fatbobman.com/w0155-05) — Article
+  **NeKI brief:** Uses an iPhone and Apple Watch app to illustrate disconnected replicas, local edits, and delayed reconciliation. Useful for treating Watch connectivity as a distributed-state problem instead of assuming a reliable live channel.
+- [Antoine van der Lee](https://l.fatbobman.com/w0155-07) — Article
+  **NeKI brief:** Walks through iPhone Duo simulator use, resizable SwiftUI layout, ArrangementView, reserved regions, hinge state, and vertical controls. Useful as a broad adaptation checklist before testing a specific screen in each pose.
+- [Sarunw](https://l.fatbobman.com/w0155-11) — Article
+  **NeKI brief:** Explains how SwiftUI chooses icon and text representations when toolbar items move to iPhone Duo's vertical bar, and when axis behavior overrides that choice. Useful for auditing custom toolbar controls across orientations.
+
+## [Issue 154](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-154)
+
+- Published: `2026-09-21T12:01:38.360Z`
+
+**Topics:** Cross-Platform & Web · Developer Community & Business · Graphics, Media & Games · Swift · SwiftUI · Xcode
+
+**Sections:** A “Native” Debate Over SwiftUI Animation · 📢 Sponsor Fatbobman’s Swift Weekly · Original
+
+**NeKI brief:** Uses a debate over SwiftUI animation to compare app-process sampling with Core Animation presentation, then routes to crash diagnostics, iPhone Duo sheets, and Vapor 5. Useful as a dated bundle of implementation questions and source links.
+
+**Selected links:**
+- [Hinge: Set the Duo Simulator’s Fold Angle from the Command Line](https://l.fatbobman.com/w0154-07) — Article · Topics: Developer Tools · Xcode
+  **NeKI brief:** Hinge exposes an iPhone Duo simulator fold-angle control to scripts and coding agents where simctl and devicectl do not provide one. Its small compiled helper supports repeatable pose testing beyond manual Device Hub interaction.
+- [How SwiftUI animation works](https://l.fatbobman.com/w0154-03) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Traces SwiftUI animation from state changes through transactions and sampled values to Core Animation presentation, using OpenSwiftUI as an explanatory implementation. Useful when debugging interruption and frame updates beyond the surface animation modifier.
+- [What’s New in Vapor 5 Beta](https://blog.vapor.codes/posts/whats-new-in-vapor-5-beta) — Article · Topics: Macros & Metaprogramming · Swift
+  **NeKI brief:** Walks through Vapor 5 beta's revised APIs, Swift HTTP Types integration, service lifecycle, configuration, and experimental route macros. Useful for estimating migration work beyond the headline release announcement.
+- [Enriched Markdown: Cross-Platform Markdown Rendering and Editing Without a WebView](https://l.fatbobman.com/w0154-08) — Article · Topics: Cross-Platform & Web · Graphics, Media & Games
+  **NeKI brief:** Enriched Markdown renders and edits rich text with native platform components while retaining Markdown output, including a Swift SDK for iOS. Useful when weighing a native editor against a WebView-based approach.
+- [iOS 27: CrashReportExtension Framework](https://l.fatbobman.com/w0154-02) — Article
+  **NeKI brief:** Explains CrashReportExtension as a way to inspect a failed app from a separate process, where crash analysis is safer than inside a corrupted signal handler. Useful for planning richer diagnostic reports without assuming normal app APIs remain usable after a crash.
+- [How we built Devin’s Mac](https://l.fatbobman.com/w0154-01) — Article · Topics: AI Development
+  **NeKI brief:** Describes the virtualized macOS infrastructure behind Devin's cloud agent, including how remote machines can compile and exercise Apple-platform apps. Useful for understanding permissions, simulator access, and feedback loops that local agents take for granted.
+- [Vapor 5 Beta Released](https://l.fatbobman.com/w0154-06) — Article · Topics: Developer Community & Business
+  **NeKI brief:** Announces Vapor 5's first beta after a broad architectural rewrite and points to the migration material. Use it as release context before evaluating the more detailed API changes and Swift toolchain requirements.
+- [Sheets and fold avoidance on iPhone Duo](https://l.fatbobman.com/w0154-05) — Article
+  **NeKI brief:** Shows how system sheets change placement and size across iPhone Duo poses while avoiding the fold. Useful for spotting cases where custom controls or presentation choices still put interaction in the crease.
 
 ## [Issue 153](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-153)
 

@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Rendering, GPU work, image/audio/video processing, computer vision, and game-development techniques.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **883**
+- Last collected: `2026-10-05T06:41:52Z`
+- Indexed links shown: **896**
 
 ## Direct-source reading
 
+- [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-28`
+  **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
 - [Keeping canvas interactions responsive with frame reprojection](https://nilcoalescing.com/blog/KeepingCanvasInteractionsResponsiveWithFrameReprojection) — Nil Coalescing · article catalogue
   **Published:** `2026-07-28`
   **NeKI brief:** Shows how Exsto keeps large Metal canvases responsive by reprojecting the last rendered frame while a newer offscreen frame is queued, then synchronising transform and texture updates with CAMetalLayer, CATransaction, overdraw, and gesture-time MSAA reduction.
@@ -440,6 +443,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: Graphics, Media & Games · SwiftUI
+  **Published:** `2026-10-03T10:58:55.000Z`
+  **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
+- [Window Sweaters: A macOS App That Dresses Your Windows in Knitted Borders](https://go.peterfriese.dev/fun-window-sweaters?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-02`
+  **NeKI brief:** Shares the source for a macOS menu-bar app that draws knitted borders around windows. Useful as an inspectable AppKit desktop experiment with implementation, build, and installation material.
+- [McKinley: The SF Symbols Editor Apple Never Built](https://amerpie.lol/2026/09/08/mckinley-the-sf-symbols-editor.html) — Those Who Swift · Issue 286 — Article · Topics: Cross-Platform & Web · Graphics, Media & Games · Testing
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Tests McKinley as a Mac editor for custom SF Symbols weights, scales, and export rules, noting both strengths and rough edges. Useful when evaluating symbol-authoring tools through an independent hands-on account.
+- [This Filename Breaks iOS, And That's Boring Now](https://www.youtube.com/watch?v=Dt4o7hz0B60) — Those Who Swift · Issue 286 — Video · Topics: AI Development · Graphics, Media & Games
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Investigates an iOS image-rendering bug tied to particular filenames and IBHashImageName, then reflects on the value of detailed debugging writeups in an AI-assisted workflow. Useful as a technical case study with commentary.
+- [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Article · Topics: Graphics, Media & Games · SwiftUI
+  **Published:** `2026-09-30T17:47:06.000Z`
+  **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
+- [⏱️ Measure the build you ship](https://en.kou-works.jp/blog/debug-build-performance-trap) — iOS CI Newsletter · Issue 94 — Article · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-09-30T00:00:00.000Z`
+  **NeKI brief:** Compares a camera app's slow Vision processing under Xcode's Debug configuration with smooth TestFlight behavior. Useful for distinguishing debugger overhead from release performance before optimizing a frame pipeline.
+- [“From App Idea to 10K MRR”](https://www.youtube.com/playlist?list=PLg4qABgFp_nRYMtGFdXz8sUeXb2IDxdPL) — SwiftLee Weekly · Issue 343 — Video · Topics: Graphics, Media & Games
+  **Published:** `2026-09-29T14:08:15.000Z`
+  **NeKI brief:** Documents building and launching an open-source app toward $10K monthly recurring revenue, including releases, App Store review, crashes, growth, pricing, and technical decisions. Useful for connecting product milestones with implementation trade-offs.
+- [Anton Gubarenko](https://l.fatbobman.com/w0155-09) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: Graphics, Media & Games
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Collects Apple engineers' answers from an iPhone Duo group lab on poses, responsive layout, vertical bars, accessibility, and testing. Useful as a question-led route to platform guidance that still needs checking against current Apple documentation.
+- [Part 2](https://l.fatbobman.com/w0155-10) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: Graphics, Media & Games
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Continues the iPhone Duo group-lab questions with answers about adaptive layouts, fold postures, windows, camera occlusion, and simulator tooling. Useful for checking edge cases that a single open-versus-closed layout test can miss.
+- [PaintKit: A Swift Raster Drawing and Image Processing Engine](https://l.fatbobman.com/w0155-12) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: Graphics, Media & Games · Swift
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Presents PaintKit, the Swift raster engine extracted from ItsPaint, with drawing, blending, selections, undo, text, and image encoding. Useful for assessing a reusable native drawing core independently of the app interface.
+- [RocketSim's capturing feature](https://www.rocketsim.app/docs/features/capturing/screenshots) — SwiftLee Weekly · Issue 342 — Article · Topics: Graphics, Media & Games
+  **Published:** `2026-09-22T14:09:31.000Z`
+  **NeKI brief:** Documents RocketSim's simulator and device screenshot capture, including bezels, backgrounds, and App Store Connect sizing. Useful for checking whether an existing capture workflow handles unusual device shapes such as iPhone Duo.
+- [Enriched Markdown: Cross-Platform Markdown Rendering and Editing Without a WebView](https://l.fatbobman.com/w0154-08) — Fatbobman’s Swift Weekly · Issue 154 — Article · Topics: Cross-Platform & Web · Graphics, Media & Games
+  **Published:** `2026-09-21T12:01:38.360Z`
+  **NeKI brief:** Enriched Markdown renders and edits rich text with native platform components while retaining Markdown output, including a Swift SDK for iOS. Useful when weighing a native editor against a WebView-based approach.
 - [Apple Reference Image: A New Approach for Verified Photography](https://security.apple.com/blog/apple-reference-image) — iOS Dev Weekly · Issue 768 — Article · Topics: Graphics, Media & Games · Security & Privacy
   **Published:** `18th September 2026`
   **NeKI brief:** Describes Apple's opt-in Reference Image mode for producing sensor-originated, securely timestamped photographs with verifiable provenance. Follow it for the threat model and cryptographic design behind authenticity checks.

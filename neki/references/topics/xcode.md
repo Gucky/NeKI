@@ -4,11 +4,20 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Xcode, builds, signing, debugging, tooling, CI, and developer workflows.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **1447**
+- Last collected: `2026-10-05T06:41:52Z`
+- Indexed links shown: **1462**
 
 ## Direct-source reading
 
+- [Letting AI See SwiftUI - Xcode Preview MCP in Practice — Pitfalls and Hopes](https://fatbobman.com/en/posts/letting-ai-see-swiftui) — Fatbobman · article catalogue
+  **Published:** `2026-09-30T14:00:00.000Z`
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [Adjusting the hinge angle in the iPhone Duo simulator](https://nilcoalescing.com/blog/AdjustingTheHingeAngleInTheIPhoneDuoSimulator) — Nil Coalescing · article catalogue
+  **Published:** `2026-09-27`
+  **NeKI brief:** Shows how holding Option reveals the hinge-angle slider in the Xcode 27.1 iPhone Duo simulator. The continuous angle control helps inspect layouts between the standard open and folded presets.
+- [iPhone Duo Simulator: Testing and optimizing your SwiftUI app - SwiftLee](https://www.avanderlee.com/swiftui/iphone-duo-simulator) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-09-22T10:14:40+00:00`
+  **NeKI brief:** Walks through testing a SwiftUI app in the iPhone Duo simulator, including window resizing, adaptive layout, vertical controls, and hinge behavior. Use it to build a device-specific inspection checklist, then verify individual APIs against the installed SDK.
 - [Moving from XCTest to Swift Testing | Kodeco](https://www.kodeco.com/53560697-moving-from-xctest-to-swift-testing) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-09-20`
   **NeKI brief:** Guides an XCTest-to-Swift-Testing migration through translated assertions, suite structure, parameterized tests, traits, and Xcode's coding-agent assistance. Useful for planning an incremental conversion rather than a wholesale rewrite.
@@ -1992,6 +2001,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Letting AI See SwiftUI: Xcode Preview MCP in Practice](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
+  **Published:** `2026-10-03T10:58:55.000Z`
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — iOS Dev Weekly · Issue 770 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2nd October 2026`
+  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
+- [Xcode 27.1 Beta: Your App in the iPhone Duo Simulator](https://blakecrosley.com/blog/xcode-27-1-beta-iphone-duo-simulator) — Those Who Swift · Issue 286 — Article · Topics: Xcode
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Inspects the Xcode 27.1 beta iPhone Duo simulator, SDK APIs, display profiles, and behavior by pose. Useful as dated empirical notes for planning checks, with device behavior still requiring current validation.
+- [Making Xcode and agents share incremental builds](https://sergdort.github.io/xcode-agent-incremental-builds) — Those Who Swift · Issue 286 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-09-30T20:30:56.651Z`
+  **NeKI brief:** Investigates duplicated build work when an agent builds through XcodeBuildMCP and a developer then switches to Xcode. Useful for understanding shared build directories and the conditions needed for incremental reuse.
+- [⏱️ Measure the build you ship](https://en.kou-works.jp/blog/debug-build-performance-trap) — iOS CI Newsletter · Issue 94 — Article · Topics: Developer Tools · Graphics, Media & Games · Performance
+  **Published:** `2026-09-30T00:00:00.000Z`
+  **NeKI brief:** Compares a camera app's slow Vision processing under Xcode's Debug configuration with smooth TestFlight behavior. Useful for distinguishing debugger overhead from release performance before optimizing a frame pipeline.
+- [iPhone Duo Group Lab - Q&A](https://antongubarenko.substack.com/p/iphone-duo-group-lab-q-and-a) — SwiftUI Weekly · SwiftUI Weekly - Issue #241 — Article · Topics: Xcode
+  **Published:** `2026-09-28T18:19:40.604Z`
+  **NeKI brief:** Organizes Apple engineers' iPhone Duo group-lab answers by practical questions about layout, fold poses, vertical controls, windows, accessibility, and testing. Useful for locating edge cases to verify in the current SDK.
+- [Dissecting Xcode 27’s mcpbridge: Apple Skipped swift-sdk and Built Its Own MCP Stack](https://l.fatbobman.com/w0155-04) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: AI Development · Swift · Xcode
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Examines Xcode 27 MCP bridge binaries and proposes a three-process architecture with a JSON-RPC front end, XPC backend, and layered permission checks. Treat the reverse-engineered findings as implementation evidence, not a public API contract.
+- [iPhone Duo Simulator: Testing and optimizing your SwiftUI app](https://www.avanderlee.com/swiftui/iphone-duo-simulator?ref=createwithswift.com) — Create with Swift · Issue 121 — Article · Topics: Swift · SwiftUI · Testing
+  **Published:** `2026-09-25T16:09:07.000Z`
+  **NeKI brief:** Walks through testing a SwiftUI app in the iPhone Duo simulator, including window resizing, adaptive layout, vertical controls, and hinge behavior. Use it to build a device-specific inspection checklist, then verify individual APIs against the installed SDK.
+- [From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.
+- [hinge](https://github.com/artemnovichkov/hinge?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Hinge sets an iPhone Duo simulator fold angle from the command line by compiling and caching a small helper. Useful for scripted pose checks when Device Hub's manual slider is insufficient.
+- [Michael Tsai - Blog - Jumping to 27.2Jumping to 27.2Michael J. Tsai](https://mjtsai.com/blog/2026/09/17/jumping-to-27-2?ref=ioscodereview.com) — iOS Code Review · Issue 88 — Article · Topics: Testing · Xcode
+  **Published:** `2026-09-24T17:39:07.000Z`
+  **NeKI brief:** Explains Apple's unusual iOS 27.2 beta numbering alongside the iPhone Duo's 27.1 release path. Useful as dated release context when interpreting SDK and TestFlight compatibility during the transition.
+- [Hinge: Set the Duo Simulator’s Fold Angle from the Command Line](https://l.fatbobman.com/w0154-07) — Fatbobman’s Swift Weekly · Issue 154 — Article · Topics: Developer Tools · Xcode
+  **Published:** `2026-09-21T12:01:38.360Z`
+  **NeKI brief:** Hinge exposes an iPhone Duo simulator fold-angle control to scripts and coding agents where simctl and devicectl do not provide one. Its small compiled helper supports repeatable pose testing beyond manual Device Hub interaction.
 - [From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj?ref=createwithswift.com) — Create with Swift · Issue 120 — Article · Topics: Swift · Xcode
   **Published:** `2026-09-18T16:00:51.000Z`
   **NeKI brief:** Examines Xcode 27.2's JSON-based project.xcproj format, its relationship to project.pbxproj, migration behavior, backward compatibility, and likely impact on project generators such as Tuist and XcodeGen.

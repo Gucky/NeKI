@@ -3,8 +3,58 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevweekly.com/issues/](https://iosdevweekly.com/issues/)
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed entries: **764**
+- Last collected: `2026-10-02T23:36:48Z`
+- Indexed entries: **766**
+
+## [Issue 770](https://iosdevweekly.com/issues/770)
+
+- Published: `2nd October 2026`
+
+**Topics:** Accessibility · AI Development · Developer Tools · macOS & AppKit · Swift · SwiftUI
+
+**Sections:** Comment · Tools
+
+**NeKI brief:** Uses the Firebase Analytics outage to examine dependency risk, then collects SF Symbols command-line tooling, Swift cancellation shielding, accessibility case studies, and opaque return types. Useful as a dated route to the underlying reports and implementation articles.
+
+**Selected links:**
+- [withTaskCancellationShield: Swift 6.4 new feature](https://www.swiftdifferently.com/blog/swift/concurrency/with-task-cancellation-shield) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Walks through Swift 6.4 withTaskCancellationShield and cleanup that must continue after task cancellation. Use the examples to examine cancellation boundaries and ensure protected work remains deliberately scoped.
+- [Little stories on my journey to making Xarra as accessible as possible](https://accessibilityupto11.com/post/2026-09-24-01) — Article · Topics: Accessibility · SwiftUI
+  **NeKI brief:** Uses Xarra to explain reading versus speech access, multilingual utterances, configurable word highlighting, and SwiftUI accessibility limitations. Useful as a case study in testing several interaction modes with real content.
+- [Using Swift’s ‘some’ keyword beyond SwiftUI](https://www.swiftbysundell.com/articles/using-swifts-some-keyword-beyond-swiftui) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Uses opaque result types to hide complex concrete generic return types while preserving a single underlying type. The examples show where some improves API boundaries outside SwiftUI and where ordinary protocol values behave differently.
+- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
+- [Firebase Analytics crash after sdk-exp response](https://github.com/firebase/firebase-ios-sdk/issues/16728) — Source repository · Topics: Architecture · Developer Tools
+  **NeKI brief:** Tracks a production Firebase Analytics crash after an sdk-exp response, including timestamps, affected apps, and the resolution discussion. Useful as primary incident evidence when evaluating remote configuration and SDK dependency risk.
+- [Built to Last](https://lucas.love/blog/built-to-last) — Article · Topics: Architecture · Product Design
+  **NeKI brief:** Argues for software that retains its core utility when accounts, subscriptions, and third-party APIs disappear. Useful as an architectural perspective on offline capability and long-term ownership of user data.
+- [Facebook iOS SDK remote configuration outage](https://github.com/facebook/facebook-ios-sdk/issues/1427) — Source repository · Topics: Developer Tools
+  **NeKI brief:** Records the July 2020 Facebook iOS SDK startup crash in FBSDKRestrictiveDataFilterManager, with production crash counts and the affected SDK version. Useful as a concrete precedent for remotely triggered third-party SDK failures.
+
+## [Issue 769](https://iosdevweekly.com/issues/769)
+
+- Published: `25th September 2026`
+
+**Topics:** Combine & Reactive Programming · macOS & AppKit · Swift · SwiftUI · Testing · Xcode
+
+**Sections:** Comment · Tools
+
+**NeKI brief:** Reflects on unanswered iPhone Duo interaction questions from a group lab, then points to agent build sharing, ArrangementView semantics, API backports, and deterministic concurrency tests. Useful for identifying what needs physical-device validation.
+
+**Selected links:**
+- [SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy) — Article · Topics: AI Development · Swift · SwiftUI
+  **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
+- [Making Xcode and agents share incremental builds](https://sergdort.github.io/xcode-agent-incremental-builds) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Investigates duplicated build work when an agent builds through XcodeBuildMCP and a developer then switches to Xcode. Useful for understanding shared build directories and the conditions needed for incremental reuse.
+- [tried](https://github.com/Alex-Ozun/swift-effect) — Source repository · Topics: Developer Tools · Swift · Testing
+  **NeKI brief:** Swift Effect models I/O and other side effects behind effect handlers so behavior can be replaced in tests without restructuring the whole app. Useful for evaluating explicit effect control in concurrent code.
+- [Backporting SwiftUI APIs](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis) — Article · Topics: Hardware & Devices · SwiftUI
+  **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.
+- [Stop Sleeping: Deterministic Tests for Concurrent Swift Code](https://raska.io/blog/testing-concurrent-code) — Article · Topics: Swift · Testing
+  **NeKI brief:** Builds deterministic tests for concurrent Swift code with spies that coordinate success, failure, timeout, and cancellation paths. Useful when sleep-based timing makes an asynchronous test suite flaky.
+- [ArrangementView: Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange) — Article
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
 
 ## [Issue 768](https://iosdevweekly.com/issues/768)
 
@@ -8544,7 +8594,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [great](https://github.com/facebook/facebook-ios-sdk/issues/1430) — Source repository · Topics: App Distribution & Store Operations · Developer Tools
   **NeKI brief:** Every day is a great day to remove (or advocate for the removal of) the Facebook SDK from your apps, but today is an especially… great… day… 🙄 How many times will Facebook get away with causing half the apps in the App Store to crash on startup? I linked to…
 - [day](https://github.com/facebook/facebook-ios-sdk/issues/1427) — Source repository · Topics: App Distribution & Store Operations · Developer Tools
-  **NeKI brief:** The Facebook iOS SDK issue page records a public developer issue and its discussion about SDK behavior and integration.
+  **NeKI brief:** Records the July 2020 Facebook iOS SDK startup crash in FBSDKRestrictiveDataFilterManager, with production crash counts and the affected SDK version. Useful as a concrete precedent for remotely triggered third-party SDK failures.
 - [Orchestrate macOS VMs on genuine Apple hardware - Try Orka](https://www.macstadium.com/orkademo) — Article
   **NeKI brief:** Covers Orchestrate macOS VMs on genuine Apple hardware - Try Orka, focusing on Apple UI composition and interaction design. Use the examples to compare implementation choices, assess edge cases, and plan verification in a production codebase; confirm current SDK support before adopting this historical guidance.
 - [MetricKit Crash Reporting](https://www.chimehq.com/blog/metrickit-crash-reporting) — Article

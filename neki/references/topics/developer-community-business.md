@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Developer conferences, publications, courses, podcasts, membership, sponsorship, and community business news.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **682**
+- Last collected: `2026-10-02T23:36:48Z`
+- Indexed links shown: **685**
 
 ## Direct-source reading
 
+- [10k MRR in the Most Boring Way Possible | Swiftjective-C](https://swiftjectivec.com/10k-MRR-in-the-Most-Boring-Way-Possible) — Swiftjective-C · article catalogue
+  **Published:** `2026-09-30T00:00:00-05:00`
+  **NeKI brief:** Reflects on reaching a recurring-revenue milestone through repeated product support and incremental improvements. Useful as a developer-business perspective on retention and steady operations rather than a technical growth formula.
 - [The Spend Stack Revival | Swiftjective-C](https://swiftjectivec.com/The-Spend-Stack-Revival) — Swiftjective-C · article catalogue
   **Published:** `2026-08-31T00:00:00-05:00`
   **NeKI brief:** Revisits the modernization of an older Objective-C app with GRDB and CKSyncEngine, and outlines a possible optional cloud-sync layer. It is an indie-maintenance case study, not a prescriptive migration recipe.
@@ -138,6 +141,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [How To Write With An LLM](https://go.peterfriese.dev/ai-how-to-write-with-an-llm?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: AI Development · Developer Community & Business
+  **Published:** `2026-10-02`
+  **NeKI brief:** Proposes writing the first draft yourself and using an LLM for critique and copyediting. Useful as an editorial workflow for preserving author voice while catching structural and clarity problems.
+- [Vapor 5 Beta Released](https://l.fatbobman.com/w0154-06) — Fatbobman’s Swift Weekly · Issue 154 — Article · Topics: Developer Community & Business
+  **Published:** `2026-09-21T12:01:38.360Z`
+  **NeKI brief:** Announces Vapor 5's first beta after a broad architectural rewrite and points to the migration material. Use it as release context before evaluating the more detailed API changes and Swift toolchain requirements.
 - [What’s new in Swift: August 2026 Edition](https://l.fatbobman.com/w0152-02) — Fatbobman’s Swift Weekly · Issue 152 — Article · Topics: Developer Community & Business · Swift
   **Published:** `2026-09-07T12:03:43.098Z`
   **NeKI brief:** Rounds up August 2026 Swift work across web and Windows support, Embedded Swift, package registries, testing proposals, and ownership-oriented language changes. Use the digest to locate primary project discussions and proposals.

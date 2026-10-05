@@ -3,8 +3,26 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.swiftwithmajid.com/archive](https://weekly.swiftwithmajid.com/archive)
-- Last collected: `2026-08-27T19:22:09Z`
-- Indexed entries: **214**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed entries: **215**
+
+## [SwiftUI Weekly - Issue #241](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-241)
+
+- Published: `2026-09-28T18:19:40.604Z`
+
+**Topics:** Accessibility · Swift · SwiftUI · Testing · Xcode
+
+**NeKI brief:** Curates iPhone Duo SwiftUI API backports, ArrangementView design, group-lab answers, and simulator hinge control. Useful as a compact set of device-adaptation perspectives with different levels of practical detail.
+
+**Selected links:**
+- [Adjusting the hinge angle in the iPhone Duo simulator](https://nilcoalescing.com/blog/AdjustingTheHingeAngleInTheIPhoneDuoSimulator) — Article · Topics: Accessibility · Testing · Xcode
+  **NeKI brief:** Shows how holding Option reveals the hinge-angle slider in the Xcode 27.1 iPhone Duo simulator. The continuous angle control helps inspect layouts between the standard open and folded presets.
+- [iPhone Duo Simulator: Testing and optimizing your SwiftUI app](https://www.avanderlee.com/swiftui/iphone-duo-simulator) — Article · Topics: Swift · SwiftUI · Testing
+  **NeKI brief:** Walks through testing a SwiftUI app in the iPhone Duo simulator, including window resizing, adaptive layout, vertical controls, and hinge behavior. Use it to build a device-specific inspection checklist, then verify individual APIs against the installed SDK.
+- [iPhone Duo Group Lab - Q&A](https://antongubarenko.substack.com/p/iphone-duo-group-lab-q-and-a) — Article · Topics: Xcode
+  **NeKI brief:** Organizes Apple engineers' iPhone Duo group-lab answers by practical questions about layout, fold poses, vertical controls, windows, accessibility, and testing. Useful for locating edge cases to verify in the current SDK.
+- [ArrangementView: Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange) — Article
+  **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
 
 ## [SwiftUI Weekly - Issue #240](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-240)
 

@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Personal and reflective writing from developer authors that does not make a technical claim.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **231**
+- Last collected: `2026-10-02T13:36:35Z`
+- Indexed links shown: **236**
 
 ## Direct-source reading
 
+- [It’s Over | Swiftjective-C](https://swiftjectivec.com/Its-Over) — Swiftjective-C · article catalogue
+  **Published:** `2026-09-26T00:00:00-05:00`
+  **NeKI brief:** Reflects on how agent-assisted code generation changes the daily work and identity of a software engineer. Useful as a dated personal perspective on adaptation, not as evidence that one development workflow has replaced all others.
 - [The Meme that gave me Imposter Syndrome](https://blog.jacobstechtavern.com/p/the-meme-that-gave-me-imposter-syndrome) — Jacob’s Tech Tavern · newsletter edition
   **Published:** `2024-07-29T16:15:44.545Z`
   **NeKI brief:** Use Swift type attributes deliberately by separating compile-time type-system constraints from ordinary declaration modifiers. When an attribute affects isolation, sendability, ownership, or ABI behavior, inspect the compiler-facing contract and add a focused example instead of treating it as decorative syntax.
@@ -86,6 +89,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [The lag was the debugger](https://en.kou-works.jp/blog/debug-build-performance-trap) — SwiftLee Weekly · Issue 343 — Article · Topics: Developer Tools · Performance · Personal Essays
+  **Published:** `2026-09-29T14:08:15.000Z`
+  **NeKI brief:** Compares a camera app's slow Vision processing under Xcode's Debug configuration with smooth TestFlight behavior. Useful for distinguishing debugger overhead from release performance before optimizing a frame pipeline.
+- [Running iOS Background Tasks Reliably, Part 2](https://l.fatbobman.com/w0155-03) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: App Services & Extensions · Personal Essays
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Describes a wake-ping worker added after BGTaskScheduler activity declined when an app went unopened. The case study shows the reliability and privacy trade-offs of prompting background sync from outside the device.
+- [Part 1](https://calcopilot.app/blog/posts/running-ios-background-tasks-reliably-part1) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: AI Development · App Services & Extensions · Personal Essays
+  **Published:** `2026-09-28T12:02:23.259Z`
+  **NeKI brief:** Documents lessons learned while pursuing reliable iOS background-task execution in iOS 26. The article focuses on the practical reliability gap between scheduling background work and getting it to run consistently, which is useful when designing refresh and deferred-processing workflows.
+- [My terminal-native setup for parallel coding agents](https://blog.kulman.sk/terminal-native-setup-for-parallel-coding-agents) — Those Who Swift · Issue 285 — Article · Topics: Developer Tools · Personal Essays
+  **Published:** `2026-09-23T21:06:47.068Z`
+  **NeKI brief:** Describes a parallel-agent setup based on Ghostty, Git worktrees, a terminal multiplexer, and remote access. Useful for comparing concrete isolation and review mechanics when several agents share a repository.
+- [What's New in Vapor 5 Beta](https://blog.vapor.codes/posts/whats-new-in-vapor-5-beta) — SwiftLee Weekly · Issue 342 — Article · Topics: Macros & Metaprogramming · Personal Essays
+  **Published:** `2026-09-22T14:09:31.000Z`
+  **NeKI brief:** Walks through Vapor 5 beta's revised APIs, Swift HTTP Types integration, service lifecycle, configuration, and experimental route macros. Useful for estimating migration work beyond the headline release announcement.
 - [Virtual Mac on iPad](https://github.com/nfzerox/VirtualMacOniPad) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Source repository · Topics: Developer Tools · Personal Essays · Xcode
   **Published:** `2026-09-03T17:14:44.570Z`
   **NeKI brief:** Describes running macOS and desktop tools on specific older M-series iPads and iPadOS versions. Treat it as an experimental compatibility project with substantial security, support, and device-version constraints.
@@ -98,9 +116,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Capsomnia](https://capsomnia.com/) — iOS Dev Tools · iOS Dev Tools: JoltPhysics, asc-cli, Xtend — Article · Topics: AI Development · Personal Essays
   **Published:** `2026-08-27T20:30:45.555Z`
   **NeKI brief:** Presents a macOS utility that prevents sleep when the laptop lid is closed. Consider power, thermal, and security implications before using it to keep development processes running.
-- [Running iOS Background Tasks Reliably, Part 1](https://calcopilot.app/blog/posts/running-ios-background-tasks-reliably-part1) — Those Who Swift · Issue 281 — Article · Topics: AI Development · App Services & Extensions · Personal Essays
-  **Published:** `2026-08-26T20:38:31.643Z`
-  **NeKI brief:** Documents lessons learned while pursuing reliable iOS background-task execution in iOS 26. The article focuses on the practical reliability gap between scheduling background work and getting it to run consistently, which is useful when designing refresh and deferred-processing workflows.
 - [The State macro in Xcode 27](https://blakecrosley.com/blog/state-macro-xcode-27) — iOS Dev Weekly · Issue 764 — Article · Topics: Macros & Metaprogramming · Performance · Xcode
   **Published:** `21st August 2026`
   **NeKI brief:** Audits Xcode 27’s macro-backed `@State` migration, separating source-compatibility build failures from unchanged initialization semantics. It gives concrete search patterns and fixes for declaration-plus-initializer assignments, private memberwise initializers, generic inference, and macro-composition edge cases.
