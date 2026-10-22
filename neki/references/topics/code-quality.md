@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Maintainability, API design, correctness, code review, and engineering quality.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **55**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **69**
 
 ## Direct-source reading
 
+- [AI-Friendly Frameworks - As Abstraction Moves Up, How Can Verification Keep Pace?](https://fatbobman.com/en/posts/ai-friendly-framework) — Fatbobman · article catalogue
+  **Published:** `2026-10-07T14:00:00.000Z`
+  **NeKI brief:** Evaluates framework suitability for coding agents through observable behavior and deterministic verification rather than abstraction level alone. Uses SwiftUI transform measurements, SwiftFairy checks, and InnoDI graph validation to illustrate stronger feedback loops.
 - [Introducing SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy) — Nil Coalescing · article catalogue
   **Published:** `2026-09-27`
   **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
@@ -36,6 +39,39 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [enumerated() Gives You an Offset, Not an Index](https://nativefirstapp.com/blog/enumerated-offset-is-not-an-index-swift) — Those Who Swift · Issue 289 — Article · Topics: Code Quality · Foundation & Data Formats · Swift
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Demonstrates an ArraySlice crash caused by using enumerated offsets as collection indices. Replaces subscripting with collection.indices or zip(indices, collection), while retaining offsets for display numbering.
+- [Failures that don't crash never reach you](https://en.kou-works.jp/blog/copy-details-button) — Those Who Swift · Issue 289 — Article · Topics: Code Quality · Developer Tools · Security & Privacy
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Uses an on-device Copy Details report to recover handled import, analysis, and export failures. Centralized error recording and redaction preserve diagnostic chains while removing file paths, filenames, and absolute uptime.
+- [The boss fight, part 1: a known issue, not a skipped test](https://silentspice.substack.com/p/the-boss-fight-part-1-a-known-issue) — Those Who Swift · Issue 289 — Article · Topics: Code Quality · Testing
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Shows how a narrowly scoped withKnownIssue wrapper keeps an acceptance test running while documenting one known defect. A reconstructed run demonstrates the unexpected-pass failure that signals the wrapper should be removed.
+- [Pragmatic Testing for Agents](https://sergdort.github.io/pragmatic-testing-for-agents) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Code Quality · Testing
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Prunes agent-written tests using behavior contracts, independent expected values, and refactor resilience. Per-function coverage exposes a lost narration path that a small mutation sample missed, motivating targeted replacement tests.
+- [Calming Down Claude's Code Reviews](https://build.ms/2026/10/17/calming-down-claudes-code-reviews) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Code Quality
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Uses a dedicated REVIEW.md to constrain automated Claude pull-request reviews to concrete, code-grounded findings. The example contract suppresses narration and speculative advice while preserving consequential bugs and explicit verification limits.
+- [duttish’s comment on Hacker News](https://news.ycombinator.com/item?id=50073633) — iOS Dev Weekly · Issue 772 — Article · Topics: AI Development · Code Quality
+  **Published:** `16th October 2026`
+  **NeKI brief:** Collects developer responses to Anthropic’s source-control rewrite, including doubts about replacing detailed code review with intent review. Useful as a counterpoint on maintainability and the evidence behind coding-speed claims.
+- [AI-Friendly Frameworks](https://fatbobman.com/en/posts/ai-friendly-framework?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: AI Development · Architecture · Code Quality · SwiftUI
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Evaluates framework suitability for coding agents through observable behavior and deterministic verification rather than abstraction level alone. Uses SwiftUI transform measurements, SwiftFairy checks, and InnoDI graph validation to illustrate stronger feedback loops.
+- [Escaping the Cohabiting Trap](https://williamboles.com/escaping-the-cohabiting-trap) — Those Who Swift · Issue 288 — Article · Topics: Architecture · Code Quality · SwiftUI
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Uses a flag-heavy avatar and total calculator to diagnose shared components whose callers need conflicting behavior. Moves caller-specific presentation outward and separates business rules when continued sharing couples unrelated changes.
+- [Decompose Run-On Tests (In Swift Testing)](https://jaimzuber.com/testing/decompose-run-on-tests.html) — Those Who Swift · Issue 288 — Article · Topics: Code Quality · Testing
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Decomposes a long playlist test into independently named behavior checks, removing irrelevant setup and earlier assertions. Explains why coverage belongs to the green suite as a whole rather than repeated claims inside every test.
+- [SwiftUI Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) — SwiftLee Weekly · Issue 344 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-10-06T14:07:47.000Z`
+  **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
+- [Some Thoughts on Development - Code Review](https://l.fatbobman.com/w0156-07) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: AI Development · Code Quality
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Argues that people should review specifications and runtime evidence while independent agents inspect code. Demonstrates recorded decisions, bounded review loops, regression evidence, and explicit unresolved findings through the author’s Prowl workflow.
 - [Introducing SwiftFairy: Swift and SwiftUI code reviews for coding agents](https://nilcoalescing.com/blog/IntroducingSwiftFairy?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Article · Topics: Code Quality · Swift · SwiftUI
   **Published:** `2026-09-30T17:47:06.000Z`
   **NeKI brief:** Introduces a Mac tool that exposes Swift and SwiftUI static review through a local MCP server, attaching findings to source lines. Useful as a concrete example of targeted agent feedback and its limits relative to build and runtime checks.
@@ -165,11 +201,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Other People](http://inessential.com/2011/09/22/other_people) — iOS Dev Weekly · Issue 8 — Article · Topics: Code Quality
   **Published:** `23rd September 2011`
   **NeKI brief:** Examines Brent Simmons on code quality. I couldn’t agree more about having an attitude of coding like someone else is going to review your code, especially as a solo developer. Good advice. Useful for understanding the concrete implementation trade-offs in this Apple-platform topic before applying the technique to a production codebase.
+- [Google Analytics for Firebase iOS SDK outage on September 28, 2026](https://go.peterfriese.dev/firebase-analytics-ios-sdk-outage?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Code Quality · Developer Tools · Networking
+  **NeKI brief:** Explains how deleting a Firebase Analytics configuration flag triggered iOS crashes, why delayed uploads prolonged crash reporting, and what rollback achieved. Outlines planned payload validation, dependency checks, phased rollouts, and client-side incident visibility improvements.
+- [GitHub issue #16728](https://go.peterfriese.dev/firebase-ios-sdk-issue-16728?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Code Quality · Developer Tools · Networking
+  **NeKI brief:** Tracks a production Firebase Analytics crash after an sdk-exp response, including timestamps, affected apps, and the resolution discussion. Useful as primary incident evidence when evaluating remote configuration and SDK dependency risk.
+- [SwiftFairy](https://go.peterfriese.dev/ai-swiftfairy?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: AI Development · Code Quality · SwiftUI
+  **NeKI brief:** SwiftFairy runs local MCP checks on Swift and SwiftUI code and returns targeted findings for coding agents. Useful for inspecting the actual tool offering behind the team's introduction article and its static-review scope.
 - [includes skills for Swift and SwiftUI in Xcode](https://dev.to/arshtechpro/wwdc-2026-xcode-27-ships-with-apples-own-agent-skills-what-they-are-and-how-to-use-them-3g2) — Not only Swift · Issue 98 — Article · Topics: Swift · SwiftUI · Xcode
   **NeKI brief:** Surveys the agent skills bundled with Xcode 27 and how they guide Swift, SwiftUI, testing, and Apple-framework work. Treat it as community orientation, then verify the installed skill contents and supported workflow in the actual Xcode release.
 - [Writing good agents.md files](https://www.philschmid.de/writing-good-agents) — Not only Swift · Issue 95 — Article · Topics: Architecture · Code Quality · Objective-C & Cocoa
   **NeKI brief:** This article covers writing effective AGENTS.md instruction files. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
-- [A SwiftUI agent skill for better code reviews](https://github.com/AvdLee/SwiftUI-Agent-Skill) — Not only Swift · Issue 91 — Source repository · Topics: Code Quality · Swift · SwiftUI
-  **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
 - [Function calling: The missing piece for agentic apps](https://www.youtube.com/watch?v=d69KP1iFg5E) — Not only Swift · Issue 91 — Video · Topics: AI Development · Swift · SwiftUI
   **NeKI brief:** Implements Firebase AI Logic function calling in an iOS meal-planning app so the model can set and inspect timers. The five-step workflow covers declarations, tool requests, results, reliability settings, and safety boundaries.

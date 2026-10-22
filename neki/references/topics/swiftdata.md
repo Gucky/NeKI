@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** SwiftData models, queries, migrations, CloudKit integration, and data modelling.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **150**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **151**
 
 ## Direct-source reading
 
@@ -218,6 +218,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [SwiftDataSync: Building CloudKit Sync and Sharing for SwiftData Apps](https://l.fatbobman.com/w0158-10) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: Persistence & Synchronisation · SwiftData
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Connects an app-owned SwiftData store to private and shared CloudKit zones with CKSyncEngine and a durable outbox. Keeps record mapping, merge policy, and revoked-share recovery explicit in the app's adapter instead of reflecting arbitrary models.
 - [SwiftData: Optimization Starts with Modeling](https://fatbobman.com/en/posts/swiftdata-optimization-starts-with-modeling?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftData
   **Published:** `2026-09-15T17:33:22.000Z`
   **NeKI brief:** Explains why large SwiftData rows can stall lists when fetching also materializes their stored values. It advocates separating heavy payloads during modeling so ordinary list queries load only the data they need.

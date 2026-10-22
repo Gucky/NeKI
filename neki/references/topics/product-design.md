@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App product, visual design, UX, branding, and design-to-code process.
 
-- Last collected: `2026-10-02T23:36:48Z`
-- Indexed links shown: **292**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **296**
 
 ## Direct-source reading
 
@@ -205,6 +205,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Apple-style](https://github.com/npwitk/Macintosh-Skeletal-Filled) — iOS Dev Weekly · Issue 772 — Source repository · Topics: Graphics, Media & Games · Product Design
+  **Published:** `16th October 2026`
+  **NeKI brief:** Reconstructs Apple’s skeletal handwriting as static and variable OpenType fonts using recorded letter joins. Explains contextual alternates, modeled limitations, and installation; the derivative fonts are limited to personal, noncommercial use.
+- [https://www.var-meta.com/blog/app-store-product-page-optimization](https://www.var-meta.com/blog/app-store-product-page-optimization) — Those Who Swift · Devs for Devs: What I Learned Building and Shipping My First Two iOS Apps — Article · Topics: App Distribution & Store Operations · Developer Community & Business · Product Design
+  **Published:** `2026-10-12T20:05:42.974Z`
+  **NeKI brief:** Separates App Store discoverability from product-page conversion, then compares randomized treatments, audience-specific pages, and creative assets. Suggests baselines and single-hypothesis tests while identifying metrics needed to judge retention beyond downloads.
+- [AI Icon Creator](https://aiiconcreator.com/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: AI Development · Developer Tools · Product Design
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Generates app icons in curated styles, supports localized edits, and exports platform-specific size packs. Documents account and credit requirements plus limitations of AI-redrawn PSD layers, helping assess an icon-production workflow before paying.
+- [WWDC 2027 Wishlist](https://l.fatbobman.com/w0156-08) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: Apple Platform Ecosystem · Product Design
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Collects concrete platform requests, including clearer SwiftUI and UIKit direction, local device synchronization, scoped photo access, and simpler app workflows. Useful as developer product feedback and design criticism, with requested features clearly distinguished from available APIs.
 - [Built to Last](https://lucas.love/blog/built-to-last) — iOS Dev Weekly · Issue 770 — Article · Topics: Architecture · Product Design
   **Published:** `2nd October 2026`
   **NeKI brief:** Argues for software that retains its core utility when accounts, subscriptions, and third-party APIs disappear. Useful as an architectural perspective on offline capability and long-term ownership of user data.

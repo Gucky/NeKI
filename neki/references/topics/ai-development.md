@@ -4,11 +4,20 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple Intelligence, Foundation Models, ML, generative-AI workflows, and developer tooling.
 
-- Last collected: `2026-10-05T06:41:52Z`
-- Indexed links shown: **448**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **496**
 
 ## Direct-source reading
 
+- [Agentic iOS Development with RocketSim and RocketTrace](https://www.avanderlee.com/ai-development/agentic-ios-development-rocketsim-rockettrace) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-10-12T15:51:12+00:00`
+  **NeKI brief:** Shows four agent workflows combining simulator interaction, accessibility audits, analytics, screenshot tooling, and performance traces. Emphasizes reviewing evidence before edits and records cases where incomplete attribution or missing post-change measurements leave performance conclusions open.
+- [AI-Friendly Frameworks - As Abstraction Moves Up, How Can Verification Keep Pace?](https://fatbobman.com/en/posts/ai-friendly-framework) — Fatbobman · article catalogue
+  **Published:** `2026-10-07T14:00:00.000Z`
+  **NeKI brief:** Evaluates framework suitability for coding agents through observable behavior and deterministic verification rather than abstraction level alone. Uses SwiftUI transform measurements, SwiftFairy checks, and InnoDI graph validation to illustrate stronger feedback loops.
+- [Introducing RocketTrace: Using Xcode Instruments with AI Agents - SwiftLee](https://www.avanderlee.com/ai-development/introducing-rockettrace-using-xcode-instruments-with-ai-agents) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-10-05T07:58:25+00:00`
+  **NeKI brief:** Demonstrates recording and querying Instruments analyses through RocketTrace's CLI, from compact triage to individual findings. Explains local processing, repeat-run comparisons, and a vendor benchmark whose limited trace coverage and agent reading choices constrain its conclusions.
 - [Letting AI See SwiftUI - Xcode Preview MCP in Practice — Pitfalls and Hopes](https://fatbobman.com/en/posts/letting-ai-see-swiftui) — Fatbobman · article catalogue
   **Published:** `2026-09-30T14:00:00.000Z`
   **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
@@ -284,12 +293,147 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [How to stream iOS simulator logs to your AI coding agent](https://flowdeck.studio/blog/log-streaming) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Compares ways to expose simulator logs to coding agents, focusing on process scoping, startup timing, and structured output. The FlowDeck author demonstrates his CLI workflow, so assess the tool comparison with that vendor context.
+- [Pragmatic Testing for Agents](https://sergdort.github.io/pragmatic-testing-for-agents) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Code Quality · Testing
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Prunes agent-written tests using behavior contracts, independent expected values, and refactor resilience. Per-function coverage exposes a lost narration path that a small mutation sample missed, motivating targeted replacement tests.
+- [Calming Down Claude's Code Reviews](https://build.ms/2026/10/17/calming-down-claudes-code-reviews) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Code Quality
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Uses a dedicated REVIEW.md to constrain automated Claude pull-request reviews to concrete, code-grounded findings. The example contract suppresses narration and speculative advice while preserving consequential bugs and explicit verification limits.
+- [Claude Code for iOS development](https://roland.leth.ro/blog/tech/claude-code-for-ios-development) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Developer Tools · Testing
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Introduces an iOS-specific Claude Code series covering simulator failures, tests with independent expectations, and generated App Store media. The author separates agent reports from observable results across three personal apps.
+- [Who Is the Real Threat to AI-Relay Apps?](https://fatbobman.com/en/weekly/issue-158) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Developer Community & Business
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Questions the defensibility of apps built mainly from prompts, a polished interface, and third-party cloud models. Argues that general-purpose agents and model providers can absorb their value, then links current Apple-platform implementation reading.
+- [I Shipped an iPhone Duo App Before I Had the Phone. Thanks, App Reviewer.](https://samwize.com/2026/10/20/i-launched-an-app-without-typing-a-line-of-code) — Those Who Swift · Issue 289 — Article · Topics: AI Development · App Distribution & Store Operations
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Recounts shipping an agent-built iPhone Duo app and using Codex to address an App Review naming rejection across five localized listings. The author explicitly notes the absence of physical-device testing.
+- [Swift Weekly #158](https://fatbobman.com/en/weekly/issue-158?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: AI Development · Developer Community & Business
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Questions the defensibility of apps built mainly from prompts, a polished interface, and third-party cloud models. Argues that general-purpose agents and model providers can absorb their value, then links current Apple-platform implementation reading.
+- [Xcode Projects for the Command Line and Coding Agents](https://artemnovichkov.com/blog/xcode-projects-for-the-command-line-and-coding-agents) — SwiftLee Weekly · Issue 346 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Demonstrates Apple's xcodeproj and xcprojformatter command-line tools for JSON-format projects, covering targets, synchronized groups, packages, build settings, and xcconfig files. Distinguishes raw project values from resolved settings and warns about the CocoaPods command-name collision.
+- [Xcode Projects for the Command Line and Coding Agents](https://l.fatbobman.com/w0159-02) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Demonstrates Apple's xcodeproj and xcprojformatter command-line tools for JSON-format projects, covering targets, synchronized groups, packages, build settings, and xcconfig files. Distinguishes raw project values from resolved settings and warns about the CocoaPods command-name collision.
+- [Comparing On-Device and Private Cloud Compute Summaries](https://l.fatbobman.com/w0158-05) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: AI Development · Testing
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Compares trimmed on-device summaries with full-text Private Cloud Compute using fixed baselines, sentence checks, and pairwise model judging. A short-issue control separates model preference from benefits attributed to preserving late conclusions.
+- [Making On-Device Summaries Work for Real Issue Lengths](https://www.ioscoffeebreak.com/issue/issue77) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: AI Development · Performance
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Budgets Foundation Models prompts with runtime token counts, trims issue bodies until they fit, and caches summaries using hashes of every prompt input. Explains response headroom, cache-version invalidation, and the information lost by prefix trimming.
+- [iPhone Use: Let AI Assistants Control a Real iPhone over USB](https://l.fatbobman.com/w0158-07) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Exposes WebDriverAgent-based iPhone control over USB through a local MCP service and live screen widget. The README explains signing prerequisites, connection reuse, compact observations, screenshot fallback, and safeguards against replaying uncertain actions.
+- [yomado: A Virtual Workspace for AI Agents](https://l.fatbobman.com/w0158-08) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: AI Development · macOS & AppKit
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Creates macOS virtual displays for visual coding-agent workflows and moves selected app windows with restoration checks. Documents shared keyboard focus, private-API compatibility risks, and the unverified boundary around working with physical monitors switched off.
+- [Anthropic shared why it replaced Git in its monorepo with Scion](https://www.anthropic.com/engineering/redesigning-source-control) — iOS Dev Weekly · Issue 772 — Article · Topics: AI Development · CI/CD & Automation · Developer Tools
+  **Published:** `16th October 2026`
+  **NeKI brief:** Explains Scion’s centralized source-control design for agent-heavy monorepos: server-side history operations, immutable changesets, sparse checkouts, and tiered caches. Useful for assessing scaling trade-offs while retaining the article’s narrow workload assumptions.
+- [duttish’s comment on Hacker News](https://news.ycombinator.com/item?id=50073633) — iOS Dev Weekly · Issue 772 — Article · Topics: AI Development · Code Quality
+  **Published:** `16th October 2026`
+  **NeKI brief:** Collects developer responses to Anthropic’s source-control rewrite, including doubts about replacing detailed code review with intent review. Useful as a counterpoint on maintainability and the evidence behind coding-speed claims.
+- [Shopify’s move back to native](https://shopify.engineering/back-to-native) — iOS Dev Weekly · Issue 772 — Article · Topics: AI Development · Cross-Platform & Web · Swift
+  **Published:** `16th October 2026`
+  **NeKI brief:** Explains why Shopify is moving its mobile apps from React Native back to Swift and Kotlin: coding agents changed native-development economics while platform-specific UI and capabilities increased the value of direct SDK access.
+- [ResortPass](https://www.resortpass.com/engineering/articles/why-resortpass-chose-a-native-ios-app) — iOS Dev Weekly · Issue 772 — Article · Topics: AI Development · Architecture · Cross-Platform & Web · SwiftUI
+  **Published:** `16th October 2026`
+  **NeKI brief:** Explains ResortPass’s Flutter-to-SwiftUI migration through platform behavior, SDK access, and hiring trade-offs. Describes a functionality-preserving rebuild, small modules, and automated architectural checks around coding agents while Android remains on Flutter.
+- [Xcode 27: Run the Translation Skills From Your Own Agent (Xcode 27)](https://macguru.dev/using-xcode-27s-localization-skills-over-mcp?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: AI Development · Localization · Xcode
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Shows how xcrun agent plugin path exposes Xcode’s translation skills and MCP setup to external coding agents. Explains why loading the actual localization guidance matters for catalog variations, terminology, and language-specific style rules.
+- [AI-Friendly Frameworks](https://fatbobman.com/en/posts/ai-friendly-framework?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: AI Development · Architecture · Code Quality · SwiftUI
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Evaluates framework suitability for coding agents through observable behavior and deterministic verification rather than abstraction level alone. Uses SwiftUI transform measurements, SwiftFairy checks, and InnoDI graph validation to illustrate stronger feedback loops.
+- [Where did my disk go? Xcode, worktrees and AI agents](https://skarol.dev/posts/where-did-my-disk-go) — Those Who Swift · Issue 288 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Diagnoses misleading Xcode failures caused by disk exhaustion in parallel agent worktrees. Distinguishes APFS clone accounting from actual free space, then ties DerivedData, test-product, and simulator cleanup to worktree ownership.
+- [Using Xcode 27's localization skills over MCP](https://macguru.dev/using-xcode-27s-localization-skills-over-mcp) — Those Who Swift · Issue 288 — Article · Topics: AI Development · Localization · Xcode
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Shows how xcrun agent plugin path exposes Xcode’s translation skills and MCP setup to external coding agents. Explains why loading the actual localization guidance matters for catalog variations, terminology, and language-specific style rules.
+- [Comparing On-Device and Private Cloud Compute Summaries](https://www.ioscoffeebreak.com/issue/issue79) — Those Who Swift · Issue 288 — Article · Topics: AI Development · Testing
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Compares trimmed on-device summaries with full-text Private Cloud Compute using fixed baselines, sentence checks, and pairwise model judging. A short-issue control separates model preference from benefits attributed to preserving late conclusions.
+- [Rtrvr](https://rtrvr.ai/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Offers browser automation through an extension, cloud execution, API, MCP, and command-line interfaces. Follow it for web-to-dataset and form-completion workflows, comparing local signed-in browser access with hosted execution.
+- [Takes](https://gettakes.app/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Combines a voice-following teleprompter, synchronized camera and screen capture, and agent-assisted editing around plain local folders. Exposes an MCP workflow so scripts, selected takes, edit revisions, and platform-specific posts remain inspectable.
+- [Accessibility Audits done by your agent](https://www.rocketsim.app/blog/accessibility-audit-ios-simulator) — SwiftLee Weekly · Issue 345 — Article · Topics: Accessibility · AI Development · Developer Tools
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Walks through RocketSim's Simulator accessibility audit in its UI and CLI, including grouped findings and an agent-driven fix-and-recheck loop. Explains heuristic contrast checks, stale results, frame comparisons, and checks that still require manual VoiceOver testing.
+- [Stop Guessing Why Your iOS App Is Slow](https://www.youtube.com/watch?v=cDtgTlDeev0&t=664s) — SwiftLee Weekly · Issue 345 — Video · Topics: AI Development · Developer Tools · Performance
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Introduces RocketTrace as a way to inspect Instruments traces and work with coding agents. Chapter markers cover symbols and profile builds, simulator-versus-device measurements, signpost focus, and applying suggested fixes.
+- [Redlamp: A Native RAW Editor Built by a Photography Enthusiast with AI](https://l.fatbobman.com/w0157-06) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Describes an AI-assisted native RAW editor whose sidecar files preserve originals and whose rendering stays on the Mac. Contrasts rapid interface implementation with the harder task of validating colour processing, camera compatibility, and image quality.
+- [long wanted more tools that fit the way he prefers to work](https://redlamp.app/blog/why-im-building-redlamp) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Describes an AI-assisted native RAW editor whose sidecar files preserve originals and whose rendering stays on the Mac. Contrasts rapid interface implementation with the harder task of validating colour processing, camera compatibility, and image quality.
+- [AnnotateIt: Closing the Loop from Annotation to Create ML Training on Mac](https://l.fatbobman.com/w0157-07) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Walks from reviewed bounding-box annotations through local Create ML detector training to predictions on new images or video. Explains image-only training datasets, preserved splits, validation checks, and the distinction between detector training and video inference.
+- [SimAgentation: Annotate the iOS Simulator in Your Browser and Hand the Work to AI](https://l.fatbobman.com/w0157-09) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: AI Development · Developer Tools · Testing
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Connects browser annotations on a simulator to coding agents using accessibility elements, screenshots, and MCP tools. An optional SDK adds source locations; private Xcode frameworks and inaccessible custom drawing define important integration limits.
+- [Meta Muse Mac first run experience](https://lapcatsoftware.com/articles/2026/10/2.html) — iOS Dev Weekly · Issue 771 — Article · Topics: AI Development · macOS & AppKit · Security & Privacy
+  **Published:** `9th October 2026`
+  **NeKI brief:** Documents Meta Muse’s first-run permission flow in a fresh macOS virtual machine. Separates system Full Disk Access from the app’s own Messages toggles and uses that observation to assess disputed privacy reporting.
+- [Ship the Fallback First](https://appforce1.net/blog/ship-the-fallback-first) — iOS Dev Weekly · Issue 771 — Article · Topics: AI Development · SwiftUI · Testing
+  **Published:** `9th October 2026`
+  **NeKI brief:** Builds a note editor whose saving workflow survives unavailable Foundation Models, unsupported locales, and generation failures. Adds optional structured title/tag suggestions, token-budget checks, user confirmation, and sample-based Evaluations metrics before judging instruction changes.
+- [AI Icon Creator](https://aiiconcreator.com/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: AI Development · Developer Tools · Product Design
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Generates app icons in curated styles, supports localized edits, and exports platform-specific size packs. Documents account and credit requirements plus limitations of AI-redrawn PSD layers, helping assess an icon-production workflow before paying.
+- [Liquid Inference](https://liquidinference.ai/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Routes inference requests to the lowest-priced provider that meets selected model, region, speed, and quality constraints. Documents capped token-price offers, independent benchmarks, itemized billing, and API-compatible access for coding-agent workflows.
+- [Hallmonitor](https://github.com/hiteshbandhu/hallmonitor) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Shows coding-agent sessions, approval needs, activity, and usage across a terminal board and macOS menu bar. Documents local metadata reading, remote SSH monitoring, stale-limit indicators, and optional hook-based replies from the notch.
+- [earlyn](https://www.earlyn.app/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: AI Development · macOS & AppKit · Security & Privacy
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Builds searchable screen and meeting history with local OCR, transcription, and encrypted storage, then exposes it through MCP and CLI. Distinguishes on-device answering from optional cloud-model requests that transmit retrieved memories.
+- [Vision Radar](https://radar.annotateit.ai/news/apple-create-ml-training-on-mac) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Walks from reviewed bounding-box annotations through local Create ML detector training to predictions on new images or video. Explains image-only training datasets, preserved splits, validation checks, and the distinction between detector training and video inference.
+- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — Those Who Swift · Issue 287 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
+- [Optimizing Claude Code's Xcode build token usage](https://danielsaidi.com/blog/2026/09/30/optimizing-claude-code-s-xcode-build-token-usage) — Those Who Swift · Issue 287 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Provides a Claude Code PreToolUse hook that routes simple Xcode and Swift build commands through xcsift. Guards against unsafe command rewrites and retains pipefail so compressed output does not hide build failures.
+- [Michael Tsai - Blog - Unspecified Full Disk Access Screw TighteningUnspecified Full Disk Access Screw TighteningMichael J. Tsai](https://mjtsai.com/blog/2026/10/05/unspecified-full-disk-access-screw-tightening?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: AI Development · Security & Privacy
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Examines proposed Full Disk Access restrictions through missing granular permissions, unclear consent, and agent workflows. Collects developer objections and legitimate utility use cases while keeping Apple's unspecified future controls separate from current permission behavior.
+- [Xcode MCP: When Your Agent's Preview Lies to It (Xcode 27)](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [RocketSim’s CLI](https://www.rocketsim.app/docs/features/agentic-development) — SwiftLee Weekly · Issue 344 — Article · Topics: AI Development · Graphics, Media & Games
+  **Published:** `2026-10-06T14:07:47.000Z`
+  **NeKI brief:** The documentation explains RocketSim's agentic-development feature for controlling the iOS Simulator with AI-assisted workflows.
+- [How to reduce token usage in Claude Code, Codex, and Cursor](https://l.fatbobman.com/w0156-04) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Analyzes agent session traces to identify repeated context and costly tool patterns, then applies concise operating rules and a hook to reduce token use. Useful for measuring agent workflow changes rather than guessing from a single prompt.
+- [Daniel Saidi](https://l.fatbobman.com/w0156-06) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Provides a Claude Code PreToolUse hook that routes simple Xcode and Swift build commands through xcsift. Guards against unsafe command rewrites and retains pipefail so compressed output does not hide build failures.
+- [Some Thoughts on Development - Code Review](https://l.fatbobman.com/w0156-07) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: AI Development · Code Quality
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Argues that people should review specifications and runtime evidence while independent agents inspect code. Demonstrates recorded decisions, bounded review loops, regression evidence, and explicit unresolved findings through the author’s Prowl workflow.
+- [Argent: Let AI Coding Assistants Participate in App Runtime and Verification](https://l.fatbobman.com/w0156-09) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: AI Development · Developer Tools · Testing
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Provides agent-driven simulator and device interaction, deterministic replay, visual comparisons, runtime inspection, and native profiling. The repository describes platform coverage and identifies opt-out telemetry and proprietary helper binaries alongside Apache-licensed source.
 - [Letting AI See SwiftUI: Xcode Preview MCP in Practice](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
   **Published:** `2026-10-03T10:58:55.000Z`
   **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
-- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — iOS Dev Weekly · Issue 770 — Article · Topics: AI Development · Developer Tools · Xcode
-  **Published:** `2nd October 2026`
-  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
 - [TypeSafe’s Jev](https://go.peterfriese.dev/introducing-system-one-models-and-jev?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: AI Development
   **Published:** `2026-10-02`
   **NeKI brief:** Presents TypeSafe’s Jev as a fast model for typed, bounded decisions rather than generated prose. Useful for understanding the vendor’s architecture and calibration claims before measuring them against a real workflow.
@@ -440,9 +584,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SwiftUI Performance](https://livsycode.com/swiftui/the-swiftui-performance-skill) — iOS Dev Weekly · Issue 758 — Article · Topics: Performance · Swift · SwiftUI
   **Published:** `10th July 2026`
   **NeKI brief:** Introduces an agent skill for investigating SwiftUI performance through view lifecycle, rendering behavior, and measurement-oriented workflows. Follow it when giving coding agents repeatable performance diagnostics, while validating conclusions with Instruments and real app traces.
-- [Control the Simulator with AI](https://www.rocketsim.app/docs/features/agentic-development) — iOS Dev Weekly · Issue 758 — Article · Topics: AI Development · Testing
-  **Published:** `10th July 2026`
-  **NeKI brief:** The documentation explains RocketSim's agentic-development feature for controlling the iOS Simulator with AI-assisted workflows.
 - [Introducing the Safari MCP server for web developers](https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers) — SwiftLee Weekly · Issue 331 — Article · Topics: AI Development · Cross-Platform & Web
   **Published:** `2026-07-07T14:05:55.000Z`
   **NeKI brief:** Examines Safari now has an MCP! in the context of AI Development and CI/CD & Automation. Use it to understand the linked technique or tool, then validate its assumptions against the current project and primary documentation.
@@ -1136,6 +1277,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Machine Learning for everyone](http://machinethink.net/blog/ios-11-machine-learning-for-everyone) — iOS Dev Weekly · Issue 305 — Article · Topics: AI Development · Graphics, Media & Games
   **Published:** `16th June 2017`
   **NeKI brief:** Explores Machine Learning for everyone in an Apple-platform development context, highlighting practical techniques, design decisions, or trade-offs. Use it as historical community guidance, then validate implementation details, security considerations, and current SDK behavior before applying it.
+- [SwiftFairy](https://go.peterfriese.dev/ai-swiftfairy?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: AI Development · Code Quality · SwiftUI
+  **NeKI brief:** SwiftFairy runs local MCP checks on Swift and SwiftUI code and returns targeted findings for coding agents. Useful for inspecting the actual tool offering behind the team's introduction article and its static-review scope.
 - [iOSDevUK](https://go.peterfriese.dev/iosdevuk-2026-issue-103?s=web&t=ext) — Not only Swift · Issue 103 — Tutorial · Topics: AI Development · Developer Community & Business · Swift
   **NeKI brief:** Routes to the iOSDevUK conference and workshop programme. Treat it as community-event discovery rather than technical implementation guidance.
 - [Headless Xcode: From Prompt to Simulator with MCP](https://go.peterfriese.dev/ai-headless-xcode-from-prompt-to-simulator-with-mcp?s=web&t=ext) — Not only Swift · Issue 102 — Article · Topics: AI Development · Xcode

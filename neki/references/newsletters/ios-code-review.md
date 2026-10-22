@@ -3,8 +3,112 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://ioscodereview.com/](https://ioscodereview.com/)
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed entries: **88**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed entries: **91**
+
+## [Issue 92](https://ioscodereview.com/issues/issue-92-xcode-27-1-is-final-app-review-names-bait-and-switch-and-your-widgets-are-headed-to-homeview)
+
+- Published: `2026-10-20T17:12:00.000Z`
+
+**Topics:** App Distribution & Store Operations · Developer Community & Business · Swift · SwiftUI · Testing · Xcode
+
+**Sections:** From the Community! · Xcode 27.1 Is Final, and the Duo Ships Friday (Xcode 27.1, stable) · App Review 2.5.19: Your Feature Flags Need a Paper Trail (guidelines updated…
+
+**NeKI brief:** The issue turns review-policy changes into concrete submission notes and examines widget privacy on shared home displays. Technical reading adds system-level App Intents tests, optional-type syntax, accessible status cues, and adaptive layout examples.
+
+**Selected links:**
+- [Xcode 27.1 Is Final, and the Duo Ships Friday (Xcode 27.1, stable)](https://swiftwithmajid.com/2026/10/14/adapting-your-app-for-iPhone-duo?ref=ioscodereview.com) — Article · Topics: Hardware & Devices · Navigation & Deep Linking · SwiftUI
+  **NeKI brief:** Uses size classes, sidebar-adaptable tabs, NavigationSplitView, and AnyLayout to reuse an app across folded and unfolded displays. Offers an initial adaptation path centered on available space while preserving view identity during layout changes.
+- [How We Got Duo Support in NetNewsWire](https://netnewswire.blog/2026/10/16/how-we-got-duo-support.html?ref=ioscodereview.com) — Article · Topics: Hardware & Devices · UIKit
+  **NeKI brief:** Attributes NetNewsWire's iPhone Duo support to rebuilding with Xcode 27.1 while already using standard UIKit containers and size classes. Useful evidence for the maintenance benefits of native adaptive controls, with untested edge cases acknowledged.
+- [iOS 27: App Intents TestingModern testing of IntentsAnton’s SubstackAnton Gubarenko](https://antongubarenko.substack.com/p/ios-27-app-intents-testing) — Article · Topics: App Intents & System Surfaces · Testing
+  **NeKI brief:** Tests App Intents through a live app's registered definitions in a UI Testing target, rather than directly calling perform(). Covers stable entity references, query results, chained intents, and debug-only setup intents without automating Shortcuts screens.
+- [Supporting Differentiate Without Color in SwiftUILearn how to support Differentiate Without Color in SwiftUI by adding visual cues to color-coded states.](https://tanaschita.com/ios-accessibility-differentiate-without-color?ref=ioscodereview.com) — Article · Topics: Accessibility · SwiftUI
+  **NeKI brief:** Adds checkmark and cross overlays when accessibilityDifferentiateWithoutColor is enabled, keeping visible status distinguishable beyond red and green. Discusses always-visible symbols and preview or Accessibility Inspector checks for both presentations.
+- [Swift Weekly #158](https://fatbobman.com/en/weekly/issue-158?ref=ioscodereview.com) — Article · Topics: AI Development · Developer Community & Business
+  **NeKI brief:** Questions the defensibility of apps built mainly from prompts, a polished interface, and third-party cloud models. Argues that general-purpose agents and model providers can absorb their value, then links current Apple-platform implementation reading.
+- [HomeView: Your CarPlay Widgets Are Going to the Kitchen (iOS 27, HomeView on sale November 13)](https://blakecrosley.com/blog/apple-homeview-developers-day-one?ref=ioscodereview.com) — Article · Topics: App Services & Extensions · Apple Platform Ecosystem
+  **NeKI brief:** Reconstructs HomeView's developer surfaces from timestamped Apple documents, separating confirmed CarPlay and small-widget support from App Intents and AirPlay inferences. Tracks later documentation updates and identifies gaps in simulator, entitlement, and widget-location guidance.
+- [reset Local Network privacy](https://mjtsai.com/blog/2026/10/14/resetting-local-network-privacy?ref=ioscodereview.com) — Article · Topics: Networking · Security & Privacy
+  **NeKI brief:** Collects the changed macOS workflow for resetting one app's Local Network permission and contrasts iOS reset options. Also highlights why a short-lived process may exit before the permission prompt can appear.
+- [find SwiftUI views in unit tests](https://qualitycoding.org/find-swiftui-views-unit-tests?ref=ioscodereview.com) — Article · Topics: SwiftUI · Testing
+  **NeKI brief:** Finds SwiftUI subviews with ViewInspector accessibility-identifier searches instead of hierarchy positions or visible text. Wraps those searches in domain-named helpers so layout, label, and subview refactors do not unnecessarily invalidate behavior tests.
+- [Swift 6.4: some View? Without the Parentheses (Swift 6.4)](https://sarunw.com/posts/optional-opaque-and-existential-types?ref=ioscodereview.com) — Article · Topics: Swift
+  **NeKI brief:** Explains Swift 6.4's parsing change for optional opaque and existential types, including some P? and any P?. Covers the remaining parentheses requirement for protocol compositions and compatibility with existing type spellings.
+- [coming to the Mac](https://mjtsai.com/blog/2026/10/15/attestation-news?ref=ioscodereview.com) — Article · Topics: Security & Privacy
+  **NeKI brief:** Connects App Attest's Mac expansion with hardware-attestation requirements in age verification and online services. Presents both endpoint-protection benefits and exclusion concerns for alternative operating systems, devices, and independently built clients.
+
+## [Issue 91](https://ioscodereview.com/issues/issue-91-your-screenshot-upload-script-is-deprecated-trust-insights-for-scam-calls-and-xcodes-translation-skills-outside-xcode)
+
+- Published: `2026-10-15T16:51:00.000Z`
+
+**Topics:** App Distribution & Store Operations · macOS & AppKit · Swift · SwiftUI · UIKit · Xcode
+
+**Sections:** App Store Connect API 4.5.1: Screenshot Sets Are Deprecated (API 4.5.1) · Trust Insights: Is Your User Being Coached? (iOS 27) · Xcode 27: Run the Translation Skills From Your Own Agent (Xcode 27)
+
+**NeKI brief:** Plan screenshot automation around Asset Library uploads and placements, then inspect external localization skills and Trust Insights integration. SwiftUI sections explain corner geometry, toolbar grouping, size-class limits, and layout changes that preserve accessibility state.
+
+**Selected links:**
+- [Xcode 27: Run the Translation Skills From Your Own Agent (Xcode 27)](https://macguru.dev/using-xcode-27s-localization-skills-over-mcp?ref=ioscodereview.com) — Article · Topics: AI Development · Localization · Xcode
+  **NeKI brief:** Shows how xcrun agent plugin path exposes Xcode’s translation skills and MCP setup to external coding agents. Explains why loading the actual localization guidance matters for catalog variations, terminology, and language-specific style rules.
+- [Swift Evolution: Three Decisions on October 8 (accepted, not yet shipped)](https://forums.swift.org/t/se-0553-task-identity/89728?ref=ioscodereview.com) — Article · Topics: Concurrency · Developer Tools · Swift
+  **NeKI brief:** Collects Swift Evolution review of task identity and questions about observable task IDs across concurrency helpers. Useful for understanding debugging motivation and potential semantic constraints before adoption.
+- [AI-Friendly Frameworks](https://fatbobman.com/en/posts/ai-friendly-framework?ref=ioscodereview.com) — Article · Topics: AI Development · Architecture · Code Quality · SwiftUI
+  **NeKI brief:** Evaluates framework suitability for coding agents through observable behavior and deterministic verification rather than abstraction level alone. Uses SwiftUI transform measurements, SwiftFairy checks, and InnoDI graph validation to illustrate stronger feedback loops.
+- [advanced techniques in Swift macros](https://www.pointfree.co/blog/posts/231-advanced-techniques-in-swift-macros?ref=ioscodereview.com) — Tutorial · Topics: Macros & Metaprogramming · Swift
+  **NeKI brief:** Introduces two ways macro expansions can enlist compiler behavior beyond syntax inspection: overload-driven diagnostics and associated-type inference. Uses generated equality and memberwise initializers to explain the concrete limitations addressed by the companion tutorials.
+- [September Swift digest](https://www.swift.org/blog/whats-new-in-swift-september-2026?ref=ioscodereview.com) — Article · Topics: Cross-Platform & Web · Swift · Swift Package Manager
+  **NeKI brief:** Routes September’s Swift news through Swift 6.4, the Vapor 5 beta, server-side packages, and active Evolution proposals. Useful for locating the original release notes and understanding which language changes remain under review.
+- [iPhone Duo: Size Classes Won't Tell You About the Fold (iOS 27.1)](https://sarunw.com/posts/size-classes-on-iphone-duo?ref=ioscodereview.com) — Article · Topics: Hardware & Devices · SwiftUI · UIKit
+  **NeKI brief:** Records iPhone Duo simulator size classes across poses and orientations, then distinguishes window traits from ArrangementView pane traits. Useful for diagnosing why size-class adaptation cannot detect hinge angle or reliably describe a nested pane's whole display.
+- [iOS 27: Trust Insights FrameworkAnalyze transactions for signs of coercive activity while protecting people’s privacyAnton’s SubstackAnton’s Substack](https://antongubarenko.substack.com/p/ios-27-trust-insights-framework) — Article · Topics: Security & Privacy
+  **NeKI brief:** Builds a remote-support risk check with Trust Insights authorization, operation categories, request IDs, and consumption reporting. Explains separate evaluation and insight failures, signed payloads for backend decisions, and why unknown does not establish safety.
+- [SwiftUI: Which Toolbar Buttons Share a Glass Capsule (iOS 26+)](https://sarunw.com/posts/swiftui-toolbar-item-grouping-ios-26?ref=ioscodereview.com) — Article · Topics: Liquid Glass · SwiftUI
+  **NeKI brief:** Explains when adjacent toolbar items share a Liquid Glass capsule and when prominence or hidden backgrounds separate them. Contrasts fixed and flexible ToolbarSpacer behavior in navigation and bottom bars, including isolating an embedded search field.
+- [Set the split size of ArrangementView with splitArrangementLayoutRatio](https://sarunw.com/posts/splitarrangementlayoutratio?ref=ioscodereview.com) — Article · Topics: Hardware & Devices · SwiftUI
+  **NeKI brief:** Demonstrates horizontal and vertical split ratios in ArrangementView, including a shared ratio for both axes. Simulator comparisons show when the fold overrides those preferences and why content still needs enough space within its allocation.
+- [Accessibility: Switch Layouts at Large Text Sizes Without Losing State (iOS 16+)](https://tanaschita.com/ios-accessibility-dynamic-type-layouts?ref=ioscodereview.com) — Article · Topics: Accessibility · SwiftUI
+  **NeKI brief:** Switches a task row between horizontal and vertical layouts using dynamicTypeSize.isAccessibilitySize and AnyLayout. Explains why child identity survives the change and when available-width selection through ViewThatFits is a better trigger.
+- [split isolation](https://massicotte.org/blog/revisiting-split-isolation?ref=ioscodereview.com) — Article · Topics: Architecture · Concurrency
+  **NeKI brief:** Examines partially actor-isolated non-Sendable types and why sending self into a main-actor task exposes unsafe boundaries. Weighs whole-type isolation against intentional secondary functionality and temporary Swift 6 migration constraints.
+- [Swift Weekly #157](https://fatbobman.com/en/weekly/issue-157?ref=ioscodereview.com) — Article · Topics: Concurrency · Developer Community & Business
+  **NeKI brief:** Lower cloning costs change the risks of sharing unfinished indie products. The issue pairs that discussion with work ownership beyond task lifetime, calendar performance, localized screenshot verification, and tools that expose verifiable dependency and UI feedback.
+- [SwiftUI: Concentric Corners You Can Do Math With (iOS 27)](https://sarunw.com/posts/swiftui-concentric-corner-radii?ref=ioscodereview.com) — Article · Topics: SwiftUI
+  **NeKI brief:** Reads GeometryProxy.concentricCornerRadii to construct custom rounded shapes in iOS 27. Explains container-relative radii, the half-shortest-side limit, optional fallbacks, and why short views near screen corners can still be clipped.
+
+## [Issue 90](https://ioscodereview.com/issues/issue-90-duo-submissions-are-open-a-february-certificate-deadline-and-if-for-deployment-targets)
+
+- Published: `2026-10-06T19:11:26.000Z`
+
+**Topics:** App Distribution & Store Operations · Concurrency · Security & Privacy · Swift · SwiftUI · Xcode
+
+**Sections:** iPhone Duo: Submissions Are Open (Xcode 27.1 RC) · App Store: Headers, Search Assets, and an Asset Library (live now) · Mac: Your Developer ID Certificate May Stop Working on February 1 (deadline)
+
+**NeKI brief:** A release checklist connects foldable screenshots, App Store creative assets, and Developer ID renewal. Supporting articles cover deployment-target compilation, stale agent previews, progressive data loading, and SwiftUI typography and navigation behavior.
+
+**Selected links:**
+- [Xcode MCP: When Your Agent's Preview Lies to It (Xcode 27)](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=ioscodereview.com) — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [Swift Evolution: Branch on Deployment Target at Compile Time (SE-0554, in review)](https://forums.swift.org/t/se-0554-deployment-target-conditional-compilation/89822?ref=ioscodereview.com) — Article · Topics: Cross-Platform & Web · Swift
+  **NeKI brief:** Hosts review of compile-time conditions based on a deployment target, including syntax and cross-platform questions. Useful for evaluating a proposed way to remove unavailable code paths during compilation.
+- [Using Swift's 'some' keyword beyond SwiftUI](https://www.swiftbysundell.com/articles/using-swifts-some-keyword-beyond-swiftui?ref=ioscodereview.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Uses opaque result types to hide complex concrete generic return types while preserving a single underlying type. The examples show where some improves API boundaries outside SwiftUI and where ordinary protocol values behave differently.
+- [SwiftUI: Line Height and the Wandering Title (iOS 26+)](https://sarunw.com/posts/swiftui-line-height?ref=ioscodereview.com) — Article · Topics: Accessibility · Swift · SwiftUI
+  **NeKI brief:** Compares SwiftUI lineHeight options using baseline spacing, font metrics, and larger text. Shows why fixed point heights can clip or fail to scale with Dynamic Type and how multiple-based spacing behaves.
+- [Michael Tsai - Blog - Unspecified Full Disk Access Screw TighteningUnspecified Full Disk Access Screw TighteningMichael J. Tsai](https://mjtsai.com/blog/2026/10/05/unspecified-full-disk-access-screw-tightening?ref=ioscodereview.com) — Article · Topics: AI Development · Security & Privacy
+  **NeKI brief:** Examines proposed Full Disk Access restrictions through missing granular permissions, unclear consent, and agent workflows. Collects developer objections and legitimate utility use cases while keeping Apple's unspecified future controls separate from current permission behavior.
+- [Concurrency: Load a Screen in Steps With AsyncSequence (iOS 17+)](https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift?ref=ioscodereview.com) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
+- [Why the navigation title moves to the left in iOS 26](https://sarunw.com/posts/swiftui-inline-title-moves-left-ios-26?ref=ioscodereview.com) — Article · Topics: Navigation & Deep Linking · SwiftUI
+  **NeKI brief:** Demonstrates how iOS 26 relocates an inline navigation title when toolbar content crowds its centered position, then truncates it as space shrinks. Compares older behavior and suggests fewer actions or shorter localized titles.
+- [Presenting SwiftUI sheets on iPhone Duo](https://nilcoalescing.com/blog/PresentingSwiftUISheetsOnIPhoneDuo?ref=ioscodereview.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Shows how SwiftUI sheets and their toolbars adapt across iPhone Duo displays and fold positions. Explores presentationPlacement, toolbar arrangement, and a beta issue where a large detent restored expected trailing-sheet behavior.
+- [server-side Swift SDK for Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-server-side-cloud-swift-sdk?ref=ioscodereview.com) — Article · Topics: Networking · Swift
+  **NeKI brief:** Introduces Google's server-side Swift client libraries through SwiftPM setup, Application Default Credentials, async requests, and paginated sequences. Explains the shared authentication and retry packages, and why administrative Cloud credentials belong on servers rather than inside iOS apps.
+- [the App Store review process needs fixing](https://mjtsai.com/blog/2026/09/30/the-app-store-review-process-needs-fixing?ref=ioscodereview.com) — Article · Topics: App Distribution & Store Operations
+  **NeKI brief:** Questions repeated App Review of established bug-fix releases when remote configuration lets malicious apps change after approval. Collects arguments for a trusted-developer process and highlights the gap between announced review policy and reported experience.
+- [10k MRR in the most boring way possible](https://www.swiftjectivec.com/10k-MRR-in-the-Most-Boring-Way-Possible?ref=ioscodereview.com) — Article · Topics: Developer Community & Business
+  **NeKI brief:** Reflects on Elite Hoops reaching $10,000 in monthly recurring revenue after three years of iteration. Argues for validating a paid pain point and sustaining small product improvements while resisting comparison, copycats, and unnecessary embellishment.
 
 ## [Issue 89](https://ioscodereview.com/issues/issue-89-a-code-reviewer-for-your-agent-siri-reads-your-screen-and-swifts-cancellation-shield)
 

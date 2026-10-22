@@ -3,9 +3,45 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://sarunw.com/posts/](https://sarunw.com/posts/)
-- Last collected: `2026-10-05T06:41:52Z`
-- Indexed entries: **481**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed entries: **490**
 
+- [How to use layoutMarginsGuide in SwiftUI | Sarunw](https://sarunw.com/posts/swiftui-content-margin-guide)
+  **Published:** `2026-10-22`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Compares system-selected SwiftUI container margins with fixed padding and UIKit layoutMarginsGuide. Explains iOS 27.1 availability, asymmetric Duo margins, local GeometryProxy readings, and the distinction between content margins and safe-area insets.
+- [How to use layoutMarginsGuide in UIKit | Sarunw](https://sarunw.com/posts/uikit-layoutmarginsguide)
+  **Published:** `2026-10-16`
+  **Topics:** Hardware & Devices · UIKit
+  **NeKI brief:** Pins UIKit content to layoutMarginsGuide to follow device-dependent system spacing. Separates safe-area contributions from margins, explains minimum-margin overrides, and shows how preservesSuperviewLayoutMargins aligns nested views with a controller's navigation content.
+- [some View? without parentheses in Swift 6.4 | Sarunw](https://sarunw.com/posts/optional-opaque-and-existential-types)
+  **Published:** `2026-10-16`
+  **Topics:** Swift
+  **NeKI brief:** Explains Swift 6.4's parsing change for optional opaque and existential types, including some P? and any P?. Covers the remaining parentheses requirement for protocol compositions and compatibility with existing type spellings.
+- [Set the split size of ArrangementView with splitArrangementLayoutRatio | Sarunw](https://sarunw.com/posts/splitarrangementlayoutratio)
+  **Published:** `2026-10-11`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Demonstrates horizontal and vertical split ratios in ArrangementView, including a shared ratio for both axes. Simulator comparisons show when the fold overrides those preferences and why content still needs enough space within its allocation.
+- [Size classes on iPhone Duo | Sarunw](https://sarunw.com/posts/size-classes-on-iphone-duo)
+  **Published:** `2026-10-10`
+  **Topics:** Hardware & Devices · SwiftUI · UIKit
+  **NeKI brief:** Records iPhone Duo simulator size classes across poses and orientations, then distinguishes window traits from ArrangementView pane traits. Useful for diagnosing why size-class adaptation cannot detect hinge angle or reliably describe a nested pane's whole display.
+- [Place a sheet on one side with presentationPlacement on iPhone Duo | Sarunw](https://sarunw.com/posts/presentation-placement-on-iphone-duo)
+  **Published:** `2026-10-09`
+  **Topics:** Hardware & Devices · SwiftUI · UIKit
+  **NeKI brief:** Compares SwiftUI presentationPlacement and UIKit sheet preferredPlacement across open, partially folded, and closed Duo displays. Shows how fold avoidance overrides centering and how choosing the trailing side can move sheet actions into vertical controls.
+- [When toolbar items share a glass background in iOS 26 | Sarunw](https://sarunw.com/posts/swiftui-toolbar-item-grouping-ios-26)
+  **Published:** `2026-10-08`
+  **Topics:** Liquid Glass · SwiftUI
+  **NeKI brief:** Explains when adjacent toolbar items share a Liquid Glass capsule and when prominence or hidden backgrounds separate them. Contrasts fixed and flexible ToolbarSpacer behavior in navigation and bottom bars, including isolating an embedded search field.
+- [Get concentric corner radii from GeometryReader in iOS 27 | Sarunw](https://sarunw.com/posts/swiftui-concentric-corner-radii)
+  **Published:** `2026-10-07`
+  **Topics:** SwiftUI
+  **NeKI brief:** Reads GeometryProxy.concentricCornerRadii to construct custom rounded shapes in iOS 27. Explains container-relative radii, the half-shortest-side limit, optional fallbacks, and why short views near screen corners can still be clipped.
+- [Why the navigation title moves to the left in iOS 26 | Sarunw](https://sarunw.com/posts/swiftui-inline-title-moves-left-ios-26)
+  **Published:** `2026-10-06`
+  **Topics:** Navigation & Deep Linking · SwiftUI
+  **NeKI brief:** Demonstrates how iOS 26 relocates an inline navigation title when toolbar content crowds its centered position, then truncates it as space shrinks. Compares older behavior and suggests fewer actions or shorter localized titles.
 - [Toolbar overflow and visibility priority on iPhone Duo | Sarunw](https://sarunw.com/posts/toolbar-overflow-and-visibility-priority-on-iphone-duo)
   **Published:** `2026-10-05`
   **Topics:** Hardware & Devices · SwiftUI · UIKit

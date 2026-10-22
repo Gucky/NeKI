@@ -3,8 +3,112 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.fatbobman.com/archive](https://weekly.fatbobman.com/archive)
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed entries: **155**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed entries: **158**
+
+## [Issue 158](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-158)
+
+- Published: `2026-10-19T12:04:49.151Z`
+
+**Topics:** App Intents & System Surfaces · Persistence & Synchronisation · Swift · SwiftData · Testing · Xcode
+
+**Sections:** Who Is the Real Threat to AI-Relay Apps? · Recent Recommendations · Tools
+
+**NeKI brief:** The editorial asks which product value survives when foundation-model providers absorb wrapper-app features. Recommendations connect system-level intent testing, structured project editing, summary evaluation, Assistive Access, and explicit CloudKit sharing through SwiftDataSync.
+
+**Selected links:**
+- [iOS 27: App Intents Testing](https://l.fatbobman.com/w0158-01) — Article · Topics: App Intents & System Surfaces · Testing
+  **NeKI brief:** Tests App Intents through a live app's registered definitions in a UI Testing target, rather than directly calling perform(). Covers stable entity references, query results, chained intents, and debug-only setup intents without automating Shortcuts screens.
+- [Xcode Projects for the Command Line and Coding Agents](https://l.fatbobman.com/w0159-02) — Article · Topics: AI Development · Xcode
+  **NeKI brief:** Demonstrates Apple's xcodeproj and xcprojformatter command-line tools for JSON-format projects, covering targets, synchronized groups, packages, build settings, and xcconfig files. Distinguishes raw project values from resolved settings and warns about the CocoaPods command-name collision.
+- [yomado: A Virtual Workspace for AI Agents](https://l.fatbobman.com/w0158-08) — Article · Topics: AI Development · macOS & AppKit
+  **NeKI brief:** Creates macOS virtual displays for visual coding-agent workflows and moves selected app windows with restoration checks. Documents shared keyboard focus, private-API compatibility risks, and the unverified boundary around working with physical monitors switched off.
+- [SwiftDataSync: Building CloudKit Sync and Sharing for SwiftData Apps](https://l.fatbobman.com/w0158-10) — Article · Topics: Persistence & Synchronisation · SwiftData
+  **NeKI brief:** Connects an app-owned SwiftData store to private and shared CloudKit zones with CKSyncEngine and a durable outbox. Keeps record mapping, merge policy, and revoked-share recovery explicit in the app's adapter instead of reflecting arbitrary models.
+- [HomeView and Apple TV 4K 2026](https://l.fatbobman.com/w0158-04) — Article · Topics: Apple Platform Ecosystem · Hardware & Devices
+  **NeKI brief:** Collects HomeView launch reporting and follow-up discussion about paired-device recognition, limited third-party CarPlay apps, and shared-screen use. Useful for separating the product's developer-access constraints from competing interpretations of its household role.
+- [2026 Apple TV 4K](https://mjtsai.com/blog/2026/10/13/apple-tv-4k-2026) — Article · Topics: Apple Platform Ecosystem · Hardware & Devices
+  **NeKI brief:** Pairs Apple TV 4K hardware changes with developer and user criticism of playback reliability, state restoration, promotion-heavy navigation, and pricing. Follow-up reports add Siri Remote compatibility limits and questions about the product's intended audience.
+- [Comparing On-Device and Private Cloud Compute Summaries](https://l.fatbobman.com/w0158-05) — Article · Topics: AI Development · Testing
+  **NeKI brief:** Compares trimmed on-device summaries with full-text Private Cloud Compute using fixed baselines, sentence checks, and pairwise model judging. A short-issue control separates model preference from benefits attributed to preserving late conclusions.
+- [Making On-Device Summaries Work for Real Issue Lengths](https://www.ioscoffeebreak.com/issue/issue77) — Article · Topics: AI Development · Performance
+  **NeKI brief:** Budgets Foundation Models prompts with runtime token counts, trims issue bodies until they fit, and caches summaries using hashes of every prompt input. Explains response headroom, cache-version invalidation, and the information lost by prefix trimming.
+- [iPhone Use: Let AI Assistants Control a Real iPhone over USB](https://l.fatbobman.com/w0158-07) — Article · Topics: AI Development · Developer Tools
+  **NeKI brief:** Exposes WebDriverAgent-based iPhone control over USB through a local MCP service and live screen widget. The README explains signing prerequisites, connection reuse, compact observations, screenshot fallback, and safeguards against replaying uncertain actions.
+- [Sill: Control Mac Windows from Your iPhone or iPad](https://l.fatbobman.com/w0158-09) — Article · Topics: macOS & AppKit · Networking
+  **NeKI brief:** Streams a Mac window or desktop to iPhone and iPad using ScreenCaptureKit, HEVC, and direct encrypted connections. Documents pairing, remote input, optional virtual displays, and limits including no audio and a Mac that must remain awake.
+- [some View? without parentheses in Swift 6.4](https://l.fatbobman.com/w0158-03) — Article · Topics: Swift
+  **NeKI brief:** Explains Swift 6.4's parsing change for optional opaque and existential types, including some P? and any P?. Covers the remaining parentheses requirement for protocol compositions and compatibility with existing type spellings.
+- [SE-0521](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0521-improved-optional-opaque-and-any.md) — Source repository · Topics: Swift
+  **NeKI brief:** Defines optional opaque and existential syntax without outer parentheses, including nested optionals and protocol suppressions. Explains why protocol compositions still need grouping and how interface-file spelling preserves compatibility with older compilers.
+- [Assistive Access — iOS Easy Mode, Revisited](https://l.fatbobman.com/w0158-06) — Article · Topics: Accessibility
+  **NeKI brief:** Shows how UISupportsAssistiveAccess and a dedicated AssistiveAccess scene enable simplified app flows, including UIKit scene routing and previews. Highlights navigation icons and the limitation that third-party setup settings must remain inside the ordinary app.
+
+## [Issue 157](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-157)
+
+- Published: `2026-10-12T12:01:33.317Z`
+
+**Topics:** CI/CD & Automation · Concurrency · Graphics, Media & Games · Performance · Swift · SwiftUI
+
+**Sections:** When Build in Public Goes Back Underground · 📢 Sponsor Fatbobman’s Swift Weekly · Original
+
+**NeKI brief:** Lower cloning costs change the risks of sharing unfinished indie products. The issue pairs that discussion with work ownership beyond task lifetime, calendar performance, localized screenshot verification, and tools that expose verifiable dependency and UI feedback.
+
+**Selected links:**
+- [Why your fastlane snapshot screenshots are all in English(and how to check every language)](https://l.fatbobman.com/w0157-05) — Article · Topics: App Distribution & Store Operations · Localization · Testing
+  **NeKI brief:** Diagnoses English-only fastlane screenshots through helper ordering, launch context, missing translations, simulator language, and persisted app settings. Describes OCR checks against the built app’s strings, including unsupported-script and unverified-image limitations.
+- [Redlamp: A Native RAW Editor Built by a Photography Enthusiast with AI](https://l.fatbobman.com/w0157-06) — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **NeKI brief:** Describes an AI-assisted native RAW editor whose sidecar files preserve originals and whose rendering stays on the Mac. Contrasts rapid interface implementation with the harder task of validating colour processing, camera compatibility, and image quality.
+- [long wanted more tools that fit the way he prefers to work](https://redlamp.app/blog/why-im-building-redlamp) — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **NeKI brief:** Describes an AI-assisted native RAW editor whose sidecar files preserve originals and whose rendering stays on the Mac. Contrasts rapid interface implementation with the harder task of validating colour processing, camera compatibility, and image quality.
+- [InnoDI: Turning the Dependency Graph into a Verifiable Build Artifact](https://l.fatbobman.com/w0157-08) — Article · Topics: Architecture · Dependency Injection · Macros & Metaprogramming
+  **NeKI brief:** Provides macro-generated dependency containers with explicit wiring, local diagnostics, required build validation, and graph artifacts for cross-module checks. The README distinguishes stable releases from development APIs and explains why deferred dependencies still cannot form ownership cycles.
+- [SimAgentation: Annotate the iOS Simulator in Your Browser and Hand the Work to AI](https://l.fatbobman.com/w0157-09) — Article · Topics: AI Development · Developer Tools · Testing
+  **NeKI brief:** Connects browser annotations on a simulator to coding agents using accessibility elements, screenshots, and MCP tools. An optional SDK adds source locations; private Xcode frameworks and inaccessible custom drawing define important integration limits.
+- [SwiftUIComponents](https://github.com/shial4/SwiftUIComponents) — Source repository · Topics: Cross-Platform & Web · SwiftUI
+  **NeKI brief:** Provides caller-owned SwiftUI components, including a calendar with range selection, custom day builders, event dots, and calendar-aware date generation. The repository includes runnable Apple and Android examples and documents Skip Fuse compatibility boundaries.
+- [Skip Fuse](https://skip.dev/docs/modules/skip-fuse-ui) — Article · Topics: Cross-Platform & Web · SwiftUI
+  **NeKI brief:** Explains how native Swift views bridge through JNI into SkipUI and Jetpack Compose. Documents state synchronization, retained Android composition boundaries, and specific API limitations, helping assess which shared SwiftUI interfaces require platform-specific treatment.
+- [The Task Is Not the Unit of Work: Ownership, Isolation, and Cancellation Beyond async/await](https://l.fatbobman.com/w0157-02) — Article · Topics: Architecture · Concurrency
+  **NeKI brief:** Separates presentation, task, resource, and product-operation lifetimes before choosing Swift concurrency primitives. Uses uploads, shared sessions, search cancellation, and purchases to show why actors and structured task trees cannot decide ownership or cancellation semantics.
+- [SwiftUI Profiling with Instruments: 100,000 Calendar Events](https://l.fatbobman.com/w0157-04) — Article · Topics: Performance · SwiftUI
+  **NeKI brief:** Profiles a calendar backed by 100,000 stored events to separate database costs from repeated SwiftUI graph work. Describes snapshot preparation, viewport reduction, cache changes, and removing hover effects while distinguishing diagnostics from controlled benchmarks.
+- [AnnotateIt: Closing the Loop from Annotation to Create ML Training on Mac](https://l.fatbobman.com/w0157-07) — Article · Topics: AI Development · Developer Tools
+  **NeKI brief:** Walks from reviewed bounding-box annotations through local Create ML detector training to predictions on new images or video. Explains image-only training datasets, preserved splits, validation checks, and the distinction between detector training and video inference.
+- [Revisiting “Split Isolation”](https://l.fatbobman.com/w0157-01) — Article · Topics: Concurrency
+  **NeKI brief:** Examines partially actor-isolated non-Sendable types and why sending self into a main-actor task exposes unsafe boundaries. Weighs whole-type isolation against intentional secondary functionality and temporary Swift 6 migration constraints.
+
+## [Issue 156](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-156)
+
+- Published: `2026-10-05T12:03:46.706Z`
+
+**Topics:** AI Development · App Distribution & Store Operations · Swift · SwiftUI · Testing · Xcode
+
+**Sections:** Original · Recent Recommendations · Tools
+
+**NeKI brief:** Google Cloud support is assessed as ecosystem maintenance rather than proof of a server-side revolution. Reading emphasizes progressive data loading, transform mathematics, concise agent inputs, automated accessibility checks, and reviews grounded in requirements and runtime evidence.
+
+**Selected links:**
+- [How to reduce token usage in Claude Code, Codex, and Cursor](https://l.fatbobman.com/w0156-04) — Article · Topics: AI Development · Developer Tools
+  **NeKI brief:** Analyzes agent session traces to identify repeated context and costly tool patterns, then applies concise operating rules and a hook to reduce token use. Useful for measuring agent workflow changes rather than guessing from a single prompt.
+- [Daniel Saidi](https://l.fatbobman.com/w0156-06) — Article · Topics: AI Development · Xcode
+  **NeKI brief:** Provides a Claude Code PreToolUse hook that routes simple Xcode and Swift build commands through xcsift. Guards against unsafe command rewrites and retains pipefail so compressed output does not hide build failures.
+- [Some Thoughts on Development - Code Review](https://l.fatbobman.com/w0156-07) — Article · Topics: AI Development · Code Quality
+  **NeKI brief:** Argues that people should review specifications and runtime evidence while independent agents inspect code. Demonstrates recorded decisions, bounded review loops, regression evidence, and explicit unresolved findings through the author’s Prowl workflow.
+- [WWDC 2027 Wishlist](https://l.fatbobman.com/w0156-08) — Article · Topics: Apple Platform Ecosystem · Product Design
+  **NeKI brief:** Collects concrete platform requests, including clearer SwiftUI and UIKit direction, local device synchronization, scoped photo access, and simpler app workflows. Useful as developer product feedback and design criticism, with requested features clearly distinguished from available APIs.
+- [Iterative data loading in Swift](https://l.fatbobman.com/w0156-02) — Article · Topics: Concurrency · Health Apps · Performance
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
+- [Argent: Let AI Coding Assistants Participate in App Runtime and Verification](https://l.fatbobman.com/w0156-09) — Article · Topics: AI Development · Developer Tools · Testing
+  **NeKI brief:** Provides agent-driven simulator and device interaction, deterministic replay, visual comparisons, runtime inspection, and native profiling. The repository describes platform coverage and identifies opt-out telemetry and proprietary helper binaries alongside Apache-licensed source.
+- [Using Swift’s ‘some’ keyword beyond SwiftUI](https://l.fatbobman.com/w0156-01) — Article · Topics: Swift
+  **NeKI brief:** Uses opaque result types to hide complex concrete generic return types while preserving a single underlying type. The examples show where some improves API boundaries outside SwiftUI and where ordinary protocol values behave differently.
+- [Swift SDK](https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-server-side-cloud-swift-sdk) — Article · Topics: Networking · Swift
+  **NeKI brief:** Introduces Google's server-side Swift client libraries through SwiftPM setup, Application Default Credentials, async requests, and paginated sequences. Explains the shared authentication and retry packages, and why administrative Cloud credentials belong on servers rather than inside iOS apps.
+- [Modifier Order Is Matrix Order](https://l.fatbobman.com/w0156-03) — Article · Topics: Graphics, Media & Games · SwiftUI
+  **NeKI brief:** Measures SwiftUI transform chains against affine-matrix predictions and rendered pixels. Explains how modifier order and frame placement change anchors, then isolates offset rounding that later scale effects amplify; evidence is limited to ImageRenderer.
+- [Automating accessibility audits for SwiftUI apps with XCTest](https://l.fatbobman.com/w0156-05) — Article · Topics: Accessibility · Testing
+  **NeKI brief:** Adds XCTest accessibility audits to a SwiftUI UI test to catch missing descriptions, contrast problems, and clipped text. Useful for establishing automated coverage while still checking interactions that require manual assistive-technology testing.
 
 ## [Issue 155](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-155)
 

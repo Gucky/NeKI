@@ -4,11 +4,20 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Macros, compiler plugins, generated code, and metaprogramming techniques.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **170**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **175**
 
 ## Direct-source reading
 
+- [Advanced macro technique #2: Type inference](https://www.pointfree.co/blog/posts/233-advanced-macro-technique-2-type-inference) — Point-Free · article catalogue
+  **Published:** `2026-10-08T00:00:00Z`
+  **NeKI brief:** Builds a memberwise initializer without requiring explicit property type annotations. Generated nested protocols and witness types let associated-type inference recover field types from defaults, including function results and closures, for use in expanded declarations.
+- [Advanced macro technique #1: Static type information](https://www.pointfree.co/blog/posts/232-advanced-macro-technique-1-static-type-information) — Point-Free · article catalogue
+  **Published:** `2026-10-07T00:00:00Z`
+  **NeKI brief:** Uses overloaded attached macros to select expansions according to protocol conformance and emit diagnostics beside offending fields. Extends the technique with object-identity equality and examples from SQLite table and reference-state snapshot macros.
+- [Advanced techniques in Swift macros](https://www.pointfree.co/blog/posts/231-advanced-techniques-in-swift-macros) — Point-Free · article catalogue
+  **Published:** `2026-10-06T00:00:00Z`
+  **NeKI brief:** Introduces two ways macro expansions can enlist compiler behavior beyond syntax inspection: overload-driven diagnostics and associated-type inference. Uses generated equality and memberwise initializers to explain the concrete limitations addressed by the companion tutorials.
 - [LazyState 1.0: Now available to everyone](https://www.pointfree.co/blog/posts/228-lazystate-1-0-now-available-to-everyone) — Point-Free · article catalogue
   **Published:** `2026-09-14T00:00:00Z`
   **NeKI brief:** Introduces LazyState 1.0 for SwiftUI models whose initial value depends on parent data, explaining why the State macro solves inline lazy initialization but not dynamically constructed state.
@@ -293,6 +302,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [advanced techniques in Swift macros](https://www.pointfree.co/blog/posts/231-advanced-techniques-in-swift-macros?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Tutorial · Topics: Macros & Metaprogramming · Swift
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Introduces two ways macro expansions can enlist compiler behavior beyond syntax inspection: overload-driven diagnostics and associated-type inference. Uses generated equality and memberwise initializers to explain the concrete limitations addressed by the companion tutorials.
+- [InnoDI: Turning the Dependency Graph into a Verifiable Build Artifact](https://l.fatbobman.com/w0157-08) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: Architecture · Dependency Injection · Macros & Metaprogramming
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Provides macro-generated dependency containers with explicit wiring, local diagnostics, required build validation, and graph artifacts for cross-module checks. The README distinguishes stable releases from development APIs and explains why deferred dependencies still cannot form ownership cycles.
 - [What's New in Vapor 5 Beta](https://blog.vapor.codes/posts/whats-new-in-vapor-5-beta) — SwiftLee Weekly · Issue 342 — Article · Topics: Macros & Metaprogramming · Personal Essays
   **Published:** `2026-09-22T14:09:31.000Z`
   **NeKI brief:** Walks through Vapor 5 beta's revised APIs, Swift HTTP Types integration, service lifecycle, configuration, and experimental route macros. Useful for estimating migration work beyond the headline release announcement.

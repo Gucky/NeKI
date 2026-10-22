@@ -3,8 +3,74 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevtools.substack.com/archive](https://iosdevtools.substack.com/archive)
-- Last collected: `2026-10-02T13:43:36Z`
-- Indexed entries: **171**
+- Last collected: `2026-10-22T15:00:02Z`
+- Indexed entries: **173**
+
+## [iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor](https://iosdevtools.substack.com/p/ios-dev-tools-app-store-review-exporter)
+
+- Published: `2026-10-14T19:54:45.205Z`
+
+**Topics:** Accessibility · App Distribution & Store Operations · Combine & Reactive Programming · Graphics, Media & Games · Objective-C & Cocoa · Swift
+
+**Sections:** App Store Review Exporter · Shotnix · KelvinColor
+
+**NeKI brief:** Tool selections cover exporting App Store reviews without credentials, automatically editing Mac screen recordings, and converting kelvin temperatures into display color gains. Additional leads address watermarking, hands-free input, window management, and local file discovery.
+
+**Selected links:**
+- [App Store Review Exporter](https://slideeasy.app/app-store-review-exporter) — Article · Topics: App Distribution & Store Operations · Developer Tools
+  **NeKI brief:** Exports an app’s newest country-specific reviews from Apple’s public feed into filterable tables and CSV. Documents the 200-review limit, cache freshness, omitted reviewer names, and spreadsheet-formula escaping for shared exports.
+- [slideeasy.app/blog/export-app-store-reviews](http://slideeasy.app/blog/export-app-store-reviews) — Article · Topics: App Distribution & Store Operations · Developer Tools
+  **NeKI brief:** Compares App Store Connect, the public reviews feed, and the authenticated API for exporting feedback. Provides Python pagination examples and explains storefront separation, missing pages, recency limits, and the API snippet’s untested status.
+- [Rtrvr](https://rtrvr.ai/) — Article · Topics: AI Development · Developer Tools
+  **NeKI brief:** Offers browser automation through an extension, cloud execution, API, MCP, and command-line interfaces. Follow it for web-to-dataset and form-completion workflows, comparing local signed-in browser access with hosted execution.
+- [Shotnix](https://shotnix.com/) — Article · Topics: Developer Tools · Graphics, Media & Games · macOS & AppKit
+  **NeKI brief:** Combines local screenshot capture with screen recording, click-based zooms, and transcript editing. Useful for preparing app demos while keeping narration transcription, separate audio tracks, captions, and media export on the Mac.
+- [KelvinColor](https://github.com/trysundown/KelvinColor) — Source repository · Topics: Graphics, Media & Games · Swift · Swift Package Manager
+  **NeKI brief:** Converts kelvin temperatures to sRGB colors, normalized display-warmth gains, and gamma-table ramps in dependency-free Swift. Documents input clamping, platform color adapters, curve-fit accuracy, and why the approximation is unsuitable for scientific colorimetry.
+- [Takes](https://gettakes.app/) — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **NeKI brief:** Combines a voice-following teleprompter, synchronized camera and screen capture, and agent-assisted editing around plain local folders. Exposes an MCP workflow so scripts, selected takes, edit revisions, and platform-specific posts remain inspectable.
+- [Winq](https://winq.kroking.dev/) — Article · Topics: Accessibility · Developer Tools · macOS & AppKit
+  **NeKI brief:** Uses AVFoundation and Vision face landmarks for gaze-based focus, wink clicks, scrolling, and per-app shortcuts. Documents calibration, coarse rather than pixel-level targeting, on-device processing, and required Camera and Accessibility permissions.
+- [Etchv](https://etchv.com/) — Article · Topics: Graphics, Media & Games · Security & Privacy
+  **NeKI brief:** Provides HTTP watermarking and detection for images, PDFs, and supported video, with asynchronous jobs and signed webhooks. Explains per-delivery identifiers and the limit that identifying a distributed copy does not identify its sharer.
+- [Sundown](https://trysundown.com/) — Article · Topics: Developer Tools · macOS & AppKit
+  **NeKI brief:** Provides scheduled display-warmth presets, color-curve dimming, and an optional anti-dithering mode from a macOS menu-bar app. Follow it to compare display-control workflows and platform support rather than infer health outcomes.
+- [TrellisWM](https://trelliswm.app/) — Article · Topics: Developer Tools · macOS & AppKit
+  **NeKI brief:** Arranges macOS windows into nested spaces with zooming, tab groups, saved views, and URL commands. Explains Accessibility-based window control, optional ScreenCaptureKit previews, per-display layouts, and restoration when the app quits.
+- [Homy](https://tryhomy.app/) — Article · Topics: Developer Tools · macOS & AppKit
+  **NeKI brief:** Provides natural-language file filters, screenshot OCR, and duplicate discovery in a native SwiftUI file browser. Explains local Vision processing, SHA-256 matching, download-source grouping, and reversible cleanup that skips cloud-only files.
+
+## [iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel](https://iosdevtools.substack.com/p/ios-dev-tools-appguidelines-ai-icon)
+
+- Published: `2026-10-08T19:10:59.212Z`
+
+**Topics:** App Distribution & Store Operations · Developer Tools · Graphics, Media & Games · macOS & AppKit · Objective-C & Cocoa · Swift
+
+**Sections:** AppGuidelines · AI Icon Creator · Bezel
+
+**NeKI brief:** Compare tools for tracking Apple guideline diffs, generating platform icon assets, and presenting foldable-device demos. Smaller selections cover agent-session monitoring, local object-detection training, screen memory, and Mac interface utilities.
+
+**Selected links:**
+- [AppGuidelines](https://appstoreguidelines.com/) — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Tools
+  **NeKI brief:** Tracks Apple developer-document changes with dated versions, full-text diffs, and an Atom feed. Useful for locating exactly which review-guideline, agreement, or design-guidance wording changed before consulting the original Apple document.
+- [earlyn](https://www.earlyn.app/) — Article · Topics: AI Development · macOS & AppKit · Security & Privacy
+  **NeKI brief:** Builds searchable screen and meeting history with local OCR, transcription, and encrypted storage, then exposes it through MCP and CLI. Distinguishes on-device answering from optional cloud-model requests that transmit retrieved memories.
+- [Bezel](https://nonstrict.eu/bezel) — Article · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games · Spatial Computing
+  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
+- [Liquid Inference](https://liquidinference.ai/) — Article · Topics: AI Development · Developer Tools
+  **NeKI brief:** Routes inference requests to the lowest-priced provider that meets selected model, region, speed, and quality constraints. Documents capped token-price offers, independent benchmarks, itemized billing, and API-compatible access for coding-agent workflows.
+- [BuildNotch](https://www.buildnotch.app/) — Article · Topics: Cross-Platform & Web · Developer Tools
+  **NeKI brief:** Provides a Windows-only desktop notch for project tasks, focus timers, clipboard history, GitHub activity, and AI-tool shortcuts. The page describes x64 system requirements and the unsigned installer, making the platform boundary explicit.
+- [AI Icon Creator](https://aiiconcreator.com/) — Article · Topics: AI Development · Developer Tools · Product Design
+  **NeKI brief:** Generates app icons in curated styles, supports localized edits, and exports platform-specific size packs. Documents account and credit requirements plus limitations of AI-redrawn PSD layers, helping assess an icon-production workflow before paying.
+- [Hallmonitor](https://github.com/hiteshbandhu/hallmonitor) — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
+  **NeKI brief:** Shows coding-agent sessions, approval needs, activity, and usage across a terminal board and macOS menu bar. Documents local metadata reading, remote SSH monitoring, stale-limit indicators, and optional hook-based replies from the notch.
+- [Vision Radar](https://radar.annotateit.ai/news/apple-create-ml-training-on-mac) — Article · Topics: AI Development · Developer Tools
+  **NeKI brief:** Walks from reviewed bounding-box annotations through local Create ML detector training to predictions on new images or video. Explains image-only training datasets, preserved splits, validation checks, and the distinction between detector training and video inference.
+- [Hoardware](https://apps.apple.com/us/app/hoardware-device-collection/id6806893785) — Article · Topics: Developer Tools · Hardware & Devices
+  **NeKI brief:** Catalogues Apple hardware with AppleDB model and firmware information, software-version coverage, custom fields, and iCloud synchronization. Useful for organizing a device collection and exporting its inventory as text, JSON, PDF, or images.
+- [CoolDock](https://cooldock.app/) — Article · Topics: Developer Tools · macOS & AppKit
+  **NeKI brief:** Adds a second macOS Dock containing live widgets, app shortcuts, system controls, and developer-service integrations. Explains per-widget permissions and customization options for keeping project status and everyday utilities accessible beside the system Dock.
 
 ## [iOS Dev Tools: DuoShot, App Availability, Asoly](https://iosdevtools.substack.com/p/ios-dev-tools-duoshot-app-availability)
 
@@ -1789,6 +1855,8 @@ Third-party source index. It provides source attribution and routing metadata, n
 **Sections:** Porkbun.com — Offering .app and .dev Domains For Under $6 · Bezel · Footprint
 
 **Selected links:**
+- [Bezel](https://nonstrict.eu/bezel) — Article · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games · Spatial Computing
+  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
 - [Footprint](https://github.com/naftaly/Footprint) — Source repository · Topics: Apple Platform Ecosystem · Developer Tools · Swift
   **NeKI brief:** Footprint exposes app and system memory pressure as normal, warning, urgent, critical, and terminal states, with a 500-ms heartbeat and AsyncStream updates. SwiftUI modifiers let an app adapt before memory warnings arrive too late.
 - [AppRouter](https://github.com/Dimillian/AppRouter) — Source repository · Topics: Developer Tools · Swift · SwiftUI
@@ -1799,8 +1867,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** This Porkbun page is a discounted .app and .dev domain advertisement. It is commercial promotion rather than technical reading and should normally be excluded from the knowledge index.
 - [.app or .dev domain for less than $6](http://porkbun.com/land/app-domain-dev-domain-foo-domain?coupon=APPDEVFOO1) — Article · Topics: Developer Tools · Testing
   **NeKI brief:** This Porkbun page is a discounted .app, .dev, or .foo domain advertisement. It is commercial promotion rather than technical reading and should normally be excluded from the knowledge index.
-- [Bezel](https://nonstrict.eu/bezel) — Article · Topics: Spatial Computing
-  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
 - [Granola](https://www.granola.ai/) — Article · Topics: AI Development
   **NeKI brief:** Granola captures or summarizes meeting information using AI. Follow it for concrete transcription and note-organization behavior, while checking recording consent, processing location, and privacy implications.
 

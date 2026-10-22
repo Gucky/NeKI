@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** C/C++, assembly, linking, allocators, memory layout, and systems tooling relevant to Apple platforms.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **74**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **79**
 
 ## Direct-source reading
 
@@ -49,6 +49,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Why my Swift debouncer got 50× faster](https://ivanmagda.dev/posts/swift-debounce-runtime-investigation) — SwiftLee Weekly · Issue 346 — Article · Topics: Concurrency · Performance · Systems Programming
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Investigates debounce costs through task reuse, locks, clock representation, generic specialization, and inlinable helpers. Provides benchmark conditions and generated-code observations while separating aggregate implementation gains from experiments that cannot isolate individual causes.
+- [Active ReviewSE-0558Bulk update operations for `MutableSpan` and `MutableRawSpan`](https://github.com/apple/swift-evolution/blob/main/proposals/0558-mutablespan-bulk-updates.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Swift · Systems Programming
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes bulk overwrites for MutableSpan and MutableRawSpan using repeated values, span copies, iterable sources, or moved OutputSpan elements. Explains count-matching requirements and how an inout index preserves partial progress when iteration throws.
+- [Active ReviewSE-0555`inout` overload of `BorrowingIteratorProtocol.skip(by:)`](https://github.com/apple/swift-evolution/blob/main/proposals/0555-iterable-inout-skip.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Swift · Systems Programming
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes an inout overload of BorrowingIteratorProtocol.skip(by:) that reports elements still to skip even after throwing. Explains default forwarding and continuation algorithms while warning that iterator resumability depends on each concrete type's post-error contract.
+- [Active ReviewSE-0556Cell, ConstCell, and Volatile](https://github.com/apple/swift-evolution/blob/main/proposals/0556-cell.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Concurrency · Swift · Systems Programming
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes Cell and ConstCell wrappers for memory that cannot satisfy Swift's exclusivity guarantees, plus Volatile for explicit hardware-facing loads and stores. Explains composition with spans, lifetime preservation, and why synchronization remains a separate responsibility.
+- [Active ReviewSE-0557Add `RawSpan` primitive to `Hasher`](https://github.com/apple/swift-evolution/blob/main/proposals/0557-hasher-rawspan-primitive.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Swift · Systems Programming
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes Hasher.combine(bytes:) accepting RawSpan so contiguous bytes can be hashed without constructing an UnsafeRawBufferPointer. Explains source compatibility and why the primitive remains useful even if RawSpan later adopts Hashable.
 - [Blinker](https://apps.apple.com/in/app/blinker-focus-without-strain/id6753800447) — iOS Dev Tools · iOS Dev Tools: SwiftFairy, ItsPaint, PinkDown — Article · Topics: Systems Programming
   **Published:** `2026-09-24T16:20:24.417Z`
   **NeKI brief:** Blinker presents timed blink and break reminders with configurable animations based on the 20-20-20 routine. Useful as an example of a low-interruption screen-time aid rather than a developer API resource.

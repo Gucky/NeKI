@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Rendering, GPU work, image/audio/video processing, computer vision, and game-development techniques.
 
-- Last collected: `2026-10-05T06:41:52Z`
-- Indexed links shown: **896**
+- Last collected: `2026-10-22T15:00:02Z`
+- Indexed links shown: **910**
 
 ## Direct-source reading
 
+- [Maths, Metal, Mandelbrot, and SwiftUI](https://blog.jacobstechtavern.com/p/maths-metal-mandelbrot) — Jacob’s Tech Tavern · newsletter edition
+  **Published:** `2026-10-07T15:00:28.880Z`
+  **NeKI brief:** Builds a Mandelbrot explorer with stitchable Metal shaders, escape-time coloring, and SwiftUI pan and zoom gestures. Explains the float32 precision ceiling and later refinements involving perturbation, gesture separation, caching, and smoother iteration coloring.
 - [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts) — Nil Coalescing · article catalogue
   **Published:** `2026-09-28`
   **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
@@ -443,6 +446,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Apple-style](https://github.com/npwitk/Macintosh-Skeletal-Filled) — iOS Dev Weekly · Issue 772 — Source repository · Topics: Graphics, Media & Games · Product Design
+  **Published:** `16th October 2026`
+  **NeKI brief:** Reconstructs Apple’s skeletal handwriting as static and variable OpenType fonts using recorded letter joins. Explains contextual alternates, modeled limitations, and installation; the derivative fonts are limited to personal, noncommercial use.
+- [Shotnix](https://shotnix.com/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Developer Tools · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Combines local screenshot capture with screen recording, click-based zooms, and transcript editing. Useful for preparing app demos while keeping narration transcription, separate audio tracks, captions, and media export on the Mac.
+- [KelvinColor](https://github.com/trysundown/KelvinColor) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Source repository · Topics: Graphics, Media & Games · Swift · Swift Package Manager
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Converts kelvin temperatures to sRGB colors, normalized display-warmth gains, and gamma-table ramps in dependency-free Swift. Documents input clamping, platform color adapters, curve-fit accuracy, and why the approximation is unsuitable for scientific colorimetry.
+- [Etchv](https://etchv.com/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Graphics, Media & Games · Security & Privacy
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Provides HTTP watermarking and detection for images, PDFs, and supported video, with asynchronous jobs and signed webhooks. Explains per-delivery identifiers and the limit that identifying a distributed copy does not identify its sharer.
+- [Takes](https://gettakes.app/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Combines a voice-following teleprompter, synchronized camera and screen capture, and agent-assisted editing around plain local folders. Exposes an MCP workflow so scripts, selected takes, edit revisions, and platform-specific posts remain inspectable.
+- [Redlamp: A Native RAW Editor Built by a Photography Enthusiast with AI](https://l.fatbobman.com/w0157-06) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Describes an AI-assisted native RAW editor whose sidecar files preserve originals and whose rendering stays on the Mac. Contrasts rapid interface implementation with the harder task of validating colour processing, camera compatibility, and image quality.
+- [long wanted more tools that fit the way he prefers to work](https://redlamp.app/blog/why-im-building-redlamp) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Describes an AI-assisted native RAW editor whose sidecar files preserve originals and whose rendering stays on the Mac. Contrasts rapid interface implementation with the harder task of validating colour processing, camera compatibility, and image quality.
+- [Modifier Order Is Matrix Order](https://aleahim.com/blog/swiftui-modifier-order) — iOS Dev Weekly · Issue 771 — Article · Topics: Graphics, Media & Games · SwiftUI
+  **Published:** `9th October 2026`
+  **NeKI brief:** Measures SwiftUI transform chains against affine-matrix predictions and rendered pixels. Explains how modifier order and frame placement change anchors, then isolates offset rounding that later scale effects amplify; evidence is limited to ImageRenderer.
+- [Bezel](https://nonstrict.eu/bezel) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games · Spatial Computing
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
+- [SwiftUI Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) — SwiftLee Weekly · Issue 344 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-10-06T14:07:47.000Z`
+  **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
+- [RocketSim’s CLI](https://www.rocketsim.app/docs/features/agentic-development) — SwiftLee Weekly · Issue 344 — Article · Topics: AI Development · Graphics, Media & Games
+  **Published:** `2026-10-06T14:07:47.000Z`
+  **NeKI brief:** The documentation explains RocketSim's agentic-development feature for controlling the iOS Simulator with AI-assisted workflows.
+- [Modifier Order Is Matrix Order](https://l.fatbobman.com/w0156-03) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: Graphics, Media & Games · SwiftUI
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Measures SwiftUI transform chains against affine-matrix predictions and rendered pixels. Explains how modifier order and frame placement change anchors, then isolates offset rounding that later scale effects amplify; evidence is limited to ImageRenderer.
 - [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: Graphics, Media & Games · SwiftUI
   **Published:** `2026-10-03T10:58:55.000Z`
   **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
@@ -2639,6 +2678,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Where to begin](http://mur.mu.rs/page6) — iOS Dev Weekly · Issue 3 — Article · Topics: Graphics, Media & Games
   **Published:** `19th August 2011`
   **NeKI brief:** The page is a publicly readable archive page containing the author's earlier posts and provides navigation into the site's technical writing.
+- [Blueprint icons for your apps](https://go.peterfriese.dev/tools-blueprint-debug-icons?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Developer Tools · Graphics, Media & Games
+  **NeKI brief:** Documents a command-line tool that converts Icon Composer files or asset-catalog icons into blueprint-style debug variants. Covers environment badges, Xcode build-configuration selection, and Vision-based tracing for flat icons while preserving source assets.
 - [Play](https://youtube.com/watch?v=qx5QWrKhxM8) — Not only Swift · Issue 98 — Video · Topics: AI Development · Apple Platform Ecosystem · Foundation & Data Formats
   **NeKI brief:** Demonstrates a Firebase bridge that makes Gemini models available through Apple’s Foundation Models-style API. Use it to compare a cloud-model fallback with on-device sessions while keeping authentication, privacy, latency, and API compatibility explicit.
 - [Play](https://youtube.com/watch?v=Y_Ov-ddMb24) — Not only Swift · Issue 97 — Video · Topics: Graphics, Media & Games · Swift · SwiftUI

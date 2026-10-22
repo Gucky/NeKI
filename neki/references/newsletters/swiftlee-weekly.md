@@ -3,8 +3,106 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://newsletter.avanderlee.com/posts](https://newsletter.avanderlee.com/posts)
-- Last collected: `2026-10-02T13:43:36Z`
-- Indexed entries: **103**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed entries: **106**
+
+## [Issue 346](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-346)
+
+- Published: `2026-10-20T14:04:07.000Z`
+
+**Topics:** AI Development · Developer Community & Business · Performance · Swift · SwiftUI · Xcode
+
+**Sections:** SwiftLee Weekly by Antoine van der Lee · SwiftUI Performance: Find Redraws in Xcode Instruments · Run cloud agents with Xcode on real Apple Silicon
+
+**NeKI brief:** Combine Instruments redraw analysis with Swift Build migration checks, optional opaque-type syntax, and Xcode project command-line tools. The community section also examines adaptive ArrangementView layouts and a measured investigation into debouncer runtime overhead.
+
+**Selected links:**
+- [Swift 6.4 Support and the Move to Swift Build on the Swift Package Index Blog](https://swiftpackageindex.com/blog/swift-6-4-support-and-the-move-to-swift-build) — Article · Topics: CI/CD & Automation · Developer Tools · Swift Package Manager
+  **NeKI brief:** Explains how SwiftPM’s switch to Swift Build affects Package Index compatibility checks. Shows how to isolate regressions with the native build system and obtain relocated artifacts through --show-bin-path.
+- [Xcode Projects for the Command Line and Coding Agents](https://artemnovichkov.com/blog/xcode-projects-for-the-command-line-and-coding-agents) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Demonstrates Apple's xcodeproj and xcprojformatter command-line tools for JSON-format projects, covering targets, synchronized groups, packages, build settings, and xcconfig files. Distinguishes raw project values from resolved settings and warns about the CocoaPods command-name collision.
+- [Why my Swift debouncer got 50× faster](https://ivanmagda.dev/posts/swift-debounce-runtime-investigation) — Article · Topics: Concurrency · Performance · Systems Programming
+  **NeKI brief:** Investigates debounce costs through task reuse, locks, clock representation, generic specialization, and inlinable helpers. Provides benchmark conditions and generated-code observations while separating aggregate implementation gains from experiments that cannot isolate individual causes.
+- [ImplementedSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
+- [ImplementedSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
+- [ArrangementView in SwiftUI: split and overlay layouts for iPhone Duo](https://nilcoalescing.com/blog/ArrangementViewInSwiftUISplitAndOverlayLayoutsForIPhoneDuo) — Article · Topics: Hardware & Devices · SwiftUI
+  **NeKI brief:** Walks through ArrangementView split and overlay layouts, axis restrictions, sizing preferences, and fold-aware separation. Documents simulator observations about environment propagation and explicit overlay edges, helping distinguish intended layout behavior from version-specific workarounds.
+- [Active ReviewSE-0558Bulk update operations for `MutableSpan` and `MutableRawSpan`](https://github.com/apple/swift-evolution/blob/main/proposals/0558-mutablespan-bulk-updates.md) — Source repository · Topics: Swift · Systems Programming
+  **NeKI brief:** Proposes bulk overwrites for MutableSpan and MutableRawSpan using repeated values, span copies, iterable sources, or moved OutputSpan elements. Explains count-matching requirements and how an inout index preserves partial progress when iteration throws.
+- [some View? without parentheses in Swift 6.4](https://sarunw.com/posts/optional-opaque-and-existential-types) — Article · Topics: Swift
+  **NeKI brief:** Explains Swift 6.4's parsing change for optional opaque and existential types, including some P? and any P?. Covers the remaining parentheses requirement for protocol compositions and compatibility with existing type spellings.
+
+## [Issue 345](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-345)
+
+- Published: `2026-10-13T13:21:18.000Z`
+
+**Topics:** Accessibility · AI Development · Performance · Swift · SwiftUI · Xcode
+
+**Sections:** SwiftLee Weekly by Antoine van der Lee · Agentic iOS Development with RocketSim and RocketTrace · Is your mobile app under attack right now?
+
+**NeKI brief:** The issue links agent-assisted iOS workflows with worktree disk diagnosis, accessibility audits, external localization skills, and toolbar grouping. Swift Evolution updates and an Instruments demonstration provide concrete follow-up reading for tooling and review decisions.
+
+**Selected links:**
+- [Where did my disk go? Xcode, worktrees and AI agents](https://skarol.dev/posts/where-did-my-disk-go) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Diagnoses misleading Xcode failures caused by disk exhaustion in parallel agent worktrees. Distinguishes APFS clone accounting from actual free space, then ties DerivedData, test-product, and simulator cleanup to worktree ownership.
+- [Using Xcode 27’s localization skills over MCP](https://macguru.dev/using-xcode-27s-localization-skills-over-mcp) — Article · Topics: AI Development · Localization · Xcode
+  **NeKI brief:** Shows how xcrun agent plugin path exposes Xcode’s translation skills and MCP setup to external coding agents. Explains why loading the actual localization guidance matters for catalog variations, terminology, and language-specific style rules.
+- [AcceptedSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — Source repository · Topics: Developer Tools · Performance · Swift
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
+- [AcceptedSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
+  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
+- [Stop Guessing Why Your iOS App Is Slow](https://www.youtube.com/watch?v=cDtgTlDeev0&t=664s) — Video · Topics: AI Development · Developer Tools · Performance
+  **NeKI brief:** Introduces RocketTrace as a way to inspect Instruments traces and work with coding agents. Chapter markers cover symbols and profile builds, simulator-versus-device measurements, signpost focus, and applying suggested fixes.
+- [AcceptedSE-0551`Span` over a single value](https://github.com/apple/swift-evolution/blob/main/proposals/0551-span-of-one.md) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** Proposes borrowing a single value as Span or MutableSpan, with raw-byte variants, without copying into CollectionOfOne. Useful when adapting values to span-taking APIs, including noncopyable values.
+- [Accessibility Audits done by your agent](https://www.rocketsim.app/blog/accessibility-audit-ios-simulator) — Article · Topics: Accessibility · AI Development · Developer Tools
+  **NeKI brief:** Walks through RocketSim's Simulator accessibility audit in its UI and CLI, including grouped findings and an agent-driven fix-and-recheck loop. Explains heuristic contrast checks, stale results, frame comparisons, and checks that still require manual VoiceOver testing.
+- [AcceptedSE-0553Task Identity](https://github.com/apple/swift-evolution/blob/main/proposals/0553-task-identity.md) — Source repository · Topics: Developer Tools · Performance · Swift
+  **NeKI brief:** Proposes a cheap process-unique Task.ID for tracing, structured logs, and profilers across suspension points. Useful for evaluating always-on task attribution without relying on pointer identity or expensive closure-based inspection.
+- [Active ReviewSE-0556Cell, ConstCell, and Volatile](https://github.com/apple/swift-evolution/blob/main/proposals/0556-cell.md) — Source repository · Topics: Concurrency · Swift · Systems Programming
+  **NeKI brief:** Proposes Cell and ConstCell wrappers for memory that cannot satisfy Swift's exclusivity guarantees, plus Volatile for explicit hardware-facing loads and stores. Explains composition with spans, lifetime preservation, and why synchronization remains a separate responsibility.
+- [Devs for Devs: What I Learned Building and Shipping My First Two iOS Apps](https://thosewhoswift.substack.com/p/devs-for-devs-what-i-learned-building) — Article · Topics: Swift
+  **NeKI brief:** Manuel Cazalla Colmenero traces two app launches through review rejection, metadata experiments, Firebase analytics, and monetization choices. The practical lesson is to treat release measurement and product communication as continuing development work.
+- [Supporting Differentiate Without Color in SwiftUI](https://tanaschita.com/ios-accessibility-differentiate-without-color) — Article · Topics: Accessibility · SwiftUI
+  **NeKI brief:** Adds checkmark and cross overlays when accessibilityDifferentiateWithoutColor is enabled, keeping visible status distinguishable beyond red and green. Discusses always-visible symbols and preview or Accessibility Inspector checks for both presentations.
+- [When toolbar items share a glass background in iOS 26](https://sarunw.com/posts/swiftui-toolbar-item-grouping-ios-26) — Article · Topics: Liquid Glass · SwiftUI
+  **NeKI brief:** Explains when adjacent toolbar items share a Liquid Glass capsule and when prominence or hidden backgrounds separate them. Contrasts fixed and flexible ToolbarSpacer behavior in navigation and bottom bars, including isolating an embedded search field.
+- [AcceptedSE-0552Rounding of `Float.pi`](https://github.com/apple/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md) — Source repository · Topics: Developer Tools · Swift
+  **NeKI brief:** Proposes allowing FloatingPoint.pi to use nearest rounding instead of always rounding toward zero, with a corresponding Float.pi change. Useful for reviewing numerical-compatibility effects before the language decision is final.
+- [Active ReviewSE-0555`inout` overload of `BorrowingIteratorProtocol.skip(by:)`](https://github.com/apple/swift-evolution/blob/main/proposals/0555-iterable-inout-skip.md) — Source repository · Topics: Swift · Systems Programming
+  **NeKI brief:** Proposes an inout overload of BorrowingIteratorProtocol.skip(by:) that reports elements still to skip even after throwing. Explains default forwarding and continuation algorithms while warning that iterator resumability depends on each concrete type's post-error contract.
+- [Active ReviewSE-0557Add `RawSpan` primitive to `Hasher`](https://github.com/apple/swift-evolution/blob/main/proposals/0557-hasher-rawspan-primitive.md) — Source repository · Topics: Swift · Systems Programming
+  **NeKI brief:** Proposes Hasher.combine(bytes:) accepting RawSpan so contiguous bytes can be hashed without constructing an UnsafeRawBufferPointer. Explains source compatibility and why the primitive remains useful even if RawSpan later adopts Hashable.
+
+## [Issue 344](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-344)
+
+- Published: `2026-10-06T14:07:47.000Z`
+
+**Topics:** AI Development · Developer Community & Business · Performance · Swift · SwiftUI · Xcode
+
+**Sections:** SwiftLee Weekly by Antoine van der Lee · Introducing RocketTrace: Using Xcode Instruments with AI Agents · Run cloud agents with Xcode on real Apple Silicon
+
+**NeKI brief:** Explore how compact Instruments findings, filtered build logs, and preview rendering help agents inspect iOS apps. Other reading covers System One models, foldable sheet behavior, indie revenue, and deployment-target conditional compilation.
+
+**Selected links:**
+- [Letting AI See SwiftUI - Xcode Preview MCP in Practice — Pitfalls and Hopes](https://fatbobman.com/en/posts/letting-ai-see-swiftui) — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [Getting started with System One models in Swift](https://peterfriese.dev/blog/2026/system-one-models-intro) — Article · Topics: AI Development · Foundation & Data Formats · Swift
+  **NeKI brief:** Introduces a small decision model used from Swift alongside Apple's Foundation Models APIs. It frames deterministic, low-latency question answering as a separate choice from generative output and shows how to integrate the model into an app.
+- [Optimizing Claude Code's Xcode build token usage](https://danielsaidi.com/blog/2026/09/30/optimizing-claude-code-s-xcode-build-token-usage) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Provides a Claude Code PreToolUse hook that routes simple Xcode and Swift build commands through xcsift. Guards against unsafe command rewrites and retains pipefail so compressed output does not hide build failures.
+- [SwiftUI Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
+- [Active ReviewSE-0554Deployment target conditional compilation](https://github.com/apple/swift-evolution/blob/main/proposals/0554-deployment-target-conditional-compilation.md) — Source repository · Topics: Swift
+  **NeKI brief:** Proposes deploymentTargetAtLeast as a conditional-compilation predicate for choosing declarations from a module's minimum OS target. Explains platform matching, wildcard behavior, and why prebuilt modules retain their original branch rather than adapting to importing applications.
+- [Presenting SwiftUI sheets on iPhone Duo](https://nilcoalescing.com/blog/PresentingSwiftUISheetsOnIPhoneDuo) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Shows how SwiftUI sheets and their toolbars adapt across iPhone Duo displays and fold positions. Explores presentationPlacement, toolbar arrangement, and a beta issue where a large detent restored expected trailing-sheet behavior.
+- [RocketSim’s CLI](https://www.rocketsim.app/docs/features/agentic-development) — Article · Topics: AI Development · Graphics, Media & Games
+  **NeKI brief:** The documentation explains RocketSim's agentic-development feature for controlling the iOS Simulator with AI-assisted workflows.
+- [10k MRR in the Most Boring Way Possible](https://www.swiftjectivec.com/10k-mrr-in-the-most-boring-way-possible) — Article · Topics: Developer Community & Business
+  **NeKI brief:** Reflects on Elite Hoops reaching $10,000 in monthly recurring revenue after three years of iteration. Argues for validating a paid pain point and sustaining small product improvements while resisting comparison, copycats, and unnecessary embellishment.
 
 ## [Issue 343](https://newsletter.avanderlee.com/posts/swiftlee-weekly-issue-343)
 

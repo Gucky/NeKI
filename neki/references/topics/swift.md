@@ -4,14 +4,26 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Language features, standard-library use, compiler behaviour, and Swift evolution.
 
-- Last collected: `2026-10-02T23:36:48Z`
-- Indexed links shown: **8116**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **8144**
 
 ## Direct-source reading
 
 - [The End of Swift Talk · objc.io](https://www.objc.io/blog/2026/09/04/the-end-of-swift-talk) — objc.io · article catalogue
   **Published:** `2026-9-4`
   **NeKI brief:** Marks the conclusion of Swift Talk after 500 episodes and explains how existing videos remain available. It is community-history and catalogue context rather than a new implementation tutorial.
+- [some View? without parentheses in Swift 6.4 | Sarunw](https://sarunw.com/posts/optional-opaque-and-existential-types) — Sarunw · article catalogue
+  **Published:** `2026-10-16`
+  **NeKI brief:** Explains Swift 6.4's parsing change for optional opaque and existential types, including some P? and any P?. Covers the remaining parentheses requirement for protocol compositions and compatibility with existing type spellings.
+- [Advanced macro technique #2: Type inference](https://www.pointfree.co/blog/posts/233-advanced-macro-technique-2-type-inference) — Point-Free · article catalogue
+  **Published:** `2026-10-08T00:00:00Z`
+  **NeKI brief:** Builds a memberwise initializer without requiring explicit property type annotations. Generated nested protocols and witness types let associated-type inference recover field types from defaults, including function results and closures, for use in expanded declarations.
+- [Advanced macro technique #1: Static type information](https://www.pointfree.co/blog/posts/232-advanced-macro-technique-1-static-type-information) — Point-Free · article catalogue
+  **Published:** `2026-10-07T00:00:00Z`
+  **NeKI brief:** Uses overloaded attached macros to select expansions according to protocol conformance and emit diagnostics beside offending fields. Extends the technique with object-identity equality and examples from SQLite table and reference-state snapshot macros.
+- [Advanced techniques in Swift macros](https://www.pointfree.co/blog/posts/231-advanced-techniques-in-swift-macros) — Point-Free · article catalogue
+  **Published:** `2026-10-06T00:00:00Z`
+  **NeKI brief:** Introduces two ways macro expansions can enlist compiler behavior beyond syntax inspection: overload-driven diagnostics and associated-type inference. Uses generated equality and memberwise initializers to explain the concrete limitations addressed by the companion tutorials.
 - [Using Swift’s ‘some’ keyword beyond SwiftUI | Swift by Sundell](https://www.swiftbysundell.com/articles/using-swifts-some-keyword-beyond-swiftui) — Swift by Sundell · article catalogue
   **Published:** `2026-09-30`
   **NeKI brief:** Uses opaque result types to hide complex concrete generic return types while preserving a single underlying type. The examples show where some improves API boundaries outside SwiftUI and where ordinary protocol values behave differently.
@@ -12727,9 +12739,102 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
-- [withTaskCancellationShield: Swift 6.4 new feature](https://www.swiftdifferently.com/blog/swift/concurrency/with-task-cancellation-shield) — iOS Dev Weekly · Issue 770 — Article · Topics: Concurrency · Swift
-  **Published:** `2nd October 2026`
+- [enumerated() Gives You an Offset, Not an Index](https://nativefirstapp.com/blog/enumerated-offset-is-not-an-index-swift) — Those Who Swift · Issue 289 — Article · Topics: Code Quality · Foundation & Data Formats · Swift
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Demonstrates an ArraySlice crash caused by using enumerated offsets as collection indices. Replaces subscripting with collection.indices or zip(indices, collection), while retaining offsets for display numbering.
+- [Swift 6.4: some View? Without the Parentheses (Swift 6.4)](https://sarunw.com/posts/optional-opaque-and-existential-types?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: Swift
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Explains Swift 6.4's parsing change for optional opaque and existential types, including some P? and any P?. Covers the remaining parentheses requirement for protocol compositions and compatibility with existing type spellings.
+- [ImplementedSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
+- [ImplementedSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
+- [Active ReviewSE-0558Bulk update operations for `MutableSpan` and `MutableRawSpan`](https://github.com/apple/swift-evolution/blob/main/proposals/0558-mutablespan-bulk-updates.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Swift · Systems Programming
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes bulk overwrites for MutableSpan and MutableRawSpan using repeated values, span copies, iterable sources, or moved OutputSpan elements. Explains count-matching requirements and how an inout index preserves partial progress when iteration throws.
+- [some View? without parentheses in Swift 6.4](https://l.fatbobman.com/w0158-03) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: Swift
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Explains Swift 6.4's parsing change for optional opaque and existential types, including some P? and any P?. Covers the remaining parentheses requirement for protocol compositions and compatibility with existing type spellings.
+- [SE-0521](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0521-improved-optional-opaque-and-any.md) — Fatbobman’s Swift Weekly · Issue 158 — Source repository · Topics: Swift
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Defines optional opaque and existential syntax without outer parentheses, including nested optionals and protocol suppressions. Explains why protocol compositions still need grouping and how interface-file spelling preserves compatibility with older compilers.
+- [Shopify’s move back to native](https://shopify.engineering/back-to-native) — iOS Dev Weekly · Issue 772 — Article · Topics: AI Development · Cross-Platform & Web · Swift
+  **Published:** `16th October 2026`
+  **NeKI brief:** Explains why Shopify is moving its mobile apps from React Native back to Swift and Kotlin: coding agents changed native-development economics while platform-specific UI and capabilities increased the value of direct SDK access.
+- [September Swift digest](https://www.swift.org/blog/whats-new-in-swift-september-2026?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Cross-Platform & Web · Swift · Swift Package Manager
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Routes September’s Swift news through Swift 6.4, the Vapor 5 beta, server-side packages, and active Evolution proposals. Useful for locating the original release notes and understanding which language changes remain under review.
+- [Swift Evolution: Three Decisions on October 8 (accepted, not yet shipped)](https://forums.swift.org/t/se-0553-task-identity/89728?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Collects Swift Evolution review of task identity and questions about observable task IDs across concurrency helpers. Useful for understanding debugging motivation and potential semantic constraints before adoption.
+- [advanced techniques in Swift macros](https://www.pointfree.co/blog/posts/231-advanced-techniques-in-swift-macros?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Tutorial · Topics: Macros & Metaprogramming · Swift
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Introduces two ways macro expansions can enlist compiler behavior beyond syntax inspection: overload-driven diagnostics and associated-type inference. Uses generated equality and memberwise initializers to explain the concrete limitations addressed by the companion tutorials.
+- [What's new in Swift: September 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-september-2026) — Those Who Swift · Issue 288 — Article · Topics: Cross-Platform & Web · Swift · Swift Package Manager
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Routes September’s Swift news through Swift 6.4, the Vapor 5 beta, server-side packages, and active Evolution proposals. Useful for locating the original release notes and understanding which language changes remain under review.
+- [KelvinColor](https://github.com/trysundown/KelvinColor) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Source repository · Topics: Graphics, Media & Games · Swift · Swift Package Manager
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Converts kelvin temperatures to sRGB colors, normalized display-warmth gains, and gamma-table ramps in dependency-free Swift. Documents input clamping, platform color adapters, curve-fit accuracy, and why the approximation is unsuitable for scientific colorimetry.
+- [Devs for Devs: What I Learned Building and Shipping My First Two iOS Apps](https://thosewhoswift.substack.com/p/devs-for-devs-what-i-learned-building) — SwiftLee Weekly · Issue 345 — Article · Topics: Swift
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Manuel Cazalla Colmenero traces two app launches through review rejection, metadata experiments, Firebase analytics, and monetization choices. The practical lesson is to treat release measurement and product communication as continuing development work.
+- [AcceptedSE-0551`Span` over a single value](https://github.com/apple/swift-evolution/blob/main/proposals/0551-span-of-one.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes borrowing a single value as Span or MutableSpan, with raw-byte variants, without copying into CollectionOfOne. Useful when adapting values to span-taking APIs, including noncopyable values.
+- [AcceptedSE-0552Rounding of `Float.pi`](https://github.com/apple/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes allowing FloatingPoint.pi to use nearest rounding instead of always rounding toward zero, with a corresponding Float.pi change. Useful for reviewing numerical-compatibility effects before the language decision is final.
+- [AcceptedSE-0553Task Identity](https://github.com/apple/swift-evolution/blob/main/proposals/0553-task-identity.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Developer Tools · Performance · Swift
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes a cheap process-unique Task.ID for tracing, structured logs, and profilers across suspension points. Useful for evaluating always-on task attribution without relying on pointer identity or expensive closure-based inspection.
+- [Active ReviewSE-0555`inout` overload of `BorrowingIteratorProtocol.skip(by:)`](https://github.com/apple/swift-evolution/blob/main/proposals/0555-iterable-inout-skip.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Swift · Systems Programming
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes an inout overload of BorrowingIteratorProtocol.skip(by:) that reports elements still to skip even after throwing. Explains default forwarding and continuation algorithms while warning that iterator resumability depends on each concrete type's post-error contract.
+- [Active ReviewSE-0556Cell, ConstCell, and Volatile](https://github.com/apple/swift-evolution/blob/main/proposals/0556-cell.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Concurrency · Swift · Systems Programming
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes Cell and ConstCell wrappers for memory that cannot satisfy Swift's exclusivity guarantees, plus Volatile for explicit hardware-facing loads and stores. Explains composition with spans, lifetime preservation, and why synchronization remains a separate responsibility.
+- [Active ReviewSE-0557Add `RawSpan` primitive to `Hasher`](https://github.com/apple/swift-evolution/blob/main/proposals/0557-hasher-rawspan-primitive.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Swift · Systems Programming
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes Hasher.combine(bytes:) accepting RawSpan so contiguous bytes can be hashed without constructing an UnsafeRawBufferPointer. Explains source compatibility and why the primitive remains useful even if RawSpan later adopts Hashable.
+- [Using Swift’s ‘some’ keyword beyond SwiftUI](https://www.swiftbysundell.com/articles/using-swifts-some-keyword-beyond-swiftui?ref=createwithswift.com) — Create with Swift · Issue 123 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-10-09T16:00:00.000Z`
+  **NeKI brief:** Uses opaque result types to hide complex concrete generic return types while preserving a single underlying type. The examples show where some improves API boundaries outside SwiftUI and where ordinary protocol values behave differently.
+- [Replacing Closures with Key Paths - Cleaner Swift Code](https://www.sagarunagar.com/blog/replacing-closures-with-key-paths-swift?ref=createwithswift.com) — Create with Swift · Issue 123 — Article · Topics: Swift
+  **Published:** `2026-10-09T16:00:00.000Z`
+  **NeKI brief:** Shows where key-path literals replace property-reading closures in collection transformations and predicates. Explains the limits for stored key paths, computed values, and two-argument comparisons, plus the trade-off of adding custom sorting or negation helpers.
+- [proposal to round it properly](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md) — iOS Dev Weekly · Issue 771 — Source repository · Topics: Swift
+  **Published:** `9th October 2026`
+  **NeKI brief:** Proposes allowing FloatingPoint.pi to use nearest rounding instead of always rounding toward zero, with a corresponding Float.pi change. Useful for reviewing numerical-compatibility effects before the language decision is final.
+- [withTaskCancellationShield: Swift 6.4 new feature](https://www.swiftdifferently.com/blog/swift/concurrency/with-task-cancellation-shield) — Those Who Swift · Issue 287 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-10-07T19:46:46.337Z`
   **NeKI brief:** Walks through Swift 6.4 withTaskCancellationShield and cleanup that must continue after task cancellation. Use the examples to examine cancellation boundaries and ensure protected work remains deliberately scoped.
+- [Swift Server Has Another Google](https://fatbobman.com/en/weekly/issue-156) — Those Who Swift · Issue 287 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Uses Google Cloud’s server-side Swift SDK to assess ecosystem maturity without assuming a large vendor guarantees longevity. Distinguishes server workloads from mobile Firebase, then routes to concurrency, SwiftUI, accessibility, and agent-workflow articles.
+- [Swift Evolution: Branch on Deployment Target at Compile Time (SE-0554, in review)](https://forums.swift.org/t/se-0554-deployment-target-conditional-compilation/89822?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Cross-Platform & Web · Swift
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Hosts review of compile-time conditions based on a deployment target, including syntax and cross-platform questions. Useful for evaluating a proposed way to remove unavailable code paths during compilation.
+- [Using Swift's 'some' keyword beyond SwiftUI](https://www.swiftbysundell.com/articles/using-swifts-some-keyword-beyond-swiftui?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Uses opaque result types to hide complex concrete generic return types while preserving a single underlying type. The examples show where some improves API boundaries outside SwiftUI and where ordinary protocol values behave differently.
+- [server-side Swift SDK for Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-server-side-cloud-swift-sdk?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Networking · Swift
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Introduces Google's server-side Swift client libraries through SwiftPM setup, Application Default Credentials, async requests, and paginated sequences. Explains the shared authentication and retry packages, and why administrative Cloud credentials belong on servers rather than inside iOS apps.
+- [Active ReviewSE-0554Deployment target conditional compilation](https://github.com/apple/swift-evolution/blob/main/proposals/0554-deployment-target-conditional-compilation.md) — SwiftLee Weekly · Issue 344 — Source repository · Topics: Swift
+  **Published:** `2026-10-06T14:07:47.000Z`
+  **NeKI brief:** Proposes deploymentTargetAtLeast as a conditional-compilation predicate for choosing declarations from a module's minimum OS target. Explains platform matching, wildcard behavior, and why prebuilt modules retain their original branch rather than adapting to importing applications.
+- [SwiftUI Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) — SwiftLee Weekly · Issue 344 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-10-06T14:07:47.000Z`
+  **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
+- [Swift SDK](https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-server-side-cloud-swift-sdk) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: Networking · Swift
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Introduces Google's server-side Swift client libraries through SwiftPM setup, Application Default Credentials, async requests, and paginated sequences. Explains the shared authentication and retry packages, and why administrative Cloud credentials belong on servers rather than inside iOS apps.
+- [Using Swift’s ‘some’ keyword beyond SwiftUI](https://l.fatbobman.com/w0156-01) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: Swift
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Uses opaque result types to hide complex concrete generic return types while preserving a single underlying type. The examples show where some improves API boundaries outside SwiftUI and where ordinary protocol values behave differently.
 - [SuperCmd](https://supercmd.sh/en) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Article · Topics: AI Development · Hardware & Devices · Swift
   **Published:** `2026-10-01T17:02:01.317Z`
   **NeKI brief:** SuperCmd combines a native Swift launcher with clipboard history, window management, snippets, and agents. Useful for comparing a keyboard-driven Mac workflow against plugin-heavy launcher setups.
@@ -12784,15 +12889,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0546Same-file memberwise initializer extensions](https://github.com/apple/swift-evolution/blob/main/proposals/0546-memberwise-init-extensions.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-09-29T14:08:15.000Z`
   **NeKI brief:** Specifies SE-0546, which permits a same-file extension to declare a memberwise initializer with broader access. It defines the matching rules and explains how an explicit initializer interacts with synthesis, helping library authors expose stable construction APIs without changing ABI behavior.
-- [Active ReviewSE-0551`Span` over a single value](https://github.com/apple/swift-evolution/blob/main/proposals/0551-span-of-one.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
-  **Published:** `2026-09-29T14:08:15.000Z`
-  **NeKI brief:** Proposes borrowing a single value as Span or MutableSpan, with raw-byte variants, without copying into CollectionOfOne. Useful when adapting values to span-taking APIs, including noncopyable values.
-- [Active ReviewSE-0552Rounding of `Float.pi`](https://github.com/apple/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
-  **Published:** `2026-09-29T14:08:15.000Z`
-  **NeKI brief:** Proposes allowing FloatingPoint.pi to use nearest rounding instead of always rounding toward zero, with a corresponding Float.pi change. Useful for reviewing numerical-compatibility effects before the language decision is final.
-- [Active ReviewSE-0553Task Identity](https://github.com/apple/swift-evolution/blob/main/proposals/0553-task-identity.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
-  **Published:** `2026-09-29T14:08:15.000Z`
-  **NeKI brief:** Proposes a cheap process-unique Task.ID for tracing, structured logs, and profilers across suspension points. Useful for evaluating always-on task attribution without relying on pointer identity or expensive closure-based inspection.
 - [withTaskCancellationShield: Swift 6.4 new feature](https://l.fatbobman.com/w0155-02) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: Swift
   **Published:** `2026-09-28T12:02:23.259Z`
   **NeKI brief:** Explains Swift 6.4 task cancellation shields for cleanup that must continue despite an already-cancelled task, then examines availability on older OS versions. Useful for separating cancellation state from the lifetime of required finalization work.
@@ -12856,9 +12952,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [iPhone Duo for iOS Developers: What Actually Changes in Your Swift Code](https://dev.to/arshtechpro/iphone-duo-for-ios-developers-what-actually-changes-in-your-swift-code-5gc5) — Those Who Swift · Issue 284 — Article · Topics: Swift
   **Published:** `2026-09-17T06:08:23.173Z`
   **NeKI brief:** Walks through the concrete SwiftUI changes for iPhone Duo, including size classes, reserved regions, fold-aware layouts, and ArrangementView, with code-oriented examples of how an existing interface can adapt.
-- [Native is now the future of mobile at Shopify](https://shopify.engineering/back-to-native) — Those Who Swift · Issue 284 — Article · Topics: AI Development · Cross-Platform & Web · Swift
-  **Published:** `2026-09-17T06:08:23.173Z`
-  **NeKI brief:** Explains why Shopify is moving its mobile apps from React Native back to Swift and Kotlin: coding agents changed native-development economics while platform-specific UI and capabilities increased the value of direct SDK access.
 - [New Hashable conformances in Swift 6.4](https://livsycode.com/swift/new-hashable-conformances-in-swift-6-4?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Swift
   **Published:** `2026-09-15T17:33:22.000Z`
   **NeKI brief:** Details the Swift 6.4 Hashable conformances added by SE-0514 and SE-0523 for Dictionary.Keys, CollectionOfOne, EmptyCollection, and UnownedTaskExecutor, including the source-compatibility consequence for custom conformances.
@@ -13012,9 +13105,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0544Mutation and consumption in non-`Copyable` type `deinit`s](https://github.com/apple/swift-evolution/blob/main/proposals/0544-mutate-or-consume-in-deinit.md) — SwiftLee Weekly · Issue 339 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-09-01T14:08:57.000Z`
   **NeKI brief:** Allows a noncopyable type's deinit to mutate or consume stored fields for resource cleanup while still forbidding mutation or consumption of self as a whole, avoiding resurrection and recursive destruction hazards.
-- [Active ReviewSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — SwiftLee Weekly · Issue 339 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
-  **Published:** `2026-09-01T14:08:57.000Z`
-  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
 - [Why Swift is introducing a warning for weak captures within nested closures](https://l.fatbobman.com/w0151-01) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Developer Career & Practice · Swift
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Explains why nested closure capture lists can still retain an object strongly through an outer closure, and why Swift is adding a warning for that pattern. Use it to review ownership intentionally rather than adding weak captures mechanically.
@@ -13123,9 +13213,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0537Section Placement Control for Functions](https://github.com/apple/swift-evolution/blob/main/proposals/0537-function-sections.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-08-18T14:06:21.000Z`
   **NeKI brief:** Extends Swift's section placement attribute from stored data to functions, initializers, deinitializers, closures, and accessors, while adding a default-section override. The motivation is precise linker placement for firmware entry points and embedded startup code.
-- [Active ReviewSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Performance · Swift
-  **Published:** `2026-08-18T14:06:21.000Z`
-  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
 - [iOS 26: Data Detector](https://l.fatbobman.com/w0149-02) — Fatbobman’s Swift Weekly · Issue 149 — Article · Topics: Concurrency · Swift
   **Published:** `2026-08-17T12:03:38.576Z`
   **NeKI brief:** Shows how the Swift-native DataDetector replaces NSTextCheckingResult-style branching with typed matches for links, contacts, calendar events, addresses, and other semantic objects. The examples make the migration from NSDataDetector concrete.
@@ -14035,9 +14122,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Optional has a take() function](https://www.scottberrevoets.com/til/optional-has-a-take-function) — SwiftLee Weekly · Issue 321 — Article · Topics: Swift
   **Published:** `2026-04-28T14:07:22.000Z`
   **NeKI brief:** Explains Optional has a take() function, showing the language behavior behind the API and how it can simplify or clarify everyday Swift code.
-- [Recording & Analyzing SwiftUI Instruments Traces](https://github.com/AvdLee/SwiftUI-Agent-Skill) — SwiftLee Weekly · Issue 321 — Source repository · Topics: Performance · Swift · SwiftUI
-  **Published:** `2026-04-28T14:07:22.000Z`
-  **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
 - [SwiftUI: Refreshable Task Cancellation](https://antongubarenko.substack.com/p/swiftui-refreshable-task-cancellation) — SwiftLee Weekly · Issue 321 — Article · Topics: Swift · SwiftUI
   **Published:** `2026-04-28T14:07:22.000Z`
   **NeKI brief:** Explains how refreshable starts asynchronous work and how cancellation propagates when the user ends or repeats a refresh. Useful for making pull-to-refresh tasks idempotent, responsive, and safe against stale results.

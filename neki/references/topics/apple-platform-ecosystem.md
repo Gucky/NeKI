@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** WWDC and platform announcements, Apple ecosystem context, compatibility history, and release-overview reading.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **657**
+- Last collected: `2026-10-22T15:00:02Z`
+- Indexed links shown: **665**
 
 ## Direct-source reading
 
@@ -739,6 +739,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Why I still shun passkeys](https://lapcatsoftware.com/articles/2026/10/6.html) — Those Who Swift · Issue 289 — Article · Topics: Apple Platform Ecosystem · Security & Privacy
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Explains one developer’s resistance to passkeys through two requirements: signing in on unfamiliar devices and maintaining independent credential backups. Evaluates iCloud Keychain and hardware-key trade-offs from that Apple-specific workflow.
+- [HomeView: Your CarPlay Widgets Are Going to the Kitchen (iOS 27, HomeView on sale November 13)](https://blakecrosley.com/blog/apple-homeview-developers-day-one?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: App Services & Extensions · Apple Platform Ecosystem
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Reconstructs HomeView's developer surfaces from timestamped Apple documents, separating confirmed CarPlay and small-widget support from App Intents and AirPlay inferences. Tracks later documentation updates and identifies gaps in simulator, entitlement, and widget-location guidance.
+- [HomeView and Apple TV 4K 2026](https://l.fatbobman.com/w0158-04) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: Apple Platform Ecosystem · Hardware & Devices
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Collects HomeView launch reporting and follow-up discussion about paired-device recognition, limited third-party CarPlay apps, and shared-screen use. Useful for separating the product's developer-access constraints from competing interpretations of its household role.
+- [2026 Apple TV 4K](https://mjtsai.com/blog/2026/10/13/apple-tv-4k-2026) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: Apple Platform Ecosystem · Hardware & Devices
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Pairs Apple TV 4K hardware changes with developer and user criticism of playback reliability, state restoration, promotion-heavy navigation, and pricing. Follow-up reports add Siri Remote compatibility limits and questions about the product's intended audience.
+- [Why big companies are bad platform citizens](https://www.scottberrevoets.com/2026/10/05/why-big-companies-are-bad-platform-citizens) — Those Who Swift · Issue 288 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Uses Lyft’s platform integrations to explain why large service businesses delay native OS features. Low usage, upkeep, planning cycles, and incentives around engagement can outweigh the platform polish valued by smaller developers.
+- [Why big companies are bad platform citizens](https://scottberrevoets.com/2026/10/05/why-big-companies-are-bad-platform-citizens) — iOS Dev Weekly · Issue 771 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `9th October 2026`
+  **NeKI brief:** Uses Lyft’s platform integrations to explain why large service businesses delay native OS features. Low usage, upkeep, planning cycles, and incentives around engagement can outweigh the platform polish valued by smaller developers.
+- [AppGuidelines](https://appstoreguidelines.com/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Tools
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Tracks Apple developer-document changes with dated versions, full-text diffs, and an Atom feed. Useful for locating exactly which review-guideline, agreement, or design-guidance wording changed before consulting the original Apple document.
+- [Bezel](https://nonstrict.eu/bezel) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games · Spatial Computing
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
+- [WWDC 2027 Wishlist](https://l.fatbobman.com/w0156-08) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: Apple Platform Ecosystem · Product Design
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Collects concrete platform requests, including clearer SwiftUI and UIKit direction, local device synchronization, scoped photo access, and simpler app workflows. Useful as developer product feedback and design criticism, with requested features clearly distinguished from available APIs.
 - [Tools](https://wwdc.jacobstechtavern.com/openbundle) — iOS Dev Weekly · Issue 768 — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem
   **Published:** `18th September 2026`
   **NeKI brief:** Runs OpenBundle analysis locally in the browser to inspect an IPA or ZIP, attribute bundle size, compare reports, and export results without uploading application binaries.
@@ -1938,8 +1965,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Demonstrates a Firebase bridge that makes Gemini models available through Apple’s Foundation Models-style API. Use it to compare a cloud-model fallback with on-device sessions while keeping authentication, privacy, latency, and API compatibility explicit.
 - [Get started with Firebase App Check for Apple Platforms](https://firebase.google.com/docs/app-check/ios) — Not only Swift · Issue 95 — Article · Topics: Apple Platform Ecosystem · Graphics, Media & Games
   **NeKI brief:** Explains how to configure Firebase App Check for Apple platforms so backend resources can distinguish traffic from authentic app instances. Use it when adding app-attestation protections around Firebase services.
-- [Bezel app](https://nonstrict.eu/bezel) — Not only Swift · Issue 90 — Article · Topics: Apple Platform Ecosystem
-  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
 - [an entire chapter just about toolbars](https://youtu.be/3MugGCtm26A?t=469s) — Not only Swift · Issue 84 — Video · Topics: Apple Platform Ecosystem · Swift · SwiftUI
   **NeKI brief:** Links to a presentation segment focused on SwiftUI toolbars. Use the demonstration to understand composition and interaction choices, while checking current toolbar APIs and platform behavior in Apple documentation.
 - [livestream to dig into some of the new stuff released at WWDC 25](https://www.youtube.com/watch?v=tmPwLamVGYM) — Not only Swift · Issue 83 — Video · Topics: Apple Platform Ecosystem · Swift

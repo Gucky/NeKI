@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://tanaschita.com/](https://tanaschita.com/)
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed entries: **195**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed entries: **198**
 
 - [Understanding Xcode targets, schemes and build configurations](https://tanaschita.com/xcode-targets-schemes)
   **Topics:** Xcode
@@ -417,15 +417,24 @@ Third-party source index. It provides source attribution and routing metadata, n
 - [Essential VoiceOver gestures for iOS - a quick guide to testing app accessibility](https://tanaschita.com/ios-accessibility-voiceover-gestures)
   **Topics:** Accessibility · Testing
   **NeKI brief:** Catalogues essential VoiceOver gestures and a quick toggle workflow for testing. It is useful for establishing a repeatable manual pass that checks focus order and activation instead of relying only on simulator screenshots.
+- [Making custom SwiftUI controls accessible with accessibilityRepresentation](https://tanaschita.com/ios-accessibility-representation-custom-controls)
+  **Topics:** Accessibility · SwiftUI
+  **NeKI brief:** Gives a gesture-driven waveform scrubber native Slider accessibility semantics through accessibilityRepresentation. Sharing the playback binding supplies an adjustable interaction and formatted time value without replacing the custom visual control.
 - [Supporting Reduced Motion accessibility setting in SwiftUI](https://tanaschita.com/ios-accessibility-reduced-motion)
   **Topics:** Accessibility · Swift · SwiftUI
   **NeKI brief:** Shows responding to the system Reduced Motion preference in iOS, with SwiftUI-oriented implementation guidance. Follow it when animations communicate state but must be simplified or removed for motion-sensitive users.
 - [Overview on Accessibility Nutrition Labels for iOS development](https://tanaschita.com/ios-accessibility-nutrition-labels)
   **Topics:** Accessibility
   **NeKI brief:** Explains accessibility nutrition labels and the information developers provide about app data practices. Useful for preparing App Store disclosures alongside actual privacy and analytics implementation.
+- [Adapting SwiftUI layouts for large Dynamic Type sizes](https://tanaschita.com/ios-accessibility-dynamic-type-layouts)
+  **Topics:** Accessibility · SwiftUI
+  **NeKI brief:** Switches a task row between horizontal and vertical layouts using dynamicTypeSize.isAccessibilitySize and AnyLayout. Explains why child identity survives the change and when available-width selection through ViewThatFits is a better trigger.
 - [How to support Dynamic Type accessibility in SwiftUI](https://tanaschita.com/ios-accessibility-dynamic-type)
   **Topics:** Accessibility · Swift · SwiftUI
   **NeKI brief:** Covers Dynamic Type support in SwiftUI, including scalable text and layout testing at accessibility sizes. Follow it when fixed frames or custom typography undermine the user's selected reading scale.
+- [Supporting Differentiate Without Color in SwiftUI](https://tanaschita.com/ios-accessibility-differentiate-without-color)
+  **Topics:** Accessibility · SwiftUI
+  **NeKI brief:** Adds checkmark and cross overlays when accessibilityDifferentiateWithoutColor is enabled, keeping visible status distinguishable beyond red and green. Discusses always-visible symbols and preview or Accessibility Inspector checks for both presentations.
 - [Supporting sufficient contrast accessibility with Xcode's Color Contrast Calculator](https://tanaschita.com/ios-accessibility-contrast)
   **Topics:** Accessibility · Xcode
   **NeKI brief:** Demonstrates Xcode's Color Contrast Calculator for checking foreground/background combinations. Use it as a concrete visual-QA step for text and controls, especially where custom palette choices may fail low-vision contrast needs.

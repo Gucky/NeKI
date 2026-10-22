@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** The Composable Architecture, reducers, effects, state, and dependency patterns.
 
-- Last collected: `2026-09-01T10:14:10Z`
-- Indexed links shown: **49**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **50**
 
 ## Direct-source reading
 
@@ -120,6 +120,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [InnoFlow](https://github.com/InnoSquadCorp/InnoFlow) — SwiftUI Weekly · SwiftUI Weekly - Issue #242 — Source repository · Topics: Architecture · Composable Architecture · Concurrency · Testing
+  **Published:** `2026-10-12T10:37:23.167Z`
+  **NeKI brief:** Documents a reducer-based Swift framework with optional macros, SwiftUI bindings, scoped effect lifetimes, and exhaustive TestStore assertions. Separates domain-state ownership from navigation and dependencies, and explains cooperative cancellation and bounded orchestration limits.
 - [The TCA Playbook: Debugging Large Reducers Without Losing Your Mind](https://medium.com/@wesleymatlock/the-tca-playbook-debugging-large-reducers-without-losing-your-mind-e8813c9c6eda) — Those Who Swift · Issue 233 — Article · Topics: Composable Architecture · Developer Tools · Performance
   **Published:** `2025-09-24`
   **NeKI brief:** Examines The TCA Playbook: Debugging Large Reducers Without Losing Your Mind, emphasizing practical implementation choices and trade-offs. Use it as a focused starting point for this topic, then verify API availability, platform constraints, and production implications in current project documentation.

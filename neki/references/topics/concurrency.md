@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift concurrency, async/await, actors, Sendable, tasks, cancellation, and diagnostics.
 
-- Last collected: `2026-10-02T23:34:56Z`
-- Indexed links shown: **1239**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **1256**
 
 ## Direct-source reading
 
@@ -2268,9 +2268,57 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
-- [withTaskCancellationShield: Swift 6.4 new feature](https://www.swiftdifferently.com/blog/swift/concurrency/with-task-cancellation-shield) — iOS Dev Weekly · Issue 770 — Article · Topics: Concurrency · Swift
-  **Published:** `2nd October 2026`
+- [Swift Actor Reentrancy: Stop Duplicate Network Requests](https://warmodroid.com/posts/swift-actor-reentrancy-network-requests) — Those Who Swift · Issue 289 — Article · Topics: Concurrency · Networking
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Builds an actor cache that stores in-flight tasks before suspension, coalesces duplicate requests, and rejects obsolete completions by identity. Explicit cancellation and invalidation policies expose the limits of shared work ownership.
+- [Why my Swift debouncer got 50× faster](https://ivanmagda.dev/posts/swift-debounce-runtime-investigation) — SwiftLee Weekly · Issue 346 — Article · Topics: Concurrency · Performance · Systems Programming
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Investigates debounce costs through task reuse, locks, clock representation, generic specialization, and inlinable helpers. Provides benchmark conditions and generated-code observations while separating aggregate implementation gains from experiments that cannot isolate individual causes.
+- [SwiftUI .task vs .onAppear - Async Work Done Right](https://www.sagarunagar.com/blog/swiftui-task-vs-onappear?ref=createwithswift.com) — Create with Swift · Issue 124 — Article · Topics: Concurrency · SwiftUI
+  **Published:** `2026-10-17T16:00:00.000Z`
+  **NeKI brief:** Replaces manually tracked onAppear tasks with task(id:) for view-owned loading and debounced search. Covers cooperative cancellation, changing request inputs, repeat appearances, and work whose lifetime must belong to a model instead.
+- [How I Architect SwiftUI Apps for Swift Concurrency – So the Compiler Stays Quiet](https://www.swiftyplace.com/blog/swiftui-architecture-swift-concurrency) — iOS Dev Weekly · Issue 772 — Article · Topics: Architecture · Concurrency · SwiftUI
+  **Published:** `16th October 2026`
+  **NeKI brief:** Organizes SwiftUI architecture around state ownership: main-actor UI stores, independent actors for shared non-UI state, and stateless concurrent services. Sendable DTOs define the crossings, with default actor isolation settings made explicit.
+- [Swift Evolution: Three Decisions on October 8 (accepted, not yet shipped)](https://forums.swift.org/t/se-0553-task-identity/89728?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Collects Swift Evolution review of task identity and questions about observable task IDs across concurrency helpers. Useful for understanding debugging motivation and potential semantic constraints before adoption.
+- [split isolation](https://massicotte.org/blog/revisiting-split-isolation?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Architecture · Concurrency
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Examines partially actor-isolated non-Sendable types and why sending self into a main-actor task exposes unsafe boundaries. Weighs whole-type isolation against intentional secondary functionality and temporary Swift 6 migration constraints.
+- [Swift Weekly #157](https://fatbobman.com/en/weekly/issue-157?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Concurrency · Developer Community & Business
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Lower cloning costs change the risks of sharing unfinished indie products. The issue pairs that discussion with work ownership beyond task lifetime, calendar performance, localized screenshot verification, and tools that expose verifiable dependency and UI feedback.
+- [SwiftUI .task vs .onAppear — Async Work Done Right](https://www.sagarunagar.com/blog/swiftui-task-vs-onappear) — Those Who Swift · Issue 288 — Article · Topics: Concurrency · SwiftUI
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Replaces manually tracked onAppear tasks with task(id:) for view-owned loading and debounced search. Covers cooperative cancellation, changing request inputs, repeat appearances, and work whose lifetime must belong to a model instead.
+- [Testing Async Code in Swift: Stop Using Task.yield() in Your Tests](https://www.nsvasilev.com/posts/testing-swift-tasks-with-itaskfactory) — Those Who Swift · Issue 288 — Article · Topics: Concurrency · Dependency Injection · Testing
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Injects an ITaskFactory so tests can await unstructured tasks started by synchronous lifecycle APIs. Explains why yield and callback expectations can race, and limits the approach to work whose completion the factory can observe.
+- [Active ReviewSE-0556Cell, ConstCell, and Volatile](https://github.com/apple/swift-evolution/blob/main/proposals/0556-cell.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Concurrency · Swift · Systems Programming
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes Cell and ConstCell wrappers for memory that cannot satisfy Swift's exclusivity guarantees, plus Volatile for explicit hardware-facing loads and stores. Explains composition with spans, lifetime preservation, and why synchronization remains a separate responsibility.
+- [Revisiting “Split Isolation”](https://l.fatbobman.com/w0157-01) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: Concurrency
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Examines partially actor-isolated non-Sendable types and why sending self into a main-actor task exposes unsafe boundaries. Weighs whole-type isolation against intentional secondary functionality and temporary Swift 6 migration constraints.
+- [The Task Is Not the Unit of Work: Ownership, Isolation, and Cancellation Beyond async/await](https://l.fatbobman.com/w0157-02) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: Architecture · Concurrency
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Separates presentation, task, resource, and product-operation lifetimes before choosing Swift concurrency primitives. Uses uploads, shared sessions, search cancellation, and purchases to show why actors and structured task trees cannot decide ownership or cancellation semantics.
+- [InnoFlow](https://github.com/InnoSquadCorp/InnoFlow) — SwiftUI Weekly · SwiftUI Weekly - Issue #242 — Source repository · Topics: Architecture · Composable Architecture · Concurrency · Testing
+  **Published:** `2026-10-12T10:37:23.167Z`
+  **NeKI brief:** Documents a reducer-based Swift framework with optional macros, SwiftUI bindings, scoped effect lifetimes, and exhaustive TestStore assertions. Separates domain-state ownership from navigation and dependencies, and explains cooperative cancellation and bounded orchestration limits.
+- [Revisiting "Split Isolation"](https://massicotte.org/blog/revisiting-split-isolation) — Those Who Swift · Issue 287 — Article · Topics: Architecture · Concurrency
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Examines partially actor-isolated non-Sendable types and why sending self into a main-actor task exposes unsafe boundaries. Weighs whole-type isolation against intentional secondary functionality and temporary Swift 6 migration constraints.
+- [withTaskCancellationShield: Swift 6.4 new feature](https://www.swiftdifferently.com/blog/swift/concurrency/with-task-cancellation-shield) — Those Who Swift · Issue 287 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-10-07T19:46:46.337Z`
   **NeKI brief:** Walks through Swift 6.4 withTaskCancellationShield and cleanup that must continue after task cancellation. Use the examples to examine cancellation boundaries and ensure protected work remains deliberately scoped.
+- [Concurrency: Load a Screen in Steps With AsyncSequence (iOS 17+)](https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
+- [Iterative data loading in Swift](https://l.fatbobman.com/w0156-02) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: Concurrency · Health Apps · Performance
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
 - [What minimumScaleFactor trades away in SwiftUI](https://salari.dev/writing/what-minimum-scale-factor-trades-away-in-swiftui) — Those Who Swift · Issue 286 — Article · Topics: Concurrency · Swift · SwiftUI
   **Published:** `2026-09-30T20:30:56.651Z`
   **NeKI brief:** Measures how independently shrinking SwiftUI text with minimumScaleFactor can disturb neighboring typography and Dynamic Type hierarchy. Useful when a compact label seems to fit but no longer reads consistently across sizes.
@@ -3618,6 +3666,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [UIKit Artwork Extractor](https://github.com/0xced/UIKit-Artwork-Extractor) — iOS Dev Weekly · Issue 35 — Source repository · Topics: Concurrency · Developer Tools · UIKit
   **Published:** `30th March 2012`
   **NeKI brief:** Provides the UIKit Artwork Extractor source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Iterative data loading in Swift](https://go.peterfriese.dev/swift-iterative-data-loading-in-swift?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Concurrency · Health Apps · Performance
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
 - [Sendable and @Sendable closures explained with code examples](https://go.peterfriese.dev/swift-sendable-protocol-closures?s=web&t=ext) — Not only Swift · Issue 100 — Article · Topics: Concurrency · Swift
   **NeKI brief:** Explains how Sendable conformance and @Sendable closures let the compiler check values crossing actors, tasks and other isolation domains, including implicit value-type conformance and unsafe escape hatches.
 - [Adaptive SwiftUI toolbars in iOS 27](https://go.peterfriese.dev/swiftui-adaptive-swiftui-toolbars-in-ios-27?s=web&t=ext) — Not only Swift · Issue 100 — Article · Topics: Concurrency · Swift · SwiftUI

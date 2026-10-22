@@ -4,11 +4,35 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Apple hardware, peripherals, device setup, and physical-computing context.
 
-- Last collected: `2026-10-05T06:41:52Z`
-- Indexed links shown: **118**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **136**
 
 ## Direct-source reading
 
+- [How to use layoutMarginsGuide in SwiftUI | Sarunw](https://sarunw.com/posts/swiftui-content-margin-guide) — Sarunw · article catalogue
+  **Published:** `2026-10-22`
+  **NeKI brief:** Compares system-selected SwiftUI container margins with fixed padding and UIKit layoutMarginsGuide. Explains iOS 27.1 availability, asymmetric Duo margins, local GeometryProxy readings, and the distinction between content margins and safe-area insets.
+- [Positioning SwiftUI views around the fold on iPhone Duo](https://nilcoalescing.com/blog/PositioningSwiftUIViewsAroundTheFoldOnIPhoneDuo) — Nil Coalescing · article catalogue
+  **Published:** `2026-10-21`
+  **NeKI brief:** Reworks an adaptive book grid around reserved division regions instead of letting columns cross the fold. Reading inactive regions keeps an even column count while flat, reducing item movement when fold avoidance becomes active.
+- [How to use layoutMarginsGuide in UIKit | Sarunw](https://sarunw.com/posts/uikit-layoutmarginsguide) — Sarunw · article catalogue
+  **Published:** `2026-10-16`
+  **NeKI brief:** Pins UIKit content to layoutMarginsGuide to follow device-dependent system spacing. Separates safe-area contributions from margins, explains minimum-margin overrides, and shows how preservesSuperviewLayoutMargins aligns nested views with a controller's navigation content.
+- [ArrangementView in SwiftUI: split and overlay layouts for iPhone Duo](https://nilcoalescing.com/blog/ArrangementViewInSwiftUISplitAndOverlayLayoutsForIPhoneDuo) — Nil Coalescing · article catalogue
+  **Published:** `2026-10-15`
+  **NeKI brief:** Walks through ArrangementView split and overlay layouts, axis restrictions, sizing preferences, and fold-aware separation. Documents simulator observations about environment propagation and explicit overlay edges, helping distinguish intended layout behavior from version-specific workarounds.
+- [Adapting your app for iPhone Duo | Swift with Majid](https://swiftwithmajid.com/2026/10/14/adapting-your-app-for-iPhone-duo) — Swift with Majid · article catalogue
+  **Published:** `2026-10-14T00:00:00+00:00`
+  **NeKI brief:** Uses size classes, sidebar-adaptable tabs, NavigationSplitView, and AnyLayout to reuse an app across folded and unfolded displays. Offers an initial adaptation path centered on available space while preserving view identity during layout changes.
+- [Set the split size of ArrangementView with splitArrangementLayoutRatio | Sarunw](https://sarunw.com/posts/splitarrangementlayoutratio) — Sarunw · article catalogue
+  **Published:** `2026-10-11`
+  **NeKI brief:** Demonstrates horizontal and vertical split ratios in ArrangementView, including a shared ratio for both axes. Simulator comparisons show when the fold overrides those preferences and why content still needs enough space within its allocation.
+- [Size classes on iPhone Duo | Sarunw](https://sarunw.com/posts/size-classes-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-10-10`
+  **NeKI brief:** Records iPhone Duo simulator size classes across poses and orientations, then distinguishes window traits from ArrangementView pane traits. Useful for diagnosing why size-class adaptation cannot detect hinge angle or reliably describe a nested pane's whole display.
+- [Place a sheet on one side with presentationPlacement on iPhone Duo | Sarunw](https://sarunw.com/posts/presentation-placement-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-10-09`
+  **NeKI brief:** Compares SwiftUI presentationPlacement and UIKit sheet preferredPlacement across open, partially folded, and closed Duo displays. Shows how fold avoidance overrides centering and how choosing the trailing side can move sheet actions into vertical controls.
 - [Toolbar overflow and visibility priority on iPhone Duo | Sarunw](https://sarunw.com/posts/toolbar-overflow-and-visibility-priority-on-iphone-duo) — Sarunw · article catalogue
   **Published:** `2026-10-05`
   **NeKI brief:** Compares default toolbar overflow with task-focused compression on iPhone Duo, then covers a shared overflow menu, visibility priorities, and when to disable vertical bars. Useful for ordering controls under constrained space.
@@ -109,6 +133,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Xcode 27.1 Is Final, and the Duo Ships Friday (Xcode 27.1, stable)](https://swiftwithmajid.com/2026/10/14/adapting-your-app-for-iPhone-duo?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: Hardware & Devices · Navigation & Deep Linking · SwiftUI
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Uses size classes, sidebar-adaptable tabs, NavigationSplitView, and AnyLayout to reuse an app across folded and unfolded displays. Offers an initial adaptation path centered on available space while preserving view identity during layout changes.
+- [How We Got Duo Support in NetNewsWire](https://netnewswire.blog/2026/10/16/how-we-got-duo-support.html?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: Hardware & Devices · UIKit
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Attributes NetNewsWire's iPhone Duo support to rebuilding with Xcode 27.1 while already using standard UIKit containers and size classes. Useful evidence for the maintenance benefits of native adaptive controls, with untested edge cases acknowledged.
+- [HomeView and Apple TV 4K 2026](https://l.fatbobman.com/w0158-04) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: Apple Platform Ecosystem · Hardware & Devices
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Collects HomeView launch reporting and follow-up discussion about paired-device recognition, limited third-party CarPlay apps, and shared-screen use. Useful for separating the product's developer-access constraints from competing interpretations of its household role.
+- [2026 Apple TV 4K](https://mjtsai.com/blog/2026/10/13/apple-tv-4k-2026) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: Apple Platform Ecosystem · Hardware & Devices
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Pairs Apple TV 4K hardware changes with developer and user criticism of playback reliability, state restoration, promotion-heavy navigation, and pricing. Follow-up reports add Siri Remote compatibility limits and questions about the product's intended audience.
+- [ArrangementView in SwiftUI: split and overlay layouts for iPhone Duo](https://nilcoalescing.com/blog/ArrangementViewInSwiftUISplitAndOverlayLayoutsForIPhoneDuo?ref=createwithswift.com) — Create with Swift · Issue 124 — Article · Topics: Hardware & Devices · SwiftUI
+  **Published:** `2026-10-17T16:00:00.000Z`
+  **NeKI brief:** Walks through ArrangementView split and overlay layouts, axis restrictions, sizing preferences, and fold-aware separation. Documents simulator observations about environment propagation and explicit overlay edges, helping distinguish intended layout behavior from version-specific workarounds.
+- [iPhone Duo: Size Classes Won't Tell You About the Fold (iOS 27.1)](https://sarunw.com/posts/size-classes-on-iphone-duo?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Hardware & Devices · SwiftUI · UIKit
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Records iPhone Duo simulator size classes across poses and orientations, then distinguishes window traits from ArrangementView pane traits. Useful for diagnosing why size-class adaptation cannot detect hinge angle or reliably describe a nested pane's whole display.
+- [Set the split size of ArrangementView with splitArrangementLayoutRatio](https://sarunw.com/posts/splitarrangementlayoutratio?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Hardware & Devices · SwiftUI
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Demonstrates horizontal and vertical split ratios in ArrangementView, including a shared ratio for both axes. Simulator comparisons show when the fold overrides those preferences and why content still needs enough space within its allocation.
+- [Presenting SwiftUI sheets on iPhone Duo](https://nilcoalescing.com/blog/PresentingSwiftUISheetsOnIPhoneDuo?ref=createwithswift.com) — Create with Swift · Issue 123 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-10-09T16:00:00.000Z`
+  **NeKI brief:** Shows how SwiftUI sheets and their toolbars adapt across iPhone Duo displays and fold positions. Explores presentationPlacement, toolbar arrangement, and a beta issue where a large detent restored expected trailing-sheet behavior.
+- [Hoardware](https://apps.apple.com/us/app/hoardware-device-collection/id6806893785) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: Developer Tools · Hardware & Devices
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Catalogues Apple hardware with AppleDB model and firmware information, software-version coverage, custom fields, and iCloud synchronization. Useful for organizing a device collection and exporting its inventory as text, JSON, PDF, or images.
+- [Presenting SwiftUI sheets on iPhone Duo](https://nilcoalescing.com/blog/PresentingSwiftUISheetsOnIPhoneDuo?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Swift · SwiftUI
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Shows how SwiftUI sheets and their toolbars adapt across iPhone Duo displays and fold positions. Explores presentationPlacement, toolbar arrangement, and a beta issue where a large detent restored expected trailing-sheet behavior.
 - [Backporting SwiftUI APIs](https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: Hardware & Devices · SwiftUI
   **Published:** `2026-10-03T10:58:55.000Z`
   **NeKI brief:** Wraps newer iPhone Duo SwiftUI modifiers in a namespaced Backport API so call sites can support older deployment targets. Useful for evaluating availability checks and deciding whether a compatibility shim is worth maintaining.

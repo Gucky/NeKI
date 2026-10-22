@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** VoiceOver, Dynamic Type, interaction accessibility, and inclusive interface design.
 
-- Last collected: `2026-10-02T23:36:48Z`
-- Indexed links shown: **249**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **262**
 
 ## Direct-source reading
 
+- [Agentic iOS Development with RocketSim and RocketTrace](https://www.avanderlee.com/ai-development/agentic-ios-development-rocketsim-rockettrace) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-10-12T15:51:12+00:00`
+  **NeKI brief:** Shows four agent workflows combining simulator interaction, accessibility audits, analytics, screenshot tooling, and performance traces. Emphasizes reviewing evidence before edits and records cases where incomplete attribution or missing post-change measurements leave performance conclusions open.
 - [How to change line height in SwiftUI | Sarunw](https://sarunw.com/posts/swiftui-line-height) — Sarunw · article catalogue
   **Published:** `2026-10-03`
   **NeKI brief:** Compares SwiftUI lineHeight options using baseline spacing, font metrics, and larger text. Shows why fixed point heights can clip or fail to scale with Dynamic Type and how multiple-based spacing behaves.
@@ -391,12 +394,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
   **NeKI brief:** Introduces SwiftUI accessibility modifiers alongside Xcode's Accessibility Inspector. Follow it for a beginner-friendly route from inspecting the element tree to correcting labels, traits, and grouping in a real screen.
 - [Essential VoiceOver gestures for iOS - a quick guide to testing app accessibility](https://tanaschita.com/ios-accessibility-voiceover-gestures) — Tanaschita · article catalogue
   **NeKI brief:** Catalogues essential VoiceOver gestures and a quick toggle workflow for testing. It is useful for establishing a repeatable manual pass that checks focus order and activation instead of relying only on simulator screenshots.
+- [Making custom SwiftUI controls accessible with accessibilityRepresentation](https://tanaschita.com/ios-accessibility-representation-custom-controls) — Tanaschita · article catalogue
+  **NeKI brief:** Gives a gesture-driven waveform scrubber native Slider accessibility semantics through accessibilityRepresentation. Sharing the playback binding supplies an adjustable interaction and formatted time value without replacing the custom visual control.
 - [Supporting Reduced Motion accessibility setting in SwiftUI](https://tanaschita.com/ios-accessibility-reduced-motion) — Tanaschita · article catalogue
   **NeKI brief:** Shows responding to the system Reduced Motion preference in iOS, with SwiftUI-oriented implementation guidance. Follow it when animations communicate state but must be simplified or removed for motion-sensitive users.
 - [Overview on Accessibility Nutrition Labels for iOS development](https://tanaschita.com/ios-accessibility-nutrition-labels) — Tanaschita · article catalogue
   **NeKI brief:** Explains accessibility nutrition labels and the information developers provide about app data practices. Useful for preparing App Store disclosures alongside actual privacy and analytics implementation.
+- [Adapting SwiftUI layouts for large Dynamic Type sizes](https://tanaschita.com/ios-accessibility-dynamic-type-layouts) — Tanaschita · article catalogue
+  **NeKI brief:** Switches a task row between horizontal and vertical layouts using dynamicTypeSize.isAccessibilitySize and AnyLayout. Explains why child identity survives the change and when available-width selection through ViewThatFits is a better trigger.
 - [How to support Dynamic Type accessibility in SwiftUI](https://tanaschita.com/ios-accessibility-dynamic-type) — Tanaschita · article catalogue
   **NeKI brief:** Covers Dynamic Type support in SwiftUI, including scalable text and layout testing at accessibility sizes. Follow it when fixed frames or custom typography undermine the user's selected reading scale.
+- [Supporting Differentiate Without Color in SwiftUI](https://tanaschita.com/ios-accessibility-differentiate-without-color) — Tanaschita · article catalogue
+  **NeKI brief:** Adds checkmark and cross overlays when accessibilityDifferentiateWithoutColor is enabled, keeping visible status distinguishable beyond red and green. Discusses always-visible symbols and preview or Accessibility Inspector checks for both presentations.
 - [Supporting sufficient contrast accessibility with Xcode's Color Contrast Calculator](https://tanaschita.com/ios-accessibility-contrast) — Tanaschita · article catalogue
   **NeKI brief:** Demonstrates Xcode's Color Contrast Calculator for checking foreground/background combinations. Use it as a concrete visual-QA step for text and controls, especially where custom palette choices may fail low-vision contrast needs.
 - [Automating accessibility audits for SwiftUI apps with XCTest](https://tanaschita.com/ios-accessibility-automated-audits) — Tanaschita · article catalogue
@@ -422,6 +431,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Supporting Differentiate Without Color in SwiftUILearn how to support Differentiate Without Color in SwiftUI by adding visual cues to color-coded states.](https://tanaschita.com/ios-accessibility-differentiate-without-color?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: Accessibility · SwiftUI
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Adds checkmark and cross overlays when accessibilityDifferentiateWithoutColor is enabled, keeping visible status distinguishable beyond red and green. Discusses always-visible symbols and preview or Accessibility Inspector checks for both presentations.
+- [Assistive Access — iOS Easy Mode, Revisited](https://l.fatbobman.com/w0158-06) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: Accessibility
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Shows how UISupportsAssistiveAccess and a dedicated AssistiveAccess scene enable simplified app flows, including UIKit scene routing and previews. Highlights navigation icons and the limitation that third-party setup settings must remain inside the ordinary app.
+- [Assistive Access — iOS Easy Mode, Revisited](https://www.basbroek.nl/assistive-access-revisited?ref=createwithswift.com) — Create with Swift · Issue 124 — Article · Topics: Accessibility · SwiftUI · UIKit
+  **Published:** `2026-10-17T16:00:00.000Z`
+  **NeKI brief:** Shows how UISupportsAssistiveAccess and a dedicated AssistiveAccess scene enable simplified app flows, including UIKit scene routing and previews. Highlights navigation icons and the limitation that third-party setup settings must remain inside the ordinary app.
+- [Accessibility: Switch Layouts at Large Text Sizes Without Losing State (iOS 16+)](https://tanaschita.com/ios-accessibility-dynamic-type-layouts?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Accessibility · SwiftUI
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Switches a task row between horizontal and vertical layouts using dynamicTypeSize.isAccessibilitySize and AnyLayout. Explains why child identity survives the change and when available-width selection through ViewThatFits is a better trigger.
+- [Winq](https://winq.kroking.dev/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Accessibility · Developer Tools · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Uses AVFoundation and Vision face landmarks for gaze-based focus, wink clicks, scrolling, and per-app shortcuts. Documents calibration, coarse rather than pixel-level targeting, on-device processing, and required Camera and Accessibility permissions.
+- [Accessibility Audits done by your agent](https://www.rocketsim.app/blog/accessibility-audit-ios-simulator) — SwiftLee Weekly · Issue 345 — Article · Topics: Accessibility · AI Development · Developer Tools
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Walks through RocketSim's Simulator accessibility audit in its UI and CLI, including grouped findings and an agent-driven fix-and-recheck loop. Explains heuristic contrast checks, stale results, frame comparisons, and checks that still require manual VoiceOver testing.
+- [SwiftUI: Line Height and the Wandering Title (iOS 26+)](https://sarunw.com/posts/swiftui-line-height?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Accessibility · Swift · SwiftUI
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Compares SwiftUI lineHeight options using baseline spacing, font metrics, and larger text. Shows why fixed point heights can clip or fail to scale with Dynamic Type and how multiple-based spacing behaves.
+- [Automating accessibility audits for SwiftUI apps with XCTest](https://l.fatbobman.com/w0156-05) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: Accessibility · Testing
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Adds XCTest accessibility audits to a SwiftUI UI test to catch missing descriptions, contrast problems, and clipped text. Useful for establishing automated coverage while still checking interactions that require manual assistive-technology testing.
 - [Little stories on my journey to making Xarra as accessible as possible](https://accessibilityupto11.com/post/2026-09-24-01) — iOS Dev Weekly · Issue 770 — Article · Topics: Accessibility · SwiftUI
   **Published:** `2nd October 2026`
   **NeKI brief:** Uses Xarra to explain reading versus speech access, multilingual utterances, configurable word highlighting, and SwiftUI accessibility limitations. Useful as a case study in testing several interaction modes with real content.
@@ -740,5 +773,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Hot new iPhone apps by irresponsible developers](http://blog.fawny.org/2012/03/01/voiceoverless) — iOS Dev Weekly · Issue 32 — Article · Topics: Accessibility
   **Published:** `9th March 2012`
   **NeKI brief:** Too harsh a headline in my opinion, but Joe Clark makes a good point that enabling accessibility in iOS is super easy and something that we should all be thinking about.
+- [Anti-Patterns in Software Blogging](https://go.peterfriese.dev/tools-anti-patterns-software-blogging?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Accessibility · Developer Career & Practice
+  **NeKI brief:** Reviews recurring technical-blogging failures using rewritten examples: delayed payoffs, assumed background knowledge, prerequisite links, sequel dependence, and stiff prose. Adds practical checks for mobile overflow and text contrast so readers can finish an article comfortably.
 - [MotionEyes: Instrumenting SwiftUI animations](https://github.com/edwardsanchez/MotionEyes) — Not only Swift · Issue 95 — Source repository · Topics: Accessibility · Swift · SwiftUI
   **NeKI brief:** This source repository covers instrumenting and inspecting SwiftUI animation behavior. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.

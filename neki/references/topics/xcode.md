@@ -4,11 +4,17 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Xcode, builds, signing, debugging, tooling, CI, and developer workflows.
 
-- Last collected: `2026-10-05T06:41:52Z`
-- Indexed links shown: **1462**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **1479**
 
 ## Direct-source reading
 
+- [SwiftUI Performance: Find Redraws in Xcode Instruments - SwiftLee](https://www.avanderlee.com/swiftui/swiftui-performance-xcode-instruments) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-10-19T11:27:45+00:00`
+  **NeKI brief:** Profiles a focused interaction with Instruments' SwiftUI template, then follows View Body Updates from hierarchy totals to individual durations and root causes. Distinguishes expensive updates from frequent cheap redraws and calls for repeat measurements after changes.
+- [Introducing RocketTrace: Using Xcode Instruments with AI Agents - SwiftLee](https://www.avanderlee.com/ai-development/introducing-rockettrace-using-xcode-instruments-with-ai-agents) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-10-05T07:58:25+00:00`
+  **NeKI brief:** Demonstrates recording and querying Instruments analyses through RocketTrace's CLI, from compact triage to individual findings. Explains local processing, repeat-run comparisons, and a vendor benchmark whose limited trace coverage and agent reading choices constrain its conclusions.
 - [Letting AI See SwiftUI - Xcode Preview MCP in Practice — Pitfalls and Hopes](https://fatbobman.com/en/posts/letting-ai-see-swiftui) — Fatbobman · article catalogue
   **Published:** `2026-09-30T14:00:00.000Z`
   **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
@@ -2001,12 +2007,57 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [How to stream iOS simulator logs to your AI coding agent](https://flowdeck.studio/blog/log-streaming) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Compares ways to expose simulator logs to coding agents, focusing on process scoping, startup timing, and structured output. The FlowDeck author demonstrates his CLI workflow, so assess the tool comparison with that vendor context.
+- [Xcode Projects for the Command Line and Coding Agents](https://artemnovichkov.com/blog/xcode-projects-for-the-command-line-and-coding-agents) — SwiftLee Weekly · Issue 346 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Demonstrates Apple's xcodeproj and xcprojformatter command-line tools for JSON-format projects, covering targets, synchronized groups, packages, build settings, and xcconfig files. Distinguishes raw project values from resolved settings and warns about the CocoaPods command-name collision.
+- [Xcode Projects for the Command Line and Coding Agents](https://l.fatbobman.com/w0159-02) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Demonstrates Apple's xcodeproj and xcprojformatter command-line tools for JSON-format projects, covering targets, synchronized groups, packages, build settings, and xcconfig files. Distinguishes raw project values from resolved settings and warns about the CocoaPods command-name collision.
+- [🛠️ GitHub’s Xcode 27 runner image is generally available](https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available) — iOS CI Newsletter · Issue 95 — Article · Topics: CI/CD & Automation · Xcode
+  **Published:** `2026-10-18T00:00:00.000Z`
+  **NeKI brief:** Announces GitHub Actions' Xcode 27 image and the xcode-27 and xcode-27-xlarge runner labels. Explains its major-toolchain image model, macOS 27 environment, and Apple Silicon-only availability for selecting compatible build infrastructure.
+- [🎨 Give your Debug builds a blueprint app icon](https://github.com/MustafaNatur/blueprint) — iOS CI Newsletter · Issue 95 — Source repository · Topics: CI/CD & Automation · Developer Tools · Xcode
+  **Published:** `2026-10-18T00:00:00.000Z`
+  **NeKI brief:** Documents a command-line tool that converts Icon Composer files or asset-catalog icons into blueprint-style debug variants. Covers environment badges, Xcode build-configuration selection, and Vision-based tracing for flat icons while preserving source assets.
+- [Xcode 27: Run the Translation Skills From Your Own Agent (Xcode 27)](https://macguru.dev/using-xcode-27s-localization-skills-over-mcp?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: AI Development · Localization · Xcode
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Shows how xcrun agent plugin path exposes Xcode’s translation skills and MCP setup to external coding agents. Explains why loading the actual localization guidance matters for catalog variations, terminology, and language-specific style rules.
+- [Where did my disk go? Xcode, worktrees and AI agents](https://skarol.dev/posts/where-did-my-disk-go) — Those Who Swift · Issue 288 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Diagnoses misleading Xcode failures caused by disk exhaustion in parallel agent worktrees. Distinguishes APFS clone accounting from actual free space, then ties DerivedData, test-product, and simulator cleanup to worktree ownership.
+- [Using Xcode 27's localization skills over MCP](https://macguru.dev/using-xcode-27s-localization-skills-over-mcp) — Those Who Swift · Issue 288 — Article · Topics: AI Development · Localization · Xcode
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Shows how xcrun agent plugin path exposes Xcode’s translation skills and MCP setup to external coding agents. Explains why loading the actual localization guidance matters for catalog variations, terminology, and language-specific style rules.
+- [OpenDeviceHub and SimParcel](https://github.com/Mastersam07/OpenDeviceHub) — iOS Dev Weekly · Issue 771 — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `9th October 2026`
+  **NeKI brief:** Documents an alternative iOS Simulator window manager with per-device windows, familiar shortcuts, scaling, drag-and-drop, and an automation CLI. Explains coexistence with Xcode Device Hub and discloses accessibility, platform, and private-framework limitations.
+- [SimParcel](https://github.com/vadimkatenin/SimParcel) — iOS Dev Weekly · Issue 771 — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `9th October 2026`
+  **NeKI brief:** Restores drag-and-drop imports into iOS simulators through a macOS app wrapping simctl. Covers media, Live Photos, contacts, app builds, push payloads, links, and Files imports, with multi-device delivery, retry queues, and Canvas-device constraints.
+- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — Those Who Swift · Issue 287 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
+- [Optimizing Claude Code's Xcode build token usage](https://danielsaidi.com/blog/2026/09/30/optimizing-claude-code-s-xcode-build-token-usage) — Those Who Swift · Issue 287 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Provides a Claude Code PreToolUse hook that routes simple Xcode and Swift build commands through xcsift. Guards against unsafe command rewrites and retains pipefail so compressed output does not hide build failures.
+- [Swift scripts for Xcode and Xcode Cloud](https://appforce1.net/blog/swift-scripting-in-xcode) — Those Who Swift · Issue 287 — Article · Topics: CI/CD & Automation · Developer Tools · Xcode
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Moves release notes, icon preparation, and translation checks into repository-owned Swift scripts invoked by thin shell wrappers. Covers Xcode Cloud hook paths, host-tool SDK selection, and reusing the same automation locally.
+- [Xcode MCP: When Your Agent's Preview Lies to It (Xcode 27)](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [SwiftUI Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) — SwiftLee Weekly · Issue 344 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-10-06T14:07:47.000Z`
+  **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
+- [Daniel Saidi](https://l.fatbobman.com/w0156-06) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: AI Development · Xcode
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Provides a Claude Code PreToolUse hook that routes simple Xcode and Swift build commands through xcsift. Guards against unsafe command rewrites and retains pipefail so compressed output does not hide build failures.
 - [Letting AI See SwiftUI: Xcode Preview MCP in Practice](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
   **Published:** `2026-10-03T10:58:55.000Z`
   **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
-- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — iOS Dev Weekly · Issue 770 — Article · Topics: AI Development · Developer Tools · Xcode
-  **Published:** `2nd October 2026`
-  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
 - [Xcode 27.1 Beta: Your App in the iPhone Duo Simulator](https://blakecrosley.com/blog/xcode-27-1-beta-iphone-duo-simulator) — Those Who Swift · Issue 286 — Article · Topics: Xcode
   **Published:** `2026-09-30T20:30:56.651Z`
   **NeKI brief:** Inspects the Xcode 27.1 beta iPhone Duo simulator, SDK APIs, display profiles, and behavior by pose. Useful as dated empirical notes for planning checks, with device behavior still requiring current validation.

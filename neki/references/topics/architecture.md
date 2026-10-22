@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Application boundaries, modularity, state ownership, dependency direction, and design trade-offs.
 
-- Last collected: `2026-10-02T23:36:48Z`
-- Indexed links shown: **369**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **382**
 
 ## Direct-source reading
 
+- [AI-Friendly Frameworks - As Abstraction Moves Up, How Can Verification Keep Pace?](https://fatbobman.com/en/posts/ai-friendly-framework) — Fatbobman · article catalogue
+  **Published:** `2026-10-07T14:00:00.000Z`
+  **NeKI brief:** Evaluates framework suitability for coding agents through observable behavior and deterministic verification rather than abstraction level alone. Uses SwiftUI transform measurements, SwiftFairy checks, and InnoDI graph validation to illustrate stronger feedback loops.
 - [ArrangementView - Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange) — Fatbobman · article catalogue
   **Published:** `2026-09-23T14:00:00.000Z`
   **NeKI brief:** Examines ArrangementView as a choice about relationships between content, not merely a container swap. Its split and overlay examples help decide which presentation changes belong to the system and which app state still needs explicit design.
@@ -621,6 +624,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Simplifying Sorting, Filtering, and Pagination in SwiftUI Using HotelQuery](https://azamsharp.com/2026/10/17/simplifying-sorting-filtering-and-pagination-in-swiftui-using-hotelquery.html) — Those Who Swift · Issue 289 — Article · Topics: Architecture · Networking · SwiftUI
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Groups sort order, filters, and page size into an Equatable HotelQuery while keeping page progression inside the store. Query changes reset pagination; the article also identifies overlapping-request and end-of-results limitations.
+- [When to Use a View Model in SwiftUI (and When It's Overkill)](https://www.swiftyplace.com/blog/mvvm-view-model-use-case) — Those Who Swift · Issue 289 — Article · Topics: Architecture · Observation & State Management · SwiftUI
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Weighs SwiftUI view models against their maintenance cost using concrete screens. A theme editor earns a shared store through coordinated mutations, persistence, and lifetime, while static content does not justify another layer.
+- [ResortPass](https://www.resortpass.com/engineering/articles/why-resortpass-chose-a-native-ios-app) — iOS Dev Weekly · Issue 772 — Article · Topics: AI Development · Architecture · Cross-Platform & Web · SwiftUI
+  **Published:** `16th October 2026`
+  **NeKI brief:** Explains ResortPass’s Flutter-to-SwiftUI migration through platform behavior, SDK access, and hiring trade-offs. Describes a functionality-preserving rebuild, small modules, and automated architectural checks around coding agents while Android remains on Flutter.
+- [How I Architect SwiftUI Apps for Swift Concurrency – So the Compiler Stays Quiet](https://www.swiftyplace.com/blog/swiftui-architecture-swift-concurrency) — iOS Dev Weekly · Issue 772 — Article · Topics: Architecture · Concurrency · SwiftUI
+  **Published:** `16th October 2026`
+  **NeKI brief:** Organizes SwiftUI architecture around state ownership: main-actor UI stores, independent actors for shared non-UI state, and stateless concurrent services. Sendable DTOs define the crossings, with default actor isolation settings made explicit.
+- [split isolation](https://massicotte.org/blog/revisiting-split-isolation?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Architecture · Concurrency
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Examines partially actor-isolated non-Sendable types and why sending self into a main-actor task exposes unsafe boundaries. Weighs whole-type isolation against intentional secondary functionality and temporary Swift 6 migration constraints.
+- [AI-Friendly Frameworks](https://fatbobman.com/en/posts/ai-friendly-framework?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: AI Development · Architecture · Code Quality · SwiftUI
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Evaluates framework suitability for coding agents through observable behavior and deterministic verification rather than abstraction level alone. Uses SwiftUI transform measurements, SwiftFairy checks, and InnoDI graph validation to illustrate stronger feedback loops.
+- [Escaping the Cohabiting Trap](https://williamboles.com/escaping-the-cohabiting-trap) — Those Who Swift · Issue 288 — Article · Topics: Architecture · Code Quality · SwiftUI
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Uses a flag-heavy avatar and total calculator to diagnose shared components whose callers need conflicting behavior. Moves caller-specific presentation outward and separates business rules when continued sharing couples unrelated changes.
+- [The Task Is Not the Unit of Work: Ownership, Isolation, and Cancellation Beyond async/await](https://l.fatbobman.com/w0157-02) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: Architecture · Concurrency
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Separates presentation, task, resource, and product-operation lifetimes before choosing Swift concurrency primitives. Uses uploads, shared sessions, search cancellation, and purchases to show why actors and structured task trees cannot decide ownership or cancellation semantics.
+- [InnoDI: Turning the Dependency Graph into a Verifiable Build Artifact](https://l.fatbobman.com/w0157-08) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: Architecture · Dependency Injection · Macros & Metaprogramming
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Provides macro-generated dependency containers with explicit wiring, local diagnostics, required build validation, and graph artifacts for cross-module checks. The README distinguishes stable releases from development APIs and explains why deferred dependencies still cannot form ownership cycles.
+- [SwiftUI state management best practices](https://salari.dev/writing/swiftui-state-management-best-practices) — SwiftUI Weekly · SwiftUI Weekly - Issue #242 — Article · Topics: Architecture · Observation & State Management · SwiftUI
+  **Published:** `2026-10-12T10:37:23.167Z`
+  **NeKI brief:** Chooses SwiftUI state storage by source of truth, lifetime, mutation authority, and persistence. Shows how unnecessary bindings, duplicated derived values, and broad observable reads create bugs or excessive updates, with feature-model examples.
+- [InnoFlow](https://github.com/InnoSquadCorp/InnoFlow) — SwiftUI Weekly · SwiftUI Weekly - Issue #242 — Source repository · Topics: Architecture · Composable Architecture · Concurrency · Testing
+  **Published:** `2026-10-12T10:37:23.167Z`
+  **NeKI brief:** Documents a reducer-based Swift framework with optional macros, SwiftUI bindings, scoped effect lifetimes, and exhaustive TestStore assertions. Separates domain-state ownership from navigation and dependencies, and explains cooperative cancellation and bounded orchestration limits.
+- [Revisiting "Split Isolation"](https://massicotte.org/blog/revisiting-split-isolation) — Those Who Swift · Issue 287 — Article · Topics: Architecture · Concurrency
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Examines partially actor-isolated non-Sendable types and why sending self into a main-actor task exposes unsafe boundaries. Weighs whole-type isolation against intentional secondary functionality and temporary Swift 6 migration constraints.
 - [Firebase Analytics crash after sdk-exp response](https://github.com/firebase/firebase-ios-sdk/issues/16728) — iOS Dev Weekly · Issue 770 — Source repository · Topics: Architecture · Developer Tools
   **Published:** `2nd October 2026`
   **NeKI brief:** Tracks a production Firebase Analytics crash after an sdk-exp response, including timestamps, affected apps, and the resolution discussion. Useful as primary incident evidence when evaluating remote configuration and SDK dependency risk.

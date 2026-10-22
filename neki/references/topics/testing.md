@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Unit, UI, Swift Testing, XCTest, test design, and test automation.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **1331**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **1350**
 
 ## Direct-source reading
 
@@ -1685,6 +1685,63 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [The boss fight, part 1: a known issue, not a skipped test](https://silentspice.substack.com/p/the-boss-fight-part-1-a-known-issue) — Those Who Swift · Issue 289 — Article · Topics: Code Quality · Testing
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Shows how a narrowly scoped withKnownIssue wrapper keeps an acceptance test running while documenting one known defect. A reconstructed run demonstrates the unexpected-pass failure that signals the wrapper should be removed.
+- [Pragmatic Testing for Agents](https://sergdort.github.io/pragmatic-testing-for-agents) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Code Quality · Testing
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Prunes agent-written tests using behavior contracts, independent expected values, and refactor resilience. Per-function coverage exposes a lost narration path that a small mutation sample missed, motivating targeted replacement tests.
+- [Claude Code for iOS development](https://roland.leth.ro/blog/tech/claude-code-for-ios-development) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Developer Tools · Testing
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Introduces an iOS-specific Claude Code series covering simulator failures, tests with independent expectations, and generated App Store media. The author separates agent reports from observable results across three personal apps.
+- [iOS 27: App Intents TestingModern testing of IntentsAnton’s SubstackAnton Gubarenko](https://antongubarenko.substack.com/p/ios-27-app-intents-testing) — iOS Code Review · Issue 92 — Article · Topics: App Intents & System Surfaces · Testing
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Tests App Intents through a live app's registered definitions in a UI Testing target, rather than directly calling perform(). Covers stable entity references, query results, chained intents, and debug-only setup intents without automating Shortcuts screens.
+- [find SwiftUI views in unit tests](https://qualitycoding.org/find-swiftui-views-unit-tests?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: SwiftUI · Testing
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Finds SwiftUI subviews with ViewInspector accessibility-identifier searches instead of hierarchy positions or visible text. Wraps those searches in domain-named helpers so layout, label, and subview refactors do not unnecessarily invalidate behavior tests.
+- [iOS 27: App Intents Testing](https://l.fatbobman.com/w0158-01) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: App Intents & System Surfaces · Testing
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Tests App Intents through a live app's registered definitions in a UI Testing target, rather than directly calling perform(). Covers stable entity references, query results, chained intents, and debug-only setup intents without automating Shortcuts screens.
+- [Comparing On-Device and Private Cloud Compute Summaries](https://l.fatbobman.com/w0158-05) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: AI Development · Testing
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Compares trimmed on-device summaries with full-text Private Cloud Compute using fixed baselines, sentence checks, and pairwise model judging. A short-issue control separates model preference from benefits attributed to preserving late conclusions.
+- [Decompose Run-On Tests (In Swift Testing)](https://jaimzuber.com/testing/decompose-run-on-tests.html) — Those Who Swift · Issue 288 — Article · Topics: Code Quality · Testing
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Decomposes a long playlist test into independently named behavior checks, removing irrelevant setup and earlier assertions. Explains why coverage belongs to the green suite as a whole rather than repeated claims inside every test.
+- [Comparing On-Device and Private Cloud Compute Summaries](https://www.ioscoffeebreak.com/issue/issue79) — Those Who Swift · Issue 288 — Article · Topics: AI Development · Testing
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Compares trimmed on-device summaries with full-text Private Cloud Compute using fixed baselines, sentence checks, and pairwise model judging. A short-issue control separates model preference from benefits attributed to preserving late conclusions.
+- [Testing Async Code in Swift: Stop Using Task.yield() in Your Tests](https://www.nsvasilev.com/posts/testing-swift-tasks-with-itaskfactory) — Those Who Swift · Issue 288 — Article · Topics: Concurrency · Dependency Injection · Testing
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Injects an ITaskFactory so tests can await unstructured tasks started by synchronous lifecycle APIs. Explains why yield and callback expectations can race, and limits the approach to work whose completion the factory can observe.
+- [Why your fastlane snapshot screenshots are all in English(and how to check every language)](https://l.fatbobman.com/w0157-05) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: App Distribution & Store Operations · Localization · Testing
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Diagnoses English-only fastlane screenshots through helper ordering, launch context, missing translations, simulator language, and persisted app settings. Describes OCR checks against the built app’s strings, including unsupported-script and unverified-image limitations.
+- [SimAgentation: Annotate the iOS Simulator in Your Browser and Hand the Work to AI](https://l.fatbobman.com/w0157-09) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: AI Development · Developer Tools · Testing
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Connects browser annotations on a simulator to coding agents using accessibility elements, screenshots, and MCP tools. An optional SDK adds source locations; private Xcode frameworks and inaccessible custom drawing define important integration limits.
+- [InnoFlow](https://github.com/InnoSquadCorp/InnoFlow) — SwiftUI Weekly · SwiftUI Weekly - Issue #242 — Source repository · Topics: Architecture · Composable Architecture · Concurrency · Testing
+  **Published:** `2026-10-12T10:37:23.167Z`
+  **NeKI brief:** Documents a reducer-based Swift framework with optional macros, SwiftUI bindings, scoped effect lifetimes, and exhaustive TestStore assertions. Separates domain-state ownership from navigation and dependencies, and explains cooperative cancellation and bounded orchestration limits.
+- [Ship the Fallback First](https://appforce1.net/blog/ship-the-fallback-first) — iOS Dev Weekly · Issue 771 — Article · Topics: AI Development · SwiftUI · Testing
+  **Published:** `9th October 2026`
+  **NeKI brief:** Builds a note editor whose saving workflow survives unavailable Foundation Models, unsupported locales, and generation failures. Adds optional structured title/tag suggestions, token-budget checks, user confirmation, and sample-based Evaluations metrics before judging instruction changes.
+- [OpenDeviceHub and SimParcel](https://github.com/Mastersam07/OpenDeviceHub) — iOS Dev Weekly · Issue 771 — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `9th October 2026`
+  **NeKI brief:** Documents an alternative iOS Simulator window manager with per-device windows, familiar shortcuts, scaling, drag-and-drop, and an automation CLI. Explains coexistence with Xcode Device Hub and discloses accessibility, platform, and private-framework limitations.
+- [SimParcel](https://github.com/vadimkatenin/SimParcel) — iOS Dev Weekly · Issue 771 — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `9th October 2026`
+  **NeKI brief:** Restores drag-and-drop imports into iOS simulators through a macOS app wrapping simctl. Covers media, Live Photos, contacts, app builds, push payloads, links, and Files imports, with multi-device delivery, retry queues, and Canvas-device constraints.
+- [Baguette](https://github.com/tddworks/baguette) — iOS Dev Weekly · Issue 771 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `9th October 2026`
+  **NeKI brief:** Provides headless Apple Simulator control with streaming, 3D models, touch and multi-finger input, and multi-device operation. Review host permissions and protocol stability before using it in automated test infrastructure.
+- [Automating accessibility audits for SwiftUI apps with XCTest](https://l.fatbobman.com/w0156-05) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: Accessibility · Testing
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Adds XCTest accessibility audits to a SwiftUI UI test to catch missing descriptions, contrast problems, and clipped text. Useful for establishing automated coverage while still checking interactions that require manual assistive-technology testing.
+- [Argent: Let AI Coding Assistants Participate in App Runtime and Verification](https://l.fatbobman.com/w0156-09) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: AI Development · Developer Tools · Testing
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Provides agent-driven simulator and device interaction, deterministic replay, visual comparisons, runtime inspection, and native profiling. The repository describes platform coverage and identifies opt-out telemetry and proprietary helper binaries alongside Apache-licensed source.
 - [Stop Sleeping: Deterministic Tests for Concurrent Swift Code](https://raska.io/blog/testing-concurrent-code) — Those Who Swift · Issue 286 — Article · Topics: Swift · Testing
   **Published:** `2026-09-30T20:30:56.651Z`
   **NeKI brief:** Builds deterministic tests for concurrent Swift code with spies that coordinate success, failure, timeout, and cancellation paths. Useful when sleep-based timing makes an asynchronous test suite flaky.

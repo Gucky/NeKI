@@ -3,9 +3,21 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.pointfree.co/blog](https://www.pointfree.co/blog)
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed entries: **161**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed entries: **164**
 
+- [Advanced macro technique #2: Type inference](https://www.pointfree.co/blog/posts/233-advanced-macro-technique-2-type-inference)
+  **Published:** `2026-10-08T00:00:00Z`
+  **Topics:** Macros & Metaprogramming · Swift
+  **NeKI brief:** Builds a memberwise initializer without requiring explicit property type annotations. Generated nested protocols and witness types let associated-type inference recover field types from defaults, including function results and closures, for use in expanded declarations.
+- [Advanced macro technique #1: Static type information](https://www.pointfree.co/blog/posts/232-advanced-macro-technique-1-static-type-information)
+  **Published:** `2026-10-07T00:00:00Z`
+  **Topics:** Macros & Metaprogramming · Swift
+  **NeKI brief:** Uses overloaded attached macros to select expansions according to protocol conformance and emit diagnostics beside offending fields. Extends the technique with object-identity equality and examples from SQLite table and reference-state snapshot macros.
+- [Advanced techniques in Swift macros](https://www.pointfree.co/blog/posts/231-advanced-techniques-in-swift-macros)
+  **Published:** `2026-10-06T00:00:00Z`
+  **Topics:** Macros & Metaprogramming · Swift
+  **NeKI brief:** Introduces two ways macro expansions can enlist compiler behavior beyond syntax inspection: overload-driven diagnostics and associated-type inference. Uses generated equality and memberwise initializers to explain the concrete limitations addressed by the companion tutorials.
 - [LazyState 1.0: Now available to everyone](https://www.pointfree.co/blog/posts/228-lazystate-1-0-now-available-to-everyone)
   **Published:** `2026-09-14T00:00:00Z`
   **Topics:** Macros & Metaprogramming · Observation & State Management · SwiftUI

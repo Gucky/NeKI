@@ -4,11 +4,17 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Navigation stacks, routing, deep links, destinations, and restoration.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **124**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **129**
 
 ## Direct-source reading
 
+- [Adapting your app for iPhone Duo | Swift with Majid](https://swiftwithmajid.com/2026/10/14/adapting-your-app-for-iPhone-duo) — Swift with Majid · article catalogue
+  **Published:** `2026-10-14T00:00:00+00:00`
+  **NeKI brief:** Uses size classes, sidebar-adaptable tabs, NavigationSplitView, and AnyLayout to reuse an app across folded and unfolded displays. Offers an initial adaptation path centered on available space while preserving view identity during layout changes.
+- [Why the navigation title moves to the left in iOS 26 | Sarunw](https://sarunw.com/posts/swiftui-inline-title-moves-left-ios-26) — Sarunw · article catalogue
+  **Published:** `2026-10-06`
+  **NeKI brief:** Demonstrates how iOS 26 relocates an inline navigation title when toolbar content crowds its centered position, then truncates it as space shrinks. Compares older behavior and suggests fewer actions or shorter localized titles.
 - [Alamofire: Routing Requests | Kodeco](https://www.kodeco.com/5830-alamofire-routing-requests) — Kodeco / Ray Wenderlich archive · article catalogue
   **Published:** `2026-07-17`
   **NeKI brief:** Alamofire request routing centralizes endpoint configuration and removes repeated networking setup. The example is useful for weighing a router’s consistency against hidden coupling, particularly when authentication, retries and request-specific headers diverge.
@@ -203,6 +209,15 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Xcode 27.1 Is Final, and the Duo Ships Friday (Xcode 27.1, stable)](https://swiftwithmajid.com/2026/10/14/adapting-your-app-for-iPhone-duo?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: Hardware & Devices · Navigation & Deep Linking · SwiftUI
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Uses size classes, sidebar-adaptable tabs, NavigationSplitView, and AnyLayout to reuse an app across folded and unfolded displays. Offers an initial adaptation path centered on available space while preserving view identity during layout changes.
+- [Configuring UIKit Navigation Bars from SwiftUI](https://livsycode.com/swiftui/configuring-uikit-navigation-bars-from-swiftui) — Those Who Swift · Issue 288 — Article · Topics: Navigation & Deep Linking · SwiftUI · UIKit
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Introduces NavBarBridge to synchronize SwiftUI screen state with its hosting controller’s UINavigationItem. Keeps UIKit navigation and native bar behavior while exposing button state, menus, subtitles, and action context from the view.
+- [Why the navigation title moves to the left in iOS 26](https://sarunw.com/posts/swiftui-inline-title-moves-left-ios-26?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Navigation & Deep Linking · SwiftUI
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Demonstrates how iOS 26 relocates an inline navigation title when toolbar content crowds its centered position, then truncates it as space shrinks. Compares older behavior and suggests fewer actions or shorter localized titles.
 - [iPhone Duo: ArrangementView (iOS 27.1 SDK, beta coming later this month)](https://livsycode.com/swiftui/building-iphone-duo-layouts-with-arrangementview?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Graphics, Media & Games · Swift · SwiftUI
   **Published:** `2026-09-15T17:33:22.000Z`
   **NeKI brief:** Shows how ArrangementView describes a relationship between two SwiftUI regions and lets the system choose split or overlay presentation, including navigation ownership and fold-aware behavior on iPhone Duo.

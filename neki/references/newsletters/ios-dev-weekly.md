@@ -3,8 +3,76 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://iosdevweekly.com/issues/](https://iosdevweekly.com/issues/)
-- Last collected: `2026-10-02T23:36:48Z`
-- Indexed entries: **766**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed entries: **768**
+
+## [Issue 772](https://iosdevweekly.com/issues/772)
+
+- Published: `16th October 2026`
+
+**Topics:** CI/CD & Automation · Concurrency · Objective-C & Cocoa · Swift · SwiftUI · Testing
+
+**Sections:** Comment · News
+
+**NeKI brief:** Actor reentrancy, collection offsets, and concurrency boundaries expose assumptions that compile successfully but fail after small changes. Related selections examine native-app migrations, agent test quality, framework verification, and build-specific icon generation.
+
+**Selected links:**
+- [ResortPass](https://www.resortpass.com/engineering/articles/why-resortpass-chose-a-native-ios-app) — Article · Topics: AI Development · Architecture · Cross-Platform & Web · SwiftUI
+  **NeKI brief:** Explains ResortPass’s Flutter-to-SwiftUI migration through platform behavior, SDK access, and hiring trade-offs. Describes a functionality-preserving rebuild, small modules, and automated architectural checks around coding agents while Android remains on Flutter.
+- [How I Architect SwiftUI Apps for Swift Concurrency – So the Compiler Stays Quiet](https://www.swiftyplace.com/blog/swiftui-architecture-swift-concurrency) — Article · Topics: Architecture · Concurrency · SwiftUI
+  **NeKI brief:** Organizes SwiftUI architecture around state ownership: main-actor UI stores, independent actors for shared non-UI state, and stateless concurrent services. Sendable DTOs define the crossings, with default actor isolation settings made explicit.
+- [enumerated() Gives You an Offset, Not an Index. On a Slice Those Are Different Numbers.](https://nativefirstapp.com/blog/enumerated-offset-is-not-an-index-swift) — Article · Topics: Code Quality · Foundation & Data Formats · Swift
+  **NeKI brief:** Demonstrates an ArraySlice crash caused by using enumerated offsets as collection indices. Replaces subscripting with collection.indices or zip(indices, collection), while retaining offsets for display numbering.
+- [Blueprint](https://github.com/MustafaNatur/blueprint) — Source repository · Topics: CI/CD & Automation · Developer Tools · Xcode
+  **NeKI brief:** Documents a command-line tool that converts Icon Composer files or asset-catalog icons into blueprint-style debug variants. Covers environment badges, Xcode build-configuration selection, and Vision-based tracing for flat icons while preserving source assets.
+- [AI-Friendly Frameworks: As Abstraction Moves Up, How Can Verification Keep Pace?](https://fatbobman.com/en/posts/ai-friendly-framework) — Article · Topics: AI Development · Architecture · Code Quality · SwiftUI
+  **NeKI brief:** Evaluates framework suitability for coding agents through observable behavior and deterministic verification rather than abstraction level alone. Uses SwiftUI transform measurements, SwiftFairy checks, and InnoDI graph validation to illustrate stronger feedback loops.
+- [duttish’s comment on Hacker News](https://news.ycombinator.com/item?id=50073633) — Article · Topics: AI Development · Code Quality
+  **NeKI brief:** Collects developer responses to Anthropic’s source-control rewrite, including doubts about replacing detailed code review with intent review. Useful as a counterpoint on maintainability and the evidence behind coding-speed claims.
+- [Swift Actor Reentrancy: Stop Duplicate Network Requests](https://warmodroid.com/posts/swift-actor-reentrancy-network-requests) — Article · Topics: Concurrency · Networking
+  **NeKI brief:** Builds an actor cache that stores in-flight tasks before suspension, coalesces duplicate requests, and rejects obsolete completions by identity. Explicit cancellation and invalidation policies expose the limits of shared work ownership.
+- [Exploring _UILiquidLensView](https://livsycode.com/swiftui/exploring-_uiliquidlensview) — Article · Topics: Liquid Glass · UIKit
+  **NeKI brief:** Reconstructs the private UIKit lens through Objective-C runtime lookup, lifted-state selectors, and separate content views. A circular-menu experiment clarifies its interaction model while explicitly limiting the technique to research and prototypes.
+- [Anthropic shared why it replaced Git in its monorepo with Scion](https://www.anthropic.com/engineering/redesigning-source-control) — Article · Topics: AI Development · CI/CD & Automation · Developer Tools
+  **NeKI brief:** Explains Scion’s centralized source-control design for agent-heavy monorepos: server-side history operations, immutable changesets, sparse checkouts, and tiered caches. Useful for assessing scaling trade-offs while retaining the article’s narrow workload assumptions.
+- [Shopify’s move back to native](https://shopify.engineering/back-to-native) — Article · Topics: AI Development · Cross-Platform & Web · Swift
+  **NeKI brief:** Explains why Shopify is moving its mobile apps from React Native back to Swift and Kotlin: coding agents changed native-development economics while platform-specific UI and capabilities increased the value of direct SDK access.
+- [Pragmatic Testing for Agents](https://sergdort.github.io/pragmatic-testing-for-agents) — Article · Topics: AI Development · Code Quality · Testing
+  **NeKI brief:** Prunes agent-written tests using behavior contracts, independent expected values, and refactor resilience. Per-function coverage exposes a lost narration path that a small mutation sample missed, motivating targeted replacement tests.
+- [fastlane badge plugin](https://github.com/HazAT/fastlane-plugin-badge) — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **NeKI brief:** Packages the badge utility as a fastlane plugin and documents installation, an example Fastfile, and its test workflow. Follow it to integrate icon badging into an existing fastlane release pipeline.
+- [Apple-style](https://github.com/npwitk/Macintosh-Skeletal-Filled) — Source repository · Topics: Graphics, Media & Games · Product Design
+  **NeKI brief:** Reconstructs Apple’s skeletal handwriting as static and variable OpenType fonts using recorded letter joins. Explains contextual alternates, modeled limitations, and installation; the derivative fonts are limited to personal, noncommercial use.
+
+## [Issue 771](https://iosdevweekly.com/issues/771)
+
+- Published: `9th October 2026`
+
+**Topics:** Graphics, Media & Games · macOS & AppKit · Objective-C & Cocoa · Performance · Swift · SwiftUI
+
+**Sections:** Comment · News
+
+**NeKI brief:** The editorial argues for measuring completed user tasks instead of time spent in apps. Reading then connects simulator automation workarounds, SwiftUI profiling, model-independent fallback interfaces, certificate renewal, and predictable transform ordering.
+
+**Selected links:**
+- [SwiftUI Profiling with Instruments](https://horacal.app/blog/swiftui-performance-profiling-instruments) — Article · Topics: Developer Tools · Performance · SwiftUI
+  **NeKI brief:** Profiles a calendar backed by 100,000 stored events to separate database costs from repeated SwiftUI graph work. Describes snapshot preparation, viewport reduction, cache changes, and removing hover effects while distinguishing diagnostics from controlled benchmarks.
+- [Ship the Fallback First](https://appforce1.net/blog/ship-the-fallback-first) — Article · Topics: AI Development · SwiftUI · Testing
+  **NeKI brief:** Builds a note editor whose saving workflow survives unavailable Foundation Models, unsupported locales, and generation failures. Adds optional structured title/tag suggestions, token-budget checks, user confirmation, and sample-based Evaluations metrics before judging instruction changes.
+- [OpenDeviceHub and SimParcel](https://github.com/Mastersam07/OpenDeviceHub) — Source repository · Topics: Developer Tools · Testing · Xcode
+  **NeKI brief:** Documents an alternative iOS Simulator window manager with per-device windows, familiar shortcuts, scaling, drag-and-drop, and an automation CLI. Explains coexistence with Xcode Device Hub and discloses accessibility, platform, and private-framework limitations.
+- [SimParcel](https://github.com/vadimkatenin/SimParcel) — Source repository · Topics: Developer Tools · Testing · Xcode
+  **NeKI brief:** Restores drag-and-drop imports into iOS simulators through a macOS app wrapping simctl. Covers media, Live Photos, contacts, app builds, push payloads, links, and Files imports, with multi-device delivery, retry queues, and Canvas-device constraints.
+- [Meta Muse Mac first run experience](https://lapcatsoftware.com/articles/2026/10/2.html) — Article · Topics: AI Development · macOS & AppKit · Security & Privacy
+  **NeKI brief:** Documents Meta Muse’s first-run permission flow in a fresh macOS virtual machine. Separates system Full Disk Access from the app’s own Messages toggles and uses that observation to assess disputed privacy reporting.
+- [Baguette](https://github.com/tddworks/baguette) — Source repository · Topics: Developer Tools · Testing
+  **NeKI brief:** Provides headless Apple Simulator control with streaming, 3D models, touch and multi-finger input, and multi-device operation. Review host permissions and protocol stability before using it in automated test infrastructure.
+- [Why big companies are bad platform citizens](https://scottberrevoets.com/2026/10/05/why-big-companies-are-bad-platform-citizens) — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **NeKI brief:** Uses Lyft’s platform integrations to explain why large service businesses delay native OS features. Low usage, upkeep, planning cycles, and incentives around engagement can outweigh the platform polish valued by smaller developers.
+- [Modifier Order Is Matrix Order](https://aleahim.com/blog/swiftui-modifier-order) — Article · Topics: Graphics, Media & Games · SwiftUI
+  **NeKI brief:** Measures SwiftUI transform chains against affine-matrix predictions and rendered pixels. Explains how modifier order and frame placement change anchors, then isolates offset rounding that later scale effects amplify; evidence is limited to ImageRenderer.
+- [proposal to round it properly](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md) — Source repository · Topics: Swift
+  **NeKI brief:** Proposes allowing FloatingPoint.pi to use nearest rounding instead of always rounding toward zero, with a corresponding Float.pi change. Useful for reviewing numerical-compatibility effects before the language decision is final.
 
 ## [Issue 770](https://iosdevweekly.com/issues/770)
 
@@ -91,7 +159,7 @@ Third-party source index. It provides source attribution and routing metadata, n
 **NeKI brief:** Curates Shopify's return to native mobile development, early iPhone Duo preparation, over-the-air localization architecture, Swift 6.4 Hashable changes, Siri integration, agent configuration, and a macOS login-keychain regression.
 
 **Selected links:**
-- [Native is now the future of mobile at Shopify](https://shopify.engineering/back-to-native) — Article · Topics: Cross-Platform & Web · Swift
+- [Native is now the future of mobile at Shopify](https://shopify.engineering/back-to-native) — Article · Topics: AI Development · Cross-Platform & Web · Swift
   **NeKI brief:** Explains why Shopify is moving its mobile apps from React Native back to Swift and Kotlin: coding agents changed native-development economics while platform-specific UI and capabilities increased the value of direct SDK access.
 - [six engineers, twelve weeks](https://shopify.engineering/shop-app-migration) — Article · Topics: Cross-Platform & Web · Swift
   **NeKI brief:** Details how six engineers migrated Shopify's Shop app from React Native to Swift and Kotlin in twelve weeks, including AI-assisted translation, compatibility layers, staged rollout, and measurements used to manage risk.

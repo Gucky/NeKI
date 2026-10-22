@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Dependency injection, test seams, service composition, and dependency management.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **197**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **199**
 
 ## Direct-source reading
 
@@ -309,6 +309,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Testing Async Code in Swift: Stop Using Task.yield() in Your Tests](https://www.nsvasilev.com/posts/testing-swift-tasks-with-itaskfactory) — Those Who Swift · Issue 288 — Article · Topics: Concurrency · Dependency Injection · Testing
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Injects an ITaskFactory so tests can await unstructured tasks started by synchronous lifecycle APIs. Explains why yield and callback expectations can race, and limits the approach to work whose completion the factory can observe.
+- [InnoDI: Turning the Dependency Graph into a Verifiable Build Artifact](https://l.fatbobman.com/w0157-08) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: Architecture · Dependency Injection · Macros & Metaprogramming
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Provides macro-generated dependency containers with explicit wiring, local diagnostics, required build validation, and graph artifacts for cross-module checks. The README distinguishes stable releases from development APIs and explains why deferred dependencies still cannot form ownership cycles.
 - [Action Runner: An iOS Architecture for Isolating Business Logic](https://ivanthinking.net/2026/09/15/action-runner-ios-architecture) — Those Who Swift · Issue 284 — Article · Topics: Architecture · Dependency Injection · Objective-C & Cocoa
   **Published:** `2026-09-17T06:08:23.173Z`
   **NeKI brief:** Presents an Action and RunnableAction architecture that moves business logic out of SwiftUI views and oversized controllers, using a shared RunContext to make dependencies explicit and reduce circular coordination.

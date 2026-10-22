@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** visionOS, Apple Vision Pro, AR, VR, and spatial interaction.
 
-- Last collected: `2026-09-20T08:45:09Z`
+- Last collected: `2026-10-22T15:00:02Z`
 - Indexed links shown: **103**
 
 ## Direct-source reading
@@ -70,6 +70,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Bezel](https://nonstrict.eu/bezel) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games · Spatial Computing
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
 - [Object Tracking Updates in visionOS 27 and iOS 27](https://vision.engineer/posts/object-tracking-updates-in-visionOS-27-and-iOS-27) — Those Who Swift · Issue 284 — Article · Topics: Accessibility · Combine & Reactive Programming · Spatial Computing
   **Published:** `2026-09-17T06:08:23.173Z`
   **NeKI brief:** Tests iOS 27 and visionOS 27 object-tracking improvements through an open-source accessibility demo that combines iPhone capture with Vision Pro, documenting higher-frame-rate tracking and reduced earlier limitations.
@@ -127,9 +130,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [WebView Is Finally Coming to SwiftUI](https://danielsaidi.com/blog/2025/06/10/webview-is-finally-coming-to-swiftui) — Those Who Swift · Issue 219 — Article · Topics: Swift · Swift Package Manager · SwiftUI
   **Published:** `2025-06-19`
   **NeKI brief:** Discusses the emerging native SwiftUI web-view direction and its implications for replacing representable wrappers. Useful for migration planning, while verifying availability and behavior against the target SDK.
-- [Bezel for Mac](https://nonstrict.eu/bezel) — Those Who Swift · Issue 217 — Article · Topics: Spatial Computing
-  **Published:** `2025-06-18`
-  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
 - [What’s new for enterprise in visionOS 2](https://support.apple.com/en-us/121160) — Those Who Swift · Issue 195 — Article
   **Published:** `2025-06-18`
   **NeKI brief:** Reviews What’s new for enterprise in visionOS 2. Useful as a focused reference for evaluating the described workflow or technology, while validating current platform behavior and project-specific constraints against primary documentation.

@@ -4,7 +4,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Objective-C language/runtime, Cocoa and Foundation-era APIs, and historical Mac/iOS implementation techniques.
 
-- Last collected: `2026-10-02T13:43:36Z`
+- Last collected: `2026-10-22T14:58:25Z`
 - Indexed links shown: **1155**
 
 ## Direct-source reading

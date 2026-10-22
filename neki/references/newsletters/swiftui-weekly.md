@@ -3,8 +3,28 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://weekly.swiftwithmajid.com/archive](https://weekly.swiftwithmajid.com/archive)
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed entries: **215**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed entries: **216**
+
+## [SwiftUI Weekly - Issue #242](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-242)
+
+- Published: `2026-10-12T10:37:23.167Z`
+
+**Topics:** Architecture · Concurrency · Objective-C & Cocoa · Observation & State Management · Swift · SwiftUI
+
+**NeKI brief:** Follow SwiftUI state through ownership, actor isolation, lazy-container identity, and view-bound asynchronous work. Four articles and the InnoFlow repository offer complementary ways to reduce unnecessary updates and make business transitions easier to test.
+
+**Selected links:**
+- [Diagnosing ForEach performance issues in SwiftUI lazy containers](https://nilcoalescing.com/blog/DiagnosingForEachPerformanceIssuesInSwiftUILazyContainers) — Article · Topics: Performance · Swift · SwiftUI
+  **NeKI brief:** Shows how to enable SwiftUI's ForEach slow-path diagnostic, interpret variable-view-count warnings in List and lazy containers, and restructure conditional or multi-view row content so lazy reuse stays predictable.
+- [InnoFlow](https://github.com/InnoSquadCorp/InnoFlow) — Source repository · Topics: Architecture · Composable Architecture · Concurrency · Testing
+  **NeKI brief:** Documents a reducer-based Swift framework with optional macros, SwiftUI bindings, scoped effect lifetimes, and exhaustive TestStore assertions. Separates domain-state ownership from navigation and dependencies, and explains cooperative cancellation and bounded orchestration limits.
+- [SwiftUI state management best practices](https://salari.dev/writing/swiftui-state-management-best-practices) — Article · Topics: Architecture · Observation & State Management · SwiftUI
+  **NeKI brief:** Chooses SwiftUI state storage by source of truth, lifetime, mutation authority, and persistence. Shows how unnecessary bindings, duplicated derived values, and broad observable reads create bugs or excessive updates, with feature-model examples.
+- [How I Architect SwiftUI Apps for Swift Concurrency – So the Compiler Stays Quiet](https://www.swiftyplace.com/blog/swiftui-architecture-swift-concurrency) — Article · Topics: Architecture · Concurrency · SwiftUI
+  **NeKI brief:** Organizes SwiftUI architecture around state ownership: main-actor UI stores, independent actors for shared non-UI state, and stateless concurrent services. Sendable DTOs define the crossings, with default actor isolation settings made explicit.
+- [SwiftUI .task vs .onAppear - Async Work Done Right](https://www.sagarunagar.com/blog/swiftui-task-vs-onappear) — Article · Topics: Concurrency · SwiftUI
+  **NeKI brief:** Replaces manually tracked onAppear tasks with task(id:) for view-owned loading and debounced search. Covers cooperative cancellation, changing request inputs, repeat appearances, and work whose lifetime must belong to a model instead.
 
 ## [SwiftUI Weekly - Issue #241](https://weekly.swiftwithmajid.com/p/swiftui-weekly-issue-241)
 

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Developer conferences, publications, courses, podcasts, membership, sponsorship, and community business news.
 
-- Last collected: `2026-10-02T23:36:48Z`
-- Indexed links shown: **685**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **697**
 
 ## Direct-source reading
 
@@ -141,6 +141,42 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Who Is the Real Threat to AI-Relay Apps?](https://fatbobman.com/en/weekly/issue-158) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Developer Community & Business
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Questions the defensibility of apps built mainly from prompts, a polished interface, and third-party cloud models. Argues that general-purpose agents and model providers can absorb their value, then links current Apple-platform implementation reading.
+- [Swift Weekly #158](https://fatbobman.com/en/weekly/issue-158?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: AI Development · Developer Community & Business
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Questions the defensibility of apps built mainly from prompts, a polished interface, and third-party cloud models. Argues that general-purpose agents and model providers can absorb their value, then links current Apple-platform implementation reading.
+- [ImplementedSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
+- [ImplementedSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
+- [Swift Weekly #157](https://fatbobman.com/en/weekly/issue-157?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Concurrency · Developer Community & Business
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Lower cloning costs change the risks of sharing unfinished indie products. The issue pairs that discussion with work ownership beyond task lifetime, calendar performance, localized screenshot verification, and tools that expose verifiable dependency and UI feedback.
+- [Why big companies are bad platform citizens](https://www.scottberrevoets.com/2026/10/05/why-big-companies-are-bad-platform-citizens) — Those Who Swift · Issue 288 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Uses Lyft’s platform integrations to explain why large service businesses delay native OS features. Low usage, upkeep, planning cycles, and incentives around engagement can outweigh the platform polish valued by smaller developers.
+- [https://www.var-meta.com/blog/app-store-product-page-optimization](https://www.var-meta.com/blog/app-store-product-page-optimization) — Those Who Swift · Devs for Devs: What I Learned Building and Shipping My First Two iOS Apps — Article · Topics: App Distribution & Store Operations · Developer Community & Business · Product Design
+  **Published:** `2026-10-12T20:05:42.974Z`
+  **NeKI brief:** Separates App Store discoverability from product-page conversion, then compares randomized treatments, audience-specific pages, and creative assets. Suggests baselines and single-hypothesis tests while identifying metrics needed to judge retention beyond downloads.
+- [Why big companies are bad platform citizens](https://scottberrevoets.com/2026/10/05/why-big-companies-are-bad-platform-citizens) — iOS Dev Weekly · Issue 771 — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **Published:** `9th October 2026`
+  **NeKI brief:** Uses Lyft’s platform integrations to explain why large service businesses delay native OS features. Low usage, upkeep, planning cycles, and incentives around engagement can outweigh the platform polish valued by smaller developers.
+- [Swift Server Has Another Google](https://fatbobman.com/en/weekly/issue-156) — Those Who Swift · Issue 287 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Uses Google Cloud’s server-side Swift SDK to assess ecosystem maturity without assuming a large vendor guarantees longevity. Distinguishes server workloads from mobile Firebase, then routes to concurrency, SwiftUI, accessibility, and agent-workflow articles.
+- [Building An Indie App Business](https://sebastianroehl.substack.com/p/building-an-indie-app-business-115) — Those Who Swift · Issue 287 — Article · Topics: Developer Community & Business · Persistence & Synchronisation
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Describes pausing HabitKit's weekly releases to realign iOS and Android, adding automatic iCloud backups to a local-only app, and removing an unmaintained database dependency. Useful for evaluating release cadence against data-loss and maintenance risks.
+- [10k MRR in the most boring way possible](https://www.swiftjectivec.com/10k-MRR-in-the-Most-Boring-Way-Possible?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Developer Community & Business
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Reflects on Elite Hoops reaching $10,000 in monthly recurring revenue after three years of iteration. Argues for validating a paid pain point and sustaining small product improvements while resisting comparison, copycats, and unnecessary embellishment.
+- [10k MRR in the Most Boring Way Possible](https://www.swiftjectivec.com/10k-mrr-in-the-most-boring-way-possible) — SwiftLee Weekly · Issue 344 — Article · Topics: Developer Community & Business
+  **Published:** `2026-10-06T14:07:47.000Z`
+  **NeKI brief:** Reflects on Elite Hoops reaching $10,000 in monthly recurring revenue after three years of iteration. Argues for validating a paid pain point and sustaining small product improvements while resisting comparison, copycats, and unnecessary embellishment.
 - [How To Write With An LLM](https://go.peterfriese.dev/ai-how-to-write-with-an-llm?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: AI Development · Developer Community & Business
   **Published:** `2026-10-02`
   **NeKI brief:** Proposes writing the first draft yourself and using an LLM for critique and copyediting. Useful as an editorial workflow for preserving author voice while catching structural and clarity problems.

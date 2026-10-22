@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Observation, bindings, view state, data flow, and state-management trade-offs.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **239**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **241**
 
 ## Direct-source reading
 
@@ -462,6 +462,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [When to Use a View Model in SwiftUI (and When It's Overkill)](https://www.swiftyplace.com/blog/mvvm-view-model-use-case) — Those Who Swift · Issue 289 — Article · Topics: Architecture · Observation & State Management · SwiftUI
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Weighs SwiftUI view models against their maintenance cost using concrete screens. A theme editor earns a shared store through coordinated mutations, persistence, and lifetime, while static content does not justify another layer.
+- [SwiftUI state management best practices](https://salari.dev/writing/swiftui-state-management-best-practices) — SwiftUI Weekly · SwiftUI Weekly - Issue #242 — Article · Topics: Architecture · Observation & State Management · SwiftUI
+  **Published:** `2026-10-12T10:37:23.167Z`
+  **NeKI brief:** Chooses SwiftUI state storage by source of truth, lifetime, mutation authority, and persistence. Shows how unnecessary bindings, duplicated derived values, and broad observable reads create bugs or excessive updates, with feature-model examples.
 - [Abstracting SwiftUI state with scopes](https://l.fatbobman.com/w0153-06) — Fatbobman’s Swift Weekly · Issue 153 — Article · Topics: Observation & State Management · Swift · SwiftUI
   **Published:** `2026-09-14T12:04:34.663Z`
   **NeKI brief:** Develops a scoped approach to SwiftUI state that combines local values, environment dependencies, and observable models while remaining controllable from previews, navigation flows, and external callers.

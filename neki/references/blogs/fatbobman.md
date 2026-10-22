@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://fatbobman.com/en/posts/](https://fatbobman.com/en/posts/)
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed entries: **239**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed entries: **240**
 
+- [AI-Friendly Frameworks - As Abstraction Moves Up, How Can Verification Keep Pace?](https://fatbobman.com/en/posts/ai-friendly-framework)
+  **Published:** `2026-10-07T14:00:00.000Z`
+  **Topics:** AI Development · Architecture · Code Quality · SwiftUI
+  **NeKI brief:** Evaluates framework suitability for coding agents through observable behavior and deterministic verification rather than abstraction level alone. Uses SwiftUI transform measurements, SwiftFairy checks, and InnoDI graph validation to illustrate stronger feedback loops.
 - [Letting AI See SwiftUI - Xcode Preview MCP in Practice — Pitfalls and Hopes](https://fatbobman.com/en/posts/letting-ai-see-swiftui)
   **Published:** `2026-09-30T14:00:00.000Z`
   **Topics:** AI Development · Developer Tools · SwiftUI · Xcode

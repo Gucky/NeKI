@@ -4,11 +4,17 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Git, command-line work, debugging, automation, and practical developer workflows.
 
-- Last collected: `2026-10-05T06:41:52Z`
-- Indexed links shown: **2521**
+- Last collected: `2026-10-22T15:00:02Z`
+- Indexed links shown: **2567**
 
 ## Direct-source reading
 
+- [Agentic iOS Development with RocketSim and RocketTrace](https://www.avanderlee.com/ai-development/agentic-ios-development-rocketsim-rockettrace) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-10-12T15:51:12+00:00`
+  **NeKI brief:** Shows four agent workflows combining simulator interaction, accessibility audits, analytics, screenshot tooling, and performance traces. Emphasizes reviewing evidence before edits and records cases where incomplete attribution or missing post-change measurements leave performance conclusions open.
+- [Introducing RocketTrace: Using Xcode Instruments with AI Agents - SwiftLee](https://www.avanderlee.com/ai-development/introducing-rockettrace-using-xcode-instruments-with-ai-agents) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-10-05T07:58:25+00:00`
+  **NeKI brief:** Demonstrates recording and querying Instruments analyses through RocketTrace's CLI, from compact triage to individual findings. Explains local processing, repeat-run comparisons, and a vendor benchmark whose limited trace coverage and agent reading choices constrain its conclusions.
 - [Letting AI See SwiftUI - Xcode Preview MCP in Practice — Pitfalls and Hopes](https://fatbobman.com/en/posts/letting-ai-see-swiftui) — Fatbobman · article catalogue
   **Published:** `2026-09-30T14:00:00.000Z`
   **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
@@ -120,6 +126,153 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Swift 6.4 Support and the Move to Swift Build](https://swiftpackageindex.com/blog/swift-6-4-support-and-the-move-to-swift-build) — Those Who Swift · Issue 289 — Article · Topics: CI/CD & Automation · Developer Tools · Swift Package Manager
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Explains how SwiftPM’s switch to Swift Build affects Package Index compatibility checks. Shows how to isolate regressions with the native build system and obtain relocated artifacts through --show-bin-path.
+- [Failures that don't crash never reach you](https://en.kou-works.jp/blog/copy-details-button) — Those Who Swift · Issue 289 — Article · Topics: Code Quality · Developer Tools · Security & Privacy
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Uses an on-device Copy Details report to recover handled import, analysis, and export failures. Centralized error recording and redaction preserve diagnostic chains while removing file paths, filenames, and absolute uptime.
+- [How to stream iOS simulator logs to your AI coding agent](https://flowdeck.studio/blog/log-streaming) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Compares ways to expose simulator logs to coding agents, focusing on process scoping, startup timing, and structured output. The FlowDeck author demonstrates his CLI workflow, so assess the tool comparison with that vendor context.
+- [Claude Code for iOS development](https://roland.leth.ro/blog/tech/claude-code-for-ios-development) — Those Who Swift · Issue 289 — Article · Topics: AI Development · Developer Tools · Testing
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Introduces an iOS-specific Claude Code series covering simulator failures, tests with independent expectations, and generated App Store media. The author separates agent reports from observable results across three personal apps.
+- [Xcode Projects for the Command Line and Coding Agents](https://artemnovichkov.com/blog/xcode-projects-for-the-command-line-and-coding-agents) — SwiftLee Weekly · Issue 346 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Demonstrates Apple's xcodeproj and xcprojformatter command-line tools for JSON-format projects, covering targets, synchronized groups, packages, build settings, and xcconfig files. Distinguishes raw project values from resolved settings and warns about the CocoaPods command-name collision.
+- [ImplementedSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
+- [ImplementedSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
+- [iPhone Use: Let AI Assistants Control a Real iPhone over USB](https://l.fatbobman.com/w0158-07) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Exposes WebDriverAgent-based iPhone control over USB through a local MCP service and live screen widget. The README explains signing prerequisites, connection reuse, compact observations, screenshot fallback, and safeguards against replaying uncertain actions.
+- [🎨 Give your Debug builds a blueprint app icon](https://github.com/MustafaNatur/blueprint) — iOS CI Newsletter · Issue 95 — Source repository · Topics: CI/CD & Automation · Developer Tools · Xcode
+  **Published:** `2026-10-18T00:00:00.000Z`
+  **NeKI brief:** Documents a command-line tool that converts Icon Composer files or asset-catalog icons into blueprint-style debug variants. Covers environment badges, Xcode build-configuration selection, and Vision-based tracing for flat icons while preserving source assets.
+- [Anthropic shared why it replaced Git in its monorepo with Scion](https://www.anthropic.com/engineering/redesigning-source-control) — iOS Dev Weekly · Issue 772 — Article · Topics: AI Development · CI/CD & Automation · Developer Tools
+  **Published:** `16th October 2026`
+  **NeKI brief:** Explains Scion’s centralized source-control design for agent-heavy monorepos: server-side history operations, immutable changesets, sparse checkouts, and tiered caches. Useful for assessing scaling trade-offs while retaining the article’s narrow workload assumptions.
+- [fastlane badge plugin](https://github.com/HazAT/fastlane-plugin-badge) — iOS Dev Weekly · Issue 772 — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `16th October 2026`
+  **NeKI brief:** Packages the badge utility as a fastlane plugin and documents installation, an example Fastfile, and its test workflow. Follow it to integrate icon badging into an existing fastlane release pipeline.
+- [Swift Evolution: Three Decisions on October 8 (accepted, not yet shipped)](https://forums.swift.org/t/se-0553-task-identity/89728?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Concurrency · Developer Tools · Swift
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Collects Swift Evolution review of task identity and questions about observable task IDs across concurrency helpers. Useful for understanding debugging motivation and potential semantic constraints before adoption.
+- [SwiftUI Profiling with Instruments: 100,000 Calendar Events](https://horacal.app/blog/swiftui-performance-profiling-instruments) — Those Who Swift · Issue 288 — Article · Topics: Developer Tools · Performance · SwiftUI
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Profiles a calendar backed by 100,000 stored events to separate database costs from repeated SwiftUI graph work. Describes snapshot preparation, viewport reduction, cache changes, and removing hover effects while distinguishing diagnostics from controlled benchmarks.
+- [Where did my disk go? Xcode, worktrees and AI agents](https://skarol.dev/posts/where-did-my-disk-go) — Those Who Swift · Issue 288 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Diagnoses misleading Xcode failures caused by disk exhaustion in parallel agent worktrees. Distinguishes APFS clone accounting from actual free space, then ties DerivedData, test-product, and simulator cleanup to worktree ownership.
+- [App Store Review Exporter](https://slideeasy.app/app-store-review-exporter) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Exports an app’s newest country-specific reviews from Apple’s public feed into filterable tables and CSV. Documents the 200-review limit, cache freshness, omitted reviewer names, and spreadsheet-formula escaping for shared exports.
+- [slideeasy.app/blog/export-app-store-reviews](http://slideeasy.app/blog/export-app-store-reviews) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Compares App Store Connect, the public reviews feed, and the authenticated API for exporting feedback. Provides Python pagination examples and explains storefront separation, missing pages, recency limits, and the API snippet’s untested status.
+- [Shotnix](https://shotnix.com/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Developer Tools · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Combines local screenshot capture with screen recording, click-based zooms, and transcript editing. Useful for preparing app demos while keeping narration transcription, separate audio tracks, captions, and media export on the Mac.
+- [Rtrvr](https://rtrvr.ai/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Offers browser automation through an extension, cloud execution, API, MCP, and command-line interfaces. Follow it for web-to-dataset and form-completion workflows, comparing local signed-in browser access with hosted execution.
+- [Sundown](https://trysundown.com/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Provides scheduled display-warmth presets, color-curve dimming, and an optional anti-dithering mode from a macOS menu-bar app. Follow it to compare display-control workflows and platform support rather than infer health outcomes.
+- [Winq](https://winq.kroking.dev/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Accessibility · Developer Tools · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Uses AVFoundation and Vision face landmarks for gaze-based focus, wink clicks, scrolling, and per-app shortcuts. Documents calibration, coarse rather than pixel-level targeting, on-device processing, and required Camera and Accessibility permissions.
+- [TrellisWM](https://trelliswm.app/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Arranges macOS windows into nested spaces with zooming, tab groups, saved views, and URL commands. Explains Accessibility-based window control, optional ScreenCaptureKit previews, per-display layouts, and restoration when the app quits.
+- [Homy](https://tryhomy.app/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Provides natural-language file filters, screenshot OCR, and duplicate discovery in a native SwiftUI file browser. Explains local Vision processing, SHA-256 matching, download-source grouping, and reversible cleanup that skips cloud-only files.
+- [Accessibility Audits done by your agent](https://www.rocketsim.app/blog/accessibility-audit-ios-simulator) — SwiftLee Weekly · Issue 345 — Article · Topics: Accessibility · AI Development · Developer Tools
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Walks through RocketSim's Simulator accessibility audit in its UI and CLI, including grouped findings and an agent-driven fix-and-recheck loop. Explains heuristic contrast checks, stale results, frame comparisons, and checks that still require manual VoiceOver testing.
+- [AcceptedSE-0551`Span` over a single value](https://github.com/apple/swift-evolution/blob/main/proposals/0551-span-of-one.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes borrowing a single value as Span or MutableSpan, with raw-byte variants, without copying into CollectionOfOne. Useful when adapting values to span-taking APIs, including noncopyable values.
+- [AcceptedSE-0552Rounding of `Float.pi`](https://github.com/apple/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Developer Tools · Swift
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes allowing FloatingPoint.pi to use nearest rounding instead of always rounding toward zero, with a corresponding Float.pi change. Useful for reviewing numerical-compatibility effects before the language decision is final.
+- [AcceptedSE-0553Task Identity](https://github.com/apple/swift-evolution/blob/main/proposals/0553-task-identity.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Developer Tools · Performance · Swift
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes a cheap process-unique Task.ID for tracing, structured logs, and profilers across suspension points. Useful for evaluating always-on task attribution without relying on pointer identity or expensive closure-based inspection.
+- [Stop Guessing Why Your iOS App Is Slow](https://www.youtube.com/watch?v=cDtgTlDeev0&t=664s) — SwiftLee Weekly · Issue 345 — Video · Topics: AI Development · Developer Tools · Performance
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Introduces RocketTrace as a way to inspect Instruments traces and work with coding agents. Chapter markers cover symbols and profile builds, simulator-versus-device measurements, signpost focus, and applying suggested fixes.
+- [AnnotateIt: Closing the Loop from Annotation to Create ML Training on Mac](https://l.fatbobman.com/w0157-07) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Walks from reviewed bounding-box annotations through local Create ML detector training to predictions on new images or video. Explains image-only training datasets, preserved splits, validation checks, and the distinction between detector training and video inference.
+- [SimAgentation: Annotate the iOS Simulator in Your Browser and Hand the Work to AI](https://l.fatbobman.com/w0157-09) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: AI Development · Developer Tools · Testing
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Connects browser annotations on a simulator to coding agents using accessibility elements, screenshots, and MCP tools. An optional SDK adds source locations; private Xcode frameworks and inaccessible custom drawing define important integration limits.
+- [OpenDeviceHub and SimParcel](https://github.com/Mastersam07/OpenDeviceHub) — iOS Dev Weekly · Issue 771 — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `9th October 2026`
+  **NeKI brief:** Documents an alternative iOS Simulator window manager with per-device windows, familiar shortcuts, scaling, drag-and-drop, and an automation CLI. Explains coexistence with Xcode Device Hub and discloses accessibility, platform, and private-framework limitations.
+- [SimParcel](https://github.com/vadimkatenin/SimParcel) — iOS Dev Weekly · Issue 771 — Source repository · Topics: Developer Tools · Testing · Xcode
+  **Published:** `9th October 2026`
+  **NeKI brief:** Restores drag-and-drop imports into iOS simulators through a macOS app wrapping simctl. Covers media, Live Photos, contacts, app builds, push payloads, links, and Files imports, with multi-device delivery, retry queues, and Canvas-device constraints.
+- [Baguette](https://github.com/tddworks/baguette) — iOS Dev Weekly · Issue 771 — Source repository · Topics: Developer Tools · Testing
+  **Published:** `9th October 2026`
+  **NeKI brief:** Provides headless Apple Simulator control with streaming, 3D models, touch and multi-finger input, and multi-device operation. Review host permissions and protocol stability before using it in automated test infrastructure.
+- [AppGuidelines](https://appstoreguidelines.com/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Tools
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Tracks Apple developer-document changes with dated versions, full-text diffs, and an Atom feed. Useful for locating exactly which review-guideline, agreement, or design-guidance wording changed before consulting the original Apple document.
+- [AI Icon Creator](https://aiiconcreator.com/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: AI Development · Developer Tools · Product Design
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Generates app icons in curated styles, supports localized edits, and exports platform-specific size packs. Documents account and credit requirements plus limitations of AI-redrawn PSD layers, helping assess an icon-production workflow before paying.
+- [Bezel](https://nonstrict.eu/bezel) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games · Spatial Computing
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
+- [Liquid Inference](https://liquidinference.ai/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Routes inference requests to the lowest-priced provider that meets selected model, region, speed, and quality constraints. Documents capped token-price offers, independent benchmarks, itemized billing, and API-compatible access for coding-agent workflows.
+- [Hallmonitor](https://github.com/hiteshbandhu/hallmonitor) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Shows coding-agent sessions, approval needs, activity, and usage across a terminal board and macOS menu bar. Documents local metadata reading, remote SSH monitoring, stale-limit indicators, and optional hook-based replies from the notch.
+- [Vision Radar](https://radar.annotateit.ai/news/apple-create-ml-training-on-mac) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Walks from reviewed bounding-box annotations through local Create ML detector training to predictions on new images or video. Explains image-only training datasets, preserved splits, validation checks, and the distinction between detector training and video inference.
+- [Hoardware](https://apps.apple.com/us/app/hoardware-device-collection/id6806893785) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: Developer Tools · Hardware & Devices
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Catalogues Apple hardware with AppleDB model and firmware information, software-version coverage, custom fields, and iCloud synchronization. Useful for organizing a device collection and exporting its inventory as text, JSON, PDF, or images.
+- [CoolDock](https://cooldock.app/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Adds a second macOS Dock containing live widgets, app shortcuts, system controls, and developer-service integrations. Explains per-widget permissions and customization options for keeping project status and everyday utilities accessible beside the system Dock.
+- [BuildNotch](https://www.buildnotch.app/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Provides a Windows-only desktop notch for project tasks, focus timers, clipboard history, GitHub activity, and AI-tool shortcuts. The page describes x64 system requirements and the unsigned installer, making the platform boundary explicit.
+- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — Those Who Swift · Issue 287 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
+- [Optimizing Claude Code's Xcode build token usage](https://danielsaidi.com/blog/2026/09/30/optimizing-claude-code-s-xcode-build-token-usage) — Those Who Swift · Issue 287 — Article · Topics: AI Development · Developer Tools · Xcode
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Provides a Claude Code PreToolUse hook that routes simple Xcode and Swift build commands through xcsift. Guards against unsafe command rewrites and retains pipefail so compressed output does not hide build failures.
+- [Swift scripts for Xcode and Xcode Cloud](https://appforce1.net/blog/swift-scripting-in-xcode) — Those Who Swift · Issue 287 — Article · Topics: CI/CD & Automation · Developer Tools · Xcode
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Moves release notes, icon preparation, and translation checks into repository-owned Swift scripts invoked by thin shell wrappers. Covers Xcode Cloud hook paths, host-tool SDK selection, and reusing the same automation locally.
+- [Configuring Bazel Module Extensions with tag_class](https://adincebic.com/2026/10/04/configuring-bazel-module-extensions-with.html) — Those Who Swift · Issue 287 — Article · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Builds a Bazel module extension whose tag_class accepts binary URLs and checksums from MODULE.bazel. Traces those tags through module evaluation into a repository rule that downloads and exports the configured file.
+- [Xcode MCP: When Your Agent's Preview Lies to It (Xcode 27)](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
+- [SwiftUI Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) — SwiftLee Weekly · Issue 344 — Source repository · Topics: Developer Tools · Swift · SwiftUI
+  **Published:** `2026-10-06T14:07:47.000Z`
+  **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
+- [How to reduce token usage in Claude Code, Codex, and Cursor](https://l.fatbobman.com/w0156-04) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: AI Development · Developer Tools
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Analyzes agent session traces to identify repeated context and costly tool patterns, then applies concise operating rules and a hook to reduce token use. Useful for measuring agent workflow changes rather than guessing from a single prompt.
+- [Argent: Let AI Coding Assistants Participate in App Runtime and Verification](https://l.fatbobman.com/w0156-09) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: AI Development · Developer Tools · Testing
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Provides agent-driven simulator and device interaction, deterministic replay, visual comparisons, runtime inspection, and native profiling. The repository describes platform coverage and identifies opt-out telemetry and proprietary helper binaries alongside Apache-licensed source.
 - [Letting AI See SwiftUI: Xcode Preview MCP in Practice](https://fatbobman.com/en/posts/letting-ai-see-swiftui?ref=createwithswift.com) — Create with Swift · Issue 122 — Article · Topics: AI Development · Developer Tools · SwiftUI · Xcode
   **Published:** `2026-10-03T10:58:55.000Z`
   **NeKI brief:** Tests Xcode's Preview rendering through MCP in an agent workflow and identifies stale screenshots and preview-device mismatches. Source fingerprinting is proposed to make visual feedback traceable to the code the agent actually edited.
@@ -129,9 +282,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Facebook iOS SDK remote configuration outage](https://github.com/facebook/facebook-ios-sdk/issues/1427) — iOS Dev Weekly · Issue 770 — Source repository · Topics: Developer Tools
   **Published:** `2nd October 2026`
   **NeKI brief:** Records the July 2020 Facebook iOS SDK startup crash in FBSDKRestrictiveDataFilterManager, with production crash counts and the affected SDK version. Useful as a concrete precedent for remotely triggered third-party SDK failures.
-- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — iOS Dev Weekly · Issue 770 — Article · Topics: AI Development · Developer Tools · Xcode
-  **Published:** `2nd October 2026`
-  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
 - [Apple Human Interface Guidelines for Agents](https://go.peterfriese.dev/swiftui-hig-agent-skills?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: AI Development · Developer Tools · Product Design
   **Published:** `2026-10-02`
   **NeKI brief:** Packages selected Apple HIG material into agent-readable references and a Duo adaptation workflow. Useful for inspecting its source mapping and update process before allowing generated interface advice to guide implementation.
@@ -165,15 +315,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0546Same-file memberwise initializer extensions](https://github.com/apple/swift-evolution/blob/main/proposals/0546-memberwise-init-extensions.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
   **Published:** `2026-09-29T14:08:15.000Z`
   **NeKI brief:** Specifies SE-0546, which permits a same-file extension to declare a memberwise initializer with broader access. It defines the matching rules and explains how an explicit initializer interacts with synthesis, helping library authors expose stable construction APIs without changing ABI behavior.
-- [Active ReviewSE-0551`Span` over a single value](https://github.com/apple/swift-evolution/blob/main/proposals/0551-span-of-one.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
-  **Published:** `2026-09-29T14:08:15.000Z`
-  **NeKI brief:** Proposes borrowing a single value as Span or MutableSpan, with raw-byte variants, without copying into CollectionOfOne. Useful when adapting values to span-taking APIs, including noncopyable values.
-- [Active ReviewSE-0552Rounding of `Float.pi`](https://github.com/apple/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
-  **Published:** `2026-09-29T14:08:15.000Z`
-  **NeKI brief:** Proposes allowing FloatingPoint.pi to use nearest rounding instead of always rounding toward zero, with a corresponding Float.pi change. Useful for reviewing numerical-compatibility effects before the language decision is final.
-- [Active ReviewSE-0553Task Identity](https://github.com/apple/swift-evolution/blob/main/proposals/0553-task-identity.md) — SwiftLee Weekly · Issue 343 — Source repository · Topics: AI Development · Developer Tools · Swift
-  **Published:** `2026-09-29T14:08:15.000Z`
-  **NeKI brief:** Proposes a cheap process-unique Task.ID for tracing, structured logs, and profilers across suspension points. Useful for evaluating always-on task attribution without relying on pointer identity or expensive closure-based inspection.
 - [tried](https://github.com/Alex-Ozun/swift-effect) — iOS Dev Weekly · Issue 769 — Source repository · Topics: Developer Tools · Swift · Testing
   **Published:** `25th September 2026`
   **NeKI brief:** Swift Effect models I/O and other side effects behind effect handlers so behavior can be replaced in tests without restructuring the whole app. Useful for evaluating explicit effect control in concurrent code.
@@ -285,9 +426,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, and macOS.](https://github.com/xtool-org/xtool) — iOS Dev Weekly · Issue 766 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Product Design
   **Published:** `4th September 2026`
   **NeKI brief:** Builds and deploys iOS applications through SwiftPM on macOS, Linux, and Windows as an alternative toolchain path. Evaluate signing, SDK provenance, debugging, and App Store workflow coverage before adoption.
-- [Baguette](https://github.com/tddworks/baguette) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Source repository · Topics: Developer Tools
-  **Published:** `2026-09-03T17:14:44.570Z`
-  **NeKI brief:** Provides headless Apple Simulator control with streaming, 3D models, touch and multi-finger input, and multi-device operation. Review host permissions and protocol stability before using it in automated test infrastructure.
 - [SwiftMocking](https://github.com/DanielCardonaRojas/swift-mocking) — iOS Dev Tools · iOS Dev Tools: Baguette, SwiftMocking, Toplify — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-09-03T17:14:44.570Z`
   **NeKI brief:** Implements a compact Swift mocking library with macros and parameter packs to generate test doubles. Evaluate macro diagnostics, concurrency behavior, and API coverage before replacing hand-written fakes.
@@ -309,9 +447,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0544Mutation and consumption in non-`Copyable` type `deinit`s](https://github.com/apple/swift-evolution/blob/main/proposals/0544-mutate-or-consume-in-deinit.md) — SwiftLee Weekly · Issue 339 — Source repository · Topics: Developer Tools · Swift
   **Published:** `2026-09-01T14:08:57.000Z`
   **NeKI brief:** Allows a noncopyable type's deinit to mutate or consume stored fields for resource cleanup while still forbidding mutation or consumption of self as a whole, avoiding resurrection and recursive destruction hazards.
-- [Active ReviewSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — SwiftLee Weekly · Issue 339 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
-  **Published:** `2026-09-01T14:08:57.000Z`
-  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
 - [Building an accessible calendar chart with Swift Charts](https://l.fatbobman.com/w0151-04) — Fatbobman’s Swift Weekly · Issue 151 — Article · Topics: Accessibility · Developer Tools · Swift
   **Published:** `2026-08-31T12:01:53.025Z`
   **NeKI brief:** Builds a calendar-style Swift Charts visualization with attention to accessible representation of repeated weekdays and chart data. Use it when visual density must remain understandable to assistive technologies.
@@ -375,9 +510,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AcceptedSE-0537Section Placement Control for Functions](https://github.com/apple/swift-evolution/blob/main/proposals/0537-function-sections.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Swift · SwiftUI
   **Published:** `2026-08-18T14:06:21.000Z`
   **NeKI brief:** Extends Swift's section placement attribute from stored data to functions, initializers, deinitializers, closures, and accessors, while adding a default-section override. The motivation is precise linker placement for firmware entry points and embedded startup code.
-- [Active ReviewSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Performance · Swift
-  **Published:** `2026-08-18T14:06:21.000Z`
-  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
 - [Simple Simulator Manager](https://github.com/Heckscheibe/SimpleSimulatorManager) — iOS Dev Tools · iOS Dev Tools: Simple Simulator Manager, StoreSync, JsonXmlEditor — Source repository · Topics: Developer Tools · macOS & AppKit
   **Published:** `2026-08-13T16:30:38.104Z`
   **NeKI brief:** Provides a macOS menu-bar route to simulator app containers, bundles, Documents, UserDefaults, and App Groups, plus cleanup of unavailable runtimes. It removes repeated CoreSimulator UUID hunting from inspection and disk-maintenance workflows.
@@ -771,9 +903,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Rilmazafone](https://github.com/kageroumado/rilmazafone) — iOS Dev Weekly · Issue 749 — Source repository · Topics: Developer Tools · Product Design
   **Published:** `1st May 2026`
   **NeKI brief:** Remember when apps used to come with meticulously designed DMG backgrounds that included the branding, colour scheme, and the ever-so-gentle hints that you should drag the app icon into your Applications folder? Well, that era doesn’t need to be over if you…
-- [Recording & Analyzing SwiftUI Instruments Traces](https://github.com/AvdLee/SwiftUI-Agent-Skill) — SwiftLee Weekly · Issue 321 — Source repository · Topics: Performance · Swift · SwiftUI
-  **Published:** `2026-04-28T14:07:22.000Z`
-  **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.
 - [AcceptedSE-0511SwiftPM Add Target Plugin Command](https://github.com/apple/swift-evolution/blob/main/proposals/0511-swiftpm-add-target-plugin.md) — SwiftLee Weekly · Issue 321 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-04-28T14:07:22.000Z`
   **NeKI brief:** Provides the linked Swift or Apple-platform source repository for AcceptedSE-0511SwiftPM Add Target Plugin Command. Use it to inspect proposal details, implementation code, or release changes directly, while checking compatibility and maintenance status before adopting it.
@@ -7353,6 +7482,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Xcode Snippet Management](https://github.com/lukeredpath/xcodesnippets) — iOS Dev Weekly · Issue 1 — Source repository · Topics: Developer Career & Practice · Developer Tools · Xcode
   **Published:** `5th August 2011`
   **NeKI brief:** Examines A command-line utility for managing Xcode 4 code snippets - lukeredpath/xcodesnippets. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Google Analytics for Firebase iOS SDK outage on September 28, 2026](https://go.peterfriese.dev/firebase-analytics-ios-sdk-outage?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Code Quality · Developer Tools · Networking
+  **NeKI brief:** Explains how deleting a Firebase Analytics configuration flag triggered iOS crashes, why delayed uploads prolonged crash reporting, and what rollback achieved. Outlines planned payload validation, dependency checks, phased rollouts, and client-side incident visibility improvements.
+- [GitHub issue #16728](https://go.peterfriese.dev/firebase-ios-sdk-issue-16728?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Code Quality · Developer Tools · Networking
+  **NeKI brief:** Tracks a production Firebase Analytics crash after an sdk-exp response, including timestamps, affected apps, and the resolution discussion. Useful as primary incident evidence when evaluating remote configuration and SDK dependency risk.
+- [Blueprint icons for your apps](https://go.peterfriese.dev/tools-blueprint-debug-icons?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Developer Tools · Graphics, Media & Games
+  **NeKI brief:** Documents a command-line tool that converts Icon Composer files or asset-catalog icons into blueprint-style debug variants. Covers environment badges, Xcode build-configuration selection, and Vision-based tracing for flat icons while preserving source assets.
 - [Corner Concentricity in SwiftUI on iOS 26](https://go.peterfriese.dev/swiftui-concentric-rectangle?s=web&t=ext) — Not only Swift · Issue 104 — Article · Topics: Developer Tools · Swift · SwiftUI
   **NeKI brief:** Demonstrates iOS 26 ConcentricRectangle and containerShape for aligning nested SwiftUI corners with their container. Check availability and visual results across sizes before replacing explicit radii.
 - [Paul Hudson’s Swift and SwiftUI skills](https://github.com/twostraws/swiftui-agent-skill) — Not only Swift · Issue 98 — Source repository · Topics: Developer Tools · Swift · SwiftUI

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Cross-platform, Android, Flutter, web, and interoperability work adjacent to Apple-platform development.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **681**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **689**
 
 ## Direct-source reading
 
@@ -111,6 +111,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Shopify’s move back to native](https://shopify.engineering/back-to-native) — iOS Dev Weekly · Issue 772 — Article · Topics: AI Development · Cross-Platform & Web · Swift
+  **Published:** `16th October 2026`
+  **NeKI brief:** Explains why Shopify is moving its mobile apps from React Native back to Swift and Kotlin: coding agents changed native-development economics while platform-specific UI and capabilities increased the value of direct SDK access.
+- [ResortPass](https://www.resortpass.com/engineering/articles/why-resortpass-chose-a-native-ios-app) — iOS Dev Weekly · Issue 772 — Article · Topics: AI Development · Architecture · Cross-Platform & Web · SwiftUI
+  **Published:** `16th October 2026`
+  **NeKI brief:** Explains ResortPass’s Flutter-to-SwiftUI migration through platform behavior, SDK access, and hiring trade-offs. Describes a functionality-preserving rebuild, small modules, and automated architectural checks around coding agents while Android remains on Flutter.
+- [September Swift digest](https://www.swift.org/blog/whats-new-in-swift-september-2026?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Cross-Platform & Web · Swift · Swift Package Manager
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Routes September’s Swift news through Swift 6.4, the Vapor 5 beta, server-side packages, and active Evolution proposals. Useful for locating the original release notes and understanding which language changes remain under review.
+- [What's new in Swift: September 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-september-2026) — Those Who Swift · Issue 288 — Article · Topics: Cross-Platform & Web · Swift · Swift Package Manager
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Routes September’s Swift news through Swift 6.4, the Vapor 5 beta, server-side packages, and active Evolution proposals. Useful for locating the original release notes and understanding which language changes remain under review.
+- [SwiftUIComponents](https://github.com/shial4/SwiftUIComponents) — Fatbobman’s Swift Weekly · Issue 157 — Source repository · Topics: Cross-Platform & Web · SwiftUI
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Provides caller-owned SwiftUI components, including a calendar with range selection, custom day builders, event dots, and calendar-aware date generation. The repository includes runnable Apple and Android examples and documents Skip Fuse compatibility boundaries.
+- [Skip Fuse](https://skip.dev/docs/modules/skip-fuse-ui) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: Cross-Platform & Web · SwiftUI
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Explains how native Swift views bridge through JNI into SkipUI and Jetpack Compose. Documents state synchronization, retained Android composition boundaries, and specific API limitations, helping assess which shared SwiftUI interfaces require platform-specific treatment.
+- [BuildNotch](https://www.buildnotch.app/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: Cross-Platform & Web · Developer Tools
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Provides a Windows-only desktop notch for project tasks, focus timers, clipboard history, GitHub activity, and AI-tool shortcuts. The page describes x64 system requirements and the unsigned installer, making the platform boundary explicit.
+- [Swift Server Has Another Google](https://fatbobman.com/en/weekly/issue-156) — Those Who Swift · Issue 287 — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Uses Google Cloud’s server-side Swift SDK to assess ecosystem maturity without assuming a large vendor guarantees longevity. Distinguishes server workloads from mobile Firebase, then routes to concurrency, SwiftUI, accessibility, and agent-workflow articles.
+- [Swift Evolution: Branch on Deployment Target at Compile Time (SE-0554, in review)](https://forums.swift.org/t/se-0554-deployment-target-conditional-compilation/89822?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Cross-Platform & Web · Swift
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Hosts review of compile-time conditions based on a deployment target, including syntax and cross-platform questions. Useful for evaluating a proposed way to remove unavailable code paths during compilation.
 - [McKinley: The SF Symbols Editor Apple Never Built](https://amerpie.lol/2026/09/08/mckinley-the-sf-symbols-editor.html) — Those Who Swift · Issue 286 — Article · Topics: Cross-Platform & Web · Graphics, Media & Games · Testing
   **Published:** `2026-09-30T20:30:56.651Z`
   **NeKI brief:** Tests McKinley as a Mac editor for custom SF Symbols weights, scales, and export rules, noting both strengths and rough edges. Useful when evaluating symbol-authoring tools through an independent hands-on account.
@@ -120,9 +147,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [fullcoverage](https://github.com/Shadester/fullcoverage) — iOS Dev Tools · iOS Dev Tools: fullcoverage, XCRunway, Spek — Source repository · Topics: Cross-Platform & Web · Developer Tools · Swift
   **Published:** `2026-09-18T06:41:54.696Z`
   **NeKI brief:** Implements a Swift command-line tool that reads Xcode xcresult bundles and produces multi-file HTML coverage reports with line, branch, function, per-file, and aggregate views.
-- [Native is now the future of mobile at Shopify](https://shopify.engineering/back-to-native) — Those Who Swift · Issue 284 — Article · Topics: AI Development · Cross-Platform & Web · Swift
-  **Published:** `2026-09-17T06:08:23.173Z`
-  **NeKI brief:** Explains why Shopify is moving its mobile apps from React Native back to Swift and Kotlin: coding agents changed native-development economics while platform-specific UI and capabilities increased the value of direct SDK access.
 - [six engineers, twelve weeks](https://shopify.engineering/shop-app-migration) — iOS Dev Weekly · Issue 767 — Article · Topics: Cross-Platform & Web · Swift
   **Published:** `11th September 2026`
   **NeKI brief:** Details how six engineers migrated Shopify's Shop app from React Native to Swift and Kotlin in twelve weeks, including AI-assisted translation, compatibility layers, staged rollout, and measurements used to manage risk.

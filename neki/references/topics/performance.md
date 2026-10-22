@@ -4,11 +4,20 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Profiling, Instruments, rendering cost, launch time, memory, and runtime efficiency.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **520**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **532**
 
 ## Direct-source reading
 
+- [SwiftUI Performance: Find Redraws in Xcode Instruments - SwiftLee](https://www.avanderlee.com/swiftui/swiftui-performance-xcode-instruments) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-10-19T11:27:45+00:00`
+  **NeKI brief:** Profiles a focused interaction with Instruments' SwiftUI template, then follows View Body Updates from hierarchy totals to individual durations and root causes. Distinguishes expensive updates from frequent cheap redraws and calls for repeat measurements after changes.
+- [Agentic iOS Development with RocketSim and RocketTrace](https://www.avanderlee.com/ai-development/agentic-ios-development-rocketsim-rockettrace) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-10-12T15:51:12+00:00`
+  **NeKI brief:** Shows four agent workflows combining simulator interaction, accessibility audits, analytics, screenshot tooling, and performance traces. Emphasizes reviewing evidence before edits and records cases where incomplete attribution or missing post-change measurements leave performance conclusions open.
+- [Introducing RocketTrace: Using Xcode Instruments with AI Agents - SwiftLee](https://www.avanderlee.com/ai-development/introducing-rockettrace-using-xcode-instruments-with-ai-agents) — Antoine van der Lee articles · article catalogue
+  **Published:** `2026-10-05T07:58:25+00:00`
+  **NeKI brief:** Demonstrates recording and querying Instruments analyses through RocketTrace's CLI, from compact triage to individual findings. Explains local processing, repeat-run comparisons, and a vendor benchmark whose limited trace coverage and agent reading choices constrain its conclusions.
 - [Iterative data loading in Swift | Swift with Majid](https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift) — Swift with Majid · article catalogue
   **Published:** `2026-09-29T00:00:00+00:00`
   **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
@@ -689,6 +698,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Why my Swift debouncer got 50× faster](https://ivanmagda.dev/posts/swift-debounce-runtime-investigation) — SwiftLee Weekly · Issue 346 — Article · Topics: Concurrency · Performance · Systems Programming
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Investigates debounce costs through task reuse, locks, clock representation, generic specialization, and inlinable helpers. Provides benchmark conditions and generated-code observations while separating aggregate implementation gains from experiments that cannot isolate individual causes.
+- [ImplementedSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
+- [Making On-Device Summaries Work for Real Issue Lengths](https://www.ioscoffeebreak.com/issue/issue77) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: AI Development · Performance
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Budgets Foundation Models prompts with runtime token counts, trims issue bodies until they fit, and caches summaries using hashes of every prompt input. Explains response headroom, cache-version invalidation, and the information lost by prefix trimming.
+- [SwiftUI Profiling with Instruments: 100,000 Calendar Events](https://horacal.app/blog/swiftui-performance-profiling-instruments) — Those Who Swift · Issue 288 — Article · Topics: Developer Tools · Performance · SwiftUI
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Profiles a calendar backed by 100,000 stored events to separate database costs from repeated SwiftUI graph work. Describes snapshot preparation, viewport reduction, cache changes, and removing hover effects while distinguishing diagnostics from controlled benchmarks.
+- [AcceptedSE-0553Task Identity](https://github.com/apple/swift-evolution/blob/main/proposals/0553-task-identity.md) — SwiftLee Weekly · Issue 345 — Source repository · Topics: Developer Tools · Performance · Swift
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Proposes a cheap process-unique Task.ID for tracing, structured logs, and profilers across suspension points. Useful for evaluating always-on task attribution without relying on pointer identity or expensive closure-based inspection.
+- [Stop Guessing Why Your iOS App Is Slow](https://www.youtube.com/watch?v=cDtgTlDeev0&t=664s) — SwiftLee Weekly · Issue 345 — Video · Topics: AI Development · Developer Tools · Performance
+  **Published:** `2026-10-13T13:21:18.000Z`
+  **NeKI brief:** Introduces RocketTrace as a way to inspect Instruments traces and work with coding agents. Chapter markers cover symbols and profile builds, simulator-versus-device measurements, signpost focus, and applying suggested fixes.
+- [SwiftUI Profiling with Instruments: 100,000 Calendar Events](https://l.fatbobman.com/w0157-04) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: Performance · SwiftUI
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Profiles a calendar backed by 100,000 stored events to separate database costs from repeated SwiftUI graph work. Describes snapshot preparation, viewport reduction, cache changes, and removing hover effects while distinguishing diagnostics from controlled benchmarks.
+- [Concurrency: Load a Screen in Steps With AsyncSequence (iOS 17+)](https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
+- [Iterative data loading in Swift](https://l.fatbobman.com/w0156-02) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: Concurrency · Health Apps · Performance
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
 - [⏱️ Measure the build you ship](https://en.kou-works.jp/blog/debug-build-performance-trap) — iOS CI Newsletter · Issue 94 — Article · Topics: Developer Tools · Graphics, Media & Games · Performance
   **Published:** `2026-09-30T00:00:00.000Z`
   **NeKI brief:** Compares a camera app's slow Vision processing under Xcode's Debug configuration with smooth TestFlight behavior. Useful for distinguishing debugger overhead from release performance before optimizing a frame pipeline.
@@ -725,9 +761,6 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Using Top Functions Mode in Instruments to Quickly Find the Slowest Code](https://swiftdevjournal.com/posts/top-functions) — Those Who Swift · Issue 280 — Article · Topics: Performance · Swift · Xcode
   **Published:** `2026-08-19T20:31:22.272Z`
   **NeKI brief:** Shows how Instruments' Top Functions mode reorders Time Profiler or CPU Profiler samples by self weight, then relates the result to the flame graph. It offers a faster first pass for locating genuinely expensive functions.
-- [Active ReviewSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Performance · Swift
-  **Published:** `2026-08-18T14:06:21.000Z`
-  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
 - [how he used AI to make MessagePack decoding about 20% faster](https://pfandrade.me/blog/message-packable?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: AI Development · Foundation & Data Formats · Performance · Swift
   **Published:** `2026-08-06T06:44:37.000Z`
   **NeKI brief:** Describes using Codex to integrate Swift Binary Parsing into a MessagePack decoder, then independently validating nearly 20% faster decoding and more than 60% fewer allocations. It is a human-in-the-loop optimization workflow grounded in Instruments and reproducible benchmarks.
@@ -1535,6 +1568,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [The Three Keys to iPhone App Performance](http://inessential.com/2012/04/26/the_three_keys_to_iphone_app_performance) — iOS Dev Weekly · Issue 39 — Article · Topics: Performance
   **Published:** `27th April 2012`
   **NeKI brief:** Explains The Three Keys to iPhone App Performance with a concrete Apple-platform development perspective and examples. Use it to understand the linked technique, workflow, or design trade-off, then verify API availability and assumptions against current SDK documentation because this is a historical iOS Dev Weekly.
+- [Iterative data loading in Swift](https://go.peterfriese.dev/swift-iterative-data-loading-in-swift?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Concurrency · Health Apps · Performance
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
 - [Apple Foundation Models: Hybrid AI with Dynamic Profiles](https://go.peterfriese.dev/what-i-am-working-on-hybrid-ai-apple-foundation-models-gemini?s=web&t=ext) — Not only Swift · Issue 101 — Article · Topics: AI Development · Foundation & Data Formats · Performance
   **NeKI brief:** Demonstrates a LanguageModelSession.DynamicProfile router that measures prompt token requirements before choosing the on-device system model or Firebase Gemini. It includes a fallback path and illustrates keeping one session API while varying provider, context capacity, and inference cost.
 - [SwiftUI's ContentBuilder explained](https://go.peterfriese.dev/swiftui-contentbuilder-explained?s=web&t=ext) — Not only Swift · Issue 101 — Article · Topics: AI Development · Swift · SwiftUI

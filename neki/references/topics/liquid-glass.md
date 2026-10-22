@@ -4,11 +4,14 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Liquid Glass design, hierarchy, scrolling, and component adaptation on current Apple platforms.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **93**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **98**
 
 ## Direct-source reading
 
+- [When toolbar items share a glass background in iOS 26 | Sarunw](https://sarunw.com/posts/swiftui-toolbar-item-grouping-ios-26) — Sarunw · article catalogue
+  **Published:** `2026-10-08`
+  **NeKI brief:** Explains when adjacent toolbar items share a Liquid Glass capsule and when prominence or hidden backgrounds separate them. Contrasts fixed and flexible ToolbarSpacer behavior in navigation and bottom bars, including isolating an embedded search field.
 - [How native SwiftUI controls look different in iOS 26 | Sarunw](https://sarunw.com/posts/swiftui-native-controls-ios-26) — Sarunw · article catalogue
   **Published:** `2026-09-19`
   **NeKI brief:** Visually compares native SwiftUI buttons, toggles, pickers, sliders, toolbars, tab bars, and sheets before and after the iOS 26 redesign, separating automatic appearance changes from app-controlled behavior.
@@ -103,6 +106,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Exploring _UILiquidLensView](https://livsycode.com/swiftui/exploring-_uiliquidlensview) — iOS Dev Weekly · Issue 772 — Article · Topics: Liquid Glass · UIKit
+  **Published:** `16th October 2026`
+  **NeKI brief:** Reconstructs the private UIKit lens through Objective-C runtime lookup, lifted-state selectors, and separate content views. A circular-menu experiment clarifies its interaction model while explicitly limiting the technique to research and prototypes.
+- [SwiftUI: Which Toolbar Buttons Share a Glass Capsule (iOS 26+)](https://sarunw.com/posts/swiftui-toolbar-item-grouping-ios-26?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Liquid Glass · SwiftUI
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Explains when adjacent toolbar items share a Liquid Glass capsule and when prominence or hidden backgrounds separate them. Contrasts fixed and flexible ToolbarSpacer behavior in navigation and bottom bars, including isolating an embedded search field.
 - [Liquid Glass is not optional anymore](https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls?ref=ioscodereview.com) — iOS Code Review · Issue 83 — Article · Topics: Liquid Glass · UIKit · Xcode
   **Published:** `2026-08-06T06:44:37.000Z`
   **NeKI brief:** Catalogues real UIKit compatibility failures around Liquid Glass in iOS 26 and 27, including bar buttons, tab bars, web views, and steppers. Use the cases to distinguish workable adaptations from framework bugs that still lack reliable fixes.
@@ -250,6 +259,10 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Discussion on Flutter’s Support for Liquid Glass](https://github.com/flutter/flutter/issues/170310) — Fatbobman’s Swift Weekly · Issue 88 — Source repository · Topics: Cross-Platform & Web · Developer Tools · Liquid Glass
   **Published:** `2025-06-12T02:52:10.753Z`
   **NeKI brief:** This Flutter issue discusses support for Apple's Liquid Glass redesign and related platform integration concerns. Follow the thread for cross-platform implementation constraints and status, not as a guarantee of shipped Flutter behavior.
+- [How native SwiftUI controls look different in iOS 26](https://go.peterfriese.dev/swiftui-native-controls-ios-26?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Liquid Glass · SwiftUI
+  **NeKI brief:** Visually compares native SwiftUI buttons, toggles, pickers, sliders, toolbars, tab bars, and sheets before and after the iOS 26 redesign, separating automatic appearance changes from app-controlled behavior.
+- [collapse tab bars to the selected item](https://go.peterfriese.dev/collapse-tab-bars-to-the-selected-item?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Liquid Glass · SwiftUI
+  **NeKI brief:** Visually compares native SwiftUI buttons, toggles, pickers, sliders, toolbars, tab bars, and sheets before and after the iOS 26 redesign, separating automatic appearance changes from app-controlled behavior.
 - [Skills for Liquid Glass](https://go.peterfriese.dev/swiftui-fwc-swiftui-skills?s=web&t=ext) — Not only Swift · Issue 101 — Article · Topics: Liquid Glass · Swift · SwiftUI
   **NeKI brief:** A small repository of Cursor Agent Skills for modern SwiftUI work, including a Liquid Glass skill and a focused skill-folder layout. Use it as a concrete tool-specific packaging example, while checking its assumptions against the host agent and project constraints.
 - [Second Brain app](https://www.youtube.com/playlist?list=PLsnLd2esiGRTmfGZcZMnEy6hkBHXBH_en) — Not only Swift · Issue 85 — Video · Topics: Graphics, Media & Games · Liquid Glass · Swift

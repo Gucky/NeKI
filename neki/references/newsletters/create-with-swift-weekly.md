@@ -3,8 +3,44 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.createwithswift.com/](https://www.createwithswift.com/)
-- Last collected: `2026-10-05T06:44:56Z`
-- Indexed entries: **75**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed entries: **77**
+
+## [Issue 124](https://www.createwithswift.com/weekly-newsletter-issue-124)
+
+- Published: `2026-10-17T16:00:00.000Z`
+
+**Topics:** Combine & Reactive Programming · Concurrency · Developer Community & Business · Graphics, Media & Games · Swift · SwiftUI
+
+**Sections:** The Community · Keepsweeper · Small Choices, Big Impact: The Environmental Cost of Mobile Design Decisions
+
+**NeKI brief:** Three community articles explain adaptive ArrangementView layouts, automatic cancellation through view tasks, and dedicated Assistive Access experiences. The issue places those implementation choices alongside shared-home device announcements and preparation for foldable-app testing.
+
+**Selected links:**
+- [Assistive Access — iOS Easy Mode, Revisited](https://www.basbroek.nl/assistive-access-revisited?ref=createwithswift.com) — Article · Topics: Accessibility · SwiftUI · UIKit
+  **NeKI brief:** Shows how UISupportsAssistiveAccess and a dedicated AssistiveAccess scene enable simplified app flows, including UIKit scene routing and previews. Highlights navigation icons and the limitation that third-party setup settings must remain inside the ordinary app.
+- [ArrangementView in SwiftUI: split and overlay layouts for iPhone Duo](https://nilcoalescing.com/blog/ArrangementViewInSwiftUISplitAndOverlayLayoutsForIPhoneDuo?ref=createwithswift.com) — Article · Topics: Hardware & Devices · SwiftUI
+  **NeKI brief:** Walks through ArrangementView split and overlay layouts, axis restrictions, sizing preferences, and fold-aware separation. Documents simulator observations about environment propagation and explicit overlay edges, helping distinguish intended layout behavior from version-specific workarounds.
+- [SwiftUI .task vs .onAppear - Async Work Done Right](https://www.sagarunagar.com/blog/swiftui-task-vs-onappear?ref=createwithswift.com) — Article · Topics: Concurrency · SwiftUI
+  **NeKI brief:** Replaces manually tracked onAppear tasks with task(id:) for view-owned loading and debounced search. Covers cooperative cancellation, changing request inputs, repeat appearances, and work whose lifetime must belong to a model instead.
+
+## [Issue 123](https://www.createwithswift.com/weekly-newsletter-issue-123)
+
+- Published: `2026-10-09T16:00:00.000Z`
+
+**Topics:** Developer Community & Business · Graphics, Media & Games · Security & Privacy · Swift · SwiftUI
+
+**Sections:** The Community · Hue9 · Small Choices, Big Impact: The Environmental Cost of Mobile Design Decisions
+
+**NeKI brief:** Follow opaque types beyond SwiftUI, sheet placement on foldable displays, and key paths as concise collection transforms. The issue also highlights redundant accessibility cues in an indie puzzle and upcoming App Store screenshot preparation.
+
+**Selected links:**
+- [Using Swift’s ‘some’ keyword beyond SwiftUI](https://www.swiftbysundell.com/articles/using-swifts-some-keyword-beyond-swiftui?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Uses opaque result types to hide complex concrete generic return types while preserving a single underlying type. The examples show where some improves API boundaries outside SwiftUI and where ordinary protocol values behave differently.
+- [Replacing Closures with Key Paths - Cleaner Swift Code](https://www.sagarunagar.com/blog/replacing-closures-with-key-paths-swift?ref=createwithswift.com) — Article · Topics: Swift
+  **NeKI brief:** Shows where key-path literals replace property-reading closures in collection transformations and predicates. Explains the limits for stored key paths, computed values, and two-argument comparisons, plus the trade-off of adding custom sorting or negation helpers.
+- [Presenting SwiftUI sheets on iPhone Duo](https://nilcoalescing.com/blog/PresentingSwiftUISheetsOnIPhoneDuo?ref=createwithswift.com) — Article · Topics: Swift · SwiftUI
+  **NeKI brief:** Shows how SwiftUI sheets and their toolbars adapt across iPhone Duo displays and fold positions. Explores presentationPlacement, toolbar arrangement, and a beta issue where a large detent restored expected trailing-sheet behavior.
 
 ## [Issue 122](https://www.createwithswift.com/weekly-newsletter-issue-122)
 

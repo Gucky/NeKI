@@ -3,9 +3,21 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.avanderlee.com/](https://www.avanderlee.com/)
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed entries: **369**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed entries: **372**
 
+- [SwiftUI Performance: Find Redraws in Xcode Instruments - SwiftLee](https://www.avanderlee.com/swiftui/swiftui-performance-xcode-instruments)
+  **Published:** `2026-10-19T11:27:45+00:00`
+  **Topics:** Performance · SwiftUI · Xcode
+  **NeKI brief:** Profiles a focused interaction with Instruments' SwiftUI template, then follows View Body Updates from hierarchy totals to individual durations and root causes. Distinguishes expensive updates from frequent cheap redraws and calls for repeat measurements after changes.
+- [Agentic iOS Development with RocketSim and RocketTrace](https://www.avanderlee.com/ai-development/agentic-ios-development-rocketsim-rockettrace)
+  **Published:** `2026-10-12T15:51:12+00:00`
+  **Topics:** Accessibility · AI Development · Developer Tools · Performance
+  **NeKI brief:** Shows four agent workflows combining simulator interaction, accessibility audits, analytics, screenshot tooling, and performance traces. Emphasizes reviewing evidence before edits and records cases where incomplete attribution or missing post-change measurements leave performance conclusions open.
+- [Introducing RocketTrace: Using Xcode Instruments with AI Agents - SwiftLee](https://www.avanderlee.com/ai-development/introducing-rockettrace-using-xcode-instruments-with-ai-agents)
+  **Published:** `2026-10-05T07:58:25+00:00`
+  **Topics:** AI Development · Developer Tools · Performance · Xcode
+  **NeKI brief:** Demonstrates recording and querying Instruments analyses through RocketTrace's CLI, from compact triage to individual findings. Explains local processing, repeat-run comparisons, and a vendor benchmark whose limited trace coverage and agent reading choices constrain its conclusions.
 - [How to reduce token usage in Claude Code, Codex, and Cursor - SwiftLee](https://www.avanderlee.com/ai-development/reduce-token-usage-claude-code-codex-cursor)
   **Published:** `2026-09-28T12:48:10+00:00`
   **Topics:** AI Development · Developer Tools

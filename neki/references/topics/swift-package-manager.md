@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Swift packages, manifests, plugins, dependency resolution, and package distribution.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **321**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **325**
 
 ## Direct-source reading
 
@@ -304,6 +304,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Swift 6.4 Support and the Move to Swift Build](https://swiftpackageindex.com/blog/swift-6-4-support-and-the-move-to-swift-build) — Those Who Swift · Issue 289 — Article · Topics: CI/CD & Automation · Developer Tools · Swift Package Manager
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Explains how SwiftPM’s switch to Swift Build affects Package Index compatibility checks. Shows how to isolate regressions with the native build system and obtain relocated artifacts through --show-bin-path.
+- [ImplementedSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
+- [ImplementedSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
+- [September Swift digest](https://www.swift.org/blog/whats-new-in-swift-september-2026?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Cross-Platform & Web · Swift · Swift Package Manager
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Routes September’s Swift news through Swift 6.4, the Vapor 5 beta, server-side packages, and active Evolution proposals. Useful for locating the original release notes and understanding which language changes remain under review.
+- [What's new in Swift: September 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-september-2026) — Those Who Swift · Issue 288 — Article · Topics: Cross-Platform & Web · Swift · Swift Package Manager
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Routes September’s Swift news through Swift 6.4, the Vapor 5 beta, server-side packages, and active Evolution proposals. Useful for locating the original release notes and understanding which language changes remain under review.
+- [KelvinColor](https://github.com/trysundown/KelvinColor) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Source repository · Topics: Graphics, Media & Games · Swift · Swift Package Manager
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Converts kelvin temperatures to sRGB colors, normalized display-warmth gains, and gamma-table ramps in dependency-free Swift. Documents input clamping, platform color adapters, curve-fit accuracy, and why the approximation is unsuitable for scientific colorimetry.
 - [Swift 6.4 Released](https://www.swift.org/blog/swift-6.4-released) — Those Who Swift · Issue 285 — Article · Topics: Swift · Systems Programming
   **Published:** `2026-09-23T21:06:47.068Z`
   **NeKI brief:** Summarises Swift 6.4 across language, concurrency, testing, SwiftPM and Swift Build, debugging, interoperability, WebAssembly, Android, Embedded Swift, and noncopyable data structures. Use its proposal links to investigate individual changes.
@@ -313,18 +331,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [SE-0541: Flexible Swift/C Interoperability For Packages](https://forums.swift.org/t/accepted-se-0541-flexible-swift-c-interoperability-for-packages/89183) — Those Who Swift · Issue 282 — Article · Topics: Developer Community & Business · Swift · Swift Package Manager
   **Published:** `2026-09-02T21:05:28.721Z`
   **NeKI brief:** Records the Ecosystem Steering Group's acceptance of SE-0541 after a positive review. Follow the linked proposal for the mixed-source-target, bridging-header, and generated-header details rather than treating the announcement as the specification.
-- [Active ReviewSE-0547SwiftPM Support for Compilation Caching](https://github.com/apple/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md) — SwiftLee Weekly · Issue 339 — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
-  **Published:** `2026-09-01T14:08:57.000Z`
-  **NeKI brief:** Proposes opt-in SwiftPM compilation caching through global, package, or per-build configuration, using content-addressed outputs and prefix mapping. It targets repeated clean, worktree, branch-switch, and CI builds.
 - [DynamicNotch: Building Polished Notch and Screen-Edge Interactions for macOS](https://l.fatbobman.com/w0150-7) — Fatbobman’s Swift Weekly · Issue 150 — Article · Topics: Swift · Swift Package Manager · SwiftUI
   **Published:** `2026-08-24T12:03:48.210Z`
   **NeKI brief:** Offers a macOS Swift package for notch-aware SwiftUI surfaces and AppKit-backed floating edge windows. It centralizes clipping, hit testing, safe-area and multi-display geometry, placement, and compact-notch reservations while leaving product state and interaction policy to the host app.
 - [July digest](https://www.swift.org/blog/whats-new-in-swift-july-2026?ref=ioscodereview.com) — iOS Code Review · Issue 84 — Article · Topics: Concurrency · Objective-C & Cocoa · Swift
   **Published:** `2026-08-20T05:35:08.000Z`
   **NeKI brief:** Summarizes July activity across Swift releases, evolution, tooling and community workgroups, providing a routing overview rather than a single API tutorial.
-- [Active ReviewSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 337 — Source repository · Topics: Developer Tools · Performance · Swift
-  **Published:** `2026-08-18T14:06:21.000Z`
-  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
 - [ConsentBus](https://github.com/divyaravitech/ConsentBus) — iOS Dev Tools · iOS Dev Tools: ConsentBus, FoundationModelsKit, Agent Island — Source repository · Topics: Developer Tools · Swift · Swift Package Manager
   **Published:** `2026-08-06T16:00:49.980Z`
   **NeKI brief:** Implements serialized consent propagation across SDK adapters with signed receipts and a hash-chained audit ledger; most bundled vendor adapters are currently documented stubs rather than live integrations.

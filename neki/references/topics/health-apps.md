@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Health-focused app development projects and personal health-data software.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **14**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **17**
 
 ## Direct-source reading
 
@@ -27,6 +27,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Concurrency: Load a Screen in Steps With AsyncSequence (iOS 17+)](https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Concurrency · Swift
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
+- [Iterative data loading in Swift](https://l.fatbobman.com/w0156-02) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: Concurrency · Health Apps · Performance
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
 - [Getting Started with Apple’s Foundation Models](https://artemnovichkov.com/blog/getting-started-with-apple-foundation-models) — Those Who Swift · Issue 275 — Article · Topics: AI Development · Foundation & Data Formats
   **Published:** `2026-07-15`
   **NeKI brief:** Demonstrates rendering Markdown in SwiftUI. Useful for choosing a rendering pipeline, handling attributed content, and deciding where links and styling should remain controlled by the app.
@@ -54,3 +60,5 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [App Store Review Guidelines Updated to Consider New iOS 8 Features](http://www.macstories.net/news/app-store-review-guidelines-updated-to-consider-new-ios-8-features) — iOS Dev Weekly · Issue 162 — Article · Topics: App Distribution & Store Operations · Hardware & Devices
   **Published:** `5th September 2014`
   **NeKI brief:** Reports historical App Store review-guideline changes related to iOS 8 features. Useful for policy history and release-era context, not as a substitute for Apple’s current guidelines.
+- [Iterative data loading in Swift](https://go.peterfriese.dev/swift-iterative-data-loading-in-swift?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Concurrency · Health Apps · Performance
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.

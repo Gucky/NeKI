@@ -3,8 +3,158 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://thosewhoswift.substack.com/archive](https://thosewhoswift.substack.com/archive)
-- Last collected: `2026-10-05T06:44:56Z`
-- Indexed entries: **100**
+- Last collected: `2026-10-22T15:00:02Z`
+- Indexed entries: **105**
+
+## [Issue 289](https://thosewhoswift.substack.com/p/those-who-swift-issue-289)
+
+- Published: `2026-10-21T21:27:18.079Z`
+
+**Topics:** Accessibility · App Distribution & Store Operations · Security & Privacy · Swift · SwiftUI · Testing
+
+**Sections:** Those Who Swift · Those Who Swift - Issue 289 · The Defaults Changed
+
+**NeKI brief:** Treat changing build defaults and review policies as changes to shipping assumptions. This issue connects Swift Build migration, optional-type syntax, and App Review updates with practical concurrency, diagnostics, testing, and accessibility reading.
+
+**Selected links:**
+- [Swift 6.4 Support and the Move to Swift Build](https://swiftpackageindex.com/blog/swift-6-4-support-and-the-move-to-swift-build) — Article · Topics: CI/CD & Automation · Developer Tools · Swift Package Manager
+  **NeKI brief:** Explains how SwiftPM’s switch to Swift Build affects Package Index compatibility checks. Shows how to isolate regressions with the native build system and obtain relocated artifacts through --show-bin-path.
+- [How to stream iOS simulator logs to your AI coding agent](https://flowdeck.studio/blog/log-streaming) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Compares ways to expose simulator logs to coding agents, focusing on process scoping, startup timing, and structured output. The FlowDeck author demonstrates his CLI workflow, so assess the tool comparison with that vendor context.
+- [Claude Code for iOS development](https://roland.leth.ro/blog/tech/claude-code-for-ios-development) — Article · Topics: AI Development · Developer Tools · Testing
+  **NeKI brief:** Introduces an iOS-specific Claude Code series covering simulator failures, tests with independent expectations, and generated App Store media. The author separates agent reports from observable results across three personal apps.
+- [Swift Actor Reentrancy: Stop Duplicate Network Requests](https://warmodroid.com/posts/swift-actor-reentrancy-network-requests) — Article · Topics: Concurrency · Networking
+  **NeKI brief:** Builds an actor cache that stores in-flight tasks before suspension, coalesces duplicate requests, and rejects obsolete completions by identity. Explicit cancellation and invalidation policies expose the limits of shared work ownership.
+- [Calming Down Claude's Code Reviews](https://build.ms/2026/10/17/calming-down-claudes-code-reviews) — Article · Topics: AI Development · Code Quality
+  **NeKI brief:** Uses a dedicated REVIEW.md to constrain automated Claude pull-request reviews to concrete, code-grounded findings. The example contract suppresses narration and speculative advice while preserving consequential bugs and explicit verification limits.
+- [Who Is the Real Threat to AI-Relay Apps?](https://fatbobman.com/en/weekly/issue-158) — Article · Topics: AI Development · Developer Community & Business
+  **NeKI brief:** Questions the defensibility of apps built mainly from prompts, a polished interface, and third-party cloud models. Argues that general-purpose agents and model providers can absorb their value, then links current Apple-platform implementation reading.
+- [I Shipped an iPhone Duo App Before I Had the Phone. Thanks, App Reviewer.](https://samwize.com/2026/10/20/i-launched-an-app-without-typing-a-line-of-code) — Article · Topics: AI Development · App Distribution & Store Operations
+  **NeKI brief:** Recounts shipping an agent-built iPhone Duo app and using Codex to address an App Review naming rejection across five localized listings. The author explicitly notes the absence of physical-device testing.
+- [enumerated() Gives You an Offset, Not an Index](https://nativefirstapp.com/blog/enumerated-offset-is-not-an-index-swift) — Article · Topics: Code Quality · Foundation & Data Formats · Swift
+  **NeKI brief:** Demonstrates an ArraySlice crash caused by using enumerated offsets as collection indices. Replaces subscripting with collection.indices or zip(indices, collection), while retaining offsets for display numbering.
+- [Failures that don't crash never reach you](https://en.kou-works.jp/blog/copy-details-button) — Article · Topics: Code Quality · Developer Tools · Security & Privacy
+  **NeKI brief:** Uses an on-device Copy Details report to recover handled import, analysis, and export failures. Centralized error recording and redaction preserve diagnostic chains while removing file paths, filenames, and absolute uptime.
+- [Pragmatic Testing for Agents](https://sergdort.github.io/pragmatic-testing-for-agents) — Article · Topics: AI Development · Code Quality · Testing
+  **NeKI brief:** Prunes agent-written tests using behavior contracts, independent expected values, and refactor resilience. Per-function coverage exposes a lost narration path that a small mutation sample missed, motivating targeted replacement tests.
+- [Simplifying Sorting, Filtering, and Pagination in SwiftUI Using HotelQuery](https://azamsharp.com/2026/10/17/simplifying-sorting-filtering-and-pagination-in-swiftui-using-hotelquery.html) — Article · Topics: Architecture · Networking · SwiftUI
+  **NeKI brief:** Groups sort order, filters, and page size into an Equatable HotelQuery while keeping page progression inside the store. Query changes reset pagination; the article also identifies overlapping-request and end-of-results limitations.
+- [When to Use a View Model in SwiftUI (and When It's Overkill)](https://www.swiftyplace.com/blog/mvvm-view-model-use-case) — Article · Topics: Architecture · Observation & State Management · SwiftUI
+  **NeKI brief:** Weighs SwiftUI view models against their maintenance cost using concrete screens. A theme editor earns a shared store through coordinated mutations, persistence, and lifetime, while static content does not justify another layer.
+- [The boss fight, part 1: a known issue, not a skipped test](https://silentspice.substack.com/p/the-boss-fight-part-1-a-known-issue) — Article · Topics: Code Quality · Testing
+  **NeKI brief:** Shows how a narrowly scoped withKnownIssue wrapper keeps an acceptance test running while documenting one known defect. A reconstructed run demonstrates the unexpected-pass failure that signals the wrapper should be removed.
+- [Making custom SwiftUI controls accessible with accessibilityRepresentation](https://tanaschita.com/ios-accessibility-representation-custom-controls) — Article · Topics: Accessibility · SwiftUI
+  **NeKI brief:** Gives a gesture-driven waveform scrubber native Slider accessibility semantics through accessibilityRepresentation. Sharing the playback binding supplies an adjustable interaction and formatted time value without replacing the custom visual control.
+- [Why I still shun passkeys](https://lapcatsoftware.com/articles/2026/10/6.html) — Article · Topics: Apple Platform Ecosystem · Security & Privacy
+  **NeKI brief:** Explains one developer’s resistance to passkeys through two requirements: signing in on unfamiliar devices and maintaining independent credential backups. Evaluates iCloud Keychain and hardware-key trade-offs from that Apple-specific workflow.
+- [some View? without parentheses in Swift 6.4](https://sarunw.com/posts/optional-opaque-and-existential-types) — Article · Topics: Swift
+  **NeKI brief:** Explains Swift 6.4's parsing change for optional opaque and existential types, including some P? and any P?. Covers the remaining parentheses requirement for protocol compositions and compatibility with existing type spellings.
+
+## [Devs for Devs: You Are Valuable, Act Like It.](https://thosewhoswift.substack.com/p/devs-for-devs-you-are-valuable-act-326)
+
+- Published: `2026-10-18T20:01:35.163Z`
+
+**Topics:** Accessibility · Apple Platform Ecosystem · Concurrency · Cross-Platform & Web · Developer Tools · Swift
+
+**Sections:** Those Who Swift · The Battle of the Mind · How I Choose
+
+**NeKI brief:** Jacob Rakidzich describes choosing one personally meaningful app, removing distractions, and testing interest through TestFlight. Useful for planning side projects around limited time while keeping product judgment separate from faster AI-assisted implementation.
+
+## [Issue 288](https://thosewhoswift.substack.com/p/those-who-swift-issue-288)
+
+- Published: `2026-10-14T20:03:48.235Z`
+
+**Topics:** Concurrency · Performance · Swift · SwiftUI · Testing · Xcode
+
+**Sections:** Those Who Swift · Those Who Swift - Issue 288 · The Best Fix Was a Deletion
+
+**NeKI brief:** Four examples connect safe deletion with evidence: simplify conflicting shared abstractions, profile SwiftUI updates, split oversized tests, and let view tasks own cancellation. Additional links cover concurrency boundaries, localization agents, and asynchronous-test coordination.
+
+**Selected links:**
+- [Escaping the Cohabiting Trap](https://williamboles.com/escaping-the-cohabiting-trap) — Article · Topics: Architecture · Code Quality · SwiftUI
+  **NeKI brief:** Uses a flag-heavy avatar and total calculator to diagnose shared components whose callers need conflicting behavior. Moves caller-specific presentation outward and separates business rules when continued sharing couples unrelated changes.
+- [Where did my disk go? Xcode, worktrees and AI agents](https://skarol.dev/posts/where-did-my-disk-go) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Diagnoses misleading Xcode failures caused by disk exhaustion in parallel agent worktrees. Distinguishes APFS clone accounting from actual free space, then ties DerivedData, test-product, and simulator cleanup to worktree ownership.
+- [Using Xcode 27's localization skills over MCP](https://macguru.dev/using-xcode-27s-localization-skills-over-mcp) — Article · Topics: AI Development · Localization · Xcode
+  **NeKI brief:** Shows how xcrun agent plugin path exposes Xcode’s translation skills and MCP setup to external coding agents. Explains why loading the actual localization guidance matters for catalog variations, terminology, and language-specific style rules.
+- [Testing Async Code in Swift: Stop Using Task.yield() in Your Tests](https://www.nsvasilev.com/posts/testing-swift-tasks-with-itaskfactory) — Article · Topics: Concurrency · Dependency Injection · Testing
+  **NeKI brief:** Injects an ITaskFactory so tests can await unstructured tasks started by synchronous lifecycle APIs. Explains why yield and callback expectations can race, and limits the approach to work whose completion the factory can observe.
+- [Advanced macro technique #2: Type inference](https://www.pointfree.co/blog/posts/233-advanced-macro-technique-2-type-inference) — Article · Topics: Macros & Metaprogramming · Swift
+  **NeKI brief:** Builds a memberwise initializer without requiring explicit property type annotations. Generated nested protocols and witness types let associated-type inference recover field types from defaults, including function results and closures, for use in expanded declarations.
+- [Visualising data with a hexagonal heatmap in Swift Charts](https://nilcoalescing.com/blog/VisualisingDataWithAHexagonalHeatmapInSwiftCharts) — Article · Topics: Graphics, Media & Games · SwiftUI
+  **NeKI brief:** Builds a Swift Charts heatmap from earthquake data using axial hexagonal coordinates and a symmetric logarithmic color scale. Useful when a rectangular grid obscures geographic boundaries or uneven spatial density.
+- [SwiftUI Profiling with Instruments: 100,000 Calendar Events](https://horacal.app/blog/swiftui-performance-profiling-instruments) — Article · Topics: Developer Tools · Performance · SwiftUI
+  **NeKI brief:** Profiles a calendar backed by 100,000 stored events to separate database costs from repeated SwiftUI graph work. Describes snapshot preparation, viewport reduction, cache changes, and removing hover effects while distinguishing diagnostics from controlled benchmarks.
+- [What's new in Swift: September 2026 Edition](https://www.swift.org/blog/whats-new-in-swift-september-2026) — Article · Topics: Cross-Platform & Web · Swift · Swift Package Manager
+  **NeKI brief:** Routes September’s Swift news through Swift 6.4, the Vapor 5 beta, server-side packages, and active Evolution proposals. Useful for locating the original release notes and understanding which language changes remain under review.
+- [Architect SwiftUI Apps for Swift Concurrency](https://www.swiftyplace.com/blog/swiftui-architecture-swift-concurrency) — Article · Topics: Architecture · Concurrency · SwiftUI
+  **NeKI brief:** Organizes SwiftUI architecture around state ownership: main-actor UI stores, independent actors for shared non-UI state, and stateless concurrent services. Sendable DTOs define the crossings, with default actor isolation settings made explicit.
+- [Bypassing the App Group Trap](https://mzeeshan.me/blog/ios-app-extension-write-files-to-documents-directory) — Article · Topics: App Services & Extensions · Persistence & Synchronisation · Security & Privacy
+  **NeKI brief:** Proposes sharing a bookmark to the containing app’s Documents directory through an App Group so an action extension can copy files directly. Includes first-launch fallback; treat the sandbox and App Store claims as author-reported.
+- [Configuring UIKit Navigation Bars from SwiftUI](https://livsycode.com/swiftui/configuring-uikit-navigation-bars-from-swiftui) — Article · Topics: Navigation & Deep Linking · SwiftUI · UIKit
+  **NeKI brief:** Introduces NavBarBridge to synchronize SwiftUI screen state with its hosting controller’s UINavigationItem. Keeps UIKit navigation and native bar behavior while exposing button state, menus, subtitles, and action context from the view.
+- [Decompose Run-On Tests (In Swift Testing)](https://jaimzuber.com/testing/decompose-run-on-tests.html) — Article · Topics: Code Quality · Testing
+  **NeKI brief:** Decomposes a long playlist test into independently named behavior checks, removing irrelevant setup and earlier assertions. Explains why coverage belongs to the green suite as a whole rather than repeated claims inside every test.
+- [SwiftUI .task vs .onAppear — Async Work Done Right](https://www.sagarunagar.com/blog/swiftui-task-vs-onappear) — Article · Topics: Concurrency · SwiftUI
+  **NeKI brief:** Replaces manually tracked onAppear tasks with task(id:) for view-owned loading and debounced search. Covers cooperative cancellation, changing request inputs, repeat appearances, and work whose lifetime must belong to a model instead.
+- [Comparing On-Device and Private Cloud Compute Summaries](https://www.ioscoffeebreak.com/issue/issue79) — Article · Topics: AI Development · Testing
+  **NeKI brief:** Compares trimmed on-device summaries with full-text Private Cloud Compute using fixed baselines, sentence checks, and pairwise model judging. A short-issue control separates model preference from benefits attributed to preserving late conclusions.
+- [Why big companies are bad platform citizens](https://www.scottberrevoets.com/2026/10/05/why-big-companies-are-bad-platform-citizens) — Article · Topics: Apple Platform Ecosystem · Developer Community & Business
+  **NeKI brief:** Uses Lyft’s platform integrations to explain why large service businesses delay native OS features. Low usage, upkeep, planning cycles, and incentives around engagement can outweigh the platform polish valued by smaller developers.
+- [Iterative data loading in Swift](https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift) — Article · Topics: Swift
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
+
+## [Devs for Devs: What I Learned Building and Shipping My First Two iOS Apps](https://thosewhoswift.substack.com/p/devs-for-devs-what-i-learned-building)
+
+- Published: `2026-10-12T20:05:42.974Z`
+
+**Topics:** App Distribution & Store Operations · Cross-Platform & Web · Developer Community & Business · Developer Tools · Maps & Location · Testing
+
+**Sections:** Those Who Swift · Your First App Store Rejection Teaches You a Lot · The App Store is Part of the Product
+
+**NeKI brief:** Manuel Cazalla Colmenero traces two app launches through review rejection, metadata experiments, Firebase analytics, and monetization choices. The practical lesson is to treat release measurement and product communication as continuing development work.
+
+**Selected links:**
+- [https://www.var-meta.com/blog/app-store-product-page-optimization](https://www.var-meta.com/blog/app-store-product-page-optimization) — Article · Topics: App Distribution & Store Operations · Developer Community & Business · Product Design
+  **NeKI brief:** Separates App Store discoverability from product-page conversion, then compares randomized treatments, audience-specific pages, and creative assets. Suggests baselines and single-hypothesis tests while identifying metrics needed to judge retention beyond downloads.
+
+## [Issue 287](https://thosewhoswift.substack.com/p/those-who-swift-issue-287)
+
+- Published: `2026-10-07T19:46:46.337Z`
+
+**Topics:** Accessibility · App Distribution & Store Operations · Concurrency · Swift · SwiftUI · Xcode
+
+**Sections:** Those Who Swift · Those Who Swift - Issue 287 · Weekly note ✏️
+
+**NeKI brief:** Developer workflows become easier to repeat when traces, symbol queries, and build logs expose concise machine-readable results. This issue pairs agent tooling with Swift scripts, isolation trade-offs, Dynamic Type adaptation, and platform permission changes.
+
+**Selected links:**
+- [Introducing RocketTrace: Using Xcode Instruments with AI Agents](https://www.avanderlee.com/ai-development/introducing-rockettrace-using-xcode-instruments-with-ai-agents) — Article · Topics: AI Development · Developer Tools · Performance · Xcode
+  **NeKI brief:** Demonstrates recording and querying Instruments analyses through RocketTrace's CLI, from compact triage to individual findings. Explains local processing, repeat-run comparisons, and a vendor benchmark whose limited trace coverage and agent reading choices constrain its conclusions.
+- [Optimizing Claude Code's Xcode build token usage](https://danielsaidi.com/blog/2026/09/30/optimizing-claude-code-s-xcode-build-token-usage) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Provides a Claude Code PreToolUse hook that routes simple Xcode and Swift build commands through xcsift. Guards against unsafe command rewrites and retains pipefail so compressed output does not hide build failures.
+- [Swift scripts for Xcode and Xcode Cloud](https://appforce1.net/blog/swift-scripting-in-xcode) — Article · Topics: CI/CD & Automation · Developer Tools · Xcode
+  **NeKI brief:** Moves release notes, icon preparation, and translation checks into repository-owned Swift scripts invoked by thin shell wrappers. Covers Xcode Cloud hook paths, host-tool SDK selection, and reusing the same automation locally.
+- [Configuring Bazel Module Extensions with tag_class](https://adincebic.com/2026/10/04/configuring-bazel-module-extensions-with.html) — Article · Topics: CI/CD & Automation · Developer Tools
+  **NeKI brief:** Builds a Bazel module extension whose tag_class accepts binary URLs and checksums from MODULE.bazel. Traces those tags through module evaluation into a repository rule that downloads and exports the configured file.
+- [Building An Indie App Business](https://sebastianroehl.substack.com/p/building-an-indie-app-business-115) — Article · Topics: Developer Community & Business · Persistence & Synchronisation
+  **NeKI brief:** Describes pausing HabitKit's weekly releases to realign iOS and Android, adding automatic iCloud backups to a local-only app, and removing an unmaintained database dependency. Useful for evaluating release cadence against data-loss and maintenance risks.
+- [SF Symbols from the Command Line and AI Agents](https://artemnovichkov.com/blog/sf-symbols-from-the-command-line-and-ai-agents) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Shows the SF Symbols 27 command-line tool searching, validating deployment availability, and exporting symbol images. Useful for scripted asset checks without opening the graphical symbols app.
+- [Swift Server Has Another Google](https://fatbobman.com/en/weekly/issue-156) — Article · Topics: Cross-Platform & Web · Developer Community & Business · Swift
+  **NeKI brief:** Uses Google Cloud’s server-side Swift SDK to assess ecosystem maturity without assuming a large vendor guarantees longevity. Distinguishes server workloads from mobile Firebase, then routes to concurrency, SwiftUI, accessibility, and agent-workflow articles.
+- [Meta Muse Mac first run experience](https://lapcatsoftware.com/articles/2026/10/2.html) — Article · Topics: AI Development · macOS & AppKit · Security & Privacy
+  **NeKI brief:** Documents Meta Muse’s first-run permission flow in a fresh macOS virtual machine. Separates system Full Disk Access from the app’s own Messages toggles and uses that observation to assess disputed privacy reporting.
+- [Revisiting "Split Isolation"](https://massicotte.org/blog/revisiting-split-isolation) — Article · Topics: Architecture · Concurrency
+  **NeKI brief:** Examines partially actor-isolated non-Sendable types and why sending self into a main-actor task exposes unsafe boundaries. Weighs whole-type isolation against intentional secondary functionality and temporary Swift 6 migration constraints.
+- [withTaskCancellationShield: Swift 6.4 new feature](https://www.swiftdifferently.com/blog/swift/concurrency/with-task-cancellation-shield) — Article · Topics: Concurrency · Swift
+  **NeKI brief:** Walks through Swift 6.4 withTaskCancellationShield and cleanup that must continue after task cancellation. Use the examples to examine cancellation boundaries and ensure protected work remains deliberately scoped.
+- [Modifier Order Is Matrix Order](https://aleahim.com/blog/swiftui-modifier-order) — Article · Topics: Graphics, Media & Games · SwiftUI
+  **NeKI brief:** Measures SwiftUI transform chains against affine-matrix predictions and rendered pixels. Explains how modifier order and frame placement change anchors, then isolates offset rounding that later scale effects amplify; evidence is limited to ImageRenderer.
+- [Adapting SwiftUI layouts for large Dynamic Type sizes](https://tanaschita.com/ios-accessibility-dynamic-type-layouts) — Article · Topics: Accessibility · SwiftUI
+  **NeKI brief:** Switches a task row between horizontal and vertical layouts using dynamicTypeSize.isAccessibilitySize and AnyLayout. Explains why child identity survives the change and when available-width selection through ViewThatFits is a better trigger.
+- [Toolbar overflow and visibility priority on iPhone Duo](https://sarunw.com/posts/toolbar-overflow-and-visibility-priority-on-iphone-duo) — Article
+  **NeKI brief:** Compares default toolbar overflow with task-focused compression on iPhone Duo, then covers a shared overflow menu, visibility priorities, and when to disable vertical bars. Useful for ordering controls under constrained space.
 
 ## [Devs for Devs: You Are Valuable, Act Like It.](https://thosewhoswift.substack.com/p/devs-for-devs-you-are-valuable-act)
 
@@ -2347,6 +2497,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Surveys SwiftUI toolbar placement, roles, and item composition across platforms. Useful for avoiding platform-specific placement surprises and keeping actions discoverable in navigation bars.
 - [Integrating App Intents with Control Action](https://www.createwithswift.com/integrating-app-intents-with-control-action) — Article · Topics: App Intents & System Surfaces · Swift · SwiftUI
   **NeKI brief:** Shows how to expose an app operation through App Intents and Control Action for system surfaces. Use it when connecting an app's domain action to Control Center or other integrations while keeping intent parameters, authorization, and state updates explicit.
+- [Bezel for Mac](https://nonstrict.eu/bezel) — Article · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games · Spatial Computing
+  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
 - [See how it works](https://www.revenuecat.com/docs/tools/paywalls-v2) — Article · Topics: App Distribution & Store Operations · Graphics, Media & Games
   **NeKI brief:** Documents RevenueCat Paywalls 2 tooling for configuring and presenting subscription paywalls. Use it to inspect templates, purchase flows, and customization boundaries before integrating monetization into an app.
 - [Tips and Tricks for When Using SwiftUI’s ViewBuilder](https://www.swiftbysundell.com/articles/swiftui-viewbuilder-tips-and-tricks) — Article · Topics: Swift · SwiftUI
@@ -2363,8 +2515,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Compares duplicate removal by Set conversion with order-preserving approaches, including their performance and Hashable requirements. The trade-off matters when uniqueness must be retained without silently changing collection order.
 - [Art of the State](https://www.scottberrevoets.com/2025/06/02/art-of-the-state) — Article · Topics: Swift · SwiftUI
   **NeKI brief:** Reviews Art of the State. Useful for evaluating the described Apple-platform or software-engineering topic, with current behavior and project-specific constraints verified against primary documentation.
-- [Bezel for Mac](https://nonstrict.eu/bezel) — Article · Topics: Spatial Computing
-  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
 
 ## [Issue 195](https://thosewhoswift.substack.com/p/those-who-swift-issue-195)
 

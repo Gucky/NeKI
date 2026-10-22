@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** macOS app lifecycle, menu-bar apps, Cocoa, and AppKit integration.
 
-- Last collected: `2026-10-02T23:36:48Z`
-- Indexed links shown: **556**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **570**
 
 ## Direct-source reading
 
@@ -113,6 +113,48 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [yomado: A Virtual Workspace for AI Agents](https://l.fatbobman.com/w0158-08) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: AI Development · macOS & AppKit
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Creates macOS virtual displays for visual coding-agent workflows and moves selected app windows with restoration checks. Documents shared keyboard focus, private-API compatibility risks, and the unverified boundary around working with physical monitors switched off.
+- [Sill: Control Mac Windows from Your iPhone or iPad](https://l.fatbobman.com/w0158-09) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: macOS & AppKit · Networking
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Streams a Mac window or desktop to iPhone and iPad using ScreenCaptureKit, HEVC, and direct encrypted connections. Documents pairing, remote input, optional virtual displays, and limits including no audio and a Mac that must remain awake.
+- [Shotnix](https://shotnix.com/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Developer Tools · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Combines local screenshot capture with screen recording, click-based zooms, and transcript editing. Useful for preparing app demos while keeping narration transcription, separate audio tracks, captions, and media export on the Mac.
+- [Takes](https://gettakes.app/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Combines a voice-following teleprompter, synchronized camera and screen capture, and agent-assisted editing around plain local folders. Exposes an MCP workflow so scripts, selected takes, edit revisions, and platform-specific posts remain inspectable.
+- [Sundown](https://trysundown.com/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Provides scheduled display-warmth presets, color-curve dimming, and an optional anti-dithering mode from a macOS menu-bar app. Follow it to compare display-control workflows and platform support rather than infer health outcomes.
+- [Winq](https://winq.kroking.dev/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Accessibility · Developer Tools · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Uses AVFoundation and Vision face landmarks for gaze-based focus, wink clicks, scrolling, and per-app shortcuts. Documents calibration, coarse rather than pixel-level targeting, on-device processing, and required Camera and Accessibility permissions.
+- [TrellisWM](https://trelliswm.app/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Arranges macOS windows into nested spaces with zooming, tab groups, saved views, and URL commands. Explains Accessibility-based window control, optional ScreenCaptureKit previews, per-display layouts, and restoration when the app quits.
+- [Homy](https://tryhomy.app/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Provides natural-language file filters, screenshot OCR, and duplicate discovery in a native SwiftUI file browser. Explains local Vision processing, SHA-256 matching, download-source grouping, and reversible cleanup that skips cloud-only files.
+- [Redlamp: A Native RAW Editor Built by a Photography Enthusiast with AI](https://l.fatbobman.com/w0157-06) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Describes an AI-assisted native RAW editor whose sidecar files preserve originals and whose rendering stays on the Mac. Contrasts rapid interface implementation with the harder task of validating colour processing, camera compatibility, and image quality.
+- [long wanted more tools that fit the way he prefers to work](https://redlamp.app/blog/why-im-building-redlamp) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: AI Development · Graphics, Media & Games · macOS & AppKit
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Describes an AI-assisted native RAW editor whose sidecar files preserve originals and whose rendering stays on the Mac. Contrasts rapid interface implementation with the harder task of validating colour processing, camera compatibility, and image quality.
+- [Meta Muse Mac first run experience](https://lapcatsoftware.com/articles/2026/10/2.html) — iOS Dev Weekly · Issue 771 — Article · Topics: AI Development · macOS & AppKit · Security & Privacy
+  **Published:** `9th October 2026`
+  **NeKI brief:** Documents Meta Muse’s first-run permission flow in a fresh macOS virtual machine. Separates system Full Disk Access from the app’s own Messages toggles and uses that observation to assess disputed privacy reporting.
+- [Hallmonitor](https://github.com/hiteshbandhu/hallmonitor) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Source repository · Topics: AI Development · Developer Tools · macOS & AppKit
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Shows coding-agent sessions, approval needs, activity, and usage across a terminal board and macOS menu bar. Documents local metadata reading, remote SSH monitoring, stale-limit indicators, and optional hook-based replies from the notch.
+- [earlyn](https://www.earlyn.app/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: AI Development · macOS & AppKit · Security & Privacy
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Builds searchable screen and meeting history with local OCR, transcription, and encrypted storage, then exposes it through MCP and CLI. Distinguishes on-device answering from optional cloud-model requests that transmit retrieved memories.
+- [CoolDock](https://cooldock.app/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: Developer Tools · macOS & AppKit
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Adds a second macOS Dock containing live widgets, app shortcuts, system controls, and developer-service integrations. Explains per-widget permissions and customization options for keeping project status and everyday utilities accessible beside the system Dock.
 - [Window Sweaters: A macOS App That Dresses Your Windows in Knitted Borders](https://go.peterfriese.dev/fun-window-sweaters?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: Graphics, Media & Games · macOS & AppKit
   **Published:** `2026-10-02`
   **NeKI brief:** Shares the source for a macOS menu-bar app that draws knitted borders around windows. Useful as an inspectable AppKit desktop experiment with implementation, build, and installation material.

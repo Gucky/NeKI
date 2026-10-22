@@ -3,8 +3,30 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://www.ioscinewsletter.com/](https://www.ioscinewsletter.com/)
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed entries: **91**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed entries: **92**
+
+## [Issue 95](https://ioscinewsletter.com/issues/95)
+
+- Published: `2026-10-18T00:00:00.000Z`
+
+**Topics:** App Distribution & Store Operations · CI/CD & Automation · Developer Tools · macOS & AppKit · Testing · Xcode
+
+**Sections:** Stay up to date with the latest iOS CI/CD news
+
+**NeKI brief:** Release automation must adapt to screenshot-resource deprecation and the App Asset Library. This issue adds hosted Xcode runner updates, project-editing command-line tools, build-time translation checks, and distinct debug icons to the CI workflow.
+
+**Selected links:**
+- [🤖 Work with Xcode projects from the command line](https://artemnovichkov.com/blog/xcode-projects-for-the-command-line-and-coding-agents) — Article · Topics: AI Development · Developer Tools · Xcode
+  **NeKI brief:** Demonstrates Apple's xcodeproj and xcprojformatter command-line tools for JSON-format projects, covering targets, synchronized groups, packages, build settings, and xcconfig files. Distinguishes raw project values from resolved settings and warns about the CocoaPods command-name collision.
+- [🎨 Give your Debug builds a blueprint app icon](https://github.com/MustafaNatur/blueprint) — Source repository · Topics: CI/CD & Automation · Developer Tools · Xcode
+  **NeKI brief:** Documents a command-line tool that converts Icon Composer files or asset-catalog icons into blueprint-style debug variants. Covers environment badges, Xcode build-configuration selection, and Vision-based tracing for flat icons while preserving source assets.
+- [Helm CLI](https://helm-app.com/features/helm-cli) — Article · Topics: App Distribution & Store Operations · CI/CD & Automation
+  **NeKI brief:** Describes helm-asc installation through the Mac app, structured JSON output with --agent, and shared App Store Connect credentials. Covers terminal release workflows and makes the Helm Pro requirement explicit before evaluating automation integration.
+- [🛠️ GitHub’s Xcode 27 runner image is generally available](https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available) — Article · Topics: CI/CD & Automation · Xcode
+  **NeKI brief:** Announces GitHub Actions' Xcode 27 image and the xcode-27 and xcode-27-xlarge runner labels. Explains its major-toolchain image model, macOS 27 environment, and Apple Silicon-only availability for selecting compatible build infrastructure.
+- [🌍 Fail the build when a translation goes stale](https://appforce1.net/blog/fail-the-build-when-a-translation-goes-stale) — Article · Topics: CI/CD & Automation · Localization
+  **NeKI brief:** Implements an Xcode build-phase checker for missing or stale translations, empty values, placeholder mismatches, and literal localization keys. Includes a cached macOS Swift helper and explains limitations around plural variations and catalog diagnostic line numbers.
 
 ## [Issue 94](https://ioscinewsletter.com/issues/94)
 

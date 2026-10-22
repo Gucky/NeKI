@@ -3,8 +3,8 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://peterfriese.dev/newsletter/](https://peterfriese.dev/newsletter/)
-- Last collected: `2026-10-02T23:36:48Z`
-- Indexed entries: **30**
+- Last collected: `2026-10-22T15:00:02Z`
+- Indexed entries: **31**
 
 ## [Issue 105](https://peterfriese.dev/newsletter/issues/105)
 
@@ -31,6 +31,35 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Presents TypeSafe’s Jev as a fast model for typed, bounded decisions rather than generated prose. Useful for understanding the vendor’s architecture and calibration claims before measuring them against a real workflow.
 - [interactive System One explainer](https://go.peterfriese.dev/system-one-explainer?s=web&t=ext) — Article · Topics: AI Development
   **NeKI brief:** Explains bounded probabilistic decisions through interactive examples and a Jev workflow. Useful for separating fast model predictions from subsequent validation and for questioning where deterministic checks still belong.
+
+## [Issue 106](https://peterfriese.dev/newsletter/issues/106)
+
+
+**Topics:** AI Development · Concurrency · Developer Community & Business · Developer Tools · Swift · SwiftUI
+
+**Sections:** Not only Swift · Swift · Iterative data loading in Swift
+
+**NeKI brief:** An outage postmortem illustrates how valid server responses can crash clients when payload assumptions change. Other selections cover progressive AsyncSequence loading, native Liquid Glass adoption, agent code analysis, SDK discovery, and clearer technical writing.
+
+**Selected links:**
+- [SwiftFairy](https://go.peterfriese.dev/ai-swiftfairy?s=web&t=ext) — Article · Topics: AI Development · Code Quality · SwiftUI
+  **NeKI brief:** SwiftFairy runs local MCP checks on Swift and SwiftUI code and returns targeted findings for coding agents. Useful for inspecting the actual tool offering behind the team's introduction article and its static-review scope.
+- [Blueprint icons for your apps](https://go.peterfriese.dev/tools-blueprint-debug-icons?s=web&t=ext) — Article · Topics: Developer Tools · Graphics, Media & Games
+  **NeKI brief:** Documents a command-line tool that converts Icon Composer files or asset-catalog icons into blueprint-style debug variants. Covers environment badges, Xcode build-configuration selection, and Vision-based tracing for flat icons while preserving source assets.
+- [Iterative data loading in Swift](https://go.peterfriese.dev/swift-iterative-data-loading-in-swift?s=web&t=ext) — Article · Topics: Concurrency · Health Apps · Performance
+  **NeKI brief:** Uses a screen with dozens of HealthKit queries to motivate loading in bounded stages. It examines task creation, cooperative executor pressure, and when partial results can improve responsiveness without launching every request at once.
+- [Google Analytics for Firebase iOS SDK outage on September 28, 2026](https://go.peterfriese.dev/firebase-analytics-ios-sdk-outage?s=web&t=ext) — Article · Topics: Code Quality · Developer Tools · Networking
+  **NeKI brief:** Explains how deleting a Firebase Analytics configuration flag triggered iOS crashes, why delayed uploads prolonged crash reporting, and what rollback achieved. Outlines planned payload validation, dependency checks, phased rollouts, and client-side incident visibility improvements.
+- [GitHub issue #16728](https://go.peterfriese.dev/firebase-ios-sdk-issue-16728?s=web&t=ext) — Article · Topics: Code Quality · Developer Tools · Networking
+  **NeKI brief:** Tracks a production Firebase Analytics crash after an sdk-exp response, including timestamps, affected apps, and the resolution discussion. Useful as primary incident evidence when evaluating remote configuration and SDK dependency risk.
+- [How native SwiftUI controls look different in iOS 26](https://go.peterfriese.dev/swiftui-native-controls-ios-26?s=web&t=ext) — Article · Topics: Liquid Glass · SwiftUI
+  **NeKI brief:** Visually compares native SwiftUI buttons, toggles, pickers, sliders, toolbars, tab bars, and sheets before and after the iOS 26 redesign, separating automatic appearance changes from app-controlled behavior.
+- [collapse tab bars to the selected item](https://go.peterfriese.dev/collapse-tab-bars-to-the-selected-item?s=web&t=ext) — Article · Topics: Liquid Glass · SwiftUI
+  **NeKI brief:** Visually compares native SwiftUI buttons, toggles, pickers, sliders, toolbars, tab bars, and sheets before and after the iOS 26 redesign, separating automatic appearance changes from app-controlled behavior.
+- [Anti-Patterns in Software Blogging](https://go.peterfriese.dev/tools-anti-patterns-software-blogging?s=web&t=ext) — Article · Topics: Accessibility · Developer Career & Practice
+  **NeKI brief:** Reviews recurring technical-blogging failures using rewritten examples: delayed payoffs, assumed background knowledge, prerequisite links, sequel dependence, and stiff prose. Adds practical checks for mobile overflow and text contrast so readers can finish an article comfortably.
+- [You Are No Longer Invited to Dinner](https://go.peterfriese.dev/fun-you-are-no-longer-invited-to-dinner?s=web&t=ext) — Article · Topics: Personal Essays
+  **NeKI brief:** Examines declining American home hosting through survey comparisons and competing explanations, including work, parenting, smaller friendship networks, and solo entertainment. Useful as broader context for how convenient screen-based leisure competes with coordinating in-person social time.
 
 ## [Issue 104](https://peterfriese.dev/newsletter/issues/104)
 
@@ -512,6 +541,8 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Live-codes a Firestore tagging model and SwiftUI feature with Gemini CLI and Antigravity, including a flawed generated schema, permission failures, and human-guided debugging. Useful for observing both acceleration and supervision costs in agentic development.
 - [Intercepting SwiftUI Sheet Dismissal](https://livsycode.com/swiftui/intercepting-swiftui-sheet-dismissal) — Article · Topics: AI Development · Swift · SwiftUI
   **NeKI brief:** Artem shows how to intercept and control sheet dismissal in SwiftUI to detect when a presented sheet is being dismissed, letting you run custom logic or block the dismissal when needed.
+- [Bezel app](https://nonstrict.eu/bezel) — Article · Topics: Apple Platform Ecosystem · Developer Tools · Graphics, Media & Games · Spatial Computing
+  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
 - [AI-powered Swift dev: building a tagging system with Gemini & Firebase](https://youtube.com/live/O-XbrEy9DRc) — Video · Topics: AI Development · Swift
   **NeKI brief:** Follows an off-script crash investigation using Git worktrees, Antigravity, and Flow Deck before moving tag logic into a Firebase Cloud Function and diagnosing duplicate records. Useful as a realistic agent-assisted debugging session.
 - [today - January 19th](https://www.youtube.com/live/O-XbrEy9DRc) — Video · Topics: AI Development · Swift
@@ -538,8 +569,6 @@ Third-party source index. It provides source attribution and routing metadata, n
   **NeKI brief:** Shows extending Swift string interpolation so domain types can control formatting directly inside literals. Use it when designing readable, type-directed output while keeping conversion logic centralized instead of scattering formatter calls through UI code.
 - [Why We've Tried to Replace Developers Every Decade Since 1969](https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html) — Article · Topics: Cross-Platform & Web
   **NeKI brief:** This article covers historical attempts to automate away software developers. It gives iOS and Swift developers a concrete starting point to assess the workflow, implementation boundaries, operational trade-offs, and project fit before adopting it.
-- [Bezel app](https://nonstrict.eu/bezel) — Article · Topics: Apple Platform Ecosystem
-  **NeKI brief:** Profiles Bezel, a macOS utility for displaying iOS device frames around screenshots and recordings. It is useful when preparing device-specific visuals for App Store listings, documentation, or review material.
 
 ## [Issue 89](https://peterfriese.dev/newsletter/issues/89)
 

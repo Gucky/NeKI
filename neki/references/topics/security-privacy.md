@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Privacy, credentials, secure configuration, encryption, sandboxing, and application security.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **217**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **227**
 
 ## Direct-source reading
 
@@ -74,6 +74,36 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Failures that don't crash never reach you](https://en.kou-works.jp/blog/copy-details-button) — Those Who Swift · Issue 289 — Article · Topics: Code Quality · Developer Tools · Security & Privacy
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Uses an on-device Copy Details report to recover handled import, analysis, and export failures. Centralized error recording and redaction preserve diagnostic chains while removing file paths, filenames, and absolute uptime.
+- [Why I still shun passkeys](https://lapcatsoftware.com/articles/2026/10/6.html) — Those Who Swift · Issue 289 — Article · Topics: Apple Platform Ecosystem · Security & Privacy
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Explains one developer’s resistance to passkeys through two requirements: signing in on unfamiliar devices and maintaining independent credential backups. Evaluates iCloud Keychain and hardware-key trade-offs from that Apple-specific workflow.
+- [reset Local Network privacy](https://mjtsai.com/blog/2026/10/14/resetting-local-network-privacy?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: Networking · Security & Privacy
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Collects the changed macOS workflow for resetting one app's Local Network permission and contrasts iOS reset options. Also highlights why a short-lived process may exit before the permission prompt can appear.
+- [coming to the Mac](https://mjtsai.com/blog/2026/10/15/attestation-news?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: Security & Privacy
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Connects App Attest's Mac expansion with hardware-attestation requirements in age verification and online services. Presents both endpoint-protection benefits and exclusion concerns for alternative operating systems, devices, and independently built clients.
+- [iOS 27: Trust Insights FrameworkAnalyze transactions for signs of coercive activity while protecting people’s privacyAnton’s SubstackAnton’s Substack](https://antongubarenko.substack.com/p/ios-27-trust-insights-framework) — iOS Code Review · Issue 91 — Article · Topics: Security & Privacy
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Builds a remote-support risk check with Trust Insights authorization, operation categories, request IDs, and consumption reporting. Explains separate evaluation and insight failures, signed payloads for backend decisions, and why unknown does not establish safety.
+- [Bypassing the App Group Trap](https://mzeeshan.me/blog/ios-app-extension-write-files-to-documents-directory) — Those Who Swift · Issue 288 — Article · Topics: App Services & Extensions · Persistence & Synchronisation · Security & Privacy
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Proposes sharing a bookmark to the containing app’s Documents directory through an App Group so an action extension can copy files directly. Includes first-launch fallback; treat the sandbox and App Store claims as author-reported.
+- [Etchv](https://etchv.com/) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: Graphics, Media & Games · Security & Privacy
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Provides HTTP watermarking and detection for images, PDFs, and supported video, with asynchronous jobs and signed webhooks. Explains per-delivery identifiers and the limit that identifying a distributed copy does not identify its sharer.
+- [Meta Muse Mac first run experience](https://lapcatsoftware.com/articles/2026/10/2.html) — iOS Dev Weekly · Issue 771 — Article · Topics: AI Development · macOS & AppKit · Security & Privacy
+  **Published:** `9th October 2026`
+  **NeKI brief:** Documents Meta Muse’s first-run permission flow in a fresh macOS virtual machine. Separates system Full Disk Access from the app’s own Messages toggles and uses that observation to assess disputed privacy reporting.
+- [earlyn](https://www.earlyn.app/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: AI Development · macOS & AppKit · Security & Privacy
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Builds searchable screen and meeting history with local OCR, transcription, and encrypted storage, then exposes it through MCP and CLI. Distinguishes on-device answering from optional cloud-model requests that transmit retrieved memories.
+- [Michael Tsai - Blog - Unspecified Full Disk Access Screw TighteningUnspecified Full Disk Access Screw TighteningMichael J. Tsai](https://mjtsai.com/blog/2026/10/05/unspecified-full-disk-access-screw-tightening?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: AI Development · Security & Privacy
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Examines proposed Full Disk Access restrictions through missing granular permissions, unclear consent, and agent workflows. Collects developer objections and legitimate utility use cases while keeping Apple's unspecified future controls separate from current permission behavior.
 - [Little Memory 2.0: Moving 15 years of memories off my servers](https://ivanthinking.net/2026/09/22/little-memory-2.0-moving-15-years-of-memories-off-my-servers) — Those Who Swift · Issue 286 — Article · Topics: Architecture · Objective-C & Cocoa · Security & Privacy
   **Published:** `2026-09-30T20:30:56.651Z`
   **NeKI brief:** Describes rebuilding a long-running journal app around local storage and iCloud sync, moving private entries off the author's servers. Useful for examining an indie app's data-ownership and migration choices.

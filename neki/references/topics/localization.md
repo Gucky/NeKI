@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** String Catalogs, pluralization, translation resources, and localizable app content.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **30**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **34**
 
 ## Direct-source reading
 
@@ -19,6 +19,18 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [🌍 Fail the build when a translation goes stale](https://appforce1.net/blog/fail-the-build-when-a-translation-goes-stale) — iOS CI Newsletter · Issue 95 — Article · Topics: CI/CD & Automation · Localization
+  **Published:** `2026-10-18T00:00:00.000Z`
+  **NeKI brief:** Implements an Xcode build-phase checker for missing or stale translations, empty values, placeholder mismatches, and literal localization keys. Includes a cached macOS Swift helper and explains limitations around plural variations and catalog diagnostic line numbers.
+- [Xcode 27: Run the Translation Skills From Your Own Agent (Xcode 27)](https://macguru.dev/using-xcode-27s-localization-skills-over-mcp?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: AI Development · Localization · Xcode
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Shows how xcrun agent plugin path exposes Xcode’s translation skills and MCP setup to external coding agents. Explains why loading the actual localization guidance matters for catalog variations, terminology, and language-specific style rules.
+- [Using Xcode 27's localization skills over MCP](https://macguru.dev/using-xcode-27s-localization-skills-over-mcp) — Those Who Swift · Issue 288 — Article · Topics: AI Development · Localization · Xcode
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Shows how xcrun agent plugin path exposes Xcode’s translation skills and MCP setup to external coding agents. Explains why loading the actual localization guidance matters for catalog variations, terminology, and language-specific style rules.
+- [Why your fastlane snapshot screenshots are all in English(and how to check every language)](https://l.fatbobman.com/w0157-05) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: App Distribution & Store Operations · Localization · Testing
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Diagnoses English-only fastlane screenshots through helper ordering, launch context, missing translations, simulator language, and persisted app settings. Describes OCR checks against the built app’s strings, including unsupported-script and unverified-image limitations.
 - [In-House Over-the-Air Localizations in a Modular iOS App](https://albertodebortoli.com/2026/09/08/inover-the-air-localizations-in-a-modular-ios-app) — Those Who Swift · Issue 284 — Article · Topics: App Distribution & Store Operations · Architecture · Localization
   **Published:** `2026-09-17T06:08:23.173Z`
   **NeKI brief:** Describes an over-the-air localization system that downloads resource-bundle-shaped content so Foundation still handles locale fallback, regional variants, and plurals. It covers modular ownership, validation, rollout, and failure recovery.

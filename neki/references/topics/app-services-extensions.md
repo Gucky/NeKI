@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** System-integrated app capabilities including extensions, notifications, widgets, App Clips, background execution, and shared activities.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **78**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **80**
 
 ## Direct-source reading
 
@@ -56,6 +56,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [HomeView: Your CarPlay Widgets Are Going to the Kitchen (iOS 27, HomeView on sale November 13)](https://blakecrosley.com/blog/apple-homeview-developers-day-one?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: App Services & Extensions · Apple Platform Ecosystem
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Reconstructs HomeView's developer surfaces from timestamped Apple documents, separating confirmed CarPlay and small-widget support from App Intents and AirPlay inferences. Tracks later documentation updates and identifies gaps in simulator, entitlement, and widget-location guidance.
+- [Bypassing the App Group Trap](https://mzeeshan.me/blog/ios-app-extension-write-files-to-documents-directory) — Those Who Swift · Issue 288 — Article · Topics: App Services & Extensions · Persistence & Synchronisation · Security & Privacy
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Proposes sharing a bookmark to the containing app’s Documents directory through an App Group so an action extension can copy files directly. Includes first-launch fallback; treat the sandbox and App Store claims as author-reported.
 - [Running iOS Background Tasks Reliably, Part 2](https://l.fatbobman.com/w0155-03) — Fatbobman’s Swift Weekly · Issue 155 — Article · Topics: App Services & Extensions · Personal Essays
   **Published:** `2026-09-28T12:02:23.259Z`
   **NeKI brief:** Describes a wake-ping worker added after BGTaskScheduler activity declined when an app went unopened. The case study shows the reliability and privacy trade-offs of prompting background sync from outside the device.

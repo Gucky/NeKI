@@ -3,9 +3,21 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/)
-- Last collected: `2026-10-05T06:41:52Z`
-- Indexed entries: **226**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed entries: **229**
 
+- [Positioning SwiftUI views around the fold on iPhone Duo](https://nilcoalescing.com/blog/PositioningSwiftUIViewsAroundTheFoldOnIPhoneDuo)
+  **Published:** `2026-10-21`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Reworks an adaptive book grid around reserved division regions instead of letting columns cross the fold. Reading inactive regions keeps an even column count while flat, reducing item movement when fold avoidance becomes active.
+- [Fix misaligned paging in SwiftUI scroll views](https://nilcoalescing.com/blog/FixMisalignedPagingInSwiftUIScrollViews)
+  **Published:** `2026-10-21`
+  **Topics:** SwiftUI
+  **NeKI brief:** Diagnoses accumulating page misalignment when a paging ScrollView contains a stack with default spacing. Sets stack spacing to zero and places visual gaps inside each container-relative page so snapping remains aligned with container dimensions.
+- [ArrangementView in SwiftUI: split and overlay layouts for iPhone Duo](https://nilcoalescing.com/blog/ArrangementViewInSwiftUISplitAndOverlayLayoutsForIPhoneDuo)
+  **Published:** `2026-10-15`
+  **Topics:** Hardware & Devices · SwiftUI
+  **NeKI brief:** Walks through ArrangementView split and overlay layouts, axis restrictions, sizing preferences, and fold-aware separation. Documents simulator observations about environment propagation and explicit overlay edges, helping distinguish intended layout behavior from version-specific workarounds.
 - [Presenting SwiftUI sheets on iPhone Duo](https://nilcoalescing.com/blog/PresentingSwiftUISheetsOnIPhoneDuo)
   **Published:** `2026-10-04`
   **Topics:** Hardware & Devices · SwiftUI

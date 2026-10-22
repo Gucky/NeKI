@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Continuous integration, delivery pipelines, build automation, and release operations.
 
-- Last collected: `2026-09-20T08:49:34Z`
-- Indexed links shown: **229**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **238**
 
 ## Direct-source reading
 
@@ -44,6 +44,33 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Swift 6.4 Support and the Move to Swift Build](https://swiftpackageindex.com/blog/swift-6-4-support-and-the-move-to-swift-build) — Those Who Swift · Issue 289 — Article · Topics: CI/CD & Automation · Developer Tools · Swift Package Manager
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Explains how SwiftPM’s switch to Swift Build affects Package Index compatibility checks. Shows how to isolate regressions with the native build system and obtain relocated artifacts through --show-bin-path.
+- [Helm CLI](https://helm-app.com/features/helm-cli) — iOS CI Newsletter · Issue 95 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation
+  **Published:** `2026-10-18T00:00:00.000Z`
+  **NeKI brief:** Describes helm-asc installation through the Mac app, structured JSON output with --agent, and shared App Store Connect credentials. Covers terminal release workflows and makes the Helm Pro requirement explicit before evaluating automation integration.
+- [🛠️ GitHub’s Xcode 27 runner image is generally available](https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available) — iOS CI Newsletter · Issue 95 — Article · Topics: CI/CD & Automation · Xcode
+  **Published:** `2026-10-18T00:00:00.000Z`
+  **NeKI brief:** Announces GitHub Actions' Xcode 27 image and the xcode-27 and xcode-27-xlarge runner labels. Explains its major-toolchain image model, macOS 27 environment, and Apple Silicon-only availability for selecting compatible build infrastructure.
+- [🌍 Fail the build when a translation goes stale](https://appforce1.net/blog/fail-the-build-when-a-translation-goes-stale) — iOS CI Newsletter · Issue 95 — Article · Topics: CI/CD & Automation · Localization
+  **Published:** `2026-10-18T00:00:00.000Z`
+  **NeKI brief:** Implements an Xcode build-phase checker for missing or stale translations, empty values, placeholder mismatches, and literal localization keys. Includes a cached macOS Swift helper and explains limitations around plural variations and catalog diagnostic line numbers.
+- [🎨 Give your Debug builds a blueprint app icon](https://github.com/MustafaNatur/blueprint) — iOS CI Newsletter · Issue 95 — Source repository · Topics: CI/CD & Automation · Developer Tools · Xcode
+  **Published:** `2026-10-18T00:00:00.000Z`
+  **NeKI brief:** Documents a command-line tool that converts Icon Composer files or asset-catalog icons into blueprint-style debug variants. Covers environment badges, Xcode build-configuration selection, and Vision-based tracing for flat icons while preserving source assets.
+- [Anthropic shared why it replaced Git in its monorepo with Scion](https://www.anthropic.com/engineering/redesigning-source-control) — iOS Dev Weekly · Issue 772 — Article · Topics: AI Development · CI/CD & Automation · Developer Tools
+  **Published:** `16th October 2026`
+  **NeKI brief:** Explains Scion’s centralized source-control design for agent-heavy monorepos: server-side history operations, immutable changesets, sparse checkouts, and tiered caches. Useful for assessing scaling trade-offs while retaining the article’s narrow workload assumptions.
+- [fastlane badge plugin](https://github.com/HazAT/fastlane-plugin-badge) — iOS Dev Weekly · Issue 772 — Source repository · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `16th October 2026`
+  **NeKI brief:** Packages the badge utility as a fastlane plugin and documents installation, an example Fastfile, and its test workflow. Follow it to integrate icon badging into an existing fastlane release pipeline.
+- [Swift scripts for Xcode and Xcode Cloud](https://appforce1.net/blog/swift-scripting-in-xcode) — Those Who Swift · Issue 287 — Article · Topics: CI/CD & Automation · Developer Tools · Xcode
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Moves release notes, icon preparation, and translation checks into repository-owned Swift scripts invoked by thin shell wrappers. Covers Xcode Cloud hook paths, host-tool SDK selection, and reusing the same automation locally.
+- [Configuring Bazel Module Extensions with tag_class](https://adincebic.com/2026/10/04/configuring-bazel-module-extensions-with.html) — Those Who Swift · Issue 287 — Article · Topics: CI/CD & Automation · Developer Tools
+  **Published:** `2026-10-07T19:46:46.337Z`
+  **NeKI brief:** Builds a Bazel module extension whose tag_class accepts binary URLs and checksums from MODULE.bazel. Traces those tags through module evaluation into a repository rule that downloads and exports the configured file.
 - [Fastlane alternative - Codemagic CLI tools](https://github.com/codemagic-ci-cd/cli-tools) — SwiftLee Weekly · Issue 337 — Source repository · Topics: CI/CD & Automation · Developer Tools
   **Published:** `2026-08-18T14:06:21.000Z`
   **NeKI brief:** Codemagic CLI tools collect utilities for iOS and Android build automation, code signing, and deployment. Useful for inspecting reusable CI primitives before writing bespoke scripts around archives, provisioning, or store uploads.

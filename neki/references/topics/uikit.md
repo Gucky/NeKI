@@ -4,11 +4,20 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** UIKit view controllers, controls, lifecycle, and interoperability with SwiftUI.
 
-- Last collected: `2026-10-05T06:41:52Z`
-- Indexed links shown: **741**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **749**
 
 ## Direct-source reading
 
+- [How to use layoutMarginsGuide in UIKit | Sarunw](https://sarunw.com/posts/uikit-layoutmarginsguide) — Sarunw · article catalogue
+  **Published:** `2026-10-16`
+  **NeKI brief:** Pins UIKit content to layoutMarginsGuide to follow device-dependent system spacing. Separates safe-area contributions from margins, explains minimum-margin overrides, and shows how preservesSuperviewLayoutMargins aligns nested views with a controller's navigation content.
+- [Size classes on iPhone Duo | Sarunw](https://sarunw.com/posts/size-classes-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-10-10`
+  **NeKI brief:** Records iPhone Duo simulator size classes across poses and orientations, then distinguishes window traits from ArrangementView pane traits. Useful for diagnosing why size-class adaptation cannot detect hinge angle or reliably describe a nested pane's whole display.
+- [Place a sheet on one side with presentationPlacement on iPhone Duo | Sarunw](https://sarunw.com/posts/presentation-placement-on-iphone-duo) — Sarunw · article catalogue
+  **Published:** `2026-10-09`
+  **NeKI brief:** Compares SwiftUI presentationPlacement and UIKit sheet preferredPlacement across open, partially folded, and closed Duo displays. Shows how fold avoidance overrides centering and how choosing the trailing side can move sheet actions into vertical controls.
 - [Toolbar overflow and visibility priority on iPhone Duo | Sarunw](https://sarunw.com/posts/toolbar-overflow-and-visibility-priority-on-iphone-duo) — Sarunw · article catalogue
   **Published:** `2026-10-05`
   **NeKI brief:** Compares default toolbar overflow with task-focused compression on iPhone Duo, then covers a shared overflow menu, visibility priorities, and when to disable vertical bars. Useful for ordering controls under constrained space.
@@ -1675,6 +1684,21 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [How We Got Duo Support in NetNewsWire](https://netnewswire.blog/2026/10/16/how-we-got-duo-support.html?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: Hardware & Devices · UIKit
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Attributes NetNewsWire's iPhone Duo support to rebuilding with Xcode 27.1 while already using standard UIKit containers and size classes. Useful evidence for the maintenance benefits of native adaptive controls, with untested edge cases acknowledged.
+- [Assistive Access — iOS Easy Mode, Revisited](https://www.basbroek.nl/assistive-access-revisited?ref=createwithswift.com) — Create with Swift · Issue 124 — Article · Topics: Accessibility · SwiftUI · UIKit
+  **Published:** `2026-10-17T16:00:00.000Z`
+  **NeKI brief:** Shows how UISupportsAssistiveAccess and a dedicated AssistiveAccess scene enable simplified app flows, including UIKit scene routing and previews. Highlights navigation icons and the limitation that third-party setup settings must remain inside the ordinary app.
+- [Exploring _UILiquidLensView](https://livsycode.com/swiftui/exploring-_uiliquidlensview) — iOS Dev Weekly · Issue 772 — Article · Topics: Liquid Glass · UIKit
+  **Published:** `16th October 2026`
+  **NeKI brief:** Reconstructs the private UIKit lens through Objective-C runtime lookup, lifted-state selectors, and separate content views. A circular-menu experiment clarifies its interaction model while explicitly limiting the technique to research and prototypes.
+- [iPhone Duo: Size Classes Won't Tell You About the Fold (iOS 27.1)](https://sarunw.com/posts/size-classes-on-iphone-duo?ref=ioscodereview.com) — iOS Code Review · Issue 91 — Article · Topics: Hardware & Devices · SwiftUI · UIKit
+  **Published:** `2026-10-15T16:51:00.000Z`
+  **NeKI brief:** Records iPhone Duo simulator size classes across poses and orientations, then distinguishes window traits from ArrangementView pane traits. Useful for diagnosing why size-class adaptation cannot detect hinge angle or reliably describe a nested pane's whole display.
+- [Configuring UIKit Navigation Bars from SwiftUI](https://livsycode.com/swiftui/configuring-uikit-navigation-bars-from-swiftui) — Those Who Swift · Issue 288 — Article · Topics: Navigation & Deep Linking · SwiftUI · UIKit
+  **Published:** `2026-10-14T20:03:48.235Z`
+  **NeKI brief:** Introduces NavBarBridge to synchronize SwiftUI screen state with its hosting controller’s UINavigationItem. Keeps UIKit navigation and native bar behavior while exposing button state, menus, subtitles, and action context from the view.
 - [iPhone Duo for iOS Developers: What Actually Changes in Your Swift Code](https://go.peterfriese.dev/swift-iphone-duo-what-changes-in-swift-code?s=web&t=ext) — Not only Swift · Issue 105 — Article · Topics: Hardware & Devices · SwiftUI · UIKit
   **Published:** `2026-10-02`
   **NeKI brief:** Surveys iPhone Duo changes to scenes, window sizing, asymmetric safe areas, and hinge-aware layouts with Swift examples. Use it as a checklist, then verify API behavior against the current SDK and device.

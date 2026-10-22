@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Store delivery, TestFlight, StoreKit commerce, signing, review, releases, and monetisation workflows.
 
-- Last collected: `2026-10-02T23:36:48Z`
-- Indexed links shown: **631**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **639**
 
 ## Direct-source reading
 
@@ -148,6 +148,30 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [I Shipped an iPhone Duo App Before I Had the Phone. Thanks, App Reviewer.](https://samwize.com/2026/10/20/i-launched-an-app-without-typing-a-line-of-code) — Those Who Swift · Issue 289 — Article · Topics: AI Development · App Distribution & Store Operations
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Recounts shipping an agent-built iPhone Duo app and using Codex to address an App Review naming rejection across five localized listings. The author explicitly notes the absence of physical-device testing.
+- [Helm CLI](https://helm-app.com/features/helm-cli) — iOS CI Newsletter · Issue 95 — Article · Topics: App Distribution & Store Operations · CI/CD & Automation
+  **Published:** `2026-10-18T00:00:00.000Z`
+  **NeKI brief:** Describes helm-asc installation through the Mac app, structured JSON output with --agent, and shared App Store Connect credentials. Covers terminal release workflows and makes the Helm Pro requirement explicit before evaluating automation integration.
+- [App Store Review Exporter](https://slideeasy.app/app-store-review-exporter) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Exports an app’s newest country-specific reviews from Apple’s public feed into filterable tables and CSV. Documents the 200-review limit, cache freshness, omitted reviewer names, and spreadsheet-formula escaping for shared exports.
+- [slideeasy.app/blog/export-app-store-reviews](http://slideeasy.app/blog/export-app-store-reviews) — iOS Dev Tools · iOS Dev Tools: App Store Review Exporter, Shotnix, KelvinColor — Article · Topics: App Distribution & Store Operations · Developer Tools
+  **Published:** `2026-10-14T19:54:45.205Z`
+  **NeKI brief:** Compares App Store Connect, the public reviews feed, and the authenticated API for exporting feedback. Provides Python pagination examples and explains storefront separation, missing pages, recency limits, and the API snippet’s untested status.
+- [https://www.var-meta.com/blog/app-store-product-page-optimization](https://www.var-meta.com/blog/app-store-product-page-optimization) — Those Who Swift · Devs for Devs: What I Learned Building and Shipping My First Two iOS Apps — Article · Topics: App Distribution & Store Operations · Developer Community & Business · Product Design
+  **Published:** `2026-10-12T20:05:42.974Z`
+  **NeKI brief:** Separates App Store discoverability from product-page conversion, then compares randomized treatments, audience-specific pages, and creative assets. Suggests baselines and single-hypothesis tests while identifying metrics needed to judge retention beyond downloads.
+- [Why your fastlane snapshot screenshots are all in English(and how to check every language)](https://l.fatbobman.com/w0157-05) — Fatbobman’s Swift Weekly · Issue 157 — Article · Topics: App Distribution & Store Operations · Localization · Testing
+  **Published:** `2026-10-12T12:01:33.317Z`
+  **NeKI brief:** Diagnoses English-only fastlane screenshots through helper ordering, launch context, missing translations, simulator language, and persisted app settings. Describes OCR checks against the built app’s strings, including unsupported-script and unverified-image limitations.
+- [AppGuidelines](https://appstoreguidelines.com/) — iOS Dev Tools · iOS Dev Tools: AppGuidelines, AI Icon Creator, Bezel — Article · Topics: App Distribution & Store Operations · Apple Platform Ecosystem · Developer Tools
+  **Published:** `2026-10-08T19:10:59.212Z`
+  **NeKI brief:** Tracks Apple developer-document changes with dated versions, full-text diffs, and an Atom feed. Useful for locating exactly which review-guideline, agreement, or design-guidance wording changed before consulting the original Apple document.
+- [the App Store review process needs fixing](https://mjtsai.com/blog/2026/09/30/the-app-store-review-process-needs-fixing?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: App Distribution & Store Operations
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Questions repeated App Review of established bug-fix releases when remote configuration lets malicious apps change after approval. Collects arguments for a trusted-developer process and highlights the gap between announced review policy and reported experience.
 - [App Availability](https://appavailability.com/) — iOS Dev Tools · iOS Dev Tools: DuoShot, App Availability, Asoly — Article · Topics: App Distribution & Store Operations
   **Published:** `2026-10-01T17:02:01.317Z`
   **NeKI brief:** Checks app listings, ratings, reviews, and chart positions across App Store and Google Play countries. Useful for spotting storefront availability gaps; the free anonymous report covers a limited number of countries.

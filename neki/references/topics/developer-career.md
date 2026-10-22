@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Career development, workplace practice, communication, learning, leadership, and sustainable engineering habits.
 
-- Last collected: `2026-10-02T13:43:36Z`
-- Indexed links shown: **256**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **257**
 
 ## Direct-source reading
 
@@ -692,5 +692,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Xcode Snippet Management](https://github.com/lukeredpath/xcodesnippets) — iOS Dev Weekly · Issue 1 — Source repository · Topics: Developer Career & Practice · Developer Tools · Xcode
   **Published:** `5th August 2011`
   **NeKI brief:** Examines A command-line utility for managing Xcode 4 code snippets - lukeredpath/xcodesnippets. Follow it when evaluating the implementation choices, constraints, or workflow described on this page in an Apple-platform project.
+- [Anti-Patterns in Software Blogging](https://go.peterfriese.dev/tools-anti-patterns-software-blogging?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Accessibility · Developer Career & Practice
+  **NeKI brief:** Reviews recurring technical-blogging failures using rewritten examples: delayed payoffs, assumed background knowledge, prerequisite links, sequel dependence, and stiff prose. Adds practical checks for mobile overflow and text contrast so readers can finish an article comfortably.
 - [A SwiftUI agent skill for better code reviews](https://github.com/AvdLee/SwiftUI-Agent-Skill) — Not only Swift · Issue 91 — Source repository · Topics: Code Quality · Swift · SwiftUI
   **NeKI brief:** Describes A SwiftUI agent skill for better code reviews, focusing on practical tool integration and workflow trade-offs. Use it to evaluate reproducibility, trust boundaries, and debugging steps before adopting the approach in an Xcode project.

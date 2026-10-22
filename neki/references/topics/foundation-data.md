@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Foundation APIs, dates, text, Unicode, serialization, and data formats.
 
-- Last collected: `2026-09-09T21:39:11Z`
-- Indexed links shown: **205**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **206**
 
 ## Direct-source reading
 
@@ -83,6 +83,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [enumerated() Gives You an Offset, Not an Index](https://nativefirstapp.com/blog/enumerated-offset-is-not-an-index-swift) — Those Who Swift · Issue 289 — Article · Topics: Code Quality · Foundation & Data Formats · Swift
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Demonstrates an ArraySlice crash caused by using enumerated offsets as collection indices. Replaces subscripting with collection.indices or zip(indices, collection), while retaining offsets for display numbering.
 - [Working With Images Using Foundation Models](https://azamsharp.com/2026/09/06/working-with-images-using-foundation-models.html) — SwiftLee Weekly · Issue 340 — Article · Topics: AI Development · Cross-Platform & Web · Foundation & Data Formats
   **Published:** `2026-09-08T14:05:49.000Z`
   **NeKI brief:** Demonstrates passing image input into Apple's Foundation Models workflows and combining visual context with generated output. Confirm supported formats, resource costs, and model availability for the target OS.

@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** Personal and reflective writing from developer authors that does not make a technical claim.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **236**
+- Last collected: `2026-10-22T14:58:25Z`
+- Indexed links shown: **238**
 
 ## Direct-source reading
 
@@ -89,6 +89,9 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [ImplementedSE-0545SwiftPM Build Performance Debugging Options](https://github.com/apple/swift-evolution/blob/main/proposals/0545-build-debugging-options.md) — SwiftLee Weekly · Issue 346 — Source repository · Topics: Developer Community & Business · Developer Tools · Swift
+  **Published:** `2026-10-20T14:04:07.000Z`
+  **NeKI brief:** Proposes SwiftPM flags for Trace Event output and task backtraces across build-running commands. The generated timing, dependency, and optional stack data is intended to diagnose parallelism, invalidation, and clean or incremental build bottlenecks.
 - [The lag was the debugger](https://en.kou-works.jp/blog/debug-build-performance-trap) — SwiftLee Weekly · Issue 343 — Article · Topics: Developer Tools · Performance · Personal Essays
   **Published:** `2026-09-29T14:08:15.000Z`
   **NeKI brief:** Compares a camera app's slow Vision processing under Xcode's Debug configuration with smooth TestFlight behavior. Useful for distinguishing debugger overhead from release performance before optimizing a frame pipeline.
@@ -671,6 +674,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [Parse](http://gigaom.com/2011/08/08/parse) — iOS Dev Weekly · Issue 2 — Article · Topics: Personal Essays
   **Published:** `12th August 2011`
   **NeKI brief:** It may be too early to link to this but if it does what it promises then this could be a neat way of getting a server back end up and running quickly for your iOS apps. The site itself is in private beta at the moment but you can see an interview with the…
+- [You Are No Longer Invited to Dinner](https://go.peterfriese.dev/fun-you-are-no-longer-invited-to-dinner?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Personal Essays
+  **NeKI brief:** Examines declining American home hosting through survey comparisons and competing explanations, including work, parenting, smaller friendship networks, and solo entertainment. Useful as broader context for how convenient screen-based leisure competes with coordinating in-person social time.
 - [iOSDevUK](https://go.peterfriese.dev/iosdevuk-2026-issue-103?s=web&t=ext) — Not only Swift · Issue 103 — Tutorial · Topics: AI Development · Developer Community & Business · Swift
   **NeKI brief:** Routes to the iOSDevUK conference and workshop programme. Treat it as community-event discovery rather than technical implementation guidance.
 - [How we rebuilt Next.js with AI in one week](https://blog.cloudflare.com/vinext) — Not only Swift · Issue 96 — Article · Topics: AI Development · Personal Essays

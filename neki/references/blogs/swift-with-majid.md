@@ -3,9 +3,13 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://swiftwithmajid.com/archive/](https://swiftwithmajid.com/archive/)
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed entries: **303**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed entries: **304**
 
+- [Adapting your app for iPhone Duo | Swift with Majid](https://swiftwithmajid.com/2026/10/14/adapting-your-app-for-iPhone-duo)
+  **Published:** `2026-10-14T00:00:00+00:00`
+  **Topics:** Hardware & Devices · Navigation & Deep Linking · SwiftUI
+  **NeKI brief:** Uses size classes, sidebar-adaptable tabs, NavigationSplitView, and AnyLayout to reuse an app across folded and unfolded displays. Offers an initial adaptation path centered on available space while preserving view identity during layout changes.
 - [Iterative data loading in Swift | Swift with Majid](https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift)
   **Published:** `2026-09-29T00:00:00+00:00`
   **Topics:** Concurrency · Health Apps · Performance

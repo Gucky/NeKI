@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** URLSession, HTTP, GraphQL, WebSockets, API clients, and network reliability.
 
-- Last collected: `2026-09-20T08:45:09Z`
-- Indexed links shown: **282**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **290**
 
 ## Direct-source reading
 
@@ -523,6 +523,24 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [Swift Actor Reentrancy: Stop Duplicate Network Requests](https://warmodroid.com/posts/swift-actor-reentrancy-network-requests) — Those Who Swift · Issue 289 — Article · Topics: Concurrency · Networking
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Builds an actor cache that stores in-flight tasks before suspension, coalesces duplicate requests, and rejects obsolete completions by identity. Explicit cancellation and invalidation policies expose the limits of shared work ownership.
+- [Simplifying Sorting, Filtering, and Pagination in SwiftUI Using HotelQuery](https://azamsharp.com/2026/10/17/simplifying-sorting-filtering-and-pagination-in-swiftui-using-hotelquery.html) — Those Who Swift · Issue 289 — Article · Topics: Architecture · Networking · SwiftUI
+  **Published:** `2026-10-21T21:27:18.079Z`
+  **NeKI brief:** Groups sort order, filters, and page size into an Equatable HotelQuery while keeping page progression inside the store. Query changes reset pagination; the article also identifies overlapping-request and end-of-results limitations.
+- [reset Local Network privacy](https://mjtsai.com/blog/2026/10/14/resetting-local-network-privacy?ref=ioscodereview.com) — iOS Code Review · Issue 92 — Article · Topics: Networking · Security & Privacy
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Collects the changed macOS workflow for resetting one app's Local Network permission and contrasts iOS reset options. Also highlights why a short-lived process may exit before the permission prompt can appear.
+- [Sill: Control Mac Windows from Your iPhone or iPad](https://l.fatbobman.com/w0158-09) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: macOS & AppKit · Networking
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Streams a Mac window or desktop to iPhone and iPad using ScreenCaptureKit, HEVC, and direct encrypted connections. Documents pairing, remote input, optional virtual displays, and limits including no audio and a Mac that must remain awake.
+- [server-side Swift SDK for Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-server-side-cloud-swift-sdk?ref=ioscodereview.com) — iOS Code Review · Issue 90 — Article · Topics: Networking · Swift
+  **Published:** `2026-10-06T19:11:26.000Z`
+  **NeKI brief:** Introduces Google's server-side Swift client libraries through SwiftPM setup, Application Default Credentials, async requests, and paginated sequences. Explains the shared authentication and retry packages, and why administrative Cloud credentials belong on servers rather than inside iOS apps.
+- [Swift SDK](https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-server-side-cloud-swift-sdk) — Fatbobman’s Swift Weekly · Issue 156 — Article · Topics: Networking · Swift
+  **Published:** `2026-10-05T12:03:46.706Z`
+  **NeKI brief:** Introduces Google's server-side Swift client libraries through SwiftPM setup, Application Default Credentials, async requests, and paginated sequences. Explains the shared authentication and retry packages, and why administrative Cloud credentials belong on servers rather than inside iOS apps.
 - [SwiftUI: Debounced Search Without Stale Results (iOS 15+)](https://tanaschita.com/swiftui-responsive-race-free-debounce-search?ref=ioscodereview.com) — iOS Code Review · Issue 87 — Article · Topics: Objective-C & Cocoa · Swift · SwiftUI
   **Published:** `2026-09-15T17:33:22.000Z`
   **NeKI brief:** Builds debounced SwiftUI search with task cancellation and query identity checks, preventing slow obsolete requests from overwriting newer results without introducing Combine.
@@ -841,3 +859,7 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 - [AFNetworking](https://github.com/gowalla/AFNetworking) — iOS Dev Weekly · Issue 4 — Source repository · Topics: Developer Tools · Networking
   **Published:** `26th August 2011`
   **NeKI brief:** Provides the AFNetworking source repository, showing the implementation surface and project structure behind the featured idea. Use it to inspect concrete APIs, integration boundaries, and maintenance trade-offs before adapting the historical code to a current Apple-platform project.
+- [Google Analytics for Firebase iOS SDK outage on September 28, 2026](https://go.peterfriese.dev/firebase-analytics-ios-sdk-outage?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Code Quality · Developer Tools · Networking
+  **NeKI brief:** Explains how deleting a Firebase Analytics configuration flag triggered iOS crashes, why delayed uploads prolonged crash reporting, and what rollback achieved. Outlines planned payload validation, dependency checks, phased rollouts, and client-side incident visibility improvements.
+- [GitHub issue #16728](https://go.peterfriese.dev/firebase-ios-sdk-issue-16728?s=web&t=ext) — Not only Swift · Issue 106 — Article · Topics: Code Quality · Developer Tools · Networking
+  **NeKI brief:** Tracks a production Firebase Analytics crash after an sdk-exp response, including timestamps, affected apps, and the resolution discussion. Useful as primary incident evidence when evaluating remote configuration and SDK dependency risk.

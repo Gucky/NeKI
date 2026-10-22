@@ -3,8 +3,18 @@
 Third-party source index. It provides source attribution and routing metadata, not republished article content. Verify article conclusions independently before applying them.
 
 - Archive: [https://blog.jacobstechtavern.com/archive](https://blog.jacobstechtavern.com/archive)
-- Last collected: `2026-08-04T16:05:07Z`
-- Indexed entries: **89**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed entries: **90**
+
+## [Maths, Metal, Mandelbrot, and SwiftUI](https://blog.jacobstechtavern.com/p/maths-metal-mandelbrot)
+
+- Published: `2026-10-07T15:00:28.880Z`
+
+**Topics:** Graphics, Media & Games · SwiftUI
+
+**Sections:** 10 Simple Steps · The end of the line · I almost got through a whole article without mentioning UIKit
+
+**NeKI brief:** Builds a Mandelbrot explorer with stitchable Metal shaders, escape-time coloring, and SwiftUI pan and zoom gestures. Explains the float32 precision ceiling and later refinements involving perturbation, gesture separation, caching, and smoother iteration coloring.
 
 ## [Introducing... The Tech Tavern Roadmap 🗺️](https://blog.jacobstechtavern.com/p/introducing-the-tech-tavern-roadmap)
 

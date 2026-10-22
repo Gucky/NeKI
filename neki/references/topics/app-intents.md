@@ -4,8 +4,8 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 **Scope:** App Intents, App Shortcuts, Siri, Spotlight, widgets, controls, and related system surfaces.
 
-- Last collected: `2026-10-02T13:36:35Z`
-- Indexed links shown: **144**
+- Last collected: `2026-10-22T14:54:11Z`
+- Indexed links shown: **146**
 
 ## Direct-source reading
 
@@ -212,6 +212,12 @@ Third-party reading leads collected from NeKI sources. The links may be useful p
 
 ## Newsletter and related leads
 
+- [iOS 27: App Intents TestingModern testing of IntentsAnton’s SubstackAnton Gubarenko](https://antongubarenko.substack.com/p/ios-27-app-intents-testing) — iOS Code Review · Issue 92 — Article · Topics: App Intents & System Surfaces · Testing
+  **Published:** `2026-10-20T17:12:00.000Z`
+  **NeKI brief:** Tests App Intents through a live app's registered definitions in a UI Testing target, rather than directly calling perform(). Covers stable entity references, query results, chained intents, and debug-only setup intents without automating Shortcuts screens.
+- [iOS 27: App Intents Testing](https://l.fatbobman.com/w0158-01) — Fatbobman’s Swift Weekly · Issue 158 — Article · Topics: App Intents & System Surfaces · Testing
+  **Published:** `2026-10-19T12:04:49.151Z`
+  **NeKI brief:** Tests App Intents through a live app's registered definitions in a UI Testing target, rather than directly calling perform(). Covers stable entity references, query results, chained intents, and debug-only setup intents without automating Shortcuts screens.
 - [Build Siri experiences across apps, Part 1: Onscreen Awareness](https://sarunw.com/posts/build-siri-experiences-across-apps-part-1-onscreen-awareness?ref=ioscodereview.com) — iOS Code Review · Issue 89 — Article · Topics: AI Development · App Intents & System Surfaces
   **Published:** `2026-09-30T17:47:06.000Z`
   **NeKI brief:** Shows how to associate visible SwiftUI content with App Entities through NSUserActivity or view annotations, allowing Siri to resolve phrases such as 'this' against what the user currently sees.
